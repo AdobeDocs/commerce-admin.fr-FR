@@ -56,8 +56,9 @@ Lorsque la fonction Société est activée, des champs supplémentaires sont dis
 
 ![Configuration B2B - méthodes de livraison par défaut](./assets/b2b-features-shipping-methods.png)<!-- zoom -->
 
-|[!UICONTROL Applicable Shipping Methods]|Global|Détermine la sélection des méthodes d’expédition disponibles par défaut pour les acheteurs B2B. Options : `All Shipping Methods` / `Specific Shipping Methods`|
-|[!UICONTROL Shipping Methods]|Global|Spécifie chaque méthode de livraison disponible par défaut pour les acheteurs B2B. <br/>**_Remarque:_** Vous pouvez également limiter les méthodes d’expédition pour une [compte de société](../../b2b/account-companies.md).
+|![UICONTROL Applicable Shipping Methods]|Global| Détermine la sélection des méthodes d’expédition disponibles par défaut pour les acheteurs B2B. Options : `All Shipping Methods` / `Specific Shipping Methods`|
+|----------------------------------------|------| ----------------------------------------------------------------------------------------------------------|
+|![UICONTROL Shipping Methods]|Global|Spécifie chaque méthode de livraison disponible par défaut pour les acheteurs B2B. <br/>**_Remarque:_** Vous pouvez également limiter les méthodes d’expédition pour un [compte de société](../../b2b/account-companies.md).|
 
 {:style=&quot;table-layout:auto&quot;}
 
