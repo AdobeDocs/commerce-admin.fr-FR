@@ -3,9 +3,9 @@ title: Partager une [!DNL Commerce] account
 description: Découvrez comment accorder un accès limité à votre [!DNL Commerce] compte autre [!DNL Commerce] titulaires de compte.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 4c16436d9fd756ed33ca4b90924be58714f971d4
+source-git-commit: 11b2f3f9558bf5a36199015247fb96d559bb5fdc
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,9 @@ La variable [!DNL Commerce] L’équipe d’assistance n’a pas accès au compt
 
 ## Configuration d’un compte partagé
 
-1. Avant de commencer, obtenez les informations suivantes à partir de la [!DNL Commerce] du compte **nouvel utilisateur**:
+1. Avant de commencer, obtenez les informations suivantes à partir de la [!DNL Commerce] du compte **nouveau titulaire d’accès partagé**:
 
+   - L’utilisateur doit avoir déjà été enregistré pour un compte à l’adresse account.adobe.com et être connecté via account.magento.com.
    - La variable `Account ID` qui s’affiche dans le coin supérieur gauche du _[!UICONTROL Magento]_, juste au-dessus de l’onglet **Déconnexion**lien.
    - La variable `Email` adresse associée au compte.
 
