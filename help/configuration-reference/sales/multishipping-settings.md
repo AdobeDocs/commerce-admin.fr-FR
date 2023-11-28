@@ -1,0 +1,34 @@
+---
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings]'
+description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings] de l’administrateur Commerce.
+exl-id: 4cacac8c-33af-4275-b1dd-9802d38ec3c8
+feature: Configuration, Shipping/Delivery
+source-git-commit: fcecad03e0b2176dbf5825546efb3d689f3187d5
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 0%
+
+---
+
+# [!UICONTROL Sales] > [!UICONTROL Multishipping Settings]
+
+{{config}}
+
+Pour plus d’informations sur la configuration de ces paramètres de multilivraison pour votre magasin, voir [Plusieurs adresses](../../stores-purchase/shipping-settings.md#multiple-addresses).
+
+## [!UICONTROL Options]
+
+![Options](./assets/multishipping-settings-options.png)<!-- zoom -->
+
+<!-- [Options](https://docs.magento.com/user-guide/shipping/shipping-multiaddress.html) -->
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--- |--- |--- |
+| [!UICONTROL Allow Shipping to Multiple Addresses] | Site Web | Détermine si vous autorisez l’envoi de commandes uniques à plusieurs adresses (clients enregistrés uniquement). Options : `Yes` / `No` |
+| [!UICONTROL Maximum Qty Allowed for Shipping to Multiple Addresses] | Site Web | Définit une limite pour le nombre d’unités d’un produit pouvant être expédiées à plusieurs adresses. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+>[!NOTE]
+>
+>![B2B pour Adobe Commerce](../../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce uniquement) Pour les commandes avec plusieurs adresses de livraison, la variable [Paiement sur compte](../../b2b/enable-basic-features.md#configure-payment-on-account) le mode de paiement, même s’il est activé, n’est pas disponible pendant le passage en caisse.

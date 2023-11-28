@@ -1,0 +1,220 @@
+---
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
+description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Sales] &gt; [!UICONTROL Sales] de l’administrateur Commerce.
+exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
+feature: Configuration, Orders
+source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+workflow-type: tm+mt
+source-wordcount: '1108'
+ht-degree: 1%
+
+---
+
+# [!UICONTROL Sales] > [!UICONTROL Sales]
+
+{{config}}
+
+{{beta-updates}}
+
+## [!UICONTROL General]
+
+![Général](./assets/sales-general.png)<!-- zoom -->
+
+<!-- [General](https://docs.magento.com/user-guide/marketing/sales-documents-ref-id.html) -->
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--- |--- |--- |
+| [!UICONTROL Hide Customer IP] | Affichage en magasin | Détermine si l’adresse IP du client apparaît sur les commandes, factures, envois et notes de crédit. Options : `Yes` / `No` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Checkout Totals Sort Order]
+
+![Ordre de tri des totaux de paiement](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
+
+<!-- [Checkout Totals Sort Order](https://docs.magento.com/user-guide/sales/checkout-totals-sort-order.html) -->
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--- |--- |--- |
+| [!UICONTROL Subtotal] | Site Web | Nombre qui détermine le moment où le sous-total est calculé par rapport aux autres totaux de passage en caisse. Valeur par défaut : `10` |
+| [!UICONTROL Discount] | Site Web | Nombre qui détermine le moment où la remise est calculée par rapport aux autres totaux de passage en caisse. Valeur par défaut : `20` |
+| [!UICONTROL Shipping] | Site Web | Nombre qui détermine le moment où l’expédition est calculée par rapport aux autres totaux de passage en caisse. Valeur par défaut : `30` |
+| [!UICONTROL Tax] | Site Web | Nombre qui détermine le moment où la taxe est calculée par rapport aux autres totaux de passage en caisse. Valeur par défaut : `40` |
+| [!UICONTROL Fixed Product Tax] | Site Web | Nombre qui détermine le moment où la taxe sur les produits fixe est calculée par rapport aux autres totaux de passage en caisse. Valeur par défaut : `50` |
+| [!UICONTROL Grand Total] | Site Web | Nombre qui détermine le moment où le total général est calculé par rapport aux autres totaux de passage en caisse. Valeur par défaut : `100` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Reorder]
+
+![Réorganiser](./assets/sales-reorder.png)<!-- zoom -->
+
+<!-- [Reorder](https://docs.magento.com/user-guide/sales/reorders-allow.html) -->
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--- |--- |--- |
+| [!UICONTROL Allow Reorder] | Affichage en magasin | Détermine si les clients peuvent effectuer une nouvelle commande à partir de leurs comptes. Options : `Yes` / `No` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Allow Zero Grand Total]
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--- |--- |--- |
+| [!UICONTROL Allow Zero Grand Total for Credit Memo] | Affichage en magasin | Détermine la possibilité de créer une note de crédit avec un total général zéro. Options : `Yes` / `No` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Invoice and Packing Slip Design]
+
+![Conception de la facture et du bordereau de chargement](./assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
+
+<!-- [Invoice and Packing Slip Design](https://docs.magento.com/user-guide/marketing/sales-document-pdf-logo.html) -->
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--- |--- |--- |
+| [!UICONTROL Logo for PDF Print-outs] | Affichage en magasin | Identifie le fichier de logo qui apparaît dans l’en-tête des factures et des bordereaux d’emballage des PDF. Types de fichiers autorisés : <br/>JPG/JPEG <br/>TIF/TIFF <br/>PNG |
+| [!UICONTROL Logo for HTML Print View] | Affichage en magasin | Identifie le fichier de logo qui apparaît dans l’en-tête de la vue d’impression par HTML des factures et des bordereaux d’emballage. Types de fichiers autorisés : <br/>JPG/JPEG <br/>GIF <br/>PNG |
+| [!UICONTROL Address] | Affichage en magasin | L’adresse du magasin telle que vous souhaitez la voir apparaître sur les factures et les bordereaux d’emballage. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Minimum Order Amount]
+
+![Montant minimal de la commande](./assets/sales-minimum-order-amount.png)<!-- zoom -->
+
+<!-- [Minimum Order Amount](https://docs.magento.com/user-guide/sales/cart-minimum-order-amount.html) -->
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--- |--- |--- |
+| [!UICONTROL Enable] | Site Web | Détermine si un montant de commande minimal est défini pour le site. Options : `Yes` / `No` |
+| [!UICONTROL Minimum Amount] | Site Web | Indique le sous-total minimal, la commande après application des remises. |
+| [!UICONTROL Include Discount Amount] | Site Web | Détermine si le montant minimum de la commande inclut les remises appliquées. Options : `Yes` / `No` |
+| [!UICONTROL Include Tax to Amount] | Site Web | Détermine si le montant minimum de la commande inclut la taxe. Options : `Yes` / `No` |
+| [!UICONTROL Description Message] | Affichage en magasin | Détermine le message qui s’affiche en haut du panier lorsque le total du panier est inférieur au montant minimum de la commande. Si rien n’est indiqué, le message par défaut suivant s’affiche : `Minimum order amount is $[minimum_amount]` |
+| [!UICONTROL Error to Show in Shopping Cart] | Affichage en magasin | Détermine le message qui apparaît à partir du mini panier ou du lien de passage en caisse lorsque le montant de la commande est inférieur au montant minimum requis. Si rien n’est indiqué, un message par défaut s’affiche. |
+| [!UICONTROL Validate Each Address Separately in Multi-address Checkout] | Site Web | Pour les commandes à plusieurs articles, détermine si les articles de commande qui séparent les adresses correspondent bien au montant minimum de la commande. Options : `Yes` / `No` |
+| [!UICONTROL Multi-address Description Message] | Affichage en magasin | Pour les commandes à plusieurs adresses, détermine le message qui s’affiche dans le panier si les articles envoyés à une adresse sont inférieurs au montant minimum de la commande. |
+| [!UICONTROL Multi-address Error to Show in Shopping Cart] | Affichage en magasin | Pour les commandes à plusieurs adresses, détermine le message qui s’affiche à partir du mini panier ou du lien de passage en caisse lorsque le montant de la commande est inférieur au montant minimum requis. Si rien n’est indiqué, un message par défaut s’affiche. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Dashboard]
+
+![Tableau de bord](./assets/sales-dashboard.png)<!-- zoom -->
+
+<!-- [Dashboard](https://docs.magento.com/user-guide/stores/admin-dashboard.html) -->
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--- |--- |--- |
+| [!UICONTROL Use Aggregated Data] | Global | Détermine si des données de ventes agrégées en temps réel sont utilisées pour générer des rapports instantanés de tableau de bord. Si vous traitez une grande quantité de données, vous pouvez améliorer les performances en désactivant l’affichage des données en temps réel. Options : `Yes` / `No` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Orders Cron Settings]
+
+![Paramètres Cron des commandes](./assets/sales-orders-cron-settings.png)<!-- zoom -->
+
+<!-- [Orders Cron Settings](https://docs.magento.com/user-guide/system/cron.html) -->
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--- |--- |--- |
+| [!UICONTROL Pending Payment Order Lifetime] | Site Web | Détermine la durée de vie des commandes en attente en minutes. Paramètre par défaut : `480` minutes (8 heures) |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Gift Options]
+
+![Options de cadeau](./assets/sales-gift-options.png)<!-- zoom -->
+
+<!-- [Gift Options](https://docs.magento.com/user-guide/sales/gift-options.html) -->
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--- |--- |--- |
+| [!UICONTROL Allow Gift Messages on Order Level] | Site Web | Indiquez si un message cadeau peut être ajouté pour l’ensemble de la commande. |
+| [!UICONTROL Allow Gift Messages on Order Items] | Site Web | Indiquez si un message cadeau peut être ajouté pour un article de commande individuel. |
+| [!UICONTROL Allow Gift Wrapping on Order Level] | Site Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Indiquez si l’emballage cadeau peut être ajouté pour l’ensemble de la commande. |
+| [!UICONTROL Allow Gift Wrapping for Order Items] | Site Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Indiquez si un emballage cadeau peut être ajouté pour chaque article de commande. |
+| [!UICONTROL Allow Gift Receipt] | Site Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Indiquez si un reçu peut être ajouté à la commande. |
+| [!UICONTROL Allow Printed Card] | Site Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Indiquez si une carte imprimée peut être ajoutée pour la commande. |
+| [!UICONTROL Default Price for Printed Card] | Site Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Indiquez le prix par défaut de la carte imprimée. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Minimum Advertised Price]
+
+![Prix publicitaire minimal](./assets/sales-minimum-advertised-price.png)<!-- zoom -->
+
+<!-- [Minimum Advertised Price](https://docs.magento.com/user-guide/catalog/product-price-minimum-advertised.html) -->
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--- |--- |--- |
+| [!UICONTROL Enable MAP] | Site Web | Active le prix publicitaire minimum pour votre boutique. Options : `Yes` / `No` |
+| [!UICONTROL Display Actual Price] | Site Web | Détermine où le prix réel d’un produit est visible pour le client. Options : <br/>**`In Cart`**- Affiche le prix réel du produit dans le panier.<br/>**`Before Order Confirmation`** - Affiche le prix réel du produit à la fin du processus de passage en caisse, juste avant que la commande ne soit confirmée. <br/>**`On Gesture`**- Affiche le prix réel du produit dans une fenêtre contextuelle lorsque le client clique sur &quot;Clic pour le prix&quot; ou &quot;Qu’est-ce que c’est ?&quot; lien. |
+| [!UICONTROL Default Popup Text Message] | Affichage en magasin | Message texte qui s’affiche lorsque le client sélectionne le lien &quot;Clic pour le prix&quot; dans une liste de catégories ou une page de consultation de produit. |
+| [!UICONTROL Default "What's This" Text Message] | Affichage en magasin | Le message texte qui s’affiche lorsque le client clique sur &quot;Qu’est-ce que c’est ?&quot; lien de la page d’affichage du produit. |
+| [!UICONTROL Manufacturer's Suggested Retail Price] | Global | Le prix de détail proposé par le fabricant (MSRP). |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Order by SKU Settings]
+
+{{ee-feature}}
+
+![Commande par paramètres de SKU](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
+
+<!-- [Order by SKU Settings](https://docs.magento.com/user-guide/customers/account-dashboard-order-by-sku.html) -->
+
+![Commande par paramètres de SKU pour le groupe de clients](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--- |--- |--- |
+| [!UICONTROL Enable Order by SKU on My Account in Storefront] | Site Web | Détermine si Commande par SKU est disponible dans le tableau de bord du compte client. Options : <br/>**`Yes, for Everyone`**- L’onglet Commande par SKU s’affiche dans le tableau de bord du compte de tous les clients.<br/>**`Yes, for Specified Customer Groups`** - L’onglet Ordre par SKU s’affiche dans le tableau de bord du compte pour les membres de groupes spécifiés ou d’un catalogue partagé. <br/>**`No`**- L’onglet Commande par SKU n’est pas disponible dans le compte client. |
+| [!UICONTROL Customer Groups] | Site Web | Détermine les groupes de clients. Options : `General` / `Retailer` / `Wholesale` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Instant Purchase]
+
+![achat instantané](./assets/sales-instant-purchase.png)<!-- zoom -->
+
+<!-- [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html) -->
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Affichage en magasin | Permet l’achat instantané pour la vue de magasin, si le mode de paiement, tel que Braintree, a la valeur Vault activée. Options : `Yes` / `No` |
+| [!UICONTROL Button Text] | Affichage en magasin | Indique le texte qui s’affiche sur le bouton Achat instantané. Le texte par défaut est : `Instant Purchase`. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Orders, Invoices, Shipments, Credit Memos Archiving]
+
+{{ee-feature}}
+
+![Commandes, factures, envois, archivage des notes de crédit](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
+
+Pour plus d’informations sur la modification de ces paramètres, voir [Configuration de l’archive de commande](../../stores-purchase/order-archive.md#configure-the-order-archive) dans le _Guide d’expérience des magasins et des achats_.
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--- |--- |--- |
+| [!UICONTROL Enable Archiving] | Global | Détermine si l’archivage est activé. Options : `Yes` / `No` |
+| [!UICONTROL Archive Orders Purchased] | Global | Détermine le nombre de jours qui s’écoulent avant qu’une commande terminée ne soit archivée. Valeur par défaut : `30` |
+| [!UICONTROL Order  Statuses to be Archived] | Global | Détermine la variable [status](../../stores-purchase/order-status.md) de commandes à archiver. Par défaut, les commandes dont le statut est Terminé ou Fermé sont archivées. Options : `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL RMA Settings]
+
+{{ee-feature}}
+
+![Paramètres RMA](./assets/sales-rma-settings.png)<!-- zoom -->
+
+Pour plus d’informations sur la modification de ces paramètres, voir [Configurer les retours](../../stores-purchase/rma-configure.md) dans le _Guide d’expérience des magasins et des achats_.
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--- |--- |--- |
+| [!UICONTROL Enable RMA on Storefront] | Site Web | Détermine si les clients peuvent créer et afficher des requêtes RMA à partir du storefront. La RAM peut être appliquée aux commandes nouvelles et existantes. Par défaut, la RAM n’est pas activée pour le storefront. Options : `Yes` / `No` |
+| [!UICONTROL Enable RMA on Product Level] | Site Web | Détermine la valeur par défaut du champ Activer la RAM dans les informations sur les produits. |
+| [!UICONTROL Use Store Address] | Site Web | Détermine le nom et l’adresse du contact utilisés pour les envois de marchandises renvoyées. Options : <br/>**`Yes`**- Utilise la variable [Point d’origine](../../stores-purchase/shipping-settings.md#point-of-origin) adresse dans Paramètres d’expédition.<br/>**`No`** - Ouvre le formulaire d’adresse afin que vous puissiez saisir une autre adresse. |
+
+{:style=&quot;table-layout:auto&quot;}

@@ -1,0 +1,87 @@
+---
+title: Présentation des paiements
+description: Découvrez les méthodes de paiement et les services pris en charge en mode natif dans Adobe Commerce et Magento Open Source.
+exl-id: 474bf6df-96e2-4db3-ad3c-1804b5de33b0
+feature: Payments
+source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+workflow-type: tm+mt
+source-wordcount: '647'
+ht-degree: 0%
+
+---
+
+# Présentation des paiements
+
+Adobe Commerce et Magento Open Source prennent en charge divers modes de paiement et services que vous pouvez proposer pour faciliter le passage en caisse et faciliter la commodité du client. Cette liste comprend plusieurs modes de paiement hors ligne, dont le paiement par chèque ou par mandat, et l&#39;encaisse à la livraison (DCO). Il existe également des intégrations natives pour de nombreuses solutions de paiement en ligne et passerelles, dont Braintree en tant qu’extension groupée développée par les fournisseurs.
+
+>[!TIP]
+>
+>Les services de paiement pour Adobe Commerce et Magento Open Source fournissent une solution de libre-service clé en main, notamment des tests d’environnement de test et une configuration simple, pour fournir un traitement de paiement robuste et sécurisé. Pour en savoir plus sur cet ensemble d’outils puissant et sur la manière dont il peut vous donner les informations et le contrôle dont vous avez besoin pour créer la meilleure expérience pour vos acheteurs, consultez la section [Guide de l’utilisateur des services de paiement](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+
+>[!NOTE]
+>
+>Consultez la section [Instructions relatives à la conformité PCI](../getting-started/compliance-pci.md) qui décrivent les exigences définies par le secteur des cartes de paiement (PCI) pour les entreprises qui acceptent le paiement par carte de crédit sur Internet.
+
+## Changements dans la version 2.4
+
+Certaines intégrations de paiement et extensions groupées ont été supprimées dans les versions 2.4.x et déplacées vers Commerce Marketplace. Vous trouverez les dernières extensions officielles d’intégration des paiements dans [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target=&quot;_blank&quot;}.
+
+- **Amazon Pay** et **Klarna**: les versions 2.4.0 à 2.4.3 d’Adobe Commerce et de Magento Open Source comprenaient ces extensions développées par des fournisseurs. À compter de la version 2.4.4, ces extensions ne sont plus incluses dans la version principale et doivent être installées et mises à jour à partir du Commerce Marketplace . Le Marketplace permet également d’accéder à la documentation actuelle fournie par le développeur de l’extension.
+
+  Si l’une de ces extensions groupées est activée et configurée, vous devez mettre à jour votre fichier compositeur.json dans le cadre du processus de mise à niveau 2.4.4 et gérer les mises à jour d’extension à l’avenir. Voir [Mettre à niveau les modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) dans le _Guide de mise à niveau_ pour plus d’informations.
+
+- **Worldpay**, **Eway**, **CyberSource**, et **Authorize.Net**: pour plus d’informations sur la transition sécurisée à partir de ces intégrations de paiement, voir la section [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target=&quot;_blank&quot;}.
+
+## Méthodes de paiement hors ligne
+
+Adobe Commerce et Magento Open Source incluent plusieurs méthodes de paiement hors ligne intégrées, qui ne nécessitent pas les services d’une société de traitement de paiement tierce :
+
+- [Achat de sous-total nul](zero-subtotal-checkout.md)
+- [Paiement en espèces à la livraison](cash-on-delivery.md)
+- [Paiement de transfert bancaire](bank-transfer.md)
+- [Vérifier / Commande monétaire](check-money-order.md)
+- [Bon de commande](purchase-order.md)
+- [Paiement sur compte](../b2b/enable-basic-features.md#configure-payment-on-account) ![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce)
+
+## Méthodes de paiement en ligne
+
+Adobe Commerce et Magento Open Source prennent en charge de nombreuses solutions de paiement qui offrent des services commerciaux dans toutes les régions du monde. Contrairement aux solutions de paiement qui transfèrent le contrôle vers un autre site pour terminer la transaction, une passerelle de paiement vous permet d’accepter les paiements par carte de crédit directement depuis votre boutique sans que le client ne quitte votre site.
+
+### Solutions recommandées
+
+- [Services de paiement](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
+- [Passage en caisse express PayPal](paypal-express-checkout.md)
+- [Braintree](braintree.md)
+
+### Autres solutions de paiement PayPal
+
+Voir [Solutions de paiement PayPal](paypal.md) pour plus d’informations sur les options de mode de paiement PayPal.
+
+#### Solutions tout-en-un PayPal
+
+- [Paiements avancés de PayPal](paypal-payments-advanced.md)
+- [PayPal payment Pro](paypal-payments-pro.md)
+- [PayPal payment Standard](paypal-payments-standard.md)
+
+#### Passerelles de paiement PayPal
+
+- [PayPal Payflow Pro](paypal-payflow-pro.md)
+- [Lien de flux de production PayPal](paypal-payflow-link.md)
+
+## Protection contre les fraudes
+
+Les services et filtres de protection contre les fraudes examinent les commandes envoyées avant le traitement de la transaction afin de détecter les commandes frauduleuses et de vous protéger des frais de rebonds. Adobe Commerce et Magento Open Source prennent en charge les solutions de protection contre la fraude suivantes :
+
+- [Filtre de gestion des fraudes PayPal](paypal.md#paypal-fraud-management-filters)
+
+- [Solutions de protection contre les fraudes sur Marketplace][1]
+
+>[!NOTE]
+>
+>Pour prendre en charge les mises à jour relatives à la conformité en matière de sécurité, la protection de la fraude Signifyd est supprimée de Commerce à compter de la version 2.4.0. Si vous avez utilisé l’intégration Signifyd dans une version 2.3.x ou antérieure, il est recommandé de passer à la version [Extension Signifyd Fraud &amp; Chargback Protection](https://marketplace.magento.com/signifyd-module-connect.html){:target=&quot;_blank&quot;}. Veillez à mettre à jour l’extension conformément aux directives du fournisseur.
+
+## Ressources de dépannage
+
+Pour obtenir de l’aide sur la résolution des problèmes de paiement, reportez-vous à la section [Base de connaissances de l’assistance](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=en).
+
+[1]: https://marketplace.magento.com/catalogsearch/result?q=fraud%20protection

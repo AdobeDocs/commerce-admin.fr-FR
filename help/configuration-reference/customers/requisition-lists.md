@@ -1,0 +1,37 @@
+---
+title: '[!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists]'
+description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists] de l’administrateur Commerce.
+exl-id: 3720d9de-a5cc-4c44-a42a-af7409021f52
+feature: Configuration, B2B
+source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 0%
+
+---
+
+# [!UICONTROL Customers] > [!UICONTROL Requisition Lists]
+
+{{b2b-feature}}
+
+{{config}}
+
+>[!TIP]
+>
+>Avec l’installation et l’activation de B2B pour Adobe Commerce, l’expérience d’achat peut être personnalisée avec des fonctionnalités spécifiques à l’entreprise. B2B pour Adobe Commerce est une solution intégrée qui prend en charge les modèles B2B et B2C. Pour plus d’informations sur les fonctionnalités B2B, voir [_Guide de l’utilisateur B2B pour Adobe Commerce_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+
+>[!NOTE]
+>
+>L’accès à ces options de configuration pour les fonctionnalités B2B est contrôlé par la variable [ressources de rôle](../../systems/permissions-user-roles.md#role-resources). Ces ressources de rôle doivent être définies pour le rôle utilisateur attribué à l’utilisateur administrateur.
+
+## [!UICONTROL General]
+
+![Général](./assets/requisition-lists-general.png)<!-- zoom -->
+
+<!-- General](https://docs.magento.com/user-guide/stores/b2b-configure-requisition-lists.html) -->
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--- |--- |--- |
+| [!UICONTROL Number of Requisition Lists] | Affichage en magasin | Détermine le nombre maximal de listes de demandes d’achat qui peuvent être conservées par compte client. Le nombre minimum est `2`, et le nombre maximal est `999`. |
+
+{:style=&quot;table-layout:auto&quot;}

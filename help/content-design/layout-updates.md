@@ -1,0 +1,92 @@
+---
+title: Mises à jour de la mise en page
+description: Découvrez comment utiliser les mises à jour de mise en page pour personnaliser la mise en page d’une page.
+exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
+source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+workflow-type: tm+mt
+source-wordcount: '1007'
+ht-degree: 0%
+
+---
+
+# Mises à jour de la mise en page
+
+Avant de commencer à utiliser les mises à jour de mise en page personnalisées, il est important de comprendre comment les pages de votre magasin sont construites et la différence entre les termes. *layout* et *mise à jour des mises en page*. La mise en page fait référence à la composition visuelle et structurelle de la page. La mise à jour de la mise en page fait référence à un ensemble spécifique d’instructions XML qui peuvent remplacer ou personnaliser la manière dont la page est créée.
+
+La disposition XML de votre [!DNL Commerce] store est une structure hiérarchique de conteneurs et de blocs. Certains éléments apparaissent sur chaque page, d’autres uniquement sur des pages spécifiques. Pour en savoir plus sur la mise en page, les conteneurs et les blocs, voir [Mise en page - Aperçu](https://developer.adobe.com/commerce/frontend-core/guide/layouts/) dans le _Guide du développeur de Frontend_.
+
+La variable [Widget](widgets.md) est un moyen simple d’ajouter une [bloc de contenu](blocks.md) à la mise en page par défaut d’une page. Pour les mises à jour plus avancées, vous devez enregistrer le code de mise à jour de mise en page XML sur le serveur, puis référencer le fichier comme mise à jour de mise en page personnalisée depuis l’administrateur. Pour une présentation du processus, voir [Utilisation des mises à jour de mise en page](layout-updates.md#place-a-block-using-layout-updates).
+
+Dans le diagramme suivant, les noms qui font référence aux conteneurs sont en noir et les types de blocs, ou chemins de classe de bloc, en bleu.
+
+![Diagramme de disposition en bloc standard](./assets/page-layout-default.png){width="500" zoomable="yes"}
+
+| Type de bloc | Description |
+|--- |--- |
+| `page/html` | Le nom de ce bloc est `root` et c&#39;est l&#39;un des rares blocs racine de la mise en page. Vous pouvez également créer votre propre bloc et le nommer. `root`, qui est le nom standard des blocs de ce type. Il ne peut y avoir qu’un seul bloc de ce type par page. |
+| `page/html_head` | Le nom du bloc est `head` et c&#39;est un enfant du bloc racine. Il ne peut y avoir qu’un seul bloc de ce type par page et il ne doit pas être supprimé. |
+| `page/html_notices` | Le nom du bloc est `global_notices` et c&#39;est un enfant du bloc racine. Si ce bloc est supprimé de la mise en page, les informations globales n&#39;apparaissent pas sur la page. Il ne peut y avoir qu’un seul bloc de ce type par page. |
+| `page/html_header` | Le nom du bloc est `header` et c&#39;est un enfant du bloc racine. Ce bloc correspond à l&#39;en-tête visuel en haut de la page et contient plusieurs blocs standard. Il ne peut y avoir qu’un seul bloc de ce type par page et il ne doit pas être supprimé. |
+| `page/html_wrapper` | Bien qu’il soit inclus dans la mise en page par défaut, ce bloc est obsolète et n’est inclus que pour garantir une compatibilité ascendante. N’utilisez pas de blocs de ce type. |
+| `page/html_breadcrumbs` | Le nom de ce bloc est `breadcrumbs` et c&#39;est un enfant du bloc d&#39;en-tête. Ce bloc affiche le chemin de navigation de la page active. Il ne peut y avoir qu’un seul bloc de ce type par page. |
+| `page/html_footer` | Le nom du bloc est `footer` et c&#39;est un enfant du bloc racine. Le bloc de pied de page correspond au pied de page visuel en bas de la page et contient plusieurs blocs standard. Il ne peut y avoir qu’un seul bloc de ce type par page et il ne doit pas être supprimé. |
+| `page/template_links` | La mise en page standard comporte deux blocs de ce type. La variable `top.links` block est un enfant du bloc d’en-tête et correspond au menu de navigation supérieur. La variable `footer_links` block est un enfant du bloc de pied de page et correspond au menu de navigation du bas. <br/><br/>**_Remarque :_**Il est possible de manipuler les liens du modèle, comme dans les exemples. |
+| `page/switch` | Il existe deux blocs de ce type dans une disposition standard. La variable `store_language` block est un enfant du bloc d’en-tête et correspond au sélecteur de langues supérieur. La variable `store_switcher` block est un enfant du bloc de pied de page et correspond au sélecteur de magasin inférieur. |
+| core/messages | Il existe deux blocs de ce type dans une disposition standard. La variable `global_messages` block affiche les messages globaux. La variable `messages` block est utilisé pour afficher tous les autres messages. Si vous supprimez ces blocs, le client ne voit aucun message. |
+| `core/text_list` | Ce type de bloc est largement répandu dans tout le [!DNL Commerce] comme espace réservé pour le rendu des blocs enfants. |
+| `core/profiler` | Il n&#39;y a qu&#39;une seule instance de ce type de bloc par page. Il est utilisé pour le [!DNL Commerce] profiler et ne doit pas être utilisé à d’autres fins. |
+
+{style="table-layout:auto"}
+
+## Placer un bloc à l’aide des mises en page
+
+[Mises à jour de la mise en page](layout-updates.md) permet de personnaliser la mise en page d’une page. Les mises à jour de mise en page offrent plus de flexibilité qu’une [widget](widgets.md), mais requiert un accès au serveur et une connaissance de base du XML.
+
+Les étapes suivantes montrent comment utiliser une mise à jour de mise en page pour placer un bloc sur une page. Pour obtenir des exemples spécifiques et de l’aide sur la syntaxe, voir [Tâches courantes de personnalisation de la mise en page](https://developer.adobe.com/commerce/frontend-core/guide/layouts/) dans le _Guide du développeur de Frontend_.
+
+### Etape 1 : création du bloc
+
+1. Créez le [block](block-add.md) que vous voulez placer.
+
+1. Prenez note de la `block_id`, car elle est utilisée dans les instructions de mise à jour de mise en page.
+
+### Etape 2 : Composer la mise en page au format XML
+
+1. Composer les instructions de mise en page au format XML en [Référencer un bloc CMS](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage/).
+
+1. Enregistrez le [instructions de mise en page](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions/) sur le serveur dans le dossier layout où les fichiers XML sont enregistrés pour le thème.
+
+   Par exemple :
+
+   `<theme_dir>/<Namespace>_<Module>/layout`
+
+   La poignée de mise en page est le nom de fichier qui commence par `cms_page_view_selectable_`, suivie de la clé URL de la page CMS, de l’option de mise à jour de la mise en page, et de la `xml` suffixe du fichier. Dans l’exemple suivant, `customer-service` est la clé d’URL de la page, et `ChatTool` est l’option que vous choisissez pour appliquer la mise à jour de la mise en page à la page.
+
+   `cms_page_view_selectable_`&lt;`customer-service`>`_`&lt;`ChatTool`>`.xml`
+
+   | Élément | Description |
+   |--- |--- |
+   | Identifiant de page CMS | Clé URL de la page avec toute barre oblique (`/`) remplacé par un trait de soulignement (`_`). |
+   | Nom de mise à jour de la mise en page | L’option qui s’affiche pour _Mise à jour de la mise en page personnalisée_. |
+
+   {style="table-layout:auto"}
+
+### Étape 3 : référencer la mise en page à partir de la page
+
+1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+
+1. Recherchez la page où vous souhaitez placer le bloc et ouvrez-le en mode d&#39;édition.
+
+1. Faire défiler vers le bas et développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Design]** .
+
+1. Pour afficher toutes les mises à jour de mise en page disponibles associées à la page, cliquez sur le bouton **[!UICONTROL Custom Layout Update]** .
+
+   ![Liste de mise à jour de mise en page personnalisée](./assets/page-design-custom-layout-update.png){width="400" zoomable="yes"}
+
+1. Sélectionnez la mise à jour de mise en page à appliquer à la page.
+
+### Étape 4 : enregistrer et actualiser le cache
+
+1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save & Close]**.
+
+1. Dans le message situé en haut de l’espace de travail, cliquez sur **[!UICONTROL Cache Management]** et actualisez tous les éléments de cache non valides.
