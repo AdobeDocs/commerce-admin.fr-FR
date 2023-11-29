@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL B2B Features]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL General] &gt; [!UICONTROL B2B Features] de l’administrateur Commerce.
 exl-id: fc07a067-b92a-49c7-8512-2dfcc1c6ba0c
 feature: Configuration, B2B
-source-git-commit: 4f4ddb6da9bbf3bc07efb3b8518ee71323d43b49
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '368'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 | [[!UICONTROL Enable Quick Order]](../../b2b/quick-order.md) | Site Web | Lorsqu’elle est activée, cette option permet aux clients et aux invités de passer rapidement des commandes en fonction du SKU ou du nom du produit. Options : `Yes` / `No` |
 | [[!UICONTROL Enable Requisition List]](../../b2b/configure-requisition-lists.md) | Site Web | Lorsqu’elle est activée, permet aux clients de créer et de gérer des listes de demandes à partir du tableau de bord de leur compte. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Fonctionnalités B2B avec entreprises et catalogues partagés activées](./assets/b2b-features-company-enabled.png)<!-- zoom -->
 
@@ -42,7 +42,7 @@ Lorsque la fonction Société est activée, des champs supplémentaires sont dis
 | [!UICONTROL Enable Shared Catalog direct products price assigning] | Site Web | Lorsque la variable _[!UICONTROL Enable Shared Catalog]_est défini sur `Yes`, cette option est disponible. Lorsque cette option est activée, seuls les produits affectés à un catalogue partagé sont stockés dans l’indice de prix. Les produits qui ne sont pas affectés au catalogue partagé ne s’affichent pas sur le storefront. Options : `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | Site Web | Lorsqu’elle est activée, permet aux acheteurs de l’entreprise d’envoyer une demande de devis depuis le panier. Options : `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Default B2B Payment Methods]
 
@@ -53,7 +53,7 @@ Lorsque la fonction Société est activée, des champs supplémentaires sont dis
 | [!UICONTROL Applicable Payment Methods] | Global | Détermine la sélection des méthodes de paiement disponibles pour les acheteurs B2B. Options : `All Payment Methods` / `Specific Payment Methods` |
 | [!UICONTROL Payment Methods] | Global | Spécifie chaque mode de paiement disponible pour les acheteurs B2B. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Default B2B Shipping Methods]
 
@@ -64,7 +64,7 @@ Lorsque la fonction Société est activée, des champs supplémentaires sont dis
 | [!UICONTROL Applicable Shipping Methods] | Global | Détermine la sélection des méthodes d’expédition disponibles par défaut pour les acheteurs B2B. Options : `All Shipping Methods` / `Specific Shipping Methods` |
 | [!UICONTROL Shipping Methods] | Global | Spécifie chaque méthode de livraison disponible par défaut pour les acheteurs B2B. <br/>**_Remarque :_**Vous pouvez également limiter les méthodes d’expédition pour une [compte de société](../../b2b/account-companies.md). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Approval Configuration]
 
@@ -74,6 +74,6 @@ Lorsque la fonction Société est activée, des champs supplémentaires sont dis
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Purchase Orders]](../../stores-purchase/purchase-order.md) | Site Web | Lorsqu’elle est activée, permet aux entreprises de créer des commandes d’achat. Options : `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 

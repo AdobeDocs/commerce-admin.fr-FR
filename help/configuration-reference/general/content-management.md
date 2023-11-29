@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Content Management]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL General] &gt; [!UICONTROL Content Management] de l’administrateur Commerce.
 exl-id: 67c5e89b-0a7c-4e4f-a5ad-10376c3ef6f9
 feature: Configuration, Page Content
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: 5eef49c10680a47574afe3d3ecfa430dca7ad9ff
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 | [!UICONTROL WYSIWYG Editor] | Site Web | Détermine la version de l’éditeur TinyMCE utilisé pour l’éditeur WYSIWYG. Options : <br/>**`TinyMCE 5`**- (Par défaut) Utilise la version 5 de TinyMCE comme éditeur WYSIWYG par défaut.<br><br>_** Remarque :**_Une mise à jour de la bibliothèque TinyMCE 5.10 dans Adobe Commerce et Magento Open Source 2.4.5 résout une vulnérabilité qui permettait l’exécution arbitraire de JavaScript lors de la mise à jour d’une image ou d’un lien à l’aide de certains types d’URL. TinyMCE 3 a été abandonné dans la version 2.4.0 et supprimé dans la version 2.4.3. TinyMCE 4 a été supprimé dans la version 2.4.4. |
 | [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | Global | Détermine si [URL statiques](../../content-design/catalog-urls-dynamic-media.md) sont utilisés pour le contenu multimédia référencé à partir de l’éditeur WYSIWYG. Le paramètre s’applique à tous les endroits où l’éditeur WYSIWYG est disponible, y compris les produits, les catégories, les pages et les blocs. Options : <br/>**`Yes`**: utilise des URL statiques pour le contenu multimédia inséré avec l’éditeur WYSIWYG. Les URL statiques sont absolues et cassées si la variable [URL de base](../../stores-purchase/store-urls.md) des modifications du magasin.<br/>**`No`** (Par défaut) : utilise des URL dynamiques pour le contenu multimédia inséré avec l’éditeur WYSIWYG, en fonction de la variable  `{{media url="..."}}` de . Les URL dynamiques sont relatives et ne rompent pas si l’URL de base du magasin change. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CMS Page Hierarchy]
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Hierarchy Metadata] | Global | Permet d’associer des métadonnées à des pages de la hiérarchie. Options : `Yes` / `No` |
 | [!UICONTROL Default Layout for Hierarchy Menu] | Global | Détermine le style de menu par défaut. Options : `Content` / `Left Column` / `Right Column` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Content Tools]
 
@@ -60,10 +60,8 @@ ht-degree: 0%
 | [!UICONTROL Default Column Grid Size] | Global | Détermine le nombre de colonnes par défaut dans la variable [!DNL Page Builder] grid. |
 | [!UICONTROL Maximum Column Grid Size] | Global | Détermine le nombre maximal de colonnes dans la variable [!DNL Page Builder] grid. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!TIP]
 >
 >Le créateur de pages facilite la création de pages riches en contenu avec des dispositions personnalisées qui améliorent la narration visuelle et fidélisent les clients. Ces fonctionnalités sont conçues pour améliorer la qualité et réduire le temps et les frais liés à la création de pages personnalisées. Pour plus d’informations sur ces fonctionnalités et sur leur utilisation pour créer du contenu attrayant pour votre boutique Adobe Commerce ou Magento Open Source, voir [_Guide de l’utilisateur de Page Builder_](../../page-builder/guide-overview.md).
-
-{:style=&quot;table-layout:auto&quot;}

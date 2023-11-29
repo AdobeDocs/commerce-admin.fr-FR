@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales Emails]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Sales] &gt; [!UICONTROL Sales Emails] de l’administrateur Commerce.
 exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 feature: Configuration, Communications
-source-git-commit: 74cc15bd7e0873705b46175ae5f277b1753ec5b5
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2331'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Asynchronous sending] | Global | Détermine si les courriers électroniques de vente sont envoyés de manière asynchrone. Il est recommandé d’activer l’envoi asynchrone. Options : <br/>**`Disable`**- (Par défaut) Les courriers électroniques de vente sont envoyés lorsqu’ils sont déclenchés par un événement.<br/>**`Enable`** - (Recommandé) Les emails de vente sont envoyés à intervalles réguliers et prédéterminés. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!UICONTROL Send Order Email Copy To] | Affichage en magasin | Fournit l’adresse électronique de tous les destinataires pour recevoir une copie d’un courrier électronique de commande. Séparez plusieurs adresses par une virgule. |
 | [!UICONTROL Send Order Email Copy Method] | Affichage en magasin | Indique la méthode de courrier électronique utilisée pour envoyer la copie. Les options incluent : <br/>**`Bcc`**- Envoie une copie de courtoisie aveugle en incluant le destinataire dans l’en-tête du même email qui est envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.<br/>**`Separate Email`** - Envoie la copie en tant que courrier électronique distinct. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Comments]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 | [!UICONTROL Send Order Email Copy To|Store View] | Fournit l’adresse électronique de tous les utilisateurs pour recevoir une copie d’un e-mail de commentaire de commande. Séparez plusieurs adresses par une virgule. |
 | [!UICONTROL Send Order Email Copy Method] | Affichage en magasin | Indique la méthode utilisée pour envoyer la copie. Les options incluent : <br/>**`Bcc`**- Envoie une copie de courtoisie aveugle en incluant le destinataire dans l’en-tête du même email qui est envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.<br/>**`Separate Email`** - Envoie la copie en tant que courrier électronique distinct. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice]
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 | [!UICONTROL Send Invoice Email Copy To] | Affichage en magasin | Fournit l’adresse électronique de tous les destinataires pour recevoir une copie d’un courrier électronique de facture. Séparez plusieurs adresses par une virgule. |
 | [!UICONTROL Send Invoice Email Copy Method] | Affichage en magasin | Indique la méthode utilisée pour envoyer la copie. Les options incluent : <br/>**`Bcc`**- Envoie une copie de courtoisie aveugle en incluant le destinataire dans l’en-tête du même email qui est envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.<br/>**`Separate Email`** - Envoie la copie en tant que courrier électronique distinct. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice Comments]
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 | [!UICONTROL Send Invoice Comment Email Copy To] | Affichage en magasin | Fournit l’adresse électronique de tous les utilisateurs pour recevoir une copie d’un e-mail de commentaire de facture. Séparez plusieurs adresses par une virgule. |
 | [!UICONTROL Send Invoice Comments Email Copy Method] | Affichage en magasin | Indique la méthode de courrier électronique utilisée pour envoyer la copie. Les options incluent : <br/>**`Bcc`**- Envoie une copie de courtoisie aveugle en incluant le destinataire dans l’en-tête du même email qui est envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.<br/>**`Separate Email`** - Envoie la copie en tant que courrier électronique distinct. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment]
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 | [!UICONTROL Send Shipment Email Copy To] | Affichage en magasin | Fournit l’adresse électronique de toute personne qui doit recevoir une copie d’un courrier électronique d’expédition. Séparez plusieurs adresses par une virgule. |
 | [!UICONTROL Send Shipment Email Copy Method] | Affichage en magasin | Indique la méthode utilisée pour envoyer la copie. Les options incluent : <br/>**`Bcc`**- Envoie une copie de courtoisie aveugle en incluant le destinataire dans l’en-tête du même email qui est envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.<br/>**`Separate Email`** - Envoie la copie en tant que courrier électronique distinct. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment Comments]
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Send Shipment Comment Email Copy To] | Affichage en magasin | Fournit l’adresse électronique de tous les destinataires pour recevoir une copie d’un e-mail de commentaire d’expédition. Séparez plusieurs adresses par une virgule. |
 | [!UICONTROL Send Shipment Comments Email Copy Method] | Affichage en magasin | Indique la méthode de courrier électronique utilisée pour envoyer la copie. Les options incluent : <br/>**`Bcc`**- Envoie une copie de courtoisie aveugle en incluant le destinataire dans l’en-tête du même email qui est envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.<br/>**`Separate Email`** - Envoie la copie en tant que courrier électronique distinct. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo]
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 | [!UICONTROL Send Credit Memo Email Copy To] | Affichage en magasin | Fournit l’adresse électronique de toute personne qui doit recevoir une copie d’un courrier électronique de note de crédit. Séparez plusieurs adresses par une virgule. |
 | [!UICONTROL Send Credit Memo Email Copy Method] | Affichage en magasin | Indique la méthode utilisée pour envoyer la copie. Les options incluent : <br/>**`Bcc`**- Envoie une copie de courtoisie aveugle en incluant le destinataire dans l’en-tête du même email qui est envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.<br/>**`Separate Email`** - Envoie la copie en tant que courrier électronique distinct. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo Comments]
 
@@ -160,7 +160,7 @@ ht-degree: 0%
 | [!UICONTROL Send Credit Memo Comment Email Copy To] | Affichage en magasin | Indique l’adresse électronique de quiconque recevra une copie d’un commentaire de note de crédit. Séparez plusieurs adresses par une virgule. |
 | [!UICONTROL Send Credit Memo Comments Email Copy Method] | Affichage en magasin | Indique la méthode de courrier électronique utilisée pour envoyer la copie. Les options incluent : <br/>**`Bcc`**- Envoie une copie de courtoisie aveugle en incluant le destinataire dans l’en-tête du même email qui est envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.<br/>**`Separate Email`** - Envoie la copie en tant que courrier électronique distinct. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Ready For Pickup in Store]
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 | Envoyer la commande prête pour la copie de l’e-mail de la sélection vers | Affichage en magasin | Indique l’adresse électronique de toute personne devant recevoir une copie d’une _Commande prête à être sélectionnée_ e-mail. Séparez plusieurs adresses par une virgule. |
 | [!UICONTROL Send Order Ready For Pickup Email Copy Method] | Affichage en magasin | Indique la méthode de courrier électronique utilisée pour envoyer la copie. Options : <br/>**`Bcc`**- Envoie une copie de courtoisie aveugle en incluant le destinataire dans l’en-tête du même email qui est envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.<br/>**`Separate Email`** - Envoie la copie en tant que courrier électronique distinct. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Purchase Order Approval]
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 | [!UICONTROL Error creating Order from Purchase Order (to Buyer)] | Affichage en magasin | Avertit le créateur qu’une erreur s’est produite lors de la conversion d’un bon de commande en commande. |
 | [!UICONTROL Purchase Order required Approval (to Approver)] | Affichage en magasin | Envoie un courrier électronique pour informer l’approbateur que la commande nécessite son approbation. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Quote]
 
@@ -219,7 +219,7 @@ ht-degree: 0%
 | [!UICONTROL Send Quote Email Copy To] | Affichage en magasin | Indique l’adresse électronique de chaque personne devant recevoir une copie de l’e-mail de devis. Séparez plusieurs adresses par une virgule. |
 | [!UICONTROL Send Quote Email Copy Method] | Affichage en magasin | Indique la méthode de courrier électronique utilisée pour envoyer la copie. Les options incluent : <br/>**`Bcc`**- Envoie une copie de courtoisie aveugle en incluant le destinataire dans l’en-tête du même email qui est envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.<br/>**`Separate Email`** - Envoie la copie en tant que courrier électronique distinct. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA]
 
@@ -238,7 +238,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Email Copy To] | Affichage en magasin | Fournit l’adresse électronique de toute personne qui doit recevoir une copie d’un courrier électronique RMA. Séparez plusieurs adresses par une virgule. |
 | [!UICONTROL Send RMA  Email Copy Method] | Affichage en magasin | Indique la méthode de courrier électronique utilisée pour envoyer la copie. Les options incluent : <br/>**`Bcc`**- Envoie une copie de courtoisie aveugle en incluant le destinataire dans l’en-tête du même email qui est envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.<br/>**`Separate Email`** - Envoie la copie en tant que courrier électronique distinct. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Authorization]
 
@@ -257,7 +257,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Authorization Email Copy To] | Affichage en magasin | Fournit l’adresse électronique de tous les utilisateurs pour recevoir une copie d’un courrier électronique d’autorisation RMA. Séparez plusieurs adresses par une virgule. |
 | [!UICONTROL Send RMA Authorization Email Copy Method] | Affichage en magasin | Indique la méthode de courrier électronique utilisée pour envoyer la copie. Les options incluent : <br/>**`Bcc`**- Envoie une copie de courtoisie aveugle en incluant le destinataire dans l’en-tête du même email qui est envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.<br/>**`Separate Email`** - Envoie la copie en tant que courrier électronique distinct. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Admin Comments]
 
@@ -274,7 +274,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Comment Email Copy To] | Affichage en magasin | Fournit l’adresse électronique de toute personne à qui envoyer une copie de la notification. Séparez plusieurs adresses par une virgule. |
 | [!UICONTROL Send RMA Comments Email Copy Method] | Affichage en magasin | Indique la méthode de courrier électronique utilisée pour envoyer la copie. Les options incluent : <br/>**`Bcc`**- Envoie une copie de courtoisie aveugle en incluant le destinataire dans l’en-tête du même email qui est envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.<br/>**`Separate Email`** - Envoie la copie en tant que courrier électronique distinct. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Customer Comments]
 
@@ -293,4 +293,4 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Comment Email Copy To] | Affichage en magasin | Fournit l’adresse électronique de toute personne à qui envoyer une copie de la notification. Séparez plusieurs adresses par une virgule. |
 | [!UICONTROL Send RMA Comments Email Copy Method] | Affichage en magasin | Indique la méthode de courrier électronique utilisée pour envoyer la copie. Les options incluent : <br/>**`Bcc`**- Envoie une copie de courtoisie aveugle en incluant le destinataire dans l’en-tête du même email qui est envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.<br/>**`Separate Email`** - Envoie la copie en tant que courrier électronique distinct. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

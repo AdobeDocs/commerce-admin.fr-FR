@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Persistent Shopping Cart]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Customers] &gt; [!UICONTROL Persistent Shopping Cart] de l’administrateur Commerce.
 exl-id: d6c5ae46-32ed-4fcd-bcd6-ee3a07d7db5f
 feature: Configuration, Shopping Cart
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -39,4 +39,4 @@ ht-degree: 0%
 | [!UICONTROL Persist Recently Viewed Products] | Site Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Détermine si l’état des produits récemment consultés est conservé lorsque la session se termine. Options : <br/>**`Yes`**- L’état des produits récemment consultés est enregistré à la fin de la session.<br/>**`No`** - L’état des produits récemment consultés n’est pas enregistré à la fin de la session. |
 | [!UICONTROL Persist Customer Group Membership and Segmentation] | Site Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Détermine si les critères d’appartenance et de segmentation de l’état des clients sont conservés à la fin de la session. Options : <br/>**`Yes`**- L’état de l’appartenance au groupe du client et les données de segmentation sont enregistrés à la fin de la session.<br/>**`No`** - L’état de l’appartenance au groupe du client et les données de segmentation ne sont pas enregistrés à la fin de la session. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

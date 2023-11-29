@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] de l’administrateur Commerce.
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Global | Détermine si les points de récompense sont automatiquement déduits du montant d&#39;un remboursement. Options : `Yes` / `No`. |
 | [!UICONTROL Landing Page] | Affichage en magasin | Indique la page CMS qui explique votre programme de points de récompense. Un lien vers la page de récompenses par défaut s’affiche aux emplacements de votre magasin où des points peuvent être gagnés. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Actions for Acquiring Reward Points by Customers]
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 | [!UICONTROL Review Submission] | Site Web | Détermine le nombre de points gagnés par un client qui envoie une révision approuvée pour publication. |
 | [!UICONTROL Rewarded Reviews Submission Quantity Limit] | Site Web | Limite le nombre de révisions qui peuvent être utilisées pour gagner des points par client. Laissez vide pour aucune limite. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Notification Settings]
 
@@ -76,4 +76,4 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expiry Warning Email] | Affichage en magasin | Détermine le modèle de courrier électronique que les clients reçoivent lorsque la limite d’avertissement d’expiration a été atteinte pour un lot de points. Modèle par défaut : `Reward Points Expiry Warning` |
 | [!UICONTROL Expiry Warning before (days)] | Global | Indique le nombre de jours avant l’expiration du point pour envoyer la notification. Laissez vide pour n’envoyer aucune notification d’expiration. La notification n’est pas envoyée si le nombre de jours saisi est supérieur à la durée de vie restante des points. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

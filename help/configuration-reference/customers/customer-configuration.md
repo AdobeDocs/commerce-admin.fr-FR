@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers]  &gt; [!UICONTROL Customer Configuration]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] de l’administrateur Commerce.
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Share Customer Accounts] | Global | Détermine la portée des comptes clients dans la hiérarchie de magasin. Options : <br/>**`Global`**- Les informations du compte client sont partagées avec chaque site web et magasin dans l’installation de Commerce.<br/>**`Per Website`** - Les informations du compte client sont limitées au site web sur lequel le compte a été créé. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Online Customers Options]
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Online Minutes Interval] | Global | Détermine la durée pendant laquelle l’activité en ligne d’un client est accessible auprès de l’administrateur. Laissez vide pour un intervalle par défaut de 15 minutes. |
 | [!UICONTROL Customer Data Lifetime] | Global | Détermine le nombre de minutes avant l’expiration des données non enregistrées saisies par le client. Par défaut, les données non enregistrées expirent après 60 minutes. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Create New Account Options]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Welcome Email] | Affichage en magasin | Identifie le modèle de courrier électronique utilisé pour le message de bienvenue envoyé une fois le compte confirmé. |
 | [!UICONTROL Generate Human-Friendly Customer ID] | Global | Détermine si le champ utilisé pour saisir et stocker le numéro d’ID de TVA est visible depuis le storefront. Options : `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Password Options]
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Password Length] | Global | Détermine le nombre minimum de caractères autorisés dans un mot de passe. Le nombre doit être supérieur à zéro (`0`). |
 | [!UICONTROL Lockout Time (minutes)] | Global | Détermine le nombre de minutes pendant lesquelles un compte client est verrouillé après l’échec de trop de tentatives de connexion. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Account Information Options]
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 | [!UICONTROL Change Email Template] | Affichage en magasin | Identifie le modèle de courrier électronique par défaut utilisé lorsqu’un client modifie son adresse électronique. |
 | [!UICONTROL Change Email and Password Template] | Affichage en magasin | Identifie le modèle de courrier électronique par défaut utilisé lorsqu’un client modifie son adresse électronique et son mot de passe. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Name and Address Options]
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Show Company] | Site Web | Détermine si la société du client est incluse dans le formulaire de nom et d’adresse. Options : `No` / `Optional` / `Required` |
 | [!UICONTROL Show Fax] | Site Web | Détermine si le numéro de fax du client est inclus dans le formulaire de nom et d’adresse. Options : `No` / `Optional` / `Required` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Options Adobe Commerce
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 | [!UICONTROL Show Company] | Site Web | Détermine si la société du client est incluse dans le formulaire de nom et d’adresse. Options : `No` / `Optional` / `Required` |
 | [!UICONTROL Show Fax] | Site Web | Détermine si le numéro de fax du client est inclus dans le formulaire de nom et d’adresse. Options : `No` / `Optional` / `Required` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Credit Options]
 
@@ -162,7 +162,7 @@ ht-degree: 0%
 | [!UICONTROL Store Credit Update Email Sender] | Affichage en magasin | Détermine l’identité du magasin qui apparaît comme l’expéditeur des notifications de mise à jour de crédit envoyé aux clients. |
 | [!UICONTROL Store Credit Update Email Template] | Affichage en magasin | Détermine le modèle de courrier électronique utilisé pour les mises à jour de crédit. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Login Options]
 
@@ -174,7 +174,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Redirect Customer to Account Dashboard after Logging in] | Site Web | Détermine ce qui se passe une fois les clients connectés à leurs comptes. Pour rediriger les clients vers le tableau de bord de leur compte, sélectionnez `Yes`. Options : <br/>**`Yes`**- Le tableau de bord du compte s’affiche lorsque les clients se connectent à leurs comptes.<br/>**`No`** - Les clients peuvent continuer à effectuer des achats après s’être connectés à leurs comptes. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Address Templates]
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 | [!UICONTROL HTML] | Affichage en magasin | Ce modèle définit l’ordre des champs d’adresse situés sous le _Adresses client_ dans le panneau d’administration ([!UICONTROL Customers] > [!UICONTROL Manage Customers]). Cela affecte également les _Ajouter une nouvelle adresse_ lorsqu’un client crée une adresse de facturation ou de livraison sur la page de son compte. |
 | [!UICONTROL PDF] | Affichage en magasin | Le modèle définit l’affichage des adresses de facturation et de livraison dans les factures imprimées, les envois et les notes de crédit. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer Segments]
 
@@ -204,7 +204,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Customer Segment Functionality] | Global | Détermine si les segments de clients peuvent être utilisés pour créer des promotions ciblées. Options : `Yes` / `No` |
 | [!UICONTROL Real-time Check if Customer is Matched by Segment] | Global | Détermine si les segments client sont validés en temps réel. Options : <br/>**[!UICONTROL Yes]**- Les segments client sont validés en temps réel (valeur par défaut).<br/>**[!UICONTROL No]** - Les segments client sont validés par une seule requête SQL de condition combinée. Cela améliore les performances de la validation des segments si le système comporte de nombreux segments de clients. Cependant, la validation ne fonctionne pas avec une base de données partagée ou lorsqu’il n’y a aucun client enregistré. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CAPTCHA]
 
@@ -224,4 +224,4 @@ ht-degree: 0%
 | [!UICONTROL Symbols Used in CAPTCHA] | Site Web | Détermine les lettres (a-z et A-Z) et les nombres (0-9) qui apparaissent dans le CAPTCHA. Symboles difficiles à distinguer des autres symboles, tels que `i`, `l`, ou `1`, ne sont pas inclus dans l’ensemble par défaut des symboles CAPTCHA. |
 | [!UICONTROL Case Sensitive] | Site Web | Détermine si les caractères CAPTCHA sont sensibles à la casse. Options : `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

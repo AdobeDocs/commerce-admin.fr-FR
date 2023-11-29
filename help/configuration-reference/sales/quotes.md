@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Quotes]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Sales] &gt; [!UICONTROL Quotes] de l’administrateur Commerce.
 exl-id: 9382552d-1be5-47f2-b0e3-931e5c6298d4
 feature: Configuration, Quotes
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Amount Message] | Affichage en magasin | Le message qui apparaît dans le panier lorsqu’un client tente d’envoyer une demande de devis, mais que le montant minimum requis n’est pas satisfait. |
 | [!UICONTROL Default Expiration Period] | Site Web | Détermine la durée de vie par défaut d’une [guillemet](../../b2b/quote-price-negotiation.md) à partir de la date d’envoi de la demande de devis. Options : `Days` / `Weeks` / `Months` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Attached Files]
 
@@ -43,4 +43,4 @@ ht-degree: 0%
 | [!UICONTROL File formats for upload] | Global | Détermine les formats de fichier pouvant être joints à un guillemet. Valeurs par défaut prises en charge : `doc`, `docx`, `xls`, `xlsx`, `pdf`, `txt`, `jpg`, `png`, et `jpeg` |
 | [!UICONTROL Maximum file size] | Global | Détermine la taille maximale d’un fichier joint à un guillemet. Ce paramètre peut être remplacé par la configuration du serveur. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

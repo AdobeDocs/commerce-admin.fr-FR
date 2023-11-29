@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront] de l’administrateur Commerce.
 exl-id: 6c03ee68-7421-4c74-bdc1-0855f088b7f9
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1299'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Pour plus d’informations sur l’utilisation de Google reCAPTCHA pour sécuris
 | [!UICONTROL Theme] | Site Web | Détermine le style de la zone Google reCAPTCHA. Options : `Light Theme` (par défaut) / `Dark Theme` |
 | [!UICONTROL Language Code] | Affichage en magasin | La variable [code à deux caractères](https://developers.google.com/recaptcha/docs/language) qui spécifie la langue utilisée pour le texte et la messagerie reCAPTCHA de Google. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v2 Invisible]
 
@@ -46,7 +46,7 @@ Pour plus d’informations sur l’utilisation de Google reCAPTCHA pour sécuris
 | [!UICONTROL Theme] | Global | Détermine le style de la zone Google reCAPTCHA. Options : `Light Theme` (par défaut) / `Dark Theme` |
 | [!UICONTROL Language Code] | Affichage en magasin | A [code à deux caractères](https://developers.google.com/recaptcha/docs/language) qui spécifie la langue utilisée pour le texte et la messagerie reCAPTCHA de Google. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v3 Invisible]
 
@@ -61,7 +61,7 @@ Pour plus d’informations sur l’utilisation de Google reCAPTCHA pour sécuris
 | [!UICONTROL Theme] | Site Web | Détermine le style de la zone Google reCAPTCHA. Options : `Light Theme` (par défaut) / `Dark Theme` |
 | [!UICONTROL Language Code] | Affichage en magasin | A [code à deux caractères](https://developers.google.com/recaptcha/docs/language) qui spécifie la langue utilisée pour le texte et la messagerie reCAPTCHA de Google. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA Failure Messages]
 
@@ -72,7 +72,7 @@ Pour plus d’informations sur l’utilisation de Google reCAPTCHA pour sécuris
 | [!UICONTROL reCAPTCHA Validation Failure Message] | Affichage en magasin | Message affiché dans le storefront si la vérification échoue. Texte par défaut : `reCAPTCHA verification failed.` |
 | [!UICONTROL reCAPTCHA Technical Failure Message] | Affichage en magasin | Message affiché dans le storefront si reCAPTCHA ne parvient pas à renvoyer un résultat de vérification. Texte par défaut : `Something went wrong with reCAPTCHA. Please contact the store owner.` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Storefront]
 
@@ -103,4 +103,4 @@ Pour plus d’informations sur l’utilisation de Google reCAPTCHA pour sécuris
 | [!UICONTROL Enable for Coupon Codes] | Site Web | Indique le type de reCAPTCHA utilisé lorsque les clients saisissent une [code de coupon](../../merchandising-promotions/price-rules-cart-coupon.md). Options :<br/>**`No`**- (par défaut) Ne valide pas l’envoi du code de coupon.<br />**`reCAPTCHA v2 ("I am not a robot")`** - L’utilisateur doit sélectionner la variable _Je ne suis pas un robot_ .<br />**`Invisible reCAPTCHA v2`**: valide le comportement de l’utilisateur en arrière-plan sans nécessiter d’interactions basées sur un score.<br/>**`Invisible reCAPTCHA v3`** - (Recommandé) Valide le comportement de l’utilisateur en arrière-plan en fonction du score d’interaction. |
 | [!UICONTROL Enable for PayPal Payflow Pro payment form] | Site Web | Indique le type de reCAPTCHA utilisé lorsque les clients paient un achat avec [PayPal Payflow Pro](../../stores-purchase/paypal-payflow-pro.md). Options :<br/>**`No`**- (par défaut) Ne valide pas la demande de réinitialisation du mot de passe.<br />**`reCAPTCHA v2 ("I am not a robot")`** - L’utilisateur doit sélectionner la variable _Je ne suis pas un robot_ .<br />**`Invisible reCAPTCHA v2`**: valide le comportement de l’utilisateur en arrière-plan sans nécessiter d’interactions basées sur un score.<br/>**`Invisible reCAPTCHA v3`** - (Recommandé) Valide le comportement de l’utilisateur en arrière-plan en fonction du score d’interaction. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

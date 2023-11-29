@@ -3,10 +3,10 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] de l’administrateur Commerce.
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 1%
+source-wordcount: '339'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 | [!UICONTROL Frequency] | Affichage en magasin | Détermine la fréquence de mise à jour des catégories du plan de site. Options : `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | Affichage en magasin | Une valeur entre `0.0` et `1.0` qui détermine la priorité des mises à jour du plan de site de catégorie par rapport à d’autres contenus. Zéro (`0.0`) a la priorité la plus faible. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Products Options]
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 | [!UICONTROL Priority] | Affichage en magasin | Une valeur entre `0.0` et `1.0` qui détermine la priorité des mises à jour du plan de site du produit par rapport à d’autres contenus. Zéro (`0.0`) a la priorité la plus faible. |
 | [!UICONTROL Add Images into Sitemap] | Affichage en magasin | Détermine l’étendue de l’inclusion des images dans le plan du site. Options : `None` / `Base Only` / `All` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CMS Pages Options]
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 | [!UICONTROL Frequency] | Affichage en magasin | Détermine la fréquence de mise à jour des pages CMS du plan de site. Options : `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | Affichage en magasin | Une valeur entre `0.0` et `1.0` qui détermine la priorité des mises à jour du plan de site de la page CMS par rapport à d’autres contenus. Zéro (`0.0`) a la priorité la plus faible. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Url Options]
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 | [!UICONTROL Frequency] | Affichage en magasin | Détermine la fréquence de mise à jour des URL de stockage. Options : `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | Affichage en magasin | Une valeur entre `0.0` et `1.0` qui détermine la priorité des mises à jour des URL de magasin par rapport à d’autres contenus. Zéro (`0.0`) a la priorité la plus faible. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Generation Settings]
 
@@ -78,7 +78,7 @@ ht-degree: 1%
 | [!UICONTROL Error Email Sender] | Site Web | Identifie le contact du magasin qui apparaît comme l’expéditeur de la notification d’erreur. Options : `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
 | [!UICONTROL Error Email Template] | Site Web | Identifie le modèle d’email utilisé pour la notification d’erreur. Modèle par défaut : `Sitemap generate Warnings` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Sitemap File Limits]
 
@@ -91,7 +91,7 @@ ht-degree: 1%
 | [!UICONTROL Maximum No of URLs Per File] | Affichage en magasin | Détermine le nombre maximal d’URL pouvant être incluses dans un seul plan de site. |
 | [!UICONTROL Maximum File Size] | Affichage en magasin | Détermine la taille maximale du plan de site généré, en octets. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Submission Settings]
 
@@ -103,4 +103,4 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enable Submission to Robots.txt] | Affichage en magasin | Permet l’envoi de directives pour le fichier robots.txt. Options : `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Sales] &gt; [!UICONTROL Sales] de l’administrateur Commerce.
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Hide Customer IP] | Affichage en magasin | Détermine si l’adresse IP du client apparaît sur les commandes, factures, envois et notes de crédit. Options : `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Checkout Totals Sort Order]
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 | [!UICONTROL Fixed Product Tax] | Site Web | Nombre qui détermine le moment où la taxe sur les produits fixe est calculée par rapport aux autres totaux de passage en caisse. Valeur par défaut : `50` |
 | [!UICONTROL Grand Total] | Site Web | Nombre qui détermine le moment où le total général est calculé par rapport aux autres totaux de passage en caisse. Valeur par défaut : `100` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Reorder]
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Allow Reorder] | Affichage en magasin | Détermine si les clients peuvent effectuer une nouvelle commande à partir de leurs comptes. Options : `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Allow Zero Grand Total]
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Allow Zero Grand Total for Credit Memo] | Affichage en magasin | Détermine la possibilité de créer une note de crédit avec un total général zéro. Options : `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice and Packing Slip Design]
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 | [!UICONTROL Logo for HTML Print View] | Affichage en magasin | Identifie le fichier de logo qui apparaît dans l’en-tête de la vue d’impression par HTML des factures et des bordereaux d’emballage. Types de fichiers autorisés : <br/>JPG/JPEG <br/>GIF <br/>PNG |
 | [!UICONTROL Address] | Affichage en magasin | L’adresse du magasin telle que vous souhaitez la voir apparaître sur les factures et les bordereaux d’emballage. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Minimum Order Amount]
 
@@ -97,7 +97,7 @@ ht-degree: 1%
 | [!UICONTROL Multi-address Description Message] | Affichage en magasin | Pour les commandes à plusieurs adresses, détermine le message qui s’affiche dans le panier si les articles envoyés à une adresse sont inférieurs au montant minimum de la commande. |
 | [!UICONTROL Multi-address Error to Show in Shopping Cart] | Affichage en magasin | Pour les commandes à plusieurs adresses, détermine le message qui s’affiche à partir du mini panier ou du lien de passage en caisse lorsque le montant de la commande est inférieur au montant minimum requis. Si rien n’est indiqué, un message par défaut s’affiche. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Dashboard]
 
@@ -109,7 +109,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Use Aggregated Data] | Global | Détermine si des données de ventes agrégées en temps réel sont utilisées pour générer des rapports instantanés de tableau de bord. Si vous traitez une grande quantité de données, vous pouvez améliorer les performances en désactivant l’affichage des données en temps réel. Options : `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders Cron Settings]
 
@@ -121,7 +121,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Pending Payment Order Lifetime] | Site Web | Détermine la durée de vie des commandes en attente en minutes. Paramètre par défaut : `480` minutes (8 heures) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Options]
 
@@ -139,7 +139,7 @@ ht-degree: 1%
 | [!UICONTROL Allow Printed Card] | Site Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Indiquez si une carte imprimée peut être ajoutée pour la commande. |
 | [!UICONTROL Default Price for Printed Card] | Site Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Indiquez le prix par défaut de la carte imprimée. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Minimum Advertised Price]
 
@@ -155,7 +155,7 @@ ht-degree: 1%
 | [!UICONTROL Default "What's This" Text Message] | Affichage en magasin | Le message texte qui s’affiche lorsque le client clique sur &quot;Qu’est-ce que c’est ?&quot; lien de la page d’affichage du produit. |
 | [!UICONTROL Manufacturer's Suggested Retail Price] | Global | Le prix de détail proposé par le fabricant (MSRP). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order by SKU Settings]
 
@@ -172,7 +172,7 @@ ht-degree: 1%
 | [!UICONTROL Enable Order by SKU on My Account in Storefront] | Site Web | Détermine si Commande par SKU est disponible dans le tableau de bord du compte client. Options : <br/>**`Yes, for Everyone`**- L’onglet Commande par SKU s’affiche dans le tableau de bord du compte de tous les clients.<br/>**`Yes, for Specified Customer Groups`** - L’onglet Ordre par SKU s’affiche dans le tableau de bord du compte pour les membres de groupes spécifiés ou d’un catalogue partagé. <br/>**`No`**- L’onglet Commande par SKU n’est pas disponible dans le compte client. |
 | [!UICONTROL Customer Groups] | Site Web | Détermine les groupes de clients. Options : `General` / `Retailer` / `Wholesale` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Instant Purchase]
 
@@ -185,7 +185,7 @@ ht-degree: 1%
 | [!UICONTROL Enabled] | Affichage en magasin | Permet l’achat instantané pour la vue de magasin, si le mode de paiement, tel que Braintree, a la valeur Vault activée. Options : `Yes` / `No` |
 | [!UICONTROL Button Text] | Affichage en magasin | Indique le texte qui s’affiche sur le bouton Achat instantané. Le texte par défaut est : `Instant Purchase`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders, Invoices, Shipments, Credit Memos Archiving]
 
@@ -201,7 +201,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Configu
 | [!UICONTROL Archive Orders Purchased] | Global | Détermine le nombre de jours qui s’écoulent avant qu’une commande terminée ne soit archivée. Valeur par défaut : `30` |
 | [!UICONTROL Order  Statuses to be Archived] | Global | Détermine la variable [status](../../stores-purchase/order-status.md) de commandes à archiver. Par défaut, les commandes dont le statut est Terminé ou Fermé sont archivées. Options : `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Settings]
 
@@ -217,4 +217,4 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Configu
 | [!UICONTROL Enable RMA on Product Level] | Site Web | Détermine la valeur par défaut du champ Activer la RAM dans les informations sur les produits. |
 | [!UICONTROL Use Store Address] | Site Web | Détermine le nom et l’adresse du contact utilisés pour les envois de marchandises renvoyées. Options : <br/>**`Yes`**- Utilise la variable [Point d’origine](../../stores-purchase/shipping-settings.md#point-of-origin) adresse dans Paramètres d’expédition.<br/>**`No`** - Ouvre le formulaire d’adresse afin que vous puissiez saisir une autre adresse. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

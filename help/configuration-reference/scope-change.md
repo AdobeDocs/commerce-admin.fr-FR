@@ -2,9 +2,9 @@
 title: Étendue de la configuration
 description: Découvrez comment définir la portée des paramètres de configuration dans l’administrateur Commerce.
 exl-id: b7b87ac5-dc7d-472f-af24-52b4d12e46c5
-source-git-commit: eb61d90c0a3bf5cac976fc8b79b23dc717aca3e6
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Le sélecteur de vue de magasin situé dans le coin supérieur gauche de nombreu
 | [!UICONTROL Default Store View] | Nom de la vue de magasin par défaut associée au magasin parent. |
 | [!UICONTROL Stores Configuration] | Accède à la grille Magasins et revient à choisir [!UICONTROL Stores] > [!UICONTROL All Stores] dans la barre latérale d’administration. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Case Utiliser la valeur système cochée](./assets/store-view-control.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ Le libellé de la case à cocher change en fonction de la portée actuelle et fa
 | [!UICONTROL Use Default] | Cette case à cocher s’affiche lorsque la portée de configuration est définie sur Principal . `Website`, et fait référence à la boutique par défaut affectée au site web. |
 | [!UICONTROL Use Website] | Cette case à cocher s’affiche lorsque la portée de configuration est définie sur une vue de magasin spécifique. Lorsqu’elle est sélectionnée, elle utilise le paramètre du site Web parent associé à la vue de magasin. Dans ce cas, le niveau de la boutique est ignoré, car il est entendu qu’il s’applique à la boutique par défaut associée au site web. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Définition de la portée
 
@@ -94,4 +94,4 @@ Avant d’effectuer un paramètre de configuration qui s’applique uniquement �
 | Langues | Pour prendre en charge plusieurs langues, tout le contenu, y compris les descriptions de produit, doit être [traduit](../stores-purchase/store-localize.md#localize-products) pour chaque vue de magasin. |
 | Afficher la devise | Différent [devise d&#39;affichage](../stores-purchase/currency-configuration.md) peut être utilisé pour chaque vue de magasin, bien que les transactions soient traitées au niveau du site web à l’aide de la devise de base. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

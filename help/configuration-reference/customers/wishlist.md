@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Wish List]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Customers] &gt; [!UICONTROL Wish List] de l’administrateur Commerce.
 exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
 feature: Configuration, Customers, Storefront
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 | [!UICONTROL Enable Multiple Wish Lists] | Affichage en magasin | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Lorsque la variable est définie sur `Yes`, permet aux clients de créer et de gérer plusieurs listes de souhaits. Options : `Yes` / `No` |
 | [!UICONTROL Number of Multiple Wish Lists] | Affichage en magasin | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Si plusieurs listes de souhaits sont activées, détermine le nombre maximal de listes de souhaits que les clients peuvent avoir associées à leur compte. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Share Options]
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 | [!UICONTROL Max Emails Allowed to be Sent] | Affichage en magasin | Détermine le nombre maximal de courriers électroniques pouvant être envoyés dans un lot. La définition d’une limite maximale peut contribuer à réduire la charge sur le serveur. Le nombre maximal autorisé est de 10 000. Valeur par défaut : `10` |
 | [!UICONTROL Email Text Length Limit] | Affichage en magasin | Détermine le nombre maximal de caractères pouvant être inclus dans le message. Le nombre maximal autorisé est de 10 000. Valeur par défaut : `255` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL My Wish List Link]
 
@@ -58,4 +58,4 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Display Wish List Summary] | Site Web | Configure l’affichage du résumé de la liste de souhaits dans le tableau de bord du compte client. Options : `Display number of items in wish list` / `Display item quantities` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

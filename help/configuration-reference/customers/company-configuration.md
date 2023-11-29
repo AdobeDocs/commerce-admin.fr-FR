@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Company Configuration]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] de l’administrateur Commerce.
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Pour plus d’informations sur la configuration de ces paramètres, voir [Activa
 |--- |--- |--- |
 | [!UICONTROL Allow Company Registration from the Storefront] | Site Web | Détermine si les visiteurs de votre magasin ont le choix de [register](../../customers/customer-sign-in.md) pour un compte de société ou un compte individuel. Options : `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Options - Company Registration]
 
@@ -47,7 +47,7 @@ Pour plus d’informations sur la configuration de ces paramètres, voir [Activa
 | [!UICONTROL Send Email Copy Method] | Affichage en magasin | Méthode d’e-mail utilisée pour envoyer la copie de l’e-mail d’enregistrement. Options : `Bcc` / `Separate Email` |
 | [!UICONTROL Default Company Registration Email] | Affichage en magasin | Modèle de courrier électronique utilisé par défaut pour la notification d’enregistrement de la société. Modèle par défaut : `Company Registration Request` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer-Related Emails]
 
@@ -63,7 +63,7 @@ Pour plus d’informations sur la configuration de ces paramètres, voir [Activa
 | [!UICONTROL Default 'Customer Status Active' Email] | Affichage en magasin | Modèle de courrier électronique utilisé par défaut lorsque le statut d’un client devient actif. Cet email est envoyé au client uniquement. Modèle par défaut : `Customer Status Active` |
 | [!UICONTROL Default 'Customer Status Inactive' Email] | Affichage en magasin | Modèle de courrier électronique utilisé par défaut lorsque l’état d’un client devient inactif. Cet email est envoyé au client uniquement. Modèle par défaut : `Customer Status Inactive` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Company Status Change]
 
@@ -80,7 +80,7 @@ Pour plus d’informations sur la configuration de ces paramètres, voir [Activa
 | [!UICONTROL Default 'Company Status Change to Blocked' Email] | Affichage en magasin | Le modèle de courrier électronique utilisé par défaut lorsque le statut d’une société est défini sur _Bloqué_. Modèle par défaut : `Company Status Blocked` |
 | [!UICONTROL Default 'Company Status Change to Pending Approval' Email] | Affichage en magasin | Le modèle de courrier électronique utilisé par défaut lorsque le statut d’une société est défini sur _En attente d’approbation_. Modèle par défaut : `Company Status Pending Approval` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Company Credit]
 
@@ -97,4 +97,4 @@ Pour plus d’informations sur la configuration de ces paramètres, voir [Activa
 | [!UICONTROL Refunded Email Template] | Affichage en magasin | Le modèle d’email utilisé par défaut lorsqu’un montant issu d’une commande est remboursé au crédit de la société. Cet email est envoyé à l’administrateur de la société. Modèle par défaut : `Order Refunded to Company Credit` |
 | [!UICONTROL Reverted Email Template] | Affichage en magasin | Modèle de courrier électronique utilisé par défaut lorsqu’une commande est restaurée au crédit de l’entreprise. Cet email est envoyé à l’administrateur de la société. Modèle par défaut : `Order Reverted to Company Credit` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

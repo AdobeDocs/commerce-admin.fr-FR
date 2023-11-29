@@ -3,9 +3,9 @@ title: Listes de produits
 description: Découvrez comment modifier la configuration de la liste de produits, qui détermine le nombre de produits qui apparaissent par page et l’attribut utilisé pour trier la liste.
 exl-id: 3779d9db-4adb-473b-b9c9-ad066f50b549
 feature: Catalog Management, Products, Page Content
-source-git-commit: 7ae9955b0283cb7bcd757e7b45fdbc4c3b2181ca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Les paramètres de pagination apparaissent en haut et en bas de la liste et cont
 | ![Afficher par page](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Détermine le nombre de produits qui apparaissent par page. |
 | ![Liens de pagination](./assets/control-pagination.png) | Liens de pagination : liens de navigation vers d’autres pages. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Configuration des commandes de pagination
 

@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL General] &gt; [!UICONTROL General] de l’administrateur Commerce.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Voir [Options de pays](../../getting-started/store-details.md#country-options) p
 | [!UICONTROL European Union Countries] | Global | Les pays qui sont membres de l’Union européenne. |
 | [!UICONTROL Top Destinations] | Affichage en magasin | Les pays principaux que vous ciblez pour les ventes. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL State Options]
 
@@ -41,7 +41,7 @@ Voir [Options d’état](../../getting-started/store-details.md#state-options) p
 | [!UICONTROL State is required for] | Global | Les pays (où vous effectuez des activités) qui exigent qu’une région ou un état soit inclus dans l’adresse postale. |
 | [!UICONTROL Allow to Choose State if It is Optional for Country] | Global | Pour les pays où elle n’est pas requise, détermine si la variable _Région/état_ est inclus dans l’adresse postale du client.<br /> <br />**`Yes`**- Inclut la variable _Région/état_ dans l’adresse du client, même s’il n’est pas requis par le pays.<br />**`No`** : omet le champ Région/état de l’adresse du client si le pays ne l’exige pas. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Locale Options]
 
@@ -57,7 +57,7 @@ Voir [Options de paramètres régionaux](../../getting-started/store-details.md#
 | [!UICONTROL First Day of Week] | Affichage en magasin | Jour considéré comme étant le premier de la semaine dans le marché servi par la vue du magasin. |
 | [!UICONTROL Weekend Days] | Affichage en magasin | Jours qui se produisent le week-end sur le marché servi par la vue du magasin. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Website Restrictions]
 
@@ -76,7 +76,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Restric
 | [!UICONTROL HTTP Response] | Site Web | Détermine la réponse HTTP envoyée lorsque le site web est fermé et qu’une connexion est tentée par un robot, un robot d’indexation ou un robot d’indexation.<br /> <br />**`503 Service unavailable`**- La page n’est pas disponible, mais l’araignée ne doit pas mettre à jour l’index.<br />**`200 OK`** - La page d’entrée est correcte et doit être traitée par l’araignée comme la seule page du site. |
 | [!UICONTROL Enable Autocomplete on login/forgot password forms] | Site Web | Détermine si les champs de la variable _Connexion_ et _Mot de passe oublié_ les formulaires sont remplis automatiquement à partir des entrées précédentes. Options : `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Information]
 
@@ -97,7 +97,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Informa
 | [!UICONTROL VAT Number] | Site Web | Numéro de taxe sur la valeur ajoutée de l’entreprise propriétaire de l’installation Commerce, le cas échéant. |
 | [!UICONTROL Validate VAT Number] |  | Vérifie le numéro d’identification Taxe sur la valeur ajoutée. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Single-Store Mode]
 
@@ -109,4 +109,4 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Mode Bo
 |--- |--- |--- |
 | [!UICONTROL Enable Single-Store Mode] | Global | Lorsqu’elle est activée pour les installations à un seul magasin, la configuration Masque la zone d’étendue et les libellés de champ associés Options : `Yes` / `No` <br/>**_Remarque :_**Le mode Boutique unique est ignoré pour les magasins avec plusieurs vues. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

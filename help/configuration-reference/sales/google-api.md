@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Sales] &gt; [!UICONTROL Google API] de l’administrateur Commerce.
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Anonymize IP] | Affichage en magasin | Détermine si les informations d’identification sont supprimées des adresses IP qui apparaissent dans [!DNL Google Analytics] résultats. |
 | [!UICONTROL Enable Content Experiments] | Affichage en magasin | Active [Expériences de contenu Google](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207), qui peut être utilisé pour tester jusqu’à dix versions différentes d’une même page. Options : `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google Analytics - Google Tag Manager]
 
@@ -48,7 +48,7 @@ When **[!UICONTROL Account Type]** est défini sur `Google Tag Manager`, d’aut
 | [!UICONTROL List property for the search results page] | Affichage en magasin | Identifie la variable [!DNL Google Tag Manager] de la page des résultats de la recherche. Valeur par défaut : `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | Affichage en magasin | Identifie la variable [!DNL Google Tag Manager] propriété associée aux étiquettes pour les promotions internes. Valeur par défaut : `Label` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google AdWords]
 
@@ -68,7 +68,7 @@ When **[!UICONTROL Account Type]** est défini sur `Google Tag Manager`, d’aut
 | [!UICONTROL Conversion Value] | Affichage en magasin | Indique la valeur utilisée pour un événement _[!UICONTROL Constant]_type de valeur de conversion. |
 | [!UICONTROL Send Order Currency] | Affichage en magasin | Active les valeurs de conversion de devise spécifiques aux transactions dans AdWords (pour les sites web avec des devises de base différentes). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google GTag]
 
@@ -88,7 +88,7 @@ When **[!UICONTROL Account Type]** est défini sur `Google Tag Manager`, d’aut
 | [!UICONTROL Anonymize IP] | Affichage en magasin | Détermine si les informations d’identification sont supprimées des adresses IP qui apparaissent dans les résultats des Google Analytics. |
 | [!UICONTROL Enable Content Experiments] | Affichage en magasin | Active [Expériences de contenu Google](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207), qui peut être utilisé pour tester jusqu’à dix versions différentes d’une même page. Options : `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google Analytics4 - Google Tag Manager]
 
@@ -108,7 +108,7 @@ When **[!UICONTROL Account Type]** est défini sur `Google Tag Manager`, d’aut
 | [!UICONTROL List property for the search results page] | Affichage en magasin | Identifie la variable [!DNL Google Tag Manager] de la page des résultats de la recherche. Valeur par défaut : `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | Affichage en magasin | Identifie la variable [!DNL Google Tag Manager] propriété associée aux étiquettes pour les promotions internes. Valeur par défaut : `Label` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google AdWords]
 
@@ -128,4 +128,4 @@ When **[!UICONTROL Account Type]** est défini sur `Google Tag Manager`, d’aut
 | [!UICONTROL Conversion Value] | Affichage en magasin | Indique la valeur utilisée pour un événement _[!UICONTROL Constant]_type de valeur de conversion. |
 | [!UICONTROL Send Order Currency] | Affichage en magasin | Active les valeurs de conversion de devise spécifiques aux transactions dans AdWords (pour les sites web avec des devises de base différentes). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

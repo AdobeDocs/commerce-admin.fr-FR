@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Promotions]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Customers] &gt; [!UICONTROL Promotions] de l’administrateur Commerce.
 exl-id: 93035d46-2e9e-466d-a5e3-d69ce6b662b8
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Email Send Failure Threshold] | Global | Nombre de fois où le rappel tente d’envoyer des notifications à une adresse électronique spécifique et échoue. Lorsque la valeur est définie sur 0, aucun seuil n’est défini et les notifications continuent à être envoyées malgré tous les échecs. |
 | [!UICONTROL Reminder Email Sender] | Affichage en magasin | Identité de magasin qui apparaît comme expéditeur de l’email. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Auto Generated Specific Coupon Codes]
 
@@ -48,4 +48,4 @@ ht-degree: 0%
 | [!UICONTROL Code Suffix] | Global | Une valeur ajoutée à la fin de tous les codes. Si vous ne souhaitez pas utiliser de suffixe, laissez le champ vide. |
 | [!UICONTROL Dash Every X Characters] | Global | Intervalle d’insertion d’un tiret (-) dans tous les codes de coupon. Si vous ne souhaitez pas utiliser de tiret, laissez le champ vide. <br/>_**Remarque :**_ Les codes coupon qui ne diffèrent que par un tiret sont considérés comme des codes différents. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

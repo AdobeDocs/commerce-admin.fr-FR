@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] de l’administrateur Commerce.
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '165'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Enable RSS] | Affichage en magasin | Permet aux clients de recevoir des flux RSS du magasin. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Wish List]
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Enable RSS] | Affichage en magasin | Lorsque cette option est activée, un lien de flux RSS s’affiche en haut des pages de liste de souhaits. La page de partage des listes de souhaits comprend une case à cocher que le client peut sélectionner pour créer un lien vers le flux à partir des listes de souhaits partagées. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog]
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 | [!UICONTROL Coupons/Discounts] | Affichage en magasin | Lorsque cette option est activée, publie la notification de tous les coupons ou remises. |
 | [!UICONTROL Top Level Category] | Affichage en magasin | Publie la notification de toute modification sur la structure de catégorie de niveau supérieur de votre catalogue, qui est répercutée dans le menu principal. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
@@ -63,4 +63,4 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Customer Order Status Notification] | Affichage en magasin | Permet aux clients de suivre l’état de leur commande par flux RSS. Lorsque cette option est activée, un lien de flux RSS s’affiche dans la commande. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

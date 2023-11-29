@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] de l’administrateur Commerce.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Merchant Country] | Site Web | Identifie le pays dans lequel le commerçant est enregistré pour mener une activité commerciale. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Solutions recommandées
 
@@ -86,7 +86,7 @@ Les méthodes de paiement suivantes sont intégrées à Commerce et n’utilisen
 | [!UICONTROL Maximum Order Total] | Site Web | Montant de la commande la plus importante pouvant être payé par chèque ou mandat. <br/><br/>**_Remarque :_**Une commande est admissible si le total est compris entre le total de la commande ou correspond au total de la commande minimale ou maximale. |
 | [!UICONTROL Sort Order] | Site Web | Numéro qui détermine la commande que le paiement par chèque ou par bon de commande apparaît lorsqu’il est répertorié avec d’autres méthodes de paiement lors du passage en caisse. Entrée `0` pour le placer en haut de la liste. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Bank Transfer Payment]
 
@@ -105,7 +105,7 @@ Les méthodes de paiement suivantes sont intégrées à Commerce et n’utilisen
 | [!UICONTROL Maximum Order Total] | Site Web | Montant de la commande la plus importante pouvant être payé par transfert bancaire. <br/><br/>**_Remarque :_**Une commande est admissible si le total est compris entre le total de la commande ou correspond au total de la commande minimale ou maximale. |
 | [!UICONTROL Sort Order] | Site Web | Numéro qui détermine la commande selon laquelle le paiement par transfert bancaire s’affiche lorsqu’il est répertorié avec d’autres méthodes de paiement lors du passage en caisse. Entrée `0` pour le placer en haut de la liste. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Payment on Account]
 
@@ -126,7 +126,7 @@ Les méthodes de paiement suivantes sont intégrées à Commerce et n’utilisen
 | [!UICONTROL Maximum Order Total] | Site Web | Montant de commande le plus important pouvant être imputé à un compte de société. <br/><br/>**_Remarque :_**Une commande est admissible si le total est compris entre le total de la commande ou correspond au total de la commande minimale ou maximale. |
 | [!UICONTROL Sort Order] | Site Web | Numéro qui détermine la commande selon laquelle le paiement sur le compte apparaît lorsqu’il est répertorié avec d’autres méthodes de paiement lors du passage en caisse. Entrée `0` pour le placer en haut de la liste. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ Les méthodes de paiement suivantes sont intégrées à Commerce et n’utilisen
 | [!UICONTROL Maximum Order Total] | Site Web | Montant de la commande la plus importante pouvant être payé par transfert bancaire. <br/><br/>**_Remarque :_**Une commande est admissible si le total est compris entre le total de la commande ou correspond au total de la commande minimale ou maximale. |
 | [!UICONTROL Sort Order] | Site Web | Numéro qui détermine la commande selon laquelle le paiement par transfert bancaire s’affiche lorsqu’il est répertorié avec d’autres méthodes de paiement lors du passage en caisse. Entrée `0` pour le placer en haut de la liste. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Zero Subtotal Checkout]
 
@@ -166,7 +166,7 @@ Les méthodes de paiement suivantes sont intégrées à Commerce et n’utilisen
 | [!UICONTROL Payment from Specific Countries] | Site Web | Identifie les pays spécifiques pour lesquels un passage en caisse partiel zéro peut être appliqué. |
 | [!UICONTROL Sort Order] | Site Web | Numéro qui détermine l’ordre dans lequel le titre, par exemple &quot;Aucune information de paiement n’est requise&quot;, s’affiche lorsqu’il est répertorié avec d’autres méthodes de paiement lors de l’extraction. Entrée `0` pour le placer en haut de la liste. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment actions]
 
@@ -185,7 +185,7 @@ Consultez la section Paramètres de base de chaque rubrique de mode de paiement 
 | [!UICONTROL Order] | Représente un accord avec PayPal qui permet au marchand de capturer un ou plusieurs montants au total de la commande à partir du compte de l’acheteur du client, dans une période définie (jusqu’à 29 jours). |
 | [!UICONTROL Sale] | Le montant de l&#39;achat est autorisé et immédiatement retiré du compte du client. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -208,4 +208,4 @@ Consultez la section Paramètres de base de chaque rubrique de mode de paiement 
 | [!UICONTROL Maximum Order Total] | Site Web | Montant de commande le plus élevé qui peut être payé par le bon de commande. <br/><br/>**_Remarque :_**Une commande est admissible si le total est compris entre le total de la commande ou correspond au total de la commande minimale ou maximale. |
 | [!UICONTROL Sort Order] | Site Web | Numéro qui détermine la commande que le paiement par bon de commande apparaît lorsqu’il est répertorié avec d’autres méthodes de paiement lors du passage en caisse. Entrée `0` pour le placer en haut de la liste. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

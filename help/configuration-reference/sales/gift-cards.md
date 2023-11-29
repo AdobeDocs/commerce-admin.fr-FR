@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Gift Cards]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Sales] &gt; [!UICONTROL Gift Cards] de l’administrateur Commerce.
 exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 feature: Configuration, Gift
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '334'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Card Notification Email Sender] | Affichage en magasin | Identifie la variable [contact de magasin](../../getting-started/store-details.md#store-email-addresses) qui s’affiche comme expéditeur de l’e-mail de notification de carte-cadeau. Valeur par défaut : `General Contact` |
 | [!UICONTROL Gift Card Notification Email Template] | Affichage en magasin | Détermine la variable [modèle](../../systems/email-templates.md) qui est utilisé pour l’e-mail de notification de carte-cadeau. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card General Settings]
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Message Maximum Length] | Affichage en magasin | Détermine le nombre maximal de caractères autorisés dans un message de carte cadeau. Valeur par défaut : 255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | Global | Détermine si un compte de carte cadeau est généré lorsqu’un client passe une commande ou lorsque la commande est facturée. Options : `Ordered` / `Invoiced` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Sent from Gift Card Account Management]
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Card Email Sender] | Affichage en magasin | Identifie la variable [contact de magasin](../../getting-started/store-details.md#store-email-addresses) qui s’affiche comme expéditeur de l’e-mail de carte-cadeau. Valeur par défaut : `General Contact` |
 | [!UICONTROL Gift Card Template] | Affichage en magasin | Détermine la variable [modèle](../../systems/email-templates.md) qui est utilisé pour l’e-mail de carte-cadeau. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card Account General Settings]
 
@@ -75,4 +75,4 @@ ht-degree: 1%
 | [!UICONTROL Low Code Pool Threshold] | Global | Détermine le nombre d’enregistrements dans le pool de code qui déclenche une alerte indiquant que le pool doit être réapprovisionné. |
 | [!UICONTROL Generate] | Global | Cliquez sur pour générer la liste des codes de carte-cadeau. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

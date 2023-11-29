@@ -3,9 +3,9 @@ title: '[!UICONTROL Services] &gt; [!UICONTROL OAuth]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Services] &gt; [!UICONTROL OAuth] de l’administrateur Commerce.
 exl-id: 984793e0-6ac9-443b-b234-e0cea717dada
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 | [!UICONTROL Customer Token Lifetime (hours]) | Global | Détermine le temps en heures avant l’expiration d’un jeton API client. Le jeton client n’expire jamais si le champ est vide. Valeur par défaut : `1` |
 | [!UICONTROL Admin Token Lifetime (hours)] | Global | Détermine le temps en heures avant l’expiration d’un jeton API d’administration. Le jeton d’administration n’expire jamais si le champ est vide. Valeur par défaut : `4` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ ht-degree: 1%
 | [!UICONTROL Cleanup Probability] | Global | Indique le nombre de requêtes OAuth avant le lancement du nettoyage. Ne pas entrer `0` pour désactiver le nettoyage. |
 | [!UICONTROL Enable WSDL Cache] | Global | Détermine l’âge des entrées en minutes avant leur nettoyage. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Consumer Settings]
 
@@ -50,7 +50,7 @@ ht-degree: 1%
 | [!UICONTROL OAuth consumer credentials HTTP Post maxredirects] | Global | Indique le nombre maximal de redirections liées à une publication des informations d’identification des consommateurs. |
 | [!UICONTROL Expiration Period] | Global | Détermine le nombre de secondes avant l’expiration d’une clé/d’un secret inutilisé après le début de l’échange du jeton OAuth. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Authentication Locks]
 
@@ -61,4 +61,4 @@ ht-degree: 1%
 | [!UICONTROL Maximum Login Failures to Lock Out Account] | Global | Indique le Nombre maximal d’échecs d’authentification à verrouiller sur un compte. |
 | [!UICONTROL Lockout Time (seconds)] | Global | Indique la période en secondes au-delà de laquelle le compte est déverrouillé. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

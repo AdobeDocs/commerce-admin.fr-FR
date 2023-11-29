@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Invitations]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Customers] &gt; [!UICONTROL Invitations] de l’administrateur Commerce.
 exl-id: edafeaed-9c4f-4d9f-b35c-381ae5f43b67
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | [!UICONTROL Allow Customers to Add Custom Message to Invitation Email] | Affichage en magasin | Détermine s’il existe un champ dans le formulaire d’invitation dans lequel l’invité peut ajouter un message personnalisé envoyé à l’invité par courrier électronique. Cela n’a aucune incidence sur la capacité de l’administrateur à ajouter un message à une invitation. Options : `Yes` / `No`. |
 | [!UICONTROL Max Invitations Allowed to be Sent at One Time] | Affichage en magasin | Détermine le nombre maximal d’invitations que l’invité peut envoyer à la fois. Une invitation différente est envoyée à chaque adresse électronique que l’invité inclut dans le formulaire. Cela permet de protéger les ressources du serveur en empêchant l’envoi simultané d’un grand nombre d’invitations et réduit le risque d’envoi d’invitations en tant que spam. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email]
 
@@ -44,4 +44,4 @@ ht-degree: 0%
 | [!UICONTROL Customer Invitation Email Sender] | Affichage en magasin | Détermine l’expéditeur de l’email que les invités reçoivent lorsqu’un email d’invitation est envoyé. Valeur par défaut : `General Contact` |
 | [!UICONTROL Customer Invitation Email Template] | Affichage en magasin | Détermine le modèle de courrier électronique que les invités reçoivent lorsqu’un courrier électronique d’invitation est envoyé. Modèle par défaut : `Customer Invitation` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

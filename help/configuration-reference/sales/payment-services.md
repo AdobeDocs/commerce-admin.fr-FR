@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL Payment Services]'
-description: Vérifiez les paramètres de configuration dans le [!UICONTROL Payment Services] de la section [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] de l’administrateur Commerce.
+description: Vérifiez les paramètres de configuration dans la section [!UICONTROL Payment Services] de la section [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] de l’administrateur Commerce.
 exl-id: 255b7bd8-1d32-4393-9eba-43dc7754c752
 feature: Configuration, Payments
-source-git-commit: aafda7f534f4170825edb7c163e4221df2f205bb
+source-git-commit: bf166c1debd7f10a4d988d231a1a47f32c4cea9e
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Les services de paiement offrent une solution de libre-service clé en main, not
 
 Pour accéder aux paramètres de configuration des services de paiement, sur la page _Administration_ de la barre latérale **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** et cliquez sur **[!UICONTROL Settings]**.
 
-![Paramètres des services de paiement](assets/payment-services-menu-small.png){zoomable : non, largeur : 400px}
+![Paramètres des services de paiement](assets/payment-services-menu-small.png){width="400"}
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Pour accéder aux paramètres de configuration des services de paiement, sur la 
 
 ## [!UICONTROL General]
 
-![Paramètres généraux](assets/payments-general-settings.png){zoomable : oui, largeur : 600px}
+![Paramètres généraux](assets/payments-general-settings.png){width="600" zoomable="yes"}
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |---|---|---|
@@ -34,29 +34,29 @@ Pour accéder aux paramètres de configuration des services de paiement, sur la 
 | [!UICONTROL Payment mode] | vue de magasin | Définissez la méthode, ou l’environnement, de votre magasin. Options : [!UICONTROL Sandbox] / [!UICONTROL Production] |
 | [!UICONTROL Sandbox Merchant ID] | vue de magasin | Votre ID de marchand d’environnement de test, qui est généré automatiquement lors de l’intégration des environnements de test. |
 | [!UICONTROL Production Merchant ID] | vue de magasin | Votre identifiant commercial de production, qui est généré automatiquement lors de l’intégration des environnements de test. |
-| [!UICONTROL Soft Descriptor] | site web ou vue de magasin | Ajoutez un descripteur logiciel à votre ou vos sites web et vues de magasin pour ajouter des informations aux transactions client qui délimitent les marques, les magasins ou les lignes de produits. La variable [!UICONTROL Use website] s’applique à tout descripteur logiciel ajouté au niveau du site web. La variable [!UICONTROL Use default] Le bouton bascule applique tout descripteur de type Soft ajouté comme valeur par défaut. |
+| [!UICONTROL Soft Descriptor] | site web ou vue de magasin | Ajoutez un descripteur souple à vos sites web et aux vues des magasins qui fournit des informations sur les transactions des clients et délimite les marques, les magasins ou les lignes de produits. La variable [!UICONTROL Use website] s’applique à tout descripteur logiciel ajouté au niveau du site web. La variable [!UICONTROL Use default] Le bouton bascule applique tout descripteur de type Soft ajouté comme valeur par défaut. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit card fields]
 
-![Paramètres des champs de carte de crédit](assets/payments-ccfields-settings.png){zoomable : oui, largeur : 600px}
+![Paramètres des champs de carte de crédit](assets/payments-ccfields-settings.png){width="600" zoomable="yes"}
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |---|---|---|
-| [!UICONTROL Title] | vue de magasin | Ajoutez le texte à afficher comme titre de cette option de paiement dans la vue Mode de paiement lors de l’extraction. Options : [!UICONTROL text field] |
+| [!UICONTROL Title] | vue de magasin | Ajoutez le texte à afficher comme titre de cette option de paiement dans la vue Mode de paiement lors de l’extraction. |
 | [!UICONTROL Payment Action] | site web | La variable [action de paiement](payment-methods.md#payment-actions) pour le mode de paiement spécifié. Options : [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
 | [!UICONTROL 3DS Secure authentication] | site web | Activer ou désactiver [Authentification sécurisée 3DS](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security-compliance/security.html#3ds). Options : [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | site web | Activez ou désactivez les champs de carte de crédit à afficher sur la page de paiement. Options : [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Vault enabled] | vue de magasin | Activer ou désactiver [coffre-fort à carte de crédit](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Options : [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show vaulted payment methods in Admin] | vue de magasin | Permet d’activer ou de désactiver la possibilité pour le marchand d’exécuter des commandes pour les clients dans l’administrateur. [utilisation d’un mode de paiement par défaut](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Options : [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show vaulted payment methods in Admin] | vue de magasin | Activer ou désactiver la possibilité de terminer les commandes pour les clients dans l’Admin [utilisation d’un mode de paiement par défaut](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Options : [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | site web | Activez ou désactivez le mode de débogage. Options : [!UICONTROL Yes] / [!UICONTROL No] |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment buttons]
 
-![Paramètres des boutons de paiement Paypal](assets/payments-ppbuttons-settings.png){zoomable : oui, largeur : 600px}
+![Paramètres des boutons de paiement Paypal](assets/payments-ppbuttons-settings.png){width="600" zoomable="yes"}
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |---|---|---|
@@ -72,11 +72,12 @@ Pour accéder aux paramètres de configuration des services de paiement, sur la 
 | [!UICONTROL Show Apple Pay button] | vue de magasin | Activez ou désactivez l’option Paiement Apple dans laquelle les boutons de paiement s’affichent. Options : [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal Credit and Debit card button] | vue de magasin | Activez ou désactivez l’option de paiement par carte de crédit et de débit où des boutons de paiement s’affichent. Options : [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | site web | Activez ou désactivez le mode de débogage. Options : [!UICONTROL Yes] / [!UICONTROL No] |
-{:style=&quot;table-layout:auto&quot;}
+
+{style="table-layout:auto"}
 
 ## [!UICONTROL PayPal Smart Button Styling]
 
-![Paramètres de style des boutons de paiement Paypal](assets/payments-buttonstyle-settings.png){zoomable : oui, largeur : 600px}
+![Paramètres de style des boutons de paiement Paypal](assets/payments-buttonstyle-settings.png){width="600" zoomable="yes"}
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -88,4 +89,4 @@ Pour accéder aux paramètres de configuration des services de paiement, sur la 
 | [!UICONTROL Height] | Affichage en magasin | Définissez la hauteur des boutons de paiement. Valeur par défaut : aucune |
 | [!UICONTROL Label] | Affichage en magasin | Définissez le libellé qui apparaît dans les boutons de paiement. Options : [!UICONTROL PayPal] / [!UICONTROL Checkout] / [!UICONTROL Buynow] / [!UICONTROL Pay] / [!UICONTROL Installment] |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
