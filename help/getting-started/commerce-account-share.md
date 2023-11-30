@@ -3,9 +3,9 @@ title: Partager une [!DNL Commerce] account
 description: Découvrez comment accorder un accès limité à votre [!DNL Commerce] compte autre [!DNL Commerce] titulaires de compte.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 11b2f3f9558bf5a36199015247fb96d559bb5fdc
+source-git-commit: adccffa3b9735eaa77f119271d026fa01cd1337b
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ La variable [!DNL Commerce] L’équipe d’assistance n’a pas accès au compt
 
 1. Sous _[!UICONTROL Shared Information]_, procédez comme suit :
 
-   - Pour identifier le compte partagé, saisissez une **[!UICONTROL Share Name]**. Ce nom est à titre de référence interne et n’est visible que par vous et la personne avec laquelle vous partagez votre compte.
+   - Pour identifier le compte partagé, saisissez une **[!UICONTROL Share Name]**. Ce nom est à titre de référence interne et n’est visible que pour vous et la personne avec laquelle vous partagez votre compte. (Ne saisissez pas de nom de partage commençant par `CLOUD SHARED ACCESS FROM MAG XYX`.)
    - Si vous souhaitez partager vos coordonnées personnelles avec le nouvel utilisateur, saisissez **[!UICONTROL Your Email]** et **[!UICONTROL Your Phone]**.
 
 1. Sous _[!UICONTROL Grant Account Permissions]_, cochez la case de chaque [!DNL Commerce] produit et service que vous souhaitez partager.
@@ -95,6 +95,10 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
 1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL Shared Access]**.
 
 1. Recherche du compte à révoquer sous _[!UICONTROL Managing Users & Permissions]_et cliquez sur **[!UICONTROL Delete]**.
+
+   >[!NOTE]
+   >
+   > If  **[!UICONTROL Delete]** n’est pas affiché, vérifiez si la variable **[!UICONTROL Share Name]** commence par `Cloud Shared Access from MAG XYZ` - généralement, [ces comptes ;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) ne peut pas être supprimé.
 
 1. Lorsque vous y êtes invité, cliquez sur **[!UICONTROL Delete User]**.
 
