@@ -1,32 +1,32 @@
 ---
-title: '''[!DNL Business Intelligence] outils'
-description: Découvrez comment Adobe Commerce et les marchands Magento Open Sources peuvent utiliser des outils d’intelligence d’entreprise pour obtenir des informations utiles pour prendre des décisions commerciales saines.
+title: '''[!DNL Commerce Intelligence] outils'
+description: Découvrez comment Adobe Commerce et les marchands Magento Open Sources peuvent utiliser les outils de veille commerciale pour obtenir les informations nécessaires pour prendre des décisions professionnelles avisées.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
 
-# [!DNL Business Intelligence] outils
+# [!DNL Commerce Intelligence] outils
 
-Utilisez les outils de Business Intelligence pour obtenir les informations nécessaires à la prise de décisions professionnelles judicieuses.
+Utilisez les outils de renseignements commerciaux pour obtenir les informations nécessaires à la prise de décisions professionnelles judicieuses.
 
-## [!DNL Business Intelligence] account
+## [!DNL Commerce Intelligence] account
 
-Lorsque vous activez une [!DNL Business Intelligence] via Adobe, vous avez accès à cinq tableaux de bord contenant environ 70 rapports. Ces rapports sont conçus pour fournir des informations sur vos données et répondre à des questions telles que &quot;Comment mes commandes augmentent-elles d’un mois à l’autre ?&quot;, &quot;Qui sont mes clients les plus fidèles ?&quot; et &quot;Ma stratégie de bons fonctionne-t-elle ?&quot;. Pour plus d’informations sur cet ensemble d’outils, voir [Guide de l’utilisateur MBI][1].
+Lorsque vous activez une [!DNL Commerce Intelligence] via Adobe, vous avez accès à cinq tableaux de bord contenant environ 70 rapports. Ces rapports sont conçus pour fournir des informations sur vos données et répondre à des questions telles que &quot;Comment mes commandes augmentent-elles d’un mois à l’autre ?&quot;, &quot;Qui sont mes clients les plus fidèles ?&quot; et &quot;Ma stratégie de bons fonctionne-t-elle ?&quot;. Pour plus d’informations sur cet ensemble d’outils, voir [Guide de l’utilisateur de Commerce Intelligence][1].
 
 ## [!DNL Advanced Reporting]
 
-[!DNL Advanced Reporting] est inclus dans Adobe Commerce et Magento Open Source. Cette fonctionnalité vous donne accès à une suite de rapports dynamiques reposant sur les données de vos produits, commandes et clients, avec un tableau de bord personnalisé adapté aux besoins de votre entreprise. while [!DNL Advanced Reporting] uses [!DNL Business Intelligence] pour analytics, il n’est pas nécessaire d’avoir un compte de Business Intelligence à utiliser. [!DNL Advanced Reporting].
+[!DNL Advanced Reporting] est inclus dans Adobe Commerce et Magento Open Source. Cette fonctionnalité vous donne accès à une suite de rapports dynamiques reposant sur les données de vos produits, commandes et clients, avec un tableau de bord personnalisé adapté aux besoins de votre entreprise. while [!DNL Advanced Reporting] uses [!DNL Commerce Intelligence] pour analytics, il n’est pas nécessaire de disposer d’un compte Commerce Intelligence à utiliser. [!DNL Advanced Reporting].
 
 Pour obtenir des informations techniques, voir [[!DNL Advanced Reporting]][2]Rubrique {:target=&quot;_blank&quot;} dans la documentation destinée aux développeurs.
 
 >[!NOTE]
 >
->[!DNL Business Intelligence] Les comptes utilisent la création de rapports intégrée, plutôt que la variable [!DNL Advanced Reporting] fonction .
+>[!DNL Commerce Intelligence] Les comptes utilisent la création de rapports intégrée, plutôt que la variable [!DNL Advanced Reporting] fonction .
 
 ![Tableau de bord des rapports avancés](./assets/reporting-advanced.png){width="700"}
 
