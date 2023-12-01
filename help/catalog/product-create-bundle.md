@@ -3,9 +3,9 @@ title: Produit groupé
 description: Découvrez comment créer un produit groupé qui permet aux acheteurs de créer un produit personnalisé dans votre boutique.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Les options s’affichent lorsque le client clique sur l’une des options suiva
 >[!NOTE]
 >
 >Le prix publicitaire minimum (MAP) n’est pas disponible pour les produits Bundle qui utilisent la tarification dynamique.
+
+>[!NOTE]
+>
+>Le produit du lot parent s’affiche toujours automatiquement sous la forme d’un produit de vente incitative pour tous ses produits enfants.
 
 If [achat instantané](../stores-purchase/checkout-instant-purchase.md) est disponible, la variable _achat instantané_ apparaît sous le bouton _Ajouter au panier_ pour chaque élément du lot.
 
@@ -276,3 +280,5 @@ L’état du stock de produits en bundle est **_n’est pas automatiquement remp
 ![Case à cocher](../assets/checkbox.png) La quantité peut être une valeur prédéfinie ou définie par l’utilisateur. Toutefois, n’affectez pas la variable _[!UICONTROL User Defined]_à la case à cocher ou à des types d’entrée à sélection multiple.
 
 ![Case à cocher](../assets/checkbox.png) Les éléments en bundle peuvent être livrés ensemble ou séparément.
+
+![Case à cocher](../assets/checkbox.png) Le produit du lot parent s’affiche toujours automatiquement sous la forme d’un produit de vente incitative pour tous ses produits enfants.

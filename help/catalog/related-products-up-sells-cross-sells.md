@@ -3,9 +3,9 @@ title: Paramètres du produit - [!UICONTROL Related Products, Up-Sells, and Cros
 description: Pour un produit, la variable [!UICONTROL Related Products, Up-Sells, and Cross-Sells] les paramètres définissent des blocs promotionnels simples sur la page produit qui mettent en évidence une sélection de produits supplémentaires.
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,10 @@ Pour sélectionner des produits de vente incitative :
    ![Vente de produits](./assets/product-up-sell-add.png){width="600" zoomable="yes"}
 
 1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Add Selected Products]**.
+
+>[!NOTE]
+>
+>Le produit du lot parent s’affiche toujours automatiquement sous la forme d’un produit de vente incitative pour tous ses produits enfants.
 
 ## Ventes croisées
 
