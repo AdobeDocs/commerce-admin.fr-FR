@@ -3,9 +3,9 @@ title: Programmes de récompense et de fidélité
 description: Découvrez le système de points de récompense que vous pouvez utiliser pour stimuler l’engagement des clients et promouvoir la fidélité de vos clients.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: 9d775e8e8521032dc58f6cd1ed7796595db745a0
+source-git-commit: 3376b6f4fd558f7dd10133beeabf87e7228776a1
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Au cours de cette étape, le nombre de points de récompense pouvant être gagn�
 
    ![Configuration des clients : actions d’acquisition de points de récompense par le client](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
-1. Pour afficher dans le panier un message qui comprend les points de récompense gagnés pour l’achat et le solde actuel du point de récompense du client, définissez **[!UICONTROL Purchase]** to `Yes`.
+1. Pour permettre l’obtention de points de récompense pour les achats en fonction de la configuration [Taux de change de récompense](reward-exchange-rates.md), définit **[!UICONTROL Purchase]** to `Yes`.
 
    >[!NOTE]
    >
