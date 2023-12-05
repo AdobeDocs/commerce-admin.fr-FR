@@ -3,9 +3,9 @@ title: Produit groupé
 description: Découvrez comment créer un produit groupé qui permet aux acheteurs de créer un produit personnalisé dans votre boutique.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
+source-git-commit: eca41f653aa6499743982199f067d6df86079010
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,10 @@ Le formulaire est mis à jour pour refléter la modification.
    - Pour que le prix reflète les options sélectionnées par le client, définissez **[!UICONTROL Dynamic Price]** to `Yes` et quittez **[!UICONTROL Price]** vide.
 
    - Pour facturer un prix fixe pour le lot, définissez **[!UICONTROL Dynamic Price]** to `No` et saisissez la variable **[!UICONTROL Price]** que vous souhaitez charger pour le lot.
+
+   >[!NOTE]
+   >
+   >[!UICONTROL Special Price] et [!UICONTROL Customer Group Price] (Prix de niveau) sont toujours définis comme pourcentage de remise pour tous les types de produits regroupés.
 
 1. Comme le produit n’est pas encore prêt à être publié, définissez **[!UICONTROL Enable Product]** to `No`.
 
@@ -282,3 +286,5 @@ L’état du stock de produits en bundle est **_n’est pas automatiquement remp
 ![Case à cocher](../assets/checkbox.png) Les éléments en bundle peuvent être livrés ensemble ou séparément.
 
 ![Case à cocher](../assets/checkbox.png) Le produit du lot parent s’affiche toujours automatiquement sous la forme d’un produit de vente incitative pour tous ses produits enfants.
+
+![Case à cocher](../assets/checkbox.png) [!UICONTROL Special Price] et [!UICONTROL Customer Group Price] (Prix de niveau) sont toujours définis comme pourcentage de remise pour tous les types de produits regroupés.
