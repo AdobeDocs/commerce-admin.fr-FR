@@ -3,9 +3,9 @@ title: URL de magasin
 description: Découvrez les URL de magasin et comment configurer l’URL de base et les codes de magasin.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 555c54e9a980aa181e0b4380412ad027d80ee10f
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Adobe Commerce et Magento Open Source peuvent être configurés pour diffuser to
 
 1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Base URL]** .
 
-   - **[!UICONTROL Base URL]** — Saisissez l’URL de base complète pour votre magasin. Veillez à terminer l’URL par une barre oblique afin qu’elle puisse être étendue à l’aide de clés URL supplémentaires provenant de votre magasin. Par exemple: `http://yourdomain.com/`
+   - **[!UICONTROL Base URL]** — Saisissez l’URL de base complète pour votre magasin. Veillez à terminer l’URL par une barre oblique afin qu’elle puisse être étendue à l’aide de clés URL supplémentaires provenant de votre magasin. Par exemple : `http://yourdomain.com/`
 
      >[!NOTE]
      >
@@ -74,7 +74,7 @@ Si votre domaine dispose d’un certificat de sécurité valide, vous pouvez con
 
    ![Configuration générale - URL de base sécurisées](../configuration-reference/general/assets/web-base-urls-secure.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Secure Base URL]** — Saisissez l’URL de base sécurisée complète, suivie d’une barre oblique. Par exemple: `https://yourdomain.com/`
+   - **[!UICONTROL Secure Base URL]** — Saisissez l’URL de base sécurisée complète, suivie d’une barre oblique. Par exemple : `https://yourdomain.com/`
 
    - **[!UICONTROL Secure Base Link URL]** — Ne modifiez pas l’espace réservé dans le champ URL du lien de base sécurisé. Il est utilisé pour créer des liens relatifs vers l’URL de base sécurisée.
 
@@ -137,7 +137,7 @@ Si, après avoir suivi les instructions de configuration, certaines pages contin
 
 ## Utilisation d’une URL d’administration personnalisée
 
-Comme [bonne pratique en matière de sécurité](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf), Adobe vous recommande d’utiliser une URL d’administration unique plutôt que la valeur par défaut. _admin_ ou un terme commun, tel que _backend_. Bien qu’il ne protège pas directement votre site d’un mauvais acteur déterminé, il peut réduire l’exposition aux scripts qui tentent d’obtenir un accès non autorisé.
+Comme [bonne pratique en matière de sécurité](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), Adobe vous recommande d’utiliser une URL d’administration unique plutôt que la valeur par défaut. _admin_ ou un terme commun, tel que _backend_. Bien qu’il ne protège pas directement votre site d’un mauvais acteur déterminé, il peut réduire l’exposition aux scripts qui tentent d’obtenir un accès non autorisé.
 
 >[!NOTE]
 >
@@ -153,7 +153,7 @@ Bien qu’il soit possible de modifier l’URL d’administration et le chemin d
 
 >[!NOTE]
 >
->Par mesure de précaution, n’essayez pas vous-même de modifier l’URL d’administration, sauf si vous savez comment modifier les fichiers de configuration sur le serveur.
+>Par mesure de précaution, n’essayez pas vous-même de modifier l’URL d’administration, sauf si vous savez comment modifier les fichiers de configuration sur le serveur. Pour les projets Adobe Commerce déployés sur l’infrastructure cloud, modifiez l’URL d’administration en procédant comme suit : [instructions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) dans le *Guide d’infrastructure d’Adobe Commerce on Cloud*.
 
 ### Méthode 1 : modification depuis l’administrateur
 
