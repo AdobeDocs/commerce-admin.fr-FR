@@ -1,12 +1,12 @@
 ---
-title: '[!DNL New Relic]'' reporting '''
-description: Découvrez les rapports disponibles pour les [!DNL New Relic] comptes de l’infrastructure cloud Adobe Commerce, qui inclut le logiciel du service New Relic APM.
+title: '[!DNL New Relic] rapport'
+description: En savoir plus sur les [!DNL New Relic] création de rapports pour les comptes d’Adobe Commerce sur l’infrastructure cloud, qui inclut le logiciel du service New Relic APM.
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
 feature: System
-source-git-commit: e9a7645aed0e3b48bf565b04cdb6a31ce5d39ca0
+source-git-commit: 0651a2489a396ab142b60a8678d6c7590fd5f9ee
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1382'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 ## Étape 1 : inscription à un [!DNL New Relic] account
 
-1. Accédez au [[!DNL New Relic]][1] site Web et créez un compte.
+1. Accédez au [[!DNL New Relic]][1] et abonnez-vous à un compte.
 
-   Vous pouvez également créer un compte d’essai gratuit.
+   Vous pouvez également vous abonner à un compte d’essai gratuit.
 
 1. Suivez les instructions sur le site. Lorsque vous y êtes invité, choisissez d’abord le produit que vous souhaitez installer.
 
@@ -28,7 +28,7 @@ ht-degree: 0%
    | Option | Description |
    | ------ | ----------- |
    | Identifiant de compte | Dans [!DNL New Relic] tableau de bord du compte, l’ ID de compte est le numéro de l’URL suivant : `/accounts` |
-   | ID de l’application | Dans [!DNL New Relic] tableau de bord du compte, cliquez sur **[!UICONTROL New Relic APM]**. Dans le menu, choisissez **[!UICONTROL Applications]**. Sélectionnez ensuite votre application. L’ID de l’application est le numéro de l’URL suivant : `/applications/` |
+   | ID de l’application | Dans [!DNL New Relic] tableau de bord du compte, cliquez sur **[!UICONTROL New Relic APM]**. Dans le menu, choisissez **[!UICONTROL Applications]**. Sélectionnez ensuite votre application. L’ID d’application est le numéro dans l’URL après : `/applications/` |
    | Clé API New Relic | Dans [!DNL New Relic] tableau de bord du compte, cliquez sur **[!UICONTROL Account Settings]**. Dans le menu de gauche sous Intégrations, sélectionnez **[!UICONTROL Data Sharing]**. Vous pouvez créer, régénérer ou supprimer votre clé API à partir de cette page. |
    | Clé API Insights | Dans [!DNL New Relic] tableau de bord du compte, cliquez sur **[!UICONTROL Insights]**. Dans le menu de gauche sous Administration, choisissez **[!UICONTROL API Keys]**. Vos clés d’API Insights apparaissent sur cette page. Si nécessaire, cliquez sur le signe plus (**+**) en regard de l’option Insérer des clés pour générer une clé. |
 
@@ -49,6 +49,11 @@ Pour utiliser [!DNL New Relic APM Pro] pour collecter et transmettre des donné
    Pour en savoir plus, voir [Configuration et exécution de cron][5] dans la documentation destinée aux développeurs.
 
 ## Étape 3 : Configuration de votre magasin
+
+>[!NOTE]
+>Ces options de configuration ne s’appliquent pas à Adobe Commerce sur l’infrastructure cloud.
+>
+>Si vous êtes sur le plan Pro, New Relic est déjà [préconfiguré et activé par défaut](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Si vous êtes en formule de démarrage, vous devez renseigner la variable [Étapes de configuration de New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) qui font partie du processus de configuration.
 
 1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -72,17 +77,17 @@ Pour utiliser [!DNL New Relic APM Pro] pour collecter et transmettre des donné
 
 1. (Facultatif) Pour **[!UICONTROL Send Adminhtml and Frontend as Separate Apps]**, sélectionnez `Yes` pour envoyer les données collectées pour storefront et Admin en tant qu’applications distinctes à New Relic.
 
-   Cette option nécessite la saisie d’un nom pour le **[!UICONTROL New Relic Application Name]** fichier .
+   Cette option nécessite la saisie d’un nom pour la variable **[!UICONTROL New Relic Application Name]**.
 
    >[!NOTE]
    >
-   >L’activation de cette fonction réduit le nombre de faux positifs. [!DNL New Relic] alertes et permet une surveillance et des alertes configurées uniquement pour les performances frontales. New Relic reçoit des fichiers de données d’application distincts auxquels sont ajoutés les noms de l’application `Adminhtml` et frontal. Par exemple: `MyStore_Adminhtml`
+   >L’activation de cette fonction réduit le nombre de faux positifs. [!DNL New Relic] alertes et permet une surveillance et des alertes configurées uniquement pour les performances frontales. New Relic reçoit des fichiers de données d’application distincts auxquels sont ajoutés les noms de l’application `Adminhtml` et frontal. Par exemple : `MyStore_Adminhtml`
 
 1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
 
 ## Étape 4 : activation de Cron pour [!DNL New Relic] reporting
 
-1. Développez ![le sélecteur d’expansion de](../assets/icon-display-expand.png) la **[!UICONTROL Cron]** section.
+1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Cron]** .
 
    ![Configuration de New Relic Cron](./assets/new-relic-reporting-cron.png){width="600"}
 
@@ -104,14 +109,14 @@ Renvoie le nombre d’utilisateurs administrateurs actifs.
     FROM Transaction
     WHERE appName=&#39;&lt;your_app_name>&#39; DEPUIS 15 minutes
 
-#### Utilisateurs administrateurs actuellement actifs
+#### Utilisateurs d’administration actuellement actifs
 
 Renvoie les noms des utilisateurs administrateurs actifs.
 
     SELECT uniques(AdminName)
     FROM Transaction
     WHERE appName=&#39;&lt;your_app_name>&#39; DEPUIS 15 minutes
-&lt;/your_app_name>
+
 #### Activité d’administration récente
 
 Renvoie le nombre d’actions administrateur récentes.
@@ -133,7 +138,7 @@ Renvoie des informations détaillées sur les actions d’administration récent
 
 #### Nombre de catégories
 
-Renvoie le nombre d’événements d’application par catégorie au cours de la période spécifiée.
+Renvoie le nombre d’événements d’application par catégorie pendant la période spécifiée.
 
     SELECT average(CatalogCategoryCount)
     DE Cron
@@ -145,11 +150,11 @@ Renvoie le nombre d’événements d’application par catégorie au cours de la
 Renvoie le nombre moyen d’événements d’application dans le catalogue par catégorie durant une période donnée.
 
     SELECT average(CatalogCategoryCount)
-    DE Cron
-    OÙ CatalogCategoryCount N’EST PAS NULL
+    FROM Cron
+    WHERE CatalogCategoryCount IS NOT NULL
     ET CatalogCategoryCount > 0
-    AND appName = &#39;&lt;your_app_name>&#39; DEPUIS 2 minutes LIMIT 1
-
+    AND appName = &#39;&lt;your_app_name>&#39; DEPUIS 2 minutes LIMITE 1
+&lt;/your_app_name>
 #### Produits actifs
 
 Renvoie le nombre d’événements d’application par produit au cours de la période spécifiée.
@@ -286,7 +291,7 @@ Renvoie les noms des clients actifs pendant la période spécifiée.
     SELECT uniques(CustomerName)
     FROM Transaction
     WHERE appName=&#39;&lt;your_app_name>&#39; DEPUIS 15 minutes
-&lt;/your_app_name>
+
 #### Clients principaux
 
 Renvoie les principaux clients pendant la période spécifiée.
@@ -297,7 +302,7 @@ Renvoie les principaux clients pendant la période spécifiée.
 
 #### Activité d’administration récente
 
-Renvoie un nombre défini d’enregistrements d’activité récente, qui incluent le nom du client et la durée de la visite.
+Renvoie un nombre défini d’enregistrements d’activité récente, incluant le nom du client et la durée de la visite.
 
     SELECT CustomerName, duration, name
     FROM Transaction
@@ -312,18 +317,18 @@ Renvoie un nombre défini d’enregistrements d’activité récente, qui inclue
 Renvoie le nombre de commandes passées pendant la période spécifiée.
 
     SELECT count(Order)
-    DEPUIS LA Transaction DEPUIS 1 jour
+    FROM Transaction SINCE 1 day ago
 
 #### Valeur totale de la commande
 
 Renvoie le nombre total d’éléments de ligne commandés au cours de la période spécifiée.
 
     SELECT sum(orderValue)
-    DEPUIS LA Transaction DEPUIS 1 jour
+    FROM Transaction DEPUIS 1 jour auparavant
 
-#### Nombre total de lignes commandées
+#### Nombre total d’éléments commandés
 
-Renvoie le nombre total d’éléments de ligne commandés au cours de la période spécifiée.
+Renvoie le nombre total d’articles commandés au cours d’une période spécifiée.
 
     SELECT sum(lineItemCount)
     DEPUIS LA Transaction DEPUIS 1 jour
