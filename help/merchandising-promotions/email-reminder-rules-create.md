@@ -3,16 +3,16 @@ title: Créer des rappels par courrier électronique
 description: Découvrez comment configurer une règle de rappel par email qui utilise une règle de prix de panier existante.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: b750accf7aab49357f04e16dc60791e704516141
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
 
 # Créer des rappels par courrier électronique
 
-Avant de configurer une règle de rappel par email, vous devez d’abord configurer une règle de prix de panier pour définir la promotion qui est proposée. Les conditions de règle qui déclenchent un rappel d’email peuvent être basées sur les propriétés du panier, les propriétés de liste bloquée ou les deux.
+Avant de configurer une règle de rappel par courrier électronique, vous devez d’abord [configuration d’une règle de prix de panier](price-rules-cart-create.md) pour définir la promotion proposée. Les conditions de règle qui déclenchent un rappel d’email peuvent être basées sur les propriétés du panier, les propriétés de liste bloquée ou les deux.
 
 >[!NOTE]
 >
@@ -55,7 +55,9 @@ Avant de configurer une règle de rappel par email, vous devez d’abord configu
 
    >[!NOTE]
    >
-   >Si un client possède plusieurs paniers abandonnés correspondants, une liste de souhaits ou une combinaison des deux, le rappel par e-mail n’est déclenché qu’une seule fois pour ce client. Pour déclencher à nouveau le même rappel par e-mail, utilisez le _[!UICONTROL Repeat Schedule]_pour définir le nombre de jours entre les emails.
+   >Si un client possède plusieurs paniers abandonnés correspondants, une liste de souhaits ou une combinaison des deux, le rappel par e-mail n’est déclenché qu’une seule fois pour ce client. Pour déclencher à nouveau le même rappel par e-mail, utilisez le _[!UICONTROL Repeat Schedule]_pour définir le nombre de jours entre les emails. <br/>
+   >
+   >Le même rappel par courrier électronique est : **_non redéclenché_** pour le même client pour **_new_** paniers abandonnés et listes de souhaits **_after_** la valeur _[!UICONTROL Repeat Schedule]_point est terminé.
 
    Renseignez la condition pour décrire le scénario qui déclenche le rappel par courrier électronique.
 
