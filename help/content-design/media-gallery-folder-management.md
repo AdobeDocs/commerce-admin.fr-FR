@@ -3,10 +3,10 @@ title: Gestion des dossiers Media Gallery
 description: Découvrez comment utiliser des dossiers pour organiser vos ressources multimédia.
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 65521c2b2113768ebec43b3aadac487d4d07c3a0
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 1%
+source-wordcount: '139'
+ht-degree: 0%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 1%
 Utilisation de dossiers pour organiser les images dans la nouvelle [Galerie de médias](media-gallery.md). À mesure que le nombre de ressources multimédia augmente, les dossiers facilitent la localisation et la gestion des ressources existantes dans votre galerie multimédia.
 
 ## Création d’un dossier
+
+>[!NOTE]
+>
+>Vous pouvez uniquement créer un dossier dans la variable `pub/media/wysywig` et `pub/media/catalog/category` dossiers.
 
 1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
@@ -30,7 +34,7 @@ Utilisation de dossiers pour organiser les images dans la nouvelle [Galerie de m
 
 >[!WARNING]
 >
->La suppression d’un dossier entraîne la suppression de toutes les images qu’il contient.
+>La suppression d’un dossier entraîne la suppression de toutes les images qu’il contient. Vous pouvez uniquement supprimer un dossier dans la variable `pub/media/wysywig` et `pub/media/catalog/category` dossiers.
 
 1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
