@@ -3,9 +3,9 @@ title: Produit groupé
 description: Découvrez comment créer un produit groupé qui permet aux acheteurs de créer un produit personnalisé dans votre boutique.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: eca41f653aa6499743982199f067d6df86079010
+source-git-commit: e38958bb57251ccc9409b849abc1aadb82ff0a54
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1551'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 Un lot est un _créer votre propre_, produit personnalisable. Chaque élément d’un lot peut être basé sur l’un des types de produits suivants :
 
 - [Produit simple](product-create-simple.md)
+- [Produit virtuel](product-create-virtual.md)
+- [Produit téléchargeable](product-create-downloadable.md)
 - [Produit virtuel](product-create-virtual.md)
 
 ![Produit groupé](./assets/product-bundle.png){width="700" zoomable="yes"}
