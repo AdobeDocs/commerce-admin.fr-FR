@@ -3,9 +3,9 @@ title: Produit groupé
 description: Découvrez comment créer un produit groupé qui permet aux acheteurs de créer un produit personnalisé dans votre boutique.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 891b94d84ed411232aa163f99bb110780d399dfb
+source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1579'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Le formulaire est mis à jour pour refléter la modification.
 
 1. Pour déterminer le prix du lot, effectuez l’une des opérations suivantes :
 
-   - Pour que le prix reflète les options sélectionnées par le client, définissez **[!UICONTROL Dynamic Price]** to `Yes` et quittez **[!UICONTROL Price]** vide.
+   - Pour que le prix reflète les options sélectionnées par le client, définissez **[!UICONTROL Dynamic Price]** to `Yes` et quittez **[!UICONTROL Price]** vide. Dans ce cas, un produit groupé n’a pas son propre prix du catalogue et le prix du produit est dérivé du prix des produits individuels inclus dans le lot.
 
    - Pour facturer un prix fixe pour le lot, définissez **[!UICONTROL Dynamic Price]** to `No` et saisissez la variable **[!UICONTROL Price]** que vous souhaitez charger pour le lot.
 

@@ -3,9 +3,9 @@ title: Produit groupé
 description: Découvrez comment créer un produit groupé constitué de produits autonomes simples présentés sous la forme d’un groupe.
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 140930df515d1e0604b18a4ebf689254b9487b53
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ Pour ajouter un attribut existant au produit, utilisez la variable [contrôles d
 1. Acceptation de la valeur par défaut **[!UICONTROL SKU]** selon le nom du produit ou saisissez-en un autre.
 
    Notez que la variable **[!UICONTROL Quantity]** n’est pas disponible, car la valeur est dérivée des produits individuels qui constituent le groupe.
+
+   Un produit groupé n’a pas son propre prix dans le catalogue. Le prix du produit regroupé est dérivé du prix des produits individuels inclus dans le groupe.
 
 1. Comme le produit n’est pas encore prêt à être publié, définissez **[!UICONTROL Enable Product]** to `No` ( ![Activer/désactiver](../assets/toggle-no.png) ).
 
@@ -189,5 +191,7 @@ Si vous disposez d’une image différente pour chaque produit du groupe, vous p
 - Les produits enfants groupés peuvent être simples, téléchargeables ou virtuels. **[!UICONTROL without custom options]**.
 
 - Chaque article acheté apparaît individuellement dans le panier, plutôt que dans le cadre du groupe.
+
+- Un produit groupé n’a pas son propre prix dans le catalogue. Le prix du produit regroupé est dérivé du prix des produits individuels inclus dans le groupe.
 
 - L’image miniature du panier peut être définie pour afficher l’image du produit parent groupé ou du produit associé.

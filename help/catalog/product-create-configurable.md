@@ -3,9 +3,9 @@ title: Produit configurable
 description: Découvrez comment créer un produit configurable qui fournit aux acheteurs des variantes de sélection.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6140fda2769e109d2b38c2f9c458f67097dff0a
 workflow-type: tm+mt
-source-wordcount: '2416'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
@@ -204,6 +204,10 @@ Comme l’image du produit parent est déjà téléchargée, vous pouvez utilise
 
 Utilisez l’une des méthodes suivantes pour configurer le **[!UICONTROL prices]**:
 
+>[!NOTE]
+>
+>Un produit configurable n’a pas son propre prix dans le catalogue. Le prix configurable du produit est dérivé de son [!UICONTROL In Stock] produits enfants.
+
 **Méthode 1 :** Appliquer le même prix à tous les SKU
 
 1. Si le prix est le même pour toutes les variations, sélectionnez **[!UICONTROL Apply single price to all SKUs]**.
@@ -373,6 +377,8 @@ La variable _État du stock_ du produit configurable est partiellement contrôl�
 - [État du stock](../inventory-management/sources-stocks.md) pour un produit configurable est un paramètre contrôlé semi-manuellement. Il diffère de l’état du stock du produit simple, où il représente directement la disponibilité du produit. Pour un produit configurable, l’état du stock fait partie du calcul de l’état du stock à plusieurs critères.
 
 - Les produits enfants configurables peuvent être simples ou virtuels. **sans options personnalisées**. Pour rendre des produits enfants personnalisés virtuels, vous devez sélectionner `Тhis item has no weight` pour le **[!UICONTROL Weight]** pour chacune d’elles.
+
+- Un produit configurable n’a pas son propre prix dans le catalogue. Le prix configurable du produit est dérivé de son [!UICONTROL In Stock] produits enfants.
 
 - Les attributs utilisés pour les variations de produit doivent avoir une portée globale et le client doit être tenu de choisir une valeur. Les attributs de variation de produit doivent être inclus dans le jeu d’attributs utilisé comme modèle pour le produit configurable.
 

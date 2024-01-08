@@ -3,9 +3,9 @@ title: Produit de carte-cadeau
 description: Découvrez comment créer un produit de carte-cadeau qui produit un code unique à racheter par un client destinataire lors de son passage en caisse.
 exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 feature: Catalog Management, Products, Gift
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: e72977596c4479d2e94b1e066ee166d22cb12405
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,10 @@ Vous pouvez utiliser la valeur par défaut `Gift Card` ensemble d’attributs ou
    - Pour définir la plage de valeurs minimales et maximales acceptables, saisissez la variable **[!UICONTROL Open Amount From]** et **[!UICONTROL To]** valeurs.
 
    Vous pouvez créer des cartes-cadeaux avec prix fixe, prix d’ouverture ou les deux.
+
+   >[!NOTE]
+   >
+   >Un produit de carte-cadeau n’a pas son propre prix dans le catalogue. Le prix de la carte-cadeau est dérivé du montant de la carte-cadeau sélectionnée lors de l’achat.
 
    ![Montants des cartes cadeau](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
 
@@ -152,5 +156,7 @@ Renseignez les informations des sections suivantes si nécessaire :
 - La durée de vie d’une carte-cadeau peut être illimitée ou définie sur un nombre spécifié de jours.
 
 - La valeur d’une carte-cadeau peut être définie sur un montant fixe ou sur un montant ouvert avec une valeur minimale et maximale.
+
+- Un produit de carte-cadeau n’a pas son propre prix dans le catalogue. Le prix de la carte-cadeau est dérivé du montant de la carte-cadeau sélectionnée lors de l’achat.
 
 - Un compte de carte-cadeau pour le client peut être créé lorsque la commande est passée ou au moment de la facture.
