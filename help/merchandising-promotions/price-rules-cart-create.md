@@ -3,9 +3,9 @@ title: Créer une règle de prix de panier
 description: Découvrez comment créer une règle de prix de panier basée sur les attributs de panier ou de produit.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: bf52884cb0eccd4d9c7326a95f8600a3ed950918
+source-git-commit: 4f6847208721514eade48356ec27a021ba4fb612
 workflow-type: tm+mt
-source-wordcount: '2885'
+source-wordcount: '2971'
 ht-degree: 0%
 
 ---
@@ -240,13 +240,13 @@ Les actions de la règle de prix du panier décrivent comment les prix sont mis 
    | `Percent of product price discount` | Remise l&#39;article en soustrayant un pourcentage du prix d&#39;origine. La remise s’applique à chaque article éligible du panier. Par exemple : saisissez `10` in [!UICONTROL Discount Amount] pour un prix mis à jour qui est 10 % inférieur au prix d’origine. |
    | `Fixed amount discount` | Remise un article en soustrayant un montant fixe du prix d’origine de chaque article admissible dans le panier. Par exemple : saisissez `10` in [!UICONTROL Discount Amount] pour un prix mis à jour qui est 10 $ de moins que le prix original. |
    | Remise de montant fixe pour le panier entier | Remplace l’intégralité du panier en soustrayant un montant fixe du total du panier. Par exemple : saisissez 10 dans [!UICONTROL Discount Amount] pour soustraire 10 $ du total du panier. Par défaut, la remise ne s&#39;applique qu&#39;au sous-total du panier. Pour appliquer la remise au sous-total et à l’expédition séparément, utilisez la variable _[!UICONTROL Apply to Shipping Amount]_. |
-   | `Buy X get Y free` | Définit une quantité que le client doit acheter pour recevoir gratuitement une quantité. (La variable [!UICONTROL Discount Amount] est Y.) |
+   | `Buy X get Y free` | Définit une quantité X que le client doit acheter pour recevoir une quantité Y **du même produit/même variation** gratuitement. (La variable [!UICONTROL Discount Amount] est Y.) Une quantité totale de X+Y de cet article doit être présente/ajoutée au panier pour que la remise soit appliquée. |
 
    {style="table-layout:auto"}
 
    - Saisissez le **[!UICONTROL Discount Amount]** comme un nombre, sans symboles. Par exemple, selon l’option de remise sélectionnée, le nombre 10 peut indiquer un pourcentage, un montant fixe ou une quantité d’articles.
 
-   - Pour un _Buy X get Y Free_ remise, saisissez la quantité dans la variable **[!UICONTROL Discount Qty Step (Buy X)]** champ que le client doit acheter pour recevoir la remise.
+   - Pour un _Buy X get Y Free_ remise, saisissez la quantité dans la variable **[!UICONTROL Discount Qty Step (Buy X)]** champ d’un seul produit/SKU/article que le client doit acheter pour recevoir la remise sur la quantité Y. Les valeurs X et Y font référence aux quantités d’un même SKU, et cette quantité spécifique (les variantes d’un produit configurable sont comptabilisées séparément) de l’article doit être ajoutée manuellement au panier.
 
    - Dans le **[!UICONTROL Maximum Qty Discount is Applied To]** , saisissez la quantité maximale du même produit pouvant bénéficier de la remise au cours du même achat.
 
