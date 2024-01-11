@@ -3,9 +3,9 @@ title: Règles de catégorie pour le marchandisage
 description: Découvrez comment créer une règle pour modifier dynamiquement les sélections de produits en fonction d’un ensemble de conditions.
 exl-id: 765b863a-bb83-418b-9fca-ef0a148b09eb
 feature: Categories, Merchandising
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 50951e5aae51067cdba2d8b50c1e530c7f79007a
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Les règles de produits de catégorie peuvent accélérer le processus d’attri
 
    ![Tri automatique](./assets/automatic-sorting-field.png){width="600" zoomable="yes"}
 
-   Le tri est basé sur les conditions actuelles :
+   Les options d’ordre de tri sont définies globalement et appliquées selon les conditions actuelles. Vous ne pouvez pas définir un ordre de tri différent pour le niveau d’affichage du site web, du magasin ou du magasin.
 
    | Option de tri | Description |
    |-----------| -----------|
