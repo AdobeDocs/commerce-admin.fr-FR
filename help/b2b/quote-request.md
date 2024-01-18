@@ -4,9 +4,9 @@ description: Découvrez comment les clients associés à un compte d’entrepris
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 21361104fa06425df0b44d5c7ae204ef4d9e21ac
+source-git-commit: 265ec236d8391f676c876bcd95c610a8e72f4e70
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Si les guillemets sont activés dans la variable [Configuration des fonctionnali
 1. Le client se connecte à son compte utilisateur en tant qu’acheteur avec [autorisation](account-company-roles-permissions.md) pour demander un devis.
 
 1. Ajoute au panier les produits qu’il souhaite inclure dans le guillemet.
+
+   >[!TIP]
+   > 
+   >Si vous disposez d’une liste de SKU de produit à commander, ajoutez-les plus rapidement au panier en utilisant [Ordre rapide](quick-order.md).
 
 1. Sélection **[!UICONTROL Request a Quote]**.
 
