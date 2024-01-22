@@ -4,9 +4,9 @@ description: Découvrez comment les clients associés à un compte d’entrepris
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 265ec236d8391f676c876bcd95c610a8e72f4e70
+source-git-commit: b53d77364f09e587813c50221ebd85ac633f1296
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -23,17 +23,17 @@ Si les guillemets sont activés dans la variable [Configuration des fonctionnali
 
 1. Le client se connecte à son compte utilisateur en tant qu’acheteur avec [autorisation](account-company-roles-permissions.md) pour demander un devis.
 
-1. Ajoute au panier les produits qu’il souhaite inclure dans le guillemet.
+1. Ajoute les produits à inclure dans le guillemet au panier.
 
    >[!TIP]
    > 
-   >Si vous disposez d’une liste de SKU de produit à commander, ajoutez-les plus rapidement au panier en utilisant [Ordre rapide](quick-order.md).
+   >Les clients peuvent ajouter plus rapidement une liste de SKU de produit au panier en utilisant [Ordre rapide](quick-order.md).
 
 1. Sélection **[!UICONTROL Request a Quote]**.
 
    ![Demande d’un devis auprès du panier](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
 
-1. Dans le **[!UICONTROL Add your comment]** , saisit une brève note qui décrit la requête.
+1. Dans le **[!UICONTROL Add your comment]** , le client saisit une brève note pour décrire la requête.
 
 1. Entre dans une **[!UICONTROL Quote Name]**.
 
@@ -51,4 +51,4 @@ Si les guillemets sont activés dans la variable [Configuration des fonctionnali
    - Envoie le devis au vendeur en sélectionnant **[!UICONTROL Request a Quote]**.
    - [!BADGE fonctionnalité bêta 1.5.0]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible uniquement pour les participants au programme bêta"}**[!UICONTROL Save as Draft]**.
 
-     Si l’acheteur enregistre le devis en tant que brouillon, le devis est disponible dans la variable [!UICONTROL My Quotes] in `Draft` état. Il n&#39;est pas visible pour le vendeur tant que l&#39;acheteur n&#39;a pas ouvert le devis préliminaire et ne l&#39;a pas envoyé.
+     Si l’acheteur enregistre le devis en tant que brouillon, le devis est disponible dans [!UICONTROL My Quotes] in `Draft` état. Les versions préliminaires ne sont pas visibles par le vendeur tant que l’acheteur ne les a pas envoyées pour révision.
