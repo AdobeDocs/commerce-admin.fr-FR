@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: f7b8e47aa5a8113fac768b8086ace3bf673193c5
+source-git-commit: 2eacc773f96540691decaf1ca798328bc51a5d70
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Mises à jour du service +++prises en charge
 
 _15 août 2023_
 
-![Correction](../assets/new.svg) - Mise à jour de la [Tableau de bord Audiences Real-Time CDP](#real-time-cdp-audiences-dashboard) pour simplifier le filtrage.
+![Correction](../assets/fix.svg) - Mise à jour de la [Tableau de bord Audiences Real-Time CDP](#real-time-cdp-audiences-dashboard) pour simplifier le filtrage.
 
 _27 juin 2023_
 
@@ -49,6 +49,22 @@ _30 mai 2023_
 ![Nouveau](../assets/new.svg) - Mise à jour de la [Tableau de bord Audiences Real-Time CDP](#real-time-cdp-audiences-dashboard) pour inclure la possibilité de trier, rechercher et filtrer les audiences actives dans votre instance Adobe Commerce.
 
 +++
+
+### 2.1.0
+
+[!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
+
+_24 janvier 2024_
+
+![Nouveau](../assets/new.svg) - Mise à jour de la [Tableau de bord Audiences Real-Time CDP](#real-time-cdp-audiences-dashboard) pour inclure les sites web qui contiennent les audiences et spécifier les blocs dynamiques et les règles de prix du panier configurés pour utiliser ces audiences.
+
+### 2.0.1
+
+[!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
+
+_16 novembre 2023_
+
+![Correction](../assets/fix.svg) - Amélioration de la stabilité.
 
 ### 2.0.0
 
@@ -137,16 +153,20 @@ Après avoir installé la variable [!DNL Audience Activation] , vous devez vous 
 
 1. Cliquez sur **Enregistrer la configuration**.
 
-Lorsque les audiences sont activées sur votre instance Adobe Commerce, vous pouvez :
+## Où utiliser les audiences Real-Time CDP dans Commerce
+
+Avec la variable [!DNL Audience Activation] extension activée, vous pouvez :
 
 - [Créer une règle de prix de panier](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) tenus par les audiences
 - [Créer un bloc dynamique](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) tenus par les audiences
 
 ## Tableau de bord des audiences Real-Time CDP
 
-Vous pouvez afficher toutes les audiences actives disponibles pour la personnalisation dans votre instance Adobe Commerce à l’aide du **Audiences Real-Time CDP** tableau de bord. N’importe quelle audience [activé](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) dans la destination Adobe Commerce de Real-Time CDP apparaît dans ce tableau de bord.
+Vous pouvez afficher toutes les [active](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) audiences disponibles pour la personnalisation dans votre instance Adobe Commerce à l’aide de la variable **Audiences Real-Time CDP** tableau de bord.
 
 Pour accéder au **Audiences Real-Time CDP** tableau de bord, accédez à la _Administration_ barre latérale, puis accédez à **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
+
+![Tableau de bord des audiences Real-Time CDP](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
 
 Le tableau de bord contient les champs suivants :
 
@@ -156,9 +176,12 @@ Le tableau de bord contient les champs suivants :
 | `Search` | Permet de rechercher des audiences actives dans votre instance Commerce. |
 | `Name` | Nom donné à l’audience dans Real-Time CDP. |
 | `Origin` | Indique d’où provient l’audience, par exemple : `Experience Platform`. |
+| `Websites` | Indique les sites web configurés pour utiliser les audiences. |
+| `Dynamic Blocks` | Indique les blocs dynamiques configurés pour utiliser les audiences. |
+| `Cart Price Rules` | Indique les règles de prix du panier configurées pour utiliser les audiences. |
 | `Last updated` | Indique le moment où l’audience a été modifiée dans Real-Time CDP. |
 | `Sync now` | Récupère les audiences nouvelles ou mises à jour de Real-Time CDP. |
-| `Customize table` | Permet d’afficher ou de masquer le `Origin` et `Last updated` colonnes. |
+| `Customize table` | Permet d’afficher ou de masquer le `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`, et `Last updated` colonnes. |
 
 {style="table-layout:auto"}
 
