@@ -4,9 +4,9 @@ description: Vérifiez les paramètres de configuration sur la page [!UICONTROL 
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: 3a113d162f13c659ee52ae3cbff2c7a3873d3857
 workflow-type: tm+mt
-source-wordcount: '1592'
+source-wordcount: '1636'
 ht-degree: 1%
 
 ---
@@ -142,21 +142,22 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Notific
 
 {style="table-layout:auto"}
 
-## [!UICONTROL Scheduled Backup Settings]
+## [!UICONTROL Backup Settings]
 
-![Configuration avancée - Paramètres de sauvegarde planifiée](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
-
-Pour plus d’informations sur la modification de ces paramètres, voir [Sauvegardes système](../../systems/backups.md) dans le _Guide des systèmes d’administration_.
+![Configuration avancée - Paramètres de sauvegarde](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
 
 {{$include /help/_includes/backups-note.md}}
 
+Pour plus d’informations sur la modification de ces paramètres, voir [Sauvegardes système](../../systems/backups.md) dans le _Guide des systèmes d’administration_.
+
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Enable Scheduled Backup] | Global | Détermine si l’instance Commerce est automatiquement sauvegardée selon un calendrier régulier. Options : `Yes` / `No` |
-| [!UICONTROL Backup Type] | Global | Détermine les éléments de l’instance Commerce inclus dans la sauvegarde. Options : `Database` / `Database and Media` / `System` / `System (excluding Media)` |
-| [!UICONTROL Start Time] | Global | Indique l’heure, la minute et la seconde auxquelles la sauvegarde planifiée commence. |
-| [!UICONTROL Frequency] | Global | Détermine la fréquence de sauvegarde planifiée. Options : `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL Maintenance Mode] | Global | Détermine si le magasin est mis en mode de maintenance pendant la sauvegarde planifiée. Options : `Yes` / `No` |
+| [!UICONTROL Enable Backup] | Global | Détermine si l’instance Commerce autorise les sauvegardes. Options : `Yes` / `No` |
+| [!UICONTROL Enable Scheduled Backup] | Global | (Affiché lorsque _[!UICONTROL Enable Backup]_est défini sur `Yes`.) Détermine si l’instance Commerce est automatiquement sauvegardée selon un calendrier régulier. Options : `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Global | (Affiché lorsque _[!UICONTROL Enable Scheduled Backup]_est défini sur `Yes`.) Détermine les éléments de l’instance Commerce inclus dans la sauvegarde. Options : `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Start Time] | Global | (Affiché lorsque [!UICONTROL Enable Scheduled Backup] est défini sur `Yes`.) Indique l’heure, la minute et la seconde auxquelles la sauvegarde planifiée commence. |
+| [!UICONTROL Frequency] | Global | (Affiché lorsque [!UICONTROL Enable Scheduled Backup] est défini sur `Yes`.) Détermine la fréquence de sauvegarde planifiée. Options : `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Maintenance Mode] | Global | (Affiché lorsque [!UICONTROL Enable Scheduled Backup] est défini sur `Yes`.) Détermine si le magasin est mis en mode de maintenance pendant la sauvegarde planifiée. Options : `Yes` / `No` |
 
 {style="table-layout:auto"}
 
