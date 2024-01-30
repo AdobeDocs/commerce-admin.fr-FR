@@ -3,9 +3,9 @@ title: Gestion des termes de recherche
 description: Découvrez comment gérer les termes de recherche pour que votre boutique redirige les clients à l’aide de termes mal orthographiés ou alternatifs.
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
-source-git-commit: 6126943f20f33d52085018ca634159918833efc9
+source-git-commit: 3851258543ba829a4bdbfdb5d3d053ec4627184a
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,10 @@ Adobe Commerce prend en charge deux solutions de gestion des synonymes différen
 >[!NOTE]
 >
 >La fonction d’usine Synonymes de recherche standard prend en charge `name` et `sku` attributs de produit **_only_**.
+
+>[!IMPORTANT]
+>
+>La fonction de synonymes de recherche utilise uniquement une méthode de recherche de correspondance de texte intégral.
 
 ![Exemple de storefront : résultats de recherche avec des synonymes](./assets/storefront-search-results-synonyms.png){width="700" zoomable="yes"}
 
