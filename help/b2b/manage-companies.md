@@ -6,9 +6,9 @@ role: Admin
 hide: false
 hidefromtoc: false
 exl-id: 8246be3d-ff9f-4f9f-875d-1b999befc534
-source-git-commit: 10b01db562777ef2fcc224177d7a83c0a6fc90e7
+source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -17,20 +17,34 @@ ht-degree: 0%
 
 [!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible uniquement pour les participants au programme bêta"}
 
-La fonctionnalité de gestion des entreprises simplifie les opérations commerciales pour les entreprises aux structures organisationnelles complexes. Les utilisateurs administrateurs peuvent gérer les entreprises sous la forme d’un groupe en créant une hiérarchie de société qui affecte les sociétés associées à une société mère désignée. Cette affectation permet à l’administrateur de la société mère de gérer son propre compte et les comptes de la société pour toutes les sociétés affectées.
+La gestion des entreprises simplifie les opérations commerciales pour les entreprises aux structures organisationnelles complexes. Les utilisateurs administrateurs peuvent créer une hiérarchie d’entreprise pour refléter une organisation B2B en affectant des sociétés à la société mère désignée. Cette affectation permet à l’administrateur de la société mère d’afficher et de gérer les entreprises au sein de l’organisation.
 
-1. Dans le _Administration_ barre latérale, accédez à **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+Lancer les tâches de gestion de l’entreprise à partir de la fonction *[!UICONTROL Companies]* vue. Depuis l’administrateur, accédez à  **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Ouvrez la page des détails de l’entreprise dans la grille Entreprises pour la société mère en sélectionnant l’option **[!UICONTROL Edit]** action.
+![Grille de gestion des entreprises B2B](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-![Grille des entreprises](./assets/company-detail-view.png){width="700" zoomable="yes"}
+Dans le *[!UICONTROL Companies grid]*, la variable *[!UICONTROL Company Type]* indique si une entreprise est gérée dans le cadre d’une organisation ou dans le cadre d’une entreprise distincte.
 
-Voir [Gestion des comptes d’entreprise](account-company-manage.md) pour plus d’informations sur la grille Entreprises .
+- `Parent` est une entreprise à laquelle une ou plusieurs sociétés sont affectées. Une société mère ne peut pas être affectée en tant qu’enfant d’une autre société.
 
-## [!UICONTROL Company Hierarchy]
+- `Child` est une entreprise qui a été affectée à une organisation. Une société ne peut être affectée qu’à une seule société mère.
 
-Lors de la création initiale de l’entreprise, la variable [!UICONTROL Company Hierarchy] grid est vide lorsque vous la développez. Une fois une société créée, les utilisateurs administrateurs disposant des autorisations appropriées peuvent utiliser la variable [!UICONTROL Company Hierarchy] pour créer une organisation de société mère en modifiant la société mère désignée et en affectant des sociétés liées.
+- `Company` représente une seule société. Une seule société peut faire partie d’une organisation en en en faisant une société mère ou en l’affectant à une société mère existante.
 
-![Grille hiérarchique des entreprises](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+Lorsque vous modifiez une société mère ou enfant, développez *[!UICONTROL Company Hierarchy]* pour afficher toutes les entreprises de l’entreprise. A `Current` indicateur indique la société que vous modifiez.
 
-Voir [assigner et désaffecter des entreprises](assign-companies.md) pour plus d’informations sur les actions disponibles dans la variable [!UICONTROL Company Hierarchy] grid.
+![Grille Hiérarchie d’entreprise B2B](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
+
+
+## Afficher et configurer le [!UICONTROL Company Hierarchy]
+
+Lors de la création initiale de l’entreprise, la variable [!UICONTROL Company Hierarchy] grid est vide. Il est également vide si la société est une seule société.
+
+![Grille de hiérarchie des entreprises B2B](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+
+Pour les sociétés parentes, les utilisateurs administrateurs disposant des autorisations appropriées peuvent effectuer les tâches suivantes :
+
+- Créez la hiérarchie de l’entreprise en créant une organisation parente ou en mettant à jour une organisation existante.
+- Gérez une organisation existante pour ajouter ou supprimer des entreprises.
+
+Pour plus d’informations, voir [Gestion de la hiérarchie de l’entreprise](assign-companies.md).

@@ -1,11 +1,11 @@
 ---
 title: Gestion des comptes d’entreprise
-description: Découvrez la page Entreprises et les outils disponibles dans la grille qui vous aident à gérer les comptes d’entreprise pour votre boutique Adobe Commerce.
+description: Découvrez comment gérer les comptes d’entreprise de votre boutique Adobe Commerce à l’aide de la page Entreprises et des outils disponibles dans la grille.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: fa8083570a4637c4bf67f7657ef9d0d48f962c50
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2493'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ La variable _[!UICONTROL Companies]_répertorie tous les comptes d’entreprise 
 
 La variable _[!UICONTROL Actions]_Le contrôle au-dessus de la grille peut être utilisé pour appliquer une action à plusieurs enregistrements d’entreprise. Par exemple, plutôt que d’approuver chaque demande d’entreprise, vous pouvez sélectionner plusieurs demandes et activer les comptes en une seule action. Les actions disponibles dépendent de la variable [permissions](../systems/permissions.md) pour le rôle affecté à votre compte utilisateur d’administrateur.
 
-Utilisez la variable _[!UICONTROL Search]_pour rechercher des sociétés dans la variable **Entreprises**grille par mot-clé. Elle trouvera l’entreprise en recherchant le mot-clé spécifié dans la variable **Nom de la société**et **Parent**colonnes. Vous pouvez filtrer par **Type d’entreprise**afficher les sociétés mères et leurs sociétés associées, ou uniquement les entreprises filles.
+Utilisez la variable _[!UICONTROL Search]_pour rechercher des sociétés dans la variable **Entreprises**grille par mot-clé. La recherche indexe les mots-clés de la variable **Nom de la société**et **Parent**colonnes. Vous pouvez filtrer par **Type d’entreprise**afficher uniquement les sociétés uniques, les sociétés mères ou les sociétés enfants.
 
 ![Grille des entreprises](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
@@ -41,7 +41,7 @@ Les actions suivantes peuvent être appliquées à un ou plusieurs enregistremen
 
 ### Activation des comptes d’entreprise
 
-1. Définissez la variable **[!UICONTROL Actions]** contrôler à `Set Active`.
+1. Dans la **[!UICONTROL Actions]** control, select **[!UICONTROL Set Active]**.
 
 1. Lorsque vous y êtes invité, cliquez sur **[!UICONTROL OK]**.
 
@@ -49,16 +49,16 @@ Les actions suivantes peuvent être appliquées à un ou plusieurs enregistremen
 
 Les clients disposant de comptes inactifs ne peuvent pas se connecter ou effectuer des achats sur leur compte. Il existe deux méthodes pour définir un compte client comme actif ou inactif :
 
-Méthode 1 : **Depuis la grille des clients**
+Méthode 1 : **Dans la grille Clients**
 
 1. Sur le _Administration_ barre latérale, accédez à [!UICONTROL **Clients**] > [!UICONTROL **Tous les clients**].
 
-1. Définissez la variable [!UICONTROL **Actions**] à l’une des options suivantes :
+1. Dans la **[!UICONTROL Actions]** sélectionnez l’une des options suivantes :
 
-   - `Active`
-   - `Inactive`
+   - **[!UICONTROL Active]**
+   - **[!UICONTROL Inactive]**
 
-1. Lorsque vous y êtes invité, cliquez sur **[!UICONTROL OK]**.
+1. Lorsque vous y êtes invité, sélectionnez **[!UICONTROL OK]** pour appliquer la modification.
 
 Méthode 2 : **Dans la page de modification du compte**
 
@@ -66,7 +66,7 @@ Méthode 2 : **Dans la page de modification du compte**
 
 1. Dans la grille, recherchez l’enregistrement du client à modifier.
 
-1. Dans le _Actions_ à l’extrême droite, cliquez sur [!UICONTROL **Modifier**].
+1. Dans le _Actions_ à l’extrême droite, sélectionnez [!UICONTROL **Modifier**].
 
 1. Sélectionnez la variable [!UICONTROL **Informations du compte**] .
 
@@ -78,7 +78,7 @@ Méthode 2 : **Dans la page de modification du compte**
 
 Les utilisateurs associés à un compte de société bloqué peuvent se connecter et accéder au catalogue, mais ne peuvent pas effectuer d’achats. Une société dont le compte n’est pas en règle peut être temporairement bloquée jusqu’à ce que l’affaire soit résolue.
 
-1. Définissez la variable **[!UICONTROL Actions]** contrôler à `Block`.
+1. Dans la **[!UICONTROL Actions]** control, select **[!UICONTROL Block]**.
 
 1. Lorsque vous y êtes invité, cliquez sur **[!UICONTROL OK]**.
 
@@ -86,7 +86,7 @@ Les utilisateurs associés à un compte de société bloqué peuvent se connecte
 
 Les comptes d’entreprise supprimés ne peuvent pas être restaurés. L’état des comptes d’utilisateurs associés à la société est défini sur `Inactive` et l’ID de société est supprimé des profils des comptes d’utilisateurs. Les informations sur l’activité et les transactions de la société sont conservées dans le système.
 
-1. Définissez la variable **[!UICONTROL Actions]** contrôler à `Delete`.
+1. Dans la **[!UICONTROL Actions]** control, select **[!UICONTROL Delete]**.
 
 1. Lorsque vous y êtes invité, cliquez sur **[!UICONTROL OK]**.
 
@@ -94,7 +94,7 @@ Les comptes d’entreprise supprimés ne peuvent pas être restaurés. L’état
 
 Le crédit figurant dans les comptes des sociétés sélectionnées est converti au taux actuel de la devise sélectionnée.
 
-1. Définissez la variable **[!UICONTROL Actions]** contrôler à `Convert Currency`.
+1. Dans la **[!UICONTROL Actions]** control, select **[!UICONTROL Convert Currency]**.
 
 1. Lorsque vous y êtes invité, cliquez sur **[!UICONTROL OK]**.
 
@@ -104,13 +104,13 @@ Le crédit figurant dans les comptes des sociétés sélectionnées est converti
 
 1. Cliquez sur **[!UICONTROL Proceed]** pour terminer la conversion.
 
-### Modification d’un compte d’entreprise
+## Modification d’un compte d’entreprise
 
 Méthode 1 : **Modification rapide**
 
 1. Dans la première colonne, cochez la case du compte de la société à éditer.
 
-1. Définissez la variable **[!UICONTROL Actions]** colonne à `Edit`.
+1. Dans la **[!UICONTROL Actions]** control, select **[!UICONTROL Edit]**.
 
    Chaque valeur pouvant être mise à jour apparaît dans une zone de texte.
 
@@ -130,7 +130,7 @@ Méthode 2 : **Modification complète**
 
 1. Dans la grille, recherchez l’enregistrement de la société à éditer.
 
-1. Cliquez sur **[!UICONTROL Edit]** dans le _[!UICONTROL Action]_colonne .
+1. Sélectionner **[!UICONTROL Edit]** de la _[!UICONTROL Action]_colonne .
 
 1. Apportez les modifications nécessaires aux informations de l’entreprise.
 
@@ -191,7 +191,7 @@ Les sections suivantes contiennent une référence pour les actions, options et 
 ### Options de contrôle des actions
 
 | Option | Description |
-|--- |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Set Active] | Définit l’état de tous les enregistrements d’entreprise sélectionnés sur `Active`. Les administrateurs d’entreprise reçoivent des instructions pour définir leurs mots de passe afin qu’ils puissent accéder à leurs comptes et gérer leurs entreprises à partir du storefront. |
 | [!UICONTROL Block] | Limite les comptes d’entreprise qui ne sont pas en règle, tout en préservant le compte. Les membres de la société peuvent se connecter et accéder au catalogue, mais ils ne peuvent pas passer de commandes pour le compte de la société. |
 | [!UICONTROL Delete] | Supprime les comptes d’entreprise sélectionnés. L’état des comptes d’utilisateurs associés à une société supprimée est défini sur `Inactive` et l’ID de société est supprimé des profils des comptes d’utilisateurs. Les informations sur l’activité et les transactions de la société sont conservées dans le système. |
@@ -324,11 +324,11 @@ Les colonnes suivantes sont disponibles en modifiant la variable [mise en page d
 #### [!UICONTROL Company Credit]
 
 | Champ | Description |
-|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Credit Currency] | Devise acceptée par le magasin pour les achats à crédit de la société. |
 | [!UICONTROL Credit Limit] | Limite de crédit étendue au compte de la société. |
 | [!UICONTROL Allow to Exceed Credit Limit] | Indique si l’entreprise est autorisée à dépasser la limite de crédit. Options : Oui/Non |
-| [!UICONTROL Reason for Change] | Note expliquant pourquoi la société est autorisée ou non à dépasser la limite de crédit. Ce champ est actif uniquement si l’autorisation de dépasser la limite de crédit change. |
+| [!UICONTROL Reason for Change] | Note qui explique les circonstances dans lesquelles la société peut ou ne peut pas dépasser la limite de crédit. Ce champ est actif uniquement si l’autorisation de dépasser la limite de crédit change. |
 
 {style="table-layout:auto"}
 
