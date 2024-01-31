@@ -3,7 +3,7 @@ title: Gestion des ressources de la galerie multimédia
 description: Découvrez comment gérer les fichiers multimédias chargés et les ressources que vous acquérez par le biais d’une intégration Adobe Stock.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -72,6 +72,8 @@ Les ressources peuvent être utilisées de manière intensive dans l’ensemble 
 1. Accédez à la nouvelle galerie de médias à partir d’une zone qui vous permet d’utiliser des ressources multimédia.
 
 1. Sélectionnez la ressource et cliquez sur **[!UICONTROL Add Selected]**.
+
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}
 
 ## Suppression de ressources
 

@@ -3,9 +3,9 @@ title: Optimisation des images de la galerie multimédia
 description: Découvrez comment utiliser l’optimisation des images pour vos [!DNL Commerce] ressources multimédias.
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -32,3 +32,5 @@ Lorsque la fonctionnalité d’optimisation des images de la galerie multimédia
 Lorsque la variable _Largeur maximale_ et _Hauteur maximale_ est modifiée dans la configuration, elle met à jour toutes les images optimisées existantes qui ont été insérées précédemment.
 
 L’optimisation des images de la galerie multimédia requiert que la variable `media.gallery.renditions.update` les clients de file d’attente s’exécutent pour régénérer des images optimisées lorsque la configuration est modifiée. Voir [Gestion des files d’attente de messages](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) dans le _Guide de configuration_ pour plus d’informations.
+
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}
