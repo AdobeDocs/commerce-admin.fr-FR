@@ -3,9 +3,9 @@ title: Partager une [!DNL Commerce] account
 description: Découvrez comment accorder un accès limité à votre [!DNL Commerce] compte autre [!DNL Commerce] titulaires de compte.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: adccffa3b9735eaa77f119271d026fa01cd1337b
+source-git-commit: 8d4c37f512030c907d26b0210ddaad11ce605dfe
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,12 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
 
    >[!NOTE]
    >
-   > If  **[!UICONTROL Delete]** n’est pas affiché, vérifiez si la variable **[!UICONTROL Share Name]** commence par `Cloud Shared Access from MAG XYZ` - généralement, [ces comptes ;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) ne peut pas être supprimé.
+   > If  **[!UICONTROL Delete]** n’est pas affiché, vérifiez si la variable **[!UICONTROL Share Name]** commence par `Cloud Shared Access from MAG XYZ` - [ces comptes ;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) ne peut pas être supprimé.
+   > 
+   > Si tel est le cas, demandez au propriétaire du compte de modifier le compte Accès partagé et d’effacer les autorisations du compte. Après cette mise à jour, l’accès partagé aux ressources n’est plus disponible pour l’utilisateur.
+   >
+   > En outre, assurez-vous que les utilisateurs sont supprimés du projet afin qu’ils ne reçoivent plus de notifications par courrier électronique : [Les anciens membres de l’équipe reçoivent des e-mails de notification cloud Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+
 
 1. Lorsque vous y êtes invité, cliquez sur **[!UICONTROL Delete User]**.
 
