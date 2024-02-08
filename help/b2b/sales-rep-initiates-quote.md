@@ -4,9 +4,9 @@ description: Découvrez comment un vendeur peut créer un devis pour un acheteur
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
+source-git-commit: 8130ccb809a6aec80db63c5a6ea9f47488248805
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Après avoir créé le projet de devis, ajoutez des produits, appliquez des remi
 
 1. Ajoutez des éléments au guillemet en sélectionnant **[!UICONTROL Add Product By SKU]**. Saisissez le numéro et la quantité du SKU, puis sélectionnez **[!UICONTROL Add Product]**.
 
-![Le vendeur ajoute des éléments au devis pour l&#39;acheteur](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+   ![Le vendeur ajoute des éléments au devis pour l&#39;acheteur](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
 
 1. Appliquez des remises sur les articles aux produits selon les besoins.
 
@@ -67,7 +67,7 @@ Après avoir créé le projet de devis, ajoutez des produits, appliquez des remi
 
    - Sur le [!UICONTROL Discount Line item] formulaire, sélectionnez **[!UICONTROL Discount Type]**.
 
-   ![Appliquer une remise sur article au devis](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+     ![Appliquer une remise sur article au devis](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
 
    - Dans le [!UICONTROL Discount] , saisissez la valeur du type de remise. Par exemple, si vous avez sélectionné un pourcentage de remise, saisissez 10 pour appliquer une remise de 10 % à l’article.
 
@@ -85,7 +85,7 @@ Après avoir créé le projet de devis, ajoutez des produits, appliquez des remi
 
 1. Ajoutez des informations supplémentaires pour l’acheteur.
 
-   Dans [!UICONTROL Negotiation - Comments], ajoutez une note et joignez tous les fichiers annexes requis par l’acheteur dans [!UICONTROL Negotiation - Comments]
+   Sur le **[!UICONTROL Negotiation - Comments]** , ajoutez une note et joignez tous les fichiers annexes requis pour l’acheteur.
 
    ![Le vendeur ajoute des informations pour l&#39;acheteur](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
@@ -95,9 +95,7 @@ Après avoir créé le projet de devis, ajoutez des produits, appliquez des remi
 
    Enregistrez le devis en tant que brouillon ou envoyez-le à l&#39;acheteur.
 
-   - Si vous enregistrez le guillemet en tant que brouillon, l’état est mis à jour en `Draft` et un message de confirmation s&#39;affiche :
-
-     ![Demande de devis de confirmation envoyée à l’acheteur](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+   - Si vous enregistrez le guillemet en tant que brouillon, l’état est mis à jour en `Draft` et un message de confirmation s’affiche.
 
    - Si vous envoyez le devis à l’acheteur, le statut passe à `Submitted`. L&#39;acheteur reçoit une notification électronique pour examiner le devis. Le devis est verrouillé jusqu&#39;à ce que l&#39;acheteur le rende pour plus de négociations. Le vendeur peut visualiser le devis à partir de la grille Devis ou de la grille Client .
 
