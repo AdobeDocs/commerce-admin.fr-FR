@@ -4,9 +4,9 @@ description: Découvrez comment un vendeur peut créer un devis pour un acheteur
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: be3427f6cc2bab68b6d2b0fa0c36b83dc310e528
+source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -95,11 +95,11 @@ Après avoir créé le projet de devis, ajoutez des produits, appliquez des remi
 
    Enregistrez le devis en tant que brouillon ou envoyez-le à l&#39;acheteur.
 
-   Si vous envoyez le devis à l’acheteur, le statut passe à `Submitted`, et le devis est verrouillé jusqu’à ce que l’acheteur le cite, l’état est mis à jour vers le brouillon et un message de confirmation s’affiche :
+   - Si vous enregistrez le guillemet en tant que brouillon, l’état est mis à jour en `Draft` et un message de confirmation s&#39;affiche :
 
-   ![Demande de devis de confirmation envoyée à l’acheteur](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+     ![Demande de devis de confirmation envoyée à l’acheteur](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
 
-L&#39;acheteur reçoit une notification électronique pour examiner le devis. Le devis est verrouillé jusqu&#39;à ce que l&#39;acheteur le rende pour plus de négociations. Le Vendeur peut visualiser le devis à partir de la grille Devis ou de la grille Client.
+   - Si vous envoyez le devis à l’acheteur, le statut passe à `Submitted`. L&#39;acheteur reçoit une notification électronique pour examiner le devis. Le devis est verrouillé jusqu&#39;à ce que l&#39;acheteur le rende pour plus de négociations. Le vendeur peut visualiser le devis à partir de la grille Devis ou de la grille Client .
 
 ## Affichage et création de guillemets à partir de la grille client
 
