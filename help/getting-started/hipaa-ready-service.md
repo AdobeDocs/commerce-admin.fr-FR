@@ -2,12 +2,10 @@
 title: Préparation du HIPAA sur Adobe Commerce
 description: Découvrez comment ajouter le module Adobe Commerce compatible avec HIPAA et obtenir des fonctionnalités et fonctionnalités supplémentaires qui vous permettent de respecter vos obligations HIPAA.
 feature: Security, Compliance
-hide: true
-hidefromtoc: true
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 10b01db562777ef2fcc224177d7a83c0a6fc90e7
+source-git-commit: 3364a07b4c79a60ed813bf669a04711b69dae6f9
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -106,7 +104,7 @@ La variable _Journaux des actions_ grille de rapport (**[!UICONTROL System]** > 
    - ***Source***: affiche l’emplacement où l’action a été effectuée.\
      Valeurs : `Admin UI` / `Customer UI` / `REST API` / `SOAP API` / `GraphQL API`
    - ***Type de client***: affiche le type de client.\
-     Valeurs : client | Admin | Intégration
+     Valeurs : client | Administration | Intégration
 
 
 2. Renommer ***Nom d’utilisateur*** to ***Identifiant du client***
