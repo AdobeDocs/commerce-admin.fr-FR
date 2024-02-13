@@ -3,9 +3,9 @@ title: URL de catalogue et de produit
 description: Découvrez les types de format d’URL de vos produits de catalogue et comment les configurer.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ La clé URL fait partie d’une URL statique qui décrit le produit ou la catég
 
 >[!NOTE]
 >
->Les caractères spéciaux accentués sont automatiquement remplacés par leurs versions régulières non accentuées dans la clé URL. Par exemple : `ñ` est automatiquement remplacé par `n`.
+>Par défaut, les caractères spéciaux accentués sont automatiquement remplacés par leurs versions régulières non accentuées dans la clé URL. Par exemple : `ñ` est automatiquement remplacé par `n`. Ce comportement peut être désactivé en définissant la variable _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_option de configuration `No`. Voir [Configuration des URL de catalogue](#configure-catalog-urls).
 
 La clé URL doit être composée de caractères minuscules avec des tirets non alignés à la fin entre ces caractères et séparés par des mots. Les tirets ne sont pas autorisés au début ou à la fin de la clé URL. Une clé URL bien conçue et &quot;compatible avec les moteurs de recherche&quot; peut inclure le nom du produit et les mots-clés pour améliorer son indexation par les moteurs de recherche. La clé URL peut être configurée pour créer une redirection automatique en cas de modification de la clé URL.
 
