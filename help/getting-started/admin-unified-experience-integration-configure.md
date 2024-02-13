@@ -6,9 +6,9 @@ hidefromtoc: false
 feature: Integration
 role: Admin, Leader
 exl-id: b2522d25-8255-4219-98b5-4b764430dea2
-source-git-commit: a4e4dec2dc7a6ba2c065e0fa571f3ff0aaecd847
+source-git-commit: 8278d725a7377b865c118b86a57702cd2be43238
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Avant de configurer l’intégration de l’Experience Cloud, vérifiez que votr
      bin/magento admin:adobe-ims:status
      ```
 
-   Si le module n’est pas activé, [l’activer à l’aide de l’organisation et des informations d’identification pour le projet d’intégration IMS ;](../getting-started/adobe-ims-config.md#step-3-enable-the-adminadobeims-module). Si vous ne disposez pas des informations d’identification, [envoyer un ticket d’assistance Adobe ;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+   Si le module n’est pas activé, [l’activer à l’aide de l’organisation et des informations d’identification pour le projet d’intégration IMS ;](../getting-started/adobe-ims-config.md#step-3-enable-the-adminadobeims-module).
 
 1. Vérifiez que l’utilisateur administrateur peut se connecter à l’administrateur Commerce à l’aide de son Adobe ID.
 
