@@ -3,9 +3,9 @@ title: Règles de produit connexes
 description: Découvrez les règles de produits connexes et comment elles sont utilisées pour présenter de manière dynamique des produits associés, des ventes incitatives et des ventes croisées à vos clients.
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
-source-git-commit: 91e6c63f1f6f16b957366f9d5cc651f9eded31c8
+source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -132,3 +132,12 @@ Le comportement des règles de relation des produits et l’affichage des produi
 | [!UICONTROL Weighted Random] | Les produits sont randomisés de sorte que les produits appartenant à une règle avec une priorité plus élevée aient une probabilité d’affichage plus élevée que ceux appartenant à une règle avec une priorité plus faible. Les produits sont alors réduits à la limite maximale configurable et regroupés par priorité. Ce mode donne la possibilité aux produits de priorité inférieure d’apparaître parfois même si les créneaux restants peuvent être remplis avec des produits de la règle de priorité supérieure. |
 
 {style="table-layout:auto"}
+
+## Utilisation des audiences Real-Time CDP pour informer les règles de produit connexes
+
+>[!NOTE]
+>
+>Cette fonctionnalité est en version bêta. Si vous souhaitez rejoindre le programme bêta, envoyez une demande à [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+
+
+Découvrez comment [activate](../customers/audience-activation.md) Real-Time CDP des audiences dans votre instance Adobe Commerce pour informer les règles de produit associées.

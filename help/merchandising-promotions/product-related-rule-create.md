@@ -3,9 +3,9 @@ title: Création d’une règle de produit associée
 description: Découvrez comment créer une règle de produit associée qui peut être déclenchée pour afficher les produits associés, les ventes incitatives et les ventes croisées.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: 8f5a5fb6c277086e5f70221e4a6a5ae1b9e1abfe
+source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,10 @@ Le processus de création d’une règle de produit associée est similaire à l
    - Pour **[!UICONTROL Result Limit]**, saisissez le nombre d&#39;enregistrements à afficher dans la liste des résultats. Le nombre maximal est 20.
 
    - Si la règle s’applique à un [segment client](../customers/customer-segments.md), définit **[!UICONTROL Customer Segments]** to `Specified` et sélectionnez le segment client dans la liste.
+
+   - (**Beta**) Si la règle s’applique à un [Audience Real-Time CDP](../customers/audience-activation.md), définit **[!UICONTROL Real-Time CDP Audience]** to `Specified` et sélectionnez l’audience Real-Time CDP dans la liste. Cette fonctionnalité est en version bêta. Si vous souhaitez rejoindre le programme bêta, envoyez une demande à [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+
+     ![Règle de produits associés - Audience Real-Time CDP](./assets/rtcdp-related-products.png){width="500"}
 
 1. Dans le panneau de gauche, choisissez **[!UICONTROL Products to Match]** et créez les conditions comme vous le feriez pour une [règle de prix du catalogue](price-rules-catalog.md).
 
