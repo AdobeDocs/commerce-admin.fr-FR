@@ -3,9 +3,9 @@ title: Résultats de la recherche
 description: Découvrez comment configurer la façon dont vos produits correspondent aux critères de recherche saisis dans la zone Recherche rapide ou dans le formulaire Recherche avancée.
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
 feature: Catalog Management, Search
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4b2e1dd87a39c9be1adc49d867e44d306a969854
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,10 @@ L’exemple suivant utilise le mappage des mots-clés en fonction du SKU. Lorsqu
 ## Recherche pondérée
 
 Les attributs de produit activés pour la recherche catalogue peuvent se voir attribuer un poids afin de leur donner une valeur plus élevée dans les résultats de recherche. Les attributs ayant un poids supérieur sont renvoyés avant les attributs ayant un poids inférieur. Par exemple, s’il existe deux attributs dans le système, _color_ avec un poids de recherche de 3 et _description_ avec un poids de recherche de 1. Recherche du mot _red_ renvoie une liste de produits avec une valeur d’attribut de couleur de `red` dans la partie supérieure des résultats de recherche et renvoie des produits avec des descriptions contenant le mot _red_ au bas des résultats de la recherche. Dans cet exemple, la variable `color` a un poids défini supérieur à celui de l’attribut `description` attribut.
+
+>[!IMPORTANT]
+>
+>Le tri par pertinence est affecté par **_multiple_** critères et relations entre eux **_simultanément_**. [!UICONTROL Search Weight] n’est qu’un de ces critères. Cela signifie que parfois les attributs ayant un poids de recherche inférieur peuvent toujours avoir plus de pertinence que les attributs ayant un poids de recherche supérieur. D’autres critères peuvent inclure le nombre de correspondances dans un attribut donné, la position du terme recherché et la structure de texte globale avant et après un terme recherché.
 
 **_Pour définir les propriétés du poids de recherche d’un attribut :_**
 
