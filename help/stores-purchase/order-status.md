@@ -3,41 +3,50 @@ title: État de la commande
 description: Découvrez les états de commande prédéfinis et comment définir des états de commande personnalisés pour vous aligner sur vos besoins opérationnels.
 exl-id: d1153558-a721-4643-a70c-7fc20072983c
 feature: Orders
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: c2d5e9b41a76ba58d1343a8b3ee5122104d5bfe0
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
 
 # État de la commande
 
-Toutes les commandes ont un état de commande associé à une étape dans le traitement des commandes. [workflow](order-processing.md). L’état de chaque commande est indiqué dans la variable _État_ de la colonne _Commandes_ grid. Votre magasin dispose d’un ensemble de paramètres prédéfinis d’état de commande et d’état de commande. L’état de la commande décrit la position d’une commande dans le workflow.
+Toutes les commandes ont un état de commande associé à une étape dans le traitement des commandes. [workflow](order-processing.md).\
+La différence entre les états de commande et les états de commande est la suivante : **[!UICONTROL order states]** sont utilisées par programmation. Ils ne sont pas visibles par les clients ou les utilisateurs administrateurs. Ils déterminent le flux d’une commande et les opérations possibles pour une commande dans un certain état.\
+**[!UICONTROL Order statuses]** sont utilisés pour communiquer l’état d’une commande aux clients et aux utilisateurs administrateurs.
+Vous pouvez créer d’autres statuts de commande afin de répondre à vos besoins opérationnels. Les statuts des commandes sont pratiques pour afficher la progression en dehors d’Adobe Commerce, par exemple la progression de la sélection des commandes et de la diffusion. Elles n’ont aucun impact sur le workflow de traitement des commandes.\
+Chaque état de commande est associé à un état de commande. Votre magasin dispose d’un ensemble de paramètres prédéfinis d’état de commande et d’état de commande.
+
+![États et états de l’ordre](./assets/order-states-and-statuses.png){width="700" zoomable="yes"}
+
+L’état de chaque commande est indiqué dans la variable _État_ de la colonne _Commandes_ grid.
 
 ![État de la commande](./assets/stores-order-status-column.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
->Une commande partiellement remboursée reste en cours `Processing` status jusqu’à **_all_** les articles commandés (y compris les articles remboursés) sont expédiés. L’état de la commande ne passe pas à `Complete` lorsqu’un même article de commande n’est pas encore expédié.
+>Une commande partiellement remboursée reste en cours `Processing` status jusqu’à **_all_** les articles commandés (y compris les articles remboursés) sont expédiés. L’état de la commande ne passe pas à `Complete` jusqu’à ce que tous les articles de la commande aient été expédiés.
 
-## Workflow d’état des commandes
+## Workflow d’état de commande
 
-![Workflow d’état des commandes](./assets/order-workflow.png)
+![Workflow d’état de commande](./assets/order-state-workflow.png)
 
 ## État prédéfini
 
-| État de la commande | Code d’état |  |
-|--- |--- |--- |
+| État de la commande | Code d’état |                                                                                                                                                                                                                                                                                        |
+|--------------------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Reçu | `received` | Cet état est l’état initial des commandes qui sont placées lorsque le placement de commande asynchrone est activé. |
+| Fraude présumée | `fraud` | Parfois, les commandes payées par PayPal ou une autre passerelle de paiement sont marquées comme _Fraude présumée_. Ce statut signifie que la commande n&#39;a pas émis de facture et que l&#39;email de confirmation n&#39;est pas non plus envoyé. |
 | En cours de traitement | `processing` | Lorsque l’état des nouvelles commandes est défini sur &quot;Traitement&quot;, la variable _Facturer automatiquement tous les éléments_ devient disponible dans la configuration. Les factures ne sont pas créées automatiquement pour les commandes passées à l’aide de la carte cadeau, du crédit de magasin, des points de récompense ou d’autres modes de paiement hors ligne. |
-| Fraude présumée | `fraud` | Parfois, les commandes payées par PayPal ou une autre passerelle de paiement sont marquées comme _Fraude présumée_. Ce statut signifie que la commande n&#39;a pas de facture émise et que l&#39;email de confirmation n&#39;est pas non plus envoyé. |
 | En attente de paiement | `pending_payment` | Cet état est utilisé si la commande est créée et que PayPal ou un mode de paiement similaire est utilisé. Cela signifie que le client a été dirigé vers le site web de la passerelle de paiement, mais qu’aucune information de retour n’a encore été reçue. Ce statut change lorsque le client paie. |
 | Révision des paiements | `payment_review` | Cet état s’affiche lorsque la révision des paiements PayPal est activée. |
 | En attente | `pending` | Ce statut indique qu&#39;aucune facture et aucun envoi n&#39;ont été soumis. |
 | En attente | `holded` | Cet état ne peut être attribué que manuellement. Vous pouvez suspendre n&#39;importe quel ordre. |
-| Ouvrir | `STATE_OPEN` | Ce statut signifie qu’une commande ou un avis de crédit est toujours ouvert et peut nécessiter une action supplémentaire. |
 | Terminer | `complete` | Ce statut signifie que la commande est créée, payante et expédiée au client. |
 | Fermé | `closed` | Ce statut indique qu’une note de crédit a été attribuée à une commande et que le client a reçu un remboursement. |
 | Annulé | `canceled` | Ce statut est attribué manuellement dans l’administrateur ou, pour certaines passerelles de paiement, lorsque le client ne paie pas dans le délai spécifié. |
+| Rejetés | `rejected` | Ce statut signifie qu’une commande a été rejetée lors du traitement asynchrone des commandes. Cela se produit lorsqu’une erreur se produit lors du placement de commande asynchrone. |
 | Revirement annulé de PayPal | `paypay_canceled_reversal` | Ce statut signifie que PayPal a annulé l&#39;annulation. |
 | En attente de PayPal | `pending_paypal` | Ce statut signifie que la commande a été reçue par PayPal, mais que le paiement n&#39;a pas encore été traité. |
 | PayPal inversé | `paypal_reversed` | Ce statut signifie que PayPal a annulé la transaction. |
@@ -46,7 +55,7 @@ Toutes les commandes ont un état de commande associé à une étape dans le tra
 
 ## Statut de la commande personnalisée
 
-Outre les paramètres prédéfinis d’état de commande, vous pouvez créer vos propres paramètres personnalisés d’état de commande, les affecter à l’état de la commande et définir un état de commande par défaut pour les états de commande. L’état de la commande indique la position de la commande dans le workflow de traitement des commandes et l’état de la commande définit l’état de la commande. Par exemple, vous pouvez avoir besoin d’un état de commande personnalisé, tel que `packaging"`, `backordered`ou un état spécifique à vos besoins. Vous pouvez créer un nom explicite pour le statut personnalisé et l’affecter à l’état de commande associé dans le workflow.
+Outre les paramètres prédéfinis d’état de commande, vous pouvez créer vos propres paramètres personnalisés d’état de commande, les affecter à l’état de la commande et définir les états de commande par défaut pour les états de commande. L’état de la commande indique la position de la commande dans le workflow de traitement des commandes et l’état de la commande attribue un libellé traduisible significatif à la position de la commande. Par exemple, vous pouvez avoir besoin d’un état de commande personnalisé, tel que `packaging"`, `backordered`ou un état spécifique à vos besoins. Vous pouvez créer un nom explicite pour le statut personnalisé et l’affecter à l’état de commande associé dans le workflow.
 
 >[!NOTE]
 >
