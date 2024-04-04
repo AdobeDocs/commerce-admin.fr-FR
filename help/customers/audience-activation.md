@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: db8344ab8890c20bb0b3c7d25da95b6007858d6a
+source-git-commit: d1079c8eac20c08a17af1f72bf49b6cb859c0699
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _30 mai 2023_
 ![Nouveau](../assets/new.svg) - Mise à jour de la [Tableau de bord Audiences Real-Time CDP](#real-time-cdp-audiences-dashboard) pour inclure la possibilité de trier, rechercher et filtrer les audiences actives dans votre instance Adobe Commerce.
 
 +++
+
+### 2.1.1
+
+[!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
+
+_4 avril 2024_
+
+![Nouveau](../assets/new.svg) - Prise en charge de PHP 8.3.
 
 ### 2.2.0-beta1
 
@@ -295,7 +303,10 @@ En savoir plus sur les `dynamicBlocks` Requête GraphQL dans le [documentation d
 
 ## Récupération des audiences à l’aide du SDK Adobe Experience Platform Mobile
 
-Avant de pouvoir récupérer des audiences Real-Time CDP à l’aide du SDK Adobe Experience Platform Mobile, vous devez [installation et configuration du SDK pour votre site de commerce mobile ;](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+Vous pouvez récupérer les audiences Real-Time CDP à l’aide du SDK Adobe Experience Platform Mobile.
+
+1. [Installer](#install-the-extension) l’extension d’Audience Activation.
+1. [installation et configuration du SDK pour votre site de commerce mobile ;](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >

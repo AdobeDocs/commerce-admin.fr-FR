@@ -3,20 +3,20 @@ title: Ajouter du contenu - Recommendations de produit
 description: Découvrez le type de contenu Recommendations du produit, utilisé pour ajouter une liste de recommandations au [!DNL Page Builder] scène.
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 13d00168e1253a7d2698b898caa30d9ca2ad3800
+source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # Ajouter du contenu - Recommendations de produit
 
-Utilisez la variable _Recommendations de produit_ type de contenu pour ajouter un type existant et actif [unité de recommandation](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) à la fonction [[!DNL Page Builder] étape](workspace.md#stage) pour une page CMS, un bloc ou un bloc dynamique.
+Utilisez la variable _Recommendations de produit_ type de contenu pour ajouter un type existant et actif [unité de recommandation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) à la fonction [[!DNL Page Builder] étape](workspace.md#stage) pour une page CMS, un bloc ou un bloc dynamique.
 
 >[!NOTE]
 >
->La variable [!DNL Page Builder] _Recommendations de produit_ Le type de contenu est pris en charge dans Adobe Commerce 2.4.4 et versions ultérieures et est disponible dans le [Mise à jour du métaphorage Recommendations du produit 3.0.x ou version ultérieure](https://marketplace.magento.com/magento-product-recommendations.html). Pour ajouter [!DNL Page Builder] prise en charge de Product Recommendations, [voir les informations d’installation](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html#pbsupport). **Ce type de contenu n’est pas disponible pour Magento Open Source.**
+>La variable [!DNL Page Builder] _Recommendations de produit_ Le type de contenu est pris en charge dans Adobe Commerce 2.4.4 et versions ultérieures et est disponible dans le [Mise à jour du métaphorage Recommendations du produit 3.0.x ou version ultérieure](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Pour ajouter [!DNL Page Builder] prise en charge de Product Recommendations, [voir les informations d’installation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **Ce type de contenu n’est pas disponible pour Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +37,7 @@ Utilisez la variable _Recommendations de produit_ type de contenu pour ajouter u
 
 ## Ajouter une unité de recommandation existante
 
-1. Assurez-vous que vous avez déjà [création d’une unité de recommandation](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) pour le [!DNL Page Builder] type de page.
+1. Assurez-vous que vous avez déjà [création d’une unité de recommandation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) pour le [!DNL Page Builder] type de page.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Utilisez la variable _Recommendations de produit_ type de contenu pour ajouter u
 1. Effectuez l’une des opérations suivantes :
 
    - Cliquez sur **[!UICONTROL Edit Product Recommendation]**.
-   - Pointez sur le conteneur vide pour afficher la boîte à outils, puis cliquez sur l’icône _Paramètres_ (![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
+   - Pointez sur le conteneur vide pour afficher la boîte à outils, puis cliquez sur l’icône _Paramètres_ (![Icône Paramètres](./assets/pb-icon-settings.png)).
 
    ![Modifier la recommandation de produit](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
@@ -84,7 +84,7 @@ Utilisez la variable _Recommendations de produit_ type de contenu pour ajouter u
 
 ## Modification des paramètres des unités de recommandations
 
-1. Passez la souris sur le conteneur d’unité de recommandation pour afficher la boîte à outils, puis cliquez sur l’icône _Paramètres_ (![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
+1. Passez la souris sur le conteneur d’unité de recommandation pour afficher la boîte à outils, puis cliquez sur l’icône _Paramètres_ (![Icône Paramètres](./assets/pb-icon-settings.png)).
 
    ![Outils de recommandation](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
 
@@ -94,11 +94,11 @@ Utilisez la variable _Recommendations de produit_ type de contenu pour ajouter u
 
 ## Dupliquer une unité de recommandation
 
-1. Passez la souris sur le conteneur d’unité de recommandation pour afficher la boîte à outils, puis cliquez sur l’icône _Dupliquer_ ( ![Dupliquer](./assets/pb-icon-duplicate.png){width="20"} ) dans la boîte à outils.
+1. Passez la souris sur le conteneur d’unité de recommandation pour afficher la boîte à outils, puis cliquez sur l’icône _Dupliquer_ (![Icône Dupliquer](./assets/pb-icon-duplicate.png)) dans la boîte à outils.
 
    Le doublon apparaît juste en dessous de l’original.
 
-1. Pour déplacer l’unité de recommandation dupliquée vers un nouvel emplacement, passez la souris sur le conteneur et cliquez sur l’icône _Déplacer_ ( ![Icône Déplacer](./assets/pb-icon-move.png){width="20"} ) dans la boîte à outils.
+1. Pour déplacer l’unité de recommandation dupliquée vers un nouvel emplacement, passez la souris sur le conteneur et cliquez sur l’icône _Déplacer_ (![Icône Déplacer](./assets/pb-icon-move.png)) dans la boîte à outils.
 
 1. Sélectionnez l’unité de recommandation et faites-la glisser jusqu’à ce que la ligne directrice rouge apparaisse à la nouvelle position.
 
@@ -106,7 +106,7 @@ Utilisez la variable _Recommendations de produit_ type de contenu pour ajouter u
 
 ## Suppression d’une unité de recommandation de l’étape
 
-1. Pointez sur le conteneur de l’unité de recommandation, puis cliquez sur le _Supprimer_ ( ![Icône Supprimer](./assets/pb-icon-remove.png){width="20"} ) dans la boîte à outils.
+1. Pointez sur le conteneur de l’unité de recommandation, puis cliquez sur le _Supprimer_ ( ![Icône Supprimer](./assets/pb-icon-remove.png)) dans la boîte à outils.
 
 1. Lorsque vous y êtes invité, cliquez sur **[!UICONTROL OK]**.
 
