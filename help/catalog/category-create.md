@@ -3,9 +3,9 @@ title: Créer des catégories
 description: Vous pouvez créer autant de sous-catégories supplémentaires que nécessaire, en fonction de la profondeur maximale de menu définie dans la configuration.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Définissez également les mots-clés et attributs associés, tels que :
 
 1. Si vous souhaitez que la page de catégorie contienne le _`Filter by Attribute`_de la navigation par couches, définie **[!UICONTROL Anchor]**to `Yes`.
 
-1. Pour le **[!UICONTROL Available Product Listing Sort By]** , sélectionnez une ou plusieurs des valeurs disponibles pour que les clients puissent trier la liste.
+1. Pour le **[!UICONTROL Available Product Listing Sort By]** , sélectionnez une ou plusieurs des valeurs disponibles pour que les clients puissent trier la liste. Ce paramètre ne s’applique pas à la variable [!DNL Live Search] [Widget de page de liste de produits](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
    Par défaut, toutes les valeurs disponibles sont incluses. Désélectionnez l’option **[!UICONTROL Use All]** pour modifier les sélections. Par exemple, les valeurs peuvent inclure :
 
@@ -122,7 +122,7 @@ Définissez également les mots-clés et attributs associés, tels que :
    - `Product Name`
    - `Price`
 
-1. Pour définir l’ordre de tri par défaut de la catégorie, choisissez le **[!UICONTROL Default Product Listing Sort By]** .
+1. Pour définir l’ordre de tri par défaut de la catégorie, choisissez le **[!UICONTROL Default Product Listing Sort By]** . Ce paramètre ne s’applique pas à la variable [!DNL Live Search] [Widget de page de liste de produits](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
 1. Pour modifier la navigation par couche par défaut [étape de prix](navigation-layered.md#configure-price-navigation) , procédez comme suit :
 
