@@ -1,18 +1,20 @@
 ---
 title: Intégration de Adobe Experience Cloud pour l’administrateur Commerce
-description: Découvrez l’extension Admin Unified Experience qui intègre Commerce à Experience Cloud afin que les clients puissent accéder aux projets Commerce à partir de la page d’accueil de l’Experience Cloud.
+description: Découvrez l’extension Admin Experience unifiée qui intègre Commerce à Experience Cloud afin que les clients puissent accéder aux projets Commerce à partir de la page d’accueil de l’Experience Cloud.
 feature: Integration
 exl-id: e3fb6337-c7d5-4b6f-8f4a-583697a1f2d2
-source-git-commit: a07c91bc2f01cd110f3e0ccd6d27fe5d37eb2fc9
+source-git-commit: 61874f3dac4f574ad393e8ae258f3d6c56c8f37e
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
 
-# Intégration de Adobe Experience Cloud pour Commerce
+# Intégration Adobe Experience Cloud pour Commerce
 
-{{ee-feature}}
+<table style="border:1px solid red">
+<tr><td><img alt="Fonctionnalité Adobe Commerce" src="../assets/adobe-logo.svg" width="20" height="20" /> Fonctionnalité exclusive uniquement dans Adobe Commerce (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">En savoir plus</a>)</td></tr>
+</table>
 
 Intégrez les projets Adobe Commerce à Experience Cloud en activant l’extension Admin Unified Experience. Lorsque l’intégration est active, les administrateurs peuvent accéder aux projets Commerce à partir de Adobe Experience Cloud.
 
@@ -22,7 +24,7 @@ Intégrez les projets Adobe Commerce à Experience Cloud en activant l’extensi
 
 Les administrateurs peuvent afficher les projets Commerce auxquels ils sont autorisés à accéder en sélectionnant **[!UICONTROL Commerce]** de la page d’accueil de l’Experience Cloud.
 
-![Espace de travail des projets de commerce sur Experience Cloud](./assets/admin-uex-commerce-projects-home.png){width="700" zoomable="yes"}
+![Espace de travail Projets Commerce sur l’Experience Cloud](./assets/admin-uex-commerce-projects-home.png){width="700" zoomable="yes"}
 
 Les administrateurs peuvent ouvrir l’administrateur et le storefront pour chaque projet à partir de la [!DNL Commerce Projects] workspace et afficher des informations supplémentaires.
 
@@ -32,9 +34,9 @@ Les administrateurs peuvent ouvrir l’administrateur et le storefront pour chaq
 
 - **[URL de storefront](../stores-purchase/store-urls.md)**: affiche l’URL de base du site web par défaut.
 
-- **[Type d’environnement](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)**: les instances de commerce déployées dans un environnement de développement ou d’évaluation sont identifiées par un [!UICONTROL Development] ou [!UICONTROL Staging] libellé. Les instances sans libellé sont déployées dans un environnement de production.
+- **[Type d’environnement](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)**: les instances Commerce déployées dans un environnement de développement ou d’évaluation sont identifiées par un [!UICONTROL Development] ou [!UICONTROL Staging] libellé. Les instances sans libellé sont déployées dans un environnement de production.
 
-- **Accès administrateur de commerce**: ouvrez l’administrateur en cliquant sur **[!UICONTROL Open]**.
+- **Accès administrateur de Commerce**: ouvrez l’administrateur en cliquant sur **[!UICONTROL Open]**.
 
 - **Accès à Storefront**: ouvrez le storefront en sélectionnant **[!UICONTROL Open storefront]** dans le menu options.
 
@@ -68,13 +70,13 @@ Lorsque l’intégration de l’Experience Cloud est activée, les administrateu
 - Adobe Commerce sur l’infrastructure cloud
 - Extensions Adobe Commerce
 
-   - Extension Expérience unifiée de l’administrateur Commerce (`magento/module-unified-experience`)
+   - Extension Commerce Admin Unified Experience (`magento/module-unified-experience`)
 
-     Si le module n’est pas disponible sur l’instance Commerce, il peut être installé à l’aide du compositeur.
+     Si le module n’est pas disponible sur l’instance Commerce, il peut être installé à l’aide du compositeur d’expérience.
 
-   - [Service Adobe I/O Events](https://developer.adobe.com/commerce/extensibility/events/): obligatoire pour envoyer des données d’événement afin de gérer l’accès administrateur aux projets Commerce à partir d’un Experience Cloud.
+   - [Service Adobe I/O Events](https://developer.adobe.com/commerce/extensibility/events/): obligatoire pour envoyer des données d’événement afin de gérer l’accès administrateur aux projets Commerce à partir d’Experience Cloud.
 
-     L’intégration des événements d’Adobe I/O avec Commerce est activée par l’extension Événement de commerce (`magento/commerce-eventing`) qui est disponible avec Adobe Commerce 2.4.4 et versions ultérieures.
+     L’intégration des événements d’Adobe I/O avec Commerce est activée par l’extension d’événement Commerce (`magento/commerce-eventing`) qui est disponible avec Adobe Commerce 2.4.4 et versions ultérieures.
 
 ## Activation de l’intégration
 
