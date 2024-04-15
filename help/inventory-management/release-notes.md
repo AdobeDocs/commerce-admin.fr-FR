@@ -3,9 +3,9 @@ title: '[!DNL Inventory Management] notes de mise à jour'
 description: Consultez les notes de mise à jour pour plus d’informations sur toutes les [!DNL Inventory Management] versions.
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
-source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
+source-git-commit: 01d8a1d50f574330f3ce7e8bf03a018f0079f5db
 workflow-type: tm+mt
-source-wordcount: '3361'
+source-wordcount: '3445'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ Ces notes de mise à jour décrivent les versions de [!DNL Inventory Management]
 [!DNL Inventory Management] est un projet spécial d’ingénierie communautaire Magento Open Source ouvert aux contributeurs. Pour participer et contribuer, voir [Projet GitHub](https://github.com/magento/inventory) référentiel et [wiki](https://github.com/magento/inventory/wiki) pour commencer. Pour discuter du projet, rejoignez le [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) channel ([auto-inscription](https://opensource.magento.com/slack)).
 
 [Calendrier des versions](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} pour les versions prises en charge et compatibles.
+
+## v1.2.7
+
+[!DNL Inventory Management] Les notes de mise à jour 1.2.7 sont incluses dans la variable [Notes de mise à jour de la version de base 2.4.7](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
 
 ## v1.2.6
 
@@ -108,7 +112,7 @@ Ces notes de mise à jour décrivent les versions de [!DNL Inventory Management]
 
 Inventory management 1.2.4 (version de module : `magento/inventory-metapackage = 1.2.4`) est pris en charge avec la version 2.4.4 et compatible avec la version 2.4.0 d’Adobe Commerce, Adobe Commerce sur l’infrastructure cloud et la base de code du Magento Open Source.
 
-![Correction d’un problème](../assets/fix.svg) Commerce affiche désormais une valeur de quantité vendable exacte pour tous les produits dans la vue Admin product list. Auparavant, il affichait une valeur vide pour la quantité vendable de produits en stock avec des SKU contenant des caractères spéciaux. <!--- MC-41936-->
+![Correction d’un problème](../assets/fix.svg) Commerce affiche désormais une valeur de quantité vendable exacte pour tous les produits en mode Liste des produits d’administration. Auparavant, il affichait une valeur vide pour la quantité vendable de produits en stock avec des SKU contenant des caractères spéciaux. <!--- MC-41936-->
 
 ![Correction d’un problème](../assets/fix.svg) Les performances des actions de panier et de passage en caisse ont été améliorées, par exemple l’ajout de produits au panier dans les déploiements avec de nombreuses sources d’inventaire (environ 10 000). <!--- MC-42570-->
 
