@@ -1,26 +1,26 @@
 ---
 title: Guide de prise en main d’Adobe Commerce
-description: Informations complètes pour les commerçants qui découvrent Adobe Commerce et Magento Open Source.
+description: Informations complètes pour les commerçants qui découvrent Adobe Commerce.
 seo-title: Adobe Commerce Getting Started Guide
 seo-description: Describes basic tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
 exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
 recommendations: noCatalog
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
 # Guide de prise en main d’Adobe Commerce
 
-Ce guide est destiné aux commerçants et aux administrateurs système qui découvrent Adobe Commerce et Magento Open Source. Il fournit un aperçu de la plateforme sous leur angle et des informations détaillées sur les fonctionnalités de base qui permettent un magasin fonctionnel.
+Ce guide est destiné aux commerçants et aux administrateurs système qui découvrent Adobe Commerce. Il fournit un aperçu de la plateforme sous leur angle et des informations détaillées sur les fonctionnalités de base qui permettent un magasin fonctionnel.
 
 Ce guide couvre :
 
 | Objet | Description |
 | ------- | ----------- |
-| [Informations sur la version](about-this-release.md) | Découvrez la version actuelle d’Adobe Commerce et de Magento Open Source. |
+| [À propos de Commerce](about.md) | Découvrez la version actuelle d’Adobe Commerce. |
 | [Identifiants de connexion et URL](login-urls.md) | En savoir plus sur les [!DNL Commerce] URL et informations d’identification de compte utilisées pour accéder à votre administrateur et à votre vitrine. |
 | [[!DNL Commerce] comptes](commerce-account-create.md) | En savoir plus [!DNL Commerce] qui gèrent les produits et services que vous avez achetés. |
 | [L’administrateur](admin.md) | En savoir plus sur les [!DNL Commerce] Admin : l’emplacement où les commerçants configurent des produits et des promotions, gèrent des commandes et effectuent d’autres tâches administratives. |
@@ -32,7 +32,7 @@ Ce guide couvre :
 
 {style="table-layout:auto"}
 
-Il ne couvre pas les fonctionnalités plus détaillées d’Adobe Commerce et de Magento Open Source.
+Elle ne couvre pas les fonctionnalités plus détaillées d’Adobe Commerce.
 
 ## Documentation supplémentaire
 
