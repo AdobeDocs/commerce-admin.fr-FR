@@ -3,9 +3,9 @@ title: Évaluation du contenu
 description: L’évaluation de contenu permet à votre équipe d’entreprise de créer, de prévisualiser et de planifier facilement toute une gamme de mises à jour de contenu pour votre boutique, directement depuis l’administrateur.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ L’évaluation du contenu permet à votre équipe d’entreprise de créer, de 
 Le terme _campaign_ fait référence à l’enregistrement d’une modification planifiée ou d’une collection de modifications gérées à partir du tableau de bord d’évaluation. Les modifications peuvent être visualisées dans un calendrier ou une chronologie. Les termes _modification planifiée_ et _mise à jour planifiée_ sont interchangeables et font référence à une seule modification.
 
 Lorsque vous planifiez une modification du contenu pour une période spécifique, le contenu revient à la version précédente à l’expiration de la modification planifiée. Vous pouvez créer plusieurs versions du même contenu de base à utiliser pour des mises à jour ultérieures. Vous pouvez également revenir en arrière dans la chronologie pour afficher les versions précédentes du contenu. Pour enregistrer une version préliminaire, il vous suffit d’attribuer une date dans la frise chronologique si lointaine qu’elle ne sera jamais mise en production.
+
+>[!NOTE]
+>
+>Les champs relatifs à la date de début et à la date de fin ont été supprimés dans ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce et ne peuvent pas être modifiés directement sur la page de règle de prix de panier, de règle de prix de catalogue, de produit, de catégorie et de CMS. Vous devez créer une mise à jour planifiée pour ces activations.
 
 ## Objets et campagnes d’évaluation de contenu
 

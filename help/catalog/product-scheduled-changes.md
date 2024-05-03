@@ -3,9 +3,9 @@ title: Mises à jour planifiées des produits
 description: Découvrez comment planifier les modifications apportées à vos listes de produits pour prendre en charge les campagnes et les programmes promotionnels.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 1e809696ee6d623d162226628329ed53e8f71511
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 Les mises à jour de produit peuvent être appliquées selon le calendrier et regroupées avec d’autres modifications de contenu. Vous pouvez utiliser [évaluation du contenu](../content-design/content-staging.md) pour créer une campagne en fonction des modifications planifiées du produit ou appliquer les modifications à une campagne existante.
+
+>[!NOTE]
+>
+>La variable [!UICONTROL Set Product as New From] et [!UICONTROL To] champs et [!UICONTROL Schedule Design Update] ont été supprimés dans ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce et ne peuvent pas être modifiés directement sur le produit. Vous devez créer une mise à jour planifiée pour ces activations.
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ title: Modifications planifiées pour les règles de prix de catalogue
 description: Découvrez comment appliquer des règles de prix de catalogue selon le calendrier dans le cadre d’une campagne et les regrouper avec d’autres modifications de contenu.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 La zone Modifications planifiées s’affiche en haut de la page lorsqu’une nouvelle règle de prix est enregistrée ou mise à jour. Les règles de prix du catalogue peuvent être appliquées selon un calendrier dans le cadre d’une campagne et regroupées avec d’autres modifications de contenu. Vous pouvez créer une campagne en fonction des modifications planifiées apportées à une règle de prix ou appliquer les modifications à une campagne existante.
+
+>[!NOTE]
+>
+>La variable [!UICONTROL From] et [!UICONTROL To] ont été supprimés dans ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce et ne peuvent pas être modifiés directement sur la règle de prix du catalogue. Vous devez créer une mise à jour planifiée pour ces activations.
 
 >[!NOTE]
 >

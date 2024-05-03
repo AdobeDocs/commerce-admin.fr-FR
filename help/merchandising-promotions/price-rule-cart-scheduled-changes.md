@@ -3,9 +3,9 @@ title: Modifications planifiées des règles de prix du panier
 description: Découvrez comment appliquer les règles de prix du panier selon le calendrier dans le cadre d’une campagne et les regrouper avec d’autres modifications de contenu.
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 Les règles de prix du panier peuvent être appliquées au planning dans le cadre d’une campagne et regroupées avec d’autres modifications de contenu. Vous pouvez créer une campagne en fonction des modifications planifiées apportées à une règle de prix ou appliquer les modifications à une campagne existante.
+
+>[!NOTE]
+>
+>La variable [!UICONTROL From] et [!UICONTROL To] ont été supprimés dans ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce et ne peuvent pas être modifiés directement sur la règle de prix du panier. Vous devez créer une mise à jour planifiée pour ces activations.
 
 ![Règles de prix du panier - modifications planifiées](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
 

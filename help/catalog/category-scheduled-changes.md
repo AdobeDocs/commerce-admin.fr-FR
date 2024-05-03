@@ -3,9 +3,9 @@ title: Modifications planifiées pour les catégories
 description: Découvrez comment planifier des modifications de catégorie pour prendre en charge les campagnes marketing et les promotions de magasin.
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 Les mises à jour de catégorie peuvent être appliquées selon le calendrier et regroupées avec d’autres modifications de contenu. Vous pouvez créer une campagne en fonction des modifications planifiées apportées à la catégorie ou appliquer les modifications à une campagne existante. Pour en savoir plus, voir [Évaluation du contenu](../content-design/content-staging.md).
+
+>[!NOTE]
+>
+>La variable [!UICONTROL Schedule Design Update] a été supprimé dans ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce et ne peuvent pas être modifiés directement sur la catégorie. Vous devez créer une mise à jour planifiée pour ces activations.
 
 >[!NOTE]
 >
