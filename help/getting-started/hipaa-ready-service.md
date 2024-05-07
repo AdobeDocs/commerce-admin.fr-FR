@@ -3,9 +3,9 @@ title: Préparation du HIPAA sur Adobe Commerce
 description: Découvrez comment ajouter le module Adobe Commerce compatible avec HIPAA et obtenir des fonctionnalités et fonctionnalités supplémentaires qui vous permettent de respecter vos obligations HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 3364a07b4c79a60ed813bf669a04711b69dae6f9
+source-git-commit: c21c8b76e37e617885bae3492801b45093a6b5a5
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -182,7 +182,7 @@ Aucun des services SaaS proposés pour Adobe Commerce n’est disponible dans le
 ### Dépôt d’invités désactivé par défaut
 
 - Le passage en caisse des invités présente un risque potentiel pour divers aspects de l’HIPAA, y compris l’abattage, le contrôle d’accès, l’hygiène et la traçabilité des PHI, et potentiellement plus encore.
-- Le passage en caisse des invités est désactivé par défaut dans le module de préparation HIPAA, mais mes commerçants peuvent être activés à leurs risques et périls.
+- Le passage en caisse des invités est désactivé par défaut dans le module de préparation HIPAA, mais peut être activé par les commerçants à leurs risques et périls.
 
 ### Fonction de newsletter désactivée par défaut
 
@@ -191,3 +191,7 @@ Aucun des services SaaS proposés pour Adobe Commerce n’est disponible dans le
 ### Désactivation par défaut du paramètre du service de création de rapports avancés
 
 Le paramètre du service de création de rapports avancés est désactivé par défaut pour empêcher l’utilisation de l’API pour l’analyse et la création de rapports, mais il peut être activé par le commerçant à ses risques et périls.
+
+### Désactivation du service Sendgrid par défaut
+
+Le service Sendgrid est désactivé par défaut, car l’application n’est pas conforme aux normes HIPAA. Les vendeurs peuvent envoyer une demande d’assistance pour activer Sendgrid, mais ils doivent reconnaître qu’ils prendront le risque d’utiliser le service.
