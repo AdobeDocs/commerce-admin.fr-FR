@@ -3,9 +3,9 @@ title: Créer une règle de prix de panier
 description: Découvrez comment créer une règle de prix de panier basée sur les attributs de panier ou de produit.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 4f6847208721514eade48356ec27a021ba4fb612
+source-git-commit: 968ccc5eed5b79be8c51b350d6394e358805ad93
 workflow-type: tm+mt
-source-wordcount: '2971'
+source-wordcount: '3302'
 ht-degree: 0%
 
 ---
@@ -328,7 +328,7 @@ Le libellé apparaît dans la section des totaux de la commande pour identifier 
 
 1. Testez la règle pour vous assurer qu’elle fonctionne correctement.
 
-   Les règles de prix sont automatiquement traitées avec d’autres règles système chaque nuit. Lorsque vous créez une règle de prix, laissez suffisamment de temps pour qu’elle entre dans le système. Testez également la règle pour vous assurer qu’elle fonctionne correctement. À mesure que de nouvelles règles sont ajoutées, le Commerce recalcule les prix et les priorités en conséquence.
+   Les règles de prix sont automatiquement traitées avec d’autres règles système chaque nuit. Lorsque vous créez une règle de prix, laissez suffisamment de temps pour qu’elle entre dans le système. Testez également la règle pour vous assurer qu’elle fonctionne correctement. A mesure que de nouvelles règles sont ajoutées, Commerce recalcule les prix et les priorités en conséquence.
 
 ## Démonstration de la règle de prix du panier
 
@@ -360,6 +360,31 @@ Regardez cette vidéo pour en savoir plus sur la création de règles de prix de
 ### [!UICONTROL Conditions]
 
 Indique les conditions qui doivent être remplies avant que la règle de prix du panier ne prenne effet. Si rien n’est indiqué, la règle s’applique à tous les produits du panier. Les conditions peuvent être basées sur n’importe quelle combinaison d’attributs de panier et de produit. Cependant, [options personnalisables](../catalog/settings-advanced-custom-options.md) ne peut pas être référencé dans les conditions des règles de prix du panier.
+
+| Champ | Description |
+|--- |--- |
+| [!UICONTROL **Attribut d’article au panier**] |  |
+| [!UICONTROL Price in cart] | Prix du produit. La règle s’applique si le prix du produit dans la condition du panier est satisfait. |
+| [!UICONTROL Quantity in cart] | Quantité de produit. La règle s’applique si la quantité de produit dans le panier est remplie. |
+| [!UICONTROL Row total in cart] | Total de la ligne du produit. La règle s’applique si le total de la ligne du produit dans la condition du panier est satisfait. |
+| [!UICONTROL **Attribut de produit**] |  |
+| [!UICONTROL Attribute Set] | Jeu d’attributs de produit. La règle s’applique si le produit respecte la condition d’attribut du produit. |
+| [!UICONTROL Category] | Catégorie de produits. La règle s’applique si le produit lui-même ou son produit enfant répond à la condition de catégorie. |
+| [!UICONTROL Category (Children Only)] | Catégorie de produits enfants. La règle s’applique si seuls les enfants de produit répondent à la condition de catégorie (le produit lui-même n’est pas coché ici). |
+| [!UICONTROL Category (Parent Only)] | Catégorie de produit parente. La règle s’applique si seul le produit répond à la condition de catégorie (les produits enfants ne sont pas vérifiés ici). |
+| [!UICONTROL **Attribut au panier**] |  |
+| [!UICONTROL Subtotal (Excl. Tax)] | Sous-total du panier (hors taxe). La règle s’applique si le panier respecte la condition de sous-total (hors taxe). |
+| [!UICONTROL Subtotal (Incl. Tax)] | Sous-total du panier (taxes comprises). La règle s’applique si le panier respecte la condition de sous-total (y compris la taxe). |
+| [!UICONTROL Subtotal] | Sous-total du panier. La règle s’applique si le panier respecte une condition de sous-total. Cochez la case inclut ou exclut la taxe en fonction des paramètres de taxe actuels. |
+| [!UICONTROL Total Items Quantity] | Quantité totale de tous les produits du panier. La règle s’applique si le panier respecte une condition de quantité totale d’articles. |
+| [!UICONTROL Total Weight] | Poids total de tous les produits du panier. La règle s’applique si le panier respecte la condition de poids total. |
+| [!UICONTROL Payment Method] | Mode de paiement sélectionné lors de l’extraction. La règle s’applique si la condition du mode de paiement est remplie. |
+| [!UICONTROL Shipping Method] | Mode de livraison sélectionné lors du passage en caisse. La règle s’applique si la condition du mode de livraison est remplie. |
+| [!UICONTROL Shipping Postcode] | Code postal de l’adresse d’expédition. La règle s’applique si l’adresse de livraison respecte la condition du code postal. |
+| [!UICONTROL Shipping Region] | Région de l’adresse d’expédition. La règle s’applique si l’adresse de livraison respecte la condition de région. |
+| [!UICONTROL Shipping State/Province] | Etat/province de l’adresse d’expédition. La règle s’applique si l’adresse de livraison respecte la condition Etat/province. |
+| [!UICONTROL Shipping Country] | Pays de l’adresse d’expédition. La règle s’applique si l’adresse de livraison respecte la condition du pays. |
+| [!UICONTROL Customer Segment] | La règle s’applique si un client enregistré ou invité remplit la condition de segment du client. |
 
 ### [!UICONTROL Actions]
 
