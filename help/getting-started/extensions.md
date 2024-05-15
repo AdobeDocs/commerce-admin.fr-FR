@@ -3,9 +3,9 @@ title: Extensions d’Adobe
 description: Consultez les informations sur les extensions d’Adobe Commerce et de Magento Open Source publiées par Adobe.
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-source-git-commit: c22ad5c3220f14588131d6b29a88dab3c5347681
+source-git-commit: 6414a7aea7dcbe0f2379ed74455518220a1fbd64
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -83,18 +83,13 @@ La variable [!DNL Catalog Service] vous permet de fournir aux clients une expér
 
 [!DNL Payment services] pour Adobe Commerce et Magento Open Source est une solution de paiement entièrement intégrée qui simplifie le processus de gestion des paiements et donne à vos clients la possibilité de payer à leur guise. Réconciliez en toute sécurité toutes les données de paiement et de transaction au sein de l’administrateur Adobe Commerce, ce qui vous permet de gérer les commandes et les paiements à un seul endroit tout en effectuant un passage en caisse transparent. Voir [[!DNL Payment Services] Guide de l’utilisateur](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) pour plus d’informations.
 
-### [!DNL Quick Checkout]
-
-[!DNL Quick Checkout] pour Adobe Commerce offre une expérience de passage en caisse transparente, conçue pour convertir des clients invités uniques en détenteurs de compte fidèles.
-Voir [[!DNL Quick Checkout] Guide de l’utilisateur](https://experienceleague.adobe.com/docs/commerce-merchant-services/quick-checkout/overview.html) pour plus d’informations.
-
 ### [!DNL Store Fulfillment]
 
 L’exécution de magasin pour Adobe Commerce et Magento Open Source permet à un client d’acheter en ligne, de prendre en main son expérience client (BOPIS) et d’optimiser sa productivité en fournissant un workflow d’exécution complet activé sur un appareil mobile. Voir [[!DNL Store Fulfillment] Guide de l’utilisateur](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/guide-overview.html) pour plus d’informations.
 
 ### [!DNL Amazon Sales Channel]
 
-La variable [!DNL Amazon Sales Channel] pour Adobe Commerce vous permet d’intégrer votre base de données de liste Amazon Seller Central à votre [!DNL Commerce] catalogue de produits et gérez vos listes et ventes Amazon dans l’administrateur Commerce. Voir [[!DNL Amazon Sales] Guide de l’utilisateur](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html) pour plus d’informations.
+La variable [!DNL Amazon Sales Channel] pour Adobe Commerce vous permet d’intégrer votre base de données de liste Amazon Seller Central à votre [!DNL Commerce] catalogue de produits et gérez vos listes et ventes Amazon dans Commerce Admin. Voir [[!DNL Amazon Sales] Guide de l’utilisateur](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html) pour plus d’informations.
 
 ### [!DNL Channel Manager]
 
