@@ -7,8 +7,8 @@ breadcrumb-title: Documentation du marché
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 source-git-commit: e64045a84f79a204450e6da71bcf9f7f72882403
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 1%
+source-wordcount: '1184'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Les informations contenues dans la documentation du commerce sont conçues pour 
 
 Adobe Commerce est une plateforme de commerce B2B et B2C agile qui permet aux commerçants et aux marques d’accélérer leurs recettes grâce à des expériences commerciales numériques axées sur le client, sur des espaces en ligne et physiques. Il s’agit du premier choix pour les organisations de taille moyenne ou d’entreprise, car il offre les modèles de déploiement les plus flexibles, depuis le cloud sur site jusqu’au cloud géré avec des contrats de niveau de service garantis. Adobe Commerce permet des intégrations d’abord API et des extensions entièrement personnalisables, ainsi que l’ensemble le plus riche de fonctionnalités d’expérience commerciale de niveau entreprise, allant du marketing au marchandisage et à l’exécution. Adobe Commerce repose sur une base de code Open Source afin d’offrir une flexibilité et une extensibilité inégalées.
 
-Pour obtenir la liste des fonctionnalités avancées incluses dans Adobe Commerce, voir [Fonctionnalités commerciales](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en) dans le _Informations sur la version_.
+Pour obtenir la liste des fonctionnalités avancées incluses dans Adobe Commerce, voir [Fonctionnalités Commerce](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en) dans le _Informations sur la version_.
 
 ## Base de code du Magento Open Source
 
@@ -119,15 +119,15 @@ Magento Open Source est la base de code qui Adobe contribue officiellement à la
 
 >[!TIP]
 >
->Vous pouvez également consulter [nouveautés de la documentation de Commerce Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html#what%E2%80%99s-new) et [les nouveautés des guides opérationnels](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
+>Vous pouvez également consulter [nouveautés de la documentation des services Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html#what%E2%80%99s-new) et [les nouveautés des guides opérationnels](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
 
 | Description | Type | Date |
 | ----------- | ---- | ---- |
 | **Version 1.4.0 B2B** - Les notes de mise à jour B2B pour Adobe Commerce décrivent les modifications et les ajouts pour la variable [Version 1.4.0](../b2b/release-notes.md#b2b-v140). | Mettre à jour | 06/13/23 |
 | **Version 1.4.0 B2B** - La variable [Lancer un devis pour un acheteur](../b2b/sales-rep-initiates-quote.md) est désormais incluse dans la variable _Guide B2B pour Adobe Commerce_. Il décrit comment un vendeur peut créer un devis pour un acheteur spécifique afin de lancer le processus de négociation. | Nouveau | 06/13/23 |
 | **Version 1.4.0 B2B** - La variable [Négocier une citation](../b2b/quote-price-negotiation.md), [Devis négociables](../b2b/quotes.md), et [Activation des fonctionnalités B2B](../b2b/enable-basic-features.md) Les rubriques sont mises à jour pour prendre en compte les modifications apportées aux guillemets initiés par le vendeur et aux fonctionnalités par défaut. | Mettre à jour | 06/13/23 |
-| **2.2.0 Version de l’intégration Adobe IMS** - La variable [Désactivation de l’intégration de l’administrateur Commerce avec Adobe ID](../getting-started/adobe-ims-disable.md) est désormais incluse dans la variable _Guide de démarrage_. Il décrit une procédure facultative de désactivation de l’intégration de l’administrateur Adobe Commerce avec Adobe IMS. | Nouveau | 06/13/23 |
-| **2.2.0 Version de l’intégration Adobe IMS** - Changements dans le [Présentation de l’intégration d’Adobe Identity Management Service (IMS)](../getting-started/adobe-ims-integration-overview.md) et [Configuration de l’intégration de l’administrateur Commerce avec Adobe ID](../getting-started/adobe-ims-config.md) pour refléter les fonctionnalités mises à jour. | Mettre à jour | 06/13/23 |
+| **2.2.0 Version de l’intégration Adobe IMS** - La variable [Désactivation de l’intégration des administrateurs Commerce avec Adobe ID](../getting-started/adobe-ims-disable.md) est désormais incluse dans la variable _Guide de démarrage_. Il décrit une procédure facultative de désactivation de l’intégration de l’administrateur Adobe Commerce avec Adobe IMS. | Nouveau | 06/13/23 |
+| **2.2.0 Version de l’intégration Adobe IMS** - Changements dans le [Présentation de l’intégration d’Adobe Identity Management Service (IMS)](../getting-started/adobe-ims-integration-overview.md) et [Configuration de l’intégration des administrateurs Commerce avec Adobe ID](../getting-started/adobe-ims-config.md) pour refléter les fonctionnalités mises à jour. | Mettre à jour | 06/13/23 |
 | **[!DNL Audience Activation]** - Des informations nouvelles et mises à jour et améliorées sont incluses dans la variable [[!DNL Audience Activation]](../customers/audience-activation.md) pour refléter la rubrique [!DNL Experience Platform Connector] l’interface utilisateur de configuration et comment utiliser une instance Commerce sans interface utilisateur graphique avec des règles de prix de panier et des blocs dynamiques. | Mettre à jour | 06/13/23 |
 | **Dépréciation de l’API UPS** - Mise à jour de la [United Parcel Service (UPS)](../stores-purchase/ups.md) et la rubrique [Méthodes de diffusion](../configuration-reference/sales/delivery-methods.md#ups) page de référence de configuration pour refléter l’obsolescence temporaire des API UPS pour générer de nouvelles clés d’API. | Mettre à jour | 06/08/23 |
 | **Version 2.4.6** - Mise à jour de la [Liste de produits](../catalog/products-list.md) et [Référence de configuration de l’administrateur](../configuration-reference/advanced/admin.md) pour inclure des informations sur les limites d’affichage des produits qui peuvent être utilisées pour améliorer les performances des catalogues volumineux. | Mettre à jour | 03/14/23 |

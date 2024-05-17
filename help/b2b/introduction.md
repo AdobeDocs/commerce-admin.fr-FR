@@ -5,7 +5,7 @@ exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
 source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Les services pour Adobe Commerce sont des services hébergés qui offrent des fo
 
 ## Catalogues partagés
 
-Les catalogues partagés sont les niveaux de prix qui permettent de définir des prix personnalisés par produit pour différentes entreprises sur un ou plusieurs sites web. En utilisant des catalogues partagés, vous pouvez vendre des produits en appliquant différents niveaux de prix pour différents groupes de clients. La prise en charge des catalogues partagés est disponible uniquement pour les magasins Commerce configurés pour prendre en charge les comptes d’entreprise.
+Les catalogues partagés sont les niveaux de prix qui permettent de définir des prix personnalisés par produit pour différentes entreprises sur un ou plusieurs sites web. En utilisant des catalogues partagés, vous pouvez vendre des produits en appliquant différents niveaux de prix pour différents groupes de clients. La prise en charge des catalogues partagés n’est disponible que pour les magasins Commerce configurés pour prendre en charge les comptes d’entreprise.
 
 Pour plus d’informations, voir [Utilisation de catalogues partagés](catalog-shared.md).
 

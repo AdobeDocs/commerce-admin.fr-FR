@@ -5,7 +5,7 @@ mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
 source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
 workflow-type: tm+mt
-source-wordcount: '3326'
+source-wordcount: '3322'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Les recherches ont montré que [64 % des acheteurs](https://techreport.com/stati
 Ce nouveau storefront haute performance a déjà été piloté avec succès par plusieurs marchands Adobe Commerce, tels que [Maidenform](https://business.adobe.com/blog/perspectives/how-hanesbrands-and-adobe-built-one-of-the-fastest-ecommerce-websites-in-the-world), une propriété de HanesBrands. Les résultats parlent d&#39;eux-mêmes. Les pages de formulaires principaux affichent systématiquement les scores Google Lighthouse [100 et résultats des principales valeurs de la valeur vitale du web](https://treo.sh/sitespeed/www.maidenform.com) bien au-dessus de la moyenne du secteur.
 
 ![Résultats de la vitesse du site](assets/maidenform-site.png){width=&quot;50%&quot; align=center}
-![Graphique des Vitesses Web de base](assets/maidenform-site-stats.png){zoomable=&quot;yes&quot;}
+![Graphique des Vitesses Web de base](assets/maidenform-site-stats.png){zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
@@ -186,7 +186,7 @@ Le playbook initial d’Adobe Commerce permet aux clients de lancer facilement d
 
 Adobe ajoute également des tableaux de bord spécifiques à Commerce dans Adobe Experience Platform pour aider les marketeurs à analyser leurs données Commerce et à identifier les opportunités de personnalisation.
 
-![Un diagramme d’une campagne de panier abandonnée](assets/use-case-playbook.png){zoomable=&quot;yes&quot;}
+![Un diagramme d’une campagne de panier abandonnée](assets/use-case-playbook.png){zoomable="yes"}
 
 #### Activation de la personnalisation à l’aide des audiences de la plateforme de données clients en temps réel d’Adobe
 
