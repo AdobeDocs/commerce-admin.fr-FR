@@ -1,12 +1,12 @@
 ---
 title: Introduction à [!DNL B2B for Adobe Commerce]
-description: Découvrez comment utiliser les fonctionnalités intégrées B2B pour répondre à vos besoins pour les clients qui sont des entreprises.
+description: Découvrez comment utiliser les fonctionnalités intégrées B2B pour répondre à vos besoins pour les entreprises clientes.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
 source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 

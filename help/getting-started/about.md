@@ -1,6 +1,6 @@
 ---
 title: Présentation d’Adobe Commerce
-description: Adobe Commerce est une plateforme de commerce électronique d’entreprise. Découvrez les dernières fonctionnalités qui favorisent la croissance des équipes d’e-commerce à l’échelle mondiale.
+description: Adobe Commerce est une plateforme d’e-commerce d’entreprise. Découvrez les dernières fonctionnalités qui favorisent le développement des équipes d’e-commerce à l’échelle mondiale.
 mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
 source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
