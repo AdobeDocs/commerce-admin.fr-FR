@@ -4,9 +4,9 @@ description: Découvrez comment exécuter une analyse de sécurité améliorée 
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 1f3173d17cc43227f7d44637f1ef0b62606cd0fd
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,15 @@ L’analyse de sécurité améliorée vous permet de surveiller chacun de vos si
 - Accédez aux rapports de sécurité historiques qui effectuent le suivi et le suivi de la progression de vos sites.
 - Accédez au rapport d’analyse qui affiche les vérifications réussies et en échec, avec toutes les actions recommandées.
 
-L’outil d’analyse de sécurité est disponible gratuitement dans le tableau de bord de votre [Compte Commerce](../getting-started/commerce-account-create.md). Pour obtenir des informations techniques, voir [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) dans le _Guide d’infrastructure de Commerce on Cloud_.
+L’outil d’analyse de sécurité est disponible gratuitement dans le tableau de bord de votre [Compte Commerce/Magento](../getting-started/commerce-account-create.md). Pour obtenir des informations techniques, voir [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) dans le _Guide d’infrastructure de Commerce on Cloud_.
 
 ![Outil d&#39;analyse de sécurité](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## Exécution d’une analyse de sécurité
 
-1. Accédez à la page d’accueil de Commerce et connectez-vous à votre [Compte Commerce](../getting-started/commerce-account-create.md) et procédez comme suit :
+1. Sur la page d’accueil de Commerce, connectez-vous à [Compte Commerce/Magento](../getting-started/commerce-account-create.md).
+
+1. Examinez et acceptez les conditions d’utilisation de l’outil d’analyse de sécurité.
 
    - Dans le panneau de gauche, choisissez **[!UICONTROL Security Scan]**.
    - Cliquez sur **[!UICONTROL Go to Security Scan]**.
@@ -37,7 +39,7 @@ L’outil d’analyse de sécurité est disponible gratuitement dans le tableau 
 
 1. Sur le _[!UICONTROL Monitored Websites]_page, cliquez sur **[!UICONTROL +Add Site]**.
 
-   Si vous disposez de plusieurs sites avec des domaines différents, vous devez configurer une analyse distincte pour chaque domaine.
+   Si vous disposez de plusieurs sites avec des domaines différents, configurez une analyse distincte pour chaque domaine.
 
    ![Sites surveillés](./assets/monitored-website.png){width="600" zoomable="yes"}
 
@@ -102,7 +104,7 @@ L’outil d’analyse de sécurité est disponible gratuitement dans le tableau 
 
         Une fois le processus de création terminé, les modifications sont déployées vers l’interface de votre boutique de PWA.
 
-1. Revenez au _[!UICONTROL Security Scan]_dans votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**pour établir votre propriété du domaine.
+1. Revenez au _[!UICONTROL Security Scan]_dans votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**pour établir la propriété du domaine.
 
 1. Après une confirmation réussie, configurez la variable **[!UICONTROL Set Automatic Security Scan]** pour l’un des types suivants :
 
