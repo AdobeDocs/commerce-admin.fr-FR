@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: d1079c8eac20c08a17af1f72bf49b6cb859c0699
+source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -174,6 +174,8 @@ Avec la variable [!DNL Audience Activation] extension activée, vous pouvez :
 - [Créer un bloc dynamique](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) tenus par les audiences
 - [(**Beta**) Créer une règle de produit associée](../merchandising-promotions/product-related-rule-create.md) tenus par les audiences
 
+Pour un cas d’utilisation complet de bout en bout sur l’exportation [!DNL Commerce] données à Real-Time CDP, création d’une audience, puis activation de cette audience vers [!DNL Commerce], voir [Création d’une audience dans Real-Time CDP à l’aide de [!DNL Commerce] données d’événement](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+
 ## Tableau de bord des audiences Real-Time CDP
 
 Vous pouvez afficher toutes les [active](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) audiences disponibles pour la personnalisation dans votre instance Adobe Commerce à l’aide de la variable **Audiences Real-Time CDP** tableau de bord.
@@ -306,7 +308,7 @@ En savoir plus sur les `dynamicBlocks` Requête GraphQL dans le [documentation d
 Vous pouvez récupérer les audiences Real-Time CDP à l’aide du SDK Adobe Experience Platform Mobile.
 
 1. [Installer](#install-the-extension) l’extension d’Audience Activation.
-1. [installation et configuration du SDK pour votre site de commerce mobile ;](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+1. [installation et configuration du SDK pour votre site Commerce mobile](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
