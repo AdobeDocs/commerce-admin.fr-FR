@@ -3,9 +3,9 @@ title: Tarifs des groupes
 description: Découvrez comment utiliser la tarification par groupe pour définir les prix des articles à prix réduit en fonction des groupes de clients de votre boutique.
 exl-id: bc5be23f-64eb-47c3-beda-01168abfbf96
 feature: Catalog Management, Products, Customers
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ La tarification pour les groupes de clients est un composant de [tarification é
 
 1. Dans le _[!UICONTROL Customer Group Price]_, cliquez sur **[!UICONTROL Add]**.
 
-   Si votre boutique comprend [B2B pour Adobe Commerce](../b2b/introduction.md) et possède [catalogues partagés](../b2b/catalog-shared.md) activée, cette section est intitulée _[!UICONTROL Catalog and Tier Price]_.
+   Si votre boutique comprend [Adobe Commerce B2B](../b2b/introduction.md) et possède [catalogues partagés](../b2b/catalog-shared.md) activée, cette section est intitulée _[!UICONTROL Catalog and Tier Price]_.
 
    ![Tarifs avancés](./assets/product-price-group.png){width="600" zoomable="yes"}
 

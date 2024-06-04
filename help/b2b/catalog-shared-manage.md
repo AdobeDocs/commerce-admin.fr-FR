@@ -3,9 +3,9 @@ title: Gestion des catalogues partagés
 description: Découvrez les informations et les outils disponibles sur la page Catalogues partagés.
 exl-id: a01ac292-240d-42e7-b4c9-2982f293c521
 feature: B2B, Companies, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ Les informations détaillées de tout catalogue partagé peuvent être facilemen
 | Champ | Description |
 |--- |--- |
 | [!UICONTROL Name] | Identifie le catalogue partagé dans l’ensemble de l’administrateur et dans les comptes clients où il est disponible. Le nom du catalogue doit être descriptif et ne pas dépasser 32 caractères. Vous ne pouvez pas avoir deux catalogues partagés portant le même nom. Nombre maximum de caractères : 32 |
-| [!UICONTROL Type] | **[!UICONTROL Custom]** - Identifie un catalogue dont la tarification personnalisée est disponible uniquement pour les entreprises spécifiques auxquelles il est affecté.<br/>**[!UICONTROL Public]**- Identifie le catalogue partagé disponible pour tous les visiteurs invités et les clients connectés qui ne sont pas associés à une entreprise. Un catalogue partagé public &quot;par défaut&quot; est créé lorsque B2B pour Adobe Commerce est installé, mais doit être configuré par l’administrateur. Un seul catalogue partagé public peut exister à la fois. |
+| [!UICONTROL Type] | **[!UICONTROL Custom]** - Identifie un catalogue dont la tarification personnalisée est disponible uniquement pour les entreprises spécifiques auxquelles il est affecté.<br/>**[!UICONTROL Public]**- Identifie le catalogue partagé disponible pour tous les visiteurs invités et les clients connectés qui ne sont pas associés à une entreprise. Un catalogue partagé public &quot;par défaut&quot; est créé lorsque Adobe Commerce B2B est installé, mais doit être configuré par l’administrateur. Un seul catalogue partagé public peut exister à la fois. |
 | [!UICONTROL Customer Tax Class] | Détermine la classe de taxe utilisée pour les achats effectués à partir du catalogue. Les options incluent toutes les classes d’impôts disponibles. |
 | [!UICONTROL Description] | Une brève explication de l’utilisation du catalogue. |
 

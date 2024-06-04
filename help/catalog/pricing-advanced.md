@@ -3,9 +3,9 @@ title: Tarifs avancés
 description: Découvrez les contrôles de tarification avancés disponibles dans Adobe Commerce.
 exl-id: 0f353341-1b6b-4093-bba9-4a1b88323f8a
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ La variable _[!UICONTROL Advanced Pricing]_Les paramètres définissent les cond
 
 Les données de tarification avancées sont synchronisées avec les pages de produits. Par exemple, si vous mettez à jour une quantité de prix de niveau, le système met à jour la valeur sur la page du produit.
 
-![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec [B2B pour Adobe Commerce](./b2b/../introduction.md) uniquement) Si vous utilisez des catalogues partagés, les données de tarification avancées sont synchronisées avec les pages de produits et les catalogues partagés. Par exemple, si vous mettez à jour une quantité de prix de niveau, le système met à jour la valeur dans le catalogue partagé et sur la page du produit. Toute tarification personnalisée indiquée dans le catalogue partagé a priorité sur la tarification du groupe de clients. Voir aussi [Définition de la tarification et de la structure du catalogue partagées](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) dans le _Guide B2B pour Adobe Commerce_.
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec [Adobe Commerce B2B](./b2b/../introduction.md) uniquement) Si vous utilisez des catalogues partagés, les données de tarification avancées sont synchronisées avec les pages de produits et les catalogues partagés. Par exemple, si vous mettez à jour une quantité de prix de niveau, le système met à jour la valeur dans le catalogue partagé et sur la page du produit. Toute tarification personnalisée indiquée dans le catalogue partagé a priorité sur la tarification du groupe de clients. Voir aussi [Définition de la tarification et de la structure du catalogue partagées](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) dans le _Guide Adobe Commerce B2B_.
 
 ![Tarifs avancés](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 

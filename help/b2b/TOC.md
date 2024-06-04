@@ -1,11 +1,11 @@
 ---
-user-guide-title: « Guide [!DNL B2B for Adobe Commerce] »
+user-guide-title: « Guide [!DNL Adobe Commerce B2B] »
 user-guide-description: Découvrez comment utiliser les fonctionnalités intégrées B2B disponibles pour Adobe Commerce,
-breadcrumb-title: "[!DNL B2B for Adobe Commerce]"
+breadcrumb-title: "[!DNL Adobe Commerce B2B]"
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: 3b282f7ead80bb7b01046137c9c7127f92b8726c
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 6%
@@ -13,9 +13,9 @@ ht-degree: 6%
 ---
 
 
-# Guide [!DNL B2B for Adobe Commerce] {#b2b}
+# Guide [!DNL Adobe Commerce B2B] {#b2b}
 
-+ [Guide [!DNL B2B for Adobe Commerce]](guide-overview.md)
++ [Guide [!DNL Adobe Commerce B2B]](guide-overview.md)
 + [Présentation des fonctionnalités B2B](introduction.md)
 + [Notes de mise à jour](release-notes.md)
 + [Installation](install.md)

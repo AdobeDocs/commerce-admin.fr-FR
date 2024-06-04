@@ -3,9 +3,9 @@ title: Workflow et traitement des commandes
 description: Découvrez le workflow des commandes, l’état qui s’applique à chaque étape et comment déplacer les commandes au cours de ce processus.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1718'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Seules les commandes qui ne sont pas facturées ont un statut de `Processing`, e
 | [!UICONTROL Order Date] | Date et heure auxquelles la commande a été passée. |
 | [!UICONTROL Purchased From] | Indique la vue du site web, du magasin et du magasin où la commande a été passée. |
 | [!UICONTROL Placed from IP] | Indique l’adresse IP de l’ordinateur sur lequel la commande a été passée. |
-| [!UICONTROL Order Placed from Quote] | ![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce) Indique la variable [guillemet](../b2b/quotes.md) à partir de laquelle la commande a été générée, le cas échéant. Le nom du guillemet est lié au guillemet. |
+| [!UICONTROL Order Placed from Quote] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Indique la variable [guillemet](../b2b/quotes.md) à partir de laquelle la commande a été générée, le cas échéant. Le nom du guillemet est lié au guillemet. |
 
 {style="table-layout:auto"}
 
@@ -141,7 +141,7 @@ Seules les commandes qui ne sont pas facturées ont un statut de `Processing`, e
 | [!UICONTROL Customer Name] | Nom du client ou de l’acheteur qui a passé la commande. Le Nom du client est lié au profil du client. |
 | [!UICONTROL Email] | Adresse électronique du client ou de l’acheteur. L’adresse électronique est liée pour ouvrir un nouveau message électronique. |
 | [!UICONTROL Customer Group] | Nom du groupe de clients ou du catalogue partagé auquel le client est affecté. |
-| [!UICONTROL Company Name] | ![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce) Nom de la société à laquelle l’acheteur est associé et pour le compte de laquelle la commande est passée. Le nom de l’entreprise est lié au [profil de la société](../b2b/account-companies.md). |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Nom de la société à laquelle l’acheteur est associé et pour le compte de laquelle la commande est passée. Le nom de l’entreprise est lié au [profil de la société](../b2b/account-companies.md). |
 
 {style="table-layout:auto"}
 
@@ -220,9 +220,9 @@ Dans le **[!UICONTROL Order Total]** , procédez comme suit :
 | [!UICONTROL Total Refunded] | Montant total remboursé de la commande, le cas échéant. |
 | [!UICONTROL Total Due] | Montant total qui est dû. |
 | [!UICONTROL Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Le montant du crédit de magasin disponible appliqué à la commande, le cas échéant. |
-| [!UICONTROL Catalog Total Price] | ![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce) Prix total des articles du devis, sans taxe, selon la tarification du catalogue partagé ou du catalogue standard utilisé comme base du devis. Si la devise d’affichage du storefront diffère de la devise de base, la valeur apparaît dans les deux devises, l’affichage du storefront étant placé entre crochets. |
-| [!UICONTROL Negotiated Discount] | ![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce) La remise qui résulte d’un devis négocié entre l’acheteur et le vendeur. Si la devise d’affichage du storefront diffère de la devise de base, la valeur apparaît dans les deux devises, l’affichage du storefront étant placé entre crochets. |
-| [!UICONTROL Subtotal] | ![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce) Le prix total du catalogue moins la remise négociée. |
+| [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Prix total des articles du devis, sans taxe, selon la tarification du catalogue partagé ou du catalogue standard utilisé comme base du devis. Si la devise d’affichage du storefront diffère de la devise de base, la valeur apparaît dans les deux devises, l’affichage du storefront étant placé entre crochets. |
+| [!UICONTROL Negotiated Discount] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) La remise résultant d’un devis négocié entre l’acheteur et le vendeur. Si la devise d’affichage du storefront diffère de la devise de base, la valeur apparaît dans les deux devises, l’affichage du storefront étant placé entre crochets. |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Prix total du catalogue moins la remise négociée. |
 
 {style="table-layout:auto"}
 

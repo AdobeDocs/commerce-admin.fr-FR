@@ -3,9 +3,9 @@ title: Devis négociables
 description: Découvrez les workflows de devis et comment fournir ce service aux comptes de votre société.
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-source-git-commit: 27b0c43f72faa2c2e8717fd5929f36d12f9e1b08
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Au cours du processus de négociation, la citation ne peut être mise à jour qu
 
 Les guillemets négociables ne sont disponibles que si Adobe Commerce dispose des paramètres de configuration suivants :
 
-- [L’extension B2B pour Adobe Commerce est installée.](install.md)
+- [L’extension Adobe Commerce B2B est installée.](install.md)
 - [Fonctionnalités B2B configurées](enable-basic-features.md)
    - Activation des comptes d’entreprise
    - Activer le guillemet B2B
@@ -134,7 +134,7 @@ Seules les requêtes de guillemet avec une `Open` peut être refusé.
 |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Send] | Envoie la citation mise à jour comme réponse à l&#39;enquête de l&#39;acheteur. Ce bouton est désactivé si le vendeur attend une réponse de l&#39;acheteur. |
 | [!UICONTROL Back] | Renvoie à la variable _Guillemets_ sans enregistrer les modifications. |
-| [!UICONTROL Create Copy] | [!BADGE Fonctionnalités 1.5.0 bêta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible uniquement pour les participants au programme bêta"}`<original quote name> (copy)`. Modifiez le nom en modifiant la valeur dans la variable [!UICONTROL Name] et enregistrer le guillemet en tant que brouillon. |
+| [!UICONTROL Create Copy] | [!BADGE Fonctionnalités 1.5.0 bêta]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Disponible uniquement pour les participants au programme bêta&quot;} Créez une nouvelle citation à partir du guillemet actuel en la copiant et en la renommant. Lorsque le nouveau guillemet s’ouvre, le nom par défaut est `<original quote name> (copy)`. Modifiez le nom en modifiant la valeur dans la variable [!UICONTROL Name] et enregistrer le guillemet en tant que brouillon. |
 | [!UICONTROL Print] | Envoie le guillemet à une imprimante ou l’enregistre sous la forme d’un fichier de PDF. |
 | [!UICONTROL Create a copy] | Crée une copie du guillemet nommé `<original quote name> (copy)` et l’ouvre. Renommez et mettez à jour le nouveau devis si nécessaire avant de l’enregistrer en tant que brouillon ou de l’envoyer à l’acheteur. |
 | [!UICONTROL Save as Draft] | Enregistre les modifications apportées au devis, mais ne le renvoie pas à l’acheteur. |

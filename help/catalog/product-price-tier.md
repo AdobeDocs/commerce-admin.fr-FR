@@ -3,9 +3,9 @@ title: Prix de niveau
 description: Découvrez comment utiliser le niveau de prix pour offrir une remise quantitative à partir d’une liste de produits ou d’une page de produits.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Les prix dans la vitrine sont prioritaires de la quantité la plus élevée à l
 
 1. Si votre boutique comporte plusieurs sites web, choisissez la variable **[!UICONTROL Website]** pour laquelle le niveau de prix s’applique.
 
-1. Si nécessaire, limitez la disponibilité du niveau de tarification en sélectionnant le **[!UICONTROL Customer Group]** ou **[!UICONTROL Shared Catalog]** (![B2B pour Adobe Commerce](../assets/b2b.svg) Disponible avec [B2B pour Adobe Commerce](./b2b/../introduction.md) uniquement).
+1. Si nécessaire, limitez la disponibilité du niveau de tarification en sélectionnant le **[!UICONTROL Customer Group]** ou **[!UICONTROL Shared Catalog]** (![Adobe Commerce B2B](../assets/b2b.svg) Disponible avec [Adobe Commerce B2B](./b2b/../introduction.md) uniquement).
 
 1. Pour **[!UICONTROL Qty]**, indiquez la quantité qui doit être commandée pour recevoir la remise.
 

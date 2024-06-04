@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists] de l’administrateur Commerce.
 exl-id: 3720d9de-a5cc-4c44-a42a-af7409021f52
 feature: Configuration, B2B
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Avec l’installation et l’activation de B2B pour Adobe Commerce, l’expérience d’achat peut être personnalisée avec des fonctionnalités spécifiques à l’entreprise. B2B pour Adobe Commerce est une solution intégrée qui prend en charge les modèles B2B et B2C. Pour plus d’informations sur les fonctionnalités B2B, voir [_Guide de l’utilisateur B2B pour Adobe Commerce_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Avec l’installation et l’activation d’Adobe Commerce B2B, l’expérience d’achat peut être personnalisée avec des fonctionnalités spécifiques à l’entreprise. Adobe Commerce B2B est une solution intégrée qui prend en charge les modèles B2B et B2C. Pour plus d’informations sur les fonctionnalités B2B, voir [_Guide de l’utilisateur d’Adobe Commerce B2B_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 >[!NOTE]
 >

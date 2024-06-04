@@ -3,9 +3,9 @@ title: Recherche d’adresses au passage en caisse
 description: Découvrez comment inclure la recherche d’adresses lors du passage en caisse dans votre boutique.
 exl-id: 8153c456-0848-4bb4-8deb-8219323344ed
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Si le client ne dispose pas d’une adresse de livraison par défaut, la variabl
 
 ## Recherche de guillemets dans l’adresse verrouillée
 
-![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce uniquement)
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B uniquement)
 
 L’activation de la recherche d’adresses affecte également l’extraction des commandes créées à partir de guillemets lorsque le nombre d’adresses enregistrées du client atteint ou dépasse la limite configurée. Lorsque le devis est terminé et que le client passe en caisse, seule l’adresse de livraison sélectionnée s’affiche. La page affiche également un message indiquant que l’adresse de livraison est verrouillée et ne peut être modifiée que dans le guillemet.
 

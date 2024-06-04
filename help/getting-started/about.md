@@ -3,9 +3,9 @@ title: Présentation d’Adobe Commerce
 description: Adobe Commerce est une plateforme d’e-commerce d’entreprise. Découvrez les dernières fonctionnalités qui favorisent le développement des équipes d’e-commerce à l’échelle mondiale.
 mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
-source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '3322'
+source-wordcount: '3320'
 ht-degree: 0%
 
 ---
@@ -99,8 +99,8 @@ Les deux fonctionnalités seront compatibles avec l’architecture native de sto
 >[!TIP]
 >Pour en savoir plus sur les fonctionnalités de Commerce B2B, consultez notre documentation :
 >
->- [Guide de l’utilisateur B2B pour Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview)
->- [Guide du développeur B2B pour Adobe Commerce](https://developer.adobe.com/commerce/webapi/rest/b2b/)
+>- [Guide de l’utilisateur d’Adobe Commerce B2B](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview)
+>- [Guide du développeur d’Adobe Commerce B2B](https://developer.adobe.com/commerce/webapi/rest/b2b/)
 
 ### Services de paiement pour Adobe Commerce
 

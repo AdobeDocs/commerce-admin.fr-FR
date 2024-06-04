@@ -1,9 +1,9 @@
 ---
 title: Extraits de code
 description: Remarques réutilisées et éléments visuels pour noter une fonctionnalité ou une page s’appliquant à une édition spécifique
-source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 ## Fonctionnalité B2B uniquement {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Fonctionnalité B2B pour Adobe Commerce" src="../assets/b2b.svg" width="20" height="20" /> Fonctionnalité exclusive disponible uniquement avec <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">B2B pour Adobe Commerce</a></td></tr>
+<tr><td><img alt="Fonctionnalité Adobe Commerce B2B" src="../assets/b2b.svg" width="20" height="20" /> Fonctionnalité exclusive disponible uniquement avec <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">Adobe Commerce B2B</a></td></tr>
 </table>
 
 ## Fonctionnalité CE uniquement {#ce-feature}

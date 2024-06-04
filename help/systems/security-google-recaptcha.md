@@ -4,9 +4,9 @@ description: Découvrez comment configurer Google reCAPTCHA pour l’accès admi
 exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Google reCAPTCHA est configuré séparément pour l’administrateur et le storefront.
 
-- Pour l’administrateur, Google reCAPTCHA peut être utilisé sur la variable [Se connecter](../getting-started/admin-signin.md) et lorsqu’un utilisateur demande la réinitialisation d’un mot de passe. Si le commerce standard [CAPTCHA](security-captcha.md) est également activé, Google reCAPTCHA peut être utilisé en même temps sans problème.
+- Pour l’administrateur, Google reCAPTCHA peut être utilisé sur la variable [Se connecter](../getting-started/admin-signin.md) et lorsqu’un utilisateur demande la réinitialisation d’un mot de passe. Si le Commerce standard [CAPTCHA](security-captcha.md) est également activé, Google reCAPTCHA peut être utilisé en même temps sans problème.
 
 - Pour le storefront, Google reCAPTCHA peut être utilisé pour se connecter à un [compte client](../customers/customer-sign-in.md), envoyez un message à partir du [Nous contacter](../getting-started/store-details.md#contact-us-form) et dans de nombreux autres emplacements de storefront.
 
@@ -43,7 +43,7 @@ Google reCAPTCHA nécessite une paire de clés API à activer. Vous pouvez obten
 
 1. Pour **[!UICONTROL Label]**, saisissez un nom pour identifier les clés à des fins de référence interne.
 
-   Vous avez besoin d’un ensemble de clés pour chaque type reCAPTCHA utilisé dans votre installation Adobe Commerce ou Magento Open Source. Par exemple: `Commerce Invisible`
+   Vous avez besoin d’un ensemble de clés pour chaque type reCAPTCHA utilisé dans votre installation Adobe Commerce ou Magento Open Source. Par exemple : `Commerce Invisible`
 
 1. Pour **[!UICONTROL reCAPTCHA type]**, choisissez la méthode à utiliser.
 
@@ -160,7 +160,7 @@ Google reCAPTCHA nécessite une paire de clés API à activer. Vous pouvez obten
    - [!UICONTROL Enable for Forgot Password]
    - [!UICONTROL Enable for Create New Customer Account]
    - [!UICONTROL Enable for Edit Customer Account]
-   - [!UICONTROL Enable for Create New Company Account] ![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce uniquement)
+   - [!UICONTROL Enable for Create New Company Account] ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B uniquement)
    - [!UICONTROL Enable for Contact Us]
    - [!UICONTROL Enable for Product Review]
    - [!UICONTROL Enable for Newsletter Subscription]

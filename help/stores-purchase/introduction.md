@@ -2,16 +2,16 @@
 title: Présentation des magasins et de l’expérience d’achat
 description: Découvrez les fonctionnalités utilisées pour créer et gérer vos magasins en ligne et l’expérience d’achat pour vos clients.
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: a56509eeedbb30a1e9cacfd521ea4c18e0241d94
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
 
 # Présentation des magasins et de l’expérience d’achat
 
-Adobe Commerce et Magento Open Source fournissent un ensemble complet de fonctionnalités pour créer et gérer vos magasins en ligne et l’expérience d’achat de vos clients. Dans votre instance Commerce, vous pouvez gérer la hiérarchie de magasins de sites web, magasins et vues. Vous pouvez également configurer les taxes et les taux de devise requis pour exécuter les magasins pour plusieurs paramètres régionaux, y compris les classes de taxe pour les produits et les groupes de clients.
+Adobe Commerce et Magento Open Source fournissent un ensemble complet de fonctionnalités pour créer et gérer vos magasins en ligne et l’expérience d’achat de vos clients. Dans votre instance Commerce, vous pouvez gérer la hiérarchie des magasins de sites web, magasins et vues. Vous pouvez également configurer les taxes et les taux de devise requis pour exécuter les magasins pour plusieurs paramètres régionaux, y compris les classes de taxe pour les produits et les groupes de clients.
 
 ## Structure du magasin
 
@@ -25,7 +25,7 @@ Adobe Commerce et Magento Open Source réduisent les erreurs de commande en vér
 
 >[!TIP]
 >
->![B2B pour Adobe Commerce](../assets/b2b.svg) Avec l’installation et l’activation de B2B pour Adobe Commerce, vous pouvez configurer _Ordre rapide_ pour les clients associés à un compte d’entreprise. Cette fonction réduit le processus de commande à plusieurs clics lorsqu’ils connaissent le nom ou le SKU des produits qu’ils souhaitent commander. Vous pouvez également configurer la prise en charge des devis négociables pour les comptes de votre société. Pour plus d’informations sur les fonctionnalités B2B, voir [Guide de l’utilisateur B2B pour Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>![Adobe Commerce B2B](../assets/b2b.svg) Avec l’installation et l’activation d’Adobe Commerce B2B, vous pouvez configurer _Ordre rapide_ pour les clients associés à un compte d’entreprise. Cette fonction réduit le processus de commande à plusieurs clics lorsqu’ils connaissent le nom ou le SKU des produits qu’ils souhaitent commander. Vous pouvez également configurer la prise en charge des devis négociables pour les comptes de votre société. Pour plus d’informations sur les fonctionnalités B2B, voir [Guide de l’utilisateur d’Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ## Assistance commerciale
 

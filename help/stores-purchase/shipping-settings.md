@@ -3,9 +3,9 @@ title: Paramètres d'expédition
 description: Découvrez comment configurer les paramètres d’expédition qui définissent le point d’origine et la politique d’expédition de votre magasin.
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -80,4 +80,4 @@ Les options d’expédition multi-adresses permettent aux clients d’envoyer un
 
 >[!NOTE]
 >
->![B2B pour Adobe Commerce](../assets/b2b.svg) (B2B pour Adobe Commerce) Pour les commandes comportant plusieurs adresses de livraison, la variable [Paiement sur compte](../b2b/enable-basic-features.md#configure-payment-on-account) le mode de paiement, même s’il est activé, n’est pas disponible pendant le passage en caisse.
+>![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B) Pour les commandes comportant plusieurs adresses de livraison, la variable [Paiement sur compte](../b2b/enable-basic-features.md#configure-payment-on-account) le mode de paiement, même s’il est activé, n’est pas disponible pendant le passage en caisse.

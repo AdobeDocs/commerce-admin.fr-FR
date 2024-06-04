@@ -1,20 +1,20 @@
 ---
-title: Installez le [!DNL B2B for Adobe Commerce] extension
-description: Découvrez comment installer le [!DNL B2B for Adobe Commerce] métapackage.
+title: Installez le [!DNL Adobe Commerce B2B] extension
+description: Découvrez comment installer le [!DNL Adobe Commerce B2B] métapackage.
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: e57aa4e8919c2de5341c4b8363197d6380bbb0f6
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
 
 
-# Installez le [!DNL B2B for Adobe Commerce] extension
+# Installez le [!DNL Adobe Commerce B2B] extension
 
-L’extension B2B pour Adobe Commerce est disponible uniquement pour Adobe Commerce v2.2.0 ou version ultérieure. Il est installé après l’installation d’Adobe Commerce.
+L’extension Adobe Commerce B2B est disponible uniquement pour Adobe Commerce v2.2.0 ou version ultérieure. Il est installé après l’installation d’Adobe Commerce.
 
 Installez la version la plus récente de l’extension B2B prise en charge sur la version déployée d’Adobe Commerce.
 
@@ -81,7 +81,7 @@ Une fois l’installation terminée, configurez et démarrez les utilisateurs de
 
 ## Consommateurs de messages
 
-L’extension B2B pour Adobe Commerce utilise MySQL pour la gestion de la file d’attente des messages. Le tableau suivant répertorie les consommateurs de messages qui prennent en charge les fonctionnalités B2B. Après avoir installé l’extension, démarrez les consommateurs de messages pour les fonctionnalités B2B requises pour votre vitrine Commerce.
+L’extension Adobe Commerce B2B utilise MySQL pour la gestion de la file d’attente des messages. Le tableau suivant répertorie les consommateurs de messages qui prennent en charge les fonctionnalités B2B. Après avoir installé l’extension, démarrez le message des consommateurs pour les fonctionnalités B2B requises pour votre vitrine Commerce.
 
 | Consommation | Description |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -137,7 +137,7 @@ Pour activer des opérations asynchrones pour les fonctionnalités B2B, vous dev
 
 >[!TIP]
 >
->Pour l’exécuter en arrière-plan, ajoutez `&` à la commande , revenez à une invite et continuez à exécuter les commandes. Par exemple: `bin/magento queue:consumers:start sharedCatalogUpdatePrice &`.
+>Pour l’exécuter en arrière-plan, ajoutez `&` à la commande , revenez à une invite et continuez à exécuter les commandes. Par exemple : `bin/magento queue:consumers:start sharedCatalogUpdatePrice &`.
 
 Pour plus d’informations, voir [Gestion des files d’attente de messages](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) dans le _Guide de configuration_.
 
@@ -154,4 +154,4 @@ Vous pouvez également configurer des planifications pour les consommateurs de m
 
 ## Activation des fonctionnalités B2B dans l’administration
 
-Après avoir installé l’extension B2B pour Adobe Commerce et démarré les consommateurs de messages, vous devez également [Activation des fonctionnalités B2B dans l’administration](enable-basic-features.md).
+Après avoir installé l’extension Adobe Commerce B2B et démarré les consommateurs de messages, vous devez également [Activation des fonctionnalités B2B dans l’administration](enable-basic-features.md).

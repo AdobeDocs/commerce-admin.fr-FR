@@ -3,9 +3,9 @@ title: Configuration du panier
 description: Découvrez les fonctionnalités du panier que vous pouvez configurer pour prendre en charge l’expérience d’achat dans votre boutique.
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2445'
+source-wordcount: '2449'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ La page Panier peut être configurée pour s’afficher chaque fois qu’un arti
 
 ## Durée de vie des citations
 
-Avec l’installation et l’activation de B2B pour Adobe Commerce, vous pouvez ajouter la prise en charge de la variable _Guillemets_ fonction . Cette fonctionnalité permet aux acheteurs autorisés d’initier le processus de négociation des prix en envoyant une demande à partir du panier. La variable _Guillemets_ grid répertorie chaque devis reçu et garde un historique de la communication entre l&#39;acheteur et le vendeur. Pour plus d’informations sur les fonctionnalités B2B, voir [Citations négociées](../b2b/quotes.md) dans le _Guide de l’utilisateur B2B pour Adobe Commerce_.
+Avec l’installation et l’activation d’Adobe Commerce B2B, vous pouvez ajouter la prise en charge de la variable _Guillemets_ fonction . Cette fonctionnalité permet aux acheteurs autorisés d’initier le processus de négociation des prix en envoyant une demande à partir du panier. La variable _Guillemets_ grid répertorie chaque devis reçu et garde un historique de la communication entre l&#39;acheteur et le vendeur. Pour plus d’informations sur les fonctionnalités B2B, voir [Citations négociées](../b2b/quotes.md) dans le _Guide de l’utilisateur d’Adobe Commerce B2B_.
 
 Vous pouvez déterminer la durée de validité d’un prix en définissant la durée de vie du prix du panier dans la configuration. Par exemple, si un acheteur laisse un panier sans surveillance au bout de plusieurs jours, le prix des devis de certains articles peut ne plus être le même. Par défaut, la durée de vie du guillemet est définie sur 30 jours.
 

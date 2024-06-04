@@ -3,9 +3,9 @@ title: Présentation des paiements
 description: Découvrez les méthodes de paiement et les services pris en charge en mode natif dans Adobe Commerce et Magento Open Source.
 exl-id: 474bf6df-96e2-4db3-ad3c-1804b5de33b0
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Adobe Commerce et Magento Open Source incluent plusieurs méthodes de paiement h
 - [Paiement de transfert bancaire](bank-transfer.md)
 - [Vérifier / Commande monétaire](check-money-order.md)
 - [Bon de commande](purchase-order.md)
-- [Paiement sur compte](../b2b/enable-basic-features.md#configure-payment-on-account) ![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce)
+- [Paiement sur compte](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B)
 
 ## Méthodes de paiement en ligne
 

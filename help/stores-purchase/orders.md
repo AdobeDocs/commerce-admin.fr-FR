@@ -3,9 +3,9 @@ title: Commandes
 description: Découvrez l’espace de travail Commandes et les fonctionnalités de recherche utilisées pour localiser les commandes dans l’administrateur.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ Colonnes supplémentaires disponibles :
 | [!UICONTROL Payment Method] | Mode de paiement à utiliser pour la commande. |
 | [!UICONTROL Total Refunded] | Tout montant de la commande qui doit être remboursé au client. |
 | [!UICONTROL Refunded to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Tout montant de la commande qui doit être remboursé au crédit de magasin du client. |
-| [!UICONTROL Company Name] | ![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce) Nom de la variable [société](../b2b/account-companies.md) qui a passé la commande. |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Nom de la variable [société](../b2b/account-companies.md) qui a passé la commande. |
 
 {style="table-layout:auto"}
 
@@ -185,7 +185,7 @@ La zone de recherche située en haut à gauche de la grille Commandes permet de 
 
 ## Ressources de dépannage
 
-Pour obtenir de l’aide sur la résolution des problèmes de commande, reportez-vous aux articles suivants de la base de connaissances de l’assistance clientèle de Commerce :
+Pour obtenir de l’aide sur la résolution des problèmes de commande, reportez-vous aux articles suivants de la base de connaissances de prise en charge de Commerce :
 
 - [Erreur d&#39;affichage des commandes](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
 - [Erreur 10415 des commandes en double PayPal](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.html)

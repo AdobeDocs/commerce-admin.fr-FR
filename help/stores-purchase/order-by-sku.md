@@ -3,9 +3,9 @@ title: Commande par SKU
 description: Découvrez comment configurer votre boutique pour prendre en charge la commande par SKU à titre de commodité pour vos clients.
 exl-id: cb39554f-ab76-46d5-8217-e43bc8f9f88d
 feature: Orders, Storefront, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ _Commande par SKU_ est un [widget](../content-design/widgets.md) qui peuvent êt
 
 1. Cliquez sur **[!UICONTROL Save Config]**.
 
-![B2B pour Adobe Commerce](../assets/b2b.svg) (B2B pour Adobe Commerce uniquement) _**Pour activer la fonction Ordre par SKU, désactivez la fonction Ordre rapide :**_
+![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B uniquement) _**Pour activer la fonction Ordre par SKU, désactivez la fonction Ordre rapide :**_
 
 1. Accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

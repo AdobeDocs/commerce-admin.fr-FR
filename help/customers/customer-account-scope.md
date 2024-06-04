@@ -3,9 +3,9 @@ title: Portée du compte client
 description: La portée des comptes clients peut être limitée au site web sur lequel le compte a été créé ou partagé avec tous les sites web et magasins de la hiérarchie de magasin.
 exl-id: c401bee2-763e-4fad-88cd-5d5a43c46186
 feature: Customers, Configuration
-source-git-commit: 2541b2d55516e2a9c824825100c8348d81201ca9
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 L’en-tête de chaque page de votre boutique étend une invitation pour les acheteurs à _Connexion ou enregistrement_ pour un compte avec votre boutique. Les clients qui ouvrent un compte bénéficient de nombreux avantages, notamment :
 
 * **Créer un compte client** - Les visiteurs peuvent créer un compte client afin d’utiliser le storefront comme client enregistré.
-* **Création d’un compte d’entreprise** Selon la configuration, un visiteur de votre boutique peut choisir de créer un compte d’entreprise. Pour plus d’informations, voir [B2B pour Adobe Commerce](../b2b/introduction.md).
+* **Création d’un compte d’entreprise** Selon la configuration, un visiteur de votre boutique peut choisir de créer un compte d’entreprise. Pour plus d’informations, voir [Adobe Commerce B2B](../b2b/introduction.md).
 * **Passage en caisse plus rapide** — Les clients enregistrés passent leur passage en caisse plus rapidement car la plupart des informations se trouvent déjà dans leurs comptes.
 * **Libre-service** — Les clients enregistrés peuvent mettre à jour leurs informations, vérifier l’état des commandes et même réorganiser leurs commandes à partir de leurs comptes.
 

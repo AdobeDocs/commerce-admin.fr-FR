@@ -3,9 +3,9 @@ title: Réseaux sociaux et flux RSS
 description: Découvrez comment ajouter des médias sociaux et d’autres intégrations de flux RSS pour accroître la notoriété de la marque et des produits.
 exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -53,11 +53,11 @@ Les sites de réseau social disposent de nombreux modules externes qui peuvent f
 
 1. Saisissez un texte descriptif. **[!UICONTROL Block Title]** pour référence interne.
 
-   Par exemple: `Facebook Like Button`.
+   Par exemple : `Facebook Like Button`.
 
 1. Attribution d’une **[!UICONTROL Identifier]** au bloc, en utilisant tous les caractères minuscules et les traits de soulignement au lieu des espaces.
 
-   Par exemple: `facebook_like_button`.
+   Par exemple : `facebook_like_button`.
 
 1. Si votre instance Commerce présente plusieurs vues de magasin, sélectionnez chacune d’elles. **[!UICONTROL Store View]** où le bloc doit être disponible.
 
@@ -81,7 +81,7 @@ Les sites de réseau social disposent de nombreux modules externes qui peuvent f
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add Widget]** et procédez comme suit :
 
-   - ![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce uniquement) Dans le _Paramètres_ , définissez **[!UICONTROL Type]** to `CMS Static Block` et cliquez sur **[!UICONTROL Continue]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B uniquement) Dans la variable _Paramètres_ , définissez **[!UICONTROL Type]** to `CMS Static Block` et cliquez sur **[!UICONTROL Continue]**.
 
    - Vérifiez que **[!UICONTROL Design Theme]** est définie sur le thème actif.
 

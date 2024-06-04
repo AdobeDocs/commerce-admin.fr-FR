@@ -3,9 +3,9 @@ title: Créer des catégories
 description: Vous pouvez créer autant de sous-catégories supplémentaires que nécessaire, en fonction de la profondeur maximale de menu définie dans la configuration.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ Définissez également les mots-clés et attributs associés, tels que :
 
 1. Choisissez la **[!UICONTROL Customer Group]** où les autorisations de catégorie s’appliquent.
 
-   ![B2B pour Adobe Commerce](../assets/b2b.svg) ([B2B pour Adobe Commerce](../b2b/introduction.md) uniquement) Si nécessaire, vous pouvez choisir un **[!UICONTROL Shared Catalog]** au lieu de .
+   ![Adobe Commerce B2B](../assets/b2b.svg) ([Adobe Commerce B2B](../b2b/introduction.md) uniquement) Si nécessaire, vous pouvez choisir un **[!UICONTROL Shared Catalog]** au lieu de .
 
 1. Définissez les autorisations suivantes selon vos besoins :
 
@@ -192,7 +192,7 @@ Définissez également les mots-clés et attributs associés, tels que :
 
 1. Définissez les paramètres de conception selon vos besoins :
 
-   - ([B2B pour Adobe Commerce](../b2b/introduction.md) uniquement) Pour appliquer les paramètres de conception de catégorie parente à cette catégorie, définissez **[!UICONTROL Use Parent Category Settings]** to `Yes`.
+   - ([Adobe Commerce B2B](../b2b/introduction.md) uniquement) Pour appliquer les paramètres de conception de catégorie parente à cette catégorie, définissez **[!UICONTROL Use Parent Category Settings]** to `Yes`.
 
    - Pour modifier la conception des pages de catégorie, choisissez la variable **[!UICONTROL Theme]** que vous souhaitez postuler.
 

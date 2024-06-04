@@ -3,10 +3,10 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Quotes]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Sales] &gt; [!UICONTROL Quotes] de l’administrateur Commerce.
 exl-id: 9382552d-1be5-47f2-b0e3-931e5c6298d4
 feature: Configuration, Quotes
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 0%
+source-wordcount: '188'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Avec l’installation et l’activation de B2B pour Adobe Commerce, l’expérience d’achat peut être personnalisée avec des fonctionnalités spécifiques à l’entreprise. B2B pour Adobe Commerce est une solution intégrée qui prend en charge les modèles B2B et B2C. Pour plus d’informations sur les fonctionnalités B2B, voir [Guide de l’utilisateur B2B pour Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Avec l’installation et l’activation d’Adobe Commerce B2B, l’expérience d’achat peut être personnalisée avec des fonctionnalités spécifiques à l’entreprise. Adobe Commerce B2B est une solution intégrée qui prend en charge les modèles B2B et B2C. Pour plus d’informations sur les fonctionnalités B2B, voir [Guide de l’utilisateur d’Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 {{config}}
 

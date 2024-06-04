@@ -3,9 +3,9 @@ title: Avoir
 description: Découvrez les notes de crédit et comment elles sont utilisées pour émettre un remboursement partiel ou complet.
 exl-id: dc2faf86-0182-4661-9543-bc6e00e06dbf
 feature: Orders, Invoices, Returns
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,8 @@ Vous pouvez rembourser les commandes de trois manières :
 
 - Crédit du compte : les commandes payées à l’aide d’un compte de crédit peuvent être remboursées en tant que crédit du compte :
    - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) [Crédit de la boutique](../customers/store-credit-using.md)
-   - ![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce) [Paiement sur compte](../b2b/enable-basic-features.md#configure-payment-on-account) (méthode hors ligne)
-   - ![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce) [Crédit de la société](../b2b/credit-company.md)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) [Paiement sur compte](../b2b/enable-basic-features.md#configure-payment-on-account) (méthode hors ligne)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) [Crédit de la société](../b2b/credit-company.md)
 - [Retour en ligne](payments.md#online-payment-methods): les commandes payées par carte de crédit via une passerelle de paiement, telle que PayPal ou Braintree, sont remboursées en ligne via l’entité de traitement des paiements.
 - [Remboursement hors ligne](payments.md#offline-payment-methods): commandes payées en espèces à la livraison ([DOC](cash-on-delivery.md)) ou par [chèque ou mandat](check-money-order.md) sont remboursés hors ligne.
 

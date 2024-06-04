@@ -2,9 +2,9 @@
 title: '[!UICONTROL Sales] menu'
 description: L’administrateur Commerce comprend la variable [!UICONTROL Sales] qui permet d’accéder aux outils permettant d’utiliser les commandes en fonction de leur emplacement dans le workflow.
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: a7c6203cf738e3fb9be887d637010ca9c155937a
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Sur le _Administration_ barre latérale, cliquez sur **[!UICONTROL Sales]**.
 
 ### [!UICONTROL Quotes]
 
-![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B)
 
 Les acheteurs autorisés peuvent [négocier le prix](../b2b/quotes.md) avec le vendeur en envoyant un [requête](../b2b/quote-request.md) du panier.
 

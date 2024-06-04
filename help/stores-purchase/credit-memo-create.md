@@ -3,9 +3,9 @@ title: Envoi d’une note de crédit
 description: Découvrez comment générer et imprimer un avoir pour une commande facturée.
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2132'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 Avant de pouvoir imprimer une note de crédit, elle doit d’abord être générée pour un [commande facturée](invoices.md#create-an-invoice). Vous pouvez émettre des remboursements en ligne et hors ligne (partiels ou complets) à partir d’un avoir ouvert, selon le mode de paiement.
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Les remboursements peuvent être appliqués au crédit de magasin.
-- ![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce) Les remboursements peuvent être appliqués au crédit de la société.
+- ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Les remboursements peuvent être appliqués au crédit de la société.
 - Les achats effectués par carte de crédit peuvent être remboursés en ligne ou hors ligne.
 - Les achats effectués par chèque ou par mandat doivent être remboursés hors ligne.
 
@@ -108,13 +108,13 @@ Déterminez le type de remboursement que vous souhaitez effectuer, pour un [acha
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Pour rembourser le montant au crédit de la boutique du client, sélectionnez la variable **[!UICONTROL Refund to Store Credit]** .
 
-   - ![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce) Pour rembourser le montant au crédit de la société du client, sélectionnez la variable **[!UICONTROL Refund to Company Credit]** .
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Pour rembourser le montant au crédit de la société du client, sélectionnez la variable **[!UICONTROL Refund to Company Credit]** .
 
    - Pour émettre sur un remboursement hors ligne, cliquez sur **[!UICONTROL Refund Offline]**.
 
    - Pour effectuer un remboursement en ligne, cliquez sur **[!UICONTROL Refund]**.
 
-   - ![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce) Si l’achat a été payé avec le crédit de la société, cliquez sur **[!UICONTROL Refund to Company Credit]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Si l’achat a été payé avec le crédit de la société, cliquez sur **[!UICONTROL Refund to Company Credit]**.
 
    Voir [Avoir](credit-memos.md) pour plus d’informations sur les remboursements hors ligne et en ligne.
 
@@ -195,7 +195,7 @@ Déterminez le type de remboursement que vous souhaitez effectuer, pour un [acha
 | [!UICONTROL Customer Name] | Nom du client ou de l’acheteur qui a passé la commande. Le nom du client est lié au profil du client. |
 | [!UICONTROL Email] | Adresse électronique du client ou de l’acheteur. L’adresse électronique est liée pour ouvrir un nouveau message électronique. |
 | [!UICONTROL Customer Group] | Nom du groupe de clients ou du catalogue partagé auquel le client est affecté. |
-| [!UICONTROL Company Name] | ![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce) Nom de la société associée à l’acheteur et pour le compte de laquelle la commande est passée. Le nom de la société est lié au profil de la société. |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Nom de la société associée à l’acheteur et pour le compte de laquelle la commande est passée. Le nom de la société est lié au profil de la société. |
 
 {style="table-layout:auto"}
 
@@ -222,7 +222,7 @@ Déterminez le type de remboursement que vous souhaitez effectuer, pour un [acha
 | Champ | Description |
 |--- |--- |
 | [!UICONTROL Product] | Nom du produit, SKU et options (le cas échéant). |
-| [!UICONTROL Price] | Prix d’achat de l’article. Pour B2B pour Adobe Commerce, cette valeur reflète toute remise appliquée à l’article du catalogue partagé, le cas échéant. |
+| [!UICONTROL Price] | Prix d’achat de l’article. Pour Adobe Commerce B2B, cette valeur reflète toute remise appliquée à l’article à partir du catalogue partagé, le cas échéant. |
 | [!UICONTROL Qty] | La quantité commandée. |
 | [!UICONTROL Return to Stock] | Case à cocher qui indique si l’élément renvoyé doit être retourné en stock. |
 | [!UICONTROL Qty to Refund] | Indique le nombre d’unités renvoyé par le produit. |
@@ -254,7 +254,7 @@ Déterminez le type de remboursement que vous souhaitez effectuer, pour un [acha
 | [!UICONTROL Append Comments] | Case à cocher qui détermine si les commentaires sont inclus dans l’avoir. |
 | [!UICONTROL Email Copy of Credit Memo] | Case à cocher qui détermine si une copie de la note de crédit est envoyée par courrier électronique. |
 | [!UICONTROL Refund to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Case à cocher qui détermine si le total doit être remboursé à [crédit de magasin](../customers/store-credit-using.md). |
-| [!UICONTROL Subtotal] | ![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce) Le total de tous les éléments de ligne à rembourser. |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Total de tous les éléments de ligne à rembourser. |
 
 {style="table-layout:auto"}
 
@@ -266,7 +266,7 @@ Le mode de paiement utilisé pour la commande détermine les boutons de rembours
 |--- |--- |
 | **[!UICONTROL Refund]** | Si l&#39;achat initial a été payé par carte de crédit via une passerelle de paiement, le montant du remboursement est géré par le responsable du traitement des paiements. Pour gérer les remboursements, consultez la documentation fournie par votre fournisseur de paiement. |
 | **[!UICONTROL Refund Offline]** | Si l&#39;achat d&#39;origine a été payé par chèque ou par mandat, le remboursement est versé directement au client, par l&#39;émission d&#39;un chèque, d&#39;une carte-cadeau ou d&#39;un liquide si vous avez une vitrine en brique et mortier. L’avoir sert d’enregistrement de la transaction hors ligne. |
-| **[!UICONTROL Refund to Company Credit]** | ![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce) Si l’achat a été imputé au crédit de la société, le remboursement est renvoyé au [Compte de société](../b2b/credit-company.md). |
+| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Si l’achat a été imputé au crédit de la société, le remboursement est renvoyé au [Compte de société](../b2b/credit-company.md). |
 
 {style="table-layout:auto"}
 

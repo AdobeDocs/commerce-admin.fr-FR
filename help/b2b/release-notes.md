@@ -1,16 +1,16 @@
 ---
-title: '[!DNL B2B for Adobe Commerce] notes de mise à jour'
-description: Pour plus d’informations sur les modifications apportées à la variable [!DNL B2B for Adobe Commerce] versions d’extension.
+title: '[!DNL Adobe Commerce B2B] notes de mise à jour'
+description: Pour plus d’informations sur les modifications apportées à la variable [!DNL Adobe Commerce B2B] versions.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: e837dded8569cf917be8c36277362f5df77fb708
 workflow-type: tm+mt
-source-wordcount: '6937'
+source-wordcount: '6851'
 ht-degree: 0%
 
 ---
 
-# [!DNL B2B for Adobe Commerce] notes de mise à jour
+# [!DNL Adobe Commerce B2B] notes de mise à jour
 
 Ces notes de mise à jour relatives à l’extension B2B capturent les ajouts et les correctifs ajoutés par Adobe au cours d’un cycle de publication, notamment :
 
@@ -104,7 +104,7 @@ Cette version comprend de nouvelles fonctionnalités et améliorations pour les 
 
 ![Nouveau](../assets/new.svg) **Guillemets lancés par le vendeur**: les vendeurs peuvent désormais lancer un devis pour un acheteur directement à partir du devis et des grilles client dans l’administrateur. Cette fonctionnalité simplifie le processus de devis et réduit la complexité pour les clients. Si un client n’a pas lancé de commande, un vendeur peut rapidement créer un devis au nom du client et lancer le processus de négociation. Auparavant, les devis ne pouvaient être créés que depuis la vitrine par l’acheteur ou par un vendeur connecté en tant que client.
 
-![Nouveau](../assets/new.svg) **Remises sur article et négociation**—<!--B2B-2440--> Dans un guillemet, les acheteurs et les vendeurs B2B peuvent désormais négocier au niveau des articles de ligne, en appliquant des rabais et en échangeant des notes jusqu’à ce qu’un accord soit trouvé. La création et les mises à jour des notes sont incluses dans l’élément de ligne et dans l’historique des guillemets pour suivre la communication. Auparavant, les acheteurs et les vendeurs pouvaient uniquement échanger des notes et appliquer des remises au niveau des devis.
+![Nouveau](../assets/new.svg) **Remises sur article et négociation**—<!--B2B-2440--> Dans un guillemet, les acheteurs et les vendeurs B2B peuvent désormais négocier au niveau des articles de ligne, en appliquant des rabais et en échangeant des notes jusqu’à ce qu’un accord soit trouvé. La création et les mises à jour des notes sont incluses dans l’élément de ligne et dans l’historique des guillemets pour suivre la communication. Auparavant, les acheteurs et les vendeurs ne pouvaient exchange que les billets et appliquer des remises au niveau des devis.
 
 ![Correction d’un problème](../assets/fix.svg) Adobe Commerce affiche désormais les détails corrects lors du paiement lorsque l’option Commandes est activée et qu’un devis virtuel créé avec l’option de paiement PayPal a été sélectionné. Auparavant, les totaux s’affichaient comme nuls sous ces conditions.
 
@@ -118,7 +118,7 @@ Cette version comprend de nouvelles fonctionnalités et améliorations pour les 
 
 ![Correction d’un problème](../assets/fix.svg) <!--ACP2E-1664--> Les SKU de produit qui incluent des guillemets doubles dans le catalogue partagé et la structure de prix ne provoquent plus d’erreurs dans l’administrateur.
 
-![Correction d’un problème](../assets/fix.svg) <!--ACP2E-1498--> Mise à jour de la configuration de vernis pour l’application Commerce afin d’empêcher les utilisateurs invités de voir les données d’autres groupes de clients.
+![Correction d’un problème](../assets/fix.svg) <!--ACP2E-1498--> Mise à jour de la configuration de vernis de l’application Commerce afin d’empêcher les utilisateurs invités de voir les données d’autres groupes de clients.
 
 ### Problème connu
 

@@ -2,9 +2,9 @@
 title: '[!UICONTROL Catalog] menu'
 description: Utilisez la variable [!UICONTROL Catalog] pour accéder aux outils de création de produits, de catégories et de gestion d’inventaire.
 exl-id: cfb163d6-eccc-4ab9-bd19-37c611abbc78
-source-git-commit: f36925217230e558043078fdc274f5e69c096c1e
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,6 @@ Créez le [category](categories.md) structure qui est la base de la navigation d
 
 ## [!UICONTROL Shared Catalogs]
 
-Pour les magasins avec B2B pour Adobe Commerce installés et activés, [catalogues partagés](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) vous permettent de proposer des prix personnalisés à différentes entreprises.
+Pour les magasins avec Adobe Commerce B2B installés et activés, [catalogues partagés](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) vous permettent de proposer des prix personnalisés à différentes entreprises.
 
 ![Produits du catalogue partagés](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

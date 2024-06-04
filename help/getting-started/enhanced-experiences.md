@@ -3,9 +3,9 @@ title: Amélioration des expériences de storefront
 description: Découvrez les nombreux outils conçus pour vous aider à optimiser l’engagement, la rétention et la fidélité de vos clients.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: ecc1ae5a741cab915369eac619905728d1c61061
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1754'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Adobe Commerce et Magento Open Source proposent toute une gamme d’outils pour 
 
 - **Règles de fonctionnement automatisées** - Configuration [règles de fonctionnement automatisées](../merchandising-promotions/price-rules-cart.md) qui définissent les relations entre les produits et utilisent des règles de prix qui déclenchent des remises selon diverses conditions.
 
-- **Intégration B2B et B2C** - Avec [B2B pour Adobe Commerce](../b2b/introduction.md), vous pouvez servir les clients B2C et B2B. Grâce à un portail client convivial, les clients B2B peuvent configurer plusieurs niveaux d’acheteurs avec des rôles et des autorisations spécifiques, suivre les devis et les commandes, définir des règles de validation des achats et gérer leur crédit en ligne.
+- **Intégration B2B et B2C** - Avec [Adobe Commerce B2B](../b2b/introduction.md), vous pouvez servir les clients B2C et B2B. Grâce à un portail client convivial, les clients B2B peuvent configurer plusieurs niveaux d’acheteurs avec des rôles et des autorisations spécifiques, suivre les devis et les commandes, définir des règles de validation des achats et gérer leur crédit en ligne.
 
 ## Moment d’achat
 

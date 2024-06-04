@@ -3,10 +3,10 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings] de l’administrateur Commerce.
 exl-id: 4cacac8c-33af-4275-b1dd-9802d38ec3c8
 feature: Configuration, Shipping/Delivery
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 0%
+source-wordcount: '99'
+ht-degree: 1%
 
 ---
 
@@ -31,4 +31,4 @@ Pour plus d’informations sur la configuration de ces paramètres de multilivra
 
 >[!NOTE]
 >
->![B2B pour Adobe Commerce](../../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce uniquement) Pour les commandes avec plusieurs adresses de livraison, la variable [Paiement sur compte](../../b2b/enable-basic-features.md#configure-payment-on-account) le mode de paiement, même s’il est activé, n’est pas disponible pendant le passage en caisse.
+>![Adobe Commerce B2B](../../assets/b2b.svg) (Disponible avec Adobe Commerce B2B uniquement) Pour les commandes avec plusieurs adresses de livraison, la variable [Paiement sur compte](../../b2b/enable-basic-features.md#configure-payment-on-account) le mode de paiement, même s’il est activé, n’est pas disponible pendant le passage en caisse.

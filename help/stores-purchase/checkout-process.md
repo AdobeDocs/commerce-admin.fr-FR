@@ -3,9 +3,9 @@ title: Processus et options de passage en caisse
 description: Découvrez comment le processus de passage en caisse Adobe Commerce et Magento Open Source rassemble les informations nécessaires pour terminer la transaction et la page Passage en caisse guide le client à chaque étape du processus.
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -66,13 +66,13 @@ Au cours de la deuxième étape du processus de passage en caisse, le client cho
 
 >[!NOTE]
 >
->Même si Commerce permet de configurer plusieurs codes de bon, un client ne peut appliquer qu’un seul code de bon au panier. (Voir [Codes de bon](../merchandising-promotions/price-rules-cart-coupon.md) pour plus d’informations.)
+>Bien que Commerce permette de configurer plusieurs codes de bon, un client ne peut appliquer qu’un seul code de bon au panier. (Voir [Codes de bon](../merchandising-promotions/price-rules-cart-coupon.md) pour plus d’informations.)
 
 ![Page de révision et de paiement lors du passage en caisse](./assets/storefront-checkout-step2-payment-review.png){width="700" zoomable="yes"}
 
 ### Révision et paiements - Bon de commande
 
-![B2B pour Adobe Commerce](../assets/b2b.svg) (Disponible avec B2B pour Adobe Commerce uniquement)
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B uniquement)
 
 Lorsqu’un client est associé à une entreprise qui a activé [commandes d’achat](../b2b/purchase-order-flow.md), toutes les commandes sont traitées comme des commandes d’achat. Les méthodes de paiement disponibles sont déterminées par les paramètres du compte de l’entreprise.
 
