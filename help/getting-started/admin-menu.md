@@ -2,9 +2,9 @@
 title: Barre latérale d’administration
 description: L’administrateur Commerce utilise une barre latérale gauche pour accéder au menu principal. Les vendeurs peuvent accéder à tous les outils d’administration dont ils ont besoin pour configurer et gérer leur magasin.
 exl-id: 2619645e-22fc-4365-80c5-14e2ce7ea8df
-source-git-commit: 1be366de110b933aec163a675d8ed53e814dfbfe
+source-git-commit: 474e9bb6cd6dccc723165d919b1b1ebeaa26ae46
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ La barre latérale gauche est le menu principal du magasin. _Administration_ et 
 | ![Menu Clients](./assets/icon-admin-sidebar-customers.png) | **[[!UICONTROL Customers]](../customers/customers-introduction.md)** | La variable [!UICONTROL Customers] vous permet de gérer les comptes clients et de voir quels clients sont en ligne en ce moment. |
 | ![Menu Marketing](./assets/icon-admin-sidebar-marketing.png) | **[[!UICONTROL Marketing]](../merchandising-promotions/marketing-menu.md)** | La variable [!UICONTROL Marketing] est l’emplacement où vous configurez les règles de prix du catalogue et du panier, ainsi que les bons. Les règles de prix déclenchent des actions lorsqu’un ensemble de conditions spécifiques est satisfait. |
 | ![Menu Contenu](./assets/icon-admin-sidebar-content.png) | **[[!UICONTROL Content]](../content-design/content-menu.md)** | La variable [!UICONTROL Content] est l’emplacement où vous gérez les éléments de contenu et la conception de votre magasin. Découvrez comment créer des pages, des blocs et des applications frontales et gérer la présentation de votre boutique. |
-| ![Menu Rapports](./assets/icon-admin-sidebar-reports.png) | **[[!UICONTROL Reports]](reports-menu.md)** | La variable [!UICONTROL Reports] offre une large sélection de rapports qui vous donnent des informations sur tous les aspects de votre boutique, y compris les ventes, le panier, les produits, les clients, les balises, les révisions et les termes de recherche. |
+| ![Menu Rapports](./assets/icon-admin-sidebar-reports.png) | **[[!UICONTROL Reports]](reports-menu.md)** | La variable [!UICONTROL Reports] offre une large sélection de rapports qui vous donnent des informations sur tous les aspects de votre boutique, notamment les ventes, le panier, les produits, les clients, les balises, les révisions, les termes de recherche, ainsi que la surveillance des performances en temps réel 24/7 et les recommandations du [Outil d’analyse à l’échelle du site](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/intro). |
 | ![Menu Magasins](./assets/icon-admin-sidebar-stores.png) | **[[!UICONTROL Stores]](../stores-purchase/stores-menu.md)** | La variable [!UICONTROL Stores] menu comprend des outils pour configurer et gérer tous les aspects de votre magasin, y compris les paramètres d’installation multisite, les taxes, la devise, les attributs de produit et les groupes de clients. |
 | ![Menu Système](./assets/icon-admin-sidebar-system.png) | **[[!UICONTROL System]](../systems/system-menu.md)** | La variable [!UICONTROL System] menu comprend des outils pour gérer les opérations système, installer des extensions et gérer les services web pour l’intégration à d’autres applications. |
 | ![Rechercher des extensions](./assets/icon-admin-sidebar-extensions.png) | **[[!UICONTROL Find Partners & Extensions]](commerce-marketplace.md)** | La variable [!DNL Commerce Marketplace] est l’emplacement où vous pouvez trouver des solutions Adobe Commerce et Magento Open Source pour votre boutique. |
