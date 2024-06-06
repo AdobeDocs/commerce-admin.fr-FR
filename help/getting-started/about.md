@@ -3,9 +3,9 @@ title: Présentation d’Adobe Commerce
 description: Adobe Commerce est une plateforme d’e-commerce d’entreprise. Découvrez les dernières fonctionnalités qui favorisent le développement des équipes d’e-commerce à l’échelle mondiale.
 mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 0774e2d0af7c3e33c726da8ae72012d97f42adb1
 workflow-type: tm+mt
-source-wordcount: '3320'
+source-wordcount: '3150'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ L’objectif d’Adobe est de fournir une plateforme commerciale reposant sur l�
 
 Les recherches ont montré que [64 % des acheteurs](https://techreport.com/statistics/website-load-time-statistics-data) rendez-vous sur le site d’un concurrent pour acheter un article similaire si son expérience web est médiocre. Inversement, pour chaque amélioration de la vitesse du site de 0,1 seconde, les entreprises peuvent s’attendre à une [Augmentation de 9,2 % de la valeur de commande moyenne](https://techreport.com/statistics/website-load-time-statistics-data).
 
-[Edge Delivery Services dans Adobe Commerce](https://experienceleague.adobe.com/developer/commerce/storefront/) est un ensemble de services composables qui optimise la valeur commerciale en offrant des expériences exceptionnelles, tant dans la création de contenu que dans les expériences client. Il combine des fonctionnalités d’entreprise, telles que la création de contenu basé sur des documents et les tests A/B intégrés, avec des composants de dépôt Adobe Commerce et la diffusion de contenu depuis la périphérie pour des storefronts rapides (par exemple, il faut mentionner la diffusion en périphérie).
+[Edge Delivery Services dans Adobe Commerce](https://experienceleague.adobe.com/developer/commerce/storefront/) est un ensemble de services composables qui optimise la valeur commerciale en offrant des expériences exceptionnelles, tant dans la création de contenu que dans les expériences client. Il combine des fonctionnalités métier, telles que la création de contenu basée sur des documents et les tests A/B intégrés, avec des composants de dépôt Adobe Commerce pour les fonctionnalités commerciales de base. Tout cela est fourni à partir de la périphérie pour des expériences de vitrine éclair.
 
 Ce nouveau storefront haute performance a déjà été piloté avec succès par plusieurs marchands Adobe Commerce, tels que [Maidenform](https://business.adobe.com/blog/perspectives/how-hanesbrands-and-adobe-built-one-of-the-fastest-ecommerce-websites-in-the-world), une propriété de HanesBrands. Les résultats parlent d&#39;eux-mêmes. Les pages de formulaires principaux affichent systématiquement les scores Google Lighthouse [100 et résultats des principales valeurs de la valeur vitale du web](https://treo.sh/sitespeed/www.maidenform.com) bien au-dessus de la moyenne du secteur.
 
@@ -62,13 +62,14 @@ Au coeur de ce nouveau storefront axé sur l’expérience se trouvent un ensemb
 
 La conversion dans Commerce est liée à votre capacité à connecter vos clients à vos produits hors site et à votre capacité à personnaliser leur expérience sur site, de manière efficace mais ciblée. En adhérant aux principes des principales valeurs vitales du Web, le service de diffusion Edge de Commerce détermine les deux mesures.
 
-Cela signifie qu’un site plus rapide et axé sur l’expérience est classé plus haut dans les moteurs de recherche, ce qui réduit les coûts d’optimisation pour les moteurs de recherche, tout en augmentant le trafic organique et par mot-clé. Cela permet non seulement d’augmenter le nombre de visiteurs, mais également de connecter vos clients et produits de manière plus transparente que jamais, ce qui permet un emplacement, une sélection et un passage en caisse des produits plus rapides.
+Cela signifie qu’un site plus rapide et axé sur l’expérience est classé plus haut dans les moteurs de recherche, ce qui réduit les coûts d’optimisation pour les moteurs de recherche, tout en augmentant le trafic organique et par mot-clé. Cela permet non seulement d’augmenter le nombre de visiteurs, mais également de connecter vos clients et produits de manière plus transparente que jamais, ce qui permet une découverte, une sélection et un passage en caisse plus rapides des produits.
 
-Vous bénéficiez également de coûts de création de contenu moindres, car les propriétaires de contenu professionnels peuvent diffuser rapidement et facilement tout en fournissant des fonctionnalités Commerce intégrées à vos chefs de commerce. Plus de barrages routiers opérationnels pour les équipes collaboratrices !
+Vous bénéficiez également de coûts de création de contenu moindres, car les propriétaires de contenu professionnels peuvent rapidement et facilement affiner votre expérience de vitrine pendant que vos responsables commerciaux disposent de fonctionnalités Commerce intégrées. Plus de barrages routiers opérationnels pour les équipes collaboratrices !
 
-Velocity pour vos équipes de création de contenu, vitesse de diffusion de ce contenu à vos clients et vitesse de l’expérience que vos clients vivent grâce à votre nouvelle vitrine orientée expérience et hautement performante.
+Pour ce faire, vous devez disposer d’une architecture composable, qui associe un système de gestion de contenu (CMS) et des fonctionnalités de publication aux composants de dépôt Adobe Commerce afin de créer un storefront Commerce véritablement flexible. Adobe offre un large éventail de fonctionnalités commerciales de base sous forme de listes déroulantes, notamment des pages de liste de produits, des pages de détails de produits et une nouvelle liste déroulante de passage en caisse en une seule étape, qui vous permet d’ajouter une expérience de passage en caisse transparente aux parcours de vos clients d’une manière plug-and-play. Les clients peuvent commencer à utiliser des Edge Delivery Services pour les parties clés de leur vitrine en conjonction avec leur technologie existante et y développer leur offre au fil du temps.
 
-Pour ce faire, vous devez disposer d’une architecture composable, qui associe vos fonctionnalités de gestion de contenu et de publication à des composants de dépôt Adobe Commerce afin de créer un storefront Commerce véritablement flexible. La nouvelle liste déroulante de passage en caisse en une seule étape vous permet d’ajouter une expérience de passage en caisse transparente aux parcours de vos clients d’une manière &quot;plug-and-play&quot;.
+Résultat : vitesse de vos équipes de création de contenu, vitesse de diffusion de ce contenu à vos clients et vitesse de communication numérique de vos clients grâce à votre nouvelle vitrine orientée sur l’expérience et hautement performante.
+
 
 >[!TIP]
 >
@@ -80,9 +81,9 @@ Adobe rassemble Adobe Experience Manager Assets avec Adobe Commerce pour offrir 
 
 Cela permet à une entreprise d’utiliser les Cloud Service Experience Manager Assets comme source unique de vérité pour la création et la gestion des ressources, et comme principale source de gestion des actifs numériques, permettant à Adobe Commerce d’atteindre de nouveaux niveaux d’évolutivité des ressources.
 
-Un nouveau service de moteur de règles associe les ressources dans Experience Manager Assets aux produits correspondants dans Adobe Commerce, en fonction du SKU ou d’autres attributs clés basés sur votre stratégie Commerce. Les mises à jour sont automatiquement partagées afin de vous assurer que votre site dispose des dernières ressources de produit et variations de ressources en place.
+Un nouveau service de moteur de règles associe les ressources dans Experience Manager Assets aux produits correspondants dans Adobe Commerce, en fonction du SKU ou d’autres attributs clés, selon votre stratégie Commerce. Les mises à jour sont automatiquement partagées afin de vous assurer que votre site dispose des dernières ressources de produit et variations de ressources en place.
 
-Créez des vitrines pour de nouveaux lancements de produits ou des campagnes saisonnières à vitesse accrue en générant des millions de variations de produits pour des expériences Commerce personnalisées à l’aide des services GenAI dans Experience Manager Assets.
+Personnalisez votre expérience client et prenez en charge les nouveaux lancements de produits, les extensions de marché ou les campagnes saisonnières à vitesse accrue en générant des millions de variations de ressources de produit à l’aide des services GenAI dans Experience Manager Assets.
 
 ### Commerce B2B
 
@@ -108,7 +109,7 @@ Les deux fonctionnalités seront compatibles avec l’architecture native de sto
 
 [Services de paiement pour Adobe Commerce](https://business.adobe.com/products/magento/payment-services.html) est un service SaaS qui simplifie les paiements et augmente les conversions et les recettes de ventes. Utilisé par des sociétés comme Toyota en Amérique du Nord, il prend en charge un large éventail de méthodes de paiement et de fonctionnalités facultatives de protection contre les fraudes et les abus sur plusieurs marchés. Il permet aux commerçants de gérer en toute sécurité les paiements et les données de commande dans une seule expérience d’administration pour des gains d’efficacité.
 
-La dernière version s’appuie sur une série de mises à jour datant de 2023, qui ont ajouté Apple Pay, une intégration à Signifyd, une prise en charge internationale pour le Royaume-Uni, la France et l’Australie, la mise à l’échelle de l’infrastructure pour le volume de l’entreprise et la création de rapports sur les transactions. Les nouvelles fonctionnalités élargissent les options de paiement et facilitent le démarrage, quelle que soit la technologie de vitrine utilisée.
+La dernière version s’appuie sur une série de mises à jour datant de 2023, qui ont ajouté Apple Pay, une intégration à Signifyd pour la protection contre les fraudes, le soutien international au Royaume-Uni et à la France, la mise à l’échelle des infrastructures pour le volume des entreprises et la création de rapports sur les transactions. Les nouvelles fonctionnalités élargissent les options de paiement et facilitent le démarrage, quelle que soit la technologie de vitrine utilisée.
 
 >[!TIP]
 >
@@ -118,7 +119,7 @@ La dernière version s’appuie sur une série de mises à jour datant de 2023, 
 
 [!BADGE Disponible maintenant]{type=Informative tooltip="Disponible maintenant"}
 
-Dans la dernière version, les services de paiement incluent désormais la prise en charge de GraphQL afin que les marchands puissent accepter et traiter les paiements sur les implémentations sans interface utilisateur (Adobe Experience Manager, etc.).
+Les services de paiement incluent désormais la prise en charge de GraphQL, de sorte que les vendeurs puissent accepter et traiter les paiements sur les mises en oeuvre sans interface utilisateur (Adobe Experience Manager, etc.).
 
 Les services de paiement offrent également des options de tarification à votre convenance, notamment l’échange++ pour des taux de traitement des paiements plus compétitifs et [intégration en libre-service](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/get-started/production) aux Services de paiement de base, qui fournissent des capacités de traitement des paiements à près de 200 régions du monde.
 
@@ -128,7 +129,7 @@ Les services de paiement offrent également des options de tarification à votre
 
 #### Paiement Google pour les services de paiement
 
-[!BADGE Disponible maintenant]{type=Informative tooltip="1H 2024"}
+[!BADGE Disponible maintenant]{type=Informative tooltip="Disponible maintenant"}
 
 Adobe Commerce prend désormais en charge Google Pay, un portefeuille numérique de premier plan qui devrait atteindre [36 millions de consommateurs](https://forecasts-na1.emarketer.com/591373e4aeb8830e3829e400/5efc402eac4d4d07841472f9?_gl=1*qmtm8x*_ga*OTEwMjg4NjExLjE3MDY2MzQ2MTk.*_ga_XXYLHB9SXG*MTcwNjk3NjkzNS44LjAuMTcwNjk3NjkzNS42MC4LjA.*_gcl_au*MTkwNzgzOTY5OS4xNzA2NjM0NjE5LjQ3MzE4MjY5LjE3MDY3MTcyMjUuMTcwNjcxNzIyNQ.) consommateurs à l’échelle mondiale. L’ajout de Google Pay complète la prise en charge des portefeuilles numériques populaires, y compris Apple Pay et PayPal.
 
@@ -138,7 +139,7 @@ Ces portefeuilles numériques offrent aux acheteurs la méthode de paiement appr
 >
 >Pour découvrir comment configurer Google Pay, lisez notre [documentation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/payments-checkout/payments-options#google-pay-button).
 
-### Personnalisation optimisée par l’IA avec Live Search
+### Recherche en direct, optimisée par Adobe Sensei
 
 [!BADGE Disponible maintenant]{type=Informative tooltip="Disponible maintenant"}
 
@@ -150,13 +151,13 @@ La dernière version d’Adobe de la recherche en direct a pour objectif de faci
 
 Par exemple, un marchandiseur peut définir une règle selon laquelle toute requête de recherche contenant l’expression &quot;robe&quot; doit être triée par la variable _éléments de tendance_ algorithme. Ce même marchandiseur peut alors utiliser la variable _le plus acheté_ pour toutes les autres requêtes de recherche. Grâce à cette mise à jour, les marques peuvent présenter leurs principaux produits pour chaque recherche, ce qui simplifie le marchandisage personnalisé.
 
-![Capture d’écran d’un moteur de recherche](assets/default-search-rule.png){align="center" zoomable="yes"}
+![Capture d’écran d’un moteur de recherche](assets/default-search-rule.png){align=center zoomable=&quot;yes&quot;}
 
 Adobe a également introduit de nouvelles options de personnalisation pour la recherche en direct. Utilisation de la fonction de recherche en direct [Widget PLP](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling) et [Widget Popover](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/storefront-popover), vous pouvez concevoir les fonctionnalités de l’interface utilisateur de la recherche en direct, y compris les échantillons de couleurs, les options de mise en page des détails du produit, les boutons Ajouter au panier, les curseur de prix, etc. à l’aide d’outils de configuration à faible code. Adobe offre une flexibilité totale grâce à une [ouvrir le référentiel de code](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install), qui sert de mise en oeuvre de référence aux bonnes pratiques.
 
 >[!TIP]
 >
->Pour découvrir comment commencer à utiliser la recherche en direct, lisez notre [documentation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview):
+>Pour découvrir comment commencer à utiliser la recherche en direct, lisez notre [documentation et guide d’installation mis à jour](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)
 
 #### Tableau de bord de la gestion des données
 
@@ -172,7 +173,7 @@ Ce nouveau tableau de bord est accessible directement à partir de l’administr
 
 L’année dernière, Adobe Commerce a été publié [Connexion aux données](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview), qui collecte, mappe et partage automatiquement une gamme de données Commerce, y compris les clics au storefront et l’état de la commande back-office, ainsi que les informations sur l’historique des commandes. Aujourd’hui, les responsables du commerce numérique utilisent Data Connection pour ventiler les segments de données, créer des profils et des audiences clients unifiés, personnaliser les parcours client et alimenter les analyses riches.
 
-Au cours du premier semestre de cette année, l&#39;Adobe partagera encore plus de données, y compris [Profils client Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/update-account), comportement des applications mobiles et attributs personnalisés pour les événements administratifs afin de personnaliser les campagnes et les expériences à grande échelle.
+Cette année, l’Adobe va partager encore plus de données, y compris [Profils client Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/update-account), comportement des applications mobiles et attributs personnalisés pour les événements administratifs afin de personnaliser les campagnes et les expériences à grande échelle.
 
 Par exemple, les clients pourront utiliser les enregistrements de clients Commerce en temps réel pour déclencher des campagnes par e-mail de bienvenue dans [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started).
 
@@ -184,7 +185,7 @@ Informé par des centaines d’implémentations d’Adobe Commerce avec d’autr
 
 Le playbook initial d’Adobe Commerce permet aux clients de lancer facilement des campagnes de panier abandonnées en les guidant tout au long du processus de configuration des données. Une fois connecté, les clients peuvent lancer rapidement des campagnes, ce qui leur permet de gagner du temps et d’augmenter les ventes. Un détaillant mondial a réalisé une conversion 1,9 fois en cas de clic, 1 000 personnes supplémentaires réengagées par semaine et un effet élévateur à deux chiffres du chiffre d’affaires résultant du lancement de campagnes d’abandon avec Adobe Commerce et Adobe Journey Optimizer.
 
-Adobe ajoute également des tableaux de bord spécifiques à Commerce dans Adobe Experience Platform pour aider les marketeurs à analyser leurs données Commerce et à identifier les opportunités de personnalisation.
+Adobe ajoute également des tableaux de bord spécifiques à Commerce dans Adobe Experience Platform, tels que des rapports de récence, de fréquence et de monétisation, pour aider les marketeurs à analyser leurs données Commerce et à identifier les stratégies de segmentation et les opportunités de personnalisation.
 
 ![Un diagramme d’une campagne de panier abandonnée](assets/use-case-playbook.png){zoomable="yes"}
 
@@ -192,20 +193,20 @@ Adobe ajoute également des tableaux de bord spécifiques à Commerce dans Adobe
 
 L’année dernière, Adobe Commerce a également été lancé. [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation), qui exploite les profils client et les audiences unifiés de Real-Time CDP pour personnaliser les parcours d’acheteurs. Plus précisément : [Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started) assemble des données Commerce avec des données provenant d’autres sources afin de créer des profils client et des segments d’audience détaillés pour le ciblage de contenu et d’offres promotionnelles dans Adobe Commerce.
 
-Dans la première moitié de l&#39;année, l&#39;Adobe est en train de développer ces [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) fonctionnalités permettant aux marketeurs et aux marchandiseurs d’utiliser les audiences définies dans Real-Time CDP d’Adobe pour personnaliser davantage d’aspects de l’expérience d’achat d’Adobe Commerce, notamment [produits associés](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules), [promotions](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart), et [blocs de contenu](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).
+L&#39;Adobe a développé ces [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) fonctionnalités permettant aux marketeurs et aux marchandiseurs d’utiliser les audiences définies dans Real-Time CDP d’Adobe pour personnaliser davantage d’aspects de l’expérience d’achat d’Adobe Commerce, notamment [règles de produit connexes](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) pour les recommandations d’augmentation et de vente croisée en plus de [promotions](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart) et [blocs de contenu](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).
 
 #### Suivi et personnalisation du commerce dans les applications mobiles natives
 
-Adobe apporte des expériences hyper-personnalisées au commerce d’applications mobiles. Utilisation [Connexion aux données](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview), vous pouvez envoyer des événements d’application mobile d’Adobe Commerce à d’autres applications Adobe Experience Cloud, notamment Adobe Real-Time CDP, Adobe Journey Optimizer, Customer Journey Analytics, Adobe Analytics et Adobe Target. Utilisation [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation), vous pouvez personnaliser l’expérience de l’application (notamment le contenu dynamique, les promotions et les règles de produit associées) en fonction des audiences créées et gérées dans Adobe Real-Time CDP.
+Adobe apporte également des expériences hyper-personnalisées au commerce d’applications mobiles. Utilisation [Connexion aux données](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview), vous pouvez envoyer des événements d’application mobile d’Adobe Commerce à d’autres applications Adobe Experience Cloud, notamment Adobe Real-Time CDP, Adobe Journey Optimizer, Customer Journey Analytics, Adobe Analytics et Adobe Target. Utilisation [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation), vous pouvez personnaliser l’expérience de l’application mobile (notamment le contenu dynamique, les promotions et les règles de produit associées) en fonction des audiences créées et gérées dans Adobe Real-Time CDP.
 
 ![Données de l’application mobile](assets/mobile-app-data.png)
 
 >[!TIP]
 >
 >- Pour découvrir comment commencer à utiliser Adobe Commerce Data Connection, lisez notre [documentation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
->- Pour démarrer votre parcours de personnalisation, consultez la section [documentation sur la personnalisation à l’échelle](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale).
+>- Pour lancer votre parcours de personnalisation et en savoir plus sur les cas d’utilisation de la personnalisation courants, consultez la section [documentation sur la personnalisation à l’échelle](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale).
 
-Explorez le parcours de transformation numérique de Coca-Cola pour créer des expériences d’achat personnalisées à grande échelle à l’aide de la connexion de données Adobe Commerce à Adobe Journey Optimizer et de la plateforme de données clients en temps réel. [Coca-Cola : déverrouillage des données pour créer des expériences Commerce axées sur les consommateurs](https://business.adobe.com/summit/2024/sessions/cocacola-unlocking-data-to-create-consumercentric-s434.html).
+Explorez le parcours de transformation numérique de Coca-Cola pour créer des expériences d’achat personnalisées à grande échelle à l’aide d’Adobe Commerce Data Connection avec Adobe Journey Optimizer et la plateforme de données clients en temps réel. [Coca-Cola : déverrouillage des données pour créer des expériences Commerce axées sur les consommateurs](https://business.adobe.com/summit/2024/sessions/cocacola-unlocking-data-to-create-consumercentric-s434.html).
 
 ## Commerce prenant en charge les technologies
 
@@ -215,55 +216,22 @@ Adobe Commerce est une plateforme de commerce électronique composable conçue p
 
 Les applications composables traditionnelles sont créées à l’aide d’intégrations point à point entre plusieurs services. Cette approche conduit à une couche d’intégration fragile avec une dette technique croissante. Adobe Commerce fournit aux développeurs des points d’extension complets ainsi qu’une plateforme extensible pour orchestrer l’API, les événements et les données, ce qui se traduit par une architecture flexible et composable. La plateforme Adobe Commerce comprend les éléments suivants :
 
-- Complet [API](https://developer.adobe.com/commerce/webapi/) couverture
-- [Webhooks](https://developer.adobe.com/commerce/extensibility/webhooks/) pour personnaliser les processus de commerce natifs
-- [Interface utilisateur d’administration](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/) extensibilité
-- Plus de 700 [events](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+- Complet [API](https://developer.adobe.com/commerce/webapi/) couverture et orchestration des API avec [Mesh de l’API](https://developer.adobe.com/graphql-mesh-gateway/)
+- [Webhooks](https://developer.adobe.com/commerce/extensibility/webhooks/) pour personnaliser les processus de commerce natifs tels que l’ajout au panier et le passage en caisse
+- Contrôle granulaire pour étendre Commerce [Interface utilisateur d’administration](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/) pour les fonctionnalités commerciales personnalisées
+- Plus de 700 [events](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events) pour créer des intégrations évolutives basées sur des événements
 
 ![Diagramme d’extensibilité d’Adobe Commerce](assets/comprehensive-extensibility.png)
 
-### Améliorations des webhooks et du SDK de l’interface utilisateur d’administration
-
-[!BADGE Disponible maintenant]{type=Informative tooltip="Disponible maintenant"}
-
-Avec la dernière version, Adobe continue de montrer l’exemple en simplifiant le développement composable pour les entreprises de commerce électronique. Vous pouvez désormais [configuration des webhooks via l’interface utilisateur d’administration](https://developer.adobe.com/commerce/extensibility/webhooks/admin-configuration/) il est ainsi plus simple d’étendre les processus de commerce natifs tels que le passage en caisse, l’ajout au panier, etc. Les webhooks peuvent désormais être déclenchés de manière conditionnelle. Par exemple, vous pouvez déclencher un webhook de calcul de livraison pour le processus de passage en caisse uniquement pour des codes postaux spécifiques.
-
-Les développeurs disposent désormais d’un contrôle plus précis pour étendre l’interface utilisateur d’administration, comme l’ajout d’autres [colonnes](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/extension-points/product/grid-columns/), [boutons](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/extension-points/order/view-button/), et [actions de masse](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/extension-points/order/mass-action/) aux panneaux d’administration existants.
-
-Plus tard cette année, Adobe augmentera la disponibilité de l’API Mesh à plus de 200 emplacements mondiaux, ce qui réduit la latence du réseau et offre un meilleur temps de calcul ; offrant ainsi une meilleure expérience globale pour les acheteurs.
-
->[!TIP]
->
->Pour découvrir comment commencer à utiliser les webhooks, lisez notre [documentation](https://developer.adobe.com/commerce/extensibility/webhooks/).
-
 ### Kit de démarrage d’intégration et intégrations ERP préconfigurées
 
-[!BADGE Disponible en juin 2024]{type=Informative tooltip="Disponible en juin 2024"}
-
-L’intégration d’une plateforme de commerce électronique à votre système ERP, OMS ou CRM est une exigence essentielle pour la mission. Les entreprises peuvent dépenser des dizaines de milliers de dollars pour construire ces intégrations. Pour réduire les coûts d’intégration aux systèmes administratifs et améliorer la fiabilité des connexions en temps réel, Adobe propose un kit de démarrage d’intégration.
-
-Le kit comprend des intégrations de référence pour les données commerciales courantes, notamment les commandes, les produits et les clients. Il comprend également des scripts d’intégration et une architecture normalisée permettant aux développeurs de s’appuyer sur les bonnes pratiques suivantes. Le kit de démarrage (actuellement en version bêta) devrait réduire l’effort d’intégration jusqu’à 50 %.
-
-Plus tard cette année, Adobe publiera également des intégrations préconfigurées pour deux PGI communs à l’aide du kit de démarrage de l’intégration :
-
-- [Finance et opérations Microsoft Dynamics](https://www.microsoft.com/en-us/dynamics-365/products/finance)
-- [SAP S/4HANA](https://www.sap.com/products/erp/s4hana.html)
-
-Ces intégrations de référence peuvent facilement être personnalisées par les développeurs pour répondre aux besoins de l’entreprise, ce qui réduit le temps de mise sur le marché et le coût des intégrations.
-
-#### Commerce d&#39;inscriptions sous la houlette de Zuora
-
 [!BADGE Disponible maintenant]{type=Informative tooltip="Disponible maintenant"}
 
-Selon la société de services financiers UBS, l&#39;économie des abonnements est en bonne voie pour atteindre 1 500 milliards $, contre 650 milliards $ en 2021. Les consommateurs et les entreprises sont de plus en plus à l’aise avec l’achat de produits et services d’abonnement en raison de leur commodité et de leur valeur.
+L’intégration d’une plateforme de commerce électronique à votre système ERP, OMS ou CRM est une exigence essentielle pour la mission. Les entreprises peuvent dépenser des dizaines de milliers de dollars pour construire ces intégrations. Pour réduire le coût de l’intégration aux systèmes administratifs et améliorer la fiabilité des connexions en temps réel, Adobe propose une [kit de démarrage d’intégration](https://developer.adobe.com/commerce/extensibility/starter-kit/create-integration/) pour Adobe Commerce.
 
-Pour permettre aux entreprises d’ajouter des flux de revenus d’abonnement à leurs activités et de prendre en charge les modèles d’affaires de revenus récurrents existants, Adobe Commerce s’est associé à Zuora, la plate-forme de gestion des abonnements de pointe, pour lancer la [Gestion des abonnements Zuora pour Adobe Commerce](https://commercemarketplace.adobe.com/zuora-revenue-management-with-subcriptions.html) extension .
+Le kit comprend des intégrations de référence pour les données commerciales courantes, notamment les commandes, les produits et les clients.  Il comprend également des scripts d’intégration et une architecture normalisée permettant aux développeurs de s’appuyer sur les bonnes pratiques suivantes. Le kit de démarrage devrait réduire l’effort d’intégration jusqu’à 50 %. Ces intégrations de référence peuvent facilement être personnalisées par les développeurs pour répondre aux besoins de l’entreprise, ce qui réduit le temps de mise sur le marché et le coût des intégrations.
 
-Basé sur la structure du créateur d’applications d’Adobe, le [Extension Zuora](https://commercemarketplace.adobe.com/zuora-revenue-management-with-subcriptions.html) reçu [Programme Adobe Commerce App Assurance](https://developer.adobe.com/commerce/marketplace/guides/sellers/assurance/) la reconnaissance des bonnes pratiques de développement composable simplifiées, y compris une architecture frontale native React et l’utilisation d’événements Adobe I/O et d’Adobe API Mesh pour limiter les personnalisations dans la plateforme Adobe Commerce principale.
-
->[!TIP]
->
->Pour découvrir comment commencer à utiliser l’extension Zuora, lisez la [documentation](https://commercemarketplace.adobe.com/media/catalog/product/zuora-revenue-management-with-subcriptions-1-0-0-ece/installation_guides.pdf?1708112475).
+En juin 2024, Adobe lancera le premier accélérateur d’intégration ERP créé à l’aide de ce kit de démarrage d’intégration pour [Finance et opérations Microsoft Dynamics](https://www.microsoft.com/en-us/dynamics-365/products/finance). Cet accélérateur d’intégration pour Microsoft ERP peut être utilisé pour traiter les commandes, mettre à jour les données de produit et les enregistrements client, et synchroniser les niveaux d’inventaire de Microsoft Dynamics Finance et opérations avec Adobe Commerce. L’accélérateur de finances et d’opérations de Microsoft Dynamics sera disponible dans la [Commerce Marketplace](https://commercemarketplace.adobe.com/).
 
 ### Adobe Commerce : solution prête pour HIPAA
 
