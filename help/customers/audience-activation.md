@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
+source-git-commit: aacba21dc4472b04e87b0a3c5e722b3ecd52770d
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -370,7 +370,7 @@ Ce problème peut être dû à des privilèges d’API insuffisants pour le jeto
 1. Demandez à l’administrateur système de lancer Adobe Experience Platform et d’accéder à **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
 1. À l’aide de l’e-mail du compte technique ci-dessus, recherchez les informations d’identification à modifier.
 1. Ouvrez les informations d’identification, puis sélectionnez **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
-1. Ajouter **Accès complet à la production**.
+1. Ajouter le rôle contenant **[!UICONTROL Manage destinations]** autorisation.
 1. Cliquez sur **[!UICONTROL Save]**.
 1. [Régénérer](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) le jeton d’accès dans la console.
 1. Vérifiez que le jeton fournit une réponse valide à l’aide de la variable [API de connexions à Target](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).
