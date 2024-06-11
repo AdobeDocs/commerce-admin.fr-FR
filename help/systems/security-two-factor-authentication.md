@@ -4,9 +4,9 @@ description: Découvrez la prise en charge de l’authentification à deux facte
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: c391a3eef8be0dd45cc8a499b63bcb0fc32640aa
+source-git-commit: b31ed0e76df67a486012d8ec4997d9f19e17d371
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,11 @@ Définissez les paramètres de chaque méthode 2FA dont vous avez besoin.
 
 Pour modifier la durée de disponibilité du mot de passe unique (OTP) lors de la connexion, effacez la variable **[!UICONTROL Use system value]** . Saisissez ensuite le nombre de secondes pour le **[!UICONTROL OTP Window]** pour être valide.
 
+![Configuration de la sécurité - Google](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
+
 >[!NOTE]
 >
->Dans Adobe Commerce 2.4.7 et versions ultérieures, le paramètre de configuration de fenêtre OTP contrôle la durée (en secondes) pendant laquelle le système accepte le mot de passe unique (OTP) d’un administrateur après expiration. Cette valeur doit être inférieure à 30 secondes. Le paramètre système par défaut est `1`.<br><br> Dans la version 2.4.6, le paramètre de fenêtre OTP détermine le nombre de codes OTP passés et futurs qui restent valides. Une valeur de `1` indique que le code OTP actuel plus un code dans le passé et un code dans le futur restent valides à tout moment.
+>Dans Adobe Commerce 2.4.7 et versions ultérieures, le paramètre de configuration de fenêtre OTP contrôle la durée (en secondes) pendant laquelle le système accepte le mot de passe unique (OTP) d’un administrateur après expiration. Cette valeur doit être inférieure à 30 secondes. Le paramètre système par défaut est `29`.<br><br> Dans la version 2.4.6, le paramètre de fenêtre OTP détermine le nombre de codes OTP passés et futurs qui restent valides. Une valeur de `1` indique que le code OTP actuel plus un code dans le passé et un code dans le futur restent valides à tout moment.
 
 ### [!DNL Duo Security]
 

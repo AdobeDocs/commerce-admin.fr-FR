@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Security] &gt; [!UICONTROL 2FA] de l’administrateur Commerce.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: d6f9c5186276b28cada318cbe765e2271d34bb58
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Authent
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL OTP Window] | Global | Durée de vie, en secondes, de chaque mot de passe unique (OTP) généré par l’authentificateur Google. Valeur par défaut : `30` |
+| [!UICONTROL OTP Window] | Global | Détermine la durée (en secondes) pendant laquelle le système accepte le mot de passe unique (OTP) d’un administrateur après expiration. Ne peut pas être supérieur à la durée de vie d’un seul HTTP (généralement 30 secondes). Valeur par défaut : `29` |
 
 {style="table-layout:auto"}
 
