@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: aacba21dc4472b04e87b0a3c5e722b3ecd52770d
+source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _30 mai 2023_
 ![Nouveau](../assets/new.svg) - Mise à jour de la [Tableau de bord Audiences Real-Time CDP](#real-time-cdp-audiences-dashboard) pour inclure la possibilité de trier, rechercher et filtrer les audiences actives dans votre instance Adobe Commerce.
 
 +++
+
+### 2.2.0
+
+[!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
+
+_12 juin 2024_
+
+![Nouveau](../assets/new.svg) - Version GA pour [règles de produit connexes](../merchandising-promotions/product-related-rule-create.md) par les audiences.
 
 ### 2.1.1
 
@@ -172,9 +180,11 @@ Avec la variable [!DNL Audience Activation] extension activée, vous pouvez :
 
 - [Créer une règle de prix de panier](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) tenus par les audiences
 - [Créer un bloc dynamique](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) tenus par les audiences
-- [(**Beta**) Créer une règle de produit associée](../merchandising-promotions/product-related-rule-create.md) tenus par les audiences
+- [Création d’une règle de produit associée](../merchandising-promotions/product-related-rule-create.md) tenus par les audiences
 
-Pour un cas d’utilisation complet de bout en bout sur l’exportation [!DNL Commerce] données à Real-Time CDP, création d’une audience, puis activation de cette audience vers [!DNL Commerce], voir [Création d’une audience dans Real-Time CDP à l’aide de [!DNL Commerce] données d’événement](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+>[!TIP]
+>
+>Pour un cas d’utilisation complet de bout en bout sur l’exportation [!DNL Commerce] données à Real-Time CDP, création d’une audience, puis activation de cette audience vers [!DNL Commerce], voir [Création d’une audience dans Real-Time CDP à l’aide de [!DNL Commerce] données d’événement](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
 
 ## Tableau de bord des audiences Real-Time CDP
 
@@ -195,6 +205,7 @@ Le tableau de bord contient les champs suivants :
 | `Websites` | Indique les sites web configurés pour utiliser les audiences. |
 | `Dynamic Blocks` | Indique les blocs dynamiques configurés pour utiliser les audiences. |
 | `Cart Price Rules` | Indique les règles de prix du panier configurées pour utiliser les audiences. |
+| `Related Product Rules` | Indique les règles de produit connexes configurées pour utiliser les audiences. |
 | `Last updated` | Indique le moment où l’audience a été modifiée dans Real-Time CDP. |
 | `Sync now` | Récupère les audiences nouvelles ou mises à jour de Real-Time CDP. |
 | `Customize table` | Permet d’afficher ou de masquer le `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`, et `Last updated` colonnes. |

@@ -3,9 +3,9 @@ title: Création d’une règle de produit associée
 description: Découvrez comment créer une règle de produit associée qui peut être déclenchée pour afficher les produits associés, les ventes incitatives et les ventes croisées.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
+source-git-commit: cea943cd7f4d148c885fbd113c3bc08bfdf63ea0
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Le processus de création d’une règle de produit associée est similaire à l
 
    - Si la règle s’applique à un [segment client](../customers/customer-segments.md), définit **[!UICONTROL Customer Segments]** to `Specified` et sélectionnez le segment client dans la liste.
 
-   - (**Beta**) Si la règle s’applique à un [Audience Real-Time CDP](../customers/audience-activation.md), définit **[!UICONTROL Real-Time CDP Audience]** to `Specified` et sélectionnez l’audience Real-Time CDP dans la liste. Cette fonctionnalité est en version bêta. Si vous souhaitez rejoindre le programme bêta, envoyez une demande à [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+   - Si la règle s’applique à un [Audience Real-Time CDP](../customers/audience-activation.md), définit **[!UICONTROL Real-Time CDP Audience]** to `Specified` et sélectionnez l’audience Real-Time CDP dans la liste. Cette fonctionnalité est en version bêta. Si vous souhaitez rejoindre le programme bêta, envoyez une demande à [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
 
      ![Règle de produits associés - Audience Real-Time CDP](./assets/rtcdp-related-products.png){width="500"}
 
