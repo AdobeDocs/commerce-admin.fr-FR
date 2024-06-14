@@ -3,10 +3,10 @@ title: Transfert d’un compte Commerce
 description: Découvrez comment transférer votre compte Commerce à un autre propriétaire ou adresse électronique.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: dd8ccda17b0ef83cb4b0ce130fdc9315026733b1
+source-git-commit: 59a88468dabfd1042b664f658225de2504b66b1b
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 1%
+source-wordcount: '986'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 À mesure que les responsabilités commerciales changent, vous devrez peut-être transférer la propriété de votre compte Commerce existant à un nouveau propriétaire ou à une autre adresse électronique. Ce transfert nécessite une modification de l’e-mail de l’utilisateur principal associé au compte.
 
-Les informations suivantes décrivent le processus de transfert d’un compte Commerce (MAGEID). Elle n’inclut pas de modifications concernant la propriété du compte cloud (projet cloud). Pour plus d’informations sur l’accès aux projets cloud, voir [Gestion de l’accès des utilisateurs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) dans le _Guide d’infrastructure de Commerce on Cloud_.
+Les informations suivantes décrivent le processus de transfert d’un compte Commerce (MAGEID). Elle n’inclut pas de modifications concernant la propriété du compte Cloud (projet Cloud ou New Relic). Pour plus d’informations sur l’accès aux projets cloud, voir [Gestion de l’accès des utilisateurs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) dans le _Guide d’infrastructure de Commerce on Cloud_.
 
 ## Identifier votre type de transfert
 
@@ -54,7 +54,7 @@ Ce type de transfert nécessite d’abord de créer une Adobe ID associée, puis
 
 1. Cliquez sur **[!UICONTROL Continue]**.
 
-   Cela crée une Adobe ID et la lie au compte Commerce actuel (MAGEID). Avec ce lien, la variable _[!UICONTROL Email]_est bloquée de toutes les modifications. L’adresse électronique associée est gérée par le compte Adobe ID.
+   Cela crée une Adobe ID et la lie au compte Commerce actif (MAGEID). Avec ce lien, la variable _[!UICONTROL Email]_est bloquée de toutes les modifications. L’adresse électronique associée est gérée par le compte Adobe ID.
 
 1. Accédez à [account.adobe.com](https://account.adobe.com/).
 
