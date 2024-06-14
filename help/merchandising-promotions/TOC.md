@@ -4,9 +4,9 @@ user-guide-description: Adobe Commerce et Magento Open Source comprennent de nom
 breadcrumb-title: Marchandisage et promotions
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: f9d1f66f8fb8d5c00bfa298234ab22becec33f56
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '267'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
       - [Expérience du storefront du registre des cadeaux](gift-registry-storefront.md)
    - Points de récompense {#reward-points}
       - [Présentation et configuration des récompenses](rewards-loyalty.md)
-      - [Taux de change des primes](reward-exchange-rates.md)
+      - [Taux de récompense des exchanges](reward-exchange-rates.md)
       - [Points de récompense dans les règles de prix](reward-points-price-rules.md)
       - [Expérience du storfront des points de récompense](reward-points-storefront.md)
    - Études de produits {#product-reviews}
@@ -87,3 +87,5 @@ ht-degree: 1%
    - [Gestionnaire de balises de Google](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
    - [Expériences de contenu Google](google-content-experiments.md)
+- [Revenir aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

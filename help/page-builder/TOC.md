@@ -1,21 +1,21 @@
 ---
-user-guide-title: "[!DNL Page Builder] Guide d’utilisation"
+user-guide-title: "[!DNL Page Builder] Guide de l’utilisateur"
 user-guide-description: Découvrez comment utiliser [!DNL Page Builder] fonctionnalités permettant de créer des pages riches en contenu avec des dispositions personnalisées qui améliorent votre narration visuelle et favorisent l’engagement et la fidélité des clients.
 breadcrumb-title: "[!DNL Page Builder]"
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-source-git-commit: addc34aeb4418aa3a1a9c2fc3adca738352ef94f
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 8%
+source-wordcount: '80'
+ht-degree: 2%
 
 ---
 
 
-# [!DNL Page Builder] Guide d’utilisation {#page-builder}
+# [!DNL Page Builder] Guide de l’utilisateur {#page-builder}
 
-- [[!DNL Page Builder] Guide d’utilisation](guide-overview.md)
+- [[!DNL Page Builder] Guide de l’utilisateur](guide-overview.md)
 - [Introduction à [!DNL Page Builder]](introduction.md)
 - [Notes de mise à jour](release-notes.md)
 - [Configuration et configuration](setup.md)
@@ -46,3 +46,5 @@ ht-degree: 8%
    - [Produits](products.md)
    - [Recommendations de produit](recommendations.md)
 - [Modèles](templates.md)
+- [Revenir aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+
