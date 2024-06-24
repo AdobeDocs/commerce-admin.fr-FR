@@ -3,9 +3,9 @@ title: Rapports sur les clients
 description: Les rapports sur les clients disponibles dans Adobe Commerce et Magento Open Source fournissent des informations sur l’activité des clients au cours d’une période ou d’une période spécifiée.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: a530d74f8d073f834f310826562407b8f949f17b
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
@@ -41,8 +41,8 @@ Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Reports]** > 
 | [!UICONTROL Interval] | l’intervalle total de l’ordre, par `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | Nom du client qui a passé les commandes. |
 | [!UICONTROL Orders] | Nombre de commandes pour l’intervalle spécifié. |
-| [!UICONTROL Average] | Montant moyen de la commande. |
-| [!UICONTROL Total] | Somme de toutes les commandes de la période. |
+| [!UICONTROL Average] | Montant moyen de la commande. Ce montant est toujours calculé pour les prix des produits. **taxe à l&#39;exclusion** même si les prix des produits catalogues, le sous-total des commandes et le total des commandes comprennent la taxe. Par conséquent, le montant indiqué dans le rapport est différent du montant indiqué dans les détails de la commande lorsque les totaux de la commande comprennent la taxe. |
+| [!UICONTROL Total] | Somme de toutes les commandes de la période. Ce montant est toujours calculé pour les prix des produits. **taxe à l&#39;exclusion** même si les prix des produits catalogues, le sous-total des commandes et le total des commandes comprennent la taxe. Par conséquent, le total affiché dans le rapport est différent du montant affiché dans les détails de la commande lorsque les totaux de la commande comprennent la taxe. |
 
 {style="table-layout:auto"}
 
@@ -73,8 +73,8 @@ Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Reports]** > 
 | [!UICONTROL Interval] | l’intervalle de comptage de l’ordre, par `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | Le client qui a passé la commande. |
 | [!UICONTROL Orders] | Nombre de commandes pour l’intervalle spécifié. |
-| [!UICONTROL Average] | Montant moyen de la commande. |
-| [!UICONTROL Total] | Somme de toutes les commandes de la période. |
+| [!UICONTROL Average] | Montant moyen de la commande. Ce montant est toujours calculé pour les prix des produits. **taxe à l&#39;exclusion** même si les prix des produits catalogues, le sous-total des commandes et le total des commandes comprennent la taxe. Par conséquent, le montant indiqué dans le rapport est différent du montant indiqué dans les détails de la commande lorsque les totaux de la commande comprennent la taxe. |
+| [!UICONTROL Total] | Somme de toutes les commandes de la période. Ce montant est toujours calculé pour les prix des produits. **taxe à l&#39;exclusion** même si les prix des produits catalogues, le sous-total des commandes et le total des commandes comprennent la taxe. Par conséquent, le total affiché dans le rapport est différent du montant affiché dans les détails de la commande lorsque les totaux de la commande incluent des balises. |
 
 {style="table-layout:auto"}
 
