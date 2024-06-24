@@ -4,9 +4,9 @@ description: Découvrez comment affecter un groupe de clients à un compte d’e
 exl-id: fba3c17e-95df-4e9e-84b8-67409c6da72d
 feature: B2B, Companies, Configuration, Customers
 role: Admin, User
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: a5a8da076d6cd91eb6c3e573fec5b3fb9d2d3341
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,10 @@ L’affectation d’un groupe de clients à une entreprise est essentiellement i
    >La variable [!UICONTROL Customer Group] La liste comprend tous les catalogues partagés existants, même si l’option Catalogues partagés est désactivée dans la configuration.
 
    La modification du groupe de clients affecté à l’entreprise met à jour les profils de tous les membres de l’entreprise.
+
+   >[!NOTE]
+   >
+   >Après avoir modifié le groupe de la société, un utilisateur de la société doit se déconnecter et se connecter à Storefront pour afficher les nouveaux prix dans le catalogue.
 
    ![Modification d’un groupe de clients ou d’un catalogue partagé](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
