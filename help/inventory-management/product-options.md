@@ -3,9 +3,9 @@ title: "Configurer [!DNL Inventory Management] options de produit"
 description: Découvrez comment configurer le [!DNL Inventory Management] options de configuration du produit.
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
-source-git-commit: ccd93a54b6fa23a7a54fb423f8232c72cd8fe027
+source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,8 @@ Configurer les quantités et les paramètres supplémentaires par [source ajout�
 
    Par exemple, un article vendu par incréments de six peut être acheté en quantités de 6, 12, 18, etc.
 
+   **[!UICONTROL Qty Increments]** définit le nombre d’articles de produit qui doivent être achetés en tant que produit unique et enfant de produits configurables, regroupés et regroupés.
+
 1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Done]** puis **[!UICONTROL Save]**.
 
 ### Descriptions des champs
@@ -113,7 +115,7 @@ Configurer les quantités et les paramètres supplémentaires par [source ajout�
 | [!UICONTROL Qty Uses Decimals] | Global | Détermine si les clients peuvent utiliser une valeur décimale plutôt qu’un nombre entier lors de la saisie de la quantité commandée. Options :<br />`Yes` - autorise la saisie de valeurs sous forme de décimales, plutôt que de nombres entiers. Les décimales conviennent aux produits vendus en poids, volume ou longueur.<br />`No` - Nécessite que les valeurs de quantité soient saisies en nombres entiers. |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | Global | Détermine si des parties du produit peuvent être expédiées séparément. Cette option est visible lorsque **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
 | [!UICONTROL Backorders] | Global | Détermine le mode de gestion des commandes en arrière-plan. Les commandes en arrière-plan ne modifient pas l’état de traitement de la commande. Les fonds sont toujours autorisés ou capturés immédiatement lorsque la commande est passée, que le produit soit en stock ou non. Les produits sont livrés dès qu’ils deviennent disponibles. Lorsque cette option est activée, il est recommandé de saisir un montant négatif pour le seuil d’rupture de stock. Options :<br/>`No Backorders` - N’accepte pas les commandes en arrière-plan lorsque le produit est en rupture de stock.<br />`Allow Qty Below 0` - Accepte les commandes en arrière-plan lorsque la quantité est inférieure à zéro.<br />`Allow Qty Below 0 and Notify Customer` - Accepte les commandes en arrière-plan lorsque la quantité est inférieure à zéro, mais avertit les clients que les commandes peuvent toujours être passées. |
-| [!UICONTROL Enable Qty Increments] | Global | Détermine si le produit peut être vendu en quantité par incréments. |
+| [!UICONTROL Enable Qty Increments] | Global | Détermine si le produit peut être vendu en quantité par incréments. Les incréments définissent le nombre d’articles de produit qui doivent être achetés en tant que produit unique et enfant de produits configurables, regroupés et regroupés. |
 
 >[!NOTE]
 >

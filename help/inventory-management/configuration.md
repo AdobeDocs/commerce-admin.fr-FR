@@ -3,9 +3,9 @@ title: "Configurer [!DNL Inventory Management]"
 description: En savoir plus sur la configuration de [!DNL Inventory Management] options qui déterminent la disponibilité de la source, les produits de vitrine et l’expédition des commandes.
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Vous pouvez également utiliser le seuil de disponibilité du stock pour gérer 
 | [!UICONTROL Allow Multiple Boxes for Shipping] | Détermine si des parties d’un produit peuvent être expédiées séparément. Cette option est visible lorsque **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
 | [!UICONTROL Backorders] | Indique si les commandes en arrière-plan sont autorisées. Spécifié sur le niveau Source, calculé sur le niveau Stock en fonction des sources affectées. Si cette option est activée pour les commandes en arrière-plan, définissez une valeur négative pour le seuil d’rupture de stock (voir [Configuration des commandes d’arrière-plan](backorders.md)) est recommandé. Options :<br />**[!UICONTROL No Backorders]**: n’accepte pas les commandes en arrière-plan lorsque le produit est en rupture de stock.<br />**[!UICONTROL Allow Qty Below 0]**: accepte les commandes en arrière-plan lorsque la quantité est inférieure à zéro.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: accepte les commandes en arrière-plan lorsque la quantité est inférieure à zéro, mais avertit les clients que les commandes peuvent toujours être passées. |
 | [!UICONTROL Notify for Quantity Below] | Définit la quantité qui déclenche une notification Quantité en dessous , en avertissement de stock faible. Ce montant est déduit de la Quantité vendable, et non de la Quantité d’inventaire. |
-| [!UICONTROL Enable Qty Increments] | Détermine si le produit peut être vendu en quantité par incréments. Si cette option est activée, saisissez la quantité de produits à acheter dans une étape incrémentielle. |
+| [!UICONTROL Enable Qty Increments] | Détermine si le produit peut être vendu en quantité par incréments. Si cette option est activée, saisissez la quantité de produits à acheter dans une étape incrémentielle. Les incréments définissent le nombre d’articles de produit qui doivent être achetés en tant que produit unique et enfant de produits configurables, regroupés et regroupés. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | [!DNL Inventory Management] n’utilise pas cette valeur. Lorsque vous réalisez un retour ou une note de crédit, la quantité du produit est automatiquement renvoyée à la quantité source affectée. Voir [Configuration des options de produit](product-options.md). |
 
 ## Restauration de la configuration et héritage
