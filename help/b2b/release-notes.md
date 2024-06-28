@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] notes de mise à jour'
 description: Pour plus d’informations sur les modifications apportées à la variable [!DNL Adobe Commerce B2B] versions.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: e837dded8569cf917be8c36277362f5df77fb708
+source-git-commit: 17eec4e7755ce4e83fb0533940bdce6c96ddc717
 workflow-type: tm+mt
-source-wordcount: '6851'
+source-wordcount: '6867'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,13 @@ La version bêta B2B 1.5.0 comprend de nouvelles fonctionnalités, des améliora
 ![Correction d’un problème](../assets/fix.svg) <!--ACP2E-1825-->Les commandes ne peuvent plus être passées par un utilisateur associé à la société après le blocage de celle-ci. Auparavant, un utilisateur associé à la société pouvait passer des commandes lorsque la société était bloquée.
 
 ![Correction d’un problème](../assets/fix.svg)<!--ACP2E-1933-->Les administrateurs d’entreprise peuvent désormais ajouter des utilisateurs d’entreprise à partir du storefront. Auparavant, Commerce consignait une erreur lorsqu’un utilisateur administrateur tentait d’ajouter un nouvel utilisateur : `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+
+## B2B v1.4.2-p1
+
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
+
+![Nouveau](../assets/new.svg) Ajout de la compatibilité avec les versions de correctif de sécurité Adobe Commerce 2.4.7-p1 et 2.4.6-p6.
+
 
 ## B2B v1.4.2
 
@@ -462,7 +469,7 @@ Cette version comprend des améliorations concernant les approbations de command
 
 ![Correction d’un problème](../assets/fix.svg) Adobe Commerce envoie désormais une notification par e-mail confirmant qu’un client est autorisé à dépasser la limite de crédit désignée lorsqu’un commerçant active la variable **[!UICONTROL Allow To Exceed Credit Limit]** . Auparavant, l’e-mail de notification envoyé par Adobe Commerce indiquait que le client n’était pas autorisé à dépasser la limite. <!--- MC-34584-->
 
-![Correction d’un problème](../assets/fix.svg) Le conteneur de HTMLS qui entoure le prix du produit sur les listes de demande est désormais rendu correctement pour les enfants de produits regroupés. <!--- MC-36331-->
+![Correction d’un problème](../assets/fix.svg) Le conteneur d’HTMLS qui entoure le prix du produit sur les listes de demandes d’acquisition est désormais rendu correctement pour les enfants de produits regroupés. <!--- MC-36331-->
 
 ![Correction d’un problème](../assets/fix.svg) Les commerçants peuvent désormais désigner la langue dans laquelle le courrier électronique des utilisateurs de l’entreprise est envoyé lors de la création d’une entreprise dans des déploiements multilingues. Auparavant, le menu déroulant du permet aux marchands de sélectionner la vue de magasin appropriée et la langue ne s’affichait pas.  <!--- MC-35777-->
 
