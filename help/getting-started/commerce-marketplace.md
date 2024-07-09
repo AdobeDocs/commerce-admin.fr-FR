@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: En savoir plus sur les [!DNL Commerce Marketplace], qui offre aux commerçants une sélection organisée de solutions, et fournit aux développeurs qualifiés les outils, la plateforme et l’emplacement idéal pour créer une entreprise florissante.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 02e7c71fc47e6850371bfbdc1be50f65ec8015e9
+source-git-commit: 20e1439810891b0d19cda62cc2646701ec5a778c
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ Les ressources suivantes constituent un point de départ pour que les nouveaux u
 - [Configuration du SDK de l’interface utilisateur d’administration](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [Conversion d’une extension en application](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
-### Ressources du créateur d’applications
+### Ressources App Builder
 
-- [Présentation de Commerce App Builder](https://developer.adobe.com/commerce/extensibility/app-development/)
+- [Présentation d’Commerce App Builder](https://developer.adobe.com/commerce/extensibility/app-development/)
 - [Configuration du maillage d’API pour Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
-- [Déploiement d’applications App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/)
+- [Déploiement des applications App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/)
 - [CI/CD pour les applications App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
 - Prise en main d’App Builder/Developer Console
    - [Prise en main d’App Builder](https://developer.adobe.com/app-builder/docs/getting_started/)
@@ -85,7 +85,7 @@ Le processus d’installation de [!DNL Marketplace] les achats sont différents 
 
 ## Assistance
 
-Si vous avez besoin d’aide pour l’installation ou l’utilisation d’une extension, consultez d’abord la documentation qui accompagne l’extension. Si vous ne trouvez pas la réponse à votre question, utilisez les coordonnées figurant dans la liste des extensions pour contacter directement le développeur. Si vos achats sur Marketplace ne répondent pas à vos besoins, vous pouvez [demander un remboursement](#refund-requests) dans les 25 jours suivant la date d’achat. Adobe passe en revue toutes les demandes de remboursement et, si elles sont approuvées, émet le remboursement approprié. Pour les problèmes de prise en charge liés au Commerce Marketplace, voir [[!DNL Marketplace] Centre d’aide][5].
+Si vous avez besoin d’aide pour l’installation ou l’utilisation d’une extension, consultez d’abord la documentation qui accompagne l’extension. Si vous ne trouvez pas la réponse à votre question, utilisez les coordonnées figurant dans la liste des extensions pour contacter directement le développeur. Si vos achats sur Marketplace ne répondent pas à vos besoins, vous pouvez [demander un remboursement](#refund-requests) dans les 25 jours suivant la date d’achat. Adobe passe en revue toutes les demandes de remboursement et, si elles sont approuvées, émet le remboursement approprié. Pour tout problème lié au Commerce Marketplace, contactez [Assistance](mailto:commercemarketplacesupport@adobe.com).
 
 ### Problèmes d’extraction
 
@@ -139,5 +139,4 @@ Ces autorisations spéciales accordent le même niveau d’accès à Adobe Comme
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[5]: https://marketplacesupport.magento.com/hc/en-us
 [6]: https://business.adobe.com/products/magento/magento-commerce.html
