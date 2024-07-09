@@ -3,9 +3,9 @@ title: Créer une règle de prix de panier
 description: Découvrez comment créer une règle de prix de panier basée sur les attributs de panier ou de produit.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 968ccc5eed5b79be8c51b350d6394e358805ad93
+source-git-commit: 6ac8d41de0f97767296216f8239311bc6fbf168e
 workflow-type: tm+mt
-source-wordcount: '3302'
+source-wordcount: '3320'
 ht-degree: 0%
 
 ---
@@ -393,7 +393,7 @@ Indique les conditions qui doivent être remplies avant que la règle de prix du
 | [!UICONTROL Apply] | Détermine le type de calcul appliqué à l’achat. Options : <br/>**[!UICONTROL Percent of product price discount]**- Remise l&#39;article en soustrayant un pourcentage du prix d&#39;origine. Par exemple : saisissez `10` in _[!UICONTROL Discount Amount]_pour un prix mis à jour qui est 10 % inférieur au prix d’origine.<br/>**[!UICONTROL Fixed amount discount]**- Remise un article en soustrayant un montant fixe du prix d’origine de chaque article admissible dans le panier. Par exemple : saisissez `10` in_[!UICONTROL Discount Amount]_ pour un prix mis à jour qui est 10 $ de moins que le prix original. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Remit l’intégralité du panier en soustrayant un montant fixe du sous-total du panier. Par exemple : saisissez `10` in _[!UICONTROL Discount Amount]_pour soustraire 10 $ du sous-total du panier. Par défaut, la remise ne s&#39;applique qu&#39;au sous-total du panier. Pour appliquer la remise au sous-total et à l’expédition séparément, voir_Appliquer au montant d’expédition _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Définit une quantité que le client doit acheter pour recevoir gratuitement une quantité. (La variable_[!UICONTROL Discount Amount]_ est Y.) |
 | [!UICONTROL Discount Amount] | (Obligatoire) Montant de la remise proposée. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | Définit le nombre maximal de produits auxquels la remise peut être appliquée au cours du même achat. |
-| [!UICONTROL Discount Qty Step (Buy X)] | Définit le nombre de produits représentés par `X` dans `Buy X Get Y Free` promotion. |
+| [!UICONTROL Discount Qty Step (Buy X)] | Définit le nombre de produits représentés par `X` dans `Buy X Get Y Free` promotion. Définit également le nombre de produits à ajouter au panier ensemble par lots à appliquer. `Fixed amount discount` et `Percent of product price discount` promotions. |
 | [!UICONTROL Apply to Shipping Amount] | Détermine si la remise est appliquée séparément au sous-total et aux montants d’expédition. Sinon, elle s’applique uniquement au sous-total. Options : `Yes` / `No` |
 | [!UICONTROL Discard Subsequent Rules] | Détermine si des règles de priorité inférieure (1 est la priorité la plus élevée) peuvent être appliquées au produit lorsque cette règle de prix de panier est une correspondance. Activez cette option pour empêcher que plusieurs remises ne soient appliquées au même produit. Options : `Yes` / `No` |
 | [!UICONTROL Free Shipping] | Détermine si la livraison gratuite est incluse dans la promotion et, le cas échéant, pour quels éléments. Options : <br/>**[!UICONTROL No]**- La livraison gratuite n’est pas disponible pour la règle actuelle.<br/>**[!UICONTROL For matching items only]** - La livraison gratuite est disponible uniquement pour les articles spécifiques du panier qui correspondent à la règle. <br/>**[!UICONTROL For shipment with matching items]**- La livraison gratuite est disponible pour tous les articles du panier. La variable [Livraison gratuite](../stores-purchase/shipping-free.md) la méthode de diffusion doit être activée pour pouvoir utiliser cette option. |
