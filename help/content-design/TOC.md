@@ -3,10 +3,10 @@ user-guide-title: Guide de conception et de contenu
 user-guide-description: Informations complètes sur les fonctionnalités de contenu et de conception pour les administrateurs Adobe Commerce et les Magento Open Sources et les spécialistes du marketing en ligne.
 breadcrumb-title: Contenu et conception
 feature: CMS, Page Content
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 4%
+source-wordcount: '232'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 4%
       - [Gestion des ressources de thème](theme-assets.md)
       - [Planifier les mises à jour de la conception](schedule.md)
    - [Configuration de la section de page](page-setup.md)
-   - Disposition des pages {#layout}
+   - Mise en page {#layout}
       - [Vue d’ensemble](page-layout.md)
       - [Exemples de mise en page de storefront](page-layout-examples.md)
       - [Mises à jour de la mise en page](layout-updates.md)
@@ -57,12 +57,19 @@ ht-degree: 4%
    - [Insérer une image](editor-insert-image.md)
    - [Insérer un widget](editor-widget.md)
    - [Insertion d’une variable](editor-insert-variable.md)
-- Média {#media}
-   - Stockage multimédia {#storage}
+- Media {#media}
+   - Stockage du média {#storage}
       - [Vue d’ensemble](media-storage.md)
       - [Utilisation d’une base de données multimédia](media-storage-database.md)
       - [Utiliser un réseau de diffusion de contenu](media-storage-content-delivery-network.md)
       - [URL Dynamic Media](catalog-urls-dynamic-media.md)
+   - Experience Manager Assets {#aem-assets}
+      - [Intégration d’Assets](aem-assets.md)
+      - Intégration {#onboarding}
+         - [Configuration d’AEM Assets](aem-assets-configure-aem.md)
+         - [Configuration d’Adobe Commerce](aem-assets-configure-commerce.md)
+         - [Configuration des services de synchronisation](aem-assets-setup-synchronization.md)
+      - [Utilisation d’AEM Assets](aem-assets-manage.md)
    - Adobe Stock {#adobe-stock}
       - [Intégration d’Adobe Stock](adobe-stock.md)
       - [Utilisation d’images Adobe Stock](adobe-stock-manage.md)
@@ -79,5 +86,5 @@ ht-degree: 4%
    - [Tableau de bord intermédiaire](content-staging-dashboard.md)
    - [Ajout d’un élément de campagne](content-staging-add-item.md)
    - [Prévisualiser une opération](content-staging-preview.md)
-- [Revenir aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Retour aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

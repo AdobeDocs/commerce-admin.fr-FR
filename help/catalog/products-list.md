@@ -1,22 +1,22 @@
 ---
 title: Liste de produits
-description: En savoir plus sur le _[!UICONTROL Products]_ dans l’Admin, où vous pouvez créer des produits et modifier des produits existants.
+description: Découvrez la page _[!UICONTROL Products]_ dans l’Admin, où vous pouvez créer des produits et modifier des produits existants.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # Liste de produits
 
-Tous les produits du catalogue sont accessibles à partir du _[!UICONTROL Products]_dans l’Admin, où vous pouvez créer des produits et modifier des produits existants. Pour une installation multi-site, chaque site web peut proposer une sélection différente de produits à vendre depuis le même catalogue.
+Tous les produits du catalogue sont accessibles à partir de la page _[!UICONTROL Products]_de l’administrateur, où vous pouvez créer des produits et modifier des produits existants. Pour une installation multi-site, chaque site web peut proposer une sélection différente de produits à vendre depuis le même catalogue.
 
-La variable _[!UICONTROL Products]_liste comprend tous les produits du catalogue, indique les sites web sur lesquels ils sont disponibles et, s’ils sont actuellement activés pour la vente. Dans les installations Adobe Commerce B2B avec [catalogues partagés](../b2b/catalog-shared.md) activée, la grille comprend une colonne qui indique quels produits ont un autre prix de remise dans un catalogue partagé.
+La liste _[!UICONTROL Products]_comprend tous les produits du catalogue, indique les sites web où ils sont disponibles et s’ils sont actuellement activés pour la vente. Dans les installations Adobe Commerce B2B avec [catalogues partagés](../b2b/catalog-shared.md) activés, la grille inclut une colonne qui indique quels produits ont une remise alternative dans un catalogue partagé.
 
-Vous pouvez parcourir la liste page par page ou rechercher des produits spécifiques. Utilisez la méthode standard [contrôles](../getting-started/admin-grid-controls.md) pour trier et filtrer la liste, puis appliquer des [actions](../getting-started/admin-actions-control.md) aux produits sélectionnés.
+Vous pouvez parcourir la liste page par page ou rechercher des produits spécifiques. Utilisez les [contrôles](../getting-started/admin-grid-controls.md) standard pour trier et filtrer la liste, et appliquez les [actions](../getting-started/admin-actions-control.md) aux produits sélectionnés.
 
 ![Grille de produits](./assets/products-grid.png){width="700" zoomable="yes"}
 
@@ -34,23 +34,23 @@ Ce paramètre de configuration pour la limitation d’affichage du produit est d
 
 >[!NOTE]
 >
->Si vous ne souhaitez pas que votre grille de produits soit limitée, utilisez les filtres plus précisément pour produire une collection comportant moins d’éléments que le nombre spécifié dans la variable _[!UICONTROL Records Limit]_champ .
+>Si vous ne souhaitez pas que votre grille de produits soit limitée, utilisez les filtres plus précisément pour produire une collection comportant moins d’éléments que le nombre spécifié dans le champ _[!UICONTROL Records Limit]_.
 
-**_Pour configurer la limitation d’affichage des produits :_**
+**_Pour configurer la limitation de l’affichage des produits :_**
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Développer **[!UICONTROL Advanced]** et choisissez **[!UICONTROL Admin]**.
+1. Développez **[!UICONTROL Advanced]** et choisissez **[!UICONTROL Admin]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Admin Grids]** et procédez comme suit :
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) de **[!UICONTROL Admin Grids]** et procédez comme suit :
 
-   - Définir **[!UICONTROL Limit Number of Products in Grid]** to `Yes`.
+   - Définissez **[!UICONTROL Limit Number of Products in Grid]** sur `Yes`.
 
-   - (Facultatif) Saisissez une valeur dans la variable **[!UICONTROL Records Limit]** pour limiter à une valeur spécifique le nombre de produits de la grille. La valeur minimale par défaut est : `20000`.
+   - (Facultatif) Saisissez une valeur dans le champ **[!UICONTROL Records Limit]** pour limiter le nombre de produits dans la grille à une valeur spécifique. La valeur minimale par défaut est `20000`.
 
    ![Paramètres de configuration des grilles d’administration](../configuration-reference/advanced/assets/admin-admin-grids.png){width="600" zoomable="yes"}
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 ## Contrôles de page
 
@@ -83,6 +83,7 @@ Ce paramètre de configuration pour la limitation d’affichage du produit est d
 | [!UICONTROL Visibility] | Indique l’emplacement de visibilité du produit dans le catalogue. Options : `Not Visible Individually` / `Catalog` / `Search` / `Catalog, Search` |
 | [!UICONTROL Status] | Indique le statut du produit. Options : `Enabled` et `Disabled` |
 | [!UICONTROL Websites] | Indique les sites web sur lesquels le produit est disponible. |
+| [!UICONTROL Remote Media URL] | Si les ressources multimédias de produit sont gérées à l’aide de l’intégration [AEM Assets pour Commerce](../content-design/aem-assets.md), ce champ affiche l’URL pour afficher la ressource Commerce dans le magasin de gestion des actifs numériques d’AEM, le référentiel centralisé dans lequel les ressources sont conservées. Ce champ s’affiche uniquement si l’intégration AEM Assets est activée. |
 | [!UICONTROL Action] | Ouvre le produit en mode Édition . |
 | [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec [Adobe Commerce B2B](./b2b/../introduction.md) uniquement) Indique les catalogues partagés qui contiennent une tarification personnalisée pour le produit. |
 
