@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Contrôles de grille d’administration
 
-Les pages d’administration qui gèrent les données affichent une collection d’enregistrements dans une grille. Les contrôles en haut de chaque colonne peuvent être utilisés pour trier les données. L’ordre de tri actuel est indiqué par une flèche ascendante ou descendante dans l’en-tête de colonne. Vous pouvez spécifier les colonnes qui apparaissent dans la grille et les faire glisser à différentes positions. Vous pouvez également enregistrer différentes dispositions de colonnes en tant que vues pouvant être utilisées ultérieurement. La variable **[!UICONTROL Action]** La colonne répertorie les opérations qui peuvent être appliquées à un enregistrement individuel. En outre, la date de la vue actuelle de la plupart des grilles peut être exportée vers un [CSV](../systems/data-csv.md) ou fichier XML.
+Les pages d’administration qui gèrent les données affichent une collection d’enregistrements dans une grille. Les contrôles en haut de chaque colonne peuvent être utilisés pour trier les données. L’ordre de tri actuel est indiqué par une flèche ascendante ou descendante dans l’en-tête de colonne. Vous pouvez spécifier les colonnes qui apparaissent dans la grille et les faire glisser à différentes positions. Vous pouvez également enregistrer différentes dispositions de colonnes en tant que vues pouvant être utilisées ultérieurement. La colonne **[!UICONTROL Action]** répertorie les opérations qui peuvent être appliquées à un enregistrement individuel. En outre, la date de la vue actuelle de la plupart des grilles peut être exportée dans un fichier [CSV](../systems/data-csv.md) ou XML.
 
 ![Page Commandes - affichage en grille](./assets/admin-workspace-grid.png){width="700" zoomable="yes"}
 
@@ -23,13 +23,13 @@ Les pages d’administration qui gèrent les données affichent une collection d
 
 1. Utilisez les commandes de pagination pour afficher des pages supplémentaires dans la collection.
 
-   ![Affichage de la grille - Commandes de page](./assets/pagination-controls.png){width="300"}
+   ![Affichage de la grille - Contrôles de page](./assets/pagination-controls.png){width="300"}
 
 ## Paginer la liste
 
-1. Définissez la variable **[!UICONTROL Pagination]** contrôle du nombre d&#39;enregistrements à afficher par page.
+1. Définissez le contrôle **[!UICONTROL Pagination]** sur le nombre d’enregistrements que vous souhaitez afficher par page.
 
-1. Cliquez sur **[!UICONTROL Next]** et **[!UICONTROL Previous]** pour parcourir la liste ou saisir une **[!UICONTROL Page Number]**.
+1. Cliquez sur **[!UICONTROL Next]** et **[!UICONTROL Previous]** pour parcourir la liste ou entrez un **[!UICONTROL Page Number]** spécifique.
 
 ## Filtrer la liste
 
@@ -47,9 +47,9 @@ Les pages d’administration qui gèrent les données affichent une collection d
 
    >[!NOTE]
    >
-   >Les données de produit ne peuvent pas être exportées à partir de la grille. Pour en savoir plus, voir [Exporter](../systems/data-export.md).
+   >Les données de produit ne peuvent pas être exportées à partir de la grille. Pour en savoir plus, voir [Export](../systems/data-export.md).
 
-1. Sur le _Exporter_ (![Sélecteur de menu](../assets/icon-export.png)) dans le coin supérieur droit, sélectionnez l’un des formats de fichiers suivants :
+1. Dans le menu _Exporter_ (![Sélecteur de menu](../assets/icon-export.png)) situé dans le coin supérieur droit, sélectionnez l’un des formats de fichier suivants :
 
    - `CSV`
    - `Excel XML`
@@ -62,13 +62,13 @@ Les pages d’administration qui gèrent les données affichent une collection d
 
 ## Disposition de la grille
 
-La sélection des colonnes et leur ordre dans la grille peuvent être modifiés selon vos préférences et enregistrés sous la forme d’une _view_. Vous pouvez contrôler les attributs affichés dans la grille sous la configuration d’attribut individuelle. De nombreux attributs affichés dans la grille de produit peuvent affecter le temps et les performances de chargement de l’administrateur.
+La sélection des colonnes et leur ordre dans la grille peuvent être modifiés selon vos préférences et enregistrés sous la forme d’une _vue_. Vous pouvez contrôler les attributs affichés dans la grille sous la configuration d’attribut individuelle. De nombreux attributs affichés dans la grille de produit peuvent affecter le temps et les performances de chargement de l’administrateur.
 
 ![Colonnes de grille d’ordre](./assets/admin-grid-columns.png){width="700" zoomable="yes"}
 
 ### Modifier la sélection des colonnes
 
-1. Dans le coin supérieur droit, cliquez sur le bouton _Colonnes_ (![Contrôle de colonnes](../assets/icon-columns.png)).
+1. Dans le coin supérieur droit, cliquez sur la commande _Colonnes_ (![Contrôle de colonnes](../assets/icon-columns.png)).
 
 1. Modifier les sélections de colonnes :
 
@@ -86,22 +86,22 @@ Veillez à faire défiler vers le bas pour afficher toutes les colonnes disponib
 
 ### Enregistrer une vue de grille
 
-1. Cliquez sur le bouton _Affichage_ (![Contrôle d’affichage](../assets/icon-view-eye.png)).
+1. Cliquez sur la commande _View_ (![View control](../assets/icon-view-eye.png)).
 
 1. Cliquez sur **[!UICONTROL Save Current View]**.
 
 1. Saisissez un **[!UICONTROL name]** pour la vue.
 
-1. Pour enregistrer toutes les modifications, cliquez sur le bouton _Flèche_ (![Enregistrer toutes les modifications](../assets/icon-arrow-save.png)).
+1. Pour enregistrer toutes les modifications, cliquez sur la _flèche_ (![Enregistrer toutes les modifications](../assets/icon-arrow-save.png)).
 
    Le nom de la vue s’affiche désormais sous la forme de la vue actuelle.
 
 ### Modification de la vue de grille
 
-1. Cliquez sur le bouton _Affichage_ (![Icône Afficher](../assets/icon-view-eye.png)).
+1. Cliquez sur la commande _Afficher_ (![Icône Afficher](../assets/icon-view-eye.png)).
 
 1. Effectuez l’une des opérations suivantes :
 
    - Pour utiliser une autre vue, cliquez sur le nom de la vue.
-   - Pour modifier le nom d’une vue, cliquez sur le bouton _Modifier_ (![Icône Modifier](../assets/icon-edit-pencil.png)) et mettez à jour le nom.
-   - Pour supprimer une vue, cliquez sur le bouton _Modifier_ (![Icône Modifier](../assets/icon-edit-pencil.png)), puis cliquez sur le bouton _Supprimer_ (![Icône Supprimer](../assets/icon-delete-trashcan-solid.png)).
+   - Pour modifier le nom d&#39;une vue, cliquez sur l&#39;icône _Modifier_ (![Icône Modifier](../assets/icon-edit-pencil.png)) et mettez à jour le nom.
+   - Pour supprimer une vue, cliquez sur l’icône _Modifier_ (![Icône Modifier](../assets/icon-edit-pencil.png)), puis sur l’icône _Supprimer_ (![Icône Supprimer](../assets/icon-delete-trashcan-solid.png)).

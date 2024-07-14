@@ -5,7 +5,7 @@ exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,18 @@ Si vous disposez d’un compte commercial avec un opérateur pris en charge, vou
 
 >[!NOTE]
 >
->Voir [Commerce Marketplace](../getting-started/commerce-marketplace.md) pour des services d’expédition supplémentaires pour votre installation de Commerce.
+>Voir [Commerce Marketplace](../getting-started/commerce-marketplace.md) pour obtenir des services de livraison supplémentaires pour votre installation Commerce.
 
 Avant de pouvoir offrir à vos clients une sélection de compagnies de transport, vous devez effectuer les étapes suivantes :
 
-- Configurez la variable [paramètres de livraison](shipping-settings.md) pour établir le point d’origine de votre boutique.
+- Configurez les [ paramètres d’expédition](shipping-settings.md) pour établir le point d’origine de votre boutique.
 
 - Configurez les paramètres de chaque service de l&#39;opérateur que vous souhaitez proposer.
 
-   - [**UPS**](ups.md)  - United Parcel Service (UPS) offre des services de navigation intérieure et internationale par voie terrestre et aérienne à plus de 220 pays.
+   - [**UPS**](ups.md) - United Parcel Service (UPS) offre des services de navigation intérieure et internationale par voie terrestre et aérienne à plus de 220 pays.
    - [**USPS**](usps.md) - Le United States Postal Service (USPS) est le service postal indépendant du gouvernement des États-Unis. USPS offre des services de navigation intérieure et internationale par voie terrestre et aérienne.
    - [**FedEx**](fedex.md) - FedEx offre des services de navigation intérieure et internationale par voie terrestre et aérienne à plus de 220 pays.
-   - [**DHL**](dhl.md) - DHL offre des services internationaux intégrés et des solutions personnalisées et axées sur le client pour la gestion et le transport des lettres, des marchandises et de l&#39;information.
+   - [**DHL**](dhl.md) - DHL offre des services internationaux intégrés et des solutions personnalisées et axées sur le client pour la gestion et le transport de lettres, de marchandises et d’informations.
 
 ## Poids dimensionnel
 

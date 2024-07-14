@@ -1,54 +1,54 @@
 ---
 title: Disposition - Onglets
-description: En savoir plus sur le type de contenu Onglets, utilisé pour ajouter un ensemble d’onglets dans le [!DNL Page Builder] scène.
+description: Découvrez le type de contenu Onglets, utilisé pour ajouter un ensemble d’onglets à l’étape  [!DNL Page Builder] .
 exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 feature: Page Builder, Page Content
 source-git-commit: 67bf39e8c09d6169ec5ec5e2f396e973476af56a
 workflow-type: tm+mt
-source-wordcount: '2037'
+source-wordcount: '2039'
 ht-degree: 0%
 
 ---
 
 # Disposition - Onglets
 
-Utilisez la variable _Onglets_ type de contenu pour ajouter un ensemble d’onglets dans la variable [[!DNL Page Builder] étape](workspace.md#stage). Lorsque vous faites glisser l’espace réservé Onglets du panneau vers la scène, un seul onglet par défaut s’affiche initialement. Vous pouvez ajouter d’autres onglets pour créer un ensemble complet. La largeur de l’ensemble de tabulations est déterminée par la largeur de son conteneur parent et par les paramètres de remplissage.
+Utilisez le type de contenu _Onglets_ pour ajouter un ensemble d’onglets dans l’ [[!DNL Page Builder] étape](workspace.md#stage). Lorsque vous faites glisser l’espace réservé Onglets du panneau vers la scène, un seul onglet par défaut s’affiche initialement. Vous pouvez ajouter d’autres onglets pour créer un ensemble complet. La largeur de l’ensemble de tabulations est déterminée par la largeur de son conteneur parent et par les paramètres de remplissage.
 
-![Jeu d’onglets](./assets/pb-layout-tab-example.png){width="500" zoomable="yes"}
+![Ensemble d’onglets](./assets/pb-layout-tab-example.png){width="500" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## Toolbox
 
-Lorsque vous travaillez avec l’événement _Onglets_ type de contenu, vous ajoutez et modifiez des onglets individuels et le conteneur d’onglets contenant un ou plusieurs onglets. Chaque onglet comporte sa propre boîte à outils que vous utilisez pour concevoir des onglets sur le [!DNL Page Builder] scène.
+Lorsque vous travaillez avec le type de contenu _Onglets_, vous ajoutez et modifiez des onglets individuels et le conteneur d’onglets qui contient un ou plusieurs onglets. Chaque onglet possède sa propre boîte à outils que vous utilisez pour concevoir des onglets sur l’étape [!DNL Page Builder].
 
 ### Boîte à outils à onglets individuelle
 
-![Boîte à outils à onglets](./assets/pb-layout-tab1-toolbox.png){width="500" zoomable="yes"}
+![Boîte à outils d’onglets](./assets/pb-layout-tab1-toolbox.png){width="500" zoomable="yes"}
 
 | Outil | Icône | Description |
 |--- |--- |--- |
 | Déplacer | ![Icône Déplacer](./assets/pb-icon-move.png){width="25"} | Ce contrôle en regard du libellé de l’onglet permet de déplacer l’onglet individuel vers un autre emplacement du jeu d’onglets. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Modifier les onglets, dans laquelle vous pouvez modifier les propriétés de chaque onglet. |
 | Dupliquer | ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="25"} | Effectue une copie de l’onglet. |
-| Supprimer | ![Icône Supprimer](./assets/pb-icon-remove.png){width="25"} | Supprime l’onglet du jeu d’onglets. |
+| Supprimer | ![Supprimer l’icône](./assets/pb-icon-remove.png){width="25"} | Supprime l’onglet du jeu d’onglets. |
 
 {style="table-layout:auto"}
 
 ### Boîte à outils du conteneur d’onglets
 
-![Boîte à outils du conteneur de tabulation](./assets/pb-tabs-toolbox-settings.png){width="500" zoomable="yes"}
+![Boîte à outils de conteneur d’onglets](./assets/pb-tabs-toolbox-settings.png){width="500" zoomable="yes"}
 
 | Outil | Icône | Description |
 |--- |--- |--- |
 | Déplacer | ![Icône Déplacer](./assets/pb-icon-move.png){width="25"} | Déplace l’ensemble d’onglets vers une autre position sur la grille dans le conteneur parent. |
-| Ajouter | ![Icône Ajouter](./assets/pb-icon-add.png){width="25"} | Ajoute un onglet au jeu de tabulations. |
+| Ajouter | ![Ajouter une icône](./assets/pb-icon-add.png){width="25"} | Ajoute un onglet au jeu de tabulations. |
 | (label) | [!UICONTROL Tabs] | Identifie le conteneur actuel en tant que jeu d’onglets. Passez la souris sur la bordure supérieure du conteneur pour afficher la boîte à outils. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Modifier l’onglet dans laquelle vous pouvez modifier les propriétés du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le conteneur d’onglets. |
 | Afficher | ![Icône Afficher](./assets/pb-icon-show.png){width="25"} | Affiche le conteneur d’onglets masqué. |
 | Dupliquer | ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="25"} | Effectue une copie de l’onglet actif. |
-| Supprimer | ![Icône Supprimer](./assets/pb-icon-remove.png){width="25"} | Supprime le jeu d’onglets actif de la scène. |
+| Supprimer | ![Supprimer l’icône](./assets/pb-icon-remove.png){width="25"} | Supprime le jeu d’onglets actif de la scène. |
 
 {style="table-layout:auto"}
 
@@ -56,40 +56,40 @@ Lorsque vous travaillez avec l’événement _Onglets_ type de contenu, vous ajo
 
 ## Ajouter un onglet individuel
 
-1. Dans le [!DNL Page Builder] panneau sous _[!UICONTROL Layout]_, faites glisser le **[!UICONTROL Tabs]**espace réservé directement à l’étape ou à une ligne ou une colonne sur l’étape.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser l’espace réservé&#x200B;**[!UICONTROL Tabs]**directement sur l’étape ou sur une ligne ou une colonne sur l’étape.
 
    ![Faire glisser des onglets sur une ligne](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
-1. Cliquez sur le bouton **[!UICONTROL Tab 1]** libellé pour afficher la boîte à outils à onglets individuelle et sélectionner la propriété _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
+1. Cliquez sur le libellé **[!UICONTROL Tab 1]** pour afficher la boîte à outils à onglets individuelle et sélectionnez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
 1. Saisissez le **[!UICONTROL Tab Name]** que vous souhaitez utiliser comme libellé.
 
    ![Saisie du nom de l’onglet](./assets/pb-layout-tab1-toolbox-settings-general-tab-name.png){width="600" zoomable="yes"}
 
-1. Si nécessaire, saisissez la variable **[!UICONTROL Minimum Height]** pour l’onglet .
+1. Si nécessaire, saisissez le **[!UICONTROL Minimum Height]** de l’onglet .
 
-   Cette valeur peut être un nombre avec n’importe quelle unité CSS valide (telle que `100px`, `50%`, `50em`, `100vh`) ou un calcul (tel que `100vh - 237px`).
+   Cette valeur peut être un nombre avec n’importe quelle unité CSS valide (telle que `100px`, `50%`, `50em`, `100vh`) ou un calcul (telle que `100vh - 237px`).
 
-1. Choisissez une **[!UICONTROL Vertical Alignment]** pour aligner les conteneurs de contenu ajoutés à l’onglet (Haut, Centre ou Bas).
+1. Choisissez un paramètre **[!UICONTROL Vertical Alignment]** pour aligner les conteneurs de contenu ajoutés à l’onglet (Haut, Centre ou Bas).
 
 1. Si nécessaire, définissez les autres options à l’aide des sections suivantes :
 
    - [[!UICONTROL Background]][background]
    - [[!UICONTROL Advanced]][advanced]
 
-1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
 ## Ajouter un ensemble d’onglets
 
 Les étapes suivantes commencent par un onglet individuel et créent un ensemble de trois onglets dans un conteneur d’onglets. Si vous ne disposez pas d’un onglet individuel, suivez les instructions précédentes pour ajouter un seul onglet à l’étape.
 
-1. Passez la souris sur le conteneur d’onglets pour afficher la boîte à outils et sélectionnez l’option _Ajouter_ ( ![Icône Ajouter](./assets/pb-icon-add.png){width="20"} ).
+1. Passez la souris sur le conteneur d’onglets pour afficher la boîte à outils et sélectionnez l’icône _Ajouter_ ( ![Ajouter une icône](./assets/pb-icon-add.png){width="20"} ).
 
-1. Cliquez sur dans le **[!UICONTROL Tab 2]** pour afficher le curseur et saisir votre propre libellé pour l’onglet.
+1. Cliquez dans le libellé **[!UICONTROL Tab 2]** pour afficher le curseur et saisissez votre propre libellé pour l’onglet.
 
-1. Cliquez à nouveau sur le deuxième onglet de la scène et choisissez le _Dupliquer_ ( ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="20"} ).
+1. Cliquez à nouveau sur le deuxième onglet de l’étape et sélectionnez l’icône _Dupliquer_ ( ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="20"} ).
 
-1. Cliquez dans le champ YourName . **[!UICONTROL Copy]** libellé pour afficher le curseur et saisir votre propre libellé pour le troisième onglet.
+1. Cliquez sur le libellé YourName **[!UICONTROL Copy]** pour afficher le curseur et saisir votre propre libellé pour le troisième onglet.
 
 ![Correspondance d’un ensemble d’onglets avec la boîte à outils](./assets/pb-layout-tabs3-toolbox-main.png){width="600" zoomable="yes"}
 
@@ -97,7 +97,7 @@ Les étapes suivantes commencent par un onglet individuel et créent un ensemble
 
 1. Cliquez sur l’onglet que vous souhaitez déplacer.
 
-1. Sélectionnez et faites glisser le _Déplacer_ ( ![Icône Déplacer](./assets/pb-icon-move.png){width="20"} ), qui s’affiche juste avant le texte du libellé de l’onglet, à un nouvel emplacement dans le jeu d’onglets.
+1. Sélectionnez l’icône _Déplacer_ ( ![Icône Déplacer](./assets/pb-icon-move.png){width="20"} ), qui s’affiche juste avant le texte de l’étiquette de l’onglet, et faites-la glisser vers un nouvel emplacement dans l’ensemble d’onglets.
 
 ## Ajouter du contenu à un onglet
 
@@ -105,23 +105,23 @@ Vous pouvez n’importe quel type de contenu à un onglet comme vous pouvez à u
 
 1. Cliquez sur l’onglet dans lequel vous souhaitez ajouter le contenu.
 
-1. Dans le [!DNL Page Builder] panneau, développer **[!UICONTROL Elements]** et faites glisser un **Texte** d’espace réservé à l’onglet.
+1. Dans le panneau [!DNL Page Builder], développez **[!UICONTROL Elements]** et faites glisser un espace réservé **Texte** vers l’onglet.
 
 1. Entrez ou collez du texte dans l’éditeur et utilisez la barre d’outils de l’éditeur pour le mettre en forme selon vos besoins.
 
-   Voir [Eléments - Texte](text.md) pour plus d’informations sur l’utilisation du type de contenu texte.
+   Voir [Eléments - Texte](text.md) pour plus d’informations sur l’utilisation du type de contenu textuel.
 
-   ![Editer le contenu textuel ajouté à l&#39;onglet](./assets/pb-layout-tab-text.png){width="500" zoomable="yes"}
+   ![Modification du contenu de texte ajouté sur l’onglet](./assets/pb-layout-tab-text.png){width="500" zoomable="yes"}
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]**.
 
 ## Modification des paramètres des onglets individuels
 
-1. Passez la souris sur un onglet pour afficher la boîte à outils et sélectionnez l’option _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
+1. Passez la souris sur un onglet pour afficher la boîte à outils et sélectionnez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
 1. Si nécessaire, modifiez l’un des paramètres de base de l’onglet :
 
-   - **[!UICONTROL Tab Name]** - Saisissez le texte révisé du libellé de l’onglet. Vous pouvez également modifier le libellé directement sur la scène.
+   - **[!UICONTROL Tab Name]** - Entrez le texte révisé du libellé de l’onglet. Vous pouvez également modifier le libellé directement sur la scène.
 
    - **[!UICONTROL Minimum Height]** - Saisissez comme pixels si vous souhaitez remplacer la hauteur automatique. Par exemple, vous pouvez définir la hauteur minimale pour qu’elle corresponde à la hauteur d’une image d’arrière-plan afin de vous assurer que l’image complète est visible.
 
@@ -129,11 +129,11 @@ Vous pouvez n’importe quel type de contenu à un onglet comme vous pouvez à u
 
 1. Modifiez les autres paramètres selon les besoins à l’aide des sections suivantes pour plus de détails.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
 ### Contexte
 
-- **[!UICONTROL Background Color]** - Spécifiez la couleur d’arrière-plan en choisissant un échantillon, en cliquant sur le sélecteur de couleurs ou en saisissant un nom de couleur valide ou une valeur hexadécimale équivalente. Ce paramètre détermine la couleur d’arrière-plan de la ligne. Vous pouvez également régler l’opacité de la couleur.
+- **[!UICONTROL Background Color]** - Définissez la couleur d’arrière-plan en choisissant un échantillon, en cliquant sur le sélecteur de couleurs ou en saisissant un nom de couleur valide ou une valeur hexadécimale équivalente. Ce paramètre détermine la couleur d’arrière-plan de la ligne. Vous pouvez également régler l’opacité de la couleur.
 
   ![Aucune couleur (par défaut)](./assets/pb-settings-background-color-no-color.png){width="200"}
 
@@ -141,21 +141,21 @@ Vous pouvez n’importe quel type de contenu à un onglet comme vous pouvez à u
 
    - Un nom de couleur prédéfini, tel que `White`
 
-   - La valeur de couleur hexadécimale de la couleur, telle que `#ffffff`
+   - La valeur de couleur hexadécimale de la couleur, par exemple `#ffffff`
 
-   - Valeur rgba de la couleur, avec pourcentage d’opacité, comme `rgba(255, 255, 255, 0.75)`
+   - La valeur rgba de la couleur, avec le pourcentage d’opacité, comme `rgba(255, 255, 255, 0.75)`
 
-  Si vous souhaitez choisir une couleur, cliquez sur l’échantillon à gauche du _Aucune couleur_ de la boîte.
+  Si vous souhaitez choisir une couleur, cliquez sur l’échantillon à gauche de la zone _Aucune couleur_.
 
   ![Choix d’un échantillon de couleur](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
   Si vous cliquez sur la zone de couleur pour ouvrir à nouveau le sélecteur de couleurs, la zone située sous le curseur affiche les valeurs actuelles rouge, vert, bleu et alpha (rgba). Le dernier chiffre indique le pourcentage d’opacité actuel sous forme décimale. Vous pouvez utiliser le curseur pour ajuster l’opacité ou saisir la valeur décimale souhaitée.
 
-  ![Définition de l’opacité](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
+  ![Paramètre d’opacité](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
 
   >[!NOTE]
   >
-  >[!DNL Page Builder] prend également en charge un calque de transparence, ou _canal alpha_, dans les images d’arrière-plan qui peuvent être utilisées pour créer des arrière-plans avec des degrés d’opacité variables.
+  >[!DNL Page Builder] prend également en charge une couche de transparence, ou _couche alpha_, dans les images d’arrière-plan qui peuvent être utilisées pour créer des arrière-plans avec différents degrés d’opacité.
 
 - **[!UICONTROL Background Image]** - Si nécessaire, utilisez les outils fournis pour choisir une image d’arrière-plan à appliquer à l’onglet :
 
@@ -179,7 +179,7 @@ Vous pouvez n’importe quel type de contenu à un onglet comme vous pouvez à u
 
   {style="table-layout:auto"}
 
-- **[!UICONTROL Background Position]** - Sélectionnez la façon dont l’image d’arrière-plan est ancrée par rapport à l’onglet : `Top Left` / `Top Center` / `Top Right` / `Center Left` / `Center` / `Center Right` / `Bottom Left` / `Bottom Center` / `Bottom Right`
+- **[!UICONTROL Background Position]** - Choisissez la manière dont l’image d’arrière-plan est ancrée par rapport à l’onglet : `Top Left` / `Top Center` / `Top Right` / `Center Left` / `Center` / `Center Right` / `Bottom Left` / `Bottom Center` / `Bottom Right`
 
 - **[!UICONTROL Background Attachment]** - Sélectionnez le type de pièce jointe pour déterminer le déplacement de l’image d’arrière-plan par rapport à la page de défilement :
 
@@ -190,11 +190,11 @@ Vous pouvez n’importe quel type de contenu à un onglet comme vous pouvez à u
 
   {style="table-layout:auto"}
 
-- **[!UICONTROL Background Repeat]** - Définissez sur `Yes` pour répéter l’image d’arrière-plan afin de remplir l’espace disponible dans l’onglet.
+- **[!UICONTROL Background Repeat]** - Défini sur `Yes` pour répéter l’image d’arrière-plan afin de remplir l’espace disponible dans l’onglet.
 
 ### Avancé
 
-- Pour contrôler l’alignement horizontal des conteneurs de contenu qui sont ajoutés à l’onglet, choisissez une **[!UICONTROL Alignment]** .
+- Pour contrôler l’alignement horizontal des conteneurs de contenu qui sont ajoutés à l’onglet, choisissez un **[!UICONTROL Alignment]** .
 
   | Option | Description |
   | --- | --- |
@@ -205,7 +205,7 @@ Vous pouvez n’importe quel type de contenu à un onglet comme vous pouvez à u
 
   {style="table-layout:auto"}
 
-- Définissez la variable **[!UICONTROL Border]** style appliqué aux quatre côtés du conteneur d’onglets :
+- Définissez le style **[!UICONTROL Border]** appliqué aux quatre côtés du conteneur d’onglets :
 
   | Option | Description |
   | --- | --- |
@@ -222,9 +222,9 @@ Vous pouvez n’importe quel type de contenu à un onglet comme vous pouvez à u
 
   {style="table-layout:auto"}
 
-- Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage des bordures :
+- Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage de la bordure :
 
-  ![Couleur de la bordure](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
+  ![Couleur de bordure](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
   | Option | Description |
   | ------ |------------ |
@@ -236,13 +236,13 @@ Vous pouvez n’importe quel type de contenu à un onglet comme vous pouvez à u
 
   La ligne de l’exemple suivant a un rayon de bordure de 15.
 
-  ![Ligne avec un rayon de bordure de 15](./assets/pb-settings-border-radius-15.png){width="500"}
+  ![Rangée avec un rayon de bordure de 15](./assets/pb-settings-border-radius-15.png){width="500"}
 
-- (Facultatif) Indiquez les noms des **[!UICONTROL CSS classes]** de la feuille de style actuelle à appliquer au conteneur de colonnes.
+- (Facultatif) Indiquez les noms de **[!UICONTROL CSS classes]** dans la feuille de style actuelle à appliquer au conteneur de colonnes.
 
   Séparez plusieurs noms de classe par un espace.
 
-- Saisissez des valeurs, en pixels, pour la variable **[!UICONTROL Margins and Padding]** pour spécifier les marges extérieures et la marge intérieure de la colonne.
+- Saisissez des valeurs, en pixels, pour que **[!UICONTROL Margins and Padding]** spécifient les marges extérieures et la marge intérieure de la colonne.
 
   Saisissez chaque valeur correspondante dans le diagramme de conteneur d’onglets.
 
@@ -255,21 +255,21 @@ Vous pouvez n’importe quel type de contenu à un onglet comme vous pouvez à u
 
 ## Modification des paramètres du jeu de onglets
 
-1. Passez la souris sur la bordure supérieure du conteneur du jeu de onglets pour afficher la boîte à outils et sélectionner l’option _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
+1. Passez la souris sur la bordure supérieure du conteneur d’ensemble d’onglets pour afficher la boîte à outils et sélectionnez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Si nécessaire, modifiez la variable **[!UICONTROL Default Active Tab]**.
+1. Si nécessaire, modifiez le **[!UICONTROL Default Active Tab]**.
 
    Sélectionnez l’onglet de l’ensemble que vous souhaitez activer au chargement de la page.
 
-1. Saisissez le **[!UICONTROL Minimum Height]**, en pixels, si vous souhaitez remplacer la hauteur automatique du jeu de tabulations.
+1. Saisissez le **[!UICONTROL Minimum Height]**, en pixels, si vous souhaitez remplacer la hauteur automatique pour le jeu de tabulations.
 
-1. Pour positionner les onglets de navigation le long de la partie supérieure du jeu d’onglets, choisissez la variable **[!UICONTROL Tab Navigation Alignment]** (`Left`, `Center`, ou `Right`).
+1. Pour positionner les onglets de navigation le long de la partie supérieure de l’ensemble d’onglets, choisissez **[!UICONTROL Tab Navigation Alignment]** (`Left`, `Center` ou `Right`).
 
    ![Onglets de navigation alignés à droite](./assets/pb-layout-tabs-navigation-alignment-right.png){width="500" zoomable="yes"}
 
 1. Définissez les Options avancées du jeu d’onglets :
 
-   - Pour contrôler le positionnement de l’ensemble d’onglets dans le conteneur parent, sélectionnez une **[!UICONTROL Alignment]**:
+   - Pour contrôler le positionnement de l’ensemble d’onglets dans le conteneur parent, choisissez un **[!UICONTROL Alignment]** :
 
      | Option | Description |
      | ------ | ---------- |
@@ -280,7 +280,7 @@ Vous pouvez n’importe quel type de contenu à un onglet comme vous pouvez à u
 
      {style="table-layout:auto"}
 
-   - Définissez la variable **[!UICONTROL Border]** style appliqué aux quatre côtés du conteneur d’onglets :
+   - Définissez le style **[!UICONTROL Border]** appliqué aux quatre côtés du conteneur d’onglets :
 
      | Option | Description |
      | ------ | ---------- |
@@ -297,7 +297,7 @@ Vous pouvez n’importe quel type de contenu à un onglet comme vous pouvez à u
 
      {style="table-layout:auto"}
 
-   - Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage des bordures :
+   - Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage de la bordure :
 
      | Option | Description |
      | ------ |------------ |
@@ -307,11 +307,11 @@ Vous pouvez n’importe quel type de contenu à un onglet comme vous pouvez à u
 
      {style="table-layout:auto"}
 
-   - (Facultatif) Indiquez les noms des **[!UICONTROL CSS classes]** de la feuille de style actuelle à appliquer au conteneur d’onglets.
+   - (Facultatif) Indiquez les noms de **[!UICONTROL CSS classes]** de la feuille de style actuelle à appliquer au conteneur d’onglets.
 
      Séparez plusieurs noms de classe par un espace.
 
-   - Saisissez des valeurs, en pixels, pour la variable **[!UICONTROL Margins and Padding]** pour déterminer les marges extérieures et la marge intérieure du conteneur d’onglets.
+   - Saisissez des valeurs, en pixels, pour le **[!UICONTROL Margins and Padding]** afin de déterminer les marges extérieures et la marge intérieure du conteneur d’onglets.
 
      Saisissez les valeurs correspondantes dans le diagramme de conteneur des onglets.
 
@@ -322,7 +322,7 @@ Vous pouvez n’importe quel type de contenu à un onglet comme vous pouvez à u
 
      {style="table-layout:auto"}
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
 [background]: #background
 [advanced]: #advanced

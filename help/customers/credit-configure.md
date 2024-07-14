@@ -16,23 +16,23 @@ ht-degree: 0%
 
 La configuration du crédit de magasin contrôle les remboursements automatiques, l’affichage du crédit disponible dans les comptes clients et le modèle d’email utilisé pour les notifications envoyées aux clients.
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Customers]** et choisissez **[!UICONTROL Customer Configuration]**.
 
-1. Développez l’objet **[!UICONTROL Store Credit Options]** .
+1. Développez la section **[!UICONTROL Store Credit Options]** .
 
    ![Options de crédit de magasin](../configuration-reference/customers/assets/customer-configuration-store-credit-options.png){width="600" zoomable="yes"}
 
-1. Définir **[!UICONTROL Enable Store Credit Functionality]** to `Yes`.
+1. Définissez **[!UICONTROL Enable Store Credit Functionality]** sur `Yes`.
 
 1. Définissez les éléments suivants selon vos préférences :
 
    * **[!UICONTROL Show Store Credit History to Customers]**
    * **[!UICONTROL Refund Store Credit Automatically]**
 
-1. Définir **[!UICONTROL Store Credit Update Email Sender]** à l’identité du magasin qui apparaît comme l’expéditeur des notifications électroniques envoyées aux clients.
+1. Définissez **[!UICONTROL Store Credit Update Email Sender]** sur l’identité du magasin qui apparaît comme l’expéditeur des notifications électroniques envoyées aux clients.
 
-1. Définir **[!UICONTROL Store Credit Update Email Template]** au modèle utilisé pour les notifications électroniques envoyées aux clients.
+1. Définissez **[!UICONTROL Store Credit Update Email Template]** sur le modèle utilisé pour les notifications électroniques envoyées aux clients.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.

@@ -20,7 +20,7 @@ La principale raison pour laquelle vous conservez une liste de demandes d’acha
 
 1. Dans le tableau de bord de leur compte, le client choisit **[!UICONTROL My Requisition Lists]**.
 
-1. Localise la liste des demandes qu’ils souhaitent ouvrir et clique sur **[!UICONTROL View]** et effectuez l’une des opérations suivantes :
+1. Localise la liste des demandes qu’il souhaite ouvrir, clique sur **[!UICONTROL View]** et effectuez l’une des opérations suivantes :
 
 ### Ajout de produits au panier
 
@@ -29,11 +29,11 @@ La principale raison pour laquelle vous conservez une liste de demandes d’acha
    - Coche la case de chaque élément.
    - Clics **[!UICONTROL Select All]**.
 
-1. entre dans la variable **[!UICONTROL Qty]** à ajouter au panier.
+1. Entrez le **[!UICONTROL Qty]** à ajouter au panier.
 
 1. Pour modifier les options d’un produit, procédez comme suit :
 
-   - Dans l’élément de ligne, cliquez sur le bouton _Modifier_ (![Icône Crayon](../assets/icon-edit-pencil.png)).
+   - Dans l’élément de ligne, cliquez sur l’icône _Modifier_ (![Icône de crayon](../assets/icon-edit-pencil.png)).
    - Modifie toutes les options nécessaires.
    - Clics **[!UICONTROL Update Requisition List]**.
 
@@ -45,7 +45,7 @@ La principale raison pour laquelle vous conservez une liste de demandes d’acha
 
 1. Le client sélectionne la case à cocher de chaque élément à déplacer.
 
-1. Clics **[!UICONTROL Copy Selected]** et effectue l’une des opérations suivantes :
+1. Clique sur **[!UICONTROL Copy Selected]** et effectue l’une des opérations suivantes :
 
    - Choisit une liste de commandes existante.
    - Clics **[!UICONTROL Create New Requisition List]**.
@@ -54,15 +54,15 @@ La principale raison pour laquelle vous conservez une liste de demandes d’acha
 
 1. Le client ouvre la liste des demandes à exporter.
 
-1. Cliquez sur le bouton **[!UICONTROL Export]** lien.
+1. Cliquez sur le lien **[!UICONTROL Export]** .
 
-Adobe Commerce génère et télécharge une liste CSV avec `sku` et `qty` valeurs.
+Adobe Commerce génère et télécharge une liste CSV avec les valeurs `sku` et `qty` .
 
 ### Déplacer des éléments vers une autre liste
 
 1. Le client sélectionne la case à cocher de chaque élément à déplacer.
 
-1. Clics **[!UICONTROL Move Selected]** et effectuez l’une des opérations suivantes :
+1. Cliquez sur **[!UICONTROL Move Selected]** et effectuez l’une des opérations suivantes :
 
    - Choisit une liste de commandes existante.
    - Clics **[!UICONTROL Create New Requisition List]**.
@@ -71,7 +71,7 @@ Adobe Commerce génère et télécharge une liste CSV avec `sku` et `qty` valeur
 
 1. Dans le coin supérieur droit de la liste, le client clique sur **[!UICONTROL Print]**.
 
-1. Vérifie le périphérique de sortie et clique **[!UICONTROL Print]**.
+1. Vérifie le périphérique de sortie et clique sur **[!UICONTROL Print]**.
 
    ![Liste des demandes d’impression](./assets/requisition-list-print.png){width="500" zoomable="yes"}
 
@@ -79,17 +79,17 @@ Adobe Commerce génère et télécharge une liste CSV avec `sku` et `qty` valeur
 
 Pour modifier les options de produit dans la liste, le client effectue les opérations suivantes :
 
-1. Cliquez sur le bouton _Crayon_ (![Icône Crayon](../assets/icon-edit-pencil.png)) pour ouvrir la page du produit.
+1. Cliquez sur l’icône _Crayon_ (![Icône Crayon](../assets/icon-edit-pencil.png)) pour ouvrir la page du produit.
 
 1. Modifie toutes les options nécessaires.
 
 1. Clics **[!UICONTROL Update Requisition List]**.
 
-   ![Mettre à jour la liste des demandes](./assets/requisition-list-update.png){width="700" zoomable="yes"}
+   ![Mettre à jour la liste des demandes d’acquisition](./assets/requisition-list-update.png){width="700" zoomable="yes"}
 
 Un produit de la liste des demandes peut être modifié dans les cas suivants :
 
-- Le produit a **[!UICONTROL all options set]** (lorsqu’il s’agit d’une [produit configuré](../catalog/product-create-configurable.md) dans la liste des demandes).
+- Le produit a **[!UICONTROL all options set]** (s’il s’agit d’un [produit configuré](../catalog/product-create-configurable.md) dans la liste de demandes).
 
   Le produit est **[!UICONTROL added to this Requisition List]**.
 
@@ -109,11 +109,11 @@ Un produit de la liste des demandes peut être modifié dans les cas suivants :
 
 1. Après le titre de la liste, le client clique sur **[!UICONTROL Rename]**.
 
-1. Entre dans une **[!UICONTROL Requisition List Name]**.
+1. Entrez un **[!UICONTROL Requisition List Name]** différent.
 
 1. Clics **[!UICONTROL Save]**.
 
-   ![Renommer la liste des demandes](./assets/requisition-list-rename.png){width="300"}
+   ![Renommer la liste des demandes d’acquisition](./assets/requisition-list-rename.png){width="300"}
 
 
 ### Supprimer une liste de demandes
@@ -135,7 +135,7 @@ Un produit de la liste des demandes peut être modifié dans les cas suivants :
 | [!UICONTROL Rename] | Permet de renommer la liste des demandes et de mettre à jour la description. |
 | [!UICONTROL Export] | Exporte la liste des demandes d’acquisition dans un fichier CSV. |
 | [!UICONTROL Print] | Imprime la liste des demandes en cours. |
-| [!UICONTROL Select] | Gère les sélections d’éléments qui doivent faire l’objet d’une action. <br/>**[!UICONTROL Select All]**- Sélectionne tous les éléments de la liste des demandes d’acquisition.<br/>**[!UICONTROL Remove Selected]** - Supprime tous les éléments sélectionnés de la liste des demandes. <br/>**[!UICONTROL Copy Selected]**- Copie tous les éléments sélectionnés dans une autre liste de demandes d’acquisition. |
+| [!UICONTROL Select] | Gère les sélections d’éléments qui doivent faire l’objet d’une action. <br/>**[!UICONTROL Select All]**- Sélectionne tous les éléments de la liste des demandes.<br/>**[!UICONTROL Remove Selected]** - Supprime tous les éléments sélectionnés de la liste des demandes. <br/>**[!UICONTROL Copy Selected]**- Copie tous les éléments sélectionnés dans une autre liste de demandes d’acquisition. |
 | [!UICONTROL Add to Cart] | Ajoute les éléments sélectionnés au panier. |
 | [!UICONTROL Update List] | Recalcule le sous-total pour refléter un changement de quantité. |
 | [!UICONTROL Delete Requisition List] | Supprime la liste des demandes du compte de l’utilisateur de la société. |

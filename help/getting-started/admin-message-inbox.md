@@ -1,10 +1,10 @@
 ---
 title: Boîte de réception des messages de l’administrateur
-description: Découvrez la boîte de réception du message Admin, qui fournit des messages importants et utiles depuis Adobe et depuis le [!DNL Commerce] système.
+description: Découvrez la boîte de réception des messages Admin, qui fournit des messages importants et utiles depuis Adobe et depuis le système  [!DNL Commerce] .
 exl-id: c53bb0e4-9f18-4d40-8cc4-8c3b485f8d68
 source-git-commit: 7b6d70e2f3052af69075790cec1f396e2505bf8b
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ Votre boutique reçoit régulièrement des messages d’Adobe. Les messages sont
 
 ![Admin - messages entrants](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
-La variable _[!UICONTROL Notifications]_répertorie tous les messages classés par date. La variable_[!UICONTROL Action]_ Vous pouvez utiliser des commandes pour marquer des messages individuels comme lus, afficher des informations plus détaillées ou supprimer le message de la boîte de réception.
+La page _[!UICONTROL Notifications]_répertorie tous les messages classés par date. Les commandes_[!UICONTROL Action]_ peuvent être utilisées pour marquer des messages individuels comme lus, afficher des informations plus détaillées ou supprimer le message de la boîte de réception.
 
 La configuration détermine la fréquence de mise à jour de la boîte de réception et la diffusion des messages. Si votre administrateur de magasin dispose d’une URL sécurisée, les notifications doivent être diffusées via HTTPS.
 
 ## Afficher les nouveaux messages entrants
 
-1. Cliquez sur le bouton **[!UICONTROL Notification]** dans l’en-tête et lisez le résumé.
+1. Cliquez sur l’icône **[!UICONTROL Notification]** dans l’en-tête et lisez le résumé.
 
 1. Effectuez l’une des opérations suivantes :
 
@@ -40,13 +40,13 @@ Pour un message d’importance critique, effectuez l’une des opérations suiva
 
 1. Pour ouvrir la page Notifications, effectuez l’une des opérations suivantes :
 
-   - Cliquez sur le bouton **[!UICONTROL Notification]** dans l’en-tête. Si un ou plusieurs nouveaux messages s’affichent, cliquez sur **[!UICONTROL See All]**.
+   - Cliquez sur l’icône **[!UICONTROL Notification]** dans l’en-tête . Si un ou plusieurs nouveaux messages s’affichent, cliquez sur **[!UICONTROL See All]**.
 
-   - Sur le _Administration_ barre latérale, accédez à **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**.
+   - Sur la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**.
 
-1. Dans le **[!UICONTROL Action]** , effectuez l’une des opérations suivantes :
+1. Dans la colonne **[!UICONTROL Action]**, effectuez l’une des opérations suivantes :
 
-   - Pour plus d’informations, cliquez sur **[!UICONTROL Read Details]** pour ouvrir la page liée dans une nouvelle fenêtre.
+   - Pour plus d&#39;informations, cliquez sur **[!UICONTROL Read Details]** pour ouvrir la page liée dans une nouvelle fenêtre.
 
    - Pour conserver le message dans votre boîte de réception, cliquez sur **[!UICONTROL Mark As Read]**.
 
@@ -57,9 +57,9 @@ Pour un message d’importance critique, effectuez l’une des opérations suiva
 1. Pour appliquer une action à plusieurs messages, effectuez l’une des opérations suivantes :
 
    - Cochez la case dans la première colonne pour chaque message à gérer.
-   - Pour sélectionner plusieurs messages, définissez la variable **[!UICONTROL Mass Actions]** le contrôle, le cas échéant.
+   - Pour sélectionner plusieurs messages, définissez la commande **[!UICONTROL Mass Actions]** selon les besoins.
 
-1. Définissez la variable **[!UICONTROL Actions]** à l’une des options suivantes :
+1. Définissez la commande **[!UICONTROL Actions]** sur l’une des options suivantes :
 
    - `Mark as Read`
    - `Remove`
@@ -68,20 +68,20 @@ Pour un message d’importance critique, effectuez l’une des opérations suiva
 
 ## Configurer les notifications
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de navigation de gauche, développez **[!UICONTROL Advanced]** et choisissez **[!UICONTROL System]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png)la valeur **[!UICONTROL Notifications]** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png)sur **[!UICONTROL Notifications]** .
 
    ![Configuration des notifications](./assets/system-notifications.png){width="600"}
 
-1. Si votre administrateur de magasin s’exécute sur une [URL sécurisée](../stores-purchase/store-urls.md), définit **[!UICONTROL Use HTTPS to Get Feed]** to `Yes`.
+1. Si votre administrateur de magasin s’exécute sur une [URL sécurisée](../stores-purchase/store-urls.md), définissez **[!UICONTROL Use HTTPS to Get Feed]** sur `Yes`.
 
-1. Définir **[!UICONTROL Update Frequency]** pour déterminer la fréquence de mise à jour de votre boîte de réception.
+1. Définissez **[!UICONTROL Update Frequency]** pour déterminer la fréquence de mise à jour de votre boîte de réception.
 
    L’intervalle peut être compris entre une et 24 heures.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
-Pour plus d’informations sur la variable [!UICONTROL System] options de configuration, voir [_Guide de référence de configuration_](../configuration-reference/advanced/system.md).
+Pour plus d’informations sur les options de configuration [!UICONTROL System], consultez le [_Guide de référence de configuration_](../configuration-reference/advanced/system.md).

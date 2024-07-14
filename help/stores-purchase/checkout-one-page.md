@@ -18,22 +18,22 @@ Le paiement en une page est activé par défaut. Si vous mettez en oeuvre une in
 
 **_Pour désactiver le passage en caisse d’une page :_**
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Checkout]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Checkout Options]** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Checkout Options]** .
 
-   ![Configuration - Options de passage en caisse](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
+   ![Configuration - options de passage en caisse](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
    Pour une description détaillée de chacun de ces paramètres de configuration, voir [Options de passage en caisse](../configuration-reference/sales/checkout.md#checkout-options) dans le _Guide de référence de configuration_.
 
-1. Si le paramètre est destiné à une vue de magasin spécifique, [choix de la vue magasin](../configuration-reference/scope-change.md#set-the-scope) où la configuration s’applique.
+1. Si le paramètre est défini pour une vue de magasin spécifique, [choisissez la vue de magasin](../configuration-reference/scope-change.md#set-the-scope) où la configuration s’applique.
 
-   Lorsque vous y êtes invité, cliquez sur **[!UICONTROL OK]** pour continuer.
+   Lorsque vous y êtes invité, cliquez sur **[!UICONTROL OK]** pour continuer.
 
-1. Définir **[!UICONTROL Enable Onepage Checkout]** to `No`.
+1. Définissez **[!UICONTROL Enable Onepage Checkout]** sur `No`.
 
-   Si nécessaire, effacez le **[!UICONTROL Use system value]** pour modifier ce paramètre.
+   Si nécessaire, décochez la case **[!UICONTROL Use system value]** pour modifier ce paramètre.
 
 1. Cliquez sur **[!UICONTROL Save Config]**.

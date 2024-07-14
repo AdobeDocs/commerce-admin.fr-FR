@@ -14,7 +14,7 @@ ht-degree: 2%
 
 {{config}}
 
-Pour plus d’informations sur la modification de ces paramètres, voir [Paramètres d&#39;expédition](../../stores-purchase/shipping-settings.md) dans le _Guide d’expérience des magasins et des achats_.
+Pour plus d’informations sur la modification de ces paramètres, voir [Paramètres d’expédition](../../stores-purchase/shipping-settings.md) dans le _Guide des magasins et de l’expérience d’achat_.
 
 ## [!UICONTROL Origin]
 
@@ -33,7 +33,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Paramè
 
 ## [!UICONTROL Shipping Policy Parameters]
 
-![Paramètres de la politique de livraison](./assets/shipping-settings-shipping-policy-parameters.png)<!-- zoom -->
+![Paramètres de politique de livraison](./assets/shipping-settings-shipping-policy-parameters.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

@@ -16,108 +16,108 @@ De nombreux commerçants utilisent les médias sociaux et d&#39;autres outils nu
 
 ## Réseaux sociaux
 
-Votre magasin peut être connecté aux réseaux sociaux en installant un [Extension Marketplace](../getting-started/commerce-marketplace.md). En outre, vous pouvez facilement ajouter des modules externes de réseaux sociaux, tels que le _Comme_ à des blocs CMS qui peuvent être incorporés dans des pages dans votre magasin.
+Votre boutique peut être connectée aux réseaux sociaux en installant une [extension Marketplace](../getting-started/commerce-marketplace.md). En outre, vous pouvez facilement ajouter des modules externes sociaux tels que le bouton _J’aime_ aux blocs CMS qui peuvent être incorporés dans des pages de votre magasin.
 
-Les sites de réseau social disposent de nombreux modules externes qui peuvent facilement être ajoutés à votre boutique. En outre, de nombreuses extensions sur le Commerce Marketplace peuvent être utilisées pour intégrer votre boutique aux médias sociaux. L’exemple suivant montre comment ajouter un Facebook _Comme_ à votre boutique.
+Les sites de réseau social disposent de nombreux modules externes qui peuvent facilement être ajoutés à votre boutique. En outre, de nombreuses extensions sur le Commerce Marketplace peuvent être utilisées pour intégrer votre boutique aux médias sociaux. L’exemple suivant montre comment ajouter un bouton Facebook _J’aime_ à votre magasin.
 
 >[!NOTE]
 >
->Adobe Commerce a supprimé le paramètre natif _Social Magento_ Intégration de facebook et ne prend plus en charge l’extension . Accédez au [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=Facebook){:target=&quot;_blank&quot;} pour localiser d’autres extensions pour l’intégration Facebook.
+>Adobe Commerce a supprimé l’intégration Facebook native _Magento Social_ et ne prend plus en charge l’extension. Accédez au [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=Facebook){:target=&quot;_blank&quot;} pour localiser d’autres extensions pour l’intégration Facebook.
 
 ### Étape 1. Obtention du code de bouton
 
-1. Sur le site web des développeurs de métadonnées, accédez au [configuration des boutons](https://developers.facebook.com/docs/plugins/like-button) page.
+1. Sur le site web des développeurs de métadonnées, accédez à la page [configuration de bouton](https://developers.facebook.com/docs/plugins/like-button) .
 
-1. Pour **[!UICONTROL URL to Like]**, saisissez l’URL de la page de votre magasin vers laquelle vous souhaitez que les utilisateurs _Comme_.
+1. Pour **[!UICONTROL URL to Like]**, saisissez l’URL de la page dans votre magasin que vous souhaitez que les visiteurs _J’aime_.
 
    Par exemple, vous pouvez saisir l’URL de la page d’accueil de votre magasin.
 
-1. Choisissez la **[!UICONTROL Layout]** pour le bouton .
+1. Sélectionnez le bouton **[!UICONTROL Layout]**.
 
-1. Saisissez le **[!UICONTROL Width]** en pixels disponibles sur votre site pour le bouton et tout message texte associé.
+1. Saisissez le **[!UICONTROL Width]** en pixels disponible sur votre site pour le bouton et tout message texte associé.
 
-1. Définir **[!UICONTROL Action Type]** à l’une des options suivantes :
+1. Définissez **[!UICONTROL Action Type]** sur l’une des options suivantes :
 
    - `Like`
    - `Recommend`
 
-1. Cliquez sur **[!UICONTROL Get Code]** pour copier le code généré dans le presse-papiers.
+1. Cliquez sur **[!UICONTROL Get Code]** pour copier le code généré dans le Presse-papiers.
 
 ### Étape 2. Création d’un bloc de contenu
 
 1. Revenez à l’administrateur de votre boutique.
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add New Block]**.
 
-1. Saisissez un texte descriptif. **[!UICONTROL Block Title]** pour référence interne.
+1. Saisissez un **[!UICONTROL Block Title]** descriptif pour la référence interne.
 
    Par exemple : `Facebook Like Button`.
 
-1. Attribution d’une **[!UICONTROL Identifier]** au bloc, en utilisant tous les caractères minuscules et les traits de soulignement au lieu des espaces.
+1. Attribuez un **[!UICONTROL Identifier]** unique au bloc, en utilisant tous les caractères minuscules et les traits de soulignement au lieu des espaces.
 
    Par exemple : `facebook_like_button`.
 
-1. Si votre instance Commerce présente plusieurs vues de magasin, sélectionnez chacune d’elles. **[!UICONTROL Store View]** où le bloc doit être disponible.
+1. Si votre instance Commerce a plusieurs vues de magasin, choisissez chacune **[!UICONTROL Store View]** où le bloc doit être disponible.
 
 1. Ajoutez le fragment de code au contenu du bloc, en fonction de votre outil de contenu :
 
-   - Lorsque vous utilisez [!DNL Page Builder], ajoutez une [Code HTML](../page-builder/html-code.md) bloquez sur la scène et collez le fragment de code que vous avez copié à partir du site Facebook. Sinon, collez le fragment de code dans le **[!UICONTROL Content]** de la boîte.
+   - Lors de l’utilisation de [!DNL Page Builder], ajoutez un bloc [HTML Code](../page-builder/html-code.md) à l’étape et collez le fragment de code que vous avez copié à partir du site Facebook. Sinon, collez le fragment de code dans la zone **[!UICONTROL Content]**.
 
-   - Avec l’éditeur, collez le fragment de code que vous avez copié à partir du site Facebook dans le **[!UICONTROL Content]** de la boîte.
+   - Avec l’éditeur, collez le fragment de code que vous avez copié à partir du site Facebook dans la zone **[!UICONTROL Content]**.
 
-1. Si le bloc n’est pas prêt à être mis en ligne, définissez **[!UICONTROL Enable Block]** to `No`.
+1. Si le bloc n&#39;est pas prêt à être mis en ligne, définissez **[!UICONTROL Enable Block]** sur `No`.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Block]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Block]**.
 
 ### Étape 3. Placez le bloc
 
 1. Ajoutez le bloc, en fonction de votre outil de contenu :
 
-   - Lorsque vous utilisez [!UICONTROL Page Builder], suivez les instructions de la section [ajouter le bloc](../page-builder/block.md) sur la scène.
+   - Lorsque vous utilisez [!UICONTROL Page Builder], suivez les instructions pour [ajouter le bloc](../page-builder/block.md) à la scène.
 
-   - Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+   - Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add Widget]** et procédez comme suit :
 
-   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B uniquement) Dans la variable _Paramètres_ , définissez **[!UICONTROL Type]** to `CMS Static Block` et cliquez sur **[!UICONTROL Continue]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B uniquement) Dans la section _Paramètres_, définissez **[!UICONTROL Type]** sur `CMS Static Block` et cliquez sur **[!UICONTROL Continue]**.
 
-   - Vérifiez que **[!UICONTROL Design Theme]** est définie sur le thème actif.
+   - Vérifiez que **[!UICONTROL Design Theme]** est défini sur le thème actuel.
 
    - Cliquez sur **[!UICONTROL Continue]**.
 
-1. Dans le **[!UICONTROL Storefront Properties]** , procédez comme suit :
+1. Dans la section **[!UICONTROL Storefront Properties]** , procédez comme suit :
 
    - Pour **[!UICONTROL Widget Title]**, saisissez un titre de référence interne.
 
-   - Définir **[!UICONTROL Assign to Store Views]** to `All Store Views`ou à la vue dans laquelle vous souhaitez que l’application soit disponible. Pour sélectionner plusieurs vues, maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée, puis cliquez sur chaque option.
+   - Définissez **[!UICONTROL Assign to Store Views]** sur `All Store Views` ou sur la vue dans laquelle vous souhaitez que l’application soit disponible. Pour sélectionner plusieurs vues, maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée, puis cliquez sur chaque option.
 
    - Saisissez un nombre dans le champ **[!UICONTROL Sort Order]** pour déterminer l’ordre du bloc s’il doit apparaître au même emplacement sur la page que les autres éléments de contenu. La position supérieure est zéro.
 
-1. Dans le _[!UICONTROL Layout Updates]_, cliquez sur **[!UICONTROL Add Layout Update]**et défini **[!UICONTROL Display On]**à la catégorie, au produit ou à la page dans laquelle vous souhaitez que le bloc apparaisse.
+1. Dans la section _[!UICONTROL Layout Updates]_, cliquez sur **[!UICONTROL Add Layout Update]**et définissez **[!UICONTROL Display On]**sur la catégorie, le produit ou la page où vous souhaitez que le bloc apparaisse.
 
-   Par exemple, si vous choisissez `All Pages` et positionnez le bloc dans l&#39;en-tête ou dans le pied de page, le bloc apparaît au même endroit sur chaque page du magasin.
+   Par exemple, si vous choisissez `All Pages` et positionnez le bloc dans l’en-tête ou le pied de page, le bloc apparaît au même endroit sur chaque page du magasin.
 
    Pour placer le bloc sur une page spécifique, procédez comme suit :
 
-   - Définir **[!UICONTROL Display On]** to `Specified Page` et sélectionnez la variable **[!UICONTROL Page]** où vous souhaitez que le bloc apparaisse.
+   - Définissez **[!UICONTROL Display On]** sur `Specified Page` et sélectionnez l’ **[!UICONTROL Page]** où vous souhaitez que le bloc apparaisse.
 
-   - Choisissez la **[!UICONTROL Block Reference]** pour identifier l’emplacement sur la page où le bloc doit être placé.
+   - Sélectionnez le **[!UICONTROL Block Reference]** pour identifier l&#39;emplacement sur la page où le bloc doit être placé.
 
-   - Acceptez le paramètre par défaut pour **[!UICONTROL Template]**, qui est défini sur `CMS Static Block Default Template`.
+   - Acceptez le paramètre par défaut pour **[!UICONTROL Template]**, défini sur `CMS Static Block Default Template`.
 
    - Cliquez sur **[!UICONTROL Save and Continue Edit]**.
 
 1. Dans le panneau de gauche, choisissez **[!UICONTROL Widget Options]**.
 
-1. Cliquez sur **[!UICONTROL Select Block…]** et choisissez le bloc à placer.
+1. Cliquez sur **[!UICONTROL Select Block…]** et sélectionnez le bloc que vous souhaitez placer.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
 
 1. Lorsque vous y êtes invité, suivez les instructions situées en haut de l’espace de travail pour mettre à jour l’index et le cache de page.
 
-   Le widget apparaît désormais dans la _[!UICONTROL Widgets]_liste.
+   Le widget apparaît désormais dans la liste _[!UICONTROL Widgets]_.
 
 ### Étape 4. Vérification de l’emplacement dans le magasin
 
@@ -158,34 +158,34 @@ Le logiciel requis pour lire un flux RSS est appelé un lecteur de flux, et perm
 
 ### Configuration de flux RSS pour votre boutique
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le coin supérieur droit, définissez **[!UICONTROL Store View]** aux vues dans lesquelles les flux doivent être disponibles.
+1. Dans le coin supérieur droit, définissez **[!UICONTROL Store View]** sur les vues où les flux doivent être disponibles.
 
    Si vous êtes invité à confirmer, cliquez sur **[!UICONTROL OK]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et choisissez **[!UICONTROL RSS Feeds]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Rss Config]** section et définition **[!UICONTROL Enable RSS]** to `Enable`.
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) de la section **[!UICONTROL Rss Config]** et définissez **[!UICONTROL Enable RSS]** sur `Enable`.
 
-   ![Configuration de catalogue - flux RSS](../configuration-reference/catalog/assets/rss-feeds-rss-config.png){width="600" zoomable="yes"}
+   ![ Configuration du catalogue - flux RSS](../configuration-reference/catalog/assets/rss-feeds-rss-config.png){width="600" zoomable="yes"}
 
-   Si nécessaire, effacez le **[!UICONTROL Use Default]** pour modifier la valeur par défaut.
+   Si nécessaire, décochez la case **[!UICONTROL Use Default]** pour modifier la valeur par défaut.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Wish List]** section et définition **[!UICONTROL Enable RSS]** to `Enable`.
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) de la section **[!UICONTROL Wish List]** et définissez **[!UICONTROL Enable RSS]** sur `Enable`.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Catalog]** et définir d’autres flux sur `Enable` selon les besoins.
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) de la section **[!UICONTROL Catalog]** et définissez d’autres flux sur `Enable` si nécessaire.
 
    - **[!UICONTROL New Products]**
    - **[!UICONTROL Special Products]**
    - **[!UICONTROL Coupons/Discounts]**
    - **[!UICONTROL Top Level Category]**
 
-   ![Catalogue : paramètres des flux RSS](../configuration-reference/catalog/assets/rss-feeds-catalog.png){width="600" zoomable="yes"}
+   ![Catalog - Paramètres des flux RSS](../configuration-reference/catalog/assets/rss-feeds-catalog.png){width="600" zoomable="yes"}
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Order]** section et définition **[!UICONTROL Customer Order Status Notification]** to `Enable`.
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) de la section **[!UICONTROL Order]** et définissez **[!UICONTROL Customer Order Status Notification]** sur `Enable`.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
-1. Afficher le résultat sur le storefront avec `/rss` à la fin de l’URL de la page.
+1. Consultez le résultat sur le storefront avec `/rss` à la fin de l’URL de la page.
 

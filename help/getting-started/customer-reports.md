@@ -16,11 +16,11 @@ Les rapports sur les clients fournissent des informations sur l’activité des 
 
 ## [!UICONTROL Order Total Report]
 
-La variable [!UICONTROL Order Total Report] affiche les commandes client pour un intervalle de temps ou une période spécifié. Le rapport inclut le nombre de commandes par client, le montant moyen de la commande et le montant total.
+Le [!UICONTROL Order Total Report] affiche les commandes client pour un intervalle de temps ou une période spécifié. Le rapport inclut le nombre de commandes par client, le montant moyen de la commande et le montant total.
 
-Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**.
+Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**.
 
-![Rapport Total de la commande](./assets/customers-order-total.png){width="600"}
+![Rapport Total de commande](./assets/customers-order-total.png){width="600"}
 
 ### Contrôles Workspace
 
@@ -38,19 +38,19 @@ Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Reports]** > 
 
 | Colonne | Description |
 |--- |--- |
-| [!UICONTROL Interval] | l’intervalle total de l’ordre, par `Month` / `Day` / `Year`. |
+| [!UICONTROL Interval] | Intervalle total de la commande, de `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | Nom du client qui a passé les commandes. |
 | [!UICONTROL Orders] | Nombre de commandes pour l’intervalle spécifié. |
-| [!UICONTROL Average] | Montant moyen de la commande. Ce montant est toujours calculé pour les prix des produits. **taxe à l&#39;exclusion** même si les prix des produits catalogues, le sous-total des commandes et le total des commandes comprennent la taxe. Par conséquent, le montant indiqué dans le rapport est différent du montant indiqué dans les détails de la commande lorsque les totaux de la commande comprennent la taxe. |
-| [!UICONTROL Total] | Somme de toutes les commandes de la période. Ce montant est toujours calculé pour les prix des produits. **taxe à l&#39;exclusion** même si les prix des produits catalogues, le sous-total des commandes et le total des commandes comprennent la taxe. Par conséquent, le total affiché dans le rapport est différent du montant affiché dans les détails de la commande lorsque les totaux de la commande comprennent la taxe. |
+| [!UICONTROL Average] | Montant moyen de la commande. Ce montant est toujours calculé pour les prix des produits **hors taxe** même si les prix des produits catalogues, le sous-total de la commande et le total de la commande incluent la taxe. Par conséquent, le montant indiqué dans le rapport est différent du montant indiqué dans les détails de la commande lorsque les totaux de la commande comprennent la taxe. |
+| [!UICONTROL Total] | Somme de toutes les commandes de la période. Ce montant est toujours calculé pour les prix des produits **hors taxe** même si les prix des produits catalogues, le sous-total de la commande et le total de la commande incluent la taxe. Par conséquent, le total affiché dans le rapport est différent du montant affiché dans les détails de la commande lorsque les totaux de la commande comprennent la taxe. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order Count Report]
 
-La variable [!UICONTROL Order Count Report] indique le nombre de commandes par client pour un intervalle de temps ou une période spécifié. Le rapport inclut le nombre de commandes par client, le montant moyen de la commande et le montant total.
+Le [!UICONTROL Order Count Report] indique le nombre de commandes par client pour un intervalle de temps ou une période spécifié. Le rapport inclut le nombre de commandes par client, le montant moyen de la commande et le montant total.
 
-Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**.
+Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**.
 
 ![Rapport Nombre de commandes](./assets/customer-order-count.png){width="600"}
 
@@ -70,19 +70,19 @@ Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Reports]** > 
 
 | Colonne | Description |
 |--- |--- |
-| [!UICONTROL Interval] | l’intervalle de comptage de l’ordre, par `Month` / `Day` / `Year`. |
+| [!UICONTROL Interval] | Intervalle de comptage des commandes, par `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | Le client qui a passé la commande. |
 | [!UICONTROL Orders] | Nombre de commandes pour l’intervalle spécifié. |
-| [!UICONTROL Average] | Montant moyen de la commande. Ce montant est toujours calculé pour les prix des produits. **taxe à l&#39;exclusion** même si les prix des produits catalogues, le sous-total des commandes et le total des commandes comprennent la taxe. Par conséquent, le montant indiqué dans le rapport est différent du montant indiqué dans les détails de la commande lorsque les totaux de la commande comprennent la taxe. |
-| [!UICONTROL Total] | Somme de toutes les commandes de la période. Ce montant est toujours calculé pour les prix des produits. **taxe à l&#39;exclusion** même si les prix des produits catalogues, le sous-total des commandes et le total des commandes comprennent la taxe. Par conséquent, le total affiché dans le rapport est différent du montant affiché dans les détails de la commande lorsque les totaux de la commande incluent des balises. |
+| [!UICONTROL Average] | Montant moyen de la commande. Ce montant est toujours calculé pour les prix des produits **hors taxe** même si les prix des produits catalogues, le sous-total de la commande et le total de la commande incluent la taxe. Par conséquent, le montant indiqué dans le rapport est différent du montant indiqué dans les détails de la commande lorsque les totaux de la commande comprennent la taxe. |
+| [!UICONTROL Total] | Somme de toutes les commandes de la période. Ce montant est toujours calculé pour les prix des produits **hors taxe** même si les prix des produits catalogues, le sous-total de la commande et le total de la commande incluent la taxe. Par conséquent, le total affiché dans le rapport est différent du montant affiché dans les détails de la commande lorsque les totaux de la commande incluent des balises. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL New Accounts Report]
 
-La variable [!UICONTROL New Accounts Report] indique le nombre de nouveaux comptes clients ouverts au cours d’un intervalle de temps ou d’une période spécifié.
+[!UICONTROL New Accounts Report] affiche le nombre de nouveaux comptes clients ouverts au cours d’un intervalle de temps ou d’une période spécifié.
 
-Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
+Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
 
 ![Nouveau rapport Comptes](./assets/customers-new-accounts.png){width="600"}
 
@@ -111,11 +111,11 @@ Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Reports]** > 
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement)
 
-La variable [!UICONTROL Customer Wish List Report] fournit des informations sur les listes de souhaits des clients.
+[!UICONTROL Customer Wish List Report] fournit des informations sur les listes de souhaits des clients.
 
-Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**.
+Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**.
 
-![Rapport Liste de souhaits](./assets/customer-wish-list.png){width="600"}
+![Rapport de liste de souhaits](./assets/customer-wish-list.png){width="600"}
 
 ### Contrôles Workspace
 
@@ -151,9 +151,9 @@ Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Reports]** > 
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement)
 
-La variable [!UICONTROL Customer Segment Report] fournit des informations sur le nombre de clients dans chaque segment.
+[!UICONTROL Customer Segment Report] fournit des informations sur le nombre de clients dans chaque segment.
 
-Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
+Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
 
 ![Rapport Segments](./assets/customers-segments.png){width="600"}
 

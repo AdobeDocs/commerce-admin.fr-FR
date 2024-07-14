@@ -5,7 +5,7 @@ exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ Ces paramètres recommandés peuvent être utilisés pour la plupart des configu
 | Calcul des taxes | Sur l’élément |
 | Frais d&#39;expédition fiscale ? | Oui |
 | Appliquer la remise | Avant taxe, remise sur les prix, y compris la taxe. |
-| Commentaire | Pour les commerçants B2B afin de fournir des considérations plus simples sur la chaîne d&#39;approvisionnement en TVA. Le calcul des impôts sur la ligne est également valide ; toutefois, vérifiez auprès de votre juridiction fiscale. Le programme d&#39;installation suppose qu&#39;un commerçant fait partie de la chaîne d&#39;approvisionnement et que les marchandises vendues sont utilisées par d&#39;autres vendeurs pour les rabais sur la TVA, etc. Cette définition permet de discerner facilement la taxe par article pour générer plus rapidement des remises. <br/><br/>**_Remarque :_**Certaines juridictions exigent des stratégies d’arrondi différentes qui ne sont actuellement pas prises en charge par Commerce, et que toutes les juridictions n’autorisent pas la taxe au niveau des articles ou des lignes. |
+| Commentaire | Pour les commerçants B2B afin de fournir des considérations plus simples sur la chaîne d&#39;approvisionnement en TVA. Le calcul des impôts sur la ligne est également valide ; toutefois, vérifiez auprès de votre juridiction fiscale. Le programme d&#39;installation suppose qu&#39;un commerçant fait partie de la chaîne d&#39;approvisionnement et que les marchandises vendues sont utilisées par d&#39;autres vendeurs pour les rabais sur la TVA, etc. Cette définition permet de discerner facilement la taxe par article pour générer plus rapidement des remises. <br/><br/>**_Remarque :_**Certaines juridictions exigent des stratégies d’arrondi différentes qui ne sont actuellement pas prises en charge par Commerce et que toutes les juridictions n’autorisent pas la taxe au niveau des articles ou des lignes. |
 
 {style="table-layout:auto"}
 
@@ -140,7 +140,7 @@ Ces paramètres recommandés peuvent être utilisés pour la plupart des configu
 
 >[!IMPORTANT]
 >
->Les commerçants qui se trouvent dans une province de la TPS/TSP (Montréal) devraient créer une règle fiscale et afficher un montant d&#39;impôt combiné. Assurez-vous de consulter une autorité fiscale qualifiée si vous avez des questions. Pour plus d’informations sur les exigences fiscales de certaines provinces, voir : [Revenu Québec][1], [Gouvernement de la Saskatchewan][2], et [Informations sur les fournisseurs au Manitoba][3]
+>Les commerçants qui se trouvent dans une province de la TPS/TSP (Montréal) devraient créer une règle fiscale et afficher un montant d&#39;impôt combiné. Assurez-vous de consulter une autorité fiscale qualifiée si vous avez des questions. Pour plus d’informations sur les exigences fiscales de provinces particulières, voir les sections suivantes : [Revenu Québec][1], [Gouvernement de la Saskatchewan][2] et [Informations sur les fournisseurs du Manitoba][3]
 
 | Option Taxe | Recommandation |
 |--- |--- |
@@ -160,9 +160,9 @@ L’exemple suivant montre comment configurer les taux de taxe sur la TVA pour l
 
 ### Etape 1 : paramétrage du calcul des taxes
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Pour une configuration multi-site, définissez **[!UICONTROL Store View]** sur le site web et le magasin qui est la cible de la configuration.
+1. Pour une configuration multisite, définissez **[!UICONTROL Store View]** sur le site web et le magasin qui est la cible de la configuration.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Tax]**.
 
@@ -178,7 +178,7 @@ L’exemple suivant montre comment configurer les taux de taxe sur la TVA pour l
 | [!UICONTROL Shipping Prices] | `Excluding Tax` |
 | [!UICONTROL Apply Customer Tax] | `After Discount` |
 | [!UICONTROL Apply Discount on Prices] | `Excluding Tax` |
-| [!UICONTROL Apply Tax On] | `Custom Price` (le cas échéant) |
+| [!UICONTROL Apply Tax On] | `Custom Price` (si disponible) |
 
 {style="table-layout:auto"}
 
@@ -258,7 +258,7 @@ Définissez un autre taux d’imposition pour la province concernée.
 
 ### Étape 4 : création d’une règle de taxe sur la taxe
 
-Pour éviter d’additionner la taxe et d’afficher correctement la taxe calculée comme des éléments de ligne distincts pour la TVA et la TVA, définissez des priorités différentes pour chaque règle et sélectionnez la variable **Calcul du sous-total uniquement** . Chaque taxe apparaît sur une ligne distincte, mais les montants de taxe ne sont pas composés.
+Pour éviter d’additionner la taxe et d’afficher correctement la taxe calculée comme des éléments de ligne distincts pour la TVA et la TSP, définissez des priorités différentes pour chaque règle et cochez la case **Calcul du sous-total uniquement** . Chaque taxe apparaît sur une ligne distincte, mais les montants de taxe ne sont pas composés.
 
 #### Informations sur les règles fiscales
 
@@ -276,7 +276,7 @@ Pour éviter d’additionner la taxe et d’afficher correctement la taxe calcul
 
 ### Étape 5 : création d’une règle fiscale PST pour la Saskatchewan
 
-Pour cette règle de taxe, veillez à définir la priorité sur 0 et sélectionnez l’événement **Calcul du sous-total uniquement** . Chaque taxe apparaît sur une ligne distincte, mais les montants de taxe ne sont pas composés.
+Pour cette règle de taxe, veillez à définir la priorité sur 0 et cochez la case **Calcul du sous-total uniquement** . Chaque taxe apparaît sur une ligne distincte, mais les montants de taxe ne sont pas composés.
 
 #### Informations sur les règles fiscales
 
@@ -294,7 +294,7 @@ Pour cette règle de taxe, veillez à définir la priorité sur 0 et sélectionn
 
 ### Étape 6 : enregistrer et tester les résultats
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 1. Revenez à votre vitrine et créez un exemple d’ordre pour tester les résultats.
 
@@ -324,10 +324,10 @@ Créez les taux de taxe suivants :
 
 | Taux d&#39;imposition | Paramètres |
 |--- |--- |
-| France-StandardTVA | Pays : France <br/>État/région : * <br/>Code postal : * <br/>Taux : 20 % |
-| TVA réduite en France | Pays : France <br/>État/région : * <br/>Code postal : * <br/>Taux : 5 % |
-| Allemagne-StandardTVA | Pays : Allemagne <br/>État/région : * <br/>Code postal : * Taux : 19 % |
-| Allemagne-TVA réduite | Pays : Allemagne <br/>État/région : * <br/>Code postal : * <br/>Taux : 7 % |
+| France-StandardTVA | Pays : France <br/>État/Région : * <br/>Code postal : * <br/>Taux : 20 % |
+| TVA réduite en France | Pays : France <br/>État/Région : * <br/>Code postal : * <br/>Taux : 5 % |
+| Allemagne-StandardTVA | Pays : Allemagne <br/>État/Région : * <br/>Code postal : * Taux : 19 % |
+| Allemagne-TVA réduite | Pays : Allemagne <br/>État/Région : * <br/>Code postal : * <br/>Taux : 7 % |
 
 {style="table-layout:auto"}
 
@@ -337,32 +337,32 @@ Créez les règles fiscales suivantes :
 
 | Règles fiscales | Paramètres |
 |--- |--- |
-| Retail-France-StandardTVA | Classe client : client au détail <br/>Classe fiscale : standard TVA <br/>Taux de taxe : TVA standard France <br/>Priorité : 0 <br/>Ordre de tri : 0 |
-| Retail-France-ReducingTVA | Classe client : client au détail <br/>Classe fiscale : TVA réduite <br/>Taux de taxe : TVA réduite en France <br/>Priorité : 0 <br/>Ordre de tri : 0 |
-| Vente au détail-Allemagne-TVA standard | Classe client : client au détail <br/>Classe fiscale : standard TVA <br/>Taux de taxe : TVA standard allemande <br/>Priorité : 0 <br/>Ordre de tri : 0 |
-| Vente au détail-Allemagne-TVA réduite | Classe client : client au détail <br/>Classe fiscale : TVA réduite <br/>Taux d&#39;imposition : TVA réduite en Allemagne <br/>Priorité : 0 <br/>Ordre de tri : 0 |
+| Retail-France-StandardTVA | Classe client : client au détail <br/>Classe fiscale : TVA-standard <br/>Taux de taxe : France-StandardTVA <br/>Priorité : 0 <br/>Ordre de tri : 0 |
+| Retail-France-ReducingTVA | Classe client : client au détail <br/>Classe fiscale : TVA réduite <br/>Taux d’imposition : France-Réduction de la TVA <br/>Priorité : 0 <br/>Ordre de tri : 0 |
+| Vente au détail-Allemagne-TVA standard | Classe client : client au détail <br/>Classe fiscale : TVA-standard <br/>Taux d’imposition : Allemagne-StandardTVA <br/>Priorité : 0 <br/>Ordre de tri : 0 |
+| Vente au détail-Allemagne-TVA réduite | Classe client : client au détail <br/>Classe fiscale : taux d’imposition réduit de la TVA <br/>Taux d’imposition : Allemagne-Réduction de la TVA <br/>Priorité : 0 <br/>Ordre de tri : 0 |
 
 {style="table-layout:auto"}
 
 ### Étape 4 : configuration d’une vue de magasin pour l’Allemagne
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
 
 1. Sous le site web par défaut, créez une vue de magasin pour **[!UICONTROL Germany]**.
 
 1. Ensuite, procédez comme suit :
 
-   - Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+   - Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-   - Dans le coin supérieur gauche, définissez **[!UICONTROL Default Config]** au magasin français.
+   - Dans le coin supérieur gauche, définissez **[!UICONTROL Default Config]** sur le magasin français.
 
-   - Sur la page Général , développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Countries Options]** et définissez le pays par défaut sur `France`.
+   - Sur la page Général, développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) de la section **[!UICONTROL Countries Options]** et définissez le pays par défaut sur `France`.
 
    - Renseignez les options des paramètres régionaux si nécessaire.
 
-1. Dans le coin supérieur gauche, sélectionnez l’option **[!UICONTROL Store View]**.
+1. Dans le coin supérieur gauche, sélectionnez l’allemand **[!UICONTROL Store View]**.
 
-1. Sur le _Général_ page, développer ![Sélecteur d’extension](../assets/icon-display-expand.png) **[!UICONTROL Countries Options]** et définissez le pays par défaut sur `Germany`.
+1. Sur la page _Général_, développez ![Sélecteur d’extension](../assets/icon-display-expand.png) **[!UICONTROL Countries Options]** et définissez le pays par défaut sur `Germany`.
 
 1. Renseignez les options des paramètres régionaux si nécessaire.
 
@@ -397,27 +397,27 @@ Définissez les paramètres de taxe généraux suivants :
 
 ### Étape 6 : Configuration des paramètres fiscaux pour l’Allemagne
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le coin supérieur droit, définissez **[!UICONTROL Store View]** dans la vue du magasin allemand, puis cliquez sur **[!UICONTROL OK]** pour confirmer.
+1. Dans le coin supérieur droit, définissez **[!UICONTROL Store View]** sur la vue du magasin allemand et cliquez sur **[!UICONTROL OK]** pour confirmer.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Tax]**.
 
-1. Dans le **[!UICONTROL Default Tax Destination Calculation]** , procédez comme suit :
+1. Dans la section **[!UICONTROL Default Tax Destination Calculation]** , procédez comme suit :
 
-   - Effacez la variable **[!UICONTROL Use Website]** après chaque champ,
+   - Décochez la case **[!UICONTROL Use Website]** après chaque champ,
 
-   - Pour correspondre aux paramètres d’expédition de votre site [point d’origine](shipping-settings.md#point-of-origin), mettez à jour les valeurs suivantes :
+   - Pour correspondre aux [points d’origine](shipping-settings.md#point-of-origin) des paramètres d’expédition de votre site, mettez à jour les valeurs suivantes :
 
       - Pays par défaut
       - État par défaut
-      - Code de publication par défaut
+      - Code Post par défaut
 
      Ce paramètre garantit que la taxe est calculée correctement lorsque les prix des produits incluent la taxe.
 
-     ![Calcul de la destination de la taxe par défaut](./assets/destination-calc-french.png){width="600" zoomable="yes"}
+     ![Calcul de destination de taxe par défaut](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 [1]: https://www.revenuquebec.ca/en/businesses/
 [2]: https://www.saskatchewan.ca/finance

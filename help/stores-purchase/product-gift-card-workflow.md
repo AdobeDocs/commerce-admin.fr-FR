@@ -16,17 +16,17 @@ ht-degree: 0%
 
 Les cartes-cadeaux sont consommées dans le panier de la même manière qu’un coupon est appliqué à une commande. Pendant le passage en caisse, l’acheteur saisit le code de carte-cadeau pour appliquer un montant de la carte-cadeau à l’achat. Les titulaires d’une carte cadeau qui disposent d’un compte client peuvent vérifier l’état et le solde restant dans le tableau de bord de leur compte. Vous pouvez utiliser des cartes-cadeaux simples et multiples pour payer tout ou partie d’une commande.
 
-Le code de carte-cadeau appliqué peut être affiché en ouvrant la commande dans la _Administration_, ce qui vous permet de récupérer le code pour le placer sur une carte-cadeau physique, si nécessaire. Si une commande de carte-cadeau est annulée ou remboursée, vous devez annuler manuellement le compte de carte-cadeau associé. Vous pouvez supprimer entièrement le compte ou le désactiver.
+Le code de carte-cadeau appliqué peut être affiché en ouvrant la commande dans l’ _Admin_, ce qui vous permet de récupérer le code pour le placer sur une carte-cadeau physique, si nécessaire. Si une commande de carte-cadeau est annulée ou remboursée, vous devez annuler manuellement le compte de carte-cadeau associé. Vous pouvez supprimer entièrement le compte ou le désactiver.
 
-![Détails de la carte cadeau dans le panier](./assets/storefront-gift-card-order-customer-account.png){width="700" zoomable="yes"}
+![Détail de carte-cadeau dans le panier](./assets/storefront-gift-card-order-customer-account.png){width="700" zoomable="yes"}
 
 Par exemple, un client qui fait ses achats dans la boutique de démonstration Luma peut acheter une carte-cadeau virtuelle ou physique.
 
 **Carte cadeau virtuelle** - Une carte cadeau virtuelle Luma est envoyée par courrier électronique avec un message facultatif au destinataire. Elle peut être consommée sur n’importe lequel des sites web de la famille Luma et n’expire jamais.
 
-**Carte cadeau physique** - Une carte cadeau Luma est conditionnée dans un courrier électronique personnalisé et envoyée gratuitement au destinataire. Il peut être produit à l’avance, étiqueté avec des codes uniques et consommé en magasin, par téléphone ou sur n’importe quel site Web de la famille Luma. Elle n’expire jamais.
+**Carte-cadeau physique** - Une carte-cadeau Luma est emballée dans un courrier électronique d’art personnalisé et envoyée gratuitement au destinataire. Il peut être produit à l’avance, étiqueté avec des codes uniques et consommé en magasin, par téléphone ou sur n’importe quel site Web de la famille Luma. Elle n’expire jamais.
 
-**Carte cadeau combinée** - Une carte-cadeau combinée présente les caractéristiques d’une carte-cadeau virtuelle et physique. Une carte cadeau Luma est envoyée au destinataire par courrier électronique. L’adresse électronique et l’adresse de livraison sont requises lors de l’achat de la carte-cadeau. Elle n’expire jamais.
+**Carte-cadeau combinée** - Une carte-cadeau combinée possède les caractéristiques d’une carte-cadeau virtuelle et physique. Une carte cadeau Luma est envoyée au destinataire par courrier électronique. L’adresse électronique et l’adresse de livraison sont requises lors de l’achat de la carte-cadeau. Elle n’expire jamais.
 
 ## Cycle de vie de la carte cadeau
 
@@ -34,11 +34,11 @@ Par exemple, un client qui fait ses achats dans la boutique de démonstration Lu
 
    Le client détermine la valeur de la carte-cadeau à partir de la page du produit. Selon la configuration, il existe un champ de prix fixe, une liste d’options de prix, ou les deux. Tous les montants apparaissent dans la devise utilisée dans le magasin.
 
-1. **Le client complète les informations sur la carte-cadeau**.
+1. **Le client complète les informations de carte-cadeau**.
 
-   Pour une carte-cadeau physique, le client saisit la variable **Nom de l’expéditeur** et **Nom du destinataire**. Pour les cartes-cadeaux virtuelles ou combinées, le client entre également la variable **Email expéditeur** et **Email du destinataire**. Si le client est connecté, le nom de l’expéditeur (et l’adresse électronique de l’expéditeur, le cas échéant) est automatiquement renseigné à partir de son compte. Selon le paramétrage, le client peut également saisir un message à l&#39;intention du destinataire.
+   Pour une carte-cadeau physique, le client saisit le **nom de l’expéditeur** et le **nom du destinataire**. Pour les cartes-cadeaux virtuelles ou combinées, le client saisit également les **Email de l’expéditeur** et **Email du destinataire**. Si le client est connecté, le nom de l’expéditeur (et l’adresse électronique de l’expéditeur, le cas échéant) est automatiquement renseigné à partir de son compte. Selon le paramétrage, le client peut également saisir un message à l&#39;intention du destinataire.
 
-1. **Le client termine le paiement**.
+1. **Le client termine le passage en caisse**.
 
    La carte de cadeau apparaît sous forme d’article dans le panier avec le détail qui indique le nom de l’expéditeur, du destinataire et du message, le cas échéant. Le montant associé à la carte-cadeau est converti dans la devise de base de la boutique lorsqu’elle est ajoutée au panier.
 
@@ -66,7 +66,7 @@ Fonctionnement des cartes-cadeaux sur la vitrine :
 
 - Les comptes des codes cadeau sont créés pour effectuer le suivi du solde d’un bon spécifique. Un administrateur de magasin peut régler manuellement le solde.
 
-Le client destinataire peut utiliser la variable _[!UICONTROL Gift Card]_du tableau de bord de leur compte pour vérifier le solde de leur compte [compte de carte cadeau](product-gift-card-accounts.md) et échanger des cartes-cadeaux pour [crédit de magasin](../customers/store-credit-using.md).
+Le client destinataire peut utiliser la section _[!UICONTROL Gift Card]_du tableau de bord de son compte pour vérifier le solde de son [compte de carte-cadeau](product-gift-card-accounts.md) et échanger des cartes-cadeaux pour le [crédit de boutique](../customers/store-credit-using.md).
 
 ![Carte cadeau](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
 
@@ -74,9 +74,9 @@ Le client destinataire peut utiliser la variable _[!UICONTROL Gift Card]_du tabl
 
 1. Depuis le storefront, le client se connecte et ouvre sa page de compte client.
 
-1. Le client ouvre la variable **[!UICONTROL Gift Card]** et saisit le code de la carte-cadeau.
+1. Le client ouvre la page **[!UICONTROL Gift Card]** et saisit le code de carte-cadeau.
 
-1. Le client clique **[!UICONTROL Check status and balance]**.
+1. Le client clique sur **[!UICONTROL Check status and balance]**.
 
 ![Balance des cartes-cadeaux](./assets/gift-balance.png){width="700" zoomable="yes"}
 
@@ -84,26 +84,26 @@ Le solde de la carte cadeau s’affiche.
 
 ### Activation de la carte cadeau
 
-1. Sur le _[!UICONTROL Gift Card]_, le client saisit le code de carte-cadeau.
+1. Sur la page _[!UICONTROL Gift Card]_, le client saisit le code de carte-cadeau.
 
-1. Le client clique **[!UICONTROL Redeem Gift Card]**.
+1. Le client clique sur **[!UICONTROL Redeem Gift Card]**.
 
-![Message concernant l’activation réussie de la carte-cadeau](./assets/gift-redeemed-balance.png){width="700" zoomable="yes"}
+![Message concernant l&#39;activation réussie de la carte-cadeau](./assets/gift-redeemed-balance.png){width="700" zoomable="yes"}
 
 Le montant de la carte cadeau est activé et ajouté au solde total du crédit de la boutique.
 
-![Solde du crédit de la boutique](./assets/store-credit.png){width="700" zoomable="yes"}
+![Solde du crédit de magasin](./assets/store-credit.png){width="700" zoomable="yes"}
 
-Toutes les opérations du solde de la carte cadeau sont disponibles sur la page _[!UICONTROL Store Credit]_page.
+Toutes les opérations relatives au solde des cartes-cadeaux sont disponibles sur la page _[!UICONTROL Store Credit]_.
 
 ### Appliquer une carte-cadeau lors du passage en caisse
 
 Si la carte-cadeau n’est pas remboursable, un client peut appliquer le code de carte-cadeau lors du passage en caisse.
 
-1. Durant : _Révision et paiements_ , le client clique sur **[!UICONTROL Apply Gift Card]**.
+1. Au cours de l’étape _Révision et paiements_, le client clique sur **[!UICONTROL Apply Gift Card]**.
 
 1. Entrez le code de la carte-cadeau, puis cliquez sur **[!UICONTROL Apply]**.
 
-   La remise doit être répercutée dans la variable _[!UICONTROL Order Summary]_.
+   La remise doit être répercutée dans le _[!UICONTROL Order Summary]_.
 
-1. Clics **[!UICONTROL Place Order]** pour finaliser la commande.
+1. Cliquez sur **[!UICONTROL Place Order]** pour finaliser la commande.

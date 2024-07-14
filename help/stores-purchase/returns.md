@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Renvoie
 
-A _autorisation de marchandisage renvoyée_ (RMA) peut être accordé aux clients qui demandent de renvoyer un article pour le remplacement ou le remboursement. En règle générale, le client contacte le marchand pour demander un remboursement. S’il est approuvé, un numéro de RAM unique est attribué pour identifier le produit renvoyé. Dans la configuration, vous pouvez activer la RAM pour tous les produits ou n’autoriser la RAM que pour certains produits. La variable _[!UICONTROL Returns]_grid répertorie les demandes de marchandises renvoyées actuelles (RMA) et est utilisée pour entrer de nouvelles demandes de retour.
+Une _autorisation de marchandisage renvoyée_ (RMA) peut être accordée aux clients qui demandent de renvoyer un article pour le remplacement ou le remboursement. En règle générale, le client contacte le marchand pour demander un remboursement. S’il est approuvé, un numéro de RAM unique est attribué pour identifier le produit renvoyé. Dans la configuration, vous pouvez activer la RAM pour tous les produits ou n’autoriser la RAM que pour certains produits. La grille _[!UICONTROL Returns]_répertorie les demandes de marchandisage renvoyées actuelles (RMA) et est utilisée pour saisir de nouvelles demandes de retour.
 
-![Renvoie la grille](./assets/return.png){width="600" zoomable="yes"}
+![Renvoie grid](./assets/return.png){width="600" zoomable="yes"}
 
 Les RMA peuvent être émises pour des types de produits simples, regroupés, configurables et regroupés. Toutefois, les RMA ne sont pas disponibles pour les produits virtuels, les produits téléchargeables et les cartes-cadeaux.
 
@@ -29,17 +29,17 @@ Les RMA peuvent être émises pour des types de produits simples, regroupés, co
 | [!UICONTROL Ordered] | Date et heure auxquelles la commande a été passée |
 | [!UICONTROL Customer] | Nom du client ou de l’acheteur qui a passé la commande |
 | [!UICONTROL Status] | Etat de retour. Options : `Pending` / `Authorized` / `Partially Authorized` / `Approved` / `Rejected` / `Processed and Closed` / `Closed` |
-| [!UICONTROL Action] | **[!UICONTROL View]** ouvre le retour en mode édition. |
+| [!UICONTROL Action] | **[!UICONTROL View]** ouvre le retour en mode d’édition. |
 
 {style="table-layout:auto"}
 
 ## RMA et workflow de retour
 
-1. **Réception de la demande** - Si [enabled](rma-configure.md#enable-rmas-for-your-store) pour le storefront, les clients enregistrés et les invités peuvent demander une RAM. Vous pouvez également [envoyer une requête RMA dans l’Admin ;](#create-a-return-request-in-the-admin).
+1. **Recevoir la demande** - Si [enabled](rma-configure.md#enable-rmas-for-your-store) pour le storefront, les clients enregistrés et les invités peuvent demander une RMA. Vous pouvez également [envoyer une requête RMA dans Admin](#create-a-return-request-in-the-admin).
 
-2. **RMA émis** - Après avoir examiné la demande, vous pouvez l’autoriser partiellement, complètement ou annuler la demande. Si vous autorisez le retour et acceptez de payer l’expédition retour, vous pouvez créer une commande d’expédition à partir de l’administrateur avec un opérateur pris en charge.
+2. **RMA émise** - Après avoir examiné la demande, vous pouvez l’autoriser partiellement, complètement ou annuler la demande. Si vous autorisez le retour et acceptez de payer l’expédition retour, vous pouvez créer une commande d’expédition à partir de l’administrateur avec un opérateur pris en charge.
 
-3. **Marchandisage reçue et retour de produits traité** - Le diagramme de flux suivant décrit l’ordre opérationnel pour terminer le processus de retour :
+3. **Marchandise reçue et retour de produit traité** - L’organigramme suivant décrit l’ordre opérationnel pour terminer le processus de retour :
 
    ![Workflow de retour de produit](./assets/workflow-customer-returns.png){width="500"}
 
@@ -64,38 +64,38 @@ Au cours de son cycle de vie, une autorisation de marchandisage renvoyée (RMA) 
 
 ## Création d’une requête de retour dans l’Admin
 
-Un commerçant peut créer une demande de retour au nom du client auprès de l’administrateur. Les clients peuvent [création d’une requête de retour](rma-customer-experience.md) sur le storefront d’un magasin Adobe Commerce.
+Un commerçant peut créer une demande de retour au nom du client auprès de l’administrateur. Les clients peuvent [créer une requête de retour](rma-customer-experience.md) sur le storefront pour un magasin Adobe Commerce.
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Sales]** > **[!UICONTROL Returns]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > **[!UICONTROL Returns]**.
 
 1. Cliquez sur **[!UICONTROL New Return Request]**.
 
-1. Pour créer une requête de retour, cliquez sur une commande comportant une `Complete` statut.
+1. Pour créer une requête de retour, cliquez sur une commande avec l’état `Complete`.
 
-1. Sous , _[!UICONTROL Return Information]_, sélectionnez **[!UICONTROL Return Items]**.
+1. Sous la section _[!UICONTROL Return Information]_, sélectionnez l’onglet **[!UICONTROL Return Items]**.
 
 1. Pour ajouter des éléments à renvoyer, cliquez sur **[!UICONTROL Add Items]**.
 
-1. Cochez la case correspondant au produit requis, puis cliquez sur **[!UICONTROL Add Selected Product to returns]**.
+1. Cochez la case correspondant au produit requis et cliquez sur **[!UICONTROL Add Selected Product to returns]**.
 
 1. Pour **[!UICONTROL Requested]**, saisissez le nombre d’éléments à renvoyer.
 
-1. Définir **[!UICONTROL Return Reason]** à l’une des options suivantes :
+1. Définissez **[!UICONTROL Return Reason]** sur l’une des options suivantes :
 
    - `Wrong Color`
    - `Wrong Size`
    - `Out of Service`
    - `Other`
 
-   Si le motif du retour est différent des choix répertoriés, vous pouvez saisir le vôtre si vous sélectionnez la variable `Other` .
+   Si le motif du retour est différent des choix répertoriés, vous pouvez saisir le vôtre si vous sélectionnez l’option `Other`.
 
-1. Définir **[!UICONTROL Item Condition]** à l’une des options suivantes :
+1. Définissez **[!UICONTROL Item Condition]** sur l’une des options suivantes :
 
    - `Unopened`
    - `Opened`
    - `Damaged`
 
-1. Définir **[!UICONTROL Resolution]** à l’une des options suivantes :
+1. Définissez **[!UICONTROL Resolution]** sur l’une des options suivantes :
 
    - `Exchange`
    - `Refund`
@@ -105,4 +105,4 @@ Un commerçant peut créer une demande de retour au nom du client auprès de l�
 
    ![Éléments RMA demandés](./assets/return-item-request.png){width="600" zoomable="yes"}
 
-   La nouvelle demande de RAM envoyée apparaît sur la **[!UICONTROL Returns]** avec une `Pending` statut.
+   La nouvelle requête RMA envoyée apparaît sur la page **[!UICONTROL Returns]** avec un état `Pending`.

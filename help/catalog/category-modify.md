@@ -16,7 +16,7 @@ Une fois qu’une catégorie a été créée, elle peut être modifiée, déplac
 
 ## Déplacement d’une catégorie
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Pour déplacer une catégorie, faites-la glisser vers un nouvel emplacement dans l’arborescence.
 
@@ -30,6 +30,6 @@ Une fois qu’une catégorie a été créée, elle peut être modifiée, déplac
 
 1. Cliquez sur **[!UICONTROL Delete Category]**.
 
-1. Lorsque vous y êtes invité, cliquez sur **[!UICONTROL OK]**.
+1. Lorsque vous êtes invité à confirmer l’opération, cliquez sur **[!UICONTROL OK]**.
 
-Vous pouvez également [mettre à jour les événements](../merchandising-promotions/event-create.md#create-and-update-events) associée à une catégorie depuis l’une des propriétés **[!UICONTROL Events]** ou la variable **[!UICONTROL Category]** page.
+Vous pouvez également [mettre à jour les événements](../merchandising-promotions/event-create.md#create-and-update-events) associés à une catégorie depuis la page **[!UICONTROL Events]** ou la page **[!UICONTROL Category]**.

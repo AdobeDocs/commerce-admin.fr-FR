@@ -5,8 +5,8 @@ exl-id: d745cbd0-151b-4f82-bb6c-fb6b9565a014
 feature: Site Management, System
 source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 1%
+source-wordcount: '1092'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Lorsque Adobe Commerce ou Magento Open Source est installé, une hiérarchie contenant un site web principal, un magasin et une vue de magasin est créée. Vous pouvez créer d’autres sites web, magasins et vues de magasin, si nécessaire. Par exemple, en plus de votre site web principal, vous pouvez avoir d’autres sites web avec un domaine différent. Dans chaque site web, vous pouvez avoir plusieurs magasins, et dans chaque magasin, des vues de magasin distinctes. De nombreuses installations disposent d’un site web et d’un magasin, mais avec plusieurs vues de magasin pour prendre en charge différentes langues.
 
-Avant de commencer, planifiez votre hiérarchie de catalogues de magasins à l’avance, car elle est référencée tout au long de la configuration. Chaque magasin peut avoir une [catégorie racine](../catalog/category-root.md), ce qui permet d’avoir un ensemble d’options de menu principal entièrement différent pour chaque magasin.
+Avant de commencer, planifiez votre hiérarchie de catalogues de magasins à l’avance, car elle est référencée tout au long de la configuration. Chaque magasin peut avoir une [catégorie racine](../catalog/category-root.md) distincte, ce qui permet d’avoir un ensemble entièrement différent d’options de menu principal pour chaque magasin.
 
 ![Diagramme de portée](./assets/scope-multisite.svg){width="550"}
 
@@ -22,9 +22,9 @@ Avant de commencer, planifiez votre hiérarchie de catalogues de magasins à l�
 
 Une seule installation d’Adobe Commerce ou de Magento Open Source peut comporter plusieurs magasins qui partagent un administrateur. Les magasins qui se trouvent sur le même site web ont la même adresse IP et le même domaine, utilisent le même certificat de sécurité et partagent un seul processus de passage en caisse.
 
-L’important à comprendre est que les magasins utilisent le même code et partagent un administrateur. Chaque magasin peut avoir un catalogue distinct ou les magasins peuvent partager un catalogue. Chaque magasin peut avoir une [catégorie racine](../catalog/category-root.md), ce qui permet d’avoir un menu principal différent pour chaque magasin. Les magasins peuvent également avoir des marques, une présentation et un contenu différents. Prenez le temps de planifier votre hiérarchie de magasins en gardant à l’esprit la croissance future avant de commencer, car elle est utilisée tout au long de la configuration.
+L’important à comprendre est que les magasins utilisent le même code et partagent un administrateur. Chaque magasin peut avoir un catalogue distinct ou les magasins peuvent partager un catalogue. Chaque magasin peut avoir une [catégorie racine](../catalog/category-root.md) distincte, ce qui permet d’avoir un menu principal différent pour chaque magasin. Les magasins peuvent également avoir des marques, une présentation et un contenu différents. Prenez le temps de planifier votre hiérarchie de magasins en gardant à l’esprit la croissance future avant de commencer, car elle est utilisée tout au long de la configuration.
 
-![Portée : plusieurs magasins](./assets/scope-multistore.svg){width="550"}
+![Portée - plusieurs magasins](./assets/scope-multistore.svg){width="550"}
 
 Voici quelques exemples de configuration des URL pour plusieurs magasins :
 
@@ -33,7 +33,7 @@ Voici quelques exemples de configuration des URL pour plusieurs magasins :
 | `yourdomain.com/store1`<br>`yourdomain.com/store2` | Chaque magasin possède un chemin d’accès différent, mais partage un domaine. |
 | `store1.yourdomain.com`<br>`store2.yourdomain.com` | Chaque magasin possède un sous-domaine différent du domaine principal. |
 
-Les installations multi-magasin d’Adobe Commerce doivent être configurées à partir de l’administrateur et également à partir de la ligne de commande du serveur. Adobe Commerce [Guide de configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) fournit des instructions détaillées sur la configuration de l’environnement du serveur.
+Les installations multi-magasin d’Adobe Commerce doivent être configurées à partir de l’administrateur et également à partir de la ligne de commande du serveur. Le [Guide de configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) d’Adobe Commerce fournit des instructions détaillées sur la configuration de l’environnement du serveur.
 
 ### Étape 1 : Sélection du domaine de magasin
 
@@ -45,35 +45,35 @@ La première étape consiste à choisir la position du magasin. Les magasins doi
 
 ### Étape 2 : création du magasin
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
 
 1. Cliquez sur **[!UICONTROL Create Store]** et définissez les options du nouveau magasin :
 
-   - **[!UICONTROL Web Site]** — Choisissez un site web qui sera le parent du nouveau magasin. Si l’installation ne comporte qu’un seul site web, acceptez la valeur par défaut (`Main Website`).
+   - **[!UICONTROL Web Site]** — Sélectionnez un site web qui doit être le parent du nouveau magasin. Si l’installation ne comporte qu’un seul site web, acceptez la valeur par défaut (`Main Website`).
 
-   - **[!UICONTROL Name]** — Saisissez un nom pour le nouveau magasin. Le nom est à titre de référence interne uniquement.
+   - **[!UICONTROL Name]** — Saisissez le nom du nouveau magasin. Le nom est à titre de référence interne uniquement.
 
-   - **[!UICONTROL Code]** — Saisissez un code en minuscules pour identifier le magasin. Par exemple: `mainstore`.
+   - **[!UICONTROL Code]** — Entrez un code en minuscules pour identifier le magasin. Par exemple : `mainstore`.
 
-   - **[!UICONTROL Root Category]** — Définissez sur la variable [catégorie racine](../catalog/category-root.md) qui définit la structure des catégories pour le menu principal du nouveau magasin. Si vous avez déjà créé une catégorie racine spécifique pour le magasin, sélectionnez-la. Sinon, sélectionnez `Default Category`. Vous pouvez revenir plus tard et mettre à jour le paramètre .
+   - **[!UICONTROL Root Category]** — Défini sur la [catégorie racine](../catalog/category-root.md) qui définit la structure de catégorie pour le menu principal du nouveau magasin. Si vous avez déjà créé une catégorie racine spécifique pour le magasin, sélectionnez-la. Sinon, sélectionnez `Default Category`. Vous pouvez revenir plus tard et mettre à jour le paramètre .
 
-   ![Créer un magasin - Options de magasin](./assets/stores-all-store-information.png){width="600" zoomable="yes"}
+   ![Créer un magasin - options de magasin](./assets/stores-all-store-information.png){width="600" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Save Store]**.
 
 ### Étape 3 : création d’une vue de magasin par défaut
 
-1. Cliquez sur **[!UICONTROL Create Store View]** et définissez les options d’affichage du magasin :
+1. Cliquez sur **[!UICONTROL Create Store View]** et définissez les options de vue du magasin :
 
    - **[!UICONTROL Store]** — Définissez sur le nouveau magasin que vous avez créé.
 
    - **[!UICONTROL Name]** — Saisissez un nom pour la vue. Par exemple, `English`.
 
-   - **[!UICONTROL Code]** — Saisissez un code pour la vue en minuscules.
+   - **[!UICONTROL Code]** — Entrez un code pour la vue en minuscules.
 
-   - **[!UICONTROL Status]** — Définissez sur `Enabled`.
+   - **[!UICONTROL Status]** — Défini sur `Enabled`.
 
-   - **[!UICONTROL Sort Order]** — Saisissez un nombre pour déterminer la position du magasin lorsqu’il est répertorié avec d’autres magasins.
+   - **[!UICONTROL Sort Order]** — Entrez un nombre pour déterminer la position du magasin lorsqu’il est répertorié avec d’autres magasins.
 
 1. Cliquez sur **[!UICONTROL Save Store View]**.
 
@@ -83,29 +83,29 @@ La première étape consiste à choisir la position du magasin. Les magasins doi
 
 ### Étape 4 : configuration de l’URL du magasin
 
-1. Sur le _Administration_ barre latérale, cliquez sur **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, cliquez sur **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Sous _[!UICONTROL General]_dans le panneau de gauche, sélectionnez **[!UICONTROL Web]**.
 
-1. Dans le coin supérieur gauche, définissez **[!UICONTROL Store View]** à la vue que vous avez créée pour le nouveau magasin.
+1. Dans le coin supérieur gauche, définissez **[!UICONTROL Store View]** sur la vue que vous avez créée pour le nouveau magasin.
 
-1. Lorsque vous êtes invité à confirmer [scope](../getting-started/websites-stores-views.md#scope-settings) changement, cliquez sur **[!UICONTROL OK]**.
+1. Lorsque vous êtes invité à confirmer le changement de [portée](../getting-started/websites-stores-views.md#scope-settings), cliquez sur **[!UICONTROL OK]**.
 
    ![Choisir la vue de magasin](./assets/create-store-config-view.png){width="600" zoomable="yes"}
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Base URLs]** et saisissez l’URL de base du magasin.
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) et saisissez l’URL de base du magasin.**[!UICONTROL Base URLs]**
 
-   Si nécessaire, effacez la variable **[!UICONTROL Use system value]** pour modifier le paramètre.
+   Si nécessaire, décochez la case **[!UICONTROL Use system value]** pour modifier le paramètre.
 
    ![Configuration générale - URL de base web](./assets/config-general-web-base-urls-clear-checkbox.png){width="600" zoomable="yes"}
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Secure Base URLs]** et répétez l’étape précédente si vous souhaitez configurer le magasin. [URL sécurisée](store-urls.md).
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) et répétez l’étape précédente si vous souhaitez configurer le magasin [URL sécurisée](store-urls.md).**[!UICONTROL Secure Base URLs]**
 
 1. Cliquez sur **[!UICONTROL Save Config]**.
 
 ### Etape 5 : Configuration du serveur
 
-Pour configurer votre serveur de manière à prendre en charge plusieurs sites web, voir [Plusieurs sites web ou magasins](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) dans le _Guide de configuration_.
+Pour configurer votre serveur de manière à prendre en charge plusieurs sites Web, reportez-vous à la section [Plusieurs sites Web ou magasins](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) du _Guide de configuration_.
 
 Pour obtenir de l’aide sur la configuration de votre serveur web, consultez les ressources suivantes :
 
@@ -118,41 +118,41 @@ Pour Adobe Commerce sur l’infrastructure cloud, voir [Configuration de plusieu
 
 Plusieurs sites web peuvent être configurés à partir d’une installation Adobe Commerce ou d’un Magento Open Source unique avec le même domaine ou des domaines différents. Par défaut, les magasins situés sous le même site web ont les mêmes adresse IP et domaine, utilisent le même certificat de sécurité et partagent un seul processus de passage en caisse. Si vous souhaitez que chaque magasin dispose d’un processus de passage en caisse dédié sous son propre domaine, chaque magasin doit disposer d’une adresse IP distincte et d’un certificat de sécurité distinct.
 
-Les installations multi-site d’Adobe Commerce ou de Magento Open Source doivent être configurées à partir de l’administrateur et également à partir de la ligne de commande du serveur. Le commerce [Guide de configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) fournit des instructions détaillées sur la configuration de l’environnement du serveur.
+Les installations multi-site d’Adobe Commerce ou de Magento Open Source doivent être configurées à partir de l’administrateur et également à partir de la ligne de commande du serveur. Le [Guide de configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) de Commerce fournit des instructions détaillées sur la configuration de l’environnement du serveur.
 
 ![Portée - sites web](./assets/scope-multisite.svg){width="550"}
 
 ### Étape 1 : création d’un site web
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Create Website]**.
 
-1. Définissez la variable **[!UICONTROL Web Site Information]** options :
+1. Définissez les options **[!UICONTROL Web Site Information]** :
 
-   ![Créer un site web - Options](./assets/create-website-info.png){width="600" zoomable="yes"}
+   ![Créer un site web - options](./assets/create-website-info.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Name]** — Renseignez le domaine du nouveau site web. Par exemple, `domain.com`.
+   - **[!UICONTROL Name]** — Entrez le domaine du nouveau site web. Par exemple, `domain.com`.
 
-   - **[!UICONTROL Code]** — Saisissez un code utilisé sur le serveur pour pointer vers le domaine.
+   - **[!UICONTROL Code]** — Entrez un code utilisé sur le serveur pour pointer vers le domaine.
 
      Le code doit commencer par une lettre minuscule (a-z) et peut inclure n’importe quelle combinaison de lettres (a-z), de nombres (0-9) et du caractère de soulignement (_).
 
-   - **[!UICONTROL Sort Order]** — _(Facultatif)_ Saisissez un nombre pour déterminer l’ordre dans lequel ce site est répertorié avec d’autres sites. Pour que ce site apparaisse en haut de la liste, saisissez un zéro (`0`).
+   - **[!UICONTROL Sort Order]** — _(Facultatif)_ Saisissez un nombre pour déterminer la séquence dans laquelle ce site est répertorié avec d’autres sites. Pour que ce site apparaisse en haut de la liste, saisissez un zéro (`0`).
 
 1. Cliquez sur **[!UICONTROL Save Web Site]**.
 
-1. Configurer chaque [store](#add-stores) et [vue de magasin](store-views.md) nécessaire pour le nouveau site web.
+1. Configurez chaque [magasin](#add-stores) et [vue de magasin](store-views.md) nécessaires pour le nouveau site web.
 
    Vous pouvez ensuite ouvrir le site web en mode d’édition pour définir le magasin par défaut.
 
 ### Étape 2 : configuration de l’URL du magasin
 
-Pour configurer la variable [URL de magasin](store-urls.md), suivez les instructions.
+Pour configurer les [URL de magasin](store-urls.md), suivez les instructions.
 
 ### Etape 3 : Configuration du serveur
 
-Pour configurer votre serveur de manière à prendre en charge plusieurs sites web, voir [Plusieurs sites web ou magasins](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) dans le _Guide de configuration_.
+Pour configurer votre serveur de manière à prendre en charge plusieurs sites Web, reportez-vous à la section [Plusieurs sites Web ou magasins](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) du _Guide de configuration_.
 
 Pour obtenir de l’aide sur la configuration de votre serveur web, consultez les tutoriels suivants :
 

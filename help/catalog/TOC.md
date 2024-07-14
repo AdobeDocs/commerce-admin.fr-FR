@@ -17,7 +17,7 @@ ht-degree: 0%
 + [Guide de gestion des catalogues](guide-overview.md)
 + [Présentation de la gestion des catalogues](introduction.md)
 + [Menu Catalogue](catalog-menu.md)
-+ Principes de base des catalogues {#catalog}
++ Notions de base du catalogue {#catalog}
    + [URL de catalogue et de produit](catalog-urls.md)
    + [Catalogues plats](catalog-flat.md)
    + Navigation dans le catalogue {#navigation}
@@ -68,7 +68,7 @@ ht-degree: 0%
       + Gestion des modèles 3D de produit {#product-3d-model}
          + [Présentation de la visionneuse AR](ar-viewer-overview.md)
          + [Configuration de la visionneuse AR](ar-viewer-setup.md)
-   + Gérer les tarifs {#pricing}
+   + Gestion des tarifs {#pricing}
       + [Étendue du prix](catalog-price-scope.md)
       + [Tarifs avancés](pricing-advanced.md)
       + [Tarifs des groupes](product-price-group.md)
@@ -76,7 +76,7 @@ ht-degree: 0%
       + [Prix de niveau](product-price-tier.md)
       + [Prix minimum publicitaire](product-price-minimum-advertised.md)
    + [Planifier les mises à jour des produits](product-scheduled-changes.md)
-   + Référence des paramètres du produit {#settings}
+   + Référence des paramètres de produit {#settings}
       + [Sources](sources.md)
       + [Contenu](product-content.md)
       + [Configurations](product-configurations.md)
@@ -95,9 +95,9 @@ ht-degree: 0%
    + [Type d’entrée d’attribut](attributes-input-types.md)
    + [Ajout d’attributs à un produit](product-attributes-add.md)
    + [Échantillons de produits](swatches.md)
-   + Création et mise à jour d’attributs {#create}
+   + Créer et mettre à jour des attributs {#create}
       + [Création et suppression d’attributs](attribute-product-create.md)
       + [Mises à jour en bloc](bulk-product-attribute-update.md)
       + [Jeux d’attributs](attribute-sets.md)
-+ [Revenir aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Retour aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

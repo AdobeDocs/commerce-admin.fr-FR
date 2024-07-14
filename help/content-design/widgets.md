@@ -21,7 +21,7 @@ Vous pouvez utiliser des widgets pour créer des landing pages pour les campagne
 
 ## Types de widgets
 
-Lorsque vous [créer un widget](widget-create.md), vous devez définir le type . Ce type détermine le fonctionnement du widget.
+Lorsque vous [créez un widget](widget-create.md), vous devez définir le type . Ce type détermine le fonctionnement du widget.
 
 | Type | Description |
 |--- |--- |

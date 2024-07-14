@@ -5,20 +5,20 @@ exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 1%
+source-wordcount: '198'
+ht-degree: 2%
 
 ---
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-Pour savoir comment connecter votre boutique aux services Adobe Commerce, voir [Services de commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
+Pour savoir comment connecter votre boutique aux services Adobe Commerce, voir [Services Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
 
 {{config}}
 
 ## [!UICONTROL Sandbox API Keys]
 
-![Clé API Sandbox](./assets/sandbox-key-saas-configuration.png)<!-- zoom -->
+![Clé d’API Sandbox](./assets/sandbox-key-saas-configuration.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -29,7 +29,7 @@ Pour savoir comment connecter votre boutique aux services Adobe Commerce, voir [
 
 ## [!UICONTROL Production Keys]
 
-![Clé API de production](./assets/prod-key-saas-configuration.png)<!-- zoom -->
+![Clé d’API de production](./assets/prod-key-saas-configuration.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -44,8 +44,8 @@ Pour savoir comment connecter votre boutique aux services Adobe Commerce, voir [
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Project] | Global | Nom du projet SaaS qui regroupe tous vos espaces de données SaaS. A _Créer un projet_ s’affiche si aucun projet SaaS n’existe. |
-| [!UICONTROL Data Space] | Global | Répertorie les espaces de données SaaS dans le projet SaaS spécifié. Le nombre d’espaces de données SaaS dépend de votre [Licence de commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html):<br />Adobe Commerce : un espace de données de production ; deux espaces de données de test ;<br />Magento Open Source : un espace de données de production ; aucun espace de données de test |
+| [!UICONTROL Project] | Global | Nom du projet SaaS qui regroupe tous vos espaces de données SaaS. Un bouton _Créer un projet_ s’affiche si aucun projet SaaS n’existe. |
+| [!UICONTROL Data Space] | Global | Répertorie les espaces de données SaaS dans le projet SaaS spécifié. Le nombre d’espaces de données SaaS dépend de votre [licence Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html) :<br />Adobe Commerce - Un espace de données de production ; deux espaces de données de test ; <br />Magento Open Source - Un espace de données de production ; aucun espace de données de test |
 
 {style="table-layout:auto"}
 

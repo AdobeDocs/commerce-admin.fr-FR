@@ -5,7 +5,7 @@ exl-id: 43fec57f-d76d-45a9-812b-ba1947cea46d
 feature: Page Content, Configuration
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,17 @@ La configuration Conception facilite la modification des règles et des paramèt
 
 ## Modification de la configuration de conception
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Recherchez la vue de magasin à configurer, puis cliquez sur **[!UICONTROL Edit]** dans le _[!UICONTROL Action]_colonne .
+1. Recherchez la vue de magasin que vous souhaitez configurer et cliquez sur **[!UICONTROL Edit]** dans la colonne _[!UICONTROL Action]_.
 
    La page affiche les paramètres de conception actuels de la vue de magasin.
 
-1. Pour modifier le thème par défaut, définissez **[!UICONTROL Applied Theme]** au thème que vous souhaitez appliquer à la vue.
+1. Pour modifier le thème par défaut, définissez **[!UICONTROL Applied Theme]** sur le thème que vous souhaitez appliquer à la vue.
 
    Si aucun thème n’est spécifié, le thème par défaut du système est utilisé. Certaines extensions tierces modifient le thème par défaut du système.
 
-1. Si le thème doit être utilisé uniquement pour un appareil spécifique, définissez la variable **[!UICONTROL User Agent Rules]**.
+1. Si le thème doit être utilisé uniquement pour un appareil spécifique, définissez **[!UICONTROL User Agent Rules]**.
 
    ![Règles User-Agent](./assets/configuration-user-agent-rules.png){width="400" zoomable="yes"}
 
@@ -36,9 +36,9 @@ La configuration Conception facilite la modification des règles et des paramèt
 
    - Cliquez sur **[!UICONTROL Add New User Agent Rule]**.
 
-   - Pour **[!UICONTROL Search String]**, saisissez l’identifiant du navigateur de l’appareil spécifique.
+   - Pour **[!UICONTROL Search String]**, saisissez l’identifiant du navigateur pour l’appareil spécifique.
 
-     Une chaîne de recherche peut être soit une expression normale, soit une expression régulière compatible avec Perl (PCRE) (voir [Agent utilisateur](https://en.wikipedia.org/wiki/User_agent) pour plus d’informations). La chaîne de recherche suivante identifie Firefox :
+     Une chaîne de recherche peut être soit une expression normale, soit une expression régulière compatible avec Perl (PCRE) (voir [User Agent](https://en.wikipedia.org/wiki/User_agent) pour plus d’informations). La chaîne de recherche suivante identifie Firefox :
 
          /^mozilla/i
      
@@ -60,4 +60,4 @@ La configuration Conception facilite la modification des règles et des paramèt
 
    ![Autres paramètres pour affecter la conception](./assets/configuration-other-settings.png){width="500" zoomable="yes"}
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Configuration]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Configuration]**.

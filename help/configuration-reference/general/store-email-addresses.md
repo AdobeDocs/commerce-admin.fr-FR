@@ -5,7 +5,7 @@ exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '206'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 {{config}}
 
-Voir [Stocker les adresses électroniques](../../getting-started/store-details.md#store-email-addresses) pour plus d’informations sur ces champs et options de configuration.
+Pour plus d’informations sur ces champs et options de configuration, voir [Stocker les adresses électroniques](../../getting-started/store-details.md#store-email-addresses) .
 
 ## [!UICONTROL General Contact]
 
@@ -22,8 +22,8 @@ Voir [Stocker les adresses électroniques](../../getting-started/store-details.m
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Sender Name] | Affichage en magasin | Le nom qui apparaît comme expéditeur de l’email envoyé par le `General Contact` identité. |
-| [!UICONTROL Sender Email] | Affichage en magasin | L’adresse électronique associée à la variable `General Contact` identité. |
+| [!UICONTROL Sender Name] | Affichage en magasin | Nom qui apparaît comme expéditeur de l’email envoyé par l’identité `General Contact`. |
+| [!UICONTROL Sender Email] | Affichage en magasin | Adresse électronique associée à l’identité `General Contact`. |
 
 {style="table-layout:auto"}
 
@@ -33,8 +33,8 @@ Voir [Stocker les adresses électroniques](../../getting-started/store-details.m
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Sender Name] | Affichage en magasin | Le nom qui apparaît comme expéditeur de l’email envoyé par le `Sales Representative` identité. |
-| [!UICONTROL Sender Email] | Affichage en magasin | L’adresse électronique associée à la variable `Sales Representative` identité. |
+| [!UICONTROL Sender Name] | Affichage en magasin | Nom qui apparaît comme expéditeur de l’email envoyé par l’identité `Sales Representative`. |
+| [!UICONTROL Sender Email] | Affichage en magasin | Adresse électronique associée à l’identité `Sales Representative`. |
 
 {style="table-layout:auto"}
 
@@ -44,19 +44,19 @@ Voir [Stocker les adresses électroniques](../../getting-started/store-details.m
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Sender Name] | Affichage en magasin | Le nom qui apparaît comme expéditeur de l’email envoyé par le `Customer Support` identité. |
-| [!UICONTROL Sender Email] | Affichage en magasin | L’adresse électronique associée à la variable `Customer Support` identité. |
+| [!UICONTROL Sender Name] | Affichage en magasin | Nom qui apparaît comme expéditeur de l’email envoyé par l’identité `Customer Support`. |
+| [!UICONTROL Sender Email] | Affichage en magasin | Adresse électronique associée à l’identité `Customer Support`. |
 
 {style="table-layout:auto"}
 
 ## Custom Email 1
 
-![Stocker les adresses électroniques > Courrier électronique personnalisé 1](./assets/store-email-addresses-custom-email1.png)<!-- zoom -->
+![Stocker les adresses électroniques > Custom Email 1](./assets/store-email-addresses-custom-email1.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Sender Name] | Affichage en magasin | Le nom qui apparaît comme expéditeur de l’email envoyé par le `Custom 1` identité. |
-| [!UICONTROL Sender Email] | Affichage en magasin | L’adresse électronique associée à la variable `Custom 1` identité. |
+| [!UICONTROL Sender Name] | Affichage en magasin | Nom qui apparaît comme expéditeur de l’email envoyé par l’identité `Custom 1`. |
+| [!UICONTROL Sender Email] | Affichage en magasin | Adresse électronique associée à l’identité `Custom 1`. |
 
 {style="table-layout:auto"}
 
@@ -66,7 +66,7 @@ Voir [Stocker les adresses électroniques](../../getting-started/store-details.m
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Sender Name] | Affichage en magasin | Le nom qui apparaît comme expéditeur de l’email envoyé par le `Custom 2` identité. |
-| [!UICONTROL Sender Email] | Affichage en magasin | L’adresse électronique associée à la variable `Custom 2` identité. |
+| [!UICONTROL Sender Name] | Affichage en magasin | Nom qui apparaît comme expéditeur de l’email envoyé par l’identité `Custom 2`. |
+| [!UICONTROL Sender Email] | Affichage en magasin | Adresse électronique associée à l’identité `Custom 2`. |
 
 {style="table-layout:auto"}

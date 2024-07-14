@@ -14,19 +14,19 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-La variable [Points de récompense](rewards-loyalty.md) la section du compte client indique le solde actuel des points de récompense gagnés par le client, ainsi qu’un historique de son solde.
+La section [Points de récompense](rewards-loyalty.md) du compte client indique que l’équilibre actuel des points de récompense gagnés par le client, ainsi qu’un historique de son solde.
 
 ![Points de récompense](./assets/account-dashboard-reward-points.png){width="700" zoomable="yes"}
 
 ## Racheter les points de récompense lors du passage en caisse
 
-If [Taux de change des primes](reward-exchange-rates.md) avec `Points to Currency` la direction est configurée, les clients peuvent utiliser des points de récompense lors du passage en caisse.
+Si le [taux d’Exchange de récompense](reward-exchange-rates.md) avec une direction `Points to Currency` est configuré, les clients peuvent utiliser des points de récompense lors du passage en caisse.
 
 1. Après avoir ajouté tous les produits nécessaires dans le panier, le client passe en caisse.
 
-1. Saisissez toutes les informations d’expédition requises et accédez à la _Révision et paiements_ étape .
+1. Saisissez toutes les informations d’expédition requises et accédez à l’étape _Révision et paiements_.
 
-1. Dans le _[!UICONTROL Reward points]_vérifie le nombre de points disponibles et leur valeur en devise.
+1. Dans la section _[!UICONTROL Reward points]_, vérifie le nombre de points disponibles et leur valeur monétaire.
 
 1. Clics **[!UICONTROL Use reward points]**.
 

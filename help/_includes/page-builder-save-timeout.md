@@ -8,8 +8,8 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Page Builder] Timeout
+# [!DNL Page Builder] Délai d’expiration
 
 >[!NOTE]
 >
->Si vous apportez des modifications importantes à la variable [!DNL Page Builder] , il est recommandé d’augmenter le nombre de [Durée de vie de la session d’administration](../systems/security-admin.md) pour empêcher l’expiration de la session pendant que vous travaillez.
+>Si vous apportez des modifications importantes au contenu [!DNL Page Builder], il est recommandé d’augmenter la durée de vie de la session d’administration [ afin d’empêcher l’expiration de la session pendant que vous travaillez.](../systems/security-admin.md)

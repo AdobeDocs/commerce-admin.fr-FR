@@ -5,7 +5,7 @@ exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 Les ressources Adobe Stock que vous souhaitez utiliser pour vos boutiques Adobe Commerce et Magento Open Source de production doivent être sous licence. Cette licence vous garantit un accès légal à l’image et élimine le filigrane Adobe Stock présent sur tous les [aperçus d’image][save-preview]. Pour acquérir sous licence des images ou enregistrer des images déjà sous licence, vous devez être connecté à votre compte Adobe.
 
-La nouvelle [[!DNL Media Gallery]](media-gallery.md) offre une intégration directe à Adobe Stock, ce qui facilite la licence de vos images directement à partir de la page de la galerie.
+Le nouveau [[!DNL Media Gallery]](media-gallery.md) offre une intégration directe à Adobe Stock, ce qui facilite la licence de vos images directement à partir de la page de la galerie.
 
 ## Conditions préalables
 
-Cette fonctionnalité nécessite la fonction [Intégration Adobe Stock][adobe-stock-integration] module et configuration. Licences [Adobe Stock][adobe-stock] Les images nécessitent un forfait Adobe Stock payant et une [Compte Adobe][adobe-signin].
+Cette fonctionnalité nécessite la configuration et le module [Intégration Adobe Stock][adobe-stock-integration]. L&#39;obtention de licences [Adobe Stock][adobe-stock] nécessite un forfait Adobe Stock payant et un [compte d&#39;Adobe][adobe-signin].
 
-## Licence d’une image à partir de la nouvelle [!DNL Media Gallery]
+## Licence d&#39;une image à partir du nouvel [!DNL Media Gallery]
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
-1. Suivez les étapes de la section [Utilisation d’images Adobe Stock][using-adobe-stock] pour vous connecter et enregistrer des images d’aperçu dans le [stockage multimédia][media-storage].
+1. Suivez les étapes de la section [Utilisation d’images Adobe Stock][using-adobe-stock] pour vous connecter et enregistrer les images d’aperçu dans le [stockage multimédia][media-storage].
 
    ![Image de prévisualisation enregistrée](./assets/adobe-stock-gallery-unlicensed.png){width="600" zoomable="yes"}
 
@@ -36,31 +36,31 @@ Cette fonctionnalité nécessite la fonction [Intégration Adobe Stock][adobe-st
    >
    >Si vous n’êtes pas connecté, le formulaire de connexion s’affiche. Pour plus d’informations sur la connexion, voir [Utilisation d’images Adobe Stock][using-adobe-stock].
 
-1. Dans la boîte de dialogue de confirmation de licence, cliquez sur **[!UICONTROL Confirm]** pour obtenir une licence de l’image.
+1. Dans la boîte de dialogue de confirmation de licence, cliquez sur **[!UICONTROL Confirm]** pour accorder une licence à l’image.
 
    ![Confirmation de licence](./assets/adobe-stock-gallery-license-confirm.png){width="350" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Vous devez être disponible [Crédits Adobe Stock][stock-credits] dans votre compte pour obtenir une licence de l’image.
+   >Vous devez disposer des [crédits Adobe Stock][stock-credits] disponibles dans votre compte pour obtenir une licence pour l’image.
 
 ## Licence d’une image à partir du stockage multimédia standard
 
-1. [Accès à la grille de recherche Adobe Stock][access-search].
+1. [Accédez à la grille de recherche Adobe Stock][access-search].
 
-1. À [afficher les détails de l’image ;][view-details], cliquez sur une image dans la grille de recherche dans l’ordre.
+1. Pour [afficher les détails de l’image][view-details], cliquez sur une image dans la grille de recherche dans l’ordre.
 
 1. Selon l’état actuel des licences de l’image, effectuez l’une des opérations suivantes :
 
    - Si l’image est déjà sous licence, cliquez sur **[!UICONTROL Save]**.
 
-   - Si l’image est _not_ licence, cliquez sur **[!UICONTROL License and Save]**.
+   - Si l’image n’est pas _sous licence_, cliquez sur **[!UICONTROL License and Save]**.
 
      >[!NOTE]
      >
-     >Vous devez être disponible [Crédits Adobe Stock][stock-credits] dans votre compte pour obtenir une licence de l’image.
+     >Vous devez disposer des [crédits Adobe Stock][stock-credits] disponibles dans votre compte pour obtenir une licence pour l’image.
 
-   Cette action vous invite à spécifier un nom de fichier utilisé pour enregistrer l’image dans la variable [stockage multimédia][media-storage]. Un nom de fichier par défaut est fourni, mais vous pouvez le personnaliser selon vos préférences.
+   Cette action vous invite à spécifier un nom de fichier utilisé pour enregistrer l’image dans le [stockage multimédia][media-storage]. Un nom de fichier par défaut est fourni, mais vous pouvez le personnaliser selon vos préférences.
 
    ![Enregistrer l’image sous licence Adobe Stock](./assets/adobe-stock-save-licensed.png){width="550" zoomable="yes"}
 

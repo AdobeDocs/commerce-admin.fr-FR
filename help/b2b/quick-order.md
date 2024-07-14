@@ -5,24 +5,24 @@ exl-id: 7007e1b4-a64f-46fe-a235-3ca9f64e77e4
 feature: B2B, Orders
 source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
 
 # Commandes rapides
 
-La variable _Ordre rapide_ Cette fonctionnalité réduit le processus de commande à plusieurs clics pour les clients qui connaissent le nom ou le SKU du produit qu’ils souhaitent commander. Les commandes comportant plusieurs SKU peuvent être saisies manuellement ou importées dans le formulaire de commande rapide. La commande rapide peut être utilisée par les clients connectés à leurs comptes, ainsi que par les invités. Lorsque cette option est activée, la variable _Ordre rapide_ s’affiche en haut de la page, en regard du nom du client.
+La fonction _Commande rapide_ réduit le processus de commande à plusieurs clics pour les clients qui connaissent le nom ou le SKU du produit qu’ils souhaitent commander. Les commandes comportant plusieurs SKU peuvent être saisies manuellement ou importées dans le formulaire de commande rapide. La commande rapide peut être utilisée par les clients connectés à leurs comptes, ainsi que par les invités. Lorsque cette option est activée, le lien _Commande rapide_ s’affiche en haut de la page, en regard du nom du client.
 
 ![Lien de commande rapide](./assets/quick-order-link.png){width="700" zoomable="yes"}
 
 ## Activation des commandes rapides pour votre boutique
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le _[!UICONTROL General]_dans le panneau de gauche, choisissez **[!UICONTROL B2B Features]**.
+1. Dans la section _[!UICONTROL General]_du panneau de gauche, choisissez **[!UICONTROL B2B Features]**.
 
-1. Définir **[!UICONTROL Enable Quick Order]** to `Yes`.
+1. Définissez **[!UICONTROL Enable Quick Order]** sur `Yes`.
 
    ![Activer l’ordre rapide](./assets/quick-orders-config.png){width="600" zoomable="yes"}
 
@@ -36,33 +36,33 @@ Les clients peuvent spécifier des produits pour les commandes rapides à l’ai
 
 ### Méthode 1 : saisie de produits individuels
 
-1. Le client clique sur la variable **[!UICONTROL Quick Order]** lien.
+1. Le client clique sur le lien **[!UICONTROL Quick Order]** .
 
 1. Sélection du produit par SKU ou nom du produit :
 
-   Pour placer une **commande rapide par SKU**, le client effectue les opérations suivantes :
+   Pour passer une **commande rapide par SKU**, le client effectue les opérations suivantes :
 
-   - entre dans la variable **[!UICONTROL SKU]**.
+   - Entrez le **[!UICONTROL SKU]**.
 
    - Clics **[!UICONTROL Add to List]**.
 
      Le SKU apparaît dans la ligne de saisie, avec les détails du produit ci-dessous.
 
-     ![Détails de la commande rapide](./assets/quick-order-product-detail.png){width="600" zoomable="yes"}
+     ![Détails de commande rapide](./assets/quick-order-product-detail.png){width="600" zoomable="yes"}
 
-   Pour placer une **commande rapide par nom de produit**, le client effectue les opérations suivantes :
+   Pour passer une **commande rapide par nom de produit**, le client effectue les opérations suivantes :
 
-   - Entrez les premiers caractères de la variable **[!UICONTROL Product Name]**.
+   - Entrez les premiers caractères de **[!UICONTROL Product Name]**.
 
      >[!NOTE]
      >
-     >N’utilisez pas la variable _Entrée_ pour choisir le nom du produit.
+     >N’utilisez pas la clé _Entrée_ pour choisir le nom du produit.
 
    - Lorsque la liste des correspondances possibles apparaît, le client clique sur le produit qu’il souhaite commander.
 
-     ![Cliquez sur Choisir le nom du produit .](./assets/quick-order-product-name.png){width="700" zoomable="yes"}
+     ![Cliquez pour choisir le nom du produit](./assets/quick-order-product-name.png){width="700" zoomable="yes"}
 
-1. entre dans la variable **[!UICONTROL Qty]**.
+1. Entrez le **[!UICONTROL Qty]**.
 
 1. En utilisant la ligne d’entrée suivante, répète ce processus autant de fois que nécessaire.
 
@@ -70,17 +70,17 @@ Les clients peuvent spécifier des produits pour les commandes rapides à l’ai
 
 ### Méthode 2 : saisissez plusieurs produits
 
-1. Dans le **[!UICONTROL Enter Multiple SKUs]** , le client effectue l’une des opérations suivantes :
+1. Dans la zone **[!UICONTROL Enter Multiple SKUs]**, le client effectue l’une des opérations suivantes :
 
    - Saisie d’un SKU par ligne
 
    - Saisissez tous les SKU sur la même ligne, séparés par des virgules, et sans espaces.
 
-     ![Saisie de plusieurs SKU](./assets/quick-order-skus.png){width="600" zoomable="yes"}
+     ![Entrer plusieurs SKU](./assets/quick-order-skus.png){width="600" zoomable="yes"}
 
 1. Pour ajouter les produits à la liste, cliquez sur **[!UICONTROL Add to List]**.
 
-1. entre dans la variable **[!UICONTROL Qty]** pour chaque élément de la liste.
+1. Entrez le **[!UICONTROL Qty]** à classer pour chaque élément de la liste.
 
    ![Liste à commandes rapides](./assets/quick-order-skus-detail.png){width="600" zoomable="yes"}
 
@@ -88,13 +88,13 @@ Les clients peuvent spécifier des produits pour les commandes rapides à l’ai
    >
    >Si le produit dispose des options requises, le client est invité à les sélectionner. Ils peuvent attendre d’accéder au panier pour ajouter des options de produit.
 
-   ![Options de sélection](./assets/quick-order-skus-product-options.png){width="600" zoomable="yes"}
+   ![Choose Options](./assets/quick-order-skus-product-options.png){width="600" zoomable="yes"}
 
 ### Méthode 3 : téléchargement d’une liste de produits
 
-1. Dans le _[!UICONTROL Add from File]_, cliquez sur **[!UICONTROL Download Sample]**pour télécharger un modèle de commande.
+1. Dans la section _[!UICONTROL Add from File]_, cliquez sur **[!UICONTROL Download Sample]**pour télécharger un modèle de commande.
 
-   ![Ajouter depuis un fichier](./assets/quick-order-skus-add-from-file.png){width="600" zoomable="yes"}
+   ![Ajouter à partir d’un fichier](./assets/quick-order-skus-add-from-file.png){width="600" zoomable="yes"}
 
 1. Ouvre le fichier téléchargé.
 
@@ -104,7 +104,7 @@ Les clients peuvent spécifier des produits pour les commandes rapides à l’ai
 
    ![SKU à télécharger](./assets/quick-order-skus-add-from-file-sample.png){width="400" zoomable="yes"}
 
-1. Pour charger le fichier, cliquez sur **[!UICONTROL Choose]** et sélectionne le fichier sur son système.
+1. Pour charger le fichier, cliquez sur **[!UICONTROL Choose]** et sélectionnez le fichier sur son système.
 
    Les éléments sont ajoutés à la liste Ordre rapide.
 

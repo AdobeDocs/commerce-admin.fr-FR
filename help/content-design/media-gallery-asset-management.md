@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Gestion des ressources de la galerie multimédia
 
-La nouvelle [Galerie de médias](media-gallery.md) fournit des outils pour gérer les fichiers multimédias chargés et les ressources que vous acquérez au moyen d’une [Intégration d’Adobe Stock](adobe-stock.md). Si vous avez enregistré une Adobe Stock [aperçu d’image](adobe-stock-save-preview.md), vous pouvez également [license](adobe-stock-license-image.md) image dans la nouvelle galerie de médias.
+La nouvelle [galerie de médias](media-gallery.md) fournit des outils pour gérer les fichiers multimédias téléchargés et les ressources que vous acquérez par le biais d’une [intégration Adobe Stock](adobe-stock.md). Si vous avez enregistré un [aperçu d’image](adobe-stock-save-preview.md) Adobe Stock, vous pouvez également [obtenir une licence](adobe-stock-license-image.md) de l’image dans la nouvelle galerie de médias.
 
 ## Chargement d’une ressource
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
 1. Cliquez sur **[!UICONTROL Upload Image]**.
 
@@ -26,11 +26,11 @@ La nouvelle [Galerie de médias](media-gallery.md) fournit des outils pour gére
 
 ## Affichage des détails de la ressource
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
 1. Cliquez sur les trois points sous la ressource (![Icône Détails](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}), puis cliquez sur **[!UICONTROL View Details]**.
 
-   ![Actions des ressources](./assets/media-gallery-asset-actions.png){width="600" zoomable="yes"}
+   ![Actions de ressources](./assets/media-gallery-asset-actions.png){width="600" zoomable="yes"}
 
    Les détails de la ressource s’affichent dans le panneau des diapositives. Ils incluent les informations sur l’emplacement d’utilisation de la ressource :
 
@@ -41,15 +41,15 @@ La nouvelle [Galerie de médias](media-gallery.md) fournit des outils pour gére
 
    ![Détails de la ressource](./assets/media-gallery-asset-details.png){width="600" zoomable="yes"}
 
-   Pour afficher les détails, cliquez sur le bouton **[!UICONTROL Used In]** liens . La grille de l’exemple suivant affiche toutes les catégories dans lesquelles une ressource spécifique est utilisée.
+   Pour afficher les détails, cliquez sur les liens **[!UICONTROL Used In]** . La grille de l’exemple suivant affiche toutes les catégories dans lesquelles une ressource spécifique est utilisée.
 
-   ![Grille de catégories](./assets/media-gallery-asset-categories.png){width="600" zoomable="yes"}
+   ![Grille de catégorie](./assets/media-gallery-asset-categories.png){width="600" zoomable="yes"}
 
-   Il est également possible de supprimer la ressource de la variable _Afficher les détails_ .
+   Il est également possible de supprimer la ressource de la section _Afficher les détails_.
 
 ## Modification d’une ressource
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
 1. Cliquez sur les trois points sous la ressource (![Icône de menu Ressource](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}), puis cliquez sur **[!UICONTROL Edit]**.
 
@@ -67,7 +67,7 @@ La nouvelle [Galerie de médias](media-gallery.md) fournit des outils pour gére
 
 ## Utilisation d’une ressource
 
-Les ressources peuvent être utilisées de manière intensive dans l’ensemble de l’administrateur, comme [ajout ou modification d’une page](page-add.md), [créer ou modifier une catégorie](../catalog/category-create.md), ou [insérer des images depuis l’éditeur de contenu](editor-insert-image.md).
+Assets peut être largement utilisé dans l’ensemble de l’administrateur, par exemple [ajouter ou modifier une page](page-add.md), [créer ou modifier une catégorie](../catalog/category-create.md) ou [insérer des images depuis l’éditeur de contenu](editor-insert-image.md).
 
 1. Accédez à la nouvelle galerie de médias à partir d’une zone qui vous permet d’utiliser des ressources multimédia.
 
@@ -77,9 +77,9 @@ Les ressources peuvent être utilisées de manière intensive dans l’ensemble 
 
 ## Suppression de ressources
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
-1. Cliquez sur **[!UICONTROL Delete Images...]** et cochez la case correspondant à chaque ressource à supprimer.
+1. Cliquez sur **[!UICONTROL Delete Images...]** et cochez la case pour chaque ressource à supprimer.
 
 1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Delete Image]**.
 
@@ -87,11 +87,11 @@ Les ressources peuvent être utilisées de manière intensive dans l’ensemble 
 
 ## Recherche de ressources
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
-1. Utilisez la variable **[!UICONTROL Search by keywords]** entrée pour effectuer une recherche d’image par mots-clés/balises.
+1. Utilisez l’entrée **[!UICONTROL Search by keywords]** pour effectuer une recherche d’image par mots-clés/balises.
 
-   La recherche dans l’exemple suivant trouve des ressources qui contiennent une balise spécifique (`mountain`).
+   La recherche dans l’exemple suivant trouve les ressources qui contiennent une balise spécifique (`mountain`).
 
    ![Recherche de ressources](./assets/media-gallery-asset-search.png){width="600" zoomable="yes"}
 
@@ -103,11 +103,11 @@ Les ressources peuvent être utilisées de manière intensive dans l’ensemble 
 
 >[!NOTE]
 >
->La variable _Utilisé dans_ Cette fonctionnalité requiert les éléments suivants : [!UICONTROL Media Gallery Image Optimization] est activé dans la variable [paramètres de configuration](media-gallery-image-optimization.md).
+>La fonctionnalité _Utilisée dans_ nécessite que [!UICONTROL Media Gallery Image Optimization] soit activé dans les [paramètres de configuration](media-gallery-image-optimization.md).
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Filters]** .
+1. Cliquez sur l’onglet **[!UICONTROL Filters]** .
 
    ![Filtres](./assets/media-gallery-filters.png){width="600" zoomable="yes"}
 
@@ -120,16 +120,16 @@ Les ressources peuvent être utilisées de manière intensive dans l’ensemble 
    - **[!UICONTROL Used in Pages]**
    - **[!UICONTROL Used in Blocks]**
 
-   Vous pouvez également filtrer les ressources par **[!UICONTROL Store View]**, **[!UICONTROL License Status]**, et **[!UICONTROL Content Status]**. Définir la plage de dates pour **[!UICONTROL Uploaded Date]** et/ou **[!UICONTROL Modification Date]** pour filtrer les ressources en fonction des dates du fichier.
+   Vous pouvez également filtrer les ressources par **[!UICONTROL Store View]**, **[!UICONTROL License Status]** et **[!UICONTROL Content Status]**. Définissez une plage de dates pour **[!UICONTROL Uploaded Date]** et/ou **[!UICONTROL Modification Date]** afin de filtrer les ressources en fonction des dates du fichier.
 
-1. Cliquez sur **[!UICONTROL Apply Filters]** pour voir les résultats.
+1. Cliquez sur **[!UICONTROL Apply Filters]** pour afficher les résultats.
 
-   Le filtrage de l’exemple suivant recherche les ressources utilisées dans une catégorie spécifique (`cars`) et sont activés.
+   Le filtrage dans l’exemple suivant trouve les ressources utilisées dans une catégorie spécifique (`cars`) et qui sont activées.
 
-   ![Filtrage des ressources activées par catégorie](./assets/media-gallery-filter-by-category.png){width="600" zoomable="yes"}
+   ![Filtre pour Assets activé par catégorie](./assets/media-gallery-filter-by-category.png){width="600" zoomable="yes"}
 
 ## Recherche de doublons d’image
 
-1. Cliquez sur le bouton **[!UICONTROL Filters]** et sélectionnez l’option **[!UICONTROL Show duplicates]** .
+1. Cliquez sur l’onglet **[!UICONTROL Filters]** et cochez la case **[!UICONTROL Show duplicates]** .
 
 1. Pour afficher les résultats, cliquez sur **[!UICONTROL Apply Filters]**.

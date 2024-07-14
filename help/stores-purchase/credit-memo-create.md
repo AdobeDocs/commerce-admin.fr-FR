@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # Envoi d’une note de crédit
 
-Avant de pouvoir imprimer une note de crédit, elle doit d’abord être générée pour un [commande facturée](invoices.md#create-an-invoice). Vous pouvez émettre des remboursements en ligne et hors ligne (partiels ou complets) à partir d’un avoir ouvert, selon le mode de paiement.
+Avant de pouvoir imprimer une note de crédit, elle doit d’abord être générée pour une [commande facturée](invoices.md#create-an-invoice). Vous pouvez émettre des remboursements en ligne et hors ligne (partiels ou complets) à partir d’un avoir ouvert, selon le mode de paiement.
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Les remboursements peuvent être appliqués au crédit de magasin.
 - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Les remboursements peuvent être appliqués au crédit de la société.
 - Les achats effectués par carte de crédit peuvent être remboursés en ligne ou hors ligne.
 - Les achats effectués par chèque ou par mandat doivent être remboursés hors ligne.
 
-Toute note de crédit comportant une [état d’ouverture](order-status.md) a un remboursement dû.
+Toute note de crédit avec un [état d&#39;ouverture](order-status.md) a un remboursement dû en suspens.
 
 Avec les notes de crédit, vous pouvez :
 
@@ -33,40 +33,40 @@ Voir [Créer une facture](invoices.md#create-an-invoice) pour plus d’informati
 
 ## Paramètre d’action de paiement
 
-Le workflow de remboursement des commandes payées par carte de crédit est déterminé par la variable [Paramètre Action de paiement](../configuration-reference/sales/payment-methods.md#payment-actions) dans la configuration de chaque mode de paiement disponible. Les remboursements ne peuvent pas être émis tant que la transaction n&#39;a pas été réglée.
+Le processus de remboursement des commandes payées par carte de crédit est déterminé par le [paramètre d’action de paiement](../configuration-reference/sales/payment-methods.md#payment-actions) dans la configuration de chaque mode de paiement disponible. Les remboursements ne peuvent pas être émis tant que la transaction n&#39;a pas été réglée.
 
-![Paramètre Action de paiement](./assets/payment-action-setting.png){width="600" zoomable="yes"}
+![ Paramètre d’action de paiement ](./assets/payment-action-setting.png){width="600" zoomable="yes"}
 
-- Si l’action de paiement de votre mode de paiement configuré est définie sur `Authorize`, vous devez d’abord générer la facture à partir de l’administrateur avant de pouvoir créer une note de crédit.
-- Si l’action de paiement pour votre mode de paiement configuré est définie sur `Authorize and Capture`, la facture a déjà été générée par l&#39;entité de traitement des paiements, mais les fonds ne sont pas disponibles tant que la transaction n&#39;a pas été réglée. Cette courte période d’attente est recommandée par de nombreux responsables de paiement comme mesure de sécurité et peut généralement être gérée automatiquement. Les transactions peuvent également être réglées manuellement à partir de votre compte marchand auprès du responsable du traitement des paiements.
+- Si l’action de paiement de votre mode de paiement configuré est définie sur `Authorize`, vous devez d’abord générer la facture auprès de l’administrateur avant de pouvoir créer un avoir de crédit.
+- Si l’action de paiement pour le mode de paiement que vous avez configuré est définie sur `Authorize and Capture`, la facture a déjà été générée par l’entité de traitement des paiements, mais les fonds ne sont pas disponibles tant que la transaction n’a pas été réglée. Cette courte période d’attente est recommandée par de nombreux responsables de paiement comme mesure de sécurité et peut généralement être gérée automatiquement. Les transactions peuvent également être réglées manuellement à partir de votre compte marchand auprès du responsable du traitement des paiements.
 - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Si vous créez un avoir pour une commande qui comprend des options de cadeau, le remboursement de l’emballage cadeau et/ou de la carte imprimée s’affiche dans la section Totaux des remboursements de la note de crédit. Pour exclure ces coûts du montant à rembourser, indiquez le montant en tant que frais d’ajustement. Si plusieurs notes de crédit sont émises pour la même commande, le remboursement des options de cadeau n’apparaît que dans la première note de crédit.
 
 ## Création d’une note de crédit
 
-Déterminez le type de remboursement que vous souhaitez effectuer, pour un [achat de crédit](#issue-a-refund-for-a-credit-purchase) ou [chèque ou mandat](#issue-an-offline-refund-for-check-or-money-order)- et générer l’avoir et émettre un remboursement.
+Déterminez le type de remboursement que vous souhaitez émettre (pour un [achat de crédit](#issue-a-refund-for-a-credit-purchase) ou pour un [chèque ou mandat financier](#issue-an-offline-refund-for-check-or-money-order)), générez l’avoir de crédit et effectuez un remboursement.
 
 ### Émettre un remboursement pour un achat de crédit
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
-   ![Grille des commandes](./assets/orders-grid.png){width="700" zoomable="yes"}
+   ![Grille de commandes](./assets/orders-grid.png){width="700" zoomable="yes"}
 
 1. Recherchez l’ordre dans la grille, puis cliquez sur **[!UICONTROL View]**.
 
-1. Si la variable _[!UICONTROL Credit Memo]_est visible dans la barre de boutons. Pour ce faire, effectuez l’une des opérations suivantes :
+1. Si le bouton _[!UICONTROL Credit Memo]_est visible dans la barre de boutons, effectuez l’une des opérations suivantes :
 
-   - Pour émettre un `offline` remboursez, allez à l&#39;étape #6.
-   - Pour émettre un `online` remboursez, continuez avec l&#39;étape #4.
+   - Pour effectuer un remboursement `offline`, suivez l&#39;étape #6.
+   - Pour effectuer un remboursement `online`, passez à l&#39;étape #4.
 
-   Voir [Avoir](credit-memos.md) pour plus d’informations sur les remboursements hors ligne et en ligne.
+   Pour plus d’informations sur les remboursements en ligne et hors ligne, voir [Mémos de crédit](credit-memos.md) .
 
 1. Cliquez sur **[!UICONTROL Invoices]** dans le panneau de gauche.
 
 1. Recherchez la facture dans la grille et cliquez sur **[!UICONTROL View]**.
 
-   ![Grille des factures](./assets/order-invoices-grid.png){width="700" zoomable="yes"}
+   ![Grille de factures](./assets/order-invoices-grid.png){width="700" zoomable="yes"}
 
-1. Faites défiler l’écran vers le bas jusqu’à **[!UICONTROL Invoice Totals]** de la facture, vérifiez que la facture est définie sur `Capture Online`, puis cliquez sur **[!UICONTROL Submit Invoice]**.
+1. Faites défiler l’écran jusqu’à la section **[!UICONTROL Invoice Totals]** de la facture, vérifiez que la facture est définie sur `Capture Online`, puis cliquez sur **[!UICONTROL Submit Invoice]**.
 
    ![Capture en ligne](./assets/order-invoice-capture-online.png){width="600" zoomable="yes"}
 
@@ -74,17 +74,17 @@ Déterminez le type de remboursement que vous souhaitez effectuer, pour un [acha
 
 1. Dans la barre de boutons située en haut de la facture, cliquez sur **[!UICONTROL Credit Memo]**.
 
-1. Vérifiez les informations dans la variable **[!UICONTROL Items to Refund]** et procédez comme suit, le cas échéant :
+1. Vérifiez les informations de la section **[!UICONTROL Items to Refund]** et procédez comme suit, le cas échéant :
 
-   - Pour revenir à l’inventaire du produit, sélectionnez l’option **[!UICONTROL Return to Stock]** .
+   - Pour renvoyer le produit à l’inventaire, cochez la case **[!UICONTROL Return to Stock]** .
 
-     Le produit revient automatiquement en stock si _Options d’inventaire des produits_ est défini sur `Automatically Return Credit Memo Item to Stock`. Avec [Compatibilité Inventory management](../inventory-management/enable.md), l’élément revient à la source qui a envoyé l’envoi.
+     Le produit revient automatiquement en stock si _Product Stock Options_ est défini sur `Automatically Return Credit Memo Item to Stock`. Avec [Inventory management activé](../inventory-management/enable.md), l’élément revient à la source qui a envoyé l’envoi.
 
-   - Mettez à jour le **[!UICONTROL Qty to Refund]**, puis cliquez sur **[!UICONTROL Update Qty's]**.
+   - Mettez à jour **[!UICONTROL Qty to Refund]**, puis cliquez sur **[!UICONTROL Update Qty's]**.
 
      ![Éléments à rembourser](./assets/invoice-credit-memo-items-to-refund.png){width="600" zoomable="yes"}
 
-1. Mettez à jour le **[!UICONTROL Refunds Totals]** , comme suit :
+1. Mettez à jour la section **[!UICONTROL Refunds Totals]** comme suit :
 
    - Pour **[!UICONTROL Refund Shipping]**, saisissez le montant qui doit être remboursé à partir des frais de livraison.
 
@@ -98,55 +98,55 @@ Déterminez le type de remboursement que vous souhaitez effectuer, pour un [acha
 
      Ce montant n’est pas soustrait d’une section spécifique de la commande, telle que les frais d’expédition, les articles ou la taxe.
 
-1. Pour ajouter un commentaire, saisissez le texte dans le champ **[!UICONTROL Credit Memo Comments]** de la boîte.
+1. Pour ajouter un commentaire, saisissez le texte dans la zone **[!UICONTROL Credit Memo Comments]**.
 
-   - Pour envoyer une notification électronique au client, sélectionnez la variable **[!UICONTROL Email Copy of Credit Memo]** .
+   - Pour envoyer une notification électronique au client, cochez la case **[!UICONTROL Email Copy of Credit Memo]** .
 
 1. Cliquez sur **[!UICONTROL Update Totals]**.
 
 1. Effectuez les opérations suivantes, le cas échéant :
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Pour rembourser le montant au crédit de la boutique du client, sélectionnez la variable **[!UICONTROL Refund to Store Credit]** .
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Pour rembourser le montant au crédit de la boutique du client, cochez la case **[!UICONTROL Refund to Store Credit]** .
 
-   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Pour rembourser le montant au crédit de la société du client, sélectionnez la variable **[!UICONTROL Refund to Company Credit]** .
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Pour rembourser le montant au crédit de la société du client, cochez la case **[!UICONTROL Refund to Company Credit]** .
 
-   - Pour émettre sur un remboursement hors ligne, cliquez sur **[!UICONTROL Refund Offline]**.
+   - Pour émettre un remboursement hors ligne, cliquez sur **[!UICONTROL Refund Offline]**.
 
    - Pour effectuer un remboursement en ligne, cliquez sur **[!UICONTROL Refund]**.
 
    - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Si l’achat a été payé avec le crédit de la société, cliquez sur **[!UICONTROL Refund to Company Credit]**.
 
-   Voir [Avoir](credit-memos.md) pour plus d’informations sur les remboursements hors ligne et en ligne.
+   Pour plus d’informations sur les remboursements en ligne et hors ligne, voir [Mémos de crédit](credit-memos.md) .
 
-   ![Remboursement total de la commande](./assets/credit-memo-order-total-refund.png){width="600" zoomable="yes"}
+   ![}Remboursement total de la commande](./assets/credit-memo-order-total-refund.png){width="600" zoomable="yes"}
 
 ### Émettre un remboursement hors ligne pour un chèque ou un mandat
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
-1. Recherchez l’ordre renseigné dans la grille et ouvrez-le en cliquant sur le bouton **[!UICONTROL View]** lien.
+1. Recherchez l’ordre terminé dans la grille et ouvrez-le en cliquant sur le lien **[!UICONTROL View]** .
 
-1. Dans la barre de boutons située en haut de la page, cliquez sur **[!UICONTROL Invoice]**.
+1. Dans la barre de boutons en haut de la page, cliquez sur **[!UICONTROL Invoice]**.
 
-1. Faites défiler la page vers le bas, puis cliquez sur **[!UICONTROL Submit Invoice]**.
+1. Faites défiler la page vers le bas et cliquez sur **[!UICONTROL Submit Invoice]**.
 
 1. Dans la barre de boutons située en haut de la facture, cliquez sur **[!UICONTROL Credit Memo]**.
 
-   ![Créer une note de crédit](./assets/order-invoice-info-company.png){width="600" zoomable="yes"}
+   ![Créer un avoir](./assets/order-invoice-info-company.png){width="600" zoomable="yes"}
 
-1. Vérifiez les informations dans la variable **[!UICONTROL Items to Refund]** et procédez comme suit, le cas échéant :
+1. Vérifiez les informations de la section **[!UICONTROL Items to Refund]** et procédez comme suit, le cas échéant :
 
    ![Éléments à rembourser](./assets/credit-memo-items-to-refund.png){width="600" zoomable="yes"}
 
-   - Sélectionnez la variable **[!UICONTROL Return to Stock]** si vous souhaitez renvoyer le produit renvoyé à l’inventaire.
+   - Cochez la case **[!UICONTROL Return to Stock]** si vous souhaitez renvoyer le produit renvoyé à l’inventaire.
 
-     Lorsque Inventory management est activé, la quantité de stock revient à la source qui a envoyé l’envoi. Le produit revient automatiquement en stock si [Options d’inventaire des produits](../inventory-management/enable.md) est défini sur `Automatically Return Credit Memo Item to Stock`.
+     Lorsque Inventory management est activé, la quantité de stock revient à la source qui a envoyé l’envoi. Le produit revient automatiquement en stock si [Product Stock Options](../inventory-management/enable.md) est défini sur `Automatically Return Credit Memo Item to Stock`.
 
-   - Mettez à jour le **[!UICONTROL Qty to Refund]** et cliquez sur **[!UICONTROL Update Qty's]**.
+   - Mettez à jour **[!UICONTROL Qty to Refund]** et cliquez sur **[!UICONTROL Update Qty's]**.
 
      Le montant à créditer ne peut excéder le montant maximum disponible pour le remboursement.
 
-1. Mettez à jour le **[!UICONTROL Refunds Totals]** le cas échéant :
+1. Mettez à jour la section **[!UICONTROL Refunds Totals]** selon le cas :
 
    - Pour **[!UICONTROL Refund Shipping]**, saisissez le montant qui doit être remboursé à partir des frais de livraison.
 
@@ -160,19 +160,19 @@ Déterminez le type de remboursement que vous souhaitez effectuer, pour un [acha
 
      Ce montant n’est pas soustrait d’une section spécifique de la commande, telle que les frais d’expédition, les articles ou la taxe.
 
-   - Si l’achat a été payé avec le crédit de magasin, sélectionnez la variable **[!UICONTROL Refund to Store Credit]** pour créditer le montant au solde du compte client.
+   - Si l’achat a été payé avec un crédit de magasin, cochez la case **[!UICONTROL Refund to Store Credit]** pour créditer le montant au solde du compte client.
 
-1. Pour ajouter un commentaire, saisissez le texte dans le champ **[!UICONTROL Credit Memo Comments]** et procédez comme suit :
+1. Pour ajouter un commentaire, saisissez le texte dans la zone **[!UICONTROL Credit Memo Comments]** et procédez comme suit :
 
-   - Pour envoyer une notification électronique au client, sélectionnez la variable **[!UICONTROL Email Copy of Credit Memo]** .
+   - Pour envoyer une notification électronique au client, cochez la case **[!UICONTROL Email Copy of Credit Memo]** .
 
-   - Pour inclure les commentaires que vous avez saisis dans l&#39;email, sélectionnez le **[!UICONTROL Append Comments]** .
+   - Pour inclure les commentaires que vous avez saisis dans l&#39;email, cochez la case **[!UICONTROL Append Comments]** .
 
      L’état d’une notification de note de crédit s’affiche dans la note de crédit terminée en regard du numéro de la note de crédit.
 
-     ![Totaux des remboursements](./assets/credit-memo-order-totals.png){width="600" zoomable="yes"}
+     ![Totaux de remboursement](./assets/credit-memo-order-totals.png){width="600" zoomable="yes"}
 
-1. Pour terminer le traitement et émettre le remboursement, cliquez sur **[!UICONTROL Refund Offline]**.
+1. Pour terminer le processus et émettre le remboursement, cliquez sur **[!UICONTROL Refund Offline]**.
 
 ## Descriptions des champs
 
@@ -180,7 +180,7 @@ Déterminez le type de remboursement que vous souhaitez effectuer, pour un [acha
 
 | Champ | Description |
 |--- |--- |
-| [!UICONTROL Order Number] | Le numéro de commande apparaît dans la variable _Informations sur la commande et le compte_, suivie d’une note indiquant si l’email de confirmation a été envoyé. |
+| [!UICONTROL Order Number] | Le numéro de commande apparaît dans les _Informations sur la commande et le compte_, suivies d’une note indiquant si l’e-mail de confirmation a été envoyé. |
 | [!UICONTROL Order Date] | Date et heure auxquelles la commande a été passée. |
 | [!UICONTROL Order Status] | Indique l’état de la commande comme `Complete`. |
 | [!UICONTROL Purchased From] | Indique la vue du site web, du magasin et du magasin où la commande a été passée. |
@@ -203,7 +203,7 @@ Déterminez le type de remboursement que vous souhaitez effectuer, pour un [acha
 
 | Champ | Description |
 |--- |--- |
-| [!UICONTROL Billing Address] | Nom du client ou de l’acheteur qui a passé la commande, suivi de l’adresse de facturation, du numéro de téléphone et [TVA](vat.md), le cas échéant. Le numéro de téléphone est associé à une numérotation automatique sur un appareil mobile. |
+| [!UICONTROL Billing Address] | Nom du client ou de l’acheteur qui a passé la commande, suivi de l’adresse de facturation, du numéro de téléphone et de la [TVA](vat.md), le cas échéant. Le numéro de téléphone est associé à une numérotation automatique sur un appareil mobile. |
 | [!UICONTROL Shipping Address] | Nom de la personne à l’attention de laquelle la commande doit être expédiée, suivi de l’adresse de livraison et du numéro de téléphone. Le numéro de téléphone est associé à une numérotation automatique sur un appareil mobile. |
 
 {style="table-layout:auto"}
@@ -212,7 +212,7 @@ Déterminez le type de remboursement que vous souhaitez effectuer, pour un [acha
 
 | Champ | Description |
 |--- |--- |
-| [!UICONTROL Payment Information] | Mode de paiement à utiliser pour la commande et numéro de la commande, le cas échéant, suivi de la devise utilisée pour la commande. Si la commande est imputée au crédit de la société à l’aide de [Paiement sur compte](../b2b/enable-basic-features.md#configure-payment-on-account), le montant imputé au compte est indiqué. |
+| [!UICONTROL Payment Information] | Mode de paiement à utiliser pour la commande et numéro de la commande, le cas échéant, suivi de la devise utilisée pour la commande. Si la commande est imputée au crédit de l’entreprise par l’intermédiaire de l’option [ Paiement sur le compte ](../b2b/enable-basic-features.md#configure-payment-on-account), le montant imputé au compte est indiqué. |
 | [!UICONTROL Shipping & Handling Information] | Le mode d’expédition à utiliser et les frais de gestion applicables. |
 
 {style="table-layout:auto"}
@@ -254,7 +254,7 @@ Déterminez le type de remboursement que vous souhaitez effectuer, pour un [acha
 | [!UICONTROL Append Comments] | Case à cocher qui détermine si les commentaires sont inclus dans l’avoir. |
 | [!UICONTROL Email Copy of Credit Memo] | Case à cocher qui détermine si une copie de la note de crédit est envoyée par courrier électronique. |
 | [!UICONTROL Refund to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Case à cocher qui détermine si le total doit être remboursé à [crédit de magasin](../customers/store-credit-using.md). |
-| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Total de tous les éléments de ligne à rembourser. |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Le total de tous les éléments de ligne à rembourser. |
 
 {style="table-layout:auto"}
 
@@ -266,15 +266,15 @@ Le mode de paiement utilisé pour la commande détermine les boutons de rembours
 |--- |--- |
 | **[!UICONTROL Refund]** | Si l&#39;achat initial a été payé par carte de crédit via une passerelle de paiement, le montant du remboursement est géré par le responsable du traitement des paiements. Pour gérer les remboursements, consultez la documentation fournie par votre fournisseur de paiement. |
 | **[!UICONTROL Refund Offline]** | Si l&#39;achat d&#39;origine a été payé par chèque ou par mandat, le remboursement est versé directement au client, par l&#39;émission d&#39;un chèque, d&#39;une carte-cadeau ou d&#39;un liquide si vous avez une vitrine en brique et mortier. L’avoir sert d’enregistrement de la transaction hors ligne. |
-| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Si l’achat a été imputé au crédit de la société, le remboursement est renvoyé au [Compte de société](../b2b/credit-company.md). |
+| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Si l’achat a été imputé au crédit de la société, le remboursement est renvoyé au [compte de la société](../b2b/credit-company.md). |
 
 {style="table-layout:auto"}
 
 ## Imprimer une note de crédit
 
-Pour imprimer ou afficher l’avoir terminé, un lecteur de PDF doit être installé. Vous pouvez télécharger [Adobe Reader][1] sans frais.
+Pour imprimer ou afficher l’avoir terminé, un lecteur de PDF doit être installé. Vous pouvez télécharger [Adobe Reader][1] gratuitement.
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Credit Memos]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Credit Memos]**.
 
 1. Utilisez l’une des méthodes suivantes pour imprimer la note de crédit :
 
@@ -284,15 +284,15 @@ Pour imprimer ou afficher l’avoir terminé, un lecteur de PDF doit être insta
 
 1. Cliquez sur **[!UICONTROL Print]**.
 
-   ![Imprimer l’avoir](./assets/credit-memo-print.png){width="600" zoomable="yes"}
+   ![Imprimer la note de crédit](./assets/credit-memo-print.png){width="600" zoomable="yes"}
 
 ### Méthode 2 : impression de plusieurs avoir
 
 1. Dans la liste, cochez la case de chaque note de crédit à imprimer.
 
-1. Définissez la variable **[!UICONTROL Actions]** contrôler à `PDF Credit Memos` et cliquez sur **[!UICONTROL Submit]**.
+1. Définissez la commande **[!UICONTROL Actions]** sur `PDF Credit Memos` et cliquez sur **[!UICONTROL Submit]**.
 
-   ![Imprimer les notes de crédit sélectionnées](./assets/credit-memos-print.png){width="600" zoomable="yes"}
+   ![Imprimer les avoirs sélectionnés](./assets/credit-memos-print.png){width="600" zoomable="yes"}
 
 1. Lorsque vous y êtes invité, effectuez l’une des opérations suivantes :
 

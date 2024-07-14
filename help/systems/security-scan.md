@@ -22,22 +22,22 @@ L’analyse de sécurité améliorée vous permet de surveiller chacun de vos si
 - Accédez aux rapports de sécurité historiques qui effectuent le suivi et le suivi de la progression de vos sites.
 - Accédez au rapport d’analyse qui affiche les vérifications réussies et en échec, avec toutes les actions recommandées.
 
-L’outil d’analyse de sécurité est disponible gratuitement dans le tableau de bord de votre [Compte Commerce/Magento](../getting-started/commerce-account-create.md). Pour obtenir des informations techniques, voir [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) dans le _Guide d’infrastructure de Commerce on Cloud_.
+L’outil d’analyse de sécurité est disponible gratuitement depuis le tableau de bord de votre [compte Commerce/Magento](../getting-started/commerce-account-create.md). Pour obtenir des informations techniques, reportez-vous à la section [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) du _Guide d’infrastructure de Commerce on Cloud_.
 
-![Outil d&#39;analyse de sécurité](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+![Outil d’analyse de sécurité](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## Exécution d’une analyse de sécurité
 
-1. Sur la page d’accueil de Commerce, connectez-vous à [Compte Commerce/Magento](../getting-started/commerce-account-create.md).
+1. Sur la page d’accueil de Commerce, connectez-vous à votre [compte Commerce/Magento](../getting-started/commerce-account-create.md).
 
 1. Examinez et acceptez les conditions d’utilisation de l’outil d’analyse de sécurité.
 
    - Dans le panneau de gauche, choisissez **[!UICONTROL Security Scan]**.
    - Cliquez sur **[!UICONTROL Go to Security Scan]**.
-   - Lisez la section **[!UICONTROL Terms and Conditions]**.
+   - Lisez le **[!UICONTROL Terms and Conditions]**.
    - Cliquez sur **[!UICONTROL Agree]** pour continuer.
 
-1. Sur le _[!UICONTROL Monitored Websites]_page, cliquez sur **[!UICONTROL +Add Site]**.
+1. Sur la page _[!UICONTROL Monitored Websites]_, cliquez sur **[!UICONTROL +Add Site]**.
 
    Si vous disposez de plusieurs sites avec des domaines différents, configurez une analyse distincte pour chaque domaine.
 
@@ -45,30 +45,30 @@ L’outil d’analyse de sécurité est disponible gratuitement dans le tableau 
 
 1. Pour vérifier que vous êtes propriétaire du domaine du site en ajoutant un code de confirmation, effectuez l’une des opérations suivantes :
 
-   **Commerce storefront**:
+   **Commerce storefront** :
 
-   - Saisissez le **[!UICONTROL Site URL]** et **[!UICONTROL Site Name]**.
+   - Saisissez les **[!UICONTROL Site URL]** et **[!UICONTROL Site Name]**.
    - Cliquez sur **[!UICONTROL Generate Confirmation Code]**.
-   - Cliquez sur **Copier** pour copier votre code de confirmation dans le presse-papiers.
+   - Cliquez sur **Copier** pour copier votre code de confirmation dans le Presse-papiers.
 
      ![Générer un code de confirmation](./assets/scan-site1.png){width="400" zoomable="yes"}
 
    - Connectez-vous à l’administrateur de votre boutique en tant qu’utilisateur disposant de droits d’administrateur complets et procédez comme suit :
 
-      - Dans le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+      - Dans la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
       - Recherchez votre site dans la liste, puis cliquez sur **[!UICONTROL Edit]**.
-      - Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL HTML Head]** .
-      - Faites défiler jusqu’à **[!UICONTROL Scripts and Style Sheets]** et cliquez dans la zone de texte à la fin d’un code existant, puis collez le code de confirmation dans la zone de texte.
+      - Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL HTML Head]** .
+      - Faites défiler l’écran jusqu’à **[!UICONTROL Scripts and Style Sheets]** et cliquez dans la zone de texte à la fin d’un code existant, puis collez le code de confirmation dans la zone de texte.
 
         ![Scripts et feuilles de style](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
-      - Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Configuration]**.
+      - Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Configuration]**.
 
-   **storefront PWA**:
+   **PWA storefront** :
 
-   - Saisissez le **[!UICONTROL Site URL]** et **[!UICONTROL Site Name]**.
+   - Saisissez les **[!UICONTROL Site URL]** et **[!UICONTROL Site Name]**.
 
-   - Pour **[!UICONTROL Confirmation Code]**, choisissez la variable `META Tag` puis cliquez sur **[!UICONTROL Generate Code]**.
+   - Pour **[!UICONTROL Confirmation Code]**, choisissez l’option `META Tag`, puis cliquez sur **[!UICONTROL Generate Code]**.
 
    - Cliquez sur **[!UICONTROL Copy]** pour copier le code de confirmation généré META Tag dans le presse-papiers.
 
@@ -76,8 +76,8 @@ L’outil d’analyse de sécurité est disponible gratuitement dans le tableau 
 
    - Accédez au répertoire du projet storefront PWA Studio et procédez comme suit :
 
-      - Sous le répertoire du projet PWA Studio, accédez à `packages > venia-concept > template.html`.
-      - Ajoutez le code de confirmation copié (la balise META générée) à l’en-tête du HTML et enregistrez les modifications.
+      - Dans le répertoire du projet du PWA Studio, accédez à `packages > venia-concept > template.html`.
+      - Ajoutez le code de confirmation copié (la balise META générée) à l’en-tête de l’HTML et enregistrez les modifications.
 
         ![Copier le code de confirmation](./assets/code-pwa.png){width="600" zoomable="yes"}
 
@@ -88,7 +88,7 @@ L’outil d’analyse de sécurité est disponible gratuitement dans le tableau 
         yarn build
         ```
 
-      - *Dans votre projet Cloud*, créez un `pwa` et copiez le contenu dans le dossier de votre projet storefront. `dist` dossier.
+      - *Dans votre projet cloud*, créez un dossier `pwa` et copiez le contenu dans le dossier `dist` de votre projet storefront.
 
         ```sh
         mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
@@ -104,29 +104,29 @@ L’outil d’analyse de sécurité est disponible gratuitement dans le tableau 
 
         Une fois le processus de création terminé, les modifications sont déployées vers l’interface de votre boutique de PWA.
 
-1. Revenez au _[!UICONTROL Security Scan]_dans votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**pour établir la propriété du domaine.
+1. Revenez à la page _[!UICONTROL Security Scan]_de votre compte Commerce et cliquez sur **[!UICONTROL Verify Confirmation Code]**pour établir la propriété du domaine.
 
-1. Après une confirmation réussie, configurez la variable **[!UICONTROL Set Automatic Security Scan]** pour l’un des types suivants :
+1. Après une confirmation réussie, configurez les options **[!UICONTROL Set Automatic Security Scan]** pour l’un des types suivants :
 
-   **Analyser hebdomadaire (recommandé)**:
+   **Analyser hebdomadaire (recommandé)** :
 
-   - Choisissez la **[!UICONTROL Week Day]**, **[!UICONTROL Time]**, et **[!UICONTROL Time Zone]** que l&#39;analyse doit avoir lieu chaque semaine.
+   - Sélectionnez les **[!UICONTROL Week Day]**, **[!UICONTROL Time]** et **[!UICONTROL Time Zone]** que l&#39;analyse doit avoir lieu chaque semaine.
    - Par défaut, l’analyse doit commencer chaque semaine à minuit le samedi, en UTC, et se poursuivre jusqu’au début du dimanche.
 
      ![Analyser hebdomadaire](./assets/scan-weekly.png){width="500" zoomable="yes"}
 
-   **Analyser quotidiennement**:
+   **Analyser quotidiennement** :
 
-   - Choisissez la **[!UICONTROL Time]**, et **[!UICONTROL Time Zone]** que l&#39;analyse doit avoir lieu tous les jours.
+   - Sélectionnez les **[!UICONTROL Time]** et **[!UICONTROL Time Zone]** que l&#39;analyse doit avoir lieu chaque jour.
    - Par défaut, l’analyse est planifiée tous les jours à minuit (UTC).
 
      ![Analyser quotidiennement](./assets/scan-daily.png){width="500" zoomable="yes"}
 
-1. Saisissez le **[!UICONTROL Email Address]** où vous souhaitez recevoir des notifications des analyses terminées et des mises à jour de sécurité.
+1. Saisissez le **[!UICONTROL Email Address]** où vous souhaitez recevoir les notifications des analyses terminées et des mises à jour de sécurité.
 
-   ![Adresse électronique](./assets/scan-notification-email.png){width="400" zoomable="yes"}
+   ![Adresse de courriel](./assets/scan-notification-email.png){width="400" zoomable="yes"}
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Submit]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Submit]**.
 
    Une fois la propriété du domaine vérifiée, le site apparaît dans la liste Sites web surveillés de votre compte Commerce.
 

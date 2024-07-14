@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Avec l’installation et l’activation d’Adobe Commerce B2B, l’expérience d’achat peut être personnalisée avec des fonctionnalités spécifiques à l’entreprise. Adobe Commerce B2B est une solution intégrée qui prend en charge les modèles B2B et B2C. Pour plus d’informations sur les fonctionnalités B2B, voir [_Guide de l’utilisateur d’Adobe Commerce B2B_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Avec l’installation et l’activation d’Adobe Commerce B2B, l’expérience d’achat peut être personnalisée avec des fonctionnalités spécifiques à l’entreprise. Adobe Commerce B2B est une solution intégrée qui prend en charge les modèles B2B et B2C. Pour plus d’informations sur les fonctionnalités B2B, consultez le [_Guide de l’utilisateur d’Adobe Commerce B2B_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 >[!NOTE]
 >
->L’accès à ces options de configuration pour les fonctionnalités B2B est contrôlé par la variable [ressources de rôle](../../systems/permissions-user-roles.md#role-resources). Ces ressources de rôle doivent être définies pour le rôle utilisateur attribué à l’utilisateur administrateur.
+>L’accès à ces options de configuration pour les fonctionnalités B2B est contrôlé par les [ressources de rôle](../../systems/permissions-user-roles.md#role-resources). Ces ressources de rôle doivent être définies pour le rôle utilisateur attribué à l’utilisateur administrateur.
 
 ## [!UICONTROL General]
 
@@ -32,6 +32,6 @@ ht-degree: 0%
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Number of Requisition Lists] | Affichage en magasin | Détermine le nombre maximal de listes de demandes d’achat qui peuvent être conservées par compte client. Le nombre minimum est `2`, et le nombre maximal est `999`. |
+| [!UICONTROL Number of Requisition Lists] | Affichage en magasin | Détermine le nombre maximal de listes de demandes d’achat qui peuvent être conservées par compte client. Le nombre minimum est `2` et le nombre maximum est `999`. |
 
 {style="table-layout:auto"}

@@ -6,7 +6,7 @@ role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -27,19 +27,19 @@ Pour les utilisateurs ou les rôles temporaires, vous pouvez également définir
 
 ## Création d’un utilisateur
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL All Users]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL All Users]**.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add New User]**.
 
-   Pour modifier un utilisateur existant, cliquez sur un nom d’utilisateur dans la grille. Vous pouvez modifier le _[!UICONTROL User Info]_et_[!UICONTROL User Role]_ le cas échéant.
+   Pour modifier un utilisateur existant, cliquez sur un nom d’utilisateur dans la grille. Vous pouvez modifier les sections _[!UICONTROL User Info]_et_[!UICONTROL User Role]_ si nécessaire.
 
-1. Dans le _[!UICONTROL Account Information]_, procédez comme suit :
+1. Dans la section _[!UICONTROL Account Information]_, procédez comme suit :
 
-   ![Informations du compte utilisateur](./assets/permissions-user-new.png){width="600" zoomable="yes"}
+   ![Informations sur le compte utilisateur](./assets/permissions-user-new.png){width="600" zoomable="yes"}
 
-   - Saisissez le **[!UICONTROL User Name]** pour compte.
+   - Saisissez le **[!UICONTROL User Name]** du compte.
 
-     Le nom d’utilisateur doit être facile à mémoriser. Il n’est pas sensible à la casse. Par exemple, si le nom d’utilisateur est `John`, ils peuvent également se connecter en tant que `john`.
+     Le nom d’utilisateur doit être facile à mémoriser. Il n’est pas sensible à la casse. Par exemple, si le nom d’utilisateur est `John`, il peut également se connecter en tant que `john`.
 
    - Renseignez les informations suivantes :
 
@@ -49,27 +49,27 @@ Pour les utilisateurs ou les rôles temporaires, vous pouvez également définir
 
      Chaque compte utilisateur doit disposer d’une adresse électronique unique.
 
-   - Saisissez un **[!UICONTROL Password]** pour le compte .
+   - Saisissez un **[!UICONTROL Password]** pour le compte.
 
      >[!NOTE]
      >
-     >Un mot de passe administrateur doit comporter au moins sept caractères et contenir à la fois des lettres et des chiffres. Pour accéder à d’autres options de mot de passe, voir [Configuration de la sécurité d’administration](security-admin.md).
+     >Un mot de passe administrateur doit comporter au moins sept caractères et contenir à la fois des lettres et des chiffres. Pour accéder à d’autres options de mot de passe, voir [Configuration de la sécurité de l’administrateur](security-admin.md).
 
    - Pour **[!UICONTROL Password Confirmation]**, saisissez à nouveau le mot de passe pour vous assurer qu’il a été correctement saisi.
 
-   - Si votre boutique comporte plusieurs langues, définissez **[!UICONTROL Interface Locale]** dans la langue à utiliser pour l’interface d’administration.
+   - Si votre boutique comporte plusieurs langues, définissez **[!UICONTROL Interface Locale]** sur la langue à utiliser pour l’interface d’administration.
 
-1. Définir **[!UICONTROL This Account is]** to `Active`.
+1. Définissez **[!UICONTROL This Account is]** sur `Active`.
 
-1. Cliquez sur l’icône de calendrier pour définir la variable **[!UICONTROL Expiration Date]** pour le compte utilisateur.
+1. Cliquez sur l’icône de calendrier pour définir le **[!UICONTROL Expiration Date]** du compte utilisateur.
 
-   La définition d’une date d’expiration s’avère utile lorsqu’un utilisateur ou un rôle est temporaire. Après la date d’expiration, l’état du compte utilisateur passe à `Inactive` et peuvent être mis à jour, si nécessaire.
+   La définition d’une date d’expiration s’avère utile lorsqu’un utilisateur ou un rôle est temporaire. Après la date d’expiration, l’état du compte utilisateur passe à `Inactive` et peut être mis à jour, si nécessaire.
 
-1. Sous _[!UICONTROL Current User Identity Verification]_, saisissez le mot de passe de votre compte d’utilisateur.
+1. Sous _[!UICONTROL Current User Identity Verification]_, saisissez le mot de passe de votre compte utilisateur.
 
 >[!IMPORTANT]
 >
->Avec la variable _[!UICONTROL Account Information]_, vous pouvez enregistrer l’utilisateur. Le nouvel utilisateur s’affiche dans la variable_[!UICONTROL Users]_ , mais le nom d’utilisateur ne peut pas se connecter tant qu’un rôle n’a pas été attribué.
+>Une fois la section _[!UICONTROL Account Information]_terminée, vous pouvez enregistrer l’utilisateur. Le nouvel utilisateur s’affiche dans la grille_[!UICONTROL Users]_, mais le nom d’utilisateur ne peut pas se connecter tant qu’un rôle n’a pas été attribué.
 
 ## Attribution d’un rôle d’utilisateur
 
@@ -77,11 +77,11 @@ Pour les utilisateurs ou les rôles temporaires, vous pouvez également définir
 
    La grille répertorie tous les rôles d’utilisateur existants. Pour un nouveau magasin, _[!UICONTROL Administrators]_est le seul rôle disponible.
 
-   ![Administration - ajout d’un nouveau rôle d’utilisateur](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
+   ![Admin - Ajouter un nouveau rôle d’utilisateur](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
-1. Dans le _[!UICONTROL Assigned]_, sélectionnez un rôle utilisateur.
+1. Dans la colonne _[!UICONTROL Assigned]_, sélectionnez un rôle d’utilisateur.
 
-   Vous pouvez [afficher ou définir des rôles utilisateur supplémentaires ;](permissions-user-roles.md). Une fois qu’un rôle est défini, vous devez modifier le compte d’utilisateur pour affecter le nouveau rôle.
+   Vous pouvez [afficher des rôles d’utilisateur existants ou définir des rôles d’utilisateur supplémentaires](permissions-user-roles.md). Une fois qu’un rôle est défini, vous devez modifier le compte d’utilisateur pour affecter le nouveau rôle.
 
 ## Vérifier ou réinitialiser des fournisseurs 2FA
 
@@ -89,27 +89,27 @@ Pour les utilisateurs ou les rôles temporaires, vous pouvez également définir
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL 2FA]**.
 
-   ![Administration - ajout d’un nouveau rôle d’utilisateur](./assets/permissions-user-2fa.png){width="600" zoomable="yes"}
+   ![Admin - Ajouter un nouveau rôle d’utilisateur](./assets/permissions-user-2fa.png){width="600" zoomable="yes"}
 
-1. Vérification des solutions 2FA disponibles pour _Administration_ utilisateurs et conseillent à chaque utilisateur d’installer les solutions qu’il souhaite utiliser avant de se connecter.
+1. Vérifiez les solutions 2FA disponibles pour les utilisateurs _Admin_ et demandez à chaque utilisateur d’installer les solutions qu’il souhaite utiliser avant de se connecter.
 
-   L’authentification par une seule solution 2FA est requise pour se connecter à _Administration_.
+   L’authentification par une seule solution 2FA est requise pour se connecter à _Admin_.
 
 1. Si l’utilisateur doit réinstaller la solution 2FA, vous pouvez réinitialiser la configuration 2FA actuelle.
 
    Pour ce faire, l’utilisateur doit répéter le processus de configuration avant de pouvoir se reconnecter. Par exemple, l’utilisateur peut disposer d’un nouveau smartphone et doit réinstaller l’authentificateur Google. Pour effacer la configuration 2FA actuelle de l’utilisateur, cliquez sur **[!UICONTROL Reset (Provider)]** pour chaque solution à effacer. Lorsque vous y êtes invité, cliquez sur **[!UICONTROL OK]** pour confirmer.
 
-   L’utilisateur reçoit un courrier électronique contenant un lien vers [configuration de 2FA](security-two-factor-authentication.md). Le lien ne peut être utilisé qu’une seule fois. Si l’utilisateur tente de se connecter plusieurs fois, un nouveau lien est envoyé après chaque tentative.
+   L’utilisateur reçoit un courrier électronique contenant un lien vers [configurer 2FA](security-two-factor-authentication.md). Le lien ne peut être utilisé qu’une seule fois. Si l’utilisateur tente de se connecter plusieurs fois, un nouveau lien est envoyé après chaque tentative.
 
 1. Cliquez sur **[!UICONTROL Save User]**.
 
 1. Lorsque vous y êtes invité, saisissez votre mot de passe pour confirmer votre identité, puis cliquez de nouveau sur **[!UICONTROL Save User]**.
 
-   La variable _[!UICONTROL Users]_s’ouvre et répertorie tous les utilisateurs.
+   La grille _[!UICONTROL Users]_s’ouvre et répertorie tous les utilisateurs.
 
 ## Supprimer un utilisateur administrateur
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL All Users]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL All Users]**.
 
 1. Localisez le compte utilisateur à l’aide de filtres au-dessus de la grille, puis cliquez sur le nom de l’utilisateur.
 
@@ -125,38 +125,38 @@ La configuration du modèle de courrier électronique d’administrateur déterm
 
 **_Pour configurer les modèles de courrier électronique d’administrateur :_**
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Setting]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Setting]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Advanced]** et choisissez **[!UICONTROL Admin]**.
 
-1. Développer ![basculer d&#39;extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Admin User Emails]** .
+1. Développez la section ![plate-forme d&#39;extension](../assets/icon-display-expand.png) sur **[!UICONTROL Admin User Emails]** .
 
-   ![Configuration avancée - Paramètres du modèle de courrier électronique d’administration](../configuration-reference/advanced/assets/admin-admin-user-emails.png){width="600" zoomable="yes"}
+   ![ Configuration avancée - Paramètres du modèle de courrier électronique d’administration ](../configuration-reference/advanced/assets/admin-admin-user-emails.png){width="600" zoomable="yes"}
 
-1. Définir **[!UICONTROL Forgot Password Email Template]** au modèle envoyé lorsqu’un utilisateur administrateur oublie ses mots de passe.
+1. Définissez **[!UICONTROL Forgot Password Email Template]** sur le modèle envoyé lorsqu’un utilisateur administrateur oublie ses mots de passe.
 
-1. Définir **[!UICONTROL Forgot and Reset Email Sender]** au contact du magasin qui apparaît comme expéditeur du message.
+1. Définissez **[!UICONTROL Forgot and Reset Email Sender]** sur le contact du magasin qui apparaît comme l’expéditeur du message.
 
-1. Définir **[!UICONTROL User Notification Template]** au modèle de courrier électronique utilisé par défaut pour les notifications admin.
+1. Définissez **[!UICONTROL User Notification Template]** sur le modèle de courrier électronique utilisé par défaut pour les notifications d’administrateur.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 ## Utilisateurs verrouillés
 
-Pour la sécurité de votre entreprise, les comptes d’utilisateurs sont verrouillés par défaut après six tentatives infructueuses de [connexion](../getting-started/admin-signin.md) à l’administrateur. Tout compte d’utilisateur actuellement verrouillé s’affiche dans la grille Utilisateurs verrouillés . Un compte peut être déverrouillé par tout autre utilisateur disposant de toutes les autorisations d’administrateur.
+Pour la sécurité de votre entreprise, les comptes utilisateur sont verrouillés par défaut après six tentatives infructueuses de [connexion](../getting-started/admin-signin.md) à l’administrateur. Tout compte d’utilisateur actuellement verrouillé s’affiche dans la grille Utilisateurs verrouillés . Un compte peut être déverrouillé par tout autre utilisateur disposant de toutes les autorisations d’administrateur.
 
-D’autres mesures de sécurité des mots de passe peuvent être mises en oeuvre dans la variable [Administration avancée](../configuration-reference/advanced/admin.md#security) configuration. Voir [Sécurité d’administration](security-admin.md).
+Des mesures de sécurité de mot de passe supplémentaires peuvent être mises en oeuvre dans la configuration [Advanced Admin](../configuration-reference/advanced/admin.md#security). Voir [Sécurité de l’administrateur](security-admin.md).
 
-![Alerte d’écran de connexion : le compte est temporairement désactivé](./assets/admin-login-locked-out-message.png){width="300"}
+![Alerte d’écran de connexion - le compte est temporairement désactivé](./assets/admin-login-locked-out-message.png){width="300"}
 
 **_Pour déverrouiller un compte administrateur :_**
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL Locked Users]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL Locked Users]**.
 
 1. Dans la grille, cochez la case du compte verrouillé.
 
    ![Autorisations - comptes utilisateur verrouillés](./assets/permissions-locked-users-grid.png){width="600" zoomable="yes"}
 
-1. Dans le coin supérieur gauche, définissez **[!UICONTROL Actions]** to `Unlock`.
+1. Dans le coin supérieur gauche, définissez **[!UICONTROL Actions]** sur `Unlock`.
 
 1. Cliquez sur **[!UICONTROL Submit]** pour déverrouiller le compte.

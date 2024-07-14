@@ -1,6 +1,6 @@
 ---
 title: Ajouter du contenu - Recommendations de produit
-description: Découvrez le type de contenu Recommendations du produit, utilisé pour ajouter une liste de recommandations au [!DNL Page Builder] scène.
+description: Découvrez le type de contenu Recommendations du produit, utilisé pour ajouter une liste de recommandations à l’étape  [!DNL Page Builder] .
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
 source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Ajouter du contenu - Recommendations de produit
 
-Utilisez la variable _Recommendations de produit_ type de contenu pour ajouter un type existant et actif [unité de recommandation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) à la fonction [[!DNL Page Builder] étape](workspace.md#stage) pour une page CMS, un bloc ou un bloc dynamique.
+Utilisez le type de contenu _Recommendations de produit_ pour ajouter une [unité de recommandation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) existante et active à l’ [[!DNL Page Builder] étape](workspace.md#stage) pour une page CMS, un bloc ou un bloc dynamique.
 
 >[!NOTE]
 >
->La variable [!DNL Page Builder] _Recommendations de produit_ Le type de contenu est pris en charge dans Adobe Commerce 2.4.4 et versions ultérieures et est disponible dans le [Mise à jour du métaphorage Recommendations du produit 3.0.x ou version ultérieure](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Pour ajouter [!DNL Page Builder] prise en charge de Product Recommendations, [voir les informations d’installation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **Ce type de contenu n’est pas disponible pour Magento Open Source.**
+>Le type de contenu [!DNL Page Builder] _Recommendations de produit_ est pris en charge dans Adobe Commerce 2.4.4 et versions ultérieures et est disponible dans les [Métapackage Recommendations de produit versions 3.0.x ou ultérieures](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Pour ajouter la prise en charge de [!DNL Page Builder] pour Product Recommendations, [ consultez les informations d’installation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **Ce type de contenu n’est pas disponible pour le Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -29,7 +29,7 @@ Utilisez la variable _Recommendations de produit_ type de contenu pour ajouter u
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le conteneur de recommandations de produits actuel et son contenu. |
 | Afficher | ![Icône Afficher](./assets/pb-icon-show.png){width="25"} | Affiche le conteneur de recommandations de produits masqué et son contenu. |
 | Dupliquer | ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="25"} | Effectue une copie en double du conteneur de recommandations de produits et de son contenu. |
-| Supprimer | ![Icône Supprimer](./assets/pb-icon-remove.png){width="25"} | Supprime le conteneur de recommandations de produits et son contenu de l’étape. |
+| Supprimer | ![Supprimer l’icône](./assets/pb-icon-remove.png){width="25"} | Supprime le conteneur de recommandations de produits et son contenu de l’étape. |
 
 {style="table-layout:auto"}
 
@@ -37,30 +37,30 @@ Utilisez la variable _Recommendations de produit_ type de contenu pour ajouter u
 
 ## Ajouter une unité de recommandation existante
 
-1. Assurez-vous que vous avez déjà [création d’une unité de recommandation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) pour le [!DNL Page Builder] type de page.
+1. Assurez-vous que vous avez déjà [créé une unité de recommandation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) pour le type de page [!DNL Page Builder].
 
 >[!NOTE]
 >
->Vous pouvez créer des unités de recommandation pour le [!DNL Page Builder] type de page uniquement en mode magasin par défaut.
+>Vous pouvez créer des unités de recommandations pour le type de page [!DNL Page Builder] uniquement dans la vue de magasin par défaut.
 
 1. Ouvrez la page, le bloc ou le bloc dynamique en mode d’édition.
 
-1. Développez l’objet _[!UICONTROL Content]_et cliquez sur **[!UICONTROL Edit with Page Builder]**ou dans la zone d’aperçu du contenu pour ouvrir la [!DNL Page Builder] workspace.
+1. Développez la section _[!UICONTROL Content]_et cliquez sur **[!UICONTROL Edit with Page Builder]**ou à l’intérieur de la zone d’aperçu du contenu pour ouvrir l’espace de travail [!DNL Page Builder].
 
-1. Dans le [!DNL Page Builder] panneau sous _[!UICONTROL Layout]_, faites glisser un **[!UICONTROL Row]**espace réservé sur la scène.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Row]**sur la scène.
 
-1. Dans le [!DNL Page Builder] panneau sous _[!UICONTROL Add Content]_, faites glisser un **[!UICONTROL Product Recommendation]**d’espace réservé à la ligne.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Add Content]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Product Recommendation]**sur la ligne.
 
-   ![Ajout du type de contenu Recommandation de produit](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
+   ![Ajout du type de contenu de recommandation de produit](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
 1. Effectuez l’une des opérations suivantes :
 
    - Cliquez sur **[!UICONTROL Edit Product Recommendation]**.
    - Pointez sur le conteneur vide pour afficher la boîte à outils, puis cliquez sur l’icône _Paramètres_ (![Icône Paramètres](./assets/pb-icon-settings.png)).
 
-   ![Modifier la recommandation de produit](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
+   ![Modifier la recommandation du produit](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
-1. Dans le _[!UICONTROL Selection]_, cliquez sur **[!UICONTROL Select]**.
+1. Dans la section _[!UICONTROL Selection]_, cliquez sur **[!UICONTROL Select]**.
 
 1. Dans la liste des recommandations de produits actives, recherchez la ligne contenant l’unité de recommandation à ajouter, puis cliquez sur **[!UICONTROL Select]** dans la dernière colonne.
 
@@ -68,29 +68,29 @@ Utilisez la variable _Recommendations de produit_ type de contenu pour ajouter u
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add Selected]**.
 
-   Le nom de la recommandation de produit sélectionnée s’affiche dans la _[!UICONTROL Selection]_de la_[!UICONTROL Edit Product Recommendation]_ page.
+   Le nom de la recommandation de produit sélectionnée apparaît dans la section _[!UICONTROL Selection]_de la page_[!UICONTROL Edit Product Recommendation]_.
 
-1. Apportez les modifications nécessaires au [Paramètres avancés](#advanced-settings).
+1. Apportez les modifications nécessaires aux [paramètres avancés](#advanced-settings).
 
-   ![Modifier la recommandation de produit](./assets/pb-prex-edit.png){width="600" zoomable="yes"}
+   ![Modifier la recommandation du produit](./assets/pb-prex-edit.png){width="600" zoomable="yes"}
 
 1. Une fois l’opération terminée, procédez comme suit :
 
-   - Si vous utilisez une fenêtre de navigateur entièrement optimisée, cliquez sur la _Fermer le plein écran_ (![Icône Fermer le plein écran](./assets/pb-icon-reduce.png)) dans le coin supérieur droit de l’espace de travail.
+   - Si vous utilisez une fenêtre de navigateur entièrement agrandie, cliquez sur l’icône _Fermer le plein écran_ (![Icône Fermer le plein écran](./assets/pb-icon-reduce.png)) dans le coin supérieur droit de l’espace de travail.
 
-   - Cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+   - Cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
    Lorsque vous revenez à l’étape, les images d’espace réservé du produit apparaissent dans le conteneur.
 
 ## Modification des paramètres des unités de recommandations
 
-1. Passez la souris sur le conteneur d’unité de recommandation pour afficher la boîte à outils, puis cliquez sur l’icône _Paramètres_ (![Icône Paramètres](./assets/pb-icon-settings.png)).
+1. Passez la souris sur le conteneur d’unité de recommandation pour afficher la boîte à outils, puis cliquez sur l’icône _Paramètres_ (![icône Paramètres](./assets/pb-icon-settings.png)).
 
-   ![Outils de recommandation](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
+   ![Boîte à outils de recommandation](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
 
-1. Apportez les modifications nécessaires au [Paramètres avancés](#advanced-settings).
+1. Apportez les modifications nécessaires aux [paramètres avancés](#advanced-settings).
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
 ## Dupliquer une unité de recommandation
 
@@ -98,7 +98,7 @@ Utilisez la variable _Recommendations de produit_ type de contenu pour ajouter u
 
    Le doublon apparaît juste en dessous de l’original.
 
-1. Pour déplacer l’unité de recommandation dupliquée vers un nouvel emplacement, passez la souris sur le conteneur et cliquez sur l’icône _Déplacer_ (![Icône Déplacer](./assets/pb-icon-move.png)) dans la boîte à outils.
+1. Pour déplacer l’unité de recommandation dupliquée vers une nouvelle position, passez la souris sur le conteneur et cliquez sur l’icône _Déplacer_ (![Icône Déplacer](./assets/pb-icon-move.png)) dans la boîte à outils.
 
 1. Sélectionnez l’unité de recommandation et faites-la glisser jusqu’à ce que la ligne directrice rouge apparaisse à la nouvelle position.
 
@@ -106,13 +106,13 @@ Utilisez la variable _Recommendations de produit_ type de contenu pour ajouter u
 
 ## Suppression d’une unité de recommandation de l’étape
 
-1. Pointez sur le conteneur de l’unité de recommandation, puis cliquez sur le _Supprimer_ ( ![Icône Supprimer](./assets/pb-icon-remove.png)) dans la boîte à outils.
+1. Pointez sur le conteneur de l’unité de recommandation, puis cliquez sur l’icône _Supprimer_ ( ![Icône Supprimer](./assets/pb-icon-remove.png)) de la boîte à outils.
 
-1. Lorsque vous y êtes invité, cliquez sur **[!UICONTROL OK]**.
+1. Lorsque vous êtes invité à confirmer l’opération, cliquez sur **[!UICONTROL OK]**.
 
 ## Paramètres avancés
 
-1. Pour contrôler le positionnement de l’unité Recommendations de produit dans le conteneur parent, sélectionnez la variable **[!UICONTROL Alignment]**:
+1. Pour contrôler le positionnement de l’unité Recommendations de produit dans le conteneur parent, sélectionnez le **[!UICONTROL Alignment]** :
 
    | Option | Description |
    | ------ | ----------- |
@@ -123,7 +123,7 @@ Utilisez la variable _Recommendations de produit_ type de contenu pour ajouter u
 
    {style="table-layout:auto"}
 
-1. Définissez la variable **[!UICONTROL Border]** style appliqué aux quatre côtés de l’unité Recommendations de produit :
+1. Définissez le style **[!UICONTROL Border]** appliqué aux quatre côtés de l’unité Recommendations du produit :
 
    | Option | Description |
    | ------ | ----------- |
@@ -140,7 +140,7 @@ Utilisez la variable _Recommendations de produit_ type de contenu pour ajouter u
 
    {style="table-layout:auto"}
 
-1. Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage des bordures :
+1. Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage de la bordure :
 
    | Option | Description |
    | ------ |------------ |
@@ -150,11 +150,11 @@ Utilisez la variable _Recommendations de produit_ type de contenu pour ajouter u
 
    {style="table-layout:auto"}
 
-1. (Facultatif) Indiquez les noms des **[!UICONTROL CSS classes]** de la feuille de style actuelle à appliquer à l’unité.
+1. (Facultatif) Indiquez les noms de **[!UICONTROL CSS classes]** dans la feuille de style actuelle à appliquer à l’unité.
 
    Séparez plusieurs noms de classe par un espace.
 
-1. Saisissez des valeurs, en pixels, pour la variable **[!UICONTROL Margins and Padding]** pour déterminer les marges extérieures et la marge intérieure de l’unité.
+1. Saisissez des valeurs, en pixels, pour le **[!UICONTROL Margins and Padding]** afin de déterminer les marges extérieures et la marge intérieure de l’unité.
 
    Saisissez les valeurs correspondantes dans le diagramme.
 

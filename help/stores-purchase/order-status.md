@@ -12,21 +12,26 @@ ht-degree: 0%
 
 # État de la commande
 
-Toutes les commandes ont un état de commande associé à une étape dans le traitement des commandes. [workflow](order-processing.md).\
-La différence entre les états de commande et les états de commande est la suivante : **[!UICONTROL order states]** sont utilisées par programmation. Ils ne sont pas visibles par les clients ou les utilisateurs administrateurs. Ils déterminent le flux d’une commande et les opérations possibles pour une commande dans un certain état.\
+Toutes les commandes ont un état de commande associé à une étape dans le [workflow](order-processing.md) de traitement des commandes.\
+La différence entre les états de commande et les états de commande est que **[!UICONTROL order states]** sont utilisés par programmation. Ils ne sont pas
+visible pour les clients ou les utilisateurs administrateurs. Ils déterminent le flux d’une commande et les opérations possibles pour une
+commande dans un certain état.\
 **[!UICONTROL Order statuses]** sont utilisés pour communiquer l’état d’une commande aux clients et aux utilisateurs administrateurs.
-Vous pouvez créer d’autres statuts de commande afin de répondre à vos besoins opérationnels. Les statuts des commandes sont pratiques pour afficher la progression en dehors d’Adobe Commerce, par exemple la progression de la sélection des commandes et de la diffusion. Elles n’ont aucun impact sur le workflow de traitement des commandes.\
-Chaque état de commande est associé à un état de commande. Votre magasin dispose d’un ensemble de paramètres prédéfinis d’état de commande et d’état de commande.
+Vous pouvez créer d’autres statuts de commande afin de répondre à vos besoins opérationnels. L’affichage des statuts des commandes est pratique
+la progression en dehors d’Adobe Commerce, par exemple la progression de la sélection et de la diffusion des commandes. Ils n&#39;ont aucun impact sur la commande.
+workflow de traitement.\
+Chaque état de commande est associé à un état de commande. Votre magasin dispose d’un état de commande prédéfini et
+paramètres d’état de la commande.
 
-![États et états de l’ordre](./assets/order-states-and-statuses.png){width="700" zoomable="yes"}
+![États de commande et états](./assets/order-states-and-statuses.png){width="700" zoomable="yes"}
 
-L’état de chaque commande est indiqué dans la variable _État_ de la colonne _Commandes_ grid.
+L’état de chaque commande est indiqué dans la colonne _Status_ de la grille _Commandes_.
 
 ![État de la commande](./assets/stores-order-status-column.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
->Une commande partiellement remboursée reste en cours `Processing` status jusqu’à **_all_** les articles commandés (y compris les articles remboursés) sont expédiés. L’état de la commande ne passe pas à `Complete` jusqu’à ce que tous les articles de la commande aient été expédiés.
+>Une commande partiellement remboursée reste à l&#39;état `Processing` jusqu&#39;à ce que **_tous les_** articles commandés (y compris les articles remboursés) soient expédiés. L’état de la commande ne passe pas à `Complete` tant que chaque article de la commande n’a pas été expédié.
 
 ## Workflow d’état de commande
 
@@ -37,8 +42,8 @@ L’état de chaque commande est indiqué dans la variable _État_ de la colonne
 | État de la commande | Code d’état |                                                                                                                                                                                                                                                                                        |
 |--------------------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Reçu | `received` | Cet état est l’état initial des commandes qui sont placées lorsque le placement de commande asynchrone est activé. |
-| Fraude présumée | `fraud` | Parfois, les commandes payées par PayPal ou une autre passerelle de paiement sont marquées comme _Fraude présumée_. Ce statut signifie que la commande n&#39;a pas émis de facture et que l&#39;email de confirmation n&#39;est pas non plus envoyé. |
-| En cours de traitement | `processing` | Lorsque l’état des nouvelles commandes est défini sur &quot;Traitement&quot;, la variable _Facturer automatiquement tous les éléments_ devient disponible dans la configuration. Les factures ne sont pas créées automatiquement pour les commandes passées à l’aide de la carte cadeau, du crédit de magasin, des points de récompense ou d’autres modes de paiement hors ligne. |
+| Fraude présumée | `fraud` | Parfois, les commandes effectuées via PayPal ou une autre passerelle de paiement sont marquées comme _Fraude suspectée_. Ce statut signifie que la commande n&#39;a pas émis de facture et que l&#39;email de confirmation n&#39;est pas non plus envoyé. |
+| En cours de traitement | `processing` | Lorsque l’état des nouvelles commandes est défini sur &quot;Traitement&quot;, l’option _Facturer automatiquement tous les éléments_ devient disponible dans la configuration. Les factures ne sont pas créées automatiquement pour les commandes passées à l’aide de la carte cadeau, du crédit de magasin, des points de récompense ou d’autres modes de paiement hors ligne. |
 | En attente de paiement | `pending_payment` | Cet état est utilisé si la commande est créée et que PayPal ou un mode de paiement similaire est utilisé. Cela signifie que le client a été dirigé vers le site web de la passerelle de paiement, mais qu’aucune information de retour n’a encore été reçue. Ce statut change lorsque le client paie. |
 | Révision des paiements | `payment_review` | Cet état s’affiche lorsque la révision des paiements PayPal est activée. |
 | En attente | `pending` | Ce statut indique qu&#39;aucune facture et aucun envoi n&#39;ont été soumis. |
@@ -55,7 +60,7 @@ L’état de chaque commande est indiqué dans la variable _État_ de la colonne
 
 ## Statut de la commande personnalisée
 
-Outre les paramètres prédéfinis d’état de commande, vous pouvez créer vos propres paramètres personnalisés d’état de commande, les affecter à l’état de la commande et définir les états de commande par défaut pour les états de commande. L’état de la commande indique la position de la commande dans le workflow de traitement des commandes et l’état de la commande attribue un libellé traduisible significatif à la position de la commande. Par exemple, vous pouvez avoir besoin d’un état de commande personnalisé, tel que `packaging"`, `backordered`ou un état spécifique à vos besoins. Vous pouvez créer un nom explicite pour le statut personnalisé et l’affecter à l’état de commande associé dans le workflow.
+Outre les paramètres prédéfinis d’état de commande, vous pouvez créer vos propres paramètres personnalisés d’état de commande, les affecter à l’état de la commande et définir les états de commande par défaut pour les états de commande. L’état de la commande indique la position de la commande dans le workflow de traitement des commandes et l’état de la commande attribue un libellé traduisible significatif à la position de la commande. Par exemple, vous pouvez avoir besoin d’un état de commande personnalisé tel que `packaging"`, `backordered` ou d’un état spécifique à vos besoins. Vous pouvez créer un nom explicite pour le statut personnalisé et l’affecter à l’état de commande associé dans le workflow.
 
 >[!NOTE]
 >
@@ -65,45 +70,45 @@ Outre les paramètres prédéfinis d’état de commande, vous pouvez créer vos
 
 ### Création d’un état de commande personnalisé
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Order Status]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Order Status]**.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Create New Status]**.
 
    ![Créer un état de commande](./assets/order-status-new.png){width="600" zoomable="yes"}
 
-1. Mettez à jour le _[!UICONTROL Order Status Information]_section :
+1. Mettez à jour la section _[!UICONTROL Order Status Information]_:
 
    - Saisissez un **[!UICONTROL Status Code]** pour référence interne. Le premier caractère doit être une lettre (a-z) et le reste peut être n’importe quelle combinaison de lettres et de nombres (0-9). Utilisez le caractère de soulignement au lieu d’un espace.
 
    - Pour **[!UICONTROL Status Label]**, saisissez un libellé qui identifie le paramètre d’état dans Admin et storefront.
 
-1. Dans le _[!UICONTROL Store View Specific Labels]_, saisissez les étiquettes nécessaires pour différentes vues de magasin.
+1. Dans la section _[!UICONTROL Store View Specific Labels]_, saisissez les étiquettes nécessaires pour différentes vues de magasin.
 
 1. Cliquez sur **[!UICONTROL Save Status]**.
 
 ### Attribuer un état de commande à un état
 
-1. Sur le _État de la commande_ page, cliquez sur **[!UICONTROL Assign Status to State]**.
+1. Sur la page _État de la commande_, cliquez sur **[!UICONTROL Assign Status to State]**.
 
    ![Attribuer l’état](./assets/store-status-assign-status.png){width="600" zoomable="yes"}
 
-1. Mettez à jour le **[!UICONTROL Assignment Information]** , procédez comme suit :
+1. Mettez à jour la section **[!UICONTROL Assignment Information]**, procédez comme suit :
 
-   - Choisissez la **[!UICONTROL Order Status]** que vous souhaitez affecter. Elles sont répertoriées par libellé d’état.
+   - Sélectionnez le **[!UICONTROL Order Status]** à affecter. Elles sont répertoriées par libellé d’état.
 
-   - Définir **[!UICONTROL Order State]** à l’emplacement dans le workflow où se trouve l’état de la commande.
-
-     >[!NOTE]
-     >
-     >**_[!UICONTROL Order State]_** list inclut les états de commande attribués par défaut. Par exemple, la variable `Pending` l’état de la commande par défaut s’affiche au lieu de `New` valeur de l’état de la commande.
-
-   - Pour que ce statut soit défini par défaut pour l’état de la commande, sélectionnez l’option **[!UICONTROL Use Order Status as Default]** .
+   - Définissez **[!UICONTROL Order State]** sur l’emplacement du workflow auquel appartient l’état de la commande.
 
      >[!NOTE]
      >
-     >Seuls les états de commande par défaut sont utilisés dans le workflow de commande. Les états autres que par défaut ne peuvent être définis que dans la variable **[!UICONTROL Order Comments]** dans la section Admin.
+     >La liste **_[!UICONTROL Order State]_** comprend les états de commande attribués par défaut. Par exemple, l’état de commande par défaut `Pending` s’affiche à la place de la valeur d’état de commande `New`.
 
-   - Pour rendre cet état visible à partir du storefront, sélectionnez la variable **[!UICONTROL Visible On Storefront]** .
+   - Pour que cet état soit défini par défaut pour l’état de la commande, cochez la case **[!UICONTROL Use Order Status as Default]** .
+
+     >[!NOTE]
+     >
+     >Seuls les états de commande par défaut sont utilisés dans le workflow de commande. Les états autres que par défaut ne peuvent être définis que dans la section **[!UICONTROL Order Comments]** de l’administrateur.
+
+   - Pour rendre cet état visible à partir du storefront, cochez la case **[!UICONTROL Visible On Storefront]** .
 
    ![Attribuer l’état à l’état](./assets/order-status-assign-state.png){width="600" zoomable="yes"}
 
@@ -111,7 +116,7 @@ Outre les paramètres prédéfinis d’état de commande, vous pouvez créer vos
 
 ### Modifier un état de commande existant
 
-1. Dans le _[!UICONTROL Order Status]_grille, ouvrez l’enregistrement d’état en mode d’édition.
+1. Dans la grille _[!UICONTROL Order Status]_, ouvrez l’enregistrement d’état en mode d’édition.
 
 1. Mettez à jour les paramètres d’état si nécessaire.
 
@@ -123,45 +128,45 @@ Outre les paramètres prédéfinis d’état de commande, vous pouvez créer vos
 >
 >Un paramètre d’état ne peut pas être annulé si l’état est en cours d’utilisation.
 
-1. Dans le _[!UICONTROL Order Status]_, recherchez l’enregistrement d’état de commande à ne pas attribuer.
+1. Dans la grille _[!UICONTROL Order Status]_, recherchez l’enregistrement d’état de commande à ne pas attribuer.
 
-1. Dans le _[!UICONTROL Action]_à l’extrême droite de la ligne, cliquez sur le bouton **[!UICONTROL Unassign]**lien.
+1. Dans la colonne _[!UICONTROL Action]_située à l’extrémité droite de la ligne, cliquez sur le lien **[!UICONTROL Unassign]**.
 
    Un message s’affiche en haut de l’espace de travail pour indiquer que l’état de la commande n’a pas été attribué. Bien que le libellé d’état de la commande apparaisse toujours dans la liste, il n’est plus affecté à un état. Les paramètres d’état de la commande ne peuvent pas être supprimés.
 
 >[!NOTE]
 >
->Si l’état de la commande par défaut n’est pas attribué à l’état de la commande, _**another**_ l’état de la commande _**définir automatiquement**_ comme valeur par défaut de cet état de commande.
+>Si l’état de commande par défaut n’est pas attribué de l’état de commande, l’état de commande _**another**_ est _**défini automatiquement**_ comme état par défaut pour cet état de commande.
 
 ## Notification
 
-Les clients peuvent effectuer le suivi de l’état de leurs commandes en [flux RSS](../merchandising-promotions/social-rss.md) si le flux RSS Commande est activé dans la configuration. Lorsque cette option est activée, un lien vers le flux RSS s’affiche dans chaque commande.
+Les clients peuvent suivre l’état de leurs commandes par [flux RSS](../merchandising-promotions/social-rss.md) si le flux RSS de commande est activé dans la configuration. Lorsque cette option est activée, un lien vers le flux RSS s’affiche dans chaque commande.
 
 ### Activer la notification d’état de commande
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et choisissez **[!UICONTROL RSS Feeds]** en-dessous.
+1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et sélectionnez **[!UICONTROL RSS Feeds]** sous .
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Order]** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Order]** .
 
-1. Définir **[!UICONTROL Customer Order Status Notification]** to `Enable`.
+1. Définissez **[!UICONTROL Customer Order Status Notification]** sur `Enable`.
 
-   ![Notification d’état de la commande client](../configuration-reference/catalog/assets/rss-feeds-order.png){width="600" zoomable="yes"}
+   ![Notification d’état de commande client](../configuration-reference/catalog/assets/rss-feeds-order.png){width="600" zoomable="yes"}
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 ### Configuration des notifications par courrier électronique de nouvelle commande
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Sales Emails]** en-dessous.
+1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et sélectionnez **[!UICONTROL Sales Emails]** sous .
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Order]** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Order]** .
 
    ![Configuration - Options de commande](../configuration-reference/sales/assets/sales-emails-order.png){width="600" zoomable="yes"}
 
-1. Définir **[!UICONTROL New Order Confirmation Email Sender]** à l’une des options suivantes :
+1. Définissez **[!UICONTROL New Order Confirmation Email Sender]** sur l’une des options suivantes :
 
    - `General Contact`
    - `Sales Representative`
@@ -178,9 +183,9 @@ Les clients peuvent effectuer le suivi de l’état de leurs commandes en [flux 
 
    Vous pouvez ajouter plusieurs adresses électroniques si plusieurs destinataires sont requis.
 
-1. Définissez la variable **[!UICONTROL Send Order Email Copy Method]** à l’une des options suivantes :
+1. Définissez le **[!UICONTROL Send Order Email Copy Method]** sur l’une des options suivantes :
 
    - `Bcc` - Un seul email concernant la nouvelle commande est envoyé au client et au destinataire supplémentaire, mais le client ne voit pas que l&#39;email qu&#39;il a reçu a également été envoyé au destinataire supplémentaire.
    - `Separate Email` - Deux emails distincts sont envoyés : un au destinataire et un au client.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.

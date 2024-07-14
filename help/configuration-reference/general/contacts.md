@@ -22,7 +22,7 @@ ht-degree: 2%
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Enable Contact Us] | Affichage en magasin | Active la variable [_Nous contacter_](../../getting-started/store-details.md#contact-us-form) et place un lien dans le pied de page. |
+| [!UICONTROL Enable Contact Us] | Affichage en magasin | Active la page [_Nous contacter_](../../getting-started/store-details.md#contact-us-form) et place un lien dans le pied de page. |
 
 {style="table-layout:auto"}
 
@@ -34,8 +34,8 @@ ht-degree: 2%
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Send Emails To] | Affichage en magasin | Identifie l’adresse électronique qui reçoit toutes les réponses de la _Nous contacter_ page |
-| [!UICONTROL Email Sender] | Affichage en magasin | Identifie le contact de magasin utilisé pour toutes les réponses aux questions par e-mail de la variable _Nous contacter_ page. Expéditeur par défaut : `Custom Email 2` |
-| [!UICONTROL Email Template] | Affichage en magasin | Indique le modèle à utiliser comme base de toutes les réponses aux questions par e-mail provenant de la variable _Nous contacter_ page. Modèle par défaut : `Contact Form` |
+| [!UICONTROL Send Emails To] | Affichage en magasin | Identifie l’adresse électronique qui reçoit toutes les réponses de la page _Nous contacter_ |
+| [!UICONTROL Email Sender] | Affichage en magasin | Identifie le contact de magasin utilisé pour toutes les réponses aux questions par e-mail de la page _Nous contacter_. Expéditeur par défaut : `Custom Email 2` |
+| [!UICONTROL Email Template] | Affichage en magasin | Indique le modèle à utiliser comme base de toutes les réponses aux questions par courrier électronique provenant de la page _Nous contacter_. Modèle par défaut : `Contact Form` |
 
 {style="table-layout:auto"}

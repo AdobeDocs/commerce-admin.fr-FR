@@ -15,13 +15,13 @@ ht-degree: 0%
 
 Les comptes d’entreprise peuvent être configurés à partir du storefront par le client ou à partir de l’administrateur. Toutes les demandes de création de compte d’entreprise doivent être approuvées par l’administrateur du magasin avant que le compte ne devienne actif.
 
-La personne qui configure un compte d’entreprise à partir du storefront se voit attribuer un rôle en tant que [administrateur de société](account-company-admin.md). Une fois la demande de création de compte d’entreprise approuvée, l’administrateur de l’entreprise peut définir un mot de passe de compte et se connecter au compte.
+La personne qui configure un compte de société à partir du storefront se voit attribuer un rôle d’ [administrateur de société](account-company-admin.md). Une fois la demande de création de compte d’entreprise approuvée, l’administrateur de l’entreprise peut définir un mot de passe de compte et se connecter au compte.
 
 ## Méthode 1 : le client crée le compte à partir du storefront
 
 >[!IMPORTANT]
 >
->Pour prendre en charge cette méthode (qui permet aux clients d’enregistrer leur société à partir du storefront), assurez-vous que la variable [Fonctionnalités B2B](enable-basic-features.md) sont configurés de sorte que **[!UICONTROL Allow Company Registration from the Storefront]** est défini sur `Yes`.
+>Pour prendre en charge cette méthode (qui permet aux clients d’enregistrer leur société à partir du storefront), assurez-vous que les [fonctionnalités B2B](enable-basic-features.md) sont configurées de sorte que **[!UICONTROL Allow Company Registration from the Storefront]** soit défini sur `Yes`.
 
 1. Dans le coin supérieur droit de l’en-tête du storefront, le client clique sur **[!UICONTROL Create an Account]** et choisit **[!UICONTROL Create New Company Account]**.
 
@@ -31,7 +31,7 @@ La personne qui configure un compte d’entreprise à partir du storefront se vo
    >
    >Si un visiteur est connecté à un compte utilisateur enregistré, il peut créer un compte de société en accédant à _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**. Lors de la création du compte de l’entreprise, le compte du client est attribué comme contact principal. Dans le cas contraire, le système crée un client qui reçoit un courrier électronique lui permettant de définir un mot de passe.
 
-1. Dans le _[!UICONTROL Company Information]_, le client effectue les opérations suivantes :
+1. Dans la section _[!UICONTROL Company Information]_, le client effectue les opérations suivantes :
 
    - Renseigne les champs requis :
 
@@ -46,7 +46,7 @@ La personne qui configure un compte d’entreprise à partir du storefront se vo
 
    ![Informations sur la société](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
-1. Remplit les champs requis dans la variable _[!UICONTROL Legal Address]_.
+1. Renseigne les champs requis de la section _[!UICONTROL Legal Address]_.
 
    - **[!UICONTROL Street Address]**
    - **[!UICONTROL City]**
@@ -57,13 +57,13 @@ La personne qui configure un compte d’entreprise à partir du storefront se vo
 
    ![Adresse légale](./assets/company-legal-address-storefront.png){width="700" zoomable="yes"}
 
-1. Dans le _[!UICONTROL Company Administrator]_, effectue les opérations suivantes :
+1. Dans la section _[!UICONTROL Company Administrator]_, effectue les opérations suivantes :
 
-   - entre dans la variable **[!UICONTROL Email address]** pour l’administrateur de la société.
+   - Saisissez le **[!UICONTROL Email address]** pour l’administrateur de la société.
 
      L’adresse électronique de l’administrateur de la société peut être identique à celle de la société ou à une autre adresse électronique. Si une autre adresse électronique est saisie, un compte utilisateur de l’entreprise est créé, en plus du compte administrateur de l’entreprise.
 
-   - entre dans la variable **[!UICONTROL First Name]** et **[!UICONTROL Last Name]** de l’administrateur de la société.
+   - Entrez les **[!UICONTROL First Name]** et **[!UICONTROL Last Name]** de l’administrateur de la société.
 
    - Renseigne éventuellement les champs suivants :
 
@@ -78,17 +78,17 @@ La personne qui configure un compte d’entreprise à partir du storefront se vo
 
    Lorsque la demande de création d’un compte de société est approuvée par le commerçant, une notification électronique est envoyée à l’administrateur de la société.
 
-   ![Exemple de courrier électronique de bienvenue](./assets/company-admin-welcome-email.png){width="500"}
+   ![Exemple de courriel de bienvenue](./assets/company-admin-welcome-email.png){width="500"}
 
-   Lorsque le mot de passe est défini, l’administrateur de l’entreprise peut [connexion](../customers/customer-sign-in.md) au compte .
+   Lorsque le mot de passe est défini, l’administrateur de l’entreprise peut [ se connecter ](../customers/customer-sign-in.md) au compte.
 
 ## Méthode 2 : le commerçant crée le compte à partir de l’administrateur.
 
 Le processus de création d’une entreprise à partir de l’administrateur est essentiellement le même que depuis le storefront, mais avec des champs supplémentaires.
 
-![Ajout d’une nouvelle société à partir de l’administrateur](./assets/company-add-new.png){width="700" zoomable="yes"}
+![Ajouter une nouvelle société à partir de l’administrateur](./assets/company-add-new.png){width="700" zoomable="yes"}
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
 1. Cliquez sur **[!UICONTROL Add New Company]** et procédez comme suit :
 
@@ -97,11 +97,11 @@ Le processus de création d’une entreprise à partir de l’administrateur est
       - **[!UICONTROL Company Name]**
       - **[!UICONTROL Company Email]**
 
-   - Si vous n’êtes pas prêt à ce que le compte soit ouvert, définissez **[!UICONTROL Status]** to `Pending Approval`. (Définissez sur `Active` par défaut.)
+   - Si vous n’êtes pas prêt pour que le compte soit actif, définissez **[!UICONTROL Status]** sur `Pending Approval`. (Défini sur `Active` par défaut.)
 
-   - Le cas échéant, sélectionnez le compte administrateur de la variable **[!UICONTROL Sales Representative]** qui doit gérer le compte.
+   - Le cas échéant, sélectionnez le compte administrateur de l’ **[!UICONTROL Sales Representative]** qui doit gérer le compte.
 
-1. Dans le _[!UICONTROL Account Information]_, procédez comme suit :
+1. Dans la section _[!UICONTROL Account Information]_, procédez comme suit :
 
    - Renseignez les champs suivants, le cas échéant :
 
@@ -109,22 +109,22 @@ Le processus de création d’une entreprise à partir de l’administrateur est
       - **[!UICONTROL VAT/TAX ID]**
       - **[!UICONTROL Reseller ID]**
 
-   - Pour **[!UICONTROL Comment]**, saisissez des informations supplémentaires sur le client qui peuvent être nécessaires.
+   - Pour **[!UICONTROL Comment]**, saisissez toute information supplémentaire sur le client qui peut être nécessaire.
 
      Les commentaires ne sont visibles que par l’administrateur.
 
-   ![Informations du compte](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
+   ![Informations sur le compte](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. Lors de la création initiale de l’entreprise, la variable _[!UICONTROL Company Hierarchy]_grid est vide lorsque vous la développez. Après avoir enregistré la société, vous pouvez l’inclure dans une hiérarchie de société. Voir [Gestion des entreprises](manage-companies.md).
+1. Lors de la création initiale de l’entreprise, la grille _[!UICONTROL Company Hierarchy]_est vide lorsque vous la développez. Après avoir enregistré la société, vous pouvez l’inclure dans une hiérarchie de société. Voir [Gestion des entreprises](manage-companies.md).
 
-1. Dans le _[!UICONTROL Legal Address]_, renseignez les champs requis suivants :
+1. Dans la section _[!UICONTROL Legal Address]_, renseignez les champs requis suivants :
 
    - **[!UICONTROL Street Address]**
    - **[!UICONTROL City Country]**
    - **[!UICONTROL ZIP/Postal Code]**
    - **[!UICONTROL Phone Number]**
 
-1. Dans le _[!UICONTROL Company Admin]_, procédez comme suit :
+1. Dans la section _[!UICONTROL Company Admin]_, procédez comme suit :
 
    - Renseignez les champs requis suivants :
 
@@ -147,7 +147,7 @@ Le processus de création d’une entreprise à partir de l’administrateur est
 
    ![Administrateur de société](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
-1. Dans le _[!UICONTROL Company Credit]_, qui affiche un résumé de l’activité de crédit du client, renseignez autant de champs que nécessaire dans la partie inférieure de la section :
+1. Dans la section _[!UICONTROL Company Credit]_, qui affiche un résumé de l’activité de crédit du client, renseignez autant de champs que nécessaire dans la partie inférieure de la section :
 
    - **[!UICONTROL Credit Currency]**
    - **[!UICONTROL Credit Limit]**
@@ -156,36 +156,36 @@ Le processus de création d’une entreprise à partir de l’administrateur est
 
    ![Crédit de la société](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
-1. Dans le _[!UICONTROL Advanced Settings]_, procédez comme suit :
+1. Dans la section _[!UICONTROL Advanced Settings]_, procédez comme suit :
 
    >[!NOTE]
    >
    >L’affectation de groupe de clients détermine le catalogue partagé disponible pour l’entreprise et ses employés. Par défaut, la société est affectée au groupe de clients défini comme valeur par défaut dans la configuration.
 
-   - Vous pouvez modifier la variable **[!UICONTROL Customer Group]** affectation pour l’entreprise et ses employés à un groupe ayant accès à un catalogue partagé différent ou à un groupe de clients standard. Vous êtes invité à confirmer la modification du groupe.
+   - Vous pouvez modifier l’affectation **[!UICONTROL Customer Group]** de l’entreprise et de ses employés en un groupe ayant accès à un catalogue partagé différent ou en un groupe de clients standard. Vous êtes invité à confirmer la modification du groupe.
 
      ![Modification du groupe de clients](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
-   - Si vous souhaitez autoriser les employés de l’entreprise à générer des guillemets à partir de leur compte, définissez **[!UICONTROL Allow Quotes]** to `Yes`.
+   - Si vous souhaitez autoriser les employés de l’entreprise à générer des guillemets à partir de leur compte, définissez **[!UICONTROL Allow Quotes]** sur `Yes`.
 
-   - Si vous souhaitez permettre aux employés de l’entreprise de créer et d’utiliser des commandes d’achat à partir de leur compte, définissez **[!UICONTROL Enable Purchase Orders]** to `Yes`.
+   - Si vous souhaitez permettre aux employés de l’entreprise de créer et d’utiliser des commandes d’achat à partir de leur compte, définissez **[!UICONTROL Enable Purchase Orders]** sur `Yes`.
 
-   - Pour modifier la variable **[!UICONTROL Applicable Payment Methods]** qui sont disponibles pour l’entreprise, effacez la variable **[!UICONTROL Use config settings]** et sélectionnez l’une des options suivantes :
+   - Pour modifier les **[!UICONTROL Applicable Payment Methods]** disponibles pour l’entreprise, décochez la case **[!UICONTROL Use config settings]** et sélectionnez l’une des options suivantes :
 
      | Option | Description |
      |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-     | `B2B Payment Methods` | (Par défaut) Active toutes les [méthodes de paiement définies par défaut](../configuration-reference/general/b2b-features.md#default-b2b-payment-methods) pour les commandes B2B. |
-     | `All Enabled Payment Methods` | Tout [méthodes de paiement activées](../configuration-reference/sales/payment-methods.md) disponibles pour les comptes clients associés au compte de l’entreprise. |
+     | `B2B Payment Methods` | (Par défaut) Active tous les [méthodes de paiement définies par défaut](../configuration-reference/general/b2b-features.md#default-b2b-payment-methods) pour les commandes B2B. |
+     | `All Enabled Payment Methods` | Rend tous les [modes de paiement activés](../configuration-reference/sales/payment-methods.md) disponibles pour les comptes clients associés au compte de l’entreprise. |
      | `Selected Payment Methods` | Permet de sélectionner les modes de paiement disponibles pour les comptes clients associés au compte de la société. Pour sélectionner plusieurs modes de paiement, maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée et sélectionnez chaque option. |
 
      {style="table-layout:auto"}
 
-   - Pour modifier la variable **[!UICONTROL Applicable Shipping Methods]** qui sont disponibles pour l’entreprise, effacez la variable **[!UICONTROL Use config settings]** et sélectionnez l’une des options suivantes :
+   - Pour modifier les **[!UICONTROL Applicable Shipping Methods]** disponibles pour l’entreprise, décochez la case **[!UICONTROL Use config settings]** et sélectionnez l’une des options suivantes :
 
      | Option | Description |
      |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-     | `B2B Shipping Methods` | (Par défaut) Active toutes les [méthodes d’expédition définies par défaut](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods) pour les commandes B2B. |
-     | `All Enabled Shipping Methods` | Tout [méthodes d’expédition activées](../configuration-reference/sales/delivery-methods.md) disponibles pour les comptes clients associés au compte de l’entreprise. |
+     | `B2B Shipping Methods` | (Par défaut) Active toutes les [méthodes de livraison définies par défaut](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods) pour les commandes B2B. |
+     | `All Enabled Shipping Methods` | Rend toutes les [méthodes d’expédition activées](../configuration-reference/sales/delivery-methods.md) disponibles pour les comptes clients associés au compte de la société. |
      | `Selected Shipping Methods` | Permet de sélectionner les méthodes de livraison disponibles pour les comptes clients associés au compte de la société. Pour sélectionner plusieurs méthodes de livraison, maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée et sélectionnez chaque option. |
 
      {style="table-layout:auto"}
@@ -194,7 +194,7 @@ Le processus de création d’une entreprise à partir de l’administrateur est
 
    Lorsque la demande de création d’un compte de société est approuvée par le commerçant, une notification électronique est envoyée à l’adresse électronique de l’administrateur de la société.
 
-   Lorsque le mot de passe est défini, l’administrateur de l’entreprise peut [connexion](../customers/customer-sign-in.md) au compte .
+   Lorsque le mot de passe est défini, l’administrateur de l’entreprise peut [ se connecter ](../customers/customer-sign-in.md) au compte.
 
 ## Barre de boutons
 
@@ -212,7 +212,7 @@ Le processus de création d’une entreprise à partir de l’administrateur est
 | Champ | Description |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | Le nom de la société est saisi lors de la création du compte de la société et peut être une version abrégée du nom légal complet. |
-| [!UICONTROL Status] | (Administrateur uniquement) Indique l’état actuel du compte de la société. Options : <br/>**[!UICONTROL Active]**- Le compte de la société est approuvé par l’administrateur du magasin. L’administrateur de la société et les membres associés peuvent se connecter au compte à partir du storefront et effectuer des achats.<br/>**[!UICONTROL Pending Approval]** - Une demande d’ouverture d’un compte de société a été envoyée, mais n’est pas encore approuvée par l’administrateur du magasin. <br/>**[!UICONTROL Rejected]**- Une demande d’ouverture d’un compte de société a été envoyée, mais n’a pas été approuvée par l’administrateur du magasin. Les informations de connexion initiales utilisées pour envoyer la demande sont bloquées.<br/>** Bloqué&#x200B;**- Les membres de la société peuvent se connecter et accéder au catalogue, mais ne peuvent pas effectuer d’achats. L’administrateur du magasin peut bloquer un compte d’entreprise qui n’est pas en règle. Le bloc du compte peut être supprimé à tout moment par l’administrateur du magasin. |
+| [!UICONTROL Status] | (Administrateur uniquement) Indique l’état actuel du compte de la société. Options : <br/>**[!UICONTROL Active]**- Le compte de la société est approuvé par l’administrateur du magasin. L’administrateur de la société et les membres associés peuvent se connecter au compte à partir du storefront et effectuer des achats.<br/>**[!UICONTROL Pending Approval]** - Une demande d’ouverture d’un compte de société a été envoyée, mais n’est pas encore approuvée par l’administrateur du magasin. <br/>**[!UICONTROL Rejected]**- Une demande d’ouverture d’un compte de société a été envoyée, mais n’a pas été approuvée par l’administrateur du magasin. Les informations de connexion initiales utilisées pour envoyer la demande sont bloquées.<br/>** Blocked **- Les membres de la société peuvent se connecter et accéder au catalogue, mais ne peuvent pas effectuer d’achats. L’administrateur du magasin peut bloquer un compte d’entreprise qui n’est pas en règle. Le bloc du compte peut être supprimé à tout moment par l’administrateur du magasin. |
 | [!UICONTROL Company Email] | Adresse électronique associée au compte de la société. |
 | [!UICONTROL Sales Representative] | (Administrateur uniquement) Utilisateur administrateur qui est le contact principal pour le compte de la société. |
 
@@ -223,7 +223,7 @@ Le processus de création d’une entreprise à partir de l’administrateur est
 | Champ | Description |
 |---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Legal Name] | Nom légal complet de la société. |
-| [!UICONTROL VAT / TAX ID] | La variable [taxe sur la valeur ajoutée](../stores-purchase/vat.md) numéro qui est attribué à la société par certaines juridictions à des fins de déclaration fiscale. Pour configurer l’ID de TVA/TAX du client pour qu’il apparaisse dans le storefront, voir [Créer des options de compte](../configuration-reference/customers/customer-configuration.md). <br/> **_Remarque :_** L’administrateur de l’entreprise et les autres utilisateurs de l’entreprise n’ont pas leur propre numéro d’identification TVA/TAX dans leurs comptes clients. |
+| [!UICONTROL VAT / TAX ID] | Numéro de la [taxe sur la valeur ajoutée](../stores-purchase/vat.md) qui est attribué à la société par certaines juridictions à des fins de déclaration fiscale. Pour configurer l’ID de TVA/TAX du client pour qu’il apparaisse sur le storefront, voir [Créer des options de compte](../configuration-reference/customers/customer-configuration.md). <br/> **_Remarque :_** L’administrateur de la société et les autres utilisateurs de la société n’ont pas leurs propres numéros d’ID TVA/TAX dans leurs comptes clients. |
 | [!UICONTROL Reseller ID] | Numéro de revente attribué à la société à des fins de déclaration fiscale. |
 | [!UICONTROL Comment] | (Admin uniquement) Ces notes sur le compte de la société sont à titre de référence et ne sont visibles que par l’administrateur. |
 
@@ -234,13 +234,13 @@ Le processus de création d’une entreprise à partir de l’administrateur est
 | Champ | Description |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company ID] | Numéro d’ID de la société. |
-| [!UICONTROL Company Name] | Nom complet de la société. <br/>A `current company indicator` apparaît dans la ligne de l’entreprise en cours d’édition. |
+| [!UICONTROL Company Name] | Nom complet de la société. <br/>Un `current company indicator` apparaît dans la ligne de l’entreprise en cours de modification. |
 | [!UICONTROL Company Email] | Adresse électronique associée au compte de la société. |
 | [!UICONTROL Phone Number] | Numéro de téléphone principal de la société. |
 | [!UICONTROL Country] | Le pays dans lequel la société est enregistrée pour mener une activité commerciale. |
 | [!UICONTROL State/Province] | État ou province dans lequel l’entreprise est enregistrée pour exercer une activité commerciale. |
 | [!UICONTROL City] | Ville dans laquelle l’entreprise est enregistrée pour faire des affaires. |
-| [!UICONTROL Group/Shared Catalog] | (Administrateur uniquement) Indique la variable [groupe de clients](../customers/customer-groups.md) ou [catalogue partagé](catalog-shared.md) qui est affecté à la société. |
+| [!UICONTROL Group/Shared Catalog] | (Admin uniquement) Indique le [groupe de clients](../customers/customer-groups.md) ou le [catalogue partagé](catalog-shared.md) affecté à la société. |
 | [!UICONTROL Company Admin] | Nom complet de l’administrateur de la société. |
 | [!UICONTROL Action] | Liste des actions possibles pour cette ligne d’entreprise. |
 
@@ -266,11 +266,11 @@ Le processus de création d’une entreprise à partir de l’administrateur est
 | [!UICONTROL Website] | Détermine le site web auquel appartient l’administrateur de l’entreprise. |
 | [!UICONTROL Job Title] | Titre de l’administrateur de la société qui gère le compte de la société. |
 | [!UICONTROL Email] | L’adresse électronique de l’administrateur de l’entreprise peut être identique à celle de l’entreprise. Si une autre adresse électronique est saisie, un compte individuel distinct est créé pour l’administrateur de la société, en plus du compte de la société. |
-| [!UICONTROL Prefix] | Le cas échéant, le préfixe associé au nom de l’administrateur de l’entreprise (tel que `Mr.`, `Ms.`, `Mrs.`, ou `Dr.`). Selon le paramétrage, le champ de saisie peut être un champ de texte ou une liste. |
+| [!UICONTROL Prefix] | Le cas échéant, le préfixe associé au nom de l’administrateur de l’entreprise (par exemple `Mr.`, `Ms.`, `Mrs.` ou `Dr.`). Selon le paramétrage, le champ de saisie peut être un champ de texte ou une liste. |
 | [!UICONTROL First Name] | Prénom de l’administrateur de la société. |
 | [!UICONTROL Middle Name/Initial] | Nom intermédiaire ou initial de l’administrateur de la société. |
 | [!UICONTROL Last Name] | Nom de l’administrateur de la société. |
-| [!UICONTROL Suffix] | Le cas échéant, suffixe associé au nom de l’administrateur de l’entreprise (tel que `Jr.`, `Sr.`, ou `III.`). Selon le paramétrage, le champ de saisie peut être un champ de texte ou une liste. |
+| [!UICONTROL Suffix] | Le cas échéant, le suffixe associé au nom de l’administrateur de l’entreprise (par exemple `Jr.`, `Sr.` ou `III.`). Selon le paramétrage, le champ de saisie peut être un champ de texte ou une liste. |
 | [!UICONTROL Gender] | Genre de l’administrateur de l’entreprise. Options : `Male` / `Female` / `Not Specified` |
 | [!UICONTROL Send Welcome Email From] | Vue de magasin à partir de laquelle le courriel de bienvenue doit être envoyé. |
 
@@ -291,9 +291,9 @@ Le processus de création d’une entreprise à partir de l’administrateur est
 
 | Champ | Description |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Customer Group] | (Administrateur uniquement) Indique la variable [groupe de clients](../customers/customer-groups.md) ou [catalogue partagé](catalog-shared.md) qui est affecté à la société. |
+| [!UICONTROL Customer Group] | (Admin uniquement) Indique le [groupe de clients](../customers/customer-groups.md) ou le [catalogue partagé](catalog-shared.md) affecté à la société. |
 | [!UICONTROL Allow Quotes] | (Administrateur uniquement) Détermine si les membres de la société peuvent préparer et envoyer des citations négociables pour le compte de la société. |
-| [!UICONTROL Enable Purchase Orders] | (Administrateur uniquement) Détermine si les membres de l’entreprise peuvent envoyer des commandes sous la forme [commandes d’achat](account-dashboard-my-purchase-orders.md) pour le compte de la société. |
+| [!UICONTROL Enable Purchase Orders] | (Administrateur uniquement) Détermine si les membres de la société peuvent envoyer des commandes en tant que [commandes d’achat](account-dashboard-my-purchase-orders.md) pour le compte de la société. |
 | Méthodes de paiement applicables | (Admin uniquement) Indique les modes de paiement disponibles pour les achats de l’entreprise. Options : `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods` |
 | [!UICONTROL Payment Methods] | (Administrateur uniquement) Devient actif si des méthodes de paiement spécifiques sont activées. Pour mettre à disposition plusieurs modes de paiement pour le compte de l’entreprise, maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée et sélectionnez chaque option. |
 | [!UICONTROL Applicable Shipping Methods] | (Admin uniquement) Indique les méthodes de livraison disponibles pour les achats de l’entreprise. Options : `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods` |

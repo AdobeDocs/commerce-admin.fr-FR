@@ -14,28 +14,28 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Les rapports de ventes privés fournissent des informations sur les [événements et ventes privées](../merchandising-promotions/events-private-sales.md).
+Les rapports de ventes privés fournissent des informations sur les [événements et les ventes privées](../merchandising-promotions/events-private-sales.md).
 
 ## [!UICONTROL Invitations Report]
 
-La variable [!UICONTROL Invitations Report] affiche le nombre de [invitations](../merchandising-promotions/invitations.md) envoyé pendant la période spécifiée, ainsi que le nombre accepté et ignoré.
+[!UICONTROL Invitations Report] affiche le nombre de [invitations](../merchandising-promotions/invitations.md) envoyées pendant la période spécifiée, ainsi que le nombre accepté et ignoré.
 
-Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**.
+Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**.
 
 ![Rapport d’invitations](./assets/private-sales-invitations.png){width="600"}
 
 ## [!UICONTROL Invited Customers Report]
 
-La variable [!UICONTROL Invited Customers Report] affiche tous les clients qui ont reçu des invitations à une vente ou un événement privé. Il comprend le nom et l’adresse email, le groupe de clients, le nombre d’invitations envoyées et le nombre accepté.
+Le [!UICONTROL Invited Customers Report] affiche tous les clients qui ont reçu des invitations à une vente privée ou à un événement. Il comprend le nom et l’adresse email, le groupe de clients, le nombre d’invitations envoyées et le nombre accepté.
 
-Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invited Customers]**.
+Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invited Customers]**.
 
 ![Rapport Clients invités](./assets/private-sales-invited-customers.png){width="600"}
 
 ## [!UICONTROL Conversion Rate Report]
 
-La variable [!UICONTROL Conversion Rate Report] indique le nombre d’invitations envoyées et acceptées, le nombre d’invitations ayant conduit à un achat et le taux de conversion en pourcentage.
+Le [!UICONTROL Conversion Rate Report] indique le nombre d’invitations envoyées et acceptées, le nombre d’invitations ayant conduit à un achat et le taux de conversion en pourcentage.
 
-Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Conversions]**.
+Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Conversions]**.
 
 ![Rapport Taux de conversion](./assets/private-sales-conversions.png){width="600"}

@@ -5,7 +5,7 @@ exl-id: 86e362af-2af7-4557-ac49-1efad2f0e976
 feature: Products, Customers, Data Import/Export
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Le format de fichier CSV (valeurs séparées par des virgules) est utilisé comme base des opérations de transfert de données et est pris en charge par toutes les applications de tableur et de base de données. Les types de fichiers suivants sont pris en charge pour l’importation et l’exportation :
 
-- Import : `CSV` et `ZIP` (fichier CSV compressé)
+- Importation : `CSV` et `ZIP` (fichier CSV compressé)
 - Export : `CSV`
 
 >[!IMPORTANT]
@@ -31,13 +31,13 @@ Une exportation complète de la base de données de produits contient des inform
 
 La première ligne du tableau contient les noms de chaque attribut, qui sont utilisés comme en-têtes de colonne. Les lignes restantes décrivent les enregistrements de produit individuels. Toute ligne commençant par une valeur dans la colonne SKU constitue le début d’un nouvel enregistrement de produit. Un seul produit peut inclure plusieurs lignes contenant des informations sur plusieurs images ou options de produit. La ligne suivante comportant une valeur dans la colonne SKU commence un nouveau produit.
 
-La colonne Catégorie contient un chemin d’accès pour chaque catégorie à laquelle le produit est affecté. Le chemin d’accès inclut la catégorie racine, suivie d’une barre oblique (`/`) entre chaque niveau. Par défaut, la virgule `,` sert à séparer différents chemins de catégorie. (Vous pouvez spécifier un autre caractère de séparateur avec la variable _[!UICONTROL Multiple value separator]_). Par exemple :
+La colonne Catégorie contient un chemin d’accès pour chaque catégorie à laquelle le produit est affecté. Le chemin d’accès inclut la catégorie racine, suivie d’une barre oblique (`/`) entre chaque niveau. Par défaut, la virgule `,` est utilisée pour séparer les différents chemins de catégorie. (Vous pouvez spécifier un autre caractère de séparateur avec l’option _[!UICONTROL Multiple value separator]_.) Par exemple :
 
 `Default Category/Gear,Default Category/Gear/Bags`
 
 Pour importer des données, vous devez inclure uniquement le SKU et les colonnes contenant des modifications. Toutes les colonnes vides sont ignorées pendant le processus d’importation. Il n’est pas possible d’ajouter des attributs pendant le processus d’importation. Vous ne pouvez inclure que les attributs existants.
 
-Pour obtenir une description détaillée de chaque attribut de produit, voir [Structure de fichier CSV de produit](data-attributes-product.md).
+Pour une description détaillée de chaque attribut de produit, voir [Structure de fichier CSV de produit](data-attributes-product.md).
 
 | Nom de la colonne | Description |
 | ----------- | ----------- |
@@ -50,7 +50,7 @@ Pour obtenir une description détaillée de chaque attribut de produit, voir [St
 
 Le fichier CSV des clients contient les informations sur les clients de la base de données et possède la structure suivante :
 
-La première ligne du tableau contient les noms des colonnes d’attributs (qui sont identiques aux codes d’attributs). Il existe deux types de noms de colonne, comme illustré dans le tableau suivant. D’autres lignes contiennent des valeurs d’attribut, des données de service et des données complexes. Chaque ligne avec des valeurs non vides dans la variable `email` et `_website` commence la description du client suivant. Chaque ligne peut représenter les données du client avec ou sans données d’adresse, ou les données d’adresse uniquement. Si une ligne ne contient que les données d’adresse, les valeurs des colonnes relatives au profil du client sont ignorées et peuvent être vides.
+La première ligne du tableau contient les noms des colonnes d’attributs (qui sont identiques aux codes d’attributs). Il existe deux types de noms de colonne, comme illustré dans le tableau suivant. D’autres lignes contiennent des valeurs d’attribut, des données de service et des données complexes. Chaque ligne avec des valeurs non vides dans les colonnes `email` et `_website` commence la description du client suivant. Chaque ligne peut représenter les données du client avec ou sans données d’adresse, ou les données d’adresse uniquement. Si une ligne ne contient que les données d’adresse, les valeurs des colonnes relatives au profil du client sont ignorées et peuvent être vides.
 
 Pour ajouter ou remplacer plusieurs adresses pour un client, ajoutez une ligne pour chaque nouvelle adresse avec des données client vides et les données d’adresse nouvelles ou mises à jour sous la ligne de données client.
 

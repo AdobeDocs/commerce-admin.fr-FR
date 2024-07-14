@@ -1,53 +1,53 @@
 ---
 title: Éléments - Boutons
-description: Découvrez le type de contenu Boutons , utilisé pour ajouter un bouton individuel ou un ensemble de boutons dans la variable [!DNL Page Builder] scène.
+description: Découvrez le type de contenu Boutons, utilisé pour ajouter un bouton individuel ou un ensemble de boutons dans la scène  [!DNL Page Builder] .
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
 
 # Éléments - Boutons
 
-Utilisez la variable _Boutons_ type de contenu pour ajouter un bouton individuel ou un ensemble de boutons dans la variable [[!DNL Page Builder] étape](workspace.md#stage). Vous pouvez disposer les boutons horizontalement ou verticalement, puis les ajouter directement aux rangées, colonnes, onglets et bannières sur la scène.
+Utilisez le type de contenu _Boutons_ pour ajouter un bouton individuel ou un ensemble de boutons dans la [[!DNL Page Builder] scène](workspace.md#stage). Vous pouvez disposer les boutons horizontalement ou verticalement, puis les ajouter directement aux rangées, colonnes, onglets et bannières sur la scène.
 
-![Bannière avec un bouton sur la vitrine](./assets/pb-storefont-banner-with-button.png){width="600" zoomable="yes"}
+![Bannière avec un bouton sur le storefront](./assets/pb-storefont-banner-with-button.png){width="600" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## Toolbox
 
-Lorsque vous utilisez le type de contenu Boutons , vous ajoutez et modifiez des boutons individuels et le conteneur de boutons qui contient un ou plusieurs boutons. Chacun dispose de sa propre boîte à outils que vous utilisez pour concevoir des boutons sur le [!DNL Page Builder] scène.
+Lorsque vous utilisez le type de contenu Boutons , vous ajoutez et modifiez des boutons individuels et le conteneur de boutons qui contient un ou plusieurs boutons. Chacun dispose de sa propre boîte à outils que vous utilisez pour concevoir des boutons sur la scène [!DNL Page Builder].
 
 ### Barre d’outils à boutons individuelle
 
-![Barre d’outils Bouton](./assets/pb-elements-button-settings.png){width="500" zoomable="yes"}
+![Boîte à outils de bouton](./assets/pb-elements-button-settings.png){width="500" zoomable="yes"}
 
 | Outil | Icône | Description |
 | --------- | -------- | -------------- |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Bouton Modifier dans laquelle vous pouvez modifier les propriétés du bouton. |
 | Dupliquer | ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="25"} | Effectue une copie du bouton. |
-| Supprimer | ![Icône Supprimer](./assets/pb-icon-remove.png){width="25"} | Supprime le bouton de la scène. |
+| Supprimer | ![Supprimer l’icône](./assets/pb-icon-remove.png){width="25"} | Supprime le bouton de la scène. |
 
 {style="table-layout:auto"}
 
 ### Boîte à outils du conteneur de boutons
 
-![Boîte à outils du conteneur de boutons](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
+![Boîte à outils de conteneur de boutons](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
 | Outil | Icône | Description |
 | --------- | ----------------- | ----------- |
 | Déplacer | ![Icône Déplacer](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de boutons vers un autre emplacement valide de la page. |
-| Ajouter | ![Icône Ajouter](./assets/pb-icon-add-button.png){width="25"} | Ajoute un bouton au conteneur. |
+| Ajouter | ![Ajouter une icône](./assets/pb-icon-add-button.png){width="25"} | Ajoute un bouton au conteneur. |
 | (label) | Bouton | Identifie le conteneur actuel en tant qu’élément de bouton. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Boutons de modification, dans laquelle vous pouvez modifier les propriétés du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le conteneur de boutons. |
 | Afficher | ![Icône Afficher](./assets/pb-icon-show.png){width="25"} | Affiche le conteneur de boutons masqués. |
 | Dupliquer | ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="25"} | Effectue une copie du conteneur de boutons. |
-| Supprimer | ![Icône Supprimer](./assets/pb-icon-remove.png){width="25"} | Supprime le conteneur de boutons et son contenu de la scène. |
+| Supprimer | ![Supprimer l’icône](./assets/pb-icon-remove.png){width="25"} | Supprime le conteneur de boutons et son contenu de la scène. |
 
 {style="table-layout:auto"}
 
@@ -55,17 +55,17 @@ Lorsque vous utilisez le type de contenu Boutons , vous ajoutez et modifiez des 
 
 ## Ajouter un bouton individuel
 
-1. Dans le [!DNL Page Builder] panneau, développer **[!UICONTROL Elements]** et faites glisser un **[!UICONTROL Buttons]** d’un espace réservé à une ligne, une colonne ou un ensemble d’onglets sur l’étape.
+1. Dans le panneau [!DNL Page Builder], développez **[!UICONTROL Elements]** et faites glisser un espace réservé **[!UICONTROL Buttons]** sur une ligne, une colonne ou un ensemble d’onglets sur la scène.
 
-   ![Faire glisser un bouton sur la scène](./assets/pb-elements-button-drag.png){width="500" zoomable="yes"}
+   ![Faire glisser un bouton sur l’étape](./assets/pb-elements-button-drag.png){width="500" zoomable="yes"}
 
-1. Pointez sur le bouton pour afficher la boîte à outils et sélectionnez l’option _Paramètres_ (![Icône Paramètres](./assets/pb-icon-settings.png)).
+1. Pointez sur le bouton pour afficher la boîte à outils et sélectionnez l’icône _Paramètres_ (![Icône Paramètres](./assets/pb-icon-settings.png)).
 
 1. Saisissez le **[!UICONTROL Button Text]** à afficher sur le bouton.
 
-   ![Paramètres de bouton de base](./assets/pb-elements-button-settings-button-text.png){width="600" zoomable="yes"}
+   ![ Paramètres de bouton de base](./assets/pb-elements-button-settings-button-text.png){width="600" zoomable="yes"}
 
-1. Définir **[!UICONTROL Button Type]** à l’une des options suivantes :
+1. Définissez **[!UICONTROL Button Type]** sur l’une des options suivantes :
 
    | Type | Description |
    | ------ | ----------- |
@@ -77,7 +77,7 @@ Lorsque vous utilisez le type de contenu Boutons , vous ajoutez et modifiez des 
 
    ![Exemple de bouton Principal et secondaire](./assets/pb-elements-button-settings-button-primary-secondary.png){width="500" zoomable="yes"}
 
-1. Définissez la variable **[!UICONTROL Button Link]** en utilisant l’un des types suivants :
+1. Définissez le **[!UICONTROL Button Link]** à l’aide de l’un des types suivants :
 
    - **[!UICONTROL URL]** - Entrez l’URL de destination du lien.
 
@@ -89,27 +89,27 @@ Lorsque vous utilisez le type de contenu Boutons , vous ajoutez et modifiez des 
 
      Si le lien accède à un autre site web, vous pouvez conserver la page active ouverte sur votre boutique en ouvrant le lien dans un nouvel onglet du navigateur.
 
-     Pour empêcher le visiteur de quitter votre boutique, sélectionnez la variable **[!UICONTROL Open in new tab]** .
+     Pour empêcher le visiteur de quitter votre boutique, cochez la case **[!UICONTROL Open in new tab]** .
 
-   - **[!UICONTROL Product]** - Saisissez un nom de produit (partiel ou complet) ou un SKU, puis sélectionnez le nom du produit dans la liste.
+   - **[!UICONTROL Product]** - Entrez un nom de produit (partiel ou complet) ou un SKU, puis sélectionnez le nom de produit dans la liste.
 
      >[!NOTE]
      >
-     >Les produits sont affichés dans la liste en fonction de la variable _Afficher les produits en rupture de stock_ paramètres. Pour les marchands multisource utilisant [Inventory management](../inventory-management/introduction.md), la liste de produits est limitée par la source affectée au site web par défaut uniquement.
+     >Les produits sont affichés dans la liste selon les paramètres _Afficher les produits en rupture de stock_ . Pour les marchands multi-Source utilisant [Inventory management](../inventory-management/introduction.md), la liste de produits est limitée par la source affectée au site web par défaut uniquement.
 
-     ![Choisir un produit pour le lien du bouton](./assets/pb-elements-button-settings-button-link-product-search.png){width="600" zoomable="yes"}
+     ![Choix d’un produit pour le lien de bouton](./assets/pb-elements-button-settings-button-link-product-search.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Category]** - Saisissez un nom de catégorie (partiel ou complet) ou cliquez dans le champ vierge pour afficher l’arborescence des catégories. Sélectionnez ensuite le nom de la catégorie dans l&#39;arborescence.
+   - **[!UICONTROL Category]** - Entrez un nom de catégorie (partiel ou complet) ou cliquez dans le champ vierge pour afficher l’arborescence des catégories. Sélectionnez ensuite le nom de la catégorie dans l&#39;arborescence.
 
      ![Choix d’une catégorie pour le lien de bouton](./assets/pb-elements-button-settings-button-link-category-search.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Page]** - Saisissez le nom d’une page CMS (partielle ou complète) ou cliquez dans le champ vierge pour afficher la liste complète. Sélectionnez ensuite le nom de la page dans la liste des résultats de recherche.
+   - **[!UICONTROL Page]** - Entrez le nom d’une page CMS (partielle ou complète) ou cliquez dans le champ vierge pour afficher la liste complète. Sélectionnez ensuite le nom de la page dans la liste des résultats de recherche.
 
-     ![Choisir la page CMS pour le lien du bouton](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
+     ![Choisir la page CMS pour le lien de bouton](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
 
-1. Procédez comme suit : [paramètres avancés][advanced-settings] selon les besoins.
+1. Renseignez les [paramètres avancés][advanced-settings] si nécessaire.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]** dans le coin supérieur droit pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** dans le coin supérieur droit pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
 ## Ajouter un ensemble de boutons
 
@@ -117,81 +117,81 @@ Les sections suivantes décrivent une série d’étapes permettant de commencer
 
 ### Etape 1 : créer le second bouton
 
-1. Passez la souris sur le conteneur de boutons pour afficher la boîte à outils et sélectionnez l’option _Ajouter_ ( ![Icône Ajouter](./assets/pb-icon-add-button.png){width="20"} ).
+1. Pointez sur le conteneur de boutons pour afficher la boîte à outils et sélectionnez l’icône _Ajouter_ ( ![Ajouter une icône](./assets/pb-icon-add-button.png){width="20"} ).
 
    ![Ajouter un autre bouton](./assets/pb-elements-buttons-toolbox-add.png){width="500" zoomable="yes"}
 
 1. Saisissez le texte à afficher sur le deuxième bouton.
 
-1. Cliquez sur le nouveau bouton pour afficher la boîte à outils et choisissez la _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
+1. Cliquez sur le nouveau bouton pour afficher sa boîte à outils et sélectionnez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-   ![Editer le bouton](./assets/pb-elements-button-set-edit-button2-toolbox.png){width="500" zoomable="yes"}
+   ![Modification du bouton](./assets/pb-elements-button-set-edit-button2-toolbox.png){width="500" zoomable="yes"}
 
-1. Définir **[!UICONTROL Button Type]** to `Secondary`.
+1. Définissez **[!UICONTROL Button Type]** sur `Secondary`.
 
-1. Configurez la variable **[!UICONTROL Button Link]** selon les besoins.
+1. Configurez le **[!UICONTROL Button Link]** selon vos besoins.
 
-   Dans l’exemple suivant, le lien est une URL relative qui va à la variable [Nous contacter](../getting-started/store-details.md#contact-us-form) page.
+   Dans l’exemple suivant, le lien est une URL relative qui accède à la page [Nous contacter](../getting-started/store-details.md#contact-us-form).
 
    ![Paramètres du bouton Nous contacter](./assets/pb-elements-button-set-edit-button2-toolbox-settings.png){width="600" zoomable="yes"}
 
-1. Procédez comme suit : [paramètres avancés][advanced-settings] selon les besoins.
+1. Renseignez les [paramètres avancés][advanced-settings] si nécessaire.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
 ### Etape 2 : créer le troisième bouton
 
-1. Cliquez à nouveau sur le second bouton sur la scène et choisissez le _Dupliquer_ ( ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="20"} ).
+1. Cliquez à nouveau sur le second bouton sur l’étape et sélectionnez l’icône _Dupliquer_ ( ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="20"} ).
 
-   ![Dupliquer un bouton](./assets/pb-elements-button-set-contact-us-toolbox-duplicate.png){width="500" zoomable="yes"}
+   ![Duplication d&#39;un bouton](./assets/pb-elements-button-set-contact-us-toolbox-duplicate.png){width="500" zoomable="yes"}
 
 1. Saisissez le texte à afficher sur le troisième bouton.
 
-1. Cliquez sur le troisième bouton pour afficher la boîte à outils et choisissez le _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
+1. Cliquez sur le troisième bouton pour afficher la boîte à outils et sélectionnez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-   ![Boîte à outils du troisième bouton](./assets/pb-elements-button-set-find-us-toolbox-settings.png){width="500" zoomable="yes"}
+   ![Toolbox pour le troisième bouton](./assets/pb-elements-button-set-find-us-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. Mettez à jour le **[!UICONTROL Button Link]** selon les besoins.
+1. Mettez à jour **[!UICONTROL Button Link]** si nécessaire.
 
-1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
 ### Etape 3 : mettre à jour le conteneur de boutons
 
-1. Passez la souris sur le conteneur de boutons pour afficher la boîte à outils et sélectionnez l’option _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
+1. Pointez sur le conteneur de boutons pour afficher la boîte à outils et sélectionnez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-   ![Boîte à outils du conteneur de boutons](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
+   ![Boîte à outils de conteneur de boutons](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
 1. Sous _[!UICONTROL Appearance]_, choisissez **[!UICONTROL Stacked]**.
 
-1. Définir **[!UICONTROL All Buttons are same size]** to `Yes`.
+1. Définissez **[!UICONTROL All Buttons are same size]** sur `Yes`.
 
-   ![Boutons empilés de même taille](./assets/pb-elements-buttons-settings-appearance-stacked.png){width="300"}
+   ![Boutons empilés de la même taille](./assets/pb-elements-buttons-settings-appearance-stacked.png){width="300"}
 
-1. Mettez à jour les paramètres restants si nécessaire, à l’aide des descriptions de la section [Modification des paramètres d’un conteneur de boutons][button-container].
+1. Mettez à jour les paramètres restants si nécessaire, à l’aide des descriptions de [Modifier les paramètres d’un conteneur de boutons][button-container].
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
    L’ensemble de boutons empilés complet apparaît sur la scène, avec un bouton principal et deux boutons secondaires.
 
-   ![Boutons empilés sur la scène](./assets/pb-elements-buttons-stacked.png){width="500" zoomable="yes"}
+   ![Boutons empilés sur l&#39;étape](./assets/pb-elements-buttons-stacked.png){width="500" zoomable="yes"}
 
 ## Déplacer un bouton
 
 1. Cliquez sur le bouton à déplacer.
 
-1. Sélectionnez et faites glisser Déplacer ( ![Icône Déplacer](./assets/pb-icon-move.png){width="20"} ), qui s’affiche juste avant le texte du bouton, à un nouvel emplacement du bouton dans le conteneur de boutons.
+1. Sélectionnez l’icône Déplacer ( ![Icône Déplacer](./assets/pb-icon-move.png){width="20"} ) qui s’affiche juste avant le texte du bouton et faites-la glisser vers un nouvel emplacement pour le bouton dans le conteneur de boutons.
 
    ![Déplacement d’un bouton](./assets/pb-elements-button-set-move-button.png){width="500" zoomable="yes"}
 
 ## Modification des paramètres d’un bouton
 
-1. Cliquez sur le bouton situé sur la scène pour afficher la boîte à outils et choisissez la _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
+1. Cliquez sur le bouton sur l’étape pour afficher la boîte à outils et choisissez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-   ![Barres d’outils de boutons](./assets/pb-elements-button-toolboxes.png){width="500" zoomable="yes"}
+   ![Boîtes à outils de bouton](./assets/pb-elements-button-toolboxes.png){width="500" zoomable="yes"}
 
 1. Mettez à jour les paramètres standard si nécessaire.
 
-   - **[!UICONTROL Button Text]** - Saisissez le texte qui apparaîtra sur le bouton (peut également être mis à jour directement à partir de la scène).
+   - **[!UICONTROL Button Text]** - Entrez le texte à afficher sur le bouton (peut également être mis à jour directement à partir de la scène).
 
    - **[!UICONTROL Button Type]** - Détermine le format du bouton.
 
@@ -214,15 +214,15 @@ Les sections suivantes décrivent une série d’étapes permettant de commencer
 
      {style="table-layout:auto"}
 
-1. Procédez comme suit : [paramètres avancés][advanced-settings] selon les besoins.
+1. Renseignez les [paramètres avancés][advanced-settings] si nécessaire.
 
-1. Pour enregistrer les paramètres et revenir au [!DNL Page Builder] espace de travail, cliquez sur **[!UICONTROL Save]** dans le coin supérieur droit.
+1. Pour enregistrer les paramètres et revenir à l’espace de travail [!DNL Page Builder], cliquez sur **[!UICONTROL Save]** dans le coin supérieur droit.
 
 ## Modification des paramètres d’un conteneur de boutons
 
-1. Passez la souris sur le conteneur de boutons pour afficher la boîte à outils et sélectionnez l’option _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
+1. Pointez sur le conteneur de boutons pour afficher la boîte à outils et sélectionnez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Mettez à jour le **[!UICONTROL Appearance]** selon les besoins.
+1. Mettez à jour les paramètres **[!UICONTROL Appearance]** si nécessaire.
 
    - Utilisez les options de disposition pour afficher les boutons horizontalement ou verticalement dans le conteneur :
 
@@ -233,19 +233,19 @@ Les sections suivantes décrivent une série d’étapes permettant de commencer
 
      {style="table-layout:auto"}
 
-   - Définissez la variable **[!UICONTROL All buttons are same size]** selon vos préférences.
+   - Définissez l’option **[!UICONTROL All buttons are same size]** en fonction de vos préférences.
 
-     Lorsque la variable est définie sur `Yes`, la taille de tous les boutons du conteneur est cohérente, en fonction de la longueur du texte du bouton le plus long.
+     Lorsqu’il est défini sur `Yes`, tous les boutons du conteneur ont une taille cohérente, en fonction de la longueur du texte du bouton le plus long.
 
-1. Procédez comme suit : [Paramètres avancés][advanced-settings] selon les besoins.
+1. Renseignez les [paramètres avancés][advanced-settings] si nécessaire.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
 ## Modification des paramètres avancés
 
-Vous pouvez modifier le _[!UICONTROL Advanced]_paramètres pour des boutons individuels et pour le conteneur de boutons.
+Vous pouvez modifier les paramètres _[!UICONTROL Advanced]_de boutons individuels et du conteneur de boutons.
 
-1. Pour contrôler le positionnement dans le conteneur parent, sélectionnez la variable **[!UICONTROL Alignment]**:
+1. Pour contrôler le positionnement dans le conteneur parent, choisissez le **[!UICONTROL Alignment]** :
 
    | Option | Description |
    | ------ | ----------- |
@@ -256,7 +256,7 @@ Vous pouvez modifier le _[!UICONTROL Advanced]_paramètres pour des boutons indi
 
    {style="table-layout:auto"}
 
-1. Définissez la variable **[!UICONTROL Border]** style appliqué aux quatre côtés du conteneur de boutons ou de boutons :
+1. Définissez le style **[!UICONTROL Border]** appliqué aux quatre côtés du conteneur de boutons ou de boutons :
 
    | Option | Description |
    | ------ | ----------- |
@@ -273,7 +273,7 @@ Vous pouvez modifier le _[!UICONTROL Advanced]_paramètres pour des boutons indi
 
    {style="table-layout:auto"}
 
-1. Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage des bordures :
+1. Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage de la bordure :
 
    | Option | Description |
    | ------ |------------ |
@@ -283,11 +283,11 @@ Vous pouvez modifier le _[!UICONTROL Advanced]_paramètres pour des boutons indi
 
    {style="table-layout:auto"}
 
-1. (Facultatif) Indiquez les noms des **[!UICONTROL CSS classes]** de la feuille de style active à appliquer au conteneur de boutons ou de boutons.
+1. (Facultatif) Indiquez les noms de **[!UICONTROL CSS classes]** dans la feuille de style actuelle à appliquer au conteneur de boutons ou de boutons.
 
    Séparez plusieurs noms de classe par un espace.
 
-1. Saisissez des valeurs, en pixels, pour la variable **[!UICONTROL Margins and Padding]** pour déterminer les marges extérieures et la marge intérieure du conteneur de boutons ou de boutons.
+1. Saisissez des valeurs, en pixels, pour le **[!UICONTROL Margins and Padding]** afin de déterminer les marges extérieures et la marge intérieure du conteneur de boutons ou de boutons.
 
    Saisissez les valeurs correspondantes dans le diagramme.
 

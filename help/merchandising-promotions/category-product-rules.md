@@ -18,45 +18,45 @@ Les règles de catégorie modifient dynamiquement la sélection de produits en f
 
 >[!TIP]
 >
->Lors de la configuration des règles de catégorie, les produits sont _triés_, _correspond à_, _affecté_, et _non attribué_ selon cette règle **_only_** lorsque cette catégorie est enregistrée. Par exemple, si vous ajoutez un produit au catalogue et que vous souhaitez l’affecter selon la règle, vous **doit réinitialiser chaque catégorie** qui est défini pour correspondre aux produits par règle. En outre, si l’état d’un stock de produits est modifié en `In Stock` ou `Out of Stock` et les produits de la catégorie doivent être _triés_ en fonction de la variable **[!UICONTROL Automatic Sorting]** règle, cliquez sur **[!UICONTROL Save Category]**.
+>Lors de la configuration des règles de catégorie, les produits sont _triés_, _correspondants_, _assigned_ et _non attribués_ selon cette règle **_uniquement_** lorsque cette catégorie est enregistrée. Par exemple, si vous ajoutez un produit au catalogue et que vous souhaitez l’affecter en fonction de la règle, vous **devez réenregistrer chaque catégorie** définie pour correspondre aux produits par règle. En outre, si un état de stock de produit est modifié en `In Stock` ou `Out of Stock` et que les produits de la catégorie doivent être _triés_ en fonction de la règle **[!UICONTROL Automatic Sorting]**, vous devez cliquer sur **[!UICONTROL Save Category]**.
 
-Chaque condition se compose d’un attribut, d’une valeur et d’un opérateur logique. Uniquement les attributs avec la variable _[[!UICONTROL Use in Product Listing]](../catalog/attribute-product-create.md)_définie sur `Yes` peut être utilisé dans les règles de catégorie. Vous devez définir cette propriété pour l’attribut si vous souhaitez utiliser un attribut qui n’est pas inclus dans les listes de produits. Bien que les attributs de date ne soient pas pris en charge, vous pouvez utiliser les attributs Date de création ou Date de modification pour définir une date ou une plage de dates. Par exemple, pour inclure uniquement les produits créés au cours de la semaine écoulée, définissez &quot;Date de création&quot; sur la valeur `<7`.
+Chaque condition se compose d’un attribut, d’une valeur et d’un opérateur logique. Seuls les attributs avec la propriété _[[!UICONTROL Use in Product Listing]](../catalog/attribute-product-create.md)_définie sur `Yes` peuvent être utilisés dans les règles de catégorie. Vous devez définir cette propriété pour l’attribut si vous souhaitez utiliser un attribut qui n’est pas inclus dans les listes de produits. Bien que les attributs de date ne soient pas pris en charge, vous pouvez utiliser les attributs Date de création ou Date de modification pour définir une date ou une plage de dates. Par exemple, pour inclure uniquement les produits créés au cours de la semaine écoulée, définissez &quot;Date de création&quot; sur la valeur `<7`.
 
 >[!NOTE]
 >
->Veillez à configurer chaque attribut utilisé dans la règle comme [_smart_ attribute](smart-attributes-configure.md).
+>Veillez à configurer chaque attribut utilisé dans la règle comme [_attribut_ intelligent](smart-attributes-configure.md).
 
 ![Règle de produit de catégorie](../catalog/assets/category-product-rule-with-stock.png){width="600" zoomable="yes"}
 
-Les règles de produits de catégorie peuvent accélérer le processus d’attribution de produits spécifiques à des catégories, en fonction des conditions qui déterminent quels produits apparaissent dans la catégorie. Les attributs &quot;intelligents&quot; qui peuvent être utilisés avec les règles de produit de catégorie sont spécifiés dans la variable [Marchandisage visuel](visual-merchandiser.md) configuration.
+Les règles de produits de catégorie peuvent accélérer le processus d’attribution de produits spécifiques à des catégories, en fonction des conditions qui déterminent quels produits apparaissent dans la catégorie. Les attributs &quot;intelligents&quot; pouvant être utilisés avec des règles de produit de catégorie sont spécifiés dans la configuration [Visual Merchandiser](visual-merchandiser.md).
 
 >[!NOTE]
 >
 >Soyez prudent lorsque vous appliquez une règle de produit de catégorie, car tous les produits qui ne respectent pas la condition sont supprimés de la catégorie. Par exemple, si vous créez une règle qui inclut uniquement les cuves violettes, toutes les autres cuves sont retirées de la catégorie .
 
-## Etape 1 : configurer la variable _smart_ Attributs
+## Étape 1 : configuration des attributs _smart_
 
-1. Pour chaque attribut à utiliser dans la règle, assurez-vous que la variable [[!UICONTROL Use in Product Listing]](../catalog/product-attributes.md) La propriété storefront est définie sur `Yes`.
+1. Pour chaque attribut à utiliser dans la règle, assurez-vous que la propriété [[!UICONTROL Use in Product Listing]](../catalog/product-attributes.md) storefront est définie sur `Yes`.
 
    >[!NOTE]
    >
-   >Assurez-vous que l’attribut que vous sélectionnez n’est PAS un multi-sélection. _[!UICONTROL Input Type]_.
+   >Assurez-vous que l&#39;attribut que vous sélectionnez n&#39;est PAS un _[!UICONTROL Input Type]_multi-select.
 
-1. Procédez comme suit : [configuration](smart-attributes-configure.md) pour identifier chaque _smart_ qui doit être utilisé avec Visual Merchandiser.
+1. Renseignez la [configuration](smart-attributes-configure.md) pour identifier chaque attribut _smart_ à utiliser avec Visual Merchandiser.
 
 ## Étape 2 : création de la règle de catégorie
 
 1. Dans l&#39;arborescence des catégories, ouvrez la catégorie à éditer.
 
-1. Dans le **[!UICONTROL Products in Category]** , définissez **[!UICONTROL Match products by rule]** to `Yes`.
+1. Dans la section **[!UICONTROL Products in Category]**, définissez **[!UICONTROL Match products by rule]** sur `Yes`.
 
    Les options de tri et de condition automatiques s’affichent.
 
 1. Cliquez sur **[!UICONTROL Add Condition]**.
 
-1. Choisissez la **[!UICONTROL Attribute]** c&#39;est la base de la condition.
+1. Sélectionnez le **[!UICONTROL Attribute]** qui est la base de la condition.
 
-1. Définir **[!UICONTROL Operator]** à l’une des options suivantes :
+1. Définissez **[!UICONTROL Operator]** sur l’une des options suivantes :
 
    - `Equal`
    - `Not equal`
@@ -74,15 +74,15 @@ Les règles de produits de catégorie peuvent accélérer le processus d’attri
 
    Par exemple, pour faire correspondre des produits créés il y a entre sept et 30 jours, procédez comme suit :
 
-   - Définir **[!UICONTROL Date Created]** to `Less than 30`.
+   - Définissez **[!UICONTROL Date Created]** sur `Less than 30`.
 
-   - Définir **[!UICONTROL Logic]** to `AND`.
+   - Définissez **[!UICONTROL Logic]** sur `AND`.
 
      >[!NOTE]
      >
-     >Lorsque vous choisissez `AND`, la règle s’applique aux produits pour lesquels toutes les conditions sont remplies. Lorsque vous choisissez `OR`, il s’applique aux produits pour lesquels au moins une condition est remplie.
+     >Lorsque vous choisissez `AND`, la règle s&#39;applique aux produits pour lesquels toutes les conditions sont remplies. Lorsque vous choisissez `OR`, cela s&#39;applique aux produits pour lesquels au moins une condition est remplie.
 
-   - Définir **[!UICONTROL Date Modified]** to `Greater than 7`.
+   - Définissez **[!UICONTROL Date Modified]** sur `Greater than 7`.
 
 1. Pour appliquer automatiquement un ordre de tri à la liste de produits générée dynamiquement, définissez **[!UICONTROL Automatic Sorting]**.
 
@@ -93,16 +93,16 @@ Les règles de produits de catégorie peuvent accélérer le processus d’attri
    | Option de tri | Description |
    |-----------| -----------|
    | [!UICONTROL Stock quantity] | Tri en fonction du stock, du haut ou du bas : `Move low stock to top` ou `Move out of stock to bottom` |
-   | [!UICONTROL Special price] | Trier en fonction du prix, du haut ou du bas : `Special price to top` ou `Special price to bottom` |
+   | [!UICONTROL Special price] | Tri en fonction du prix, du haut ou du bas : `Special price to top` ou `Special price to bottom` |
    | [!UICONTROL New Products] | Liste des produits les plus récents : `Newest products first` |
    | [!UICONTROL Color] | Trier par ordre alphabétique par couleur : `Sort by color` |
    | [!UICONTROL Product Names] | Tri par nom dans l’ordre croissant ou décroissant : `Name A - Z` ou `Name Z -A` |
    | [!UICONTROL SKU] | Tri par SKU dans l’ordre croissant ou décroissant : `SKU: Ascending` ou `SKU: Descending` |
-   | [!UICONTROL Price] | Tri par prix dans l&#39;ordre croissant ou décroissant : `Price: High to low` ou `Price: Low to high` |
+   | [!UICONTROL Price] | Tri par prix dans l’ordre croissant ou décroissant : `Price: High to low` ou `Price: Low to high` |
 
    {style="table-layout:auto"}
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Category]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Category]**.
 
 >[!NOTE]
 >
@@ -112,11 +112,11 @@ Les règles de produits de catégorie peuvent accélérer le processus d’attri
 
 - **[!UICONTROL Match products by rule]** - Détermine si la liste de produits de la catégorie est générée dynamiquement par une règle de catégorie. Options : `Yes` / `No`
 
-- **[!UICONTROL Automatic Sorting]** - Applique automatiquement un ordre de tri à la liste des produits de la catégorie. Options : `None`, `Move low stock to top`, `Move low stock to bottom`, `Special price to top`, `Special price to bottom`, `Newest products first`, `Sort by color`, `Name: A - Z`, `Name: Z - A`, `SKU: Ascending`, `SKU: Descending`, `Price: High to Low`, et `Price: Low to High`
+- **[!UICONTROL Automatic Sorting]** - Applique automatiquement un ordre de tri à la liste des produits de catégorie. Options : `None`, `Move low stock to top`, `Move low stock to bottom`, `Special price to top`, `Special price to bottom`, `Newest products first`, `Sort by color`, `Name: A - Z`, `Name: Z - A`, `SKU: Ascending`, `SKU: Descending`, `Price: High to Low` et `Price: Low to High`
 
   >[!NOTE]
   >
-  >Si vous disposez d’un produit configurable avec des produits enfants, le stock de produit parent est calculé en fonction du total combiné des stocks de produits enfants. Prenons un exemple où vous avez un produit configurable. _Chemise sport de Proteus_ avec des produits enfants oranges, rouges et jaunes dont les quantités en stock diffèrent. Le stock de produit parent est calculé en fonction du total combiné du stock de produits enfants orange, rouge et jaune. Avec la variable `Move low stock to top` , il calcule le stock des produits parents en combinant tous ses stocks de produits enfants commercialisables et les trie en conséquence.
+  >Si vous disposez d’un produit configurable avec des produits enfants, le stock de produit parent est calculé en fonction du total combiné des stocks de produits enfants. Prenons l’exemple d’un produit configurable _Proteus Fitness Shirt_ avec des produits enfants orange, rouge et jaune dont les stocks diffèrent. Le stock de produit parent est calculé en fonction du total combiné du stock de produits enfants orange, rouge et jaune. Avec l’option `Move low stock to top`, il calcule le stock de produits parents en combinant tous ses stocks de produits enfants commercialisables et le trie en conséquence.
 
 - **[!UICONTROL Add Condition]** - Ajoute une autre condition à la règle.
 
@@ -137,10 +137,10 @@ Les règles de produits de catégorie peuvent accélérer le processus d’attri
 
   >[!NOTE]
   >
-  >La quantité d’un produit configurable avec des options enfants est calculée en combinant toutes les quantités de produit enfant vendables. Prenons un exemple où vous avez un produit configurable. _Char de condition physique de base_ avec des options de couleur violette, rouge et jaune et différentes quantités de chacune. Dans ce cas, la quantité de produit parent (Basic Fitness Tank) est la quantité vendue combinée des produits enfants de couleur violet, rouge et jaune.
+  >La quantité d’un produit configurable avec des options enfants est calculée en combinant toutes les quantités de produit enfant vendables. Prenons l’exemple d’un produit configurable _Basic Fitness Tank_ avec des options de couleur violet, rouge et jaune et différentes quantités de chaque produit. Dans ce cas, la quantité de produit parent (Basic Fitness Tank) est la quantité vendue combinée des produits enfants de couleur violet, rouge et jaune.
 
-- **[!UICONTROL Operator]** - Indique l’opérateur appliqué à la valeur d’attribut pour remplir la condition. Sauf si un opérateur est spécifié, `Equal` est utilisée par défaut. Options : `Equal`, `Not equal`, `Greater than`, `Greater than or equal to`, `Less than`, `Less than or equal to`, et `Contains`
+- **[!UICONTROL Operator]** - Indique l’opérateur appliqué à la valeur d’attribut pour remplir la condition. À moins qu’un opérateur ne soit spécifié, `Equal` est utilisé par défaut. Options : `Equal`, `Not equal`, `Greater than`, `Greater than or equal to`, `Less than`, `Less than or equal to` et `Contains`
 
 - **[!UICONTROL Value]** - Indique la valeur que l’attribut doit avoir pour remplir la condition.
 
-- **[!UICONTROL Logic]** - La colonne Logique permet de définir plusieurs conditions et n’apparaît que lorsqu’une autre condition est ajoutée. Les opérateurs suivent les règles de priorité de MySQL. [opérateurs booléens](https://dev.mysql.com/doc/refman/8.0/en/operator-precedence.html). Options : `AND` / `OR`
+- **[!UICONTROL Logic]** - La colonne Logique permet de définir plusieurs conditions et n’apparaît que lorsqu’une autre condition est ajoutée. Les opérateurs suivent les règles de priorité pour les [ opérateurs booléens ](https://dev.mysql.com/doc/refman/8.0/en/operator-precedence.html) de MySQL. Options : `AND` / `OR`

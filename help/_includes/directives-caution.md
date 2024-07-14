@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Insertion de nombreuses directives, en particulier de widgets tels que la fonction _Récemment consultés_ / _Produits comparés_ , peut avoir un effet négatif sur le premier chargement de la page lorsqu’elle n’est pas mise en cache. Pour cette raison, utilisez-les avec précaution. En règle générale, cela ne crée pas de problème. Mais vous devriez discuter de ce problème potentiel avec votre équipe de développement.
+>L’insertion de nombreuses directives, en particulier de widgets tels que le type _Récemment consultés_ / _Produits comparés_, peut avoir un effet négatif sur le premier chargement de la page lorsqu’elle n’est pas mise en cache. Pour cette raison, utilisez-les avec précaution. En règle générale, cela ne crée pas de problème. Mais vous devriez discuter de ce problème potentiel avec votre équipe de développement.

@@ -5,14 +5,14 @@ exl-id: 7180631a-3233-40f3-92bf-b329fc260cf9
 feature: Customers, Configuration, Security
 source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
 
 # Durée de la session client
 
-La durée de vie d’une session d’achat client est déterminée par plusieurs facteurs, dont la durée de la session du serveur, l’utilisation d’une [panier persistant](../stores-purchase/cart-persistent.md)et la durée de vie des informations stockées dans le navigateur. Bien qu’elles soient liées à la même expérience client, il s’agit de processus distincts avec des événements d’expiration et des durées de vie différents.
+La durée de vie d’une session d’achat client est déterminée par plusieurs facteurs, notamment la durée de la session du serveur, l’utilisation d’un [panier persistant](../stores-purchase/cart-persistent.md) et la durée de vie des informations stockées dans le navigateur. Bien qu’elles soient liées à la même expérience client, il s’agit de processus distincts avec des événements d’expiration et des durées de vie différents.
 
 | Processus | Description |
 | --- | --- |
@@ -21,38 +21,38 @@ La durée de vie d’une session d’achat client est déterminée par plusieurs
 
 {style="table-layout:auto"}
 
-If [Panier persistant](../stores-purchase/cart-persistent.md) est activée, le contenu du panier est enregistré pour la prochaine fois que les clients se connectent à leurs comptes. Lors de l’utilisation d’un panier persistant, il est recommandé de définir la durée de vie de la session du serveur et du cookie de session sur une longue période.
+Si [Panier persistant](../stores-purchase/cart-persistent.md) est activé, le contenu du panier est enregistré pour la prochaine fois que les clients se connectent à leurs comptes. Lors de l’utilisation d’un panier persistant, il est recommandé de définir la durée de vie de la session du serveur et du cookie de session sur une longue période.
 
-Sur le serveur, la durée de la session est contrôlée par la fonction `php.ini` et plusieurs variables. Actuellement, Adobe Commerce ne dispose pas d’un paramètre de configuration Administrateur contrôlant la durée de la session du serveur.
+Sur le serveur, la durée de la session est contrôlée par le fichier `php.ini` et plusieurs variables. Actuellement, Adobe Commerce ne dispose pas d’un paramètre de configuration Administrateur contrôlant la durée de la session du serveur.
 
 ## Configuration de la durée de vie du cookie
 
-1. Sur le _Administration_ barre latérale, accédez à [!UICONTROL **Magasins**] > _[!UICONTROL Settings]_>[!UICONTROL **Configuration**].
+1. Sur la barre latérale _Admin_, accédez à [!UICONTROL **Magasins**] > _[!UICONTROL Settings]_>[!UICONTROL **Configuration**].
 
-1. Si vous disposez de plusieurs magasins, définissez la variable **[!UICONTROL Store View]** sélectionnez dans le coin supérieur droit le magasin où s’applique la configuration.
+1. Si vous disposez de plusieurs magasins, définissez le programme de sélection **[!UICONTROL Store View]** dans le coin supérieur droit sur le magasin où s’applique la configuration.
 
-1. Dans le panneau de gauche, sous **[!UICONTROL General]**, choisissez **[!UICONTROL Web]**.
+1. Dans le panneau de gauche sous **[!UICONTROL General]**, choisissez **[!UICONTROL Web]**.
 
-1. Développez l’objet **[!UICONTROL Default Cookie Settings]** .
+1. Développez la section **[!UICONTROL Default Cookie Settings]** .
 
-   ![Paramètres des cookies par défaut](../configuration-reference/general/assets/web-default-cookie-settings.png){width="600" zoomable="yes"}
+   ![Paramètres du cookie par défaut](../configuration-reference/general/assets/web-default-cookie-settings.png){width="600" zoomable="yes"}
 
-1. Pour modifier la valeur par défaut, effacez la variable **[!UICONTROL Use system value]** et saisissez la nouvelle valeur en secondes.
+1. Pour modifier la valeur par défaut, décochez la case **[!UICONTROL Use system value]** et saisissez la nouvelle valeur en secondes.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
-## Configurer _Mémoriser_ fonctionnalité
+## Configurer la fonctionnalité _Mémoriser_
 
-Pour faciliter la connexion, la variable **[!UICONTROL Remember Me]** permet aux titulaires de compte d’utilisateur d’éviter de saisir leurs informations d’identification chaque fois qu’ils entrent dans le storefront. Pour des raisons de sécurité, la fonction de persistance est désactivée par défaut.
+Pour faciliter la connexion, la fonction **[!UICONTROL Remember Me]** permet aux titulaires de compte d’utilisateur d’éviter de saisir leurs informations d’identification chaque fois qu’ils entrent dans le storefront. Pour des raisons de sécurité, la fonction de persistance est désactivée par défaut.
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Customers]** et choisissez **[!UICONTROL Persistent Shopping Cart]**.
 
-1. Développez l’objet **[!UICONTROL General Options]** .
+1. Développez la section **[!UICONTROL General Options]** .
 
-1. Pour **[!UICONTROL Enable Persistence]**, définissez sur `Yes`. (Effacez la variable **[!UICONTROL Use system value]** pour permettre de modifier le paramètre par défaut.)
+1. Pour **[!UICONTROL Enable Persistence]**, définissez sur `Yes`. (Décochez la case **[!UICONTROL Use system value]** pour permettre de modifier le paramètre par défaut.)
 
-1. Pour **[!UICONTROL Enable "Remember Me"]**, définissez sur `Yes` ou `No` selon vos besoins.
+1. Pour **[!UICONTROL Enable "Remember Me"]**, définissez sur `Yes` ou `No` en fonction de vos besoins.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.

@@ -18,31 +18,31 @@ Avant de modifier les quantités et les paramètres, vous devez attribuer [sourc
 
 ## Affectation de sources à un produit
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Ouvrez un produit dans _Modifier_ mode .
+1. Ouvrez un produit en mode _Modifier_ .
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Sources]** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Sources]** .
 
    Cette section vous permet de modifier la source, de mettre à jour les quantités d’inventaire, etc.
 
    >[!NOTE]
    >
-   >Actuellement, seuls les produits simples, configurables, virtuels, téléchargeables et regroupés prennent en charge plusieurs sources. Les produits en bundle peuvent être créés et gérés uniquement avec la source par défaut et le stock.
+   >Actuellement, seuls les produits simples, configurables, virtuels, téléchargeables et regroupés prennent en charge plusieurs sources. Les produits en bundle peuvent être créés et gérés uniquement avec les Source et Stock par défaut.
 
-   ![Section Sources de produit](assets/inventory-product-sources-before.png){width="600" zoomable="yes"}
+   ![Section Sources de produits](assets/inventory-product-sources-before.png){width="600" zoomable="yes"}
 
 1. Pour ajouter une source, cliquez sur **[!UICONTROL Assign Sources]**.
 
-1. Sur le _[!UICONTROL Assign Sources]_, cochez la case en regard de chaque source à affecter au produit.
+1. Sur la page _[!UICONTROL Assign Sources]_, cochez la case en regard de chaque source à affecter au produit.
 
-   ![Produit : affectez des sources](assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
+   ![Produit - attribuer des sources](assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Done]** pour ajouter les sources.
 
 1. Effectuez l’une des opérations suivantes pour enregistrer :
 
    - Cliquez sur **[!UICONTROL Save]**.
-   - Sur le _[!UICONTROL Save]_ (![flèche de menu](../assets/icon-menu-down-arrow-red.png)), choisissez **[!UICONTROL Save & Close]**.
+   - Dans le menu _[!UICONTROL Save]_(![flèche de menu](../assets/icon-menu-down-arrow-red.png)), choisissez **[!UICONTROL Save & Close]**.
 
-Après avoir affecté des sources, mettez à jour la variable [quantité d&#39;inventaire](quantities-assign-per-product.md) pour chaque source de produit.
+Après avoir affecté des sources, mettez à jour la [quantité d’inventaire](quantities-assign-per-product.md) pour chaque source de produit.

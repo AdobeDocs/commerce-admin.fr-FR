@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
->Avec l’installation et l’activation d’Adobe Commerce B2B, l’expérience d’achat peut être personnalisée avec des fonctionnalités spécifiques à l’entreprise. Adobe Commerce B2B est une solution intégrée qui prend en charge les modèles B2B et B2C. Pour plus d’informations sur les fonctionnalités B2B, voir [_Guide de l’utilisateur d’Adobe Commerce B2B_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Avec l’installation et l’activation d’Adobe Commerce B2B, l’expérience d’achat peut être personnalisée avec des fonctionnalités spécifiques à l’entreprise. Adobe Commerce B2B est une solution intégrée qui prend en charge les modèles B2B et B2C. Pour plus d’informations sur les fonctionnalités B2B, consultez le [_Guide de l’utilisateur d’Adobe Commerce B2B_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ## [!UICONTROL B2B Features]
 
@@ -39,14 +39,14 @@ Lorsque la fonction Société est activée, des champs supplémentaires sont dis
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Shared Catalog]](../../b2b/catalog-shared.md) | Site Web | Lorsqu’elle est activée, permet de créer des catalogues organisés avec des prix personnalisés disponibles à l’échelle mondiale ou limités à des entreprises spécifiques. Options : `Yes` / `No` |
-| [!UICONTROL Enable Shared Catalog direct products price assigning] | Site Web | Lorsque la variable _[!UICONTROL Enable Shared Catalog]_est défini sur `Yes`, cette option est disponible. Lorsque cette option est activée, seuls les produits affectés à un catalogue partagé sont stockés dans l’indice de prix. Les produits qui ne sont pas affectés au catalogue partagé ne s’affichent pas sur le storefront. Options : `Yes` / `No` |
+| [!UICONTROL Enable Shared Catalog direct products price assigning] | Site Web | Lorsque le champ _[!UICONTROL Enable Shared Catalog]_est défini sur `Yes`, cette option est disponible. Lorsque cette option est activée, seuls les produits affectés à un catalogue partagé sont stockés dans l’indice de prix. Les produits qui ne sont pas affectés au catalogue partagé ne s’affichent pas sur le storefront. Options : `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | Site Web | Lorsqu’elle est activée, permet aux acheteurs de l’entreprise d’envoyer une demande de devis depuis le panier. Options : `Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Default B2B Payment Methods]
 
-![Configuration B2B - Paramètres du mode de paiement par défaut](./assets/b2b-features-default-payment-methods.png)<!-- zoom -->
+![Configuration B2B - paramètres du mode de paiement par défaut](./assets/b2b-features-default-payment-methods.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |------- |----------------------------------------------------------------------- |------------ |
@@ -62,13 +62,13 @@ Lorsque la fonction Société est activée, des champs supplémentaires sont dis
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |------- |----------------------------------------------------------------------- |------------ |
 | [!UICONTROL Applicable Shipping Methods] | Global | Détermine la sélection des méthodes d’expédition disponibles par défaut pour les acheteurs B2B. Options : `All Shipping Methods` / `Specific Shipping Methods` |
-| [!UICONTROL Shipping Methods] | Global | Spécifie chaque méthode de livraison disponible par défaut pour les acheteurs B2B. <br/>**_Remarque :_**Vous pouvez également limiter les méthodes d’expédition pour une [compte de société](../../b2b/account-companies.md). |
+| [!UICONTROL Shipping Methods] | Global | Spécifie chaque méthode de livraison disponible par défaut pour les acheteurs B2B. <br/>**_Remarque :_**Vous pouvez également limiter les méthodes de livraison pour un [compte de société](../../b2b/account-companies.md) spécifique. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order Approval Configuration]
 
-![Fonctionnalités B2B - Configuration de l’approbation des commandes](./assets/b2b-features-order-approval.png)<!-- zoom -->
+![Fonctionnalités B2B - Configuration de l’approbation de commande](./assets/b2b-features-order-approval.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |------- |----------------------------------------------------------------------- |------------ |

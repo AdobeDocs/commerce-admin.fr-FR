@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Transactions
 
-La variable _Transactions_ Cette page répertorie toutes les activités de paiement qui ont eu lieu entre votre boutique et un système de paiement et permet d’accéder à des informations plus détaillées.
+La page _Transactions_ répertorie toutes les activités de paiement qui ont eu lieu entre votre boutique et un système de paiement, et permet d’accéder à des informations plus détaillées.
 
 ## Afficher les transactions
 
-Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**.
+Sur la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**.
 
-![Grille des transactions](./assets/transactions.png){width="600" zoomable="yes"}
+![Grille de transactions](./assets/transactions.png){width="600" zoomable="yes"}
 
 | Colonne | Description |
 |--- |--- |
@@ -41,7 +41,7 @@ Sur la page des détails de la transaction, vous pouvez afficher la grille des d
 
 ### Données de transaction
 
-Cette section contient des informations sur la transaction et fournit un lien vers la page de commande dans la variable **ID de commande** colonne .
+Cette section contient des informations sur la transaction et fournit un lien vers la page de commande dans la colonne **ID de commande**.
 
 | Colonne | Description |
 |--- |--- |

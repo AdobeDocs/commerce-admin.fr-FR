@@ -16,14 +16,14 @@ L’utilisation d’une liste de demandes d’achat permet de gagner du temps lo
 
 >[!NOTE]
 >
->Pour activer les listes de demande pour votre magasin, reportez-vous à la section [Activation des fonctionnalités B2B](enable-basic-features.md). Il peut permettre de gérer jusqu’à 999 listes de demandes d’achat pour chaque compte client, en fonction de la variable [configuration](configure-requisition-lists.md).
+>Pour activer les listes de demande pour votre magasin, voir [Activation des fonctionnalités B2B](enable-basic-features.md). Il peut permettre de gérer jusqu’à 999 listes de demandes pour chaque compte client, selon la [configuration](configure-requisition-lists.md).
 
 La fonctionnalité Liste de demandes est similaire aux listes de souhaits, avec les différences suivantes :
 
 - Une liste de demandes d’achat n’est pas effacée après l’envoi d’articles au panier. Il peut être utilisé plusieurs fois.
 - L’interface utilisateur des listes de demandes d’approvisionnement utilise une vue compacte pour afficher de nombreux éléments.
 
-![Listes des demandes affichées sur le storefront](./assets/account-dashboard-my-requisition-lists.png){width="600" zoomable="yes"}
+![Listes de demandes affichées sur le storefront](./assets/account-dashboard-my-requisition-lists.png){width="600" zoomable="yes"}
 
 ## Création d’une liste de demandes d’approvisionnement à partir du tableau de bord du compte
 
@@ -31,11 +31,11 @@ Un client connecté associé à un compte de société peut créer une liste de 
 
 1. Dans la barre latérale de leur compte, choisissez **[!UICONTROL My Requisition Lists]**.
 
-1. Sur le _[!UICONTROL Requisition Lists]_page, clics **[!UICONTROL Create New Requisition List]**.
+1. Sur la page _[!UICONTROL Requisition Lists]_, cliquez sur **[!UICONTROL Create New Requisition List]**.
 
-1. entre dans la variable **[!UICONTROL Requisition List Name]** et **[!UICONTROL Description]**.
+1. Entrez les **[!UICONTROL Requisition List Name]** et **[!UICONTROL Description]**.
 
-   ![Créer une liste de demandes](./assets/requisition-list-create.png){width="300"}
+   ![Créer une liste de demandes d’acquisition](./assets/requisition-list-create.png){width="300"}
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
 
@@ -47,7 +47,7 @@ Un client connecté associé à un compte d’entreprise peut créer une liste d
 
 1. Clics **[!UICONTROL Create New Requisition List]**.
 
-1. entre dans la variable **[!UICONTROL Requisition List Name]** et **[!UICONTROL Description]**.
+1. Entrez les **[!UICONTROL Requisition List Name]** et **[!UICONTROL Description]**.
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
 
@@ -64,7 +64,7 @@ Les clients peuvent ajouter des produits à une liste de demandes à partir de :
 
 1. Depuis le storefront, le client accède à la page des détails du produit à ajouter à la liste des demandes.
 
-1. Clics **[!UICONTROL Add to Requisition List]** et effectue l’une des opérations suivantes :
+1. Clique sur **[!UICONTROL Add to Requisition List]** et effectue l’une des opérations suivantes :
 
    - Choisit une liste de commandes existante.
    - Crée une liste de demandes d’approvisionnement.
@@ -77,7 +77,7 @@ Les clients peuvent ajouter des produits à une liste de demandes à partir de :
 
 1. Passez la souris sur le produit.
 
-1. Clics **[!UICONTROL Add to Requisition List]** et effectue l’une des opérations suivantes :
+1. Clique sur **[!UICONTROL Add to Requisition List]** et effectue l’une des opérations suivantes :
 
    - Choisit une liste de commandes existante.
    - Crée une liste de demandes d’approvisionnement.
@@ -88,7 +88,7 @@ Les clients peuvent ajouter des produits à une liste de demandes à partir de :
 
 1. Dans la barre latérale du tableau de bord de leur compte, le client choisit **[!UICONTROL My Orders]**.
 
-1. En haut de la commande, cliquez sur **[!UICONTROL Add to Requisition List]** et effectue l’une des opérations suivantes :
+1. En haut de la commande, cliquez sur **[!UICONTROL Add to Requisition List]** et effectuez l’une des opérations suivantes :
 
    - Choisit une liste de commandes existante.
    - Crée une liste de demandes d’approvisionnement.
@@ -97,12 +97,12 @@ Les clients peuvent ajouter des produits à une liste de demandes à partir de :
 
 ### Depuis le panier
 
-1. Sous l’élément , le client clique sur la variable **[!UICONTROL Add to Requisition List]** et effectue l’une des opérations suivantes :
+1. Sous l’élément , le client clique sur le menu **[!UICONTROL Add to Requisition List]** et effectue l’une des opérations suivantes :
 
    - Choisit une liste de commandes existante.
    - Crée une liste de demandes d’approvisionnement.
 
-   ![Ajout depuis le panier](./assets/requisition-list-add-from-cart.png){width="700" zoomable="yes"}
+   ![Ajouter à partir du panier](./assets/requisition-list-add-from-cart.png){width="700" zoomable="yes"}
 
 ## Afficher la liste des demandes mise à jour
 
@@ -114,10 +114,10 @@ Lorsqu’il est connecté à son compte, un client peut utiliser l’une des mé
 
 1. Dans la barre latérale du tableau de bord de leur compte, choisissez **[!UICONTROL My Requisition Lists]**.
 
-1. Dans la liste des listes de demandes d’acquisition, les clics **[!UICONTROL View]** dans le _Actions_ colonne .
+1. Dans la liste des listes de demandes d’acquisition, cliquez sur **[!UICONTROL View]** dans la colonne _Actions_ .
 
 ### Depuis n’importe quelle page de storefront
 
 1. Dans la barre de liens rapides située en haut de la page, cliquez sur leur nom d’utilisateur.
 
-1. Dans le menu, sélectionnez **[!UICONTROL My Requisition Lists]**.
+1. Dans le menu, choisissez **[!UICONTROL My Requisition Lists]**.

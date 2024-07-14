@@ -16,14 +16,14 @@ Il existe de nombreuses façons d’utiliser des catégories masquées. Vous pou
 
 ## Créer des catégories masquées
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Dans l&#39;arborescence des catégories, sélectionnez la catégorie à masquer et procédez comme suit :
 
-   - Définir **[!UICONTROL Is Active]** to `Yes`.
-   - Définir **[!UICONTROL Include in Menu]** to `No`.
+   - Définissez **[!UICONTROL Is Active]** sur `Yes`.
+   - Définissez **[!UICONTROL Include in Menu]** sur `No`.
 
-1. Dans le **[!UICONTROL Display Settings]** , définissez **[!UICONTROL Anchor]** to `No`.
+1. Dans la section **[!UICONTROL Display Settings]**, définissez **[!UICONTROL Anchor]** sur `No`.
 
    ![Catégorie masquée](./assets/hidden-categories.png){width="600" zoomable="yes"}
 
@@ -35,9 +35,9 @@ Il existe de nombreuses façons d’utiliser des catégories masquées. Vous pou
    >
    >Bien que la catégorie soit masquée, vous pouvez créer des sous-catégories en dessous et les rendre actives.
 
-   - Définir **[!UICONTROL Enable Category]** to `Yes`.
-   - Dans le **[!UICONTROL Display Settings]** , définissez **[!UICONTROL Anchor]** to `Yes`.
+   - Définissez **[!UICONTROL Enable Category]** sur `Yes`.
+   - Dans la section **[!UICONTROL Display Settings]**, définissez **[!UICONTROL Anchor]** sur `Yes`.
 
    En tant que catégories actives, vous pouvez désormais les lier à partir d’autres emplacements de votre boutique, mais ils n’apparaissent pas dans le menu.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.

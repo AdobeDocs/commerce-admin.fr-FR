@@ -5,7 +5,7 @@ exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
 feature: Configuration, Customers, Storefront
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 1%
 
 ---
@@ -28,14 +28,14 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Affichage en magasin | Active le module de liste de souhaits pour votre magasin. Options : `Yes` / `No` |
 | [!UICONTROL Show in Sidebar] | Affichage en magasin | Indique la visibilité des listes de souhaits dans la barre latérale. <br/>Options : `Yes` / `No` |
-| [!UICONTROL Enable Multiple Wish Lists] | Affichage en magasin | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Lorsque la variable est définie sur `Yes`, permet aux clients de créer et de gérer plusieurs listes de souhaits. Options : `Yes` / `No` |
+| [!UICONTROL Enable Multiple Wish Lists] | Affichage en magasin | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Lorsqu’il est défini sur `Yes`, permet aux clients de créer et de gérer plusieurs listes de souhaits. Options : `Yes` / `No` |
 | [!UICONTROL Number of Multiple Wish Lists] | Affichage en magasin | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Si plusieurs listes de souhaits sont activées, détermine le nombre maximal de listes de souhaits que les clients peuvent avoir associées à leur compte. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Share Options]
 
-![Options de partage](./assets/wishlist-share-options.png)<!-- zoom -->
+![Partager les options](./assets/wishlist-share-options.png)<!-- zoom -->
 
 <!-- [Share Options](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
 
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 ## [!UICONTROL My Wish List Link]
 
-![Lien vers ma liste de souhaits](./assets/wishlist-my-wishlist-link.png)<!-- zoom -->
+![Lien vers la liste de mes souhaits](./assets/wishlist-my-wishlist-link.png)<!-- zoom -->
 
 <!--[My Wish List Link](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
 

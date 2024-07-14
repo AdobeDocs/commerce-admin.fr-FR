@@ -5,16 +5,16 @@ exl-id: 5da03cf9-5e92-4bb8-ba53-67c6469665ed
 feature: Shipping/Delivery, Orders
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # Libellés d’expédition
 
-Commerce comprend un haut niveau d’intégration avec les principaux opérateurs de transport, ce qui vous permet d’accéder aux systèmes d’expédition des opérateurs pour effectuer le suivi des commandes, créer des libellés d’expédition, etc. Des étiquettes d’expédition peuvent être créées pour les envois réguliers et les produits avec autorisation de retour de marchandises. Outre les informations fournies par le transporteur, le libellé inclut également le numéro de commande Commerce, le numéro du package et la quantité totale de packages pour l’expédition.
+Commerce offre un niveau élevé d’intégration avec les principaux opérateurs de transport, ce qui vous permet d’accéder aux systèmes d’expédition des opérateurs pour effectuer le suivi des commandes, créer des libellés d’expédition, etc. Des étiquettes d’expédition peuvent être créées pour les envois réguliers et les produits avec autorisation de retour de marchandises. Outre les informations fournies par le transporteur, le libellé inclut également le numéro de commande Commerce, le numéro du kit et la quantité totale de colis pour l&#39;envoi.
 
-![Libellé d’expédition prioritaire USPS](./assets/shipping-usps-priority-label.png){width="300"}
+![USPS Priority Shipping Label](./assets/shipping-usps-priority-label.png){width="300"}
 
 - [Configuration des libellés d’expédition](shipping-label-configure.md)
 - [Création de libellés et de packages d’expédition](shipping-label-create.md)
@@ -29,7 +29,7 @@ Le responsable du commerce/magasin complète les informations nécessaires à la
 
 ### Étape 2 : Demande envoyée à l&#39;opérateur
 
-Le commerce contacte l’opérateur de transport et crée une commande dans le système de l’opérateur. Une commande distincte est créée pour chaque module expédié.
+Commerce contacte l’opérateur de transport et crée une commande dans le système de l’opérateur. Une commande distincte est créée pour chaque module expédié.
 
 ### Etape 3 : l&#39;opérateur envoie le libellé et le numéro de tracking
 

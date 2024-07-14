@@ -1,6 +1,6 @@
 ---
 user-guide-title: Guide de prise en main d’Adobe Commerce
-user-guide-description: Si vous découvrez Adobe Commerce ou Magento Open Source, découvrez les ressources de la variable [!DNL Commerce] , suivez le parcours client pour explorer votre boutique et découvrez les principales fonctionnalités.
+user-guide-description: Si vous découvrez Adobe Commerce ou Magento Open Source, découvrez les ressources de l’écosystème  [!DNL Commerce] , suivez le parcours client pour explorer votre boutique et découvrez les principales fonctionnalités.
 breadcrumb-title: Prise en main
 role: Admin, Leader, User
 feature: Admin Workspace
@@ -25,7 +25,7 @@ ht-degree: 1%
    + [Transfert d’un compte](commerce-account-transfer.md)
 + Conformité au site {#compliance}
    + [Préparation du HIPAA sur Adobe Commerce](hipaa-ready-service.md)
-   + Privacy {#privacy}
+   + Confidentialité {#privacy}
       + [Politique de confidentialité du magasin](privacy-policy.md)
       + [Conformité au CCPA](compliance-ccpa.md)
       + [Conformité au RGPD](compliance-gdpr.md)
@@ -34,7 +34,7 @@ ht-degree: 1%
       + [Conformité PCI](compliance-pci.md)
       + [Directive Services de paiement](compliance-payment-services-directive.md)
    + [Accessibilité](navigation-accessibility.md)
-+ L’administrateur {#admin}
++ L&#39;administrateur {#admin}
    + [Qu’est-ce que l’administrateur ?](admin.md)
    + [Votre compte utilisateur administrateur](admin-signin.md)
    + Intégration d’Adobe Identity Management Service (IMS) {#ims}
@@ -53,15 +53,15 @@ ht-degree: 1%
       + [Boîte de réception des messages](admin-message-inbox.md)
       + [Contrôles de grille](admin-grid-controls.md)
       + [Contrôle des actions](admin-actions-control.md)
-+ La vitrine {#storefront}
++ Le storefront {#storefront}
    + [Qu&#39;est-ce que la vitrine ?](storefront.md)
    + [Amélioration des expériences de magasin](enhanced-experiences.md)
-+ Configuration de base {#setup}
++ Configuration et configuration de base {#setup}
    + [Étendue du site, du magasin et de l’affichage](websites-stores-views.md)
    + [Détails de la boutique](store-details.md)
    + [Marque Storefront](storefront-branding.md)
    + [Liste de contrôle de relance](prelaunch-checklist.md)
-+ Rapports standard  {#reporting}
++ Création de rapports standard {#reporting}
    + [Menu Rapports](reports-menu.md)
    + [Rapports marketing](marketing-reports.md)
    + [Révision des rapports](review-reports.md)
@@ -75,5 +75,5 @@ ht-degree: 1%
    + [Ecosystem](resources.md)
    + [Extensions](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Revenir aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Retour aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

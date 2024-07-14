@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Les modèles de courrier électronique définissent la mise en page, le contenu et la mise en forme des messages automatisés envoyés depuis votre boutique. Elles sont appelées des emails transactionnels, car chacune d’elles est associée à un type spécifique de transaction ou d’événement.
 
-Commerce comprend un ensemble de modèles de courrier électronique réactif qui sont déclenchés par divers événements qui se produisent pendant l’exploitation de votre boutique. Chaque modèle est optimisé pour n’importe quelle taille d’écran et peut être visualisé depuis le bureau, ainsi que sur les tablettes et les appareils mobiles. Il existe divers modèles d’email préparés relatifs aux activités des clients, aux ventes, aux alertes de produit, aux actions d’administration et aux messages système que vous pouvez envoyer. [personnaliser](email-template-custom.md) pour refléter votre marque.
+Commerce comprend un ensemble de modèles de courrier électronique réactif qui sont déclenchés par divers événements qui se produisent pendant l’exploitation de votre boutique. Chaque modèle est optimisé pour n’importe quelle taille d’écran et peut être visualisé depuis le bureau, ainsi que sur les tablettes et les appareils mobiles. Il existe divers modèles d’email préparés relatifs aux activités des clients, aux ventes, aux alertes de produit, aux actions d’administration et aux messages système que vous pouvez [personnaliser](email-template-custom.md) pour refléter votre marque.
 
 Les emails Commerce peuvent être rendus par les clients de messagerie en texte brut et par HTML. Il peut y avoir des différences entre les clients dans la manière dont les courriers électroniques sont rendus.
 
@@ -43,37 +43,37 @@ En règle générale, vous pouvez rendre une image plus petite que l’image d�
 
 ## Configurer des modèles de courrier électronique
 
-La configuration détermine le logo qui apparaît dans le modèle d’en-tête par défaut, ainsi que tout [header](email-template-custom.md#header-template) et [pied de page](email-template-custom.md#footer-template) modèles que vous souhaitez utiliser pour les emails transactionnels envoyés depuis vos magasins.
+La configuration détermine le logo qui apparaît dans le modèle d’en-tête par défaut, ainsi que les modèles [header](email-template-custom.md#header-template) et [footer](email-template-custom.md#footer-template) personnalisés que vous souhaitez utiliser pour les emails transactionnels envoyés depuis vos magasins.
 
 ![Conception d’email transactionnel](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
 
-Pour obtenir la liste détaillée des paramètres de configuration, voir [_Emails transactionnels_](../content-design/configuration.md) dans le _Guide de conception et de contenu_.
+Pour obtenir la liste détaillée des paramètres de configuration, reportez-vous à la section [_Emails transactionnels_](../content-design/configuration.md) du _Guide de conception et de contenu_.
 
 ## Étape 1. Téléchargement de votre logo
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Recherchez la vue de magasin à configurer, puis cliquez sur **[!UICONTROL Edit]** dans le _[!UICONTROL Action]_colonne .
+1. Recherchez la vue de magasin que vous souhaitez configurer et cliquez sur **[!UICONTROL Edit]** dans la colonne _[!UICONTROL Action]_.
 
-1. Sous _[!UICONTROL Other Settings]_, développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Transactional Emails]**.
+1. Sous _[!UICONTROL Other Settings]_, développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Transactional Emails]**.
 
-1. Pour charger votre **[!UICONTROL Logo Image]**, cliquez sur **[!UICONTROL Upload]** et sélectionnez le fichier sur votre système.
+1. Pour télécharger le **[!UICONTROL Logo Image]** préparé, cliquez sur **[!UICONTROL Upload]** et sélectionnez le fichier sur votre système.
 
 1. Pour **[!UICONTROL Logo Image Alt]**, saisissez un texte de remplacement pour identifier l’image.
 
-1. Saisissez le **[!UICONTROL Logo Width]** et **[!UICONTROL Logo Height]** en pixels.
+1. Saisissez les **[!UICONTROL Logo Width]** et **[!UICONTROL Logo Height]** en pixels.
 
-   Saisissez chaque valeur sous la forme d’un nombre, sans le champ `px` abréviation. Ces valeurs se rapportent aux dimensions d’affichage du logo dans l’en-tête, et non à la taille réelle de l’image.
+   Saisissez chaque valeur sous forme de nombre, sans l’abréviation `px`. Ces valeurs se rapportent aux dimensions d’affichage du logo dans l’en-tête, et non à la taille réelle de l’image.
 
 ## Étape 2. Sélection de modèles d’en-tête et de pied de page
 
-Si votre boutique contient des modèles d’en-tête et de pied de page personnalisés, ou pour différents magasins, vous pouvez spécifier les modèles utilisés pour chacun d’eux, en fonction des [scope](../getting-started/websites-stores-views.md#scope-settings) de la configuration. Dans le cas contraire, les modèles par défaut sont utilisés. Pour en savoir plus, voir [Personnalisation des modèles de courrier électronique](email-template-custom.md).
+Si vous disposez de modèles d’en-tête et de pied de page personnalisés pour votre magasin, ou pour différents magasins, vous pouvez spécifier les modèles utilisés pour chacun, en fonction de la [portée](../getting-started/websites-stores-views.md#scope-settings) de la configuration. Dans le cas contraire, les modèles par défaut sont utilisés. Pour en savoir plus, voir [Personnalisation des modèles de courrier électronique](email-template-custom.md).
 
-1. Choisissez la **[!UICONTROL Header Template]** à utiliser pour tous les emails transactionnels.
+1. Sélectionnez le **[!UICONTROL Header Template]** à utiliser pour tous les emails transactionnels.
 
-1. Choisissez la **[!UICONTROL Footer Template]** à utiliser pour tous les emails transactionnels.
+1. Sélectionnez le **[!UICONTROL Footer Template]** à utiliser pour tous les emails transactionnels.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 ## Liste des modèles de courrier électronique
 
@@ -103,7 +103,7 @@ La liste des modèles d&#39;email est organisée par ordre alphabétique par mod
 | Modèle | Chemin de configuration |
 |--- |--- |
 | `Assign Company Admin` | **Page :** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Section :** [!UICONTROL Customer-Related Emails]<br/>**Champ :** [!UICONTROL Default 'Assign Company Admin' Email] |
-| `Assign Company to Customer` | **Page :** [!UICONTROL Customers] > [Configuration de l’entreprise ](../configuration-reference/customers/company-configuration.md)<br/>**Section :** [!UICONTROL Customer-Related Emails] <br/>**Champ :** [!UICONTROL Default 'Assign Company to Customer' Email] |
+| `Assign Company to Customer` | **Page :** [!UICONTROL Customers] > [Configuration de la société&#x200B;](../configuration-reference/customers/company-configuration.md)<br/>**Section :** [!UICONTROL Customer-Related Emails] <br/>**Champ :** [!UICONTROL Default 'Assign Company to Customer' Email] |
 | `Company Admin Changed to Member` | **Page :** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Section :** [!UICONTROL Customer-Related Emails]<br/>**Champ :** [!UICONTROL Default 'Company Admin Changed To Member' Email] |
 | `Company Admin Set Inactive` | **Page :** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Section :** [!UICONTROL Customer-Related Emails]<br/>**Champ :** [!UICONTROL Default 'Customer Status Inactive' Email] |
 | `Company Invite` | n/a |
@@ -148,12 +148,12 @@ La liste des modèles d&#39;email est organisée par ordre alphabétique par mod
 | `Change Email` | **Page :** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section :** [!UICONTROL Account Information Options]<br/>**Champ :** [!UICONTROL Change Email Template] |
 | Modifier le courrier électronique et le mot de passe | **Page :** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section :** [!UICONTROL Account Information Options]<br/>**Champ :** [!UICONTROL Change Email and Password Template] |
 | `Forgot Password` | **Page :** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section :** [!UICONTROL Password Options]<br/>**Champ :** Modèle de courrier électronique oublié |
-| `New Account` | **Page :** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section :** [!UICONTROL Create New Account Options]<br/>**Champ :** E-mail de bienvenue par défaut |
-| `New Account (Magento/luma)` | **Page :** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section :** [!UICONTROL Create New Account Options]<br/>**Champ :** E-mail de bienvenue par défaut |
-| `New Account Confirmation Key` | **Page :** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section :** [!UICONTROL Create New Account Options]<br/>**Champ :** Adresse électronique du lien de confirmation |
+| `New Account` | **Page :** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section :** [!UICONTROL Create New Account Options]<br/>**Champ :** Par défaut Courrier électronique de bienvenue |
+| `New Account (Magento/luma)` | **Page :** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section :** [!UICONTROL Create New Account Options]<br/>**Champ :** Par défaut Courrier électronique de bienvenue |
+| `New Account Confirmation Key` | **Page :** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section :** [!UICONTROL Create New Account Options]<br/>**Champ :** Confirmation Lien Courrier électronique |
 | `New Account Confirmed` | **Page :** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section :** [!UICONTROL Create New Account Options]<br/>**Champ :** Courriel de bienvenue |
-| `New Account Without Password` | **Page :** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section :** [!UICONTROL Create New Account Options]<br/>**Champ :** Courriel de bienvenue par défaut sans mot de passe |
-| `Remind Password` | **Page :** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section :** [!UICONTROL Password Options]<br/>**Champ :** Remplacer le modèle de courrier électronique |
+| `New Account Without Password` | **Page :** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section :** [!UICONTROL Create New Account Options]<br/>**Champ :** Courrier électronique de bienvenue par défaut sans mot de passe |
+| `Remind Password` | **Page :** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section :** [!UICONTROL Password Options]<br/>**Champ :** Remind Email Template |
 | `Reset Password` | **Page :** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section :** [!UICONTROL Password Options] <br/>**Champ :** Réinitialiser le modèle de mot de passe |
 
 {style="table-layout:auto"}
@@ -374,7 +374,7 @@ La liste des modèles d&#39;email est organisée par ordre alphabétique par mod
 
 | Modèle | Chemin de configuration |
 |--- |--- |
-| `Send Product Link to Friend` | **Page :** [!UICONTROL Catalog] > [[!UICONTROL Email to a Friend]](../configuration-reference/catalog/email-to-a-friend.md)<br/>**Section :** [!UICONTROL Email Templates]<br/>**Champ :** [!UICONTROL Select Email Template] |
+| `Send Product Link to Friend` | **Page :** [!UICONTROL Catalog] > [[!UICONTROL Email to a Friend]](../configuration-reference/catalog/email-to-a-friend.md)<br/>**Section :** [!UICONTROL Email Templates]<br/>**Champ :** [!UICONTROL Select Email Template] |
 
 {style="table-layout:auto"}
 
@@ -399,7 +399,7 @@ La liste des modèles d&#39;email est organisée par ordre alphabétique par mod
 
 | Modèle | Chemin de configuration |
 |--- |--- |
-| `Forgot Admin Password` | **Page :** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**Section :** [!UICONTROL Admin User Emails]<br/>**Champ :** Modèle de courrier électronique avec mot de passe oublié |
+| `Forgot Admin Password` | **Page :** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**Section :** [!UICONTROL Admin User Emails]<br/>**Champ :** Modèle de courrier électronique de mot de passe oublié |
 | `User Notification` | **Page :** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**Section :** [!UICONTROL Admin User Emails]<br/>**Champ :** Modèle de notification utilisateur |
 | `New User Notification` | **Page :** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**Section :** [!UICONTROL Admin User Emails]<br/>**Champ :** [!UICONTROL New User Notification Template] |
 

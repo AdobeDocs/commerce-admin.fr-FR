@@ -17,7 +17,7 @@ ht-degree: 2%
 
 - [Guide des systèmes d’administration](guide-overview.md)
 - [Présentation des systèmes d’administration](introduction.md)
-- [[!UICONTROL System] menu](system-menu.md)
+- [Menu [!UICONTROL System]](system-menu.md)
 - Comptes d’utilisateurs administrateurs {#user-accounts}
    - [Autorisations d’administrateur](permissions.md)
    - [Gestion des comptes d’utilisateurs](permissions-users-all.md)
@@ -49,7 +49,7 @@ ht-degree: 2%
       - [Importer les données de prix du niveau](data-import-price-tier.md)
    - [Import et export planifiés](data-scheduled-import-export.md)
    - [Tableau de bord de la gestion des données](data-dashboard.md)
-- Logs d’action {#action-logs}
+- Journaux des actions {#action-logs}
    - [Vue d’ensemble](action-log.md)
    - [Rapport Journaux d’action](action-log-report.md)
    - [Archive de journal](action-log-archive.md)
@@ -77,6 +77,6 @@ ht-degree: 2%
    - [Gestion des sessions](security-session-management.md)
    - [Détection des fonctionnalités du navigateur](security-browser-capabilities-detection.md)
    - [Rapports sur les problèmes de sécurité](security-issue-reporting.md)
-- [Revenir aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Retour aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
 

@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Adobe Commerce B2B] Guide'
-description: Informations complètes pour [!DNL Adobe Commerce B2B] les administrateurs, y compris l’installation et la configuration.
+description: Informations complètes pour les administrateurs  [!DNL Adobe Commerce B2B] , y compris l’installation et la configuration.
 breadcrumb-title: Présentation du guide
 seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Guide Adobe Commerce B2B
 
-Ce guide est destiné aux administrateurs d’Adobe Commerce. Il fournit des informations détaillées sur l’installation et l’activation de ce module, notamment sur la configuration et la gestion de ses fonctionnalités. Cela suppose une compréhension de base du coeur [!DNL Commerce] configuration et .
+Ce guide est destiné aux administrateurs d’Adobe Commerce. Il fournit des informations détaillées sur l’installation et l’activation de ce module, notamment sur la configuration et la gestion de ses fonctionnalités. Elle requiert une compréhension de base de la configuration et des fonctionnalités de base de [!DNL Commerce].
 
 Les administrateurs de magasin ont deux zones :
 
@@ -26,10 +26,10 @@ Ce guide couvre :
 
 | Objet | Description |
 | ------- | ----------- |
-| [Introduction](introduction.md) | Fonctionnalités disponibles avec [!DNL Adobe Commerce B2B]? |
-| [Notes de mise à jour](release-notes.md) | Examinez les mises à jour fournies dans chaque [!DNL Adobe Commerce B2B] version . |
-| [Installer](install.md) | Installez le [!DNL Adobe Commerce B2B] extension . |
-| [Activation des fonctionnalités B2B de base](enable-basic-features.md) | Après l’installation [!DNL Adobe Commerce B2B], vous devez activer les fonctionnalités que vous souhaitez activer pour votre boutique. |
+| [Introduction](introduction.md) | Quelles fonctionnalités sont disponibles avec [!DNL Adobe Commerce B2B] ? |
+| [Notes de mise à jour](release-notes.md) | Passez en revue les mises à jour fournies dans chaque version de [!DNL Adobe Commerce B2B]. |
+| [Installer](install.md) | Installez l’extension [!DNL Adobe Commerce B2B]. |
+| [Activer les fonctionnalités de base B2B](enable-basic-features.md) | Après avoir installé [!DNL Adobe Commerce B2B], vous devez activer les fonctionnalités que vous souhaitez activer pour votre magasin. |
 | [Comptes d’entreprise](account-companies.md) | Découvrez les comptes d’entreprise et la manière dont ils fournissent la principale composante essentielle pour fournir une assistance aux acheteurs B2B sur votre boutique. |
 | [Gestion des entreprises](manage-companies.md) | Découvrez comment les administrateurs de site Commerce B2B peuvent créer des hiérarchies d’entreprise afin de rationaliser la gestion de plusieurs entreprises appartenant à la même entreprise. |
 | [Catalogues partagés](catalog-shared.md) | Découvrez comment utiliser des catalogues partagés pour gérer des catalogues sécurisés avec des prix personnalisés pour différentes entreprises. |
@@ -46,11 +46,11 @@ Ce guide couvre :
 
 ## Informations sur les développeurs
 
-Pour plus d’informations sur les modifications incluses dans les versions de module, voir [Notes de mise à jour](release-notes.md). La variable [Intégrations B2B](https://developer.adobe.com/commerce/webapi/rest/b2b/) de la section _Guide de référence de l’API REST Adobe Commerce_  fournit des détails sur l’architecture des modules, les API et la personnalisation des algorithmes.
+Pour plus d’informations sur les modifications incluses dans les versions de module, voir les [Notes de mise à jour](release-notes.md). La documentation [Intégrations B2B](https://developer.adobe.com/commerce/webapi/rest/b2b/) du _Guide de référence de l’API REST Adobe Commerce_ fournit des détails sur l’architecture de module, les API et la personnalisation de l’algorithme.
 
 ## Résolution des problèmes et assistance
 
 Si vous avez besoin d’informations ou si vous avez des questions qui ne sont pas abordées dans ce guide, utilisez les ressources suivantes :
 
 - [Base de connaissances du support Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html)
-- [tickets d’assistance](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket): soumettez un ticket pour recevoir de l’aide supplémentaire.
+- [tickets d’assistance](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) : envoyez un ticket pour recevoir une aide supplémentaire.

@@ -4,7 +4,7 @@ description: Les segments de clients vous permettent d’afficher dynamiquement 
 exl-id: b254a6ac-cb0b-46c1-9ef7-ffc97360a98e
 source-git-commit: 0b9f394a792171e93ee72f3b4ebb904b96ea1051
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Les segments Clients vous permettent d’afficher dynamiquement le contenu et les promotions à des clients spécifiques, en fonction de différentes propriétés. L’adresse du client, l’historique des commandes et le contenu du panier sont quelques exemples. Vous pouvez optimiser les initiatives marketing basées sur des segments ciblés avec des règles de prix de panier. Vous pouvez également générer des rapports et exporter la liste des clients ciblés. Les informations sur les segments de clients étant constamment actualisées, les clients peuvent être associés et dissociés d’un segment lorsqu’ils font leurs achats dans votre boutique.
 
-Pour mieux comprendre la différence entre [groupes de clients](../customers/customer-groups.md) et les segments clients, notez où ils sont utilisés :
+Pour mieux comprendre la différence entre les [groupes de clients](../customers/customer-groups.md) et les segments de clients, notez où ils sont utilisés :
 
 |  | Segment de client | Groupe de clients |
 |--- |--- |--- |
@@ -22,7 +22,7 @@ Pour mieux comprendre la différence entre [groupes de clients](../customers/cus
 | Prix de niveau |  | ✔️ |
 | Règle de produit associée | ✔️ |  |
 | Bloc dynamique | ✔️ |  |
-| Taux de change des primes |  | ✔️ |
+| Taux de récompense des exchanges |  | ✔️ |
 | Autorisations de catégorie |  | ✔️ |
 | Invitations |  | ✔️ |
 
@@ -30,7 +30,7 @@ Pour mieux comprendre la différence entre [groupes de clients](../customers/cus
 
 ## Attributs de segment des clients
 
-Les attributs de segment des clients sont définis d’une manière similaire aux règles de prix du panier et du catalogue. Pour qu’un attribut soit utilisé dans une condition de segment client, la variable _[!UICONTROL Use in Customer Segment]_[property](attribute-properties.md#) doit être défini sur `Yes`. Les conditions de segment client peuvent incorporer les types d’attributs suivants :
+Les attributs de segment des clients sont définis d’une manière similaire aux règles de prix du panier et du catalogue. Pour qu’un attribut soit utilisé dans une condition de segment client, la _[!UICONTROL Use in Customer Segment]_[propriété](attribute-properties.md#) doit être définie sur `Yes`. Les conditions de segment client peuvent incorporer les types d’attributs suivants :
 
 | Attribut | Description |
 |---|---|
@@ -42,9 +42,9 @@ Les attributs de segment des clients sont définis d’une manière similaire au
 
 {style="table-layout:auto"}
 
-Voir [Création et suppression de segments de clients](../customers/customer-segment-create.md) pour plus d’informations sur la définition des segments de clients.
+Voir [Création et suppression de segments de clients](../customers/customer-segment-create.md) pour plus d’informations sur la définition de segments de clients.
 
 ## Livres électroniques
 
-- **Segmentation des clients** — Obtenez la variable [eBook](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) pour découvrir comment augmenter les bénéfices et la satisfaction globale des clients.
-- **tactiques de segmentation** — Obtenez la variable [eBook](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html) pour améliorer le ciblage de vos messages et promotions afin de créer des conversations significatives avec vos clients.
+- **Segmentation des clients** — Procurez-vous le [eBook](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) pour découvrir comment augmenter les bénéfices et la satisfaction globale du client.
+- **Tactiques de segmentation** — Procurez-vous le [eBook](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html) pour améliorer le ciblage de vos messages et promotions afin de créer des conversations significatives avec vos clients.

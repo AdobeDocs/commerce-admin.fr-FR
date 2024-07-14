@@ -11,23 +11,23 @@ ht-degree: 0%
 
 # Liste des clients
 
-Dans l’administrateur, la variable [!UICONTROL Customers] grid répertorie tous les clients qui se sont inscrits pour un compte auprès de votre boutique ou qui ont été ajoutés par l’administrateur. Utilisez la méthode standard [contrôles de grille](../getting-started/admin-grid-controls.md) pour filtrer la liste et ajuster la mise en page des colonnes. Pour en savoir plus, voir [Gestion des comptes clients](../customers/manage-account.md).
+Dans l’Admin, la grille [!UICONTROL Customers] répertorie tous les clients qui se sont inscrits pour un compte auprès de votre boutique ou qui ont été ajoutés par l’administrateur. Utilisez les [contrôles de grille](../getting-started/admin-grid-controls.md) standard pour filtrer la liste et ajuster la disposition des colonnes. Pour en savoir plus, voir [Gestion des comptes clients](../customers/manage-account.md).
 
 ![Liste des clients](assets/customer-accounts-all-grid.png){width="700" zoomable="yes"}
 
 ## Mise à jour des informations sur les clients
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Recherchez l’enregistrement du client et cliquez sur [!UICONTROL **Modifier**] dans le _[!UICONTROL Action]_colonne .
+1. Recherchez l’enregistrement du client et cliquez sur [!UICONTROL **Modifier**] dans la colonne _[!UICONTROL Action]_.
 
 1. Dans le panneau de gauche, sélectionnez les informations à modifier et apportez les modifications nécessaires.
 
    >[!NOTE]
    >
-   >Pour en savoir plus, voir [Mise à jour des comptes client](../customers/update-account.md).
+   >Pour en savoir plus, voir [Mise à jour des comptes clients](../customers/update-account.md).
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Customer]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Customer]**.
 
 ## Contrôles Workspace
 
@@ -35,9 +35,9 @@ Dans l’administrateur, la variable [!UICONTROL Customers] grid répertorie tou
 | --- | --- |
 | **[!UICONTROL Add New Customer]** | Crée un compte client. |
 | **[!UICONTROL Search]** | Lance une recherche de clients en fonction des filtres actuels. |
-| **[!UICONTROL Filters]** | Définit un ensemble de paramètres de recherche utilisés pour filtrer les enregistrements qui apparaissent dans le [grid](../getting-started/admin-grid-controls.md). |
+| **[!UICONTROL Filters]** | Définit un ensemble de paramètres de recherche utilisés pour filtrer les enregistrements qui apparaissent dans la [grille](../getting-started/admin-grid-controls.md). |
 | **[!UICONTROL Default View]** | Détermine la colonne par défaut [layout](../getting-started/admin-grid-controls.md) de la grille. |
-| **[!UICONTROL Columns]** | Détermine la sélection de [colonnes](../getting-started/admin-grid-controls.md) et leurs comptes dans la grille. La mise en page des colonnes peut être modifiée et enregistrée en tant que _view_. Par défaut, seules certaines colonnes sont incluses dans la grille. |
+| **[!UICONTROL Columns]** | Détermine la sélection de [colonnes](../getting-started/admin-grid-controls.md) et de leurs comptes dans la grille. La mise en page des colonnes peut être modifiée et enregistrée en tant que _vue_. Par défaut, seules certaines colonnes sont incluses dans la grille. |
 | **[!UICONTROL Export]** | Exporte les enregistrements sélectionnés au format CSV ou XML Excel. |
 
 {style="table-layout:auto"}
@@ -59,8 +59,8 @@ Dans l’administrateur, la variable [!UICONTROL Customers] grid répertorie tou
 | **[!UICONTROL Web Site]** | Site web dans la hiérarchie de magasins à laquelle le compte client est associé. |
 | **[!UICONTROL Confirmed Email]** | Indique si un email de confirmation est requis. |
 | **[!UICONTROL Account Created In]** | Indique la vue de magasin à partir de laquelle le compte client a été créé. |
-| **[!UICONTROL Date of Birth]** | La date de naissance du client. <br><br>**_Important :_**Conformément aux bonnes pratiques actuelles en matière de sécurité et de confidentialité, gardez à l’esprit tout risque juridique et de sécurité potentiel associé au stockage de la date de naissance complète des clients (mois, jour, année) avec d’autres identifiants personnels. Il est recommandé de limiter le stockage des dates de naissance complètes des clients et de suggérer d’utiliser l’année de naissance du client comme alternative. |
-| **[!UICONTROL Tax / VAT Number]** | Le cas échéant, le numéro de la taxe ou [taxe sur la valeur ajoutée](../stores-purchase/vat.md) numéro attribué au client. <br/><br/>Ce champ est différent du champ Numéro de TVA. |
+| **[!UICONTROL Date of Birth]** | La date de naissance du client. <br><br>**_Important :_**Conformément aux bonnes pratiques actuelles en matière de sécurité et de confidentialité, gardez à l’esprit tous les risques potentiels liés à la sécurité et au stockage de la date de naissance complète des clients (mois, jour, année) avec d’autres identifiants personnels. Il est recommandé de limiter le stockage des dates de naissance complètes des clients et de suggérer d’utiliser l’année de naissance du client comme alternative. |
+| **[!UICONTROL Tax / VAT Number]** | Le cas échéant, le numéro de taxe ou le numéro de [taxe sur la valeur ajoutée](../stores-purchase/vat.md) attribué au client. <br/><br/>Ce champ n’est pas le même que le numéro de TVA. |
 | **[!UICONTROL Gender]** | Genre du client. |
 | **[!UICONTROL Action]** | Modifier : ouvre le compte de l’entreprise en mode d’édition. |
 
@@ -68,7 +68,7 @@ Dans l’administrateur, la variable [!UICONTROL Customers] grid répertorie tou
 
 ### Colonnes supplémentaires
 
-Ces colonnes sont disponibles en modifiant la variable [mise en page des colonnes](../getting-started/admin-grid-controls.md) de la grille.
+Ces colonnes sont disponibles en modifiant la [mise en page des colonnes](../getting-started/admin-grid-controls.md) de la grille.
 
 | Colonne | Description |
 | --- | --- |
@@ -80,7 +80,7 @@ Ces colonnes sont disponibles en modifiant la variable [mise en page des colonne
 | **[!UICONTROL Billing Lastname]** | Nom dans l’adresse de facturation du client. |
 | **[!UICONTROL Billing Address]** | Adresse à laquelle les informations de facturation doivent être envoyées. |
 | **[!UICONTROL Shipping Address]** | Adresse à laquelle les commandes doivent être expédiées. |
-| **[!UICONTROL VAT Number]** | Numéro de taxe sur la valeur ajoutée associé à l’adresse du client. Pour [biens numériques](../stores-purchase/taxes.md) vendue dans l&#39;UE, la TVA est basée sur l&#39;adresse de facturation du client. <br/><br/>Ce champ n&#39;est pas le même que le champ Numéro de taxe/TVA. |
-| **[!UICONTROL Account Lock]** | Indique le statut du compte. Pour des raisons de sécurité, les comptes clients peuvent être [verrouillé](../customers/password-options.md) après trop de tentatives de connexion. Valeurs : `Locked` / `Unlocked` |
+| **[!UICONTROL VAT Number]** | Numéro de taxe sur la valeur ajoutée associé à l’adresse du client. Pour les [biens numériques](../stores-purchase/taxes.md) vendus dans l’UE, la TVA est basée sur l’adresse de facturation du client. <br/><br/>Ce champ n’est pas le même que le champ Numéro de taxe/TVA. |
+| **[!UICONTROL Account Lock]** | Indique le statut du compte. Par mesure de sécurité, les comptes clients peuvent être [verrouillés](../customers/password-options.md) après trop de tentatives de connexion. Valeurs : `Locked` / `Unlocked` |
 
 {style="table-layout:auto"}

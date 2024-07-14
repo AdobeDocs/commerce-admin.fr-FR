@@ -14,7 +14,7 @@ ht-degree: 1%
 
 {{config}}
 
-Pour plus d’informations sur la configuration de ces paramètres de multilivraison pour votre magasin, voir [Plusieurs adresses](../../stores-purchase/shipping-settings.md#multiple-addresses).
+Pour plus d’informations sur la configuration de ces paramètres de multidiffusion pour votre magasin, voir [Plusieurs adresses](../../stores-purchase/shipping-settings.md#multiple-addresses).
 
 ## [!UICONTROL Options]
 
@@ -31,4 +31,4 @@ Pour plus d’informations sur la configuration de ces paramètres de multilivra
 
 >[!NOTE]
 >
->![Adobe Commerce B2B](../../assets/b2b.svg) (Disponible avec Adobe Commerce B2B uniquement) Pour les commandes avec plusieurs adresses de livraison, la variable [Paiement sur compte](../../b2b/enable-basic-features.md#configure-payment-on-account) le mode de paiement, même s’il est activé, n’est pas disponible pendant le passage en caisse.
+>![Adobe Commerce B2B](../../assets/b2b.svg) (Disponible avec Adobe Commerce B2B uniquement) Pour les commandes avec plusieurs adresses de livraison, le mode de paiement [Paiement sur compte](../../b2b/enable-basic-features.md#configure-payment-on-account), même s’il est activé, n’est pas disponible pendant le passage en caisse.

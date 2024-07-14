@@ -5,20 +5,20 @@ exl-id: b15054be-e463-48e6-b6c1-0a8a2141cc01
 feature: Search, Configuration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
 
 # Réécritures d’URL personnalisées
 
-Une réécriture personnalisée peut être utilisée pour gérer des redirections diverses, telles que la redirection d’une page de votre boutique vers un site web externe. Vous pouvez, par exemple, avoir deux sites Web de commerce, chacun ayant son propre domaine. Vous pouvez utiliser une redirection personnalisée afin d’acheminer les demandes d’un produit, d’une catégorie ou d’une page vers un autre site web. Contrairement à d’autres types de redirection, la cible d’une redirection personnalisée n’est pas choisie dans une liste de pages existantes dans votre magasin.
+Une réécriture personnalisée peut être utilisée pour gérer des redirections diverses, telles que la redirection d’une page de votre boutique vers un site web externe. Par exemple, vous pouvez avoir deux sites web Commerce, chacun ayant son propre domaine. Vous pouvez utiliser une redirection personnalisée afin d’acheminer les demandes d’un produit, d’une catégorie ou d’une page vers un autre site web. Contrairement à d’autres types de redirection, la cible d’une redirection personnalisée n’est pas choisie dans une liste de pages existantes dans votre magasin.
 
-Avant de commencer, veillez à comprendre exactement ce que la redirection est à accomplir. Pensez en termes de _cible_ / _source_ ou _rediriger vers_ / _rediriger depuis_. Bien que les visiteurs puissent toujours accéder à l’ancienne page à partir de moteurs de recherche ou de liens obsolètes, la redirection entraîne le passage de votre magasin vers la nouvelle cible.
+Avant de commencer, veillez à comprendre exactement ce que la redirection est à accomplir. Pensez en termes de _cible_ / _source_ ou de _redirection vers_ / _redirection depuis_. Bien que les visiteurs puissent toujours accéder à l’ancienne page à partir de moteurs de recherche ou de liens obsolètes, la redirection entraîne le passage de votre magasin vers la nouvelle cible.
 
 ## Étape 1. Planification de la réécriture
 
-Pour éviter les erreurs, notez l’URL de la variable _rediriger vers_ et la clé URL de la _rediriger depuis_ page.
+Pour éviter des erreurs, écrivez l’URL de la page _redirect to_ et la clé d’URL de la page _redirect from_ .
 
 Si vous n’en êtes pas sûr, ouvrez chaque page, puis copiez l’URL dans la barre d’adresse de votre navigateur.
 
@@ -40,25 +40,25 @@ Rediriger à partir de :
 
 {{url-rewrite-params}}
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**.
 
 1. Avant de poursuivre, procédez comme suit pour vérifier que le chemin de requête est disponible :
 
-   - Dans le filtre de recherche situé en haut de la page **[!UICONTROL Request Path]** , saisissez la clé URL de la page à rediriger et cliquez sur **[!UICONTROL Search]**.
+   - Dans le filtre de recherche situé en haut de la colonne **[!UICONTROL Request Path]**, saisissez la clé URL de la page à rediriger et cliquez sur **[!UICONTROL Search]**.
 
    - S’il existe plusieurs enregistrements de redirection pour la page, recherchez celui qui correspond à la vue de magasin applicable et ouvrez-le en mode d’édition.
 
    - Dans le coin supérieur droit, cliquez sur **[!UICONTROL Delete]**. Lorsque vous y êtes invité, cliquez sur **[!UICONTROL OK]** pour confirmer.
 
-1. Lorsque vous revenez à la page Réécritures d’URL, cliquez sur **[!UICONTROL Add URL Rewrite]**.
+1. Lorsque vous revenez à la page URL de réécriture, cliquez sur **[!UICONTROL Add URL Rewrite]**.
 
-1. Définir **[!UICONTROL Create URL Rewrite]** to `Custom`.
+1. Définissez **[!UICONTROL Create URL Rewrite]** sur `Custom`.
 
    ![Réécritures d’URL - personnalisé](./assets/url-rewrite-custom.png){width="600" zoomable="yes"}
 
 1. Sous Informations de réécriture d’URL, procédez comme suit :
 
-   - Si vous avez plusieurs vues de magasin, sélectionnez la variable **[!UICONTROL Store]** où la réécriture s’applique.
+   - Si vous avez plusieurs vues de magasin, sélectionnez l’ **[!UICONTROL Store]** où s’applique la réécriture.
 
    - Pour **[!UICONTROL Request Path]**, saisissez la clé d’URL et le chemin (le cas échéant) de la page de produit, de catégorie ou de CMS à rediriger.
 
@@ -68,7 +68,7 @@ Rediriger à partir de :
 
    - Pour **[!UICONTROL Target Path]**, saisissez l’URL de la destination. Si la cible se trouve sur un autre site web, saisissez l’URL complète.
 
-   - Définir **Rediriger** à l’une des options suivantes :
+   - Définissez **Redirection** sur l’une des options suivantes :
 
       - `Temporary (302)`
       - `Permanent (301)`
@@ -77,10 +77,10 @@ Rediriger à partir de :
 
 1. Avant d’enregistrer la redirection, vérifiez les éléments suivants :
 
-   - La variable [!UICONTROL Request Path] contient la clé URL ou le chemin d’accès de l’original ; _rediriger depuis_ page.
-   - La variable [!UICONTROL Target Path] contient l’URL de la variable _rediriger vers_ page.
+   - [!UICONTROL Request Path] contient la clé URL ou le chemin d’accès de la page _de redirection à partir de_ d’origine.
+   - [!UICONTROL Target Path] contient l’URL de la page de _redirection vers_.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
 
    La nouvelle réécriture apparaît dans la grille en haut de la liste.
 
@@ -90,8 +90,8 @@ Rediriger à partir de :
 
 1. Effectuez l’une des opérations suivantes :
 
-   - Accédez à l’original _rediriger depuis_ page.
-   - Dans la barre d’adresse du navigateur, saisissez le nom de l’original _rediriger depuis_ page juste après l’URL du magasin et appuyez sur **Entrée**.
+   - Accédez à la page _redirection à partir de_ d&#39;origine.
+   - Dans la barre d’adresse du navigateur, saisissez le nom de la page _redirection à partir de_ d’origine immédiatement après l’URL du magasin et appuyez sur **Entrée**.
 
    La nouvelle page cible apparaît à la place de la requête de page d’origine.
 

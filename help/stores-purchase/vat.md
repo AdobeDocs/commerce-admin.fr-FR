@@ -5,7 +5,7 @@ exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 feature: Taxes
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1990'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Certains pays appliquent une taxe sur la valeur ajoutée, ou TVA, sur les biens et services. Il peut y avoir différents taux de TVA en fonction de l’étape du processus de fabrication ou de distribution, des matériaux ou des services que vous vendez à vos clients. Vous pouvez appliquer plusieurs taux de TVA pour calculer correctement la taxe à payer.
 
-Le commerce peut être configuré pour facturer une taxe sur la valeur ajoutée en fonction de l’adresse du marchand ou du client, si les deux se trouvent dans le même pays. Les calculs de la TVA sont généralement basés sur la destination de l&#39;expédition, plutôt que sur son point d&#39;origine. Pour la plupart des scénarios, un paramètre de configuration qui calcule la TVA en fonction de l’adresse de livraison du client est suffisant.
+Commerce peut être configuré pour facturer une taxe sur la valeur ajoutée en fonction de l’adresse du commerçant ou du client, si les deux se trouvent dans le même pays. Les calculs de la TVA sont généralement basés sur la destination de l&#39;expédition, plutôt que sur son point d&#39;origine. Pour la plupart des scénarios, un paramètre de configuration qui calcule la TVA en fonction de l’adresse de livraison du client est suffisant.
 
 ## Exemples de scénarios
 
@@ -22,11 +22,11 @@ Le commerce peut être configuré pour facturer une taxe sur la valeur ajoutée 
 
 - Une entreprise aux Pays-Bas qui effectue un achat dans un magasin au Royaume-Uni qui expédie à une adresse au Royaume-Uni est tenue de payer le taux de TVA du Royaume-Uni.
 
-- Pour la vente de [produits téléchargeables](../catalog/product-create-downloadable.md), ou _biens numériques_, le taux de TVA est basé sur la destination de l’expédition, plutôt que sur l’emplacement du marchand. Voir [Lieu d’approvisionnement des produits numériques](taxes.md#place-of-supply-for-digital-goods-eu).
+- Pour la vente de [produits téléchargeables](../catalog/product-create-downloadable.md) ou de _produits numériques_, le taux de TVA est basé sur la destination de livraison, plutôt que sur la localisation du marchand. Voir [Lieu d’approvisionnement des produits numériques](taxes.md#place-of-supply-for-digital-goods-eu).
 
 >[!TIP]
 >
->Certains envois transfrontaliers et B2B ont des exigences fiscales plus complexes. Pour étendre les fonctionnalités natives de votre installation Commerce, envisagez d’ajouter une solution de gestion des taxes à partir de la [Marché](https://marketplace.magento.com/extensions/accounting-finance/taxes.html).
+>Certains envois transfrontaliers et B2B ont des exigences fiscales plus complexes. Pour étendre les fonctionnalités natives de votre installation Commerce, pensez à ajouter une solution de gestion des impôts à partir de [Marketplace](https://marketplace.magento.com/extensions/accounting-finance/taxes.html).
 
 ## Configurer la TVA
 
@@ -36,47 +36,47 @@ Les instructions suivantes incluent un exemple de procédure pour configurer une
 >
 >Avant de poursuivre, vérifiez quelles règles et réglementations s&#39;appliquent à la TVA dans votre zone.
 
-Dans certaines transactions entre entreprises, la TVA n&#39;est pas perçue. Le commerce peut valider l’ID de TVA d’un client pour s’assurer que la TVA est correctement évaluée (ou non évaluée). Voir [Validation de l’ID de TVA](#vat-id-validation).
+Dans certaines transactions entre entreprises, la TVA n&#39;est pas perçue. Commerce peut valider l’ID de TVA d’un client pour s’assurer que la TVA est correctement évaluée (ou non évaluée). Voir [Validation de l’ID de TVA](#vat-id-validation).
 
 ### Étape 1 : configuration des classes de taxe client
 
 Le processus de création d&#39;une règle fiscale commence par l&#39;ajout d&#39;un taux d&#39;imposition.
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
 
    ![Configuration des classes d’impôts des clients](./assets/vat-zones.png){width="600" zoomable="yes"}
 
 1. Assurez-vous qu’il existe une classe d’impôt client appropriée à utiliser avec la TVA.
 
-   Pour cet exemple, assurez-vous qu’il existe une classe d’impôt client nommée _Client au détail_. Si cette classe de taxe n’existe pas, cliquez sur **[!UICONTROL Add New Tax Rate]**.
+   Pour cet exemple, assurez-vous qu’il existe une classe d’impôt client nommée _Client au détail_. Si cette classe de taxe n&#39;existe pas, cliquez sur **[!UICONTROL Add New Tax Rate]**.
 
-1. Saisissez le **[!UICONTROL Tax Identifier]** pour la nouvelle classe fiscale.
+1. Saisissez le **[!UICONTROL Tax Identifier]** pour la nouvelle classe de taxe.
 
-   Tous les taux de taxe sont affichés dans la _Taux d&#39;imposition_ dans le champ _Informations sur les règles fiscales_ lorsque vous créez des règles fiscales.
+   Tous les taux d&#39;imposition s&#39;affichent dans le champ _Taux d&#39;imposition_ de la _Informations sur les règles fiscales_ lorsque vous créez des règles fiscales.
 
-1. Pour définir la plage de codes postaux (de / à), sélectionnez la variable **[!UICONTROL Zip/Post is Range]** .
+1. Pour définir la plage de codes postaux (de / à), cochez la case **[!UICONTROL Zip/Post is Range]** .
 
-1. Choisissez la **[!UICONTROL Country]** lorsque le taux d&#39;imposition s&#39;applique.
+1. Sélectionnez le **[!UICONTROL Country]** où s&#39;applique le taux de taxe.
 
-1. Saisissez le **[!UICONTROL Rate Percent]** qui serait utilisé pour le calcul du taux d’imposition à l’achat.
+1. Saisissez le **[!UICONTROL Rate Percent]** qui sera utilisé pour le calcul du taux d&#39;imposition à l&#39;achat.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Rate]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Rate]**.
 
 En fonction du taux d’imposition envoyé, vous pouvez créer des règles fiscales ultérieures. En l&#39;absence de taux d&#39;imposition, la création de règles fiscales devient impossible.
 
 ### Étape 2 : configuration des classes de taxe de produit
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** >  _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
 
 1. Cliquez sur **[!UICONTROL Add New Tax Rule]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Additional Settings]** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Additional Settings]** .
 
    ![Configuration des classes de taxe de produit](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"}
 
-1. Sous _Classe taxe sur les produits_, cliquez sur **[!UICONTROL Add New Tax Class]**.
+1. Sous _Product Tax Class_, cliquez sur **[!UICONTROL Add New Tax Class]**.
 
-1. Pour ajouter la nouvelle classe à la liste des classes de taxe sur les produits disponibles et créer trois nouvelles classes, saisissez la variable **[!UICONTROL Name]** de la nouvelle classe de taxe et cliquez sur la coche :
+1. Pour ajouter la nouvelle classe à la liste des classes de taxe de produit disponibles et créer trois nouvelles classes, saisissez le **[!UICONTROL Name]** de la nouvelle classe de taxe et cliquez sur la coche :
 
    - `VAT Standard`
    - `VAT Reduced`
@@ -88,13 +88,13 @@ En fonction du taux d’imposition envoyé, vous pouvez créer des règles fisca
 
 ### Etape 3 : paramétrage des zones fiscales et des taux
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** >  _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
 
    Pour cet exemple, vous pouvez supprimer les taux d’imposition des États-Unis ou les laisser tels quels.
 
 1. Cliquez sur **[!UICONTROL Add New Tax Rate]**.
 
-   ![Paramétrer les zones fiscales et les taux](./assets/tax-rate-create-new.png){width="600" zoomable="yes"}
+   ![Configurer des zones fiscales et des taux](./assets/tax-rate-create-new.png){width="600" zoomable="yes"}
 
 1. Définissez les nouveaux taux comme suit :
 
@@ -116,21 +116,21 @@ En fonction du taux d’imposition envoyé, vous pouvez créer des règles fisca
 
 Une règle de taxe est une combinaison d’une classe d’impôt client, d’une classe d’impôt sur les produits et d’un taux d’imposition.
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
 
 1. Ajoutez de nouvelles règles fiscales comme suit :
 
    **TVA standard**
 
    - Nom : `VAT Standard`
-   - Classe fiscale du client : `Retail Customer`
+   - Classe de taxe client : `Retail Customer`
    - Classe de taxe sur les produits : `VAT Standard`
    - Taux de taxe : `VAT Standard Rate`
 
-   **Vat réduit**
+   **Valeur Réduite**
 
    - Nom : `VAT Reduced`
-   - Classe fiscale du client : `Retail Customer`
+   - Classe de taxe client : `Retail Customer`
    - Classe de taxe sur les produits : `VAT Reduced`
    - Taux de taxe : `VAT Reduced Rate`
 
@@ -138,29 +138,29 @@ Une règle de taxe est une combinaison d’une classe d’impôt client, d’une
 
 ### Étape 5 : appliquer les classes de taxe aux produits
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Manage Products]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Manage Products]**.
 
 1. Ouvrez un produit de votre catalogue en mode d’édition.
 
-1. Sur le _Général_ , recherchez la variable **[!UICONTROL Tax Class]** et sélectionnez l’option **[!UICONTROL VAT Class]** qui s’applique au produit.
+1. Sur la page _Général_, recherchez l’option **[!UICONTROL Tax Class]** et sélectionnez le **[!UICONTROL VAT Class]** qui s’applique au produit.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
 
-   ![Appliquer les classes de taxe aux produits](./assets/vat-apply-classes.png){width="600" zoomable="yes"}
+   ![Appliquer des classes de taxe aux produits](./assets/vat-apply-classes.png){width="600" zoomable="yes"}
 
 ## Descriptions des champs
 
 ### Informations sur le magasin
 
-Commerce utilise les éléments suivants : [Paramètres de configuration des informations de magasin](../configuration-reference/general/general.md#store-information) pour calculer la TVA en fonction des informations du marchand.
+Commerce utilise les [ paramètres de configuration Informations sur la boutique ](../configuration-reference/general/general.md#store-information) suivants pour calculer la TVA en fonction des informations sur le commerce.
 
-**[!UICONTROL VAT Number]** - Numéro de taxe sur la valeur ajoutée attribué au marchand.
+**[!UICONTROL VAT Number]** - Numéro de taxe sur la valeur ajoutée attribué au commerçant.
 
-**[!UICONTROL Validate VAT Number]** - [Validation TVA](#vat-id-validation) confirme que le numéro de TVA correspond à l’enregistrement correspondant dans la [Commission européenne](https://ec.europa.eu/taxation_customs/vies/) base de données.
+**[!UICONTROL Validate VAT Number]** - [ La validation de la TVA](#vat-id-validation) confirme que le numéro de la TVA correspond à l&#39;enregistrement correspondant dans la base de données de la [Commission européenne](https://ec.europa.eu/taxation_customs/vies/).
 
 ### Informations sur le client
 
-Commerce utilise les champs suivants pour calculer la TVA en fonction de [informations client](../customers/account-dashboard-account-information.md)).
+Commerce utilise les champs suivants pour calculer la TVA en fonction des [informations client](../customers/account-dashboard-account-information.md)).
 
 #### Informations du compte
 
@@ -168,19 +168,19 @@ Commerce utilise les champs suivants pour calculer la TVA en fonction de [inform
 
 #### Adresses
 
-**[!UICONTROL VAT Number]** - Le cas échéant, le numéro de la taxe sur la valeur ajoutée associé à une adresse de facturation ou de livraison spécifique du client. Pour la vente de [biens numériques](taxes.md#place-of-supply-for-digital-goods-eu)) au sein de l’UE, le montant de la TVA est basé sur la destination de livraison.
+**[!UICONTROL VAT Number]** - Le cas échéant, le numéro de la taxe sur la valeur ajoutée associé à une adresse de facturation ou de livraison spécifique du client. Pour la vente de [biens numériques](taxes.md#place-of-supply-for-digital-goods-eu)) dans l’UE, le montant de la TVA est basé sur la destination de livraison.
 
 ### Compte client
 
-Commerce utilise les éléments suivants : [paramètres de configuration client](../customers/account-options-new.md) pour calculer la TVA.
+Commerce utilise les [paramètres de configuration client](../customers/account-options-new.md) suivants pour calculer la TVA.
 
-**[!UICONTROL Show VAT Number on Storefront]** - Détermine si le champ Numéro de TVA du client est inclus dans le Carnet d’adresses disponible dans le compte du client.
+**[!UICONTROL Show VAT Number on Storefront]** - Détermine si le champ Numéro de TVA du client est inclus dans le Carnet d’adresses disponible dans le compte client.
 
-**[!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID]** - L’identifiant TVA est un identifiant interne du numéro de TVA du client lorsqu’il est utilisé dans la validation de la TVA. Lors de la validation de la TVA, Commerce confirme que le nombre correspond à la valeur [Commission européenne](https://ec.europa.eu/taxation_customs/vies/) base de données. Les clients peuvent être automatiquement affectés à l’un des quatre groupes de clients par défaut en fonction des résultats de validation.
+**[!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID]** - L’ID de TVA est un identifiant interne du numéro de TVA du client lorsqu’il est utilisé dans la validation de la TVA. Lors de la validation de la TVA, Commerce confirme que le nombre correspond à la base de données [Commission Européenne](https://ec.europa.eu/taxation_customs/vies/). Les clients peuvent être automatiquement affectés à l’un des quatre groupes de clients par défaut en fonction des résultats de validation.
 
 ## Validation de l’ID de TVA
 
-_Validation de l’ID de TVA_ calcule automatiquement la taxe requise pour les transactions B2B qui ont lieu au sein de l’Union européenne (UE), en fonction des paramètres régionaux du commerçant et du client. Commerce effectue la validation de l’ID de TVA à l’aide des services web de la variable [Commission européenne][1] serveur.
+_Validation de l’ID de TVA_ calcule automatiquement la taxe requise pour les transactions B2B qui ont lieu dans l’Union européenne (UE), en fonction des paramètres régionaux du commerçant et du client. Commerce effectue la validation de l&#39;ID de TVA à l&#39;aide des services web du serveur [Commission européenne][1].
 
 >[!NOTE]
 >
@@ -201,7 +201,7 @@ Si la validation de l’ID de TVA est activée, après enregistrement, chaque cl
 
 Une fois qu’un client a spécifié le numéro de TVA et d’autres champs d’adresse et choisi d’enregistrer, le système enregistre l’adresse et envoie la demande de validation de l’identifiant de TVA au serveur de la Commission européenne. Selon les résultats de la validation, l’un des groupes par défaut est attribué à un client. Ce groupe peut être modifié si un client ou un administrateur modifie l’identifiant de TVA de l’adresse par défaut ou l’adresse par défaut complète. Parfois, le groupe peut être temporairement modifié (le changement de groupe est émulé) lors du passage en caisse d’une page.
 
-Si cette option est activée, vous pouvez remplacer la validation de l’ID de TVA pour des clients individuels en cochant la case sur la page _[!UICONTROL Customer Information]_page.
+Si cette option est activée, vous pouvez remplacer la validation de l’ID de TVA pour des clients individuels en cochant la case sur la page _[!UICONTROL Customer Information]_.
 
 ### Processus de passage en caisse
 
@@ -209,7 +209,7 @@ Si la validation de la TVA d’un client est effectuée lors du passage en caiss
 
 Le comportement du système concerné par la validation de l’ID de TVA et le changement de groupe de clients au cours du passage en caisse dépend de la configuration des paramètres Valider à chaque transaction et Désactiver le changement automatique de groupe . Cette section décrit l’implémentation de la fonctionnalité Validation de l’ID de TVA pour le passage en caisse sur le front-end.
 
-Si le client utilise Google Express Checkout, PayPal Express Checkout ou un autre mode de paiement externe, le passage en caisse est effectué entièrement sur le côté de la passerelle de paiement externe. Dans ce scénario, la variable _Validation sur chaque transaction_ ne peut pas être appliqué et le groupe de clients ne peut pas changer lors de l’extraction.
+Si le client utilise Google Express Checkout, PayPal Express Checkout ou un autre mode de paiement externe, le passage en caisse est effectué entièrement sur le côté de la passerelle de paiement externe. Pour ce scénario, le paramètre _Valider à chaque transaction_ ne peut pas être appliqué et le groupe de clients ne peut pas changer lors de l’extraction.
 
 ![Workflow de validation de la TVA](./assets/vat-id-validation2.png){width="550" zoomable="yes"}
 
@@ -223,7 +223,7 @@ Les exemples suivants montrent comment les classes d’impôts et les taux sont 
 
 | #1 de la règle fiscale |  |
 |--- |--- |
-| Classe fiscale du client | Les classes de taxe client doivent inclure : <br />Classe destinée aux clients domestiques. <br />Une classe pour les clients avec des ID de TVA mal formatés.<br />Classe pour les clients dont la validation de l’ID de TVA a échoué. |
+| Classe fiscale du client | Les classes de taxe client doivent inclure : <br />Une classe pour les clients domestiques. <br />Classe pour les clients avec des identifiants de TVA mal formatés.<br />Classe pour les clients dont la validation de l’ID de TVA a échoué. |
 | Classe taxe sur les produits | Les classes de taxe sur les produits doivent inclure une classe pour les produits de tous types, à l’exception du bundle et du virtuel. |
 | Taux d&#39;imposition | Le taux d&#39;imposition doit inclure le taux de TVA du pays du marchand. |
 
@@ -239,7 +239,7 @@ Les exemples suivants montrent comment les classes d’impôts et les taux sont 
 
 | #3 de la règle fiscale | (Requis pour les produits virtuels et téléchargeables) |
 |--- |--- |
-| Classe fiscale du client | Les classes de taxe client doivent inclure : <br/>Une classe pour les clients domestiques <br/>Une classe pour les clients avec un ID de TVA non valide Une classe pour les clients pour lesquels la validation de l’ID de TVA a échoué |
+| Classe fiscale du client | Les classes de taxe client doivent inclure : <br/>Une classe pour les clients domestiques <br/>Une classe pour les clients avec un identifiant de TVA non valide Une classe pour les clients pour lesquels la validation de l&#39;identifiant de TVA a échoué |
 | Classe taxe sur les produits | Classe de produits virtuels. |
 | Taux d&#39;imposition | Taux de TVA du pays marchand. |
 
@@ -272,38 +272,38 @@ Chaque règle fiscale est définie par trois entités :
 - Classes d’impôts sur les produits
 - Taux d&#39;imposition
 
-Créez le [règles fiscales](tax-rules.md) pour utiliser efficacement la validation de l’ID de TVA.
+Créez les [règles fiscales](tax-rules.md) pour utiliser efficacement la validation des ID de TVA.
 
-- Les règles fiscales comprennent les taux d’imposition et les [classes d&#39;impôts](tax-class.md).
-- Les classes de taxe sont affectées à [groupes de clients](../customers/customer-groups.md).
+- Les règles fiscales comprennent les taux d&#39;imposition et les [classes d&#39;impôts](tax-class.md).
+- Les classes de taxe sont affectées aux [groupes de clients](../customers/customer-groups.md).
 
 #### Étape 3 : activation et configuration de la validation de l&#39;identifiant de TVA
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Si nécessaire, définissez la variable **[!UICONTROL Store View]** pour la configuration.
+1. Si nécessaire, définissez le **[!UICONTROL Store View]** pour la configuration.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Customers]** et choisissez **[!UICONTROL Customer Configuration]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Create New Account Options]** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Create New Account Options]** .
 
    Dans l’exemple suivant, les paramètres généraux du client qui ne sont pas liés à la validation de la TVA sont faibles.
 
    ![Créer des options de compte](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
 
-1. Définir **[!UICONTROL Enable Automatic Assignment to Customer Group]** to `Yes` et renseignez les champs suivants si nécessaire.
+1. Définissez **[!UICONTROL Enable Automatic Assignment to Customer Group]** sur `Yes` et renseignez les champs suivants si nécessaire.
 
    - **[!UICONTROL Default Group]**
    - **[!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID]**
    - **[!UICONTROL Show VAT Number on Storefront]**
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 #### Étape 4 : Définition de votre ID de TVA et de votre pays d’emplacement
 
-1. Dans le panneau de gauche, développez **[!UICONTROL General]** et choisissez **[!UICONTROL General]** en-dessous.
+1. Dans le panneau de gauche, développez **[!UICONTROL General]** et sélectionnez **[!UICONTROL General]** sous .
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Store Information]** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Store Information]** .
 
    ![Informations sur le magasin](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
@@ -313,19 +313,19 @@ Créez le [règles fiscales](tax-rules.md) pour utiliser efficacement la validat
 
    Le résultat apparaît immédiatement.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 #### Etape 5 : vérification de la liste des pays membres de l&#39;UE
 
-1. Dans la section _Général_ page de configuration, développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Countries Options]** .
+1. Continuez sur la page de configuration _Général_, développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) **[!UICONTROL Countries Options]** .
 
    ![Options des pays](../configuration-reference/general/assets/general-country-options.png){width="600" zoomable="yes"}
 
-1. Dans le **[!UICONTROL European Union Countries]** , vérifiez que chaque pays membre de l’UE est sélectionné.
+1. Dans la liste **[!UICONTROL European Union Countries]**, vérifiez que chaque pays membre de l’UE est sélectionné.
 
-   Pour modifier le paramètre par défaut, effacez le **Utilisation des valeurs système** . Maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée et cliquez sur chaque pays à ajouter ou supprimer.
+   Pour modifier le paramètre par défaut, décochez la case **Utiliser les valeurs système** . Maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée et cliquez sur chaque pays à ajouter ou supprimer.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 
 [1]: https://ec.europa.eu/taxation_customs/vies/

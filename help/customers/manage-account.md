@@ -1,25 +1,25 @@
 ---
 title: Gestion des comptes clients
-description: Utilisez la variable [!UICONTROL Customers] grille pour rechercher n’importe quel compte client et accéder aux informations des comptes clients individuels.
+description: Utilisez la grille [!UICONTROL Customers] pour trouver tout compte client et accéder aux informations sur les comptes clients individuels.
 exl-id: 5f817ca8-9d1f-4498-b3bd-989713f0b6ad
 source-git-commit: 0316475a37ee09948b9ba3649e059155212ab1ae
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
 
 # Gestion des comptes clients
 
-Utilisez la variable _[!UICONTROL Customers]_grille pour trouver n’importe quel compte client. Vous pouvez utiliser la variable [contrôles sur le lieu de travail](../getting-started/admin-workspace.md) pour filtrer la liste, modifiez la variable [mise en page des colonnes](../getting-started/admin-grid-controls.md), enregistrez les vues et exportez les données. La variable [Contrôle des actions](../getting-started/admin-actions-control.md) au-dessus de la grille peut être utilisé pour appliquer une opération à plusieurs enregistrements de client.
+Utilisez la grille _[!UICONTROL Customers]_pour trouver n’importe quel compte client. Vous pouvez utiliser les [ contrôles standard sur le lieu de travail](../getting-started/admin-workspace.md) pour filtrer la liste, modifier la [ disposition des colonnes](../getting-started/admin-grid-controls.md), enregistrer les vues et exporter les données. Le [contrôle d’actions](../getting-started/admin-actions-control.md) au-dessus de la grille peut être utilisé pour appliquer une opération à plusieurs enregistrements de client.
 
 ![Tous les clients](assets/customers-all-customers.png){width="700" zoomable="yes"}
 
-Voir [Mise à jour du profil client](update-account.md) pour plus d’informations sur les mises à jour manuelles d’un compte client.
+Voir [Mise à jour du profil client](update-account.md) pour plus d’informations sur la mise à jour manuelle d’un compte client.
 
 ## Actions du compte client
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
 1. Dans la première colonne de la grille, cochez la case de chaque enregistrement à mettre à jour.
 
@@ -29,43 +29,43 @@ Voir [Mise à jour du profil client](update-account.md) pour plus d’informatio
    >
    >Les actions suivantes peuvent être appliquées à un ou plusieurs enregistrements.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 ### S’abonner à la newsletter
 
-Dans les configurations multi-magasin et multi-site avec une [portée du compte client](../customers/customer-account-scope.md), un compte client peut être abonné à des newsletters dans plusieurs sites ou magasins. Si vous appliquez la variable _Abonner_ pour un compte client, elle active l’abonnement à la newsletter uniquement pour la vue de site/magasin par défaut.
+Dans les configurations multi-magasin et multi-site avec une [portée de compte client](../customers/customer-account-scope.md) globale, un compte client peut être abonné à des newsletters dans plusieurs sites ou magasins. Si vous appliquez l’action _S’abonner_ à un compte client, elle active l’abonnement à la newsletter uniquement pour la vue de site/magasin par défaut.
 
-* Définissez la variable **[!UICONTROL Actions]** contrôler à `Subscribe to newsletter`.
+* Définissez le contrôle **[!UICONTROL Actions]** sur `Subscribe to newsletter`.
 
-Voir [Gestion des abonnés](../merchandising-promotions/newsletter-subscribers.md) pour plus d’informations sur la gestion des abonnements à des newsletters pour un client.
+Pour plus d’informations sur la gestion des abonnements à des newsletters pour un client, voir [Gestion des abonnés](../merchandising-promotions/newsletter-subscribers.md) .
 
 ### Se désabonner de la newsletter
 
-Dans les configurations multi-magasin et multi-site avec une [portée du compte client](customer-account-scope.md), un compte client peut être abonné à des newsletters pour plusieurs sites/magasins. Si vous appliquez la variable _Désabonner_ pour un compte client, tous les abonnements actifs sont désabonnés.
+Dans les configurations multi-magasin et multi-site avec une [portée de compte client](customer-account-scope.md) globale, un compte client peut être abonné à des newsletters pour plusieurs sites/magasins. Si vous appliquez l’action _Unsubscribe_ à un compte client, tous les abonnements actifs sont désabonnés.
 
-1. Définissez la variable **[!UICONTROL Actions]** contrôler à `Unsubscribe to newsletter`.
+1. Définissez le contrôle **[!UICONTROL Actions]** sur `Unsubscribe to newsletter`.
 
-1. Lorsque vous y êtes invité, cliquez sur **OK**.
+1. Lorsque vous êtes invité à confirmer l’opération, cliquez sur **OK**.
 
 ### Attribution d’un groupe de clients
 
-1. Définissez la variable **[!UICONTROL Actions]** contrôler à `Assign a customer group`.
+1. Définissez le contrôle **[!UICONTROL Actions]** sur `Assign a customer group`.
 
 1. Sélectionnez le groupe de clients auquel tous les enregistrements de clients sélectionnés doivent être attribués.
 
-1. Lorsque vous y êtes invité, cliquez sur **[!UICONTROL OK]**.
+1. Lorsque vous êtes invité à confirmer l’opération, cliquez sur **[!UICONTROL OK]**.
 
 ### Suppression de comptes clients
 
 Les comptes clients supprimés ne peuvent pas être restaurés. Les informations sur l’activité et les transactions des clients sont conservées dans le système.
 
-1. Définissez la variable **[!UICONTROL Actions]** contrôler à `Delete`.
+1. Définissez le contrôle **[!UICONTROL Actions]** sur `Delete`.
 
-1. Lorsque vous y êtes invité, cliquez sur **[!UICONTROL OK]**.
+1. Lorsque vous êtes invité à confirmer l’opération, cliquez sur **[!UICONTROL OK]**.
 
 ## Exporter des comptes clients
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
 1. Dans le menu En-tête du tableau, cliquez sur **[!UICONTROL Export]** et sélectionnez le format souhaité :
 
@@ -108,7 +108,7 @@ L’instruction ci-dessus exporte tous les comptes clients. Si vous souhaitez ex
 | **[!UICONTROL Confirmed Email]** | Indique si un email de confirmation est requis. |
 | **[!UICONTROL Account Created In]** | Indique la vue de magasin à partir de laquelle le compte client a été créé. |
 | **[!UICONTROL Date of Birth]** | La date de naissance du client. Conformément aux bonnes pratiques actuelles en matière de sécurité et de confidentialité, gardez à l’esprit tout risque juridique et de sécurité potentiel associé au stockage de la date de naissance complète des clients (mois, jour, année) avec d’autres identifiants personnels. Il est recommandé de limiter le stockage des dates de naissance complètes des clients et de suggérer d’utiliser l’année de naissance du client comme alternative. |
-| **[!UICONTROL Tax / VAT Number]** | Le cas échéant, le numéro de la taxe ou [taxe sur la valeur ajoutée](../stores-purchase/vat.md) numéro attribué au client. <br/><br/> Ce champ est différent du champ Numéro de TVA. |
+| **[!UICONTROL Tax / VAT Number]** | Le cas échéant, le numéro de taxe ou le numéro de [taxe sur la valeur ajoutée](../stores-purchase/vat.md) attribué au client. <br/><br/> Ce champ n’est pas le même que le numéro de TVA. |
 | **[!UICONTROL Gender]** | Genre du client. |
 | **[!UICONTROL Action]** | Modifier : ouvre le compte de l’entreprise en mode d’édition. |
 
@@ -116,7 +116,7 @@ L’instruction ci-dessus exporte tous les comptes clients. Si vous souhaitez ex
 
 ### Colonnes supplémentaires
 
-Ces colonnes sont disponibles en modifiant la variable [mise en page des colonnes](../getting-started/admin-grid-controls.md) de la grille.
+Ces colonnes sont disponibles en modifiant la [mise en page des colonnes](../getting-started/admin-grid-controls.md) de la grille.
 
 | Colonne | Description |
 |--- |--- |
@@ -128,8 +128,8 @@ Ces colonnes sont disponibles en modifiant la variable [mise en page des colonne
 | **[!UICONTROL Billing Lastname]** | Nom dans l’adresse de facturation du client. |
 | **[!UICONTROL Billing Address]** | Adresse à laquelle les informations de facturation doivent être envoyées. |
 | **[!UICONTROL Shipping Address]** | Adresse à laquelle les commandes doivent être expédiées. |
-| **[!UICONTROL VAT Number]** | Numéro de taxe sur la valeur ajoutée associé à l’adresse du client. Pour [biens numériques](../stores-purchase/taxes.md) vendue dans l&#39;UE, la TVA est basée sur l&#39;adresse de facturation du client. <br/><br/> Ce champ n&#39;est pas le même que le champ Numéro de taxe/TVA. |
-| **[!UICONTROL Account Lock]** | Indique le statut du compte. Pour des raisons de sécurité, les comptes clients peuvent être [verrouillé](../customers/password-options.md) après trop de tentatives de connexion. Valeurs : `Locked` / `Unlocked` |
+| **[!UICONTROL VAT Number]** | Numéro de taxe sur la valeur ajoutée associé à l’adresse du client. Pour les [biens numériques](../stores-purchase/taxes.md) vendus dans l’UE, la TVA est basée sur l’adresse de facturation du client. <br/><br/> Ce champ n’est pas le même que le champ Numéro de taxe/TVA. |
+| **[!UICONTROL Account Lock]** | Indique le statut du compte. Par mesure de sécurité, les comptes clients peuvent être [verrouillés](../customers/password-options.md) après trop de tentatives de connexion. Valeurs : `Locked` / `Unlocked` |
 | **[!UICONTROL Status]** | État actuel de l’utilisateur. Options : `Active` / `Inactive` |
 | **[!UICONTROL Customer Type]** | Classification du client. Options : `Individual user` / `Company admin` / `Company user` |
 | **[!UICONTROL Sales Representative]** | Le représentant commercial qui est désigné comme point de contact pour un compte de société et reçoit tous les messages électroniques automatisés liés à la société. |

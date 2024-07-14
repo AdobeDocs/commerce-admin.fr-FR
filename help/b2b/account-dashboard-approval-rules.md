@@ -6,7 +6,7 @@ feature: B2B, Companies, Configuration
 role: Admin
 source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Selon le rôle et les autorisations de l’entreprise, les utilisateurs peuvent 
 
 >[!IMPORTANT]
 >
->La configuration d’une règle d’approbation nécessite un [structure de l&#39;entreprise](account-company-structure.md) afin de définir la validation par le responsable du client acheteur.
+>La configuration des règles d’approbation nécessite une [structure d’entreprise](account-company-structure.md) définie afin de spécifier l’approbation par le responsable du client acheteur.
 
 ## Modes de paiement
 
@@ -36,15 +36,15 @@ Les flux d’approbation de commande prennent en charge les modes de paiement en
 
 ## Configuration des règles d’approbation
 
-Avec la variable [autorisations pour leur rôle](account-company-roles-permissions.md), les clients B2B peuvent configurer des règles d’approbation pour appliquer les stratégies de l’entreprise en cliquant sur **[!UICONTROL Approval Rules]** dans le panneau de gauche pour leur compte client.
+Avec les [autorisations requises pour leur rôle](account-company-roles-permissions.md), les clients B2B peuvent configurer des règles d’approbation pour appliquer les stratégies de l’entreprise en cliquant sur **[!UICONTROL Approval Rules]** dans le panneau de gauche pour leur compte client.
 
-![Règles de validation de l’entreprise](./assets/approval-rules.png){width="700" zoomable="yes"}
+![Règles d’approbation de l’entreprise](./assets/approval-rules.png){width="700" zoomable="yes"}
 
 Pour créer une règle d’approbation, un client effectue les étapes suivantes :
 
-1. Clics **[!UICONTROL Add New Rule]** pour créer une règle.
+1. Cliquez sur **[!UICONTROL Add New Rule]** pour créer une règle.
 
-1. Si nécessaire, la règle est modifiée à partir de **[!UICONTROL Enabled]** to **[!UICONTROL Disabled]**.
+1. Si nécessaire, la règle passe de **[!UICONTROL Enabled]** à **[!UICONTROL Disabled]**.
 
    La règle est activée comme valeur par défaut, mais un client peut créer la règle à l’aide d’un paramètre désactivé, puis l’activer ultérieurement lorsqu’il est prêt à l’appliquer.
 
@@ -54,21 +54,21 @@ Pour créer une règle d’approbation, un client effectue les étapes suivantes
 
 1. Pour **[!UICONTROL Description]**, saisit une explication plus longue de la règle.
 
-1. Pour **[!UICONTROL Applies to]**, sélectionne un ou plusieurs rôles de société utilisés pour appliquer la règle.
+1. Pour **[!UICONTROL Applies to]**, choisissez un ou plusieurs rôles de société utilisés pour appliquer la règle.
 
-1. Choisit la variable **[!UICONTROL Rule Type]** et définit la règle.
+1. Choisit le **[!UICONTROL Rule Type]** et définit la règle.
 
    Les sections suivantes fournissent une explication détaillée et un exemple pour chaque type de règle.
 
-   ![Créer une nouvelle règle de validation](./assets/approval-rules-create.png){width="700" zoomable="yes"}
+   ![Création d&#39;une règle d&#39;approbation](./assets/approval-rules-create.png){width="700" zoomable="yes"}
 
-1. Pour **[!UICONTROL Requires approval from]**, sélectionne un ou plusieurs approbateurs requis en fonction du type de validation.
+1. Pour **[!UICONTROL Requires approval from]**, choisissez un ou plusieurs approbateurs requis en fonction du type de validation.
 
    >[!NOTE]
    >
    >* Lors de l’attribution d’un rôle en tant qu’approbateur, assurez-vous qu’au moins un utilisateur possède ce rôle.
-   >* Si plusieurs utilisateurs possèdent le même rôle d’approbateur, le créateur du bon de commande ne peut pas l’approuver. Dans ce cas, une approbation manuelle est requise par tout autre utilisateur disposant de ce rôle d’approbateur. Cependant, si `Auto-approve POs created within this role` est définie dans la variable [Autorisations de rôle](account-company-roles-permissions.md), le bon de commande est automatiquement validé.
-   >* Si un seul utilisateur dispose du rôle d’approbateur et que celui-ci est le créateur, le bon de commande est toujours approuvé automatiquement ; la variable `Auto-approve POs created within this role` le paramètre d’autorisation est ignoré.
+   >* Si plusieurs utilisateurs possèdent le même rôle d’approbateur, le créateur du bon de commande ne peut pas l’approuver. Dans ce cas, une approbation manuelle est requise par tout autre utilisateur disposant de ce rôle d’approbateur. Cependant, si l’option `Auto-approve POs created within this role` est définie dans les [autorisations de rôle](account-company-roles-permissions.md), le bon de commande est automatiquement approuvé.
+   >* Si un seul utilisateur dispose du rôle d’approbateur et que cet utilisateur est le créateur, le bon de commande est toujours approuvé automatiquement ; le paramètre d’autorisation `Auto-approve POs created within this role` est ignoré.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -76,7 +76,7 @@ Pour créer une règle d’approbation, un client effectue les étapes suivantes
 
 Ce type de règle est utilisé pour exiger une validation du bon de commande en fonction du total de la commande, y compris la taxe.
 
-1. Choisit un **[!UICONTROL Order Total amount]** option :
+1. Choisissez une option **[!UICONTROL Order Total amount]** :
 
    * `is more than`
    * `is less than`
@@ -85,13 +85,13 @@ Ce type de règle est utilisé pour exiger une validation du bon de commande en 
 
 1. Sélection du type de devise et saisie du montant.
 
-![Règle d’approbation du total des commandes](./assets/approval-rules-order-total.png){width="600" zoomable="yes"}
+![Règle d’approbation totale de la commande](./assets/approval-rules-order-total.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Shipping Cost]
 
 Ce type de règle est utilisé pour exiger une validation de bon de commande en fonction des frais d’expédition, dont de nombreuses entreprises ont besoin.
 
-1. Définit la variable **[!UICONTROL Shipping cost value]**:
+1. Définit le **[!UICONTROL Shipping cost value]** :
 
    * `is more than`
    * `is less than`
@@ -100,7 +100,7 @@ Ce type de règle est utilisé pour exiger une validation de bon de commande en 
 
 1. Définit le montant de livraison souhaité.
 
-![Règle d’approbation des coûts de livraison](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
+![Règle d’approbation des frais de livraison](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Number of SKUs]
 
@@ -111,7 +111,7 @@ Ce type de règle est utilisé pour exiger une approbation de bon de commande en
 
 Cet exemple spécifie cinq éléments, mais deux SKU distincts.
 
-1. Définit la variable **[!UICONTROL Number of SKUs]** value:
+1. Définit la valeur **[!UICONTROL Number of SKUs]** :
 
    * `is more than`
    * `is less than`
@@ -132,7 +132,7 @@ Pour modifier une règle de validation existante, un client peut procéder comme
 
 1. Clics **[!UICONTROL Edit]**.
 
-1. Effectue toutes les modifications et tous les clics nécessaires **[!UICONTROL Save]**.
+1. Effectue toutes les modifications nécessaires et clique sur **[!UICONTROL Save]**.
 
 ## Supprimer les règles de validation
 

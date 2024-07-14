@@ -16,35 +16,35 @@ Les informations de base du compte client incluent votre nom, votre adresse éle
 
 ![Informations du compte sur le storefront](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
 
-Dans la barre latérale de votre compte, le client peut choisir **[!UICONTROL Account Information]** et effectuez l’une des opérations suivantes pour mettre à jour les informations de leur compte.
+Dans la barre latérale de votre compte, le client peut choisir **[!UICONTROL Account Information]** et effectuer l’une des opérations suivantes pour mettre à jour les informations de son compte.
 
 ## Mettre à jour le nom du compte
 
-Pour mettre à jour le nom du compte, le client modifie les valeurs de la variable **[!UICONTROL First Name]** et **[!UICONTROL Last Name]** selon les besoins.
+Pour mettre à jour le nom du compte, le client modifie les valeurs des champs **[!UICONTROL First Name]** et **[!UICONTROL Last Name]** selon les besoins.
 
 >[!INFO]
 >
->Des champs supplémentaires s’affichent dans le nom si la variable [configuration client](../configuration-reference/customers/customer-configuration.md) comprend un préfixe, un initial et un suffixe.
+>D’autres champs s’affichent dans le nom si la [configuration du client](../configuration-reference/customers/customer-configuration.md) comprend un préfixe, un initial et un suffixe.
 
 ## Modifier l’adresse électronique
 
-1. Le client sélectionne la variable **[!UICONTROL Change Email]** .
+1. Le client sélectionne la case à cocher **[!UICONTROL Change Email]**.
 
-1. Entre dans leur nouvelle **[!UICONTROL Email]** adresse.
+1. Entrez leur nouvelle adresse **[!UICONTROL Email]**.
 
-1. Entre dans **[!UICONTROL Current Password]**.
+1. Entrez leur **[!UICONTROL Current Password]**.
 
-   ![Modifier l’adresse électronique](assets/account-dashboard-account-information-change-email-address.png){width="700" zoomable="yes"}
+   ![Modifier l’adresse de courriel](assets/account-dashboard-account-information-change-email-address.png){width="700" zoomable="yes"}
 
 1. Clics **[!UICONTROL Save]**.
 
 ## Modifier le mot de passe
 
-1. Le client sélectionne la variable **[!UICONTROL Change Password]** .
+1. Le client sélectionne la case à cocher **[!UICONTROL Change Password]**.
 
-1. Entre dans **[!UICONTROL Current Password]**.
+1. Entrez leur **[!UICONTROL Current Password]**.
 
-1. Entre dans **[!UICONTROL New Password]**.
+1. Entrez leur **[!UICONTROL New Password]**.
 
    >[!INFO]
    >

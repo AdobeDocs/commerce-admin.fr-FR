@@ -5,8 +5,8 @@ exl-id: 63114305-e695-445b-91cd-9e0fb2729ec4
 feature: Inventory, Configuration
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 0%
+source-wordcount: '351'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Vous pouvez utiliser une combinaison de paramètres de configuration pour contrôler les messages de disponibilité du stock sur les pages de produits et dans les listes de produits sur les pages de catalogue.
 
-![Produit groupé avec message &quot;En rupture de stock&quot;](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
+![Produit groupé avec message &quot;en rupture de stock&quot;](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
 
 ## Messages du stock de la page de produit
 
@@ -68,7 +68,7 @@ Lorsque le stock n’est pas géré pour un produit, cette combinaison de config
 
 Les options d’affichage suivantes sont possibles pour les listes de résultats de recherche et de catégorie, selon la disponibilité du produit et les paramètres de configuration.
 
-![Message d’état en rupture de stock sur la page de catégorie](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
+![ Message d’état en rupture de stock sur la page de catégorie ](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
 
 ### Exemple 1 : afficher le produit avec le message &quot;En rupture de stock&quot;
 

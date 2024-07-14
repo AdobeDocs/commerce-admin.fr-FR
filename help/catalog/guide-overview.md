@@ -13,14 +13,14 @@ ht-degree: 0%
 
 # Guide de gestion des catalogues Adobe Commerce
 
-Ce guide est destiné aux responsables de stock et aux marchandiseurs de produits travaillant dans Adobe Commerce et Magento Open Source. Il fournit des informations détaillées sur les fonctionnalités du catalogue de produits, y compris la création des structures de navigation pour un catalogue. Cela suppose une compréhension de base du coeur [!DNL Commerce] configuration et .
+Ce guide est destiné aux responsables de stock et aux marchandiseurs de produits travaillant dans Adobe Commerce et Magento Open Source. Il fournit des informations détaillées sur les fonctionnalités du catalogue de produits, y compris la création des structures de navigation pour un catalogue. Elle requiert une compréhension de base de la configuration et des fonctionnalités de base de [!DNL Commerce].
 
 Ce guide couvre :
 
 | Objet | Description |
 | ------- | ----------- |
 | [Introduction](introduction.md) | Présentation de l’utilisation des fonctionnalités de gestion des catalogues pour indiquer comment vous souhaitez que les clients trouvent des produits dans votre boutique. |
-| [Menu Catalogue](catalog-menu.md) | Utilisez la variable [!UICONTROL Catalog] pour accéder à plusieurs fonctionnalités de gestion des catalogues, des catégories et des produits de votre boutique. |
+| [Menu catalogue](catalog-menu.md) | Utilisez le menu [!UICONTROL Catalog] pour accéder à plusieurs fonctionnalités de gestion des catalogues, des catégories et des produits pour votre boutique. |
 | [URL de catalogue et de produit](catalog-urls.md) | Examinez les types d’URL de base et la manière dont vous pouvez concevoir les URL afin d’optimiser l’optimisation du moteur de recherche. |
 | [Navigation dans le catalogue](navigation.md) | Utilisez les outils de navigation pour définir la manière dont vos acheteurs passent d’une page à l’autre dans votre boutique. |
 | [Recherche catalogue](search.md) | Passez en revue les outils que les clients peuvent utiliser pour localiser des produits sur le storefront et configurez l’expérience de recherche en fonction de votre catalogue de produits. |
@@ -32,7 +32,7 @@ Ce guide couvre :
 
 >[!TIP]
 >
->Adobe Commerce B2B vous permet de gérer des catalogues partagés sécurisés avec des tarifs personnalisés pour différentes entreprises. Outre le catalogue de produits standard, principal, il permet aux clients d’accéder à deux types de catalogues partagés avec des structures de tarification différentes. Pour plus d’informations sur la fonctionnalité de catalogue partagé, voir [Guide de l’utilisateur d’Adobe Commerce B2B](../b2b/catalog-shared.md).
+>Adobe Commerce B2B vous permet de gérer des catalogues partagés sécurisés avec des tarifs personnalisés pour différentes entreprises. Outre le catalogue de produits standard, principal, il permet aux clients d’accéder à deux types de catalogues partagés avec des structures de tarification différentes. Pour plus d’informations sur la fonctionnalité de catalogue partagé, consultez le [Guide de l’utilisateur d’Adobe Commerce B2B](../b2b/catalog-shared.md).
 
 ## Documentation disponible
 

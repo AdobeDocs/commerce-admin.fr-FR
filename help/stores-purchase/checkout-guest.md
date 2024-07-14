@@ -14,26 +14,26 @@ ht-degree: 0%
 
 Votre boutique peut être configurée pour exiger des acheteurs qu’ils ouvrent un compte avant d’effectuer un achat. Le paramètre par défaut permet aux invités d’effectuer des achats, avec la possibilité de s’inscrire à un compte une fois le processus de passage en caisse terminé.
 
-![Le magasin Luma affiche l’option Exclure en tant qu’invité](./assets/storefront-checkout-as-guest.png){width="600" zoomable="yes"}
+![Le magasin Luma affiche l’option Check Out as Guest](./assets/storefront-checkout-as-guest.png){width="600" zoomable="yes"}
 
 **_Pour désactiver le passage en caisse des invités :_**
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Checkout]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Checkout Options]** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Checkout Options]** .
 
    ![Options de passage en caisse développées sur la page de configuration](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
 Pour une description détaillée de chacun de ces paramètres de configuration, voir [Options de passage en caisse](../configuration-reference/sales/checkout.md#checkout-options) dans le _Guide de référence de configuration_.
 
-1. Si le paramètre est destiné à une vue de magasin spécifique, [choix de la vue magasin](../configuration-reference/scope-change.md#set-the-scope) où la configuration s’applique.
+1. Si le paramètre est défini pour une vue de magasin spécifique, [choisissez la vue de magasin](../configuration-reference/scope-change.md#set-the-scope) où la configuration s’applique.
 
-   Lorsque vous y êtes invité, cliquez sur **[!UICONTROL OK]** pour continuer.
+   Lorsque vous y êtes invité, cliquez sur **[!UICONTROL OK]** pour continuer.
 
-1. Définir **[!UICONTROL Allow Guest Checkout]** to `No`.
+1. Définissez **[!UICONTROL Allow Guest Checkout]** sur `No`.
 
-   Si nécessaire, effacez le **[!UICONTROL Use system value]** pour activer les modifications apportées à ce paramètre.
+   Si nécessaire, décochez la case **[!UICONTROL Use system value]** pour activer les modifications apportées à ce paramètre.
 
 1. Cliquez sur **[!UICONTROL Save Config]**.

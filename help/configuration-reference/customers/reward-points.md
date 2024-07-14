@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[Taux de change de récompense](../../merchandising-promotions/reward-exchange-rates.md) une configuration est requise pour le rachat des points de récompense par les clients et les administrateurs lors du passage en caisse.
+>La configuration [Taux d’Exchange de récompense](../../merchandising-promotions/reward-exchange-rates.md) est requise pour le rachat de points de récompense par les clients et les administrateurs lors du passage en caisse.
 
 ## [!UICONTROL Reward Points]
 
@@ -43,20 +43,20 @@ ht-degree: 0%
 
 ## [!UICONTROL Actions for Acquiring Reward Points by Customers]
 
-![Actions d’acquisition de points de récompense par les clients](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
+![ Actions d’acquisition de points de récompense par les clients](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
 
 <!-- [Actions for Acquiring Reward Points by Customers](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Purchase] | Site Web | Détermine si des points de récompense sont gagnés pour les achats en fonction de la configuration [Taux de change de récompense](../../merchandising-promotions/reward-exchange-rates.md). Options : `Yes` / `No` |
+| [!UICONTROL Purchase] | Site Web | Détermine si des points de récompense sont gagnés pour les achats en fonction des [Taux d&#39;Exchange de récompense](../../merchandising-promotions/reward-exchange-rates.md) configurés. Options : `Yes` / `No` |
 | [!UICONTROL Registration] | Site Web | Indique le nombre de points gagnés pour l’ouverture d’un compte client. |
 | [!UICONTROL Newsletter Signup] | Site Web | Indique le nombre de points gagnés par les clients enregistrés qui s’abonnent à une newsletter. (Les points ne sont pas disponibles pour les inscriptions des invités.) Si un client se désabonne, puis s’abonne à nouveau, les points ne sont pas gagnés pour le second abonnement. |
 | [!UICONTROL Converting Invitation to Customer] | Site Web | Indique le nombre de points gagnés par un client qui envoie une invitation, lorsque le destinataire ouvre alors un compte client. |
 | [!UICONTROL Invitation to Customer Conversions Quantity Limit] | Site Web | Limite le nombre de conversions d’invitation pouvant être utilisées pour gagner des points pour le client qui envoie l’invitation. Laissez vide pour aucune limite. |
 | [!UICONTROL Converting Invitation to Order] | Site Web | Indique le nombre de points gagnés par un client qui envoie une invitation lorsque le destinataire passe une commande initiale. |
 | [!UICONTROL Invitation to Order Conversions Quantity Limit] | Site Web | Limite le nombre de conversions de commande pouvant gagner des points pour la personne qui envoie l’invitation. S’il est vide, il n’y a pas de limite maximale. |
-| [!UICONTROL Invitation Conversion to Order Reward] | Site Web | Indique la fréquence à laquelle un client peut gagner des points de récompense lorsqu’il effectue des achats. Options : <br/>**`Each`**- Le client reçoit des points de récompense pour chaque commande facturée passée par l&#39;invité. Les points de récompense sont donnés en fonction des taux de change définis pour la combinaison requise d’un site web et d’un groupe de clients.<br/>**`First`** - Le client ne reçoit des points de récompense que pour la première commande facturée passée par les invités. Si plusieurs invités s’enregistrent et passent une commande, seul le montant de la première commande est converti en points de récompense et attribué au client. |
+| [!UICONTROL Invitation Conversion to Order Reward] | Site Web | Indique la fréquence à laquelle un client peut gagner des points de récompense lorsqu’il effectue des achats. Options : <br/>**`Each`**- Le client reçoit des points de récompense pour chaque commande facturée passée par l’invité. Les points de récompense sont donnés en fonction des taux d&#39;exchange définis pour la combinaison requise d&#39;un site web et d&#39;un groupe de clients.<br/>**`First`** - Le client ne reçoit des points de récompense que pour la première commande facturée passée par les invités. Si plusieurs invités s’enregistrent et passent une commande, seul le montant de la première commande est converti en points de récompense et attribué au client. |
 | [!UICONTROL Review Submission] | Site Web | Détermine le nombre de points gagnés par un client qui envoie une révision approuvée pour publication. |
 | [!UICONTROL Rewarded Reviews Submission Quantity Limit] | Site Web | Limite le nombre de révisions qui peuvent être utilisées pour gagner des points par client. Laissez vide pour aucune limite. |
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Email Notification Settings]
 
-![Paramètres de notification par e-mail](./assets/reward-points-email-notification-settings.png)<!-- zoom -->
+![Paramètres de notification électronique](./assets/reward-points-email-notification-settings.png)<!-- zoom -->
 
 <!-- [Email Notification Settings](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
 

@@ -1,20 +1,20 @@
 ---
 title: Éléments - Diviseur
-description: Découvrez le type de contenu Diviseur utilisé pour ajouter une règle comme saut visuel entre les sections de contenu dans la variable [!DNL Page Builder] scène.
+description: Découvrez le type de contenu Diviseur, utilisé pour ajouter une règle comme saut visuel entre les sections de contenu dans l’étape [!DNL Page Builder] .
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
 # Éléments - Diviseur
 
-Utilisez la variable _Diviseur_ type de contenu pour ajouter une règle comme saut visuel entre les sections de contenu dans [[!DNL Page Builder] étape](workspace.md#stage). Vous pouvez spécifier la couleur, l’épaisseur et la largeur de la ligne du séparateur. Vous pouvez également contrôler l’alignement, définir les marges, la marge intérieure et le format de la bordure du conteneur. Par défaut, le séparateur est une règle libre qui étend la largeur totale du conteneur, avec une marge intérieure suffisante.
+Utilisez le type de contenu _Diviseur_ pour ajouter une règle comme saut visuel entre les sections de contenu dans l’ [[!DNL Page Builder] étape](workspace.md#stage). Vous pouvez spécifier la couleur, l’épaisseur et la largeur de la ligne du séparateur. Vous pouvez également contrôler l’alignement, définir les marges, la marge intérieure et le format de la bordure du conteneur. Par défaut, le séparateur est une règle libre qui étend la largeur totale du conteneur, avec une marge intérieure suffisante.
 
-![Séparateur par défaut dans un conteneur sans bordure](./assets/pb-elements-divider-default.png){width="500" zoomable="yes"}
+![Diviseur par défaut dans un conteneur sans bordure](./assets/pb-elements-divider-default.png){width="500" zoomable="yes"}
 
 Bien que la plupart des conteneurs de séparateurs soient invisibles, l’exemple suivant affiche le conteneur avec une bordure en tirets rouges afin que vous puissiez voir la relation entre le séparateur, la marge intérieure et le conteneur. Vous pouvez ajuster la marge intérieure en haut et en bas du séparateur pour contrôler l’espacement entre les éléments.
 
@@ -32,7 +32,7 @@ Bien que la plupart des conteneurs de séparateurs soient invisibles, l’exempl
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le conteneur du séparateur. |
 | Afficher | ![Icône Afficher](./assets/pb-icon-show.png){width="25"} | Affiche le conteneur de séparateurs masqué. |
 | Dupliquer | ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="25"} | Effectue une copie du conteneur du séparateur. |
-| Supprimer | ![Icône Supprimer](./assets/pb-icon-remove.png){width="25"} | Supprime le conteneur du séparateur et son contenu de la scène. |
+| Supprimer | ![Supprimer l’icône](./assets/pb-icon-remove.png){width="25"} | Supprime le conteneur du séparateur et son contenu de la scène. |
 
 {style="table-layout:auto"}
 
@@ -40,42 +40,42 @@ Bien que la plupart des conteneurs de séparateurs soient invisibles, l’exempl
 
 ## Ajout d’un séparateur
 
-1. Dans le [!DNL Page Builder] panneau, développer **[!UICONTROL Elements]** et faites glisser un **[!UICONTROL Divider]** d’un espace réservé à une ligne, une colonne ou un ensemble d’onglets sur l’étape.
+1. Dans le panneau [!DNL Page Builder], développez **[!UICONTROL Elements]** et faites glisser un espace réservé **[!UICONTROL Divider]** sur une ligne, une colonne ou un ensemble d’onglets sur la scène.
 
    Utilisez la ligne directrice rouge à titre de référence lorsque vous positionnez le séparateur avant ou après un autre conteneur de contenu sur l’étape.
 
-   ![Faire glisser un séparateur sur la scène](./assets/pb-elements-divider-drag.png){width="600" zoomable="yes"}
+   ![Faire glisser un séparateur sur l’étape](./assets/pb-elements-divider-drag.png){width="600" zoomable="yes"}
 
    Dans l’exemple suivant, le séparateur marque le début d’une nouvelle section de texte.
 
-   ![Séparation des sections de texte](./assets/pb-elements-dividers-multiple-text-row.png){width="500" zoomable="yes"}
+   ![Diviseur séparant les sections de texte](./assets/pb-elements-dividers-multiple-text-row.png){width="500" zoomable="yes"}
 
 1. Pour spécifier les paramètres du nouveau séparateur, procédez comme suit.
 
 ## Modification des paramètres du séparateur
 
-1. Passez la souris sur le conteneur du séparateur pour afficher la boîte à outils et sélectionnez l’option _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
+1. Pointez sur le conteneur du séparateur pour afficher la boîte à outils et sélectionnez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-   ![Boîte à outils du séparateur](./assets/pb-elements-divider-toolbox.png){width="500" zoomable="yes"}
+   ![Divider toolbox](./assets/pb-elements-divider-toolbox.png){width="500" zoomable="yes"}
 
-1. Modification du séparateur **[!UICONTROL Line Color]** à l’aide de l’une des méthodes suivantes :
+1. Modifiez le séparateur **[!UICONTROL Line Color]** à l’aide de l’une des méthodes suivantes :
 
-   - Saisissez un [Nom de la couleur du HTML][1]. Par exemple, `Teal`.
+   - Saisissez un [nom de couleur HTML][1] valide. Par exemple, `Teal`.
    - Saisissez la valeur de couleur hexadécimale. Par exemple, `#008080`.
 
-   Lorsque vous avez terminé, cliquez sur **[!UICONTROL Apply]**.
+   Une fois l’opération terminée, cliquez sur **[!UICONTROL Apply]**.
 
    ![Définition de la couleur de la ligne](./assets/pb-elements-divider-settings-line-color.png){width="600" zoomable="yes"}
 
 1. Saisissez le **[!UICONTROL Line Thickness]** en pixels.
 
-1. Pour indiquer l’unité de mesure, saisissez la valeur **[!UICONTROL Line Width]** suivie de soit `px` ou `%`.
+1. Pour indiquer l’unité de mesure, saisissez la valeur **[!UICONTROL Line Width]** suivie de `px` ou `%`.
 
    ![Définition de la couleur, de l’épaisseur et de la largeur de la ligne](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Mettez à jour le _[!UICONTROL Advanced]_selon les besoins.
+1. Mettez à jour les paramètres _[!UICONTROL Advanced]_si nécessaire.
 
-   - Pour contrôler le positionnement du séparateur dans le conteneur parent, sélectionnez la variable **[!UICONTROL Alignment]**:
+   - Pour contrôler le positionnement du séparateur dans le conteneur parent, choisissez la propriété **[!UICONTROL Alignment]** :
 
      | Option | Description |
      | ------ | ----------- |
@@ -88,9 +88,9 @@ Bien que la plupart des conteneurs de séparateurs soient invisibles, l’exempl
 
      Dans l’exemple suivant, les options sont définies pour utiliser un alignement central pour le séparateur.
 
-     ![Diviseur avec alignement central](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
+     ![Diviseur avec un alignement central](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
 
-   - Définissez la variable **[!UICONTROL Border]** style appliqué aux quatre côtés du conteneur du séparateur :
+   - Définissez le style **[!UICONTROL Border]** appliqué aux quatre côtés du conteneur du séparateur :
 
      | Option | Description |
      | ------ | ----------- |
@@ -107,7 +107,7 @@ Bien que la plupart des conteneurs de séparateurs soient invisibles, l’exempl
 
      {style="table-layout:auto"}
 
-   - Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage des bordures :
+   - Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage de la bordure :
 
      | Option | Description |
      | ------ |------------ |
@@ -117,11 +117,11 @@ Bien que la plupart des conteneurs de séparateurs soient invisibles, l’exempl
 
      {style="table-layout:auto"}
 
-   - (Facultatif) Indiquez les noms des **[!UICONTROL CSS classes]** de la feuille de style actuelle à appliquer au conteneur.
+   - (Facultatif) Indiquez les noms de **[!UICONTROL CSS classes]** dans la feuille de style actuelle à appliquer au conteneur.
 
      Séparez plusieurs noms de classe par un espace.
 
-   - Saisissez des valeurs, en pixels, pour la variable **[!UICONTROL Margins and Padding]** pour déterminer les marges extérieures et la marge intérieure du conteneur du séparateur.
+   - Saisissez des valeurs, en pixels, pour le **[!UICONTROL Margins and Padding]** afin de déterminer les marges extérieures et la marge intérieure du conteneur du séparateur.
 
      Saisissez les valeurs correspondantes dans le diagramme.
 
@@ -132,7 +132,7 @@ Bien que la plupart des conteneurs de séparateurs soient invisibles, l’exempl
 
      {style="table-layout:auto"}
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
    ![Diviseur centré sur une ligne](./assets/pb-elements-divider-settings-2px-centered.png){width="500" zoomable="yes"}
 
@@ -140,13 +140,13 @@ Bien que la plupart des conteneurs de séparateurs soient invisibles, l’exempl
 
 Pour un séparateur formaté avec des paramètres spécifiques, il est plus efficace de créer un doublon plutôt que de recommencer avec un nouvel espace réservé.
 
-1. Passez la souris sur le conteneur du séparateur pour afficher la boîte à outils et sélectionnez l’option _Dupliquer_ ( ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="20"} ).
+1. Pointez sur le conteneur du séparateur pour afficher la boîte à outils et sélectionnez l’icône _Dupliquer_ ( ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="20"} ).
 
    Le conteneur de séparateurs en double apparaît juste en dessous de l’original.
 
    ![Diviseur dupliqué](./assets/pb-elements-divider-duplicate.png){width="500" zoomable="yes"}
 
-1. Passez la souris sur le nouveau conteneur de séparateurs pour afficher la boîte à outils et sélectionnez l’option _Déplacer_ ( ![Icône Déplacer](./assets/pb-icon-move.png){width="20"} ).
+1. Pointez sur le nouveau conteneur de séparateurs pour afficher la boîte à outils et sélectionnez l’icône _Déplacer_ ( ![Icône Déplacer](./assets/pb-icon-move.png){width="20"} ).
 
    ![Déplacement d’un séparateur](./assets/pb-elements-divider-move.png){width="500" zoomable="yes"}
 

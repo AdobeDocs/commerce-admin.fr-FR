@@ -12,25 +12,25 @@ ht-degree: 0%
 
 # Ressources de thème
 
-La variable _fichiers statiques_ sont la collection de ressources, telles que les fichiers CSS, les polices, les images et JavaScript, qui est utilisée par un thème. L’emplacement des fichiers statiques est spécifié dans la variable [URL de base](../stores-purchase/store-urls.md) configuration. Vous pouvez ajouter une signature numérique à l’URL de chaque fichier statique afin de permettre aux navigateurs de détecter si une version plus récente est disponible. La version la plus récente du fichier est utilisée si la signature diffère de ce qui est stocké dans le cache du navigateur.
+Les _fichiers statiques_ sont la collection de ressources, telles que les fichiers CSS, les polices, les images et JavaScript, qui est utilisée par un thème. L’emplacement des fichiers statiques est spécifié dans la configuration [URL de base](../stores-purchase/store-urls.md). Vous pouvez ajouter une signature numérique à l’URL de chaque fichier statique afin de permettre aux navigateurs de détecter si une version plus récente est disponible. La version la plus récente du fichier est utilisée si la signature diffère de ce qui est stocké dans le cache du navigateur.
 
-Pour une installation standard, les ressources associées à un thème sont organisées dans la variable `web` à l’emplacement suivant sous la propriété [!DNL Commerce] root.
+Pour une installation standard, les ressources associées à un thème sont organisées dans le dossier `web` à l’emplacement suivant sous la racine [!DNL Commerce].
 
 `[commerce_root]/app/design/frontend/Magento/[theme_name]/web`
 
 ## Ajout d’une signature numérique aux URL de fichier statique
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Advanced]** et choisissez **[!UICONTROL Developer]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Static Files Settings]** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Static Files Settings]** .
 
    ![Paramètres des fichiers statiques](./assets/developer-static-files-settings.png){width="500" zoomable="yes"}
 
-1. Définir **[!UICONTROL Sign Static Files]** to `Yes`.
+1. Définissez **[!UICONTROL Sign Static Files]** sur `Yes`.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 | Type de fichier | Description |
 |--- |--- |
@@ -47,21 +47,21 @@ Pour optimiser votre site et réduire le temps de chargement des pages, vous pou
 
 >[!NOTE]
 >
->Les fichiers CSS peuvent être fusionnés à partir de _Administration_ uniquement lors de l’utilisation de [mode développeur](../systems/developer-tools.md#operation-modes).
+>Les fichiers CSS peuvent être fusionnés à partir du panneau _Admin_ uniquement lorsque vous travaillez en [mode développeur](../systems/developer-tools.md#operation-modes).
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de gauche, **[!UICONTROL Advanced]** et choisissez **[!UICONTROL Developer]**.
+1. Dans le panneau de gauche, **[!UICONTROL Advanced]** et sélectionnez **[!UICONTROL Developer]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL CSS Settings]** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL CSS Settings]** .
 
    ![Paramètres CSS](./assets/developer-css-settings.png){width="500" zoomable="yes"}
 
-   Pour obtenir une description détaillée de ces options de configuration, voir [Paramètres CSS](../configuration-reference/advanced/developer.md#css-settings) dans le _Référence de configuration_.
+   Pour obtenir des descriptions détaillées de ces options de configuration, voir [Paramètres CSS](../configuration-reference/advanced/developer.md#css-settings) dans la _référence de configuration_.
 
-1. Définir **[!UICONTROL Merge CSS Files]** to `Yes`.
+1. Définissez **[!UICONTROL Merge CSS Files]** sur `Yes`.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 ## Fusionner les fichiers JavaScript
 
@@ -69,18 +69,18 @@ Plusieurs fichiers JavaScript peuvent être fusionnés en un seul fichier conden
 
 >[!NOTE]
 >
->Les fichiers JavaScript peuvent être fusionnés à partir du _Administration_ uniquement lors de l’utilisation de [Mode Développeur](../systems/developer-tools.md#operation-modes).
+>Les fichiers JavaScript peuvent être fusionnés à partir du panneau _Admin_ uniquement lorsque vous travaillez en [mode Développeur](../systems/developer-tools.md#operation-modes).
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de gauche, **[!UICONTROL Advanced]** et choisissez **[!UICONTROL Developer]**.
+1. Dans le panneau de gauche, **[!UICONTROL Advanced]** et sélectionnez **[!UICONTROL Developer]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL JavaScript Settings]** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL JavaScript Settings]** .
 
    ![Paramètres JavaScript](./assets/developer-javascript-settings.png){width="600" zoomable="yes"}
 
-   Pour obtenir une description détaillée de ces options de configuration, voir [Paramètres JavaScript](../configuration-reference/advanced/developer.md#javascript-settings) dans le _Référence de configuration_.
+   Pour obtenir des descriptions détaillées sur ces options de configuration, voir [Paramètres JavaScript](../configuration-reference/advanced/developer.md#javascript-settings) dans la _référence sur la configuration_.
 
-1. Définir **[!UICONTROL Merge JavaScript Files]** to `Yes`.
+1. Définissez **[!UICONTROL Merge JavaScript Files]** sur `Yes`.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.

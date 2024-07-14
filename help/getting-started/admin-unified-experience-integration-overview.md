@@ -18,29 +18,29 @@ ht-degree: 0%
 
 Intégrez les projets Adobe Commerce à Experience Cloud en activant l’extension Admin Unified Experience. Lorsque l’intégration est active, les administrateurs peuvent accéder aux projets Commerce à partir de Adobe Experience Cloud.
 
-![Accès à Commerce à partir de la page d’accueil de l’Experience Cloud](./assets/admin-uex-home-page.png){width="700" zoomable="yes"}
+![Accéder à Commerce à partir de la page d’accueil de l’Experience Cloud](./assets/admin-uex-home-page.png){width="700" zoomable="yes"}
 
 ## Affichage des projets Commerce disponibles
 
-Les administrateurs peuvent afficher les projets Commerce auxquels ils sont autorisés à accéder en sélectionnant **[!UICONTROL Commerce]** de la page d’accueil de l’Experience Cloud.
+Les administrateurs peuvent afficher les projets Commerce auxquels ils sont autorisés à accéder en sélectionnant **[!UICONTROL Commerce]** sur la page d’accueil de l’Experience Cloud.
 
 ![Espace de travail Projets Commerce sur l’Experience Cloud](./assets/admin-uex-commerce-projects-home.png){width="700" zoomable="yes"}
 
-Les administrateurs peuvent ouvrir l’administrateur et le storefront pour chaque projet à partir de la [!DNL Commerce Projects] workspace et afficher des informations supplémentaires.
+Les administrateurs peuvent ouvrir l’administrateur et le storefront pour chaque projet à partir de l’espace de travail [!DNL Commerce Projects] et afficher des informations supplémentaires.
 
-- **Instantané de la page d’accueil du storefront Commerce**—Instantané de la page d’accueil du storefront. Si un projet comporte plusieurs sites web, l’instantané affiche la page d’accueil du site par défaut.
+- **Instantané de la page d’accueil du storefront Commerce** : instantané de la page d’accueil du storefront. Si un projet comporte plusieurs sites web, l’instantané affiche la page d’accueil du site par défaut.
 
-- **[Nom du projet](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)**: identifie l’environnement de projet cloud de l’instance. Par défaut, le nom du projet correspond à la valeur [Nom de la branche Git](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html) dans le projet cloud. Modifiez ou mettez à jour le nom du projet dans la variable [Paramètres de configuration d’Experience Store unifiés](admin-unified-experience-integration-manage.md#manage-the-integration-from-the-admin).
+- **[Nom du projet](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)** : identifie l’environnement du projet cloud pour l’instance. Le nom du projet est par défaut le [nom de la branche Git](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html) dans le projet cloud. Modifiez ou mettez à jour le nom du projet dans les [paramètres de configuration du magasin d’expériences unifiées](admin-unified-experience-integration-manage.md#manage-the-integration-from-the-admin).
 
-- **[URL de storefront](../stores-purchase/store-urls.md)**: affiche l’URL de base du site web par défaut.
+- **[URL Storefront](../stores-purchase/store-urls.md)** : affiche l’URL de base du site web par défaut.
 
-- **[Type d’environnement](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)**: les instances Commerce déployées dans un environnement de développement ou d’évaluation sont identifiées par un [!UICONTROL Development] ou [!UICONTROL Staging] libellé. Les instances sans libellé sont déployées dans un environnement de production.
+- **[Type d’environnement](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)** : les instances Commerce déployées dans un environnement de développement ou d’évaluation sont identifiées avec une étiquette [!UICONTROL Development] ou [!UICONTROL Staging]. Les instances sans libellé sont déployées dans un environnement de production.
 
-- **Accès administrateur de Commerce**: ouvrez l’administrateur en cliquant sur **[!UICONTROL Open]**.
+- **Accès administrateur Commerce** : ouvrez l’administrateur en cliquant sur **[!UICONTROL Open]**.
 
-- **Accès à Storefront**: ouvrez le storefront en sélectionnant **[!UICONTROL Open storefront]** dans le menu options.
+- **Accès au storefront** : ouvrez le storefront en sélectionnant **[!UICONTROL Open storefront]** dans le menu d’options.
 
-- **Accès rapide à la sélection de projets**—Select **[!UICONTROL Add to Favorites]** dans le menu options pour ajouter un projet à la [!UICONTROL Favorites] .
+- **Accès rapide à la sélection de projets** : sélectionnez **[!UICONTROL Add to Favorites]** dans le menu d’options pour ajouter un projet à l’onglet [!UICONTROL Favorites].
 
 ## Flux d’authentification
 
@@ -56,13 +56,13 @@ Lorsque l’intégration de l’Experience Cloud est activée, les administrateu
 
 1. Accédez à l’administrateur d’un projet en sélectionnant **[!UICONTROL Open]**.
 
-1. Sur la page de connexion d’Adobe Commerce, sélectionnez **[!UICONTROL Sign in with Adobe ID]** pour terminer l’authentification et ouvrir l’administrateur.
+1. Sur la page de connexion d’Adobe Commerce, sélectionnez **[!UICONTROL Sign in with Adobe ID]** pour terminer l’authentification et ouvrez l’administrateur.
 
    ![Page de connexion Adobe Commerce](./assets/admin-adobeid-login.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Voir [Gestion de l’intégration des Experience Cloud](admin-unified-experience-integration-manage.md) pour plus d’informations sur l’impact du workflow d’authentification lorsque l’intégration Experience Cloud est activée ou désactivée.
+>Voir [Gestion de l’intégration d’Experience Cloud](admin-unified-experience-integration-manage.md) pour plus d’informations sur l’impact du processus d’authentification lorsque l’intégration d’Experience Cloud est activée ou désactivée.
 
 ## Conditions
 
@@ -74,14 +74,14 @@ Lorsque l’intégration de l’Experience Cloud est activée, les administrateu
 
      Si le module n’est pas disponible sur l’instance Commerce, il peut être installé à l’aide du compositeur d’expérience.
 
-   - [Service Adobe I/O Events](https://developer.adobe.com/commerce/extensibility/events/): obligatoire pour envoyer des données d’événement afin de gérer l’accès administrateur aux projets Commerce à partir d’Experience Cloud.
+   - [ Service d’événements d’Adobe I/O ](https://developer.adobe.com/commerce/extensibility/events/) : requis pour envoyer des données d’événement afin de gérer l’accès administrateur aux projets Commerce à partir de l’Experience Cloud.
 
-     L’intégration des événements d’Adobe I/O avec Commerce est activée par l’extension d’événement Commerce (`magento/commerce-eventing`) qui est disponible avec Adobe Commerce 2.4.4 et versions ultérieures.
+     L’intégration des événements d’Adobe I/O avec Commerce est activée par l’extension d’événement Commerce (`magento/commerce-eventing`) disponible avec Adobe Commerce 2.4.4 et versions ultérieures.
 
 ## Activation de l’intégration
 
-Activez l’intégration en suivant les instructions pour [Configuration de l’intégration Experience Cloud avec l’administrateur Commerce](admin-unified-experience-integration-configure.md).
+Activez l’intégration en suivant les instructions pour [Configurer l’intégration Experience Cloud avec l’administrateur Commerce](admin-unified-experience-integration-configure.md).
 
 >[!TIP]
 >
->Si l’intégration de l’Experience Cloud est déjà activée sur l’instance Commerce, voir [Gestion de l’intégration des Experience Cloud](admin-unified-experience-integration-manage.md) pour plus d’informations sur la modification ou la mise à jour de la configuration, la gestion de l’accès administrateur et la résolution des problèmes.
+>Si l’intégration de l’Experience Cloud est déjà activée sur l’instance Commerce, voir [Gestion de l’intégration de l’Experience Cloud](admin-unified-experience-integration-manage.md) pour plus d’informations sur la modification ou la mise à jour de la configuration, la gestion de l’accès administrateur et la résolution des problèmes.

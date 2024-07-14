@@ -1,24 +1,24 @@
 ---
-title: Désactivation de l’intégration de l’administrateur Commerce avec Adobe ID
+title: Désactivation de l’intégration des administrateurs Commerce avec Adobe ID
 description: Suivez cette procédure facultative pour désactiver l’intégration de l’administrateur Adobe Commerce avec Adobe IMS.
 exl-id: 0cd02b23-873e-4e65-ae1f-dbe4f7d0a476
 feature: Identity Management
 source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
 
-# Désactivation de l’intégration de l’administrateur Commerce avec Adobe ID
+# Désactivation de l’intégration des administrateurs Commerce avec Adobe ID
 
 {{ee-feature}}
 
 Les commerçants qui ont intégré leur instance Commerce au workflow d’authentification Adobe IMS peuvent avoir besoin de désactiver cette intégration facultative.
 
-Les déploiements de commerce reviennent aux stratégies d’authentification et de mot de passe par défaut de Commerce une fois l’intégration IMS désactivée. Seuls les workflows des utilisateurs administrateurs sont affectés lorsque cette intégration est activée ou désactivée.
+Les déploiements de Commerce reviennent aux stratégies d’authentification et de mot de passe par défaut de Commerce une fois l’intégration IMS désactivée. Seuls les workflows des utilisateurs administrateurs sont affectés lorsque cette intégration est activée ou désactivée.
 
-Voir [Votre compte administrateur](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html) pour obtenir un aperçu de la connexion de l’administrateur Commerce.
+Voir [Votre compte administrateur](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html) pour une présentation de la connexion de l’administrateur Commerce.
 
 ## Étape 1 : désactivation de l’intégration
 
@@ -36,16 +36,16 @@ Adobe Commerce affiche le message suivant en cas de succès :
 Admin Adobe IMS integration is disabled.
 ```
 
-## Étape 2 : Création ou récupération de votre mot de passe Commerce
+## Étape 2 : création ou récupération de votre mot de passe Commerce
 
 Après avoir désactivé l’intégration, les utilisateurs administrateurs doivent utiliser un mot de passe Commerce pour se connecter à l’administrateur.
 
-* Les utilisateurs administrateurs de commerce qui se souviennent de leur mot de passe Commerce préexistant (c’est-à-dire un mot de passe Commerce qui a été créé avant l’intégration IMS) peuvent l’utiliser pour se connecter à l’administrateur.
+* Les utilisateurs administrateurs de Commerce qui se souviennent de leur mot de passe Commerce préexistant (c’est-à-dire un mot de passe Commerce qui a été créé avant l’intégration IMS) peuvent l’utiliser pour se connecter à l’administrateur.
 
-* Les utilisateurs administrateurs de commerce qui n’ont pas de mot de passe Commerce préexistant ou qui l’ont oublié doivent créer un nouveau mot de passe. Pour créer un mot de passe, les utilisateurs administrateurs peuvent utiliser la variable [!UICONTROL Forgot your password?] sur la page de connexion Commerce pour créer un mot de passe. Voir [Réinitialisation des mots de passe des clients](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html). Commerce n’acceptera pas de champ de mot de passe vide.
+* Les utilisateurs administrateurs de Commerce qui ne disposent pas d’un mot de passe Commerce préexistant ou qui l’ont oublié doivent créer un nouveau mot de passe. Pour créer un nouveau mot de passe, les utilisateurs administrateurs peuvent utiliser la fonction [!UICONTROL Forgot your password?] de la page de connexion de Commerce pour créer un nouveau mot de passe. Voir [Réinitialisation des mots de passe client](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html). Commerce n’accepte pas de champ de mot de passe vide.
 
 ## Après désactivation de l’intégration
 
 Le workflow d’authentification Commerce par défaut reprend une fois l’intégration IMS désactivée et les utilisateurs administrateurs sont à nouveau invités à saisir leur mot de passe.
 
-La désactivation de l’intégration IMS supprime les informations d’identification saisies lors de l’activation de l’intégration (`Organization ID`, `Client ID`, et `Client Secret` ) à partir des fichiers de configuration de Commerce.
+La désactivation de l’intégration IMS supprime les informations d’identification saisies lorsque l’intégration a été activée (`Organization ID`, `Client ID` et `Client Secret`) des fichiers de configuration Commerce.

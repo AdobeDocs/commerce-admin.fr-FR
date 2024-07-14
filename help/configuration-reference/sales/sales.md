@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Checkout Totals Sort Order]
 
-![Ordre de tri des totaux de paiement](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
+![Ordre de tri des totaux de passage en caisse](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
 
 <!-- [Checkout Totals Sort Order](https://docs.magento.com/user-guide/sales/checkout-totals-sort-order.html) -->
 
@@ -72,7 +72,7 @@ ht-degree: 1%
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Logo for PDF Print-outs] | Affichage en magasin | Identifie le fichier de logo qui apparaît dans l’en-tête des factures et des bordereaux d’emballage des PDF. Types de fichiers autorisés : <br/>JPG/JPEG <br/>TIF/TIFF <br/>PNG |
-| [!UICONTROL Logo for HTML Print View] | Affichage en magasin | Identifie le fichier de logo qui apparaît dans l’en-tête de la vue d’impression par HTML des factures et des bordereaux d’emballage. Types de fichiers autorisés : <br/>JPG/JPEG <br/>GIF <br/>PNG |
+| [!UICONTROL Logo for HTML Print View] | Affichage en magasin | Identifie le fichier de logo qui apparaît dans l’en-tête de la vue d’impression HTML des factures et des bordereaux d’emballage. Types de fichiers autorisés : <br/>JPG /JPEG <br/>GIF <br/>PNG |
 | [!UICONTROL Address] | Affichage en magasin | L’adresse du magasin telle que vous souhaitez la voir apparaître sur les factures et les bordereaux d’emballage. |
 
 {style="table-layout:auto"}
@@ -89,7 +89,7 @@ ht-degree: 1%
 | [!UICONTROL Minimum Amount] | Site Web | Indique le sous-total minimal, la commande après application des remises. |
 | [!UICONTROL Include Discount Amount] | Site Web | Détermine si le montant minimum de la commande inclut les remises appliquées. Options : `Yes` / `No` |
 | [!UICONTROL Include Tax to Amount] | Site Web | Détermine si le montant minimum de la commande inclut la taxe. Options : `Yes` / `No` |
-| [!UICONTROL Description Message] | Affichage en magasin | Détermine le message qui s’affiche en haut du panier lorsque le total du panier est inférieur au montant minimum de la commande. Si rien n’est indiqué, le message par défaut suivant s’affiche : `Minimum order amount is $[minimum_amount]` |
+| [!UICONTROL Description Message] | Affichage en magasin | Détermine le message qui s’affiche en haut du panier lorsque le total du panier est inférieur au montant minimum de la commande. Si rien n’est indiqué, le message par défaut suivant apparaît : `Minimum order amount is $[minimum_amount]` |
 | [!UICONTROL Error to Show in Shopping Cart] | Affichage en magasin | Détermine le message qui apparaît à partir du mini panier ou du lien de passage en caisse lorsque le montant de la commande est inférieur au montant minimum requis. Si rien n’est indiqué, un message par défaut s’affiche. |
 | [!UICONTROL Validate Each Address Separately in Multi-address Checkout] | Site Web | Pour les commandes à plusieurs articles, détermine si les articles de commande qui séparent les adresses correspondent bien au montant minimum de la commande. Options : `Yes` / `No` |
 | [!UICONTROL Multi-address Description Message] | Affichage en magasin | Pour les commandes à plusieurs adresses, détermine le message qui s’affiche dans le panier si les articles envoyés à une adresse sont inférieurs au montant minimum de la commande. |
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Orders Cron Settings]
 
-![Paramètres Cron des commandes](./assets/sales-orders-cron-settings.png)<!-- zoom -->
+![Paramètres Cron Commandes](./assets/sales-orders-cron-settings.png)<!-- zoom -->
 
 <!-- [Orders Cron Settings](https://docs.magento.com/user-guide/system/cron.html) -->
 
@@ -131,11 +131,11 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Allow Gift Messages on Order Level] | Site Web | Indiquez si un message cadeau peut être ajouté pour l’ensemble de la commande. |
 | [!UICONTROL Allow Gift Messages on Order Items] | Site Web | Indiquez si un message cadeau peut être ajouté pour un article de commande individuel. |
-| [!UICONTROL Allow Gift Wrapping on Order Level] | Site Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Indiquez si l’emballage cadeau peut être ajouté pour l’ensemble de la commande. |
-| [!UICONTROL Allow Gift Wrapping for Order Items] | Site Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Indiquez si un emballage cadeau peut être ajouté pour chaque article de commande. |
-| [!UICONTROL Allow Gift Receipt] | Site Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Indiquez si un reçu peut être ajouté à la commande. |
+| [!UICONTROL Allow Gift Wrapping on Order Level] | Site Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Indiquez si l’encapsulation des cadeaux peut être ajoutée pour l’ensemble de la commande. |
+| [!UICONTROL Allow Gift Wrapping for Order Items] | Site Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Indiquez si l’emballage cadeau peut être ajouté pour chaque article de commande. |
+| [!UICONTROL Allow Gift Receipt] | Site Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Indiquez si un reçu de cadeau peut être ajouté pour la commande. |
 | [!UICONTROL Allow Printed Card] | Site Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Indiquez si une carte imprimée peut être ajoutée pour la commande. |
-| [!UICONTROL Default Price for Printed Card] | Site Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Indiquez le prix par défaut de la carte imprimée. |
+| [!UICONTROL Default Price for Printed Card] | Site Web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Spécifiez le prix par défaut de la carte imprimée. |
 
 {style="table-layout:auto"}
 
@@ -163,7 +163,7 @@ ht-degree: 1%
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Maximum number of coupons per order] | Site Web | Détermine le nombre maximal de bons autorisés par commande. Cette fonctionnalité est disponible uniquement dans les API d’administration, GraphQL et REST. Et c&#39;est **_non disponible_** à Storefront. |
+| [!UICONTROL Maximum number of coupons per order] | Site Web | Détermine le nombre maximal de bons autorisés par commande. Cette fonctionnalité est disponible uniquement dans les API d’administration, GraphQL et REST. Et il est **_non disponible_** dans Storefront. |
 
 {style="table-layout:auto"}
 
@@ -171,40 +171,40 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![Commande par paramètres de SKU](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
+![Paramètres de commande par SKU](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
 <!-- [Order by SKU Settings](https://docs.magento.com/user-guide/customers/account-dashboard-order-by-sku.html) -->
 
-![Commande par paramètres de SKU pour le groupe de clients](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
+![Paramètres de commande par SKU pour le groupe de clients](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Enable Order by SKU on My Account in Storefront] | Site Web | Détermine si Commande par SKU est disponible dans le tableau de bord du compte client. Options : <br/>**`Yes, for Everyone`**- L’onglet Commande par SKU s’affiche dans le tableau de bord du compte de tous les clients.<br/>**`Yes, for Specified Customer Groups`** - L’onglet Ordre par SKU s’affiche dans le tableau de bord du compte pour les membres de groupes spécifiés ou d’un catalogue partagé. <br/>**`No`**- L’onglet Commande par SKU n’est pas disponible dans le compte client. |
+| [!UICONTROL Enable Order by SKU on My Account in Storefront] | Site Web | Détermine si Commande par SKU est disponible dans le tableau de bord du compte client. Options : <br/>**`Yes, for Everyone`**- L’onglet Ordre de tri par SKU s’affiche dans le tableau de bord du compte de tous les clients.<br/>**`Yes, for Specified Customer Groups`** - L’onglet Ordre par SKU s’affiche dans le tableau de bord du compte pour les membres de groupes spécifiés ou d’un catalogue partagé. <br/>**`No`**- L’onglet Ordre par SKU n’est pas disponible dans le compte client. |
 | [!UICONTROL Customer Groups] | Site Web | Détermine les groupes de clients. Options : `General` / `Retailer` / `Wholesale` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Instant Purchase]
 
-![achat instantané](./assets/sales-instant-purchase.png)<!-- zoom -->
+![Achat instantané](./assets/sales-instant-purchase.png)<!-- zoom -->
 
 <!-- [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Affichage en magasin | Permet l’achat instantané pour la vue de magasin, si le mode de paiement, tel que Braintree, a la valeur Vault activée. Options : `Yes` / `No` |
-| [!UICONTROL Button Text] | Affichage en magasin | Indique le texte qui s’affiche sur le bouton Achat instantané. Le texte par défaut est : `Instant Purchase`. |
+| [!UICONTROL Button Text] | Affichage en magasin | Indique le texte qui s’affiche sur le bouton Achat instantané. Le texte par défaut est `Instant Purchase`. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Rate Limiting]
 
-![Limite de taux](assets/sales-rate-limiting.png)<!-- zoom -->
+![Limitation de taux](assets/sales-rate-limiting.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--------------------------------------------------------|--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable rate limiting for placing orders] | Affichage en magasin | Détermine si la limitation de débit est utilisée pour placer des commandes depuis la vue de magasin (la valeur par défaut est `No`). Options : `Yes` / `No`. |
-| [!UICONTROL Requests limit per authenticated customer] | Affichage en magasin | Nombre de demandes d’achat qu’un client authentifié peut effectuer au cours de la période. La limite par défaut est : `10`. |
+| [!UICONTROL Requests limit per authenticated customer] | Affichage en magasin | Nombre de demandes d’achat qu’un client authentifié peut effectuer au cours de la période. La limite par défaut est `10`. |
 | [!UICONTROL Requests limit per guest] | Affichage en magasin | Nombre de demandes d’achat qu’un client non authentifié peut effectuer au cours de la période spécifiée. La valeur par défaut est `50`. |
 | [!UICONTROL Counter resets in a ...] | Affichage en magasin | La période pendant laquelle un client authentifié/non authentifié peut effectuer un certain nombre de demandes d’achat (la valeur par défaut est `Minute`). Options : `Minute` / `Hour` /`Day` |
 
@@ -214,15 +214,15 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![Commandes, factures, envois, archivage des notes de crédit](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
+![ Commandes, factures, envois, archivage de notes de crédit ](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
 
-Pour plus d’informations sur la modification de ces paramètres, voir [Configuration de l’archive de commande](../../stores-purchase/order-archive.md#configure-the-order-archive) dans le _Guide d’expérience des magasins et des achats_.
+Pour plus d’informations sur la modification de ces paramètres, voir [Configuration de l’archive de commande](../../stores-purchase/order-archive.md#configure-the-order-archive) dans le _Guide des magasins et de l’expérience d’achat_.
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Enable Archiving] | Global | Détermine si l’archivage est activé. Options : `Yes` / `No` |
 | [!UICONTROL Archive Orders Purchased] | Global | Détermine le nombre de jours qui s’écoulent avant qu’une commande terminée ne soit archivée. Valeur par défaut : `30` |
-| [!UICONTROL Order  Statuses to be Archived] | Global | Détermine la variable [status](../../stores-purchase/order-status.md) de commandes à archiver. Par défaut, les commandes dont le statut est Terminé ou Fermé sont archivées. Options : `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
+| [!UICONTROL Order  Statuses to be Archived] | Global | Détermine le [statut](../../stores-purchase/order-status.md) des commandes à archiver. Par défaut, les commandes dont le statut est Terminé ou Fermé sont archivées. Options : `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
 
 {style="table-layout:auto"}
 
@@ -232,12 +232,12 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Configu
 
 ![Paramètres RMA](./assets/sales-rma-settings.png)<!-- zoom -->
 
-Pour plus d’informations sur la modification de ces paramètres, voir [Configurer les retours](../../stores-purchase/rma-configure.md) dans le _Guide d’expérience des magasins et des achats_.
+Pour plus d’informations sur la modification de ces paramètres, voir [Configuration des retours](../../stores-purchase/rma-configure.md) dans le _Guide des magasins et de l’expérience d’achat_.
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Enable RMA on Storefront] | Site Web | Détermine si les clients peuvent créer et afficher des requêtes RMA à partir du storefront. La RAM peut être appliquée aux commandes nouvelles et existantes. Par défaut, la RAM n’est pas activée pour le storefront. Options : `Yes` / `No` |
 | [!UICONTROL Enable RMA on Product Level] | Site Web | Détermine la valeur par défaut du champ Activer la RAM dans les informations sur les produits. |
-| [!UICONTROL Use Store Address] | Site Web | Détermine le nom et l’adresse du contact utilisés pour les envois de marchandises renvoyées. Options : <br/>**`Yes`**- Utilise la variable [Point d’origine](../../stores-purchase/shipping-settings.md#point-of-origin) adresse dans Paramètres d’expédition.<br/>**`No`** - Ouvre le formulaire d’adresse afin que vous puissiez saisir une autre adresse. |
+| [!UICONTROL Use Store Address] | Site Web | Détermine le nom et l’adresse du contact utilisés pour les envois de marchandises renvoyées. Options : <br/>**`Yes`**- Utilise l’adresse [Point d’origine](../../stores-purchase/shipping-settings.md#point-of-origin) des paramètres de livraison.<br/>**`No`** - Ouvre le formulaire d’adresse afin que vous puissiez saisir une autre adresse. |
 
 {style="table-layout:auto"}

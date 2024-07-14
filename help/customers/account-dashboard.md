@@ -18,9 +18,9 @@ Les clients peuvent gérer et surveiller leurs propres informations et activité
 
 >[!NOTE]
 >
-> Avec l’installation et l’activation d’Adobe Commerce B2B, l’expérience d’achat peut être personnalisée avec des fonctionnalités spécifiques à l’entreprise. La gamme complète des options du tableau de bord du compte B2B (commandes, listes de commandes et devis négociés) peut être activée pour les clients associés à une entreprise. Pour plus d’informations sur les fonctionnalités B2B, voir [Guide de l’utilisateur d’Adobe Commerce B2B](../b2b/introduction.md).
+> Avec l’installation et l’activation d’Adobe Commerce B2B, l’expérience d’achat peut être personnalisée avec des fonctionnalités spécifiques à l’entreprise. La gamme complète des options du tableau de bord du compte B2B (commandes, listes de commandes et devis négociés) peut être activée pour les clients associés à une entreprise. Pour plus d’informations sur les fonctionnalités B2B, consultez le [Guide de l’utilisateur d’Adobe Commerce B2B](../b2b/introduction.md).
 
-![Tableau de bord du compte de l’entreprise sur le storefront](assets/company-admin-account-dashboard.png){width="700" zoomable="yes"}
+![Tableau de bord du compte de la société sur le storefront](assets/company-admin-account-dashboard.png){width="700" zoomable="yes"}
 
 ## Navigation côté tableau de bord du compte
 
@@ -48,7 +48,7 @@ Le tableau suivant contient des informations sur toutes les sections disponibles
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Quotes]**](../b2b/account-dashboard-my-quotes.md) | (Sociétés uniquement) Répertorie tous les guillemets envoyés par le client, avec un lien vers des informations détaillées. |
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Requisition Lists]**](../b2b/account-dashboard-requisition-lists-manage.md) | (Sociétés uniquement) Gère toutes les listes de demandes créées par le client. |
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Profile]**](../b2b/account-company-manage.md#update-a-company-profile) | (Sociétés uniquement) Un administrateur désigné de la société peut gérer les informations de la société, notamment le nom et l’adresse de la société, les coordonnées de l’administrateur de la société et les informations de paiement. |
-| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Credit]**](../b2b/credit-company.md#storefront-credit-information) | (Sociétés uniquement) Affiche le solde en cours, le crédit disponible et la limite de crédit qui est attribuée au compte, suivie d’une liste des factures en cours. La section Crédit de l’entreprise apparaît dans le tableau de bord uniquement lorsque [Paiement sur compte](../b2b/enable-basic-features.md#configure-payment-on-account) est activé dans la configuration. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Credit]**](../b2b/credit-company.md#storefront-credit-information) | (Sociétés uniquement) Affiche le solde en cours, le crédit disponible et la limite de crédit qui est attribuée au compte, suivie d’une liste des factures en cours. La section Crédit de l’entreprise apparaît dans le tableau de bord uniquement lorsque l’option [Paiement sur compte](../b2b/enable-basic-features.md#configure-payment-on-account) est activée dans la configuration. |
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Structure]**](../b2b/account-company-structure.md) | (Sociétés uniquement) Utilisé par l’administrateur de la société pour définir la structure de l’entreprise. |
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Users]**](../b2b/account-company-users.md) | (Sociétés uniquement) Utilisé par l’administrateur de la société pour créer des comptes d’utilisateurs pour les acheteurs de la société. |
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Roles and Permissions]**](../b2b/account-company-roles-permissions.md) | (Sociétés uniquement) Utilisé par l’administrateur de l’entreprise pour définir des rôles pour les utilisateurs de l’entreprise disposant de différents niveaux d’autorisation. |

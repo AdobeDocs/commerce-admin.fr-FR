@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-La variable [Registre des cadeaux](gift-registries.md) La section du compte client répertorie les registres de cadeaux actuels du client et l’événement associé. Les clients peuvent gérer les registres actuels et en ajouter de nouveaux.
+La section [Registre des cadeaux](gift-registries.md) du compte client répertorie les registres de cadeaux actuels du client et l’événement associé. Les clients peuvent gérer les registres actuels et en ajouter de nouveaux.
 
 ![Registre des cadeaux](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
 
@@ -22,7 +22,7 @@ La variable [Registre des cadeaux](gift-registries.md) La section du compte clie
 
 Les clients peuvent créer et gérer des registres de cadeaux à partir de leurs comptes. Toutes les informations associées à chaque type de registre sont disponibles à partir du compte du client.
 
-![Exemple de vitrine - Informations sur le registre des cadeaux](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
+![Exemple de vitrine - informations sur le registre des cadeaux](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
 
 | Section | Description |
 |--- |--- |
@@ -40,11 +40,11 @@ Les clients peuvent créer et gérer des registres de cadeaux à partir de leurs
 
 ## Créer un registre des cadeaux
 
-1. Le client sélectionne **[!UICONTROL Gift Registry]** dans le tableau de bord de leur compte.
+1. Le client sélectionne **[!UICONTROL Gift Registry]** dans le tableau de bord de son compte.
 
-1. Sur le _Registre des cadeaux_ page, clics **[!UICONTROL Add New]**.
+1. Sur la page _Gift Registry_, cliquez sur **[!UICONTROL Add New]**.
 
-1. Choisit un **[!UICONTROL Gift Registry Type]**, par exemple :
+1. Choisit un **[!UICONTROL Gift Registry Type]**, tel que :
 
    - Anniversaire
 
@@ -54,7 +54,7 @@ Les clients peuvent créer et gérer des registres de cadeaux à partir de leurs
 
 1. Clics **[!UICONTROL Next]**.
 
-1. Saisissez les informations requises, puis cliquez sur **[!UICONTROL Save]**.
+1. Saisissez les informations requises et cliquez sur **[!UICONTROL Save]**.
 
 ## Ajout d’un produit à un registre
 
@@ -62,7 +62,7 @@ Les clients peuvent créer et gérer des registres de cadeaux à partir de leurs
 
 1. Clics **[!UICONTROL Add to Cart]**.
 
-1. Clics **[!UICONTROL View and Edit Cart]** sur le mini-panier.
+1. Clique sur **[!UICONTROL View and Edit Cart]** dans le mini panier.
 
 1. Sur la page Panier, sélectionnez l’événement de votre choix et cliquez/appuyez sur **[!UICONTROL Add All To Gift Registry]**.
 
@@ -70,7 +70,7 @@ Les clients peuvent créer et gérer des registres de cadeaux à partir de leurs
 
 ## Partager un registre des cadeaux
 
-1. Depuis le tableau de bord de leur compte, le client accède à **[!UICONTROL Gift Registry]**.
+1. Depuis le tableau de bord de leur compte, le client se rend à **[!UICONTROL Gift Registry]**.
 
 1. Recherche l’événement de registre à gérer et clique sur **[!UICONTROL Share]**.
 
@@ -78,32 +78,32 @@ Les clients peuvent créer et gérer des registres de cadeaux à partir de leurs
 
 ## Modifier un registre des cadeaux
 
-1. Depuis le tableau de bord de leur compte, le client accède à **[!UICONTROL Gift Registry]**.
+1. Depuis le tableau de bord de leur compte, le client se rend à **[!UICONTROL Gift Registry]**.
 
 1. Recherche l’événement de registre à gérer et clique sur **[!UICONTROL Edit]**.
 
 1. Modifie toutes les options selon les besoins.
 
-1. Modifie les options et les clics requis. **[!UICONTROL Save]**.
+1. Modifie les options requises et clique sur **[!UICONTROL Save]**.
 
 ## Gestion des éléments du registre des cadeaux
 
-1. Depuis le tableau de bord de leur compte, le client accède à **[!UICONTROL Gift Registry]**.
+1. Depuis le tableau de bord de leur compte, le client se rend à **[!UICONTROL Gift Registry]**.
 
    ![Gestion des éléments du registre des cadeaux](./assets/account-dashboard-gift-registry-items-management.png){width="700" zoomable="yes"}
 
-1. Recherche l’événement de registre, sélectionne les éléments à gérer, puis clique sur **[!DNL Manage Items]**.
+1. Recherche l’événement de registre, sélectionne les éléments à gérer et clique sur **[!DNL Manage Items]**.
 
 1. Modifie les options requises, telles que **[!UICONTROL Note]** et **[!UICONTROL Qty]**.
 
 1. Si nécessaire, supprime un article du registre des cadeaux en cochant la case et en cliquant sur **[!UICONTROL Delete]**.
 
-1. Clics **[!UICONTROL Update Gift Registry]** pour enregistrer les modifications.
+1. Cliquez sur **[!UICONTROL Update Gift Registry]** pour enregistrer les modifications.
 
 ## Supprimer un registre des cadeaux
 
-1. Depuis le tableau de bord de leur compte, le client accède à **[!UICONTROL Gift Registry]**.
+1. Depuis le tableau de bord de leur compte, le client se rend à **[!UICONTROL Gift Registry]**.
 
 1. Recherche l’événement de registre à gérer et clique sur **[!UICONTROL Delete]**.
 
-1. Clics **[!UICONTROL OK]** pour confirmer.
+1. Cliquez sur **[!UICONTROL OK]** pour confirmer.

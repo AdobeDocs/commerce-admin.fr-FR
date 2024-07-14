@@ -1,11 +1,11 @@
 ---
 title: Documents commerciaux
-description: Découvrez comment configurer des documents de vente pour prendre en charge les commandes et l’exécution des clients pour votre boutique de commerce.
+description: Découvrez comment configurer des documents de vente pour prendre en charge les commandes et l’exécution des clients pour votre boutique Commerce.
 exl-id: 869d79ca-688a-4032-a95c-c66ebf7f2775
 feature: Invoices
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -24,29 +24,29 @@ Pour redimensionner votre logo en fonction de la taille requise, vous pouvez cr�
 
 **_Pour mettre à jour le logo :_**
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Sales]** en-dessous.
+1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et sélectionnez **[!UICONTROL Sales]** sous .
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Invoice and Packing Slip Design]** et procédez comme suit :
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) de **[!UICONTROL Invoice and Packing Slip Design]** et procédez comme suit :
 
    ![Configuration des ventes - conception des factures de ventes et des bordereaux de livraison](../configuration-reference/sales/assets/sales-invoice-packing-slip-design.png){width="600" zoomable="yes"}
 
-   - Pour charger la variable **[!UICONTROL Logo for PDF Print-outs]**, cliquez sur **[!UICONTROL Choose File]**, recherchez le logo préparé, puis cliquez sur **[!UICONTROL Open]**.
+   - Pour télécharger le **[!UICONTROL Logo for PDF Print-outs]**, cliquez sur **[!UICONTROL Choose File]**, recherchez le logo que vous avez préparé, puis cliquez sur **[!UICONTROL Open]**.
 
-   - Pour charger la variable **[!UICONTROL Logo for HTML Print View]**, cliquez sur **[!UICONTROL Choose File]**, recherchez le logo préparé, puis cliquez sur **[!UICONTROL Open]**.
+   - Pour télécharger le **[!UICONTROL Logo for HTML Print View]**, cliquez sur **[!UICONTROL Choose File]**, recherchez le logo que vous avez préparé, puis cliquez sur **[!UICONTROL Open]**.
 
    - Saisissez votre adresse telle qu&#39;elle apparaîtra sur les factures et les bordereaux d&#39;emballage.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
    À titre de référence, une miniature de l’image téléchargée s’affiche avant chaque champ. Ne vous inquiétez pas si la miniature semble déformée. La proportion du logo est correcte sur la facture.
 
 ### Remplacement d’une image
 
-1. Cliquez sur **[!UICONTROL Choose File]** et choisissez un fichier de logo différent.
+1. Cliquez sur **[!UICONTROL Choose File]** et choisissez un autre fichier de logo.
 
-1. Sélectionnez la variable **[!UICONTROL Delete Image]** de l’image à remplacer.
+1. Cochez la case **[!UICONTROL Delete Image]** pour l’image que vous souhaitez remplacer.
 
 1. Cliquez sur **[!UICONTROL Save Config]**.
 
@@ -55,11 +55,11 @@ Pour redimensionner votre logo en fonction de la taille requise, vous pouvez cr�
 | Format | Conditions |
 |--- |------------------------------------------|
 | **_PDF_** |  |
-| Format du fichier | JPG (JPEG), PNG, TIF (TIFF) |
+| Format du fichier | JPEG, PNG, TIF (TIFF) |
 | Taille de l’image | Jusqu’à 1 080 pixels de large x 270 pixels de haut |
 | Résolution | 300 ppp recommandé |
 | **_HTML_** |  |
-| Format du fichier | JPG (JPEG), PNG, GIF |
+| Format du fichier | JPEG, PNG, GIF |
 | Taille de l’image | Déterminé par le thème. |
 | Résolution | 72 ou 96 ppp |
 
@@ -71,30 +71,30 @@ L’identifiant de commande et l’adresse IP du client peuvent être inclus dan
 
 ![Configuration des ventes - Impressions de PDF](./assets/config-sales-pdf-print-outs.png){width="600" zoomable="yes"}
 
-**_Pour modifier le paramètre d’ID de commande :_**
+**_Pour modifier le paramètre de l’ID de commande :_**
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL PDF Print-outs]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **Facture** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **Invoice** .
 
-1. Définir **[!UICONTROL Display Order ID in Header]** selon vos préférences.
+1. Définissez **[!UICONTROL Display Order ID in Header]** en fonction de vos préférences.
 
-1. Répétez l’opération pour le **[!UICONTROL Shipment]** et **[!UICONTROL Credit Memo]** sections.
+1. Répétez l&#39;opération pour les sections **[!UICONTROL Shipment]** et **[!UICONTROL Credit Memo]** .
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 **_Pour modifier le paramètre d’adresse IP du client :_**
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Sales]** en-dessous.
+1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et sélectionnez **[!UICONTROL Sales]** sous .
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL General]** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL General]** .
 
-   ![Configuration des ventes - Paramètres généraux de vente](../configuration-reference/sales/assets/sales-general.png){width="600" zoomable="yes"}
+   ![Configuration des ventes - paramètres généraux des ventes](../configuration-reference/sales/assets/sales-general.png){width="600" zoomable="yes"}
 
-1. Définir **[!UICONTROL Hide Customer IP]** selon vos préférences.
+1. Définissez **[!UICONTROL Hide Customer IP]** selon vos préférences.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.

@@ -16,7 +16,7 @@ En fonction des besoins de l’entreprise et de l’état de l’emplacement, le
 
 Cette option vous permet de sélectionner un ou plusieurs produits, la source d’origine à transférer l’inventaire et la source de destination à recevoir les quantités :
 
-- Les quantités d’inventaire, l’état de l’article source (en stock/en rupture de stock) et l’état de notification de la quantité de la source sélectionnée sont déplacés par produit.
+- Les quantités d’inventaire, l’état de l’article Source (en stock/en rupture de stock) et l’état de notification de la quantité de la source sélectionnée sont déplacés par produit.
 
 - Si un produit n’a pas cette source, il est ignoré.
 
@@ -30,25 +30,25 @@ Vous pouvez également annuler l’affectation de la source lors du transfert de
 
 {{$include /help/_includes/unassign-source.md}}
 
-![Transférer l’inventaire vers une autre source](assets/inventory-bulk-transfer-source.gif)
+![Transfert de l’inventaire vers une autre source](assets/inventory-bulk-transfer-source.gif)
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Sélectionnez les produits pour lesquels vous souhaitez modifier les sources.
 
    Recherchez des produits et cochez des cases pour les transférer.
 
-1. Cliquez sur le bouton **[!UICONTROL Actions]** dans la partie supérieure et choisissez **[!UICONTROL Transfer Inventory to Source]**.
+1. Cliquez sur le menu **[!UICONTROL Actions]** en haut de l’écran et choisissez **[!UICONTROL Transfer Inventory to Source]**.
 
 1. Cliquez sur **[!UICONTROL OK]** dans la boîte de dialogue de confirmation.
 
-1. Pour transférer des produits vers une nouvelle destination, sélectionnez l’origine (_[!UICONTROL from]_).
+1. Pour transférer des produits vers une nouvelle destination, sélectionnez la source d’origine (_[!UICONTROL from]_).
 
-1. pour transférer des produits vers une nouvelle destination, sélectionnez la destination (_[!UICONTROL to]_).
+1. pour transférer des produits vers une nouvelle destination, sélectionnez la source de destination (_[!UICONTROL to]_).
 
-1. Pour supprimer la source des produits, cochez la case facultative . **[!UICONTROL Unassign from origin source after transfer]**.
+1. Pour supprimer la source des produits, cochez la case facultative **[!UICONTROL Unassign from origin source after transfer]**.
 
-   ![Sélection de l’origine et de la destination du transfert](assets/inventory-bulk-transfer-summary.png){width="600" zoomable="yes"}
+   ![Sélectionner l’origine et la destination du transfert](assets/inventory-bulk-transfer-summary.png){width="600" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Transfer Inventory]**.
 

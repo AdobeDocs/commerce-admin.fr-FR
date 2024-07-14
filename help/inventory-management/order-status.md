@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Statut de la commande et réservations
 
-[!DNL Inventory Management] prend en charge la facturation, les paiements, l’expédition et les annulations partiels et complets par commande. Lorsque vous gérez une commande par le biais du traitement, de la facturation, de l’envoi et éventuellement des remboursements, [!DNL Commerce] saisit ou modifie automatiquement les réservations pour mettre à jour la quantité vendable d&#39;un stock (ou canal de vente) et la quantité en stock disponible par source. Vous n’avez pas à accéder activement aux réservations ni à les enregistrer. Pour vous, il vous suffit d’exécuter, d’annuler ou de rembourser une commande.
+[!DNL Inventory Management] prend en charge la facturation, les paiements, l’expédition et les annulations partiels et complets par commande. Lorsque vous gérez une commande par le biais du traitement, de la facturation, de l&#39;envoi et éventuellement des remboursements, [!DNL Commerce] entre automatiquement ou modifie les réservations pour mettre à jour la quantité vendable d&#39;un stock (ou canal de vente) et la quantité en stock disponible par source. Vous n’avez pas à accéder activement aux réservations ni à les enregistrer. Pour vous, il vous suffit d’exécuter, d’annuler ou de rembourser une commande.
 
 Ces réservations ajustent toujours votre quantité vendable, avec des quantités positives ou négatives pour augmenter ou diminuer les quantités. Le résultat est une mise à jour de votre stock disponible et de vos quantités vendables pour une disponibilité de produit à jour.
 
@@ -32,30 +32,30 @@ Si un client annule sa commande avant l’expédition (partielle ou totale), une
 
 ### Commandes remboursées
 
-Si un client demande un remboursement, émettez l’avoir pour les montants de produit partiels ou complets. Lorsque vous recevez les produits renvoyés, saisissez un avis de crédit pour fournir les fonds et mettre à jour le montant du produit. Lorsque vous sélectionnez l’option Revenir au stock , [!DNL Commerce] ajoute des quantités aux produits et sources qui ont expédié les commandes et les compensations de réservation afin de mettre à jour les quantités vendables pour le stock associé.
+Si un client demande un remboursement, émettez l’avoir pour les montants de produit partiels ou complets. Lorsque vous recevez les produits renvoyés, saisissez un avis de crédit pour fournir les fonds et mettre à jour le montant du produit. Lorsque vous sélectionnez l’option Revenir au stock , [!DNL Commerce] ajoute les quantités aux produits et aux sources qui ont expédié les commandes et les compensations de réservation pour mettre à jour les quantités vendables pour le stock associé.
 
 ## Types de commande
 
-Les commandes simples commencent par un panier, continuent de payer et se terminent par une livraison satisfaite. Dans ces ordres, [!DNL Inventory Management] traite facilement les réservations par rapport à la disponibilité (ou à la quantité vendable) dans le panier et le passage en caisse, et déduit de l’inventaire disponible à l’expédition.
+Les commandes simples commencent par un panier, continuent de payer et se terminent par une livraison satisfaite. Dans ces commandes, [!DNL Inventory Management] traite facilement les réservations par rapport à la disponibilité (ou à la quantité vendable) dans le panier et le passage en caisse, et déduit du stock disponible à l&#39;expédition.
 
-![Traitement d’une commande simple](assets/diagram-simple-order-flow.png){width="600" zoomable="yes"}
+![Processus pour une commande simple](assets/diagram-simple-order-flow.png){width="600" zoomable="yes"}
 
 Une commande plus compliquée peut comporter des annulations partielles, des envois partiels et des remboursements. Dans ce cas, les réservations affectent l&#39;inventaire disponible afin d&#39;ajouter des quantités pour les annulations et les remboursements et de diminuer les quantités lorsqu&#39;elles sont commandées et expédiées.
 
-![Processus d’un ordre complexe](assets/diagram-complicated-order-flow.png){width="600" zoomable="yes"}
+![Processus pour une commande compliquée](assets/diagram-complicated-order-flow.png){width="600" zoomable="yes"}
 
 Les réservations de disponibilité et les modifications de stock se produisent en fonction de l’état de la commande.
 
 ## Statut et réservations
 
-Les tableaux suivants détaillent la commande et le statut de l’avoir avec les modifications de réservation saisies par [!DNL Commerce] pour gérer votre inventaire.
+Les tableaux suivants détaillent la commande et le statut de l’avoir avec les modifications de réservation entrées par [!DNL Commerce] pour gérer votre inventaire.
 
 | État de la commande | Description | Réservation pour une quantité acceptable |
 |--|--|--|
 | [!UICONTROL Open] | Nouveau et récemment soumis, aucun traitement | La réservation est enregistrée lorsque la commande est envoyée pour le stock. |
 | [!UICONTROL Canceled] | Annulé en partie ou en totalité avant paiement | La compensation de réservation est saisie afin de restituer la quantité totale ou partielle à la quantité salable en stock. |
 | [!UICONTROL On Hold] | Paiement et expédition non traités ou facturés | La réservation reste en place. |
-| [!UICONTROL Suspected Fraud] | Non traité en raison de la fraude | Si elle est approuvée ou en révision, la réservation reste en place.<br/>En cas de refus, la réservation reste en place jusqu&#39;à ce que le marchand décide d&#39;approuver ou d&#39;annuler.<br/>En cas d&#39;annulation, la compensation de la réservation est renseignée pour renvoyer la totalité de la quantité à la quantité vendable en stock. |
+| [!UICONTROL Suspected Fraud] | Non traité en raison de la fraude | Si elle est approuvée ou en révision, la réservation reste en place.<br/>Si vous refusez, la réservation reste en place jusqu’à ce que le marchand décide d’approuver ou d’annuler.<br/> Si l&#39;annulation est annulée, la compensation de la réservation est renseignée pour renvoyer la quantité complète à la quantité vendable en stock. |
 | [!UICONTROL Pending] | En attente de paiement | La réservation reste en place. |
 | [!UICONTROL Processing] | Traitement du paiement non reçu | La réservation reste en place. |
 | [!UICONTROL Pending Payment] | Paiement non reçu | La réservation reste en place. |
@@ -76,14 +76,14 @@ Ils achètent deux superbes vélos de parc pour leurs petits enfants, un BMX pou
 
 ![Ordre complexe](assets/diagram-order-complex.png){width="600" zoomable="yes"}
 
-Ils montrent à leur famille ce qu&#39;ils ont trouvé, mais font quelques changements. Avant la fin du paiement, ils annulent deux des SKU 33-BikeFun (les enfants ne les aimaient pas). Il s’agit d’une annulation partielle en raison d’un paiement en attente, donc aucune note de crédit n’est nécessaire. Pour mettre à jour : [!DNL Commerce] ajoute au stock de quantité vendable pour le Canada. La commande est payée et tous les produits sont livrés, arrivant à temps pour les vacances. [!DNL Commerce] met à jour la quantité vendable et les quantités sources pour les entrepôts d&#39;expédition pour les produits expédiés.
+Ils montrent à leur famille ce qu&#39;ils ont trouvé, mais font quelques changements. Avant la fin du paiement, ils annulent deux des SKU 33-BikeFun (les enfants ne les aimaient pas). Il s’agit d’une annulation partielle en raison d’un paiement en attente, donc aucune note de crédit n’est nécessaire. Pour mettre à jour, [!DNL Commerce] ajoute à nouveau le stock de quantité vendable pour le Canada. La commande est payée et tous les produits sont livrés, arrivant à temps pour les vacances. [!DNL Commerce] met à jour la quantité vendable et les quantités sources pour les entrepôts d&#39;expédition pour les produits expédiés.
 
 Mais la chemise ne correspondait pas tout à fait à leur conjoint. Blake demande un remboursement et renvoie sa chemise. La création de la note de crédit ajoute une chemise 54-BikeLife à l&#39;entrepôt de stock et de livraison du Canada.
 
 - **Produits livrés** - Avec les produits achetés et expédiés, [!DNL Commerce] met à jour l’inventaire. Les compensations de réservation sont converties en déductions de quantité en stock à partir de la source expédiée. La quantité disponible pouvant être vendue est mise à jour pour le stock.
 
-- **Produits annulés** - En annulant le stock, [!DNL Commerce] supprime la réservation pour ce produit. Une compensation de réservation est alors renseignée au niveau des stocks afin de rajouter les quantités salables pour l&#39;annulation partielle de deux chemises. Cela n’a aucune incidence sur la quantité de stock au niveau de la source.
+- **Produits annulés** - En annulant le stock, [!DNL Commerce] supprime la réservation de ce produit. Une compensation de réservation est alors renseignée au niveau des stocks afin de rajouter les quantités salables pour l&#39;annulation partielle de deux chemises. Cela n’a aucune incidence sur la quantité de stock au niveau de la source.
 
-- **Crédit mémo/produit remboursé** - En remettant le stock, il doit être réajouté aux quantités. Lors de l’émission de l’avoir, vous pouvez choisir de retourner en stock. [!DNL Commerce] ajoute la quantité d’inventaire à la source expédiée du produit. Les compensations de réservation permettent d&#39;effacer les éventuelles réserves restantes. La quantité vendable est recalculée par rapport à la quantité mise à jour.
+- **Crédit mémo/produit remboursé** - En retournant du stock, il doit être ajouté aux quantités. Lors de l’émission de l’avoir, vous pouvez choisir de retourner en stock. [!DNL Commerce] ajoute la quantité d’inventaire à la source expédiée du produit. Les compensations de réservation permettent d&#39;effacer les éventuelles réserves restantes. La quantité vendable est recalculée par rapport à la quantité mise à jour.
 
-![Mises à jour de la quantité de commandes remboursée](assets/diagram-order-refund.png){width="600" zoomable="yes"}
+![Mises à jour de la quantité de remboursement de la commande](assets/diagram-order-refund.png){width="600" zoomable="yes"}

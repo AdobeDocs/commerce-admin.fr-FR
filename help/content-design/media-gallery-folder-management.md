@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Gestion des dossiers Media Gallery
 
-Utilisation de dossiers pour organiser les images dans la nouvelle [Galerie de médias](media-gallery.md). À mesure que le nombre de ressources multimédia augmente, les dossiers facilitent la localisation et la gestion des ressources existantes dans votre galerie multimédia.
+Utilisez des dossiers pour organiser les images dans la nouvelle [galerie de médias](media-gallery.md). À mesure que le nombre de ressources multimédia augmente, les dossiers facilitent la localisation et la gestion des ressources existantes dans votre galerie multimédia.
 
 ## Création d’un dossier
 
 >[!NOTE]
 >
->Vous pouvez uniquement créer un dossier dans la variable `pub/media/wysywig` et `pub/media/catalog/category` dossiers.
+>Vous pouvez uniquement créer un dossier dans les dossiers `pub/media/wysywig` et `pub/media/catalog/category`.
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
 1. Cliquez sur **[!UICONTROL Create Folder]**.
 
@@ -34,9 +34,9 @@ Utilisation de dossiers pour organiser les images dans la nouvelle [Galerie de m
 
 >[!WARNING]
 >
->La suppression d’un dossier entraîne la suppression de toutes les images qu’il contient. Vous pouvez uniquement supprimer un dossier dans la variable `pub/media/wysywig` et `pub/media/catalog/category` dossiers.
+>La suppression d’un dossier entraîne la suppression de toutes les images qu’il contient. Vous pouvez uniquement supprimer un dossier dans les dossiers `pub/media/wysywig` et `pub/media/catalog/category`.
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
 1. Sélectionnez le dossier à supprimer.
 

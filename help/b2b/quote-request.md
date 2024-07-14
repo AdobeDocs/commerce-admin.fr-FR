@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Demande de devis
 
-Si les guillemets sont activés dans la variable [Configuration des fonctionnalités de vente](configure-quotes.md), un acheteur autorisé d’une société peut lancer le processus de négociation des prix en demandant un devis dans son panier. Si un acheteur n&#39;est pas prêt à soumettre un devis à négociation, il peut le conserver en tant que brouillon.
+Si les devis sont activés dans la [configuration des fonctionnalités de vente](configure-quotes.md), un acheteur autorisé d’une société peut lancer le processus de négociation des prix en demandant un devis dans son panier. Si un acheteur n&#39;est pas prêt à soumettre un devis à négociation, il peut le conserver en tant que brouillon.
 
 >[!NOTE]
 >
@@ -21,34 +21,34 @@ Si les guillemets sont activés dans la variable [Configuration des fonctionnali
 
 ## Expérience de demande de devis client
 
-1. Le client se connecte à son compte utilisateur en tant qu’acheteur avec [autorisation](account-company-roles-permissions.md) pour demander un devis.
+1. Le client se connecte à son compte utilisateur en tant qu’acheteur avec l’ [autorisation](account-company-roles-permissions.md) pour demander un devis.
 
 1. Ajoute les produits à inclure dans le guillemet au panier.
 
    >[!TIP]
    > 
-   >Les clients peuvent ajouter plus rapidement une liste de SKU de produit au panier en utilisant [Ordre rapide](quick-order.md).
+   >Les clients peuvent ajouter plus rapidement une liste de SKU de produit au panier à l’aide de [Quick Order](quick-order.md).
 
-1. Sélection **[!UICONTROL Request a Quote]**.
+1. Sélectionne **[!UICONTROL Request a Quote]**.
 
-   ![Demande d’un devis auprès du panier](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
+   ![Demande d’un devis dans le panier](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
 
-1. Dans le **[!UICONTROL Add your comment]** , le client saisit une brève note pour décrire la requête.
+1. Dans la zone **[!UICONTROL Add your comment]**, le client saisit une brève note pour décrire la requête.
 
-1. Entre dans une **[!UICONTROL Quote Name]**.
+1. Entrez un **[!UICONTROL Quote Name]**.
 
-   ![Saisie des commentaires et du nom du guillemet](./assets/quote-request-from-cart-name-comments.png){width="400" zoomable="yes"}
+   ![Saisie des commentaires de guillemet et nom](./assets/quote-request-from-cart-name-comments.png){width="400" zoomable="yes"}
 
 1. Si nécessaire, joint un document ou une image de support au guillemet :
 
-   - Sélection **[!UICONTROL Attach file]**.
+   - Sélectionne **[!UICONTROL Attach file]**.
    - Choisit le fichier à partir de son système.
 
-   Par défaut, un [fichier joint](configure-quotes.md) peut contenir jusqu’à 2 Mo, dans l’un des formats de fichiers suivants : DOC, DOCX, XLS, XLSX, PDF, TXT, JPG ou JPEG, PNG.
+   Par défaut, un [fichier joint](configure-quotes.md) peut atteindre 2 Mo, dans n’importe quel format de fichier suivant : DOC, DOCX, XLS, XLSX, PDF, TXT, JPG ou JPEG, PNG.
 
 1. Crée et traite le guillemet :
 
-   - Envoie le devis au vendeur en sélectionnant **[!UICONTROL Request a Quote]**.
-   - [!BADGE fonctionnalité bêta 1.5.0]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible uniquement pour les participants au programme bêta"}**[!UICONTROL Save as Draft]**.
+   - Envoie le guillemet au vendeur en sélectionnant **[!UICONTROL Request a Quote]**.
+   - [!BADGE 1.5.0-beta fonctionnalité]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible uniquement pour les participants au programme Beta"}**[!UICONTROL Save as Draft]**.
 
-     Si l’acheteur enregistre le devis en tant que brouillon, le devis est disponible dans [!UICONTROL My Quotes] in `Draft` état. Les versions préliminaires ne sont pas visibles par le vendeur tant que l’acheteur ne les a pas envoyées pour révision.
+     Si l’acheteur enregistre le guillemet en tant que brouillon, le guillemet est disponible dans l’état [!UICONTROL My Quotes] dans `Draft`. Les versions préliminaires ne sont pas visibles par le vendeur tant que l’acheteur ne les a pas envoyées pour révision.

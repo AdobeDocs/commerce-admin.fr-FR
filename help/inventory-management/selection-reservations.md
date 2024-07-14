@@ -1,37 +1,37 @@
 ---
-title: Algorithmes source et réservations
-description: Découvrez l’algorithme de sélection de la source et les systèmes de réservation qui s’exécutent en arrière-plan pour conserver vos quantités vendables à jour.
+title: Algorithmes et réservations Source
+description: Découvrez l’algorithme de sélection Source et les systèmes de réservation qui s’exécutent en arrière-plan pour conserver vos quantités vendables à jour.
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '2173'
+source-wordcount: '2179'
 ht-degree: 0%
 
 ---
 
-# Algorithmes source et réservations
+# Algorithmes et réservations Source
 
-Le coeur de [!DNL Inventory Management] effectue le suivi de tous les produits disponibles, virtuellement et en main, dans vos entrepôts et magasins. L’algorithme de sélection de source et les systèmes de réservation s’exécutent en arrière-plan, en conservant vos quantités vendables à jour, en évitant les collisions et en recommandant des options d’expédition.
+Le coeur de [!DNL Inventory Management] effectue le suivi de tous les produits disponibles, virtuellement et en main, dans vos entrepôts et magasins. L’algorithme de sélection et les systèmes de réservation de Source s’exécutent en arrière-plan, ce qui permet de conserver vos quantités vendables à jour, de ne pas subir de collisions et d’options d’expédition recommandées.
 
 >[!NOTE]
 >
->Voir [documentation destinée aux développeurs](https://developer.adobe.com/commerce/php/development/framework/inventory-management/) pour plus d’informations sur l’utilisation de la fonction [!DNL Inventory Management] système par programmation.
+>Pour plus d’informations sur l’utilisation programmée du système [!DNL Inventory Management], reportez-vous à la [documentation destinée aux développeurs](https://developer.adobe.com/commerce/php/development/framework/inventory-management/).
 
-## Algorithme de sélection de source
+## Algorithme de sélection Source
 
-L’algorithme de sélection de source (SSA) analyse et détermine la meilleure correspondance pour les sources et l’expédition à l’aide de l’ordre de priorité des sources configurées dans un stock. Lors de l’envoi de commandes, l’algorithme fournit une liste recommandée de sources, de quantités disponibles et de montants à déduire selon l’algorithme sélectionné. [!DNL Inventory Management] fournit un algorithme Priorité et prend en charge les extensions pour les nouvelles options.
+L’algorithme de sélection Source (SSA) analyse et détermine la meilleure correspondance pour les sources et l’expédition à l’aide de l’ordre de priorité des sources configurées dans un stock. Lors de l’envoi de commandes, l’algorithme fournit une liste recommandée de sources, de quantités disponibles et de montants à déduire selon l’algorithme sélectionné. [!DNL Inventory Management] fournit un algorithme de priorité et prend en charge les extensions pour les nouvelles options.
 
 Avec plusieurs emplacements sources, des clients globaux et des opérateurs avec différentes options d’expédition et différents frais, connaître votre inventaire réel disponible et trouver la meilleure option d’expédition peut s’avérer difficile. SSA effectue le travail pour vous, depuis le suivi des quantités vendables des stocks de toutes les sources jusqu’au calcul et la recommandation des envois.
 
-**Suivi du stock** - En utilisant des stocks et des sources, l’ASS vérifie le canal de vente des demandes de produits entrantes et détermine le stock disponible :
+**Suivi de l’inventaire** - En utilisant des stocks et des sources, l’ASS vérifie le canal de vente des demandes de produits entrantes et détermine l’inventaire disponible :
 
 - Calcule la quantité virtuelle agrégée de toutes les sources attribuées par stock : agrège Quantité - Seuil hors stock par source
 - Enlève le montant du seuil d’rupture de stock à la quantité vendue afin de se protéger contre la vente excessive.
 - Réserve les quantités d&#39;inventaire lors de l&#39;envoi de la commande, en les déduisant de l&#39;inventaire en stock lors du traitement des commandes et de l&#39;expédition
 - Prend en charge les commandes avec des options améliorées de seuils négatifs
 
-**Gestion des envois** - L’algorithme permet de traiter et d’envoyer des commandes. Vous pouvez exécuter l’algorithme pour obtenir des recommandations sur les meilleures sources d’expédition du produit ou remplacer les sélections sur :
+**Gérer les envois** - L’algorithme permet de traiter et d’envoyer des commandes. Vous pouvez exécuter l’algorithme pour obtenir des recommandations sur les meilleures sources d’expédition du produit ou remplacer les sélections sur :
 
 - Livrez des envois partiels, n’envoyez que quelques produits provenant de lieux spécifiques et effectuez la commande complète ultérieurement.
 - Livrez la commande entière à partir d’une source
@@ -43,9 +43,9 @@ SSA est extensible pour une prise en charge tierce et des algorithmes personnali
 >
 >SSA fonctionne différemment pour les produits virtuels et téléchargeables, ce qui peut ne pas entraîner de frais d’expédition. Dans ce cas, le système exécute implicitement l’algorithme lorsqu’il crée des factures et utilise toujours les résultats suggérés. Vous ne pouvez pas ajuster ces résultats pour les produits virtuels et téléchargeables.
 
-### Algorithme de priorité source
+### Algorithme de priorité Source
 
-Les stocks personnalisés comprennent une liste attribuée de sources à vendre et à expédier l’inventaire des produits disponibles via votre vitrine. L’algorithme Priorité source utilise l’ordre des sources affectées dans le stock pour recommander des déductions de produit par source lors de la facturation et de l’expédition de la commande.
+Les stocks personnalisés comprennent une liste attribuée de sources à vendre et à expédier l’inventaire des produits disponibles via votre vitrine. L’algorithme de priorité Source utilise l’ordre des sources affectées dans le stock pour recommander des déductions de produit par source lors de la facturation et de l’expédition de la commande.
 
 Lors de l’exécution, l’algorithme :
 
@@ -66,9 +66,9 @@ L’algorithme de priorité des distances compare l’emplacement de l’adresse
 
 Vous disposez de deux options pour calculer la distance et le temps afin de trouver la source la plus proche pour l’exécution de l’expédition :
 
-- **CARTE GOOGLE** - Utilisations [Plateforme Google Maps][1] Services permettant de calculer la distance et l’heure entre l’adresse de destination de l’expédition et les emplacements sources (adresse et coordonnées GPS). Cette option utilise la latitude et la longitude de la source. Une clé API Google est requise avec [API Geocoding][2] et [API de la matrice de distance][3] activée. Cette option nécessite un plan de facturation Google et peut entraîner des frais via Google.
+- **Google MAP** - Utilise les services [Google Maps Platform][1] pour calculer la distance et l&#39;heure entre l&#39;adresse de destination d&#39;expédition et les emplacements source (adresse et coordonnées GPS). Cette option utilise la latitude et la longitude de la source. Une clé d’API Google est requise avec [l’API Geocoding][2] et l’ [ API Distance Matrix][3] activée. Cette option nécessite un plan de facturation Google et peut entraîner des frais via Google.
 
-- **Calcul hors ligne** - Calcule la distance à l’aide des données de géocode téléchargées et importées afin de déterminer la source la plus proche de l’adresse de destination de livraison. Cette option utilise les codes pays de l’adresse et de la source d’expédition. Pour configurer cette option, vous pouvez avoir besoin de l’aide du développeur pour télécharger et importer des géocodes à l’aide d’une ligne de commande.
+- **Calcul hors ligne** - Calcule la distance à l’aide des données de géocode téléchargées et importées pour déterminer la source la plus proche de l’adresse de destination de livraison. Cette option utilise les codes pays de l’adresse et de la source d’expédition. Pour configurer cette option, vous pouvez avoir besoin de l’aide du développeur pour télécharger et importer des géocodes à l’aide d’une ligne de commande.
 
 Pour configurer, sélectionnez des configurations et effectuez d’autres étapes, telles que la clé de l’API Google ou le téléchargement des données d’expédition. Voir [Configuration de l’algorithme de priorité des distances](distance-priority-algorithm.md).
 
@@ -82,7 +82,7 @@ Au lieu de déduire ou d’ajouter immédiatement des quantités d’inventaire 
 
 >[!NOTE]
 >
->La fonctionnalité de réservation requiert la variable `inventory.reservations.updateSalabilityStatus` client de file d’attente de messages à exécuter en continu. Pour vérifier s’il est en cours d’exécution, utilisez le `bin/magento queue:consumers:list` . Si le consommateur de la file de messages n&#39;est pas répertorié, démarrez-le : `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
+>La fonctionnalité de réservation nécessite que le client de file d’attente de messages `inventory.reservations.updateSalabilityStatus` s’exécute en continu. Pour vérifier s’il est en cours d’exécution, utilisez la commande `bin/magento queue:consumers:list` . Si le consommateur de la file de messages n&#39;est pas répertorié, démarrez-le : `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
 
 ### Réservations des commandes
 
@@ -92,9 +92,9 @@ Le diagramme suivant permet de définir le processus de réservation lors d&#39;
 
 ![Réservations de la commande à la diffusion](assets/diagram-quantity.png){width="600" zoomable="yes"}
 
-Un client envoie une commande. [!DNL Commerce] vérifie la quantité disponible dans l’inventaire actuel. Si un stock suffisant est disponible au niveau du stock, une réservation entre en place une suspension temporaire pour le SKU du produit (pour ce stock) et recalcule la quantité vendable.
+Un client envoie une commande. [!DNL Commerce] vérifie la quantité actuelle pouvant être vendue dans l’inventaire. Si un stock suffisant est disponible au niveau du stock, une réservation entre en place une suspension temporaire pour le SKU du produit (pour ce stock) et recalcule la quantité vendable.
 
-Une fois la commande facturée, vous déterminez le produit à déduire et à expédier à partir de vos sources. L&#39;envoi est traité et envoyé d&#39;une ou plusieurs sources sélectionnées au client. Les quantités sont automatiquement déduites de la quantité de stock source et les réservations sont effacées. Pour obtenir des détails et des exemples complets, voir [À propos de l’état et des réservations des commandes](order-status.md).
+Une fois la commande facturée, vous déterminez le produit à déduire et à expédier à partir de vos sources. L&#39;envoi est traité et envoyé d&#39;une ou plusieurs sources sélectionnées au client. Les quantités sont automatiquement déduites de la quantité de stock source et les réservations sont effacées. Pour obtenir des détails et des exemples complets, voir [À propos de l’état de la commande et des réservations](order-status.md).
 
 ## Calculs de réservation
 
@@ -112,15 +112,15 @@ Avant que le système puisse émettre une réservation en réponse à une nouvel
 
 - **Quantité StockItem**. La quantité StockItem est la quantité agrégée de l’inventaire provenant de toutes les sources physiques du canal de ventes actuel. Prenons un exemple où la source Baltimore possède 20 unités de produit, la source Austin 25 unités du même produit et la source Reno 10. Lorsque toutes ces sources sont liées au stock A, le stockItem de ce produit est 55 (20 + 25 + 10). (Lorsque des articles sont expédiés, l’indexeur d’inventaire met à jour les quantités disponibles pour chaque source.)
 
-- **Restrictions en suspens**. Le système totalise toutes les réserves initiales qui n&#39;ont pas été indemnisées. Ce nombre est toujours négatif. Si le client A a réservé dix articles et que le client B a réservé 5 articles, alors les réservations exceptionnelles pour le produit total -15.
+- **Réservations en attente**. Le système totalise toutes les réserves initiales qui n&#39;ont pas été indemnisées. Ce nombre est toujours négatif. Si le client A a réservé dix articles et que le client B a réservé 5 articles, alors les réservations exceptionnelles pour le produit total -15.
 
 Par conséquent, le marchand peut répondre à une commande entrante tant que le client commande moins de 40 (55 + -15) unités.
 
-Lorsque vous terminez le traitement d’une commande (Terminé, Annulé, Fermé), toutes les réserves dans le cadre de cette commande doivent être résolues sur `0`. Cela efface toutes les quantités pouvant être vendues.
+Lorsque vous terminez le traitement d’une commande (Terminé, Annulé, Fermé), toutes les réserves dans la portée de cette commande doivent être résolues sur `0`. Cela efface toutes les quantités pouvant être vendues.
 
 >[!NOTE]
 >
->Les paramètres d’arrière-plan (avec des seuils en rupture de stock) et de notification pour la quantité inférieure au seuil affectent également le calcul des quantités vendables, mais ils ne sont pas compris dans le cadre de cette rubrique. Pour plus d’informations sur ces paramètres, voir [Configuration [!DNL Inventory Management]](./configuration.md).
+>Les paramètres d’arrière-plan (avec des seuils en rupture de stock) et de notification pour la quantité inférieure au seuil affectent également le calcul des quantités vendables, mais ils ne sont pas compris dans le cadre de cette rubrique. Pour plus d&#39;informations sur ces paramètres, voir [Configuration [!DNL Inventory Management]](./configuration.md).
 
 ## Objets de réservation
 
@@ -136,7 +136,7 @@ Une réservation contient les informations suivantes :
 
 {style="table-layout:auto"}
 
-Métadonnées `event_type` peuvent avoir les valeurs suivantes :
+Les métadonnées `event_type` peuvent avoir les valeurs suivantes :
 
 - `order_placed`
 - `order_canceled`
@@ -144,7 +144,7 @@ Métadonnées `event_type` peuvent avoir les valeurs suivantes :
 - `creditmemo_created`
 - `invoice_created`
 
-Actuellement, le type d’objet de métadonnées doit être `order`et l’identifiant de l’objet est l’identifiant de la commande.
+Actuellement, le type d’objet de métadonnées doit être `order` et l’ID d’objet est l’ID de commande.
 
 Dans les prochaines versions, il sera peut-être possible de créer une réservation lorsqu’un client ajoute un article à un panier. Chaque article peut être réservé pendant une durée fixe (15 minutes, par exemple), ce qui permet au client de réserver des articles tout en continuant à faire ses achats. Lorsque ce type de réservation est activé, les métadonnées peuvent contenir des types d’informations supplémentaires.
 
@@ -152,7 +152,7 @@ Dans les prochaines versions, il sera peut-être possible de créer une réserva
 
 L’exemple suivant illustre la séquence des réservations générées pour une commande simple.
 
-1. Le client effectue une commande pour 25 unités de produit. `SKU-1`. La réservation contient les informations suivantes :
+1. Le client effectue une commande pour 25 unités du produit `SKU-1`. La réservation contient les informations suivantes :
 
    ```text
    reservation_id = 1
@@ -182,39 +182,39 @@ L’exemple suivant illustre la séquence des réservations générées pour une
    event_type = shipment_created
    ```
 
-Les trois `quantity` La somme des valeurs est égale à 0 (-25 + 5 + 20). Le système ne modifie aucune réservation existante.
+Les trois valeurs `quantity` totalisent 0 (-25 + 5 + 20). Le système ne modifie aucune réservation existante.
 
 ## Suppression des réservations traitées
 
-La variable `inventory_cleanup_reservations` la tâche cron exécute des requêtes SQL pour effacer la table de la base de données de réservation. Par défaut, il s’exécute tous les jours à minuit, mais vous pouvez configurer les heures et la fréquence. La tâche cron exécute un script qui interroge la base de données afin de trouver des séquences de réservation complètes dans lesquelles la somme des valeurs de quantité est 0. Lorsque toutes les réservations pour un produit donné qui a été émis le même jour (ou à une autre heure configurée) ont été indemnisées, la tâche cron supprime toutes les réservations en même temps.
+La tâche cron `inventory_cleanup_reservations` exécute des requêtes SQL pour effacer la table de la base de données de réservation. Par défaut, il s’exécute tous les jours à minuit, mais vous pouvez configurer les heures et la fréquence. La tâche cron exécute un script qui interroge la base de données afin de trouver des séquences de réservation complètes dans lesquelles la somme des valeurs de quantité est 0. Lorsque toutes les réservations pour un produit donné qui a été émis le même jour (ou à une autre heure configurée) ont été indemnisées, la tâche cron supprime toutes les réservations en même temps.
 
-La variable `inventory_reservations_cleanup` la tâche cron n’est pas la même que la fonction `inventory.reservations.cleanup` client de la file d’attente des messages. Le consommateur supprime de manière asynchrone les réservations par SKU de produit après la suppression d’un produit, tandis que la tâche cron efface la table complète des réservations. Le client est requis lorsque vous activez la variable [**Synchronisation avec le catalogue**](../configuration-reference/catalog/inventory.md) option stock dans la configuration du magasin. Voir [Gestion des files d’attente de messages](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) dans le _Guide de configuration_.
+La tâche cron `inventory_reservations_cleanup` n’est pas la même que le consommateur de file d’attente de messages `inventory.reservations.cleanup`. Le consommateur supprime de manière asynchrone les réservations par SKU de produit après la suppression d’un produit, tandis que la tâche cron efface la table complète des réservations. Le consommateur est requis lorsque vous activez l’option de stock [**Synchroniser avec le catalogue**](../configuration-reference/catalog/inventory.md) dans la configuration du magasin. Voir [Gestion des files d’attente de messages](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) dans le _Guide de configuration_.
 
 Souvent, toutes les réserves initiales produites en une seule journée ne peuvent être indemnisées ce même jour. Cette situation peut se produire lorsqu’un client passe une commande juste avant que la tâche cron ne commence ou effectue l’achat avec un mode de paiement hors ligne, tel qu’un transfert bancaire. Les séquences de réservation compensées restent dans la base de données jusqu’à ce qu’elles soient toutes indemnisées. Cette pratique n’interfère pas avec les calculs de réservation, car le total de chaque réservation est de 0.
 
 >[!NOTE]
 >
->Vous pouvez utiliser des commandes d’interface de ligne de commande pour détecter et gérer les incohérences de réservation (voir la section [[!DNL Inventory Management] Référence de ligne de commande](cli.md)).
+>Il existe des commandes d’interface de ligne de commande que vous pouvez utiliser pour détecter et gérer les incohérences de réservation (voir la [[!DNL Inventory Management] référence d’interface de ligne de commande](cli.md)).
 
 ### Mises à jour des réservations
 
-Lorsque les modifications sont terminées dans les commandes et les quantités de produits, [!DNL Commerce] entre automatiquement dans les compensations de réservation. Vous n’avez pas besoin de renseigner des compensations par le biais de l’administrateur ou du code pour mettre à jour ou effacer ces retenues. Les réservations ne sont concernées que par les réservations entrées pour mettre une réserve sur une quantité ou pour effacer un montant de la retenue (qui compensent les réservations).
+Lorsque les modifications sont terminées dans les commandes et les quantités de produits, [!DNL Commerce] entre automatiquement les compensations de réservation. Vous n’avez pas besoin de renseigner des compensations par le biais de l’administrateur ou du code pour mettre à jour ou effacer ces retenues. Les réservations ne sont concernées que par les réservations entrées pour mettre une réserve sur une quantité ou pour effacer un montant de la retenue (qui compensent les réservations).
 
 Voici comment ils fonctionnent :
 
-- **Envoyer la commande** - Lorsqu’une commande est envoyée pour plusieurs produits, une réservation entre pour ce montant. Par exemple, la commande de cinq packs depuis un site web américain entre dans une réservation de `-5` pour ce SKU et ce stock. La quantité vendable est réduite de 5.
+- **Commande envoyée** - Lorsqu’une commande est envoyée pour plusieurs produits, une réservation entre pour ce montant. Par exemple, la commande de cinq sacs à dos à partir d’un site web américain entraîne la réservation de `-5` pour ce SKU et ce stock. La quantité vendable est réduite de 5.
 
-- **Annuler la commande** - Lorsqu&#39;une commande est annulée (totale ou partielle), une réservation de compensation entre en vigueur pour effacer ce montant. Par exemple, l’annulation de trois packs sauvegarde une réservation de +3 pour ce SKU et ce stock, en vidant la suspension. La quantité vendable est augmentée de 3.
+- **Annulation de la commande** - Lorsqu’une commande est annulée (totale ou partielle), une réservation de compensation entre en vigueur pour effacer ce montant. Par exemple, l’annulation de trois packs sauvegarde une réservation de +3 pour ce SKU et ce stock, en vidant la suspension. La quantité vendable est augmentée de 3.
 
-- **Ordre d’expédition** - Lorsqu&#39;une commande est expédiée (totale ou partielle), une réserve de compensation entre en vigueur pour effacer ce montant. Par exemple, l’expédition de deux packs d’arrière-plan entre dans une réservation +2 pour ce SKU et ce stock, en effaçant la suspension. La quantité du produit est directement réduite de 2 pour l&#39;expédition. La quantité calculée pouvant être vendue est également mise à jour pour le montant réduit du stock, mais n&#39;est plus affectée par la réservation.
+- **Commande expédiée** - Lorsqu’une commande est expédiée (partielle ou totale), une réservation de compensation entre en vigueur pour effacer ce montant. Par exemple, l’expédition de deux packs d’arrière-plan entre dans une réservation +2 pour ce SKU et ce stock, en effaçant la suspension. La quantité du produit est directement réduite de 2 pour l&#39;expédition. La quantité calculée pouvant être vendue est également mise à jour pour le montant réduit du stock, mais n&#39;est plus affectée par la réservation.
 
-![Mises à jour des réservations](assets/diagram-reservation.png){width="600" zoomable="yes"}
+![ Mises à jour de réservation](assets/diagram-reservation.png){width="600" zoomable="yes"}
 
 Toutes les réservations doivent faire l&#39;objet d&#39;une compensation lorsque les commandes sont réalisées, que les produits sont annulés, que des notes de crédit sont émises, etc. Si les compensations n&#39;effacent pas les réservations, vous pourriez avoir des quantités gardées en stase (non disponibles à la vente et jamais à la livraison).
 
 >[!NOTE]
 >
->Si vous souhaitez examiner les réservations, une série d’options de ligne de commande sont disponibles. Vous pouvez uniquement passer en revue les réservations via une interface de ligne de commande. L’utilisation de commandes de l’interface de ligne de commande peut nécessiter une aide du développeur. Voir [[!DNL Inventory Management] Référence de ligne de commande](cli.md).
+>Si vous souhaitez examiner les réservations, une série d’options de ligne de commande sont disponibles. Vous pouvez uniquement passer en revue les réservations via une interface de ligne de commande. L’utilisation de commandes de l’interface de ligne de commande peut nécessiter une aide du développeur. Voir [[!DNL Inventory Management] Référence de l’interface de ligne de commande](cli.md).
 
 Si vous supprimez toutes les sources d’un produit pour un stock avec des commandes en attente, vous avez peut-être bloqué les réservations.
 

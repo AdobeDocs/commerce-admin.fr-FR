@@ -1,18 +1,18 @@
 ---
 title: Média - Curseur
-description: Découvrez le type de contenu Curseur utilisé pour ajouter un diaporama d’images à la [!DNL Page Builder] scène.
+description: Découvrez le type de contenu Curseur, utilisé pour ajouter un diaporama d’images à la scène  [!DNL Page Builder] .
 exl-id: 757dbdc3-b146-4ef8-a17d-59f8da62626f
 feature: Page Builder, Page Content
 source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
 workflow-type: tm+mt
-source-wordcount: '3799'
+source-wordcount: '3810'
 ht-degree: 0%
 
 ---
 
 # Média - Curseur
 
-Utilisez la variable _Curseur_ type de contenu pour ajouter un diaporama des images à la [[!DNL Page Builder] étape](workspace.md#stage). Vous pouvez télécharger de nouvelles images ou sélectionner des images existantes dans la galerie ou le catalogue de produits. Un curseur peut être défini pour une lecture automatique ou être contrôlé manuellement à l’aide des boutons de navigation. Pour associer le curseur à une promotion spécifique, voir [Bloc dynamique](dynamic-block.md).
+Utilisez le type de contenu _Curseur_ pour ajouter un diaporama d’images à l’ [[!DNL Page Builder] étape](workspace.md#stage). Vous pouvez télécharger de nouvelles images ou sélectionner des images existantes dans la galerie ou le catalogue de produits. Un curseur peut être défini pour une lecture automatique ou être contrôlé manuellement à l’aide des boutons de navigation. Pour associer le curseur à une promotion spécifique, voir [Bloc dynamique](dynamic-block.md).
 
 ![Curseur de médias sur le storefront](./assets/pb-media-slider-buy3-get1free-storefront.png){width="700" zoomable="yes"}
 
@@ -20,19 +20,19 @@ Utilisez la variable _Curseur_ type de contenu pour ajouter un diaporama des ima
 
 ## Toolbox
 
-Lorsque vous utilisez le type de contenu Curseur , vous ajoutez et modifiez des diapositives individuelles et le conteneur de curseur qui contient une ou plusieurs diapositives. Chaque diapositive possède sa propre boîte à outils que vous utilisez pour concevoir des diapositives sur [!DNL Page Builder] scène.
+Lorsque vous utilisez le type de contenu Curseur , vous ajoutez et modifiez des diapositives individuelles et le conteneur de curseur qui contient une ou plusieurs diapositives. Chaque diapositive possède sa propre boîte à outils que vous utilisez pour concevoir des diapositives sur la scène [!DNL Page Builder].
 
 ## Barre d’outils de diapositives individuelle
 
-![Barre d’outils de diapositives individuelle](./assets/pb-media-slider-toolbox-slide-row.png){width="500" zoomable="yes"}
+![Boîte à outils de diapositives individuelle](./assets/pb-media-slider-toolbox-slide-row.png){width="500" zoomable="yes"}
 
 | Outil | Icône | Description |
 |--- |--- |--- |
 | Déplacer | ![Icône Déplacer](./assets/pb-icon-move.png){width="25"} | Déplace la diapositive vers une autre position sur le curseur. |
 | (label) | Numéro de la diapositive | Identifie le numéro de la diapositive actuelle. |
-| Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la _[!UICONTROL Edit Slide]_dans laquelle vous pouvez modifier les propriétés de la diapositive actuelle. |
+| Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _[!UICONTROL Edit Slide]_où vous pouvez modifier les propriétés de la diapositive actuelle. |
 | Dupliquer | ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="25"} | Effectue une copie de la diapositive actuelle. |
-| Supprimer | ![Icône Supprimer](./assets/pb-icon-remove.png){width="25"} | Supprime la diapositive actuelle du curseur. |
+| Supprimer | ![Supprimer l’icône](./assets/pb-icon-remove.png){width="25"} | Supprime la diapositive actuelle du curseur. |
 
 {style="table-layout:auto"}
 
@@ -42,11 +42,11 @@ Lorsque vous utilisez le type de contenu Curseur , vous ajoutez et modifiez des 
 |--- |--- |--- |
 | Déplacer | ![Icône Déplacer](./assets/pb-icon-move.png){width="25"} | Déplace le curseur vers une autre position sur la scène. |
 | (label) | [!UICONTROL Slider] | Identifie le conteneur de curseur. |
-| Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la _[!UICONTROL Edit Slider]_dans laquelle vous pouvez modifier les propriétés de la vidéo et du conteneur. |
+| Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _[!UICONTROL Edit Slider]_dans laquelle vous pouvez modifier les propriétés de la vidéo et du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le curseur actuel. |
 | Afficher | ![Icône Afficher](./assets/pb-icon-show.png){width="25"} | Affiche le curseur masqué. |
 | Dupliquer | ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="25"} | Effectue une copie du curseur. |
-| Supprimer | ![Icône Supprimer](./assets/pb-icon-remove.png){width="25"} | Supprime le curseur de la scène. |
+| Supprimer | ![Supprimer l’icône](./assets/pb-icon-remove.png){width="25"} | Supprime le curseur de la scène. |
 
 {style="table-layout:auto"}
 
@@ -54,21 +54,21 @@ Lorsque vous utilisez le type de contenu Curseur , vous ajoutez et modifiez des 
 
 ## Ajouter une diapositive individuelle
 
-1. Ouvrez la page, le bloc ou le bloc dynamique dans lequel vous souhaitez placer le curseur et développez l’objet **[!UICONTROL Content]** .
+1. Ouvrez la page, le bloc ou le bloc dynamique où vous souhaitez placer le curseur et développez la section **[!UICONTROL Content]**.
 
-1. Dans le [!DNL Page Builder] panneau, développer **[!UICONTROL Media]** et faites glisser un **[!UICONTROL Slider]** espace réservé à une ligne, une colonne ou un onglet sur l’étape.
+1. Dans le panneau [!DNL Page Builder], développez **[!UICONTROL Media]** et faites glisser un espace réservé **[!UICONTROL Slider]** sur une ligne, une colonne ou un onglet de la scène.
 
    Dans l’exemple suivant, la couleur d’arrière-plan de la ligne est jaune (`#fffd16`).
 
-   ![Faire glisser le curseur sur la scène](./assets/pb-media-slider-drag-row.png){width="600" zoomable="yes"}
+   ![Faire glisser le curseur sur l’étape](./assets/pb-media-slider-drag-row.png){width="600" zoomable="yes"}
 
    Le conteneur de curseur s’affiche sur l’scène avec une seule diapositive vide.
 
-1. Cliquez sur dans le conteneur de réglette pour afficher la variable [éditeur de texte](../content-design/editor.md) et saisissez le contenu de la première diapositive.
+1. Cliquez dans le conteneur de curseur pour afficher l’ [éditeur de texte](../content-design/editor.md) et saisissez le contenu de la première diapositive.
 
-   Vous pouvez également inclure un contenu de bannière plus complexe à l’aide de la fonction [Contenu](#content) paramètres.
+   Vous pouvez également inclure un contenu de bannière plus complexe à l’aide des paramètres [Content](#content) .
 
-1. Cliquez sur le point de navigation au bas du curseur pour afficher la boîte à outils de la diapositive individuelle et sélectionnez l’option _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
+1. Cliquez sur le point de navigation au bas du curseur pour afficher la boîte à outils de la diapositive individuelle, puis sélectionnez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
    Les curseurs ont deux boîtes à outils. Assurez-vous que vous utilisez la boîte à outils de la diapositive en bas.
 
@@ -80,7 +80,7 @@ Lorsque vous utilisez le type de contenu Curseur , vous ajoutez et modifiez des 
    - [[!UICONTROL Search Engine Optimization]](#seo)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
 ## Ajouter d’autres diapositives
 
@@ -92,11 +92,11 @@ Pour ajouter des diapositives, utilisez une ou plusieurs des méthodes suivantes
 
 Vous pouvez gagner du temps en dupliquant une diapositive qui a déjà été configurée avec les paramètres nécessaires.
 
-1. Cliquez sur le point de navigation situé sous la diapositive pour afficher la boîte à outils et choisissez la _Dupliquer_ ( ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="20"} ).
+1. Cliquez sur le point de navigation sous la diapositive pour afficher la boîte à outils et sélectionnez l’icône _Dupliquer_ ( ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="20"} ).
 
-   ![Duplication d’une diapositive](./assets/pb-media-slider-duplicate-slide.png){width="500" zoomable="yes"}
+   ![Duplication d&#39;une diapositive](./assets/pb-media-slider-duplicate-slide.png){width="500" zoomable="yes"}
 
-1. Cliquez sur le point de navigation de la nouvelle diapositive pour afficher la boîte à outils et choisissez la _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
+1. Cliquez sur le point de navigation de la nouvelle diapositive et pour afficher la boîte à outils, choisissez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
 1. Modifiez les paramètres selon les besoins, en fonction des sections suivantes :
 
@@ -105,19 +105,19 @@ Vous pouvez gagner du temps en dupliquant une diapositive qui a déjà été con
    - [[!UICONTROL Content]](#content)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
 ### Méthode 2 : ajouter une nouvelle diapositive vierge
 
-1. Passez la souris sur le conteneur de curseur en haut de l’écran pour afficher la boîte à outils et sélectionnez l’option _Ajouter_ ( ![Icône Ajouter](./assets/pb-icon-add.png){width="20"} ).
+1. Pointez sur le conteneur de curseur en haut pour afficher la boîte à outils et sélectionnez l’icône _Ajouter_ ( ![Icône Ajouter](./assets/pb-icon-add.png){width="20"} ).
 
-   ![Ajouter une diapositive vierge](./assets/pb-media-slider-toolbox-add.png){width="500" zoomable="yes"}
+   ![Ajout d’une diapositive vierge](./assets/pb-media-slider-toolbox-add.png){width="500" zoomable="yes"}
 
    Une nouvelle diapositive vierge avec son propre point de navigation et sa propre boîte à outils est ajoutée au curseur et s’affiche sur la scène.
 
    ![Nouvelle diapositive avec boîte à outils](./assets/pb-media-slider-slide2-toolbox.png){width="500" zoomable="yes"}
 
-1. Cliquez sur le point de navigation de la nouvelle diapositive pour afficher la boîte à outils et choisissez la _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
+1. Cliquez sur le point de navigation de la nouvelle diapositive et pour afficher la boîte à outils, choisissez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
 1. Modifiez les paramètres selon les besoins, en fonction des sections suivantes :
 
@@ -126,31 +126,31 @@ Vous pouvez gagner du temps en dupliquant une diapositive qui a déjà été con
    - [[!UICONTROL Content]](#content)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]** dans le coin supérieur droit pour fermer la _[!UICONTROL Edit Slide]_page.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** dans le coin supérieur droit pour fermer la page _[!UICONTROL Edit Slide]_.
 
 ### Ajout d’un widget sur une diapositive
 
-Vous pouvez ajouter n’importe quel [type de widgets](../content-design/widgets.md#widget-types) à votre diapositive dans une [!DNL Page Builder] à l’aide des étapes suivantes :
+Vous pouvez ajouter n’importe quel [type de widgets](../content-design/widgets.md#widget-types) à votre diapositive dans une étape [!DNL Page Builder] en suivant les étapes suivantes :
 
-1. [Création du widget](../content-design/widget-create.md) que vous voulez voir sur une diapositive.
+1. [Créez le widget](../content-design/widget-create.md) que vous souhaitez afficher sur une diapositive.
 
-1. Ouvrez la page, le bloc ou le bloc dynamique dans lequel vous souhaitez placer le curseur et développez l’objet **[!UICONTROL Content]** .
+1. Ouvrez la page, le bloc ou le bloc dynamique où vous souhaitez placer le curseur et développez la section **[!UICONTROL Content]**.
 
-1. Dans le [!DNL Page Builder] panneau, développer **[!UICONTROL Media]** et faites glisser un **[!UICONTROL Slider]** espace réservé à une ligne, une colonne ou un onglet sur l’étape.
+1. Dans le panneau [!DNL Page Builder], développez **[!UICONTROL Media]** et faites glisser un espace réservé **[!UICONTROL Slider]** sur une ligne, une colonne ou un onglet de la scène.
 
-1. Cliquez sur dans le conteneur de réglette pour afficher la variable [éditeur de texte](../content-design/editor.md) , puis cliquez sur _Insérer un widget_ ( ![Icône Insérer un widget](./assets/editor-btn-insert-widget.png){width="20"} ).
+1. Cliquez dans le conteneur de curseur pour afficher la barre d’outils [de l’éditeur de texte](../content-design/editor.md) et cliquez sur l’icône _Insérer un widget_ ( ![icône Insérer un widget](./assets/editor-btn-insert-widget.png){width="20"} ).
 
-1. Sélectionnez la variable **[!UICONTROL Widget Type]** vous avez besoin.
+1. Sélectionnez le **[!UICONTROL Widget Type]** dont vous avez besoin.
 
 1. Spécifiez les paramètres, qui sont différents selon le type de widget.
 
-   ![Exemple d’insertion de widget sur la diapositive](./assets/insert-widget-to-slide-page.png){width="600" zoomable="yes"}
+   ![Exemple d&#39;insertion de widget sur la diapositive](./assets/insert-widget-to-slide-page.png){width="600" zoomable="yes"}
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Insert Widget]** dans le coin supérieur droit.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Insert Widget]** dans le coin supérieur droit.
 
 1. Modifiez les autres paramètres selon les besoins.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]** dans le coin supérieur droit.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** dans le coin supérieur droit.
 
    ![Exemple de widget inséré sur la diapositive](./assets/inserting-widget-on-slide.png){width="600" zoomable="yes"}
 
@@ -185,9 +185,9 @@ La diapositive de l’exemple précédent comporte une image d’arrière-plan, 
 
 1. Modifiez l’affichage du curseur sur la scène et affichez la diapositive que vous souhaitez modifier.
 
-1. Dans la boîte à outils d’une diapositive, choisissez la _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ) et renseignez les paramètres, si nécessaire, en fonction des sections suivantes.
+1. Dans la boîte à outils individuelle des diapositives, sélectionnez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ) et renseignez les paramètres, selon les besoins, selon les sections suivantes.
 
-1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
 ### [!UICONTROL Appearance]
 
@@ -202,7 +202,7 @@ La diapositive de l’exemple précédent comporte une image d’arrière-plan, 
 
    {style="table-layout:auto"}
 
-   ![Positionnement des diapositives](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
+   ![Position de la diapositive](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
 
 1. Saisissez le **[!UICONTROL Slide Name]**.
 
@@ -210,9 +210,9 @@ La diapositive de l’exemple précédent comporte une image d’arrière-plan, 
 
    ![Nom de la diapositive dans la navigation](./assets/pb-media-slider-name-buy3-get1free.png){width="500" zoomable="yes"}
 
-1. Saisissez le **[!UICONTROL Minimum Height]** pour la diapositive.
+1. Saisissez le **[!UICONTROL Minimum Height]** de la diapositive.
 
-   La hauteur minimale peut être un nombre avec n’importe quelle unité CSS valide (telle que `100px`, `50%`, `50em`, `100vh`) ou un calcul (tel que `100vh - 237px`).
+   La hauteur minimale peut être un nombre avec n’importe quelle unité CSS valide (telle que `100px`, `50%`, `50em`, `100vh`) ou un calcul (telle que `100vh - 237px`).
 
    Par exemple, vous pouvez définir la hauteur minimale de la diapositive pour couvrir la hauteur totale de la page, puis utiliser des images et des vidéos d’arrière-plan pour des options de conception attrayantes.
 
@@ -233,32 +233,32 @@ Spécifiez la couleur d’arrière-plan en choisissant un échantillon, en cliqu
 Vous pouvez définir la valeur de l’une des trois façons suivantes :
 
 - Un nom de couleur prédéfini, tel que `White`
-- La valeur de couleur hexadécimale de la couleur, telle que `#ffffff`
-- Valeur rgba de la couleur, avec pourcentage d’opacité, comme `rgba(255, 255, 255, 0.75)`
+- La valeur de couleur hexadécimale de la couleur, par exemple `#ffffff`
+- La valeur rgba de la couleur, avec le pourcentage d’opacité, comme `rgba(255, 255, 255, 0.75)`
 
-Si vous souhaitez choisir une couleur, cliquez sur l’échantillon à gauche du _Aucune couleur_ de la boîte.
+Si vous souhaitez choisir une couleur, cliquez sur l’échantillon à gauche de la zone _Aucune couleur_.
 
 ![Choix d’un échantillon de couleur](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
 Si vous cliquez sur la zone de couleur pour ouvrir à nouveau le sélecteur de couleurs, la zone située sous le curseur affiche les valeurs actuelles rouge, vert, bleu et alpha (rgba). Le dernier chiffre indique le pourcentage d’opacité actuel sous forme décimale. Vous pouvez utiliser le curseur pour ajuster l’opacité ou saisir la valeur décimale souhaitée.
 
-![Définition de l’opacité des couleurs de fond](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
+![Définition de l’opacité des couleurs d’arrière-plan](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->[!DNL Page Builder] prend également en charge un calque de transparence, ou _canal alpha_, dans les images d’arrière-plan qui peuvent être utilisées pour créer des arrière-plans avec des degrés d’opacité variables.
+>[!DNL Page Builder] prend également en charge une couche de transparence, ou _couche alpha_, dans les images d’arrière-plan qui peuvent être utilisées pour créer des arrière-plans avec différents degrés d’opacité.
 
 ### [!UICONTROL Background Type]
 
-Un type d’arrière-plan peut être une image ou une vidéo. [!DNL Page Builder] par défaut : `Image` et affiche divers paramètres d’image. Si vous sélectionnez `Video`, [!DNL Page Builder] permute les paramètres de l’image avec les paramètres vidéo. Les deux paramètres de type d’arrière-plan sont décrits dans les sections suivantes.
+Un type d’arrière-plan peut être une image ou une vidéo. [!DNL Page Builder] est défini par défaut sur `Image` et affiche divers paramètres d’image. Si vous sélectionnez `Video`, [!DNL Page Builder] permute les paramètres de l’image avec les paramètres vidéo. Les deux paramètres de type d’arrière-plan sont décrits dans les sections suivantes.
 
 ![Type d’arrière-plan](./assets/pb-background-type.png){width="400"}
 
 ### Paramètres de type d’image
 
-Si vous définissez la variable _[!UICONTROL Background Type]_to `Image`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
+Si vous définissez _[!UICONTROL Background Type]_sur `Image`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
 
-![Bannière avec image de fond](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
+![Bannière avec image d’arrière-plan](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
 - **[!UICONTROL Background Image]** - Si nécessaire, utilisez les outils fournis pour choisir une image d’arrière-plan à appliquer à la bannière :
 
@@ -284,7 +284,7 @@ Si vous définissez la variable _[!UICONTROL Background Type]_to `Image`, utilis
 
   ![Taille de l’arrière-plan](./assets/pb-layout-row-settings-background-size-cover.png){width="400"}
 
-- **[!UICONTROL Background Position]** - Sélectionnez le mode d’ancrage de l’image d’arrière-plan par rapport à la bannière :
+- **[!UICONTROL Background Position]** - Choisissez la manière dont l’image d’arrière-plan est ancrée par rapport à la bannière :
 
   | Point d’ancrage | Position |
   | ------------ | -------- |
@@ -296,33 +296,33 @@ Si vous définissez la variable _[!UICONTROL Background Type]_to `Image`, utilis
 
   Le point d’ancrage est semblable à une épingle push qui attache l’image à la bannière à la position d’arrière-plan spécifiée.
 
-- **[!UICONTROL Background Repeat]** - Si vous souhaitez répéter l’image d’arrière-plan pour remplir l’espace, modifiez ce paramètre. `Yes`.
+- **[!UICONTROL Background Repeat]** - Si vous souhaitez répéter l’image d’arrière-plan pour remplir l’espace, modifiez ce paramètre `Yes`.
 
 ### Paramètres de type vidéo
 
-Si vous définissez la variable _Type de contexte_ to `Video`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
+Si vous définissez le _Type d’arrière-plan_ sur `Video`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
 
 - **[!UICONTROL Video URL]** - Entrez une URL de vidéo valide. Les URL de vidéo valides peuvent être des liens vers :
 
    - Vidéos YouTube : `https://youtu.be/CoDhMRUUjeI`
-   - Vidéos vidéo : `https://vimeo.com/190156113`
-   - Fichiers vidéo valides (`.mp4` est recommandé) : `https://myvideos.com/spiral.mp4`
+   - Vidéos Vimeo : `https://vimeo.com/190156113`
+   - Fichiers vidéo valides (`.mp4` recommandé) : `https://myvideos.com/spiral.mp4`
 
-  ![URL de la vidéo en arrière-plan](./assets/pb-video-url.png){width="500"}
+  ![URL de la vidéo d’arrière-plan](./assets/pb-video-url.png){width="500"}
 
 - **[!UICONTROL Overlay Color]** - Sélectionnez une couleur pour appliquer une teinte transparente à la vidéo.
 
-- **[!UICONTROL Infinite Loop]** - Définissez sur `No` pour que la vidéo soit lue une fois et s’arrête. Lorsque cette option est définie sur `Yes` (par défaut), la vidéo se répète en boucle infinie.
+- **[!UICONTROL Infinite Loop]** - Définissez cette variable sur `No` pour que la vidéo soit lue une fois et s’arrête. Lorsque cette option est définie sur `Yes` (valeur par défaut), la vidéo se répète en boucle infinie.
 
-- **[!UICONTROL Lazy Load]** - Définissez sur `No` pour charger la vidéo avec la page, même lorsqu’elle n’est pas visible. Lorsque cette option est définie sur `Yes` (par défaut), la vidéo se charge à partir de la source uniquement lorsqu’elle est visible à l’écran.
+- **[!UICONTROL Lazy Load]** - Défini sur `No` pour que la vidéo se charge avec la page, même lorsqu’elle n’est pas visible. Lorsque cette option est définie sur `Yes` (par défaut), la vidéo se charge à partir de la source uniquement lorsqu’elle est visible à l’écran.
 
-- **[!UICONTROL Play Only When Visible]** - Définissez sur `No` pour que la lecture de la vidéo démarre immédiatement après son chargement, qu’elle soit visible ou non. Lorsque cette option est définie sur `Yes` (par défaut), la lecture de la vidéo démarre uniquement lorsqu’elle est visible.
+- **[!UICONTROL Play Only When Visible]** - Définissez cette variable sur `No` pour que la lecture de la vidéo démarre immédiatement après son chargement, qu’elle soit visible ou non. Lorsque cette option est définie sur `Yes` (valeur par défaut), la lecture de la vidéo démarre uniquement lorsqu’elle est visible.
 
 - **[!UICONTROL Fallback Image]** - Si nécessaire, spécifiez une image à afficher à l’écran avant le chargement de la vidéo et si la vidéo ne se charge pas pour une raison quelconque.
 
 ## [!UICONTROL Content]
 
-Vous pouvez modifier le contenu de la diapositive directement sur la scène ou lorsque vous modifiez les paramètres. Les paramètres fournissent des fonctions de contenu plus complexes, telles que des liens de diapositives, des boutons et des superpositions. La position du contenu reflète la [Apparence](#appearance) paramètre d’emplacement.
+Vous pouvez modifier le contenu de la diapositive directement sur la scène ou lorsque vous modifiez les paramètres. Les paramètres fournissent des fonctions de contenu plus complexes, telles que des liens de diapositives, des boutons et des superpositions. La position du contenu reflète le paramètre d’emplacement [Apparence](#appearance).
 
 ### Contenu simple sur scène
 
@@ -332,23 +332,23 @@ Vous pouvez modifier le contenu de la diapositive directement sur la scène ou l
 
 1. Utilisez la barre d’outils de l’éditeur pour saisir et mettre en forme du texte, ainsi que des éléments à insérer, tels que des liens, des images et des widgets.
 
-   ![Phase avec du texte formaté](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="500" zoomable="yes"}
+   ![Intermédiaire avec texte formaté](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="500" zoomable="yes"}
 
 ### Contenu complexe dans les paramètres
 
-1. Cliquez sur le point de navigation au bas du curseur pour afficher la boîte à outils de la diapositive individuelle et sélectionnez l’option _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
+1. Cliquez sur le point de navigation au bas du curseur pour afficher la boîte à outils de la diapositive individuelle, puis sélectionnez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Dans le _[!UICONTROL Content]_, saisissez la **[!UICONTROL Message Text]**que vous souhaitez afficher avec la diapositive.
+1. Dans la section _[!UICONTROL Content]_, saisissez le **[!UICONTROL Message Text]**que vous souhaitez afficher avec la diapositive.
 
-1. Faites défiler l’écran vers le bas jusqu’à _[!UICONTROL Content]_et utilisez la fonction **[!UICONTROL Message Text]**pour saisir et mettre en forme le texte de la bannière.
+1. Faites défiler l’écran jusqu’à la section _[!UICONTROL Content]_et utilisez l’éditeur **[!UICONTROL Message Text]**pour saisir et mettre en forme le texte de bannière.
 
    Vous pouvez également insérer des éléments, tels que des liens de texte, des images et des widgets.
 
 1. Mettez le texte en forme selon les besoins à l’aide de la barre d’outils de l’éditeur.
 
-   La première diapositive de cet exemple comporte une image d’arrière-plan, mais aucun texte de message. La variable `Buy 3 Get 1 Free` Le texte situé au-dessus du curseur se trouve dans un conteneur de texte (ajouté ultérieurement).
+   La première diapositive de cet exemple comporte une image d’arrière-plan, mais aucun texte de message. Le texte `Buy 3 Get 1 Free` situé au-dessus du curseur se trouve dans un conteneur de texte (ajouté ultérieurement).
 
-1. Si nécessaire, indiquez une **[!UICONTROL Link]** pour la diapositive.
+1. Si nécessaire, spécifiez un **[!UICONTROL Link]** pour la diapositive.
 
    Le lien est la page de destination qui s’affiche lorsque le client clique sur la zone de la diapositive. Vous pouvez utiliser l’un des trois types de liens suivants :
 
@@ -356,7 +356,7 @@ Vous pouvez modifier le contenu de la diapositive directement sur la scène ou l
 
    - **[!UICONTROL Product]** - Identifie la page de destination en fonction du nom du produit ou du SKU. Recherchez le produit par nom en fonction d’un nom partiel ou complet. Sélectionnez le produit dans la liste des résultats de recherche.
 
-     ![Choix d’un produit à lier](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"}
+     ![Choisir un produit à lier](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Category]** - Identifie la page de destination en tant que catégorie ou sous-catégorie spécifique dans l’arborescence des catégories. Recherchez la catégorie selon un nom partiel ou complet. Sélectionnez la catégorie dans la section développée de l&#39;arborescence affichée.
 
@@ -367,24 +367,24 @@ Vous pouvez modifier le contenu de la diapositive directement sur la scène ou l
      ![Choix d’une page à lier](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
 
    <div class="bs-callout-info" markdown="1">
-   À compter de la version 2.4.1, [!DNL Page Builder] ne prend plus en charge la liaison de la diapositive et des liens dans le texte imbriqué en raison de problèmes d’affichage sur le storefront. Si vous utilisez un lien dans le _[!UICONTROL Message Text]_, vous ne pouvez pas configurer[!UICONTROL Link]_ . Si vous préférez utiliser un lien unique pour toute la diapositive, vous pouvez supprimer tous les liens du texte.
+   À compter de la version 2.4.1, [!DNL Page Builder] ne prend plus en charge la liaison de la diapositive et des liens dans le texte imbriqué en raison de problèmes d’affichage sur le storefront. Si vous utilisez un lien dans le _[!UICONTROL Message Text]_, vous ne pouvez pas configurer l’option _[!UICONTROL Link]_ . Si vous préférez utiliser un lien unique pour toute la diapositive, vous pouvez supprimer tous les liens du texte.
 
-   ![La configuration des liens est bloquée.](./assets/pb-nested-link-blocked.png){width="300"}
+   ![La configuration du lien est bloquée](./assets/pb-nested-link-blocked.png){width="300"}
    </div>
 
-   Si vous souhaitez empêcher le visiteur de quitter votre boutique, sélectionnez la variable **[!UICONTROL Open in new tab]** . Lorsque la case à cocher est décochée, la destination liée s’ouvre dans le même onglet du navigateur, ce qui peut permettre de faire quitter votre boutique au visiteur.
+   Si vous souhaitez empêcher le visiteur de quitter votre boutique, cochez la case **[!UICONTROL Open in new tab]** . Lorsque la case à cocher est décochée, la destination liée s’ouvre dans le même onglet du navigateur, ce qui peut permettre de faire quitter votre boutique au visiteur.
 
 1. Au besoin, ajoutez un bouton pour inviter les clients à suivre le lien.
 
-   La diapositive _Apparence_ place un lien ou un bouton unique sous le texte. Renseignez les propriétés du lien ou du bouton à ajouter.
+   La position de la diapositive _Apparence_ place un lien ou un bouton unique sous le texte. Renseignez les propriétés du lien ou du bouton à ajouter.
 
-   ![Apparence de la diapositive - collage à droite](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
+   ![Apparence de la diapositive - droit de collage](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Vous pouvez également utiliser plusieurs boutons ou liens en ajoutant une [block](block.md) à la bannière. Pour éviter tout conflit, conservez tous les liens ou boutons dans le bloc séparé, sans ajouter directement de lien ou de bouton à la bannière.
+   >Vous pouvez également utiliser plusieurs boutons ou liens en ajoutant un [bloc](block.md) à la bannière. Pour éviter tout conflit, conservez tous les liens ou boutons dans le bloc séparé, sans ajouter directement de lien ou de bouton à la bannière.
 
-   - Définir **[!UICONTROL Show Button]** à l’une des options suivantes :
+   - Définissez **[!UICONTROL Show Button]** sur l’une des options suivantes :
 
      | Option | Description |
      | ------ | ----------- |
@@ -394,9 +394,9 @@ Vous pouvez modifier le contenu de la diapositive directement sur la scène ou l
 
      {style="table-layout:auto"}
 
-   - Saisissez le **[!UICONTROL Button Text]** pour l’afficher sur le bouton.
+   - Saisissez le **[!UICONTROL Button Text]** à afficher sur le bouton.
 
-   - Définir **[!UICONTROL Button Type]** à l’une des options suivantes :
+   - Définissez **[!UICONTROL Button Type]** sur l’une des options suivantes :
 
      | Option | Description |
      | ------ | ----------- |
@@ -408,7 +408,7 @@ Vous pouvez modifier le contenu de la diapositive directement sur la scène ou l
 
      Le style du bouton du thème actif détermine le format du bouton. En règle générale, un bouton principal a une couleur d’arrière-plan plus visible qu’un bouton secondaire.
 
-1. Définir **[!UICONTROL Show Overlay]** à l’une des options suivantes :
+1. Définissez **[!UICONTROL Show Overlay]** sur l’une des options suivantes :
 
    | Option | Description |
    | ------ | ----------- |
@@ -420,12 +420,12 @@ Vous pouvez modifier le contenu de la diapositive directement sur la scène ou l
 
    Vous pouvez utiliser une superposition pour appliquer une couleur d’arrière-plan à la zone de contenu active définie par le paramètre Apparence . L’image d’arrière-plan de la diapositive reste visible pendant toute la largeur de la diapositive.
 
-   ![Paramètres de superposition des diapositives](./assets/pb-media-slider-overlay-settings.png){width="600" zoomable="yes"}
+   ![Paramètres de superposition de diapositives](./assets/pb-media-slider-overlay-settings.png){width="600" zoomable="yes"}
 
-   Si vous choisissez d’afficher une superposition, définissez la variable **[!UICONTROL Overlay Color]**:
+   Si vous choisissez d’afficher une superposition, définissez le **[!UICONTROL Overlay Color]** :
 
-   - Cliquez sur le bouton _Aucune couleur_ et choisissez un échantillon.
-   - Dans le **[!UICONTROL Color]** , saisissez un nom de couleur valide ou une valeur hexadécimale.
+   - Cliquez sur l’échantillon _Aucune couleur_ et choisissez un échantillon.
+   - Dans le champ **[!UICONTROL Color]**, saisissez un nom de couleur valide ou une valeur hexadécimale.
 
    ![Couleur de superposition des diapositives](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
 
@@ -434,17 +434,17 @@ Vous pouvez modifier le contenu de la diapositive directement sur la scène ou l
 
 Le texte de ces paramètres est visible par les moteurs de recherche et améliore la manière dont la page est indexée.
 
-- Pour **[!UICONTROL Alternative Text]**, saisissez une _alt_ description textuelle des outils d’accessibilité numérique à afficher.
+- Pour **[!UICONTROL Alternative Text]**, saisissez une description textuelle _alt_ pour les outils d’accessibilité numérique à afficher.
 
-  L’utilisation de texte de remplacement est une bonne pratique en matière d’accessibilité. Elle est requise par la loi dans certains paramètres régionaux. Par HTML, la variable `alt` est un sous-ensemble de la propriété `image` tag : `<image title="tooltip" alt="description" src="image.jpg">`.
+  L’utilisation de texte de remplacement est une bonne pratique en matière d’accessibilité. Elle est requise par la loi dans certains paramètres régionaux. En HTML, l’attribut `alt` est un sous-ensemble de la balise `image` : `<image title="tooltip" alt="description" src="image.jpg">`.
 
 - Pour **[!UICONTROL Title Attribute]**, saisissez le texte à afficher sous forme d’info-bulle lorsque vous pointez dessus.
 
-  Il est recommandé de choisir un titre descriptif et riche en mots-clés afin d’améliorer l’indexation de l’image par les moteurs de recherche. Par HTML, la variable `title` est un sous-ensemble de la propriété `image` tag : `<image title="tooltip" alt="description" src="image.jpg">`.
+  Il est recommandé de choisir un titre descriptif et riche en mots-clés afin d’améliorer l’indexation de l’image par les moteurs de recherche. En HTML, l’attribut `title` est un sous-ensemble de la balise `image` : `<image title="tooltip" alt="description" src="image.jpg">`.
 
 ## [!UICONTROL Advanced]
 
-1. Pour contrôler le positionnement horizontal du contenu ajouté à la diapositive, choisissez la **[!UICONTROL Alignment]**:
+1. Pour contrôler le positionnement horizontal du contenu ajouté à la diapositive, choisissez le **[!UICONTROL Alignment]** :
 
    | Option | Description |
    | ------ | ----------- |
@@ -455,7 +455,7 @@ Le texte de ces paramètres est visible par les moteurs de recherche et amélior
 
    {style="table-layout:auto"}
 
-1. Définissez la variable **[!UICONTROL Border]** style appliqué aux quatre côtés de la diapositive :
+1. Définissez le style **[!UICONTROL Border]** appliqué aux quatre côtés de la diapositive :
 
    | Option | Description |
    | ------ | ----------- |
@@ -472,9 +472,9 @@ Le texte de ces paramètres est visible par les moteurs de recherche et amélior
 
    {style="table-layout:auto"}
 
-1. Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage des bordures :
+1. Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage de la bordure :
 
-   ![Couleur de la bordure](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
+   ![Couleur de bordure](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
    | Option | Description |
    | ------ |------------ |
@@ -484,11 +484,11 @@ Le texte de ces paramètres est visible par les moteurs de recherche et amélior
 
    {style="table-layout:auto"}
 
-1. (Facultatif) Indiquez les noms des **[!UICONTROL CSS classes]** de la feuille de style actuelle à appliquer à la diapositive.
+1. (Facultatif) Indiquez les noms de **[!UICONTROL CSS classes]** dans la feuille de style actuelle à appliquer à la diapositive.
 
    Séparez plusieurs noms de classe par un espace.
 
-1. Saisissez des valeurs, en pixels, pour la variable **[!UICONTROL Margins and Padding]** pour spécifier les marges extérieures et la marge intérieure de la diapositive.
+1. Saisissez des valeurs, en pixels, pour que **[!UICONTROL Margins and Padding]** précise les marges extérieures et la marge intérieure de la diapositive.
 
    Saisissez chaque valeur correspondante dans le diagramme de diapositives.
 
@@ -501,9 +501,9 @@ Le texte de ces paramètres est visible par les moteurs de recherche et amélior
 
 ## Ajout d’un titre de curseur
 
-Si vous souhaitez un titre au-dessus du curseur, ajoutez simplement une [Type de contenu texte] au-dessus du curseur. Mettez ensuite le texte en forme selon vos besoins.
+Si vous souhaitez un titre au-dessus du curseur, ajoutez simplement un [Type de contenu texte] au-dessus du curseur. Mettez ensuite le texte en forme selon vos besoins.
 
-1. Dans le [!DNL Page Builder] panneau, développer **[!UICONTROL Elements]** et faites glisser un **Texte** d’un espace réservé à une ligne, une colonne ou un ensemble d’onglets sur l’étape.
+1. Dans le panneau [!DNL Page Builder], développez **[!UICONTROL Elements]** et faites glisser un espace réservé **Texte** sur une ligne, une colonne ou un ensemble d’onglets sur la scène.
 
    Lorsque vous faites glisser le curseur, une ligne directrice rouge marque le point d’insertion au-dessus du curseur.
 
@@ -515,47 +515,47 @@ Si vous souhaitez un titre au-dessus du curseur, ajoutez simplement une [Type de
 
 ## Modification des paramètres du curseur
 
-1. Passez la souris sur le conteneur de curseur pour afficher la boîte à outils principale et sélectionnez l’option _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
+1. Pointez sur le conteneur de curseur pour afficher la boîte à outils principale et sélectionnez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
    ![Boîte à outils du curseur](./assets/pb-media-slider-tee-shirts-main-toolbox.png){width="500" zoomable="yes"}
 
-1. Saisissez le **[!UICONTROL Minimum Height]** pour la diapositive.
+1. Saisissez le **[!UICONTROL Minimum Height]** de la diapositive.
 
-   La hauteur minimale peut être un nombre avec n’importe quelle unité CSS valide (telle que `100px`, `50%`, `50em`, `100vh`) ou un calcul (tel que `100vh - 237px`).
+   La hauteur minimale peut être un nombre avec n’importe quelle unité CSS valide (telle que `100px`, `50%`, `50em`, `100vh`) ou un calcul (telle que `100vh - 237px`).
 
    Vous pouvez, par exemple, définir la hauteur minimale d’un curseur pour étirer la hauteur totale de la page, ce qui vous donne des options attrayantes pour les images et vidéos d’arrière-plan de la page entière.
 
    ![Hauteur minimale du curseur](./assets/pb-media-slider-settings-minimum-height.png){width="400"}
 
-1. Si vous souhaitez que le curseur commence au chargement de la page, définissez **[!UICONTROL Autoplay]** to `Yes` et défini **[!UICONTROL Autoplay Speed]** au nombre de millisecondes dans le délai entre les diapositives.
+1. Si vous souhaitez que le curseur commence au chargement de la page, définissez **[!UICONTROL Autoplay]** sur `Yes` et **[!UICONTROL Autoplay Speed]** sur le nombre de millisecondes entre les diapositives.
 
-   Par défaut, la vitesse est définie sur 4 000 ms, soit quatre secondes. Si vous définissez la lecture automatique sur `No`, la première diapositive s’affiche par défaut et le client doit cliquer sur le volet de navigation (points ou flèches) pour afficher la diapositive suivante dans l’ordre.
+   Par défaut, la vitesse est définie sur 4 000 ms, soit quatre secondes. Si vous définissez la lecture automatique sur `No`, la première diapositive s’affiche par défaut et le client doit cliquer sur la navigation dans la diapositive (points ou flèches) pour afficher la diapositive suivante en séquence.
 
    ![Paramètres de lecture automatique du curseur](./assets/pb-media-slider-settings-autoplay.png){width="600" zoomable="yes"}
 
-1. Pour lisser la transition d’une diapositive à l’autre, définissez **[!UICONTROL Fade]** to `Yes`.
+1. Pour lisser la transition d&#39;une diapositive à la suivante, définissez **[!UICONTROL Fade]** sur `Yes`.
 
    Avec le fondu, les diapositives semblent rester en place, mais le contenu change en douceur d’une diapositive à l’autre. Sans fondu, vous voyez le mouvement horizontal d&#39;une diapositive à l&#39;autre.
 
    ![Paramètres de fondu du curseur et de boucle infinie](./assets/pb-media-slider-settings-fade-infinite-loop.png){width="600" zoomable="yes"}
 
-1. Pour que le diaporama se répète indéfiniment pendant l’ouverture de la page, définissez **[!UICONTROL Infinite Loop]** to `Yes`.
+1. Pour que le diaporama se répète indéfiniment pendant l’ouverture de la page, définissez **[!UICONTROL Infinite Loop]** sur `Yes`.
 
 1. Pour choisir le type de commandes de navigation du curseur, procédez comme suit :
 
-   - À inclure _Suivant_ et _Précédent_ les flèches situées à gauche et à droite de chaque diapositive, définissez **[!UICONTROL Show Arrows]** to `Yes`.
+   - Pour inclure les flèches _Suivant_ et _Précédent_ sur les côtés gauche et droit de chaque diapositive, définissez **[!UICONTROL Show Arrows]** sur `Yes`.
 
-   - Pour inclure un ensemble de points de navigation sous le curseur, définissez **[!UICONTROL Show Dots]** to `Yes`.
+   - Pour inclure un ensemble de points de navigation sous le curseur, définissez **[!UICONTROL Show Dots]** sur `Yes`.
 
-   ![Flèches et points du curseur](./assets/pb-media-slider-settings-show-arrows-dots.png){width="600" zoomable="yes"}
+   ![Flèches et points d’affichage du curseur](./assets/pb-media-slider-settings-show-arrows-dots.png){width="600" zoomable="yes"}
 
-1. Procédez comme suit : [Avancé](#slider-advanced) le cas échéant.
+1. Définissez les paramètres du curseur [Advanced](#slider-advanced) selon vos besoins.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
 ### Avancé - curseur {#slider-advanced}
 
-1. Pour contrôler le positionnement des diapositives dans le conteneur de curseur parent, sélectionnez la variable **[!UICONTROL Alignment]**:
+1. Pour contrôler le positionnement des diapositives dans le conteneur de curseur parent, choisissez le **[!UICONTROL Alignment]** :
 
    | Option | Description |
    | ------ | ----------- |
@@ -566,7 +566,7 @@ Si vous souhaitez un titre au-dessus du curseur, ajoutez simplement une [Type de
 
    {style="table-layout:auto"}
 
-1. Définissez la variable **[!UICONTROL Border]** style appliqué aux quatre côtés du conteneur de curseur :
+1. Définissez le style **[!UICONTROL Border]** appliqué aux quatre côtés du conteneur de curseur :
 
    | Option | Description |
    | ------ | ----------- |
@@ -583,7 +583,7 @@ Si vous souhaitez un titre au-dessus du curseur, ajoutez simplement une [Type de
 
    {style="table-layout:auto"}
 
-1. Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage des bordures :
+1. Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage de la bordure :
 
    | Option | Description |
    | ------ |------------ |
@@ -593,11 +593,11 @@ Si vous souhaitez un titre au-dessus du curseur, ajoutez simplement une [Type de
 
    {style="table-layout:auto"}
 
-1. (Facultatif) Indiquez les noms des **[!UICONTROL CSS classes]** de la feuille de style actuelle à appliquer au conteneur de curseur.
+1. (Facultatif) Indiquez les noms de **[!UICONTROL CSS classes]** dans la feuille de style actuelle à appliquer au conteneur de curseur.
 
    Séparez plusieurs noms de classe par un espace.
 
-1. Saisissez des valeurs, en pixels, pour la variable **[!UICONTROL Margins and Padding]** pour déterminer les marges extérieures et la marge intérieure du conteneur du curseur.
+1. Saisissez des valeurs, en pixels, pour le **[!UICONTROL Margins and Padding]** afin de déterminer les marges extérieures et la marge intérieure du conteneur du curseur.
 
    Saisissez les valeurs correspondantes dans le diagramme.
 
@@ -610,11 +610,11 @@ Si vous souhaitez un titre au-dessus du curseur, ajoutez simplement une [Type de
 
 ## Test du curseur
 
-1. Ouvrez la page dans laquelle vous avez inclus le curseur, définissez **[!UICONTROL Enable Page]** to `Yes`.
+1. Ouvrez la page dans laquelle vous avez inclus le curseur, définissez **[!UICONTROL Enable Page]** sur `Yes`.
 
-1. Dans le coin supérieur droit, cliquez sur le bouton **[!UICONTROL Save]** flèche et choisissez **[!UICONTROL Save & Close]**.
+1. Dans le coin supérieur droit, cliquez sur la flèche **[!UICONTROL Save]** et sélectionnez **[!UICONTROL Save & Close]**.
 
-1. Recherchez la page dans le _Pages_ grid et select **[!UICONTROL View]** dans le _[!UICONTROL Action]_colonne .
+1. Recherchez la page dans la grille _Pages_ et sélectionnez **[!UICONTROL View]** dans la colonne _[!UICONTROL Action]_.
 
    ![Aperçu du curseur - vue standard](./assets/pb-media-slider-desktop-view.png){width="600" zoomable="yes"}
 

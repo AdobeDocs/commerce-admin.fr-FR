@@ -27,7 +27,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Authent
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Providers to use] | Global | Indique les méthodes d’authentification à deux facteurs dont vous avez besoin. Si vous sélectionnez plusieurs fournisseurs, chaque utilisateur doit configurer chaque méthode 2FA la prochaine fois qu’il se connecte. |
-| [!UICONTROL Configuration Email URL for Web API] | Global | Pour les implémentations personnalisées, URL d’un autre lien de configuration de courrier électronique envoyé à _Administration_ utilisateurs lors de leur première connexion. Dans le modèle de courrier électronique, utilisez l’espace réservé. `:tfat` pour indiquer l’endroit où le jeton est injecté. |
+| [!UICONTROL Configuration Email URL for Web API] | Global | Pour les implémentations personnalisées, l’URL d’un autre lien de configuration de courrier électronique envoyé aux utilisateurs _Admin_ lors de leur première connexion. Dans le modèle de courrier électronique, utilisez l’espace réservé `:tfat` pour indiquer où le jeton est injecté. |
 
 {style="table-layout:auto"}
 
@@ -47,20 +47,20 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Authent
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Integration Key] | Global | La clé d’intégration de votre [!DNL Duo Security] compte . |
-| [!UICONTROL Secret Key] | Global | La clé secrète de votre [!DNL Duo Security] compte . |
-| [!UICONTROL API Hostname] | Global | Le nom d’hôte de l’API de [!DNL Duo Security] compte . |
+| [!UICONTROL Integration Key] | Global | Clé d’intégration de votre compte [!DNL Duo Security]. |
+| [!UICONTROL Secret Key] | Global | La clé secrète de votre compte [!DNL Duo Security]. |
+| [!UICONTROL API Hostname] | Global | Nom d’hôte de l’API de votre compte [!DNL Duo Security]. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Authy]
 
-![Création](./assets/2fa-authy.png)<!-- zoom -->
+![Auteur](./assets/2fa-authy.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL API Key] | Global | La clé API de votre [!DNL Authy] compte . |
-| [!UICONTROL OneTouch Message] | Global | Le message qui apparaît dans la [!DNL Authy] authentificateur lors de la connexion. Valeur par défaut : `Login request to your Magento Admin` |
+| [!UICONTROL API Key] | Global | Clé API de votre compte [!DNL Authy]. |
+| [!UICONTROL OneTouch Message] | Global | Message qui apparaît dans l’authentificateur [!DNL Authy] lors de la connexion. Valeur par défaut : `Login request to your Magento Admin` |
 
 {style="table-layout:auto"}
 
@@ -70,6 +70,6 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Authent
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL WebApi Challenge Domain] | Global | Domaine utilisé pour émettre et traiter [!DNL WebAuthn] défis pour les implémentations WebAPI personnalisées. |
+| [!UICONTROL WebApi Challenge Domain] | Global | Domaine utilisé pour émettre et traiter des problèmes [!DNL WebAuthn] pour les implémentations WebAPI personnalisées. |
 
 {style="table-layout:auto"}

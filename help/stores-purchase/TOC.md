@@ -40,7 +40,7 @@ ht-degree: 3%
       + [Mise à jour des taux de change](currency-update.md)
    + [Courriers électroniques de vente](sales-email.md)
    + [Documents commerciaux](sales-documents.md)
-+ Point d’achat {#point-of-purchase}
++ Point d&#39;achat {#point-of-purchase}
    + [achat instantané](checkout-instant-purchase.md)
    + Panier {#cart}
       + [Vue d’ensemble](cart.md)
@@ -92,7 +92,7 @@ ht-degree: 3%
       + [Transferts bancaires](bank-transfer.md)
       + [Commandes](purchase-order.md)
       + [Aucun sous-total passage en caisse](zero-subtotal-checkout.md)
-+ Gestion du flux de commande {#order-management}
++ Gérer le flux de commande {#order-management}
    + [Menu Ventes](sales-menu.md)
    + Commandes {#orders}
       + [Vue d’ensemble](orders.md)
@@ -104,7 +104,7 @@ ht-degree: 3%
       + [Gestion des commandes du storefront](orders-storefront.md)
    + [Facturations](invoices.md)
    + [Expéditions](shipments.md)
-   + Avoir {#credit-memos}
+   + Notes de crédit {#credit-memos}
       + [Vue d’ensemble](credit-memos.md)
       + [Envoi d’une note de crédit](credit-memo-create.md)
    + Renvoie {#returns}
@@ -127,9 +127,9 @@ ht-degree: 3%
       + [USPS](usps.md)
       + [FedEx](fedex.md)
       + [DHL](dhl.md)
-   + Libellés d’expédition {#shipping-labels}
+   + Libellés d&#39;expédition {#shipping-labels}
       + [Présentation des libellés d’expédition](shipping-labels.md)
       + [Configuration des libellés d’expédition](shipping-label-configure.md)
       + [Création de libellés d’expédition](shipping-label-create.md)
-+ [Revenir aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Retour aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

@@ -5,24 +5,24 @@ exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
 
 # Localisation de la boutique
 
-La plupart du texte qui semble codé en dur sur les pages de votre magasin peut être instantanément remplacé par une autre langue en modifiant les paramètres régionaux de la vue. La modification du paramètre régional ne traduit pas réellement le texte mot à mot, mais fait simplement référence à une autre table de traduction qui fournit le texte de l’interface utilisé dans tout le magasin. Le texte qui peut être modifié comprend des titres de navigation, des libellés, des boutons et des liens tels que _Mon panier_ et _Mon compte_. Vous pouvez également utiliser la variable [Traduction en ligne](../configuration-reference/advanced/developer.md) pour toucher du texte dans l’interface.
+La plupart du texte qui semble codé en dur sur les pages de votre magasin peut être instantanément remplacé par une autre langue en modifiant les paramètres régionaux de la vue. La modification du paramètre régional ne traduit pas réellement le texte mot à mot, mais fait simplement référence à une autre table de traduction qui fournit le texte de l’interface utilisé dans tout le magasin. Le texte qui peut être modifié comprend des titres de navigation, des étiquettes, des boutons et des liens tels que _Mon panier_ et _Mon compte_. Vous pouvez également utiliser l’outil [Traduction en ligne](../configuration-reference/advanced/developer.md) pour toucher du texte dans l’interface.
 
-Les packs de langue se trouvent sous [Traductions et localisation][1]{:target=&quot;_blank&quot;} en Commerce Marketplace. Les nouvelles extensions sont continuellement ajoutées à Marketplace. Par conséquent, revenez souvent en arrière.
+Les packs de langue se trouvent sous [Traductions et localisation][1]{:target=&quot;_blank&quot;} le Commerce Marketplace. Les nouvelles extensions sont continuellement ajoutées à Marketplace. Par conséquent, revenez souvent en arrière.
 
 ## Étape 1 : installation d’un module de langue
 
-Suivez les instructions standard d’installation de l’extension du pack de langue. Pour plus d’informations sur l’installation d’une extension, voir [Installation de l’interface de ligne de commande générale][2] dans le _Guide des extensions_.
+Suivez les instructions standard d’installation de l’extension du pack de langue. Pour plus d’informations sur l’installation d’une extension, voir [Installation générale de l’interface de ligne de commande][2] dans le _Guide des extensions_.
 
 ## Étape 2 : création d’une vue de magasin pour la langue
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
 
 1. Cliquez sur **[!UICONTROL Create Store View]**.
 
@@ -30,35 +30,35 @@ Suivez les instructions standard d’installation de l’extension du pack de la
 
    - **[!UICONTROL Store]** — Sélectionnez le magasin qui est le parent de la vue.
 
-   - **[!UICONTROL Name]** — Saisissez un nom pour la vue magasin. Par exemple : le portugais.
+   - **[!UICONTROL Name]** — Saisissez un nom pour la vue de magasin. Par exemple : le portugais.
 
-     Dans l’en-tête du magasin, le nom apparaît dans la variable _sélecteur de langues_.
+     Dans l’en-tête du magasin, le nom apparaît dans le _sélecteur de langues_.
 
-   - **[!UICONTROL Code]** — Saisissez un code en minuscules pour identifier la vue. Par exemple: `portuguese`.
+   - **[!UICONTROL Code]** — Entrez un code en minuscules pour identifier la vue. Par exemple : `portuguese`.
 
    - **[!UICONTROL Status]** — Pour activer la vue, définissez sur `Enabled`.
 
-   - **[!UICONTROL Sort Order]** — (Facultatif) Saisissez un nombre pour déterminer l’ordre dans lequel cette vue est répertoriée avec d’autres vues.
+   - **[!UICONTROL Sort Order]** — (Facultatif) Saisissez un nombre pour déterminer la séquence dans laquelle cette vue est répertoriée avec d’autres vues.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Store View]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Store View]**.
 
 ## Étape 3 : modification des paramètres régionaux de la vue de magasin
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le coin supérieur gauche, définissez **[!UICONTROL Store View]** à la vue spécifique dans laquelle la configuration doit s’appliquer.
+1. Dans le coin supérieur gauche, définissez **[!UICONTROL Store View]** sur la vue spécifique dans laquelle la configuration doit s&#39;appliquer.
 
 1. Lorsque vous êtes invité à confirmer le changement de portée, cliquez sur **[!UICONTROL OK]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Locale Options]** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Locale Options]** .
 
-1. Effacez la variable **[!UICONTROL Use Website]** case à cocher et définition **[!UICONTROL Locale]** dans la langue que vous souhaitez affecter à la vue.
+1. Décochez la case **[!UICONTROL Use Website]** et définissez **[!UICONTROL Locale]** sur la langue que vous souhaitez affecter à la vue.
 
    S’il existe plusieurs variantes de la langue, veillez à choisir celle de la région ou du dialecte spécifique.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
-   Après avoir modifié la langue des paramètres régionaux, le contenu restant que vous avez créé, y compris les noms et descriptions des produits, les catégories et les [CMS](../content-design/page-translate.md) les pages et les blocs doivent être traduits séparément pour chaque vue de magasin.
+   Après avoir modifié la langue des paramètres régionaux, le contenu restant que vous avez créé, y compris les noms et descriptions de produits, les catégories, les pages [CMS](../content-design/page-translate.md) et les blocs, doit être traduit séparément pour chaque vue de magasin.
 
 ## Localisation des produits
 
@@ -66,81 +66,81 @@ Si votre boutique comporte plusieurs vues dans différentes langues, les mêmes 
 
 ### Étape 1 : Traduire les champs de produit
 
-1. Sur le _Administration_ barre latérale, accédez à  **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Dans la grille, recherchez le produit à traduire et ouvrez-le en mode d’édition.
 
-1. Dans le coin supérieur gauche, définissez **[!UICONTROL Store View]** dans la vue pour la traduction, puis cliquez sur **[!UICONTROL OK]** lorsque vous y êtes invité pour confirmer.
+1. Dans le coin supérieur gauche, définissez **[!UICONTROL Store View]** sur l’affichage de la traduction et cliquez sur **[!UICONTROL OK]** lorsque vous êtes invité à confirmer.
 
 1. Pour chaque champ à éditer, procédez comme suit :
 
-   - Désélectionnez l’option **[!UICONTROL Use Default Value]** à droite du champ.
+   - Décochez la case **[!UICONTROL Use Default Value]** située à droite du champ.
 
    - collez ou saisissez le texte traduit dans le champ .
 
-   Veillez à traduire tous les champs de texte, y compris [image](../catalog/catalog-images-video.md) les libellés et le texte de remplacement, [Optimisation du moteur de recherche](../catalog/product-search-engine-optimization.md) champs et tout [Options personnalisées](../catalog/settings-advanced-custom-options.md) informations.
+   Veillez à traduire tous les champs de texte, y compris les libellés [image](../catalog/catalog-images-video.md) et le texte de remplacement, les champs [Optimisation du moteur de recherche](../catalog/product-search-engine-optimization.md) et toutes les informations [Options personnalisées](../catalog/settings-advanced-custom-options.md).
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
 
 ### Étape 2 : Traduire les libellés de champ
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
 1. Dans la liste, recherchez l’attribut à traduire et ouvrez-le en mode d’édition.
 
 1. Dans le panneau de gauche, choisissez **[!UICONTROL Manage Labels]**.
 
-1. Dans le _[!UICONTROL Manage Titles]_, saisissez un libellé traduit pour chaque vue de magasin.
+1. Dans la section _[!UICONTROL Manage Titles]_, saisissez un libellé traduit pour chaque vue de magasin.
 
-   ![Saisir les étiquettes traduites](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
+   ![Entrer les étiquettes traduites](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Attribute]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Attribute]**.
 
 ### Etape 3 : Traduire toutes les catégories
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Catalog]** > **Catégories**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **Catégories**.
 
-1. Dans le coin supérieur gauche, définissez **[!UICONTROL Store View]** dans la vue pour la traduction, puis cliquez sur **[!UICONTROL OK]** lorsque vous y êtes invité pour confirmer.
+1. Dans le coin supérieur gauche, définissez **[!UICONTROL Store View]** sur l’affichage de la traduction et cliquez sur **[!UICONTROL OK]** lorsque vous êtes invité à confirmer.
 
 1. Dans l&#39;arborescence, recherchez la catégorie à traduire et ouvrez-la en mode d&#39;édition.
 
-1. Pour _Informations de base_, traduire **[!UICONTROL Category Name]**.
+1. Pour _Informations de base_, traduisez **[!UICONTROL Category Name]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur _[!UICONTROL Content]_section et traduction **[!UICONTROL Description]**.
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) de la section _[!UICONTROL Content]_et traduisez **[!UICONTROL Description]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Search Engine Optimization Settings]** et traduisez les champs suivants :
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) et traduisez les champs suivants :**[!UICONTROL Search Engine Optimization Settings]**
 
    - **[!UICONTROL Meta Title]**
    - **[!UICONTROL Meta Keywords]**
    - **[!UICONTROL Meta Description]**
 
-1. Sous , _[!UICONTROL Search Engine Optimization Settings]_, procédez comme suit pour traduire la **[!UICONTROL URL Key]**:
+1. Dans la section _[!UICONTROL Search Engine Optimization Settings]_, procédez comme suit pour traduire le **[!UICONTROL URL Key]**:
 
-   - Effacez la variable **[!UICONTROL Use Default Value]** à droite du champ.
+   - Décochez la case **[!UICONTROL Use Default Value]** située à droite du champ.
 
    - Saisissez le texte traduit.
 
-   - Assurez-vous que la variable **[!UICONTROL Create Permanent Redirect for old URL]** est sélectionnée.
+   - Assurez-vous que la case **[!UICONTROL Create Permanent Redirect for old URL]** est cochée.
 
    ![Traduire la clé URL](./assets/category-translate-url-key.png)
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Category]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Category]**.
 
 1. Répétez le processus pour toutes les catégories utilisées dans le magasin.
 
 ### Étape 4 : traduction des options d’attributs et d’attributs de produit
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
 1. Sélectionnez l’attribut à traduire.
 
-1. Choisir **[!UICONTROL Manage Labels]** sur la gauche et définissez la variable **[!UICONTROL Managed Titles]** pour définir les traductions du titre de l’attribut.
+1. Sélectionnez **[!UICONTROL Manage Labels]** à gauche et définissez les options **[!UICONTROL Managed Titles]** pour définir les traductions des titres d’attribut.
 
-1. Choisir **[!UICONTROL Properties]** sur la gauche et saisissez les options d’attribut traduites dans la variable **[!UICONTROL Manage Options]** .
+1. Sélectionnez **[!UICONTROL Properties]** à gauche et saisissez les options d’attribut traduites dans la section **[!UICONTROL Manage Options]** .
 
    ![Gérer les options](./assets/manage-option-tab.png){width="600" zoomable="yes"}
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Attribute]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Attribute]**.
 
 
 [1]: https://marketplace.magento.com/extensions/content-customizations/translations-localization.html

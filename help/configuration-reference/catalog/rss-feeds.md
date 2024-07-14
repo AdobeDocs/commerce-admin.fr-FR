@@ -40,7 +40,7 @@ ht-degree: 2%
 
 ## [!UICONTROL Catalog]
 
-![Catalogue](./assets/rss-feeds-catalog.png)<!-- zoom -->
+![Catalog](./assets/rss-feeds-catalog.png)<!-- zoom -->
 
 <!-- [Catalog](https://docs.magento.com/user-guide/catalog/catalog-menu.html) -->
 
@@ -55,7 +55,7 @@ ht-degree: 2%
 
 ## [!UICONTROL Order]
 
-![Commande](./assets/rss-feeds-order.png)<!-- zoom -->
+![Order](./assets/rss-feeds-order.png)<!-- zoom -->
 
 <!-- [Order](https://docs.magento.com/user-guide/sales/order-status-notification.html) -->
 

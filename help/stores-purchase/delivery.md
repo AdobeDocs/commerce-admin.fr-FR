@@ -5,18 +5,18 @@ exl-id: 79fce11c-d45d-4176-94ac-80261c65b7ad
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
 
 # Livraison et diffusion
 
-Des études montrent que les magasins offrant aux clients le choix de plusieurs méthodes de diffusion ont des taux de conversion plus élevés que les magasins utilisant une seule méthode. Vous pouvez configurer différents modes de diffusion et opérateurs de livraison. La variable [paramètres de livraison](shipping-settings.md) déterminez le point d’origine de tous les envois effectués à partir de votre magasin ou de votre entrepôt et votre préférence pour la gestion des commandes expédiées à plusieurs adresses. Vous pouvez facilement créer des [libellé d’expédition](shipping-labels.md) pour les commandes nouvelles et existantes de la part de l’administrateur de votre boutique. Des libellés peuvent être produits lors de la création d&#39;une expédition, ou ultérieurement. Les libellés d’expédition sont stockés au format PDF et téléchargés sur votre ordinateur.
+Des études montrent que les magasins offrant aux clients le choix de plusieurs méthodes de diffusion ont des taux de conversion plus élevés que les magasins utilisant une seule méthode. Vous pouvez configurer différents modes de diffusion et opérateurs de livraison. Les [ paramètres d’expédition](shipping-settings.md) établissent le point d’origine de tous les envois effectués à partir de votre magasin ou de votre entrepôt et votre préférence pour la gestion des commandes expédiées à plusieurs adresses. Vous pouvez facilement créer des [libellés d’expédition](shipping-labels.md) pour les commandes nouvelles et existantes auprès de l’administrateur de votre boutique. Des libellés peuvent être produits lors de la création d&#39;une expédition, ou ultérieurement. Les libellés d’expédition sont stockés au format PDF et téléchargés sur votre ordinateur.
 
 >[!NOTE]
 >
->A cause de la fermeture de Temando, le soutien à [!DNL Magento Shipping] est supprimé dans la version 2.4.0. Pour obtenir des informations détaillées sur l’état et des recommandations relatives aux nouvelles implémentations d’expédition dans Commerce, voir la section [informations sur les produits](https://business.adobe.com/products/magento/shipping.html){:target=&quot;_blank&quot;} page.
+>En raison de la fermeture de Temando, la prise en charge de [!DNL Magento Shipping] est supprimée dans la version 2.4.0. Pour obtenir des informations détaillées sur l’état et des recommandations relatives aux nouvelles implémentations d’expédition dans Commerce, consultez la page [product information](https://business.adobe.com/products/magento/shipping.html){:target=&quot;_blank&quot;} .
 
 ## Méthodes de diffusion de base
 
@@ -30,11 +30,11 @@ Adobe Commerce et Magento Open Source prennent en charge un large éventail de m
 
 * [Diffusion en magasin](shipping-in-store-delivery.md)
 
-  Si vous utilisez [Inventory management](../inventory-management/introduction.md), vous pouvez également configurer des sources afin de fournir des options de remise en magasin à vos clients.
+  Si vous utilisez [Inventory management](../inventory-management/introduction.md), vous pouvez également configurer des sources pour fournir des options de remise en magasin à vos clients.
 
 ## Transporteurs de livraison
 
-Si vous disposez d’un compte commercial avec une ou plusieurs [opérateurs pris en charge](carriers.md), vous pouvez offrir à vos clients des tarifs d’expédition en temps réel, le suivi des packages et les étiquettes. Les intégrations d’opérateurs intégrées comprennent UPS, USPS, DHL et FedEx.
+Si vous disposez d’un compte commercial avec un ou plusieurs [opérateurs pris en charge](carriers.md), vous pouvez offrir à vos clients des tarifs d’expédition en temps réel, le suivi des packages et les étiquettes. Les intégrations d’opérateurs intégrées comprennent UPS, USPS, DHL et FedEx.
 
 ## Démonstration des modes de livraison
 

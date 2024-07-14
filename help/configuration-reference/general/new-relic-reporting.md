@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!NOTE]
 >Ces options de configuration ne s’appliquent pas à Adobe Commerce sur l’infrastructure cloud.
 >
->Si vous êtes sur le plan Pro, New Relic est déjà [préconfiguré et activé par défaut](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Si vous êtes en formule de démarrage, vous devez renseigner la variable [Étapes de configuration de New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) qui font partie du processus de configuration.
+>Si vous utilisez le plan Pro, New Relic est déjà [ préconfiguré et activé par défaut ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Si vous utilisez le plan de démarrage, vous devez effectuer les [étapes de configuration de New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) qui font partie du processus de configuration.
 
 ## [!UICONTROL General]
 
@@ -27,15 +27,15 @@ ht-degree: 0%
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Enable New Relic Integration] | Affichage en magasin | Détermine si votre magasin peut être utilisé avec [!DNL New Relic] Création de rapports. Options : `Yes` / `No` |
+| [!UICONTROL Enable New Relic Integration] | Affichage en magasin | Détermine si votre magasin peut être utilisé avec la création de rapports [!DNL New Relic]. Options : `Yes` / `No` |
 | [!UICONTROL New Relic API URL] | Affichage en magasin | URL vers laquelle les API New Relic sont déployées. Par exemple : `https://api.newrelic.com/deployments.xml` |
 | URL de l’API Insights | Affichage en magasin | URL à laquelle les API Insights sont déployées. Utilisez le symbole de pourcentage (%) pour représenter votre ID de compte. Par exemple : `https://insights-collector.newrelic.com/v1/accounts/%s/events` |
-| [!UICONTROL New Relic Account ID] | Affichage en magasin | L’identifiant de compte attribué à votre [!DNL New Relic] compte . |
-| [!UICONTROL New Relic Application ID] | Affichage en magasin | L’ID d’application attribué à votre [!DNL New Relic] compte pour l’intégration de Commerce. |
-| [!UICONTROL New Relic API Key] | Affichage en magasin | La clé qui vous est attribuée pour accéder à la variable [!DNL New Relic] API. |
+| [!UICONTROL New Relic Account ID] | Affichage en magasin | L’identifiant de compte attribué à votre compte [!DNL New Relic]. |
+| [!UICONTROL New Relic Application ID] | Affichage en magasin | L’ID d’application affecté à votre compte [!DNL New Relic] pour l’intégration Commerce. |
+| [!UICONTROL New Relic API Key] | Affichage en magasin | Clé qui vous est affectée pour accéder à l’API [!DNL New Relic]. |
 | [!UICONTROL Insights API Key] | Affichage en magasin | Clé qui vous est affectée pour accéder à Statistiques. |
-| [!UICONTROL New Relic Application Name] | Affichage en magasin | Le nom que vous avez attribué à votre [!DNL New Relic] intégration. |
-| [!UICONTROL Send Adminhtml and Frontend as Separate Apps] | Affichage en magasin | Une option permettant d’envoyer les données de rapport collectées pour le storefront et l’administrateur en tant qu’applications distinctes à New Relic. Cette option nécessite la saisie d’un nom pour la variable [!UICONTROL New Relic Application Name]. La fonctionnalité ajoute le nom de l’application avec un trait de soulignement aux données d’application collectées. Par exemple : `MyStore_Adminhtml`, `MyStore_frontend` |
+| [!UICONTROL New Relic Application Name] | Affichage en magasin | Nom que vous avez attribué à votre intégration [!DNL New Relic]. |
+| [!UICONTROL Send Adminhtml and Frontend as Separate Apps] | Affichage en magasin | Une option permettant d’envoyer les données de rapport collectées pour le storefront et l’administrateur en tant qu’applications distinctes à New Relic. Cette option nécessite un nom saisi pour le [!UICONTROL New Relic Application Name]. La fonctionnalité ajoute le nom de l’application avec un trait de soulignement aux données d’application collectées. Par exemple : `MyStore_Adminhtml`, `MyStore_frontend` |
 
 {style="table-layout:auto"}
 
@@ -47,6 +47,6 @@ ht-degree: 0%
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Enable Cron] | Affichage en magasin | Détermine si [!DNL New Relic] Les rapports peuvent être exécutés selon un calendrier comportant [Cron](../../systems/cron.md). Options : `Yes` / `No` |
+| [!UICONTROL Enable Cron] | Affichage en magasin | Détermine si les rapports [!DNL New Relic] peuvent être exécutés selon le calendrier avec [Cron](../../systems/cron.md). Options : `Yes` / `No` |
 
 {style="table-layout:auto"}

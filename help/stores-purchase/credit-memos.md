@@ -12,34 +12,34 @@ ht-degree: 0%
 
 # Avoir
 
-A _note de crédit_ est un document qui indique le montant dû au client pour un remboursement complet ou partiel. Le montant peut être appliqué à un achat ou remboursé au client. Vous pouvez imprimer une note de crédit pour une seule commande ou pour plusieurs commandes par lot. Avant de pouvoir imprimer une note de crédit, elle doit d’abord être générée pour la commande. La variable _Avoir_ Cette page répertorie les notes de crédit qui ont été émises à l’intention des clients.
+Un _note de crédit_ est un document qui indique le montant dû au client pour un remboursement complet ou partiel. Le montant peut être appliqué à un achat ou remboursé au client. Vous pouvez imprimer une note de crédit pour une seule commande ou pour plusieurs commandes par lot. Avant de pouvoir imprimer une note de crédit, elle doit d’abord être générée pour la commande. La page _Avoir de crédit_ répertorie les avoir émis à l’intention des clients.
 
-![Avoir](./assets/credit-memos.png){width="700" zoomable="yes"}
+![Mémos de crédit](./assets/credit-memos.png){width="700" zoomable="yes"}
 
 ## Méthode de remboursement
 
-La variable [mode de paiement](payments.md) pour la commande détermine, dans une certaine mesure, le mode de remboursement d’une commande.
+Le [mode de paiement](payments.md) de la commande détermine, dans une certaine mesure, le mode de remboursement d’une commande.
 
 Vous pouvez rembourser les commandes de trois manières :
 
 - Crédit du compte : les commandes payées à l’aide d’un compte de crédit peuvent être remboursées en tant que crédit du compte :
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) [Crédit de la boutique](../customers/store-credit-using.md)
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) [Crédit de boutique](../customers/store-credit-using.md)
    - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) [Paiement sur compte](../b2b/enable-basic-features.md#configure-payment-on-account) (méthode hors ligne)
-   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) [Crédit de la société](../b2b/credit-company.md)
-- [Retour en ligne](payments.md#online-payment-methods): les commandes payées par carte de crédit via une passerelle de paiement, telle que PayPal ou Braintree, sont remboursées en ligne via l’entité de traitement des paiements.
-- [Remboursement hors ligne](payments.md#offline-payment-methods): commandes payées en espèces à la livraison ([DOC](cash-on-delivery.md)) ou par [chèque ou mandat](check-money-order.md) sont remboursés hors ligne.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) [Crédit entreprise](../b2b/credit-company.md)
+- [Remboursement en ligne](payments.md#online-payment-methods) : les commandes payées par carte de crédit via une passerelle de paiement, telle que PayPal ou Braintree, sont remboursées en ligne par l’intermédiaire du processeur de paiement.
+- [Remboursement hors ligne](payments.md#offline-payment-methods) : les commandes payées par espèces à la livraison ([DCO](cash-on-delivery.md)) ou par [chèque ou mandat d’achat](check-money-order.md) sont remboursées hors ligne.
 
 Vous pouvez accorder un remboursement hors ligne ou un crédit de compte (s’il est activé) pour n’importe quel mode de paiement.
 
-Commande payée en espèces à la livraison ([DOC](cash-on-delivery.md)) ou par [chèque ou mandat](check-money-order.md) est remboursé hors ligne.
+Une commande qui a été payée en espèces à la livraison ([DCO](cash-on-delivery.md)) ou par [chèque ou mandat](check-money-order.md)) est remboursée hors ligne.
 
 ## Workflow de remboursement
 
-1. **Action de paiement** - Si la variable [Action de paiement](credit-memo-create.md#payment-action-setting) La configuration est définie sur `Authorize`, vous devez générer une facture avant de créer un avoir - passez à l’étape 2. Si la variable est définie sur `Authorize and Capture`, une facture a déjà été générée, passez à l’étape 3.
+1. **Action de paiement** - Si la configuration [Action de paiement](credit-memo-create.md#payment-action-setting) est définie sur `Authorize`, vous devez générer une facture avant de créer une note de crédit, passez à l’étape 2. Si celle-ci est définie sur `Authorize and Capture`, une facture a déjà été générée et passez à l’étape 3.
 
-1. **Générer une facture** - [Créer une facture](invoices.md#create-an-invoice) pour la commande, afin que vous puissiez envoyer un remboursement au client via un avoir.
+1. **Générer une facture** - [ Créez une facture](invoices.md#create-an-invoice) pour la commande, de sorte que vous puissiez envoyer un remboursement au client via un avoir.
 
-1. **Créer une note de crédit** - [Envoi d’une note de crédit](credit-memo-create.md) dans Admin pour un [achat de crédit](credit-memo-create.md#issue-a-refund-for-a-credit-purchase)ou un [chèque ou mandat](credit-memo-create.md#issue-an-offline-refund-for-check-or-money-order).
+1. **Créer un avoir** - [Émettez un avoir](credit-memo-create.md) dans l’administrateur pour un [achat de crédit](credit-memo-create.md#issue-a-refund-for-a-credit-purchase) ou un [chèque ou mandat bancaire](credit-memo-create.md#issue-an-offline-refund-for-check-or-money-order).
 
 ## Descriptions des colonnes
 

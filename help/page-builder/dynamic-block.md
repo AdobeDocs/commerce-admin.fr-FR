@@ -1,6 +1,6 @@
 ---
 title: Ajouter du contenu - Bloc dynamique
-description: Découvrez le type de contenu Bloc dynamique utilisé pour ajouter un bloc dynamique réutilisable au [!DNL Page Builder] scène.
+description: Découvrez le type de contenu Bloc dynamique utilisé pour ajouter un bloc dynamique réutilisable à l’étape  [!DNL Page Builder] .
 exl-id: 04c90f47-9e32-4d34-ac0d-a2f2cec95ffc
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Ajouter du contenu - Bloc dynamique
 
-Utilisez le type de contenu Bloc dynamique pour ajouter une [bloc dynamique](../content-design/dynamic-blocks.md) à la fonction [[!DNL Page Builder] étape](workspace.md#stage).
+Utilisez le type de contenu Bloc dynamique pour ajouter un [bloc dynamique](../content-design/dynamic-blocks.md) existant à l’ [[!DNL Page Builder] étape](workspace.md#stage).
 
-![Bloc dynamique sur la vitrine](./assets/pb-tutorial2-dynamic-block-storefront.png){width="700" zoomable="yes"}
+![Bloc dynamique sur le storefront](./assets/pb-tutorial2-dynamic-block-storefront.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -23,11 +23,11 @@ Utilisez le type de contenu Bloc dynamique pour ajouter une [bloc dynamique](../
 | Outil | Icône | Description |
 | --------- | ------------- | ----------------- |
 | Déplacer | ![Icône Déplacer](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de blocs et son contenu vers une autre position sur la scène. |
-| Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la _Modifier le bloc_ , où vous pouvez choisir le bloc et modifier les propriétés du conteneur. |
+| Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _Modifier le bloc_ où vous pouvez choisir le bloc et modifier les propriétés du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le conteneur de blocs actif et son contenu. |
 | Afficher | ![Icône Afficher](./assets/pb-icon-show.png){width="25"} | Affiche le conteneur de blocs masqué et son contenu. |
 | Dupliquer | ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="25"} | Effectue une copie du conteneur de blocs et de son contenu. |
-| Supprimer | ![Icône Supprimer](./assets/pb-icon-remove.png){width="25"} | Supprime le conteneur de blocs et son contenu de la scène. |
+| Supprimer | ![Supprimer l’icône](./assets/pb-icon-remove.png){width="25"} | Supprime le conteneur de blocs et son contenu de la scène. |
 
 {style="table-layout:auto"}
 
@@ -35,17 +35,17 @@ Utilisez le type de contenu Bloc dynamique pour ajouter une [bloc dynamique](../
 
 ## Ajouter un bloc dynamique existant à l’étape
 
-1. Accédez au [!DNL Page Builder] espace de travail sur la page cible, le bloc, le produit ou la catégorie.
+1. Accédez à l’espace de travail [!DNL Page Builder] sur la page cible, le bloc, le produit ou la catégorie.
 
-1. Dans le [!DNL Page Builder] panneau, développer **[!UICONTROL Add Content]** et faites glisser un **[!UICONTROL Dynamic Block]** espace réservé sur la scène.
+1. Dans le panneau [!DNL Page Builder], développez **[!UICONTROL Add Content]** et faites glisser un espace réservé **[!UICONTROL Dynamic Block]** sur la scène.
 
    ![Glissement d’un espace réservé de bloc dynamique vers l’étape](./assets/pb-dynamic-block-drag.png){width="600" zoomable="yes"}
 
-1. Passez la souris sur le conteneur de blocs dynamiques vide pour afficher la boîte à outils et sélectionner l’option _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
+1. Passez la souris sur le conteneur de blocs dynamiques vide pour afficher la boîte à outils et sélectionnez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-   ![Boîte à outils Bloc dynamique](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
+   ![Boîte à outils de bloc dynamique](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 
-1. Sur le _Modifier le bloc dynamique_ page, cliquez sur **[!UICONTROL Select Dynamic Block]** et utilisez la liste pour sélectionner le bloc.
+1. Sur la page _Modifier le bloc dynamique_ , cliquez sur **[!UICONTROL Select Dynamic Block]** et utilisez la liste pour sélectionner le bloc.
 
    ![Sélectionner un bloc dynamique](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
 
@@ -55,9 +55,9 @@ Utilisez le type de contenu Bloc dynamique pour ajouter une [bloc dynamique](../
 
    Un résumé des informations du bloc dynamique apparaît ci-dessous.
 
-   ![Résumé des blocs dynamiques](./assets/pb-add-content-dynamic-block-summary.png){width="600" zoomable="yes"}
+   ![Résumé de bloc dynamique](./assets/pb-add-content-dynamic-block-summary.png){width="600" zoomable="yes"}
 
-1. Définir **[!UICONTROL Template]** à l’une des options suivantes :
+1. Définissez **[!UICONTROL Template]** sur l’une des options suivantes :
 
    | Option | Description |
    | ------ | ----------- |
@@ -70,11 +70,11 @@ Utilisez le type de contenu Bloc dynamique pour ajouter une [bloc dynamique](../
 
 1. Définissez les Paramètres avancés selon vos besoins.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
 ### Paramètres avancés
 
-1. Pour contrôler le positionnement du bloc dynamique dans le conteneur parent, sélectionnez une **[!UICONTROL Alignment]**:
+1. Pour contrôler le positionnement du bloc dynamique dans le conteneur parent, choisissez un **[!UICONTROL Alignment]** :
 
    | Option | Description |
    | ------ | ----------- |
@@ -85,7 +85,7 @@ Utilisez le type de contenu Bloc dynamique pour ajouter une [bloc dynamique](../
 
    {style="table-layout:auto"}
 
-1. Définissez la variable **[!UICONTROL Border]** style appliqué aux quatre côtés du conteneur de blocs dynamiques :
+1. Définissez le style **[!UICONTROL Border]** appliqué aux quatre côtés du conteneur de blocs dynamiques :
 
    | Option | Description |
    | ------ | ----------- |
@@ -102,7 +102,7 @@ Utilisez le type de contenu Bloc dynamique pour ajouter une [bloc dynamique](../
 
    {style="table-layout:auto"}
 
-1. Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage des bordures :
+1. Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage de la bordure :
 
    | Option | Description |
    | ------ |------------ |
@@ -112,11 +112,11 @@ Utilisez le type de contenu Bloc dynamique pour ajouter une [bloc dynamique](../
 
    {style="table-layout:auto"}
 
-1. (Facultatif) Indiquez les noms des **[!UICONTROL CSS classes]** de la feuille de style actuelle à appliquer au conteneur.
+1. (Facultatif) Indiquez les noms de **[!UICONTROL CSS classes]** dans la feuille de style actuelle à appliquer au conteneur.
 
    Séparez plusieurs noms de classe par un espace.
 
-1. Saisissez des valeurs, en pixels, pour la variable **[!UICONTROL Margins and Padding]** pour déterminer les marges extérieures et la marge intérieure du conteneur de blocs dynamiques.
+1. Saisissez des valeurs, en pixels, pour le **[!UICONTROL Margins and Padding]** afin de déterminer les marges extérieures et la marge intérieure du conteneur de blocs dynamiques.
 
    Saisissez les valeurs correspondantes dans le diagramme.
 
@@ -129,9 +129,9 @@ Utilisez le type de contenu Bloc dynamique pour ajouter une [bloc dynamique](../
 
 ## Modification des paramètres du conteneur de blocs dynamique
 
-1. Passez la souris sur le conteneur de blocs dynamiques pour afficher la boîte à outils et sélectionner l’option _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
+1. Passez la souris sur le conteneur de blocs dynamiques pour afficher la boîte à outils et sélectionnez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-   ![Boîte à outils Bloc dynamique](./assets/pb-add-content-dynamic-block-toolbox.png){width="500" zoomable="yes"}
+   ![Boîte à outils de bloc dynamique](./assets/pb-add-content-dynamic-block-toolbox.png){width="500" zoomable="yes"}
 
 1. Si nécessaire, modifiez le bloc dynamique :
 
@@ -143,17 +143,17 @@ Utilisez le type de contenu Bloc dynamique pour ajouter une [bloc dynamique](../
 
 1. Mettez à jour les paramètres restants si nécessaire.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
 ## Dupliquer un bloc dynamique
 
-1. Passez la souris sur le conteneur de blocs dynamiques pour afficher la boîte à outils et sélectionner l’option _Dupliquer_ ( ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="20"} ).
+1. Passez la souris sur le conteneur de blocs dynamiques pour afficher la boîte à outils et sélectionnez l’icône _Dupliquer_ ( ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="20"} ).
 
    Le doublon apparaît juste en dessous de l’original.
 
    ![Duplication d&#39;un bloc dynamique](./assets/pb-add-content-dynamic-block-duplicate.png){width="500" zoomable="yes"}
 
-1. Pour déplacer le nouveau bloc dynamique vers une autre position, passez la souris sur son conteneur, puis choisissez _Déplacer_ ( ![Icône Déplacer](./assets/pb-icon-move.png){width="20"} ) dans la boîte à outils.
+1. Pour déplacer le nouveau bloc dynamique vers une autre position, passez la souris sur son conteneur, puis sélectionnez _Déplacer_ ( ![Icône Déplacer](./assets/pb-icon-move.png){width="20"} ) dans la boîte à outils.
 
 1. Sélectionnez le bloc dynamique et faites-le glisser jusqu&#39;à ce que la ligne directrice rouge apparaisse à la nouvelle position.
 
@@ -161,6 +161,6 @@ Utilisez le type de contenu Bloc dynamique pour ajouter une [bloc dynamique](../
 
 ## Suppression d’un bloc dynamique de la scène
 
-1. Passez la souris sur le conteneur de blocs dynamiques pour afficher la boîte à outils et sélectionner l’option _Supprimer_ ( ![Icône Supprimer](./assets/pb-icon-remove.png){width="20"} ).
+1. Passez la souris sur le conteneur de blocs dynamiques pour afficher la boîte à outils et sélectionnez l’icône _Supprimer_ ( ![Icône Supprimer](./assets/pb-icon-remove.png){width="20"} ).
 
-1. Lorsque vous y êtes invité, cliquez sur **[!UICONTROL OK]**.
+1. Lorsque vous êtes invité à confirmer l’opération, cliquez sur **[!UICONTROL OK]**.

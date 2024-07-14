@@ -6,7 +6,7 @@ role: Admin, Developer
 feature: System, Integration, Configuration
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -19,33 +19,33 @@ La définition d’une intégration dans l’administrateur Commerce détermine 
 
 ## Processus d’intégration
 
-1. **Autoriser l’intégration** - Accédez au **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**, recherchez l’intégration appropriée et autorisez-la.
+1. **Autoriser l’intégration** - Accédez à la page **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**, recherchez l’intégration appropriée et autorisez-la.
 1. **Vérifier et établir la connexion** - Lorsque vous y êtes invité, acceptez l’accès demandé. Si vous êtes redirigé vers un tiers, connectez-vous au système ou créez un compte. Une fois la connexion établie, vous revenez à la page d’intégration.
-1. **Recevoir la confirmation de l&#39;intégration autorisée** - Le système envoie une notification indiquant que l’intégration a été autorisée avec succès. Après avoir configuré une intégration et reçu les informations d’identification, il n’est plus nécessaire d’effectuer des appels pour accéder aux jetons ou de demander des jetons.
+1. **Recevez la confirmation de l’intégration autorisée** - Le système envoie une notification indiquant que l’intégration a été autorisée avec succès. Après avoir configuré une intégration et reçu les informations d’identification, il n’est plus nécessaire d’effectuer des appels pour accéder aux jetons ou de demander des jetons.
 
 ## Ajout d’une intégration
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**.
 
    ![Nouvelle intégration](./assets/integration-new.png){width="600" zoomable="yes"}
 
 1. Renseignez les informations d’intégration suivantes :
 
-   - Saisissez le **[!UICONTROL Name]** de l&#39;intégration et du contact **[!UICONTROL Email]** adresse.
+   - Saisissez le **[!UICONTROL Name]** de l&#39;intégration et l&#39;adresse de contact **[!UICONTROL Email]**.
 
-   - Saisissez le **[!UICONTROL Callback URL]** où les informations d’identification OAuth peuvent être envoyées lors de l’utilisation d’OAuth pour l’échange de jetons. Utilisation `https://` est vivement recommandé.
+   - Saisissez le **[!UICONTROL Callback URL]** où les informations d’identification OAuth peuvent être envoyées lors de l’utilisation d’OAuth pour l’exchange du jeton. L&#39;utilisation de `https://` est fortement recommandée.
 
-   - Saisissez le **[!UICONTROL Identity Link URL]** pour rediriger les utilisateurs vers un compte tiers à l’aide de ces informations d’identification d’intégration Adobe Commerce ou Magento Open Source.
+   - Saisissez le **[!UICONTROL Identity Link URL]** pour rediriger les utilisateurs vers un compte tiers avec ces informations d’identification d’intégration Adobe Commerce ou Magento Open Source.
 
    >[!NOTE]
    >
-   > La variable `Integration not secure` le libellé d’avertissement s’affiche à côté de chaque nom d’intégration sur la [!UICONTROL Integrations] en tant que rappel, jusqu’à ce que les URL HTTPS soient enregistrées dans [!UICONTROL Callback URL] et [!UICONTROL Identity Link URL] des champs.
+   > L’étiquette d’avertissement `Integration not secure` s’affiche à côté de chaque nom d’intégration sur la grille [!UICONTROL Integrations] comme rappel, jusqu’à ce que les URL HTTPS soient enregistrées dans les champs [!UICONTROL Callback URL] et [!UICONTROL Identity Link URL].
 
    - Lorsque vous y êtes invité, saisissez votre mot de passe pour confirmer votre identité.
 
-1. Dans le panneau de gauche, choisissez **[!UICONTROL API]** et procédez comme suit :
+1. Dans le panneau de gauche, sélectionnez **[!UICONTROL API]** et procédez comme suit :
 
-   - Définir **[!UICONTROL Resource Access]** à l’une des options suivantes :
+   - Définissez **[!UICONTROL Resource Access]** sur l’une des options suivantes :
 
       - `All`
       - `Custom`
@@ -54,15 +54,15 @@ La définition d’une intégration dans l’administrateur Commerce détermine 
 
      ![Intégrations - API disponible](./assets/integrations-available-api.png){width="600" zoomable="yes"}
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
 
 ## Activation d’une intégration
 
-Par défaut, une intégration enregistrée s’affiche sur la grille avec une `Inactive` statut. Pour l’activer, procédez comme suit :
+Par défaut, une intégration enregistrée s’affiche sur la grille avec l’état `Inactive`. Pour l’activer, procédez comme suit :
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**.
 
-1. Recherchez l’intégration que vous venez de créer, puis cliquez sur le bouton **[!UICONTROL Activate]** lien.
+1. Recherchez l’intégration nouvellement créée et cliquez sur le lien **[!UICONTROL Activate]** .
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Allow]**.
 
@@ -76,11 +76,11 @@ Par défaut, une intégration enregistrée s’affiche sur la grille avec une `I
 
 Pour générer un nouveau jeton d’accès à l’intégration et un nouveau secret de jeton d’accès, réautorisez l’intégration à partir de l’administrateur :
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**.
 
-1. Recherchez l’intégration avec la méthode **[!UICONTROL Active]** statut.
+1. Recherchez l’intégration avec l’état **[!UICONTROL Active]**.
 
-1. Dans _[!UICONTROL Activate]_, cliquez sur le bouton **[!UICONTROL Reauthorize]**.
+1. Dans la colonne _[!UICONTROL Activate]_, cliquez sur **[!UICONTROL Reauthorize]**.
 
 1. Cliquez sur **[!UICONTROL Reauthorize]** pour approuver l’accès aux ressources de l’API.
 
@@ -90,24 +90,24 @@ Pour générer un nouveau jeton d’accès à l’intégration et un nouveau sec
 
 Par défaut, le système n’autorise pas l’accès anonyme des invités à CMS, catalogue et autres ressources de magasin. Si vous devez modifier le paramètre, procédez comme suit :
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Services]** et choisissez **[!UICONTROL Magento Web API]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Web API Security Setting]** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Web API Security Setting]** .
 
-   ![Configuration des services - paramètres de sécurité de l’API web](../configuration-reference/services/assets/web-api-security.png){width="600" zoomable="yes"}
+   ![ Configuration des services - Paramètres de sécurité de l’API web](../configuration-reference/services/assets/web-api-security.png){width="600" zoomable="yes"}
 
-1. Définir **[!UICONTROL Allow Anonymous Guest Access]** to `Yes`.
+1. Définissez **[!UICONTROL Allow Anonymous Guest Access]** sur `Yes`.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 Pour plus d’informations, voir [Limitation de l’accès aux API web anonymes](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security/) dans la documentation destinée aux développeurs Commerce.
 
 ## Suppression d’une intégration
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**.
 
-1. Recherchez l’intégration existante et cliquez sur l’icône ( ![icône de corbeille](../assets/icon-delete-trashcan-solid.png) ) dans la variable **[!UICONTROL Delete]** colonne .
+1. Recherchez l’intégration existante et cliquez sur l’icône ( ![icône de corbeille](../assets/icon-delete-trashcan-solid.png) ) dans la colonne **[!UICONTROL Delete]** .
 
 1. Pour confirmer votre action, cliquez sur **[!UICONTROL OK]**.

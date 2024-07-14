@@ -5,7 +5,7 @@ exl-id: d618c769-10be-4881-a799-42484d35c57b
 feature: Gift, Storefront
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -22,69 +22,69 @@ Un registre des cadeaux peut être créé pour tout type d’événement, tel qu
 
 Lorsque vous créez un registre, il devient une option dans la liste des types de registre des cadeaux du compte du client.
 
-Vous pouvez utiliser l’un des trois registres de cadeaux préparés ou créer votre propre registre personnalisé. Chaque type de registre des cadeaux comprend plusieurs attributs, qui sont les champs de saisie de données qu’un client remplit pour créer un registre des cadeaux. Les attributs fournissent des informations supplémentaires sur l’événement, l’heure et l’emplacement, ou toute autre information nécessaire. Selon le type d’entrée, certains attributs disposent de plusieurs options. Par exemple, la variable `Wedding` le type de registre des cadeaux possède l’attribut `Role`, avec la propriété `Bride`, `Groom`, et `Partner` options. Pour en savoir plus sur les attributs et les types d’entrée, voir [Attributs](../customers/attribute-properties.md).
+Vous pouvez utiliser l’un des trois registres de cadeaux préparés ou créer votre propre registre personnalisé. Chaque type de registre des cadeaux comprend plusieurs attributs, qui sont les champs de saisie de données qu’un client remplit pour créer un registre des cadeaux. Les attributs fournissent des informations supplémentaires sur l’événement, l’heure et l’emplacement, ou toute autre information nécessaire. Selon le type d’entrée, certains attributs disposent de plusieurs options. Par exemple, le type de registre des cadeaux `Wedding` a l’attribut `Role`, avec les options `Bride`, `Groom` et `Partner`. Pour en savoir plus sur les attributs et les types d’entrée, voir [Attributs](../customers/attribute-properties.md).
 
 ![Types de registre des cadeaux](./assets/gift-registry-types.png){width="700" zoomable="yes"}
 
 ## Utiliser une liste de cadeaux préparée
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**.
 
    Les registres d&#39;anniversaire, de mariage et de naissance sont prêts à être utilisés par les clients à partir de leurs comptes.
 
-1. Assurez-vous de terminer la variable [configuration du modèle d&#39;email](../systems/email-templates.md#configure-email-templates), afin qu’ils reflètent votre marque.
+1. Veillez à terminer la [configuration de modèle d&#39;email](../systems/email-templates.md#configure-email-templates) afin qu&#39;elles reflètent votre marque.
 
 ## Créer un registre des cadeaux personnalisé
 
-1. Dans la barre latérale d’administration, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**.
+1. Dans la barre latérale Admin, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add Gift Registry Type]**.
 
 1. Sous **[!UICONTROL General Information]**, procédez comme suit :
 
-   - Saisissez une variable **[!UICONTROL Code]** pour identifier le registre des cadeaux en interne.
+   - Saisissez un **[!UICONTROL Code]** unique pour identifier le registre des cadeaux en interne.
 
-     Le code doit commencer par une lettre minuscule. Le reste du code peut être une combinaison de lettres minuscules (a-z), de nombres (0-9) et de traits de soulignement (`_`).
+     Le code doit commencer par une lettre minuscule. Le reste du code peut être n’importe quelle combinaison de lettres minuscules (a-z), de nombres (0-9) et de traits de soulignement (`_`).
 
-   - Pour **[!UICONTROL Label]**, saisissez le nom du registre des cadeaux tel que vous souhaitez le voir apparaître dans le magasin.
+   - Pour **[!UICONTROL Label]**, saisissez un nom pour le registre des cadeaux tel que vous souhaitez le voir apparaître dans le magasin.
 
      Cette étiquette est une option de la liste des types de registre des cadeaux disponibles pour le client.
 
    - Pour **[!UICONTROL Sort Order]**, saisissez un nombre afin de déterminer l’ordre dans lequel ce registre des cadeaux s’affiche lorsqu’il est répertorié avec d’autres types.
 
-   - Pour activer le registre des cadeaux, définissez **[!UICONTROL Is Listed]** to `Yes`.
+   - Pour activer le registre des cadeaux, définissez **[!UICONTROL Is Listed]** sur `Yes`.
 
-     ![Registre des cadeaux - informations générales](./assets/gift-registry-new-general-information.png){width="600" zoomable="yes"}
+     ![Registre cadeau - informations générales](./assets/gift-registry-new-general-information.png){width="600" zoomable="yes"}
 
 1. Examinez chaque section du registre des cadeaux pour déterminer le type d’informations à inclure.
 
-1. Dans le panneau de gauche, choisissez **[!UICONTROL Attributes]** et cliquez sur **[!UICONTROL Add Attribute]**.
+1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Attributes]** et cliquez sur **[!UICONTROL Add Attribute]**.
 
-   ![Registre des cadeaux - nouvel attribut](./assets/gift-registry-type-new-attribute.png){width="600" zoomable="yes"}
+   ![Registre cadeau - nouvel attribut](./assets/gift-registry-type-new-attribute.png){width="600" zoomable="yes"}
 
 1. Pour chaque attribut, procédez comme suit :
 
-   - Attribution d’une **[!UICONTROL Code]** pour identifier l’attribut en interne. Le code peut contenir jusqu’à 15 caractères et doit commencer par une lettre minuscule. Le reste du code peut inclure des lettres minuscules(`a`-`z`), nombres (`0`-`9`) et le trait de soulignement (`_`) pour séparer les mots.
+   - Attribuez un **[!UICONTROL Code]** unique pour identifier l’attribut en interne. Le code peut contenir jusqu’à 15 caractères et doit commencer par une lettre minuscule. Le reste du code peut inclure des lettres minuscules (`a`-`z`), des nombres (`0`-`9`) et le caractère de soulignement (`_`) pour séparer les mots.
 
-   - Choisissez la **[!UICONTROL Input Type]** à utiliser pour la saisie de données. Vous pouvez utiliser un type personnalisé ou statique.
+   - Sélectionnez le **[!UICONTROL Input Type]** à utiliser pour la saisie des données. Vous pouvez utiliser un type personnalisé ou statique.
 
    - Si le type d’entrée comporte plusieurs options, cliquez sur **[!UICONTROL Add New Option]** et renseignez les informations de chaque option.
 
      Certains types de saisie possèdent des propriétés supplémentaires. Par exemple, l’ emplacement de l’événement comporte des propriétés supplémentaires pour rendre l’événement consultable et inclus dans la liste publique des registres de cadeaux de votre boutique.
 
-      - Définir **[!UICONTROL Attribute Group]** dans la section du registre des cadeaux où vous souhaitez que l’attribut s’affiche.
+      - Définissez **[!UICONTROL Attribute Group]** sur la section du registre des cadeaux où vous souhaitez que l’attribut apparaisse.
 
       - Pour **[!UICONTROL Label]**, saisissez un nom pour identifier le champ de saisie de données dans le registre.
 
-      - Si le client doit effectuer une sélection ou saisir une valeur dans le champ, définissez **[!UICONTROL Is Required]** to `Yes`.
+      - Si le client doit effectuer une sélection ou saisir une valeur dans le champ, définissez **[!UICONTROL Is Required]** sur `Yes`.
 
       - Pour **[!UICONTROL Sort Order]**, saisissez un nombre afin de déterminer l’ordre dans lequel ce registre des cadeaux s’affiche lorsqu’il est répertorié avec d’autres registres de cadeaux qui peuvent être disponibles dans le magasin.
 
-1. Pour ajouter une autre option, cliquez sur **Ajouter une option**.
+1. Pour ajouter une autre option, cliquez sur **Ajouter une nouvelle option**.
 
    Chaque nouvelle option ajoutée apparaît dans une nouvelle section dans la partie supérieure. Répétez cette procédure pour le nouvel attribut .
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
 
 ## Descriptions des champs
 
@@ -92,7 +92,7 @@ Vous pouvez utiliser l’un des trois registres de cadeaux préparés ou créer 
 
 | Champ | Description |
 |--- |--- |
-| [!UICONTROL Code] | Nom unique permettant d’identifier le type de registre des cadeaux en interne. Le premier caractère du code doit être une lettre minuscule. Le reste du code peut être une combinaison de lettres minuscules (a-z), de nombres (0-9) et de caractères de soulignement (`_`). |
+| [!UICONTROL Code] | Nom unique permettant d’identifier le type de registre des cadeaux en interne. Le premier caractère du code doit être une lettre minuscule. Le reste du code peut être n’importe quelle combinaison de lettres minuscules (a-z), de nombres (0-9) et de caractères de soulignement (`_`). |
 | [!UICONTROL Label] | Nom du type de registre des cadeaux qui apparaît dans le magasin. |
 | [!UICONTROL Sort Order] | Détermine la séquence dans laquelle ce type de registre des cadeaux s’affiche lorsqu’il est répertorié avec d’autres types. |
 | [!UICONTROL Is Listed] | Détermine si le type de registre des cadeaux est disponible pour les clients du magasin. Options : `Yes` / `No`. |
@@ -121,9 +121,9 @@ Sélectionnez le type de données et le contrôle d’entrée associés à l’a
 | Champ | Description |
 |--- |--- |
 | [!UICONTROL Text] | Affiche l’attribut sous forme de champ de texte. |
-| [!UICONTROL Select] | Affiche l’attribut sous la forme d’une liste déroulante. Cliquez sur **[!UICONTROL Add New Option]** pour ajouter d’autres conditions à la liste déroulante :<br/>**[!UICONTROL Code]**: nom unique permettant d’identifier l’attribut en interne.<br/>**[!UICONTROL Label]** - Nom qui identifie l’attribut dans le tableau de bord du compte du client.<br/>**[!UICONTROL Is Default]**- Définissez ce sélecteur pour sélectionner la condition par défaut.<br/>**[!UICONTROL Delete Option]** - Cliquez sur pour supprimer l’option. |
+| [!UICONTROL Select] | Affiche l’attribut sous la forme d’une liste déroulante. Cliquez sur **[!UICONTROL Add New Option]** pour ajouter d’autres conditions à la liste déroulante :<br/>**[!UICONTROL Code]**- Nom unique permettant d’identifier l’attribut en interne.<br/>**[!UICONTROL Label]** - Nom qui identifie l’attribut dans le tableau de bord du compte du client.<br/>**[!UICONTROL Is Default]**- Définissez ce commutateur pour sélectionner la condition par défaut.<br/>**[!UICONTROL Delete Option]** - Cliquez pour supprimer l’option. |
 | [!UICONTROL Date] | Affiche l’attribut sous forme de champ de date. Options : `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
-| [!UICONTROL Country] | Affiche l’attribut sous la forme d’une liste déroulante de pays. Définir **[!UICONTROL Show Region]** à : `Yes` / `No`. |
+| [!UICONTROL Country] | Affiche l’attribut sous la forme d’une liste déroulante de pays. Définissez **[!UICONTROL Show Region]** sur : `Yes` / `No`. |
 
 {style="table-layout:auto"}
 
@@ -131,10 +131,10 @@ Sélectionnez le type de données et le contrôle d’entrée associés à l’a
 
 | Champ | Description |
 |--- |--- |
-| [!UICONTROL Event Date] | Détermine la manière dont l’attribut date est utilisé dans le magasin. Options : <br/>**[!UICONTROL Searchable]**- Détermine si l’attribut est disponible pour la recherche avancée. Options : `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** - Détermine si l’événement est inclus dans la liste des événements disponibles dans le magasin. Options : `Yes` / `No`. <br/>**[!UICONTROL Date Format]**- Détermine le format de la date de l’événement. Options : `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
-| [!UICONTROL Event Country] | Affiche l’attribut sous la forme d’une liste de pays. Options : <br/>**[!UICONTROL Searchable]**- Détermine si l’attribut est disponible pour la recherche avancée. Options : `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** - Détermine si l’événement est inclus dans la liste des événements disponibles dans le magasin. Options : `Yes` / `No`. <br/>**[!UICONTROL Show Region]**- Détermine la région de l’événement. |
-| [!UICONTROL Event Location] | Emplacement de l’événement lié au registre des cadeaux. <br/>Définir **[!UICONTROL Is Searcheable]** à : `Yes` / `No` <br/>Définir **[!UICONTROL Is Listed]** à : `Yes` / `No` |
-| [!UICONTROL Role] | Le rôle qui identifie le destinataire du cadeau. Par exemple : `Bride`, `Groom`, ou `Partner`.<br/>**[!UICONTROL Is Searcheable]**- Définissez sur `Yes`/ `No`<br/>** Est répertorié&#x200B;**- Définissez sur `Yes` / `No`<br/>**[!UICONTROL Add New Option]** - Cliquez sur pour ajouter d’autres conditions au menu déroulant :<br/>**Code** : nom unique permettant d’identifier l’attribut en interne.<br/>**[!UICONTROL Label]**- Nom qui identifie l’attribut dans le tableau de bord du compte du client.<br/>**[!UICONTROL Is Default]** - Définissez ce sélecteur pour sélectionner la condition par défaut.<br/>**[!UICONTROL Delete Option]**- Cliquez sur pour supprimer l’option. |
+| [!UICONTROL Event Date] | Détermine la manière dont l’attribut date est utilisé dans le magasin. Options : <br/>**[!UICONTROL Searchable]**- Détermine si l’attribut est disponible pour la recherche avancée. Options : `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** - Détermine si l’événement est inclus dans la liste des événements disponibles dans le magasin. Options : `Yes` / `No`. <br/>**[!UICONTROL Date Format]**- Détermine le format de la date de l’événement. Options : `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
+| [!UICONTROL Event Country] | Affiche l’attribut sous la forme d’une liste de pays. Options : <br/>**[!UICONTROL Searchable]**- Détermine si l’attribut est disponible pour la recherche avancée. Options : `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** - Détermine si l’événement est inclus dans la liste des événements disponibles dans le magasin. Options : `Yes` / `No`. <br/>**[!UICONTROL Show Region]**- Détermine la région de l’événement. |
+| [!UICONTROL Event Location] | Emplacement de l’événement lié au registre des cadeaux. <br/> Définissez **[!UICONTROL Is Searcheable]** sur : `Yes` / `No` <br/> **[!UICONTROL Is Listed]** sur : `Yes` / `No` |
+| [!UICONTROL Role] | Le rôle qui identifie le destinataire du cadeau. Par exemple, `Bride`, `Groom` ou `Partner`.<br/>**[!UICONTROL Is Searcheable]**- Défini sur `Yes`/ `No`<br/>** Est répertorié&#x200B;**- Défini sur `Yes` / `No`<br/>**[!UICONTROL Add New Option]** - Cliquez pour ajouter d’autres conditions au menu déroulant :<br/>**Code** - Un nom unique pour identifier l’attribut en interne.<br/>**[!UICONTROL Label]**- Nom qui identifie l’attribut dans le tableau de bord du compte du client.<br/>**[!UICONTROL Is Default]** - Définissez ce commutateur pour sélectionner la condition par défaut.<br/>**[!UICONTROL Delete Option]**- Cliquez pour supprimer l’option. |
 
 {style="table-layout:auto"}
 

@@ -33,7 +33,7 @@ ht-degree: 1%
       - [Taux de récompense des exchanges](reward-exchange-rates.md)
       - [Points de récompense dans les règles de prix](reward-points-price-rules.md)
       - [Expérience du storfront des points de récompense](reward-points-storefront.md)
-   - Études de produits {#product-reviews}
+   - Révisions de produits {#product-reviews}
       - [Critiques de produits clients](product-reviews.md)
       - [Modération des révisions](product-reviews-moderate.md)
 - Promotions {#promotions}
@@ -56,7 +56,7 @@ ht-degree: 1%
       - [Exemple : achetez ceci et cela gratuitement](price-rules-cart-buy-this-get-that.md)
       - [Exemple : escompte avec achat minimum](price-rule-discount-minimum-purchase.md)
       - [Exemple : réduction avec premier achat](price-rule-discount-first-purchase.md)
-   - Relations avec les produits {#product-relationships}
+   - Relations produit {#product-relationships}
       - [Vue d’ensemble](product-relationships.md)
       - [Règles et configuration des produits associés](product-related-rules.md)
       - [Création d’une règle de produit associée](product-related-rule-create.md)
@@ -67,25 +67,25 @@ ht-degree: 1%
       - [Envoyer des newsletters](newsletter-queue.md)
       - [Gestion des abonnés](newsletter-subscribers.md)
    - [Réseaux sociaux et flux RSS](social-rss.md)
-   - Rappels électroniques {#email-reminders}
+   - Rappels de courriel {#email-reminders}
       - [Activer les rappels par email](email-reminder-rules.md)
       - [Créer des rappels par courrier électronique](email-reminder-rules-create.md)
 - Optimisation du moteur de recherche {#seo}
    - [Présentation de l’optimisation pour les moteurs de recherche et bonnes pratiques](seo-overview.md)
    - [Métadonnées](meta-data.md)
    - [Cartes du site](sitemap-xml.md)
-   - URL rewrites {#url-rewrites}
+   - Réécritures d’URL {#url-rewrites}
       - [Présentation et configuration](url-rewrite.md)
       - [Réécritures de catégorie](url-rewrite-category.md)
       - [Réécritures de produit](url-rewrite-product.md)
       - [Réécritures de page CMS](url-rewrite-cms-page.md)
       - [Réécriture personnalisée](url-rewrite-custom.md)
       - [Redirections automatiques](url-redirect-product-automatic.md)
-- Outils du site Google {#google-tools}
+- Outils de site Google {#google-tools}
    - [Vue d’ensemble](google-tools.md)
    - [Google Analytics](google-analytics.md)
    - [Gestionnaire de balises de Google](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
    - [Expériences de contenu Google](google-content-experiments.md)
-- [Revenir aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Retour aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

@@ -1,6 +1,6 @@
 ---
 user-guide-title: Guide de référence de configuration
-user-guide-description: Ce guide fournit des informations de référence pour tous les paramètres de configuration de magasin accessibles à partir de la barre latérale _Admin_ à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+user-guide-description: Ce guide fournit des informations de référence pour tous les paramètres de configuration de magasin accessibles à l’extérieur de la barre latérale _Admin_ à l’adresse **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 breadcrumb-title: Référence de configuration
 hide: false
 role: Admin, Developer, User
@@ -65,7 +65,7 @@ ht-degree: 0%
    - [API GOOGLE](./sales/google-api.md)
    - [3D Secure](./sales/3d-secure.md)
    - [Fiches d’assistance](./sales/gift-cards.md)
-   - Méthodes de paiement {#payment-methods}
+   - Modes de paiement {#payment-methods}
       - [Configuration des méthodes de paiement](./sales/payment-methods.md)
       - [Services de paiement](./sales/payment-services.md)
       - [Braintree](./sales/braintree.md)
@@ -84,5 +84,5 @@ ht-degree: 0%
    - [Administration](./advanced/admin.md)
    - [Système](./advanced/system.md)
    - [Développeur](./advanced/developer.md)
-- [Revenir aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Retour aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

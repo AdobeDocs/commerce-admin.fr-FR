@@ -19,17 +19,17 @@ Par exemple, vous pouvez ajouter de nouveaux produits à votre inventaire, mettr
 
 >[!NOTE]
 >
->Adobe Commerce prend également en charge l’exportation des données SaaS pour transférer les données de produit du serveur Commerce vers les services SaaS. L’exportation des données SaaS est intégrée aux services SaaS de Commerce, y compris [Recommendations de produit](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Recherche en direct](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview), et [Service de catalogue](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). Pour plus d’informations, voir [Guide d’exportation des données SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe Commerce prend également en charge l’exportation des données SaaS pour transférer les données de produit du serveur Commerce vers les services SaaS. L’exportation des données SaaS est intégrée aux services SaaS Commerce, y compris [Recommendations de produit](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Recherche en direct](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) et [Service de catalogue](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). Pour plus d’informations, consultez le [Guide d’exportation des données SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ## Validation des données
 
 Toutes les données doivent être validées pour garantir la qualité, la précision et l’intégrité des valeurs avant de les importer dans le magasin. La validation commence lorsque vous cliquez sur **[!UICONTROL Check Data]**. Pendant le processus, toutes les entités du fichier d&#39;import sont vérifiées pour les éléments suivants :
 
-- **Attributs** - Les noms des en-têtes de colonne sont vérifiés pour s’assurer qu’ils correspondent aux attributs correspondants dans la base de données système. La valeur de chaque attribut est vérifiée afin de s’assurer qu’il répond aux exigences du type de données (décimal, entier, varchar, texte et date-heure).
-- **Données complexes** - Les valeurs qui proviennent d’un jeu défini, comme une liste déroulante ou plusieurs types d’entrée de sélection, sont vérifiées afin de s’assurer que les valeurs existent dans l’ensemble défini.
-- **Données du service** - Les valeurs des colonnes de données de service sont vérifiées afin de s’assurer que les propriétés ou les valeurs de données complexes sont cohérentes avec ce qui est déjà défini dans la base de données système.
+- **Attributes** - Les noms d’en-tête de colonne sont vérifiés pour s’assurer qu’ils correspondent aux attributs correspondants dans la base de données système. La valeur de chaque attribut est vérifiée afin de s’assurer qu’il répond aux exigences du type de données (décimal, entier, varchar, texte et date-heure).
+- **Données complexes** - Les valeurs qui proviennent d’un ensemble défini, comme une liste déroulante ou plusieurs types d’entrée de sélection, sont vérifiées pour s’assurer que les valeurs existent dans l’ensemble défini.
+- **Service Data** - Les valeurs des colonnes de données de service sont vérifiées pour s’assurer que les propriétés ou les valeurs de données complexes sont cohérentes avec ce qui est déjà défini dans la base de données système.
 - **Valeurs requises** - Pour les nouvelles entités, la présence des valeurs d’attribut requises dans le fichier est vérifiée. Pour les entités existantes, il n’est pas nécessaire de vérifier à nouveau l’existence des valeurs d’attribut requises.
-- **Séparateurs** - Bien que les séparateurs ne soient pas visibles dans une feuille de calcul, les valeurs de données d’un fichier CSV sont séparées par des virgules et les valeurs de texte sont entourées de guillemets doubles. Pendant le processus de validation, la mise en forme des séparateurs et de chaque ensemble de guillemets encadrant des chaînes de caractères est vérifiée.
+- **Séparateurs** - Bien que les séparateurs ne soient pas visibles lorsqu’ils sont affichés dans une feuille de calcul, les valeurs de données d’un fichier CSV sont séparées par des virgules et les valeurs de texte sont entourées de guillemets doubles. Pendant le processus de validation, la mise en forme des séparateurs et de chaque ensemble de guillemets encadrant des chaînes de caractères est vérifiée.
 
 Les résultats de la validation apparaissent dans la section Résultats de la validation et incluent les informations suivantes :
 
@@ -37,7 +37,7 @@ Les résultats de la validation apparaissent dans la section Résultats de la va
 - Nombre de lignes non valides
 - Le nombre d’erreurs trouvées
 
-Si les données sont valides, une _Réussite de l’importation_ s’affiche.
+Si les données sont valides, un message _Import Success_ s’affiche.
 
 ![Message système - fichier valide](./assets/data-import-validation-message.png){width="500" zoomable="yes"}
 

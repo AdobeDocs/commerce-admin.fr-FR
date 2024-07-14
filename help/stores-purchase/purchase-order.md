@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Commandes
 
-A _commande_ (PO) permet aux clients commerciaux de payer pour les achats autorisés en référençant le numéro du bon de commande. La commande est autorisée et émise à l’avance par la société qui effectue l’achat. Lors du passage en caisse, le client choisit le bon de commande comme mode de paiement. A réception de votre facture, l&#39;entreprise traite le paiement dans le système de leurs comptes créditeurs et paie l&#39;achat.
+Un _bon de commande_ (bon de commande) permet aux clients commerciaux de payer pour les achats autorisés en référençant le numéro du bon de commande. La commande est autorisée et émise à l’avance par la société qui effectue l’achat. Lors du passage en caisse, le client choisit le bon de commande comme mode de paiement. A réception de votre facture, l&#39;entreprise traite le paiement dans le système de leurs comptes créditeurs et paie l&#39;achat.
 
 Avant d&#39;accepter un paiement par commande, vérifiez toujours la solvabilité du client commercial.
 
 **_Pour configurer le paiement par bon de commande :_**
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Payment Methods]**.
 
-1. Sous _[!UICONTROL Other Payment Methods]_, développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Purchase Order]**.
+1. Sous _[!UICONTROL Other Payment Methods]_, développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Purchase Order]**.
 
    ![Bon de commande](../configuration-reference/sales/assets/payment-methods-purchase-order.png){width="600" zoomable="yes"}
 
@@ -30,20 +30,20 @@ Avant d&#39;accepter un paiement par commande, vérifiez toujours la solvabilit�
 
    >[!NOTE]
    >
-   >Si nécessaire, effacez d’abord la variable **[!UICONTROL Use system value]** pour modifier ces paramètres.
+   >Si nécessaire, décochez d’abord la case **[!UICONTROL Use system value]** pour modifier ces paramètres.
 
-1. Pour activer ce mode de paiement, définissez **[!UICONTROL Enabled]** to `Yes`.
+1. Pour activer ce mode de paiement, définissez **[!UICONTROL Enabled]** sur `Yes`.
 
 1. Pour **[!UICONTROL Title]**, saisissez un titre qui identifie ce mode de paiement lors du passage en caisse.
 
-1. Définir **[!UICONTROL New Order Status]** to `Pending` jusqu’à ce que le paiement soit autorisé.
+1. Définissez **[!UICONTROL New Order Status]** sur `Pending` jusqu’à ce que le paiement soit autorisé.
 
-1. Définir **[!UICONTROL Payment from Applicable Countries]** à l’une des options suivantes :
+1. Définissez **[!UICONTROL Payment from Applicable Countries]** sur l’une des options suivantes :
 
-   - `All Allowed Countries` - Clients de tous les [pays](../getting-started/store-details.md#country-options) spécifié dans votre configuration de magasin peut utiliser ce mode de paiement.
-   - `Specific Countries` - Après avoir choisi cette option, la variable _[!UICONTROL Payment from Specific Countries]_s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée, puis cliquez sur chaque option.
+   - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans votre configuration de magasin peuvent utiliser ce mode de paiement.
+   - `Specific Countries` - Une fois cette option sélectionnée, la liste _[!UICONTROL Payment from Specific Countries]_s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée, puis cliquez sur chaque option.
 
-1. Définir **[!UICONTROL Minimum Order Total]** et **[!UICONTROL Maximum Order Total]** aux montants requis pour bénéficier de ce mode de paiement.
+1. Définissez **[!UICONTROL Minimum Order Total]** et **[!UICONTROL Maximum Order Total]** sur les montants requis pour bénéficier de ce mode de paiement.
 
    >[!NOTE]
    >
@@ -51,6 +51,6 @@ Avant d&#39;accepter un paiement par commande, vérifiez toujours la solvabilit�
 
 1. Pour **[!UICONTROL Sort Order]**, saisissez un nombre qui détermine la position de cet élément dans la liste des méthodes de paiement affichées lors du passage en caisse.
 
-   Ce nombre est relatif aux autres modes de paiement. (`0` = first, `1` = second, `2` = troisième, etc.)
+   Ce nombre est relatif aux autres modes de paiement. (`0` = premier, `1` = deuxième, `2` = troisième, etc.)
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.

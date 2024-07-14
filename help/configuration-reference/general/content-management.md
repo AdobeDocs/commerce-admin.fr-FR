@@ -5,7 +5,7 @@ exl-id: 67c5e89b-0a7c-4e4f-a5ad-10376c3ef6f9
 feature: Configuration, Page Content
 source-git-commit: 5eef49c10680a47574afe3d3ecfa430dca7ad9ff
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 0%
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Enable WYSIWYG Editor] | Affichage en magasin | Détermine si l’éditeur est activé pour le magasin. Options : activé par défaut/désactivé par défaut/désactivé complètement |
-| [!UICONTROL WYSIWYG Editor] | Site Web | Détermine la version de l’éditeur TinyMCE utilisé pour l’éditeur WYSIWYG. Options : <br/>**`TinyMCE 5`**- (Par défaut) Utilise la version 5 de TinyMCE comme éditeur WYSIWYG par défaut.<br><br>_** Remarque :**_Une mise à jour de la bibliothèque TinyMCE 5.10 dans Adobe Commerce et Magento Open Source 2.4.5 résout une vulnérabilité qui permettait l’exécution arbitraire de JavaScript lors de la mise à jour d’une image ou d’un lien à l’aide de certains types d’URL. TinyMCE 3 a été abandonné dans la version 2.4.0 et supprimé dans la version 2.4.3. TinyMCE 4 a été supprimé dans la version 2.4.4. |
-| [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | Global | Détermine si [URL statiques](../../content-design/catalog-urls-dynamic-media.md) sont utilisés pour le contenu multimédia référencé à partir de l’éditeur WYSIWYG. Le paramètre s’applique à tous les endroits où l’éditeur WYSIWYG est disponible, y compris les produits, les catégories, les pages et les blocs. Options : <br/>**`Yes`**: utilise des URL statiques pour le contenu multimédia inséré avec l’éditeur WYSIWYG. Les URL statiques sont absolues et cassées si la variable [URL de base](../../stores-purchase/store-urls.md) des modifications du magasin.<br/>**`No`** (Par défaut) : utilise des URL dynamiques pour le contenu multimédia inséré avec l’éditeur WYSIWYG, en fonction de la variable  `{{media url="..."}}` de . Les URL dynamiques sont relatives et ne rompent pas si l’URL de base du magasin change. |
+| [!UICONTROL WYSIWYG Editor] | Site Web | Détermine la version de l’éditeur TinyMCE utilisé pour l’éditeur WYSIWYG. Options : <br/>**`TinyMCE 5`**- (par défaut) utilise la version 5 de TinyMCE comme éditeur WYSIWYG par défaut.<br><br>_** Remarque : **_Une mise à jour de la bibliothèque TinyMCE 5.10 dans Adobe Commerce et Magento Open Source 2.4.5 résout une vulnérabilité qui permettait l’exécution arbitraire de JavaScript lors de la mise à jour d’une image ou d’un lien à l’aide de certains types d’URL. TinyMCE 3 a été abandonné dans la version 2.4.0 et supprimé dans la version 2.4.3. TinyMCE 4 a été supprimé dans la version 2.4.4. |
+| [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | Global | Détermine si des [URL statiques](../../content-design/catalog-urls-dynamic-media.md) sont utilisées pour le contenu multimédia référencé à partir de l’éditeur WYSIWYG. Le paramètre s’applique à tous les endroits où l’éditeur WYSIWYG est disponible, y compris les produits, les catégories, les pages et les blocs. Options : <br/>**`Yes`**- Utilise des URL statiques pour le contenu multimédia inséré avec l’éditeur WYSIWYG. Les URL statiques sont absolues et coupées si l’ [URL de base](../../stores-purchase/store-urls.md) du magasin change.<br/>**`No`** (Par défaut) : utilise des URL dynamiques pour le contenu multimédia inséré avec l’éditeur WYSIWYG, en fonction de la directive `{{media url="..."}}`. Les URL dynamiques sont relatives et ne rompent pas si l’URL de base du magasin change. |
 
 {style="table-layout:auto"}
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![Hiérarchie des pages CMS](./assets/content-management-cms-page-hierarchy.png)<!-- zoom -->
+![Hiérarchie de page CMS](./assets/content-management-cms-page-hierarchy.png)<!-- zoom -->
 
 <!--[CMS Page Hierarchy](https://docs.magento.com/user-guide/cms/page-hierarchy.html) -->
 
@@ -52,16 +52,16 @@ ht-degree: 0%
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Enable Page Builder] | Global | Détermine si la variable [!DNL Page Builder] des outils de contenu avancé sont disponibles. Options : <br/>**`Yes`**- La variable [!DNL Page Builder] Workspace s’affiche dans la section Contenu des pages, blocs, produits et catégories.<br/>**`No`** - Les outils d’édition CMS standard apparaissent dans la _[!UICONTROL Content]_des pages, des blocs, des produits et des catégories. |
-| [!UICONTROL Enable Page Builder Content Preview] | Global | Détermine si la variable [!DNL Page Builder] les aperçus de contenu sont activés pour les produits et les catégories. Options : `Yes` / `No` <br/>**_Remarque :_**Défini sur `Yes` par défaut, la désactivation de l’aperçu peut empêcher tout problème de performances résultant du chargement des aperçus dans un formulaire de produit ou de catégorie. |
-| [!UICONTROL Google Maps API Key] | Global | La variable [!DNL Google Maps] Clé API de votre compte Google. |
-| [!UICONTROL Test Key] |  | Valide le [!DNL Google Maps] Clé API. |
-| [!UICONTROL Google Maps Style] | Global | Collez le [!DNL Google Maps] appliquer un style au code JSON ici pour modifier l’aspect du type de contenu Carte . |
-| [!UICONTROL Default Column Grid Size] | Global | Détermine le nombre de colonnes par défaut dans la variable [!DNL Page Builder] grid. |
-| [!UICONTROL Maximum Column Grid Size] | Global | Détermine le nombre maximal de colonnes dans la variable [!DNL Page Builder] grid. |
+| [!UICONTROL Enable Page Builder] | Global | Détermine si les outils de contenu avancé [!DNL Page Builder] sont disponibles. Options : <br/>**`Yes`**- L’espace de travail [!DNL Page Builder] apparaît dans la section Contenu des pages, blocs, produits et catégories.<br/>**`No`** - Les outils d’édition CMS standard apparaissent dans la section _[!UICONTROL Content]_des pages, blocs, produits et catégories. |
+| [!UICONTROL Enable Page Builder Content Preview] | Global | Détermine si les aperçus de contenu [!DNL Page Builder] sont activés pour les produits et les catégories. Options : `Yes` / `No` <br/>**_Remarque :_**Cette valeur est définie sur `Yes` par défaut, mais la désactivation de l’aperçu peut empêcher tout problème de performances résultant du chargement des aperçus dans un formulaire de produit ou de catégorie. |
+| [!UICONTROL Google Maps API Key] | Global | La clé d’API [!DNL Google Maps] de votre compte Google. |
+| [!UICONTROL Test Key] |  | Valide la clé d’API [!DNL Google Maps]. |
+| [!UICONTROL Google Maps Style] | Global | Collez le code JSON de style [!DNL Google Maps] ici pour modifier l’aspect du type de contenu Carte. |
+| [!UICONTROL Default Column Grid Size] | Global | Détermine le nombre de colonnes par défaut dans la grille [!DNL Page Builder]. |
+| [!UICONTROL Maximum Column Grid Size] | Global | Détermine le nombre maximal de colonnes dans la grille [!DNL Page Builder]. |
 
 {style="table-layout:auto"}
 
 >[!TIP]
 >
->Le créateur de pages facilite la création de pages riches en contenu avec des dispositions personnalisées qui améliorent la narration visuelle et fidélisent les clients. Ces fonctionnalités sont conçues pour améliorer la qualité et réduire le temps et les frais liés à la création de pages personnalisées. Pour plus d’informations sur ces fonctionnalités et sur leur utilisation pour créer du contenu attrayant pour votre boutique Adobe Commerce ou Magento Open Source, voir [_Guide de l’utilisateur de Page Builder_](../../page-builder/guide-overview.md).
+>Le créateur de pages facilite la création de pages riches en contenu avec des dispositions personnalisées qui améliorent la narration visuelle et fidélisent les clients. Ces fonctionnalités sont conçues pour améliorer la qualité et réduire le temps et les frais liés à la création de pages personnalisées. Pour plus d’informations sur ces fonctionnalités et sur la manière dont vous pouvez les utiliser pour créer du contenu attrayant pour votre boutique Adobe Commerce ou Magento Open Source, consultez le [_Guide de l’utilisateur de Page Builder_](../../page-builder/guide-overview.md).

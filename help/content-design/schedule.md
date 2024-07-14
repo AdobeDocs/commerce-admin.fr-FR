@@ -17,36 +17,36 @@ Planifiez à l’avance les modifications apportées à la conception de votre t
 
 ## Ajout d’une modification de conception planifiée
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
 
 1. Cliquez sur **[!UICONTROL Add Design Change]**.
 
-   ![Paramètres de modification de la conception de magasin](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
+   ![ Paramètres de modification de la conception de magasin ](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
 
-1. Définir **[!UICONTROL Store]** dans la vue magasin où vous souhaitez appliquer les modifications.
+1. Définissez **[!UICONTROL Store]** sur la vue de magasin dans laquelle vous souhaitez appliquer les modifications.
 
-1. Définir **[!UICONTROL Custom Design]** au thème, ou variation d’un thème, à utiliser.
+1. Définissez **[!UICONTROL Custom Design]** sur le thème, ou la variation d’un thème, à utiliser.
 
-1. Pour le **[!UICONTROL Date From]** et **[!UICONTROL Date To]**, cliquez sur le _Calendrier_ (![Icône Calendrier](../assets/icon-calendar.png)) pour sélectionner les valeurs de début et de fin de la période pendant laquelle la modification est appliquée.
+1. Pour les **[!UICONTROL Date From]** et **[!UICONTROL Date To]**, cliquez sur l&#39;icône _Calendrier_ (![Icône Calendrier](../assets/icon-calendar.png)) pour choisir les valeurs de début et de fin pour la période pendant laquelle la modification est appliquée.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
 
 ## Modification de la conception planifiée
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
 
 1. Sélectionnez l’élément à modifier.
 
 1. Effectuez les modifications nécessaires.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
 
 ## Suppression d’une modification de conception planifiée
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
 
 1. Sélectionnez l’élément à supprimer.
 
-1. Dans la barre de boutons située en haut de la page, cliquez sur **[!UICONTROL Delete]**.
+1. Dans la barre de boutons en haut de la page, cliquez sur **[!UICONTROL Delete]**.
 
 1. Pour confirmer l’action, cliquez sur **[!UICONTROL OK]**.

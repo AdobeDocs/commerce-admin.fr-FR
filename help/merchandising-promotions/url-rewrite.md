@@ -1,11 +1,11 @@
 ---
 title: URL rewrites
-description: Découvrez les réécritures d’URL et l’utilisation de l’outil de réécriture d’URL de Commerce pour modifier les URL associées à un produit, à une catégorie ou à une page CMS.
+description: Découvrez les réécritures d’URL et l’utilisation de l’outil de réécriture d’URL Commerce pour modifier les URL associées à un produit, à une catégorie ou à une page CMS.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ L’outil de réécriture d’URL vous permet de modifier toute URL associée à
 
 >[!NOTE]
 >
->Pour mettre à jour les réécritures d’URL pour plusieurs ou tous les produits simultanément, reportez-vous à la section [Plusieurs réécritures d’URL](url-rewrite-product.md#multiple-url-rewrites).
+>Pour mettre à jour les réécritures d’URL pour plusieurs ou tous les produits simultanément, reportez-vous à la section [Réécritures d’URL multiples](url-rewrite-product.md#multiple-url-rewrites).
 
-Les termes _rewrite_ et _rediriger_ sont souvent interchangeables, mais font référence à des processus légèrement différents. Une réécriture d’URL modifie la manière dont une URL apparaît dans le navigateur. Une redirection d’URL met à jour l’URL stockée sur le serveur. Une redirection d’URL peut être temporaire ou permanente. Votre boutique utilise des réécritures et des redirections d’URL pour vous permettre de modifier facilement la clé d’URL d’un produit, d’une catégorie ou d’une page et de conserver les liens existants.
+Les termes _rewrite_ et _redirect_ sont souvent utilisés de manière interchangeable, mais font référence à des processus légèrement différents. Une réécriture d’URL modifie la manière dont une URL apparaît dans le navigateur. Une redirection d’URL met à jour l’URL stockée sur le serveur. Une redirection d’URL peut être temporaire ou permanente. Votre boutique utilise des réécritures et des redirections d’URL pour vous permettre de modifier facilement la clé d’URL d’un produit, d’une catégorie ou d’une page et de conserver les liens existants.
 
-Par défaut, [redirections d’URL automatiques](url-redirect-product-automatic.md) sont activés pour votre boutique et la variable **Créer une redirection permanente pour l’ancienne URL** est cochée sous le champ Clé URL de chaque produit.
+Par défaut, les [redirections d’URL automatiques](url-redirect-product-automatic.md) sont activées pour votre boutique et la case à cocher **Créer une redirection permanente pour l’ancienne URL** est sélectionnée sous le champ clé d’URL de chaque produit.
 
 {{url-rewrite-skip}}
 
 {{url-rewrite-params}}
 
-![Optimisation du moteur de recherche - Création d’une redirection d’URL permanente](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
+![Optimisation du moteur de recherche - créer une redirection d’URL permanente](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 
 ## URL canoniques
 
@@ -44,11 +44,11 @@ Selon la configuration de votre site web, il peut y avoir plusieurs versions de 
     https://example.com
     https://www.example.com/index.html
 
-Pour définir une page canonique, voir [Documentation de Google Search Central](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).
+Pour spécifier une page canonique, reportez-vous à la [documentation de Google Search Central](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).
 
 ## Configuration des réécritures d’URL
 
-L’activation du serveur web Apache Rewrites fait partie de la configuration initiale de Commerce. Commerce utilise régulièrement des réécritures d’URL pour supprimer le nom de fichier. `index.php` qui s’affiche normalement dans l’URL juste après le dossier racine. Lorsque Web Server Rewrites est activé, le système réécrit chaque URL à omettre. `index.php`. La réécriture supprime les mots qui n’ont aucune valeur pour les moteurs de recherche ou les clients et n’ont aucune incidence sur les performances ou le classement du site.
+L’activation du serveur web Apache Rewrites fait partie de la configuration initiale de Commerce. Commerce utilise régulièrement des réécritures d’URL pour supprimer le nom de fichier `index.php` qui apparaît normalement dans l’URL juste après le dossier racine. Lorsque Web Server Rewrites est activé, le système réécrit chaque URL pour omettre `index.php`. La réécriture supprime les mots qui n’ont aucune valeur pour les moteurs de recherche ou les clients et n’ont aucune incidence sur les performances ou le classement du site.
 
 URL sans réécriture de serveur web
 
@@ -58,17 +58,17 @@ URL avec réécriture du serveur web
 
     http://www.yourdomain.com/magento/storeview/url-identifier
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de gauche où **[!UICONTROL General]** est développé, choisissez **[!UICONTROL Web]**.
+1. Dans le panneau de gauche où **[!UICONTROL General]** est développé, sélectionnez **[!UICONTROL Web]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Search Engine Optimization]** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Search Engine Optimization]** .
 
    ![Configuration générale - optimisation du moteur de recherche web](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
 
-1. Définir **[!UICONTROL Use Web Server Rewrites]** selon vos préférences.
+1. Définissez **[!UICONTROL Use Web Server Rewrites]** selon vos préférences.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 ## Créer des réécritures d’URL
 
@@ -93,7 +93,7 @@ URL de catégorie supplémentaires
     http://www.example.com/all-on-sale.html
     http://www.example.com/save-now/spring-sale
 
-![URL réécrit la grille](./assets/url-rewrites.png){width="700" zoomable="yes"}
+![L’URL réécrit grid](./assets/url-rewrites.png){width="700" zoomable="yes"}
 
 Commerce propose les types de réécriture d’URL suivants :
 

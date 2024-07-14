@@ -5,18 +5,18 @@ exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
 source-git-commit: ae43d97bb3031a06ce6a0211ee304aae53e4eb08
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2105'
 ht-degree: 0%
 
 ---
 
 # Conformité à la loi sur les cookies
 
-Les cookies sont de petits fichiers qui sont enregistrés sur l’ordinateur de chaque visiteur de votre site et utilisés comme emplacements de stockage temporaires pour information. Les informations enregistrées dans les cookies permettent de personnaliser l’expérience d’achat, de lier les visiteurs à leur panier, de mesurer les schémas de trafic et d’améliorer l’efficacité des promotions. Pour suivre le rythme de la législation dans de nombreux pays concernant l&#39;utilisation des cookies, Adobe Commerce et Magento Open Source offrent aux commerçants un choix de méthodes pour obtenir le consentement du client. Pour obtenir la liste des cookies par défaut dans Adobe Commerce et Magento Open Source, la variable [Référence du cookie](#default-cookies).
+Les cookies sont de petits fichiers qui sont enregistrés sur l’ordinateur de chaque visiteur de votre site et utilisés comme emplacements de stockage temporaires pour information. Les informations enregistrées dans les cookies permettent de personnaliser l’expérience d’achat, de lier les visiteurs à leur panier, de mesurer les schémas de trafic et d’améliorer l’efficacité des promotions. Pour suivre le rythme de la législation dans de nombreux pays concernant l&#39;utilisation des cookies, Adobe Commerce et Magento Open Source offrent aux commerçants un choix de méthodes pour obtenir le consentement du client. Pour obtenir la liste des cookies par défaut dans Adobe Commerce et Magento Open Source, reportez-vous à la [référence sur les cookies](#default-cookies).
 
 >[!NOTE]
 >
->Si vous modifiez la valeur par défaut [Paramètres de confidentialité de Google](../merchandising-promotions/google-tools.md#google-privacy-settings) pour se conformer à la [Règlement général sur la protection des données](compliance-gdpr.md), il n’est pas nécessaire d’obtenir le consentement de l’utilisateur pour l’utilisation des cookies Google Analytics.
+>Si vous modifiez les [ paramètres de confidentialité de Google ](../merchandising-promotions/google-tools.md#google-privacy-settings) par défaut pour vous conformer au [Règlement général sur la protection des données](compliance-gdpr.md), il n’est pas nécessaire d’obtenir le consentement de l’utilisateur pour l’utilisation des cookies Google Analytics.
 
 ## Méthode 1 : consentement implicite
 
@@ -24,7 +24,7 @@ Le consentement implicite signifie que les visiteurs de votre boutique ont une c
 
 ## Méthode 2 : consentement exprimé
 
-Exploitation de votre boutique dans _mode restriction des cookies_ demande aux visiteurs d’exprimer leur consentement avant que les cookies ne puissent être enregistrés sur leurs ordinateurs. À moins que le consentement ne soit accordé, de nombreuses fonctionnalités de votre boutique ne sont pas disponibles. Si, par exemple, le Google Analytics est disponible pour votre boutique, il ne peut être appelé qu’après que le visiteur a autorisé l’utilisation des cookies.
+Le fonctionnement de votre boutique en _mode de restriction des cookies_ nécessite que les visiteurs expriment leur consentement avant que des cookies puissent être enregistrés sur leurs ordinateurs. À moins que le consentement ne soit accordé, de nombreuses fonctionnalités de votre boutique ne sont pas disponibles. Si, par exemple, le Google Analytics est disponible pour votre boutique, il ne peut être appelé qu’après que le visiteur a autorisé l’utilisation des cookies.
 
 ## Mode de restriction des cookies
 
@@ -40,29 +40,29 @@ Votre [politique de confidentialité](privacy-policy.md)) doit inclure le nom de
 
 ### Étape 1 : activation du mode restriction des cookies
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de navigation de gauche, sous **[!UICONTROL General]**, choisissez **[!UICONTROL Web]**.
+1. Dans le panneau de navigation de gauche sous **[!UICONTROL General]**, choisissez **[!UICONTROL Web]**.
 
-1. Développez l’objet **[!UICONTROL Default Cookie Settings]** et procédez comme suit :
+1. Développez la section **[!UICONTROL Default Cookie Settings]** et procédez comme suit :
 
-   ![Configuration web - paramètres de cookie par défaut](./assets/web-default-cookie-settings.png){width="600"}
+   ![ Configuration web - paramètres de cookie par défaut](./assets/web-default-cookie-settings.png){width="600"}
 
    - Saisissez le **[!UICONTROL Cookie Lifetime]** en secondes.
 
-   - Si vous souhaitez rendre les cookies disponibles pour d’autres dossiers, saisissez la variable **[!UICONTROL Cookie Path]**. Pour rendre les cookies disponibles n’importe où sur le site, entrez une barre oblique (`/`). Cette valeur ne peut contenir que le chemin du cookie, et **_cannot_** contiennent tous les autres paramètres de cookie.
+   - Si vous souhaitez rendre les cookies disponibles pour d’autres dossiers, saisissez le **[!UICONTROL Cookie Path]**. Pour rendre les cookies disponibles n’importe où sur le site, entrez une barre oblique (`/`). Cette valeur ne peut contenir que le chemin du cookie et **_ne peut pas_** contenir d’autres paramètres de cookie.
 
-   - Pour mettre les cookies à la disposition d’un sous-domaine, saisissez le nom de sous-domaine dans le champ **[!UICONTROL Cookie Domain]** Champ (`subdomain.yourdomain.com`). Pour rendre les cookies disponibles pour tous les sous-domaines, saisissez le nom de domaine précédé d’un point (`.yourdomain.com`). Cette valeur ne peut contenir que le domaine du cookie, et **_cannot_** contiennent tous les autres paramètres de cookie.
+   - Pour rendre les cookies disponibles pour un sous-domaine, saisissez le nom du sous-domaine dans le champ **[!UICONTROL Cookie Domain]** (`subdomain.yourdomain.com`). Pour rendre les cookies disponibles pour tous les sous-domaines, saisissez le nom de domaine précédé d’un point (`.yourdomain.com`). Cette valeur ne peut contenir que le domaine du cookie et **_ne peut pas_** contenir d’autres paramètres de cookie.
 
-   - Pour empêcher les langages de script, tels que JavaScript, d’accéder aux cookies, veillez à ce que **Utiliser HTTP uniquement** est défini sur `Yes`.
+   - Pour empêcher les langages de script, tels que JavaScript, d’accéder aux cookies, assurez-vous que l’option **Utiliser HTTP uniquement** est définie sur `Yes`.
 
-   - Définir **[!UICONTROL Cookie Restriction Mode]** to `Yes`.
+   - Définissez **[!UICONTROL Cookie Restriction Mode]** sur `Yes`.
 
      Si nécessaire, décochez la case et cliquez sur **[!UICONTROL OK]** pour confirmer le changement de portée.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
-1. Lorsque vous y êtes invité, cliquez sur le bouton **[!UICONTROL Cache Management]** lien dans le message système. Ensuite, actualisez chaque cache non valide.
+1. Lorsque vous êtes invité à mettre à jour le cache, cliquez sur le lien **[!UICONTROL Cache Management]** dans le message système. Ensuite, actualisez chaque cache non valide.
 
 ### Étape 2 : mise à jour de votre politique de confidentialité
 
@@ -70,9 +70,9 @@ Mettez à jour votre [politique de confidentialité](privacy-policy.md) afin qu�
 
 ## Cookies par défaut
 
-Les cookies par défaut d’Adobe Commerce et de Magento Open Source sont classés comme étant exemptés/non exemptés afin d’aider les marchands à respecter les exigences de confidentialité telles que la variable [RGPD](compliance-gdpr.md). Les marchands doivent utiliser ces informations comme guide et consulter les conseillers juridiques pour mettre à jour leurs politiques de confidentialité et de cookies dans le cadre d’une stratégie de conformité à la réglementation de la confidentialité globale.
+Les cookies par défaut d’Adobe Commerce et de Magento Open Source sont classés comme étant exemptés/non exemptés afin d’aider les marchands à respecter les exigences de confidentialité telles que le [RGPD](compliance-gdpr.md). Les marchands doivent utiliser ces informations comme guide et consulter les conseillers juridiques pour mettre à jour leurs politiques de confidentialité et de cookies dans le cadre d’une stratégie de conformité à la réglementation de la confidentialité globale.
 
-Les cookies suivants sont utilisés par [!DNL Commerce] &quot;prêt à l’emploi&quot; pour les installations on-premise et cloud. Ces cookies peuvent être requis par les fonctionnalités qui sont explicitement demandées par le client. Pour en savoir plus sur la durée de vie des cookies de session, voir [Durée de vie de la session](../customers/customer-online-options.md).
+Les cookies suivants sont utilisés par [!DNL Commerce] &quot;prêts à l’emploi&quot; pour les installations on-premise et cloud. Ces cookies peuvent être requis par les fonctionnalités qui sont explicitement demandées par le client. Pour en savoir plus sur la durée de vie des cookies de session, voir [Durée de vie de la session](../customers/customer-online-options.md).
 
 Certains de ces cookies peuvent fournir des options de configuration, notamment activer/désactiver, si nécessaire.
 
@@ -85,7 +85,7 @@ Certains de ces cookies peuvent fournir des options de configuration, notamment 
 
 #### `guest-view`
 
-Stocke l’identifiant de commande que les clients utilisent pour récupérer leur état de commande. Vue Commandes d’invités. Utilisé dans _[!DNL Orders and Returns]_des widgets.
+Stocke l’identifiant de commande que les clients utilisent pour récupérer leur état de commande. Vue Commandes d’invités. Utilisé dans les widgets _[!DNL Orders and Returns]_.
 
 - Est-il sécurisé ? Non
 - HTTP uniquement : Oui
@@ -94,7 +94,7 @@ Stocke l’identifiant de commande que les clients utilisent pour récupérer le
 
 #### `login_redirect`
 
-Permet de conserver la page de destination qui était chargée avant que le client ne soit invité à se connecter. Une redirection de connexion est utilisée avec le mini panier pour les clients connectés si la variable [Afficher le mini-panier](../stores-purchase/cart-configuration.md#mini-cart) l’option de configuration est définie sur `Yes`.
+Permet de conserver la page de destination qui était chargée avant que le client ne soit invité à se connecter. Une redirection de connexion est utilisée avec le mini panier pour les clients connectés si l’option de configuration [Afficher le mini panier](../stores-purchase/cart-configuration.md#mini-cart) est définie sur `Yes`.
 
 - Est-il sécurisé ? Non
 - HTTP uniquement : Non
@@ -181,11 +181,11 @@ Stocke les ID de produit des produits récemment consultés pour une navigation 
 
 #### `remove_from_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Utilisé par [Gestionnaire de balises de Google](../merchandising-promotions/google-tag-manager.md). Capture le SKU, le nom, le prix et la quantité du produit ajoutés au panier et met les informations à disposition pour une intégration ultérieure par des scripts tiers.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Utilisé par [Google Tag Manager](../merchandising-promotions/google-tag-manager.md). Capture le SKU, le nom, le prix et la quantité du produit ajoutés au panier et met les informations à disposition pour une intégration ultérieure par des scripts tiers.
 
 #### `stf`
 
-Enregistre l’heure à laquelle les messages sont envoyés par SendFriend ([Envoyer un courrier électronique à un ami](../stores-purchase/email-a-friend.md)).
+Enregistre l’heure à laquelle les messages sont envoyés par le module SendFriend ([Envoyer un courrier électronique à un ami](../stores-purchase/email-a-friend.md)).
 
 - Est-il sécurisé ? Oui
 - HTTP uniquement : Oui
@@ -254,22 +254,22 @@ Stocke la clé (ID) du panier persistant afin de permettre de restaurer le panie
 
 - Est-il sécurisé ? Oui
 - HTTP uniquement : Oui
-- Stratégie d’expiration : basée sur [Panier persistant](../stores-purchase/cart-persistent.md) - Configuration de la durée de vie de persistance (secondes)
+- Stratégie d’expiration : basée sur la configuration [Panier persistant](../stores-purchase/cart-persistent.md) - Durée de vie de persistance (secondes)
 - Module : `Magento_Persistent`
 
 #### `private_content_version`
 
 Ajoute un nombre et une heure aléatoires uniques aux pages avec le contenu client afin de les empêcher d’être mises en cache sur le serveur.
 
-Il est défini à plusieurs endroits : en PHP, en JavaScript comme cookie et en JavaScript comme stockage local.
+Il est défini à plusieurs endroits : en PHP, dans JavaScript comme cookie et dans JavaScript comme stockage local.
 
-Pour HTTP Only=`Yes` (selon la demande), cela signifie que le cookie est sécurisé s’il est défini pendant la demande HTTPS et non sécurisé s’il est défini pendant la demande HTTP.
+Pour HTTP uniquement=`Yes` (selon la demande), cela signifie que le cookie est sécurisé s’il est défini pendant la demande HTTPS et non sécurisé s’il est défini lors de la demande HTTP.
 
-- Est-il sécurisé ? `Yes` (sur demande), `No`
+- Est-il sécurisé ? `Yes` (sur la base de la demande), `No`
 - HTTP uniquement : `No`
-- Stratégie d’expiration : basée sur [Panier persistant](../stores-purchase/cart-persistent.md) - Configuration de la durée de vie de persistance (secondes)
-   - PHP : `1` year / `315360000s` (dix ans)
-   - JS : `1` day
+- Stratégie d’expiration : basée sur la configuration [Panier persistant](../stores-purchase/cart-persistent.md) - Durée de vie de persistance (secondes)
+   - PHP : `1` an / `315360000s` (dix ans)
+   - JS : `1` jour
    - Stockage local JS : par règles de stockage local (pour toujours)
 - Module : `Magento_PageCache`, `Magento_Customer`
 
@@ -288,7 +288,7 @@ Effectue le suivi de la vue de magasin/des paramètres régionaux spécifiques s
 
 - Est-il sécurisé ? `No`
 - HTTP uniquement : `Yes`
-- Stratégie d’expiration : `1` year
+- Stratégie d’expiration : `1` an
 - Module : `Magento_Store`
 
 #### `mage-banners-cache-storage` - stockage local
@@ -302,47 +302,47 @@ Effectue le suivi de la vue de magasin/des paramètres régionaux spécifiques s
 
 ## Cookies Google Analytics
 
-Les cookies suivants sont utilisés lors de la [Google Analytics](../merchandising-promotions/google-analytics.md) ou Google Universal Analytics est entièrement activé pour votre installation. Pour désactiver ces cookies en vue de la conformité à la réglementation sur la confidentialité, voir [Paramètres de confidentialité de Google](../merchandising-promotions/google-tools.md#google-privacy-settings). Pour en savoir plus, voir [Utilisation des cookies de Google Analytics sur les sites web][1].
+Les cookies suivants sont utilisés lorsque [Google Analytics](../merchandising-promotions/google-analytics.md) ou Google Universal Analytics est entièrement activé pour votre installation. Pour désactiver ces cookies en vue de la conformité à la réglementation sur la confidentialité, voir [Paramètres de confidentialité de Google](../merchandising-promotions/google-tools.md#google-privacy-settings). Pour en savoir plus, voir [Utilisation des cookies de Google Analytics sur les sites web][1].
 
 ### Cookies Google Universal Analytics - non exemptés
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Bibliothèques JavaScript : `gtag.js` et `analytics.js`
 
-- `_ga`: distingue les visiteurs de votre site.
-- `_gid`: distingue les visiteurs de votre site.
-- `gat`: utilisé pour ralentir le taux de requête.
-- `dc_gtm_<property-id>`: limite le taux de demande lorsque les Google Analytics sont déployés avec [Gestionnaire de balises de Google](../merchandising-promotions/google-tag-manager.md).
-- `AMP_TOKEN`: contient un jeton qui peut être utilisé pour récupérer un ID de client auprès du service d’ID de client AMP. D’autres valeurs possibles sont notamment l’exclusion, la demande d’entrée ou une erreur lors de la récupération d’un ID client à partir du service AMP Client ID.
-- `_gac_<property-id>`: contient des informations relatives à la campagne pour l’utilisateur. Les balises de conversion Google AdWords lisez ce cookie si Google Analytics est lié à votre [AdWords][2] compte .
+- `_ga` : différencie les visiteurs de votre site.
+- `_gid` : différencie les visiteurs de votre site.
+- `gat` : utilisé pour ralentir le taux de requête.
+- `dc_gtm_<property-id>` : limite le taux de demande lorsque les Google Analytics sont déployés avec [Google Tag Manager](../merchandising-promotions/google-tag-manager.md).
+- `AMP_TOKEN` : contient un jeton qui peut être utilisé pour récupérer un ID client du service d’ID client AMP. D’autres valeurs possibles sont notamment l’exclusion, la demande d’entrée ou une erreur lors de la récupération d’un ID client à partir du service AMP Client ID.
+- `_gac_<property-id>` : contient des informations relatives aux campagnes pour l’utilisateur. Les balises de conversion Google AdWords lisent ce cookie si Google Analytics est lié à votre compte [AdWords][2].
 
 ### Cookies Google Analytics - non exemptés
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Bibliothèque JavaScript : `ga.js`
 
-- `__utma`: différencie les acheteurs et les sessions. Ce cookie est créé lorsque la bibliothèque JavaScript s’exécute et qu’il n’existe aucun `__utma` du cookie. Le cookie est mis à jour chaque fois que des données sont envoyées aux Google Analytics.
-- `__utmt`: utilisé pour ralentir le taux de requête.
-- `__utmb`: détermine les nouvelles sessions/visites. Ce cookie est créé lorsque la bibliothèque JavaScript s’exécute et qu’il n’existe aucun `__utmb` du cookie. Le cookie est mis à jour chaque fois que des données sont envoyées aux Google Analytics.
-- `_utmz`: enregistre la source de trafic ou la campagne qui explique comment l’acheteur a accédé à votre site. Le cookie est créé lors de l’exécution de la bibliothèque JavaScript et est mis à jour chaque fois que des données sont envoyées aux Google Analytics.
-- `__utmv`: stocke les données de variable personnalisée au niveau du visiteur. Ce cookie est créé lorsqu’un développeur utilise la variable `_setCustomVar` avec une variable personnalisée au niveau du visiteur. Ce cookie est mis à jour chaque fois que des données sont envoyées aux Google Analytics.
+- `__utma` : Distingue les acheteurs et les sessions. Ce cookie est créé lorsque la bibliothèque JavaScript s’exécute et qu’il n’existe aucun cookie `__utma`. Le cookie est mis à jour chaque fois que des données sont envoyées aux Google Analytics.
+- `__utmt` : utilisé pour ralentir le taux de requête.
+- `__utmb` : détermine les nouvelles sessions/visites. Ce cookie est créé lorsque la bibliothèque JavaScript s’exécute et qu’il n’existe aucun cookie `__utmb`. Le cookie est mis à jour chaque fois que des données sont envoyées aux Google Analytics.
+- `_utmz` : enregistre la source de trafic ou la campagne qui explique comment l’acheteur a atteint votre site. Le cookie est créé lors de l’exécution de la bibliothèque JavaScript et est mis à jour chaque fois que des données sont envoyées aux Google Analytics.
+- `__utmv` : stocke les données de variable personnalisée au niveau du visiteur. Ce cookie est créé lorsqu’un développeur utilise la méthode `_setCustomVar` avec une variable personnalisée de niveau visiteur. Ce cookie est mis à jour chaque fois que des données sont envoyées aux Google Analytics.
 
 ## Cookies Recommendations de produit
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Les cookies suivants sont utilisés par Product Recommendations pour les clients Adobe Commerce. Ces cookies sont installés avec la variable [Module DataServices](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Les cookies suivants sont utilisés par Product Recommendations pour les clients Adobe Commerce. Ces cookies sont installés avec le [module DataServices](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
 
-- `mg_dnt`: vous permet de [restreindre la collecte de données Adobe Commerce ;](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie.html) si vous disposez d’un code personnalisé pour gérer le consentement aux cookies sur votre site.
-- `user_allowed_save_cookie`: utilisé pour [mode restriction des cookies](#cookie-restriction-mode).
-- `authentication_flag`: indique si un acheteur s’est connecté ou s’est déconnecté. Ce cookie est mis à jour en même temps que la variable `dataservices_customer_id` du cookie.
-- `dataservices_customer_id`: indique si un acheteur s’est connecté ou s’est déconnecté. Ce cookie contient l’identifiant unique du client dans le système.
-- `dataservices_customer_group`: indique le groupe d’un client. Ce cookie est stocké en tant que [sha1](https://en.wikipedia.org/wiki/SHA-1) somme de contrôle de l’ID de groupe du client.
-- `dataservices_cart_id`: identifie les actions du panier d’un acheteur. Ce cookie contient l’identifiant unique du panier du client dans le système.
-- `dataservices_product_context`: identifie les interactions produit d’un acheteur. Ce cookie contient l’ID de guillemet unique du client dans le système.
+- `mg_dnt` : vous permet de [restreindre la collecte de données Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie.html) si vous disposez d’un code personnalisé pour gérer le consentement aux cookies sur votre site.
+- `user_allowed_save_cookie` : utilisé pour le [mode restriction de cookie](#cookie-restriction-mode).
+- `authentication_flag` : indique si un acheteur s’est connecté ou s’est déconnecté. Ce cookie est mis à jour en même temps que le cookie `dataservices_customer_id`.
+- `dataservices_customer_id` : indique si un acheteur s’est connecté ou s’est déconnecté. Ce cookie contient l’identifiant unique du client dans le système.
+- `dataservices_customer_group` : indique un groupe de clients. Ce cookie est stocké en tant que somme de contrôle [sha1](https://en.wikipedia.org/wiki/SHA-1) de l’ID de groupe du client.
+- `dataservices_cart_id` : identifie les actions du panier d’un acheteur. Ce cookie contient l’identifiant unique du panier du client dans le système.
+- `dataservices_product_context` : identifie les interactions produit d’un acheteur. Ce cookie contient l’ID de guillemet unique du client dans le système.
 
 ## Cookies supplémentaires
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Les cookies suivants sont définis pour les clients Adobe Commerce. Ces cookies sont installés avec la variable [Module DataServices](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Les cookies suivants sont définis pour les clients Adobe Commerce. Ces cookies sont installés avec le [module DataServices](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
 
-- `mg`: défini par le dispositif de suivi JavaScript Snowplow. Vous trouverez plus d’informations dans la section [Documentation de Snowpload](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/javascript-tracker/javascript-tracker-v3/tracker-setup/initialization-options).
-- `com.adobe.alloy.getTld`: étant donné le nom d’hôte de la page web actuelle, il s’agit du domaine le plus élevé qui ne correspond pas à un &quot;suffixe public&quot; comme indiqué dans https://publicsuffix.org. Il s’agit essentiellement du domaine le plus élevé qui peut accepter les cookies. Ce cookie fait partie du [Alloy Web SDK](https://github.com/adobe/alloy).
+- `mg` : défini par le dispositif de suivi JavaScript Snowplow. Vous trouverez plus d’informations dans la [documentation Snowplow](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/javascript-tracker/javascript-tracker-v3/tracker-setup/initialization-options).
+- `com.adobe.alloy.getTld` : étant donné le nom d’hôte de la page web actuelle, il s’agit du domaine le plus élevé qui ne correspond pas à un &quot;suffixe public&quot; comme indiqué dans https://publicsuffix.org. Il s’agit essentiellement du domaine le plus élevé qui peut accepter les cookies. Ce cookie fait partie du [Alloy Web SDK](https://github.com/adobe/alloy).
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 [2]: https://support.google.com/adwords/answer/7521212

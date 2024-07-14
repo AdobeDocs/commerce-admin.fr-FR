@@ -1,7 +1,8 @@
 ---
 title: Modifications incompatibles avec l’arrière-plan d’Adobe Commerce B2B
 description: Découvrez les modifications apportées aux versions d’Adobe Commerce B2B qui peuvent nécessiter la mise à jour de votre code personnalisé.
-source-git-commit: d794e7891d9c15d8a106535ba2fdc93fdc5515ea
+exl-id: 79b66843-3f34-4fe9-9670-53d19b749eb4
+source-git-commit: 148b2f7a6d778fbff440783df02d2138984a9940
 workflow-type: tm+mt
 source-wordcount: '36'
 ht-degree: 0%

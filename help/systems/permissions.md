@@ -19,6 +19,6 @@ En outre, vous pouvez restreindre l’accès de l’administrateur à un site sp
 
 Lorsque l’accès d’un utilisateur administrateur est limité à un site web ou à un magasin spécifique, les adresses où il n’est pas autorisé ne sont pas visibles ou apparaissent grisées. Seules les ventes et autres données des sites web et des magasins autorisés s’affichent pour l’utilisateur.
 
-- ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Par défaut, le système consigne automatiquement (enregistre) toutes les actions effectuées par un utilisateur lorsqu’il applique les modifications à un magasin. Les actions de l’administrateur peuvent être examinées dans la section [Rapport Journaux d’action](action-log-report.md). Configuration de la connexion [Journalisation des actions d’administration](action-log.md) dans les paramètres d’administration avancés de votre boutique.
+- ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Par défaut, le système consigne (enregistre) automatiquement toutes les actions effectuées par un utilisateur lorsqu’il applique les modifications à un magasin. Les actions d’administration peuvent être examinées dans le [rapport Journaux d’action](action-log-report.md). Configurez la connexion à la [journalisation des actions d’administration](action-log.md) dans les paramètres d’administration avancés de votre magasin.
 
-![Administration - tous les comptes d’utilisateurs](./assets/users-all.png){width="700" zoomable="yes"}
+![Admin - tous les comptes d’utilisateurs](./assets/users-all.png){width="700" zoomable="yes"}

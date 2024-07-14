@@ -18,7 +18,7 @@ Les URL que vous affectez aux produits et aux catégories jouent un rôle majeur
 
 ### URL dynamique
 
-Une URL dynamique est créée. _à la volée_ et peut inclure une chaîne de requête avec des variables pour l’ID de produit, l’ordre de tri et la page sur laquelle la demande a été effectuée. Lorsqu’un client recherche un produit dans votre boutique, l’URL qui en résulte peut ressembler à ceci :
+Une URL dynamique est créée _à la volée_ et peut inclure une chaîne de requête avec des variables pour l’ID de produit, l’ordre de tri et la page sur laquelle la requête a été effectuée. Lorsqu’un client recherche un produit dans votre boutique, l’URL qui en résulte peut ressembler à ceci :
 
 - `http://mystore.com/catalogsearch/result/?q=racer+back`
 - `http://mystore.com/women/tops-women.html?style_general=135`
@@ -33,30 +33,30 @@ Une URL statique est une adresse fixe pour une page spécifique. Une URL statiqu
 
 ### Clé URL
 
-La clé URL fait partie d’une URL statique qui décrit le produit ou la catégorie. Lorsque vous créez un produit ou une catégorie, une clé URL initiale est automatiquement générée, en fonction du nom. Pour modifier la clé d’URL, voir la section [Optimisation du moteur de recherche](product-search-engine-optimization.md) de la section des informations sur les produits.
+La clé URL fait partie d’une URL statique qui décrit le produit ou la catégorie. Lorsque vous créez un produit ou une catégorie, une clé URL initiale est automatiquement générée, en fonction du nom. Pour modifier la clé d’URL, reportez-vous à la section [Optimisation du moteur de recherche](product-search-engine-optimization.md) des informations sur le produit.
 
 >[!NOTE]
 >
->Par défaut, les caractères spéciaux accentués sont automatiquement remplacés par leurs versions régulières non accentuées dans la clé URL. Par exemple : `ñ` est automatiquement remplacé par `n`. Ce comportement peut être désactivé en définissant la variable _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_option de configuration `No`. Voir [Configuration des URL de catalogue](#configure-catalog-urls).
+>Par défaut, les caractères spéciaux accentués sont automatiquement remplacés par leurs versions régulières non accentuées dans la clé URL. Par exemple, `ñ` est automatiquement remplacé par `n`. Ce comportement peut être désactivé en définissant l’option de configuration _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_sur `No`. Voir [Configuration des URL de catalogue](#configure-catalog-urls).
 
 La clé URL doit être composée de caractères minuscules avec des tirets non alignés à la fin entre ces caractères et séparés par des mots. Les tirets ne sont pas autorisés au début ou à la fin de la clé URL. Une clé URL bien conçue et &quot;compatible avec les moteurs de recherche&quot; peut inclure le nom du produit et les mots-clés pour améliorer son indexation par les moteurs de recherche. La clé URL peut être configurée pour créer une redirection automatique en cas de modification de la clé URL.
 
 >[!NOTE]
 >
->Pour étendre les personnalisations des URL, telles que les URL localisées, voir [URL Rewrites](../merchandising-promotions/url-rewrite.md) pour plus d’informations.
+>Pour étendre les personnalisations des URL, telles que les URL localisées, reportez-vous à la section [URL Rewrites](../merchandising-promotions/url-rewrite.md) pour plus d’informations.
 
-### Suffixe de HTML
+### Suffixe HTML
 
 Votre catalogue peut être configuré pour inclure ou exclure le suffixe dans les URL de catégorie et de produit. Il existe différentes raisons pour lesquelles les utilisateurs peuvent choisir d’utiliser ou d’omettre le suffixe. Certains pensent que le suffixe n’est plus utile et que les pages sans suffixe sont indexées plus efficacement par les moteurs de recherche. Cependant, votre société peut avoir un format normalisé pour les URL qui nécessitent un suffixe.
 
 Étant donné que le suffixe est contrôlé par la configuration système, vous ne devez jamais le saisir directement dans la clé URL d’une catégorie ou d’un produit. (Cela entraîne un double suffixe à la fin de l’URL.) Que vous décidiez d’utiliser ou non le suffixe, soyez cohérent et utilisez le même paramètre pour toutes vos pages de produits et de catégories. Voici des exemples d’URL avec et sans suffixe.
 
-#### URL avec suffixe de HTML
+#### URL avec suffixe d’HTML
 
 - `http://mystore.com/helena-hooded-fleece.html`
 - `http://mystore.com/helena-hooded-fleece.htm`
 
-#### URL sans suffixe de HTML
+#### URL sans suffixe HTML
 
 - `http://mystore.com/helena-hooded-fleece`
 
@@ -76,25 +76,25 @@ Pour empêcher les moteurs de recherche d’indexer plusieurs URL menant au mêm
 
 ## Configuration des URL de catalogue
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et choisissez **[!UICONTROL Catalog]** en-dessous.
+1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et sélectionnez **[!UICONTROL Catalog]** sous .
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Search Engine Optimizations]** et définissez les options suivantes :
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) et définissez les options suivantes :**[!UICONTROL Search Engine Optimizations]**
 
-   - Définir **[!UICONTROL Product URL Suffix]** to `html` ou `htm`. Saisissez le suffixe sans point, car il est automatiquement appliqué.
+   - Définissez **[!UICONTROL Product URL Suffix]** sur `html` ou `htm`. Saisissez le suffixe sans point, car il est automatiquement appliqué.
 
-   - Définir **[!UICONTROL Category URL Suffix]** to `html` ou `htm`. Saisissez le suffixe sans point, car il est automatiquement appliqué.
+   - Définissez **[!UICONTROL Category URL Suffix]** sur `html` ou `htm`. Saisissez le suffixe sans point, car il est automatiquement appliqué.
 
-   - Définir **[!UICONTROL Use Categories Path for Product URLs]** selon vos préférences.
+   - Définissez **[!UICONTROL Use Categories Path for Product URLs]** selon vos préférences.
 
    ![Optimisation du moteur de recherche](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
-   Pour obtenir la liste détaillée de ces options, voir [Optimisation du moteur de recherche](../configuration-reference/catalog/catalog.md#search-engine-optimization) dans le _Référence de configuration_.
+   Pour obtenir une liste détaillée de ces options, voir [Optimisation du moteur de recherche](../configuration-reference/catalog/catalog.md#search-engine-optimization) dans la _référence de configuration_.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
-1. Lorsque vous y êtes invité, cliquez sur l’icône **[!UICONTROL Cache Management]** dans le message système et actualisez le cache non valide.
+1. Lorsque vous y êtes invité, cliquez sur le lien **[!UICONTROL Cache Management]** dans le message système et actualisez le cache non valide.
 
    ![Actualiser le cache](./assets/msg-cache-management.png){width="450" zoomable="yes"}
 
@@ -102,11 +102,11 @@ Pour empêcher les moteurs de recherche d’indexer plusieurs URL menant au mêm
 
 ## Configuration du format d’URL de média de catalogue
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL General]** et choisissez **[!UICONTROL Web]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Url Options]** et définissez les options suivantes :
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) et définissez les options suivantes :**[!UICONTROL Url Options]**
 
 ![Web > Options générales](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
 
@@ -114,6 +114,6 @@ Pour empêcher les moteurs de recherche d’indexer plusieurs URL menant au mêm
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | Global | Si les réécritures du serveur web sont activées, l’activation de ce paramètre insère le code de magasin de la vue actuelle dans l’URL. Options : `Yes` / `No` |
 | [!UICONTROL Auto-redirect to Base URL] | Global | (Pour les configurations à une seule boutique) En cas de lien rompu sur votre site, le trafic est redirigé vers l’URL de base plutôt que vers une page comportant un message &quot;404 Page introuvable&quot;. Options : `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Important !_**N’utilisez pas la redirection automatique vers l’URL de base pour les configurations multi-magasin. |
-| [!UICONTROL Catalog media URL format] | Global | Définit le format d’URL affecté aux produits et aux catégories. Options : <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**- Définit le nom de fichier converti en tant que valeur de hachage unique.<br />**[!UICONTROL Image optimization based on query parameters]** - Définitions [optimisation des images](../content-design/media-gallery-image-optimization.md) en fonction des paramètres de requête. |
+| [!UICONTROL Catalog media URL format] | Global | Définit le format d’URL affecté aux produits et aux catégories. Options : <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**- Définit le nom de fichier converti en tant que valeur de hachage unique.<br />**[!UICONTROL Image optimization based on query parameters]** - Définit le processus [d’optimisation d’image](../content-design/media-gallery-image-optimization.md) en fonction des paramètres de requête. |
 
 {style="table-layout:auto"}

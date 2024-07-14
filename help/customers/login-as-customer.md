@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Fournir une assistance aux acheteurs
 
-Parfois, les clients ont besoin d’aide pour leur commande. Les administrateurs de magasin peuvent utiliser _Connexion en tant que client_, qui leur permet de voir ce que le client voit et d’effectuer des mises à jour pour l’aider.
+Parfois, les clients ont besoin d’aide pour leur commande. Les administrateurs de magasin peuvent utiliser _Se connecter en tant que client_, ce qui leur permet de voir ce que le client voit et d’effectuer des mises à jour pour l’aider.
 
 Toutes les actions entreprises lors de la connexion en tant que client sont appliquées au compte du client réel.
 
-Lorsqu’il est activé pour une _Administration_ l’utilisateur, _[!UICONTROL Login as Customer]_s’affiche sur plusieurs pages :
+Lorsqu’il est activé pour un utilisateur _Admin_, le bouton _[!UICONTROL Login as Customer]_s’affiche sur plusieurs pages :
 
 * [Page Modifier le client](../customers/update-account.md)
 * [Page Afficher la commande](../stores-purchase/order-processing.md)
@@ -28,60 +28,60 @@ Lorsqu’il est activé pour une _Administration_ l’utilisateur, _[!UICONTROL 
 
 ## Activation de la connexion en tant que client
 
-Activation _Connexion en tant que client_ nécessite que vous activiez la fonction dans votre instance Commerce, puis que vous autorisiez l’accès des utilisateurs administrateurs dans les autorisations de rôle utilisateur.
+L’activation de _Se connecter en tant que client_ nécessite que vous activiez la fonctionnalité dans votre instance Commerce, puis que vous autorisiez l’accès des utilisateurs administrateurs dans les autorisations de rôle d’utilisateur.
 
 ### Activation de la fonctionnalité
 
-1. Dans la barre latérale d’administration, accédez à  **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale Admin, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de gauche, développez **[!UICONTROL Customers]** et choisissez  **[!UICONTROL Login as Customer]**.
+1. Dans le panneau de gauche, développez **[!UICONTROL Customers]** et choisissez **[!UICONTROL Login as Customer]**.
 
    ![Options de configuration - Connexion en tant que client](../configuration-reference/customers/assets/login-as-customer.png){width="600" zoomable="yes"}
 
-1. Définir **[!UICONTROL Enable Login as Customer]** to `Yes`.
+1. Définissez **[!UICONTROL Enable Login as Customer]** sur `Yes`.
 
-1. _(Facultatif)_ Définir **[!UICONTROL Disable Page Cache for Admin User]** to `No` pour activer le cache de page lorsque l’utilisateur administrateur se connecte en tant que client.
+1. _(Facultatif)_ Définissez **[!UICONTROL Disable Page Cache for Admin User]** sur `No` pour activer le cache de page lorsque l’utilisateur administrateur se connecte en tant que client.
 
    >[!WARNING]
    >
-   > Désactivation du cache de page (`Yes` - par défaut) s’assure que l’utilisateur qui se connecte en tant que client obtient des données nouvelles et non mises en cache.
+   > La désactivation du cache de page (`Yes` - valeur par défaut) garantit que l’utilisateur qui se connecte en tant que client obtient des données nouvelles et non mises en cache.
 
-1. _(Facultatif)_ Définir **[!UICONTROL Store View to Log in]** to `Manual Selection` si vous disposez d’une configuration multi-site et/ou multi-magasin et que vous souhaitez que l’utilisateur administrateur sélectionne la vue de magasin lors de sa connexion en tant que client.
+1. _(Facultatif)_ Définissez **[!UICONTROL Store View to Log in]** sur `Manual Selection` si vous disposez d’une configuration multi-site et/ou multi-magasin et souhaitez que l’utilisateur administrateur sélectionne la vue de magasin lors de sa connexion en tant que client.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 ### Activation de l’accès pour les utilisateurs administrateurs
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL System]** > _Autorisations_ > **[!UICONTROL User Roles]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _Autorisations_ > **[!UICONTROL User Roles]**.
 
 1. Cliquez sur le rôle dans la liste.
 
-1. Dans le [!UICONTROL _Informations sur les rôles_] panneau de gauche, cliquez sur **[!UICONTROL Role Resources]**.
+1. Dans le panneau de gauche [!UICONTROL _Role Information_], cliquez sur **[!UICONTROL Role Resources]**.
 
-1. Modifier **[!UICONTROL Role Resources]** sur la page vers `Custom`.
+1. Remplacez **[!UICONTROL Role Resources]** sur la page par `Custom`.
 
    >[!INFO]
    >
    > Lorsque cette option est sélectionnée, la hiérarchie des ressources s’affiche dans la page.
 
-1. Faites défiler l’écran jusqu’à  **[!UICONTROL Customers]** élément parent et **[!UICONTROL Login as Customer]** sous-jacent. Sélectionnez ensuite les ressources à activer pour le rôle :
+1. Faites défiler l’écran jusqu’à l’élément parent **[!UICONTROL Customers]** et l’élément **[!UICONTROL Login as Customer]** situé en dessous. Sélectionnez ensuite les ressources à activer pour le rôle :
 
-   * **[!UICONTROL Allow Login as Customer]** - Permet à l’utilisateur administrateur d’utiliser la variable _Connexion en tant que client_ fonction .
-   * **[!UICONTROL View Login as Customer Log]** - Permet à l’utilisateur administrateur d’afficher la variable _Connexion en tant que client_ Journal.
+   * **[!UICONTROL Allow Login as Customer]** - Permet à l’utilisateur administrateur d’utiliser la fonction _Se connecter en tant que client_.
+   * **[!UICONTROL View Login as Customer Log]** - Permet à l’utilisateur administrateur d’afficher le _journal de connexion en tant que client_.
 
-   ![Ressources de rôle - Connexion en tant que client](assets/customers-login-as-customer-role-resources.png){width="400" zoomable="yes"}
+   ![Ressources du rôle - Connexion en tant que client](assets/customers-login-as-customer-role-resources.png){width="400" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Save Role]**.
 
 ## Se connecter en tant que client auprès de l’administrateur
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Customers]** > [!UICONTROL _Tous les clients_].
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Customers]** > [!UICONTROL _Tous les clients_].
 
 1. Ouvrez un utilisateur en mode d’édition.
 
-1. Dans le **[!UICONTROL Customer Information]** , choisissez la variable **[!UICONTROL Account Information]** .
+1. Dans le panneau **[!UICONTROL Customer Information]**, sélectionnez la section **[!UICONTROL Account Information]** .
 
-1. Définissez la variable **[!UICONTROL Allow remote shopping assistance]** to `Yes`.
+1. Définissez le **[!UICONTROL Allow remote shopping assistance]** sur `Yes`.
 
    >[!INFO]
    >
@@ -91,13 +91,13 @@ Activation _Connexion en tant que client_ nécessite que vous activiez la foncti
 
 Pour permettre l’accès au compte au personnel de l’assistance de la boutique depuis l’administrateur, un client doit activer la fonctionnalité pour son compte :
 
-1. Le client se rend au **[!UICONTROL Account Information]** page.
+1. Le client accède à la page **[!UICONTROL Account Information]**.
 
-1. Sélectionne la variable **[!UICONTROL Allow remote shopping assistance]** .
+1. Sélectionne la case à cocher **[!UICONTROL Allow remote shopping assistance]**.
 
-1. Le client clique **[!UICONTROL Save]**.
+1. Le client clique sur **[!UICONTROL Save]**.
 
-![Page Informations du compte](assets/permission.png){width="700" zoomable="yes"}
+![Page d’informations sur le compte](assets/permission.png){width="700" zoomable="yes"}
 
 >[!WARNING]
 >
@@ -107,23 +107,23 @@ Pour permettre l’accès au compte au personnel de l’assistance de la boutiqu
 
 >[!INFO]
 >
->Pour utiliser _Connexion en tant que client_, assurez-vous que votre administrateur est configuré comme décrit précédemment.
+>Pour utiliser _Connectez-vous en tant que client_, assurez-vous que votre administrateur est configuré comme décrit précédemment.
 
-_Connexion en tant que client_ vous permet de voir le site comme le fait le client et de résoudre les problèmes et d’agir pour le client. Si vous disposez d’un rôle utilisateur attribué avec les autorisations requises :
+_Connectez-vous en tant que client_ vous permet de voir le site comme le fait le client et de résoudre les problèmes et d’agir pour le client. Si vous disposez d’un rôle utilisateur attribué avec les autorisations requises :
 
-1. Cliquez sur **[!UICONTROL Login as Customer]** sur les pages répertoriées dans la section précédente.
+1. Vous pouvez cliquer sur **[!UICONTROL Login as Customer]** sur les pages répertoriées dans la section précédente.
 1. Les actions Se connecter en tant que client sont disponibles dans le rapport Actions .
 
 >[!WARNING]
 >
->Toutes les actions entreprises lors de la connexion [!UICONTROL _en tant que client_] (par exemple, ajouter/supprimer des produits) sont appliqués à la commande réelle du client. Sur le storefront, une bannière s’affiche lorsque vous êtes `logged in as customer_name` pour vous rappeler l’état spécial.
+>Toutes les actions entreprises lors de la connexion à [!UICONTROL _en tant que client_] (telles que l’ajout/la suppression de produits) sont appliquées à la commande réelle du client. Sur le storefront, une bannière s’affiche lorsque vous êtes `logged in as customer_name` pour vous rappeler l’état spécial.
 
 ## Connexion en tant que connexion client
 
 {{ee-feature}}
 
-Adobe Commerce fournit une journalisation de la variable _Connexion en tant que client_ actions. Il répertorie toutes les sessions pendant lesquelles un utilisateur administrateur accède à la fonctionnalité. Pour accéder aux actions consignées, accédez à la [Rapport Actions de l’administrateur](../systems/action-log-report.md).
+Adobe Commerce fournit une journalisation pour les actions _Se connecter en tant que client_. Il répertorie toutes les sessions pendant lesquelles un utilisateur administrateur accède à la fonctionnalité. Pour accéder aux actions consignées, accédez au [rapport des actions d’administration](../systems/action-log-report.md).
 
-Vous pouvez filtrer les paramètres du rapport. **[!UICONTROL Action Group]** to `Login As Customer` en haut de la page et en cliquant sur **[!UICONTROL Search]**.
+Vous pouvez filtrer le paramètre de rapport **[!UICONTROL Action Group]** sur `Login As Customer` en haut de la page et cliquer sur **[!UICONTROL Search]**.
 
-![Filtrage du rapport Actions](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}
+![Filtrer le rapport Actions](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}

@@ -5,20 +5,20 @@ exl-id: 28728064-cf3e-44ef-a251-61a23499d096
 feature: Page Content, Themes
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
 
 # Installer un nouveau thème
 
-Lors de la première installation [!DNL Commerce] les éléments de conception du magasin sont basés sur la valeur par défaut `Magento Blank` thème. La variable _Luma_ theme est également disponible si vous avez installé les exemples de données. Vous pouvez modifier un thème, ajouter des thèmes créés par d’autres ou créer le vôtre. [[!DNL Commerce Marketplace]](../getting-started/commerce-marketplace.md) contient une sélection croissante de thèmes que vous pouvez installer pour modifier l’aspect de votre magasin. Pour savoir comment créer ou modifier un thème, voir [_Guide de développement Frontière_](https://developer.adobe.com/commerce/frontend-core/guide/).
+Lorsque vous installez [!DNL Commerce] pour la première fois, les éléments de conception du magasin sont basés sur le thème par défaut `Magento Blank` . Le thème _Luma_ est également disponible si vous avez installé les exemples de données. Vous pouvez modifier un thème, ajouter des thèmes créés par d’autres ou créer le vôtre. [[!DNL Commerce Marketplace]](../getting-started/commerce-marketplace.md) contient une sélection croissante de thèmes que vous pouvez installer pour modifier l’aspect de votre magasin. Pour savoir comment créer ou modifier un thème, consultez le [_Guide de développement Frontend_](https://developer.adobe.com/commerce/frontend-core/guide/).
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-Avant de commencer, assurez-vous que vous disposez d’un jeu valide de [[!DNL Commerce] Accéder aux clés](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+Avant de commencer, assurez-vous d’avoir un ensemble valide de [[!DNL Commerce] clés d’accès](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
-Pour ajouter un thème à votre [!DNL Commerce] boutique, suivez les instructions disponibles dans la section [!DNL Commerce Marketplace]:
+Pour ajouter un thème à votre boutique [!DNL Commerce], suivez les instructions disponibles sur le [!DNL Commerce Marketplace] :
 
 1. Recherche d’un thème
 1. Évaluation du produit

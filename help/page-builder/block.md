@@ -1,6 +1,6 @@
 ---
 title: Ajouter du contenu - Bloc
-description: Découvrez le type de contenu Bloc utilisé pour ajouter un bloc réutilisable au [!DNL Page Builder] scène.
+description: Découvrez le type de contenu Bloc utilisé pour ajouter un bloc réutilisable à l’étape  [!DNL Page Builder] .
 exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Ajouter du contenu - Bloc
 
-Utilisez la variable _Bloc_ type de contenu pour ajouter un type existant et actif [block](../content-design/blocks.md) à la fonction [[!DNL Page Builder] étape](workspace.md#stage). Dans l&#39;exemple suivant, la première colonne contient le bloc avec un menu latéral pour la page. La deuxième colonne contient une image.
+Utilisez le type de contenu _Block_ pour ajouter un [block](../content-design/blocks.md) existant et actif à l’ [[!DNL Page Builder] étape](workspace.md#stage). Dans l&#39;exemple suivant, la première colonne contient le bloc avec un menu latéral pour la page. La deuxième colonne contient une image.
 
-![Bloc avec menu latéral](./assets/pb-add-content-block-example.png){width="600" zoomable="yes"}
+![Bloc avec un menu latéral](./assets/pb-add-content-block-example.png){width="600" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -27,7 +27,7 @@ Utilisez la variable _Bloc_ type de contenu pour ajouter un type existant et act
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png) | Masque le conteneur de blocs actif et son contenu. |
 | Afficher | ![Icône Afficher](./assets/pb-icon-show.png) | Affiche le conteneur de blocs masqué et son contenu. |
 | Dupliquer | ![Icône Dupliquer](./assets/pb-icon-duplicate.png) | Effectue une copie du conteneur de blocs et de son contenu. |
-| Supprimer | ![Icône Supprimer](./assets/pb-icon-remove.png) | Supprime le conteneur de blocs et son contenu de la scène. |
+| Supprimer | ![Supprimer l’icône](./assets/pb-icon-remove.png) | Supprime le conteneur de blocs et son contenu de la scène. |
 
 {style="table-layout:auto"}
 
@@ -35,19 +35,19 @@ Utilisez la variable _Bloc_ type de contenu pour ajouter un type existant et act
 
 ## Ajouter un bloc existant
 
-1. Accédez au [!DNL Page Builder] espace de travail sur la page cible, bloc, bloc dynamique, produit ou catégorie.
+1. Accédez à l’espace de travail [!DNL Page Builder] sur la page cible, le bloc, le bloc dynamique, le produit ou la catégorie.
 
-1. Dans le [!DNL Page Builder] panneau, développer **[!UICONTROL Add Content]** et faites glisser un **[!UICONTROL Block]** espace réservé sur la scène.
+1. Dans le panneau [!DNL Page Builder], développez **[!UICONTROL Add Content]** et faites glisser un espace réservé **[!UICONTROL Block]** sur la scène.
 
    ![Faire glisser un bloc sur la scène](./assets/pb-add-content-block-drag.png){width="600" zoomable="yes"}
 
-1. Passez la souris sur le conteneur de blocs vide pour afficher la boîte à outils et sélectionnez l’option _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} ).
+1. Passez la souris sur le conteneur de blocs vide pour afficher la boîte à outils et sélectionnez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} ).
 
 1. Cliquez sur **[!UICONTROL Select Block]**.
 
    ![Sélectionner un bloc](./assets/pb-add-content-block-select.png){width="200"}
 
-1. Dans la ligne du bloc à ajouter, cliquez sur **[!UICONTROL Select]** dans la dernière colonne.
+1. Dans la ligne du bloc que vous souhaitez ajouter, cliquez sur **[!UICONTROL Select]** dans la dernière colonne.
 
    ![Bloc sélectionné](./assets/pb-add-content-block-selected.png){width="600" zoomable="yes"}
 
@@ -57,11 +57,11 @@ Utilisez la variable _Bloc_ type de contenu pour ajouter un type existant et act
 
 1. Définissez les autres paramètres si nécessaire, à l’aide des descriptions de champ à la fin de cette page à titre de référence.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
 ### Paramètres avancés
 
-1. Pour contrôler le positionnement du bloc dans le conteneur parent, sélectionnez une **[!UICONTROL Alignment]**:
+1. Pour contrôler le positionnement du bloc dans le conteneur parent, choisissez un **[!UICONTROL Alignment]** :
 
    | Option | Description |
    | ------ | ----------- |
@@ -72,7 +72,7 @@ Utilisez la variable _Bloc_ type de contenu pour ajouter un type existant et act
 
    {style="table-layout:auto"}
 
-1. Définir une **[!UICONTROL Border]** style appliqué aux quatre côtés du conteneur de blocs :
+1. Définissez un style **[!UICONTROL Border]** appliqué aux quatre côtés du conteneur de blocs :
 
    | Option | Description |
    | ------ | ----------- |
@@ -89,7 +89,7 @@ Utilisez la variable _Bloc_ type de contenu pour ajouter un type existant et act
 
    {style="table-layout:auto"}
 
-1. Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage des bordures :
+1. Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage de la bordure :
 
    | Option | Description |
    | ------ |------------ |
@@ -99,11 +99,11 @@ Utilisez la variable _Bloc_ type de contenu pour ajouter un type existant et act
 
    {style="table-layout:auto"}
 
-1. (Facultatif) Indiquez les noms des **[!UICONTROL CSS classes]** de la feuille de style actuelle à appliquer au conteneur.
+1. (Facultatif) Indiquez les noms de **[!UICONTROL CSS classes]** dans la feuille de style actuelle à appliquer au conteneur.
 
    Séparez plusieurs noms de classe par un espace.
 
-1. Saisissez des valeurs, en pixels, pour la variable **[!UICONTROL Margins and Padding]** pour déterminer les marges extérieures et la marge intérieure du conteneur de blocs.
+1. Saisissez des valeurs, en pixels, pour le **[!UICONTROL Margins and Padding]** afin de déterminer les marges extérieures et la marge intérieure du conteneur de blocs.
 
    Saisissez les valeurs correspondantes dans le diagramme.
 
@@ -116,9 +116,9 @@ Utilisez la variable _Bloc_ type de contenu pour ajouter un type existant et act
 
 ## Modification des paramètres de bloc
 
-1. Passez la souris sur le conteneur de blocs et sélectionnez l’option _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} ) dans la boîte à outils.
+1. Passez la souris sur le conteneur de blocs et sélectionnez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} ) dans la boîte à outils.
 
-   ![Blocs Toolbox](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
+   ![Bloc d’outils](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
 
 1. Pour choisir un autre bloc, cliquez sur **[!UICONTROL Select Block]**.
 
@@ -127,11 +127,11 @@ Utilisez la variable _Bloc_ type de contenu pour ajouter un type existant et act
 
 1. Mettez à jour les paramètres restants si nécessaire, à l’aide des descriptions de champ à la fin de cette page à titre de référence.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
 ## Dupliquer un bloc
 
-1. Passez la souris sur le conteneur de blocs pour afficher la boîte à outils et sélectionnez l’option _Dupliquer_ (![Icône Dupliquer](./assets/pb-icon-duplicate.png)).
+1. Pointez sur le conteneur de blocs pour afficher la boîte à outils et sélectionnez l’icône _Dupliquer_ (![Icône Dupliquer](./assets/pb-icon-duplicate.png)).
 
    Le doublon apparaît juste en dessous de l’original.
 
@@ -143,6 +143,6 @@ Utilisez la variable _Bloc_ type de contenu pour ajouter un type existant et act
 
 ## Supprimer un bloc de l’étape
 
-1. Passez la souris sur le conteneur de blocs pour afficher la boîte à outils et sélectionnez l’option _Supprimer_ (![Icône Supprimer](./assets/pb-icon-remove.png)).
+1. Pointez sur le conteneur de blocs pour afficher la boîte à outils et sélectionnez l’icône _Supprimer_ (![Icône Supprimer](./assets/pb-icon-remove.png)).
 
-1. Lorsque vous y êtes invité, cliquez sur **[!UICONTROL OK]**.
+1. Lorsque vous êtes invité à confirmer l’opération, cliquez sur **[!UICONTROL OK]**.

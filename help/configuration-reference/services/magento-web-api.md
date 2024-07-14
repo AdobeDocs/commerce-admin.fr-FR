@@ -5,7 +5,7 @@ exl-id: 9e9857e7-6f5c-4273-9e82-c861e627827a
 feature: Configuration, Integration
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '327'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Web Api Input Limits]
 
-![Limites d’entrée des applications web](./assets/web-api-input-limits.png)<!-- zoom -->
+![Limites D’Entrée De L’Api Web](./assets/web-api-input-limits.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

@@ -5,7 +5,7 @@ exl-id: 4e88b253-f320-4c94-9996-94d7005effc6
 feature: Page Content, Promotions/Events
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -20,49 +20,49 @@ Un widget de carrousel d’événements de catalogue affiche un curseur des év�
 
 ## Étape 1 : activation du widget du carrousel de catalogue
 
-Avant de commencer, suivez les [instructions](../merchandising-promotions/event-configure.md) pour configurer la variable _Événement de catalogue_ afin qu’il soit activé pour storefront.
+Avant de commencer, suivez les [instructions](../merchandising-promotions/event-configure.md) pour configurer le widget _Événement de catalogue_ afin qu’il soit activé pour le storefront.
 
 ![Configuration d’événement de catalogue](./assets/config-catalog-catalog-events-1.png){width="500" zoomable="yes"}
 
 ## Étape 2 : création du widget
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add Widget]**.
 
-1. Dans le _[!UICONTROL Settings]_, procédez comme suit :
+1. Dans la section _[!UICONTROL Settings]_, procédez comme suit :
 
-   - Définir **[!UICONTROL Type]** to `Catalog Events Carousel`.
+   - Définissez **[!UICONTROL Type]** sur `Catalog Events Carousel`.
 
-   - Choisissez la **[!UICONTROL Design Theme]** qui est utilisé par le magasin.
+   - Sélectionnez le **[!UICONTROL Design Theme]** utilisé par le magasin.
 
 1. Cliquez sur **[!UICONTROL Continue]**.
 
    ![Paramètres de widget pour un carrousel d’événement](./assets/widget-event-carousel-settings.png){width="500" zoomable="yes"}
 
-1. Dans le _[!UICONTROL Storefront Properties]_, procédez comme suit :
+1. Dans la section _[!UICONTROL Storefront Properties]_, procédez comme suit :
 
    - Pour **[!UICONTROL Widget Title]**, saisissez un titre descriptif pour le widget.
 
-     Ce titre est visible uniquement à partir de la propriété _Administration_.
+     Ce titre est visible uniquement à partir de _Admin_.
 
-   - Pour **[!UICONTROL Assign to Store Views]**, sélectionnez les vues du magasin où le widget doit être visible.
+   - Pour **[!UICONTROL Assign to Store Views]**, sélectionnez les vues de magasin où le widget doit être visible.
 
      Vous pouvez sélectionner une vue de magasin spécifique, ou `All Store Views`. Pour sélectionner plusieurs vues, maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée, puis cliquez sur chaque option.
 
-   - (Facultatif) Pour **[!UICONTROL Sort Order]**, saisissez un nombre afin de déterminer l’ordre dans lequel cet élément apparaît avec les autres dans la même partie de la page. (`0` = first, `1` = second, `3` = troisième, etc.)
+   - (Facultatif) Pour **[!UICONTROL Sort Order]**, saisissez un nombre afin de déterminer l’ordre dans lequel cet élément apparaît avec les autres dans la même partie de la page. (`0` = premier, `1` = deuxième, `3` = troisième, etc.)
 
-     ![Propriétés du storefront de widgets](./assets/widget-event-carousel-storefront-properties.png){width="600" zoomable="yes"}
+     ![Propriétés de storefront de widgets](./assets/widget-event-carousel-storefront-properties.png){width="600" zoomable="yes"}
 
 ## Etape 3 : sélection de l&#39;emplacement
 
-1. Dans le _Mises à jour de la mise en page_ , cliquez sur **[!UICONTROL Add Layout Update]**.
+1. Dans la section _Mises à jour de la mise en page_, cliquez sur **[!UICONTROL Add Layout Update]**.
 
-1. Définir **[!UICONTROL Display On]** to `Specified Page`.
+1. Définissez **[!UICONTROL Display On]** sur `Specified Page`.
 
-1. Définir **[!UICONTROL Page]** to `CMS Home Page`.
+1. Définissez **[!UICONTROL Page]** sur `CMS Home Page`.
 
-1. Définir **[!UICONTROL Container]** l’une des options suivantes :
+1. Définissez **[!UICONTROL Container]** l’un des paramètres suivants :
 
    - `Main Content Area`
    - `Sidebar Additional`
@@ -70,11 +70,11 @@ Avant de commencer, suivez les [instructions](../merchandising-promotions/event-
 
    >[!NOTE]
    >
-   >Les résultats varient en fonction du thème et de la mise en page. Vous devez également spécifier la variable _[!UICONTROL Catalog Events Carousel Default Template]_dans la configuration de la catégorie.
+   >Les résultats varient en fonction du thème et de la mise en page. Vous devez également spécifier le _[!UICONTROL Catalog Events Carousel Default Template]_dans la configuration de catégorie.
 
 1. Si vous souhaitez que le carrousel d’événements s’affiche à un autre emplacement du storefront, cliquez sur **[!UICONTROL Add Layout Update]** et répétez ces étapes pour cet emplacement.
 
-   ![Mises à jour de la mise en page](./assets/widget-event-carousel-layout-updates-catalog-category-sidebar.png){width="600" zoomable="yes"}
+   ![Mises à jour de mise en page](./assets/widget-event-carousel-layout-updates-catalog-category-sidebar.png){width="600" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Save and Continue Edit]**.
 
@@ -84,11 +84,11 @@ Avant de commencer, suivez les [instructions](../merchandising-promotions/event-
 
 1. Dans le panneau de gauche, choisissez **[!UICONTROL Widget Options]**.
 
-1. Pour **[!UICONTROL Frame Size]**, saisissez le nombre d’événements que vous souhaitez répertorier simultanément dans le curseur.
+1. Pour **[!UICONTROL Frame Size]**, entrez le nombre d’événements que vous souhaitez répertorier simultanément dans le curseur.
 
    Pour afficher un seul événement à la fois, saisissez `1`.
 
-1. Pour **[!UICONTROL Scroll]**, saisissez le nombre de listes d’événements à faire défiler par clic.
+1. Pour **[!UICONTROL Scroll]**, saisissez le nombre de listes d’événements que vous souhaitez faire défiler par clic.
 
    Pour accéder à l’événement suivant, saisissez `1`.
 
@@ -96,8 +96,8 @@ Avant de commencer, suivez les [instructions](../merchandising-promotions/event-
 
    Sur la page d’exemple suivante, la largeur personnalisée est définie sur 250 pixels.
 
-   ![Options du widget de largeur personnalisée](./assets/widget-options-custom-width.png){width="400" zoomable="yes"}
+   ![Options de widget de largeur personnalisée](./assets/widget-options-custom-width.png){width="400" zoomable="yes"}
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
 
 1. Lorsque vous êtes invité à actualiser le cache, cliquez sur le lien contenu dans le message situé en haut de la page et suivez les instructions.

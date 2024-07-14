@@ -13,34 +13,34 @@ ht-degree: 0%
 
 # Configuration des options de courrier électronique de l’entreprise
 
-La variable [représentant commercial](account-company-manage.md) qui est affecté en tant que contact principal pour une entreprise est configuré par défaut en tant qu’expéditeur de nombreux messages électroniques automatisés envoyés à la société.
+Le [représentant commercial](account-company-manage.md) qui est affecté comme contact principal pour une entreprise est configuré par défaut comme l’expéditeur de nombreux messages électroniques automatisés envoyés à la société.
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Customers]** et choisissez **[!UICONTROL Company Configuration]**.
 
-1. Si nécessaire, définissez **[!UICONTROL Store View]** en mode magasin pour définir la variable [scope](../getting-started/websites-stores-views.md#scope-settings) de la configuration.
+1. Si nécessaire, définissez **[!UICONTROL Store View]** sur la vue de magasin pour définir la [portée](../getting-started/websites-stores-views.md#scope-settings) de la configuration.
 
-1. Procédez comme suit : **[!UICONTROL Company Registration]** section :
+1. Renseignez la section **[!UICONTROL Company Registration]** :
 
    >[!NOTE]
    >
-   >Effacez la variable **[!UICONTROL Use system value]** pour rendre le champ modifiable.
+   >Décochez la case **[!UICONTROL Use system value]** pour rendre le champ modifiable.
 
-   - Définir **[!UICONTROL Company Registration Email Recipient]** à la fonction [contact de magasin](../getting-started/store-details.md#store-email-addresses) qui doit être informé lorsqu’une nouvelle demande d’enregistrement d’entreprise est reçue.
+   - Définissez **[!UICONTROL Company Registration Email Recipient]** sur le [contact du magasin](../getting-started/store-details.md#store-email-addresses) qui doit être averti lorsqu’une nouvelle demande d’enregistrement de la société est reçue.
 
-   - Dans le **[!UICONTROL Send Company Registration Email Copy To]** saisissez l’adresse email de chaque personne devant recevoir une copie de la notification d’enregistrement. Séparez plusieurs adresses électroniques par une virgule.
+   - Dans le champ **[!UICONTROL Send Company Registration Email Copy To]** , saisissez l’adresse électronique de chaque personne devant recevoir une copie de la notification d’enregistrement. Séparez plusieurs adresses électroniques par une virgule.
 
-   - Pour déterminer comment la copie de la notification est envoyée, définissez **[!UICONTROL Send Email Copy Method]** à l’une des options suivantes :
+   - Pour déterminer comment la copie de la notification est envoyée, définissez **[!UICONTROL Send Email Copy Method]** sur l’une des options suivantes :
 
-      - `Bcc` - Envoie un _copie de courtoisie aveugle_ en incluant le destinataire dans l’en-tête du même email que celui envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.
-      - `Separate Email` - Envoie la copie en tant que courrier électronique distinct.
+      - `Bcc` - Envoie une _copie de politesse aveugle_ en incluant le destinataire dans l’en-tête du même email qui est envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.
+      - `Separate Email` - Envoie la copie en tant qu’email distinct.
 
-   - Si vous avez préparé un modèle d’email à utiliser à la place de la valeur par défaut, définissez **[!UICONTROL Default Company Registration Email]** au nom du modèle. Par défaut, la variable `Company Registration Request` est utilisé.
+   - Si vous avez préparé un modèle d’email qui doit être utilisé à la place de la valeur par défaut, définissez **[!UICONTROL Default Company Registration Email]** sur le nom du modèle. Par défaut, le modèle `Company Registration Request` est utilisé.
 
      ![Configuration des clients - enregistrement de la société](./assets/company-email-options-company-registration.png){width="600" zoomable="yes"}
 
-1. Procédez comme suit : **[!UICONTROL Customer-Related Emails]** section :
+1. Renseignez la section **[!UICONTROL Customer-Related Emails]** :
 
    Si vous avez préparé d’autres modèles d’email à utiliser à la place des valeurs par défaut, choisissez le modèle que vous souhaitez utiliser pour chacun des éléments suivants :
 
@@ -54,39 +54,39 @@ La variable [représentant commercial](account-company-manage.md) qui est affect
 
    ![Configuration des clients - emails liés aux clients](./assets/company-email-options-customer-related-emails.png){width="600" zoomable="yes"}
 
-1. Procédez comme suit : **[!UICONTROL Company Status Change]** section :
+1. Renseignez la section **[!UICONTROL Company Status Change]** :
 
-   - Définir **[!UICONTROL Company Status Change for Email Recipient]** à la fonction [contact de magasin](../getting-started/store-details.md#store-email-addresses) qui doit être informé lorsque le statut d’une société change.
+   - Définissez **[!UICONTROL Company Status Change for Email Recipient]** sur le [contact de magasin](../getting-started/store-details.md#store-email-addresses) qui doit être averti lorsque l’état d’une entreprise change.
 
-   - Dans le **[!UICONTROL Send Company Status Change Email Copy To]** , saisissez l’adresse email de chaque personne devant recevoir une copie de la notification de changement de statut. Séparez plusieurs adresses électroniques par une virgule.
+   - Dans le champ **[!UICONTROL Send Company Status Change Email Copy To]** , saisissez l’adresse électronique de chaque personne devant recevoir une copie de la notification de changement d’état. Séparez plusieurs adresses électroniques par une virgule.
 
-   - Pour déterminer comment la copie de la notification est envoyée, définissez **[!UICONTROL Send Email Copy Method]** à l’une des options suivantes :
+   - Pour déterminer comment la copie de la notification est envoyée, définissez **[!UICONTROL Send Email Copy Method]** sur l’une des options suivantes :
 
-      - `Bcc` - Envoie un _copie de courtoisie aveugle_ en incluant le destinataire dans l’en-tête du même email que celui envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.
-      - `Separate Email` - Envoie la copie en tant que courrier électronique distinct.
+      - `Bcc` - Envoie une _copie de politesse aveugle_ en incluant le destinataire dans l’en-tête du même email qui est envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.
+      - `Separate Email` - Envoie la copie en tant qu’email distinct.
 
-   - Si vous disposez d’un modèle de courrier électronique préparé qui doit être utilisé au lieu de la valeur par défaut lorsque l’état de l’entreprise passe de `Pending Approval` to `Active`, définit **[!UICONTROL Default 'Company Status Change to Active 1' Email]** à ce modèle. Par défaut, la variable `Company Status Active 1` est utilisé.
+   - Si vous disposez d’un modèle de courrier électronique préparé à utiliser au lieu de la valeur par défaut lorsque l’état de l’entreprise passe de `Pending Approval` à `Active`, définissez **[!UICONTROL Default 'Company Status Change to Active 1' Email]** sur ce modèle. Par défaut, le modèle `Company Status Active 1` est utilisé.
 
-   - Si vous disposez d’un modèle de courrier électronique préparé qui doit être utilisé au lieu de la valeur par défaut lorsque l’état de l’entreprise passe de `Rejected` ou `Blocked` to `Active`, définit **[!UICONTROL Default 'Company Status Change to Active 2' Email]** à ce modèle. Par défaut, la variable `Company Status Active 2` est utilisé.
+   - Si vous disposez d’un modèle de courrier électronique préparé à utiliser au lieu de la valeur par défaut lorsque l’état de l’entreprise passe de `Rejected` ou `Blocked` à `Active`, définissez **[!UICONTROL Default 'Company Status Change to Active 2' Email]** sur ce modèle. Par défaut, le modèle `Company Status Active 2` est utilisé.
 
-   - Si vous disposez d’un modèle de courrier électronique préparé qui doit être utilisé au lieu de la valeur par défaut lorsque l’état de l’entreprise passe à `Rejected`, définit **[!UICONTROL Default 'Company Status Change to Rejected' Email]** à ce modèle. Par défaut, la variable `Company Status Rejected` est utilisé.
+   - Si vous disposez d’un modèle de courrier électronique préparé à utiliser au lieu de la valeur par défaut lorsque l’état de l’entreprise passe à `Rejected`, définissez **[!UICONTROL Default 'Company Status Change to Rejected' Email]** sur ce modèle. Par défaut, le modèle `Company Status Rejected` est utilisé.
 
-   - Si vous disposez d’un modèle de courrier électronique préparé qui doit être utilisé au lieu de la valeur par défaut lorsque l’état de l’entreprise passe à `Blocked`, définit **[!UICONTROL Default 'Company Status Change to Blocked' Email]** à ce modèle. Par défaut, la variable `Company Status Blocked` est utilisé.
+   - Si vous disposez d’un modèle de courrier électronique préparé à utiliser au lieu de la valeur par défaut lorsque l’état de l’entreprise passe à `Blocked`, définissez **[!UICONTROL Default 'Company Status Change to Blocked' Email]** sur ce modèle. Par défaut, le modèle `Company Status Blocked` est utilisé.
 
-   - Si vous disposez d’un modèle de courrier électronique préparé qui doit être utilisé au lieu de la valeur par défaut lorsque l’état de l’entreprise passe à `Pending Approval`, définit **[!UICONTROL Default 'Company Status Change to Pending Approval' Email]** à ce modèle. Par défaut, la variable `Company Status Pending Approval` est utilisé.
+   - Si vous disposez d’un modèle de courrier électronique préparé à utiliser au lieu de la valeur par défaut lorsque l’état de l’entreprise passe à `Pending Approval`, définissez **[!UICONTROL Default 'Company Status Change to Pending Approval' Email]** sur ce modèle. Par défaut, le modèle `Company Status Pending Approval` est utilisé.
 
-     ![Configuration des clients - changement de statut de l’entreprise](./assets/company-email-options-company-status-change.png){width="600" zoomable="yes"}
+     ![Configuration des clients - changement d’état de la société](./assets/company-email-options-company-status-change.png){width="600" zoomable="yes"}
 
-1. Procédez comme suit : **[!UICONTROL Company Credit Emails]** section :
+1. Renseignez la section **[!UICONTROL Company Credit Emails]** :
 
-   - Définir **[!UICONTROL Company Credit Change Email Sender]** à la fonction [contact de magasin](../getting-started/store-details.md#store-email-addresses) qui doit être informé lorsqu’une modification est apportée à la limite de crédit affectée à une entreprise. Par défaut, la notification est envoyée à _représentant commercial_.
+   - Définissez **[!UICONTROL Company Credit Change Email Sender]** sur le [contact de magasin](../getting-started/store-details.md#store-email-addresses) qui doit être averti lorsqu’une modification est apportée à la limite de crédit affectée à une entreprise. Par défaut, la notification est envoyée à _Représentant commercial_.
 
-   - Dans le **[!UICONTROL Send Company Credit Change Email Copy To]** saisissez l’adresse email de chaque personne devant recevoir une copie de la notification de changement de crédit. Séparez plusieurs adresses électroniques par une virgule.
+   - Dans le champ **[!UICONTROL Send Company Credit Change Email Copy To]** , saisissez l’adresse électronique de chaque personne devant recevoir une copie de la notification de changement de crédit. Séparez plusieurs adresses électroniques par une virgule.
 
-   - Pour déterminer comment la copie de la notification est envoyée, définissez **[!UICONTROL Send Email Copy Method]** à l’une des options suivantes :
+   - Pour déterminer comment la copie de la notification est envoyée, définissez **[!UICONTROL Send Email Copy Method]** sur l’une des options suivantes :
 
-      - `Bcc` - Envoie un _copie de courtoisie aveugle_ en incluant le destinataire dans l’en-tête du même email que celui envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.
-      - `Separate Email` - Envoie la copie en tant que courrier électronique distinct.
+      - `Bcc` - Envoie une _copie de politesse aveugle_ en incluant le destinataire dans l’en-tête du même email qui est envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.
+      - `Separate Email` - Envoie la copie en tant qu’email distinct.
 
    - Si vous avez préparé des modèles d’email à utiliser à la place des valeurs par défaut, choisissez le modèle de chacune des notifications suivantes envoyées à l’administrateur de l’entreprise.
 
@@ -98,4 +98,4 @@ La variable [représentant commercial](account-company-manage.md) qui est affect
 
    ![Configuration des clients - courriers électroniques de crédit de l’entreprise](./assets/company-email-options-company-credit.png){width="600" zoomable="yes"}
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.

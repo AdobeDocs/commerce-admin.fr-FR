@@ -12,21 +12,21 @@ ht-degree: 0%
 
 # Files d’attente de newsletter
 
-Pour gérer la charge sur le serveur, les newsletters avec de nombreux abonnés sont envoyées dans une file d’attente de plusieurs lots. Vous pouvez vérifier régulièrement la file d’attente de la newsletter pour vérifier l’état et voir combien d’entre elles ont été traitées. Tous les problèmes qui se produisent pendant la transmission apparaissent sur la variable _Problème de newsletter_ rapport.
+Pour gérer la charge sur le serveur, les newsletters avec de nombreux abonnés sont envoyées dans une file d’attente de plusieurs lots. Vous pouvez vérifier régulièrement la file d’attente de la newsletter pour vérifier l’état et voir combien d’entre elles ont été traitées. Tous les problèmes qui se produisent pendant la transmission apparaissent sur le rapport _Problème de newsletter_.
 
 ## Envoyer une newsletter
 
-1. Sur le _Administration_ , accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**.
+1. Dans le menu _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**.
 
-1. Dans la grille, recherchez le [modèle de newsletter](newsletter-template.md) qui doit être envoyé et définissez la variable **[!UICONTROL Action]** colonne à `Queue Newsletter`.
+1. Dans la grille, recherchez le [modèle de newsletter](newsletter-template.md) à envoyer et définissez la colonne **[!UICONTROL Action]** sur `Queue Newsletter`.
 
-1. Pour **[!UICONTROL Queue Date Start]**, sélectionnez la date à laquelle la transmission doit commencer à partir du calendrier (![Icône Calendrier](../assets/icon-calendar.png)).
+1. Pour **[!UICONTROL Queue Date Start]**, sélectionnez la date de début de la transmission à partir du calendrier (![Icône Calendrier](../assets/icon-calendar.png)).
 
-1. Pour **[!UICONTROL Subscribers From]**, sélectionnez chaque vue de magasin à inclure dans l’explosion du courrier électronique.
+1. Pour **[!UICONTROL Subscribers From]**, sélectionnez chaque vue de magasin à inclure dans l’explosion de l’email.
 
 1. Renseignez les informations d’en-tête de l’email :
 
-   - Entrez une brève description de la newsletter pour la **[!UICONTROL Subject]** ligne de l’en-tête de l’email.
+   - Saisissez une brève description de la newsletter pour la ligne **[!UICONTROL Subject]** de l’en-tête de l’email.
 
    - Saisissez le **[!UICONTROL Sender Name]**.
 
@@ -34,23 +34,23 @@ Pour gérer la charge sur le serveur, les newsletters avec de nombreux abonnés 
 
      Le nom et l&#39;adresse email par défaut de l&#39;expéditeur sont indiqués dans la configuration.
 
-     ![Informations sur la file d’attente des newsletters](./assets/newsletter-queue-information1.png){width="600" zoomable="yes"}
+     ![Informations sur la file d’attente de la newsletter](./assets/newsletter-queue-information1.png){width="600" zoomable="yes"}
 
-1. Le cas échéant, saisissez une note dans le champ **[!UICONTROL Message]** au-dessus des instructions de désabonnement.
+1. Le cas échéant, saisissez une note dans la zone **[!UICONTROL Message]** au-dessus des instructions de désabonnement.
 
    >[!NOTE]
    >
    >Ne supprimez pas les instructions, qui sont requises par la loi dans de nombreuses juridictions.
 
-1. Pour appliquer des styles personnalisés à une newsletter, ajoutez-les à la section **[!UICONTROL Newsletter Styles]** champ .
+1. Pour appliquer des styles personnalisés à une newsletter, ajoutez-les dans le champ **[!UICONTROL Newsletter Styles]** .
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save and Resume]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save and Resume]**.
 
    La newsletter apparaît dans la file d’attente en attente de traitement.
 
 ## Vérifier les problèmes
 
-Sur le _Administration_ , accédez à **[!UICONTROL Reports]** > _[!UICONTROL Marketing]_>**[!UICONTROL Newsletter Problem Reports]**.
+Dans le menu _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Marketing]_>**[!UICONTROL Newsletter Problem Reports]**.
 
 ## Barre de boutons
 
@@ -72,9 +72,9 @@ Sur le _Administration_ , accédez à **[!UICONTROL Reports]** > _[!UICONTROL Ma
 | [!UICONTROL Queue Start] | Date à laquelle la newsletter a été envoyée. |
 | [!UICONTROL Queue End] | Date à laquelle l’envoi de la newsletter s’est terminé. |
 | [!UICONTROL Subject] | Objet du modèle de newsletter. |
-| [!UICONTROL Status] | Indique le statut du publipostage à la newsletter. Valeurs possibles : `Sent`, `Canceled`, `Not Sent`, `Sending`, ou `Paused`. |
+| [!UICONTROL Status] | Indique le statut du publipostage à la newsletter. Valeurs possibles : `Sent`, `Canceled`, `Not Sent`, `Sending` ou `Paused`. |
 | [!UICONTROL Processed] | Indique le nombre de newsletters envoyées. |
 | [!UICONTROL Recipients] | Indique le nombre de newsletters reçues par les abonnés. |
-| [!UICONTROL Actions] | **[!UICONTROL Preview]**: ouvre une fenêtre distincte pour prévisualiser le modèle. |
+| [!UICONTROL Actions] | **[!UICONTROL Preview]** : ouvre une fenêtre distincte pour prévisualiser le modèle. |
 
 {style="table-layout:auto"}

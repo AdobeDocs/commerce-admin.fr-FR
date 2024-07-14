@@ -16,16 +16,16 @@ ht-degree: 0%
 
 Les clients peuvent utiliser l’une des méthodes suivantes pour demander une RAM à partir du storefront :
 
-- [Widget Commandes et retours](../content-design/widget-orders-returns.md) dans la barre latérale
-- _Commandes et renvoie_ lien dans le pied de page
+- [Commandes et retours du widget](../content-design/widget-orders-returns.md) dans la barre latérale
+- Lien _Commandes et retours_ dans le pied de page
 
 Pour respecter les bonnes pratiques, veillez à inclure une description de vos exigences et processus de RAM dans la stratégie de service client.
 
 >[!NOTE]
 >
->Si vous souhaitez collecter des informations supplémentaires sur les retours, vous pouvez ajouter vos propres [renvoie des attributs](attributes-returns.md).
+>Si vous souhaitez collecter des informations supplémentaires sur les retours, vous pouvez ajouter vos propres [attributs de retour](attributes-returns.md) personnalisés.
 
-Toutes les informations RMA du client s’affichent sur la page **[!UICONTROL My Returns]** dans le tableau de bord du compte client.
+Toutes les informations RMA client s’affichent sur la page **[!UICONTROL My Returns]** du tableau de bord du compte client.
 
 ![Mes retours](./assets/my-returns-page.png){width="700" zoomable="yes"}
 
@@ -43,27 +43,27 @@ Le client effectue les étapes suivantes sur le storefront pour envoyer une RAM 
 
 1. Clics **[!UICONTROL Continue]**.
 
-   ![Commandes et renvoie](./assets/storefront-orders-and-returns.png){width="700" zoomable="yes"}
+   ![Commandes et retours](./assets/storefront-orders-and-returns.png){width="700" zoomable="yes"}
 
 1. Sous la date de commande, cliquez sur **[!UICONTROL Return]**.
 
    ![Détails de la commande](./assets/storefront-orders-and-returns-order-information.png){width="700" zoomable="yes"}
 
-1. Choisit l’élément à renvoyer et saisit la variable **[!UICONTROL Quantity to Return]**.
+1. Choisit l’élément à renvoyer et entre dans le **[!UICONTROL Quantity to Return]**.
 
-1. Visionneuses **[!UICONTROL Resolution]** à l’une des options suivantes :
+1. Définit **[!UICONTROL Resolution]** sur l’une des options suivantes :
 
    - Exchange
    - [Remboursement](../customers/refunds-customer-account.md)
    - [Crédit de la boutique](../customers/store-credit-using.md)
 
-1. Visionneuses **[!UICONTROL Item Condition]** à l’une des options suivantes :
+1. Définit **[!UICONTROL Item Condition]** sur l’une des options suivantes :
 
    - `Unopened`
    - `Opened`
    - `Damaged`
 
-1. Visionneuses **[!UICONTROL Reason to Return]** à l’une des options suivantes :
+1. Définit **[!UICONTROL Reason to Return]** sur l’une des options suivantes :
 
    - `Wrong Color`
    - `Wrong Size`
@@ -76,6 +76,6 @@ Le client effectue les étapes suivantes sur le storefront pour envoyer une RAM 
 
    >[!NOTE]
    >
-   >Si la commande contient plusieurs éléments et que le client souhaite renvoyer un autre élément, il peut cliquer sur **[!UICONTROL Add Item To Return]**, sélectionnez l’élément, puis définissez toutes les options mentionnées.
+   >Si la commande contient plusieurs éléments et que le client souhaite renvoyer un autre élément, il peut cliquer sur **[!UICONTROL Add Item To Return]**, sélectionner l’élément, puis définir toutes les options mentionnées.
 
 1. Clics **[!UICONTROL Submit]**.

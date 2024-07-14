@@ -14,13 +14,13 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Les règles de produit connexes vous permettent de cibler la sélection de produits présentés aux clients sous la forme de produits associés, de ventes incitatives et de ventes croisées. Chaque règle de produit peut être associée à une [segment client](../customers/customer-segments.md) pour produire un affichage dynamique de marchandisage ciblé.
+Les règles de produit connexes vous permettent de cibler la sélection de produits présentés aux clients sous la forme de produits associés, de ventes incitatives et de ventes croisées. Chaque règle de produit peut être associée à un [segment client](../customers/customer-segments.md) pour produire un affichage dynamique de marchandisage ciblé.
 
 Comme plusieurs règles actives peuvent être déclenchées en même temps, vous pouvez définir une priorité pour chaque règle. Il définit l’ordre dans lequel les règles sont appliquées et les produits s’affichent sur la page.
 
-Pour accéder aux règles de produit associées, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
+Pour accéder aux règles de produit connexes, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
 
-![Liste des règles de produit connexes](./assets/related-products-rules.png){width="700" zoomable="yes"}
+![ Liste de règles de produits connexes](./assets/related-products-rules.png){width="700" zoomable="yes"}
 
 ## Descriptions des colonnes
 
@@ -28,26 +28,26 @@ Pour accéder aux règles de produit associées, accédez à **[!UICONTROL Marke
 |--- |--- |
 | [!UICONTROL ID] | Identifiant numérique unique attribué à chaque règle de produit associée |
 | [!UICONTROL Rule] | Nom de la règle de produit associée |
-| [!UICONTROL Start] | Utilisez les champs du calendrier dynamique (_[!UICONTROL To:]_et_[!UICONTROL From:]_) pour filtrer la liste en fonction de la date de début de la règle, telle que définie lors de la création de la règle. |
-| [!UICONTROL End] | Utilisez les champs du calendrier dynamique (_[!UICONTROL To:]_et_[!UICONTROL From:]_) pour filtrer la liste en fonction de la date de fin de la règle, telle que définie lors de la création de la règle. |
+| [!UICONTROL Start] | Utilisez les champs de calendrier dynamique (_[!UICONTROL To:]_et_[!UICONTROL From:]_) pour filtrer la liste en fonction de la date de début de la règle, telle que définie lors de la création de la règle. |
+| [!UICONTROL End] | Utilisez les champs de calendrier dynamique (_[!UICONTROL To:]_et_[!UICONTROL From:]_) pour filtrer la liste en fonction de la date de fin de la règle, telle que définie lors de la création de la règle. |
 | [!UICONTROL Priority] | Saisissez du texte dans ce champ pour filtrer la liste selon la priorité définie pour une règle. |
-| [!UICONTROL Applies To] | Cette option filtre la liste des règles qui s’appliquent à `Related Products`, `Up-sells`, et `Cross-sells`. |
+| [!UICONTROL Applies To] | Cette option filtre la liste des règles qui s’appliquent à `Related Products`, `Up-sells` et `Cross-sells`. |
 | [!UICONTROL Status] | Utilisez cette option pour filtrer la liste en fonction de l’état de la règle (`Active` ou `Inactive`). |
 
 {style="table-layout:auto"}
 
 ## Priorité des règles
 
-À tout moment, plusieurs règles actives peuvent être déclenchées pour afficher les produits associés, les ventes incitatives et les ventes croisées. La priorité de chaque règle détermine l’ordre dans lequel les produits apparaissent sur la page. La valeur peut être définie sur n’importe quel nombre, avec `1` ayant la priorité la plus élevée.
+À tout moment, plusieurs règles actives peuvent être déclenchées pour afficher les produits associés, les ventes incitatives et les ventes croisées. La priorité de chaque règle détermine l’ordre dans lequel les produits apparaissent sur la page. La valeur peut être définie sur n’importe quel nombre entier, `1` ayant la priorité la plus élevée.
 
-Le nombre d’ID de produit pouvant être inclus dans une règle de relations de produit est déterminé par la variable `Result Limit` qui ne peut pas dépasser 20. La variable `Result Limit` de la variable `Configurable Maximum` pour que la promotion de produit spécifique basée sur des règles devienne la variable `Real Limit`et détermine le nombre réel de produits correspondants pouvant apparaître dans la liste.
+Le nombre d’ID de produit pouvant être inclus dans une règle de relations de produit est déterminé par la valeur `Result Limit`, qui ne peut pas dépasser 20. La valeur `Result Limit`, associée à l’élément `Configurable Maximum` pour la promotion spécifique basée sur des règles, devient l’élément `Real Limit` et détermine le nombre réel de produits correspondants pouvant apparaître dans la liste.
 
-[Limite de résultat] + [Configurable Maximum] = [Limite réelle]
+[Limite de résultat] + [Maximum configurable] = [Limite réelle]
 
-Supposons, par exemple, que vous ayez trois règles avec une priorité de `1`, `2`, et `3`.
+Par exemple, supposons que vous ayez trois règles avec une priorité de `1`, `2` et `3`.
 
-- Deux produits correspondants sont renvoyés pour _Règle 1_, six produits correspondants pour _Règle 2_, et 20 produits correspondants pour _Règle 3_.
-- Dans la configuration, la variable _[!UICONTROL Maximum Number of Products for Related Products List]_est défini sur `6`.
+- Deux produits correspondants sont renvoyés pour _Règle 1_, six produits correspondants pour _Règle 2_ et 20 produits correspondants pour _Règle 3_.
+- Dans la configuration, _[!UICONTROL Maximum Number of Products for Related Products List]_est défini sur `6`.
 
   | Règles | Priorité | Correspondance de produits |
   |---|---|-----|
@@ -55,9 +55,9 @@ Supposons, par exemple, que vous ayez trois règles avec une priorité de `1`, `
   | Règle 2 | `2` | `6` |
   | Règle 3 | `3` | `20` |
 
-Si la première règle renvoie plus de produits correspondants que autorisé par la variable _limite maximale configurable_, mais inférieur à la valeur _limite réelle_, les produits correspondants provenant des autres règles sont utilisés (par ordre de priorité) jusqu’à ce que la variable _limite réelle_ est atteinte.
+Si la première règle renvoie plus de produits correspondants que ce qui est autorisé par la _limite maximale configurable_, mais moins que la _limite réelle_, les produits correspondants des autres règles sont utilisés (par ordre de priorité) jusqu’à ce que la _limite réelle_ soit atteinte.
 
-Par priorité, les produits correspondants renvoyés par _Règle 1_ peut être utilisé en premier pour remplir les 26 emplacements disponibles. Comme la règle 1 n’a renvoyé que deux produits correspondants, il reste encore de la place pour 24 autres produits. _Règle 2_ a la priorité la plus élevée suivante et renvoie six produits correspondants supplémentaires. Il y a maintenant 18 créneaux à remplir. _Règle 3_ a le niveau de priorité suivant, avec suffisamment de produits correspondants pour remplir les 18 emplacements restants. Lorsque tous les créneaux disponibles sont remplis, et selon le mode de rotation défini, les produits peuvent être mélangés ou triés par identifiant dans chaque priorité, puis réduits à la limite maximale configurable. Dans ce cas, les six produits restants apparaissent dans le magasin.
+Par priorité, les produits correspondants renvoyés par _Règle 1_ peuvent être utilisés en premier pour remplir les 26 créneaux disponibles. Comme la règle 1 n’a renvoyé que deux produits correspondants, il reste encore de la place pour 24 autres produits. _La règle 2_ a la priorité la plus élevée suivante et renvoie six autres produits correspondants. Il y a maintenant 18 créneaux à remplir. _La règle 3_ a le niveau de priorité suivant, avec suffisamment de produits correspondants pour remplir les 18 emplacements restants. Lorsque tous les créneaux disponibles sont remplis, et selon le mode de rotation défini, les produits peuvent être mélangés ou triés par identifiant dans chaque priorité, puis réduits à la limite maximale configurable. Dans ce cas, les six produits restants apparaissent dans le magasin.
 
 >[!NOTE]
 >
@@ -67,23 +67,23 @@ Par priorité, les produits correspondants renvoyés par _Règle 1_ peut être u
 
 Le comportement des règles de relation des produits et l’affichage des produits correspondants sont déterminés par les paramètres de configuration. Ces paramètres déterminent le nombre de produits qui correspondent à la règle et l’ordre dans lequel ils apparaissent.
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et choisissez **[!UICONTROL Catalog]** en-dessous.
+1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et sélectionnez **[!UICONTROL Catalog]** en dessous.
 
-1. Développer ![Extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Rules-Based Product Relations]** .
+1. Développez ![Extension](../assets/icon-display-expand.png) de la section **[!UICONTROL Rules-Based Product Relations]** .
 
-   ![Configuration de catalogue - relations de produit basées sur des règles](../configuration-reference/catalog/assets/catalog-rule-based-product-relations.png){width="600" zoomable="yes"}
+   ![Configuration du catalogue - relations de produit basées sur des règles](../configuration-reference/catalog/assets/catalog-rule-based-product-relations.png){width="600" zoomable="yes"}
 
 1. Saisissez le **[!UICONTROL Maximum Number of Products in the Related Products List]**.
 
-1. Définir **[!UICONTROL Show Related Products]** à l’une des options suivantes :
+1. Définissez **[!UICONTROL Show Related Products]** sur l’une des options suivantes :
 
    - `Both Selected and Rule Based`
    - `Selected Only`
    - `Rule-Based Only`
 
-1. Définir **[!UICONTROL Rotation Mode for Products in Related Product List]** à l’une des options suivantes :
+1. Définissez **[!UICONTROL Rotation Mode for Products in Related Product List]** sur l’une des options suivantes :
 
    - `By Priority, Then by ID`
    - `By Priority, Then Random`
@@ -93,13 +93,13 @@ Le comportement des règles de relation des produits et l’affichage des produi
 
    - Saisissez le **[!UICONTROL Maximum Number of Products in the Cross-Sell Product List]**.
 
-   - Définir **[!UICONTROL Show Cross-Sell Products]** à l’une des options suivantes :
+   - Définissez **[!UICONTROL Show Cross-Sell Products]** sur l’une des options suivantes :
 
       - `Both Selected and Rule Based`
       - `Selected Only`
       - `Rule-Based Only`
 
-   - Définir **[!UICONTROL Rotation Mode for Products in Cross-Sell Product List]** à l’une des options suivantes :
+   - Définissez **[!UICONTROL Rotation Mode for Products in Cross-Sell Product List]** sur l’une des options suivantes :
 
       - `By Priority, Then by ID`
       - `By Priority, Then Random`
@@ -109,19 +109,19 @@ Le comportement des règles de relation des produits et l’affichage des produi
 
    - Saisissez le **[!UICONTROL Maximum Number of Products in the Upsell Product List]**.
 
-   - Définir **[!UICONTROL Show Upsell Products]** à l’une des options suivantes :
+   - Définissez **[!UICONTROL Show Upsell Products]** sur l’une des options suivantes :
 
       - `Both Selected and Rule Based`
       - `Selected Only`
       - `Rule-Based Only`
 
-   - Définir **[!UICONTROL Rotation Mode for Products in Upsell Product List]** à l’une des options suivantes :
+   - Définissez **[!UICONTROL Rotation Mode for Products in Upsell Product List]** sur l’une des options suivantes :
 
       - `By Priority, Then by ID`
       - `By Priority, Then Random`
       - `Weighted Random`
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 ### Modes de rotation
 
@@ -140,4 +140,4 @@ Le comportement des règles de relation des produits et l’affichage des produi
 >Cette fonctionnalité est en version bêta. Si vous souhaitez rejoindre le programme bêta, envoyez une demande à [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
 
 
-Découvrez comment [activate](../customers/audience-activation.md) Real-Time CDP des audiences dans votre instance Adobe Commerce pour informer les règles de produit associées.
+Découvrez comment [activer](../customers/audience-activation.md) les audiences Real-Time CDP dans votre instance Adobe Commerce pour informer les règles de produit associées.

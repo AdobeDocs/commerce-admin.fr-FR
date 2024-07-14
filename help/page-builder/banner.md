@@ -1,22 +1,22 @@
 ---
 title: Média - Bannière
-description: En savoir plus sur le type de contenu Bannière utilisé pour ajouter un composant interactif et illustré dans la section [!DNL Page Builder] scène.
+description: Découvrez le type de contenu Bannière utilisé pour ajouter un composant interactif illustré à l’étape  [!DNL Page Builder] .
 exl-id: 287d866c-8a63-4531-8c1b-40d560a07947
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
 workflow-type: tm+mt
-source-wordcount: '2300'
+source-wordcount: '2302'
 ht-degree: 0%
 
 ---
 
 # Média - Bannière
 
-Utilisez la variable _Bannière_ type de contenu permettant d’ajouter un composant interactif et illustré qui engage les utilisateurs à passer par un appel à l’action et un bouton dans la variable [[!DNL Page Builder] étape](workspace.md#stage).
+Utilisez le type de contenu _Bannière_ pour ajouter un composant interactif illustré qui engage les utilisateurs à passer par un appel à l’action et à un bouton dans l’ [[!DNL Page Builder] étape](workspace.md#stage).
 
 >[!NOTE]
 >
->Qu’était-ce qui était auparavant le _Bannière_ dans le menu Contenu, est maintenant [Bloc dynamique](../content-design/dynamic-blocks.md).
+>L’option _Bannière_ du menu Contenu, qui était auparavant l’option [Bloc dynamique](../content-design/dynamic-blocks.md), est désormais .
 
 ![Bannière sur une page d’accueil de storefront](./assets/pb-banner-homepage.png){width="700" zoomable="yes"}
 
@@ -26,7 +26,7 @@ Utilisez la variable _Bannière_ type de contenu permettant d’ajouter un compo
 
 La boîte à outils de la bannière s’affiche lorsque vous passez la souris sur le conteneur de bannières.
 
-![Bannière, boîte à outils](./assets/pb-tutorial1-banner-toolbox.png){width="600" zoomable="yes"}
+![Banner toolbox](./assets/pb-tutorial1-banner-toolbox.png){width="600" zoomable="yes"}
 
 | Outil | Icône | Description |
 |--- |--- |--- |
@@ -36,7 +36,7 @@ La boîte à outils de la bannière s’affiche lorsque vous passez la souris su
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque la bannière active. |
 | Afficher | ![Icône Afficher](./assets/pb-icon-show.png){width="25"} | Affiche la bannière masquée. |
 | Dupliquer | ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="25"} | Effectue une copie de la bannière. |
-| Supprimer | ![Icône Supprimer](./assets/pb-icon-remove.png){width="25"} | Supprime la bannière de la scène. |
+| Supprimer | ![Supprimer l’icône](./assets/pb-icon-remove.png){width="25"} | Supprime la bannière de la scène. |
 | [!UICONTROL Upload New Image] |  | Télécharge une image de votre système de fichiers local vers la galerie pour l’arrière-plan de la bannière. |
 | [!UICONTROL Select from Gallery] |  | Utilise une image existante de la galerie pour l’arrière-plan de la bannière. |
 
@@ -46,19 +46,19 @@ La boîte à outils de la bannière s’affiche lorsque vous passez la souris su
 
 ## Ajout d’une bannière
 
-1. Dans le [!DNL Page Builder] panneau, développer **[!UICONTROL Media]** et faites glisser un **[!UICONTROL Banner]** espace réservé sur la scène.
+1. Dans le panneau [!DNL Page Builder], développez **[!UICONTROL Media]** et faites glisser un espace réservé **[!UICONTROL Banner]** sur la scène.
 
-   ![Faire glisser un type de contenu de bannière vers la scène](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
+   ![Faire glisser un type de contenu de bannière vers l’étape](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   La variable _[!UICONTROL Upload Image]_et_[!UICONTROL Select from Gallery]_ sont inclus afin que vous puissiez apporter rapidement des modifications au contenu de la bannière directement depuis l’étape. Vous pouvez également modifier le contenu de la variable _[!UICONTROL Edit Banner]_page.
+   Les boutons _[!UICONTROL Upload Image]_et_[!UICONTROL Select from Gallery]_ sont inclus afin que vous puissiez apporter rapidement des modifications au contenu de la bannière directement depuis l’étape. Vous pouvez également modifier le contenu sur la page _[!UICONTROL Edit Banner]_.
 
-1. Cliquez sur dans l’espace réservé de la bannière pour afficher le [éditeur de texte](../content-design/editor.md) et saisissez le contenu de la bannière.
+1. Cliquez sur l’espace réservé de la bannière pour afficher l’ [éditeur de texte](../content-design/editor.md) et saisir le contenu de la bannière.
 
-   Vous pouvez également inclure un contenu de bannière plus complexe à l’aide de la fonction [Contenu](#content) paramètres.
+   Vous pouvez également inclure un contenu de bannière plus complexe à l’aide des paramètres [Content](#content) .
 
 ## Modification des paramètres de bannière
 
-1. Passez la souris sur le conteneur de bannières pour afficher la boîte à outils et sélectionnez l’option _Paramètres_ (![Icône Paramètres](./assets/pb-icon-settings.png)).
+1. Pointez sur le conteneur de bannières pour afficher la boîte à outils et sélectionnez l’icône _Paramètres_ (![Icône Paramètres](./assets/pb-icon-settings.png)).
 
 1. Pour plus d’informations sur la mise à jour des paramètres disponibles, reportez-vous aux sections suivantes :
 
@@ -67,9 +67,9 @@ La boîte à outils de la bannière s’affiche lorsque vous passez la souris su
    - [[!UICONTROL Background]](#background)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]** dans le coin supérieur droit pour fermer la _[!UICONTROL Edit Banner]_page.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** dans le coin supérieur droit pour fermer la page _[!UICONTROL Edit Banner]_.
 
-1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
 ## [!UICONTROL Appearance]
 
@@ -86,11 +86,11 @@ Les bannières sont faciles à configurer et à gérer, car elles sont basées s
 
   {style="table-layout:auto"}
 
-  ![Apparence - collage à droite](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
+  ![Apparence - collage droit](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
-- (Facultatif) Saisissez la variable **[!UICONTROL Minimum Height]** pour la ligne .
+- (Facultatif) Saisissez le **[!UICONTROL Minimum Height]** correspondant à la ligne.
 
-  La hauteur minimale peut être un nombre avec n’importe quelle unité CSS valide (telle que `100px`, `50%`, `50em`, `100vh`) ou un calcul (tel que `100vh - 237px`).
+  La hauteur minimale peut être un nombre avec n’importe quelle unité CSS valide (telle que `100px`, `50%`, `50em`, `100vh`) ou un calcul (telle que `100vh - 237px`).
 
   Vous pouvez, par exemple, définir la hauteur minimale d’une bannière pour étendre la hauteur totale de la page, ce qui vous donne des options attrayantes pour les images et vidéos d’arrière-plan de la page entière.
 
@@ -107,32 +107,32 @@ Spécifiez la couleur d’arrière-plan en choisissant un échantillon, en cliqu
 Vous pouvez définir la valeur de l’une des trois façons suivantes :
 
 - Un nom de couleur prédéfini, tel que `White`
-- La valeur de couleur hexadécimale de la couleur, telle que `#ffffff`
-- Valeur rgba de la couleur, avec pourcentage d’opacité, comme `rgba(255, 255, 255, 0.75)`
+- La valeur de couleur hexadécimale de la couleur, par exemple `#ffffff`
+- La valeur rgba de la couleur, avec le pourcentage d’opacité, comme `rgba(255, 255, 255, 0.75)`
 
-Si vous souhaitez choisir une couleur, cliquez sur l’échantillon à gauche du _Aucune couleur_ de la boîte.
+Si vous souhaitez choisir une couleur, cliquez sur l’échantillon à gauche de la zone _Aucune couleur_.
 
 ![Choix d’un échantillon de couleur](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
 Si vous cliquez sur la zone de couleur pour ouvrir à nouveau le sélecteur de couleurs, la zone située sous le curseur affiche les valeurs actuelles rouge, vert, bleu et alpha (rgba). Le dernier chiffre indique le pourcentage d’opacité actuel sous forme décimale. Vous pouvez utiliser le curseur pour ajuster l’opacité ou saisir la valeur décimale souhaitée.
 
-![Définition de l’opacité](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
+![Paramètre d’opacité](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->[!DNL Page Builder] prend également en charge un calque de transparence, ou _canal alpha_, dans les images d’arrière-plan qui peuvent être utilisées pour créer des arrière-plans avec des degrés d’opacité variables.
+>[!DNL Page Builder] prend également en charge une couche de transparence, ou _couche alpha_, dans les images d’arrière-plan qui peuvent être utilisées pour créer des arrière-plans avec différents degrés d’opacité.
 
 ### [!UICONTROL Background Type]
 
-Un type d’arrière-plan peut être une image ou une vidéo. [!DNL Page Builder] par défaut : `Image` et affiche divers paramètres d’image. Si vous sélectionnez `Video`, [!DNL Page Builder] permute les paramètres de l’image avec les paramètres vidéo. Les deux paramètres de type d’arrière-plan sont décrits dans les sections suivantes.
+Un type d’arrière-plan peut être une image ou une vidéo. [!DNL Page Builder] est défini par défaut sur `Image` et affiche divers paramètres d’image. Si vous sélectionnez `Video`, [!DNL Page Builder] permute les paramètres de l’image avec les paramètres vidéo. Les deux paramètres de type d’arrière-plan sont décrits dans les sections suivantes.
 
 ![Type d’arrière-plan](./assets/pb-background-type.png){width="200"}
 
 ### Paramètres de type d’image
 
-Si vous définissez la variable _Type de contexte_ to `Image`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
+Si vous définissez le _Type d’arrière-plan_ sur `Image`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
 
-![Bannière avec image de fond](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
+![Bannière avec image d’arrière-plan](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
 - **[!UICONTROL Background Image]** - Si nécessaire, utilisez les outils fournis pour choisir une image d’arrière-plan à appliquer à la bannière :
 
@@ -179,33 +179,33 @@ Si vous définissez la variable _Type de contexte_ to `Image`, utilisez les para
 
   {style="table-layout:auto"}
 
-- **[!UICONTROL Background Repeat]** - Si vous souhaitez répéter l’image d’arrière-plan pour remplir l’espace, modifiez ce paramètre. `Yes`.
+- **[!UICONTROL Background Repeat]** - Si vous souhaitez répéter l’image d’arrière-plan pour remplir l’espace, modifiez ce paramètre `Yes`.
 
 ### Paramètres de type vidéo
 
-Si vous définissez la variable _[!UICONTROL Background Type]_to `Video`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
+Si vous définissez _[!UICONTROL Background Type]_sur `Video`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
 
 - **[!UICONTROL Video URL]** - Entrez une URL de vidéo valide. Les URL de vidéo valides peuvent être des liens vers :
 
    - Vidéos YouTube : `https://youtu.be/CoDhMRUUjeI`
-   - Vidéos vidéo : `https://vimeo.com/190156113`
-   - Fichiers vidéo valides (`.mp4` est recommandé) : `https://myvideos.com/spiral.mp4`
+   - Vidéos Vimeo : `https://vimeo.com/190156113`
+   - Fichiers vidéo valides (`.mp4` recommandé) : `https://myvideos.com/spiral.mp4`
 
-  ![URL de la vidéo en arrière-plan](./assets/pb-video-url.png){width="200"}
+  ![URL de la vidéo d’arrière-plan](./assets/pb-video-url.png){width="200"}
 
 - **[!UICONTROL Overlay Color]** - Sélectionnez une couleur pour appliquer une teinte transparente à la vidéo.
 
-- **[!UICONTROL Infinite Loop]** - Définissez sur `No` pour que la vidéo soit lue une fois et s’arrête. Lorsqu’il est défini sur `Yes` (par défaut), la vidéo se répète en boucle infinie.
+- **[!UICONTROL Infinite Loop]** - Définissez cette variable sur `No` pour que la vidéo soit lue une fois et s’arrête. Lorsqu’elle est définie sur `Yes` (par défaut), la vidéo se répète en boucle infinie.
 
-- **[!UICONTROL Lazy Load]** - Définissez sur `No` pour charger la vidéo avec la page, même lorsqu’elle n’est pas visible. Lorsqu’il est défini sur `Yes` (par défaut), la vidéo se charge à partir de la source uniquement lorsqu’elle est visible à l’écran.
+- **[!UICONTROL Lazy Load]** - Défini sur `No` pour que la vidéo se charge avec la page, même lorsqu’elle n’est pas visible. Lorsqu’elle est définie sur `Yes` (par défaut), la vidéo se charge à partir de la source uniquement lorsqu’elle est visible à l’écran.
 
-- **[!UICONTROL Play Only When Visible]** - Définissez sur `No` pour que la lecture de la vidéo démarre immédiatement après son chargement, qu’elle soit visible ou non. Lorsqu’il est défini sur `Yes` (par défaut), la lecture de la vidéo démarre uniquement lorsqu’elle est visible.
+- **[!UICONTROL Play Only When Visible]** - Définissez cette variable sur `No` pour que la lecture de la vidéo démarre immédiatement après son chargement, qu’elle soit visible ou non. Lorsqu’elle est définie sur `Yes` (valeur par défaut), la lecture de la vidéo démarre uniquement lorsqu’elle est visible.
 
 - **[!UICONTROL Fallback Image]** - Si nécessaire, spécifiez une image à afficher à l’écran avant le chargement de la vidéo et si la vidéo ne se charge pas pour une raison quelconque.
 
 ## [!UICONTROL Content]
 
-Vous pouvez modifier le contenu de la bannière directement sur la scène ou lorsque vous modifiez les paramètres. Les paramètres offrent des fonctions de contenu plus complexes, telles que des liens de bannière, des boutons et des superpositions. La position du contenu reflète la [Apparence](#appearance) paramètre d’emplacement.
+Vous pouvez modifier le contenu de la bannière directement sur la scène ou lorsque vous modifiez les paramètres. Les paramètres offrent des fonctions de contenu plus complexes, telles que des liens de bannière, des boutons et des superpositions. La position du contenu reflète le paramètre d’emplacement [Apparence](#appearance).
 
 ### Contenu simple sur scène
 
@@ -213,23 +213,23 @@ Vous pouvez modifier le contenu de la bannière directement sur la scène ou lor
 
    La barre d’outils de l’éditeur s’affiche au-dessus de la zone de texte.
 
-   ![Modifier le contenu sur la scène](./assets/pb-tutorial1-banner-stage-text.png){width="600" zoomable="yes"}
+   ![Modifier le contenu sur l’étape](./assets/pb-tutorial1-banner-stage-text.png){width="600" zoomable="yes"}
 
 1. Utilisez la barre d’outils de l’éditeur pour saisir et mettre en forme du texte, ainsi que des éléments à insérer, tels que des liens, des images et des widgets.
 
-   ![Phase avec du texte formaté](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
+   ![Intermédiaire avec texte formaté](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
 
 ### Contenu complexe dans les paramètres
 
-1. Passez la souris sur le conteneur de bannières pour afficher la boîte à outils et sélectionnez l’option _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} ).
+1. Pointez sur le conteneur de bannières pour afficher la boîte à outils et sélectionnez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} ).
 
-1. Faites défiler l’écran vers le bas jusqu’à _[!UICONTROL Content]_et utilisez la fonction **[!UICONTROL Message Text]**pour saisir et mettre en forme le texte de la bannière.
+1. Faites défiler l’écran jusqu’à la section _[!UICONTROL Content]_et utilisez l’éditeur **[!UICONTROL Message Text]**pour saisir et mettre en forme le texte de bannière.
 
    Vous pouvez également insérer des éléments, tels que des liens de texte, des images et des widgets.
 
    ![Éditeur de texte de message](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
 
-1. Si nécessaire, indiquez une **[!UICONTROL Link]** pour la bannière.
+1. Si nécessaire, spécifiez un **[!UICONTROL Link]** pour la bannière.
 
    Le lien est la page de destination qui s’affiche lorsque le client clique sur le bouton ou la zone de la bannière. Vous pouvez utiliser l’un des trois types de liens suivants :
 
@@ -240,22 +240,22 @@ Vous pouvez modifier le contenu de la bannière directement sur la scène ou lor
 
    >[!NOTE]
    >
-   >À compter de la version 2.4.1, [!DNL Page Builder] ne prend plus en charge la liaison de la bannière et des liens dans le texte imbriqué en raison de problèmes d’affichage sur le storefront. Si vous utilisez un lien dans la variable _[!UICONTROL Message Text]_, vous ne pouvez pas configurer la variable_[!UICONTROL Link]_ . Si vous préférez utiliser un lien unique pour l’ensemble de la bannière, vous pouvez supprimer tous les liens du texte.<br/>
+   >À compter de la version 2.4.1, [!DNL Page Builder] ne prend plus en charge la liaison de la bannière et des liens dans le texte imbriqué en raison de problèmes d’affichage sur le storefront. Si vous utilisez un lien dans _[!UICONTROL Message Text]_, vous ne pouvez pas configurer l’option_[!UICONTROL Link]_. Si vous préférez utiliser un lien unique pour la bannière entière, vous pouvez supprimer tous les liens du texte.<br/>
    >
-   >![La configuration des liens est bloquée.](./assets/pb-nested-link-blocked.png){width="200"}
+   >![La configuration du lien est bloquée](./assets/pb-nested-link-blocked.png){width="200"}
 
 
 1. Au besoin, ajoutez un bouton pour inviter les clients à suivre le lien.
 
    Le paramètre d’aspect de la bannière place un lien ou un bouton unique sous le texte. Renseignez les propriétés du lien ou du bouton à ajouter.
 
-   ![Apparence avec le texte et le bouton (ou lien)](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
+   ![Apparence avec texte et bouton (ou lien)](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Vous pouvez également utiliser plusieurs boutons ou liens en ajoutant une [block](block.md) à la bannière. Pour éviter tout conflit, conservez tous les liens ou boutons dans le bloc séparé, sans ajouter directement de lien ou de bouton à la bannière.
+   >Vous pouvez également utiliser plusieurs boutons ou liens en ajoutant un [bloc](block.md) à la bannière. Pour éviter tout conflit, conservez tous les liens ou boutons dans le bloc séparé, sans ajouter directement de lien ou de bouton à la bannière.
 
-   - Définir **[!UICONTROL Show Button]** à l’une des options suivantes :
+   - Définissez **[!UICONTROL Show Button]** sur l’une des options suivantes :
 
      | Option | Description |
      | ------ | ----------- |
@@ -265,9 +265,9 @@ Vous pouvez modifier le contenu de la bannière directement sur la scène ou lor
 
      {style="table-layout:auto"}
 
-   - Saisissez le **[!UICONTROL Button Text]** s’affiche sur le bouton.
+   - Saisissez le **[!UICONTROL Button Text]** à afficher sur le bouton.
 
-   - Définir **[!UICONTROL Button Type]** à l’une des options suivantes :
+   - Définissez **[!UICONTROL Button Type]** sur l’une des options suivantes :
 
      | Option | Description |
      | ------ | ----------- |
@@ -279,7 +279,7 @@ Vous pouvez modifier le contenu de la bannière directement sur la scène ou lor
 
      Le style du bouton du thème actif détermine le format du bouton. En règle générale, un bouton principal a une couleur d’arrière-plan plus visible qu’un bouton secondaire.
 
-1. Définir **[!UICONTROL Show Overlay]** à l’une des options suivantes :
+1. Définissez **[!UICONTROL Show Overlay]** sur l’une des options suivantes :
 
    | Option | Description |
    | ------ | ----------- |
@@ -289,16 +289,16 @@ Vous pouvez modifier le contenu de la bannière directement sur la scène ou lor
 
    {style="table-layout:auto"}
 
-   Vous pouvez utiliser une superposition pour appliquer une couleur d’arrière-plan à la zone de contenu active définie par la variable [!UICONTROL Appearance] . L’image d’arrière-plan de la bannière reste visible pendant toute la largeur de la bannière.
+   Vous pouvez utiliser une superposition pour appliquer une couleur d’arrière-plan à la zone de contenu active définie par le paramètre [!UICONTROL Appearance]. L’image d’arrière-plan de la bannière reste visible pendant toute la largeur de la bannière.
 
-   Si vous choisissez d’afficher une superposition, définissez la variable **[!UICONTROL Overlay Color]**:
+   Si vous choisissez d’afficher une superposition, définissez le **[!UICONTROL Overlay Color]** :
 
-   - Cliquez sur le bouton **Aucune couleur** et choisissez un échantillon.
-   - Dans le **Aucune couleur** , saisissez un nom de couleur valide ou une valeur hexadécimale.
+   - Cliquez sur l’échantillon **Aucune couleur** et choisissez un échantillon.
+   - Dans le champ **Aucune couleur**, saisissez un nom de couleur valide ou une valeur hexadécimale.
 
    ![Couleur de recouvrement](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
 
-1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir au [!DNL Page Builder] workspace.
+1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
    ![Bannière avec message texte et bouton](./assets/pb-tutorial1-banner-stage-background-color.png){width="600" zoomable="yes"}
 
@@ -307,17 +307,17 @@ Vous pouvez modifier le contenu de la bannière directement sur la scène ou lor
 
 Le texte de ces paramètres est visible par les moteurs de recherche et améliore la manière dont la page est indexée.
 
-- Pour **[!UICONTROL Alternative Text]**, saisissez une _alt_ description textuelle des outils d’accessibilité numérique à afficher.
+- Pour **[!UICONTROL Alternative Text]**, saisissez une description textuelle _alt_ pour les outils d’accessibilité numérique à afficher.
 
-  L’utilisation de texte de remplacement est une bonne pratique en matière d’accessibilité. Elle est requise par la loi dans certains paramètres régionaux. Par HTML, la variable `alt` est un sous-ensemble de la propriété `image` tag : `<image title="tooltip" alt="description" src="image.jpg">`.
+  L’utilisation de texte de remplacement est une bonne pratique en matière d’accessibilité. Elle est requise par la loi dans certains paramètres régionaux. En HTML, l’attribut `alt` est un sous-ensemble de la balise `image` : `<image title="tooltip" alt="description" src="image.jpg">`.
 
 - Pour **[!UICONTROL Title Attribute]**, saisissez le texte à afficher sous forme d’info-bulle lorsque vous pointez dessus.
 
-  Il est recommandé de choisir un titre descriptif et riche en mots-clés afin d’améliorer l’indexation de l’image par les moteurs de recherche. Par HTML, la variable `title` est un sous-ensemble de la propriété `image` tag : `<image title="tooltip" alt="description" src="image.jpg">`.
+  Il est recommandé de choisir un titre descriptif et riche en mots-clés afin d’améliorer l’indexation de l’image par les moteurs de recherche. En HTML, l’attribut `title` est un sous-ensemble de la balise `image` : `<image title="tooltip" alt="description" src="image.jpg">`.
 
 ## [!UICONTROL Advanced]
 
-1. Pour contrôler le positionnement horizontal des conteneurs de contenu qui sont ajoutés à la bannière, sélectionnez une **[!UICONTROL Alignment]**:
+1. Pour contrôler le positionnement horizontal des conteneurs de contenu qui sont ajoutés à la bannière, choisissez un **[!UICONTROL Alignment]** :
 
    | Option | Description |
    | ------ | ----------- |
@@ -328,7 +328,7 @@ Le texte de ces paramètres est visible par les moteurs de recherche et amélior
 
    {style="table-layout:auto"}
 
-1. Définissez la variable **[!UICONTROL Border]** style appliqué aux quatre côtés du conteneur de bannières :
+1. Définissez le style **[!UICONTROL Border]** appliqué aux quatre côtés du conteneur de bannière :
 
    | Option | Description |
    | ------ | ----------- |
@@ -345,21 +345,21 @@ Le texte de ces paramètres est visible par les moteurs de recherche et amélior
 
    {style="table-layout:auto"}
 
-1. Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage des bordures :
+1. Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage de la bordure :
 
-   - **[!UICONTROL Border Color]** - Définissez la couleur en choisissant un échantillon, en cliquant sur le sélecteur de couleurs ou en saisissant un nom de couleur valide ou une valeur hexadécimale équivalente.
+   - **[!UICONTROL Border Color]** - Indiquez la couleur en choisissant un échantillon, en cliquant sur le sélecteur de couleurs ou en saisissant un nom de couleur valide ou une valeur hexadécimale équivalente.
 
-     ![Couleur de la bordure](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
+     ![Couleur de bordure](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Border Width]** - Saisissez le nombre de pixels pour la largeur de la ligne de bordure.
 
-   - **[!UICONTROL Border Radius]** - Saisissez le nombre de pixels pour définir la taille du rayon utilisé pour arrondir chaque coin de la bordure.
+   - **[!UICONTROL Border Radius]** - Entrez le nombre de pixels pour définir la taille du rayon utilisé pour arrondir chaque coin de la bordure.
 
-1. (Facultatif) Indiquez les noms des **[!UICONTROL CSS classes]** de la feuille de style actuelle à appliquer au conteneur de bannières.
+1. (Facultatif) Indiquez les noms de **[!UICONTROL CSS classes]** de la feuille de style actuelle à appliquer au conteneur de bannières.
 
    Séparez plusieurs noms de classe par un espace.
 
-1. Saisissez des valeurs, en pixels, pour la variable **[!UICONTROL Margins and Padding]** pour spécifier les marges extérieures et la marge intérieure de la bannière.
+1. Saisissez des valeurs, en pixels, pour que **[!UICONTROL Margins and Padding]** indique les marges extérieures et la marge intérieure de la bannière.
 
    Saisissez chaque valeur correspondante dans le diagramme de conteneur de bannières.
 

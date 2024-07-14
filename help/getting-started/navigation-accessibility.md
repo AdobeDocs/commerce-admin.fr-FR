@@ -5,7 +5,7 @@ exl-id: 7e3becf2-6c47-4993-8581-e253607ab381
 feature: Compliance
 source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Certains visiteurs de votre site utilisent les commandes de navigation du clavier plutôt que la souris, tandis que d’autres peuvent utiliser des commandes tactiles ou vocales. Bien que les commandes de navigation au clavier varient selon le navigateur et la plateforme, la touche de tabulation est généralement utilisée pour déplacer la sélection dans les champs, les liens et les boutons d’une page. Pour en savoir plus, voir [Raccourcis clavier][1]{:target=&quot;_blank&quot;}.
 
-Pour plus d’informations sur l’accessibilité, voir [Instructions d’accessibilité][2]{:target=&quot;_blank&quot;} dans la documentation destinée aux développeurs.
+Pour plus d’informations sur l’accessibilité, voir [Instructions d’accessibilité][2]{:target=&quot;_blank&quot;} dans la documentation du développeur.
 
 ## Windows
 

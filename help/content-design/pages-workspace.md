@@ -18,7 +18,7 @@ L’espace de travail des pages comprend des outils pour vous aider à trouver r
 
 ## Mise à jour rapide des propriétés de page
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 1. Cliquez sur n’importe quelle ligne de la grille.
 
    ![Les propriétés de page sont modifiables dans la grille Pages](./assets/page-grid-properties-update.png){width="600" zoomable="yes"}
@@ -32,7 +32,7 @@ L’espace de travail des pages comprend des outils pour vous aider à trouver r
    - **[!UICONTROL Status]**
    - **[!UICONTROL Layout]**
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
 
 ## Contrôles Workspace
 
@@ -57,10 +57,10 @@ L’espace de travail des pages comprend des outils pour vous aider à trouver r
 | [!UICONTROL URL Key] | La clé URL est similaire à un nom de fichier et identifie la page dans l’URL. |
 | [!UICONTROL Layout] | Détermine si la page s’affiche avec des encadrés à droite ou à gauche de la zone de contenu principale. Options : `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
 | [!UICONTROL Store View] | Utilisé pour associer la page à une vue de magasin spécifique. |
-| [!UICONTROL Status] | Indique si la page est en ligne ou hors ligne. Options : `Enabled` / `Disabled` |
+| [!UICONTROL Status] | Indique si la page est en ligne ou hors ligne. Options : `Enabled` / `Disabled` |
 | [!UICONTROL Created] | Date à laquelle la page a été créée. |
 | [!UICONTROL Modified] | Date de dernière modification de la page. |
-| [!UICONTROL Action] | Les actions pouvant être appliquées à un enregistrement individuel sont les suivantes :<br/>**[!UICONTROL Edit]**- Ouvre la page en mode d’édition.<br/>**[!UICONTROL Delete]** - Supprime la page.<br/>**[!UICONTROL View]**: affiche la page en mode d’aperçu. |
+| [!UICONTROL Action] | Les actions qui peuvent être appliquées à un enregistrement individuel incluent :<br/>**[!UICONTROL Edit]**- Ouvre la page en mode d’édition.<br/>**[!UICONTROL Delete]** - Supprime la page.<br/>**[!UICONTROL View]**- Affiche la page en mode aperçu. |
 
 {style="table-layout:auto"}
 
@@ -79,13 +79,13 @@ L’espace de travail des pages comprend des outils pour vous aider à trouver r
 
 ## Recherche de page
 
-La zone de recherche située dans le coin supérieur gauche de la _[!UICONTROL Pages]_La grille peut être utilisée pour rechercher des pages spécifiques par mot-clé. Pour une recherche plus avancée, vous pouvez : [filter](../getting-started/admin-grid-controls.md) la recherche par plusieurs paramètres.
+La zone de recherche située en haut à gauche de la grille _[!UICONTROL Pages]_peut être utilisée pour rechercher des pages spécifiques par mot-clé. Pour une recherche plus avancée, vous pouvez [filtrer](../getting-started/admin-grid-controls.md) la recherche selon plusieurs paramètres.
 
 ### Recherche par mot-clé
 
 1. Saisissez un terme de recherche dans la zone de recherche de page.
 
-1. Pour afficher les résultats, cliquez sur le bouton Rechercher (![Icône de loupe](../assets/icon-magnify-search.png)).
+1. Pour afficher les résultats, cliquez sur l’icône Rechercher (![Icône Loupe](../assets/icon-magnify-search.png)) .
 
    Les résultats incluent toutes les pages qui contiennent le mot-clé.
 
@@ -93,7 +93,7 @@ La zone de recherche située dans le coin supérieur gauche de la _[!UICONTROL P
 
 1. Si nécessaire, cliquez sur **[!UICONTROL Clear All]** pour effacer les critères de recherche précédents.
 
-1. Pour afficher la sélection des filtres de recherche, cliquez sur le bouton **[!UICONTROL Filters]** !([Icône Entonnoir](../assets/icon-filter-search.png)).
+1. Pour afficher la sélection des filtres de recherche, cliquez sur le **[!UICONTROL Filters]** !Onglet ([Icône Entonnoir](../assets/icon-filter-search.png)).
 
 1. Complétez autant de filtres que nécessaire pour décrire les pages que vous souhaitez trouver.
 
@@ -110,7 +110,7 @@ La zone de recherche située dans le coin supérieur gauche de la _[!UICONTROL P
 | [!UICONTROL Modified] | Filtrez la recherche selon la date de dernière modification de la page. |
 | [!UICONTROL Store View] | Filtrez la recherche en fonction de la vue de magasin. Options : `All available` / `Store Views` |
 | [!UICONTROL Layout] | Filtrez la recherche en fonction de la mise en page. Options : `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
-| [!UICONTROL Status] | Filtrez la recherche sur l’état de la page. Options : `Disabled` / `Published` |
+| [!UICONTROL Status] | Filtrez la recherche sur l’état de la page. Options : `Disabled` / `Published` |
 | [!UICONTROL Custom design from / to] | Vous pouvez filtrer la recherche par date de début et de fin lorsque la conception sélectionnée est appliquée à la page. ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement). |
 | [!UICONTROL Asset] | Filtrage de la recherche par ressources de titre de page |
 | [!UICONTROL Custom Layout] | Filtrez la recherche selon une disposition personnalisée. Options : `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width` |
@@ -139,22 +139,22 @@ Les pages peuvent être modifiées, désactivées, activées et supprimées. Pou
 
 ### Action unique
 
-Utilisez la variable _[!UICONTROL Action]_à l’extrême droite pour appliquer l’une des actions suivantes à la page :
+Utilisez la colonne _[!UICONTROL Action]_à l’extrême droite pour appliquer l’une des actions suivantes à une page individuelle :
 
-- [!UICONTROL Edit] : ouvre la page en mode d’édition.
+- [!UICONTROL Edit] : ouvre la page en mode d’édition
 - [!UICONTROL Delete] - supprime la page (confirmation requise)
-- [!UICONTROL View] : ouvre une page directement sur le storefront.
+- [!UICONTROL View] : ouvre une page directement sur le storefront
 
-![Actions d’une seule page](./assets/page-grid-actions.png){width="600" zoomable="yes"}
+![Actions de page unique](./assets/page-grid-actions.png){width="600" zoomable="yes"}
 
 ### Actions en masse
 
-Appliquez simultanément l’une des actions suivantes à plusieurs pages sélectionnées à l’aide de la fonction _[!UICONTROL Action]_sélecteur dans le coin supérieur gauche :
+Appliquez simultanément l’une des actions suivantes à plusieurs pages sélectionnées à l’aide du sélecteur _[!UICONTROL Action]_situé dans le coin supérieur gauche :
 
 - [!UICONTROL Delete] - supprime les pages (confirmation requise)
 - [!UICONTROL Disable] - désactive les pages du storefront
-- [!UICONTROL Enable] : active les pages du storefront.
-- [!UICONTROL Edit] : ouvre les colonnes de la grille en mode d’édition (**[!UICONTROL Title]**, **[!UICONTROL URL Key]**, **[!UICONTROL Layout]**, et **[!UICONTROL Status]**)
+- [!UICONTROL Enable] - active les pages sur le storefront
+- [!UICONTROL Edit] - ouvre les colonnes sur la grille en mode d’édition (**[!UICONTROL Title]**, **[!UICONTROL URL Key]**, **[!UICONTROL Layout]** et **[!UICONTROL Status]**)
 
 ## Disposition de la grille de page
 
@@ -162,7 +162,7 @@ La sélection des colonnes et leur ordre dans la grille peuvent être modifiés 
 
 ### Modifier la sélection des colonnes
 
-Dans le coin supérieur droit, cliquez sur le bouton _Colonnes_ (![Icône Colonne](../assets/icon-columns.png)) contrôlent et effectuent les opérations suivantes :
+Dans le coin supérieur droit, cliquez sur la commande _Colonnes_ (![Icône Colonne](../assets/icon-columns.png)) et procédez comme suit :
 
 - Cochez la case d’une colonne que vous souhaitez ajouter à la grille.
 
@@ -176,42 +176,42 @@ Dans le coin supérieur droit, cliquez sur le bouton _Colonnes_ (![Icône Colonn
 
 ### Enregistrer une vue
 
-1. Cliquez sur le bouton _Affichage_ (![Icône OEil](../assets/icon-view-eye.png)), puis cliquez sur **[!UICONTROL Save View As]**.
+1. Cliquez sur la commande _View_ (![Icône OEil](../assets/icon-view-eye.png)), puis cliquez sur **[!UICONTROL Save View As]**.
 
 1. Saisissez le nom de la vue.
 
-1. Pour enregistrer la vue, cliquez sur le bouton _Flèche_ (![Icône fléchée](../assets/icon-arrow-save.png)).
+1. Pour enregistrer la vue, cliquez sur la _flèche_ (![icône de flèche](../assets/icon-arrow-save.png)).
 
    Le nom de la vue s’affiche désormais sous la forme de la vue actuelle.
 
 ### Modification de la vue
 
-Cliquez sur le bouton _Affichage_ (![Icône OEil](../assets/icon-view-eye.png)) et effectuez l’une des opérations suivantes :
+Cliquez sur la commande _View_ (![Icône OEil](../assets/icon-view-eye.png)) et effectuez l’une des opérations suivantes :
 
 - Choisissez la vue que vous souhaitez utiliser.
 
-- Modifiez le nom d’une vue en cliquant sur Modifier (![Icône Crayon](../assets/icon-edit-pencil.png)) et de mettre à jour le nom.
+- Modifiez le nom d’une vue en cliquant sur l’icône Modifier (![Icône Crayon](../assets/icon-edit-pencil.png)) et en mettant à jour le nom.
 
-  ![La vue enregistrée apparaît dans les commandes d’affichage avec une icône de modification.](./assets/pages-default-grid-control.png){width="600" zoomable="yes"}
+  ![La vue enregistrée apparaît dans les commandes d’affichage avec une icône de modification](./assets/pages-default-grid-control.png){width="600" zoomable="yes"}
 
 ## Modifications planifiées
 
 {{ee-feature}}
 
-Les modifications de page peuvent être appliquées selon le calendrier et regroupées avec d’autres modifications de contenu. Vous pouvez créer une campagne d’après les modifications planifiées apportées à une page ou appliquer les modifications à une campagne existante. Pour plus d’informations, voir [Évaluation du contenu](content-staging.md).
+Les modifications de page peuvent être appliquées selon le calendrier et regroupées avec d’autres modifications de contenu. Vous pouvez créer une campagne d’après les modifications planifiées apportées à une page ou appliquer les modifications à une campagne existante. Pour plus d’informations, voir [Content Staging](content-staging.md).
 
 >[!NOTE]
 >
->La variable [!UICONTROL Custom Design Update] a été supprimé dans ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce et ne peuvent pas être modifiés directement sur la page. Vous devez créer une mise à jour planifiée pour ces activations.
+>L’onglet [!UICONTROL Custom Design Update] a été supprimé dans ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce et ne peut pas être modifié directement sur la page. Vous devez créer une mise à jour planifiée pour ces activations.
 
 >[!NOTE]
 >
 >Toutes les mises à jour planifiées sont appliquées consécutivement, ce qui signifie que toute entité ne peut avoir qu’une seule mise à jour planifiée à un moment donné. Toute mise à jour planifiée est appliquée à toutes les vues de magasin au cours de sa période. Par conséquent, une entité ne peut pas avoir une mise à jour planifiée différente pour différentes vues de magasin en même temps. Toutes les valeurs d’attribut d’entité dans toutes les vues de magasin, qui ne sont pas affectées par la mise à jour planifiée actuelle, sont extraites des valeurs par défaut et non de la mise à jour planifiée précédente.
 
-![La page d’accueil affiche les modifications planifiées dans la partie supérieure.](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
+![La page d’accueil affiche les modifications planifiées dans la partie supérieure](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->La date de début et la date de fin de la campagne doivent être définies à l’aide de la variable **_default_** Fuseau horaire de l’administrateur, converti à partir du fuseau horaire local de chaque site web. Prenons l’exemple de plusieurs sites web dans différents fuseaux horaires, mais que vous souhaitez lancer une campagne basée sur un fuseau horaire américain. Dans ce cas, vous devez planifier une mise à jour distincte pour chaque fuseau horaire local, puis définir **[!UICONTROL Start Date]** et **[!UICONTROL End Date]** dans converti de chaque fuseau horaire de site web local vers le fuseau horaire d’administration par défaut.
+>La date de début et la date de fin de la campagne doivent être définies à l’aide du fuseau horaire d’administrateur **_default_**, converti à partir du fuseau horaire local de chaque site web. Prenons l’exemple de plusieurs sites web dans différents fuseaux horaires, mais que vous souhaitez lancer une campagne basée sur un fuseau horaire américain. Dans ce cas, vous devez planifier une mise à jour distincte pour chaque fuseau horaire local, et définir **[!UICONTROL Start Date]** et **[!UICONTROL End Date]** convertis de chaque fuseau horaire de site web local en fuseau horaire d’administration par défaut.
 
 Vous pouvez également planifier et prévisualiser les modifications pour les mises à jour de produit. Pour plus d’informations, voir [Planification d’une mise à jour](content-staging-scheduled-update.md).

@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Gestion des comptes d’utilisateurs de l’entreprise
 
-Les utilisateurs de la société sont affectés par l’administrateur de la société et sont visibles par l’administrateur dans la variable _[!UICONTROL Customers]_grille par type de client,_[!UICONTROL Company User]_. Ces personnes sont généralement des acheteurs disposant de différents niveaux de permission d’accéder aux services et aux ressources des magasins.
+Les utilisateurs de la société sont affectés par l’administrateur de la société et sont visibles à partir de l’administrateur dans la grille _[!UICONTROL Customers]_par type de client,_[!UICONTROL Company User]_. Ces personnes sont généralement des acheteurs disposant de différents niveaux de permission d’accéder aux services et aux ressources des magasins.
 
-L’administrateur de l’entreprise configure d’abord le [structure de l&#39;entreprise](account-company-structure.md), puis effectue les tâches suivantes, selon les besoins :
+L’administrateur de l’entreprise commence par configurer la [structure de l’entreprise](account-company-structure.md), puis effectue les tâches suivantes, si nécessaire :
 
 - Créer des utilisateurs d’entreprise et affecter des utilisateurs à des équipes
 
@@ -29,15 +29,15 @@ L’administrateur de l’entreprise configure d’abord le [structure de l&#39;
 
 1. Depuis le storefront, l’administrateur de la société se connecte à son compte.
 
-1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Company Users]**.
+1. Dans le panneau de gauche, choisissez **[!UICONTROL Company Users]**.
 
    ![Utilisateurs de l’entreprise](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
-1. Clics **[!UICONTROL Add New User]** et effectue les opérations suivantes :
+1. Clique sur **[!UICONTROL Add New User]** et effectue les opérations suivantes :
 
-   - entre dans la variable **[!UICONTROL Job Title]** du nouvel utilisateur.
+   - Saisissez le **[!UICONTROL Job Title]** du nouvel utilisateur.
 
-   - Choisissez la méthode appropriée. **[!UICONTROL User Role]** si les rôles et autorisations sont définis. Sinon, ils peuvent renvoyer ultérieurement pour affecter le rôle.
+   - Choisit le **[!UICONTROL User Role]** approprié si les rôles et les autorisations sont définis. Sinon, ils peuvent renvoyer ultérieurement pour affecter le rôle.
 
      ![Ajouter un nouvel utilisateur](./assets/company-structure-users-add.png){width="700" zoomable="yes"}
 
@@ -47,7 +47,7 @@ L’administrateur de l’entreprise configure d’abord le [structure de l&#39;
       - **[!UICONTROL Email]**
       - **[!UICONTROL Phone Number]**
 
-   Par défaut, la variable **[!UICONTROL Status]** du compte est `Active`.
+   Par défaut, le **[!UICONTROL Status]** du compte est `Active`.
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
 
@@ -55,13 +55,13 @@ L’administrateur de l’entreprise configure d’abord le [structure de l&#39;
 
    Les nouveaux utilisateurs apparaissent dans la liste Utilisateurs de l’entreprise , avec l’administrateur de l’entreprise.
 
-Pour gagner du temps lors de leur première commande, l’administrateur de l’entreprise peut rappeler à chaque utilisateur de l’entreprise d’ajouter son adresse de facturation et de livraison par défaut. [carnet d&#39;adresses](../customers/account-dashboard-address-book.md).
+Pour gagner du temps lors de leur première commande, l’administrateur de la société peut rappeler à chaque utilisateur de la société d’ajouter l’adresse de facturation et de livraison par défaut à son [carnet d’adresses](../customers/account-dashboard-address-book.md).
 
 ## Modifier les utilisateurs de l’entreprise
 
 1. Depuis le storefront, l’administrateur de la société se connecte à son compte.
 
-1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Company Users]**.
+1. Dans le panneau de gauche, choisissez **[!UICONTROL Company Users]**.
 
 1. Recherche l’enregistrement de l’utilisateur à mettre à jour et clique sur **[!UICONTROL Edit]**.
 
@@ -73,24 +73,24 @@ Pour gagner du temps lors de leur première commande, l’administrateur de l’
 
 1. Depuis le storefront, l’administrateur de la société se connecte à son compte.
 
-1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Company Structure]**.
+1. Dans le panneau de gauche, choisissez **[!UICONTROL Company Structure]**.
 
 1. Sélectionne l’utilisateur de l’entreprise dans la structure de l’entreprise.
 
 1. Clics **[!UICONTROL Delete Selected]**.
 
-   ![Supprimer un utilisateur](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
+   ![Supprimer l’utilisateur](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
 
 1. Lorsque vous êtes invité à confirmer l’opération, cliquez sur **[!UICONTROL Delete]**.
 
-Dans l’administrateur, l’utilisateur de la société reste répertorié dans la variable [Clients](../customers/customers-all.md) grille, mais avec un `Inactive` statut.
+Dans l’administrateur, l’utilisateur de la société reste répertorié dans la grille [Customers](../customers/customers-all.md), mais avec le statut `Inactive`.
 
 ## Descriptions des champs
 
 | Champ | Description |
 |--------------|---------------|
 | [!UICONTROL Job Title] | Fonction de l’utilisateur de la société. |
-| [!UICONTROL User Role] | La variable [rôle](account-company-roles-permissions.md) affectée à l’utilisateur de la société. Options : `Default User` / (autres rôles) |
+| [!UICONTROL User Role] | [role](account-company-roles-permissions.md) attribué à l’utilisateur de la société. Options : `Default User` / (autres rôles) |
 | [!UICONTROL First Name] | Prénom de l’utilisateur de la société. |
 | [!UICONTROL Last Name] | Nom de l’utilisateur de la société. |
 | [!UICONTROL Email] | Adresse électronique de l’utilisateur de la société. |

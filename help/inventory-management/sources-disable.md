@@ -17,13 +17,13 @@ Selon l’état de vos emplacements, vous pouvez désactiver une source. Une sou
 
 Lorsqu’une source est désactivée :
 
-- [!DNL Inventory Management] ignore et ne répertorie pas la source pour le traitement de l’envoi ou des commandes.
+- [!DNL Inventory Management] ignore et ne répertorie pas la source pour le traitement des envois ou des commandes.
 - Les stocks n’ont pas accès aux quantités d’inventaire de la source pour les totaux d’inventaire agrégés.
 - Les envois de commande ne peuvent pas être attribués à des emplacements désactivés.
 
-Vous ne pouvez pas désactiver la source par défaut. [!DNL Commerce] utilise cette source pour tous les nouveaux produits importés, pour les produits en bundle et pour la prise en charge du système tiers. Vous pouvez activer ou désactiver des sources personnalisées à tout moment.
+Vous ne pouvez pas désactiver le Source par défaut. [!DNL Commerce] utilise cette source pour tous les nouveaux produits importés, pour les produits en bundle et pour la prise en charge du système tiers. Vous pouvez activer ou désactiver des sources personnalisées à tout moment.
 
-Définir la source sur `disabled` s’avère utile dans les cas suivants :
+La définition d’une source sur `disabled` s’avère utile dans les situations suivantes :
 
 - Ajout d’un magasin ou d’un entrepôt : lorsque vous ouvrez de nouveaux magasins ou que vous mettez en ligne de nouveaux entrepôts et des emplacements d’expédition, ajoutez une entrée source pour configurer l’inventaire des produits à l’aide de l’importation et connectez-vous aux stocks potentiels.
 - Envois saisonniers : les jours fériés peuvent être très chargés. Vous pouvez restreindre l’expédition à des emplacements d’expédition spécifiques, tels que des entrepôts, pour conserver les emplacements en brique et mortier bien approvisionnés et axés sur les acheteurs locaux. Vous pouvez également ajouter de nouveaux emplacements d’expédition pendant une période limitée afin de gérer des taux de ventes plus élevés et des commandes entrantes.
@@ -31,27 +31,27 @@ Définir la source sur `disabled` s’avère utile dans les cas suivants :
 
 ## Désactivation d’une ou de plusieurs sources personnalisées
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
 
 1. Cochez la case pour chaque source personnalisée activée à désactiver.
 
-1. Cliquez sur le bouton _Actions_ dans le coin supérieur gauche et choisissez **[!UICONTROL Disable]**.
+1. Cliquez sur le menu _Actions_ dans le coin supérieur gauche et sélectionnez **[!UICONTROL Disable]**.
 
-   ![[!DNL Inventory Management] sources - menu Actions](assets/inventory-source-disable.png){width="600" zoomable="yes"}
+   ![[!DNL Inventory Management] sources - Menu Actions](assets/inventory-source-disable.png){width="600" zoomable="yes"}
 
 1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL OK]**.
 
 ## Activation ou désactivation d’une source personnalisée unique
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
 
-1. Localisez une source personnalisée et cliquez sur **[!UICONTROL Edit]**.
+1. Recherchez une source personnalisée et cliquez sur **[!UICONTROL Edit]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur _Général_ section et modification **[!UICONTROL Is Enabled]**:
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) _Général_ et modifiez **[!UICONTROL Is Enabled]** :
 
    | Option | Description |
    | ----- | ----- |
-   | `Yes` | La source est activée. La quantité s’ajoute à la quantité vendable. Les listes source avec la quantité actuelle lors des commandes d’expédition. L’algorithme de sélection de la source vérifie la source pour l’expédition. |
-   | `No` | La source est désactivée. Les quantités ne sont pas ajoutées aux quantités commercialisables. La source ne figure pas dans la liste lors des commandes d’expédition. Les options d’expédition ignorent cette source. |
+   | `Yes` | Source est activé. La quantité s’ajoute à la quantité vendable. Les listes source avec la quantité actuelle lors des commandes d’expédition. L’algorithme de sélection Source vérifie la source de l’expédition. |
+   | `No` | Source est désactivé. Les quantités ne sont pas ajoutées aux quantités commercialisables. La source ne figure pas dans la liste lors des commandes d’expédition. Les options d’expédition ignorent cette source. |
 
 1. Cliquez sur **[!UICONTROL Save and Close]**.

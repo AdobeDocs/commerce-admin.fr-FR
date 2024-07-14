@@ -27,7 +27,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Jeton d’API d’administrateur et client propriétaire Les algorithmes de durée de vie et de chiffrement sont contrôlés par la variable [Authentification JWT](magento-web-api.md#jwt-authentication) paramètres de configuration.
+>Les algorithmes de durée de vie et de chiffrement du jeton de l’API propriétaire et administrateur sont contrôlés par les paramètres de configuration [Authentification JWT](magento-web-api.md#jwt-authentication).
 
 ## [!UICONTROL Cleanup Settings]
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Cleanup Probability] | Global | Indique le nombre de requêtes OAuth avant le lancement du nettoyage. Ne pas entrer `0` pour désactiver le nettoyage. |
+| [!UICONTROL Cleanup Probability] | Global | Indique le nombre de requêtes OAuth avant le lancement du nettoyage. Ne saisissez pas `0` pour désactiver le nettoyage. |
 | [!UICONTROL Enable WSDL Cache] | Global | Détermine l’âge des entrées en minutes avant leur nettoyage. |
 
 {style="table-layout:auto"}
@@ -48,13 +48,13 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL OAuth consumer credentials HTTP Post timeout] | Global | Indique le nombre de secondes nécessaire au système pour que le délai d’expiration de la publication des informations d’identification par les clients soit écoulé. |
 | [!UICONTROL OAuth consumer credentials HTTP Post maxredirects] | Global | Indique le nombre maximal de redirections liées à une publication des informations d’identification des consommateurs. |
-| [!UICONTROL Expiration Period] | Global | Détermine le nombre de secondes avant l’expiration d’une clé/d’un secret inutilisé après le début de l’échange du jeton OAuth. |
+| [!UICONTROL Expiration Period] | Global | Détermine le nombre de secondes avant l’expiration d’une clé/d’un secret inutilisé après le début de l’exchange du jeton OAuth. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Authentication Locks]
 
-![Verrouillages d’authentification](./assets/oauth-locks.png)<!-- zoom -->
+![Verrouillage d’authentification](./assets/oauth-locks.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

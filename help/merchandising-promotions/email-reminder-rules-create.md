@@ -12,86 +12,86 @@ ht-degree: 0%
 
 # Créer des rappels par courrier électronique
 
-Avant de configurer une règle de rappel par courrier électronique, vous devez d’abord [configuration d’une règle de prix de panier](price-rules-cart-create.md) pour définir la promotion proposée. Les conditions de règle qui déclenchent un rappel d’email peuvent être basées sur les propriétés du panier, les propriétés de liste bloquée ou les deux.
+Avant de configurer une règle de rappel par email, vous devez [configurer une règle de prix de panier](price-rules-cart-create.md) pour définir la promotion qui est proposée. Les conditions de règle qui déclenchent un rappel d’email peuvent être basées sur les propriétés du panier, les propriétés de liste bloquée ou les deux.
 
 >[!NOTE]
 >
 >Les rappels par e-mail peuvent promouvoir une règle de prix de panier avec ou sans coupon. Une règle de prix du panier qui définit un coupon généré automatiquement génère un code de bon aléatoire pour chaque client.
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Reminder Rules]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Reminder Rules]**.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add New Rule]**.
 
-1. Procédez comme suit : _[!UICONTROL Rule Information]_, comme suit :
+1. Complétez le _[!UICONTROL Rule Information]_comme suit :
 
    ![Règle de rappel de courrier électronique](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
    - Saisissez un **[!UICONTROL Rule Name]** pour identifier la règle en interne.
 
-   - Entrez un résumé **[!UICONTROL Description]** de la règle.
+   - Saisissez un résumé **[!UICONTROL Description]** de la règle.
 
-   - Pour choisir la variable **[!UICONTROL Cart Price Rule]** promotion que ce rappel doit être publié, cliquez sur **[!UICONTROL Select Rule…]**, puis sélectionnez la règle.
+   - Pour choisir la promotion **[!UICONTROL Cart Price Rule]** dont ce rappel doit faire la publicité, cliquez sur **[!UICONTROL Select Rule…]**, puis sélectionnez la règle.
 
-     ![Règle de panier - sélectionnez](./assets/email-reminder-select-rule.png){width="600" zoomable="yes"}
+     ![Règle de panier - select](./assets/email-reminder-select-rule.png){width="600" zoomable="yes"}
 
-   - Si vous souhaitez que la règle entre en vigueur immédiatement, définissez **[!UICONTROL Status]** to `Active`.
+   - Si vous souhaitez que la règle entre en vigueur immédiatement, définissez **[!UICONTROL Status]** sur `Active`.
 
-   - Pour configurer une période afin que la règle soit active, saisissez la variable **[!UICONTROL From]** et **[!UICONTROL To]** dates.
+   - Pour configurer une période pour que la règle soit active, saisissez les dates **[!UICONTROL From]** et **[!UICONTROL To]**.
 
      Vous pouvez également choisir la date dans le calendrier ( ![Icône Calendrier](../assets/icon-calendar.png) ).
 
-   - Pour envoyer le rappel plusieurs fois, saisissez le nombre de jours avant la prochaine explosion de l’e-mail dans la variable **[!UICONTROL Repeat Schedule]** champ .
+   - Pour envoyer le rappel plusieurs fois, saisissez le nombre de jours avant la prochaine explosion de l’email dans le champ **[!UICONTROL Repeat Schedule]**.
 
 1. Dans le panneau de gauche, choisissez **[!UICONTROL Conditions]**.
 
-   Au moins une condition doit être définie pour la règle. Le processus est similaire à la création d’une [règle de prix du catalogue.](price-rules-catalog.md)
+   Au moins une condition doit être définie pour la règle. Le processus est similaire à la création d’une [règle de prix de catalogue.](price-rules-catalog.md)
 
-   ![Conditions de rappel des emails](./assets/email-reminder-conditions.png){width="600" zoomable="yes"}
+   ![Conditions de rappel de courrier électronique](./assets/email-reminder-conditions.png){width="600" zoomable="yes"}
 
-   Cliquez sur _Ajouter_ ( ![Icône Ajouter](../assets/icon-add-green-circle.png)) pour afficher la liste des options, puis choisir l’une des conditions suivantes :
+   Cliquez sur _Ajouter_ ( ![Ajouter une icône](../assets/icon-add-green-circle.png)) pour afficher la liste des options, puis sélectionnez l’une des conditions suivantes :
 
    - Liste de souhaits
    - Panier
 
    >[!NOTE]
    >
-   >Si un client possède plusieurs paniers abandonnés correspondants, une liste de souhaits ou une combinaison des deux, le rappel par e-mail n’est déclenché qu’une seule fois pour ce client. Pour déclencher à nouveau le même rappel par e-mail, utilisez le _[!UICONTROL Repeat Schedule]_pour définir le nombre de jours entre les emails. <br/>
+   >Si un client possède plusieurs paniers abandonnés correspondants, une liste de souhaits ou une combinaison des deux, le rappel par e-mail n’est déclenché qu’une seule fois pour ce client. Pour déclencher à nouveau le même rappel d&#39;email, utilisez le champ _[!UICONTROL Repeat Schedule]_pour définir le nombre de jours entre les emails. <br/>
    >
-   >Le même rappel par courrier électronique est : **_non redéclenché_** pour le même client pour **_new_** paniers abandonnés et listes de souhaits **_after_** la valeur _[!UICONTROL Repeat Schedule]_point est terminé.
+   >Le même rappel par e-mail est **_non redéclenché_** pour le même client pour **_nouveau_** paniers abandonnés et listes de souhaits **_après_** la période _[!UICONTROL Repeat Schedule]_est terminée.
 
    Renseignez la condition pour décrire le scénario qui déclenche le rappel par courrier électronique.
 
-   ![exemple de conditions de rappel de courrier électronique](./assets/email-reminder-condition-example.png){width="600" zoomable="yes"}
+   ![Exemple de conditions de rappel de courrier électronique](./assets/email-reminder-condition-example.png){width="600" zoomable="yes"}
 
 1. Dans le panneau de gauche, choisissez **[!UICONTROL Emails and Labels]**.
 
-   ![Règle de rappel de courrier électronique - Modèles d’emails et de libellés ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![ Règle de rappel d&#39;email - Emails et modèles d&#39;étiquettes ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
-1. Dans le **[!UICONTROL Email Templates]** , choisissez le modèle d’email à utiliser pour chaque site web et stockez la vue dans votre [hiérarchie des magasins](../getting-started/websites-stores-views.md).
+1. Dans la section **[!UICONTROL Email Templates]** , choisissez le modèle d&#39;email à utiliser pour chaque site web et la vue de magasin dans votre [hiérarchie de magasins](../getting-started/websites-stores-views.md).
 
    Si vous ne souhaitez pas envoyer d’email de rappel aux clients d’une vue de magasin, laissez la valeur `Not Selected`.
 
-1. Dans le _Titre et description par défaut_ , procédez comme suit :
+1. Dans la section _Titre par défaut et description_ , procédez comme suit :
 
    - Saisissez le **[!UICONTROL Rule Title for All Store Views]**.
 
      >[!NOTE]
      >
-     >Cette valeur peut être incorporée dans des modèles d’email à l’aide de la variable `promotion_name` Variable .
+     >Cette valeur peut être incorporée dans les modèles d’email à l’aide de la variable `promotion_name`.
 
    - Saisissez le **[!UICONTROL Rule Description for All Store Views]**.
 
-     ![Rappels électroniques - titres et descriptions](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
+     ![Rappels de courriel - titres et descriptions](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - Dans le _[!UICONTROL Titles and Descriptions Per Store View]_, saisissez la **[!UICONTROL Rule Title]**et **[!UICONTROL Description]**pour le_ Affichage de magasin par défaut _. Pour plusieurs vues de magasin, saisissez le titre et la description appropriés pour chacune d’elles.
+   - Dans la section _[!UICONTROL Titles and Descriptions Per Store View]_, saisissez les **[!UICONTROL Rule Title]**et **[!UICONTROL Description]**pour la_ vue Boutique par défaut _. Pour plusieurs vues de magasin, saisissez le titre et la description appropriés pour chacune d’elles.
 
      >[!NOTE]
      >
      >La description peut être incorporée dans les modèles d’email à l’aide de la variable promotion_description .
 
-     ![Titre et description - vue de magasin](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
+     ![ Titles et descriptions - vue de magasin](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
 
 ## Conditions de déclenchement
 
@@ -113,7 +113,7 @@ Avant de configurer une règle de rappel par courrier électronique, vous devez 
 | [!UICONTROL Status] | Active la règle. Si l’état est inactif, tous les autres paramètres sont ignorés et la règle n’est pas déclenchée. Options : `Active` / `Inactive` |
 | [!UICONTROL From Date] | Date de début de cette règle de rappel automatisée. Si aucune date n’est spécifiée, la règle devient active immédiatement. |
 | [!UICONTROL To Date] | Date de fin de cette règle de rappel automatisée. Si aucune date n’est spécifiée, la règle devient active indéfiniment. |
-| [!UICONTROL Repeat Schedule] | Nombre de jours avant le déclenchement de la règle et l’email de rappel envoyé à nouveau, à condition que les conditions soient remplies. Pour déclencher la règle plusieurs fois, saisissez le nombre de jours avant le prochain envoi d’email, séparés par une virgule. Par exemple, saisissez `7` pour que la règle soit déclenchée à nouveau sept jours plus tard ; saisissez `7,14` pour que la règle soit déclenchée dans sept jours, puis à nouveau 14 jours plus tard. |
+| [!UICONTROL Repeat Schedule] | Nombre de jours avant le déclenchement de la règle et l’email de rappel envoyé à nouveau, à condition que les conditions soient remplies. Pour déclencher la règle plusieurs fois, saisissez le nombre de jours avant le prochain envoi d’email, séparés par une virgule. Par exemple, saisissez `7` pour que la règle soit déclenchée à nouveau sept jours plus tard ; saisissez `7,14` pour que la règle soit déclenchée dans sept jours, puis 14 jours plus tard. |
 | [!UICONTROL Email Templates] | Détermine le modèle de courrier électronique à utiliser pour chaque vue de magasin. |
 | [!UICONTROL Rule Title for All Store Views] | Détermine le titre de la règle pour chaque vue de magasin. |
 | [!UICONTROL Rule Description for All Store Views] | Détermine la description de la règle pour chaque vue de magasin. |

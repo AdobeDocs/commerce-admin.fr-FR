@@ -12,30 +12,30 @@ ht-degree: 0%
 
 # Notifications système
 
-La variable _Notifications_ répertorie tous les messages classés par gravité, le plus récent se trouvant en haut. Les commandes Action peuvent être utilisées pour marquer les messages individuels comme lus, afficher des informations plus détaillées ou supprimer le message de la boîte de réception.
+La page _Notifications_ répertorie tous les messages classés par gravité, le plus récent se trouvant en haut. Les commandes Action peuvent être utilisées pour marquer les messages individuels comme lus, afficher des informations plus détaillées ou supprimer le message de la boîte de réception.
 
-1. Pour ouvrir la variable _[!UICONTROL Notifications]_page :
+1. Pour ouvrir la page _[!UICONTROL Notifications]_, effectuez l’une des opérations suivantes :
 
-   - Cliquez sur le bouton _Notification_ dans l’en-tête. Si un ou plusieurs nouveaux messages s’affichent, cliquez sur **[!UICONTROL See All]**.
+   - Cliquez sur l’icône _Notification_ dans l’en-tête. Si un ou plusieurs nouveaux messages s’affichent, cliquez sur **[!UICONTROL See All]**.
 
-   - Sur le _Administration_ barre latérale, accédez à **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**.
+   - Sur la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**.
 
-1. Dans le **[!UICONTROL Action]** , effectuez l’une des opérations suivantes :
+1. Dans la colonne **[!UICONTROL Action]**, effectuez l’une des opérations suivantes :
 
-   - Pour plus d’informations, cliquez sur **[!UICONTROL Read Details]** pour ouvrir la page liée dans une nouvelle fenêtre.
+   - Pour plus d&#39;informations, cliquez sur **[!UICONTROL Read Details]** pour ouvrir la page liée dans une nouvelle fenêtre.
 
    - Pour conserver le message dans votre boîte de réception, cliquez sur **[!UICONTROL Mark As Read]**.
 
-     ![Administration - notifications](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
+     ![Admin - notifications](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
 
    - Pour supprimer le message, cliquez sur **[!UICONTROL Remove]**.
 
 1. Pour appliquer une action à plusieurs messages, effectuez l’une des opérations suivantes :
 
    - Cochez la case dans la première colonne pour chaque message à gérer.
-   - Pour sélectionner plusieurs messages, définissez la variable **[!UICONTROL Mass Actions]** le contrôle, le cas échéant.
+   - Pour sélectionner plusieurs messages, définissez la commande **[!UICONTROL Mass Actions]** selon les besoins.
 
-1. Définissez la variable **[!UICONTROL Actions]** à l’une des options suivantes :
+1. Définissez la commande **[!UICONTROL Actions]** sur l’une des options suivantes :
 
    - `Mark as Read`
    - `Remove`

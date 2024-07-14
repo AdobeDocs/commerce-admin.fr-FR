@@ -5,7 +5,7 @@ exl-id: b1cbc3b0-c245-4b8a-886f-b2cfc104db16
 feature: Customers, Storefront
 source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Les clients qui tiennent à jour leur carnet d’adresses peuvent accélérer le
 
 1. Dans le volet de navigation de gauche de leur compte client, le client choisit **[!UICONTROL Address Book]**.
 
-1. Sur le _[!UICONTROL Address Book]_page sous_ Entrées d’adresse supplémentaires _, clics **[!UICONTROL Add New Address]**.
+1. Sur la page _[!UICONTROL Address Book]_sous_ Additional Address Entries _, cliquez sur **[!UICONTROL Add New Address]**.
 
    ![Ajouter une nouvelle adresse](assets/add-new-address.png){width="600" zoomable="yes"}
 
@@ -59,7 +59,7 @@ Les clients qui tiennent à jour leur carnet d’adresses peuvent accélérer le
 
    >[!INFO]
    >
-   >Le client peut définir cette adresse comme valeur par défaut. **[!UICONTROL Shipping or Billing]** en sélectionnant l’adresse _Utiliser comme adresse de facturation par défaut_ des cases à cocher.
+   >Le client peut définir cette adresse comme adresse **[!UICONTROL Shipping or Billing]** par défaut en cochant les cases _Utiliser comme adresse de facturation par défaut_ .
 
 1. Une fois les modifications terminées, cliquez sur **[!UICONTROL Save Address]**.
 
@@ -69,9 +69,9 @@ Les clients qui tiennent à jour leur carnet d’adresses peuvent accélérer le
 
 1. Choisissez l’une des méthodes d’édition :
 
-   * Clics **[!UICONTROL Change Billing/Shipping Address]** dans le _[!UICONTROL Default Addresses]_.
+   * Cliquez sur **[!UICONTROL Change Billing/Shipping Address]** dans la section _[!UICONTROL Default Addresses]_.
 
-   * Clics **[!UICONTROL Edit]** dans le _[!UICONTROL Additional Address Entries]_grid.
+   * Clique sur **[!UICONTROL Edit]** dans la grille _[!UICONTROL Additional Address Entries]_.
 
 1. Effectue les modifications nécessaires et clique sur **[!UICONTROL Save Address]**.
 
@@ -81,7 +81,7 @@ Les clients qui tiennent à jour leur carnet d’adresses peuvent accélérer le
 
 1. Recherche l&#39;entrée d&#39;adresse à supprimer.
 
-1. Clics **[!UICONTROL Delete]** dans le _[!UICONTROL Additional Address Entries]_grid.
+1. Clique sur **[!UICONTROL Delete]** dans la grille _[!UICONTROL Additional Address Entries]_.
 
 1. Pour confirmer l’action, cliquez sur **[!UICONTROL OK]**.
 

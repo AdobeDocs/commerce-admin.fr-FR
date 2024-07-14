@@ -14,49 +14,49 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Le but d’un rappel par email est d’encourager les personnes qui ont visité votre boutique à profiter d’une promotion et à faire un achat. Des rappels par email peuvent être envoyés automatiquement aux clients lorsqu’un ensemble spécifique de conditions est satisfait. Par exemple, vous pouvez envoyer un rappel aux clients qui ont ajouté un article à leur panier ou à leur liste de souhaits, mais qui n’ont pas encore effectué d’achat. Vous pouvez utiliser des rappels par e-mail pour encourager les clients à retourner dans votre boutique et inclure une [code de coupon](price-rules-cart-coupon.md) comme une incitation. Les codes coupon peuvent être générés automatiquement pour chaque lot de rappels par email, afin de vous permettre de contrôler les offres associées à chaque lot.
+Le but d’un rappel par email est d’encourager les personnes qui ont visité votre boutique à profiter d’une promotion et à faire un achat. Des rappels par email peuvent être envoyés automatiquement aux clients lorsqu’un ensemble spécifique de conditions est satisfait. Par exemple, vous pouvez envoyer un rappel aux clients qui ont ajouté un article à leur panier ou à leur liste de souhaits, mais qui n’ont pas encore effectué d’achat. Vous pouvez utiliser des rappels par e-mail pour encourager les clients à retourner dans votre boutique et inclure un [code de bon](price-rules-cart-coupon.md) comme incitation. Les codes coupon peuvent être générés automatiquement pour chaque lot de rappels par email, afin de vous permettre de contrôler les offres associées à chaque lot.
 
 Les rappels par email peuvent être déclenchés après qu’un nombre spécifique de jours a été passé depuis l’abandon d’un panier ou pour toute autre condition que vous souhaitez définir. Les conditions courantes comprennent la valeur totale du panier, la quantité, les articles dans le panier, etc.
 
 >[!NOTE]
 >
->Si un client possède plusieurs paniers abandonnés correspondants, une liste de souhaits ou une combinaison des deux, le rappel par e-mail n’est déclenché qu’une seule fois pour ce client. Pour déclencher à nouveau le même rappel par e-mail, utilisez le _[!UICONTROL Repeat Schedule]_pour définir le nombre de jours entre les emails.
+>Si un client possède plusieurs paniers abandonnés correspondants, une liste de souhaits ou une combinaison des deux, le rappel par e-mail n’est déclenché qu’une seule fois pour ce client. Pour déclencher à nouveau le même rappel d&#39;email, utilisez le champ _[!UICONTROL Repeat Schedule]_pour définir le nombre de jours entre les emails.
 
-![Rappels électroniques](./assets/email-reminders.png){width="700" zoomable="yes"}
+![Rappels de courriel](./assets/email-reminders.png){width="700" zoomable="yes"}
 
 ## Configuration de rappels par courrier électronique
 
 Les règles de rappel de courrier électronique peuvent être envoyées à intervalles réguliers par minute, heure ou jour. La configuration détermine le nombre d’emails envoyés par lot et l’identité du magasin qui apparaît comme expéditeur du message.
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Customers]** et choisissez **[!UICONTROL Promotions]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Automated Email Reminder Rules]** et procédez comme suit :
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) de **[!UICONTROL Automated Email Reminder Rules]** et procédez comme suit :
 
    ![Configuration des clients - règles de rappel de courrier électronique automatisé](../configuration-reference/customers/assets/promotions-automated-email-reminder-rules.png){width="600" zoomable="yes"}
 
-   - Définir **[!UICONTROL Enable Reminder Emails]** to `Yes`.
+   - Définissez **[!UICONTROL Enable Reminder Emails]** sur `Yes`.
 
-   - Pour définir la fréquence d’exécution des vérifications pour les nouveaux clients qui répondent aux critères des rappels de courrier électronique automatisés, définissez **[!UICONTROL Frequency]** à l’une des options suivantes :
+   - Pour définir la fréquence d&#39;exécution des vérifications pour les nouveaux clients qui remplissent les critères des rappels de courrier électronique automatisés, définissez **[!UICONTROL Frequency]** sur l&#39;une des options suivantes :
 
       - `Minute Intervals`
       - `Hourly`
       - `Daily`
 
-   - Définissez les **[!UICONTROL Interval]**, en fonction de la variable _[!UICONTROL Frequency]_.
+   - Définissez la valeur **[!UICONTROL Interval]** appropriée, en fonction du paramètre _[!UICONTROL Frequency]_.
 
-   - Définir **[!UICONTROL Start Time]** à l’heure, à la minute et à la seconde, l’email est envoyé, sur la base d’une horloge de 24 heures.
+   - Définissez **[!UICONTROL Start Time]** sur l’heure, la minute et la seconde d’envoi de l’email, en fonction d’une horloge de 24 heures.
 
-   - Pour limiter le nombre d’emails pouvant être envoyés par lot, saisissez le nombre dans la variable **[!UICONTROL Maximum Emails per One Run]** champ .
+   - Pour limiter le nombre d&#39;emails pouvant être envoyés dans un lot, saisissez le nombre dans le champ **[!UICONTROL Maximum Emails per One Run]** .
 
-   - Pour éviter les tentatives répétées d’envoi d’un email en échec, saisissez le nombre maximum de tentatives dans la variable **[!UICONTROL Email Send Failure Threshold]** champ .
+   - Pour éviter les tentatives répétées d’envoi d’un email en échec, saisissez le nombre maximal de tentatives dans le champ **[!UICONTROL Email Send Failure Threshold]**.
 
-   - Définir **[!UICONTROL Reminder Email Sender]** à la fonction [contact de magasin](../getting-started/store-details.md#store-email-addresses) qui s’affiche comme expéditeur de l’email de rappel.
+   - Définissez **[!UICONTROL Reminder Email Sender]** sur le [contact de magasin](../getting-started/store-details.md#store-email-addresses) qui apparaît comme expéditeur de l’email de rappel.
 
-   Pour obtenir la liste détaillée de ces options, voir [Règles de rappel de courrier électronique automatisé](../configuration-reference/customers/promotions.md#automated-email-reminder-rules) dans le _Référence de configuration_.
+   Pour obtenir une liste détaillée de ces options, voir [ Règles de rappel de messagerie automatisée ](../configuration-reference/customers/promotions.md#automated-email-reminder-rules) dans la _référence de configuration_.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 ## Modèles de rappel par email
 
@@ -66,15 +66,15 @@ Le modèle de rappel par e-mail par défaut peut être personnalisé et des mod�
 
 ### Personnalisation d’un modèle de rappel d’email
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
 
 1. Cliquez sur **[!UICONTROL Add New Template]**.
 
-1. Dans le **[!UICONTROL Template]** Liste sous `Magento_Reminder`, choisissez la variable **[!UICONTROL Promotion Notification/Reminder]** modèle.
+1. Dans la liste **[!UICONTROL Template]** sous `Magento_Reminder`, choisissez le modèle **[!UICONTROL Promotion Notification/Reminder]**.
 
 1. Cliquez sur **[!UICONTROL Load Template]**.
 
-Respectez les [instructions](../systems/email-template-custom.md) pour personnaliser le modèle.
+Suivez les [instructions](../systems/email-template-custom.md) standard pour personnaliser le modèle.
 
 ### Variables de rappel de courrier électronique
 

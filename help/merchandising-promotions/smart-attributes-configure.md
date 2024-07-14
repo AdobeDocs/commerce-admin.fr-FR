@@ -16,15 +16,15 @@ ht-degree: 0%
 
 La configuration du marchandiseur visuel détermine les attributs qui peuvent être utilisés dans la fenêtre de marchandisage et le seuil de stock minimal. La configuration identifie également l’attribut utilisé pour la couleur et l’ordre des valeurs de couleur.
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et choisissez **[!UICONTROL Visual Merchandiser]** en-dessous.
+1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et sélectionnez **[!UICONTROL Visual Merchandiser]** sous .
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL General Options]** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL General Options]** .
 
-   ![Configuration de catalogue - marchandisage visuel](../configuration-reference/catalog/assets/catalog-visual-merchandiser-general-options.png){width="600" zoomable="yes"}
+   ![Configuration de catalogue - marchandiseur visuel](../configuration-reference/catalog/assets/catalog-visual-merchandiser-general-options.png){width="600" zoomable="yes"}
 
-1. Dans le **[!UICONTROL Attributes for Category Rules]** sélectionnez chaque attribut à rendre disponible pour le marchandisage visuel.
+1. Dans la liste **[!UICONTROL Attributes for Category Rules]**, sélectionnez chaque attribut que vous souhaitez rendre disponible pour le marchandisage visuel.
 
    Pour sélectionner plusieurs attributs, maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée, puis cliquez sur chaque élément.
 
@@ -36,4 +36,4 @@ La configuration du marchandiseur visuel détermine les attributs qui peuvent ê
 
 1. Pour **[!UICONTROL Color Order]**, saisissez chaque valeur de couleur sur une ligne distincte et dans l’ordre afin de déterminer la priorité de chaque couleur.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.

@@ -14,28 +14,28 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Un segment de client peut être utilisé pour les promotions ciblées en l’associant à un [règle de prix du panier](../merchandising-promotions/price-rules-cart.md).
+Un segment de client peut être utilisé pour les promotions ciblées en l’associant à une [règle de prix du panier](../merchandising-promotions/price-rules-cart.md).
 
 ![Règle de prix du panier - segment client ciblé](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
 _**Pour associer un segment à une règle de prix de panier :**_
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Marketing]** > _Promotions_ > **[!UICONTROL Cart Price Rules]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _Promotions_ > **[!UICONTROL Cart Price Rules]**.
 
 1. Ouvrez une règle nouvelle ou existante :
 
    * Pour utiliser une nouvelle règle, cliquez sur **[!UICONTROL Add New Rule]** dans le coin supérieur droit.
    * Pour utiliser une règle existante, cliquez sur la règle dans la liste pour l’ouvrir en mode d’édition.
 
-1. Faites défiler l’écran vers le bas et développez **[!UICONTROL Conditions]** .
+1. Faites défiler l’écran vers le bas et développez la section **[!UICONTROL Conditions]**.
 
 1. Ajoutez la condition .
 
-   * Cliquez sur le bouton _Ajouter_ (![Icône Liste](../assets/icon-add-green-circle.png)), qui affiche la liste des conditions. Sélectionnez ensuite **[!UICONTROL Customer Segment]**.
+   * Cliquez sur l’icône _Ajouter_ (![Icône Liste](../assets/icon-add-green-circle.png)), qui affiche la liste des conditions. Sélectionnez ensuite **[!UICONTROL Customer Segment]**.
 
-   ![Règle de prix du panier - Ajouter une condition de segment client](assets/condition-customer-segment.png){width="600" zoomable="yes"}
+   ![Règle de prix du panier - ajouter une condition de segment client](assets/condition-customer-segment.png){width="600" zoomable="yes"}
 
-   Par défaut, la condition est définie pour trouver une condition correspondante. Si nécessaire, cliquez sur l’icône **[!UICONTROL matches]** et définissez l&#39;opérateur sur l&#39;une des options suivantes :
+   Par défaut, la condition est définie pour trouver une condition correspondante. Si nécessaire, cliquez sur le lien **[!UICONTROL matches]** et remplacez l’opérateur par l’un des éléments suivants :
 
    * `does not match`
    * `is one of`
@@ -43,14 +43,14 @@ _**Pour associer un segment à une règle de prix de panier :**_
 
    ![Opérateur de condition](assets/price-rule-condition-customer-segment-operator.png){width="600" zoomable="yes"}
 
-1. Pour cibler un segment spécifique, cliquez sur Plus **..** pour afficher d’autres options. Cliquez ensuite sur le bouton _Sélecteur_ (![Icône Liste](../assets/icon-list-chooser.png)) pour afficher la liste des segments de clients.
+1. Pour cibler un segment spécifique, cliquez sur le lien Plus **...** pour afficher d’autres options. Cliquez ensuite sur l’icône _Programme de sélection_ (![Icône Liste](../assets/icon-list-chooser.png)) pour afficher la liste des segments de clients.
 
 1. Dans la liste, cochez la case de chaque segment que vous souhaitez cibler avec la condition .
 
-   ![Règle de prix du panier - Liste de sélection des conditions](assets/condition-segment-chooser-list.png){width="600" zoomable="yes"}
+   ![Règle de prix du panier - liste de sélection de conditions](assets/condition-segment-chooser-list.png){width="600" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Select]** pour placer les segments de clients sélectionnés dans la condition.
 
 1. Effectuez le reste de la règle de prix selon vos besoins.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.

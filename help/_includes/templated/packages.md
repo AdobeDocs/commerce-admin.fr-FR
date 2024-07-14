@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Adobe Commerce B2B utilise le compositeur pour gérer les packages PHP.
 
-La variable `composer.json` déclare la liste des modules, tandis que la variable `composer.lock` stocke une liste complète des packages (une version complète de chaque package et ses dépendances) utilisés pour créer une installation d’Adobe Commerce B2B.
+Le fichier `composer.json` déclare la liste des packages, tandis que le fichier `composer.lock` stocke une liste complète des packages (une version complète de chaque package et ses dépendances) utilisés pour créer une installation d’Adobe Commerce B2B.
 
-La documentation de référence suivante est générée à partir de la `composer.lock` et couvre les modules requis inclus dans Adobe Commerce B2B 1.4.2.
+La documentation de référence suivante est générée à partir du fichier `composer.lock` et couvre les packages requis inclus dans Adobe Commerce B2B 1.4.2.
 
 ## Dépendances
 
@@ -93,7 +93,7 @@ magento/security-package-b2b: 1.0.4
   <tbody>
   <tr>
     <td>
-      <a href="https://github.com/elastic/elasticsearch-php.git">élasticsearch/élasticsearch</a>
+      <a href="https://github.com/elastic/elasticsearch-php.git">{élasticsearch/élasticsearch</a>
     </td>
     <td>bibliothèque</td>
     <td>Client PHP pour Elasticsearch</td>
@@ -128,14 +128,14 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/awslabs/aws-crt-php.git">aws/aws-crt-php</a>
+      <a href="https://github.com/awslabs/aws-crt-php.git"> aws/aws-crt-php</a>
     </td>
     <td>bibliothèque</td>
     <td>AWS Common Runtime pour PHP</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/aws/aws-sdk-php.git">aws/aws-sdk-php</a>
+      <a href="https://github.com/aws/aws-sdk-php.git"> aws/aws-sdk-php</a>
     </td>
     <td>bibliothèque</td>
     <td>SDK AWS pour PHP - Utilisation de Amazon Web Services dans votre projet PHP</td>
@@ -275,10 +275,10 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-escaper.git">plasas/laminas-escaper</a>
+      <a href="https://github.com/laminas/laminas-escaper.git">laminas/laminas-escaper</a>
     </td>
     <td>bibliothèque</td>
-    <td>HTML, attributs de HTML, JavaScript, CSS et URL sécurisés et échappés en toute sécurité</td>
+    <td>Échappement sécurisé et sécurisé des HTMLS, attributs d’HTML, JavaScript, CSS et URL</td>
   </tr>
   <tr>
     <td>
@@ -289,7 +289,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-feed.git">laminas/flux laminas</a>
+      <a href="https://github.com/laminas/laminas-feed.git">laminas/laminas-feed</a>
     </td>
     <td>bibliothèque</td>
     <td>fournit des fonctionnalités pour créer et utiliser des flux RSS et Atom ;</td>
@@ -457,14 +457,14 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-view.git">laminas/vues laminaires</a>
+      <a href="https://github.com/laminas/laminas-view.git">laminas/laminas-view</a>
     </td>
     <td>bibliothèque</td>
     <td>Calque d’affichage flexible prenant en charge et fournissant plusieurs calques d’affichage, assistants, etc.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/nikic/PHP-Parser.git">nikic/php-parser</a>
+      <a href="https://github.com/nikic/PHP-Parser.git">nikic/php-analyser</a>
     </td>
     <td>bibliothèque</td>
     <td>Un analyseur PHP écrit en PHP</td>
@@ -544,7 +544,7 @@ magento/security-package-b2b: 1.0.4
       <a href="https://github.com/ezyang/htmlpurifier.git">ezyang/htmlpurifier</a>
     </td>
     <td>bibliothèque</td>
-    <td>Filtre de HTML conforme aux normes écrit en PHP</td>
+    <td>Filtre HTML conforme aux normes écrit en PHP</td>
   </tr>
   <tr>
     <td>
@@ -576,21 +576,21 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/brick/math.git">brique/maths</a>
+      <a href="https://github.com/brick/math.git">brique/math</a>
     </td>
     <td>bibliothèque</td>
     <td>Bibliothèque arithmétique de précision arbitraire</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/brick/varexporter.git">brique/varporter</a>
+      <a href="https://github.com/brick/varexporter.git">brique/varexportateur</a>
     </td>
     <td>bibliothèque</td>
     <td>Une alternative puissante à var_export(), qui peut exporter des fermetures et des objets sans __set_state()</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/ChristianRiesen/base32.git">chrétien-riesen/base32</a>
+      <a href="https://github.com/ChristianRiesen/base32.git">christian-riesen/base32</a>
     </td>
     <td>bibliothèque</td>
     <td>Codeur/décodeur Base32 selon la norme RFC 4648</td>
@@ -611,7 +611,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/composer/class-map-generator.git">compositeur/classe-map-generator</a>
+      <a href="https://github.com/composer/class-map-generator.git">compositeur/class-map-generator</a>
     </td>
     <td>bibliothèque</td>
     <td>Utilitaires pour analyser le code PHP et générer des mappages de classe.</td>
@@ -625,14 +625,14 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/composer/metadata-minifier.git">compositeur/métadonnée-minifier</a>
+      <a href="https://github.com/composer/metadata-minifier.git">compositeur/metadata-minifier</a>
     </td>
     <td>bibliothèque</td>
     <td>Petite bibliothèque utilitaire qui gère la minification et l’extension des métadonnées.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/composer/pcre.git">compositeur/opérateur</a>
+      <a href="https://github.com/composer/pcre.git">compositeur/pcre</a>
     </td>
     <td>bibliothèque</td>
     <td>Bibliothèque d’encapsulage PCRE qui offre des remplacements preg_* sécurisés par type.</td>
@@ -709,7 +709,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/thephpleague/flysystem.git">ligue/système de vol</a>
+      <a href="https://github.com/thephpleague/flysystem.git"> ligue/flysystem</a>
     </td>
     <td>bibliothèque</td>
     <td>Extraction de stockage de fichiers pour PHP</td>
@@ -723,7 +723,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/thephpleague/mime-type-detection.git">league/mime-type-détection</a>
+      <a href="https://github.com/thephpleague/mime-type-detection.git">ligue/mime-type-détection</a>
     </td>
     <td>bibliothèque</td>
     <td>Détection de type MIME pour Flysystem</td>
@@ -744,7 +744,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/paragonie/constant_time_encoding.git">paragonie/constant_time_encoding</a>
+      <a href="https://github.com/paragonie/constant_time_encoding.git">paragonie/constante_time_encoding</a>
     </td>
     <td>bibliothèque</td>
     <td>Mises en oeuvre en temps constant du codage RFC 4648 (Base-64, Base-32, Base-16)</td>
@@ -761,7 +761,7 @@ magento/security-package-b2b: 1.0.4
       <a href="https://github.com/MyIntervals/emogrifier.git">pelago/emogrifier</a>
     </td>
     <td>bibliothèque</td>
-    <td>Convertit les styles CSS en attributs de style intégrés dans votre code de HTML.</td>
+    <td>Convertit les styles CSS en attributs de style intégrés dans votre code d’HTML</td>
   </tr>
   <tr>
     <td>
@@ -786,7 +786,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/phpseclib/mcrypt_compat.git">phpseclib/mcrypt_compat</a>
+      <a href="https://github.com/phpseclib/mcrypt_compat.git"> phpseclib/mcrypt_compat</a>
     </td>
     <td>bibliothèque</td>
     <td>polyfill PHP 5.x-8.x pour l’extension mcrypt</td>
@@ -877,7 +877,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/reactphp/promise.git">response/promesse</a>
+      <a href="https://github.com/reactphp/promise.git">react/promesse</a>
     </td>
     <td>bibliothèque</td>
     <td>Mise en oeuvre légère de CommonJS Promises/A pour PHP</td>
@@ -989,7 +989,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/filesystem.git">symfony/filessystem</a>
+      <a href="https://github.com/symfony/filesystem.git">symfony/filesystem</a>
     </td>
     <td>bibliothèque</td>
     <td>Fournit des utilitaires de base pour le système de fichiers</td>

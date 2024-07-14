@@ -21,14 +21,14 @@ Ce guide couvre :
 | Objet | Description |
 | ------- | ----------- |
 | [À propos de Commerce](about.md) | Découvrez la version actuelle d’Adobe Commerce. |
-| [Identifiants de connexion et URL](login-urls.md) | En savoir plus sur les [!DNL Commerce] URL et informations d’identification de compte utilisées pour accéder à votre administrateur et à votre vitrine. |
-| [[!DNL Commerce] comptes](commerce-account-create.md) | En savoir plus [!DNL Commerce] qui gèrent les produits et services que vous avez achetés. |
-| [L’administrateur](admin.md) | En savoir plus sur les [!DNL Commerce] Admin : l’emplacement où les commerçants configurent des produits et des promotions, gèrent des commandes et effectuent d’autres tâches administratives. |
-| [Le storefront](storefront.md) | Découvrez les pages et les éléments fonctionnels que votre boutique peut fournir pour prendre en charge l’expérience d’achat pour vos clients. |
+| [Informations d’identification de connexion et URL](login-urls.md) | Découvrez les URL [!DNL Commerce] et les informations d’identification de compte utilisées pour accéder à votre administrateur et à votre vitrine. |
+| [[!DNL Commerce] comptes](commerce-account-create.md) | Découvrez les comptes [!DNL Commerce] qui gèrent les produits et services que vous avez achetés. |
+| [L’Admin](admin.md) | Découvrez l’administrateur [!DNL Commerce], l’emplacement où les commerçants configurent des produits et des promotions, gèrent des commandes et effectuent d’autres tâches administratives. |
+| [The Storefront](storefront.md) | Découvrez les pages et les éléments fonctionnels que votre boutique peut fournir pour prendre en charge l’expérience d’achat pour vos clients. |
 | [Configuration et configuration de base](websites-stores-views.md) | Découvrez les concepts de hiérarchie de magasin et d’étendue de configuration et parcourez les paramètres de configuration de base. |
 | [Conformité au site](privacy-policy.md) | Découvrez comment les commerçants sont tenus de respecter les directives de l’industrie pour la maintenance d’un environnement sécurisé, et de respecter les exigences légales et les bonnes pratiques pour les commerçants en ligne de leur juridiction. |
-| [Rapports standard](reports-menu.md) | Découvrez comment filtrer les données et générer des rapports en ligne. Les données du rapport peuvent être ouvertes dans une feuille de calcul ou importées dans d’autres applications. |
-| [Ressources](resources.md) | Découvrez la richesse des ressources techniques et commerciales, des outils d’auto-assistance et des services qui vous aident à réussir. |
+| [Création de rapports standard](reports-menu.md) | Découvrez comment filtrer les données et générer des rapports en ligne. Les données du rapport peuvent être ouvertes dans une feuille de calcul ou importées dans d’autres applications. |
+| [Resources](resources.md) | Découvrez la richesse des ressources techniques et commerciales, des outils d’auto-assistance et des services qui vous aident à réussir. |
 
 {style="table-layout:auto"}
 

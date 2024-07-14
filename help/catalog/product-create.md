@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Création d’un produit
 
-Le choix d’un type de produit est l’une des premières choses que vous devez faire pour créer un produit. Si vous commencez tout juste à créer votre catalogue de produits, vous pouvez créer quelques exemples de produits à tester avec chaque type de produit. Outre les types de produits de base, le terme _produit complexe_ est parfois utilisé pour faire référence à des produits avec plusieurs options, tels qu’un produit configurable disponible en différentes couleurs et tailles.
+Le choix d’un type de produit est l’une des premières choses que vous devez faire pour créer un produit. Si vous commencez tout juste à créer votre catalogue de produits, vous pouvez créer quelques exemples de produits à tester avec chaque type de produit. Outre les types de produits de base, le terme _produit complexe_ est parfois utilisé pour faire référence à des produits avec plusieurs options, tels qu’un produit configurable disponible dans différentes couleurs et tailles.
 
 >[!NOTE]
 >
->Pour une compréhension plus approfondie, reportez-vous au catalogue . [navigation](navigation.md), procédure de configuration [categories](categories.md) et [Attributs](product-attributes.md), et le catalogue [Options d’URL](catalog-urls.md) disponibles. Une fois que vous avez compris ces concepts, la méthode la plus efficace pour ajouter de nombreux produits au catalogue consiste à [import](../systems/data-import.md) à partir d’un fichier CSV.
+>Pour une compréhension plus approfondie, reportez-vous au catalogue [navigation](navigation.md), à la configuration de [catégories](categories.md) et [attributs](product-attributes.md) et au catalogue [options d’URL](catalog-urls.md) disponibles. Une fois que vous avez compris ces concepts, la méthode la plus efficace pour ajouter de nombreux produits au catalogue consiste à les [importer](../systems/data-import.md) à partir d’un fichier CSV.
 
 ![Page produit sur le storefront](./assets/storefront-product-page.png){width="700" zoomable="yes"}
 
@@ -26,15 +26,15 @@ Le choix d’un type de produit est l’une des premières choses que vous devez
 
 **[Produit configurable](product-create-configurable.md)** - Un produit configurable semble être un produit unique avec des listes d’options pour chaque variation. Cependant, chaque option représente un produit simple distinct avec un SKU distinct, ce qui permet de suivre l’inventaire de chaque variation.
 
-**[Produit groupé](product-create-grouped.md)** - Un produit groupé présente plusieurs produits autonomes sous la forme d’un groupe. Vous pouvez proposer des variantes d’un seul produit ou les regrouper pour une promotion. Les produits peuvent être achetés séparément ou en groupe.
+**[Produit groupé](product-create-grouped.md)** - Un produit groupé présente plusieurs produits autonomes en tant que groupe. Vous pouvez proposer des variantes d’un seul produit ou les regrouper pour une promotion. Les produits peuvent être achetés séparément ou en groupe.
 
 **[Produits virtuels](product-create-virtual.md)** - Un produit virtuel n’est pas un produit tangible et est généralement utilisé pour des produits tels que des services, des adhésions, des garanties et des abonnements. Les produits virtuels peuvent être utilisés en association avec des produits regroupés et regroupés.
 
-**[Produit groupé](product-create-bundle.md)**  - Un produit groupé permet aux clients de &quot;créer les leurs&quot; à partir d’un assortiment d’options. Il peut s’agir d’un panier de cadeaux, d’un ordinateur ou de tout autre élément qui peut être personnalisé. Chaque élément du lot est un produit autonome distinct.
+**[Produit groupé](product-create-bundle.md)** - Un produit groupé permet aux clients de &quot;créer leurs propres&quot; à partir d’un assortiment d’options. Il peut s’agir d’un panier de cadeaux, d’un ordinateur ou de tout autre élément qui peut être personnalisé. Chaque élément du lot est un produit autonome distinct.
 
 **[Produit téléchargeable](product-create-downloadable.md)** - Un produit téléchargeable numériquement se compose d’un ou de plusieurs fichiers téléchargés. Les fichiers peuvent résider sur votre serveur ou être fournis sous forme d’URL à tout autre serveur.
 
-**[Carte cadeau](product-gift-card-create.md)** - ([Adobe Commerce](../landing/home.md#product-editions) uniquement) Il existe trois types de cartes-cadeaux. _Virtuel_ les cartes-cadeaux sont envoyées par e-mail. _Physique_ les cartes-cadeaux sont expédiées au destinataire. _Combiné_ cartes-cadeaux qui combinent virtuel et physique. Chacun comporte un code unique, qui est consommé lors du passage en caisse. Les cartes cadeau peuvent également être incluses dans un produit groupé.
+**[Carte cadeau](product-gift-card-create.md)** - ([Adobe Commerce](../landing/home.md#product-editions) uniquement) Il existe trois types de cartes-cadeaux. _Les cartes-cadeaux virtuelles_ sont envoyées par e-mail. Les cartes-cadeaux _Physique_ sont expédiées au destinataire. _Combiné_ cartes-cadeaux qui sont une combinaison de cartes virtuelles et physiques. Chacun comporte un code unique, qui est consommé lors du passage en caisse. Les cartes cadeau peuvent également être incluses dans un produit groupé.
 
 ## Paramètres du produit
 
@@ -61,4 +61,4 @@ Les paramètres et attributs de produit les plus fréquemment utilisés s’affi
 
 ## Prix et inventaire avancés
 
-Pour accéder aux paramètres avancés de tarification et de stock, cliquez sur le lien ci-dessous. **[!UICONTROL Price]** et **[!UICONTROL Quantity]**. Pour plus d’informations, voir [Gestion des tarifs](pricing-advanced.md) et [Inventory management](../inventory-management/introduction.md).
+Pour accéder aux paramètres avancés de tarification et de stock, cliquez sur le lien situé sous **[!UICONTROL Price]** et **[!UICONTROL Quantity]**. Pour plus d’informations, voir [Gestion des tarifs](pricing-advanced.md) et [Inventory management](../inventory-management/introduction.md).

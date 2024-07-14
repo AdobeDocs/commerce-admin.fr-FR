@@ -38,7 +38,7 @@ ht-degree: 4%
 
 ## [!UICONTROL Credit Memo]
 
-![Crédit](./assets/pdf-print-credit-memo.png)<!-- zoom -->
+![Mémo de crédit](./assets/pdf-print-credit-memo.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

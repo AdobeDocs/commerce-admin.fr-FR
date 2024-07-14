@@ -21,7 +21,7 @@ ht-degree: 38%
 - [Contenu et conception](https://experienceleague.adobe.com/docs/commerce-admin/content-design/guide-overview.html)
 - [[!DNL Page Builder]](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html)
 - [Gestion des clients](https://experienceleague.adobe.com/docs/commerce-admin/customers/guide-overview.html)
-- [Magasins et expérience d’achat](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html)
+- [Magasins et achat d’expérience](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html)
 - [Systèmes d’administration](https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html)
 - [Guide de référence de configuration](https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html)
 - [Services pour Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html)

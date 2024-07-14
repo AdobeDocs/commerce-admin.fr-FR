@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Avec l’installation et l’activation d’Adobe Commerce B2B, l’expérience d’achat peut être personnalisée avec des fonctionnalités spécifiques à l’entreprise. Adobe Commerce B2B est une solution intégrée qui prend en charge les modèles B2B et B2C. Pour plus d’informations sur les fonctionnalités B2B, voir [Guide de l’utilisateur d’Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Avec l’installation et l’activation d’Adobe Commerce B2B, l’expérience d’achat peut être personnalisée avec des fonctionnalités spécifiques à l’entreprise. Adobe Commerce B2B est une solution intégrée qui prend en charge les modèles B2B et B2C. Pour plus d’informations sur les fonctionnalités B2B, consultez le [Guide de l’utilisateur d’Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 >[!NOTE]
 >
->L’accès à ces options de configuration pour les fonctionnalités B2B est contrôlé par la variable [ressources de rôle](../../systems/permissions-user-roles.md#role-resources). Ces ressources de rôle doivent être définies pour le rôle utilisateur attribué à l’utilisateur administrateur.
+>L’accès à ces options de configuration pour les fonctionnalités B2B est contrôlé par les [ressources de rôle](../../systems/permissions-user-roles.md#role-resources). Ces ressources de rôle doivent être définies pour le rôle utilisateur attribué à l’utilisateur administrateur.
 
 Pour plus d’informations sur la configuration de ces paramètres, voir [Activation des fonctionnalités B2B de base](../../b2b/enable-basic-features.md) dans le _Guide de l’utilisateur d’Adobe Commerce B2B_.
 
@@ -32,13 +32,13 @@ Pour plus d’informations sur la configuration de ces paramètres, voir [Activa
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Allow Company Registration from the Storefront] | Site Web | Détermine si les visiteurs de votre magasin ont le choix de [register](../../customers/customer-sign-in.md) pour un compte de société ou un compte individuel. Options : `Yes` / `No` |
+| [!UICONTROL Allow Company Registration from the Storefront] | Site Web | Détermine si les visiteurs de votre magasin ont le choix de [enregistrer](../../customers/customer-sign-in.md) pour un compte de société ou un compte individuel. Options : `Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Email Options - Company Registration]
 
-![Options de messagerie électronique - Enregistrement de la société](./assets/company-email-options-company-registration.png)<!-- zoom -->
+![Options de courrier électronique - Enregistrement de la société](./assets/company-email-options-company-registration.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -51,7 +51,7 @@ Pour plus d’informations sur la configuration de ces paramètres, voir [Activa
 
 ## [!UICONTROL Customer-Related Emails]
 
-![Emails liés au client](./assets/company-email-options-customer-related-emails.png)<!-- zoom -->
+![ Courriers électroniques liés au client](./assets/company-email-options-customer-related-emails.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -67,18 +67,18 @@ Pour plus d’informations sur la configuration de ces paramètres, voir [Activa
 
 ## [!UICONTROL Company Status Change]
 
-![Changement d’état de la société](./assets/company-email-options-company-status-change.png)<!-- zoom -->
+![Changement d’état de l’entreprise](./assets/company-email-options-company-status-change.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Company Status Change Email Recipient] | Affichage en magasin | Contact de magasin qui est informé chaque fois que l’état d’une entreprise change. Options : `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
 | [!UICONTROL Send Company Status Change Email Copy To] | Affichage en magasin | Adresse électronique de chaque personne devant recevoir une copie de la notification de changement de statut de l’entreprise. Séparez plusieurs adresses électroniques par une virgule. |
 | [!UICONTROL Send Email Copy Method] | Affichage en magasin | Méthode de courrier électronique utilisée pour envoyer la copie de la notification de changement d’état. Options : `Bcc` / `Separate Email` |
-| [!UICONTROL Default "Company Status Change to Active 1' Email] | Affichage en magasin | Le modèle de courrier électronique utilisé lorsque le statut d’une société change de _En attente d’approbation_ to _Actif_. Modèle par défaut : `Company Status Active 1` |
-| [!UICONTROL Default 'Company Status Change to Active 2' Email] | Affichage en magasin | Le modèle de courrier électronique utilisé par défaut lorsque le statut d’une société change de _Rejetés_ ou _Bloqué_ to _Actif_. Modèle par défaut : `Company Status Active 2` |
-| [!UICONTROL Default 'Company Status Change to Rejected' Email] | Affichage en magasin | Le modèle de courrier électronique utilisé par défaut lorsque le statut d’une société est défini sur _Rejetés_. Modèle par défaut : `Company Status Rejected` |
-| [!UICONTROL Default 'Company Status Change to Blocked' Email] | Affichage en magasin | Le modèle de courrier électronique utilisé par défaut lorsque le statut d’une société est défini sur _Bloqué_. Modèle par défaut : `Company Status Blocked` |
-| [!UICONTROL Default 'Company Status Change to Pending Approval' Email] | Affichage en magasin | Le modèle de courrier électronique utilisé par défaut lorsque le statut d’une société est défini sur _En attente d’approbation_. Modèle par défaut : `Company Status Pending Approval` |
+| [!UICONTROL Default "Company Status Change to Active 1' Email] | Affichage en magasin | Le modèle de courrier électronique utilisé lorsque l’état d’une entreprise passe de _Autorisation en attente_ à _Actif_. Modèle par défaut : `Company Status Active 1` |
+| [!UICONTROL Default 'Company Status Change to Active 2' Email] | Affichage en magasin | Le modèle de courrier électronique utilisé par défaut lorsque l’état d’une société passe de _Rejected_ ou _Blocked_ à _Active_. Modèle par défaut : `Company Status Active 2` |
+| [!UICONTROL Default 'Company Status Change to Rejected' Email] | Affichage en magasin | Le modèle de courrier électronique utilisé par défaut lorsque l’état d’une entreprise passe à _Refusé_. Modèle par défaut : `Company Status Rejected` |
+| [!UICONTROL Default 'Company Status Change to Blocked' Email] | Affichage en magasin | Le modèle de courrier électronique utilisé par défaut lorsque l’état d’une entreprise passe à _Blocked_. Modèle par défaut : `Company Status Blocked` |
+| [!UICONTROL Default 'Company Status Change to Pending Approval' Email] | Affichage en magasin | Le modèle de courrier électronique utilisé par défaut lorsque le statut d’une entreprise passe à _Autorisation en attente_. Modèle par défaut : `Company Status Pending Approval` |
 
 {style="table-layout:auto"}
 
@@ -93,7 +93,7 @@ Pour plus d’informations sur la configuration de ces paramètres, voir [Activa
 | [!UICONTROL Send Email Copy Method] | Affichage en magasin | Méthode de courrier électronique utilisée pour envoyer la copie de la notification de changement de crédit. Options : `Bcc` / `Separate Email` |
 | [!UICONTROL Allocated Email Template] | Affichage en magasin | Modèle de courrier électronique utilisé par défaut lors de l’allocation du crédit de l’entreprise. Cet email est envoyé à l’administrateur de la société. Modèle par défaut : `Credit Limit Allocated` |
 | [!UICONTROL Updated Email Template] | Affichage en magasin | Modèle d’email utilisé par défaut lors de la mise à jour de la limite de crédit d’une société. Cet email est envoyé à l’administrateur de la société. Modèle par défaut : `Credit Limit Updated` |
-| [!UICONTROL Reimbursed Email Template] | Affichage en magasin | Le modèle d’email utilisé par défaut lors d’une [remboursement](../../b2b/credit-company.md#apply-a-payment-to-a-company-account) est porté au crédit de la société. Cet email est envoyé à l’administrateur de la société. Modèle par défaut : `Credit Reimbursed` |
+| [!UICONTROL Reimbursed Email Template] | Affichage en magasin | Le modèle d’email utilisé par défaut lorsqu’un [remboursement](../../b2b/credit-company.md#apply-a-payment-to-a-company-account) est porté au crédit de l’entreprise. Cet email est envoyé à l’administrateur de la société. Modèle par défaut : `Credit Reimbursed` |
 | [!UICONTROL Refunded Email Template] | Affichage en magasin | Le modèle d’email utilisé par défaut lorsqu’un montant issu d’une commande est remboursé au crédit de la société. Cet email est envoyé à l’administrateur de la société. Modèle par défaut : `Order Refunded to Company Credit` |
 | [!UICONTROL Reverted Email Template] | Affichage en magasin | Modèle de courrier électronique utilisé par défaut lorsqu’une commande est restaurée au crédit de l’entreprise. Cet email est envoyé à l’administrateur de la société. Modèle par défaut : `Order Reverted to Company Credit` |
 

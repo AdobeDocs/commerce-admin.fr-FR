@@ -1,18 +1,18 @@
 ---
 title: Catégories - Paramètres d’optimisation du moteur de recherche
-description: En savoir plus sur l’utilisation de la variable [!UICONTROL Search Engine Optimization] paramètres permettant de définir la clé d’URL et les champs de métadonnées utilisés par les moteurs de recherche pour indexer la catégorie.
+description: Découvrez comment utiliser les paramètres [!UICONTROL Search Engine Optimization] pour définir la clé d’URL et les champs de métadonnées utilisés par les moteurs de recherche pour indexer la catégorie.
 exl-id: 6c8af01d-d2aa-4c13-af76-663c47cbe38c
 feature: Catalog Management, Categories, Search
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
 # Catégories - Paramètres d’optimisation du moteur de recherche
 
-La variable _[!UICONTROL Search Engine Optimization]_spécifie la propriété [Clé URL](catalog-urls.md) et [métadonnées](../merchandising-promotions/meta-data.md) champs utilisés par les moteurs de recherche pour indexer la catégorie. Bien que certains moteurs de recherche ignorent les méta-mots-clés, d’autres continuent de les utiliser. La bonne pratique actuelle d’optimisation pour les moteurs de recherche consiste à incorporer des mots-clés à valeur élevée dans le méta-titre et dans la méta-description.
+La section _[!UICONTROL Search Engine Optimization]_spécifie les champs [URL Key](catalog-urls.md) et [meta data](../merchandising-promotions/meta-data.md) utilisés par les moteurs de recherche pour indexer la catégorie. Bien que certains moteurs de recherche ignorent les méta-mots-clés, d’autres continuent de les utiliser. La bonne pratique actuelle d’optimisation pour les moteurs de recherche consiste à incorporer des mots-clés à valeur élevée dans le méta-titre et dans la méta-description.
 
 ![Optimisation du moteur de recherche](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 

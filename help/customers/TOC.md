@@ -17,7 +17,7 @@ ht-degree: 2%
 + Outils de gestion client {#customers-menu}
    + [Liste des clients](customers-all.md)
    + [Maintenant en ligne](now-online.md)
-   + [Personnalisation à grande échelle](personalize-scale.md)
+   + [Personalization à grande échelle](personalize-scale.md)
 + Comptes clients {#customer-accounts}
    + [Portée du compte](customer-account-scope.md)
    + Options de compte {#configure}
@@ -37,7 +37,7 @@ ht-degree: 2%
       + [Propriétés d’attribut](attribute-properties.md)
       + [Attributs d’adresse](address-attributes.md)
       + [Modèles d’adresse](address-templates.md)
-   + Crédit de la boutique {#store-credit}
+   + Crédit de magasin {#store-credit}
       + [Workflow de crédit de magasin](store-credit.md)
       + [Configurer le crédit de magasin](credit-configure.md)
       + [Appliquer le crédit de magasin](store-credit-using.md)
@@ -55,5 +55,5 @@ ht-degree: 2%
    + [Création et suppression de segments de clients](customer-segment-create.md)
    + [Segments de client dans les règles de prix](customer-segment-price-rule.md)
    + [Rapport Segment de client](customer-segment-reports.md)
-+ [Revenir aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Retour aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

@@ -18,57 +18,57 @@ Le lien Email permet à vos clients de partager facilement des liens vers des pr
 
 ## Configurer email-a-friend
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et choisissez **[!UICONTROL Email to a Friend]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Email Templates]** et définissez les options suivantes :
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) et définissez les options suivantes :**[!UICONTROL Email Templates]**
 
-   ![Configuration du catalogue - modèles d’email](../configuration-reference/catalog/assets/email-to-a-friend-email-templates.png){width="600" zoomable="yes"}
+   ![ Configuration de catalogue - modèles d’email](../configuration-reference/catalog/assets/email-to-a-friend-email-templates.png){width="600" zoomable="yes"}
 
-   Pour une description détaillée de chacun de ces paramètres de configuration, voir [Modèles de courrier électronique](../configuration-reference/catalog/email-to-a-friend.md) dans le _Guide de référence de configuration_.
+   Pour une description détaillée de chacun de ces paramètres de configuration, voir [Modèles d’e-mail](../configuration-reference/catalog/email-to-a-friend.md) dans le _Guide de référence de configuration_.
 
-   Pour modifier le paramètre par défaut d’un champ, effacez le **[!UICONTROL Use system value]** pour rendre le champ modifiable.
+   Pour modifier le paramètre par défaut d’un champ, décochez la case **[!UICONTROL Use system value]** pour que le champ soit modifiable.
 
-   - Définir **[!UICONTROL Enabled]** to `Yes`.
+   - Définissez **[!UICONTROL Enabled]** sur `Yes`.
 
-   - Définir **[!UICONTROL Select Email Template]** au modèle que vous souhaitez utiliser comme base des messages.
+   - Définissez **[!UICONTROL Select Email Template]** sur le modèle que vous souhaitez utiliser comme base des messages.
 
-   - Si vous souhaitez que seuls les clients enregistrés puissent envoyer des emails à leurs amis, définissez **[!UICONTROL Allow for Guests]** to `No`.
+   - Si vous souhaitez que seuls les clients enregistrés puissent envoyer des emails à leurs amis, définissez **[!UICONTROL Allow for Guests]** sur `No`.
 
    - Pour **[!UICONTROL Max Recipients]**, saisissez le nombre maximal d’amis qui peuvent se trouver dans la liste de distribution pour un seul message.
 
-   - Pour **[!UICONTROL Max Products Sent in 1 Hour]**, indiquez le nombre maximal de produits qu’un utilisateur unique peut partager avec des amis sur une période d’une heure.
+   - Pour **[!UICONTROL Max Products Sent in 1 Hour]**, saisissez le nombre maximal de produits qu’un utilisateur unique peut partager avec des amis sur une période d’une heure.
 
-   - Définir **[!UICONTROL Limit Sending By]** à l’une des méthodes suivantes pour identifier l’expéditeur des emails :
+   - Définissez **[!UICONTROL Limit Sending By]** sur l’une des méthodes suivantes pour identifier l’expéditeur des emails :
 
-     `IP Address`  - (Recommandé) Identifie l’expéditeur selon l’adresse IP de l’ordinateur qui est utilisé pour envoyer les emails.
+     `IP Address` - (Recommandé) Identifie l’expéditeur selon l’adresse IP de l’ordinateur qui est utilisé pour envoyer les emails.
 
      `Cookie (unsafe)` - Identifie l’expéditeur par cookie du navigateur. Cette méthode est moins efficace, car l’expéditeur peut supprimer le cookie pour contourner la limite.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 ## Envoyer un email à un ami sur le storefront
 
 Lorsque cette fonctionnalité est configurée, les clients du magasin suivent ces étapes pour partager des informations sur les produits avec leurs amis.
 
-1. Sur une page de catalogue, le client clique sur la variable **[!UICONTROL Email]** lien.
+1. Sur une page de catalogue, le client clique sur le lien **[!UICONTROL Email]**.
 
 1. Si la fonction est configurée uniquement pour les utilisateurs enregistrés, effectuez l’une des opérations suivantes :
 
    - Connectez-vous à votre compte client.
    - S’abonne à un nouveau compte.
 
-1. Termine la variable **[!UICONTROL Message]** et entre le destinataire **[!UICONTROL Name]** et **[!UICONTROL Email Address]**.
+1. Complète l’ **[!UICONTROL Message]** et entre le destinataire **[!UICONTROL Name]** et **[!UICONTROL Email Address]**.
 
    Si nécessaire, le client peut ajouter d’autres destinataires :
 
    - Clics **[!UICONTROL Add Invitee]**.
 
-   - entre dans la variable **[!UICONTROL Name]** et **[!UICONTROL Email Address]** de la personne supplémentaire.
+   - Entrez les **[!UICONTROL Name]** et **[!UICONTROL Email Address]** de la personne supplémentaire.
 
-     Il peut envoyer le message à autant de personnes supplémentaires que la configuration le permet. Ils peuvent supprimer l’invitation ajoutée en cliquant sur le **[!DNL Remove]** lien.
+     Il peut envoyer le message à autant de personnes supplémentaires que la configuration le permet. Ils peuvent supprimer l’invitation ajoutée en cliquant sur le lien **[!DNL Remove]**.
 
 1. Lorsque vous êtes prêt à envoyer le message, cliquez sur **[!UICONTROL Send Email]**.
 
-   ![Exemple de storefront : email à un ami](./assets/storefront-email-a-friend-form.png){width="700" zoomable="yes"}
+   ![Exemple de storefront - email à un ami](./assets/storefront-email-a-friend-form.png){width="700" zoomable="yes"}

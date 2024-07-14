@@ -5,28 +5,28 @@ exl-id: 4dec179a-25ac-48db-a84b-4974798272b0
 feature: Inventory, Configuration
 source-git-commit: 023716935a6657b0dc2317876debe608e65bf010
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '814'
 ht-degree: 0%
 
 ---
 
 # Configuration de l’algorithme de priorité des distances
 
-L’algorithme de priorité des distances compare l’emplacement de l’adresse de destination de livraison aux emplacements sources afin de déterminer la source la plus proche pour accomplir les chargements. La distance peut être déterminée par la distance physique ou le temps passé d&#39;un lieu à un autre, en utilisant les données de la base de données ou en suivant les instructions de conduite, de marche ou de vélo. Utilisez cette [Algorithme de sélection de source](selection-reservations.md) pour recommander la source la plus proche des adresses de destination d’expédition.
+L’algorithme de priorité des distances compare l’emplacement de l’adresse de destination de livraison aux emplacements sources afin de déterminer la source la plus proche pour accomplir les chargements. La distance peut être déterminée par la distance physique ou le temps passé d&#39;un lieu à un autre, en utilisant les données de la base de données ou en suivant les instructions de conduite, de marche ou de vélo. Utilisez cet [algorithme de sélection Source](selection-reservations.md) pour recommander la source la plus proche des adresses de destination d’expédition.
 
 >[!NOTE]
 >
->Si vous utilisez l’algorithme Distance Priority, saisissez l’adresse de la rue complète et les coordonnées GPS de votre [sources](sources-add.md) est recommandé.
+>Si vous utilisez l’algorithme Distance Priority, il est recommandé de saisir l’adresse de la rue complète et les coordonnées GPS de vos [sources](sources-add.md).
 
 Vous disposez de deux options pour calculer la distance et le temps afin de trouver la source la plus proche pour l’exécution de l’expédition :
 
-- **CARTE GOOGLE** - Utilisations [Plateforme Google Maps][1] services permettant de calculer la distance et l’heure entre l’adresse de destination de livraison et les emplacements sources. Cette option utilise la latitude et la longitude de la source (coordonnées GPS) et peut utiliser l’adresse de la rue selon le mode de calcul. Une clé API Google est requise avec [API Geocoding][2] et [API de la matrice de distance][3] activée et vous pouvez encourir des frais via Google.
+- **Google MAP** - Utilise les services [Google Maps Platform][1] pour calculer la distance et l’heure entre l’adresse de destination d’expédition et les emplacements source. Cette option utilise la latitude et la longitude de la source (coordonnées GPS) et peut utiliser l’adresse de la rue selon le mode de calcul. Une clé d’API Google est requise avec [l’API Geocoding][2] et l’ [ API Distance Matrix][3] activée, et vous pouvez encourir des frais via Google.
 
-- **Calcul hors ligne** - Calcule la distance à l’aide des données de géocode téléchargées et importées à l’aide de codes postaux et de coordonnées GPS afin de déterminer la source la plus proche de l’adresse de destination de livraison. Pour configurer cette option, vous pouvez avoir besoin de l’aide du développeur pour télécharger et importer des géocodes à l’aide des instructions de ligne de commande.
+- **Calcul hors ligne** - Calcule la distance à l’aide des données de géocode téléchargées et importées à l’aide de codes postaux et de coordonnées GPS pour déterminer la source la plus proche de l’adresse de destination de livraison. Pour configurer cette option, vous pouvez avoir besoin de l’aide du développeur pour télécharger et importer des géocodes à l’aide des instructions de ligne de commande.
 
 >[!NOTE]
 >
->Pour un site web multi-magasin avec plusieurs pays, configurez la variable [destination de taxe par défaut](../stores-purchase/tax-class.md#default-tax-destination){target="_blank"} pour chaque pays.
+>Pour un site web multi-boutique avec plusieurs pays, configurez la [destination fiscale par défaut](../stores-purchase/tax-class.md#default-tax-destination){target="_blank"} pour chaque pays.
 
 ## Utilisation des mappages Google
 
@@ -35,9 +35,9 @@ Cependant, l’algorithme basé sur les distances de Google MAP est recommandé 
 
 ### Étape 1 : création de la clé API Google
 
-La clé provient de la fonction [Plateforme Google Maps][1] et doivent avoir [API Geocoding][2] et [API de la matrice de distance][3] activée. Pour plus d’informations, voir [Configuration de l’algorithme de priorité des distances](distance-priority-algorithm.md).
+La clé provient de la [plateforme Google Maps][1] et doit avoir l’ [API Geocoding][2] et l’ [API Distance Matrix][3] activée. Pour plus d’informations, voir [Configuration de l’algorithme de priorité des distances](distance-priority-algorithm.md).
 
-1. Visite [Plateforme Google Maps][1] et cliquez sur **[!UICONTROL Get Started]**.
+1. Visitez la [plateforme Google Maps][1] et cliquez sur **[!UICONTROL Get Started]**.
 
 1. Pour activer la plateforme, sélectionnez **[!UICONTROL Maps, Routes, and Places]** et cliquez sur **[!UICONTROL Continue]**.
 
@@ -61,27 +61,27 @@ La clé provient de la fonction [Plateforme Google Maps][1] et doivent avoir [AP
 
    - Ouvrez votre projet.
 
-   - Développez le menu, puis cliquez sur **[!UICONTROL APIs & Services]** > **[!UICONTROL Library]**.
+   - Développez le menu et cliquez sur **[!UICONTROL APIs & Services]** > **[!UICONTROL Library]**.
 
-     ![Services d’API Google](assets/inventory-google-key2.png){width="350" zoomable="yes"}
+     ![ Services d’API Google](assets/inventory-google-key2.png){width="350" zoomable="yes"}
 
-   - Recherchez [API Geocoding][2] et [API de la matrice de distance][3]. Sélectionnez et activez chaque service.
+   - Recherchez [API Geocoding][2] et [API Distance Matrix][3]. Sélectionnez et activez chaque service.
 
-1. Développez le menu, cliquez sur **[!UICONTROL APIs & Services]** > **[!UICONTROL Credentials]** et copiez la clé API Google.
+1. Développez le menu, cliquez sur **[!UICONTROL APIs & Services]** > **[!UICONTROL Credentials]**, puis copiez la clé API Google.
 
-   ![Copie de clé API Google](assets/inventory-google-key3.png){width="350" zoomable="yes"}
+   ![ Copie de clé de l’API Google](assets/inventory-google-key3.png){width="350" zoomable="yes"}
 
 ### Étape 2 : configuration du fournisseur Google MAP
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et choisissez **[!UICONTROL Inventory]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur _[!UICONTROL Distance Provider for Distance Based SSA]_section et définition **[!UICONTROL Provider]**to `Google MAP`.
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) de la section _[!UICONTROL Distance Provider for Distance Based SSA]_et définissez **[!UICONTROL Provider]**sur `Google MAP`.
 
-   ![Fournisseurs d’une SSA basée sur les distances](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
+   ![Fournisseurs pour SSA basée sur les distances](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur _[!UICONTROL Google Distance Provider]_et configurez les paramètres :
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) et configurez les paramètres :_[!UICONTROL Google Distance Provider]_
 
    - Pour **[!UICONTROL Google API Key]**, saisissez la clé copiée à partir de votre compte Google.
 
@@ -89,13 +89,13 @@ La clé provient de la fonction [Plateforme Google Maps][1] et doivent avoir [AP
 
      >[!NOTE]
      >
-     >Lors de l’utilisation de cet algorithme pour l’expédition, si les itinéraires et les données ne reviennent pas pour le mode de calcul sélectionné (conduite, vélo ou marche) pour une expédition, l’ASS utilise par défaut la priorité source. La définition de la variable [priorité des sources par stock](stocks-prioritize-sources.md) est recommandé.
+     >Lors de l’utilisation de cet algorithme pour l’expédition, si les itinéraires et les données ne reviennent pas pour le mode de calcul sélectionné (conduite, vélo ou marche) pour une expédition, l’ASS utilise par défaut la priorité Source. Il est recommandé de définir la priorité [pour les sources par stock](stocks-prioritize-sources.md).
 
      | Option | Description |
      | ----- | ----- |
      | `Driving` | (Par défaut) Demande les instructions de conduite standard à l’aide du réseau routier. |
      | `Walking` | Demande des instructions de marche en utilisant des chemins piétonniers et des trottoirs (le cas échéant). |
-     | `Bicycling` | Demande des instructions cyclables en utilisant des pistes cyclables et des rues préférées (le cas échéant). La variable [Service de matrice de distance][4] est disponible uniquement aux États-Unis et dans certaines villes canadiennes. |
+     | `Bicycling` | Demande des instructions cyclables en utilisant des pistes cyclables et des rues préférées (le cas échéant). Le [Distance Matrix Service][4] est disponible uniquement aux États-Unis et dans certaines villes canadiennes. |
 
    - Pour **[!UICONTROL Value]**, sélectionnez un type de valeur :
 
@@ -104,37 +104,37 @@ La clé provient de la fonction [Plateforme Google Maps][1] et doivent avoir [AP
      | `Distance` | (Par défaut) Renvoie la distance entre les points en mesures (kilomètres et mètres) ou impériale (kilomètres et pieds). |
      | `Time to Destination` | Renvoie le temps nécessaire pour voyager des emplacements sources vers l’adresse d’expédition en heures et minutes. |
 
-   ![Fournisseur de distance Google](assets/config-catalog-inventory-distance-provider-settings.png){width="350" zoomable="yes"}
+   ![Fournisseur d’instances Google](assets/config-catalog-inventory-distance-provider-settings.png){width="350" zoomable="yes"}
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 ## Utilisation du calcul hors ligne
 
-Les calculs hors ligne utilisent des codes pays pour déterminer la distance entre la destination de livraison et les adresses source. Cette option peut nécessiter l’aide du développeur pour la configuration. Utilisez une [!DNL Inventory Management] Commande d’interface de ligne de commande pour télécharger et importer des données à partir de [geonames.org][5].
+Les calculs hors ligne utilisent des codes pays pour déterminer la distance entre la destination de livraison et les adresses source. Cette option peut nécessiter l’aide du développeur pour la configuration. Utilisez une commande d’interface de ligne de commande [!DNL Inventory Management] pour télécharger et importer des données à partir de [geonames.org][5].
 
 >[!NOTE]
 >
->Les géocodes importés depuis [geonames.org][5] ont des limites pour certains pays, comme le Canada et l&#39;Irlande. Voir [Fichiers de code postal GeoNames][6] pour plus d’informations.
+>Les géocodes importés depuis [geonames.org][5] ont des limites pour certains pays, comme le Canada et l’Irlande. Pour plus d’informations, reportez-vous à la section [Fichiers de code postal GeoNames][6] .
 
 ### Étape 1 : téléchargement et import de géocodes
 
-Effectuez la configuration de ligne de commande complète pour télécharger et importer des pays de codes géographiques vers et où trouver des emplacements sources dans . Cette étape peut nécessiter l’aide des développeurs pour les tâches de ligne de commande. Voir [Importer des géocodes](cli.md#import-geocodes).
+Effectuez la configuration de ligne de commande complète pour télécharger et importer des pays de codes géographiques vers et où trouver des emplacements sources dans . Cette étape peut nécessiter l’aide des développeurs pour les tâches de ligne de commande. Reportez-vous à la section [Importer des géocodes](cli.md#import-geocodes).
 
 Exécutez ces commandes chaque fois que vous souhaitez ajouter d’autres codes géographiques.
 
 ### Etape 2 : paramétrer le calcul
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et choisissez **[!UICONTROL Inventory]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur _[!UICONTROL Distance Provider for Distance Based SSA]_.
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur _[!UICONTROL Distance Provider for Distance Based SSA]_.
 
-1. Désélectionnez l’option **[!UICONTROL Use system value]** case à cocher et définition **[!UICONTROL Provider]** to `Offline Calculation`.
+1. Décochez la case **[!UICONTROL Use system value]** et définissez **[!UICONTROL Provider]** sur `Offline Calculation`.
 
-   ![Fournisseurs de distance pour l’ASS basée sur les distances](assets/inventory-distance-offline.png){width="350" zoomable="yes"}
+   ![Fournisseurs de distance pour SSA basée sur les distances](assets/inventory-distance-offline.png){width="350" zoomable="yes"}
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 [1]: https://cloud.google.com/maps-platform/
 [2]: https://developers.google.com/maps/documentation/geocoding/start

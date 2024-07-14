@@ -12,20 +12,20 @@ ht-degree: 0%
 
 # Révision des rapports
 
-Si vous utilisez le module intégré [!DNL Commerce] Les révisions et les rapports de révision fournissent des informations sur les révisions de produits par client et par produit.
+Si vous utilisez les [!DNL Commerce] révisions intégrées, les rapports de révision fournissent des informations sur les révisions de produits par client et par produit.
 
 ## [!UICONTROL Customer Reviews Report]
 
-La variable [!UICONTROL Customer Reviews Report] fournit une liste de tous les clients qui ont soumis des révisions de produit. Le rapport inclut le nombre de révisions soumises par chaque client, ainsi qu’un lien vers la liste des révisions.
+[!UICONTROL Customer Reviews Report] fournit une liste de tous les clients qui ont soumis des révisions de produit. Le rapport inclut le nombre de révisions soumises par chaque client, ainsi qu’un lien vers la liste des révisions.
 
-Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Customers]**.
+Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Customers]**.
 
-![Rapport de révision par clients](./assets/customer-reviews.png){width="600"}
+![Réviser Le Rapport Par Les Clients](./assets/customer-reviews.png){width="600"}
 
 ## [!UICONTROL Product Reviews Report]
 
-La variable [!UICONTROL Product Reviews Report] répertorie tous les produits qui ont été examinés par les clients. Le rapport inclut le nombre de révisions et la note moyenne, le dernier examen du produit et un lien vers la liste des révisions pour chaque produit.
+[!UICONTROL Product Reviews Report] répertorie tous les produits qui ont été examinés par les clients. Le rapport inclut le nombre de révisions et la note moyenne, le dernier examen du produit et un lien vers la liste des révisions pour chaque produit.
 
-Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Products]**.
+Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Products]**.
 
 ![Rapport de révision par produit](./assets/product-reviews.png){width="600"}

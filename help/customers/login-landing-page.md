@@ -14,21 +14,21 @@ ht-degree: 0%
 
 Vous pouvez configurer votre boutique pour rediriger les clients vers le tableau de bord de leur compte une fois qu’ils se sont connectés ou les laisser continuer à effectuer des achats.
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Customers]** et choisissez **[!UICONTROL Customer Configuration]**.
 
-1. Développez l’objet **[!UICONTROL Login Options]** .
+1. Développez la section **[!UICONTROL Login Options]** .
 
    ![Options de connexion](assets/customer-configuration-login-options.png){width="600" zoomable="yes"}
 
-1. Définir **[!UICONTROL Redirect Customer to Account Dashboard after Logging in]** à l’une des options suivantes :
+1. Définissez **[!UICONTROL Redirect Customer to Account Dashboard after Logging in]** sur l’une des options suivantes :
 
    - `Yes` - Le tableau de bord du compte s’affiche lorsque les clients se connectent à leurs comptes.
    - `No` - Les clients peuvent continuer à effectuer des achats après s’être connectés à leurs comptes.
 
    >[!INFO]
    >
-   >Si nécessaire, effacez le **[!UICONTROL User system value]** pour apporter la modification.
+   >Si nécessaire, décochez la case **[!UICONTROL User system value]** pour apporter la modification.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.

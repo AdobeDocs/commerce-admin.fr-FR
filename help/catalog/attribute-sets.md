@@ -16,21 +16,21 @@ Lors de la création d’un produit, l’une des premières étapes consiste à 
 
 Les attributs sont organisés en groupes qui déterminent où ils apparaissent dans l’enregistrement de produit. Votre magasin est fourni avec un jeu d’attributs initial (appelé _default_) qui comprend un ensemble d’attributs couramment utilisés. Si vous souhaitez n’ajouter que quelques attributs, vous pouvez les ajouter à ce jeu d’attributs par défaut. Si vous vendez des produits qui nécessitent des types d’informations spécifiques, il peut être préférable de créer un ensemble d’attributs dédié qui inclut les attributs spécifiques nécessaires au produit.
 
-![Jeux d’attributs](./assets/attribute-sets.png){width="700" zoomable="yes"}
+![Visionneuses d’attributs](./assets/attribute-sets.png){width="700" zoomable="yes"}
 
 ## Création d’un jeu d’attributs
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**.
 
 1. Cliquez sur **[!UICONTROL Add New Set]**.
 
-   ![Jeu d’attributs - nom de modification](./assets/attribute-set-new.png){width="600" zoomable="yes"}
+   ![Ensemble d’attributs - nom de modification](./assets/attribute-set-new.png){width="600" zoomable="yes"}
 
 1. Saisissez un **[!UICONTROL Name]** pour le jeu d’attributs.
 
-1. Définir **[!UICONTROL Based On]** à un jeu d’attributs existant à utiliser comme modèle.
+1. Définissez **[!UICONTROL Based On]** sur un jeu d’attributs existant à utiliser comme modèle.
 
-1. click **[!UICONTROL Save]**.
+1. cliquez sur **[!UICONTROL Save]**.
 
    La page suivante affiche les informations suivantes :
 
@@ -38,35 +38,35 @@ Les attributs sont organisés en groupes qui déterminent où ils apparaissent d
    - Le centre de la page répertorie la sélection actuelle des groupes d’attributs.
    - La colonne de droite répertorie la sélection des attributs qui ne sont actuellement pas affectés au jeu d’attributs.
 
-1. Pour ajouter un attribut à la visionneuse, faites glisser l’attribut depuis la **[!UICONTROL Unassigned Attributes]** vers le dossier approprié dans la **[!UICONTROL Groups]** colonne .
+1. Pour ajouter un attribut à l’ensemble, faites glisser l’attribut de la liste **[!UICONTROL Unassigned Attributes]** vers le dossier approprié dans la colonne **[!UICONTROL Groups]**.
 
    >[!NOTE]
    >
-   >Les attributs système sont marqués par un point et ne peuvent pas être supprimés de la variable _[!UICONTROL Groups]_liste. Ils peuvent toutefois être déplacés vers un autre groupe du jeu d’attributs.
+   >Les attributs système sont marqués par un point et ne peuvent pas être supprimés de la liste _[!UICONTROL Groups]_. Ils peuvent toutefois être déplacés vers un autre groupe du jeu d’attributs.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
 
-![Jeu d’attributs - Modifier](./assets/attribute-set-edit.png){width="600" zoomable="yes"}
+![Ensemble d’attributs - edit](./assets/attribute-set-edit.png){width="600" zoomable="yes"}
 
 ## Création d’un groupe d’attributs
 
-1. Dans le _[!UICONTROL Groups]_colonne du jeu d’attributs, cliquez sur **[!UICONTROL Add New]**.
+1. Dans la colonne _[!UICONTROL Groups]_du jeu d’attributs, cliquez sur **[!UICONTROL Add New]**.
 
 1. Saisissez un **[!UICONTROL Name]** pour le nouveau groupe, puis cliquez sur **[!UICONTROL OK]**.
 
 1. Effectuez l’une des opérations suivantes :
 
-   - Glisser **[!UICONTROL Unassigned Attributes]** au nouveau groupe.
+   - Faites glisser **[!UICONTROL Unassigned Attributes]** vers le nouveau groupe.
    - Faites glisser les attributs de n’importe quel autre groupe vers le nouveau groupe.
 
    Le nouveau groupe devient une section d’attributs dans n’importe quel produit basé sur le jeu d’attributs.
 
 ## Suppression d’un jeu d’attributs
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**.
 
 1. Sélectionnez l’ensemble d’attributs dans la liste et ouvrez-le en mode d’édition.
 
 1. Cliquez sur **[!UICONTROL Delete]**.
 
-1. Lorsque vous y êtes invité, cliquez sur **[!UICONTROL OK]**.
+1. Lorsque vous êtes invité à confirmer l’opération, cliquez sur **[!UICONTROL OK]**.

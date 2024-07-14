@@ -6,8 +6,8 @@ role: Admin
 feature: Currency, Configuration, Data Import/Export
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 2%
+source-wordcount: '351'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Voir [Configuration des devises](../../stores-purchase/currency-configuration.md) pour plus d’informations sur ces configurations.
+>Voir [Configuration de devise](../../stores-purchase/currency-configuration.md) pour plus d’informations sur ces configurations.
 
 ## [!UICONTROL Currency Options]
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Base Currency] | Site Web | Devise principale utilisée pour toutes les transactions de paiement en ligne. Pour plusieurs vues de magasin, la portée du prix doit être définie dans la variable [Catalogue](../catalog/catalog.md) configuration. |
+| [!UICONTROL Base Currency] | Site Web | Devise principale utilisée pour toutes les transactions de paiement en ligne. Pour plusieurs vues de magasin, la portée du prix doit être définie dans la configuration [Catalog](../catalog/catalog.md). |
 | [!UICONTROL Default Display Currency] | Affichage en magasin | Devise principale utilisée pour afficher les prix. |
 | [!UICONTROL Allowed Currencies] | Affichage en magasin | Les devises acceptées par votre boutique pour paiement. |
 
@@ -35,36 +35,36 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->À compter de la version 2.4.6, la variable [[!DNL Fixer.io]](https://fixer.io/) est obsolète et remplacé par le service [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api) service. Il est vivement recommandé d’utiliser un compte APILayer plutôt qu’un compte obsolète. [!DNL Fixer.io] compte .
+>À compter de la version 2.4.6, le service [[!DNL Fixer.io]](https://fixer.io/) est obsolète et remplacé par le service [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api). Il est vivement recommandé d’utiliser un compte APILayer au lieu d’un compte [!DNL Fixer.io] obsolète.
 
-![Configuration de devise > Fixer.io](./assets/currency-setup-fixer.png)<!-- zoom -->
+![ Configuration de devise > Fixer.io](./assets/currency-setup-fixer.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL API key] | Global | Clé utilisée pour accéder au service de conversion via votre [!DNL fixer.io] compte . Pour plus d’informations, voir [[!DNL fixer.io]](https://fixer.io/). |
+| [!UICONTROL API key] | Global | Clé utilisée pour accéder au service de conversion via votre compte [!DNL fixer.io]. Pour plus d&#39;informations, voir [[!DNL fixer.io]](https://fixer.io/). |
 | [!UICONTROL Connection Timeout in Seconds] | Global | Détermine le nombre de secondes d’inactivité avant l’expiration d’une session Fixer.io. Valeur par défaut : `100` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Fixer Api (APILayer)]
 
-![Configuration De La Devise > Api Du Correcteur (APILayer)](./assets/currency-setup-fixer-api.png)<!-- zoom -->
+![Configuration de devise > Api du correcteur (APILayer)](./assets/currency-setup-fixer-api.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL API key] | Global | Clé utilisée pour accéder au service de conversion via votre [!DNL APILayer] compte . Pour plus d’informations, voir [[!DNL APILayer]](https://apilayer.com/). |
-| [!UICONTROL Connection Timeout in Seconds] | Global | Détermine le nombre de secondes d’inactivité avant un événement [!DNL APILayer] la session expire. La valeur par défaut est `100`. |
+| [!UICONTROL API key] | Global | Clé utilisée pour accéder au service de conversion via votre compte [!DNL APILayer]. Pour plus d&#39;informations, voir [[!DNL APILayer]](https://apilayer.com/). |
+| [!UICONTROL Connection Timeout in Seconds] | Global | Détermine le nombre de secondes d’inactivité avant l’expiration d’une session [!DNL APILayer]. La valeur par défaut est `100`. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Currency Converter API]
 
-![Configuration de devise > API de convertisseur de devises](./assets/currency-setup-converter.png)<!-- zoom -->
+![ Configuration de devise > API de convertisseur de devises](./assets/currency-setup-converter.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL API key] | Global | Clé utilisée pour accéder au service de conversion. Pour plus d’informations, voir [[!DNL Currency Convertor] API](https://free.currencyconverterapi.com/). |
-| [!UICONTROL Connection Timeout in Seconds] | Global | Détermine le nombre de secondes d’inactivité avant un événement [!DNL Currency Converter] la session expire. Valeur par défaut :`100` |
+| [!UICONTROL Connection Timeout in Seconds] | Global | Détermine le nombre de secondes d’inactivité avant l’expiration d’une session [!DNL Currency Converter]. Valeur par défaut :`100` |
 
 {style="table-layout:auto"}
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Affichage en magasin | Détermine si l’importation planifiée est activée pour les taux de change. Options : `Yes` / `No` |
-| [!UICONTROL Service] | Affichage en magasin | Indique le service qui fournit les données pour l’importation planifiée. La valeur par défaut est `fixer.io` |
+| [!UICONTROL Service] | Affichage en magasin | Indique le service qui fournit les données pour l’importation planifiée. La valeur par défaut est `fixer.io` |
 | [!UICONTROL Start Time] | Affichage en magasin | Indique l’heure de début par heure, minute et seconde, sur la base d’une horloge de 24 heures. |
 | [!UICONTROL Frequency] | Affichage en magasin | Détermine la fréquence de l’importation planifiée. Options : `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Error Email Recipient] | Affichage en magasin | Identifie l’adresse électronique de chaque personne qui est informée par courrier électronique des erreurs d’importation planifiées. Pour plusieurs destinataires, séparez chaque entrée par une virgule. |

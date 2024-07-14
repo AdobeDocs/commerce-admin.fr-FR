@@ -5,7 +5,7 @@ exl-id: 818c012a-ad46-458f-83e5-5873bc996758
 feature: Catalog Management, Categories
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Avant d’ajouter des produits à votre catalogue, vous devez établir la structure de catégorie de base de votre catalogue. Les produits peuvent être affectés à aucune ou plusieurs catégories. En règle générale, les catégories sont créées à l’avance, avant que les produits ne soient ajoutés au catalogue. Cependant, vous pouvez également ajouter des catégories _à la volée_ lors de la création d’un produit. La structure de catégorie du catalogue est reflétée par le menu principal — ou [navigation supérieure](navigation-top.md) — du magasin.
 
-![Arborescence de catégories](./assets/category-selected.png){width="700" zoomable="yes"}
+![Arborescence de catégorie](./assets/category-selected.png){width="700" zoomable="yes"}
 
 | Contrôle | Description |
 |--- |--- |
@@ -32,10 +32,10 @@ Avant d’ajouter des produits à votre catalogue, vous devez établir la struct
 
 ## Ressources de dépannage
 
-Pour obtenir de l’aide sur la résolution des problèmes liés aux catégories, reportez-vous aux articles suivants de la base de connaissances de l’assistance clientèle de Commerce :
+Pour obtenir de l’aide sur le dépannage des problèmes de catégorie, reportez-vous aux articles suivants de la base de connaissances de prise en charge de Commerce :
 
-- [Les modifications apportées aux catégories ne sont pas enregistrées.](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
-- [Menu principal (Catégories) non affiché sur les sous-pages dont l’option est Fastly](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
-- [Produits manquants provenant de catégories, liés à l’indexation](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-30977-magento-patch-missing-products-from-categories-indexing-related.html)
+- [Les modifications apportées aux catégories ne sont pas enregistrées](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
+- [Menu principal (Catégories) non affiché sur les sous-pages dont la fonction est Fastly activée](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
+- [Produits manquants des catégories, indexés ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-30977-magento-patch-missing-products-from-categories-indexing-related.html)
 - [Mémoire insuffisante pour certaines catégories](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-19/mdva-31307-magento-patch-out-of-memory-on-certain-categories.html)
-- [Produits et catégories non affichés](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-18/mdva-34695-magento-patch-products-and-categories-not-displaying.html)
+- [ Produits et catégories ne s’affichant pas ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-18/mdva-34695-magento-patch-products-and-categories-not-displaying.html)

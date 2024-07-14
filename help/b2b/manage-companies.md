@@ -15,15 +15,15 @@ ht-degree: 0%
 
 # Gestion des entreprises
 
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible uniquement pour les participants au programme bêta"}
+[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible uniquement pour les participants au programme Beta"}
 
 La gestion des entreprises simplifie les opérations commerciales pour les entreprises aux structures organisationnelles complexes. Les utilisateurs administrateurs peuvent créer une hiérarchie d’entreprise pour refléter une organisation B2B en affectant des sociétés à la société mère désignée. Cette affectation permet à l’administrateur de la société mère d’afficher et de gérer les entreprises au sein de l’organisation.
 
-Lancer les tâches de gestion de l’entreprise à partir de la fonction *[!UICONTROL Companies]* vue. Depuis l’administrateur, accédez à  **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+Exécutez les tâches de gestion de l’entreprise à partir de la vue *[!UICONTROL Companies]*. Depuis l’administrateur, accédez à **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
 ![Grille de gestion des entreprises B2B](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-Dans le *[!UICONTROL Companies grid]*, la variable *[!UICONTROL Company Type]* indique si une entreprise est gérée dans le cadre d’une organisation ou dans le cadre d’une entreprise distincte.
+Dans la colonne *[!UICONTROL Companies grid]*, la colonne *[!UICONTROL Company Type]* indique si une entreprise est gérée dans le cadre d’une organisation ou dans le cadre d’une entreprise distincte.
 
 - `Parent` est une entreprise à laquelle une ou plusieurs sociétés sont affectées. Une société mère ne peut pas être affectée en tant qu’enfant d’une autre société.
 
@@ -31,16 +31,16 @@ Dans le *[!UICONTROL Companies grid]*, la variable *[!UICONTROL Company Type]* i
 
 - `Company` représente une seule société. Une seule société peut faire partie d’une organisation en en en faisant une société mère ou en l’affectant à une société mère existante.
 
-Lorsque vous modifiez une société mère ou enfant, développez *[!UICONTROL Company Hierarchy]* pour afficher toutes les entreprises de l’entreprise. A `Current` indicateur indique la société que vous modifiez.
+Lorsque vous modifiez une société mère ou fille, développez *[!UICONTROL Company Hierarchy]* pour afficher toutes les entreprises de l’organisation. Un indicateur `Current` indique la société que vous êtes en train de modifier.
 
-![Grille Hiérarchie d’entreprise B2B](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
+![Grille hiérarchique de l’entreprise B2B](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
 
 
 ## Afficher et configurer le [!UICONTROL Company Hierarchy]
 
-Lors de la création initiale de l’entreprise, la variable [!UICONTROL Company Hierarchy] grid est vide. Il est également vide si la société est une seule société.
+Lors de la création initiale de l’entreprise, la grille [!UICONTROL Company Hierarchy] est vide. Il est également vide si la société est une seule société.
 
-![Grille de hiérarchie des entreprises B2B](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+![Grille hiérarchique d’entreprise B2B](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
 
 Pour les sociétés parentes, les utilisateurs administrateurs disposant des autorisations appropriées peuvent effectuer les tâches suivantes :
 

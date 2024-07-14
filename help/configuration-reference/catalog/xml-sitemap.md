@@ -23,7 +23,7 @@ ht-degree: 2%
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Affichage en magasin | Détermine la fréquence de mise à jour des catégories du plan de site. Options : `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Affichage en magasin | Une valeur entre `0.0` et `1.0` qui détermine la priorité des mises à jour du plan de site de catégorie par rapport à d’autres contenus. Zéro (`0.0`) a la priorité la plus faible. |
+| [!UICONTROL Priority] | Affichage en magasin | Une valeur comprise entre `0.0` et `1.0` qui détermine la priorité des mises à jour du plan de site de catégorie par rapport à d’autres contenus. Zéro (`0.0`) a la priorité la plus faible. |
 
 {style="table-layout:auto"}
 
@@ -36,21 +36,21 @@ ht-degree: 2%
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Affichage en magasin | Détermine la fréquence de mise à jour des produits du plan de site. Options : `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Affichage en magasin | Une valeur entre `0.0` et `1.0` qui détermine la priorité des mises à jour du plan de site du produit par rapport à d’autres contenus. Zéro (`0.0`) a la priorité la plus faible. |
+| [!UICONTROL Priority] | Affichage en magasin | Une valeur comprise entre `0.0` et `1.0` qui détermine la priorité des mises à jour du plan de site du produit par rapport à d’autres contenus. Zéro (`0.0`) a la priorité la plus faible. |
 | [!UICONTROL Add Images into Sitemap] | Affichage en magasin | Détermine l’étendue de l’inclusion des images dans le plan du site. Options : `None` / `Base Only` / `All` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL CMS Pages Options]
 
-![Options des pages CMS](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
+![Options de pages CMS](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
 
 <!-- [CMS Pages Options](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Affichage en magasin | Détermine la fréquence de mise à jour des pages CMS du plan de site. Options : `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Affichage en magasin | Une valeur entre `0.0` et `1.0` qui détermine la priorité des mises à jour du plan de site de la page CMS par rapport à d’autres contenus. Zéro (`0.0`) a la priorité la plus faible. |
+| [!UICONTROL Priority] | Affichage en magasin | Une valeur comprise entre `0.0` et `1.0` qui détermine la priorité des mises à jour du plan de site de la page CMS par rapport à d’autres contenus. Zéro (`0.0`) a la priorité la plus faible. |
 
 {style="table-layout:auto"}
 
@@ -59,7 +59,7 @@ ht-degree: 2%
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Affichage en magasin | Détermine la fréquence de mise à jour des URL de stockage. Options : `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Affichage en magasin | Une valeur entre `0.0` et `1.0` qui détermine la priorité des mises à jour des URL de magasin par rapport à d’autres contenus. Zéro (`0.0`) a la priorité la plus faible. |
+| [!UICONTROL Priority] | Affichage en magasin | Une valeur comprise entre `0.0` et `1.0` qui détermine la priorité des mises à jour de l’URL de magasin par rapport à d’autres contenus. Zéro (`0.0`) a la priorité la plus faible. |
 
 {style="table-layout:auto"}
 
@@ -82,7 +82,7 @@ ht-degree: 2%
 
 ## [!UICONTROL Sitemap File Limits]
 
-![Limites des fichiers du plan de site](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
+![ Limites de fichier plan du site ](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
 
 <!-- [Sitemap File Limits](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 

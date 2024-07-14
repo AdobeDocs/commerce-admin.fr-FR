@@ -5,14 +5,14 @@ exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1002'
 ht-degree: 3%
 
 ---
 
 # Expédition du taux de change
 
-La variable _taux de la table_ le mode d’expédition référence un tableau de données pour calculer les taux d’expédition en fonction d’une combinaison de conditions, notamment :
+La méthode d’expédition _table rate_ fait référence à un tableau de données pour calculer les taux d’expédition en fonction d’une combinaison de conditions, notamment :
 
 - Poids v. destination
 - Prix v. Destination
@@ -32,33 +32,33 @@ Les données utilisées pour calculer les taux des tableaux sont préparées dan
 
 La première étape consiste à renseigner les paramètres par défaut pour les taux de tableau. Vous pouvez effectuer cette étape sans modifier la portée de la configuration.
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le _[!UICONTROL Sales]_dans le panneau de gauche, choisissez **[!UICONTROL Delivery Methods]**.
+1. Dans la section _[!UICONTROL Sales]_du panneau de gauche, choisissez **[!UICONTROL Delivery Methods]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Table Rates]** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Table Rates]** .
 
    >[!NOTE]
    >
-   >Si nécessaire, effacez d’abord la variable **[!UICONTROL Use system value]** pour modifier les paramètres suivants, comme décrit.
+   >Si nécessaire, décochez d’abord la case **[!UICONTROL Use system value]** pour modifier les paramètres suivants, comme décrit.
 
-   ![Taux sur les tableaux](../configuration-reference/sales/assets/delivery-methods-table-rates.png){width="600" zoomable="yes"}
+   ![Taux de table](../configuration-reference/sales/assets/delivery-methods-table-rates.png){width="600" zoomable="yes"}
 
-1. Définir **[!UICONTROL Enabled]** to `Yes`.
+1. Définissez **[!UICONTROL Enabled]** sur `Yes`.
 
-1. Saisissez le **[!UICONTROL Title]** que vous souhaitez afficher pour la section taux de tableau lors du passage en caisse.
+1. Saisissez le **[!UICONTROL Title]** que vous souhaitez afficher pour la section des taux de table lors du passage en caisse.
 
-   Le titre par défaut est : `Best Way`.
+   Le titre par défaut est `Best Way`.
 
-1. Saisissez le **[!UICONTROL Method Name]** que vous souhaitez afficher sous forme de libellé en regard du taux calculé dans le panier.
+1. Saisissez le **[!UICONTROL Method Name]** que vous souhaitez afficher en tant que libellé en regard du taux calculé dans le panier.
 
-1. Définir **[!UICONTROL Condition]** à l’une des méthodes de calcul suivantes :
+1. Définissez **[!UICONTROL Condition]** sur l’une des méthodes de calcul suivantes :
 
    - `Weight v. Destination`
    - `Price v. Destination`
    - `Number of Items v. Destination`
 
-1. Pour les commandes qui incluent des produits virtuels, définissez **[!UICONTROL Include Virtual Products in Price Calculation]** to `Yes` si vous souhaitez pouvoir inclure les produits virtuels dans le calcul.
+1. Pour les commandes qui incluent des produits virtuels, définissez **[!UICONTROL Include Virtual Products in Price Calculation]** sur `Yes` si vous souhaitez pouvoir inclure les produits virtuels dans le calcul.
 
    >[!NOTE]
    >
@@ -68,70 +68,70 @@ La première étape consiste à renseigner les paramètres par défaut pour les 
 
    Les frais de gestion sont facultatifs et s’affichent sous la forme de frais supplémentaires, ajoutés aux frais d’expédition. Si vous souhaitez inclure des frais de traitement, procédez comme suit :
 
-   - Définir **[!UICONTROL Calculate Handling Fee]**:
+   - Définissez **[!UICONTROL Calculate Handling Fee]** :
 
       - `Fixed`
       - `Percent`
 
-   - Saisissez le **[!UICONTROL Handling Fee]** taux en fonction de la méthode de calcul de la taxe.
+   - Saisissez le taux **[!UICONTROL Handling Fee]** en fonction de la méthode de calcul de la taxe.
 
-     Si, par exemple, les frais sont calculés à partir d’une somme fixe, saisissez la valeur décimale, par exemple `4.90`. Toutefois, si les frais de traitement sont basés sur un pourcentage de la commande, saisissez le montant en pourcentage. Par exemple, si vous facturez 6 % de la commande, saisissez la valeur `.06`.
+     Par exemple, si le coût est basé sur des frais fixes, saisissez le montant sous forme de décimale, par exemple `4.90`. Toutefois, si les frais de traitement sont basés sur un pourcentage de la commande, saisissez le montant en pourcentage. Par exemple, si vous chargez six pour cent de la commande, saisissez la valeur `.06`.
 
-1. Si nécessaire, modifiez la variable **[!UICONTROL Displayed Error Message]**.
+1. Si nécessaire, modifiez le **[!UICONTROL Displayed Error Message]**.
 
    Cette zone de texte est prédéfinie avec un message par défaut, mais vous pouvez saisir un autre message que vous souhaitez afficher si ce mode de diffusion devient indisponible.
 
-1. Définir **[!UICONTROL Ship to Applicable Countries]**:
+1. Définissez **[!UICONTROL Ship to Applicable Countries]** :
 
-   - `All Allowed Countries` - Clients de tous les [pays](../getting-started/store-details.md#country-options) spécifié dans votre configuration de magasin peut utiliser cette méthode de diffusion.
-   - `Specific Countries` - Lorsque vous sélectionnez cette option, la variable _[!UICONTROL Ship to Specific Countries]_s’affiche. Sélectionnez chaque pays de la liste dans lequel ce mode de diffusion peut être utilisé.
+   - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans votre configuration de magasin peuvent utiliser cette méthode de diffusion.
+   - `Specific Countries` - Lorsque vous choisissez cette option, la liste _[!UICONTROL Ship to Specific Countries]_s’affiche. Sélectionnez chaque pays de la liste dans lequel ce mode de diffusion peut être utilisé.
 
-1. Définir **[!UICONTROL Show Method if Not Applicable]** to `Yes` Si vous souhaitez afficher les taux de tableau en permanence
+1. Définissez **[!UICONTROL Show Method if Not Applicable]** sur `Yes` si vous souhaitez afficher les taux de tableau tout le temps.
 
-1. Pour **[!UICONTROL Sort Order]**, saisissez un nombre afin de déterminer l’ordre dans lequel l’expédition du taux de tableau s’affiche lorsqu’elle est répertoriée avec d’autres méthodes de livraison lors du passage en caisse.
+1. Pour **[!UICONTROL Sort Order]**, saisissez un nombre afin de déterminer l’ordre dans lequel l’expédition du taux de table apparaît lorsqu’elle est répertoriée avec d’autres méthodes de remise lors du passage en caisse.
 
-   `0` = first, `1` = second, `2` = troisième, etc.
+   `0` = premier, `1` = second, `2` = troisième, etc.
 
 1. Cliquez sur **[!UICONTROL Save Config]**.
 
 ## Etape 2 : Préparation des données de taux du tableau
 
-1. Dans le coin supérieur gauche, définissez **[!UICONTROL Store View]** to `Main Website`, ou à tout autre site web sur lequel la configuration s’applique.
+1. Dans le coin supérieur gauche, définissez **[!UICONTROL Store View]** sur `Main Website` ou sur tout autre site web sur lequel s’applique la configuration.
 
    >[!NOTE]
    >
-   >Si nécessaire, désélectionnez tout d’abord l’option **[!UICONTROL Use system value]** pour modifier les paramètres suivants, comme décrit.
+   >Si nécessaire, désélectionnez tout d’abord la case à cocher **[!UICONTROL Use system value]** pour modifier les paramètres suivants, comme décrit.
 
-1. Modifiez la variable **[!UICONTROL Condition]** selon les besoins.
+1. Modifiez le **[!UICONTROL Condition]** selon vos besoins.
 
 1. Cliquez sur **[!UICONTROL Export CSV]**.
 
-   ![Exportation CSV](./assets/shipping-table-rates-export.png){width="700" zoomable="yes"}
+   ![Exporter CSV](./assets/shipping-table-rates-export.png){width="700" zoomable="yes"}
 
-1. Enregistrez le `tablerates.csv` sur votre système.
+1. Enregistrez le fichier `tablerates.csv` sur votre système.
 
 1. Ouvrez le fichier dans une application de feuille de calcul.
 
 1. Complétez le tableau avec les valeurs appropriées pour la condition de calcul de l’expédition.
 
    - Utilisez un astérisque (*) comme caractère générique qui représente toutes les valeurs possibles dans n’importe quelle catégorie.
-   - La variable _[!UICONTROL Country]_doit contenir une colonne [code à trois caractères valide][1] pour chaque ligne.
-   - Trier les données par _[!UICONTROL Region/State]_ainsi, les emplacements spécifiques se trouvent en haut de la liste et les emplacements avec caractères génériques en bas de la liste. L’utilisation de cette méthode traite d’abord les règles avec les valeurs absolues et ensuite les valeurs du caractère générique.
-   - Les valeurs de la variable _[!UICONTROL Weight (and above)]_peut contenir, au maximum, quatre décimales (telles que `2.5075`). L’utilisation de davantage de décimales dans les données entraîne l’échec de l’importation.
+   - La colonne _[!UICONTROL Country]_doit contenir un [code à trois caractères valide][1] pour chaque ligne.
+   - Triez les données par _[!UICONTROL Region/State]_afin que les emplacements spécifiques soient en haut de la liste et les emplacements de caractères génériques en bas de la liste. L’utilisation de cette méthode traite d’abord les règles avec les valeurs absolues et ensuite les valeurs du caractère générique.
+   - Les valeurs de la colonne _[!UICONTROL Weight (and above)]_peuvent avoir un maximum de quatre décimales (telles que `2.5075`). L’utilisation de davantage de décimales dans les données entraîne l’échec de l’importation.
 
-   ![Poids par rapport à la destination (Australie)](./assets/table-rates-weight-destination-csv.png){width="500"}
+   ![ Poids/Destination (Australie)](./assets/table-rates-weight-destination-csv.png){width="500"}
 
-1. Enregistrez le `tablerates.csv` fichier .
+1. Enregistrez le fichier `tablerates.csv`.
 
 ## Etape 3 : Importer les données du taux du tableau
 
-1. Revenez au **[!UICONTROL Table Rates]** de votre configuration de magasin.
+1. Revenez à la section **[!UICONTROL Table Rates]** de votre configuration de magasin.
 
 1. Dans le coin supérieur gauche, définissez **[!UICONTROL Store View]** sur le site web sur lequel cette méthode est utilisée.
 
-1. Pour **[!UICONTROL Import]**, cliquez sur **[!UICONTROL Choose File]** et sélectionnez votre `tablerates.csv` pour importer les taux.
+1. Pour **[!UICONTROL Import]**, cliquez sur **[!UICONTROL Choose File]** et sélectionnez votre fichier `tablerates.csv` terminé pour importer les taux.
 
-   ![Taux d’importation du tableau](./assets/shipping-table-rates-import.png){width="600" zoomable="yes"}
+   ![Importer des taux de tableau](./assets/shipping-table-rates-import.png){width="600" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Save Config]**.
 
@@ -163,20 +163,20 @@ Cet exemple utilise la condition Poids v. Destination pour créer différents ta
 
 | PAYS | RÉGION/ETAT | CODE POSTAL/ZIP | POIDS (et supérieur) | PRIX D&#39;EXPÉDITION |
 |--- |--- |--- |--- |--- |
-| AUS | NT | * | 9 | 39.95 |
-| AUS | NT | * | 0 | 19.95 |
-| AUS | VIC | * | 9 | 19.95 |
-| AUS | VIC | * | 0 | 5.95 |
-| AUS | WA | * | 9 | 39.95 |
-| AUS | WA | * | 0 | 19.95 |
-| AUS | * | * | 9 | 29.95 |
-| AUS | * | * | 0 | 9.95 |
+| AUS | NT | * | 9 | 39,95 |
+| AUS | NT | * | 0 | 19,95 |
+| AUS | VIC | * | 9 | 19,95 |
+| AUS | VIC | * | 0 | 5,95 |
+| AUS | WA | * | 9 | 39,95 |
+| AUS | WA | * | 0 | 19,95 |
+| AUS | * | * | 9 | 29,95 |
+| AUS | * | * | 0 | 9,95 |
 
 {style="table-layout:auto"}
 
 ### Exemple 3 : limitation de la livraison gratuite vers les États-Unis continentaux
 
-1. Créez un `tablerates.csv` fichier contenant toutes les destinations d’état auxquelles vous êtes prêt à fournir la livraison gratuite.
+1. Créez un fichier `tablerates.csv` qui comprend toutes les destinations d’état auxquelles vous êtes prêt à fournir la livraison gratuite.
 
 1. Renseignez la configuration du taux du tableau avec les paramètres suivants :
 
@@ -190,9 +190,9 @@ Cet exemple utilise la condition Poids v. Destination pour créer différents ta
 
    {style="table-layout:auto"}
 
-1. Dans le coin supérieur gauche, définissez **[!UICONTROL Store View]** to `Main Website`, ou à tout autre site web sur lequel la configuration s’applique.
+1. Dans le coin supérieur gauche, définissez **[!UICONTROL Store View]** sur `Main Website` ou sur tout autre site web sur lequel s’applique la configuration.
 
-1. Pour **[!UICONTROL Import]**, cliquez sur **[!UICONTROL Choose File]** et sélectionnez votre `tablerates.csv` pour importer les taux.
+1. Pour **[!UICONTROL Import]**, cliquez sur **[!UICONTROL Choose File]** et sélectionnez votre fichier `tablerates.csv` terminé pour importer les taux.
 
 
 [1]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3

@@ -18,7 +18,7 @@ Pour accorder à une personne un accès limité à l’administrateur, la premi�
 
 ## Définition d’un rôle
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add New Role]**.
 
@@ -26,11 +26,11 @@ Pour accorder à une personne un accès limité à l’administrateur, la premi�
 
 ### Étape 1 : Ajout du nom du rôle
 
-1. Sous _[!UICONTROL Role Information]_, saisissez une description **[!UICONTROL Role Name]**.
+1. Sous _[!UICONTROL Role Information]_, saisissez un **[!UICONTROL Role Name]**descriptif.
 
 1. Sous _[!UICONTROL Current User Identity Verification]_, saisissez votre mot de passe.
 
-   ![Autorisations système - Informations sur les rôles](./assets/permissions-role-info.png){width="600" zoomable="yes"}
+   ![Autorisations système - informations sur les rôles](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
 ### Etape 2 : affecter des ressources
 
@@ -38,46 +38,46 @@ Pour accorder à une personne un accès limité à l’administrateur, la premi�
 >
 >Lors de l’affectation de ressources, veillez à désactiver l’accès à l’outil Autorisations si vous limitez l’accès pour un rôle donné. Dans le cas contraire, les utilisateurs peuvent modifier leurs propres autorisations.
 
-1. Définir **[!UICONTROL Role Scopes]** à l’une des options suivantes :
+1. Définissez **[!UICONTROL Role Scopes]** sur l’une des options suivantes :
 
    - `All`
    - `Custom`
 
-   Si la variable est définie sur `Custom` pour une installation multi-site, cochez la case du site web et stockez l’emplacement d’utilisation du rôle.
+   Si elle est définie sur `Custom` pour une installation multi-site, cochez la case du site web et stockez l’emplacement d’utilisation du rôle.
 
-   ![Ressources de rôle utilisateur - Portée personnalisée](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
+   ![Ressources de rôle utilisateur - portée personnalisée](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Utilisateurs avec un `Custom` la portée du rôle ne permet pas de créer des sites web et des catégories, d’affecter des produits à des catégories ou de modifier des produits sur _[!UICONTROL All Store Views]_lorsqu’elles sont affectées à des boutiques restreintes. Ces utilisateurs ne peuvent pas non plus effectuer d’autres opérations_ global _actions qui affectent les portées auxquelles ils n’ont pas accès.
+   >Les utilisateurs disposant d’une portée de rôle `Custom` ne peuvent pas créer de sites web et de catégories, affecter des produits à des catégories ou modifier des produits dans une portée _[!UICONTROL All Store Views]_lorsqu’ils sont affectés à des boutiques restreintes. Ces utilisateurs ne peuvent pas non plus effectuer d’autres actions_ global _qui affectent les portées auxquelles ils n’ont pas accès.
 
-1. Sous _[!UICONTROL Roles Resources]_, définit **[!UICONTROL Resource Access]**to `Custom`.
+1. Sous _[!UICONTROL Roles Resources]_, définissez **[!UICONTROL Resource Access]**sur `Custom`.
 
-1. Dans le **[!UICONTROL Resource]** arborescence, cochez la case de chaque fonctionnalité d’administration à laquelle le rôle peut accéder.
+1. Dans l’arborescence **[!UICONTROL Resource]**, cochez la case de chaque fonctionnalité d’administration à laquelle le rôle peut accéder.
 
-   Pour créer un rôle d’administrateur avec accès aux paramètres de taxe, sélectionnez les ressources Ventes/Taxe et Système/Taxe . Si vous configurez un site web pour une région qui diffère de votre valeur par défaut [point d’origine de l’expédition](../stores-purchase/shipping-settings.md#point-of-origin), vous devez autoriser l’accès aux ressources système/d’expédition pour le rôle . Les paramètres d’expédition déterminent le taux de taxe de magasin utilisé pour les prix du catalogue.
+   Pour créer un rôle d’administrateur avec accès aux paramètres de taxe, sélectionnez les ressources Ventes/Taxe et Système/Taxe . Si vous configurez un site web pour une région qui diffère de votre [point d’origine d’expédition par défaut](../stores-purchase/shipping-settings.md#point-of-origin), vous devez autoriser l’accès aux ressources système/d’expédition pour le rôle . Les paramètres d’expédition déterminent le taux de taxe de magasin utilisé pour les prix du catalogue.
 
-   ![Ressources de rôle d’utilisateur attribuées](./assets/permissions-role-resources-product.png){width="600" zoomable="yes"}
+   ![Ressources de rôle d’utilisateur attribué](./assets/permissions-role-resources-product.png){width="600" zoomable="yes"}
 
    La liste des autorisations disponibles peut inclure des options supplémentaires pour les extensions groupées et installées. En sélectionnant l’autorisation la plus élevée pour chaque fonctionnalité, vous attribuez toutes les autorisations disponibles pour l’utilisateur.
 
    >[!NOTE]
    >
-   >Un utilisateur administrateur doit disposer des **[!UICONTROL Sales / Archive]** autorisations pour leur portée de rôle pour afficher la variable _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_, et _[!UICONTROL Shipments]_order [onglets](../stores-purchase/order-processing.md).
+   >Un utilisateur administrateur doit disposer de **[!UICONTROL Sales / Archive]** autorisations pour la portée de son rôle pour voir la commande _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_ et _[!UICONTROL Shipments]_[onglets](../stores-purchase/order-processing.md).
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Role]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Role]**.
 
    Le rôle apparaît désormais dans la grille et peut être affecté à des comptes d’utilisateurs.
 
 ## Attribution d’un rôle aux utilisateurs
 
-1. Dans la _[!UICONTROL Roles]_grille, ouvrez l’enregistrement en mode d’édition.
+1. Dans la grille _[!UICONTROL Roles]_, ouvrez l’enregistrement en mode d’édition.
 
-1. Sous _[!UICONTROL Current User Identity Verification]_, saisissez le mot de passe de votre compte d’utilisateur.
+1. Sous _[!UICONTROL Current User Identity Verification]_, saisissez le mot de passe de votre compte utilisateur.
 
 1. Dans le panneau de gauche, choisissez **[!UICONTROL Role Users]**.
 
-   La variable _[!UICONTROL Role Users]_s’affiche uniquement après l’enregistrement d’un nouveau rôle.
+   L’option _[!UICONTROL Role Users]_ne s’affiche qu’après l’enregistrement d’un nouveau rôle.
 
    ![Comptes utilisateur affectés au rôle](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
@@ -93,7 +93,7 @@ Pour accorder à une personne un accès limité à l’administrateur, la premi�
 
 ## Modification d’un rôle
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
 
 1. Localisez le rôle à l’aide de filtres au-dessus de la grille et cliquez sur le nom du rôle.
 
@@ -103,11 +103,11 @@ Pour accorder à une personne un accès limité à l’administrateur, la premi�
 
 1. Lorsque vous y êtes invité, saisissez votre mot de passe pour confirmer votre identité.
 
-1. Cliquez sur le bouton **[!UICONTROL Save Role]**.
+1. Cliquez sur le **[!UICONTROL Save Role]**.
 
 ## Suppression d’un rôle
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
 
 1. Localisez le rôle à l’aide de filtres au-dessus de la grille et ouvrez-le en mode d’édition.
 
@@ -152,7 +152,7 @@ L’accès aux ressources suivantes peut être affecté à un rôle personnalis�
 |  | [`User Content`](../merchandising-promotions/product-reviews-moderate.md) | [`All Reviews`](../merchandising-promotions/product-reviews.md) <br/>[`Pending Reviews`](../merchandising-promotions/product-reviews-moderate.md) <br/> |  |
 | [`Content`](../content-design/content-menu.md) | [`Elements`](../content-design/content-menu.md#uicontrol-elements)) | [`Pages`](../content-design/pages.md)<br/>[`Hierarchy`](../content-design/page-hierarchy.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Blocks`](../content-design/blocks.md)<br/>[`Dynamic Blocks`](../content-design/dynamic-blocks.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Widgets`](../content-design/widgets.md)<br/>[`Media Gallery`](../content-design/media-gallery.md) |  |
 |  | [`Design`](../content-design/introduction.md#design) | [`Themes`](../content-design/themes.md)<br/>[`Schedule`](../content-design/schedule.md) |  |
-|  | [Évaluation du contenu](../content-design/content-staging.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br /> |  |
+|  | [ ](../content-design/content-staging.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br /> |  |
 | [`Reports`](../getting-started/reports-menu.md) | [`Marketing`](../getting-started/marketing-reports.md) | `Shopping Cart`<br />[`Search Terms`](../catalog/search-terms.md#search-terms-report)<br />`Newsletter Problem Reports` |  |
 |  | [`Reviews`](../getting-started/review-reports.md)<br /> |  |
 |  | [`Sales`](../getting-started/sales-reports.md) |  |

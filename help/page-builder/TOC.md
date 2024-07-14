@@ -1,6 +1,6 @@
 ---
-user-guide-title: "[!DNL Page Builder] Guide de l’utilisateur"
-user-guide-description: Découvrez comment utiliser [!DNL Page Builder] fonctionnalités permettant de créer des pages riches en contenu avec des dispositions personnalisées qui améliorent votre narration visuelle et favorisent l’engagement et la fidélité des clients.
+user-guide-title: "[!DNL Page Builder] User Guide"
+user-guide-description: Découvrez comment utiliser les fonctionnalités  [!DNL Page Builder] pour créer des pages riches en contenu avec des dispositions personnalisées qui améliorent votre narration visuelle et favorisent l’engagement et la fidélité des clients.
 breadcrumb-title: "[!DNL Page Builder]"
 topic: Commerce, Content Management
 feature: Page Builder
@@ -13,10 +13,10 @@ ht-degree: 2%
 ---
 
 
-# [!DNL Page Builder] Guide de l’utilisateur {#page-builder}
+# Guide de l’utilisateur [!DNL Page Builder] {#page-builder}
 
-- [[!DNL Page Builder] Guide de l’utilisateur](guide-overview.md)
-- [Introduction à [!DNL Page Builder]](introduction.md)
+- [Guide de l’utilisateur [!DNL Page Builder]](guide-overview.md)
+- [Présentation de [!DNL Page Builder]](introduction.md)
 - [Notes de mise à jour](release-notes.md)
 - [Configuration et configuration](setup.md)
 - Présentation {#walkthrough}
@@ -34,7 +34,7 @@ ht-degree: 2%
    - [Boutons](buttons.md)
    - [Diviseur](divider.md)
    - [Code HTML](html-code.md)
-- Média {#media}
+- Media {#media}
    - [Image](image.md)
    - [Vidéo](video.md)
    - [Bannière](banner.md)
@@ -46,5 +46,5 @@ ht-degree: 2%
    - [Produits](products.md)
    - [Recommendations de produit](recommendations.md)
 - [Modèles](templates.md)
-- [Revenir aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Retour aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

@@ -6,7 +6,7 @@ role: Admin, Developer
 feature: Site Management, Configuration, System
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Ces paramètres de configuration sont disponibles dans [mode développeur](../../systems/developer-tools.md#operation-modes) uniquement.
+>Ces paramètres de configuration sont disponibles en [mode développeur](../../systems/developer-tools.md#operation-modes) uniquement.
 
 ## [!UICONTROL Frontend Development Workflow]
 
-![Flux de développement Frontière](./assets/developer-frontend-development-workflow.png)<!-- zoom -->
+![Flux de développement front-end](./assets/developer-frontend-development-workflow.png)<!-- zoom -->
 
-Pour plus d’informations sur la modification de ces paramètres, voir [Workflow de développement Frontière](../../systems/developer-tools.md#frontend-development-workflow) dans le _Guide des systèmes d’administration_.
+Pour plus d’informations sur la modification de ces paramètres, voir [Processus de développement Frontend](../../systems/developer-tools.md#frontend-development-workflow) dans le _Guide des systèmes d’administration_.
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -39,26 +39,26 @@ Pour plus d’informations sur la modification de ce paramètre, voir [Restricti
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Allow IPs (comma separated)] | Affichage en magasin | Crée une liste autorisée d’adresses IP qui peuvent utiliser les outils de développement sur un site en direct, sans interférer avec les clients du magasin. Toute modification apportée au site lors de l’utilisation d’un outil de développement tel que _Traduction en ligne_, sont visibles uniquement à partir des adresses IP de la liste autorisée. |
+| [!UICONTROL Allow IPs (comma separated)] | Affichage en magasin | Crée une liste autorisée d’adresses IP qui peuvent utiliser les outils de développement sur un site en direct, sans interférer avec les clients du magasin. Toute modification apportée au site lors de l’utilisation d’un outil de développement tel que _Traduction en ligne_, est visible uniquement à partir des adresses IP de la liste autorisée. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Template Settings]
 
-![Paramètres des modèles](./assets/developer-template-settings.png)<!-- zoom -->
+![Paramètres du modèle](./assets/developer-template-settings.png)<!-- zoom -->
 
 Pour plus d’informations sur la modification de ces paramètres, voir [Optimisation des fichiers de ressources](../../systems/developer-tools.md#optimizing-resource-files) dans le _Guide des systèmes d’administration_.
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Allow Symlinks] | Affichage en magasin | Activation [liens symboliques](https://en.wikipedia.org/wiki/Symbolic_link) peut exposer votre site à des risques de sécurité et n’est pas recommandé pour un magasin de production. |
-| [!UICONTROL Minify Html] | Affichage en magasin | Détermine si le HTML des modèles de magasin est réduit. Options : `Yes` / `No` |
+| [!UICONTROL Allow Symlinks] | Affichage en magasin | L’activation de [liens symboliques](https://en.wikipedia.org/wiki/Symbolic_link) peut exposer votre site à des risques de sécurité et n’est pas recommandée pour un magasin de production. |
+| [!UICONTROL Minify Html] | Affichage en magasin | Détermine si l’HTML des modèles de magasin est réduit. Options : `Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Debug]
 
-![Déboguer](./assets/developer-debug.png)<!-- zoom -->
+![Débogage](./assets/developer-debug.png)<!-- zoom -->
 
 Pour plus d’informations sur la modification de ces paramètres, voir [Conseils sur le chemin du modèle](../../systems/developer-tools.md#template-path-hints) dans le _Guide des systèmes d’administration_.
 
@@ -91,7 +91,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Optimis
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Merge JavaScript Files] | Affichage en magasin | Fusionne plusieurs fichiers JavaScript en un seul fichier afin d’améliorer le temps de chargement des pages. |
+| [!UICONTROL Merge JavaScript Files] | Affichage en magasin | Fusionne plusieurs fichiers JavaScript dans un seul fichier afin d’améliorer le temps de chargement de la page. |
 | [!UICONTROL Enable JavaScript Bundling] | Affichage en magasin | Détermine si plusieurs fichiers JavaScript peuvent être regroupés dans un seul fichier. Options : `Yes` / `No` |
 | [!UICONTROL Minify JavaScript Files] | Affichage en magasin | Supprime les caractères, espaces et retraits inutiles afin de réduire la taille du code. |
 | [!UICONTROL Move JS code to the bottom of the page] | Global | S’il est activé, déplace le code JS au bas de la page. Options : `Yes` / `No` |
@@ -111,7 +111,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Optimis
 |--- |--- |--- |
 | [!UICONTROL Merge CSS Files] | Affichage en magasin | Fusionne plusieurs fichiers CSS en un seul fichier afin d’améliorer le temps de chargement de la page. Options : `Yes` / `No` |
 | [!UICONTROL Minify CSS Files] | Affichage en magasin | Supprime les caractères, espaces et retraits inutiles afin de réduire la taille du code. Options : `Yes` / `No` |
-| [!UICONTROL Use CSS critical path] | Global | La variable _Chemin critique CSS_ fournit une page CSS critique réduite en ligne dans `<head>` et défend tous les styles non critiques qui sont chargés de manière asynchrone. Options : `Yes` / `No` |
+| [!UICONTROL Use CSS critical path] | Global | Le _chemin d’accès critique CSS_ fournit une feuille CSS critique minimisée intégrée dans `<head>` et reporte tous les styles non critiques qui sont chargés de manière asynchrone. Options : `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -151,6 +151,6 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Optimis
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Asynchronous Indexing|Global] | Détermine le moment où les entités du système de traitement des commandes, telles que les commandes, les factures, les envois et les notes de crédit, sont ajoutées à la grille et réindexées. L’indexation asynchrone peut être utilisée pour éviter les verrous sur les données lors des opérations d’enregistrement et pour réduire le temps de traitement. Options : <br/>**`Disable`**- (Par défaut) Les entités liées aux commandes sont ajoutées à la grille à différents moments. à mesure qu&#39;ils sont sauvés.<br/>**`Enable`** - Les entités liées aux commandes ne sont ajoutées à la grille que lors d’une tâche cron planifiée. Cron doit être configuré pour s’exécuter une fois par minute. |
+| [!UICONTROL Asynchronous Indexing|Global] | Détermine le moment où les entités du système de traitement des commandes, telles que les commandes, les factures, les envois et les notes de crédit, sont ajoutées à la grille et réindexées. L’indexation asynchrone peut être utilisée pour éviter les verrous sur les données lors des opérations d’enregistrement et pour réduire le temps de traitement. Options : <br/>**`Disable`**- (par défaut) Les entités liées aux commandes sont ajoutées à la grille à différents moments. à mesure qu&#39;ils sont sauvés.<br/>**`Enable`** - Les entités liées aux commandes ne sont ajoutées à la grille que lors d’une tâche cron planifiée. Cron doit être configuré pour s’exécuter une fois par minute. |
 
 {style="table-layout:auto"}

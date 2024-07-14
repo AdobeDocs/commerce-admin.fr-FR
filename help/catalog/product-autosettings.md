@@ -1,6 +1,6 @@
 ---
 title: Paramètres du produit - [!UICONTROL Autosettings]
-description: Pour un produit, la variable [!UICONTROL Autosettings] définissez les attributs qui sont des dépendances pour d’autres opérations.
+description: Pour un produit, le [!UICONTROL Autosettings] définit les attributs qui sont des dépendances pour d’autres opérations.
 exl-id: e35bbf6a-d547-40f7-b8cb-2f6c8fdddc70
 feature: Catalog Management, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-La variable _[!UICONTROL Autosettings]_inclut tous les attributs qui sont des dépendances pour d’autres opérations. Vous pouvez appliquer la valeur par défaut [Configuration RMA](../stores-purchase/rma-configure.md) sur le produit ou remplacez-le, selon les besoins.
+La section _[!UICONTROL Autosettings]_comprend tous les attributs qui sont des dépendances pour d’autres opérations. Vous pouvez appliquer le paramètre par défaut [Configuration RMA](../stores-purchase/rma-configure.md) au produit ou le remplacer, si nécessaire.
 
-![Paramètres automatiques](./assets/product-autosettings.png){width="600" zoomable="yes"}
+![Autosettings](./assets/product-autosettings.png){width="600" zoomable="yes"}

@@ -11,15 +11,15 @@ ht-degree: 0%
 
 # Insérer un lien dans l’éditeur
 
-Pour insérer facilement un lien, utilisez la méthode _Lien_ dans le [éditeur](editor.md) barre d’outils. Il ne nécessite aucune connaissance du HTML et le résultat est le même.
+Pour insérer facilement un lien, utilisez le bouton _Lien_ dans la barre d&#39;outils [de l&#39;éditeur](editor.md). Cela ne nécessite aucune connaissance de l&#39;HTML et le résultat est le même.
 
 1. Sélectionnez le texte dans lequel vous souhaitez créer le lien.
 
-1. Cliquez sur le bouton _Lien d’insertion/de modification_ dans la barre d’outils de l’éditeur.
+1. Cliquez sur l&#39;icône _Ajouter/modifier le lien_ dans la barre d&#39;outils de l&#39;éditeur.
 
    ![Barre d’outils de l’éditeur - Insérer un lien](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
 
-   Cette action ouvre la fenêtre _[!UICONTROL Insert link]_boîte de dialogue.
+   Cette action ouvre la boîte de dialogue _[!UICONTROL Insert link]_.
 
    ![Éditeur - Boîte de dialogue Insérer un lien](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
 
@@ -29,13 +29,13 @@ Pour insérer facilement un lien, utilisez la méthode _Lien_ dans le [éditeur]
 
    - URL complète d’une page externe à lier.
 
-1. Si nécessaire, modifiez la variable **[!UICONTROL Text to display]**.
+1. Si nécessaire, modifiez le **[!UICONTROL Text to display]**.
 
    La valeur par défaut est le texte que vous avez sélectionné pour le lien. Vous pouvez la modifier dans la zone de texte.
 
 1. Pour **[!UICONTROL Title]**, saisissez le texte de l’info-bulle à afficher lorsque quelqu’un survole le lien.
 
-1. Définir **[!UICONTROL Target]** à l’une des options suivantes :
+1. Définissez **[!UICONTROL Target]** sur l’une des options suivantes :
 
    - `Open link in the same window`
 

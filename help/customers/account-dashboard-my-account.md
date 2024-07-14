@@ -1,6 +1,6 @@
 ---
 title: "[!UICONTROL My Account] page"
-description: La variable [!UICONTROL My Account] page du tableau de bord du client donne aux clients un aperçu de leurs informations et activités relatives à votre boutique.
+description: La page [!UICONTROL My Account] du tableau de bord du client donne aux clients un aperçu de leurs informations et activités liées à votre boutique.
 exl-id: 01413b6b-ce32-4284-ae29-0fadf6ed22ca
 feature: Customers, Storefront
 source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Account] page
 
-La variable **[!UICONTROL My Account]** page du tableau de bord du client donne aux clients un aperçu de leurs informations et activités relatives à votre boutique.
+La page **[!UICONTROL My Account]** du tableau de bord du client donne aux clients un aperçu de leurs informations et activités liées à votre boutique.
 
 Cette page comprend les sections suivantes :
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Newsletters et abonnements
 
-La publication d’une newsletter régulière est considérée comme l’un des outils marketing les plus puissants et les plus abordables disponibles. Commerce vous permet de publier et de distribuer des newsletters aux clients qui se sont abonnés, ainsi que des outils pour produire votre newsletter, créer et gérer votre liste d’abonnés, développer du contenu et diriger le trafic vers votre boutique. Vous pouvez également utiliser [hiérarchie des pages](../content-design/page-hierarchy.md) pour créer une archive des problèmes passés.
+La publication d’une newsletter régulière est considérée comme l’un des outils marketing les plus puissants et les plus abordables disponibles. Commerce vous permet de publier et de distribuer des newsletters aux clients qui se sont abonnés, ainsi que des outils pour produire votre newsletter, créer et gérer votre liste d’abonnés, développer du contenu et diriger le trafic vers votre boutique. Vous pouvez également utiliser [hiérarchie de page](../content-design/page-hierarchy.md) pour créer une archive des problèmes passés.
 
 >[!NOTE]
 >
@@ -22,25 +22,25 @@ La première étape de la création de newsletters consiste à configurer les pa
 
 ## Activation des newsletters
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Customers]** et choisissez **[!UICONTROL Newsletter]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL General Options]** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL General Options]** .
 
-1. Pour activer les newsletters pour la portée de la vue de magasin, définissez **[!UICONTROL Enabled]** to `Yes`.
+1. Pour activer les newsletters pour la portée de la vue de magasin, définissez **[!UICONTROL Enabled]** sur `Yes`.
 
-Après avoir activé la fonction de newsletter, l’événement _[!UICONTROL Subscription Options]_s’affiche.
+Après avoir activé la fonction de newsletter, la section _[!UICONTROL Subscription Options]_s’affiche.
 
 ## Configuration des options d’abonnement
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Customers]** et choisissez **[!UICONTROL Newsletter]**.
 
-1. Si nécessaire, [modification de la portée de la configuration](../getting-started/websites-stores-views.md#scope-settings) pour appliquer les modifications de configuration de newsletter à une vue de site/magasin spécifique.
+1. Si nécessaire, [modifiez l’étendue de configuration](../getting-started/websites-stores-views.md#scope-settings) pour appliquer les modifications de configuration de newsletter à une vue de site/magasin spécifique.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Subscription Options]** et procédez comme suit :
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) de **[!UICONTROL Subscription Options]** et procédez comme suit :
 
    ![Configuration des clients - abonnements à des newsletters](../configuration-reference/customers/assets/newsletter-subscription-options.png){width="600" zoomable="yes"}
 
@@ -50,8 +50,8 @@ Après avoir activé la fonction de newsletter, l’événement _[!UICONTROL Sub
       - [!UICONTROL Confirmation email]
       - [!UICONTROL Unsubscribe email]
 
-   - Pour utiliser le processus de double opt-in afin de confirmer les abonnements, définissez **[!UICONTROL Need to Confirm]** to `Yes`.
+   - Pour utiliser le processus de double opt-in pour confirmer les abonnements, définissez **[!UICONTROL Need to Confirm]** sur `Yes`.
 
-   - Pour permettre aux personnes qui n’ont pas de compte avec votre boutique de s’abonner à la newsletter, définissez **[!UICONTROL Allow Guest Subscription]** to `Yes`.
+   - Pour permettre aux personnes qui n’ont pas de compte avec votre boutique de s’abonner à la newsletter, définissez **[!UICONTROL Allow Guest Subscription]** sur `Yes`.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.

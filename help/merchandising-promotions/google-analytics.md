@@ -1,11 +1,11 @@
 ---
 title: '[!DNL Google Analytics]'
-description: Découvrez comment utiliser [!DNL Google Analytics] pour rassembler des mesures utiles pour vos sites Commerce.
+description: Découvrez comment utiliser  [!DNL Google Analytics]  pour rassembler des mesures utiles pour vos sites Commerce.
 exl-id: d4df2ef2-d67f-46bf-8569-cbee9dde77e4
 feature: Marketing Tools, Integration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -16,88 +16,88 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Si votre entreprise est soumise à des réglementations de confidentialité telles que la variable [Règlement général sur la protection des données](../getting-started/compliance-gdpr.md) et/ou [California Consumer Privacy Act](../getting-started/compliance-ccpa.md), voir [Paramètres de confidentialité de Google](google-tools.md#google-privacy-settings).
+>Si votre entreprise est soumise à des réglementations de confidentialité telles que le [Règlement général sur la protection des données](../getting-started/compliance-gdpr.md) et/ou le [California Consumer Privacy Act](../getting-started/compliance-ccpa.md), reportez-vous à la section [Paramètres de confidentialité de Google](google-tools.md#google-privacy-settings).
 
 >[!IMPORTANT]
 >
->Si vous activez la variable [Mode de restriction des cookies](../getting-started/compliance-cookie-law.md), [!DNL Google Analytics] ne collecte pas de données sur les visiteurs, sauf s’ils ont accepté des cookies.
+>Si vous activez le [mode Restriction des cookies](../getting-started/compliance-cookie-law.md), [!DNL Google Analytics] ne collecte pas de données sur les visiteurs, sauf s’ils ont accepté les cookies.
 
 ## [!DNL Google Analytics] 4
 
 {{gtag-api-note}}
 
-### Étape 1 : configuration [!UICONTROL Google Analytics] 4
+### Étape 1 : configuration de [!UICONTROL Google Analytics] 4
 
-Si vous n’avez pas déjà une [!DNL Google Analytics] 4 configuration pour votre site, procédez comme suit :
+Si vous n’avez pas encore configuré [!DNL Google Analytics] 4 pour votre site, suivez l’une des méthodes suivantes :
 
 - [Configuration de la collecte de données Analytics pour la première fois](https://support.google.com/analytics/answer/9304153)
-- [Ajout de Google Analytics 4 à un site avec [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)
+- [Ajout de Google Analytics 4 à un site avec  [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)
 
 ### Étape 2 : terminer la configuration Commerce
 
 1. Connectez-vous à l’administrateur de votre boutique Commerce.
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Google API]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Google GTag]** .
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Google GTag]** .
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Google Analytics4]** et procédez comme suit :
+1. Développez la sous-section ![Sélecteur d’extension](../assets/icon-display-expand.png) et procédez comme suit :**[!UICONTROL Google Analytics4]**
 
-   - Définir **[!UICONTROL Enable]** to `Yes`.
+   - Définissez **[!UICONTROL Enable]** sur `Yes`.
 
-   - Laissez le champ **[!UICONTROL Account type]** as `Google Analytics4`.
+   - Laissez **[!UICONTROL Account type]** sur `Google Analytics4`.
 
-   - Saisissez votre **[!UICONTROL Measurement ID]**. Pour en savoir plus, voir [Aide pour les Google Analytics](https://support.google.com/analytics/answer/9539598).
+   - Saisissez votre **[!UICONTROL Measurement ID]**. Pour en savoir plus, consultez l’ [aide Google Analytics](https://support.google.com/analytics/answer/9539598).
 
-   - Si vous souhaitez effectuer des tests A/B et d’autres tests de performance sur votre contenu, définissez **Expériences de contenu** to `Yes`.
+   - Si vous souhaitez effectuer des tests A/B et d’autres tests de performances sur votre contenu, définissez **Content Experiments** sur `Yes`.
 
    ![Configuration des ventes - API Google pour les Google Analytics 4](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png){width="600" zoomable="yes"}
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 ## Google Universal Analytics
 
 >[!IMPORTANT]
 >
->À compter du 1er juillet 2023, les propriétés Universal Analytics standard ne traiteront plus les données. Si vous comptez toujours sur [!DNL Universal Analytics], il est recommandé de [préparation à l’utilisation des Google Analytics 4](https://support.google.com/analytics/answer/10759417) à venir.
+>À compter du 1er juillet 2023, les propriétés Universal Analytics standard ne traiteront plus les données. Si vous comptez toujours sur [!DNL Universal Analytics], il est recommandé de [préparer l&#39;utilisation de Google Analytics 4](https://support.google.com/analytics/answer/10759417) à l&#39;avenir.
 
 ### Étape 1 : configuration de Google Universal Analytics
 
-Visitez le site web de Google et inscrivez-vous à une [Google Universal Analytics][1] compte .
+Visitez le site web de Google et inscrivez-vous à un compte [Google Universal Analytics][1].
 
 ### Étape 2 : terminer la configuration Commerce
 
 1. Connectez-vous à l’administrateur de votre boutique Commerce.
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Google API]**.
 
-1. Développer ![Sélecteur d’extension](../assets/icon-display-expand.png) la valeur **[!UICONTROL Google Analytics]** et procédez comme suit :
+1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) de **[!UICONTROL Google Analytics]** et procédez comme suit :
 
-   - Définir **[!UICONTROL Enable]** to `Yes`.
+   - Définissez **[!UICONTROL Enable]** sur `Yes`.
 
    - Saisissez votre [!DNL Google Analytics] **[!UICONTROL Account Number]**.
 
-   - Si vous souhaitez effectuer des tests A/B et d’autres tests de performance sur votre contenu, définissez **[!UICONTROL Content Experiments]** to `Yes`.
+   - Si vous souhaitez effectuer des tests A/B et d’autres tests de performance sur votre contenu, définissez **[!UICONTROL Content Experiments]** sur `Yes`.
 
    ![Configuration des ventes - API Google - Google Analytics](../configuration-reference/sales/assets/google-api-analytics-ee.png){width="600" zoomable="yes"}
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 ## Amélioration de l’e-commerce
 
-Enhanced Ecommerce est un module externe pour [!DNL Google Universal Analytics] qui vous donne des informations sur le comportement d’achat et d’achat de vos clients. Vous pouvez utiliser l’e-commerce amélioré pour générer des rapports sur les activités clés des clients, par exemple lorsque les clients ajoutent des articles au panier, commencent le processus de passage en caisse ou effectuent un achat. Vous pouvez également identifier et analyser les schémas des acheteurs qui abandonnent leur panier sans faire d’achat.
+Enhanced Ecommerce est un module externe pour [!DNL Google Universal Analytics] qui vous donne des informations sur le comportement d&#39;achat et d&#39;achat de vos clients. Vous pouvez utiliser l’e-commerce amélioré pour générer des rapports sur les activités clés des clients, par exemple lorsque les clients ajoutent des articles au panier, commencent le processus de passage en caisse ou effectuent un achat. Vous pouvez également identifier et analyser les schémas des acheteurs qui abandonnent leur panier sans faire d’achat.
 
 Les instructions suivantes expliquent comment configurer [!DNL Google Tag Manager] avec [!DNL Universal Analytics] pour produire des données et des rapports d’e-commerce améliorés.
 
 ### Étape 1. S’inscrire à des comptes Google
 
-1. Inscrivez-vous à un [Gestionnaire de balises de Google](google-tag-manager.md) et effectuez la configuration Commerce.
+1. Inscrivez-vous à un compte [Gestionnaire de balises Google](google-tag-manager.md) et terminez la configuration Commerce.
 
-1. Inscrivez-vous à une nouvelle [Google Universal Analytics][1] compte .
+1. Inscrivez-vous à un nouveau compte [Google Universal Analytics][1].
 
 ### Étape 2. Configurer le commerce électronique amélioré
 
@@ -110,11 +110,11 @@ Les instructions suivantes expliquent comment configurer [!DNL Google Tag Manage
    - Activer les rapports d’e-commerce améliorés : activé
    - Étiquetage du passage en caisse : (non requis)
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Submit]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Submit]**.
 
 ### Étape 3. Création de balises et de déclencheurs
 
-1. Se connecter à [!DNL Google Tag Manager] et créez les déclencheurs suivants :
+1. Connectez-vous à votre compte [!DNL Google Tag Manager] et créez les déclencheurs suivants :
 
    | Nom | Type d’événement | Filtrer |
    |--- |--- |--- |
@@ -129,7 +129,7 @@ Les instructions suivantes expliquent comment configurer [!DNL Google Tag Manage
 
    >[!NOTE]
    >
-   >La variable [!UICONTROL Checkout] est déclenché pour les méthodes de paiement de base intégrées de Commerce uniquement (telles que `Check / Money Order` et `Cash On Delivery Payment`). Cet événement n’est pas exécuté pour `PayPal checkout` et d&#39;autres modes de paiement externes, qui utilisent la redirection vers le passage en caisse à partir de ressources externes.
+   >L’événement [!UICONTROL Checkout] est déclenché uniquement pour les méthodes de paiement de base Commerce intégrées (telles que `Check / Money Order` et `Cash On Delivery Payment`). Cet événement n’est pas exécuté pour `PayPal checkout` et d’autres méthodes de paiement externes, qui utilisent la redirection vers le passage en caisse à partir de ressources externes.
 
 1. Créez les balises Universal Analytics suivantes avec la même configuration de base.
 
@@ -158,7 +158,7 @@ Les instructions suivantes expliquent comment configurer [!DNL Google Tag Manage
 
 1. Effectuez les différentes configurations de suivi.
 
-   - Saisissez ce qui suit : **[!UICONTROL Add to Cart]** paramètres de suivi :
+   - Saisissez les paramètres de suivi **[!UICONTROL Add to Cart]** suivants :
 
      | Paramètre | Valeur |
      |--- |--- |
@@ -167,7 +167,7 @@ Les instructions suivantes expliquent comment configurer [!DNL Google Tag Manage
      | [!UICONTROL Action] | Ajouter au panier |
      | [!UICONTROL Trigger] | addToCart |
 
-   - Saisissez ce qui suit : **[!UICONTROL Checkout option]** paramètres de suivi :
+   - Saisissez les paramètres de suivi **[!UICONTROL Checkout option]** suivants :
 
      | Paramètre | Valeur |
      |--- |--- |
@@ -176,14 +176,14 @@ Les instructions suivantes expliquent comment configurer [!DNL Google Tag Manage
      | [!UICONTROL Action] | Option de passage en caisse |
      | [!UICONTROL Trigger] | checkoutOption |
 
-   - Saisissez ce qui suit : **[!UICONTROL PageView]** paramètres de suivi :
+   - Saisissez les paramètres de suivi **[!UICONTROL PageView]** suivants :
 
      | Paramètre | Valeur |
      |--- |--- |
      | [!UICONTROL Track Type] | PageView |
      | [!UICONTROL Trigger] | gtm.dom |
 
-   - Procédez comme suit : **[!UICONTROL Product Click]** configuration du suivi :
+   - Procédez à la configuration de suivi **[!UICONTROL Product Click]** suivante :
 
      | Paramètre | Valeur |
      |--- |--- |
@@ -192,7 +192,7 @@ Les instructions suivantes expliquent comment configurer [!DNL Google Tag Manage
      | [!UICONTROL Action] | Clic sur le produit |
      | [!UICONTROL Trigger] | productClick |
 
-   - Procédez comme suit : **[!UICONTROL Promotion Click]** configuration du suivi :
+   - Procédez à la configuration de suivi **[!UICONTROL Promotion Click]** suivante :
 
      | Paramètre | Valeur |
      |--- |--- |
@@ -201,7 +201,7 @@ Les instructions suivantes expliquent comment configurer [!DNL Google Tag Manage
      | [!UICONTROL Action] | Clic sur la promotion |
      | [!UICONTROL Trigger] | promotionClick |
 
-   - Procédez comme suit : **[!UICONTROL Remove from Cart]** configuration du suivi :
+   - Procédez à la configuration de suivi **[!UICONTROL Remove from Cart]** suivante :
 
      | Paramètre | Valeur |
      |--- |--- |
@@ -210,7 +210,7 @@ Les instructions suivantes expliquent comment configurer [!DNL Google Tag Manage
      | [!UICONTROL Action] | Supprimer du panier |
      | [!UICONTROL Trigger] | removeFromCart |
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Preview]** et vérifiez que les balises fonctionnent correctement.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Preview]** et vérifiez que les balises fonctionnent correctement.
 
 1. Après avoir vérifié les paramètres, cliquez sur **[!UICONTROL Publish]**.
 

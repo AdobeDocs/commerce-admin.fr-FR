@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Types d&#39;approvisionnement des marchés
 
-[!DNL Commerce] prend [!DNL Inventory Management] pour toutes les tailles d’entreprises, y compris un seul magasin disposant d’un site web, à un réseau international de sites web, de magasins, d’entrepôts et d’expéditeurs. Tous les commerçants utilisant Adobe Commerce ou Magento Open Source sont classés en deux types en fonction du nombre d’emplacements ou de sources dans votre entreprise.
+[!DNL Commerce] prend en charge [!DNL Inventory Management] pour toutes les tailles d’entreprises, y compris un seul magasin avec un site web sur un réseau international de sites web, de magasins, d’entrepôts et d’expéditeurs. Tous les commerçants utilisant Adobe Commerce ou Magento Open Source sont classés en deux types en fonction du nombre d’emplacements ou de sources dans votre entreprise.
 
 - Les marchands d’une seule source expédient les produits à partir d’un seul emplacement. Vous êtes considéré comme un mode/un marchand source unique jusqu’à ce que vous commenciez à ajouter des sources et des stocks personnalisés à votre installation.
 
@@ -26,15 +26,15 @@ Par exemple, vous disposez d’un site web ou d’une mise en oeuvre multi-site 
 
 Pour commencer :
 
-- Configurer [paramètres globaux et de produit](configuration.md) pour l’inventaire de votre magasin, si nécessaire.
+- Configurez les [paramètres globaux et de produit](configuration.md) pour l’inventaire de votre magasin, si nécessaire.
 
-- Mettez à jour le [Source par défaut](sources-manage.md) avec des informations sur votre emplacement de stock unique. La création de sources supplémentaires n’est pas requise.
+- Mettez à jour le [Source par défaut](sources-manage.md) avec les informations de votre emplacement de stock unique. La création de sources supplémentaires n’est pas requise.
 
-- Mettez à jour le [Stock par défaut](stocks-manage.md). Assurez-vous que tous vos sites web sont sélectionnés comme canaux de vente. Lorsque vous ajoutez de nouveaux sites web, [!DNL Commerce] les ajoute automatiquement au stock par défaut. Il n&#39;est pas nécessaire de créer des stocks supplémentaires.
+- Mettez à jour le [stock par défaut](stocks-manage.md). Assurez-vous que tous vos sites web sont sélectionnés comme canaux de vente. Lorsque vous ajoutez de nouveaux sites web, [!DNL Commerce] les ajoute automatiquement au stock par défaut. Il n&#39;est pas nécessaire de créer des stocks supplémentaires.
 
 >[!NOTE]
 >
->À mesure que votre entreprise se développe, ajoutez des sources et des stocks supplémentaires et mettez à jour vos [!DNL Inventory Management] pour devenir un site commercial multi-source. Voir [Agrandir et restructurer l’inventaire](expand-restructure.md) pour tous les détails.
+>Au fur et à mesure que votre entreprise se développe, ajoutez des sources et des stocks supplémentaires et mettez à jour votre configuration [!DNL Inventory Management] pour devenir un commerçant multi-source. Pour plus d’informations, voir [Développer et restructurer l’inventaire](expand-restructure.md) .
 
 ## Marchands multisource
 
@@ -46,9 +46,9 @@ Pour commencer :
 
 - Configurez les paramètres globaux pour l’inventaire de votre magasin, si nécessaire.
 
-- Ajouter [sources personnalisées](sources-add.md) pour les emplacements de stock : entrepôts, magasins, centres de distribution et expéditeurs.
+- Ajoutez des [ sources personnalisées](sources-add.md) pour les emplacements de stock : entrepôts, magasins, centres de distribution et expéditeurs.
 
-- Ajouter [stocks personnalisés](stocks-add.md) pour chaque région afin de mapper vos sites web avec plusieurs sources. Réorganisez les sources de chaque stock en priorité de localisation, ce qui s’avère utile lorsque vous effectuez vos commandes.
+- Ajoutez des [stocks personnalisés](stocks-add.md) pour chaque région afin de mapper vos sites web avec plusieurs sources. Réorganisez les sources de chaque stock en priorité de localisation, ce qui s’avère utile lorsque vous effectuez vos commandes.
 
 - Affectez des sources aux produits, en ajoutant des quantités par emplacement.
 

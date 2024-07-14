@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->L’optimisation des images de GIF animées n’est pas prise en charge. Ces images peuvent perdre leur animation après le processus d’optimisation des images. Pour éviter cela, assurez-vous que la taille de l’image du GIF animé est inférieure à la largeur et la hauteur maximales définies par la variable [[!UICONTROL Media Gallery Image Optimization] paramètres de configuration](../content-design/media-gallery-image-optimization.md).
+>L’optimisation des images de GIF animées n’est pas prise en charge. Ces images peuvent perdre leur animation après le processus d’optimisation des images. Pour éviter cela, assurez-vous que la taille de l’image du GIF animé est inférieure à la largeur et la hauteur maximales définies par les [[!UICONTROL Media Gallery Image Optimization] paramètres de configuration ](../content-design/media-gallery-image-optimization.md).

@@ -5,7 +5,7 @@ exl-id: 963693d3-669b-42b3-9ac7-cdaed8bb614f
 feature: Catalog Management, Media
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ L’utilisation d’images de haute qualité et en proportion constante donne à
 
 ![Images de produit](./assets/product-images-videos-swatch.png){width="600" zoomable="yes"}
 
-Une seule image de produit est rendue dans différentes tailles dans tout le catalogue. La taille d’affichage du conteneur d’images sur la page est définie dans la feuille de style de votre thème. Cependant, l’emplacement d’affichage de l’image dans votre boutique est déterminé par le rôle qui est affecté à l’image. l’image du produit principal, ou _base_ image, doit être suffisamment grande pour produire l’agrandissement nécessaire au zoom. Outre l’image principale, une version plus petite de la même image peut apparaître dans les listes de produits ou sous forme de miniature dans le panier. Vous pouvez télécharger une image de la plus grande taille nécessaire ou utiliser une [Adobe Stock](../content-design/adobe-stock.md) et laisser Commerce rendre les tailles nécessaires pour chaque utilisation. La même image peut être utilisée pour tous les rôles ou une image différente peut être affectée à chaque rôle. Par défaut, la première image téléchargée est affectée aux trois rôles.
+Une seule image de produit est rendue dans différentes tailles dans tout le catalogue. La taille d’affichage du conteneur d’images sur la page est définie dans la feuille de style de votre thème. Cependant, l’emplacement d’affichage de l’image dans votre boutique est déterminé par le rôle qui est affecté à l’image. L’image du produit principal, ou image _base_, doit être suffisamment grande pour produire l’agrandissement nécessaire au zoom. Outre l’image principale, une version plus petite de la même image peut apparaître dans les listes de produits ou sous forme de miniature dans le panier. Vous pouvez télécharger une image de la plus grande taille nécessaire ou utiliser une image [Adobe Stock](../content-design/adobe-stock.md) et laisser Commerce afficher les tailles requises pour chaque utilisation. La même image peut être utilisée pour tous les rôles ou une image différente peut être affectée à chaque rôle. Par défaut, la première image téléchargée est affectée aux trois rôles.
 
 ## Navigateur multimédia Storefront
 
@@ -26,20 +26,20 @@ L’explorateur de médias sur la page du produit affiche plusieurs images, vid�
 
 ### Zoom sur l’image
 
-Si la variable [image de base](product-image.md) est suffisamment grande pour créer l’effet de zoom, les clients peuvent afficher une portion agrandie de l’image lorsque vous la survolez avec la souris. Lorsque le zoom est activé, les clients peuvent cliquer sur l’image principale et déplacer le curseur pour agrandir différentes parties de l’image. La sélection agrandie apparaît à droite de l’image.
+Si l’image [de base](product-image.md) est suffisamment grande pour créer l’effet de zoom, les clients peuvent afficher une portion agrandie de l’image lorsque vous la pointez. Lorsque le zoom est activé, les clients peuvent cliquer sur l’image principale et déplacer le curseur pour agrandir différentes parties de l’image. La sélection agrandie apparaît à droite de l’image.
 
 ![Zoom sur l’image](./assets/storefront-image-zoom.png){width="700" zoomable="yes"}
 
 ### Boîtes légères et glissières
 
-Il existe de nombreuses zones légères tierces et de curseurs que vous pouvez utiliser pour améliorer la présentation de vos images de produit. Recherche d’extensions dans [Commerce Marketplace](../getting-started/commerce-marketplace.md).
+Il existe de nombreuses zones légères tierces et de curseurs que vous pouvez utiliser pour améliorer la présentation de vos images de produit. Recherchez des extensions dans [Commerce Marketplace](../getting-started/commerce-marketplace.md).
 
 ## Ressources de dépannage
 
-Pour obtenir de l’aide sur le dépannage des problèmes d’image et de vidéo, reportez-vous aux articles suivants de la base de connaissances de l’assistance clientèle de Commerce :
+Pour obtenir de l’aide sur le dépannage des problèmes d’image et de vidéo, reportez-vous aux articles suivants de la base de connaissances de prise en charge de Commerce :
 
-- [Après l’installation, les images et les feuilles de style ne se chargent pas ; seul le texte s’affiche, aucun graphique](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html)
-- [Problèmes liés à la gestion des images de produits via l&#39;API REST](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-5/mdva-28763-magento-patch-issues-with-managing-product-images-via-rest-api.html)
+- [Après l’installation, les images et les feuilles de style ne se chargent pas ; seul le texte s’affiche, aucun graphique ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html)
+- [ Problèmes liés à la gestion des images de produits via l&#39;API REST](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-5/mdva-28763-magento-patch-issues-with-managing-product-images-via-rest-api.html)
 - [Importer des images .csv de produits dupliquées](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-31969-magento-patch-import-products-.csv-images-duplicated.html)
-- [Les images de produit ne s’affichent pas en dépit des rôles d’image de modification de produit](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
+- [ Les images de produit ne s’affichent pas en dépit des rôles d’image de modification de produit ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
 - [Stocker les images non affichées après le déploiement](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)

@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Chemins de navigation
 
-A _cheminement de navigation_ est un ensemble de liens qui indique au client où il se trouve par rapport à d’autres pages du magasin. Ils peuvent cliquer sur n’importe quel lien du chemin de navigation pour revenir à la page précédente.
+Un _cheminement de navigation_ est un ensemble de liens qui indique au client où il se trouve par rapport à d’autres pages du magasin. Ils peuvent cliquer sur n’importe quel lien du chemin de navigation pour revenir à la page précédente.
 
 Le chemin de navigation peut être configuré pour s’afficher sur les pages de contenu et sur les pages de catalogue. Le format et la position du chemin de navigation varient selon le thème, mais il se trouve généralement juste sous l’en-tête . Par défaut, le chemin de navigation s’affiche sur les pages CMS.
 
-![Chemin de navigation affiché dans le storefront](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
+![Suivi de chemin de navigation affiché dans le storefront](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
 
 ## Types généraux de miettes à pain
 
@@ -46,20 +46,20 @@ Exemple : `Home > Suits > All Suits > Refined by > Slim Fit`
 
 ## Ajout/suppression du chemin de navigation des pages CMS
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de gauche, sous _[!UICONTROL General]_, choisissez **[!UICONTROL Web]**.
+1. Dans le panneau de gauche sous _[!UICONTROL General]_, choisissez **[!UICONTROL Web]**.
 
-   ![Afficher le chemin de navigation des pages CMS](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
+   ![Afficher le chemin de navigation pour les pages CMS](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 
-1. Développez l’objet _[!UICONTROL Default Pages]_.
+1. Développez la section _[!UICONTROL Default Pages]_.
 
-1. Désélectionnez l’option **[!UICONTROL Use system value]** .
+1. Décochez la case **[!UICONTROL Use system value]** .
 
-1. Définir **[!UICONTROL Show Breadcrumbs for CMS Pages]** to `No` ou `Yes`.
+1. Définissez **[!UICONTROL Show Breadcrumbs for CMS Pages]** sur `No` ou `Yes`.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Config]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
 >[!NOTE]
 >
->La catégorie parente n’est pas affichée dans le rail de chemin de navigation, sur la page de catégorie enfant, lorsqu’elle comporte `Browsing Category`= `Deny` [autorisation de catégorie](category-permissions.md) paramètres.
+>La catégorie parente ne s’affiche pas sur la piste du chemin de navigation, sur la page de la catégorie enfant, lorsqu’elle dispose des paramètres `Browsing Category`= `Deny` [autorisation de catégorie](category-permissions.md) .

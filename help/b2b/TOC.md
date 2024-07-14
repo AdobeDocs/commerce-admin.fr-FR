@@ -30,7 +30,7 @@ ht-degree: 6%
    + [Affectation d’un groupe de clients à une entreprise](account-company-customer-group.md)
    + [Ajout de clients à une société](customer-assign-company.md)
    + [Gérer le crédit de l’entreprise](credit-company.md)
-   + Utilisateurs et structure de l’entreprise {#users}
+   + Utilisateurs et structure de l&#39;entreprise {#users}
       + [Comptes d’utilisateur d’entreprise](account-company-users.md)
       + [Rôles et autorisations de l’entreprise](account-company-roles-permissions.md)
       + [Définition de la structure d’entreprise](account-company-structure.md)
@@ -64,4 +64,4 @@ ht-degree: 6%
 + Référence {#reference}
    + [Modifications incompatibles avec l’arrière](backward-incompatible-changes.md)
    + [Packages](packages.md)
-+ [Revenir aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Retour aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
