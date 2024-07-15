@@ -2,7 +2,7 @@
 title: Configuration du service de synchronisation
 description: "Découvrez comment connecter vos projets Adobe Commerce et Experience Manager Assets au service de moteur de règles Assets pour activer la synchronisation des ressources entre ces deux systèmes."
 feature: CMS, Media
-source-git-commit: 9d7b1b58b472a99196213e5ab109142bc57b1692
+source-git-commit: 939fa5caeeb7a8913457c3492484362a1d3471be
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%
@@ -45,8 +45,8 @@ Vous avez besoin des informations d’identification suivantes pour vous authent
 | Données requises | Source | Où le trouver |
 | ---------- | ------ | ------------- |
 | Clé API du compte Magento | Commerce | Fournissez la clé d’API publique pour l’environnement Commerce que vous utilisez, l’évaluation ou la production. Vous trouverez les clés d’API pour les environnements de production et d’évaluation sur la page [Configuration du connecteur de service Commerce](aem-assets-configure-commerce.md#configure-the-commerce-services-connector) dans l’administrateur ou sur la page [!UICONTROL My Account] de la section [!UICONTROL API Portal]. |
-| Identifiant de projet SaaS Commerce <ul><li>`magento-environment-Id`</li><li>`Project ID`</li></ul> | Administration de Commerce | Ces valeurs identifient l’environnement Commerce, l’espace de données SaaS et le projet auxquels se connecter. Les valeurs proviennent de la [ configuration de l’identifiant SaaS du connecteur Commerce Services ].(aem-assets-configure-commerce.md#configure-the-commerce-services-connector). |
-| AEM `programId`<br>`environmentId` | [Environnement de création AEM Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) | Ouvrez la page AEM Sites et sélectionnez **[!UICONTROL Assets]**.  Copiez les ID de projet et d&#39;environnement de l&#39;URL : `https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/` |
+| Identifiant de projet SaaS Commerce <ul><li>`magento-environment-Id`</li><li>`Project ID`</li></ul> | Administration de Commerce | Ces valeurs identifient l’environnement Commerce, l’espace de données SaaS et le projet auxquels se connecter. Les valeurs proviennent de la [ configuration de l’identifiant SaaS du connecteur Commerce Services ](aem-assets-configure-commerce.md#configure-the-commerce-services-connector). |
+| AEM `programId` et <br>`environmentId` | [Environnement de création AEM Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) | Ouvrez la page AEM Sites et sélectionnez **[!UICONTROL Assets]**.  Copiez les ID de projet et d’environnement de l’URL :<br>`https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/` |
 | baseURL | Commerce storefront | [URL de base](../stores-purchase/store-urls.md) pour votre vitrine Commerce. |
 | Informations d’identification OAuth pour l’accès aux API | Administration de Commerce | Vous pouvez trouver ces informations d’identification dans les paramètres de configuration de Commerce [ pour l’intégration d’Assets ](aem-assets-configure-commerce.md#experience-manager-assets-integration-for-adobe-commerce-10-release). |
 

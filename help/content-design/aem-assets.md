@@ -2,9 +2,9 @@
 title: Intégration Experience Manager Assets pour Commerce
 description: Découvrez comment intégrer Experience Manager Assets à votre instance  [!DNL Commerce] pour accéder à d’innombrables ressources multimédias à utiliser dans votre boutique.
 feature: CMS, Media, Configuration, Integration
-source-git-commit: fafe8d46931cc00e58d0888639fd8e739a170f8a
+source-git-commit: 8588973f265c6bd3dfdd41e574f27f653cc9da0e
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,6 @@ L’intégration entre Commerce et Adobe Experience Manager (AEM) Assets combine
    - **Mises à jour dynamiques** - Tenez les images du produit à jour avec les dernières modifications apportées au système de gestion des ressources. Ces mises à jour automatisées garantissent que les vitrines commerciales disposent toujours des informations sur les produits les plus récentes.
    - **Gestion efficace du catalogue** : simplifie la maintenance du catalogue de produits en automatisant le nettoyage et l’actualisation des ressources.
 
-## Changements lorsque vous activez l’intégration
-
-Liste de produits - Nouveau champ [!UICONTROL Remote Media URL]
-
-Page Détails du produit - aucune modification, sauf que les ressources affichées proviendront de la gestion des ressources numériques AEM
-
-
 ## Intégration de Commerce et Experience Manager Assets
 
 >[!BEGINSHADEBOX]
@@ -51,12 +44,10 @@ Page Détails du produit - aucune modification, sauf que les ressources affiché
 
 >[!ENDSHADEBOX]
 
+Activation de l’intégration de Commerce avec Experience Manager Assets en procédant comme suit :
 
-L’activation de l’intégration Commerce avec Experience Manager Assets est un processus en trois étapes :
+1. [Configuration de votre projet Experience Manager Assets pour gérer des ressources Commerce](aem-assets-configure-aem.md)
 
-1. [Configurez votre projet Experience Manager Assets pour gérer les ressources Commerce](aem-assets-configure-aem.md).
-
-1. [Installation de l’extension Experience Manager Assets Integration et configuration d’Adobe Commerce](aem-assets-configure-aem.md)
+1. [Installation de l’extension Experience Manager Assets Integration et configuration d’Adobe Commerce](aem-assets-configure-commerce.md)
 
 1. [Configuration des services de synchronisation](aem-assets-setup-synchronization.md)
-
