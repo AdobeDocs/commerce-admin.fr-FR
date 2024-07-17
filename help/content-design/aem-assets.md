@@ -2,9 +2,9 @@
 title: Intégration Experience Manager Assets pour Commerce
 description: Découvrez comment intégrer Experience Manager Assets à votre instance  [!DNL Commerce] pour accéder à d’innombrables ressources multimédias à utiliser dans votre boutique.
 feature: CMS, Media, Configuration, Integration
-source-git-commit: 8588973f265c6bd3dfdd41e574f27f653cc9da0e
+source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -50,4 +50,4 @@ Activation de l’intégration de Commerce avec Experience Manager Assets en pro
 
 1. [Installation de l’extension Experience Manager Assets Integration et configuration d’Adobe Commerce](aem-assets-configure-commerce.md)
 
-1. [Configuration des services de synchronisation](aem-assets-setup-synchronization.md)
+1. [Activation de la synchronisation des ressources](aem-assets-setup-synchronization.md)

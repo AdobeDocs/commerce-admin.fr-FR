@@ -2,9 +2,9 @@
 title: Installation et configuration de l’intégration Experience Manager Assets
 description: "Découvrez comment installer et configurer le  [!DNL AEM Assets Integration for Adobe Commerce]"
 feature: CMS, Media
-source-git-commit: 81910c45f85cde9c7b2264a55ea6fb2759107d40
+source-git-commit: 65a4339f0f6d4e9eb280ce90d6173caf671fde0f
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,12 @@ Installez et configurez l’intégration AEM Assets pour Commerce en ajoutant l�
 - PHP 8.1, 8.2, 8.3
 - Compositeur : 2.x
 
-## Conditions préalables
+**Configuration requise**
 
 - Adobe Commerce doit être configuré pour utiliser l’ [authentification Adobe IMS](/help/getting-started/adobe-ims-config.md).
-- Approvisionnement des comptes et autorisations : les administrateurs doivent avoir accès aux ressources suivantes pour configurer l’intégration de Experience Manager Assets :
-   - Administrateur d’application Commerce : installez les extensions requises et configurez le serveur d’applications Commerce à partir de l’administrateur ou de la ligne de commande.
+- Approvisionnement et autorisations des comptes
+   - [Administrateur de projet cloud Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) : installez les extensions requises et configurez le serveur d’applications Commerce à partir de l’administrateur ou de la ligne de commande.
    - [Administrateur Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) : mettez à jour la configuration du magasin et gérez les comptes utilisateur Commerce
-   - [Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/introduction) : compte administrateur ou utilisateur de l’application Adobe IMS. Le compte doit disposer des autorisations nécessaires pour créer et gérer des dossiers, créer des collections publiques, charger des ressources, configurer des autorisations et configurer des métadonnées.
 
 ## Présentation de la configuration
 
