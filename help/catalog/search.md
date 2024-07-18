@@ -3,9 +3,9 @@ title: Présentation de la recherche catalogue
 description: Découvrez les outils de recherche rapide et de recherche avancée que les clients peuvent utiliser pour localiser des produits sur le storefront.
 exl-id: a796fa48-212a-47c7-ab6e-98edd4d040f4
 feature: Catalog Management, Search
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 65d295694e13be2e0a0de29b8b396faa9f2c9cd4
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Les sections suivantes décrivent les fonctionnalités de base de la recherche c
 
 >[!NOTE]
 >
->Lorsque [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html) est installé, la zone de recherche renvoie &quot;search as you type&quot; (rechercher en cours de frappe), ce qui génère une fenêtre contextuelle.
+>Lorsque [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) est installé et que le widget [[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/storefront-popover) est activé, la zone de recherche renvoie &quot;search as you type&quot; (Recherche lorsque vous entrez), ce qui génère une fenêtre contextuelle.
 
 La zone de recherche dans l’en-tête de la boutique permet aux visiteurs de trouver des produits dans votre catalogue. Le texte de recherche peut être le nom complet ou partiel du produit ou tout autre mot ou expression décrivant le produit. Les termes de recherche que les utilisateurs utilisent pour trouver des produits peuvent être gérés à partir de l’administrateur.
 
