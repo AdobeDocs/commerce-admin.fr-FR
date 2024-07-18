@@ -3,7 +3,7 @@ title: Désactivation de l’intégration des administrateurs Commerce avec Adob
 description: Suivez cette procédure facultative pour désactiver l’intégration de l’administrateur Adobe Commerce avec Adobe IMS.
 exl-id: 0cd02b23-873e-4e65-ae1f-dbe4f7d0a476
 feature: Identity Management
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -32,7 +32,7 @@ bin/magento admin:adobe-ims:disable
 
 Adobe Commerce affiche le message suivant en cas de succès :
 
-```terminal
+```
 Admin Adobe IMS integration is disabled.
 ```
 
