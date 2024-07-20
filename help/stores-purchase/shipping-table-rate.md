@@ -3,9 +3,9 @@ title: Expédition du taux de change
 description: Découvrez comment configurer une option d’expédition à taux variable pour votre magasin.
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 0f368e87275a85e3801e6770b8985184e2071384
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1032'
 ht-degree: 3%
 
 ---
@@ -117,6 +117,7 @@ La première étape consiste à renseigner les paramètres par défaut pour les 
    - Utilisez un astérisque (*) comme caractère générique qui représente toutes les valeurs possibles dans n’importe quelle catégorie.
    - La colonne _[!UICONTROL Country]_doit contenir un [code à trois caractères valide][1] pour chaque ligne.
    - Triez les données par _[!UICONTROL Region/State]_afin que les emplacements spécifiques soient en haut de la liste et les emplacements de caractères génériques en bas de la liste. L’utilisation de cette méthode traite d’abord les règles avec les valeurs absolues et ensuite les valeurs du caractère générique.
+   - Les plages de codes postaux ne sont pas prises en charge. Utilisez un astérisque (*) pour autoriser tous les codes dans la région/l’état ou spécifiez un seul code pour un emplacement spécifique dans la colonne _[!UICONTROL Zip/Postal Code]_.
    - Les valeurs de la colonne _[!UICONTROL Weight (and above)]_peuvent avoir un maximum de quatre décimales (telles que `2.5075`). L’utilisation de davantage de décimales dans les données entraîne l’échec de l’importation.
 
    ![ Poids/Destination (Australie)](./assets/table-rates-weight-destination-csv.png){width="500"}
