@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
+source-git-commit: 9f351ab659b21377310f8327fef5bc29cc9f7c89
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -359,10 +359,34 @@ Une fois les données récupérées, vous pouvez les utiliser pour créer des [r
 
 Si les audiences Real-Time CDP ne s’affichent pas dans Commerce, cela peut être dû à :
 
+- Connexion non valide
 - Type d’authentification incorrect sélectionné dans la page de configuration **Connexion aux données**
 - Privilèges insuffisants sur le jeton généré
 
-Les deux sections suivantes expliquent comment résoudre l’un ou l’autre de ces cas.
+Les sections suivantes décrivent comment résoudre ces problèmes.
+
+### Valider la connexion
+
+Pour valider les identifiants et la réponse de Adobe Experience Platform, exécutez la commande suivante :
+
+```bash
+bin/magento audiences:config:status
+```
+
+Cette commande renvoie l’état de la connexion. Ajoutez l’indicateur `-v` pour fournir une plus grande précision :
+
+```
+./bin/magento audiences:config:status -v  
+```
+
+Par exemple :
+
+```
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| Client ID                        | Client secret | Technical account ID                        | Technical account email                                 | Sandbox name |
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| 1234bd57fac8497d8933327c535347d8 | *****         | 12341E116638D6B00A495C80@techacct.adobe.com | 12345-b95b-4894-a41c-a4130d26bd80@techacct.adobe.com | dev          |
+```
 
 ### Type d’authentification incorrect sélectionné dans la configuration
 
