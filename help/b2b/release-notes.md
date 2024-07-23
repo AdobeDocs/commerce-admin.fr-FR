@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] notes de mise à jour'
 description: Consultez les notes de mise à jour pour plus d’informations sur les modifications apportées aux versions de  [!DNL Adobe Commerce B2B] .
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
+source-git-commit: ce05d8bdcff783ed2aae78c3bea7470819af5b4d
 workflow-type: tm+mt
-source-wordcount: '6867'
+source-wordcount: '6904'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,10 @@ La version bêta B2B 1.5.0 comprend de nouvelles fonctionnalités, des améliora
 [!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
 
 ![Nouveau](../assets/new.svg) Compatibilité ajoutée avec les versions des correctifs de sécurité Adobe Commerce 2.4.7-p1+ et 2.4.6-p6+.
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B version 1.4.2+ est compatible avec PHP 8.2. Si vous mettez à niveau l’instance Commerce vers la version 2.4.7+, assurez-vous que l’instance utilise la version 8.2 de PHP pour maintenir la compatibilité avec la version B2B d’Adobe Commerce.
 
 
 ## B2B v1.4.2
