@@ -3,16 +3,16 @@ title: Persistance du panier
 description: Découvrez comment un panier persistant effectue le suivi des articles non achetés et enregistre les informations pour la prochaine visite du client.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: ea3aae3fce7f5e18155138b2bb9e7df0b3831fdd
+source-git-commit: 2bddf979333bdafbfb6b445140515942b1115eea
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
 
 # Persistance du panier
 
-Un panier persistant effectue le suivi des articles non achetés dans le panier et enregistre les informations. Ce processus garantit que le contenu du panier reste accessible à l’expiration de la session de connexion.
+Un panier persistant enregistre une référence au compte du client sur l’appareil actuel, en veillant à ce que le contenu du panier reste accessible à l’expiration de la session connecté.
 
 Si un client est _mémorisé_, le contenu de son panier reste accessible sur l’appareil actuel à l’expiration de la session de connexion. Une fois la session expirée, le panier du client est accessible à l’aide de la session de panier persistante. Si le même client se connecte à un autre appareil ou navigateur et ajoute quelque chose à son panier, puis revient sur le périphérique avec une session persistante active, son panier est mis à jour avec les éléments ajoutés.
 
