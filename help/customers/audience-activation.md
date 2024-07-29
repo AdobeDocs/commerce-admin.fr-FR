@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 9f351ab659b21377310f8327fef5bc29cc9f7c89
+source-git-commit: 0690430d3c6ac6a58a2ef98045148de8ad6a4bad
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1546'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _30 mai 2023_
 ![Nouveau](../assets/new.svg) - Mise à jour du [tableau de bord des audiences Real-Time CDP](#real-time-cdp-audiences-dashboard) afin d’inclure la possibilité de trier, rechercher et filtrer les audiences actives dans votre instance Adobe Commerce.
 
 +++
+
+### 2.3.0
+
+[!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
+
+_29 juillet 2024_
+
+![Nouveau](../assets/new.svg) - Ajout d’une syntaxe de ligne de commande afin que vous puissiez [tester les informations d’identification](#validate-the-connection) pour déterminer si elles doivent être mises à jour pour extraire les données d’audience de Adobe Experience Platform.
 
 ### 2.2.0
 
