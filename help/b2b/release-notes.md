@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] notes de mise à jour'
 description: Consultez les notes de mise à jour pour plus d’informations sur les modifications apportées aux versions de  [!DNL Adobe Commerce B2B] .
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: ce05d8bdcff783ed2aae78c3bea7470819af5b4d
+source-git-commit: 5e9aaa4ff59b34a1ff76083eeae82f87e457f23b
 workflow-type: tm+mt
-source-wordcount: '6904'
+source-wordcount: '6967'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ La version bêta B2B 1.5.0 comprend de nouvelles fonctionnalités, des améliora
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B version 1.4.2+ est compatible avec PHP 8.2. Si vous mettez à niveau l’instance Commerce vers la version 2.4.7+, assurez-vous que l’instance utilise la version 8.2 de PHP pour maintenir la compatibilité avec la version B2B d’Adobe Commerce.
+>Adobe Commerce B2B version 1.4.2+ est compatible avec PHP 8.2. Si vous mettez à niveau l’instance Commerce vers la version 2.4.7+, assurez-vous que l’instance utilise la version 8.2 de PHP pour maintenir la compatibilité avec la version B2B d’Adobe Commerce. De plus, B2B 1.4.2+ ne prend actuellement pas en charge le [serveur d’applications GraphQL](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 
 ## B2B v1.4.2
@@ -84,6 +84,10 @@ La version bêta B2B 1.5.0 comprend de nouvelles fonctionnalités, des améliora
 La version B2B v1.4.2 comprend des améliorations de qualité et des correctifs.
 
 ![Correction d’un problème ](../assets/fix.svg) <!--B2B-2897--> Si un vendeur crée un devis d’acheteur qui inclut un SKU de produit non disponible dans le catalogue partagé associé à la société acheteuse, le système affiche le message d’erreur `The SKU you entered is not available in the shared catalog. Please check the SKU and try again`.  Le Vendeur ne peut pas enregistrer le devis tant qu’il n’a pas supprimé le produit qui n’est pas disponible. Auparavant, le guillemet était enregistré avec le SKU non disponible inclus et le guillemet ne se chargeait pas sur le storefront.
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B version 1.4.2+ est compatible avec PHP 8.2. Si vous mettez à niveau l’instance Commerce vers la version 2.4.7+, assurez-vous que l’instance utilise la version 8.2 de PHP pour maintenir la compatibilité avec la version B2B d’Adobe Commerce. De plus, B2B 1.4.2+ ne prend actuellement pas en charge le [serveur d’applications GraphQL](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 ## B2B v1.4.1
 
