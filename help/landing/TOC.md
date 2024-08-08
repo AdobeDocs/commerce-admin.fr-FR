@@ -3,10 +3,10 @@ user-guide-title: Documentation pour les commerçants Adobe Commerce
 user-guide-description: Documentation et ressources pour les commerçants Adobe Commerce et Magento Open Source travaillant dans l’administration.
 title: Documentation pour les commerçants Adobe Commerce
 feature: Admin Workspace
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: b014b624cc02b35f3d2273cb9acf602a1b74eaa5
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 38%
+source-wordcount: '69'
+ht-degree: 39%
 
 ---
 
@@ -24,4 +24,4 @@ ht-degree: 38%
 - [Magasins et achat d’expérience](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html)
 - [Systèmes d’administration](https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html)
 - [Guide de référence de configuration](https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html)
-- [Services pour Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html)
+- [Services pour Commerce](services.md)
