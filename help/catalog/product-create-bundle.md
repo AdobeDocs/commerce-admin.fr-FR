@@ -3,9 +3,9 @@ title: Produit groupé
 description: Découvrez comment créer un produit groupé qui permet aux acheteurs de créer un produit personnalisé dans votre boutique.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -274,6 +274,8 @@ L’état du stock de produits en bundle est **_non automatiquement remplacé pa
 ## Les choses à retenir
 
 ![Case à cocher](../assets/checkbox.png) Les clients peuvent _créer leur propre produit_ groupé.
+
+![Case à cocher](../assets/checkbox.png) Tous les produits enfants sont attribués et non attribués à partir du produit groupé **_globalement_** pour tous les sites web, magasins et vues de magasin en même temps.
 
 ![Case à cocher](../assets/checkbox.png) Les éléments de bundle peuvent être des produits simples ou virtuels sans options personnalisées.
 

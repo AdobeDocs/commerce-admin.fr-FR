@@ -3,9 +3,9 @@ title: Produit groupé
 description: Découvrez comment créer un produit groupé constitué de produits autonomes simples présentés sous la forme d’un groupe.
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: 140930df515d1e0604b18a4ebf689254b9487b53
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,8 @@ Si vous disposez d’une image différente pour chaque produit du groupe, vous p
 ## Les choses à retenir
 
 - Un produit groupé est essentiellement une collection de produits associés simples.
+
+- Tous les produits enfants sont attribués et non attribués à partir du produit groupé **_global_** pour tous les sites web, magasins et vues de magasin en même temps.
 
 - Les produits enfants groupés peuvent être simples, téléchargeables ou virtuels **[!UICONTROL without custom options]**.
 

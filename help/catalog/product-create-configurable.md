@@ -3,9 +3,9 @@ title: Produit configurable
 description: Découvrez comment créer un produit configurable qui fournit aux acheteurs des variantes de sélection.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: f6140fda2769e109d2b38c2f9c458f67097dff0a
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2506'
 ht-degree: 0%
 
 ---
@@ -377,6 +377,8 @@ L’ _état du stock_ du produit configurable est partiellement contrôlé par l
 - [État du stock](../inventory-management/sources-stocks.md) pour un produit configurable est un paramètre contrôlé semi-manuellement. Il diffère de l’état du stock du produit simple, où il représente directement la disponibilité du produit. Pour un produit configurable, l’état du stock fait partie du calcul de l’état du stock à plusieurs critères.
 
 - Les produits enfants configurables peuvent être des produits simples ou virtuels **sans options personnalisées**. Pour que les produits enfants personnalisés soient virtuels, vous devez sélectionner `Тhis item has no weight` pour le paramètre **[!UICONTROL Weight]** de chacun d’eux.
+
+- Tous les produits enfants sont attribués et non attribués à partir du produit configurable **_global_** pour tous les sites web, magasins et vues de magasin en même temps.
 
 - Un produit configurable n’a pas son propre prix dans le catalogue. Le prix configurable du produit est dérivé de ses [!UICONTROL In Stock] produits enfants.
 
