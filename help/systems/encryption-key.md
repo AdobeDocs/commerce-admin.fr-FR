@@ -4,9 +4,9 @@ description: Découvrez comment générer ou ajouter automatiquement votre propr
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: cbe4cfd59b1cacbac22a01ca96617f52bcdd7d3a
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Adobe Commerce et Magento Open Source utilisent une clé de chiffrement pour protéger les mots de passe et d’autres données sensibles. Un algorithme [!DNL ChaCha20-Poly1305] standard est utilisé avec une clé de 256 bits pour chiffrer toutes les données nécessitant un chiffrement. Cela inclut les données de carte de crédit et les mots de passe d’intégration (module de paiement et d’expédition). En outre, un algorithme de hachage sécurisé (SHA-256) puissant est utilisé pour hacher toutes les données qui ne nécessitent pas de décryptage.
 
-Lors de l’installation initiale, vous êtes invité à laisser Commerce générer une clé de chiffrement ou à en saisir une. L’outil de clé de chiffrement vous permet de modifier la clé selon vos besoins. La clé de chiffrement doit être modifiée régulièrement pour améliorer la sécurité. La clé d’origine peut être compromise à tout moment. Chaque fois que la clé est modifiée, toutes les données héritées sont réencodées à l’aide de la nouvelle clé.
+Lors de l’installation initiale, vous êtes invité à laisser Commerce générer une clé de chiffrement ou à en saisir une. L’outil de clé de chiffrement vous permet de modifier la clé selon vos besoins. La clé de chiffrement doit être modifiée régulièrement pour améliorer la sécurité. La clé d’origine peut être compromise à tout moment.
 
 Pour obtenir des informations techniques, reportez-vous à la section [Installation sur site avancée](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) du _Guide d’installation_.
 

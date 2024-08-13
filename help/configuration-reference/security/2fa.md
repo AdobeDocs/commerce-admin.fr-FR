@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Security] &gt; [!UICONTROL 2FA] de l’administrateur Commerce.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: d6f9c5186276b28cada318cbe765e2271d34bb58
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '310'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Authent
 |--- |--- |--- |
 | [!UICONTROL Providers to use] | Global | Indique les méthodes d’authentification à deux facteurs dont vous avez besoin. Si vous sélectionnez plusieurs fournisseurs, chaque utilisateur doit configurer chaque méthode 2FA la prochaine fois qu’il se connecte. |
 | [!UICONTROL Configuration Email URL for Web API] | Global | Pour les implémentations personnalisées, l’URL d’un autre lien de configuration de courrier électronique envoyé aux utilisateurs _Admin_ lors de leur première connexion. Dans le modèle de courrier électronique, utilisez l’espace réservé `:tfat` pour indiquer où le jeton est injecté. |
+| [!UICONTROL Retry attempt limit for Two-Factor Authentication] | Global | Détermine le nombre de fois qu’un administrateur peut entrer dans un [!DNL one-time password (OTP)] avant que son compte ne soit temporairement désactivé. Valeur par défaut : `10` |
+| [!UICONTROL Two-Factor Authentication lockout time (seconds)] | Global | Détermine la durée (en secondes) pendant laquelle un administrateur peut attendre pour entrer dans un [!DNL one-time password (OTP)] avant que son compte ne soit temporairement désactivé. Valeur par défaut : `300` |
 
 {style="table-layout:auto"}
 
@@ -37,7 +39,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Authent
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL OTP Window] | Global | Détermine la durée (en secondes) pendant laquelle le système accepte le mot de passe unique (OTP) d’un administrateur après expiration. Ne peut pas être supérieur à la durée de vie d’un seul HTTP (généralement 30 secondes). Valeur par défaut : `29` |
+| [!UICONTROL OTP Window] | Global | Détermine la durée (en secondes) pendant laquelle le système accepte le [!DNL one-time-password (OTP)] d’un administrateur après expiration. Ne peut pas être supérieur à la durée de vie d’un seul HTTP (généralement 30 secondes). Valeur par défaut : `29` |
 
 {style="table-layout:auto"}
 
