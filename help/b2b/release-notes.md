@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] notes de mise à jour'
 description: Consultez les notes de mise à jour pour plus d’informations sur les modifications apportées aux versions de  [!DNL Adobe Commerce B2B] .
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 5e9aaa4ff59b34a1ff76083eeae82f87e457f23b
+source-git-commit: d717a16f3ca20e51b002c6de19c696e090553052
 workflow-type: tm+mt
-source-wordcount: '6967'
+source-wordcount: '7033'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,20 @@ La version bêta B2B 1.5.0 comprend de nouvelles fonctionnalités, des améliora
 ![Problème corrigé](../assets/fix.svg) <!--ACP2E-1825--> Les commandes ne peuvent plus être placées par un utilisateur associé à la société une fois la société bloquée. Auparavant, un utilisateur associé à la société pouvait passer des commandes lorsque la société était bloquée.
 
 ![Problème corrigé](../assets/fix.svg)<!--ACP2E-1933-->Les administrateurs d’entreprise peuvent désormais ajouter des utilisateurs d’entreprise à partir du storefront. Auparavant, Commerce consignait une erreur lorsqu’un utilisateur administrateur tentait d’ajouter un nouvel utilisateur : `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+
+## B2B v1.4.2-p2
+
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
+
+![Nouveau](../assets/new.svg) Compatibilité ajoutée avec les versions des correctifs de sécurité Adobe Commerce 2.4.7-p2+ et 2.4.6-p7+. La version B2B 1.4.2-p2 ne
+prennent en charge le [serveur d’applications GraphQL](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B version 1.4.2+ est compatible avec PHP 8.2. Si vous mettez à niveau l’instance Commerce vers la version 2.4.7+, assurez-vous que l’instance utilise la version 8.2 de PHP pour maintenir la compatibilité avec la version B2B d’Adobe Commerce.
+
+
+https://wiki.corp.adobe.com/display/3DI/How+to+Create+and+Update+a+New+HelpX+Page#HowtoCreateandUpdateaNewHelpXPage-LinkstoupdateHelpXdocumentation:
 
 ## B2B v1.4.2-p1
 
