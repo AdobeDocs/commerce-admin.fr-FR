@@ -3,9 +3,9 @@ title: Jeux d’attributs
 description: Découvrez comment organiser les attributs en groupes, qui déterminent où ils apparaissent dans l’enregistrement de produit.
 exl-id: de0c5fa2-158c-44ff-b84d-e4904ed8aa7d
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 43550b9370f4ed4b631ae7773324ed0913718a79
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Les attributs sont organisés en groupes qui déterminent où ils apparaissent d
 
 1. Définissez **[!UICONTROL Based On]** sur un jeu d’attributs existant à utiliser comme modèle.
 
-1. cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Save]**.
 
    La page suivante affiche les informations suivantes :
 
@@ -38,7 +38,7 @@ Les attributs sont organisés en groupes qui déterminent où ils apparaissent d
    - Le centre de la page répertorie la sélection actuelle des groupes d’attributs.
    - La colonne de droite répertorie la sélection des attributs qui ne sont actuellement pas affectés au jeu d’attributs.
 
-1. Pour ajouter un attribut à l’ensemble, faites glisser l’attribut de la liste **[!UICONTROL Unassigned Attributes]** vers le dossier approprié dans la colonne **[!UICONTROL Groups]**.
+1. Pour ajouter un attribut à l’ensemble, faites glisser l’attribut de la liste **[!UICONTROL Unassigned Attributes]** vers le dossier approprié dans la colonne **[!UICONTROL Groups]**. Pour supprimer un attribut de l’ensemble, faites-le glisser vers la liste **[!UICONTROL Unassigned Attributes]**.
 
    >[!NOTE]
    >
@@ -58,6 +58,7 @@ Les attributs sont organisés en groupes qui déterminent où ils apparaissent d
 
    - Faites glisser **[!UICONTROL Unassigned Attributes]** vers le nouveau groupe.
    - Faites glisser les attributs de n’importe quel autre groupe vers le nouveau groupe.
+   - Faites glisser des attributs inutiles vers **[!UICONTROL Unassigned Attributes]**.
 
    Le nouveau groupe devient une section d’attributs dans n’importe quel produit basé sur le jeu d’attributs.
 
