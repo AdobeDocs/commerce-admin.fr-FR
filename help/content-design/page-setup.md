@@ -2,9 +2,9 @@
 title: Configuration de la page
 description: Découvrez comment configurer les valeurs par défaut des principales parties d’une page de magasin.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 6958da6a87f9088bb292d58f23fa1d0c34beb70b
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,11 @@ Les paramètres de la section En-tête de l’HTML correspondent à la balise `<
    - **[!UICONTROL Default Meta Keywords]**
 
 1. Saisissez tout **[!UICONTROL Scripts and Style Sheets]** si nécessaire.
+
+   >[!NOTE]
+   >
+   >Toutes les JavaScript saisies dans le champ [!UICONTROL Scripts and Style Sheets] doivent être whitelistées dans les paramètres CSP (Content Security Policy, stratégie de sécurité du contenu), sinon elles ne seront pas exécutées sur les pages de passage en caisse. Pour plus d’informations, voir [Stratégie de sécurité du contenu](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+
 
 1. Activez ou désactivez l’ [avis de boutique de démonstration](../getting-started/storefront-branding.md#set-the-store-demo-notice) si nécessaire.
 
@@ -118,6 +123,10 @@ La section Configuration du pied de page vous permet de mettre à jour l’ [avi
 1. Sous _Other Settings_, développez ![Extension selector](../assets/icon-display-expand.png) dans la section **[!UICONTROL Footer]**.
 
 1. Apportez les modifications nécessaires aux paramètres **[!UICONTROL Copyright]** et **[!UICONTROL Miscellaneous HTML]**.
+
+   >[!NOTE]
+   >
+   >Toutes les JavaScript saisies dans le champ [!UICONTROL Miscellaneous HTML] doivent être whitelistées dans les paramètres CSP (Content Security Policy, stratégie de sécurité du contenu), sinon elles ne seront pas exécutées sur les pages de passage en caisse. Pour plus d’informations, voir [Stratégie de sécurité du contenu](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Configuration]**.
 
