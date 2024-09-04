@@ -3,9 +3,9 @@ title: Contrôles de l’espace de travail de page
 description: Découvrez les outils de l’espace de travail utilisés pour localiser et mettre à jour les pages de contenu.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -199,6 +199,10 @@ Cliquez sur la commande _View_ (![Icône OEil](../assets/icon-view-eye.png)) et 
 {{ee-feature}}
 
 Les modifications de page peuvent être appliquées selon le calendrier et regroupées avec d’autres modifications de contenu. Vous pouvez créer une campagne d’après les modifications planifiées apportées à une page ou appliquer les modifications à une campagne existante. Pour plus d’informations, voir [Content Staging](content-staging.md).
+
+>[!NOTE]
+>
+>Si une campagne est liée à plusieurs pages, elle ne peut être modifiée que depuis le [tableau de bord d’évaluation du contenu](content-staging-dashboard.md).
 
 >[!NOTE]
 >

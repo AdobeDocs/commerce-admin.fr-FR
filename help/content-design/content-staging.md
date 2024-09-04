@@ -3,9 +3,9 @@ title: Évaluation du contenu
 description: L’évaluation de contenu permet à votre équipe d’entreprise de créer, de prévisualiser et de planifier facilement toute une gamme de mises à jour de contenu pour votre boutique, directement depuis l’administrateur.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: d4c5cac590bff290e81c1c8fa55a5ca7b4d9a017
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ Le terme _campaign_ fait référence à l’enregistrement d’une modification 
 
 Lorsque vous planifiez une modification du contenu pour une période spécifique, le contenu revient à la version précédente à l’expiration de la modification planifiée. Vous pouvez créer plusieurs versions du même contenu de base à utiliser pour des mises à jour ultérieures. Vous pouvez également revenir en arrière dans la chronologie pour afficher les versions précédentes du contenu. Pour enregistrer une version préliminaire, il vous suffit d’attribuer une date dans la frise chronologique si lointaine qu’elle ne sera jamais mise en production.
 
->[!NOTE]
->
->Les champs relatifs à la date de début et à la date de fin ont été supprimés dans ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce et ne peuvent pas être modifiés directement sur la page de règle de prix du panier, de règle de prix de catalogue, de produit, de catégorie et de CMS. Vous devez créer une mise à jour planifiée pour ces activations.
-
 ## Objets et campagnes d’évaluation de contenu
+
+Les champs relatifs à la date de début et à la date de fin ont été supprimés d’Adobe Commerce et ne peuvent pas être modifiés directement sur la page de la règle de prix du panier, de la règle de prix du catalogue, du produit, de la catégorie et de CMS. Vous devez créer une mise à jour planifiée pour ces activations.
+
+Toutes les mises à jour planifiées sont appliquées consécutivement, ce qui signifie que toute entité ne peut avoir qu’une seule mise à jour planifiée à la fois. Toute mise à jour planifiée est appliquée à toutes les vues de magasin au cours de sa période. Par conséquent, une entité ne peut pas avoir une mise à jour planifiée différente pour différentes vues de magasin en même temps. Toutes les valeurs d’attribut d’entité dans toutes les vues de magasin, qui ne sont pas affectées par la mise à jour planifiée actuelle, sont extraites des valeurs par défaut et non de la mise à jour planifiée précédente.
 
 Lorsqu’une nouvelle mise à jour planifiée est créée pour l’un des objets suivants, une campagne correspondante est créée en tant qu’espace réservé et la zone _[!UICONTROL Scheduled Changes]_apparaît en haut de la page. La campagne d’espace réservé a une date de début, mais pas une date de fin. Vous pouvez planifier des mises à jour du contenu dans le cadre d’une campagne, puis prévisualiser et partager les modifications par date, heure ou vue de magasin. Une fois qu’une nouvelle campagne est créée pour un objet, vous pouvez l’affecter comme mise à jour planifiée pour d’autres objets.
 
@@ -45,17 +45,17 @@ Lorsqu’une nouvelle mise à jour planifiée est créée pour l’un des objets
 
    Créez votre première campagne avec les dates de début et de fin selon vos besoins. Pour que la campagne soit ouverte, laissez la date de fin vide. À la fin de la première campagne, le contenu de base d’origine est restauré.
 
-   >[!NOTE]
-   >
-   >La date de début et la date de fin de la campagne doivent être définies à l’aide du fuseau horaire d’administrateur **_default_**, converti à partir du fuseau horaire local de chaque site web. Prenons l’exemple de plusieurs sites web dans différents fuseaux horaires, mais que vous souhaitez lancer une campagne basée sur un fuseau horaire américain. Dans ce cas, vous devez planifier une mise à jour distincte pour chaque fuseau horaire local, et définir **[!UICONTROL Start Date]** et **[!UICONTROL End Date]** convertis de chaque fuseau horaire de site web local en fuseau horaire d’administration par défaut.
+   La date de début et la date de fin de la campagne doivent être définies à l’aide du fuseau horaire d’administrateur **_default_**, converti à partir du fuseau horaire local de chaque site web. Prenons l’exemple de plusieurs sites web dans différents fuseaux horaires, mais que vous souhaitez lancer une campagne basée sur un fuseau horaire américain. Dans ce cas, vous devez planifier une mise à jour distincte pour chaque fuseau horaire local, et définir **[!UICONTROL Start Date]** et **[!UICONTROL End Date]** convertis de chaque fuseau horaire de site web local en fuseau horaire d’administration par défaut.
 
 1. **Ajouter une seconde campagne**
 
    Créez la seconde campagne, avec les dates de début et de fin nécessaires. La seconde campagne peut être affectée à une période entièrement différente. Lors de la création de plusieurs campagnes pour la même ressource, les campagnes ne peuvent pas se chevaucher. Vous pouvez créer autant de campagnes que nécessaire.
 
+   Plusieurs ressources peuvent être affectées à une campagne existante qui n’a pas encore démarré. Par exemple, deux prix de produit différents peuvent être mis à jour dans le cadre d’une même campagne avec une date de début ultérieure.
+
    >[!NOTE]
    >
-   >Toutes les mises à jour planifiées sont appliquées consécutivement, ce qui signifie que toute entité ne peut avoir qu’une seule mise à jour planifiée à la fois. Toute mise à jour planifiée est appliquée à toutes les vues de magasin au cours de sa période. Par conséquent, une entité ne peut pas avoir une mise à jour planifiée différente pour différentes vues de magasin en même temps. Toutes les valeurs d’attribut d’entité dans toutes les vues de magasin, qui ne sont pas affectées par la mise à jour planifiée actuelle, sont extraites des valeurs par défaut et non de la mise à jour planifiée précédente.
+   >Si une campagne est liée à plusieurs entités, la campagne ne peut être modifiée qu’à partir du [tableau de bord d’évaluation du contenu](content-staging-dashboard.md).
 
 1. **Restaurer le contenu de base**
 

@@ -3,9 +3,9 @@ title: Mises à jour planifiées des produits
 description: Découvrez comment planifier les modifications apportées à vos listes de produits pour prendre en charge les campagnes et les programmes promotionnels.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,10 @@ La modification planifiée s’affiche en haut de la page du produit, avec les d
 1. Dans la zone _[!UICONTROL Scheduled Changes]_située en haut de la page, cliquez sur **[!UICONTROL View/Edit]**.
 
 1. Apportez les modifications nécessaires à la mise à jour planifiée.
+
+>[!NOTE]
+>
+>Si une campagne est liée à plusieurs produits, elle ne peut être modifiée que depuis le [tableau de bord de l’évaluation du contenu](../content-design/content-staging-dashboard.md).
 
 1. Cliquez sur **[!UICONTROL Save]**.
 

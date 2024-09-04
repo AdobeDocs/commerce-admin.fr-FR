@@ -3,9 +3,9 @@ title: Modifications planifiées pour les règles de prix de catalogue
 description: Découvrez comment appliquer des règles de prix de catalogue selon le calendrier dans le cadre d’une campagne et les regrouper avec d’autres modifications de contenu.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,10 @@ Si plusieurs règles de prix sont exécutées dans la même campagne, le paramè
 1. Dans la zone **[!UICONTROL Scheduled Changes]** située en haut de la page, cliquez sur **[!UICONTROL View/Edit]**.
 
 1. Apportez les modifications nécessaires à la mise à jour planifiée.
+
+   >[!NOTE]
+   >
+   >Si une campagne est liée à plusieurs règles de prix de catalogue, elle ne peut être modifiée que depuis le [tableau de bord de l’évaluation du contenu](../content-design/content-staging-dashboard.md).
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
