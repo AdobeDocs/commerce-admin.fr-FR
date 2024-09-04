@@ -3,9 +3,9 @@ title: Créer une règle de prix de panier
 description: Découvrez comment créer une règle de prix de panier basée sur les attributs de panier ou de produit.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7058e08de0de72999b3baf7762126be4e9040dba
+source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3379'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Pour ajouter une règle, décrire les conditions et définir les actions, procé
 
    >[!NOTE]
    >
-   >Les règles de prix du panier ayant la même priorité ne génèrent pas de remise combinée. Chaque règle est appliquée séparément aux produits correspondants, une par une.
+   >Les règles de prix du panier ayant la même priorité ne génèrent pas de remise combinée. Chaque règle (coupon) est appliquée séparément aux produits correspondants, un par un, selon l&#39;identifiant de règle de prix du panier dans la base de données. Pour contrôler l’ordre d’application des remises, Adobe recommande de définir une priorité différente pour chaque règle de prix du panier ajoutée.
 
 1. Pour appliquer la règle aux [flux RSS](social-rss.md#rss-feeds) publiés, définissez **Flux RSS public** sur `Yes`.
 

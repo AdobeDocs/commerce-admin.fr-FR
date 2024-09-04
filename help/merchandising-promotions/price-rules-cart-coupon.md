@@ -3,9 +3,9 @@ title: Codes de coupon
 description: Découvrez comment utiliser des codes de coupons avec des règles de prix de panier pour appliquer une remise lorsqu’un ensemble de conditions est satisfait.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7407df02ca62e36b4dd60dba418eae3e6aa34491
+source-git-commit: f6f3dba7a43cbadd5ca8bdac15af8141cbf2d260
 workflow-type: tm+mt
-source-wordcount: '1839'
+source-wordcount: '1895'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ Les codes coupons sont utilisés avec les [règles de prix de panier](price-rule
 Les codes coupon peuvent être envoyés par e-mail ou inclus dans les newsletters, catalogues et publicités. La liste des codes de coupon peut être exportée et envoyée vers une imprimante commerciale. Vous pouvez également créer des coupons en magasin avec un code de réponse rapide que les acheteurs peuvent analyser à l’aide de leur smartphone. Le code QR peut renvoyer vers une page de votre site contenant plus d’informations sur la promotion.
 
 Depuis Commerce 2.4.7, les acheteurs peuvent appliquer plusieurs bons à un panier. Les commerçants peuvent également appliquer plusieurs coupons en utilisant l’aide pour les achats.
+
+>[!NOTE]
+>
+>Les règles de prix du panier ayant la même priorité ne génèrent pas de remise combinée. Chaque règle (coupon) est appliquée séparément aux produits correspondants, un par un, selon l&#39;identifiant de règle de prix du panier dans la base de données. Pour contrôler l’ordre d’application des remises, Adobe recommande de définir une priorité différente pour chaque règle de prix du panier ajoutée.
 
 ## Configuration des codes de bon
 
