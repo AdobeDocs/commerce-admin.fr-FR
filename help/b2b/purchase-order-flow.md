@@ -3,9 +3,9 @@ title: Commandes d’achat pour les entreprises
 description: Découvrez les workflows de commandes d’achat qui permettent aux entreprises de suivre et de contrôler les dépenses.
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
-source-git-commit: 4b34645377102e890779059e57c61cf23f71f34c
+source-git-commit: c1d8bdcd2d09567846ef6819660c57468062ab01
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Le workflow du bon de commande d’une société peut varier de plusieurs façon
   >Par défaut, un message `Purchase order has been submitted for approval` est toujours affiché pour les utilisateurs de l’entreprise, même lorsqu’aucune règle d’approbation n’est définie. Lorsqu’aucun processus d’approbation n’est requis, les utilisateurs de l’entreprise reçoivent automatiquement un courrier électronique les informant que la commande a été créée et approuvée.
 
 - Si les règles d’approbation sont définies par l’administrateur de la société, les utilisateurs passent par le processus d’approbation.
+- Si plusieurs règles d’approbation s’appliquent à un bon de commande, tous les approbateurs uniques requis doivent l’approuver.
 - Les informations de paiement hors ligne sont saisies lors de la création du bon de commande.
 - Les informations de paiement en ligne sont saisies une fois la commande d’achat validée.
 
@@ -57,7 +58,7 @@ Les règles d’approbation sont utilisées pour contrôler les dépenses en fon
 - Toute commande de plus de 1 000 $ nécessite l’approbation de votre responsable et de l’administrateur de la société.
 - Toute commande comportant plus de 30 SKU uniques doit être approuvée par l’administrateur de l’entreprise.
 
-Une fois ces règles en place pour une société, un utilisateur de la société peut terminer la commande immédiatement lorsque la commande est inférieure à 100 €. Pour en savoir plus sur la définition des règles d’approbation, voir [Règles d’approbation](account-dashboard-approval-rules.md)
+Une fois ces règles en place pour une société, un utilisateur de la société peut terminer la commande immédiatement lorsque la commande est inférieure à 100 €. Pour en savoir plus sur la définition des règles d’approbation, voir [Règles d’approbation](account-dashboard-approval-rules.md).
 
 ### Types d’utilisateurs de magasins
 
