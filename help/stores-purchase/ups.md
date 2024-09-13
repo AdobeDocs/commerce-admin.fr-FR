@@ -3,9 +3,9 @@ title: United Parcel Service (UPS)
 description: Découvrez comment configurer UPS en tant qu’opérateur de livraison pour votre magasin.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 59daaca469ca1bf21c420ce8520efea6c54166fa
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ Pour proposer cette méthode d&#39;expédition à vos clients, vous devez d&#39;
 
    - Définissez **[!UICONTROL Mode]** sur `Live` pour envoyer des données au système d’expédition UPS via une connexion sécurisée. (Le mode de développement n’envoie pas de données via une connexion sécurisée.)
 
-   - Vérifiez les **[!UICONTROL Gateway URL]** requis pour envoyer des requêtes. Utilisez une URL d’environnement de test pour le mode test et une URL de production pour les requêtes en direct.
+   - Vérifiez les **[!UICONTROL Gateway URL]** requis pour envoyer des requêtes. Utilisez une URL d’environnement de test (`https://wwwcie.ups.com/`) pour le mode test et une URL de production pour les requêtes en direct (`https://onlinetools.ups.com`). Veillez à utiliser les points de terminaison respectifs pour chaque requête avec l’hôte donné.
 
-   - Vérifiez les **[!UICONTROL Tracking URL]** nécessaires pour obtenir les informations de suivi. Utilisez une URL d’environnement de test pour le mode test et une URL de production pour les requêtes en direct.
+   - Vérifiez les **[!UICONTROL Tracking URL]** nécessaires pour obtenir les informations de suivi. Utilisez une URL d’environnement de test (`https://wwwcie.ups.com/`) pour le mode test et une URL de production pour les requêtes en direct (`https://onlinetools.ups.com`). Veillez à utiliser les points de terminaison respectifs pour chaque requête avec l’hôte donné.
 
    - Définissez **[!UICONTROL Origin of the Shipment]** sur la région d’origine de l’envoi.
 
@@ -50,8 +50,8 @@ Pour proposer cette méthode d&#39;expédition à vos clients, vous devez d&#39;
 
    - Définissez **[!UICONTROL Live Account]** sur l’une des options suivantes :
 
-      - `Yes` : exécute UPS en mode de production et offre UPS comme méthode d’expédition à vos clients.
-      - `No` : exécute UPS en mode test.
+      - `Yes` : exécute UPS en mode de production et offre UPS comme méthode d’expédition à vos clients. Veillez à utiliser les points de terminaison corrects sous URL de passerelle et URL de suivi.
+      - `No` : exécute UPS en mode test. Veillez à utiliser les points de terminaison corrects sous URL de passerelle et URL de suivi.
 
    >[!NOTE]
    >
