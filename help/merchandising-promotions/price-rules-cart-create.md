@@ -3,9 +3,9 @@ title: Créer une règle de prix de panier
 description: Découvrez comment créer une règle de prix de panier basée sur les attributs de panier ou de produit.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
+source-git-commit: 83f341c59ab9517a076eaaba71f4988e21abf826
 workflow-type: tm+mt
-source-wordcount: '3379'
+source-wordcount: '3386'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Pour ajouter une règle, décrire les conditions et définir les actions, procé
 
    >[!NOTE]
    >
-   >Le paramètre Priorité est important lorsque deux règles de panier/codes de bon sont valides pour un même produit en même temps. La règle dont le paramètre de priorité est le plus élevé (`1` étant le plus élevé) contrôle l’action du panier. Voir _Ignorer les règles de prix suivantes_ à l’étape _Définir les actions_ .
+   >Le paramètre _[!UICONTROL Priority]_est important lorsque deux règles de panier ou codes de bon sont valides pour le même produit en même temps. La règle avec le paramètre [!UICONTROL Priority] le plus élevé contrôlant l’action du panier.  Les priorités du plus haut au plus bas sont `0,1,2,3...`. Voir_ Ignorer les règles de prix suivantes _à l’étape_[ Définir les actions ](#step-3-define-the-actions)_.
 
    >[!NOTE]
    >
@@ -350,7 +350,7 @@ Regardez cette vidéo pour en savoir plus sur la création de règles de prix de
 | [!UICONTROL Coupon] | (Obligatoire) Indique si un coupon est associé à la règle. Options : <br/>**[!UICONTROL No Coupon]**- Aucun coupon n’est associé à la règle.<br/>**[!UICONTROL Specific Coupon]** - Un coupon spécifique est associé à la règle. <br/>**[!UICONTROL Coupon Code]**- Lorsque vous y êtes invité, saisissez le code de bon que le client doit saisir pour profiter de la promotion.<br/>**[!UICONTROL Use Auto Generation]** - Cochez la case pour générer automatiquement plusieurs codes de bon qui peuvent être utilisés avec la promotion. <br/>**[!UICONTROL Auto]**- Affiche la section _[!UICONTROL Manage Coupon Codes]_pour définir le format des codes de coupon à générer. |
 | [!UICONTROL Uses per Coupon] | Détermine le nombre de fois où le code de coupon peut être utilisé. Si aucune limite n’est définie, laissez le champ vide. |
 | [!UICONTROL Uses per Customer] | Détermine le nombre de fois où la règle de prix du panier peut être utilisée par le même client enregistré qui appartient à un groupe de clients sélectionné. Ne s’applique pas aux acheteurs invités qui sont membres du groupe de clients NON CONNECTÉS , ni aux clients qui achètent sans se connecter à leurs comptes. Pour aucune limite, laissez vide. |
-| [!UICONTROL Priority] | Un nombre qui indique la priorité de cette règle par rapport aux autres. La priorité la plus élevée est le nombre `1`. |
+| [!UICONTROL Priority] | Un nombre qui indique la priorité de cette règle par rapport aux autres. Les priorités du plus haut au plus bas sont `0,1,2,3...` |
 | [!UICONTROL Public in RSS Feed] | Détermine si la promotion est incluse dans le flux RSS public de votre magasin. Options :  `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Date de première utilisation du coupon. |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Dernière date à laquelle le coupon peut être utilisé. |

@@ -3,9 +3,9 @@ title: Créer une règle de prix de catalogue
 description: Découvrez comment créer une règle de prix de catalogue qui applique une remise à des produits spécifiques chaque fois qu’un ensemble de conditions est satisfait.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 0f26e981a1ba5bffb1acdeeb4320415772826aba
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Suivez ces instructions pour appliquer une remise à des produits spécifiques c
 
    >[!NOTE]
    >
-   >Le paramètre _[!UICONTROL Priority]_est important lorsque le même produit de catalogue répond aux conditions définies pour plusieurs règles de prix. La règle avec le paramètre de priorité le plus élevé (1 étant le plus élevé) devient active pour le produit.
+   >Le paramètre _[!UICONTROL Priority]_est important lorsque le même produit de catalogue répond aux conditions définies pour plusieurs règles de prix. La règle avec le paramètre de priorité le plus élevé (les priorités du plus haut au plus bas sont 0,1,2,3...) devient active pour le produit.
 
 ## Etape 2 : définir les conditions
 
@@ -236,7 +236,7 @@ Regardez cette vidéo pour en savoir plus sur la création de règles de prix de
 | [!UICONTROL Description] | Une description de la règle doit inclure l’objet de la règle et expliquer comment elle est utilisée. |
 | [!UICONTROL Websites] | (Obligatoire) Identifie les sites web sur lesquels la règle peut être utilisée. |
 | [!UICONTROL Customer Groups] | (Obligatoire) Identifie les groupes de clients auxquels s’applique la règle. |
-| [!UICONTROL Priority] | Un nombre qui indique la priorité de cette règle par rapport aux autres. La priorité la plus élevée est le numéro 1. |
+| [!UICONTROL Priority] | Un nombre qui indique la priorité de cette règle par rapport aux autres. Les priorités du plus haut au plus bas sont `0,1,2,3...` |
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Détermine si la règle est active dans le magasin. Options : `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Indique le premier jour où la règle de prix est en vigueur. Si rien n’est indiqué, la règle de prix entre en vigueur lorsqu’elle est enregistrée. |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Indique le dernier jour où la règle de prix est en vigueur. Si rien n’est indiqué, la règle de prix continue indéfiniment. |
