@@ -3,9 +3,9 @@ title: Préparation du HIPAA sur Adobe Commerce
 description: Découvrez comment ajouter l’extension Adobe Commerce HIPAA-Ready et obtenir des fonctionnalités supplémentaires qui vous permettent de respecter vos obligations HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: bce0e581e89139875e09b671038a21976eccebca
+source-git-commit: dd97177836f5795f64e04665acdf8c1baa777465
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1599'
 ht-degree: 1%
 
 ---
@@ -214,7 +214,7 @@ Pour se conformer aux exigences de la HIPAA, certains services et fonctionnalit�
    - Mesh de l’API
    - App Builder
 
-- **[Service SendGrid](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)** : ce service est désactivé par défaut, car l’application n’est pas compatible avec HIPAA.
+- **Email transactionnel**—[SendGrid](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html) est désactivé par défaut, car le service n’est pas prêt pour HIPAA. Adobe Commerce fournit une option d’intégration que vous pouvez utiliser avec votre propre compte [AWS Simple Email Service](https://docs.aws.amazon.com/ses/). Pour obtenir des informations sur la configuration, contactez votre gestionnaire de compte technique client ou l’assistance d’Adobe Commerce.
 
 ### Fonctionnalités désactivées par défaut
 
