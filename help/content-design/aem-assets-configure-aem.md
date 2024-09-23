@@ -2,9 +2,10 @@
 title: Configuration de Experience Manager Assets
 description: Ajoutez les métadonnées de ressource requises pour permettre à l’intégration AEM Assets pour Commerce de synchroniser les ressources entre les projets Adobe Commerce et Experience Manager Assets.
 feature: CMS, Media, Integration
-source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
+exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
+source-git-commit: 8a150c79c2e15ce5bd2cb2037f94c94f90b7a1df
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -13,27 +14,59 @@ ht-degree: 0%
 
 {{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
-Pour gérer les ressources multimédias de votre magasin à l’aide de l’intégration AEM Assets pour Commerce, votre projet AEM Assets nécessite l’ajout de certaines métadonnées afin de vous assurer que vous pouvez facilement rechercher et gérer des ressources Commerce. Ces métadonnées facilitent également la synchronisation des ressources entre Adobe Commerce et Experience Manager Assets. Après avoir défini les champs de métadonnées, le mappage initial de ces champs se produit automatiquement la première fois qu’une ressource Commerce est partagée avec Experience Manager Assets.
+Préparez l’environnement AEM as a Cloud Service pour gérer les ressources Commerce en mettant à jour la configuration de l’environnement et en configurant les métadonnées Assets pour identifier et gérer les ressources Commerce.
 
-Pour l’intégration, vous configurez deux types de métadonnées :
+L’intégration requiert l’ajout d’un espace de noms `Commerce` personnalisé et de [métadonnées de profil](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles) et [métadonnées de schéma](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas) supplémentaires.
 
-- **[Le ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)** permet d’appliquer des métadonnées par défaut aux ressources d’un dossier. Toutes les ressources du dossier héritent des métadonnées par défaut configurées dans le profil.
+Adobe fournit un modèle de projet AEM pour ajouter les ressources de schéma de métadonnées et d’espace de noms à la configuration de l’environnement as a Cloud Service AEM Assets. Le modèle ajoute :
 
-- **[Schéma de métadonnées](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)** définit la mise en page de la page des propriétés et l’ensemble des champs qui peuvent être utilisés comme propriétés de métadonnées sur une ressource AEM.
+- Un [espace de noms personnalisé](https://github.com/ankumalh/assets-commerce/blob/main/ui.config/jcr_root/apps/commerce/config/org.apache.sling.jcr.repoinit.RepositoryInitializer~commerce-namespaces.cfg.json), `Commerce` pour identifier les propriétés liées à Commerce.
 
-## Configuration des métadonnées
+- Un type de métadonnées personnalisé `commerce:isCommerce` avec le libellé `Does it exist in Commerce?` pour baliser les ressources Commerce associées à un projet Adobe Commerce.
 
-Pour l’intégration initiale, ajoutez les métadonnées Commerce suivantes à un profil de métadonnées AEM Assets et à un schéma de métadonnées.
+- Un type de métadonnées personnalisé `commerce:productmetadata` et un composant d’IU correspondant pour ajouter une propriété *[!UICONTROL Product Data]*. Les données de produit incluent les propriétés de métadonnées pour associer une ressource Commerce aux SKU du produit et pour spécifier les attributs image `role` et `position` de la ressource.
 
-| Type de champ | Libellé | Propriété | Valeur par défaut |
-|------ | ------- | ---------- | ------------- |
-| Texte | **Existe-t-il dans Adobe Commerce ?** | `./jcr:content/metadata/commerce:isCommerce` | oui |
-| Texte à plusieurs valeurs | **SKU** | `./jcr:content/metadata/commerce:skus` | none |
-| Texte à plusieurs valeurs | **Positions** | `./jcr:content/metadata/commerce:positions` | none |
-| Texte à plusieurs valeurs | **Rôles** | `./jcr:content/metadata/commerce:roles` | none |
+  ![Contrôle personnalisé de l’interface utilisateur des données de produit](./assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
 
+- Un formulaire de schéma de métadonnées avec un onglet Commerce qui comprend les champs `Does it exist in Adobe Commerce?` et `Product Data` pour baliser les ressources Commerce. Le formulaire fournit également des options pour afficher ou masquer les champs `roles` et `order` (position) de l’interface utilisateur d’AEM Assets.
 
-### Ajout de champs Commerce à un profil de métadonnées
+  ![Onglet Commerce pour le formulaire de schéma de métadonnées AEM Assets](./assets/assets-configure-metadata-schema-form-editor.png){width="600" zoomable="yes"}
+
+- [ exemple de ressource Commerce balisée et approuvée ](https://github.com/ankumalh/assets-commerce/blob/main/ui.content/src/main/content/jcr_root/content/dam/wknd/en/activities/hiking/equipment_6.jpg/.content.xml) `equipment_6.jpg` pour prendre en charge la synchronisation initiale des ressources. Seules les ressources Commerce approuvées peuvent être synchronisées d’AEM Assets vers Adobe Commerce.
+
+Pour plus d’informations sur le projet Commerce-Assets AEM, voir [Readme](https://github.com/ankumalh/assets-commerce).
+
+## Personnalisation de la configuration de l’environnement AEM Assets
+
+>[!BEGINSHADEBOX]
+
+**Conditions préalables**
+
+- [Accès au programme et aux environnements AEM Assets Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo) avec les rôles Program et Deployment Manager.
+
+- Un [environnement de développement AEM local](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) et une familiarité avec le processus de développement local AEM.
+
+- Découvrez [AEM structure de projet](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) et comment déployer des packages de contenu personnalisés à l’aide de Cloud Manager.
+
+>[!ENDSHADEBOX]
+
+### Déployer le projet Commerce-Assets AEM dans l’environnement de création AEM Assets
+
+1. Dans Cloud Manager, créez des environnements de production et d’évaluation pour votre projet AEM Assets, si nécessaire.
+
+1. Configurez un pipeline de déploiement, si nécessaire.
+
+1. A partir de GitHub, téléchargez le code standard du [projet Commerce-Assets AEM](https://github.com/ankumalh/assets-commerce).
+
+1. A partir de votre [environnement de développement AEM local](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview), installez le code personnalisé dans votre configuration d’environnement AEM Assets sous la forme d’un package Maven, ou en copiant manuellement le code dans la configuration de projet existante.
+
+1. Validez les modifications et poussez votre branche de développement local dans le référentiel git de Cloud Manager.
+
+1. À partir de Cloud Manager, [ déployez votre code pour mettre à jour l&#39;environnement AEM ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager).
+
+## Configuration d’un profil de métadonnées
+
+Définissez des valeurs par défaut pour les métadonnées de ressources Commerce en créant un profil de métadonnées. Une fois configuré, appliquez ce profil à AEM dossiers de ressources afin d’utiliser automatiquement ces valeurs par défaut. Cette configuration facultative permet de rationaliser le traitement des ressources en réduisant les étapes manuelles.
 
 1. Dans l’espace de travail Adobe Experience Manager, accédez à l’espace de travail Auteur de l’administration du contenu pour AEM Assets en cliquant sur l’icône Adobe Experience Manager .
 
@@ -55,7 +88,7 @@ Pour l’intégration initiale, ajoutez les métadonnées Commerce suivantes à 
 
    1. Cliquez sur **[!UICONTROL +]** dans la section des onglets, puis spécifiez les **[!UICONTROL Tab Name]**, `Commerce`.
 
-1. Ajoutez les [champs de métadonnées](#configure-metadata) au formulaire.
+1. Ajoutez le champ `Does it exist in Commerce?` au formulaire et définissez la valeur par défaut sur `yes`.
 
    ![AEM l’administrateur de l’auteur ajoute des champs de métadonnées au profil](./assets/aem-edit-metadata-profile-fields.png){width="600" zoomable="yes"}
 
@@ -73,45 +106,14 @@ Pour l’intégration initiale, ajoutez les métadonnées Commerce suivantes à 
 
    1. Cliquez sur **[!UICONTROL Apply]**.
 
-### Ajout de champs Commerce à un formulaire de schéma de métadonnées
-
-1. Dans le panneau d’administration du contenu de l’auteur AEM pour Assets, ouvrez **[!UICONTROL Metadata Schemas]** ([!UICONTROL Manage metadata schema forms]).
-
-   ![AEM de l’administrateur de l’auteur de mettre à jour le schéma de métadonnées](./assets/aem-assets-manage-metadata-schema.png){width="600" zoomable="yes"}
-
-1. **[!UICONTROL Create]** : schéma de métadonnées pour Commerce.
-
-   ![AEM de l’administrateur de l’auteur de mettre à jour le schéma de métadonnées](./assets/aem-assets-create-metadata-schema.png){width="600" zoomable="yes"}
-
-1. Sur le [!UICONTROL Metadata Schema Form], créez les champs `Does Commerce exist?` et `Commerce mappings` et mappez les propriétés.
-
-1. Cliquez sur **[!UICONTROL Save]**.
+>[!TIP]
+>
+>Vous pouvez synchroniser automatiquement les ressources Commerce lors de leur chargement dans l’environnement AEM Assets en mettant à jour le profil de métadonnées afin de définir la valeur par défaut du champ _[!UICONTROL Review Status]_sur `Approved`. Le type de propriété du champ `Review Status` est `./jcr:content/metadata/dam:status`.
 
 
-## Publish d’une ressource
+## Étapes suivantes
 
-Après avoir configuré les métadonnées AEM et le profil de schéma pour les ressources Commerce, créez la première ressource Commerce à mapper les champs de métadonnées Commerce.
+Après la mise à jour de l’environnement AEM, configurez Adobe Commerce :
 
-1. Depuis l’Experience Manager, accédez à [!UICONTROL Assets > Files] et sélectionnez le dossier **Commerce**.
-
-1. Téléchargez une image pour un projet Commerce en faisant glisser le fichier vers le dossier ou en cliquant sur **[!UICONTROL Add Assets]**.
-
-1. Vérifiez la configuration des métadonnées : **isCommerce** est défini sur `true` et que la propriété `commerce:skus` est définie sur le SKU du produit Commerce associé à l’image.
-
-1. Approuvez la ressource.
-
-
-## Ajout d’une ressource au dossier Commerce
-
-Créez au moins une ressource dans le dossier Commerce AEM Assets à laquelle les attributs de métadonnées Commerce sont affectés.
-
-Cette ressource est nécessaire pour configurer la synchronisation entre votre instance Commerce et AEM Assets.
-
-## Mappage des métadonnées des ressources
-
-Les métadonnées sont mises en correspondance lorsqu’une ressource Commerce est publiée pour la première fois.  de Commerce pour la première fois. Les ressources multimédia qui comportent des champs intégrés ou personnalisés sont automatiquement associées aux champs spécifiés lors de leur premier envoi à Experience Manager Assets.
-
-Avant de commencer le mappage des ressources, effectuez les tâches suivantes :
-
-- [Installation et configuration de l’intégration AEM Assets pour Commerce](aem-assets-configure-commerce.md)
-- [Activation de la synchronisation des ressources pour le transfert de ressources entre l’environnement de projet Adobe Commerce et l’environnement de projet AEM Assets](aem-assets-setup-synchronization.md)
+1. [Installation et configuration de l’intégration AEM Assets pour Commerce](aem-assets-configure-commerce.md)
+2. [Activation de la synchronisation des ressources pour le transfert de ressources entre l’environnement de projet Adobe Commerce et l’environnement de projet AEM Assets](aem-assets-setup-synchronization.md)

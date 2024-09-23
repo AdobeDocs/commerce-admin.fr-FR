@@ -3,10 +3,10 @@ user-guide-title: Guide de conception et de contenu
 user-guide-description: Informations complètes sur les fonctionnalités de contenu et de conception pour les administrateurs Adobe Commerce et les Magento Open Sources et les spécialistes du marketing en ligne.
 breadcrumb-title: Contenu et conception
 feature: CMS, Page Content
-source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
+source-git-commit: ea1532d326d3e787ba36cb98ced708f2bc2776e4
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '238'
+ht-degree: 4%
 
 ---
 
@@ -57,19 +57,11 @@ ht-degree: 3%
    - [Insérer une image](editor-insert-image.md)
    - [Insérer un widget](editor-widget.md)
    - [Insertion d’une variable](editor-insert-variable.md)
-- Media {#media}
    - Stockage du média {#storage}
       - [Vue d’ensemble](media-storage.md)
       - [Utilisation d’une base de données multimédia](media-storage-database.md)
       - [Utiliser un réseau de diffusion de contenu](media-storage-content-delivery-network.md)
       - [URL Dynamic Media](catalog-urls-dynamic-media.md)
-   - Experience Manager Assets {#aem-assets}
-      - [Intégration d’Assets](aem-assets.md)
-      - Intégration {#onboarding}
-         - [Configuration d’AEM Assets](aem-assets-configure-aem.md)
-         - [Configuration d’Adobe Commerce](aem-assets-configure-commerce.md)
-         - [Activation de la synchronisation des ressources](aem-assets-setup-synchronization.md)
-      - [Utilisation d’AEM Assets](aem-assets-manage.md)
    - Adobe Stock {#adobe-stock}
       - [Intégration d’Adobe Stock](adobe-stock.md)
       - [Utilisation d’images Adobe Stock](adobe-stock-manage.md)
@@ -80,6 +72,15 @@ ht-degree: 3%
       - [Gestion des ressources](media-gallery-asset-management.md)
       - [Gestion des dossiers](media-gallery-folder-management.md)
       - [Optimisation des images](media-gallery-image-optimization.md)
+- Gestion avancée des ressources {#aem-assets}
+   - [Intégration d’AEM Assets pour Commerce](aem-assets.md)
+   - Configuration de l’intégration {#onboarding}
+      - [Vue d’ensemble](aem-assets-setup.md)
+      - [Configuration d’AEM Assets](aem-assets-configure-aem.md)
+      - [Configuration d’Adobe Commerce](aem-assets-configure-commerce.md)
+      - [Activation de la synchronisation des ressources](aem-assets-setup-synchronization.md)
+   - [Utilisation d’AEM Assets](aem-assets-manage.md)
+- Media {#media}
 - Évaluation du contenu {#staging}
    - [Vue d’ensemble](content-staging.md)
    - [Planification d’une mise à jour](content-staging-scheduled-update.md)
@@ -87,4 +88,3 @@ ht-degree: 3%
    - [Ajout d’un élément de campagne](content-staging-add-item.md)
    - [Prévisualiser une opération](content-staging-preview.md)
 - [Retour aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
-
