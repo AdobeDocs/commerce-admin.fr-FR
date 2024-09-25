@@ -3,9 +3,9 @@ user-guide-title: Guide de conception et de contenu
 user-guide-description: Informations complètes sur les fonctionnalités de contenu et de conception pour les administrateurs Adobe Commerce et les Magento Open Sources et les spécialistes du marketing en ligne.
 breadcrumb-title: Contenu et conception
 feature: CMS, Page Content
-source-git-commit: ea1532d326d3e787ba36cb98ced708f2bc2776e4
+source-git-commit: 102f39faada1b303ce5736c9f31bcc673e9e7720
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '239'
 ht-degree: 4%
 
 ---
@@ -72,14 +72,14 @@ ht-degree: 4%
       - [Gestion des ressources](media-gallery-asset-management.md)
       - [Gestion des dossiers](media-gallery-folder-management.md)
       - [Optimisation des images](media-gallery-image-optimization.md)
-- Gestion avancée des ressources {#aem-assets}
-   - [Intégration d’AEM Assets pour Commerce](aem-assets.md)
+- Gestion des ressources à l’aide d’AEM Assets {#aem-asset-management}
+   - [Intégration d’AEM Assets pour Commerce](aem-assets-integration.md)
    - Configuration de l’intégration {#onboarding}
       - [Vue d’ensemble](aem-assets-setup.md)
       - [Configuration d’AEM Assets](aem-assets-configure-aem.md)
       - [Configuration d’Adobe Commerce](aem-assets-configure-commerce.md)
       - [Activation de la synchronisation des ressources](aem-assets-setup-synchronization.md)
-   - [Utilisation d’AEM Assets](aem-assets-manage.md)
+   - [Gestion des ressources](aem-assets-manage.md)
 - Media {#media}
 - Évaluation du contenu {#staging}
    - [Vue d’ensemble](content-staging.md)
