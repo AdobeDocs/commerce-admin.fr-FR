@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] notes de mise à jour'
 description: Consultez les notes de mise à jour pour plus d’informations sur les modifications apportées aux versions de  [!DNL Adobe Commerce B2B] .
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: d717a16f3ca20e51b002c6de19c696e090553052
+source-git-commit: a63af8ac948422e4c6dd64408eaa48252b771d7f
 workflow-type: tm+mt
-source-wordcount: '7033'
+source-wordcount: '7198'
 ht-degree: 0%
 
 ---
@@ -64,21 +64,35 @@ La version bêta B2B 1.5.0 comprend de nouvelles fonctionnalités, des améliora
 
 ![Problème corrigé](../assets/fix.svg)<!--ACP2E-1933-->Les administrateurs d’entreprise peuvent désormais ajouter des utilisateurs d’entreprise à partir du storefront. Auparavant, Commerce consignait une erreur lorsqu’un utilisateur administrateur tentait d’ajouter un nouvel utilisateur : `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
+## B2B v1.4.2-p3
+
+*8 octobre 2024*
+
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
+
+![Nouveau](../assets/new.svg) Compatibilité ajoutée avec les versions des correctifs de sécurité Adobe Commerce 2.4.7-p3+ et 2.4.6-p8+.
+
+![Problème corrigé](../assets/fix.svg) : comprend les correctifs de sécurité documentés dans le [ Bulletin de sécurité APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B version 1.4.2+ est compatible avec PHP 8.2. Si vous mettez à niveau l’instance Commerce vers la version 2.4.7+, assurez-vous que l’instance utilise la version 8.2 de PHP pour maintenir la compatibilité avec la version B2B d’Adobe Commerce. De plus, la version B2B 1.4.2+ ne prend pas en charge le [serveur d’applications GraphQL](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+
 ## B2B v1.4.2-p2
 
 [!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
 
-![Nouveau](../assets/new.svg) Compatibilité ajoutée avec les versions des correctifs de sécurité Adobe Commerce 2.4.7-p2+ et 2.4.6-p7+. La version B2B 1.4.2-p2 ne
-prennent en charge le [serveur d’applications GraphQL](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+![Nouveau](../assets/new.svg) Compatibilité ajoutée avec les versions des correctifs de sécurité Adobe Commerce 2.4.7-p2+ et 2.4.6-p7+.
+
+![Problème corrigé](../assets/fix.svg) : comprend les correctifs de sécurité documentés dans le Bulletin de sécurité xxxx.
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B version 1.4.2+ est compatible avec PHP 8.2. Si vous mettez à niveau l’instance Commerce vers la version 2.4.7+, assurez-vous que l’instance utilise la version 8.2 de PHP pour maintenir la compatibilité avec la version B2B d’Adobe Commerce.
-
-
-https://wiki.corp.adobe.com/display/3DI/How+to+Create+and+Update+a+New+HelpX+Page#HowtoCreateandUpdateaNewHelpXPage-LinkstoupdateHelpXdocumentation:
+>Adobe Commerce B2B version 1.4.2+ est compatible avec PHP 8.2. Si vous mettez à niveau l’instance Commerce vers la version 2.4.7+, assurez-vous que l’instance utilise la version 8.2 de PHP pour maintenir la compatibilité avec la version B2B d’Adobe Commerce. De plus, la version B2B 1.4.2+ ne prend pas en charge le [serveur d’applications GraphQL](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 ## B2B v1.4.2-p1
+
+*9 août 2024*
 
 [!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
 
@@ -87,7 +101,6 @@ https://wiki.corp.adobe.com/display/3DI/How+to+Create+and+Update+a+New+HelpX+Pag
 >[!IMPORTANT]
 >
 >Adobe Commerce B2B version 1.4.2+ est compatible avec PHP 8.2. Si vous mettez à niveau l’instance Commerce vers la version 2.4.7+, assurez-vous que l’instance utilise la version 8.2 de PHP pour maintenir la compatibilité avec la version B2B d’Adobe Commerce. De plus, B2B 1.4.2+ ne prend actuellement pas en charge le [serveur d’applications GraphQL](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
-
 
 ## B2B v1.4.2
 
@@ -165,6 +178,24 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 Vous pouvez résoudre ce problème en ajoutant des dépendances manuelles pour le package de sécurité B2B en ajoutant des dépendances manuelles pour le package de sécurité B2B avec une [balise de stabilité](https://getcomposer.org/doc/04-schema.md#package-links). Pour obtenir des instructions, consultez la [base de connaissances Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
 
+## B2B v1.3.5-p8
+
+*8 octobre 2024*
+
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
+
+![Nouveau](../assets/new.svg) Ajout de la compatibilité avec les versions des correctifs de sécurité Adobe Commerce 2.4.6-p8.
+
+![Problème corrigé](../assets/fix.svg) : comprend les correctifs de sécurité documentés dans le [ Bulletin de sécurité APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
+
+## B2B v1.3.5-p7
+
+*9 août 2024*
+
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
+
+![Nouveau](../assets/new.svg) Ajout de la compatibilité avec les versions des correctifs de sécurité Adobe Commerce 2.4.6-p7.
+
 ## B2B v1.3.5
 
 *14 mars 2023*
@@ -200,6 +231,16 @@ Vous pouvez résoudre ce problème en ajoutant des dépendances manuelles pour l
 ![ Correction d’un problème ](../assets/fix.svg) <!--- ACP2E-2456--> Les requêtes de catégorie renvoient désormais les prix des produits en fonction des paramètres de configuration du magasin lorsqu’aucune autorisation de catégorie n’est explicitement définie sur la catégorie interrogée.
 
 ![ Correction d’un problème ](../assets/fix.svg) <!--- ACP2E-6829--> Le bouton **[!UICONTROL Place Order]** fonctionne désormais comme prévu lors de l’exécution d’un achat avec une demande de devis approuvée. Les problèmes avec le module externe de guillemet négociable `negotiableQuoteCheckoutSessionPlugin` ont été résolus.
+
+## B2B v1.3.4-p10
+
+*9 octobre 2024*
+
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
+
+![Nouveau](../assets/new.svg) Prise en charge d’Adobe Commerce 2.4.5-p10.
+
+![Problème corrigé](../assets/fix.svg) : comprend les correctifs de sécurité documentés dans le [ Bulletin de sécurité APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 ## B2B v1.3.4
 
