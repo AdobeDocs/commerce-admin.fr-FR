@@ -3,9 +3,9 @@ title: Transfert d’un compte Commerce
 description: Découvrez comment transférer votre compte Commerce à un autre propriétaire ou adresse électronique.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 59a88468dabfd1042b664f658225de2504b66b1b
+source-git-commit: 03a16730eebe3979157bc9eb847ac2b232d938bf
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -160,6 +160,6 @@ Une fois que le nouveau propriétaire a transféré son compte d’Adobe au prop
 
 1. Cliquez sur **[!UICONTROL Verify]**.
 
-1. **Envoyez une demande d’assistance** pour informer l’équipe d’assistance que vous avez mis à jour l’adresse électronique du propriétaire du compte.
+1. **Envoyez une demande d’assistance** pour informer l’équipe d’assistance que vous avez mis à jour l’adresse électronique du propriétaire du compte. Incluez l’adresse électronique du propriétaire précédent du compte dans votre requête.
 
 D’autres étapes doivent être effectuées par l’assistance, telles que la mise à jour de l’adresse électronique sur votre profil [Commerce Marketplace](https://commercemarketplace.adobe.com/).
