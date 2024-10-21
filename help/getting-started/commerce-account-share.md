@@ -3,9 +3,9 @@ title: Partager un compte  [!DNL Commerce]
 description: Découvrez comment accorder un accès limité à votre compte  [!DNL Commerce] pour les autres titulaires de compte  [!DNL Commerce] .
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: ec634ebedd43b8bbc6b4a3e5079035b055740f2d
+source-git-commit: 8f8cb141c79b8b5a57363faf7ec5c8f2e75bb473
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,11 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
    Le panneau de navigation de gauche de votre compte comporte un nouvel onglet _[!UICONTROL Shared with me]_. Le contrôle_[!UICONTROL Switch Accounts]_ dans le coin supérieur droit comporte des options pour `My Account` et le nom du compte partagé.
 
    ![Partagé avec moi](./assets/shared-with-me.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   >   Si vous ne voyez pas le contrôle _[!UICONTROL Switch Accounts]_, contactez le détenteur du compte principal et vérifiez qu&#39;il a renseigné vos [informations de compte](#set-up-a-shared-account) correctes.
+
 
 1. Pour accéder au compte partagé, définissez **[!UICONTROL Switch Accounts]** sur le nom du compte partagé.
 
