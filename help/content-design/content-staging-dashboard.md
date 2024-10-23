@@ -3,9 +3,9 @@ title: Tableau de bord intermédiaire de contenu
 description: Utilisez le tableau de bord d’évaluation du contenu pour accéder à un aperçu de toutes les campagnes actives et à venir.
 exl-id: 67c18c1c-94c3-4d89-ae1e-868a465431e3
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Les objets de campagne existants peuvent être modifiés à partir du tableau de
 
 >[!NOTE]
 >
->Si une campagne contenant une règle de prix est initialement créée sans date de fin, elle ne peut pas être modifiée ultérieurement pour inclure une date de fin. Dans ce cas, il est nécessaire de créer une opération en double et de renseigner la date de fin nécessaire.
+>Si une campagne active est initialement créée sans date de fin, elle ne peut pas être modifiée ultérieurement pour inclure une date de fin. Dans ce cas, il est nécessaire de créer une opération en double et de renseigner la date de fin nécessaire.
 
 ![Détails de la campagne](./assets/content-staging-dashboard-view-edit.png){width="600" zoomable="yes"}
 

@@ -3,9 +3,9 @@ title: Contrôles de l’espace de travail de page
 description: Découvrez les outils de l’espace de travail utilisés pour localiser et mettre à jour les pages de contenu.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: fc8ebeeae56378967e95bda9bbf898c469b3a4c0
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
@@ -200,22 +200,21 @@ Cliquez sur la commande _View_ (![Icône OEil](../assets/icon-view-eye.png)) et 
 
 Les modifications de page peuvent être appliquées selon le calendrier et regroupées avec d’autres modifications de contenu. Vous pouvez créer une campagne d’après les modifications planifiées apportées à une page ou appliquer les modifications à une campagne existante. Pour plus d’informations, voir [Content Staging](content-staging.md).
 
->[!NOTE]
->
->Si une campagne est liée à plusieurs pages, elle ne peut être modifiée que depuis le [tableau de bord d’évaluation du contenu](content-staging-dashboard.md).
+Lors de la configuration des plannings pour les modifications de page et la modification des campagnes, gardez à l’esprit les points suivants :
+
+- Toutes les mises à jour planifiées sont appliquées consécutivement, ce qui signifie que toute entité ne peut avoir qu’une seule mise à jour planifiée à un moment donné. Toute mise à jour planifiée est appliquée à toutes les vues de magasin au cours de sa période. Par conséquent, une entité ne peut pas avoir une mise à jour planifiée différente pour différentes vues de magasin en même temps. Toutes les valeurs d’attribut d’entité dans toutes les vues de magasin, qui ne sont pas affectées par la mise à jour planifiée actuelle, sont extraites des valeurs par défaut et non de la mise à jour planifiée précédente.
+
+- Si une campagne est liée à plusieurs pages, elle ne peut être modifiée que depuis le [tableau de bord d’évaluation du contenu](content-staging-dashboard.md).
+
+- Si une campagne active est initialement créée sans date de fin, elle ne peut pas être modifiée ultérieurement pour inclure une date de fin. Dans ce cas, il est nécessaire de créer une opération en double et de renseigner la date de fin nécessaire.
+
+- La date de début et la date de fin de la campagne doivent être définies à l’aide du fuseau horaire d’administrateur **_default_**, converti à partir du fuseau horaire local de chaque site web. Prenons l’exemple de plusieurs sites web dans différents fuseaux horaires, mais que vous souhaitez lancer une campagne basée sur un fuseau horaire américain. Dans ce cas, vous devez planifier une mise à jour distincte pour chaque fuseau horaire local, et définir **[!UICONTROL Start Date]** et **[!UICONTROL End Date]** convertis de chaque fuseau horaire de site web local en fuseau horaire d’administration par défaut.
+
+- Vous pouvez planifier et prévisualiser les modifications pour les mises à jour de produit. Pour plus d’informations, voir [Planification d’une mise à jour](content-staging-scheduled-update.md).
 
 >[!NOTE]
 >
 >L’onglet [!UICONTROL Custom Design Update] a été supprimé dans ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce et ne peut pas être modifié directement sur la page. Vous devez créer une mise à jour planifiée pour ces activations.
 
->[!NOTE]
->
->Toutes les mises à jour planifiées sont appliquées consécutivement, ce qui signifie que toute entité ne peut avoir qu’une seule mise à jour planifiée à un moment donné. Toute mise à jour planifiée est appliquée à toutes les vues de magasin au cours de sa période. Par conséquent, une entité ne peut pas avoir une mise à jour planifiée différente pour différentes vues de magasin en même temps. Toutes les valeurs d’attribut d’entité dans toutes les vues de magasin, qui ne sont pas affectées par la mise à jour planifiée actuelle, sont extraites des valeurs par défaut et non de la mise à jour planifiée précédente.
-
 ![La page d’accueil affiche les modifications planifiées dans la partie supérieure](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
 
->[!NOTE]
->
->La date de début et la date de fin de la campagne doivent être définies à l’aide du fuseau horaire d’administrateur **_default_**, converti à partir du fuseau horaire local de chaque site web. Prenons l’exemple de plusieurs sites web dans différents fuseaux horaires, mais que vous souhaitez lancer une campagne basée sur un fuseau horaire américain. Dans ce cas, vous devez planifier une mise à jour distincte pour chaque fuseau horaire local, et définir **[!UICONTROL Start Date]** et **[!UICONTROL End Date]** convertis de chaque fuseau horaire de site web local en fuseau horaire d’administration par défaut.
-
-Vous pouvez également planifier et prévisualiser les modifications pour les mises à jour de produit. Pour plus d’informations, voir [Planification d’une mise à jour](content-staging-scheduled-update.md).

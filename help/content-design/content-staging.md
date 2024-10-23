@@ -3,9 +3,9 @@ title: Évaluation du contenu
 description: L’évaluation de contenu permet à votre équipe d’entreprise de créer, de prévisualiser et de planifier facilement toute une gamme de mises à jour de contenu pour votre boutique, directement depuis l’administrateur.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: d4c5cac590bff290e81c1c8fa55a5ca7b4d9a017
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,10 @@ Lorsqu’une nouvelle mise à jour planifiée est créée pour l’un des objets
 1. **Restaurer le contenu de base**
 
    Si toutes les campagnes comportent des dates de fin, le contenu de base est restauré chaque fois que toutes les campagnes actives se terminent.
+
+   >[!NOTE]
+   >
+   >Si une campagne active est initialement créée sans date de fin, elle ne peut pas être modifiée ultérieurement pour inclure une date de fin. Dans ce cas, il est nécessaire de créer une opération en double et de renseigner la date de fin nécessaire.
 
 >[!NOTE]
 >

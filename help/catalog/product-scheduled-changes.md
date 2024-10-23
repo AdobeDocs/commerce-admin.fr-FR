@@ -3,9 +3,9 @@ title: Mises à jour planifiées des produits
 description: Découvrez comment planifier les modifications apportées à vos listes de produits pour prendre en charge les campagnes et les programmes promotionnels.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 2cdf3452f1648dc1ed607d6dfb5ade4be5ed5ce9
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,20 @@ ht-degree: 0%
 
 Les mises à jour de produit peuvent être appliquées selon le calendrier et regroupées avec d’autres modifications de contenu. Vous pouvez utiliser [l’évaluation du contenu](../content-design/content-staging.md) pour créer une campagne en fonction des modifications planifiées du produit ou appliquer les modifications à une campagne existante.
 
+Lors de la configuration des plannings pour les mises à jour des produits et la modification des campagnes, gardez à l’esprit les points suivants :
+
+- Toutes les mises à jour planifiées sont appliquées consécutivement, ce qui signifie que toute entité ne peut avoir qu’une seule mise à jour planifiée à la fois. Toute mise à jour planifiée est appliquée à toutes les vues de magasin au cours de sa période. Par conséquent, une entité ne peut pas avoir simultanément différentes mises à jour planifiées pour différentes vues de magasin. Toutes les valeurs d’attribut d’entité dans toutes les vues de magasin, qui ne sont pas affectées par la mise à jour planifiée actuelle, sont extraites des valeurs par défaut et non de la mise à jour planifiée précédente.
+
+- Un aperçu intermédiaire d’une mise à jour planifiée commence toujours à partir de la vue de magasin **default**, ce qui émule l’expérience du client de navigation dans la campagne de mise à jour intermédiaire.
+
+- Si une campagne est liée à plusieurs produits, elle ne peut être modifiée que depuis le [tableau de bord de l’évaluation du contenu](../content-design/content-staging-dashboard.md).
+
+- Si une campagne active est initialement créée sans date de fin, elle ne peut pas être modifiée ultérieurement pour inclure une date de fin. Dans ce cas, il est nécessaire de créer une opération en double et de renseigner la date de fin nécessaire.
+
+
 >[!NOTE]
 >
 >Les champs [!UICONTROL Set Product as New From] et [!UICONTROL To] et l’onglet [!UICONTROL Schedule Design Update] ont été supprimés dans ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce et ne peuvent pas être modifiés directement sur le produit. Vous devez créer une mise à jour planifiée pour ces activations.
-
->[!NOTE]
->
->Toutes les mises à jour planifiées sont appliquées consécutivement, ce qui signifie que toute entité ne peut avoir qu’une seule mise à jour planifiée à la fois. Toute mise à jour planifiée est appliquée à toutes les vues de magasin au cours de sa période. Par conséquent, une entité ne peut pas avoir simultanément différentes mises à jour planifiées pour différentes vues de magasin. Toutes les valeurs d’attribut d’entité dans toutes les vues de magasin, qui ne sont pas affectées par la mise à jour planifiée actuelle, sont extraites des valeurs par défaut et non de la mise à jour planifiée précédente.
-
->[!NOTE]
->
->Un aperçu intermédiaire d’une mise à jour planifiée commence toujours à partir de la vue de magasin **default**, ce qui émule l’expérience du client de navigation dans la campagne de mise à jour intermédiaire.
 
 ## Créer une mise à jour planifiée
 
@@ -86,10 +89,6 @@ La modification planifiée s’affiche en haut de la page du produit, avec les d
 
 1. Apportez les modifications nécessaires à la mise à jour planifiée.
 
->[!NOTE]
->
->Si une campagne est liée à plusieurs produits, elle ne peut être modifiée que depuis le [tableau de bord de l’évaluation du contenu](../content-design/content-staging-dashboard.md).
-
 1. Cliquez sur **[!UICONTROL Save]**.
 
 ## Supprimer la modification planifiée
@@ -102,9 +101,7 @@ La modification planifiée s’affiche en haut de la page du produit, avec les d
 
 1. Dans la boîte de dialogue, sélectionnez **[!UICONTROL Delete the Update]** et cliquez sur **[!UICONTROL Done]**.
 
-   >[!NOTE]
-   >
-   >Le produit est supprimé de la mise à jour et toutes les modifications planifiées sont perdues.
+   Le produit est supprimé de la mise à jour et toutes les modifications planifiées sont perdues.
 
 ## Planification d’une mise à jour de conception
 

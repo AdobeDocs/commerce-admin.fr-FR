@@ -3,9 +3,9 @@ title: Modifications planifiées pour les catégories
 description: Découvrez comment planifier des modifications de catégorie pour prendre en charge les campagnes marketing et les promotions de magasin.
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 714904d6d81bde6374a5ce644262de252c70a391
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,17 @@ ht-degree: 0%
 
 Les mises à jour de catégorie peuvent être appliquées selon le calendrier et regroupées avec d’autres modifications de contenu. Vous pouvez créer une campagne en fonction des modifications planifiées apportées à la catégorie ou appliquer les modifications à une campagne existante. Pour en savoir plus, voir [Évaluation de contenu](../content-design/content-staging.md).
 
->[!NOTE]
->
->L’onglet [!UICONTROL Schedule Design Update] a été supprimé dans ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce et ne peut pas être modifié directement sur la catégorie. Vous devez créer une mise à jour planifiée pour ces activations.
+Lorsque vous planifiez des modifications pour les catégories, tenez compte des points suivants :
+
+- Toutes les mises à jour planifiées sont appliquées consécutivement, ce qui signifie que toute entité ne peut avoir qu’une seule mise à jour planifiée à la fois. Toute mise à jour planifiée est appliquée à toutes les vues de magasin au cours de sa période. Par conséquent, une entité ne peut pas avoir plusieurs mises à jour planifiées pour différentes vues de magasin en même temps. Toutes les valeurs d’attribut d’entité dans toutes les vues de magasin, qui ne sont pas affectées par la mise à jour planifiée actuelle, sont extraites des valeurs par défaut et non de la mise à jour planifiée précédente.
+
+- Si une campagne est liée à plusieurs catégories, elle ne peut être modifiée qu’à partir du [tableau de bord d’évaluation du contenu](../content-design/content-staging-dashboard.md).
+
+- Si une campagne est liée à plusieurs catégories, elle ne peut être modifiée qu’à partir du [tableau de bord d’évaluation du contenu](../content-design/content-staging-dashboard.md).
 
 >[!NOTE]
 >
->Toutes les mises à jour planifiées sont appliquées consécutivement, ce qui signifie que toute entité ne peut avoir qu’une seule mise à jour planifiée à la fois. Toute mise à jour planifiée est appliquée à toutes les vues de magasin au cours de sa période. Par conséquent, une entité ne peut pas avoir plusieurs mises à jour planifiées pour différentes vues de magasin en même temps. Toutes les valeurs d’attribut d’entité dans toutes les vues de magasin, qui ne sont pas affectées par la mise à jour planifiée actuelle, sont extraites des valeurs par défaut et non de la mise à jour planifiée précédente.
+>L’onglet [!UICONTROL Schedule Design Update] a été supprimé dans ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce et ne peut pas être modifié directement sur la catégorie. Vous devez créer une mise à jour planifiée pour ces activations.
 
 ## Planification d’une mise à jour d’une catégorie
 
@@ -69,7 +73,3 @@ Les mises à jour de catégorie peuvent être appliquées selon le calendrier et
 1. Apportez les modifications nécessaires à la mise à jour planifiée.
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
-
-   >[!NOTE]
-   >
-   >Si une campagne est liée à plusieurs catégories, elle ne peut être modifiée qu’à partir du [tableau de bord d’évaluation du contenu](../content-design/content-staging-dashboard.md).

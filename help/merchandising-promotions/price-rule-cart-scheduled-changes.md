@@ -3,9 +3,9 @@ title: Modifications planifiées des règles de prix du panier
 description: Découvrez comment appliquer les règles de prix du panier selon le calendrier dans le cadre d’une campagne et les regrouper avec d’autres modifications de contenu.
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,10 @@ Les règles de prix du panier peuvent être appliquées au planning dans le cadr
 >Toutes les mises à jour planifiées sont appliquées consécutivement. Cela signifie qu’une entité ne peut avoir qu’une seule mise à jour planifiée à un moment donné. Toute mise à jour planifiée est appliquée à toutes les vues de magasin au cours de sa période. Par conséquent, une entité ne peut pas avoir simultanément différentes mises à jour planifiées pour différentes vues de magasin. Toutes les valeurs d’attribut d’entité dans toutes les vues de magasin, qui ne sont pas affectées par la mise à jour planifiée actuelle, sont extraites des valeurs par défaut et non de la mise à jour planifiée précédente.
 
 Si plusieurs règles de prix sont exécutées dans la même campagne, le paramètre _[!UICONTROL Priority]_de la règle de prix détermine la règle qui prévaut. Pour en savoir plus, voir [Évaluation de contenu](../content-design/content-staging.md).
+
+>[!NOTE]
+>
+>Si une campagne active est initialement créée sans date de fin, elle ne peut pas être modifiée ultérieurement pour inclure une date de fin. Dans ce cas, il est nécessaire de créer une opération en double et de renseigner la date de fin nécessaire.
 
 >[!NOTE]
 >

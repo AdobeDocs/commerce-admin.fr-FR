@@ -3,9 +3,9 @@ title: Modifications planifiées pour les règles de prix de catalogue
 description: Découvrez comment appliquer des règles de prix de catalogue selon le calendrier dans le cadre d’une campagne et les regrouper avec d’autres modifications de contenu.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 11f8fcba70491f9dcb6c20d14b406fba4b14cab4
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Si plusieurs règles de prix sont exécutées dans la même campagne, le paramè
 
 >[!IMPORTANT]
 >
->Si une campagne contenant une règle de prix est initialement créée sans date de fin, elle ne peut pas être modifiée ultérieurement pour inclure une date de fin. Il est recommandé d’ajouter une date de fin lors de la création de la campagne ou de créer une version dupliquée de la campagne existante et d’ajouter la date de fin au doublon, le cas échéant.
+>Si une campagne active est initialement créée sans date de fin, elle ne peut pas être modifiée ultérieurement pour inclure une date de fin. Dans ce cas, il est nécessaire de créer une opération en double et de renseigner la date de fin nécessaire.
 
 ![Règle de prix du catalogue - modifications planifiées](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
 
