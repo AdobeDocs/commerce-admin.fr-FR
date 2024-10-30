@@ -4,9 +4,9 @@ description: Découvrez comment affecter un compte utilisateur de société en t
 exl-id: 26f3a449-6f3a-4078-816d-6248ac6d1e46
 feature: B2B, Companies
 role: Admin, User
-source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -15,17 +15,23 @@ ht-degree: 0%
 
 L’administrateur de la société est initialement affecté lors de la création du compte de la société. Il ne peut être modifié que par un administrateur de magasin de l’administrateur.
 
+- Un seul administrateur peut être affecté à chaque entreprise.
+- Un utilisateur de société peut être administrateur pour une seule société.
+- Les modifications apportées à l’administrateur de la société affectée doivent être effectuées par un administrateur de magasin de l’administrateur.
+
+## Modifier l’administrateur de la société affectée
+
 1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Recherchez l’entreprise dans la liste et cliquez sur **[!UICONTROL Edit]**.
-
    ![Entreprises](./assets/companies-grid.png){width="700" zoomable="yes"}
+
+1. Recherchez l’entreprise dans la liste, puis cliquez sur **[!UICONTROL Edit]**.
 
 1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Company Admin]** .
 
    ![Administrateur de société](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
-1. Saisissez le **[!UICONTROL Job Title]** du nouvel administrateur de la société et cliquez sur **[!UICONTROL Proceed]** pour continuer.
+1. Saisissez le **[!UICONTROL Job Title]** du nouvel administrateur de la société.
 
    Cette action efface le formulaire et les champs _[!UICONTROL First Name]_et_[!UICONTROL Last Name]_ requis sont mis en surbrillance.
 
@@ -41,6 +47,7 @@ L’administrateur de la société est initialement affecté lors de la créatio
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
 
-   Le compte individuel de l’ancien administrateur de l’entreprise reste dans le système en tant que compte utilisateur individuel actif dans la structure de l’entreprise, affecté au rôle utilisateur par défaut.
+   Le compte individuel de l’ancien administrateur de la société reste dans le système en tant que compte utilisateur actif, affecté au rôle utilisateur par défaut. S’il s’agit de la seule société associée au compte utilisateur, le type de compte passe de *[!UICONTROL Company user]* à *[!UICONTROL Individual user]*.
 
    Le système envoie une notification par courrier électronique de la modification aux nouveaux administrateurs et aux anciens administrateurs de l’entreprise.
+

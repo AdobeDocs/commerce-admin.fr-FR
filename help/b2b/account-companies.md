@@ -3,7 +3,7 @@ title: Comptes d’entreprise
 description: Découvrez comment les comptes d’entreprise gérés dans votre boutique Adobe Commerce permettent de rejoindre plusieurs acheteurs appartenant à la même société dans un seul compte d’entreprise.
 exl-id: 0b3c3635-a1cf-4ee6-a8bc-e7cbcb4e2e63
 feature: B2B, Companies, Configuration
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -12,7 +12,11 @@ ht-degree: 0%
 
 # Comptes d’entreprise
 
-Lorsque vous incorporez des comptes d’entreprise B2B dans votre boutique, vous pouvez simplifier l’expérience d’achat d’entreprise en permettant aux entreprises de créer plusieurs sous-comptes avec des autorisations flexibles en fonction des rôles d’utilisateur dans leur entreprise. Selon l’entreprise, un administrateur de magasin peut ajuster les promotions et les prix en fonction de ses besoins, et créer des offres hautement personnalisées qui répondent aux besoins des acheteurs et augmentent les commandes. L’ajout d’une association de compte d’entreprise à un [individu](../customers/account-create.md) standard permet au client d’utiliser les workflows d’achat spécifiques définis pour la société.
+Lorsque vous incorporez des comptes d’entreprise B2B dans votre boutique, vous pouvez simplifier l’expérience d’achat d’entreprise en permettant aux entreprises de créer plusieurs sous-comptes avec des autorisations flexibles en fonction des rôles d’utilisateur dans leur entreprise.
+
+Selon l’entreprise, un administrateur de magasin peut ajuster les promotions et les prix en fonction de ses besoins, et créer des offres hautement personnalisées qui répondent aux besoins des acheteurs et augmentent les commandes.
+
+L’ajout d’une association de compte d’entreprise à un [individu](../customers/account-create.md) standard permet au client d’utiliser les workflows d’achat spécifiques définis pour la société.
 
 Avantages d’un compte d’entreprise :
 
@@ -22,7 +26,7 @@ Avantages d’un compte d’entreprise :
 
 - Fournit un mécanisme permettant aux commerçants d’augmenter leurs revenus en proposant le [crédit de boutique d’entreprise](credit-company.md) comme mode de paiement.
 
-- Prend en charge la [gestion](account-company-manage.md) de tous les comptes de société dans l’administrateur.
+- Prend en charge la [gestion](account-company-manage.md) de tous les comptes de société de l’administrateur.
 
 ## Affichage des comptes d’entreprise
 
@@ -34,15 +38,15 @@ Dans la barre latérale _Admin_, accédez à **[!UICONTROL Customers]** > **[!UI
 
 ![Grille d’entreprises](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-La grille [!UICONTROL Companies] répertorie toutes les entreprises, quel que soit leur statut. L&#39;exemple qui s&#39;affiche montre les comptes de deux sociétés : la société &quot;ACME&quot; et la société &quot;Vandelay&quot;.
+La grille [!UICONTROL Companies] répertorie toutes les entreprises, quel que soit leur statut. La liste des sociétés indique si une société est associée à une [hiérarchie de société](manage-company-hierarchy.md) et fournit [ des informations ](/help/b2b/account-company-manage.md#company-options-and-columns) sur la société, l’administrateur de la société et d’autres informations. Personnalisez la vue en utilisant les [contrôles de grille d’administration](../getting-started/admin-grid-controls.md) pour définir des filtres, des options d’affichage des colonnes, etc.
 
 ## Administrateur d’entreprise
 
-L’exemple suivant montre la grille _Customers_ avec les comptes administrateur initiaux de la société.
+L’exemple suivant illustre la grille _Customers_ avec les premiers comptes administrateur de l’entreprise.
 
 ![Grille de clients avec compte administrateur de l’entreprise](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-Il est possible que la personne qui est administrateur de la société ait plusieurs rôles au sein de la société. Si une adresse électronique distincte est saisie pour l’administrateur de l’entreprise, la structure initiale de l’entreprise inclut l’administrateur de l’entreprise ainsi qu’un compte utilisateur individuel au nom de l’administrateur de l’entreprise. Dans ce cas, l’administrateur de l’entreprise peut se connecter au compte en tant qu’entreprise ou utilisateur individuel.
+Chaque société dispose d’un seul administrateur de société identifié par l’adresse électronique du compte, ainsi que par le prénom et le nom de l’administrateur. L’administrateur peut être affecté à d’autres sociétés en tant qu’utilisateur, mais il peut être un administrateur pour une seule société.
 
 Après la création du compte, l’administrateur de l’entreprise définit la structure de l’entreprise de [équipes](account-company-structure.md), configure les [ utilisateurs de l’entreprise](account-company-users.md) et établit les [rôles et autorisations](account-company-roles-permissions.md) pour chacun d’eux.
 
@@ -58,7 +62,7 @@ Après la création du compte, l’administrateur de l’entreprise définit la 
 
 1. Suivez les instructions et cliquez sur [!UICONTROL **link**] pour définir leur mot de passe.
 
-1. Saisissez un [!UICONTROL **nouveau mot de passe**] pour leur compte et à nouveau pour confirmer.
+1. Entrez une confirmation [!UICONTROL **Nouveau mot de passe**] et un mot de passe pour leur compte.
 
    Le mot de passe doit contenir au moins trois des types de caractères suivants :
 

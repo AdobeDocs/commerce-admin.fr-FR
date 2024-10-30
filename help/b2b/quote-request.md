@@ -4,9 +4,9 @@ description: Découvrez comment les clients associés à un compte d’entrepris
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: b53d77364f09e587813c50221ebd85ac633f1296
+source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,6 @@ Si les devis sont activés dans la [configuration des fonctionnalités de vente]
 1. Crée et traite le guillemet :
 
    - Envoie le guillemet au vendeur en sélectionnant **[!UICONTROL Request a Quote]**.
-   - [!BADGE 1.5.0-beta fonctionnalité]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible uniquement pour les participants au programme Beta"}**[!UICONTROL Save as Draft]**.
+   - Enregistre le guillemet en tant que brouillon en sélectionnant **[!UICONTROL Save as Draft]**.
 
      Si l’acheteur enregistre le guillemet en tant que brouillon, le guillemet est disponible dans l’état [!UICONTROL My Quotes] dans `Draft`. Les versions préliminaires ne sont pas visibles par le vendeur tant que l’acheteur ne les a pas envoyées pour révision.

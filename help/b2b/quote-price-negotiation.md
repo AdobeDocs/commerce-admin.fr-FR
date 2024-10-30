@@ -3,9 +3,9 @@ title: Négocier une citation
 description: Découvrez les workflows de négociation de devis et comment travailler avec les acheteurs pour les achats.
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
-source-git-commit: 734290b9d609a173186325b418cd92cbf41b0efb
+source-git-commit: ec00288f33af2abb785d1b37dd67aaf1ebe35c06
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2271'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Au cours du processus de négociation, le vendeur peut effectuer les opérations
 
 - Ajout ou suppression de produits
 - Modifier la quantité
-- Appliquez une remise sur les éléments de ligne ou le prix total
+- Appliquez une remise aux éléments de ligne ou à l’ensemble du guillemet
 - Ajouter ou modifier le mode de livraison
 - Ajouter des commentaires
 - Envoyer le devis mis à jour à l’acheteur ou enregistrer en tant que brouillon
@@ -118,23 +118,33 @@ la remise d’article et toute remise de niveau de prix sont appliquées au prix
 
    La taille de fichier maximale autorisée pour les pièces jointes est de 2 Mo.
 
-1. Pour appliquer une remise au devis dans son ensemble :
+1. Pour appliquer une remise au devis :
 
    - Sous _[!UICONTROL Quote Totals]_de la section_[!UICONTROL Negotiated Price]_, sélectionnez l’un des types de remise suivants :
 
-      - `Percentage Discount`
-      - `Amount Discount`
-      - `Proposed Price`
+      - `Percentage Discount` : une remise en pourcentage réduit le prix d’origine d’un pourcentage spécifique.
+      - `Amount Discount` : une remise sur un montant applique une réduction de prix fixe.
+      - `Proposed Price` : une remise de prix proposée définit le prix final sur un montant spécifique, quel que soit le prix d’origine.
 
    - Saisissez le montant en pourcentage ou en prix forfaitaire.
 
      ![Commentaires sur la négociation](./assets/quote-detail-negotiation-comments.png){width="600" zoomable="yes"}
+
+   - Vous pouvez appliquer des remises à chaque ligne ou au devis dans son ensemble :
+
+      - **Remises sur les articles de ligne** : les remises sur les articles de ligne sont appliquées à des articles individuels dans le panier. La remise peut être de type `percentage`, `amount` ou `proposed price`.
+      - **Remises au niveau du panier** : les remises au niveau du panier s’appliquent à l’ensemble du panier. La remise peut être soit une `percentage`, soit une `amount` spécifique et elle est appliquée à la valeur totale du panier.
+      - **Combinaison de remises sur le panier et les articles** : dans certains cas, des remises peuvent être appliquées au niveau du panier et de l’article. La remise sur les articles est appliquée en premier, suivie de la remise au niveau du panier sur le total restant.
 
 1. Envoyez ou enregistrez le guillemet :
 
    - Si le devis est prêt à être renvoyé à l’acheteur, cliquez sur **[!UICONTROL Send]**.
 
    - Pour continuer à travailler ultérieurement sur la citation, cliquez sur **[!UICONTROL Save as Draft]**.
+
+>[!NOTE]
+>
+> Lors de la négociation de la citation, les remises peuvent être verrouillées afin d&#39;éviter d&#39;autres modifications. Une fois qu’un guillemet est verrouillé, ni le type de remise ni le montant ne peuvent être modifiés sans déverrouiller le guillemet en premier. Ce mécanisme de verrouillage garantit que les conditions convenues entre le représentant commercial et l&#39;acheteur sont préservées.
 
 ## Étape 4 : suivre une citation
 
@@ -152,7 +162,8 @@ Pour contrôler sa position dans le workflow, vérifiez votre email et l&#39;ét
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Back] | Renvoie à la page _[!UICONTROL Quotes]_sans enregistrer les modifications. |
 | [!UICONTROL Print] | Envoie le guillemet à une imprimante ou l’enregistre sous la forme d’un fichier de PDF. |
-| [!UICONTROL Create Copy] | [!BADGE 1.5.0-beta features]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Disponible uniquement pour les participants au programme Beta&quot;} Crée et ouvre une copie du guillemet actuel avec `(copy)` ajouté au nom d’origine. Renommez le nouveau guillemet en modifiant le champ [!UICONTROL Name]. Traitez le nouveau guillemet en l’enregistrant en tant que brouillon ou en l’envoyant au client. |
+| [!UICONTROL Create Copy] | Crée et ouvre une copie du guillemet actuel avec `(copy)` ajouté au nom d’origine. Renommez le nouveau guillemet en modifiant le champ [!UICONTROL Name]. Traitez le nouveau guillemet en l’enregistrant en tant que brouillon ou en l’envoyant au client. |
+| Créer un modèle | Créez un modèle de devis basé sur le guillemet actuel. Les modèles de devis rationnalisent la négociation des devis en permettant aux acheteurs et aux vendeurs de se mettre d&#39;accord sur les termes du contrat et des prix qui peuvent être appliqués à plusieurs devis. . Sur accord, l’acheteur peut générer un devis prévalidé et lié à partir du modèle pour les commandes ultérieures au lieu de redémarrer le processus de demande de devis (RFQ). |
 | [!UICONTROL Save as Draft] | Enregistrez les modifications apportées au devis, mais ne le renvoyez pas à l’acheteur. |
 | [!UICONTROL Decline] | Refusent de négocier les prix, soit lors de l&#39;enquête initiale, soit pendant les négociations en cours. Lorsqu&#39;une citation est refusée, le vendeur doit ajouter un commentaire pour expliquer la décision. Lorsqu’un guillemet est refusé, tous les prix négociés sont réinitialisés aux valeurs d’origine. Ce bouton est désactivé lorsque le vendeur attend une réponse de l&#39;acheteur. |
 | [!UICONTROL Send] | Envoie la citation mise à jour comme réponse à l&#39;enquête de l&#39;acheteur. Ce bouton est désactivé si le vendeur attend une réponse de l&#39;acheteur. |

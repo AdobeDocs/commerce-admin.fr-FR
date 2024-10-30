@@ -4,9 +4,9 @@ description: Découvrez comment un vendeur peut créer un devis pour un acheteur
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 8130ccb809a6aec80db63c5a6ea9f47488248805
+source-git-commit: 69396421bae610ff02b12054bdea2278a8c0efe5
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,15 @@ Après avoir créé le projet de devis, ajoutez des produits, appliquez des remi
 
    - Dans le champ [!UICONTROL Discount] , saisissez la valeur du type de remise. Par exemple, si vous avez sélectionné un pourcentage de remise, saisissez 10 pour appliquer une remise de 10 % à l’article.
 
-   - [!BADGE Fonctionnalités bêta 1.5.0]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible uniquement pour les participants au programme Beta"}
+   - Vous pouvez éventuellement verrouiller la valeur de remise de l’article afin que le prix du produit ne soit pas réduit davantage par les remises appliquées au niveau du devis.
 
      Après avoir confirmé la modification, les attributs de ligne dans la grille de produit sont mis à jour pour afficher le montant de remise appliqué. Si la remise est verrouillée, une icône de verrouillage s’affiche.
+
+   Un représentant commercial peut demander une remise sur une ligne spécifique dans un guillemet.
+
+   >[!NOTE]
+   >
+   >Pour une démonstration vidéo montrant comment les remises sur l’article fonctionnent, reportez-vous à la section [Le représentant commercial applique une remise sur une ligne de devis](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html) dans _Vidéos et Tutorials Commerce_.
 
 1. Appliquez une remise de niveau guillemet si nécessaire :
 
@@ -90,6 +96,14 @@ Après avoir créé le projet de devis, ajoutez des produits, appliquez des remi
    ![Le vendeur ajoute des informations pour l’acheteur](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
    Par défaut, un [fichier joint](configure-quotes.md) peut atteindre 2 Mo, dans n’importe quel format de fichier suivant : DOC, DOCX, XLS, XLSX, PDF, TXT, JPG ou JPEG, PNG.
+
+1. Ajoutez l’adresse de livraison lors des négociations.
+
+   Un représentant commercial peut effectuer une sélection de livraison une fois que l’acheteur a ajouté une adresse de livraison au devis.
+
+   Les options d’expédition sont verrouillées lors du passage en caisse.
+
+   Pour plus d’informations, voir [Mes guillemets](account-dashboard-my-quotes.md#adding-a-shipping-address).
 
 1. Traitez la citation.
 

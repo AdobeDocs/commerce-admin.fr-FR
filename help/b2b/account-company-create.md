@@ -4,9 +4,9 @@ description: Découvrez la création de comptes d’entreprise dans l’administ
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
+source-git-commit: 30c988ac7d4108ae85980498472d96363107212c
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1750'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ La personne qui configure un compte de société à partir du storefront se voit
 
 >[!IMPORTANT]
 >
->Pour prendre en charge cette méthode (qui permet aux clients d’enregistrer leur société à partir du storefront), assurez-vous que les [fonctionnalités B2B](enable-basic-features.md) sont configurées de sorte que **[!UICONTROL Allow Company Registration from the Storefront]** soit défini sur `Yes`.
+>Pour prendre en charge cette méthode (qui permet aux clients d’enregistrer leur société à partir du storefront), assurez-vous que les [fonctionnalités B2B](enable-basic-features.md) sont activées.
 
 1. Dans le coin supérieur droit de l’en-tête du storefront, le client clique sur **[!UICONTROL Create an Account]** et choisit **[!UICONTROL Create New Company Account]**.
 
@@ -29,7 +29,7 @@ La personne qui configure un compte de société à partir du storefront se voit
 
    >[!NOTE]
    >
-   >Si un visiteur est connecté à un compte utilisateur enregistré, il peut créer un compte de société en accédant à _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**. Lors de la création du compte de l’entreprise, le compte du client est attribué comme contact principal. Dans le cas contraire, le système crée un client qui reçoit un courrier électronique lui permettant de définir un mot de passe.
+   >Si un visiteur est connecté à un compte utilisateur enregistré, il peut créer un compte de société en accédant à _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**.
 
 1. Dans la section _[!UICONTROL Company Information]_, le client effectue les opérations suivantes :
 

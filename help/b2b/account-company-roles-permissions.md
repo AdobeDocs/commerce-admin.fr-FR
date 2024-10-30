@@ -4,9 +4,9 @@ description: Découvrez les rôles et les autorisations qu’un administrateur d
 exl-id: 9fe20d6a-2c9c-4618-a395-805d64dcf0de
 feature: B2B, Companies, Roles/Permissions
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: bad59798a1a6d97826dc421fe8614ef511e067bd
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -89,40 +89,9 @@ Le système dispose d’un rôle d’utilisateur par défaut prédéfini, que vo
 
 ## Autorisations de rôle
 
-- Tous
-   - Ventes
-      - Autoriser l’extraction (ordre de tri)
-         - Méthode Payer sur le compte
-      - Afficher les commandes
-         - Afficher les commandes des utilisateurs subordonnés
-- Guillemets
-   - Affichage
-      - Demande, modification et suppression
-      - Passage en caisse avec guillemet
-      - Affichage des guillemets des utilisateurs subordonnés
-- Approbations de commandes
-   - Afficher mes commandes
-      - Vue pour les subordonnés
-      - Afficher pour toutes les entreprises
-   - Validation automatique des PO créés dans ce rôle
-   - Approuver les commandes d’achat sans autres approbations
-   - Affichage des règles d’approbation
-      - Création, modification et suppression
-- Profil d’entreprise
-   - Informations du compte (affichage)
-      - Modifier
-   - Adresse légale
-      - Modifier
-   - Contacts (vue)
-   - Informations de paiement (affichage)
-   - Informations d’expédition (affichage)
-- Gestion des utilisateurs de l’entreprise
-   - Affichage des rôles et des autorisations
-      - Gestion des rôles et des autorisations
-   - Affichage des utilisateurs et des équipes
-      - Gestion des utilisateurs et des équipes
-- Crédit de la société
-   - Affichage
+Les administrateurs d’entreprise peuvent mettre à jour la configuration des autorisations pour un rôle en sélectionnant [!UICONTROL Edit action], puis en sélectionnant ou en supprimant des autorisations dans la liste **Autorisations de rôle**.
+
+![ Liste des rôles et autorisations](./assets/role-permissions-list.png){width="700" zoomable="yes"}
 
 ## Attribution d’un rôle à un utilisateur de société
 

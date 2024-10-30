@@ -4,9 +4,9 @@ description: Découvrez comment activer les fonctionnalités B2B pour votre bout
 exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
 feature: B2B, Configuration
 role: Admin
-source-git-commit: 7e36d0b7c9b414cb072118b87cd903b3374bb9de
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Par défaut, toutes les fonctionnalités B2B sont initialement désactivées. Un
 
 Lorsque vous activez la prise en charge des entreprises clientes, d’autres fonctionnalités B2B sont activées automatiquement :
 
-- [!DNL Shared Catalog]
+- [[!DNL Shared Catalog]](catalog-shared.md)
 
   Prend en charge la configuration de prix personnalisée pour différentes entreprises et active également des autorisations de catégorie pour tous les magasins.
 
@@ -25,7 +25,7 @@ Lorsque vous activez la prise en charge des entreprises clientes, d’autres fon
 
   Améliore les performances du site en ne stockant que les produits affectés à un catalogue partagé dans l’indice de prix. L’activation de cette fonctionnalité est une bonne pratique pour les Marchands qui ont de nombreux catalogues partagés afin de gérer les tarifs personnalisés pour différentes entreprises.
 
-- [!DNL B2B Quotes]
+- [[!DNL B2B Quotes]](quotes.md)
 
   Permet aux vendeurs et aux acheteurs de la société de négocier les prix.
 
@@ -35,7 +35,7 @@ Lorsque vous activez la prise en charge des entreprises clientes, d’autres fon
 
 Les paramètres de configuration de ces fonctionnalités ne sont visibles que lorsque [!DNL Enable Company] est défini sur `Yes`.
 
-Les fonctionnalités B2B [!DNL Quick Order] et [!DNL Requisition List] peuvent être activées et désactivées indépendamment.
+Les fonctionnalités B2B [[!DNL Quick Order]](quick-order.md) et [[!DNL Requisition List]](requisition-lists.md) peuvent être activées et désactivées indépendamment.
 
 ## Configuration des fonctionnalités B2B
 
@@ -52,6 +52,8 @@ Les options de configuration des fonctionnalités Adobe Commerce B2B sont dispon
    - Permet aux clients de gérer leurs propres comptes d’entreprise et d’activer la prise en charge de fonctionnalités B2B supplémentaires en définissant **[!UICONTROL Enable Company]** sur `Yes`.
 
      Lorsque vous activez la prise en charge de l’entreprise, le catalogue partagé, les devis B2B, les modes de paiement B2B et les modes de livraison B2B sont activés automatiquement.
+
+     ![Configuration B2B - fonctionnalités de l’entreprise](assets/b2b-additional-features.png){width="600"}
 
    - Pour permettre aux clients et aux invités de passer rapidement des commandes en fonction du SKU ou du nom du produit, définissez **[!UICONTROL Enable Quick Order]** sur `Yes`.
 

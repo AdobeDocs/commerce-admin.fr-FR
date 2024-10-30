@@ -4,9 +4,9 @@ description: Découvrez les structures de l’entreprise et comment un administr
 exl-id: 4724b208-b6ac-4de5-9a4c-bc4d68402506
 feature: B2B, Companies
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: fec72b792cf3149c05803874795c45f9f4e28673
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -17,25 +17,23 @@ Un compte d’entreprise peut être configuré pour refléter la structure de l�
 
 ![Structure de l’entreprise avec des divisions](./assets/company-structure-diagram.svg){width="500"}
 
-Dans le tableau de bord du compte de l’administrateur de l’entreprise, la structure de l’entreprise est représentée sous la forme d’une arborescence et se compose initialement uniquement de l’administrateur de l’entreprise.
+Dans le tableau de bord du compte de l’administrateur de l’entreprise sur le storefront, la structure de l’entreprise est représentée sous la forme d’une arborescence et se compose initialement uniquement de l’administrateur de l’entreprise.
 
-![Structure de l’entreprise avec administrateur de l’entreprise](./assets/company-structure-tree-admin.png){width="600" zoomable="yes"}
+![Structure de l’entreprise avec administrateur de l’entreprise](./assets/company-structure-tree-admin.png){width="700" zoomable="yes"}
 
-Lorsque le compte est créé et approuvé, l’administrateur de l’entreprise peut utiliser l’adresse électronique de l’entreprise ou se voir attribuer une autre adresse électronique.
-
-Il est possible que la personne qui est administrateur de la société ait plusieurs rôles au sein de la société. Si une adresse électronique distincte est saisie pour l’administrateur de l’entreprise, la structure initiale de l’entreprise inclut l’administrateur de l’entreprise ainsi qu’un compte utilisateur individuel au nom de l’administrateur de l’entreprise. Dans ce cas, l’administrateur de l’entreprise peut se connecter au compte en tant qu’entreprise ou utilisateur individuel.
-
-![Structure de l’entreprise avec administrateur et compte utilisateur](./assets/company-structure-tree-admin-user.png){width="600" zoomable="yes"}
-
-Pour les commerçants, la structure complète de l’entreprise est reflétée dans les grilles _Entreprises_ et _Clients_ au sein de l’administrateur. La grille Entreprises répertorie toutes les entreprises, quel que soit leur statut. L’exemple suivant montre les comptes de deux sociétés : la société _ACME_ et la société _Vendelay_.
+Pour les commerçants, la structure complète de l’entreprise est reflétée dans les grilles _Entreprises_ et _Clients_ au sein de l’administrateur. La grille Entreprises répertorie toutes les entreprises, quel que soit leur statut.
 
 ![Grille d’entreprises](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-L’exemple suivant montre la grille [!UICONTROL Customers] avec les comptes administrateur initiaux de la société pour ces sociétés.
+L’exemple suivant montre la grille [!UICONTROL Customers] avec les comptes administrateur de société initiaux pour chaque entreprise.
 
-![Grille de clients avec compte administrateur de l’entreprise](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![Grille des clients avec comptes d’administrateur de l’entreprise](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-Après la création du compte, l’administrateur de l’entreprise doit définir la structure de l’entreprise de [équipes](account-company-structure.md), configurer les [ utilisateurs de l’entreprise](account-company-users.md) et établir des [rôles et autorisations](account-company-roles-permissions.md) pour chacun d’eux.
+Après la création du compte, l’administrateur de l’entreprise peut définir une structure d’entreprise avec [équipes](account-company-structure.md), configurer les [utilisateurs de l’entreprise](account-company-users.md) et établir des [rôles et autorisations](account-company-roles-permissions.md) pour chacun d’eux.
+
+>[!NOTE]
+>
+>Lorsqu’un utilisateur d’entreprise est ajouté, il est initialement ajouté à la structure racine de l’entreprise, sous la supervision de l’administrateur de l’entreprise. Si l’administrateur de l’entreprise remplit plusieurs rôles au sein de l’entreprise, créez des comptes utilisateurs de l’entreprise distincts avec une adresse électronique différente pour chaque rôle.
 
 ## Icônes de structure de l’entreprise
 
@@ -74,9 +72,7 @@ Si le magasin est [configuré](enable-basic-features.md) pour permettre aux entr
 
    - Crée autant d’équipes que nécessaire.
 
-     ![Structure de l’entreprise avec équipes](./assets/company-structure-teams.png){width="600" zoomable="yes"}
-
-1. Pour créer une hiérarchie d’équipes, procédez comme suit :
+1. Pour créer une hiérarchie d’équipes, l’administrateur effectue les opérations suivantes :
 
    - Sélectionne l’équipe parente, puis cliquez sur **[!UICONTROL Add Team]**.
 
@@ -129,7 +125,7 @@ Lorsque des équipes et des utilisateurs sont ajoutés pour la première fois à
 | [!UICONTROL Collapse All / Expand All] | Réduit ou développe l’arborescence de la structure d’entreprise |
 | [!UICONTROL Add User] | Crée un utilisateur sous l’équipe actuelle |
 | [!UICONTROL Add Team] | Crée une équipe |
-| [!UICONTROL Edit Selected / Delete Selected] | Modifie ou supprime des utilisateurs de l’arborescence de l’entreprise |
+| [!UICONTROL Edit Selected / Remove from Structure] | Modifie les informations utilisateur ou supprime les utilisateurs de l’arborescence de l’entreprise. Pour plus d’informations, voir [Gestion des comptes utilisateurs de l’entreprise](account-company-users.md). |
 
 {style="table-layout:auto"}
 

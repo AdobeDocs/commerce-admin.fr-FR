@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] notes de mise à jour'
 description: Consultez les notes de mise à jour pour plus d’informations sur les modifications apportées aux versions de  [!DNL Adobe Commerce B2B] .
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: a63af8ac948422e4c6dd64408eaa48252b771d7f
+source-git-commit: b3892e2b34aae1579472f3562e479267cca2dce3
 workflow-type: tm+mt
-source-wordcount: '7198'
+source-wordcount: '7776'
 ht-degree: 0%
 
 ---
@@ -22,47 +22,84 @@ Ces notes de mise à jour relatives à l’extension B2B capturent les ajouts et
 >
 >Voir [ Disponibilité du produit ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) pour plus d’informations sur les versions de l’extension Commerce B2B prises en charge pour les versions Adobe Commerce disponibles.
 
-## B2B 1.5.0-beta
 
-{{$include /help/_includes/b2b-beta-note.md}}
+## B2B 1.5.0
 
-*13 novembre 2023*
+*30 octobre 2024*
 
 [!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
+Compatible avec Adobe Commerce versions 2.4.8-beta1, 2.4.7 à 2.4.7-p2, 2.4.6 à 2.4.6-p7
 
-La version bêta B2B 1.5.0 comprend de nouvelles fonctionnalités, des améliorations de qualité et des correctifs.
+La version B2B v1.5.0 comprend de nouvelles fonctionnalités, des améliorations de qualité et des correctifs.
 
-![Nouveau](../assets/new.svg) Les améliorations apportées aux guillemets permettent aux acheteurs et aux vendeurs de gérer les guillemets et les négociations de devis plus efficacement.
+### Gestion des entreprises
 
-- **Enregistrer la citation en tant que brouillon**<!--B2B-2566--> : lors de la création d’une [demande de devis](quote-request.md) à partir du panier, les acheteurs peuvent désormais enregistrer le guillemet en tant que brouillon en sélectionnant **[!UICONTROL Save as Draft]** sur le formulaire [!UICONTROL Request a Quote].
+![Nouveau](../assets/new.svg) **Gestion des entreprises**<!--B2B-2901--> : les vendeurs peuvent désormais afficher et gérer les entreprises Adobe Commerce en tant qu’organisations hiérarchiques en attribuant des sociétés à des sociétés mères désignées. Une fois qu’une société est affectée à un parent, l’administrateur de la société mère peut gérer le compte de la société. Seuls les utilisateurs administrateurs autorisés peuvent ajouter et gérer des affectations d’entreprise. Pour plus d’informations, voir [Gérer la hiérarchie de l’entreprise](manage-company-hierarchy.md).
 
-  Le projet de citation n’a pas de date d’expiration. Les acheteurs peuvent consulter et mettre à jour les versions préliminaires de guillemets de la section [!UICONTROL My Quotes] du tableau de bord de leur compte.
+- Ajoutez et gérez les affectations de l’entreprise à partir de la nouvelle section *[!UICONTROL Company Hierarchy]* de la page *[!UICONTROL Company Account]* de l’administrateur.
+
+- Triez et filtrez les entreprises selon le nouveau paramètre *[!UICONTROL Company Type]* . Dans la grille Sociétés, la colonne *[!UICONTROL Company Type]* indique si une entreprise est une entreprise individuelle ou une partie de la hiérarchie organisationnelle (parent ou enfant).
+
+![Nouveau](../assets/new.svg) **Gérer la configuration de l’entreprise à l’échelle**<!--B2B-2849--> : modifiez rapidement les paramètres de configuration de l’entreprise pour certaines entreprises à l’aide de l’action en masse *[!UICONTROL Change company setting]* désormais disponible lors de la gestion des entreprises à partir de la grille *[!UICONTROL Companies]* ou *[!UICONTROL Company Hierarchy]*. Par exemple, si vous créez un catalogue partagé pour un groupe d’entreprises, vous pouvez modifier la configuration du catalogue partagé dans une seule action au lieu de modifier chaque société individuellement.
+
+![New](../assets/new.svg) Les développeurs d’API peuvent utiliser le nouveau point d’entrée de l’API REST des relations de l’entreprise `/V1/company/{parentId}/relations` pour créer, afficher et supprimer des affectations de l’entreprise. Voir [Gestion des objets d’entreprise](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) dans le *Guide du développeur de l’API Web*.
+
+### Comptes d’entreprise
+
+![New](../assets/new.svg)<!--B2B-2828--> **Affectation multi-entreprise** : simplifiez l’accès aux comptes d’entreprise pour les utilisateurs de l’entreprise en affectant un utilisateur à plusieurs entreprises. Par exemple, si vous avez un acheteur qui commande depuis plusieurs sites de société, créez un compte unique et affectez toutes les sociétés avec lesquelles l’acheteur travaille à ce compte. Ensuite, l&#39;acheteur peut se connecter une seule fois et basculer entre les comptes de la société en choisissant la société sur la vitrine.
+
+>[!NOTE]
+>
+>Un utilisateur de société peut être affecté à plusieurs sociétés, mais il peut être l’administrateur d’entreprise d’une seule société.
+
+![New](../assets/new.svg) <!--B2B-2747--> **Sélecteur d’étendue d’entreprise** : permet aux utilisateurs de l’entreprise affectés à plusieurs entreprises de modifier les entreprises sur le storefront. Lorsque la portée est permutée, les données sont mises à jour afin d’afficher les informations en fonction du nouveau contexte de l’entreprise. Par exemple, si la nouvelle entreprise utilise un catalogue partagé différent, l’utilisateur de la société voit les produits, les prix et d’autres informations en fonction du nouveau catalogue partagé. Le contenu relatif aux commandes, devis, modèles de devis est également mis à jour en fonction du contexte de la société sélectionnée.
+
+>[!NOTE]
+>
+>Si l’utilisateur de l’entreprise change de société avec des articles dans le panier, mettez à jour le panier afin de refléter l’assortiment de produits, les tarifs et les remises promotionnelles en fonction du nouveau contexte de l’entreprise.
+
+![Problème corrigé](../assets/fix.svg)<!--ACP2E-1933--> Les administrateurs d’entreprise peuvent désormais ajouter des utilisateurs d’entreprise à partir du storefront. Auparavant, Commerce consignait une erreur lorsqu’un utilisateur administrateur tentait d’ajouter un nouvel utilisateur : `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+
+### Guillemets et modèles de devis
+
+Les améliorations apportées aux guillemets permettent aux acheteurs et aux vendeurs de gérer plus efficacement les devis et les négociations de devis.
+
+![Nouveau](../assets/new.svg) **Modèles de devis**—<!--B2B-3367-->Les acheteurs et les vendeurs peuvent désormais rationaliser le processus de devis en créant des modèles de devis réutilisables et personnalisables. En utilisant des modèles de devis, le processus de négociation des devis peut être terminé une fois, et les acheteurs peuvent générer des devis liés prévalidés pour les commandes récurrentes au lieu de passer par le processus de négociation des devis pour chaque commande. Les modèles de devis étendent la fonctionnalité de devis existante en ajoutant les fonctionnalités avancées suivantes :
+
+- **Les seuils de commande** permettent aux vendeurs de définir des engagements de commande minimum et maximum, en s’assurant que l’acheteur adhère aux volumes d’achat convenus.
+- **La définition des quantités minimales et maximales de commandes d&#39;articles** offre à l&#39;acheteur la possibilité d&#39;ajuster les quantités de commandes sur le devis associé sans nécessiter un nouveau modèle ni d&#39;autres négociations.
+- **Trackez le nombre de guillemets liés générés et les commandes terminées avec succès** pour obtenir des informations sur l’exécution des accords négociés.
+- **Les guillemets liés** sont des guillemets prévalidés que l’acheteur génère à partir d’un modèle de devis actif pour envoyer des commandes récurrentes en fonction des termes négociés dans le modèle de devis.
+
+![Nouveau](../assets/new.svg) **Améliorations des fonctionnalités de guillemet existantes**
+
+- **Les règles de liste de contrôle d’accès (ACL) mises à jour** permettent aux gestionnaires et aux superviseurs B2B de gérer les guillemets et les modèles de devis des utilisateurs subordonnés. Des règles distinctes prennent en charge la configuration granulaire pour l’accès à l’affichage, à la modification et à la suppression.
+
+- **Enregistrer la citation en tant que brouillon**<!--B2B-2566--> : lors de la création d’une [demande de devis](quote-request.md) à partir du panier, les acheteurs peuvent désormais enregistrer la citation en tant que brouillon afin de pouvoir la réviser et la mettre à jour avant d’entamer le processus de négociation de devis avec le vendeur. Le projet de citation n’a pas de date d’expiration. Les acheteurs peuvent consulter et mettre à jour les versions préliminaires de guillemets de la section [!UICONTROL My Quotes] du tableau de bord de leur compte.
 
 - **Renommer la citation**<!--B2B-2596--> : les acheteurs peuvent désormais modifier un nom de citation à partir de la page [Détails de la citation](account-dashboard-my-quotes.md#quote-actions) en sélectionnant l’option **[!UICONTROL Rename]**. Cette option est disponible pour les acheteurs autorisés lorsqu’ils modifient le devis. Les événements de changement de nom sont enregistrés dans le journal de l’historique des citations.
 
 - **Dupliquer le devis**<!--B2B-2701--> : les acheteurs et les vendeurs peuvent désormais créer un nouveau guillemet en copiant un guillemet existant. Une copie est créée à partir de la vue détaillée de la citation en sélectionnant **[!UICONTROL Create Copy]** dans la [ vue détaillée de la citation](quote-price-negotiation.md#button-bar) dans l’administrateur ou dans la [Storefront](account-dashboard-my-quotes.md#quote-actions).
 
-- **Verrouillage de remise d’article**<!--B2B-2597--> : lors de la négociation de devis, les vendeurs peuvent utiliser le verrouillage de remise d’article pour plus de flexibilité lors de l’application de remises. Par exemple, un Vendeur peut appliquer une réduction spéciale sur un article et verrouiller l’article pour éviter toute remise supplémentaire. Lorsqu’un article est verrouillé, le prix de l’article ne peut pas être mis à jour lorsqu’une remise de niveau citation est appliquée. Voir [Lancer un devis pour un acheteur](sales-rep-initiates-quote.md).
+- **Déplacer l’élément de guillemet vers la liste des demandes**<!--B2B-2755--> : les acheteurs ont désormais la possibilité de supprimer des produits d’un guillemet et de les enregistrer dans une liste de demandes s’ils décident de ne pas les inclure dans le processus de négociation de devis.
 
-![Nouveau ](../assets/new.svg)**Gestion des entreprises**<!--B2B-2901--> : les vendeurs peuvent désormais afficher et gérer les entreprises Adobe Commerce en tant qu’organisations hiérarchiques en attribuant des entreprises à des sociétés mères désignées. Une fois qu’une société est affectée à un parent, l’administrateur de la société mère peut gérer le compte de la société. Seuls les utilisateurs administrateurs autorisés peuvent ajouter et gérer des affectations d’entreprise. Pour plus d’informations, voir [Gérer la hiérarchie de l’entreprise](assign-companies.md).
+- **Supprimer plusieurs produits d’un guillemet**<!--B2B-2881--> : sur les guillemets contenant un grand nombre de produits, les acheteurs peuvent désormais supprimer plusieurs produits du guillemet en les sélectionnant et en utilisant l’option *[!UICONTROL Remove]* du contrôle *[!UICONTROL Actions]* sur la page Détails du guillemet. Dans les versions précédentes, un acheteur devait supprimer les produits un par un.
 
-- Sur la page Entreprises, un nouveau champ **[!UICONTROL Company Type]** identifie les entreprises parents et enfants. Les vendeurs peuvent filtrer la vue d’entreprise par type d’entreprise et gérer les entreprises à l’aide d’éléments de ligne ou d’actions en bloc.
+- **Verrouillage de remise d’article**<!--B2B-2597--> : lors de la négociation de devis, les vendeurs peuvent utiliser le verrouillage de remise d’article pour plus de flexibilité lors de l’application de remises lors du processus de négociation de devis. Par exemple, un Vendeur peut appliquer une réduction spéciale sur un article et verrouiller l’article pour éviter toute remise supplémentaire. Lorsqu’un article est verrouillé, le prix de l’article ne peut pas être mis à jour lorsqu’une remise de niveau citation est appliquée. Voir [Lancer un devis pour un acheteur](sales-rep-initiates-quote.md).
 
-- Les vendeurs peuvent ajouter et gérer des affectations d’entreprise à partir de la nouvelle section **[!UICONTROL Company Hierarchy]** de la page [!UICONTROL Company Account].
+![Correction d’un problème ](../assets/fix.svg) **Correctifs de fonctionnalités de guillemets existantes**
 
-- Les développeurs d’API peuvent utiliser le nouveau point d’entrée de l’API REST de relations d’entreprise `/V1/company/{parentId}/relations` pour créer, afficher et supprimer des affectations de l’entreprise. Voir [Gestion des objets d’entreprise](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) dans le *Guide du développeur de l’API Web*.
+- Les marchands qui cliquent sur le bouton *[!UICONTROL Print]* dans la vue détaillée des guillemets de l’administrateur sont désormais invités à enregistrer le guillemet en tant que PDF. Auparavant, les marchands étaient redirigés vers une page qui contenait les détails des guillemets. <!--ACP2E-1984-->
 
-![Problème corrigé](../assets/fix.svg)<!--ACP2E-1984--> Les vendeurs qui cliquent sur le bouton **[!UICONTROL Print]** dans la vue détaillée des guillemets de l’administrateur sont désormais invités à enregistrer le guillemet en tant que PDF. Auparavant, les marchands étaient redirigés vers une page qui contenait les détails des guillemets.
+- Auparavant, lors de l’envoi d’un devis client avec un pourcentage `0` et la modification de la quantité, l’administrateur générait une exception, mais enregistrait la quantité. Une fois ce correctif appliqué, l’exception `0 percentage` proprement dite avec un message sera générée. <!--ACP2E-1742-->
 
-![Correction d’un problème ](../assets/fix.svg) <!--ACP2E-1742--> Auparavant, lors de l’envoi d’un devis client avec 0 pourcentage et lors de la modification de la quantité, l’administrateur générait une exception, mais enregistrait la quantité. Une fois ce correctif appliqué, l’exception `0 percentage` proprement dite avec un message sera générée.
+- Lors de la négociation d’un devis, un vendeur peut maintenant spécifier une remise de `0%` dans le champ de remise entre devis négociée et renvoyer le devis à l’acheteur. Auparavant, si le vendeur avait effectué une remise de 0 % et renvoyé le devis à l’acheteur, l’administrateur renvoyait un message d’erreur `Exception occurred during quote sending`. <!--ACP2E-1742-->
 
-![ Problème corrigé ](../assets/fix.svg) <!--ACP2E-1742--> Lors de la négociation d’un devis, un vendeur peut désormais spécifier une `0%` remise dans le champ de remise entre devis négociée et renvoyer le devis à l’acheteur. Auparavant, si le vendeur avait effectué une remise de 0 % et renvoyé le devis à l’acheteur, l’administrateur renvoyait un message d’erreur `Exception occurred during quote sending`.
+- La validation ReCaptcha fonctionne désormais correctement pendant le processus de passage en caisse pour un guillemet B2B lorsque ReCaptcha V3 est configuré pour le passage en caisse du magasin. Auparavant, la validation échouait avec un message d’erreur `recaptcha validation failed, please try again`.  <!--ACP2E-2097-->
 
-![Correction d’un problème ](../assets/fix.svg) <!--ACP2E-2097-->La validation ReCaptcha fonctionne désormais correctement pendant le processus de passage en caisse pour un guillemet B2B lorsque ReCaptcha V3 est configuré pour le passage en caisse du storefront. Auparavant, la validation échouait avec un message d’erreur `recaptcha validation failed, please try again`.
+### Commandes
 
 ![Problème corrigé](../assets/fix.svg) <!--ACP2E-1825--> Les commandes ne peuvent plus être placées par un utilisateur associé à la société une fois la société bloquée. Auparavant, un utilisateur associé à la société pouvait passer des commandes lorsque la société était bloquée.
-
-![Problème corrigé](../assets/fix.svg)<!--ACP2E-1933-->Les administrateurs d’entreprise peuvent désormais ajouter des utilisateurs d’entreprise à partir du storefront. Auparavant, Commerce consignait une erreur lorsqu’un utilisateur administrateur tentait d’ajouter un nouvel utilisateur : `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
 ## B2B v1.4.2-p3
 

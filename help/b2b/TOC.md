@@ -5,9 +5,9 @@ breadcrumb-title: "[!DNL Adobe Commerce B2B]"
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: c88e5be54ac4af04302abbb25cc3f7db7b6b2606
+source-git-commit: 7f4993ff8b16beda2a371737fb5a8ecb5f9c9396
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '161'
 ht-degree: 6%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 6%
       + [Définition de la structure d’entreprise](account-company-structure.md)
 + Gestion des entreprises {#company-management}
    + [Vue d’ensemble](manage-companies.md)
-   + [Gérer la hiérarchie de l’entreprise](assign-companies.md)
+   + [Gérer la hiérarchie de l’entreprise](manage-company-hierarchy.md)
 + Catalogues partagés {#shared-catalogs}
    + [Vue d’ensemble](catalog-shared.md)
    + Définition des catalogues partagés {#define}
@@ -56,7 +56,11 @@ ht-degree: 6%
    + [Demande de devis](quote-request.md)
    + [Lancer un devis pour un acheteur](sales-rep-initiates-quote.md)
    + [Négocier une citation](quote-price-negotiation.md)
+   + [Créer un modèle de devis](quote-templates.md)
    + [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md)
++ Modèles de devis {#templates}
+   + [Cas pratique et workflow](quote-templates-overview.md)
+   + [[!UICONTROL My Quote Templates]](account-dashboard-my-quote-templates.md)
 + Listes de demandes {#requisition-lists}
    + [Vue d’ensemble](requisition-lists.md)
    + [Configuration du nombre maximal de listes](configure-requisition-lists.md)
