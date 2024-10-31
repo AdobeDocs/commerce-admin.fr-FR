@@ -3,9 +3,9 @@ title: '[!DNL Page Builder] Présentation de la partie 2 : blocs'
 description: Découvrez la différence entre les blocs simples et les blocs dynamiques lors de l’utilisation de [!DNL Page Builder].
 exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
 feature: Page Builder, Page Content
-source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2054'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Cet exercice suppose que vous avez terminé [Partie 1 : Page simple](1-simple-pa
 
 >[!NOTE]
 >
->Ces exercices pratiques sont mis à jour pour prendre en compte les modifications récentes apportées à l’espace de travail [!DNL Page Builder] dans la version 2.4.1. Si vous utilisez une version antérieure d’Adobe Commerce, utilisez les exercices [!DNL Page Builder] inclus dans le [[!DNL Commerce] 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
+>Ces exercices pratiques sont mis à jour pour prendre en compte les modifications récentes apportées à l’espace de travail [!DNL Page Builder] dans la version 2.4.1.
 
 ## Partie 1 : créer un bloc simple
 

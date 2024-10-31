@@ -2,9 +2,9 @@
 title: Présentation de [!DNL Page Builder]
 description: Découvrez les outils  [!DNL Page Builder]  pour créer facilement du contenu dans Adobe Commerce et Magento Open Source.
 exl-id: 2f71f910-4141-4fe5-bc0f-b891daeb8334
-source-git-commit: 43e71a77c3f4a4b92406bae03d27d3ec3c2359ba
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 [!DNL Page Builder] facilite la création de pages riches en contenu avec des dispositions personnalisées qui améliorent votre narration visuelle et favorisent l’engagement et la fidélité des clients. Voici quelques-unes des nombreuses fonctionnalités [!DNL Page Builder] conçues pour améliorer la qualité et réduire le temps et les frais liés à la production de pages personnalisées :
 
 - Outils de contenu avancé
-- Mises en page complètes pour les pages, produits et catégories CMS
+- Dispositions de pages entières pour les pages, produits et catégories CMS
 - Modification en temps réel depuis l’espace de travail
 - Conception de page par glisser-déposer
 - Large assortiment de types de contenu
@@ -32,7 +32,7 @@ Que vous soyez nouveau dans [!DNL Commerce] ou utilisateur expérimenté, effect
 
 >[!NOTE]
 >
->Ces exercices pratiques sont mis à jour pour prendre en compte les modifications importantes apportées à l’espace de travail [!DNL Page Builder] dans la ligne de mise à jour 2.4.x. Si vous utilisez une version antérieure d’Adobe Commerce, utilisez les exercices de présentation [!DNL Page Builder] inclus dans le [[!DNL Commerce] 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
+>Ces exercices pratiques sont mis à jour pour prendre en compte les modifications importantes apportées à l’espace de travail [!DNL Page Builder] dans la ligne de mise à jour 2.4.x.
 
 ## Démonstration du créateur de pages
 

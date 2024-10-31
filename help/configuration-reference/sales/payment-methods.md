@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] de l’administrateur Commerce.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![Emplacement du site marchand](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
-<!-- [Merchant Location](https://docs.magento.com/user-guide/payment/merchant-location.html) -->
+<!-- [Merchant Location](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#merchant-location) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -40,13 +40,13 @@ Les solutions de paiement suivantes sont recommandées pour les marchands qui co
 
 >[!NOTE]
 >
->Certaines intégrations de paiement et extensions groupées ont été supprimées dans les versions 2.4.x et déplacées vers Commerce Marketplace. Vous trouverez les dernières extensions officielles d’intégration des paiements dans [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target=&quot;_blank&quot;}.
+>Certaines intégrations de paiement et extensions groupées ont été supprimées dans les versions 2.4.x et déplacées vers Commerce Marketplace. Vous trouverez les dernières extensions officielles d’intégration des paiements dans [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}.
 ><br/>
 >**Amazon Pay** et **Klarna** : Adobe Commerce et les versions Magento Open Sources 2.4.0 à 2.4.3 incluaient ces extensions développées par des fournisseurs. À compter de la version 2.4.4, ces extensions ne sont plus incluses dans la version principale et doivent être installées et mises à jour à partir du Commerce Marketplace . Le Marketplace permet également d’accéder à la documentation actuelle fournie par le développeur de l’extension.
 ><br/>
 >Si l’une de ces extensions groupées est activée et configurée, vous devez mettre à jour votre fichier `composer.json` dans le cadre du processus de mise à niveau 2.4.4 et gérer les mises à jour d’extension à l’avenir. Voir [Mise à niveau des modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) dans le _Guide de mise à niveau_ pour plus d’informations.<br/>
 ><br/>
->**Worldpay**, **Eway**, **CyberSource** et **Authorize.Net** : pour plus d&#39;informations sur l&#39;exécution d&#39;une transition sécurisée à partir de ces intégrations de paiement, consultez le [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target=&quot;_blank&quot;}.
+>**Worldpay**, **Eway**, **CyberSource** et **Authorize.Net** : pour plus d&#39;informations sur la transition sécurisée à partir de ces intégrations de paiement, consultez le [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
 ## Autres méthodes PayPal
 
@@ -71,7 +71,7 @@ Les méthodes de paiement suivantes sont intégrées à Commerce et n’utilisen
 
 ![Vérifier / Commande d’argent](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
-<!-- [Check / Money Order](https://docs.magento.com/user-guide/payment/check-money-order.html) -->
+<!-- [Check / Money Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -92,7 +92,7 @@ Les méthodes de paiement suivantes sont intégrées à Commerce et n’utilisen
 
 ![Paiement de transfert de banque](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
-<!-- [Bank Transfer Payment](https://docs.magento.com/user-guide/payment/bank-transfer.html) -->
+<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -113,7 +113,7 @@ Les méthodes de paiement suivantes sont intégrées à Commerce et n’utilisen
 
 ![Paiement sur compte](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
-<!-- [Payment on Account](https://docs.magento.com/user-guide/payment/payment-on-account.html) -->
+<!-- [Payment on Account](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
