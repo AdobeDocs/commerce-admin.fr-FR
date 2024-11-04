@@ -3,9 +3,9 @@ title: Localisation de la boutique
 description: Découvrez comment localiser une vue de magasin ou de magasin.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 248c60b20d8554fc73f94cfd249ac3fd7b677f62
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 La plupart du texte qui semble codé en dur sur les pages de votre magasin peut être instantanément remplacé par une autre langue en modifiant les paramètres régionaux de la vue. La modification du paramètre régional ne traduit pas réellement le texte mot à mot, mais fait simplement référence à une autre table de traduction qui fournit le texte de l’interface utilisé dans tout le magasin. Le texte qui peut être modifié comprend des titres de navigation, des étiquettes, des boutons et des liens tels que _Mon panier_ et _Mon compte_. Vous pouvez également utiliser l’outil [Traduction en ligne](../configuration-reference/advanced/developer.md) pour toucher du texte dans l’interface.
 
-Les packs de langue se trouvent sous [Traductions et localisation][1]{:target=&quot;_blank&quot;} le Commerce Marketplace. Les nouvelles extensions sont continuellement ajoutées à Marketplace. Par conséquent, revenez souvent en arrière.
+Les packs de langues se trouvent sous [Traductions et localisation][1]{:target="_blank"} en Commerce Marketplace. Les nouvelles extensions sont continuellement ajoutées à Marketplace. Par conséquent, revenez souvent en arrière.
 
 ## Étape 1 : installation d’un module de langue
 
@@ -46,11 +46,9 @@ Suivez les instructions standard d’installation de l’extension du pack de la
 
 1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le coin supérieur gauche, définissez **[!UICONTROL Store View]** sur la vue spécifique dans laquelle la configuration doit s&#39;appliquer.
+1. Dans la liste déroulante **[!UICONTROL Scope]**, sélectionnez la vue de magasin à configurer, puis cliquez sur **[!UICONTROL OK]** lorsque vous y êtes invité.
 
-1. Lorsque vous êtes invité à confirmer le changement de portée, cliquez sur **[!UICONTROL OK]**.
-
-1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Locale Options]** .
+1. Sur la page de configuration *[!UICONTROL General]*, développez ![Sélecteur d’extension](../assets/icon-display-expand.png) dans la section **[!UICONTROL Locale Options]** .
 
 1. Décochez la case **[!UICONTROL Use Website]** et définissez **[!UICONTROL Locale]** sur la langue que vous souhaitez affecter à la vue.
 
