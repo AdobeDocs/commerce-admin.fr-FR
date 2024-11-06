@@ -4,9 +4,9 @@ description: Découvrez la création de comptes d’entreprise dans l’administ
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-source-git-commit: 30c988ac7d4108ae85980498472d96363107212c
+source-git-commit: 5312aa3f483399ecc4e9491b39f8300d8616e9e5
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1762'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,7 @@ La personne qui configure un compte de société à partir du storefront se voit
    - Renseigne éventuellement les champs suivants :
 
       - **[!UICONTROL Job Title]**
+      - **[!UICONTROL Work Phone Number]**
       - **[!UICONTROL Gender]**
 
    ![Administrateur d’entreprise](./assets/company-administrator-account-storefront.png)
@@ -142,6 +143,7 @@ Le processus de création d’une entreprise à partir de l’administrateur est
 
       - **[!UICONTROL Website]**
       - **[!UICONTROL Job Title]**
+      - **[!UICONTROL Work Phone Number]**
       - **[!UICONTROL Gender]**
       - **[!UICONTROL Send Welcome Email From]**
 
@@ -265,6 +267,7 @@ Le processus de création d’une entreprise à partir de l’administrateur est
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Website] | Détermine le site web auquel appartient l’administrateur de l’entreprise. |
 | [!UICONTROL Job Title] | Titre de l’administrateur de la société qui gère le compte de la société. |
+| [!UICONTROL Work Phone Number] | Numéro de téléphone de l’administrateur de l’entreprise qui gère le compte de l’entreprise. |
 | [!UICONTROL Email] | L’adresse électronique de l’administrateur de l’entreprise peut être identique à celle de l’entreprise. Si une autre adresse électronique est saisie, un compte individuel distinct est créé pour l’administrateur de la société, en plus du compte de la société. |
 | [!UICONTROL Prefix] | Le cas échéant, le préfixe associé au nom de l’administrateur de l’entreprise (par exemple `Mr.`, `Ms.`, `Mrs.` ou `Dr.`). Selon le paramétrage, le champ de saisie peut être un champ de texte ou une liste. |
 | [!UICONTROL First Name] | Prénom de l’administrateur de la société. |

@@ -4,9 +4,9 @@ description: Découvrez les comptes d’utilisateurs de l’entreprise et leur f
 exl-id: 36b55f61-e579-4eb8-8f67-0156221d378e
 feature: B2B, Companies, User Account, Storefront
 role: Admin, User
-source-git-commit: fec72b792cf3149c05803874795c45f9f4e28673
+source-git-commit: 9c16d7a3909598328cc42bbcbf39fc14ae6a9eb9
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Seuls les administrateurs de l’entreprise peuvent ajouter, modifier, inactiver
    - Ajoute les informations utilisateur dans les champs restants :
       - **[!UICONTROL First Name]** et **[!UICONTROL Last Name]**
       - **[!UICONTROL Email]**
-      - **[!UICONTROL Phone Number]**
+      - **[!UICONTROL Work Phone Number]**
 
    Par défaut, le **[!UICONTROL Status]** du compte est `Active`.
 
@@ -103,7 +103,7 @@ Les administrateurs d’entreprise peuvent mettre à jour les informations de pr
 
 >[!NOTE]
 >
->Si vous modifiez un compte utilisateur d’entreprise et que vous constatez que les informations de compte requises du profil sont manquantes, telles que le titre de la tâche et le numéro de téléphone, cela indique que le compte a été ajouté par un administrateur de site Commerce. Ces comptes ne peuvent pas être modifiés à partir du storefront. Pour mettre à jour les informations ou modifier l’état du compte, contactez votre administrateur de site.
+>Si vous modifiez un compte utilisateur de l’entreprise et que vous constatez que les informations de compte requises du profil sont manquantes, telles que le titre de la tâche et le numéro de téléphone de travail, cela indique que le compte a été ajouté par un administrateur de site Commerce. Ces comptes ne peuvent pas être modifiés à partir du storefront. Pour mettre à jour les informations ou modifier l’état du compte, contactez votre administrateur de site.
 
 ### Désactivation ou suppression d’un compte actif
 
@@ -120,13 +120,13 @@ Les administrateurs d’entreprise peuvent mettre à jour les informations de pr
 ## Description des champs de profil du compte d’utilisateur de société
 
 | Champ | Description |
-|--------------|---------------|
+|--------------------------------|---------------|
 | [!UICONTROL Job Title] | Fonction de l’utilisateur de la société. |
 | [!UICONTROL User Role] | [role](account-company-roles-permissions.md) attribué à l’utilisateur de la société. Options : `Default User` / (autres rôles) |
 | [!UICONTROL First Name] | Prénom de l’utilisateur de la société. |
 | [!UICONTROL Last Name] | Nom de l’utilisateur de la société. |
 | [!UICONTROL Email] | Adresse électronique de l’utilisateur de la société. |
-| [!UICONTROL Phone Number] | Numéro de téléphone de l’utilisateur de la société. |
+| [!UICONTROL Work Phone Number] | Numéro de téléphone de travail de l’utilisateur de la société. |
 | [!UICONTROL Status] | État du compte utilisateur de l’entreprise. Options : `Active` / `Inactive` |
 
 {style="table-layout:auto"}
