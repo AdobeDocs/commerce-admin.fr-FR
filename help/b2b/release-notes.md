@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] notes de mise à jour'
 description: Consultez les notes de mise à jour pour plus d’informations sur les modifications apportées aux versions de  [!DNL Adobe Commerce B2B] .
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: b3892e2b34aae1579472f3562e479267cca2dce3
+source-git-commit: ad2acb61acc3e7ace3421f51987939394f5d8cbe
 workflow-type: tm+mt
-source-wordcount: '7776'
+source-wordcount: '7801'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,10 @@ Ces notes de mise à jour relatives à l’extension B2B capturent les ajouts et
 Compatible avec Adobe Commerce versions 2.4.8-beta1, 2.4.7 à 2.4.7-p2, 2.4.6 à 2.4.6-p7
 
 La version B2B v1.5.0 comprend de nouvelles fonctionnalités, des améliorations de qualité et des correctifs.
+
+>[!NOTE]
+>
+> Découvrez les modifications rétrocompatibles (BIC) introduites dans la version B2B 1.5.0 en examinant les mises en évidence et les informations de référence dans la rubrique [Modifications rétrocompatibles](backward-incompatible-changes.md).
 
 ### Gestion des entreprises
 
