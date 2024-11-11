@@ -3,9 +3,9 @@ title: Gestion des comptes d’entreprise
 description: Découvrez comment gérer les comptes d’entreprise de votre boutique Adobe Commerce à l’aide de la page Entreprises et des outils disponibles dans la grille.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
+source-git-commit: d930c2294f0313cfa36d81c8a153b3cb35183f85
 workflow-type: tm+mt
-source-wordcount: '2706'
+source-wordcount: '2726'
 ht-degree: 0%
 
 ---
@@ -88,13 +88,13 @@ Méthode 2 : **à partir de la page de modification du compte**
 
 ### Bloquer les comptes d’entreprise
 
-Les utilisateurs associés à un compte d’entreprise bloqué peuvent se connecter et accéder au catalogue, mais ne peuvent pas effectuer d’achats. Une entreprise dont le compte n’est pas en règle peut être bloquée temporairement jusqu’à ce que le problème soit résolu.
+Les utilisateurs associés à un compte de société bloqué peuvent se connecter et accéder au catalogue, mais ne peuvent pas effectuer d’achats. Une société dont le compte n’est pas en règle peut être temporairement bloquée jusqu’à ce que l’affaire soit résolue.
 
-1. Dans le **[!UICONTROL Actions]** contrôle, sélectionnez **[!UICONTROL Block]**.
+1. Dans la commande **[!UICONTROL Actions]**, sélectionnez **[!UICONTROL Block]**.
 
-1. Lorsque vous êtes invité à confirmer, cliquez sur **[!UICONTROL OK]**.
+1. Lorsque vous êtes invité à confirmer l’opération, cliquez sur **[!UICONTROL OK]**.
 
-### Supprimer les comptes de l’entreprise
+### Suppression de comptes d’entreprise
 
 Les comptes d’entreprise supprimés ne peuvent pas être restaurés. L’état des comptes d’utilisateurs associés à l’entreprise est défini sur `Inactive` et l’ID de société est supprimé des profils des comptes d’utilisateurs. Les informations sur l’activité et les transactions de la société sont conservées dans le système.
 
@@ -256,6 +256,7 @@ Les sections suivantes contiennent une référence pour les actions, options et 
 | [!UICONTROL Outstanding Balance] | Le solde impayé sur le compte de la société. la colonne est vide si la société n’a pas d’historique de crédit et que sa limite de crédit est zéro. |
 | [!UICONTROL Company Admin] | Prénom et nom de l’administrateur de la société. |
 | [!UICONTROL Job Title] | Fonction de l’administrateur de l’entreprise. |
+| [!UICONTROL Work Phone Number] | Numéro de téléphone de travail de l’administrateur de la société. |
 | [!UICONTROL Email] | Adresse électronique de l’administrateur de la société. |
 | [!UICONTROL Action] | **[!UICONTROL Edit]** - Ouvre le compte de la société en mode d’édition. |
 
@@ -268,13 +269,13 @@ Les colonnes suivantes sont disponibles en modifiant la [mise en page des colonn
 | Colonne | Description |
 |---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Legal Name] | Nom légal complet de la société. |
-| [!UICONTROL Street Address] | L’adresse municipale où l’entreprise est enregistrée pour exercer ses activités. |
+| [!UICONTROL Street Address] | Adresse de la rue où l’entreprise est enregistrée pour faire des affaires. |
 | [!UICONTROL ZIP] | Code postal où l’entreprise est enregistrée pour exercer ses activités. |
 | [!UICONTROL Reseller ID] | Numéro de revente attribué à la société à des fins de déclaration fiscale. |
 | [!UICONTROL VAT/TAX ID] | Numéro de la [taxe sur la valeur ajoutée](../stores-purchase/vat.md) qui est attribué à la société par certaines juridictions à des fins de déclaration fiscale. Pour configurer l’ID de TVA/TAX du client pour qu’il s’affiche dans le storefront, voir [Créer des options de compte](../configuration-reference/customers/customer-configuration.md). |
 | [!UICONTROL Credit Limit] | Limite de crédit étendue au compte de la société. |
-| [!UICONTROL Credit Currency] | Devise acceptée par le magasin pour les achats avec crédit de l’entreprise. |
-| [!UICONTROL Status] | Indique l’état [](account-company-approve.md) du compte d’entreprise. Options : <br/>**[!UICONTROL Active]**- Le compte de l’entreprise est approuvé par l’administrateur du magasin. L’administrateur de l’entreprise et les membres associés peuvent se connecter au compte à partir de la vitrine et effectuer des achats.<br/>**[!UICONTROL Pending Approval]** - Une demande d’ouverture d’un compte d’entreprise a été soumise, mais n’est pas encore approuvée par l’administrateur du magasin. <br/>**[!UICONTROL Rejected]**- Une demande d’ouverture d’un compte d’entreprise a été soumise, mais n’a pas été approuvée par l’administrateur du magasin. Les informations de connexion initiales utilisées pour soumettre la demande sont bloquées.<br/>**[!UICONTROL Blocked]** - Les membres de l’entreprise peuvent se connecter et accéder au catalogue, mais ne peuvent pas effectuer d’achats. L’administrateur du magasin peut bloquer un compte d’entreprise qui n’est pas en règle. Le bloc du compte peut être supprimé à tout moment par l’administrateur du magasin. |
+| [!UICONTROL Credit Currency] | Devise acceptée par le magasin pour les achats à crédit de la société. |
+| [!UICONTROL Status] | Indique le [statut](account-company-approve.md) du compte de la société. Options : <br/>**[!UICONTROL Active]**- Le compte de la société est approuvé par l’administrateur du magasin. L’administrateur de la société et les membres associés peuvent se connecter au compte à partir du storefront et effectuer des achats.<br/>**[!UICONTROL Pending Approval]** - Une demande d’ouverture d’un compte de société a été envoyée, mais n’est pas encore approuvée par l’administrateur du magasin. <br/>**[!UICONTROL Rejected]**- Une demande d’ouverture d’un compte de société a été envoyée, mais n’a pas été approuvée par l’administrateur du magasin. Les informations de connexion initiales utilisées pour envoyer la demande sont bloquées.<br/>**[!UICONTROL Blocked]** - Les membres de la société peuvent se connecter et accéder au catalogue, mais ne peuvent pas effectuer d’achats. L’administrateur du magasin peut bloquer un compte d’entreprise qui n’est pas en règle. Le bloc du compte peut être supprimé à tout moment par l’administrateur du magasin. |
 | [!UICONTROL Gender] | Genre de l’administrateur de l’entreprise. Options : homme/femme/non spécifié |
 | [!UICONTROL Comment] | Remarques sur le compte de l’entreprise à titre de référence et visibles uniquement par l’administrateur. |
 
@@ -327,7 +328,7 @@ Les colonnes suivantes sont disponibles en modifiant la [mise en page des colonn
 | [!UICONTROL City] | Ville dans laquelle l’entreprise est enregistrée pour faire des affaires. |
 | [!UICONTROL Customer Group] | (Admin uniquement) Indique le [groupe de clients](../customers/customer-groups.md) ou le [catalogue partagé](catalog-shared.md) affecté à la société. |
 | [!UICONTROL Company Admin] | Nom complet de l’administrateur de la société. |
-| [!UICONTROL Action] | La liste des actions possibles pour cette ligne de société. |
+| [!UICONTROL Action] | Liste des actions possibles pour cette ligne d’entreprise. |
 
 {style="table-layout:auto"}
 
@@ -335,7 +336,7 @@ Les colonnes suivantes sont disponibles en modifiant la [mise en page des colonn
 
 | Colonnes | Description |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Street Address] | L’adresse municipale où l’entreprise est enregistrée pour exercer ses activités. |
+| [!UICONTROL Street Address] | Adresse de la rue où l’entreprise est enregistrée pour faire des affaires. |
 | [!UICONTROL City] | Ville dans laquelle l’entreprise est enregistrée pour faire des affaires. |
 | [!UICONTROL Country] | Le pays dans lequel la société est enregistrée pour mener une activité commerciale. |
 | [!UICONTROL State/Province] | État ou province dans lequel l’entreprise est enregistrée pour exercer une activité commerciale. |
@@ -347,13 +348,14 @@ Les colonnes suivantes sont disponibles en modifiant la [mise en page des colonn
 #### [!UICONTROL Company Admin]
 
 | Champ | Description |
-|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Website] | Définissez la [portée du site web](../getting-started/websites-stores-views.md) pour le compte de la société. La valeur par défaut est *[!UICONTROL Main Website]*. |
 | [!UICONTROL Job Title] | Titre de l’administrateur de la société qui gère le compte de la société. |
-| [!UICONTROL Email] | L’adresse e-mail de l’administrateur de l’entreprise peut être identique à l’adresse e-mail de l’entreprise. Si une adresse e-mail différente est saisie, un compte individuel distinct est créé pour l’administrateur de l’entreprise en plus du compte d’entreprise. |
-| [!UICONTROL Prefix] | Le cas échéant, préfixe associé au nom de l’administrateur de l’entreprise (tel que `Mr.`, `Ms.`, `Mrs.`ou `Dr.`). Selon la configuration, le champ de saisie peut être un champ de texte ou une liste. |
-| [!UICONTROL First Name] | Prénom de l’administrateur de l’entreprise. |
-| [!UICONTROL Middle Name/Initial] | Deuxième prénom ou initiale de l’administrateur de la société. |
+| [!UICONTROL Work Phone Number] | Numéro de téléphone de l’administrateur de l’entreprise qui gère le compte de l’entreprise. |
+| [!UICONTROL Email] | L’adresse électronique de l’administrateur de l’entreprise peut être identique à celle de l’entreprise. Si une autre adresse électronique est saisie, un compte individuel distinct est créé pour l’administrateur de la société en plus du compte de la société. |
+| [!UICONTROL Prefix] | Le cas échéant, le préfixe associé au nom de l’administrateur de l’entreprise (par exemple `Mr.`, `Ms.`, `Mrs.` ou `Dr.`). Selon le paramétrage, le champ de saisie peut être un champ de texte ou une liste. |
+| [!UICONTROL First Name] | Prénom de l’administrateur de la société. |
+| [!UICONTROL Middle Name/Initial] | Nom intermédiaire ou initial de l’administrateur de la société. |
 | [!UICONTROL Last Name] | Nom de l’administrateur de la société. |
 | [!UICONTROL Suffix] | Le cas échéant, le suffixe associé au nom de l’administrateur de l’entreprise (par exemple `Jr.`, `Sr.` ou `III`). Selon le paramétrage, le champ de saisie peut être un champ de texte ou une liste. |
 | [!UICONTROL Gender] | Genre de l’administrateur de l’entreprise. Options : `Male` / `Female` / `Not Specified` |
