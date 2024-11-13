@@ -3,16 +3,16 @@ title: Personnalisation des modèles de courrier électronique
 description: Découvrez comment personnaliser des modèles de courrier électronique pour chaque vue de site Web, de magasin ou de magasin.
 exl-id: d328b84d-fab7-4956-9071-2d8848f7c21e
 feature: Communications, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
 
 # Personnalisation des modèles de courrier électronique
 
-Commerce comprend un modèle de courrier électronique par défaut pour la section body de chaque message envoyé par le système. Le modèle du contenu du corps est combiné avec les modèles d’en-tête et de pied de page pour créer le message complet. Le contenu est formaté avec HTML et CSS et peut être facilement modifié et personnalisé en ajoutant [variables](variables-predefined.md) et [widgets](../content-design/widgets.md). Les modèles de courrier électronique peuvent être personnalisés pour chaque site web, magasin ou vue de magasin. Si vous utilisez des modèles personnalisés, veillez à mettre à jour la [configuration système](email-templates.md#configure-email-templates) pour vous assurer que le modèle correct est utilisé.
+Commerce comprend un modèle de courrier électronique par défaut pour la section body de chaque message envoyé par le système. Le modèle du contenu du corps est combiné avec les modèles d’en-tête et de pied de page pour créer le message complet. Le contenu est formaté avec HTML et CSS et peut être facilement modifié et personnalisé en ajoutant [variables](variables-predefined.md). Les modèles de courrier électronique peuvent être personnalisés pour chaque site web, magasin ou vue de magasin. Si vous utilisez des modèles personnalisés, veillez à mettre à jour la [configuration système](email-templates.md#configure-email-templates) pour vous assurer que le modèle correct est utilisé. Pour savoir comment utiliser des instructions conditionnelles dans la personnalisation du modèle de courrier électronique, consultez la [documentation destinée aux développeurs](https://developer.adobe.com/commerce/frontend-core/guide/templates/email/#theme-based-customizations-1).
 
 ![Exemple - aperçu de l’email de bienvenue](./assets/email-template-preview.png){width="500" zoomable="yes"}
 

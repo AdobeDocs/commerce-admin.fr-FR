@@ -3,9 +3,9 @@ title: PayPal Payflow Pro
 description: Découvrez comment configurer PayPal Payflow Pro en tant que solution de paiement en ligne sur votre boutique.
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2194'
 ht-degree: 0%
 
 ---
@@ -136,8 +136,8 @@ Cette méthode de configuration suppose que vous disposez d’un compte PayPal e
 1. Saisissez l’une des informations d’identification suivantes que vous utilisez pour vous connecter à votre compte marchand PayPal :
 
    - **[!UICONTROL Partner]** - Votre identifiant de partenaire PayPal.
-   - **[!UICONTROL User]** - Identifiant d’un autre utilisateur configuré sur votre compte PayPal.
-   - **[!UICONTROL Vendor]** - Votre nom d’utilisateur PayPal.
+   - **[!UICONTROL User]** - Si vous configurez un ou plusieurs utilisateurs supplémentaires sur le compte, cette valeur est l’identifiant de l’utilisateur autorisé à traiter les transactions. Si, toutefois, vous n’avez pas configuré d’utilisateurs supplémentaires, **[!UICONTROL USER]** a la même valeur que **[!UICONTROL Vendor]**.
+   - **[!UICONTROL Vendor]** - Votre identifiant de connexion marchand créé lorsque vous vous êtes inscrit au compte.
 
 1. Saisissez le **[!UICONTROL Password]** associé à votre compte PayPal.
 
