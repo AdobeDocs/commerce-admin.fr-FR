@@ -2,7 +2,7 @@
 title: Stocks et sources
 description: Découvrez les relations entre les produits, les sources et les stocks.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
@@ -65,4 +65,4 @@ Voici quelques options importantes à comprendre pour [!DNL Inventory Management
 
 Regardez cette vidéo pour en savoir plus sur les sources et les stocks Inventory management :
 
->[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)

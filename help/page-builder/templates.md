@@ -3,7 +3,7 @@ title: '[!DNL Page Builder] Templates'
 description: Découvrez comment enregistrer votre contenu  [!DNL Page Builder]  existant en tant que modèle, puis appliquer ce modèle à une autre zone.
 exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
 feature: Page Builder, Page Content
-source-git-commit: 06c8864e35dc37997bc26720ee9a95aff97f7987
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -91,4 +91,4 @@ La grille _Appliquer le modèle_ et la grille de page _Modèles_ offrent deux ma
 
 Regardez cette vidéo pour en savoir plus sur les modèles de contenu du Créateur de pages :
 
->[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12&learn=on)

@@ -3,7 +3,7 @@ title: Le [!DNL Media Gallery]
 description: Utilisez la galerie de médias pour organiser et gérer vos fichiers multimédia sur le serveur.
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -64,13 +64,13 @@ Pour accéder à la nouvelle galerie de médias lorsque vous ajoutez ou modifiez
 
      ![Faire glisser l’image sur l’étape](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
 
-   - Si l’éditeur [WYSIWYG est activé](/help/content-design/editor.md), cliquez sur **[!UICONTROL Show/Hide Editor]**, puis sur **[!UICONTROL Insert Image]**.
+   - Si l’ [ éditeur WYSIWYG activé](/help/content-design/editor.md) est activé, cliquez sur **[!UICONTROL Show/Hide Editor]**, puis sur **[!UICONTROL Insert Image]**.
 
 ## Démo [!DNL Media Gallery]
 
 Pour en savoir plus sur [!DNL Media Gallery], regardez cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
 
 [adobe-stock]: https://stock.adobe.com
 

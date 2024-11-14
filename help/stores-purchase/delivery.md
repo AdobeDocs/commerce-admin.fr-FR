@@ -3,9 +3,9 @@ title: Livraison et diffusion
 description: Découvrez la prise en charge de divers modes de diffusion et opérateurs de livraison que vous pouvez proposer à vos clients.
 exl-id: 79fce11c-d45d-4176-94ac-80261c65b7ad
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Des études montrent que les magasins offrant aux clients le choix de plusieurs 
 
 >[!NOTE]
 >
->En raison de la fermeture de Temando, la prise en charge de [!DNL Magento Shipping] est supprimée dans la version 2.4.0. Pour obtenir des informations détaillées sur l’état et des recommandations relatives aux nouvelles implémentations d’expédition dans Commerce, consultez la page [product information](https://business.adobe.com/products/magento/shipping.html){:target=&quot;_blank&quot;} .
+>En raison de la fermeture de Temando, la prise en charge de [!DNL Magento Shipping] est supprimée dans la version 2.4.0. Pour obtenir des informations détaillées sur l’état et des recommandations relatives aux nouvelles implémentations d’expédition dans Commerce, consultez la page [informations sur le produit](https://business.adobe.com/products/magento/shipping.html){:target="_blank"} .
 
 ## Méthodes de diffusion de base
 
@@ -40,4 +40,4 @@ Si vous disposez d’un compte commercial avec un ou plusieurs [opérateurs pris
 
 Pour en savoir plus sur les méthodes d’expédition et de diffusion, regardez cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12&learn=on)

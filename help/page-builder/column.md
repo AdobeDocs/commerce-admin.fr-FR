@@ -3,7 +3,7 @@ title: Disposition - Colonne
 description: Découvrez le type de contenu Colonne utilisé pour diviser une page en plusieurs colonnes dans l’étape  [!DNL Page Builder] .
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
-source-git-commit: 63b620f2af106108c672a9a91cb66923c5231c53
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Vous pouvez modifier la mise en page du conteneur [!DNL Columns] en faisant glis
 
 Regardez cette vidéo pour une démonstration de l’utilisation du conteneur [!DNL Columns] pour affiner les mises en page :
 
->[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12&learn=on)
 
 ## Barre d’outils Colonnes
 

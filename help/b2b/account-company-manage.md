@@ -3,7 +3,7 @@ title: Gestion des comptes d’entreprise
 description: Découvrez comment gérer les comptes d’entreprise de votre boutique Adobe Commerce à l’aide de la page Entreprises et des outils disponibles dans la grille.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: d930c2294f0313cfa36d81c8a153b3cb35183f85
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '2726'
 ht-degree: 0%
@@ -208,7 +208,7 @@ Le profil de l’entreprise peut être conservé à partir du storefront par l�
 
 Pour en savoir plus sur la gestion des comptes d’entreprise, regardez cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
 
 ## Gestion des entreprises
 

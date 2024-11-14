@@ -3,7 +3,7 @@ title: Règles fiscales
 description: Découvrez comment définir les règles fiscales à l’aide de la classe de produits, de la classe de clients et du taux d’imposition.
 exl-id: 38d65998-7769-49ce-9814-e65df9d77bba
 feature: Taxes, Currency
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -96,4 +96,4 @@ Les règles fiscales intègrent une combinaison de catégories de produits, de c
 
 Découvrez la gestion des règles de devise et de taxe en regardant cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12&learn=on)

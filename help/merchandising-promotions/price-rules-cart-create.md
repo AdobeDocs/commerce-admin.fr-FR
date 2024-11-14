@@ -3,7 +3,7 @@ title: Créer une règle de prix de panier
 description: Découvrez comment créer une règle de prix de panier basée sur les attributs de panier ou de produit.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 83f341c59ab9517a076eaaba71f4988e21abf826
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '3386'
 ht-degree: 0%
@@ -334,7 +334,7 @@ Le libellé apparaît dans la section des totaux de la commande pour identifier 
 
 Regardez cette vidéo pour en savoir plus sur la création de règles de prix de panier :
 
->[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
 
 ## Descriptions des champs
 

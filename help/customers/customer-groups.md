@@ -3,7 +3,7 @@ title: Groupes de clients
 description: Utilisez les groupes de clients pour déterminer les remises disponibles pour les clients affectés à un groupe et la classe de taxe associée au groupe.
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: c2fd228311a4b990be9c1409d2cdd2b5677fe2af
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -110,4 +110,4 @@ Les groupes de clients déterminent quelles remises sont disponibles et la class
 
 Découvrez comment créer des groupes de clients en regardant cette démonstration :
 
->[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12&learn=on)

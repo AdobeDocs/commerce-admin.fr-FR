@@ -4,7 +4,7 @@ description: Découvrez les règles d’approbation de commande et comment les a
 exl-id: e8d8bbc9-41cf-4024-85cc-92f0b0ce32d6
 feature: B2B, Companies, Configuration
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 0%
@@ -150,4 +150,4 @@ Pour supprimer une règle d’approbation existante, un client peut effectuer le
 
 Regardez cette vidéo pour en savoir plus sur les validations de commande :
 
->[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12&learn=on)

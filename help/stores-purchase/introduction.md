@@ -2,7 +2,7 @@
 title: Présentation des magasins et de l’expérience d’achat
 description: Découvrez les fonctionnalités utilisées pour créer et gérer vos magasins en ligne et l’expérience d’achat pour vos clients.
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Les clients ont parfois besoin d’aide pour effectuer un achat. Certains client
 
 Découvrez les achats assistés par les vendeurs en regardant cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12&learn=on)
 
 ## Gestion des commandes et opérations
 
