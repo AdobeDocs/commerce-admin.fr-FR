@@ -3,9 +3,9 @@ title: Conformité à la loi sur les cookies
 description: Pour suivre le rythme de la législation dans de nombreux pays concernant l'utilisation des cookies, Adobe Commerce et Magento Open Source offrent aux commerçants un choix de méthodes pour obtenir le consentement du client.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: ae43d97bb3031a06ce6a0211ee304aae53e4eb08
+source-git-commit: 04e8fe7cf303f434bab748df447eef8ac1097196
 workflow-type: tm+mt
-source-wordcount: '2105'
+source-wordcount: '1825'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,6 @@ Les cookies sont de petits fichiers qui sont enregistrés sur l’ordinateur de 
 >[!NOTE]
 >
 >Si vous modifiez les [ paramètres de confidentialité de Google ](../merchandising-promotions/google-tools.md#google-privacy-settings) par défaut pour vous conformer au [Règlement général sur la protection des données](compliance-gdpr.md), il n’est pas nécessaire d’obtenir le consentement de l’utilisateur pour l’utilisation des cookies Google Analytics.
-
-## Méthode 1 : consentement implicite
-
-Le consentement implicite signifie que les visiteurs de votre boutique ont une compréhension claire du fait que les cookies sont une partie nécessaire des opérations et qu’en utilisant votre site, ils ont indirectement accordé l’autorisation de les utiliser. La clé pour obtenir un consentement implicite consiste à fournir suffisamment d’informations pour qu’un visiteur puisse prendre une décision éclairée. De nombreux magasins affichent un message en haut de toutes les pages standard qui fournit un bref aperçu de la manière dont les cookies sont utilisés, avec un lien vers la politique de confidentialité du magasin. La politique de confidentialité doit décrire le type d’informations collectées par votre boutique et la manière dont elle est utilisée.
-
-## Méthode 2 : consentement exprimé
-
-Le fonctionnement de votre boutique en _mode de restriction des cookies_ nécessite que les visiteurs expriment leur consentement avant que des cookies puissent être enregistrés sur leurs ordinateurs. À moins que le consentement ne soit accordé, de nombreuses fonctionnalités de votre boutique ne sont pas disponibles. Si, par exemple, le Google Analytics est disponible pour votre boutique, il ne peut être appelé qu’après que le visiteur a autorisé l’utilisation des cookies.
 
 ## Mode de restriction des cookies
 
@@ -62,7 +54,7 @@ Votre [politique de confidentialité](privacy-policy.md)) doit inclure le nom de
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
-1. Lorsque vous êtes invité à mettre à jour le cache, cliquez sur le lien **[!UICONTROL Cache Management]** dans le message système. Ensuite, actualisez chaque cache non valide.
+1. Lorsque vous êtes invité à mettre à jour le cache, cliquez sur le lien **[!UICONTROL Cache Management]** dans le message système et actualisez chaque cache non valide.
 
 ### Étape 2 : mise à jour de votre politique de confidentialité
 
@@ -78,258 +70,151 @@ Certains de ces cookies peuvent fournir des options de configuration, notamment 
 
 ### Cookies de fonctionnalités demandés (exemptés)
 
-
 #### `add_to_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Utilisé par Google Tag Manager. Capture le SKU, le nom, le prix et la quantité du produit supprimés du panier et met les informations à disposition pour une intégration ultérieure par des scripts tiers.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Capture le SKU, le nom, le prix et la quantité du produit supprimés du panier. Permet aux Google Analytics de savoir quand un produit a été ajouté à un panier.
 
 #### `guest-view`
 
-Stocke l’identifiant de commande que les clients utilisent pour récupérer leur état de commande. Vue Commandes d’invités. Utilisé dans les widgets _[!DNL Orders and Returns]_.
-
-- Est-il sécurisé ? Non
-- HTTP uniquement : Oui
-- Stratégie d’expiration : session
-- Module : `Magento_Sales`
+Associe une commande d’invité à un invité (car il n’existe aucun compte pour invité).
 
 #### `login_redirect`
 
-Permet de conserver la page de destination qui était chargée avant que le client ne soit invité à se connecter. Une redirection de connexion est utilisée avec le mini panier pour les clients connectés si l’option de configuration [Afficher le mini panier](../stores-purchase/cart-configuration.md#mini-cart) est définie sur `Yes`.
-
-- Est-il sécurisé ? Non
-- HTTP uniquement : Non
-- Stratégie d’expiration : session
-- Module : `Magento_Customer`
+Enregistre l’URL de redirection pour orienter l’utilisateur en cas de connexion réussie et d’enregistrement de l’utilisateur. Enregistre la page sur laquelle se trouvait un utilisateur avant de se connecter (afin de déterminer l’emplacement auquel il reviendra après s’être connecté).
 
 #### `mage-banners-cache-storage`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Stocke localement le contenu de la bannière pour améliorer les performances.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Stocke localement le contenu de la bannière pour améliorer les performances. Le contenu de la bannière désigne tout contenu qu’un commerçant peut afficher sur son site Web.
 
 #### `mage-messages`
 
-Effectue le suivi des messages d’erreur et autres notifications qui s’affichent à l’utilisateur, tels que le message de consentement du cookie, et de divers messages d’erreur. Le message est supprimé du cookie une fois qu’il a été présenté au nouvel acheteur.
-
-Il n’existe pas d’option pour désactiver ce cookie.
-
-- Est-il sécurisé ? Non
-- HTTP uniquement : Non
-- Politique d’expiration : durée 1 an. Effacé sur le front-end lorsque le message s’affiche pour l’utilisateur.
-- Module : `Magento_Theme`
-
-#### `mage-translation-storage` (stockage local)
-
-Stocke le contenu traduit sur demande de l’acheteur. Utilisé lorsque [Stratégie de traduction](../configuration-reference/advanced/developer.md) est configuré comme &quot;Dictionnaire (traduction côté storefront)&quot;.
-
-- Est-il sécurisé ? Non
-- HTTP uniquement : Non
-- Stratégie d’expiration : selon les règles de stockage local
-- Module : `Magento_Translation`
-
-#### `mage-translation-file-version` (stockage local)
-
-Effectue le suivi de la version des traductions dans le stockage local. Utilisé lorsque [Stratégie de traduction](../configuration-reference/advanced/developer.md) est configuré comme `Dictionary (Translation on Storefront side)`.
-
-- Est-il sécurisé ? Non
-- HTTP uniquement : Non
-- Stratégie d’expiration : selon les règles de stockage local
-- Module : `Magento_Translation`
+Effectue le suivi des messages d’erreur et autres notifications qui s’affichent à l’utilisateur, tels que le message de consentement du cookie, et de divers messages d’erreur. Le message est supprimé du cookie une fois qu’il a été présenté au nouvel acheteur. Il n’existe pas d’option pour désactiver ce cookie. Il s’agit de la manière dont les informations ponctuelles sont communiquées à l’utilisateur, telles que les messages d’erreur.
 
 #### `product_data_storage` (stockage local)
 
-Stocke la configuration des données de produit liées aux produits récemment consultés/comparés.
-
-- Est-il sécurisé ? Non
-- HTTP uniquement : Non
-- Stratégie d’expiration : selon les règles de stockage local
-- Module : `Magento_Catalog`
+Stocke la configuration des données de produit utilisées pour utiliser les fonctions &quot;Récemment consultées&quot; et &quot;Comparer les produits&quot;. Stocke les paramètres spécifiques d’un utilisateur (par exemple, s’il a récemment consulté un produit ou comparé des produits).
 
 #### `recently_compared_product` (stockage local)
 
 Stocke les ID de produit des produits récemment comparés.
 
-- Est-il sécurisé ? Non
-- HTTP uniquement : Non
-- Stratégie d’expiration : selon les règles de stockage local
-- Module : `Magento_Catalog`
-
 #### `recently_compared_product_previous` (stockage local)
 
 Stocke les ID de produit des produits précédemment comparés pour une navigation facile.
-
-- Est-il sécurisé ? Non
-- HTTP uniquement : Non
-- Stratégie d’expiration : selon les règles de stockage local
-- Module : `Magento_Catalog`
 
 #### `recently_viewed_product` (stockage local)
 
 Stocke les ID de produit des produits récemment consultés pour une navigation facile.
 
-- Est-il sécurisé ? Non
-- HTTP uniquement : Non
-- Stratégie d’expiration : selon les règles de stockage local
-- Module : `Magento_Catalog`
-
 #### `recently_viewed_product_previous` (stockage local)
 
 Stocke les ID de produit des produits récemment consultés pour une navigation facile.
 
-- Est-il sécurisé ? Non
-- HTTP uniquement : Non
-- Stratégie d’expiration : selon les règles de stockage local
-- Module : `Magento_Catalog`
-
 #### `remove_from_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Utilisé par [Google Tag Manager](../merchandising-promotions/google-tag-manager.md). Capture le SKU, le nom, le prix et la quantité du produit ajoutés au panier et met les informations à disposition pour une intégration ultérieure par des scripts tiers.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Permet aux Google Analytics de savoir quand un produit a été supprimé d’un panier.
 
 #### `stf`
 
-Enregistre l’heure à laquelle les messages sont envoyés par le module SendFriend ([Envoyer un courrier électronique à un ami](../stores-purchase/email-a-friend.md)).
-
-- Est-il sécurisé ? Oui
-- HTTP uniquement : Oui
-- Stratégie d’expiration : session
-- Module : `Magento_SendFriend`
+Enregistre l’heure à laquelle les messages sont envoyés par le module SendFriend ([Envoyer un courrier électronique à un ami](../stores-purchase/email-a-friend.md)). Lorsqu’un acheteur envoie un lien vers un produit, ce cookie enregistre un horodatage et conserve un nombre.
 
 #### `X-Magento-Vary`
 
-Paramètre de configuration qui améliore les performances lors de l’utilisation de la mise en cache de contenu statique vernis.
-
-- Est-il sécurisé ? Oui
-- HTTP uniquement : Oui
-- Stratégie d’expiration : basée sur le paramètre PHP session.cookie_lifetime
-- Module : `Magento_PageCache`
+Indique à quel moment une nouvelle version d’une page doit être diffusée à partir du cache. Prend en charge les performances du site web.
 
 #### `form_key`
 
-Mesure de sécurité qui ajoute une chaîne aléatoire à tous les envois de formulaire pour protéger les données de la falsification de requête intersite (CSRF, Cross Site Request Forgery).
-
-- Est-il sécurisé ? Non
-- HTTP uniquement : Non
-- Stratégie d’expiration :
-   - PHP : basé sur le paramètre PHP session.cookie_lifetime
-   - JS : session
-- Module : cache de page
+Mécanisme de sécurité qui contient une valeur générée de manière aléatoire pour empêcher les attaques CSRF (Cross Site Request Forgery) en permettant de déterminer si une requête provient d’une source réelle ou d’un acteur incorrect. Il s’agit d’une pratique standard du secteur pour empêcher les attaques CSRF.
 
 #### `mage-cache-sessid`
 
-La valeur de ce cookie déclenche le nettoyage de l’espace de stockage du cache local. Lorsque le cookie est supprimé par l’application principale, l’administrateur nettoie le stockage local et définit la valeur du cookie sur `true`.
-
-- Est-il sécurisé ? Non
-- HTTP uniquement : Non
-- Stratégie d’expiration : session
-- Module : `Magento_Customer`
+Utile pour déterminer quand nettoyer le stockage local dans le navigateur après l’expiration de la session. Il est utilisé pour déterminer si le stockage local doit être nettoyé. L’absence de ce cookie déclenche le nettoyage du stockage local.
 
 #### `mage-cache-storage`
 
-Stockage local de contenu spécifique au visiteur qui active les fonctions de commerce électronique.
+Stockage local de contenu spécifique au visiteur qui active les fonctions de commerce électronique. Non utilisé par défaut, mais lorsqu’il est utilisé, il est utilisé pour accélérer le passage en caisse afin que les informations utilisateur de base soient disponibles lorsque quelqu’un quitte et revient.
 
-- Est-il sécurisé ? Non
-- HTTP uniquement : Non
-- Stratégie d’expiration : session
-- Module : `Magento_Customer`, `Magento_Persistent`
+#### `mage-cache-storage-section-invalidation`
 
-#### `mage-cache-storage` (stockage local)
-
-Stockage local de contenu spécifique au visiteur qui active les fonctions de commerce électronique.
-
-- Est-il sécurisé ? Non
-- HTTP uniquement : Non
-- Stratégie d’expiration : session
-- Module : `Magento_Customer`, `Magento_Persistent`, `Magento_NegotiableQuote`
-
-#### `mage-cache-storage-section-invalidation` (stockage local)
-
-Force le stockage local de sections de contenu spécifiques qui doivent être invalidées.
-
-- Est-il sécurisé ? Non
-- HTTP uniquement : Non
-- Stratégie d’expiration : par stockage local
-- Module : `Magento_Customer`
+Stocke des informations relatives aux sections de la page qui doivent être invalidées et supprimées.
 
 #### `persistent_shopping_cart`
 
-Stocke la clé (ID) du panier persistant afin de permettre de restaurer le panier d’un acheteur anonyme.
-
-- Est-il sécurisé ? Oui
-- HTTP uniquement : Oui
-- Stratégie d’expiration : basée sur la configuration [Panier persistant](../stores-purchase/cart-persistent.md) - Durée de vie de persistance (secondes)
-- Module : `Magento_Persistent`
+Stocke l’identifiant clé d’un panier persistant afin de permettre de restaurer le panier d’un acheteur anonyme.
 
 #### `private_content_version`
 
-Ajoute un nombre et une heure aléatoires uniques aux pages avec le contenu client afin de les empêcher d’être mises en cache sur le serveur.
-
-Il est défini à plusieurs endroits : en PHP, dans JavaScript comme cookie et dans JavaScript comme stockage local.
-
-Pour HTTP uniquement=`Yes` (selon la demande), cela signifie que le cookie est sécurisé s’il est défini pendant la demande HTTPS et non sécurisé s’il est défini lors de la demande HTTP.
-
-- Est-il sécurisé ? `Yes` (sur la base de la demande), `No`
-- HTTP uniquement : `No`
-- Stratégie d’expiration : basée sur la configuration [Panier persistant](../stores-purchase/cart-persistent.md) - Durée de vie de persistance (secondes)
-   - PHP : `1` an / `315360000s` (dix ans)
-   - JS : `1` jour
-   - Stockage local JS : par règles de stockage local (pour toujours)
-- Module : `Magento_PageCache`, `Magento_Customer`
+Ajoute un nombre et une heure aléatoires uniques aux pages avec le contenu client afin de les empêcher d’être mises en cache sur le serveur. Il est défini à plusieurs endroits : en PHP, dans JavaScript comme cookie et dans JavaScript comme stockage local.
 
 #### `section_data_ids`
 
 Stocke des informations spécifiques aux clients liées aux actions initiées par les acheteurs, telles que l’affichage des listes de souhaits et les informations de passage en caisse.
 
-- Est-il sécurisé ? `No`
-- HTTP uniquement : `No`
-- Stratégie d’expiration : `Session`
-- Module : `Magento_Customer`
-
 #### `store`
 
-Effectue le suivi de la vue de magasin/des paramètres régionaux spécifiques sélectionnés par l’acheteur.
+Effectue le suivi de la vue/des paramètres régionaux de magasin spécifiques sélectionnés par l’acheteur.
 
-- Est-il sécurisé ? `No`
-- HTTP uniquement : `Yes`
-- Stratégie d’expiration : `1` an
-- Module : `Magento_Store`
+#### `mage-banners-cache-storage`
 
-#### `mage-banners-cache-storage` - stockage local
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Stockage local pour la fonctionnalité de bannière. La bannière désigne les ressources générales du site web, toutes les informations affichées pour un acheteur.
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Stockage local pour la fonctionnalité de bannière.
+#### `PHPSESSID`
 
-- Est-il sécurisé ? `No`
-- HTTP uniquement : `No`
-- Stratégie d’expiration : selon les règles de stockage local
-- Module : `Magento_Banner`
+Effectue le suivi des sessions utilisateurs sur le storefront. Voici les acheteurs qui utilisent les produits finaux.
 
-## Cookies Google Analytics
+#### `admin`
 
-Les cookies suivants sont utilisés lorsque [Google Analytics](../merchandising-promotions/google-analytics.md) ou Google Universal Analytics est entièrement activé pour votre installation. Pour désactiver ces cookies en vue de la conformité à la réglementation sur la confidentialité, voir [Paramètres de confidentialité de Google](../merchandising-promotions/google-tools.md#google-privacy-settings). Pour en savoir plus, voir [Utilisation des cookies de Google Analytics sur les sites web][1].
+Effectue le suivi des sessions utilisateur côté administrateur.
 
-### Cookies Google Universal Analytics - non exemptés
+#### `loggedOutReasonCode`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Bibliothèques JavaScript : `gtag.js` et `analytics.js`
+Défini lorsqu’un utilisateur administrateur est verrouillé après un certain nombre de tentatives de mot de passe infructueuses.
 
-- `_ga` : différencie les visiteurs de votre site.
-- `_gid` : différencie les visiteurs de votre site.
-- `gat` : utilisé pour ralentir le taux de requête.
-- `dc_gtm_<property-id>` : limite le taux de demande lorsque les Google Analytics sont déployés avec [Google Tag Manager](../merchandising-promotions/google-tag-manager.md).
-- `AMP_TOKEN` : contient un jeton qui peut être utilisé pour récupérer un ID client du service d’ID client AMP. D’autres valeurs possibles sont notamment l’exclusion, la demande d’entrée ou une erreur lors de la récupération d’un ID client à partir du service AMP Client ID.
-- `_gac_<property-id>` : contient des informations relatives aux campagnes pour l’utilisateur. Les balises de conversion Google AdWords lisent ce cookie si Google Analytics est lié à votre compte [AdWords][2].
+#### `section_data_clean`
 
-### Cookies Google Analytics - non exemptés
+Défini lorsqu’un utilisateur change de vue de magasin. La présence de ce cookie entraîne JavaScript à recharger certaines sections de la page afin de refléter la vue de magasin correcte.
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Bibliothèque JavaScript : `ga.js`
+#### `lang`
 
-- `__utma` : Distingue les acheteurs et les sessions. Ce cookie est créé lorsque la bibliothèque JavaScript s’exécute et qu’il n’existe aucun cookie `__utma`. Le cookie est mis à jour chaque fois que des données sont envoyées aux Google Analytics.
-- `__utmt` : utilisé pour ralentir le taux de requête.
-- `__utmb` : détermine les nouvelles sessions/visites. Ce cookie est créé lorsque la bibliothèque JavaScript s’exécute et qu’il n’existe aucun cookie `__utmb`. Le cookie est mis à jour chaque fois que des données sont envoyées aux Google Analytics.
-- `_utmz` : enregistre la source de trafic ou la campagne qui explique comment l’acheteur a atteint votre site. Le cookie est créé lors de l’exécution de la bibliothèque JavaScript et est mis à jour chaque fois que des données sont envoyées aux Google Analytics.
-- `__utmv` : stocke les données de variable personnalisée au niveau du visiteur. Ce cookie est créé lorsqu’un développeur utilise la méthode `_setCustomVar` avec une variable personnalisée de niveau visiteur. Ce cookie est mis à jour chaque fois que des données sont envoyées aux Google Analytics.
+Défini indirectement par le module Admin Analytics. Utilisé uniquement dans une zone administrative d’un magasin. Non applicable aux acheteurs.
+
+#### `s_fid`
+
+Défini indirectement par le module Admin Analytics. Horodatage de l’ID de visiteur unique de secours. Elle permet d’identifier un visiteur unique si le cookie standard `s_vi` n’est pas disponible en raison de restrictions des cookies tiers. Utilisé uniquement dans une zone administrative d’un magasin. Non applicable aux acheteurs.
+
+#### `s_cc`
+
+Défini indirectement par le module Admin Analytics. Il est défini et lu par le code JavaScript pour déterminer si les cookies sont activés. Utilisé uniquement dans une zone administrative d’un magasin. Non applicable aux acheteurs.
+
+#### `apt.sid`
+
+Défini par la bibliothèque Gainsight PX indirectement utilisé par le module Admin Analytics. Ce cookie a pour objectif d’autoriser le suivi des ID de session persistante sous le domaine de niveau supérieur du produit et est utilisé comme ID de référence pour la session active. Utilisé uniquement dans une zone administrative d’un magasin. Non applicable aux acheteurs.
+
+#### `apt.uid`
+
+Défini par la bibliothèque Gainsight PX indirectement utilisé par le module Admin Analytics. Ce cookie a pour objectif d’autoriser le suivi des identifiants persistants sous le domaine de niveau supérieur du produit et est utilisé comme ID de référence pour l’entité utilisateur. Utilisé uniquement dans une zone administrative d’un magasin. Non applicable aux acheteurs.
+
+#### `s_sq`
+
+Défini indirectement par le module Admin Analytics. Utilisé par la fonction ClickMap qui collecte des données sur l’endroit où les visiteurs cliquent et sur ce qu’ils cliquent. Stocke les informations de chaque clic. Utilisé uniquement dans une zone administrative d’un magasin. Non applicable aux acheteurs.
+
+#### `pagebuilder_modal_dismissed`
+
+Défini par le module Page Builder. Contient un indicateur qui empêche les invites suivantes demandant à un administrateur de confirmer l’ouverture d’une action spécifique si l’administrateur les avait explicitement ignorées auparavant. Utilisé uniquement dans une zone administrative d’un magasin. Non applicable aux acheteurs.
+
+#### `pagebuilder_template_apply_confirm`
+
+Défini par le module Page Builder. Contient un indicateur qui empêche les invites suivantes demandant à un administrateur de confirmer l’ouverture d’une action spécifique si l’administrateur les avait explicitement ignorées auparavant. Utilisé uniquement dans une zone administrative d’un magasin. Non applicable aux acheteurs.
+
+#### `accordion-{VARIABLE}-{VARIABLE}`
+
+Utilisation dans le cadre de l’implémentation des fonctionnalités d’onglets uniquement dans une zone administrative d’un magasin. Non applicable aux acheteurs.
 
 ## Cookies Recommendations de produit
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Les cookies suivants sont utilisés par Product Recommendations pour les clients Adobe Commerce. Ces cookies sont installés avec le [module DataServices](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Les cookies suivants sont utilisés par Product Recommendations pour les clients Adobe Commerce. Ces cookies sont installés avec le [module DataServices](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt` : vous permet de [restreindre la collecte de données Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie.html) si vous disposez d’un code personnalisé pour gérer le consentement aux cookies sur votre site.
+- `mg_dnt` : vous permet de [restreindre la collecte de données Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie) si vous disposez d’un code personnalisé pour gérer le consentement aux cookies sur votre site.
 - `user_allowed_save_cookie` : utilisé pour le [mode restriction de cookie](#cookie-restriction-mode).
 - `authentication_flag` : indique si un acheteur s’est connecté ou s’est déconnecté. Ce cookie est mis à jour en même temps que le cookie `dataservices_customer_id`.
 - `dataservices_customer_id` : indique si un acheteur s’est connecté ou s’est déconnecté. Ce cookie contient l’identifiant unique du client dans le système.
@@ -339,9 +224,9 @@ Les cookies suivants sont utilisés lorsque [Google Analytics](../merchandising-
 
 ## Cookies supplémentaires
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Les cookies suivants sont définis pour les clients Adobe Commerce. Ces cookies sont installés avec le [module DataServices](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Les cookies suivants sont définis pour les clients Adobe Commerce. Ces cookies sont installés avec le [module DataServices](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure).
 
-- `mg` : défini par le dispositif de suivi JavaScript Snowplow. Vous trouverez plus d’informations dans la [documentation Snowplow](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/javascript-tracker/javascript-tracker-v3/tracker-setup/initialization-options).
+- `mg` : défini par le dispositif de suivi JavaScript Snowplow. Vous trouverez plus d’informations dans la [documentation Snowplow](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/web-tracker/tracker-setup/initialization-options).
 - `com.adobe.alloy.getTld` : étant donné le nom d’hôte de la page web actuelle, il s’agit du domaine le plus élevé qui ne correspond pas à un &quot;suffixe public&quot; comme indiqué dans https://publicsuffix.org. Il s’agit essentiellement du domaine le plus élevé qui peut accepter les cookies. Ce cookie fait partie du [Alloy Web SDK](https://github.com/adobe/alloy).
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
