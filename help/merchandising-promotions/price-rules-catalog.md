@@ -3,9 +3,9 @@ title: Règles de prix du catalogue
 description: Découvrez les règles de prix de catalogue qui peuvent être utilisées pour offrir des produits à des acheteurs à un prix réduit en fonction d’un ensemble de conditions définies.
 exl-id: 8da95076-d724-41f6-b3ca-e61ff1906b72
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -48,12 +48,3 @@ Par exemple, vous pouvez définir et définir les conditions d’une règle de p
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Utilisez cette option pour filtrer la liste selon l’état de la règle (`Active` ou `Inactive`). |
 
 {style="table-layout:auto"}
-
-## Ressources de dépannage
-
-Pour obtenir de l’aide sur la résolution des problèmes liés aux règles de prix du catalogue, reportez-vous aux articles suivants de la base de connaissances de support Commerce :
-
-- [404 Erreur au niveau du magasin une fois que la mise à jour des plannings de règles de prix du catalogue est effectuée](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/404-error-on-store-front-once-catalog-price-rule-schedules-update-is-performed.html)
-- [ Amélioration des performances de la page de produits avec les produits associés et les règles cibles](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-31791-magento-patch-improvement-for-product-page-with-related-products-and-target-rules.html)
-- [Les règles de prix du catalogue ne fonctionnent pas](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-24201-magento-patch-catalog-price-rules-don-t-work.html)
-- [Calculs de prix GraphQL](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-33975-magento-patch-graphql-price-calculations.html)

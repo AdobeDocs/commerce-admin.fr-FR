@@ -3,7 +3,7 @@ title: Création d’une commande
 description: Découvrez comment créer une commande pour un client dans l’administrateur Commerce.
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Vous pouvez transférer des articles vers le panier à partir de la liste de sou
 
 >[!NOTE]
 >
->Pour plus d’informations sur les méthodes de paiement permettant de prendre en charge cette fonctionnalité lorsque l’extension de services de paiement est installée et configurée, consultez le [Guide des services de paiement](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html) .
+>Pour plus d’informations sur les méthodes de paiement permettant de prendre en charge cette fonctionnalité lorsque l’extension de services de paiement est installée et configurée, consultez le [Guide des services de paiement](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) .
 
 ## Etape 3 : Envoyer la commande
 

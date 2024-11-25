@@ -3,9 +3,9 @@ title: Commandes
 description: Découvrez l’espace de travail Commandes et les fonctionnalités de recherche utilisées pour localiser les commandes dans l’administrateur.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -188,7 +188,4 @@ La zone de recherche située en haut à gauche de la grille Commandes permet de 
 Pour obtenir de l’aide sur la résolution des problèmes de commande, reportez-vous aux articles suivants de la base de connaissances de prise en charge de Commerce :
 
 - [Erreur d’affichage des commandes](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
-- [Erreur 10415 des commandes en double PayPal](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.html)
-- [De nouvelles commandes sont envoyées vers l’archive](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.html)
 - [Commandes non affichées dans la grille Commandes dans l’Admin](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)
-- [ État de la commande : envoi incorrect créé via l’API REST](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-7/mdva-30972-magento-patch-order-status-incorrect-shipment-created-via-rest-api.html)

@@ -3,7 +3,8 @@ title: Services SaaS Commerce
 description: Découvrez les services SaaS Commerce disponibles pour étendre les fonctionnalités de storefront Commerce
 seo-title: Commerce Services
 seo-description: Get an overview of available services that help Adobe Commerce merchants extend storefront capabilities to support key components of their business.
-source-git-commit: ab886855f087186bb1598ab4a780f49c15757c16
+exl-id: 2e673eb2-a90b-491a-b320-e9bd089d19f2
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Adobe fournit une collection de services Commerce, de services d’intégration 
 
 ![Recherche](../landing/assets/icon-magnify.svg){width="40"}**[Recherche en direct](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)**: implémentez un outil de recherche optimisé par l’IA qui fournit des résultats plus intelligents, plus rapides et plus pertinents pour les acheteurs B2C.
 
-![ThumbsUp](../landing/assets/icon-thumbs-up.svg){width="40"}**[Product Recommendations](https://experienceleague.adobe.com/en/en/docs/commerce-merchant-services/product-recommendations/overview)**—Ajoutez des recommandations alimentées par l’IA basées sur le comportement des acheteurs, les tendances populaires, la similarité de produit, etc.
+![ThumbsUp](../landing/assets/icon-thumbs-up.svg){width="40"}**[Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview)**—Ajoutez des recommandations alimentées par l’IA basées sur le comportement des acheteurs, les tendances populaires, la similarité de produit, etc.
 
 ![Données de catalogue pour les services connectés](../landing/assets/icon-data-book.svg){width="40"}**[Service de catalogue](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/overview)**: offrez à vos clients une expérience de produit optimisée tout en améliorant les performances, l’évolutivité et les conversions.
 

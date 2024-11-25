@@ -3,9 +3,9 @@ title: Directives fiscales par pays
 description: Examinez les paramètres fiscaux recommandés en fonction du pays.
 exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ Ces paramètres recommandés peuvent être utilisés pour la plupart des configu
 
 >[!IMPORTANT]
 >
->Les commerçants qui se trouvent dans une province de la TPS/TSP (Montréal) devraient créer une règle fiscale et afficher un montant d&#39;impôt combiné. Assurez-vous de consulter une autorité fiscale qualifiée si vous avez des questions. Pour plus d’informations sur les exigences fiscales de provinces particulières, voir les sections suivantes : [Revenu Québec][1], [Gouvernement de la Saskatchewan][2] et [Informations sur les fournisseurs du Manitoba][3]
+>Les commerçants qui se trouvent dans une province de la TPS/TSP (Montréal) devraient créer une règle fiscale et afficher un montant d&#39;impôt combiné. Assurez-vous de consulter une autorité fiscale qualifiée si vous avez des questions.
 
 | Option Taxe | Recommandation |
 |--- |--- |
@@ -411,14 +411,10 @@ Définissez les paramètres de taxe généraux suivants :
 
       - Pays par défaut
       - État par défaut
-      - Code Post par défaut
+      - Code de publication par défaut
 
      Ce paramètre garantit que la taxe est calculée correctement lorsque les prix des produits incluent la taxe.
 
      ![Calcul de destination de taxe par défaut](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
-
-[1]: https://www.revenuquebec.ca/en/businesses/
-[2]: https://www.saskatchewan.ca/finance
-[3]: https://www.gov.mb.ca/finance/taxation/bulletins/004.pdf

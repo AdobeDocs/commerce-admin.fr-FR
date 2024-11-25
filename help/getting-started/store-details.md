@@ -3,9 +3,9 @@ title: Détails de la boutique
 description: Découvrez comment mettre à jour les informations de base de votre boutique.
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1780'
 ht-degree: 0%
 
 ---
@@ -170,7 +170,6 @@ Vous pouvez également configurer la livraison vers des pays spécifiques pour c
 Pour obtenir de l’aide sur la résolution des problèmes de configuration des pays, reportez-vous aux [!DNL Commerce] articles suivants de la base de connaissances d’assistance :
 
 - [Comment ajouter un pays](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
-- [Le countryId fourni n&#39;existe pas](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-15/mdva-33393-magento-patch-provided-countryid-does-not-exist.html)
 
 ## [!UICONTROL Merchant Location]
 

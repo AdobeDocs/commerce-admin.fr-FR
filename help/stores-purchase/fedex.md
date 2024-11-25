@@ -3,9 +3,9 @@ title: FedEx
 description: Découvrez comment configurer FedEx en tant qu’opérateur de transport pour votre magasin.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ FedEx est l&#39;une des plus grandes entreprises de services de transport mariti
 
 ## Étape 1 : inscription à la production des services web FedEx
 
-Un [compte marchand FedEx][1] et un enregistrement pour l’accès à la production des services web FedEx est requis. Après avoir créé un compte FedEx, consultez la page d’informations du compte de production, puis cliquez sur le lien _Obtenir la clé de production_ au bas de la page pour vous enregistrer et obtenir une clé.
+Un compte marchand FedEx et un enregistrement pour l’accès en production des services web FedEx sont requis. Après avoir créé un compte FedEx, consultez la page d’informations du compte de production, puis cliquez sur le lien _Obtenir la clé de production_ au bas de la page pour vous enregistrer et obtenir une clé.
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ Un [compte marchand FedEx][1] et un enregistrement pour l’accès à la product
    - Options intérieures - Express Saver, Ground, First, Overnight, Home Delivery, Standard Overnight
    - Options internationales : économie internationale, transport de l&#39;économie internationale, première internationale, sol international, international, priorité internationale
    - Options de priorité - Fret, priorité nocturne
-   - Post dynamique : si vous proposez la méthode Post dynamique (saisissez l’ **ID Hub**)
+   - Publication dynamique - Si vous proposez la méthode de publication dynamique (saisissez l’ **identifiant Hub**)
    - Options de transport - Freight, National Freight
 
 1. Si vous souhaitez fournir une option de [livraison gratuite](shipping-free.md) via FedEx, définissez les options de livraison gratuite.
@@ -159,5 +159,3 @@ Un [compte marchand FedEx][1] et un enregistrement pour l’accès à la product
 >[!NOTE]
 >
 >Commerce déclare toujours le prix complet de la commande à FedEx lors du calcul des frais de livraison. Ce comportement ne peut pas être modifié.
-
-[1]: https://www.fedex.com/login/web/jsp/contactInfo1.jsp

@@ -3,9 +3,9 @@ title: Programmes de récompense et de fidélité
 description: Découvrez le système de points de récompense que vous pouvez utiliser pour stimuler l’engagement des clients et promouvoir la fidélité de vos clients.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: 3376b6f4fd558f7dd10133beeabf87e7228776a1
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1389'
 ht-degree: 0%
 
 ---
@@ -187,5 +187,4 @@ Toutes les actions liées aux points de récompense sont affichées dans le bloc
 
 Pour obtenir de l’aide sur la résolution des problèmes liés aux points de récompense, reportez-vous aux articles suivants de la base de connaissances de support Commerce :
 
-- [Points de fidélité sur les commandes partielles](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31295-magento-patch-loyalty-points-on-partial-orders.html)
 - [Erreur 404 - suppression des points de récompense lors du passage en caisse multi-livraison](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html)
