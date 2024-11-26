@@ -3,39 +3,33 @@ title: Activation de la synchronisation des ressources
 description: Découvrez comment connecter vos projets Adobe Commerce et Experience Manager Assets pour activer la synchronisation des ressources entre ces deux systèmes.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 508e9e1d23a4b6e70ada22e2a22c0dcd401393a9
+source-git-commit: e069f0a99ed9289b22cafe06fe2f787912cbba23
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
 # Activation de la synchronisation des ressources
 
->[!BEGINSHADEBOX]
+Au cours du processus d’activation, vous enregistrez l’identifiant du client pour le projet à l’aide de l’identifiant de programme et d’environnement pour votre environnement de création AEM. Ces identifiants identifient le projet AEM Assets auquel vous vous connectez et fournissent les informations d’identification pour permettre la communication entre les environnements Commerce et AEM Assets.
 
-**Conditions préalables**
+Après avoir identifié le projet AEM ressources, vous sélectionnez la règle correspondante pour synchroniser les ressources entre Adobe Commerce et AEM Assets.
+
+- **[!UICONTROL Match by product SKU]** : règle par défaut qui correspond au SKU des métadonnées de la ressource avec le [SKU du produit Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-playbook/glossary#sku) pour s’assurer que les ressources sont associées aux produits appropriés.
+
+- **[!UICONTROL Custom match]** : règle correspondante pour les scénarios plus complexes ou les besoins spécifiques de l’entreprise qui nécessitent une logique de correspondance personnalisée. La mise en oeuvre de la correspondance personnalisée nécessite le développement de code personnalisé dans Adobe Developer App Builder pour définir la manière dont les ressources sont mises en correspondance avec les produits. Plus de détails bientôt...
+
+Pour l’intégration initiale, utilisez la règle par défaut *Correspondance par SKU* du produit.
+
+## Conditions préalables
 
 - [Configuration d’AEM Experience Manager Assets pour gérer les ressources Commerce](#aem-assets-configure-aem)
 - [Installez et configurez l’intégration AEM Assets pour Commerce](#aem-assets-configure-commerce.md) pour ajouter l’extension et générer les informations d’identification et les connexions requises pour utiliser l’extension.
 
->[!ENDSHADEBOX]
+## Configuration de la connexion
 
-Au cours de ce processus d’activation, vous enregistrez votre ID de client en fournissant l’ID de programme et d’environnement pour votre environnement de création AEM. Ces identifiants identifient le projet AEM Assets auquel vous vous connectez et fournissent les informations d’identification pour activer la communication et les workflows entre Commerce et AEM Assets.
-
-Après avoir identifié le projet AEM ressources, vous sélectionnez la règle correspondante à utiliser pour synchroniser les ressources entre Adobe Commerce et AEM Assets.
-
-L’intégration AEM Assets pour Commerce prend en charge deux règles correspondantes pour synchroniser des ressources entre Adobe Commerce et AEM Assets.
-
-- **Correspondance par SKU du produit** : il s’agit de la règle de correspondance par défaut qui correspond aux ressources en fonction de l’unité de gestion des stocks (SKU) du produit. Le SKU est un identifiant unique pour chaque produit. Cette règle correspond au SKU des métadonnées de la ressource avec le SKU du produit Commerce pour s’assurer que les ressources sont associées aux produits appropriés.
-
-- **Correspondance personnalisée** : cette règle de correspondance est destinée à des scénarios plus complexes ou à des besoins spécifiques qui nécessitent une logique de correspondance personnalisée. Pour utiliser cette règle, un code personnalisé doit être implémenté dans Adobe Developer App Builder afin de définir la manière dont les ressources sont mises en correspondance avec les produits. Plus de détails bientôt...
-
-Pour l’intégration initiale, utilisez la règle `Match by product sku` par défaut. Si nécessaire, vous pouvez modifier la règle correspondante ultérieurement.
-
-## Activation de l’intégration
-
-1. Obtenez l’ID de projet et d’environnement pour votre [environnement de création AEM Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start).
+1. Obtenez l’ID de projet et d’environnement [Environnement de création AEM Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start).
 
    1. Ouvrez la console AEM Sites et sélectionnez **[!UICONTROL Assets]**.
 
@@ -43,19 +37,21 @@ Pour l’intégration initiale, utilisez la règle `Match by product sku` par d�
 
 1. Depuis l’administrateur Commerce, ouvrez la configuration Intégration AEM Assets .
 
-   1. Sélectionnez **[!UICONTROL Store]** > Configuration > **[!UICONTROL CATALOG]** > **[!UICONTROL Catalog]**.
-
-   1. Développez **[!UICONTROL Experience Manager Assets integration]**.
+   1. Accédez à **[!UICONTROL Store]** > Configuration > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**.
 
       ![L’intégration AEM Assets active l’intégration](assets/aem-assets-integration-enable-config.png){width="600" zoomable="yes"}
 
-1. Identifiez le projet Experience Manager Assets auquel se connecter en entrant les **[!UICONTROL Program ID]** et **[!UICONTROL Environment ID]**.
+1. Renseignez les environnements AEM Assets **[!UICONTROL Program ID]** et **[!UICONTROL Environment ID]**.
 
-1. Ajoutez les informations d’identification OAUTH pour authentifier les demandes d’API entre Adobe Commerce et le service ARES en sélectionnant **[[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment)**, par exemple `Assets integration`.
+1. Saisissez le **[!UICONTROL Asset Selector IMS Client ID].
 
-1. Autoriser Commerce à accepter les mises à jour entrantes d’AEM Assets en définissant **[!UICONTROL Enable integration]** sur `Yes`.
+   L’ [identifiant IMS](../getting-started/adobe-ims-config.md) vous permet d’intégrer AEM Assets au générateur de pages.
 
-   Après avoir activé l’intégration, vous pouvez configurer la règle de correspondance des ressources.
+1. Sélectionnez le [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment)** pour authentifier les demandes entre Commerce et le service de correspondance de ressources.
+
+1. Autoriser Commerce à accepter les mises à jour entrantes d’AEM Assets en définissant **[!UICONTROL Integration enabled]** sur `Yes`.
+
+   Après avoir activé l’intégration, configurez la règle de correspondance des ressources.
 
    ![AEM Assets Integration select asset match rule](assets/aem-assets-config-matching-rule.png){width="600" zoomable="yes"}
 
@@ -65,4 +61,6 @@ Pour l’intégration initiale, utilisez la règle `Match by product sku` par d�
 
    1. Ajoutez le [nom du champ de métadonnées AEM Assets](aem-assets-configure-aem.md#configure-metadata) défini pour les SKU de produit Commerce dans le champ **[!UICONTROL Match by product SKU attribute name]**, `commerce:skus` par exemple.
 
-1. Appliquez la configuration et lancez le processus de synchronisation en sélectionnant **[!UICONTROL Save Config]**.
+   ![AEM Assets Integration select asset match rule](assets/aem-assets-config-matching-rule.png){width="600" zoomable="yes"}
+
+1. Sélectionner **[!UICONTROL Save Config]** pour appliquer des mises à jour et lancer la synchronisation des ressources
