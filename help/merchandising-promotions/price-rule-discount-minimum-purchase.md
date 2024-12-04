@@ -1,20 +1,20 @@
 ---
-title: Exemple de règle de prix du panier - escompte avec achat minimum
-description: Examinez un exemple d’utilisation d’une règle de prix de panier pour offrir une remise avec un achat minimal.
+title: Exemple de règle de prix du panier - remise avec prix minimum du produit
+description: Examinez un exemple d’utilisation d’une règle de prix de panier pour offrir une remise avec un prix de produit minimum.
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 6bc76c76bc7a17e115696911cc2499075d35c541
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 # Exemple de règle de prix du panier - escompte avec achat minimum
 
-Les règles de prix du panier peuvent être utilisées pour offrir une remise en pourcentage basée sur un achat minimal. Dans l’exemple suivant, une remise de 25 % est appliquée à tous les achats de plus de 200,00 $ dans une catégorie spécifique. Le format de la remise est le suivant :
+Les règles de prix du panier peuvent être utilisées pour offrir une remise en pourcentage basée sur un prix de produit minimum dans le panier. Dans l’exemple suivant, une remise de 10 % est appliquée à tous les produits du panier entier lorsqu’au moins un produit dont le prix est supérieur à 30,00 $ d’une catégorie spécifiée est ajouté au panier. Le format de la remise est le suivant :
 
-X % de toutes les Y (catégorie) supérieures à Z dollars
+X % de remise totale lorsqu’au moins un produit est de catégorie Y et que son prix est supérieur à Z dollars.
 
 ## Étape 1. Créer une règle de panier
 
