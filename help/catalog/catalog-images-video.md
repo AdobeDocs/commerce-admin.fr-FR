@@ -3,9 +3,9 @@ title: Images et vidéos de catalogue
 description: Découvrez comment utiliser les médias numériques pour améliorer vos pages de produits de catalogue et fournir des visuels à vos clients.
 exl-id: 963693d3-669b-42b3-9ac7-cdaed8bb614f
 feature: Catalog Management, Media
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,5 @@ Il existe de nombreuses zones légères tierces et de curseurs que vous pouvez u
 Pour obtenir de l’aide sur le dépannage des problèmes d’image et de vidéo, reportez-vous aux articles suivants de la base de connaissances de prise en charge de Commerce :
 
 - [Après l’installation, les images et les feuilles de style ne se chargent pas ; seul le texte s’affiche, aucun graphique ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html)
-mdva-31969-magento-patch-import-products-.csv-images-duplicated.html)
 - [ Les images de produit ne s’affichent pas en dépit des rôles d’image de modification de produit ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
 - [Stocker les images non affichées après le déploiement](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)
