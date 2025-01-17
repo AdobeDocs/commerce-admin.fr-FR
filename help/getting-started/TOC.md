@@ -1,13 +1,13 @@
 ---
 user-guide-title: Guide de prise en main d’Adobe Commerce
-user-guide-description: Si vous découvrez Adobe Commerce ou Magento Open Source, découvrez les ressources de l’écosystème  [!DNL Commerce] , suivez le parcours client pour explorer votre boutique et découvrez les principales fonctionnalités.
+user-guide-description: Si vous découvrez Adobe Commerce ou Magento Open Source, les ressources de l’écosystème, suivez le parcours du client pour explorer votre boutique et en savoir  [!DNL Commerce]  sur les principales fonctionnalités.
 breadcrumb-title: Prise en main
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 0c634e3c87dc2dca76cc915bc56356f0d825cfa8
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
@@ -16,37 +16,39 @@ ht-degree: 1%
 # Guide de prise en main d’Adobe Commerce {#start}
 
 + [Guide de prise en main d’Adobe Commerce](guide-overview.md)
-+ [Présentation d’Adobe Commerce](about.md)
++ [Qu’est-ce qu’Adobe Commerce ?](about.md)
 + [Identifiants de connexion et URL](login-urls.md)
-+ Comptes Commerce {#commerce-account}
-   + [Créer et accéder à votre compte](commerce-account-create.md)
-   + [Sécurisation de votre compte](commerce-account-secure.md)
-   + [Partage de votre compte](commerce-account-share.md)
++ {#commerce-account} des comptes Commerce
+   + [Créer votre compte et y accéder](commerce-account-create.md)
+   + [Sécuriser votre compte](commerce-account-secure.md)
+   + [Partager votre compte](commerce-account-share.md)
    + [Transfert d’un compte](commerce-account-transfer.md)
-+ Conformité au site {#compliance}
-   + [Préparation du HIPAA sur Adobe Commerce](hipaa-ready-service.md)
-   + Confidentialité {#privacy}
-      + [Politique de confidentialité du magasin](privacy-policy.md)
++ {#compliance} de conformité du site
+   + Préparation du HIPAA pour Adobe Commerce{#hipaa-ready-service}
+      + [Vue d’ensemble](hipaa/overview.md)
+      + [Orientations opérationnelles](hipaa/operations.md)
+   + {#privacy} de confidentialité
+      + [Politique de confidentialité de la boutique](privacy-policy.md)
       + [Conformité au CCPA](compliance-ccpa.md)
       + [Conformité au RGPD](compliance-gdpr.md)
       + [Conformité à la loi sur les cookies](compliance-cookie-law.md)
-   + Paiements {#payments}
+   + {#payments} des paiements
       + [Conformité PCI](compliance-pci.md)
-      + [Directive Services de paiement](compliance-payment-services-directive.md)
+      + [Directive sur les services de paiement](compliance-payment-services-directive.md)
    + [Accessibilité](navigation-accessibility.md)
-+ L&#39;administrateur {#admin}
++ Admin {#admin}
    + [Qu’est-ce que l’administrateur ?](admin.md)
-   + [Votre compte utilisateur administrateur](admin-signin.md)
-   + Intégration d’Adobe Identity Management Service (IMS) {#ims}
+   + [Votre compte utilisateur d’administrateur](admin-signin.md)
+   + {#ims} d’intégration du service Adobe Identity Management (IMS)
       + [Présentation de l’intégration IMS](adobe-ims-integration-overview.md)
-      + [Configuration de l’intégration administrateur avec IMS](adobe-ims-config.md)
-      + [Désactivation de l’intégration administrateur avec IMS](adobe-ims-disable.md)
-   + Intégration Adobe Experience Cloud {#unifiedexperience}
+      + [Configuration de l’intégration Admin avec IMS](adobe-ims-config.md)
+      + [Désactiver l’intégration administrateur avec IMS](adobe-ims-disable.md)
+   + {#unifiedexperience} d’intégration de Adobe Experience Cloud
       + [Vue d’ensemble](admin-unified-experience-integration-overview.md)
       + [Configuration de l’intégration](admin-unified-experience-integration-configure.md)
-      + [Gestion de l’intégration des Experience Cloud](admin-unified-experience-integration-manage.md)
+      + [Gestion de l’intégration de l’Experience Cloud](admin-unified-experience-integration-manage.md)
       + [Notes de mise à jour](admin-unified-experience-release-notes.md)
-   + Outils d’administration et espace de travail {#tools}
+   + Outils d’administration et {#tools} de l’espace de travail
       + [Workspace](admin-workspace.md)
       + [Barre latérale d’administration](admin-menu.md)
       + [Tableau de bord](admin-dashboard.md)
@@ -54,26 +56,26 @@ ht-degree: 1%
       + [Contrôles de grille](admin-grid-controls.md)
       + [Contrôle des actions](admin-actions-control.md)
 + Le storefront {#storefront}
-   + [Qu&#39;est-ce que la vitrine ?](storefront.md)
-   + [Amélioration des expériences de magasin](enhanced-experiences.md)
-+ Configuration et configuration de base {#setup}
-   + [Étendue du site, du magasin et de l’affichage](websites-stores-views.md)
+   + [Quelle est la devanture ?](storefront.md)
+   + [Expériences de magasin améliorées](enhanced-experiences.md)
++ Configuration de base et {#setup} de configuration
+   + [Site, magasin et portée d’affichage](websites-stores-views.md)
    + [Détails de la boutique](store-details.md)
-   + [Marque Storefront](storefront-branding.md)
-   + [Liste de contrôle de relance](prelaunch-checklist.md)
-+ Création de rapports standard {#reporting}
+   + [Image de marque de Storefront](storefront-branding.md)
+   + [Liste de contrôle de prélancement](prelaunch-checklist.md)
++ {#reporting} de création de rapports standard
    + [Menu Rapports](reports-menu.md)
    + [Rapports marketing](marketing-reports.md)
-   + [Révision des rapports](review-reports.md)
-   + [Rapports sur les ventes](sales-reports.md)
-   + [Rapports sur les clients](customer-reports.md)
+   + [Consulter les rapports](review-reports.md)
+   + [Rapports des ventes](sales-reports.md)
+   + [Rapports clients](customer-reports.md)
    + [Rapports sur les produits](product-reports.md)
-   + [Rapports sur les ventes privées](private-sales-reports.md)
+   + [Rapports de ventes privées](private-sales-reports.md)
    + [Outils Commerce Intelligence](business-intelligence.md)
-   + [Rapports New Relic](new-relic-reporting.md)
-+ Ressources {#resources}
-   + [Ecosystem](resources.md)
+   + [Création de rapports New Relic](new-relic-reporting.md)
++ {#resources} des ressources
+   + [Écosystème](resources.md)
    + [Extensions](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Retour aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Retour aux Guides des commerçants](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
