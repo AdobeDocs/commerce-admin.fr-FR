@@ -3,7 +3,7 @@ title: Installation et configuration de l’intégration Experience Manager Asse
 description: Découvrez comment installer et configurer le sur  [!DNL AEM Assets Integration for Adobe Commerce]  instance Adobe Commerce.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 521dd5c333e5753211127567532508156fbda5b4
+source-git-commit: a2b9fc6584b9d8a57f24d87a9b5ebcdc2f29cbae
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
@@ -28,8 +28,10 @@ L’intégration d’AEM Assets pour Commerce requiert le système et la configu
 
 **Exigences de configuration**
 
-- Approvisionnement de compte et autorisations
+- Approvisionnement de compte et autorisations :
+
    - [Administrateur de projet cloud Commerce ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) : installez les extensions requises et configurez le serveur d’applications Commerce à partir de l’Administration ou de la ligne de commande.
+
    - [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview)—Mise à jour de la configuration du magasin et gestion des comptes utilisateur Commerce
 
 >[!TIP]
