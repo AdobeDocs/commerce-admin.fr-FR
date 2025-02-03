@@ -3,9 +3,9 @@ title: Notes de mise à jour de [!DNL Adobe Commerce B2B]
 description: Consultez les notes de mise à jour pour plus d’informations sur les modifications apportées aux versions  [!DNL Adobe Commerce B2B] .
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 0b7200331b9b7aa59636a0ff6fd6b98194054a32
+source-git-commit: e872a121b624d718dd60c128177abb6640f85b58
 workflow-type: tm+mt
-source-wordcount: '7820'
+source-wordcount: '7879'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,7 @@ La version B2B v1.5.0 comprend de nouvelles fonctionnalités, des améliorations
 ![Nouveau](../assets/new.svg) <!--B2B-2747--> **Sélecteur de portée d&#39;entreprise** : permet aux utilisateurs d&#39;entreprise affectés à plusieurs entreprises de changer d&#39;entreprise sur le storefront. Lorsque l’étendue est changée, les données sont mises à jour pour afficher les informations en fonction du nouveau contexte de l’entreprise. Par exemple, si la nouvelle société utilise un catalogue partagé différent, l’utilisateur de la société voit les produits, les prix et d’autres informations en fonction du nouveau catalogue partagé. Le contenu relatif aux commandes, devis et modèles de devis est également mis à jour en fonction du contexte de la société sélectionnée.
 
 >[!NOTE]
->
->Si l’utilisateur société change de société avec des articles dans le panier, mettez à jour le panier pour refléter l’assortiment de produits, les remises tarifaires et promotionnelles en fonction du nouveau contexte de la société.
+>Le contenu du panier reflète les articles sélectionnés par le client actuel. Si le client possède un panier actif et sélectionne une autre société, il est invité à mettre à jour le panier pour refléter l’assortiment de produits, le prix et les remises promotionnelles en fonction du nouveau contexte de la société. Les produits qui ne sont pas disponibles dans le catalogue associé à la nouvelle entreprise sont supprimés du panier. Si le produit a un prix ou une disponibilité différents, le panier est mis à jour pour refléter les données disponibles dans le contexte de la société sélectionnée.<!--B2B-4222-->
 
 ![Correction d’un problème](../assets/fix.svg)<!--ACP2E-1933--> Les administrateurs de l’entreprise peuvent désormais ajouter des utilisateurs de l’entreprise depuis le storefront. Auparavant, Commerce consignait une erreur lorsqu’un utilisateur administrateur tentait d’ajouter un nouvel utilisateur : `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
