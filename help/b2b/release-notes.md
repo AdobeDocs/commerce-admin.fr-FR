@@ -3,9 +3,9 @@ title: Notes de mise à jour de [!DNL Adobe Commerce B2B]
 description: Consultez les notes de mise à jour pour plus d’informations sur les modifications apportées aux versions  [!DNL Adobe Commerce B2B] .
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: e872a121b624d718dd60c128177abb6640f85b58
+source-git-commit: 2d98c6c5de28ea2103e1299aea5cc886d866c6e0
 workflow-type: tm+mt
-source-wordcount: '7879'
+source-wordcount: '8177'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,34 @@ Ces notes de mise à jour pour l’extension B2B capturent les ajouts et correct
 >
 >Consultez [Disponibilité du produit](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) pour plus d’informations sur les versions de l’extension Commerce B2B prises en charge pour les versions d’Adobe Commerce disponibles.
 
+## B2B 1.5.1
+
+*1 février 2025*
+
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
+Compatible avec les versions Adobe Commerce 2.4.8-beta1 à 2.4.8-beta2, 2.4.7 à 2.4.7-p3, 2.4.6 à 2.4.9-p8
+
+La version B2B v1.5.1 comprend des améliorations de qualité et des correctifs de bugs.
+
+### Société
+
+![Correction d’un problème](../assets/fix.svg)<!-- B2B-4422 --> Si un client tente de changer de société sur la page Détails du devis, le système redirige désormais le client vers une page *Accès refusé* pour s’assurer qu’un devis créé pour une société ne peut pas être utilisé pour passer une commande avec les prix d’une autre société. Auparavant, un utilisateur pouvait créer un devis avec le prix d’une société, puis passer à une autre société pour passer une commande avec des prix différents.
+
+### Remises ligne
+
+![Correction du problème](../assets/fix.svg)<!-- B2B-2938 --> Amélioration de l’efficacité du système en remédiant à une dégradation des performances observée dans le scénario de recalcul du devis. Auparavant, deux nouvelles entités étaient ajoutées à chaque ligne de panier, ce qui entraînait une augmentation notable des demandes de base de données, ce qui ralentissait les performances.
+
+### Devis négociable
+
+![Correction d’un problème](../assets/fix.svg)<!-- B2B-3820 --> Le système conserve désormais la position des éléments de l’interface utilisateur lorsque la validation de JavaScript est appliquée aux champs de *[!UICONTROL min/max qty]* sur la page Modèle de devis du storefront de Luma. Auparavant, l’application de la validation JavaScript à ces champs entraînait le déplacement d’autres éléments de l’interface utilisateur de la page.
+
+### Panier
+
+![Correction d’un problème](../assets/fix.svg)<!-- B2B-4222 --> Ajout d’un nouveau système de gestion des paniers conçu pour rationaliser l’expérience d’achat des utilisateurs qui gèrent plusieurs comptes d’entreprise. Le nouveau système associe les paniers à des sociétés individuelles plutôt qu’au compte client afin de rationaliser l’expérience d’achat et d’améliorer le workflow en prenant en charge les fonctionnalités suivantes.
+
+- **Paniers spécifiques à l’entreprise :**—Les paniers sont désormais liés à des entreprises individuelles pour prendre en charge les prix et les options de produits spécifiques à l’entreprise.
+- **Commutation transparente** : les utilisateurs peuvent facilement basculer entre différents comptes d’entreprise sans affecter le contenu du panier de chaque entreprise.
+- **Intégrité contextuelle** : tous les détails du panier restent dans le contexte de l’entreprise correspondante, offrant ainsi une expérience d’achat cohérente et fiable.
 
 ## B2B 1.5.0
 
@@ -188,11 +216,11 @@ Cette version comprend de nouvelles fonctionnalités et améliorations pour les 
 
 ![Nouveau](../assets/new.svg) **Devis initié par le vendeur** : les vendeurs peuvent désormais initier un devis pour un acheteur directement à partir des grilles Devis et Client de l&#39;administrateur. Cette fonctionnalité simplifie le processus de devis et réduit la complexité pour les clients. Si un client n&#39;a pas lancé de commande, un vendeur peut rapidement créer un devis au nom du client et lancer le processus de négociation. Auparavant, les devis ne pouvaient être créés qu&#39;à partir du storefront par l&#39;acheteur ou par un vendeur connecté en tant que client.
 
-![Nouveau](../assets/new.svg) **Remises et négociation d&#39;article de ligne**—<!--B2B-2440--> Dans un devis, les acheteurs et les vendeurs B2B peuvent désormais négocier au niveau de l&#39;article de ligne, en appliquant des remises et en échangeant des notes jusqu&#39;à ce qu&#39;un accord soit conclu. La création et les mises à jour de notes sont incluses dans l&#39;historique des lignes et des devis pour suivre la communication. Auparavant, les acheteurs et les vendeurs pouvaient uniquement exchange des billets et appliquer des remises au niveau du devis.
+![Nouveau](../assets/new.svg) **Remises et négociation d&#39;article de ligne**—<!--B2B-2440--> Dans un devis, les acheteurs et les vendeurs B2B peuvent désormais négocier au niveau de l&#39;article de ligne, en appliquant des remises et en échangeant des notes jusqu&#39;à ce qu&#39;un accord soit conclu. La création et les mises à jour de notes sont incluses dans l&#39;historique des lignes et des devis pour suivre la communication. Auparavant, les acheteurs et les vendeurs ne pouvaient échanger que des billets et appliquer des remises au niveau du devis.
 
 ![Problème résolu](../assets/fix.svg) Adobe Commerce affiche désormais les informations correctes lors du paiement lorsque l&#39;option Commandes est activée et qu&#39;un devis virtuel créé avec l&#39;option de paiement PayPal a été sélectionné. Auparavant, les totaux s’affichaient en tant que zéro dans ces conditions.
 
-![Problème résolu ](../assets/fix.svg) les erreurs de validation <!--ACP2E-1504--> ne se produisent plus lorsque vous tentez de sauver une entreprise dont la limite de crédit dépasse 999. Auparavant, pour les limites de crédit de société supérieures à 999, Adobe Commerce insérait un séparateur à virgules, ce qui provoquait une erreur de validation qui empêchait l’enregistrement des mises à jour.
+![Problème résolu ](../assets/fix.svg) les erreurs de validation <!--ACP2E-1504--> ne se produisent plus lorsque vous tentez de sauver une entreprise dont la limite de crédit dépasse 999. Auparavant, pour les limites de crédit d’entreprise supérieures à 999, Adobe commerce insérait un séparateur à virgules, ce qui provoquait une erreur de validation qui empêchait l’enregistrement des mises à jour.
 
 ![Problème résolu](../assets/fix.svg) <!--ACP2E-1474--> L&#39;adresse d&#39;expédition sélectionnée reste inchangée lorsque vous passez une commande avec un devis négociable. Auparavant, lorsque vous passiez une commande, l’adresse de livraison sélectionnée était remplacée par l’adresse de livraison par défaut.
 
@@ -328,7 +356,7 @@ Publication de la version 1.3.5-p1 de ![New](../assets/new.svg) B2B pour assurer
 
 ![Correction d’un problème](../assets/fix.svg) <!--- MC-41985--> Le temps nécessaire à la mise à niveau d’Adobe Commerce 2.3.x vers Adobe Commerce 2.4.x dans les déploiements avec plus de 100 000 rôles d’entreprise a été considérablement réduit.
 
-![Problème résolu](../assets/fix.svg) <!--- MC-42153--> La demande de `V1/order/:orderId/invoice` du POST prend désormais en charge la création de factures partielles lorsque le mode de paiement **[!UICONTROL Payment on Account]** est activé. Auparavant, Adobe Commerce générait cette erreur : `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`. [GitHub-32428](https://github.com/magento/magento2/issues/32428)
+![Problème résolu](../assets/fix.svg) <!--- MC-42153--> La demande de `V1/order/:orderId/invoice` POST prend désormais en charge la création de factures partielles lorsque le mode de paiement **[!UICONTROL Payment on Account]** est activé. Auparavant, Adobe Commerce générait cette erreur : `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`. [GitHub-32428](https://github.com/magento/magento2/issues/32428)
 
 ![Problème résolu](../assets/fix.svg) <!--- MC-41975--> PayPal Payflow Pro fonctionne désormais comme prévu avec un devis négociable B2B lorsque le panier du client contient d&#39;autres produits. Adobe Commerce traite maintenant la commande avec succès et envoie un e-mail au client comme prévu. Auparavant, Adobe Commerce générait une erreur fatale et envoyait un e-mail de confirmation au client qui ne contenait aucune valeur.
 
@@ -438,7 +466,7 @@ Publication de la version 1.3.5-p1 de ![New](../assets/new.svg) B2B pour assurer
 
 ### Listes de demandes d&#39;approvisionnement
 
-![Correction d’un problème](../assets/fix.svg) <!--- MC-40426--> les commerçants peuvent désormais utiliser le point d’entrée de `rest/all/V1/requisition_lists` de POST pour créer une liste de demandes d’approvisionnement pour un client. Auparavant, Adobe Commerce générait cette erreur 400 lorsque vous tentiez de créer une liste de demandes d’approvisionnement : `Could not save Requisition List`.
+![Correction d’un problème](../assets/fix.svg) <!--- MC-40426--> Les commerçants peuvent désormais utiliser le point d’entrée de `rest/all/V1/requisition_lists` POST pour créer une liste de demandes d’approvisionnement pour un client. Auparavant, Adobe Commerce générait cette erreur 400 lorsque vous tentiez de créer une liste de demandes d’approvisionnement : `Could not save Requisition List`.
 
 ![Problème résolu](../assets/fix.svg) <!--- MC-41123--> Le bouton **[!UICONTROL Add to Requisition List]** s’affiche désormais pour les produits en stock d’un panier lorsque le panier contient également des produits en rupture de stock. Auparavant, si un panier contenait deux produits, dont l’un était en rupture de stock, le bouton _[!UICONTROL Add to Requisition List]_ne s’affichait pour aucun d’eux.
 
@@ -458,7 +486,7 @@ Publication de la version 1.3.5-p1 de ![New](../assets/new.svg) B2B pour assurer
 
 ![Problème résolu](../assets/fix.svg) <!--- MC-41337--> les résultats de navigation superposée incluent désormais un nombre précis de produits avec des attributs filtrés. Les acheteurs peuvent désormais appliquer plusieurs filtres. Auparavant, un seul filtre pouvait être appliqué et Adobe Commerce affichait un nombre de produits inexact dans une navigation superposée.
 
-![Problème résolu](../assets/fix.svg) <!--- MC-40779--> Adobe Commerce affiche désormais correctement le nombre de produits dans les filtres de navigation superposés dans les résultats de recherche. Auparavant, un module externe pour la page Résultats de la recherche n’utilisait pas l’Elasticsearch, mais envoyait une nouvelle requête à la base de données.
+![Problème résolu](../assets/fix.svg) <!--- MC-40779--> Adobe Commerce affiche désormais correctement le nombre de produits dans les filtres de navigation superposés dans les résultats de recherche. Auparavant, un module externe pour la page Résultats de la recherche n’utilisait pas Elasticsearch, mais envoyait une nouvelle requête à la base de données.
 
 ![Problème résolu](../assets/fix.svg) <!--- MC-39978--> Adobe Commerce ne supprime plus les prix de niveau lorsqu’un commerçant supprime tous les produits d’un catalogue partagé par défaut.
 
@@ -574,7 +602,7 @@ Cette version comprend des améliorations des approbations de commande, des mét
 
 ![Problème résolu](../assets/fix.svg) Adobe Commerce envoie désormais une notification par e-mail confirmant qu’un client est autorisé à dépasser la limite de crédit désignée lorsqu’un commerçant active le paramètre **[!UICONTROL Allow To Exceed Credit Limit]**. Auparavant, l’e-mail de notification envoyé par Adobe Commerce indiquait que le client n’était pas autorisé à dépasser la limite. <!--- MC-34584-->
 
-![Problème résolu](../assets/fix.svg) Le conteneur d&#39;HTML qui entoure le prix des produits sur les listes de demandes d&#39;approvisionnement est désormais correctement rendu pour les enfants des produits groupés. <!--- MC-36331-->
+![Problème résolu](../assets/fix.svg) Le conteneur HTML qui entoure le prix des produits sur les listes de demandes d&#39;approvisionnement est désormais correctement rendu pour les enfants des produits groupés. <!--- MC-36331-->
 
 ![Problème résolu](../assets/fix.svg) Les commerçants peuvent désormais désigner la langue dans laquelle l’e-mail de l’utilisateur de l’entreprise est envoyé lors de la création d’une entreprise dans des déploiements multilingues. Auparavant, le menu déroulant permettant aux commerçants de sélectionner la vue de magasin appropriée et la langue n’était pas affiché.  <!--- MC-35777-->
 
@@ -582,7 +610,7 @@ Cette version comprend des améliorations des approbations de commande, des mét
 
 ![Problème résolu](../assets/fix.svg) L’onglet Configuration des fonctionnalités B2B s’ouvre désormais correctement. <!--- MC-35458-->Les clients peuvent désormais utiliser QuickOrder pour ajouter des produits à leur panier, puis supprimer des articles. Auparavant, lorsqu’un acheteur utilisait QuickOrder pour ajouter plusieurs produits à son panier, puis supprimait un produit, le produit n’était pas supprimé. <!--- MC-35327-->
 
-![Correction d’un problème](../assets/fix.svg) Il est désormais possible de mettre à jour une société à l’aide de la requête de `/V1/company/:companyId` du PUT d’API REST sans spécifier l’`region_id` lorsque l’état est configuré comme **non requis**. Auparavant, même si `region_id` n’était pas obligatoire, Adobe Commerce générait une erreur si elle n’était pas spécifiée. <!--- MC-35304-->
+![Correction d’un problème](../assets/fix.svg) Il est désormais possible de mettre à jour une société à l’aide de la requête de `/V1/company/:companyId` PUT de l’API REST sans spécifier le `region_id` lorsque l’état est configuré comme **non requis**. Auparavant, même si `region_id` n’était pas obligatoire, Adobe Commerce générait une erreur si elle n’était pas spécifiée. <!--- MC-35304-->
 
 ![Correction d’un problème](../assets/fix.svg) lorsque vous créez ou mettez à jour une société B2B à l’aide de l’API REST (`http://magento.local/rest/V1/company/2`, où `2` représente l’ID de société), la réponse inclut désormais les paramètres de `applicable_payment_method` ou de `available_payment_methods` comme prévu. <!--- MC-35248-->
 
@@ -590,7 +618,7 @@ Cette version comprend des améliorations des approbations de commande, des mét
 
 ![Problème résolu](../assets/fix.svg) Les autorisations de catégorie ne changent plus lorsqu&#39;un nouveau produit est affecté à un catalogue public partagé. Auparavant, les autorisations de catégorie étaient dupliquées. <!--- MC-34386-->
 
-![Correction d’un problème](../assets/fix.svg) La `rest/default/V1/company/{id}` du PUT de point d’entrée de l’API REST, qui est utilisée pour mettre à jour l’adresse e-mail de l’entreprise, n’est plus sensible à la casse. <!--- MC-34308-->
+![Correction d’un problème](../assets/fix.svg) Le `rest/default/V1/company/{id}` PUT du point d’entrée de l’API REST, qui est utilisé pour mettre à jour l’adresse e-mail de l’entreprise, n’est plus sensible à la casse. <!--- MC-34308-->
 
 ![Problème résolu ](../assets/fix.svg) la désactivation des modules de récompense n’affecte plus les fonctionnalités B2B sur les comptes clients. Auparavant, lorsque les modules de récompense étaient désactivés, les onglets liés au B2B suivants n’étaient pas affichés : Profil de l’entreprise, Utilisateurs de l’entreprise et Rôles et autorisations.<!--- MC-34191-->
 
