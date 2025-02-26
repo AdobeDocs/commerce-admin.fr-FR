@@ -3,9 +3,9 @@ title: Référence des attributs de données de produit
 description: Utilisez cette référence d’attributs de données de produit lorsque vous utilisez des importations et des exportations de données de produit.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: c1f797da417bfdf24b537f8c59f954df58dac11a
+source-git-commit: 976efad9fb4bb53f6f102fde534001d254cd3b9c
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2496'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ L’installation utilisée pour exporter ces données dispose des données d’e
 |--- |--- |
 | `sku` | (Obligatoire) L&#39;unité de gestion des stocks est un identificateur alphanumérique unique utilisé pour effectuer le suivi des stocks. Un SKU peut comporter jusqu’à 64 caractères. Par exemple : `sku123`<br/>**_Remarque :_**un SKU de plus de 64 caractères entraîne l’échec de l’importation. |
 | `store_view_code` | Indique les vues de magasin spécifiques où le produit est disponible. Si ce champ est vide, le produit est disponible dans la vue de magasin par défaut. Par exemple : `storeview1`, `english`, `spanish` |
-| `attribute_set_code` | Attribue le produit à un jeu d’attributs ou à un modèle de produit spécifique, en fonction du type de produit. Une fois le produit créé, le jeu d’attributs ne peut pas être modifié. Par exemple : `default` |
+| `attribute_set_code` | Attribue le produit à un jeu d’attributs ou à un modèle de produit spécifique, en fonction du type de produit. Par exemple : `default`<br><br> Une fois le produit créé, le jeu d’attributs ne peut pas être modifié à l’aide de la fonctionnalité d’importation. Cependant, vous pouvez modifier le jeu d’attributs à partir de l’Administration et réexporter le produit pour mettre à jour le fichier CSV . |
 | `product_type` | Indique le type de produit. Valeurs : <br/>`simple` — Articles corporels qui sont généralement vendus en unités uniques ou en quantités fixes.<br/>`grouped` — Groupe de produits séparés vendus sous forme d&#39;ensemble.<br/>`configurable` : produit avec plusieurs options que le client doit sélectionner avant d&#39;effectuer un achat. L’inventaire peut être géré pour chaque ensemble de variations, car ils représentent un produit distinct avec un SKU distinct. Par exemple, une combinaison de couleur et de taille pour un produit configurable est associée à un SKU spécifique dans le catalogue.<br/>`virtual` — Produit non tangible qui ne nécessite pas d&#39;expédition et qui n&#39;est pas conservé en stock. Par exemple, les services, les abonnements et les abonnements.<br/>`bundle` — Ensemble personnalisable de produits simples qui sont vendus ensemble. |
 | `categories` | Indique chaque catégorie affectée au produit. Catégories et sous-catégories distinctes avec une barre oblique. Pour indiquer plusieurs chemins d’accès aux catégories, séparez chaque chemin par une barre verticale \| symbole. Par exemple : `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | Code de chaque site web sur lequel le produit est disponible. Un seul produit peut être attribué à plusieurs sites web ou limité à un seul. Si vous spécifiez plusieurs sites web, séparez-les par une virgule, sans espace. Par exemple : `base` ou `base,website2` |
