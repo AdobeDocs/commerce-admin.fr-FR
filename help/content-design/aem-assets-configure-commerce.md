@@ -3,9 +3,9 @@ title: Installation et configuration de l’intégration Experience Manager Asse
 description: Découvrez comment installer et configurer le sur  [!DNL AEM Assets Integration for Adobe Commerce]  instance Adobe Commerce.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: b6f95cd23bbeb5200f31a23d7ff9216b0c21a53c
+source-git-commit: bdfff57ed5bbf2ae460c382d9cfbaef0ebcaa2e8
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1410'
 ht-degree: 0%
 
 ---
@@ -36,20 +36,18 @@ L’intégration d’AEM Assets pour Commerce requiert le système et la configu
 >
 > Adobe Commerce peut être configuré pour utiliser [l’authentification Adobe IMS](/help/getting-started/adobe-ims-config.md).
 
-## Présentation de la configuration
+## Workflow de configuration
 
 Activez l’intégration en effectuant les tâches suivantes :
 
 1. [Installez l’extension AEM Assets Integration (`aem-assets-integration`)](#install-the-aem-assets-integration-extension).
 1. [Configurez le connecteur de services Commerce](#configure-the-commerce-services-connector) pour connecter votre instance Adobe Commerce et aux services qui permettent la transmission de données entre Adobe Commerce et AEM Assets.
-1. [Configuration d’événements d’Adobe I/O pour Commerce](#configure-adobe-io-events-for-commerce)
+1. [Configuration de Adobe I/O Events pour Commerce](#configure-adobe-io-events-for-commerce)
 1. [Obtention des informations d’authentification pour l’accès à l’API](#get-authentication-credentials-for-api-access)
 
-## Installation de l’extension d’intégration AEM Assets
+## Installation de l’extension `aem-assets-integration`
 
->[!BEGINSHADEBOX]
-
-**Prérequis**
+L’installation de l’extension nécessite les autorisations suivantes :
 
 - Accédez à [repo.magento.com](https://repo.magento.com/admin/dashboard) pour installer l’extension.
 
@@ -57,7 +55,7 @@ Activez l’intégration en effectuant les tâches suivantes :
 
 - Accès à la ligne de commande du serveur applicatif Adobe Commerce.
 
->[!ENDSHADEBOX]
+### Ajouter l’extension à votre environnement Commerce
 
 Installez la dernière version de l’extension d’intégration AEM Assets (`aem-assets-integration`) sur une instance Adobe Commerce avec la version Adobe Commerce 2.4.5+. L’intégration d’AEM Asset est fournie en tant que métapaquet de compositeur à partir du référentiel [repo.magento.com](https://repo.magento.com/admin/dashboard).
 
@@ -65,7 +63,7 @@ Installez la dernière version de l’extension d’intégration AEM Assets (`ae
 
 >[!TAB Infrastructure cloud]
 
-Utilisez cette méthode pour installer l’extension [!DNL AEM Assets Integration] pour une instance de Commerce Cloud.
+Utilisez cette méthode pour installer l’extension [!DNL AEM Assets Integration] pour une instance Commerce Cloud.
 
 1. Sur votre station de travail locale, accédez au répertoire du projet d’infrastructure cloud d’Adobe Commerce.
 
@@ -139,54 +137,51 @@ Utilisez cette méthode pour installer l’extension [!DNL AEM Assets Integratio
 
 ## Configuration du connecteur de services Commerce
 
-Le connecteur de services Commerce permet la synchronisation des données et la communication entre l’instance Commerce, le service de moteur de règles sur les ressources et d’autres services annexes.
-
 >[!NOTE]
 >
 >La configuration du connecteur de services Commerce est un processus unique requis pour utiliser les [services SaaS Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#availableservices). Si vous avez déjà configuré le connecteur pour un autre service, vous pouvez afficher la configuration existante à partir de l’Administration Commerce en sélectionnant **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**.
 
-Pour transmettre des données entre votre instance Adobe Commerce et les services qui activent l’intégration AEM Assets, configurez le connecteur de services Commerce avec les éléments suivants :
+Pour transmettre des données entre votre instance Adobe Commerce et les services qui activent l&#39;intégration AEM Assets, configurez le connecteur Commerce Services depuis l&#39;Admin (**[!UICONTROL System]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**).
 
-- Clés API de production et de sandbox pour l’authentification.
-- Configurez un espace de données (identifiant SaaS) pour un stockage cloud sécurisé.
-- Indiquez l’identifiant de l’organisation IMS où vos environnements Commerce et AEM Assets sont configurés.
+![Identifiants de projet SaaS et d’espace de données pour l’intégration d](assets/aem-saas-project-config.png){width="600" zoomable="yes"}AEM Assets
 
-Pour obtenir des instructions détaillées, voir [Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#organizationid).
+Fournissez les valeurs suivantes dans la configuration :
 
-Une fois que vous avez configuré le connecteur de services Commerce, le système génère les identifiants de projet SaaS et de base de données qui identifient l’environnement de stockage cloud sécurisé pour vos services Commerce et affichent les identifiants dans la configuration d’administration. Ces valeurs sont requises pour terminer le processus d’intégration pour la synchronisation des ressources.
+- Clés API de production et sandbox pour l’authentification
+- Nom de l’espace de données (identifiant SaaS) pour un stockage dans le cloud sécurisé
+- Identifiant de l’organisation IMS dans lequel vos environnements Commerce et AEM Assets sont configurés
 
-![Identifiants de projet SaaS et d’espace de données pour l’intégration d’AEM Assets](assets/aem-saas-project-config.png){width="600" zoomable="yes"}
+Pour obtenir des instructions détaillées, regardez la vidéo de configuration du connecteur de services Commerce [](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs) ou consultez la documentation du connecteur de services Commerce [](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#organizationid).
 
-## Configuration d’événements d’Adobe I/O pour Commerce
+Lorsque vous enregistrez la configuration, le système génère les identifiants de projet SaaS et de base de données pour votre environnement. Ces valeurs sont requises pour activer la synchronisation des ressources entre Adobe Commerce et AEM Assets.
 
-L’intégration AEM Assets utilise le service d’événements d’Adobe I/O pour envoyer des données d’événement personnalisées entre l’instance Commerce et l’Experience Cloud. Les données d’événement sont utilisées pour coordonner les workflows pour l’intégration d’AEM Assets.
+## Configuration de Adobe I/O Events pour Commerce
 
->[!BEGINSHADEBOX]
+L’intégration AEM Assets utilise le service Adobe I/O Events pour envoyer des données d’événement personnalisées entre l’instance Commerce et Experience Cloud. Les données d’événement sont utilisées pour coordonner les workflows pour l’intégration d’AEM Assets.
 
-**Prérequis**
+Avant de configurer des événements Adobe I/O, vérifiez la configuration des tâches RabbitMQ et cron pour votre projet Commerce :
 
-- Assurez-vous que RabbitMQ est activé et à l’écoute des événements.
+- Assurez-vous que RabbitMQ est activé et écoute les événements.
    - [Configuration de RabbitMQ pour Adobe Commerce on-premise](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
    - [Configuration de RabbitMQ pour Adobe Commerce sur l’infrastructure cloud](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
    - Vérifiez que les tâches [cron) sont activées](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). Des tâches cron sont nécessaires pour la communication et les workflows de l’intégration d’AEM Assets.
 
 >[!NOTE]
 >
-> Pour les projets sur Commerce version 2.4.5, vous devez [installer les modules d’Adobe I/O ](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce). Dans la version 2.4.6 ou ultérieure de Commerce, ces modules sont chargés automatiquement. Pour l’intégration d’AEM Assets pour Commerce, il vous suffit d’installer les modules . La configuration d’App Builder n’est pas requise.
+> Pour les projets sous Commerce version 2.4.5, vous devez [installer les modules Adobe I/O](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce). Dans la version 2.4.6 ou ultérieure de Commerce, ces modules sont chargés automatiquement. Pour l’intégration d’AEM Assets pour Commerce, il vous suffit d’installer les modules . La configuration d’App Builder n’est pas requise.
 
->[!ENDSHADEBOX]
 
 ### Activation de la structure d’événements Commerce
 
 Activez la structure d’événements à partir de l’administration Commerce.
 
-1. Depuis l’administration, accédez à **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **Événements d’Adobe I/O**.
+1. Depuis l’administration, accédez à **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **Adobe I/O Events**.
 
 1. Développez **[!UICONTROL Commerce events]**.
 
 1. Définissez **[!UICONTROL Enabled]** sur `Yes`.
 
-   ![Configuration de l’administration Commerce des événements d’Adobe I/O - Activation des événements Commerce](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
+   ![Configuration d’administration de Adobe I/O Events Commerce - Activation des événements Commerce](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
 
 1. Saisissez le nom de la société marchande dans les champs **[!UICONTROL Merchant ID]** et le nom de l’environnement dans **[!UICONTROL Environment ID]** . Utilisez uniquement des caractères alphanumériques et des traits de soulignement lors de la définition de ces valeurs.
 
@@ -246,7 +241,7 @@ Vous générez les informations d’identification en ajoutant l’intégration 
 
 1. Vérifiez votre identité en cliquant sur **Confirmer l’identité**.
 
-   Le système vérifie votre identité en s’authentifiant auprès de l’Experience Cloud avec votre ID d’Adobe.
+   Le système vérifie votre identité en s’authentifiant auprès d’Experience Cloud avec votre Adobe Id.
 
 1. Configurez les ressources d’API.
 
@@ -275,3 +270,7 @@ Sur la page Intégrations , générez les informations d’identification d’au
 >[!NOTE]
 >
 >Vous pouvez également générer des informations d’authentification à l’aide des API Adobe Commerce. Pour plus d’informations sur ce processus et l’authentification basée sur OAuth pour Adobe Commerce, consultez la section [Authentification basée sur OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) dans la documentation d’Adobe Developer.
+
+## Étape suivante
+
+[Activez la synchronisation des ressources pour transférer des ressources entre votre environnement de projet Adobe Commerce et l’environnement de projet AEM Assets](aem-assets-setup-synchronization.md)
