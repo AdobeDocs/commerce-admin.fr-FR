@@ -3,7 +3,7 @@ title: Préparation du HIPAA pour Adobe Commerce
 description: Découvrez comment ajouter l’extension Adobe Commerce HIPAA-Ready et obtenir des fonctionnalités supplémentaires qui vous permettent de respecter vos obligations HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: b380977e74c7f49c4d179e633242e3d7e6b1e1e7
+source-git-commit: 7e18b0b0ea308a6126b6cd35f943b133c75adff3
 workflow-type: tm+mt
 source-wordcount: '2300'
 ht-degree: 1%
@@ -15,13 +15,13 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >**Clause de non-responsabilité**<br/>
->Ces informations sont destinées à aider les clients Adobe à répondre à leurs questions concernant les services conformes à la norme HIPAA d’Adobe. Il ne s&#39;agit pas d&#39;un avis juridique. Les commerçants doivent consulter leur propre service juridique pour comprendre leurs obligations en vertu de la loi HIPAA et l&#39;utilisation et la configuration appropriées des produits d&#39;Adobe.
+>Ces informations sont destinées à aider les clients Adobe à répondre à leurs questions concernant les services conformes à la norme HIPAA d’Adobe. Il ne s&#39;agit pas d&#39;un avis juridique. Les commerçants doivent consulter leur propre service juridique pour connaître leurs obligations en vertu de la loi HIPAA ainsi que l’utilisation et la configuration appropriées des produits Adobe.
 
 >[!BEGINSHADEBOX]
 
 **Health Insurance Portability and Accountability Act (HIPAA) (loi sur la responsabilité et la portabilité de l’assurance maladie)**
 
-La Health Insurance Portability and Accountability Act (HIPAA) est la principale loi fédérale sur la confidentialité des soins de santé aux États-Unis et est appliquée par le Department of Health and Human Services (HHS) des États-Unis. La loi HIPAA s’applique aux _entités couvertes_ (telles que les prestataires de soins de santé, les assureurs et les chambres de compensation) et aux _entreprises associées_ (telles que les entités qui fournissent des services aux entités couvertes). Les exigences de la loi HIPAA sont définies selon trois règles distinctes : règle de confidentialité, règle de sécurité et règle de notification de violation. Adobe Adobe agit en tant qu’associé commercial pour certains produits, qu’il classe comme « services conformes à la norme HIPAA ». Les données réglementées par la loi HIPAA sont appelées _informations de santé protégées_ ou ISP. Les ISP sont un sous-ensemble d&#39;informations sur la santé qui (1) est créé ou reçu par un prestataire de soins de santé, un régime de soins de santé ou un centre d&#39;échange de soins de santé, (2) se rapporte à la santé ou à l&#39;état physique ou mental passé, présent ou futur d&#39;une personne, à la prestation de soins de santé à une personne, ou au paiement passé, présent ou futur de la prestation de soins de santé à une personne, et (3) identifie la personne ou à l&#39;égard duquel il existe une base raisonnable de croire que les informations peuvent être utilisées pour identifier la personne. Les règles de confidentialité et de sécurité de la loi HIPAA exigent qu&#39;une entité couverte obtienne des assurances écrites de la part d&#39;un associé commercial sous la forme d&#39;un accord d&#39;associé commercial, ou BAA, exigeant de l&#39;associé commercial qu&#39;il protège la confidentialité et la sécurité des ISP de l&#39;entité couverte. Pour plus d’informations, voir [HIPAA et produits et services Adobe ](https://www.adobe.com/trust/compliance/hipaa-ready.html) dans le Centre de gestion de la confidentialité d’Adobe.
+La Health Insurance Portability and Accountability Act (HIPAA) est la principale loi fédérale sur la confidentialité des soins de santé aux États-Unis et est appliquée par le Department of Health and Human Services (HHS) des États-Unis. La loi HIPAA s’applique aux _entités couvertes_ (telles que les prestataires de soins de santé, les assureurs et les chambres de compensation) et aux _entreprises associées_ (telles que les entités qui fournissent des services aux entités couvertes). Les exigences de la loi HIPAA sont définies selon trois règles distinctes : règle de confidentialité, règle de sécurité et règle de notification de violation. Adobe agit en tant qu’associé commercial pour certains produits, qu’Adobe classe comme « services conformes à la norme HIPAA ». Les données réglementées par la loi HIPAA sont appelées _informations de santé protégées_ ou ISP. Les ISP sont un sous-ensemble d&#39;informations sur la santé qui (1) est créé ou reçu par un prestataire de soins de santé, un régime de soins de santé ou un centre d&#39;échange de soins de santé, (2) se rapporte à la santé ou à l&#39;état physique ou mental passé, présent ou futur d&#39;une personne, à la prestation de soins de santé à une personne, ou au paiement passé, présent ou futur de la prestation de soins de santé à une personne, et (3) identifie la personne ou à l&#39;égard duquel il existe une base raisonnable de croire que les informations peuvent être utilisées pour identifier la personne. Les règles de confidentialité et de sécurité de la loi HIPAA exigent qu&#39;une entité couverte obtienne des assurances écrites de la part d&#39;un associé commercial sous la forme d&#39;un accord d&#39;associé commercial, ou BAA, exigeant de l&#39;associé commercial qu&#39;il protège la confidentialité et la sécurité des ISP de l&#39;entité couverte. Pour plus d’informations, voir [Produits et services HIPAA et Adobe](https://www.adobe.com/trust/compliance/hipaa-ready.html) dans le Centre de gestion de la confidentialité d’Adobe.
 
 >[!ENDSHADEBOX]
 
@@ -29,13 +29,13 @@ La Health Insurance Portability and Accountability Act (HIPAA) est la principale
 
 L’extension Adobe Commerce HIPAA-Ready ajoute des fonctionnalités supplémentaires aux installations d’Adobe Commerce qui permettent aux commerçants de respecter leurs obligations HIPAA respectives.
 
-L’extension Adobe Commerce HIPAA-Ready `magento/hipaa-ee` est disponible pour Adobe Commerce sur les projets d’infrastructure cloud ou Adobe Managed Services. Le processus d’installation conforme à la norme HIPAA d’Adobe Commerce désactive certains services et fonctionnalités natifs pour les mettre en conformité avec les exigences de la norme HIPAA. Voir [Services et fonctionnalités désactivés](#disabled-services-and-features).
+L’extension Adobe Commerce HIPAA-Ready `magento/hipaa-ee` est disponible pour Adobe Commerce sur les infrastructures cloud ou les projets Adobe Managed Services. Le processus d’installation conforme à la norme HIPAA d’Adobe Commerce désactive certains services et fonctionnalités natifs pour les mettre en conformité avec les exigences de la norme HIPAA. Voir [Services et fonctionnalités désactivés](#disabled-services-and-features).
 
 >[!NOTE]
 >
 >Seuls les commerçants qui ont acheté le module complémentaire de soins de santé pour Adobe Commerce ont accès aux fonctionnalités conformes à la loi HIPAA.
 
-*Ces documents sont fournis uniquement à titre d’information. La fourniture de ces informations ne confère au destinataire aucun droit contractuel ou autre. Bien que des efforts aient été faits pour assurer l&#39;exactitude des renseignements à la date où ils ont été fournis, aucune déclaration n&#39;est faite selon laquelle ces renseignements sont exacts et complets. L&#39;Adobe ne s&#39;engage pas à mettre à jour ces informations à mesure que la loi ou les produits de l&#39;Adobe changent. De plus, ce document ne doit pas être distribué à une autre partie que le destinataire prévu sans le consentement écrit de l&#39;Adobe.*
+*Ces documents sont fournis uniquement à titre d’information. La fourniture de ces informations ne confère au destinataire aucun droit contractuel ou autre. Bien que des efforts aient été faits pour assurer l&#39;exactitude des renseignements à la date où ils ont été fournis, aucune déclaration n&#39;est faite selon laquelle ces renseignements sont exacts et complets. Adobe n’engage aucune obligation de mettre à jour ces informations à mesure que la loi ou les produits Adobe évoluent. En outre, ce document ne doit être distribué à aucune autre partie que le destinataire prévu sans le consentement écrit d’Adobe.*
 
 ## Configuration requise
 
@@ -52,11 +52,11 @@ Adobe Commerce doit être déployé sur Adobe Commerce sur une infrastructure cl
 
 >[!ENDSHADEBOX]
 
-Installez la dernière version de l’extension HIPAA-Ready Services d’Adobe (`magento/hipaa-ee`) sur une instance qui exécute Adobe Commerce version 2.4.6-p3 - 2.4.6-p8. L’extension est fournie en tant que métapaquet de compositeur à partir du référentiel [repo.magento.com](https://repo.magento.com). Le métapaquet comprend l’ensemble des modules qui activent les fonctionnalités HIPAA pour une instance Adobe Commerce.
+Installez la dernière version de l’extension Adobe HIPAA-Ready Services (`magento/hipaa-ee`) sur une instance qui exécute Adobe Commerce version 2.4.6-p3 - 2.4.6-p8. L’extension est fournie en tant que métapaquet de compositeur à partir du référentiel [repo.magento.com](https://repo.magento.com). Le métapaquet comprend l’ensemble des modules qui activent les fonctionnalités HIPAA pour une instance Adobe Commerce.
 
 >[!NOTE]
 >
->Pour vous assurer que les données d’événement de back-office envoyées à l’Experience Platform sont conformes à la loi HIPAA, consultez le guide [Data Connection extension guide](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
+>Pour vous assurer que les données d’événement de back-office envoyées à Experience Platform sont conformes à la loi HIPAA, consultez le guide [Data Connection extension guide](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
 
 1. Sur votre station de travail locale, accédez au répertoire du projet d’infrastructure cloud d’Adobe Commerce.
 
@@ -159,7 +159,7 @@ Valeurs :
 3. Colonne ***Nom complet de l’action*** renommée ***Target***
    - ***Target*** : affiche le nom de l’action.
 Valeurs :
-      - un point d’entrée si Source est une API REST ou une API SOAP ;
+      - un point d’entrée si Source est une API REST ou une API SOAP
       - une requête ou un nom de mutation si une API GraphQL
       - Nom d’action d’une interface utilisateur d’administration ou d’une interface utilisateur client.
 
@@ -265,12 +265,12 @@ Le tableau suivant répertorie les services Adobe Commerce disponibles pour l’
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) | Oui | Oui |
 | [ Maillage API pour Adobe Developer App Builder ](https://developer.adobe.com/graphql-mesh-gateway/) | Oui | Oui |
 | [Exportation de données SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview) | Oui | Oui |
-| [Recherche en direct](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overviewhttps://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) | Non | Non |
-| [Recommendations du produit](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview) | Non | Non |
+| [Recherche en direct](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) | Non | Non |
+| [Recommandations de produits](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview) | Non | Non |
 | [ Services de paiement ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) | Non | Non |
 | [Événements Back Office De Connexion Aux Données](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice) | Oui | Oui |
 | [Événements de storefront de connexion de données](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#storefront-events) | Non | Non |
-| [Audience Activation ](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | Non | Non |
+| [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | Non | Non |
 
 ### Outils
 

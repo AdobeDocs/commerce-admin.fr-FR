@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Vérifiez les paramètres de configuration sur la page de [!UICONTROL General] d’[!UICONTROL General] &gt; de l’administrateur Commerce.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 54f6c7abf38e4368a843b7cf042ccd9af19239b2
+source-git-commit: 7e18b0b0ea308a6126b6cd35f943b133c75adff3
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 0%
@@ -117,6 +117,6 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Mode de
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Commerce Events Enabled] | Global | Cette configuration est désactivée par défaut si vous êtes un client du secteur de la santé et que vous avez installé l’extension [Data Services HIPAA](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/hipaa-readiness.html#installation). Par conséquent, les données d’événement de storefront utilisées par Live Search et Product Recommendations ne sont plus capturées. En effet, les données d’événement de storefront sont générées côté client. Pour continuer à capturer et à envoyer des données d’événement de storefront à utiliser par les services [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) et [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), définissez **Événements Commerce activés** sur `Yes`. |
+| [!UICONTROL Commerce Events Enabled] | Global | Cette configuration est désactivée par défaut si vous êtes un client du secteur de la santé et que vous avez installé l’extension [Data Services HIPAA](https://experienceleague.adobe.com/en/docs/commerce/data-connection/hipaa-readiness). Par conséquent, les données d’événement de storefront utilisées par Live Search et les recommandations de produits ne sont plus capturées. En effet, les données d’événement de storefront sont générées côté client. Pour continuer à capturer et à envoyer des données d’événement de storefront à utiliser par les services [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) et [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), définissez **Événements Commerce activés** sur `Yes`. |
 
 {style="table-layout:auto"}
