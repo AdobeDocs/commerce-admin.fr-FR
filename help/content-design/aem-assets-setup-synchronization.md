@@ -1,20 +1,20 @@
 ---
-title: Activer la synchronisation des ressources
+title: Configuration de l’intégration
 description: Découvrez comment connecter vos projets Adobe Commerce et Experience Manager Assets pour activer la synchronisation des ressources entre ces deux systèmes.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 36defb137a48067fe59b95f0519a7703a38e039d
+source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
 
-# Activer la synchronisation des ressources
+# Configuration de l’intégration
 
-Activez la synchronisation des ressources en mettant à jour la configuration de l’environnement Commerce pour connecter Commerce à l’instance AEM Assets. L’intégration permet la synchronisation des ressources entre Commerce et AEM Assets, en veillant à ce que les images du produit et les autres ressources soient toujours à jour.
+Configurez l’intégration en connectant Commerce à l’instance AEM Assets et en sélectionnant la stratégie correspondante pour la synchronisation des ressources.
 
-Après avoir identifié le projet de ressources AEM, sélectionnez la règle correspondante pour synchroniser les ressources entre Adobe Commerce et AEM Assets.
+Après avoir identifié le projet AEM Assets, sélectionnez la règle correspondante pour synchroniser les ressources entre Adobe Commerce et AEM Assets.
 
 - **[!UICONTROL Match by product SKU]** : règle par défaut qui associe le SKU dans les métadonnées de ressource au [SKU de produit Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#sku) pour s’assurer que les ressources sont associées aux produits appropriés.
 
@@ -24,11 +24,11 @@ Pour la configuration initiale, utilisez la règle par défaut *Correspondance p
 
 ## Conditions préalables
 
-- [Configuration d’AEM Assets pour gérer les ressources Commerce](aem-assets-configure-aem.md)
+- [Installation du package AEM Assets](aem-assets-configure-aem.md)
 
-- [Installez et configurez l’intégration AEM Assets pour Commerce](aem-assets-configure-commerce.md) pour ajouter l’extension et générer les informations d’identification et les connexions requises pour utiliser l’extension.
+- [Installez les packages Adobe Commerce](aem-assets-configure-commerce.md) pour ajouter l’extension et générer les informations d’identification et les connexions requises pour utiliser l’extension.
 
-- Créez un ticket d’assistance pour demander l’activation de l’intégration AEM Assets. Vous devez fournir les **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** et **[!UICONTROL IMS Org ID]** pour l’environnement de création AEM Assets auquel vous souhaitez vous connecter à Commerce.
+- Créez un ticket d’assistance pour demander l’activation de l’intégration AEM Assets for Commerce. Dans le ticket, incluez les **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** et **[!UICONTROL IMS Org ID]** de l’environnement de création AEM Assets auquel vous souhaitez vous connecter à Commerce.
 
   >[!TIP]
   >
@@ -69,7 +69,7 @@ Pour la configuration initiale, utilisez la règle par défaut *Correspondance p
 
 1. Sélectionnez **[!UICONTROL Save Config]** pour appliquer des mises à jour et lancer la synchronisation des ressources.
 
-   La mise à jour de la configuration déclenche le processus de synchronisation initial, ce qui permet à Commerce d’accepter les mises à jour entrantes en provenance d’AEM Assets. Le temps nécessaire à la synchronisation dépend du volume de ressources et de configurations spécifiques. L’intégration tire parti de processus automatisés afin de réduire le temps nécessaire à la synchronisation.
+   La mise à jour de la configuration déclenche le processus de synchronisation initial, ce qui permet à Commerce d’accepter les mises à jour entrantes provenant d’AEM Assets. Le temps nécessaire à la synchronisation dépend du volume de ressources et de configurations spécifiques. L’intégration tire parti de processus automatisés afin de réduire le temps nécessaire à la synchronisation.
 
 ## Étape suivante
 

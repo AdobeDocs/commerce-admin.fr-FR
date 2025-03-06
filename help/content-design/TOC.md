@@ -3,9 +3,9 @@ user-guide-title: Guide de conception et de contenu
 user-guide-description: Informations complètes sur les fonctionnalités de contenu et de conception pour les administrateurs Adobe Commerce et Magento Open Source et les spécialistes du marketing eCommerce.
 breadcrumb-title: Contenu et conception
 feature: CMS, Page Content
-source-git-commit: 499354ba72da9170ff43ddf762785efcec8a7f64
+source-git-commit: 98c40c779e1fe705cf1bd47331537bc7b7235921
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '249'
 ht-degree: 4%
 
 ---
@@ -76,10 +76,10 @@ ht-degree: 4%
    - [Présentation de l’intégration](aem-assets-integration.md)
    - [Notes de mise à jour](aem-assets-release-notes.md)
    - Prise en main {#getting-started}
-      - [Configuration d’AEM Assets](aem-assets-getting-started.md)
-      - [Configuration d’AEM Assets](aem-assets-configure-aem.md)
-      - [Configuration d’Adobe Commerce](aem-assets-configure-commerce.md)
-      - [Activer la synchronisation des ressources](aem-assets-setup-synchronization.md)
+      - [Configuration des environnements](aem-assets-getting-started.md)
+      - [Installation du package AEM Assets](aem-assets-configure-aem.md)
+      - [Installation des packages Adobe Commerce](aem-assets-configure-commerce.md)
+      - [Configuration de l’intégration](aem-assets-setup-synchronization.md)
       - [Affichage et gestion des journaux](aem-assets-log-files.md)
    - Gestion des ressources {#manage}
       - [Utilisation d’AEM Assets avec Commerce](aem-assets-manage.md)
