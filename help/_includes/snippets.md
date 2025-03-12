@@ -1,9 +1,9 @@
 ---
 title: Fragments de code
 description: Notes et éléments visuels réutilisés pour noter une fonctionnalité ou une page s’appliquant à une édition spécifique
-source-git-commit: 192d46c4d7105210d4fdcf090f60d45a5a6e40bd
+source-git-commit: eae60b99d6721442c4bfcf1a8db6a06826463d9c
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -75,10 +75,10 @@ Pour accéder aux paramètres de configuration du magasin, sélectionnez **[!UIC
 
 | Ressource de documentation | Description |
 |----------------------- | ----------- |
-| [Documentation pour les commerçants Adobe Commerce 2.4](../landing/home.md) | Documentation axée sur les commerçants pour Adobe Commerce |
-| [Documentation Services pour Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentation destinée à soutenir un ensemble de services qui aident les commerçants à intégrer les composants clés de leur entreprise à leur magasin. |
+| [Guides de l’utilisateur des administrateurs d’Adobe Commerce 2.4](../landing/home.md) | Documentation et ressources pour les commerçants travaillant dans l’administration. |
+| [Documentation Services pour Adobe Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html) | Documentation pour prendre en charge un ensemble de services de marchandisage qui aident les commerçants à intégrer les composants clés de leur entreprise à leur magasin. |
 | [Guide de Commerce sur les infrastructures cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Cette section contient des procédures détaillées pour déployer Adobe Commerce sur une plateforme cloud d’hébergement automatisée et gérée. |
-| [Guides opérationnels d’Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Documentation sur les systèmes relative aux concepts, processus, outils et bonnes pratiques pour développer, déployer et gérer des projets Adobe Commerce. |
-| [Documentation destinée aux développeurs d’Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs) | Documentation destinée aux développeurs utilisée pour personnaliser Adobe Commerce et l’intégrer à des systèmes tiers |
+| [Guides opérationnels d’Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Documentation sur les systèmes relative aux concepts, processus, outils et bonnes pratiques pour développer, déployer et gérer Adobe Commerce sur les projets Cloud et On-Premise. |
+| [Documentation destinée aux développeurs d’Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs) | Documentation destinée aux développeurs utilisée pour personnaliser Adobe Commerce et l’intégrer à des systèmes tiers. |
 
 {style="table-layout:auto"}

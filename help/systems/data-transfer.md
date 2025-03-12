@@ -3,7 +3,7 @@ title: Transfert de données
 description: Découvrez la prise en charge du transfert de données, y compris la validation des données.
 exl-id: 5057e398-c458-42e9-8ec0-bf116a667a3c
 feature: System, Data Import/Export
-source-git-commit: b89d6b08d0559dc769a8c51570696f033f23c7f3
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
@@ -14,34 +14,34 @@ ht-degree: 0%
 
 Utilisez les outils d&#39;import et d&#39;export pour gérer plusieurs enregistrements en une seule opération. Vous pouvez importer de nouveaux éléments ainsi que mettre à jour, remplacer et supprimer des ensembles de produits existants.
 
-Par exemple, vous pouvez ajouter de nouveaux produits à votre inventaire, mettre à jour les données de produit et les données de prix avancées, et remplacer un ensemble de produits existants par de nouveaux produits. Les outils d’importation et d’exportation permettent de gérer plus efficacement les catalogues de produits volumineux, car vous pouvez exporter les données, les modifier dans une feuille de calcul et les réimporter dans votre boutique au lieu d’effectuer plusieurs opérations dans l’administrateur.
+Par exemple, vous pouvez ajouter de nouveaux produits à votre inventaire, mettre à jour les données sur les produits et les prix avancés, et remplacer un ensemble de produits existants par de nouveaux produits. Les outils d’importation et d’exportation permettent de gérer plus efficacement les catalogues de produits volumineux, car vous pouvez exporter les données, les modifier dans une feuille de calcul et les importer dans votre magasin au lieu d’effectuer plusieurs opérations dans l’administration.
 
 
 >[!NOTE]
 >
->Adobe Commerce prend également en charge l’exportation des données SaaS pour transférer les données de produit du serveur Commerce vers les services SaaS. L’exportation des données SaaS est intégrée aux services SaaS Commerce, y compris [Recommendations de produit](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Recherche en direct](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) et [Service de catalogue](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). Pour plus d’informations, consultez le [Guide d’exportation des données SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe Commerce prend également en charge l’exportation des données SaaS pour transférer les données de produit du serveur Commerce vers les services SaaS. L’exportation des données SaaS est intégrée aux services SaaS Commerce, notamment aux [Product Recommendations](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) et [Catalog Service](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview). Pour plus d&#39;informations, consultez le [Guide d&#39;exportation de données SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview).
 
 ## Validation des données
 
-Toutes les données doivent être validées pour garantir la qualité, la précision et l’intégrité des valeurs avant de les importer dans le magasin. La validation commence lorsque vous cliquez sur **[!UICONTROL Check Data]**. Pendant le processus, toutes les entités du fichier d&#39;import sont vérifiées pour les éléments suivants :
+Toutes les données doivent passer la validation pour garantir la qualité, la précision et l’intégrité des valeurs avant de les importer dans le magasin. La validation commence lorsque vous cliquez sur **[!UICONTROL Check Data]**. Au cours du processus, toutes les entités du fichier d’importation sont vérifiées pour les éléments suivants :
 
-- **Attributes** - Les noms d’en-tête de colonne sont vérifiés pour s’assurer qu’ils correspondent aux attributs correspondants dans la base de données système. La valeur de chaque attribut est vérifiée afin de s’assurer qu’il répond aux exigences du type de données (décimal, entier, varchar, texte et date-heure).
-- **Données complexes** - Les valeurs qui proviennent d’un ensemble défini, comme une liste déroulante ou plusieurs types d’entrée de sélection, sont vérifiées pour s’assurer que les valeurs existent dans l’ensemble défini.
-- **Service Data** - Les valeurs des colonnes de données de service sont vérifiées pour s’assurer que les propriétés ou les valeurs de données complexes sont cohérentes avec ce qui est déjà défini dans la base de données système.
-- **Valeurs requises** - Pour les nouvelles entités, la présence des valeurs d’attribut requises dans le fichier est vérifiée. Pour les entités existantes, il n’est pas nécessaire de vérifier à nouveau l’existence des valeurs d’attribut requises.
-- **Séparateurs** - Bien que les séparateurs ne soient pas visibles lorsqu’ils sont affichés dans une feuille de calcul, les valeurs de données d’un fichier CSV sont séparées par des virgules et les valeurs de texte sont entourées de guillemets doubles. Pendant le processus de validation, la mise en forme des séparateurs et de chaque ensemble de guillemets encadrant des chaînes de caractères est vérifiée.
+- **Attributs** - Les noms des en-têtes de colonne sont vérifiés afin de s’assurer qu’ils correspondent aux attributs correspondants dans la base de données système. La valeur de chaque attribut est vérifiée pour s’assurer qu’elle répond aux exigences du type de données (décimal, entier, varchar, texte et datetime).
+- **Données complexes** - Les valeurs qui proviennent d’un ensemble défini, comme une liste déroulante ou un type d’entrée à sélection multiple, sont vérifiées pour s’assurer que les valeurs existent dans l’ensemble défini.
+- **Données de service** - Les valeurs des colonnes de données de service sont vérifiées afin de s’assurer que les propriétés ou les valeurs de données complexes sont cohérentes avec ce qui est déjà défini dans la base de données système.
+- **Valeurs requises** - Pour les nouvelles entités, la présence de valeurs d’attribut requises dans le fichier est vérifiée. Pour les entités existantes, il n’est pas nécessaire de vérifier à nouveau l’existence des valeurs d’attribut requises.
+- **Séparateurs** - Bien que les séparateurs ne soient pas visibles dans une feuille de calcul, les valeurs de données d’un fichier CSV sont séparées par des virgules et les valeurs de texte sont placées entre guillemets doubles. Pendant le processus de validation, la mise en forme des séparateurs et de chaque ensemble de guillemets qui encadrent les chaînes de caractères est vérifiée.
 
-Les résultats de la validation apparaissent dans la section Résultats de la validation et incluent les informations suivantes :
+Les résultats de la validation s’affichent dans la section Résultats de la validation et incluent les informations suivantes :
 
-- Le nombre d&#39;entités vérifiées
+- Le nombre d’entités vérifiées
 - Nombre de lignes non valides
-- Le nombre d’erreurs trouvées
+- Nombre d’erreurs détectées
 
-Si les données sont valides, un message _Import Success_ s’affiche.
+Si les données sont valides, un message _Succès de l’importation_ s’affiche.
 
-![Message système - fichier valide](./assets/data-import-validation-message.png){width="500" zoomable="yes"}
+![Message système - Le fichier est valide](./assets/data-import-validation-message.png){width="500" zoomable="yes"}
 
-Si la validation échoue, lisez la description de chaque erreur et corrigez le problème dans le fichier CSV. Par exemple, si une ligne contient un SKU non valide, le processus d’importation s’arrête et cette ligne n’est pas importée, toutes les lignes suivantes. Après avoir correctement résolu le problème, réimportez les données. Si de nombreuses erreurs sont rencontrées, plusieurs tentatives de validation peuvent être nécessaires.
+Si la validation échoue, lisez la description de chaque erreur et corrigez le problème dans le fichier CSV. Par exemple, si une ligne contient un SKU non valide, le processus d’importation s’arrête et cette ligne ainsi que toutes les lignes suivantes ne sont pas importées. Après avoir correctement résolu le problème, importez à nouveau les données. Si de nombreuses erreurs se produisent, plusieurs tentatives de validation peuvent être nécessaires.
 
 ### Messages de validation des données
 

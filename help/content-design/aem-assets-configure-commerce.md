@@ -3,7 +3,7 @@ title: Installation des packages Adobe Commerce
 description: Découvrez comment installer l’extension  [!DNL AEM Assets Integration for Adobe Commerce]  et sur une instance Adobe Commerce.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 0%
@@ -135,7 +135,7 @@ Utilisez cette méthode pour installer l’extension [!DNL AEM Assets Integratio
 
 >[!NOTE]
 >
->La configuration du connecteur de services Commerce est un processus unique requis pour utiliser les [services SaaS Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#availableservices). Si vous avez déjà configuré le connecteur pour un autre service, vous pouvez afficher la configuration existante à partir de l’Administration Commerce en sélectionnant **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**.
+>La configuration du connecteur de services Commerce est un processus unique requis pour utiliser les [services SaaS Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#availableservices). Si vous avez déjà configuré le connecteur pour un autre service, vous pouvez afficher la configuration existante à partir de l’Administration Commerce en sélectionnant **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**.
 
 Pour transmettre des données entre votre instance Adobe Commerce et les services qui activent l&#39;intégration AEM Assets, configurez le connecteur Commerce Services depuis l&#39;Admin (**[!UICONTROL System]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**).
 
@@ -147,7 +147,7 @@ Fournissez les valeurs suivantes dans la configuration :
 - Nom de l’espace de données (identifiant SaaS) pour un stockage dans le cloud sécurisé
 - Identifiant de l’organisation IMS dans lequel vos environnements Commerce et AEM Assets sont configurés
 
-Pour obtenir des instructions détaillées, regardez la vidéo de configuration du connecteur de services Commerce [](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs) ou consultez la documentation du connecteur de services Commerce [](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#organizationid).
+Pour obtenir des instructions détaillées, regardez la vidéo de configuration du connecteur de services Commerce [](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs) ou consultez la documentation du connecteur de services Commerce [](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#organizationid).
 
 Lorsque vous enregistrez la configuration, le système génère les identifiants de projet SaaS et de base de données pour votre environnement. Ces valeurs sont requises pour activer la synchronisation des ressources entre Adobe Commerce et AEM Assets.
 

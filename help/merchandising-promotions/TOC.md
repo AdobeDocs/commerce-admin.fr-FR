@@ -1,49 +1,49 @@
 ---
-user-guide-title: Guide de marchandisage et de promotions Adobe Commerce
-user-guide-description: Adobe Commerce et Magento Open Source comprennent de nombreux outils que vous pouvez utiliser pour stimuler les ventes, créer des opportunités d’engagement client et configurer des promotions ciblées.
+user-guide-title: Guide de merchandising et de promotion Adobe Commerce
+user-guide-description: Adobe Commerce et Magento Open Source incluent de nombreux outils que vous pouvez utiliser pour stimuler les ventes, créer des opportunités d’engagement client et configurer des promotions ciblées.
 breadcrumb-title: Marchandisage et promotions
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '268'
 ht-degree: 1%
 
 ---
 
 
-# Guide de marchandisage et de promotions Adobe Commerce {#marketing}
+# Guide de merchandising et de promotion Adobe Commerce {#marketing}
 
 - [Présentation du guide](guide-overview.md)
-- [Présentation du marchandisage et des promotions](introduction.md)
-- [Menu Marketing](marketing-menu.md)
-- Marchandisage {#merchandising}
-   - Marchandisage visuel {#visual-merch}
-      - [Présentation du marchandisage visuel](visual-merchandiser.md)
+- [Présentation du merchandising et des promotions](introduction.md)
+- [Menu marketing](marketing-menu.md)
+- {#merchandising} de marchandisage
+   - {#visual-merch} du marchandiseur visuel
+      - [Présentation visuelle du marchandiseur](visual-merchandiser.md)
       - [Règles de catégorie pour le marchandisage](category-product-rules.md)
       - [Configuration des attributs intelligents](smart-attributes-configure.md)
-   - Enregistrements de cadeaux {#gift-registry}
+   - {#gift-registry} des registres de cadeaux
       - [Présentation du registre des cadeaux](gift-registries.md)
-      - [Configuration des registres de cadeaux](gift-registry-configure.md)
+      - [Configurer les registres de cadeaux](gift-registry-configure.md)
       - [Configuration du registre des cadeaux](gift-registry-create.md)
-      - [Ajouter une recherche de registre des cadeaux](gift-registry-search.md)
-      - [Expérience du storefront du registre des cadeaux](gift-registry-storefront.md)
+      - [Ajouter une recherche dans le registre des cadeaux](gift-registry-search.md)
+      - [Expérience de storefront du registre des cadeaux](gift-registry-storefront.md)
    - Points de récompense {#reward-points}
       - [Présentation et configuration des récompenses](rewards-loyalty.md)
-      - [Taux de récompense des exchanges](reward-exchange-rates.md)
+      - [Taux de change de récompense](reward-exchange-rates.md)
       - [Points de récompense dans les règles de prix](reward-points-price-rules.md)
-      - [Expérience du storfront des points de récompense](reward-points-storefront.md)
-   - Révisions de produits {#product-reviews}
-      - [Critiques de produits clients](product-reviews.md)
-      - [Modération des révisions](product-reviews-moderate.md)
+      - [Expérience storefront des points de récompense](reward-points-storefront.md)
+   - {#product-reviews} des avis sur les produits
+      - [Examens de produits client](product-reviews.md)
+      - [Modération des avis](product-reviews-moderate.md)
 - Promotions {#promotions}
-   - Ventes et événements privés {#events}
+   - {#events} de ventes privées et d’événements
       - [Présentation des événements](events-private-sales.md)
-      - [Configuration des événements](event-configure.md)
-      - [Créer des événements](event-create.md)
-      - [Invitations d’événement](invitations.md)
-   - Règles de prix du catalogue {#catalog-rules}
-      - [Présentation des règles de prix du catalogue](price-rules-catalog.md)
+      - [Configuration d’événements](event-configure.md)
+      - [Création d’événements](event-create.md)
+      - [Invitations à des événements](invitations.md)
+   - Règles de prix de catalogue {#catalog-rules}
+      - [Règles de prix de catalogue - Aperçu](price-rules-catalog.md)
       - [Créer une règle de prix de catalogue](price-rules-catalog-create.md)
       - [Modifications planifiées pour les règles de prix de catalogue](price-rule-catalog-scheduled-changes.md)
       - [Règle de prix avec plusieurs SKU](price-rule-multiple-sku.md)
@@ -51,41 +51,41 @@ ht-degree: 1%
       - [Règles de prix du panier - Aperçu](price-rules-cart.md)
       - [Créer une règle de prix de panier](price-rules-cart-create.md)
       - [Codes de coupon](price-rules-cart-coupon.md)
-      - [Modifications planifiées des règles de prix du panier](price-rule-cart-scheduled-changes.md)
-      - [Exemple : promotion de la livraison gratuite](price-rules-cart-free-shipping.md)
-      - [Exemple : achetez ceci et cela gratuitement](price-rules-cart-buy-this-get-that.md)
-      - [Exemple : escompte avec achat minimum](price-rule-discount-minimum-purchase.md)
-      - [Exemple : réduction avec premier achat](price-rule-discount-first-purchase.md)
-   - Relations produit {#product-relationships}
+      - [Modifications planifiées pour les règles de prix de panier](price-rule-cart-scheduled-changes.md)
+      - [Exemple : promotion de livraison gratuite](price-rules-cart-free-shipping.md)
+      - [Exemple : achetez ceci gratuitement](price-rules-cart-buy-this-get-that.md)
+      - [Exemple : remise avec achat minimum](price-rule-discount-minimum-purchase.md)
+      - [Exemple : remise lors du premier achat](price-rule-discount-first-purchase.md)
+   - Relations du produit {#product-relationships}
       - [Vue d’ensemble](product-relationships.md)
       - [Règles et configuration des produits associés](product-related-rules.md)
-      - [Création d’une règle de produit associée](product-related-rule-create.md)
-- Communications marketing {#communications}
+      - [Créer une règle de produit associée](product-related-rule-create.md)
+- {#communications} des communications marketing
    - Newsletters {#newsletters}
-      - [Activation des newsletters](newsletters.md)
+      - [Activer les newsletters](newsletters.md)
       - [Modèles de newsletter](newsletter-template.md)
-      - [Envoyer des newsletters](newsletter-queue.md)
-      - [Gestion des abonnés](newsletter-subscribers.md)
+      - [Envoi de newsletters](newsletter-queue.md)
+      - [Gérer les abonnés](newsletter-subscribers.md)
    - [Réseaux sociaux et flux RSS](social-rss.md)
-   - Rappels de courriel {#email-reminders}
-      - [Activer les rappels par email](email-reminder-rules.md)
-      - [Créer des rappels par courrier électronique](email-reminder-rules-create.md)
-- Optimisation du moteur de recherche {#seo}
+   - Rappels par e-mail {#email-reminders}
+      - [Activer les rappels par e-mail](email-reminder-rules.md)
+      - [Créer des rappels par e-mail](email-reminder-rules-create.md)
+- {#seo} d’optimisation du moteur de recherche
    - [Présentation de l’optimisation pour les moteurs de recherche et bonnes pratiques](seo-overview.md)
    - [Métadonnées](meta-data.md)
    - [Cartes du site](sitemap-xml.md)
-   - Réécritures d’URL {#url-rewrites}
+   - {#url-rewrites} des réécritures d’URL
       - [Présentation et configuration](url-rewrite.md)
       - [Réécritures de catégorie](url-rewrite-category.md)
-      - [Réécritures de produit](url-rewrite-product.md)
+      - [Réécritures du produit](url-rewrite-product.md)
       - [Réécritures de page CMS](url-rewrite-cms-page.md)
-      - [Réécriture personnalisée](url-rewrite-custom.md)
+      - [Réécritures personnalisées](url-rewrite-custom.md)
       - [Redirections automatiques](url-redirect-product-automatic.md)
-- Outils de site Google {#google-tools}
+- {#google-tools} des outils du site Google
    - [Vue d’ensemble](google-tools.md)
    - [Google Analytics](google-analytics.md)
-   - [Gestionnaire de balises de Google](google-tag-manager.md)
+   - [Google Tag Manager](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
    - [Expériences de contenu Google](google-content-experiments.md)
-- [Retour aux guides du commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

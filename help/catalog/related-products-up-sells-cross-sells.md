@@ -1,9 +1,9 @@
 ---
 title: Paramètres du produit - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
-description: Pour un produit, les paramètres [!UICONTROL Related Products, Up-Sells, and Cross-Sells] définissent de simples blocs promotionnels sur la page du produit qui mettent en évidence une sélection de produits supplémentaires.
+description: Pour un produit, les paramètres de [!UICONTROL Related Products, Up-Sells, and Cross-Sells] définissent des blocs promotionnels simples sur la page du produit qui mettent en évidence une sélection de produits supplémentaires.
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -14,16 +14,16 @@ ht-degree: 0%
 
 Utilisez la section _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_pour configurer des blocs promotionnels simples qui présentent une sélection de produits supplémentaires susceptibles d’intéresser le client. Pour plus d’informations, voir [Relations produit](../merchandising-promotions/product-relationships.md).
 
-![Produits associés, ventes consécutives et ventes croisées](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
+![Produits connexes, ventes incitatives et ventes croisées](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
 
-Chaque bloc est constitué d&#39;une liste de produits appartenant à une option spécifique.
+Chaque bloc est constitué d’une liste de produits appartenant à une option spécifique.
 
 | Champ | Description |
 |--- |--- |
 | [!UICONTROL ID] | Identifiant numérique unique attribué à l’entité de produit. |
 | [!UICONTROL Thumbnail] | Image miniature du produit. |
 | [!UICONTROL Name] | Nom du produit. |
-| [!UICONTROL Status] | Indique l’état du produit. Options : `Enabled` / `Disabled`. Les produits désactivés ne s’affichent pas dans les blocs du front-end. |
+| [!UICONTROL Status] | Indique le statut du produit. Options : `Enabled` / `Disabled`. Les produits désactivés ne s’affichent pas dans les blocs sur le front-end. |
 | [!UICONTROL Attribute Set] | Nom du jeu d’attributs utilisé comme modèle pour le produit. |
 | [!UICONTROL SKU] | Unité de gestion des stocks unique affectée au produit. |
 | [!UICONTROL Price] | Prix unitaire du produit. |
@@ -33,80 +33,80 @@ Chaque bloc est constitué d&#39;une liste de produits appartenant à une option
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) **Le Recommendations produit proposé par Adobe Sensei** simplifie le processus de définition des relations entre les produits en utilisant l’intelligence artificielle et des algorithmes d’apprentissage automatique pour effectuer une analyse approfondie des données agrégées sur les visiteurs. Ces données, lorsqu’elles sont combinées à votre catalogue Adobe Commerce, génèrent des expériences hautement attrayantes, pertinentes et personnalisées pour l’acheteur.
+>![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) **Recommandations de produits optimisées par Adobe Sensei** simplifie le processus de définition des relations de produit en utilisant l’intelligence artificielle et des algorithmes de machine learning pour effectuer une analyse approfondie des données agrégées du visiteur. Ces données, lorsqu’elles sont combinées à votre catalogue Adobe Commerce, génèrent des expériences très attrayantes, pertinentes et personnalisées pour l’acheteur.
 ><br/>
->Pour plus d’informations sur l’utilisation de cette extension développée par l’Adobe en tant qu’alternative aux recommandations de produits configurées manuellement et aux ventes incitatives, consultez le _[Guide Recommendations du produit](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)_.
+>Pour plus d’informations sur l’utilisation de cette extension développée par Adobe comme alternative aux recommandations de produits et aux ventes incitatives configurées manuellement, consultez le _[Guide de recommandations de produits ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_.
 
-## Produits associés
+## Produits connexes
 
-Les produits associés sont destinés à être achetés en plus de l’article que le client consulte. Le client peut placer l’article dans le panier en cliquant simplement sur la case à cocher. L’emplacement du bloc _Produits associés_ varie en fonction du thème défini et de la mise en page. Dans l’exemple ci-dessous, le bloc _Products_ associé s’affiche au bas de la page _Product View_. Avec une mise en page à deux colonnes, le bloc _Produits associés_ apparaît souvent dans la barre latérale droite.
+Les produits associés sont destinés à être achetés en plus de l’article que le client consulte. Le client peut placer l’article dans son panier en cochant simplement la case. L’emplacement du bloc _Produits associés_ varie en fonction du thème et de la mise en page définis. Dans l’exemple ci-dessous, le bloc _Produits associés_ s’affiche au bas de la page _Vue des produits_. Avec une disposition à deux colonnes, le bloc _Produits associés_ apparaît souvent dans la barre latérale droite.
 
-![Produits associés](./assets/storefront-product-related-products.png){width="600" zoomable="yes"}
+![Produits connexes](./assets/storefront-product-related-products.png){width="600" zoomable="yes"}
 
-Pour configurer les produits associés :
+Pour configurer des produits associés :
 
 1. Ouvrez le produit en mode d’édition.
 
-1. Faites défiler l’écran vers le bas et développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** .
+1. Faites défiler vers le bas et développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** .
 
 1. Cliquez sur **[!UICONTROL Add Related Products]**.
 
-1. Utilisez les [contrôles de filtre](../getting-started/admin-grid-controls.md) pour trouver les produits que vous souhaitez.
+1. Utilisez les [contrôles de filtre](../getting-started/admin-grid-controls.md) pour rechercher les produits de votre choix.
 
-1. Dans la liste, cochez la case d’un produit que vous souhaitez afficher comme produit associé.
+1. Dans la liste, cochez la case de tout produit que vous souhaitez mettre en avant en tant que produit associé.
 
-   ![Produits associés](./assets/products-related-add.png){width="600" zoomable="yes"}
+   ![Produits connexes](./assets/products-related-add.png){width="600" zoomable="yes"}
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Add Selected Products]**.
+1. Cliquez ensuite sur **[!UICONTROL Add Selected Products]**.
 
-## Valeurs nues
+## Ventes incitatives
 
-Les produits de vente incitative sont des articles que votre client peut préférer au lieu du produit actuellement considéré. Un article proposé en tant que vente incitative peut être de meilleure qualité, plus populaire ou avoir une meilleure marge bénéficiaire. Les produits de vente incitative apparaissent sur la page des produits sous un en-tête tel que _Vous pouvez également être intéressé par les produits suivants_.
+Les produits de montée en gamme sont des articles que votre client pourrait préférer au produit actuellement pris en compte. Un article proposé en tant que produit de mise en vente incitative peut être de meilleure qualité, plus populaire ou présenter une meilleure marge bénéficiaire. Les produits de montée en gamme apparaissent sur la page produit sous une en-tête telle que _Vous pouvez également être intéressé par les produits suivants_.
 
-![Vente initiale](./assets/storefront-product-upsell.png){width="600" zoomable="yes"}
+![Vendre À Un Prix Supérieur](./assets/storefront-product-upsell.png){width="600" zoomable="yes"}
 
-Pour sélectionner des produits de vente incitative :
+Pour sélectionner des produits de mise à niveau :
 
 1. Ouvrez le produit en mode d’édition.
 
-1. Faites défiler l’écran vers le bas et développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** .
+1. Faites défiler vers le bas et développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** .
 
 1. Cliquez sur **[!UICONTROL Add Up-Sell Products]**.
 
-1. Utilisez les [contrôles de filtre](../getting-started/admin-grid-controls.md) pour trouver les produits que vous souhaitez.
+1. Utilisez les [contrôles de filtre](../getting-started/admin-grid-controls.md) pour rechercher les produits de votre choix.
 
-1. Dans la liste, cochez la case d’un produit que vous souhaitez présenter comme un produit de vente incitative.
+1. Dans la liste, cochez la case de tout produit que vous souhaitez proposer comme produit de mise à niveau.
 
-   ![Produits en vente libre](./assets/product-up-sell-add.png){width="600" zoomable="yes"}
+   ![Produits de montée en gamme](./assets/product-up-sell-add.png){width="600" zoomable="yes"}
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Add Selected Products]**.
+1. Cliquez ensuite sur **[!UICONTROL Add Selected Products]**.
 
 >[!NOTE]
 >
->Le produit du lot parent s’affiche toujours automatiquement sous la forme d’un produit de vente incitative pour tous ses produits enfants.
+>Le produit parent groupé est toujours affiché automatiquement comme produit de mise à niveau pour tous ses produits enfants.
 
 ## Ventes croisées
 
-Les articles de ventes croisées sont similaires aux achats impulsifs positionnés à côté de la caisse dans la ligne de passage en caisse. Les produits proposés sous la forme d’une vente croisée apparaissent sur la page du panier, juste avant que le client ne commence le processus de passage en caisse.
+Les articles de vente croisée sont similaires aux achats impulsifs placés près de la caisse dans la ligne de passage en caisse. Les produits proposés en tant que vente croisée apparaissent sur la page du panier, juste avant que le client ne commence le processus de passage en caisse.
 
 >[!NOTE]
 >
->Pour afficher ou masquer les articles de ventes croisées par vue de magasin, voir l’option [Passage en caisse > Panier](../configuration-reference/sales/checkout.md) appelée _[!UICONTROL Show Cross-sell Items]_dans le panier. Vous pouvez masquer les ventes croisées lors de ventes spécifiques ou pour les tests A/B dans une vue de magasin.
+>Pour afficher ou masquer les articles de ventes croisées par affichage de magasin, reportez-vous à l’option [Passer en caisse > Panier](../configuration-reference/sales/checkout.md) appelée _[!UICONTROL Show Cross-sell Items]_dans le panier. Vous pouvez masquer les ventes croisées lors de ventes spécifiques ou pour les tests A/B dans une vue de magasin.
 
-![Ventes croisées dans le panier](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
+![Ventes croisées dans un panier](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
 
-**_Pour sélectionner des produits de vente croisée :_**
+**_Pour sélectionner des produits de ventes croisées, procédez comme suit_**
 
 1. Ouvrez le produit en mode d’édition.
 
-1. Faites défiler l’écran vers le bas et développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** .
+1. Faites défiler vers le bas et développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** .
 
 1. Cliquez sur **[!UICONTROL Add Cross-Sell Products]**.
 
-1. Utilisez les [contrôles de filtre](../getting-started/admin-grid-controls.md) pour trouver les produits que vous souhaitez.
+1. Utilisez les [contrôles de filtre](../getting-started/admin-grid-controls.md) pour rechercher les produits de votre choix.
 
-1. Dans la liste, cochez la case d’un produit que vous souhaitez présenter comme un produit de vente croisée.
+1. Dans la liste, cochez la case de tout produit que vous souhaitez proposer comme produit de vente croisée.
 
-   ![Produits de vente croisée](./assets/product-cross-sell-add.png){width="600" zoomable="yes"}
+   ![Produits de ventes croisées](./assets/product-cross-sell-add.png){width="600" zoomable="yes"}
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Add Selected Products]**.
+1. Cliquez ensuite sur **[!UICONTROL Add Selected Products]**.

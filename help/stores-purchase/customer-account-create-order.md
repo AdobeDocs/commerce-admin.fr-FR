@@ -1,9 +1,9 @@
 ---
 title: Création d’une commande
-description: Découvrez comment créer une commande pour un client dans l’administrateur Commerce.
+description: Découvrez comment créer une commande pour un client dans Commerce Admin.
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Création d’une commande
 
-Pour les clients enregistrés qui ont besoin d’aide, vous pouvez créer une commande entière directement à partir de l’administrateur. Le formulaire _[!UICONTROL Create New Order]_contient toutes les informations nécessaires au processus de passage en caisse normal, avec des résumés d’activité provenant du tableau de bord du compte du client.
+Pour les clients enregistrés qui ont besoin d’aide, vous pouvez créer une commande entière directement à partir de l’administrateur. Le formulaire _[!UICONTROL Create New Order]_contient toutes les informations nécessaires au processus de passage en caisse normal, avec des résumés des activités du tableau de bord du compte du client.
 
 ![Créer une commande pour un client](./assets/create-new-order.png){width="700" zoomable="yes"}
 
-## Étape 1 : création d’une commande
+## Étape 1 : créer une commande
 
 1. Dans la barre latérale _Admin_, cliquez sur **[!UICONTROL Customers]**.
 
-1. Trouvez le client dans la grille.
+1. Recherchez le client dans la grille.
 
 1. Dans la colonne _Action_, cliquez sur **[!UICONTROL Edit]**.
 
@@ -28,17 +28,17 @@ Pour les clients enregistrés qui ont besoin d’aide, vous pouvez créer une co
 
    ![En-tête Workspace](./assets/order-create-buttons.png){width="700" zoomable="yes"}
 
-   Vous pouvez également créer une commande dans l’[ espace de travail des commandes](orders.md#orders-workspace) en cliquant sur **[!UICONTROL Create New Order]**.
+   Vous pouvez également créer une commande dans l’espace de travail [Commande](orders.md#orders-workspace) en cliquant sur **[!UICONTROL Create New Order]**.
 
-## Étape 2 : Ajout de produits
+## Étape 2 : Ajouter des produits
 
-Si votre boutique comporte plusieurs vues, choisissez la vue du magasin où la commande doit être placée.
+Si votre boutique comporte plusieurs vues, choisissez celle où la commande doit être passée.
 
-### Ajout de produits de la barre latérale [!UICONTROL Customer's Activities]
+### Ajouter des produits à partir de la barre latérale [!UICONTROL Customer's Activities]
 
-Vous pouvez transférer des articles vers le panier à partir de la liste de souhaits d’un client, ou tout article récemment consulté, comparé ou commandé.
+Vous pouvez transférer des articles vers le panier à partir de la liste de souhaits d’un client ou de tout article récemment consulté, comparé ou commandé.
 
-1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) dans l’une des sections suivantes :
+1. Développez ![Sélecteur de développement](../assets/icon-display-expand.png) l’une des sections suivantes :
 
    - **[!UICONTROL Wish List]**
    - **[!UICONTROL Last Ordered Items]**
@@ -48,13 +48,13 @@ Vous pouvez transférer des articles vers le panier à partir de la liste de sou
 
 1. Cochez la case de chaque produit dans le panneau de gauche.
 
-1. Faites défiler l’écran vers le bas et cliquez sur **[!UICONTROL Update Changes]**.
+1. Faites défiler vers le bas et cliquez sur **[!UICONTROL Update Changes]**.
 
-   L’élément apparaît dans le formulaire de commande.
+   L’article apparaît dans le formulaire de commande.
 
    ![Ajouter au panier](./assets/create-order-add-wishlist.png){width="600" zoomable="yes"}
 
-### Ajout de produits du catalogue
+### Ajouter des produits à partir du catalogue
 
 1. Cliquez sur **[!UICONTROL Add Products]**.
 
@@ -66,19 +66,19 @@ Vous pouvez transférer des articles vers le panier à partir de la liste de sou
 
    >[!NOTE]
    >
-   >La grille de sélection de produits affiche toujours les prix de base réguliers pour les produits, sans aucune remise et aucune règle de prix de panier ou de groupe appliquée. Le prix final du produit est calculé uniquement lorsque le produit est ajouté à une commande/un panier.
+   >La grille de sélection de produits affiche toujours les prix de base standard des produits, sans remises et sans règles de prix de panier ou de groupe appliquées. Le prix final du produit est calculé uniquement lorsque le produit est ajouté à une commande ou à un panier.
 
 1. Configurez les options de produit disponibles :
 
    - Cliquez sur **[!UICONTROL Configure]**.
 
-   - Renseignez les options suivant vos besoins.
+   - Renseignez les options selon vos besoins.
 
    - Cliquez sur **[!UICONTROL OK]**.
 
    - Cliquez sur **[!UICONTROL Add Selected Product(s) to Order]** pour mettre à jour le panier.
 
-1. Si un produit est configuré pour les [options de cadeau](../catalog/product-gift-options.md), définissez les options selon les besoins.
+1. Si un produit est configuré pour des [options de cadeau](../catalog/product-gift-options.md), définissez les options selon vos besoins.
 
 1. Remplacez le prix d’un article si nécessaire :
 
@@ -88,7 +88,7 @@ Vous pouvez transférer des articles vers le panier à partir de la liste de sou
 
    ![Prix personnalisé](./assets/create-order-custom-price.png){width="600" zoomable="yes"}
 
-1. Renseignez les sections suivantes selon les besoins pour la commande :
+1. Renseignez les sections suivantes selon vos besoins pour la commande :
 
    - [!UICONTROL Order Currency]
    - [!UICONTROL Apply Coupon Codes / Gift Card Code]
@@ -98,10 +98,10 @@ Vous pouvez transférer des articles vers le panier à partir de la liste de sou
 
 >[!NOTE]
 >
->Pour plus d’informations sur les méthodes de paiement permettant de prendre en charge cette fonctionnalité lorsque l’extension de services de paiement est installée et configurée, consultez le [Guide des services de paiement](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) .
+>Consultez le [ Guide des services de paiement ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) pour plus d’informations sur les modes de paiement afin de prendre en charge cette fonctionnalité lorsque l’extension des services de paiement est installée et configurée.
 
-## Etape 3 : Envoyer la commande
+## Étape 3 : envoyer la commande
 
 Cliquez sur **[!UICONTROL Submit Order]**.
 
-Une confirmation est envoyée au client qui peut afficher les détails de la commande depuis son compte.
+Une confirmation est envoyée au client qui peut consulter les détails de la commande à partir de son compte.

@@ -1,39 +1,39 @@
 ---
-title: Relations avec les produits
-description: Découvrez les types de relations de produits que vous pouvez utiliser pour promouvoir des produits auprès d’acheteurs ciblés.
+title: Relations du produit
+description: Découvrez les types de relations de produit que vous pouvez utiliser pour promouvoir des produits auprès d’acheteurs ciblés.
 exl-id: 180352dc-65bf-4264-8287-9bf30f368ca1
 feature: Merchandising, Products
-source-git-commit: f9d1f66f8fb8d5c00bfa298234ab22becec33f56
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
 
 ---
 
-# Relations avec les produits
+# Relations du produit
 
-Les produits de votre catalogue peuvent être promus sur d’autres pages en définissant la nature de la relation entre les produits. Ces relations permettent de cibler les acheteurs en fonction de leur intérêt pour un produit similaire ou associé.
+Les produits de votre catalogue peuvent faire l’objet de promotions sur d’autres pages en définissant la nature de la relation entre les produits. Ces relations permettent de cibler les acheteurs en fonction de leur intérêt pour un produit similaire ou apparenté.
 
 ## Défini dans les paramètres du produit
 
 Lorsque vous créez ou mettez à jour un produit, les [paramètres du produit](../catalog/product-create.md#product-settings) vous permettent de définir des relations de produit spécifiques à ce produit :
 
-### Produits associés
+### Produits connexes
 
-[Les produits associés](../catalog/related-products-up-sells-cross-sells.md#related-products) sont destinés à être achetés en plus de l’article que le client consulte. Elles complètent, améliorent ou ajoutent des fonctionnalités facultatives au produit.
+Les [Produits associés](../catalog/related-products-up-sells-cross-sells.md#related-products) sont destinés à être achetés en plus de l’article que le client consulte. Ils complètent, améliorent ou ajoutent des fonctionnalités facultatives au produit.
 
-### Valeurs nues
+### Ventes incitatives
 
-[Les produits de vente incitative](../catalog/related-products-up-sells-cross-sells.md#up-sells) sont des articles similaires, mais qui peuvent être de meilleure qualité, plus populaires ou présenter une meilleure marge bénéficiaire que l’article que le client considère.
+Les [produits de montée en gamme](../catalog/related-products-up-sells-cross-sells.md#up-sells) sont des articles similaires, mais peut-être de meilleure qualité, plus populaires ou ayant une meilleure marge bénéficiaire que l&#39;article que le client envisage.
 
 ### Ventes croisées
 
-[Les produits de vente croisée](../catalog/related-products-up-sells-cross-sells.md#cross-sells) sont proposés sur la page du panier en tant que achats de dernière minute avant le début du processus de passage en caisse.
+Les [produits de vente croisée](../catalog/related-products-up-sells-cross-sells.md#cross-sells) sont proposés sur la page du panier en tant qu’achats de dernière minute avant le début du processus de passage en caisse.
 
-## Règles de produit connexes
+## Règles de produits associés
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) [Les règles de produit connexes](product-related-rules.md) vous permettent de cibler la sélection de produits présentés aux clients sous la forme de produits associés, de ventes incitatives et de ventes croisées.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) [Règles relatives aux produits associés](product-related-rules.md) vous permet de cibler la sélection de produits présentés aux clients sous la forme de produits associés, de ventes incitatives et de ventes croisées.
 
-## Recommendations produit optimisé par Adobe Sensei
+## Recommandations de produits optimisées par Adobe Sensei
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) [Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html) proposé par Adobe Sensei simplifie le processus de définition des relations entre les produits à l’aide d’une intelligence artificielle et d’algorithmes d’apprentissage automatique pour effectuer une analyse approfondie des données agrégées sur les visiteurs. Ces données, lorsqu’elles sont combinées à votre catalogue Adobe Commerce, génèrent des expériences hautement attrayantes, pertinentes et personnalisées pour l’acheteur.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) [Recommandations de produits](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html) optimisé par Adobe Sensei simplifie le processus de définition des relations de produit en utilisant l’intelligence artificielle et des algorithmes de machine learning pour effectuer une analyse approfondie des données agrégées du visiteur. Ces données, lorsqu’elles sont combinées à votre catalogue Adobe Commerce, génèrent des expériences très attrayantes, pertinentes et personnalisées pour l’acheteur.

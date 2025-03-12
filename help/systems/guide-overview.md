@@ -1,32 +1,32 @@
 ---
 title: Guide des systèmes d’administration
-description: Découvrez les bonnes pratiques de sécurité pour protéger votre boutique Commerce et gérer les autorisations, ainsi que comment importer et exporter des données, gérer les intégrations et les extensions et prendre soin de la maintenance régulière.
+description: Découvrez les bonnes pratiques de sécurité pour protéger votre banque Commerce et gérer les autorisations. Apprenez également comment importer et exporter des données, gérer les intégrations et les extensions, et prendre en charge la maintenance de routine.
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
-source-git-commit: 13f8858768b412d1ca2eb92e628331d9a45a347d
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
 # Guide des systèmes d’administration Adobe Commerce
 
-Ce guide est destiné aux administrateurs système et aux intégrateurs travaillant dans Adobe Commerce et Magento Open Source. Il fournit des informations détaillées sur la sécurité d’administration, les opérations de maintenance et les ressources à l’échelle du système qui prennent en charge les activités dans plusieurs fonctions organisationnelles pour votre entreprise de commerce électronique. Elle requiert une compréhension de base de la configuration et des fonctionnalités de base de Commerce.
+Ce guide est destiné aux administrateurs système et aux intégrateurs qui travaillent dans Adobe Commerce et Magento Open Source Admin. Il fournit des informations détaillées sur la sécurité des administrateurs, les opérations de maintenance et les ressources à l’échelle du système qui prennent en charge les activités de plusieurs fonctions organisationnelles pour votre entreprise d’e-commerce. Il suppose une compréhension de base de la configuration et des fonctionnalités de base de Commerce.
 
-Ce guide couvre :
+Ce guide couvre les sujets suivants :
 
 | Objet | Description |
 | ------- | ----------- |
-| [Introduction](introduction.md) | Présentation des systèmes et de la fonction d’intégration dans une instance Commerce. |
-| [Menu système](system-menu.md) | Utilisez le menu [!UICONTROL System] pour accéder aux outils d’importation et d’exportation de données, de gestion du cache et des index du système, de gestion des comptes d’utilisateurs et des autorisations, de sauvegardes, de notifications système et de variables personnalisées. |
-| [ Comptes administrateur et autorisations](permissions.md) | Gérez les comptes d’utilisateurs administrateurs et les rôles utilisés pour accorder l’accès aux fonctions de magasin. |
-| [Variables](variables-predefined.md) | Les variables facilitent la personnalisation des modèles d’email et de newsletter, ainsi que d’autres types de contenu qui prennent en charge votre site et l’expérience client. |
-| [Modèles d’email](email-templates.md) | Les modèles de courrier électronique définissent la mise en page, le contenu et la mise en forme des messages automatisés envoyés depuis votre boutique. Elles sont appelées des emails transactionnels, car chacune d’elles est associée à un type spécifique de transaction ou d’événement. |
-| [Transfert de données](data-transfer.md) | Les outils d&#39;import et d&#39;export permettent de gérer plusieurs enregistrements en une seule opération. Vous pouvez non seulement importer de nouveaux éléments, mais également mettre à jour, remplacer et supprimer des ensembles de produits existants. |
-| [Journaux d’action](action-log.md) | Pour Adobe Commerce, les journaux d’actions capturent chaque modification apportée par un utilisateur administrateur qui travaille dans votre magasin. Vous pouvez ainsi effectuer le suivi de toutes les modifications apportées à votre magasin. |
-| Outils | Les administrateurs système disposent d’une collection d’outils : les [outils de prise en charge](support.md) sont conçus pour identifier les problèmes connus de votre système. Les outils système fournissent une assistance opérationnelle pour exécuter la gestion de routine [index](index-management.md) et de [cache](cache-management.md), [sauvegarder le système](backups.md), gérer les [opérations planifiées](data-scheduled-import-export.md) et utiliser un assortiment de [outils de développement](developer-tools.md). |
-| [Intégrations](integrations.md) | Définissez l’emplacement des informations d’identification OAuth et fournissez les URL de redirection pour les intégrations tierces. |
-| [Sécurité](security.md) | Découvrez les outils disponibles pour sécuriser votre magasin et vos données, ainsi que des instructions pour un plan d’action de sécurité si vous détectez un compromis. |
+| [Introduction](introduction.md) | Présentation des systèmes et des fonctions d’intégration dans une instance Commerce. |
+| [Menu système](system-menu.md) | Utilisez le menu [!UICONTROL System] pour accéder aux outils d’import et d’export de données, de gestion des index et du cache système, de gestion des comptes d’utilisateurs et des autorisations, de sauvegardes, de notifications système et de variables personnalisées. |
+| [Comptes et autorisations d’administrateur](permissions.md) | Gérez les comptes utilisateur des administrateurs et les rôles utilisés pour accorder l’accès aux fonctions de magasin. |
+| [ Variables ](variables-predefined.md) | Les variables facilitent la personnalisation des modèles d’e-mail et de newsletter, ainsi que d’autres types de contenu qui prennent en charge votre site et l’expérience client. |
+| [Modèles d’e-mail](email-templates.md) | Les modèles d’e-mail définissent la disposition, le contenu et la mise en forme des messages automatisés envoyés depuis votre boutique. Ils sont appelés e-mails transactionnels , car chacun est associé à un type de transaction ou d’événement spécifique. |
+| [Transfert de données ](data-transfer.md) | Les outils d’import et d’export vous permettent de gérer plusieurs enregistrements en une seule opération. Vous pouvez non seulement importer de nouveaux éléments, mais également mettre à jour, remplacer et supprimer des ensembles de produits existants. |
+| [Journaux d’actions](action-log.md) | Pour Adobe Commerce, les journaux d’actions capturent chaque modification apportée par un utilisateur administrateur qui travaille dans votre boutique. Vous pouvez ainsi suivre toutes les modifications apportées à votre boutique. |
+| Outils | Les administrateurs système disposent d’un ensemble d’outils : les [ outils d’assistance](support.md) sont conçus pour identifier les problèmes connus de votre système. Les outils système fournissent un support opérationnel pour effectuer la gestion de routine [index](index-management.md) et [cache](cache-management.md), [sauvegarder le système](backups.md), gérer les [opérations planifiées](data-scheduled-import-export.md) et utiliser un assortiment d’outils de développement [](developer-tools.md). |
+| [ Intégrations ](integrations.md) | Déterminez l’emplacement des informations d’identification OAuth et fournissez les URL de redirection pour les intégrations tierces. |
+| [Sécurité](security.md) | Découvrez les outils disponibles pour sécuriser votre boutique et vos données, ainsi que les directives d’un plan d’action de sécurité si vous détectez une compromission. |
 
 {style="table-layout:auto"}
 

@@ -1,22 +1,21 @@
 ---
-user-guide-title: Guide de prise en main d’Adobe Commerce
-user-guide-description: Si vous découvrez Adobe Commerce ou Magento Open Source, les ressources de l’écosystème, suivez le parcours du client pour explorer votre boutique et en savoir  [!DNL Commerce]  sur les principales fonctionnalités.
+user-guide-title: Guide de prise en main d’Adobe Commerce Admin
+user-guide-description: Si vous êtes nouveau dans l’administration d’Adobe Commerce ou de Magento Open Source, découvrez les ressources de l [!DNL Commerce] écosystème, suivez le parcours client pour explorer votre boutique et en savoir plus sur les principales fonctionnalités d’administration.
 breadcrumb-title: Prise en main
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 0c634e3c87dc2dca76cc915bc56356f0d825cfa8
+source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '217'
 ht-degree: 1%
 
 ---
 
 
-# Guide de prise en main d’Adobe Commerce {#start}
+# Guide de prise en main d’Adobe Commerce Admin {#start}
 
-+ [Guide de prise en main d’Adobe Commerce](guide-overview.md)
-+ [Qu’est-ce qu’Adobe Commerce ?](about.md)
++ [Guide de prise en main d’Adobe Commerce Admin](guide-overview.md)
 + [Identifiants de connexion et URL](login-urls.md)
 + {#commerce-account} des comptes Commerce
    + [Créer votre compte et y accéder](commerce-account-create.md)
@@ -46,7 +45,7 @@ ht-degree: 1%
    + {#unifiedexperience} d’intégration de Adobe Experience Cloud
       + [Vue d’ensemble](admin-unified-experience-integration-overview.md)
       + [Configuration de l’intégration](admin-unified-experience-integration-configure.md)
-      + [Gestion de l’intégration de l’Experience Cloud](admin-unified-experience-integration-manage.md)
+      + [Gestion de l’intégration Experience Cloud](admin-unified-experience-integration-manage.md)
       + [Notes de mise à jour](admin-unified-experience-release-notes.md)
    + Outils d’administration et {#tools} de l’espace de travail
       + [Workspace](admin-workspace.md)
@@ -77,5 +76,5 @@ ht-degree: 1%
    + [Écosystème](resources.md)
    + [Extensions](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Retour aux Guides des commerçants](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
