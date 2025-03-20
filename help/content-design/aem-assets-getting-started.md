@@ -3,9 +3,9 @@ title: Configuration de l’intégration d’AEM Assets pour Commerce
 description: Découvrez comment configurer votre environnement Experience Manager Assets afin de gérer les ressources Commerce pour votre boutique.
 feature: CMS, Media, Configuration
 exl-id: 699f517e-1545-4c22-aa8d-9c8d60d352af
-source-git-commit: 98c40c779e1fe705cf1bd47331537bc7b7235921
+source-git-commit: f64975793edc88a34d75965c8fae4967fae801c7
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,6 @@ Pour tirer parti de cette intégration, les entreprises doivent répondre aux ex
 - Licences actives pour Adobe Commerce, Adobe Experience Manager Assets et [AEM Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media).
 
 - Adobe Commerce 2.4.5+
-
-   - PHP 8.1, 8.2, 8.3
-   - Compositeur : 2.x
 
 - Adobe Experience Manager est configuré avec [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/overview)
 
