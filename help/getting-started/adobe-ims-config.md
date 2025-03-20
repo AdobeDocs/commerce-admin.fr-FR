@@ -3,7 +3,7 @@ title: Configuration de l’intégration d’administration Commerce avec l’ID
 description: Suivez cette procédure facultative pour intégrer les connexions du compte utilisateur d’administrateur Adobe Commerce à Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 446fe9a5c7cc7178f5bbac0045bdea7e93a73699
+source-git-commit: 8589444a126c82f033c5b852b20493d1cf83c338
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Cette intégration prend en charge les commerçants Commerce avec les utilisateu
 
 L’administrateur qui configure cette intégration a besoin des informations d’identification suivantes pendant l’activation du module :
 
-* Identifiant de l&#39;organisation (obtenu à partir de [Adobe Admin Console](https://adminconsole.adobe.com/)), qui doit comporter au moins 24 caractères. L’utilisateur authentifié doit appartenir à cette organisation IMS. Pour plus d’informations sur la recherche de votre ID d’organisation, voir [Organisations dans Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+* Identifiant de l&#39;organisation (obtenu à partir de [Adobe Admin Console](https://adminconsole.adobe.com/)), qui doit comporter au moins 24 caractères. L’utilisateur authentifié doit appartenir à cette organisation IMS. Pour plus d’informations sur la recherche de votre ID d’organisation, voir [ Organisations dans Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
 * 2FA doit être appliqué au niveau de l’organisation dans Adobe Admin Console pour activer le module. Cochez la case [Paramètres d’authentification](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
 * Identifiant client
 * Secret client
@@ -37,7 +37,7 @@ Les utilisateurs administrateurs de Commerce doivent créer un compte avec un Ad
 
 ## Étapes générales
 
-* Obtention de l’ID d’organisation d’Adobe à partir de [Adobe Admin Console](https://adminconsole.adobe.com/)
+* Obtention de l’ID d’organisation Adobe à partir de [Adobe Admin Console](https://adminconsole.adobe.com/)
 * Générez un nouveau projet, des clés d’API IMS et un secret à partir du [Adobe Developer Console](https://developer.adobe.com/)
 * Configuration des utilisateurs d’Adobe Commerce dans Adobe Admin Console
 * Activez le module `AdminAdobeIms` .
@@ -54,15 +54,15 @@ Pour activer cette fonctionnalité, vous devez être membre d’au moins une org
 
 ### Étape 2 : générer un nouveau projet, des clés API IMS et un secret
 
-Pour créer des projets pour une organisation, le compte Administrateur d’Adobe de l’organisation doit disposer du rôle d’administrateur système ou de développeur. Voir le Guide de Developer Console [](https://developer.adobe.com/developer-console/docs/guides/projects/).
+Pour créer des projets pour une organisation, le compte Administrateur Adobe de l’organisation doit disposer du rôle d’administrateur système ou de développeur. Voir le Guide de Developer Console [](https://developer.adobe.com/developer-console/docs/guides/projects/).
 
 1. Connectez-vous à [Adobe Developer Console](https://developer.adobe.com/).
 1. Accédez à l’onglet **[!UICONTROL Projects]** (adobe.io/projects) et cliquez sur **[!UICONTROL Create a new project]**.
 1. Cliquez sur **[!UICONTROL Add API]** sur la page Projet nouvellement créée.
 1. Sélectionnez **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
 1. Sélectionnez **[!UICONTROL Oauth 2.0 Web]**.
-1. Spécifiez le **[!UICONTROL Redirect URI]** : `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
-1. Spécifiez le **[!UICONTROL Redirect URI pattern]** : `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
+1. Spécifiez le **[!UICONTROL Redirect URI]** : `https://<commerce_base_url>/`
+1. Spécifiez le **[!UICONTROL Redirect URI pattern]** : `https://<commerce_base_url>/.*`
 
    Évitez les points du nom d’hôte en les faisant précéder de `\\`. L’ajout d’un caractère générique à la fin de l’URL prend en charge la clé secrète d’administration Adobe Commerce.
 
