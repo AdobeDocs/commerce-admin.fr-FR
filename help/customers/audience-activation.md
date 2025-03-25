@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 90c653684be644f876937dc7acbc8f72498c5e3b
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1575'
 ht-degree: 2%
 
 ---
@@ -49,6 +49,14 @@ _30 mai 2023_
 ![Nouveau](../assets/new.svg) - Mise à jour du tableau de bord [Audiences Real-Time CDP](#real-time-cdp-audiences-dashboard) afin d’inclure la possibilité de trier, rechercher et filtrer les audiences actives dans votre instance Adobe Commerce.
 
 +++
+
+### 2.4.0
+
+[!BADGE Compatibilité ]{type=Informative tooltip="Compatibilité"}
+
+_24 mars 2025_
+
+![Nouveau](../assets/new.svg) - Ajout de la prise en charge de PHP 8.4.
 
 ### 2.3.1
 
