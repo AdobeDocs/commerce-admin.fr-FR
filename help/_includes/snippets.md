@@ -1,9 +1,9 @@
 ---
 title: Fragments de code
 description: Notes et éléments visuels réutilisés pour noter une fonctionnalité ou une page s’appliquant à une édition spécifique
-source-git-commit: eae60b99d6721442c4bfcf1a8db6a06826463d9c
+source-git-commit: e82b979ee2c5f51caba6a2aa416c5f20dbce110a
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -82,3 +82,9 @@ Pour accéder aux paramètres de configuration du magasin, sélectionnez **[!UIC
 | [Documentation destinée aux développeurs d’Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs) | Documentation destinée aux développeurs utilisée pour personnaliser Adobe Commerce et l’intégrer à des systèmes tiers. |
 
 {style="table-layout:auto"}
+
+## Compatibilité B2B {#b2b-compatibility}
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B version 1.4.2+ est compatible avec PHP 8.2. Si vous mettez à niveau l’instance Commerce vers la version 2.4.7+, assurez-vous que l’instance utilise PHP version 8.2 pour maintenir la compatibilité avec la version B2B d’Adobe Commerce. En outre, la version B2B 1.4.2+ ne prend pas en charge le [serveur d’applications GraphQL](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).

@@ -1,12 +1,12 @@
 ---
 title: Clé de chiffrement
-description: Découvrez comment générer ou ajouter automatiquement votre propre clé de chiffrement, qui doit être modifiée régulièrement pour améliorer la sécurité.
+description: Découvrez comment modifier votre propre clé de chiffrement, ce qui doit être fait régulièrement pour améliorer la sécurité.
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
+source-git-commit: 48f3431faa5db50f896b7a8e3db59421c639185b
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -15,17 +15,18 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Si vous avez tenté d’effectuer ces étapes et que vous rencontrez des problèmes, reportez-vous à l’article [Résolution des problèmes de rotation de la clé de chiffrement : CVE-2024-34102](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) de la base de connaissances.
+>Si vous avez tenté d’effectuer ces étapes et rencontrez des problèmes, reportez-vous à l’article [Dépannage de la rotation de la clé de chiffrement : CVE-2024-34102](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) de la base de connaissances.
 
-Adobe Commerce et Magento Open Source utilisent une clé de chiffrement pour protéger les mots de passe et d’autres données sensibles. Un algorithme [!DNL ChaCha20-Poly1305] standard est utilisé avec une clé de 256 bits pour chiffrer toutes les données nécessitant un chiffrement. Cela inclut les données de carte de crédit et les mots de passe d’intégration (module de paiement et d’expédition). En outre, un algorithme de hachage sécurisé (SHA-256) puissant est utilisé pour hacher toutes les données qui ne nécessitent pas de décryptage.
+Adobe Commerce et Magento Open Source utilisent une clé de chiffrement pour protéger les mots de passe et d’autres données sensibles. Un algorithme de [!DNL ChaCha20-Poly1305] standard est utilisé avec une clé de 256 bits pour chiffrer toutes les données qui nécessitent un chiffrement. Cela inclut les données de carte de crédit et les mots de passe d’intégration (module de paiement et d’expédition). En outre, un algorithme de hachage sécurisé puissant (SHA-256) est utilisé pour hacher toutes les données qui ne nécessitent pas de déchiffrement.
 
-Lors de l’installation initiale, vous êtes invité à laisser Commerce générer une clé de chiffrement ou à en saisir une. L’outil de clé de chiffrement vous permet de modifier la clé selon vos besoins. La clé de chiffrement doit être modifiée régulièrement pour améliorer la sécurité. La clé d’origine peut être compromise à tout moment.
+Lors de l’installation initiale, vous êtes invité à laisser Commerce générer une clé de chiffrement ou à saisir l’une des vôtres. L’outil Clé de chiffrement vous permet de modifier la clé selon vos besoins. La clé de chiffrement doit être changée régulièrement pour améliorer la sécurité, et à tout moment la clé d&#39;origine peut être compromise.
 
-Pour obtenir des informations techniques, reportez-vous à la section [Installation sur site avancée](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) du _Guide d’installation_.
+Pour obtenir des informations techniques, consultez [Installation sur site avancée](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) dans le _Guide d’installation_ et [Reclassement des données](https://developer.adobe.com/commerce/php/development/security/data-encryption/) dans le _Guide de développement PHP_.
 
 >[!IMPORTANT]
 >
->Avant de suivre ces instructions pour modifier la clé de chiffrement, assurez-vous que le fichier suivant est modifiable : `[your store]/app/etc/env.php`
+>- Avant de suivre ces instructions pour modifier la clé de chiffrement, assurez-vous que le fichier suivant est accessible en écriture : `[your store]/app/etc/env.php`
+>- La fonction de modification de la clé de chiffrement dans les paramètres d’administration est obsolète et a été supprimée dans la version 2.4.8. Vous devez utiliser la commande CLI décrite sur cette page pour modifier votre clé de chiffrement après la mise à niveau vers la version 2.4.8.
 
 **Pour modifier une clé de chiffrement :**
 
@@ -51,20 +52,40 @@ Les instructions suivantes nécessitent l’accès à un terminal.
    crontab -e
    ```
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**.
+1. Modifiez la clé de chiffrement à l’aide de l’une des méthodes suivantes.
 
-   ![Clé de chiffrement système](./assets/encryption-key.png){width="700" zoomable="yes"}
+   Commande +++CLI
 
-1. Effectuez l’une des opérations suivantes :
+   Exécutez la commande d’interface de ligne de commande suivante et assurez-vous qu’elle se termine sans erreur. Si vous devez rechiffrer certaines valeurs de configuration système ou certains champs de paiement, consultez le [guide détaillé sur le rechiffrement](https://developer.adobe.com/commerce/php/development/security/data-encryption/) dans le _Guide de développement PHP_.
 
-   - Pour générer une nouvelle clé, définissez **[!UICONTROL Auto-generate Key]** sur `Yes`.
-   - Pour utiliser une autre clé, définissez **[!UICONTROL Auto-generate Key]** sur `No`. Ensuite, dans le champ **[!UICONTROL New Key]** , saisissez ou collez la clé que vous souhaitez utiliser.
+   ```bash
+   bin/magento encryption:key:change
+   ```
 
-1. Cliquez sur **[!UICONTROL Change Encryption Key]**.
++++
 
-   >[!NOTE]
+   +++Paramètres d’administration
+
+   >[!IMPORTANT]
    >
-   >Conservez un enregistrement de la nouvelle clé à un emplacement sécurisé. Il est nécessaire de décrypter les données, en cas de problèmes éventuels avec vos fichiers.
+   >Cette fonctionnalité a été abandonnée et supprimée dans la version 2.4.8. Adobe recommande de modifier les clés de chiffrement avec l’interface de ligne de commande.
+
+   1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**.
+
+      ![Clé de chiffrement système](./assets/encryption-key.png){width="700" zoomable="yes"}
+
+   1. Effectuez l’une des opérations suivantes :
+
+      - Pour générer une nouvelle clé, définissez **[!UICONTROL Auto-generate Key]** sur `Yes`.
+      - Pour utiliser une autre clé, définissez **[!UICONTROL Auto-generate Key]** sur `No`. Ensuite, dans le champ **[!UICONTROL New Key]** , saisissez ou collez la clé à utiliser.
+
+   1. Cliquez sur **[!UICONTROL Change Encryption Key]**.
+
+      >[!NOTE]
+      >
+      >Conservez l’enregistrement de la nouvelle clé dans un emplacement sécurisé. Il est nécessaire de déchiffrer les données si des problèmes se produisent avec vos fichiers.
+
++++
 
 1. Videz le cache.
 

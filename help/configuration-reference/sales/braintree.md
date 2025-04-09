@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL Br
 description: Consultez les paramètres de configuration de la section [!UICONTROL Braintree] de la page de [!UICONTROL Payment Methods] &gt; [!UICONTROL Sales] de Commerce Admin.
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 feature: Configuration, Payments
-source-git-commit: d22d44b8c93649a60b16569cc502d2e291ce6b22
+source-git-commit: bb083698aff1da145bbb661307148c9223d5b545
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2822'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Title] | Affichage de la boutique | Valeur par défaut : `Credit Card` (Braintree) |
 | [!UICONTROL Environment] | Affichage de la boutique | Options : `Sandbox` / `Production` |
-| [!UICONTROL Payment Action] | Affichage de la boutique | Détermine l&#39;action entreprise par Braintree lors du traitement d&#39;un paiement. Options : <br/>**`Authorize`**- Les fonds figurant sur la carte de crédit du client sont autorisés, mais ne sont pas transférés du compte. Une commande est créée dans l’administration de votre boutique. Vous pouvez ensuite capturer la vente et créer une facture.<br/>**`Intent Sale`** (précédemment `Authorize and Capture` dans des versions antérieures) : les fonds figurant sur la carte de crédit du client sont autorisés et saisis par Braintree. Une commande et une facture sont créées dans l’administration de votre boutique. |
+| [!UICONTROL Payment Action] | Affichage de la boutique | Détermine l&#39;action entreprise par Braintree lors du traitement d&#39;un paiement. Options : <br/>**`Authorize`**- Les fonds sur la carte de crédit du client sont autorisés, mais pas transférés du compte. Une commande est créée dans l’administration de votre boutique. Vous pouvez ensuite capturer la vente et créer une facture.<br/>**`Intent Sale`** (précédemment `Authorize and Capture` dans des versions antérieures) : les fonds figurant sur la carte de crédit du client sont autorisés et saisis par Braintree. Une commande et une facture sont créées dans l’administration de votre boutique. |
 | [!UICONTROL Sandbox Merchant ID] | Affichage de la boutique | Il s’agit de l’identifiant unique de l’ensemble de votre compte de passerelle Sandbox. Également appelé _ID public_ ou _ID de production_, votre ID de commerçant est différent pour vos passerelles de production et sandbox. Ce champ s’affiche lorsque le champ _[!UICONTROL Environment]_est défini sur `Sandbox`. |
 | [!UICONTROL Sandbox Public Key] | Affichage de la boutique | Il s’agit de votre identifiant public spécifique à l’utilisateur qui limite l’accès aux données chiffrées. Chaque utilisateur associé à votre passerelle Braintree Sandbox dispose de sa propre clé publique Sandbox. Ce champ s’affiche lorsque le champ _[!UICONTROL Environment]_est défini sur `Sandbox`. |
 | [!UICONTROL Sandbox Private Key] | Affichage de la boutique | Il s’agit de votre identifiant privé spécifique à l’utilisateur qui limite l’accès aux données chiffrées. Chaque utilisateur associé à votre passerelle Braintree Sandbox dispose de sa propre clé privée pour la sandbox. Ce champ s’affiche lorsque le champ _[!UICONTROL Environment]_est défini sur `Sandbox`. |
@@ -44,7 +44,7 @@ ht-degree: 0%
 | [!UICONTROL Private Key] | Affichage de la boutique | Il s’agit de votre identifiant privé spécifique à l’utilisateur qui limite l’accès aux données chiffrées. Chaque utilisateur associé à votre passerelle Braintree dispose de sa propre clé privée. Ce champ s’affiche lorsque le champ _[!UICONTROL Environment]_est défini sur `Production`. |
 | [!UICONTROL Enable Card Payments] | Site internet | Détermine si le mode de paiement par carte de crédit Braintree est disponible pour vos clients en tant que mode de paiement. Options : `Yes` / `No` |
 | [!UICONTROL Enable Vault for Card Payments] | Site internet | Lorsqu’il est activé, fournit un stockage sécurisé pour les informations de paiement du client, de sorte que les clients n’aient pas à saisir à nouveau leurs informations de carte de crédit pour chaque achat. Options : `Yes` / `No` |
-| [!UICONTROL Enable Vault CVV Reverification] | Site internet | Une fois activée, la validation est effectuée pour la configuration des règles CVV dans votre compte Braintree. Options : `Yes` / `No` |
+| [!UICONTROL Enable Vault CVV Re-verification] | Site internet | Une fois activée, la validation est effectuée pour la configuration des règles CVV dans votre compte Braintree. Options : `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -123,10 +123,10 @@ ht-degree: 0%
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Enabled Local Payment Methods] | Site internet | Détermine si le mode de paiement local est inclus comme mode de paiement via Braintree. Options : `Yes` / `No` |
-| [!UICONTROL Title] | Site internet | Libellé qui apparaît dans la section Mode de paiement de la commande. Valeur par défaut : `Local Payments` |
-| [!UICONTROL Fallback Button Text] | Site internet | Saisissez le texte à utiliser pour le bouton qui s’affiche sur la page Braintree de secours qui renvoie les clients au site web. Valeur par défaut : `Complete Checkout` |
-| [!UICONTROL Redirect on Fail] | Site internet | Spécifie l&#39;URL où les clients doivent être redirigés lorsque des transactions de mode de paiement local sont annulées, échouent ou rencontrent des erreurs. Il doit s’agir de la page de paiement de la commande (par exemple, `https://www.domain.com/checkout#payment`). |
-| [!UICONTROL Allowed Payment Method] | Site internet | Sélectionnez le mode de paiement local à activer. Options : `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` (pas encore pris en charge) |
+| [!UICONTROL Title] | Site internet | Libellé qui apparaît dans la section Mode de paiement de la commande. Valeur par défaut: `Local Payments` |
+| [!UICONTROL Fallback Button Text] | Site internet | Entrez le texte à utiliser pour le bouton qui apparaît sur la page de Braintree de secours qui ramène les clients sur le site Web. Valeur par défaut: `Complete Checkout` |
+| [!UICONTROL Redirect on Fail] | Site internet | Spécifie l’URL où les clients doivent être redirigés lorsque les transactions de mode de paiement local sont annulées, échouent ou rencontrent des erreurs. Il doit s’agir de la page de paiement du passage en caisse (par exemple, `https://www.domain.com/checkout#payment`). |
+| [!UICONTROL Allowed Payment Method] | Site internet | Sélectionnez le mode de paiement local à activer. Options : `Bancontact` / `EPS` / `iDeal` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` |
 | [!UICONTROL Sort Order] | Site internet | Détermine l&#39;ordre dans lequel le mode de paiement local est répertorié avec d&#39;autres modes de paiement lors du passage en caisse. |
 
 {style="table-layout:auto"}
@@ -166,14 +166,15 @@ ht-degree: 0%
 
 ## [!UICONTROL PayPal through Braintree]
 
-![PayPal via Braintree](./assets/payment-methods-braintree-paypal-config.png){width="550" zoomable="yes"}
+![PayPal via la configuration Braintree 1](./assets/payment-methods-braintree-paypal-config-1.png){width="550" zoomable="yes"}
+![PayPal via la configuration Braintree 2](./assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Enable PayPal through Braintree] | Site internet | Détermine si PayPal est inclus comme mode de paiement via Braintree. Options : `Yes` / `No` |
 | [!UICONTROL Enable PayPal Credit through Braintree] | Site internet | Détermine si le crédit PayPal est inclus comme mode de paiement via Braintree. Options : `Yes` / `No`. Ce champ devient visible lorsque `Enable PayPal through Braintree` est défini sur `Yes` |
-| [!UICONTROL Enable PayPal PayLater through Braintree] | Site internet | Détermine si PayPal PayLater est inclus comme mode de paiement via Braintree. Options : `Yes` / `No`. Ce champ devient visible lorsque `Enable PayPal through Braintree` est défini sur `Yes` |
-| [!UICONTROL Title] | Affichage de la boutique | Libellé qui identifie PayPal par l&#39;intermédiaire de Braintree pour les clients lors du passage en caisse. Valeur par défaut : `PayPal` |
+| [!UICONTROL Enable PayPal PayLater through Braintree] | Site internet | Détermine si PayPal PayLater est inclus comme mode de paiement via Braintree. Options : `Yes` / `No`. Ce champ est visible lorsque est définie sur `Enable PayPal through Braintree``Yes` |
+| [!UICONTROL Title] | Vue du magasin | Libellé qui identifie les PayPal via Braintree aux clients lors du passage en caisse. Valeur par défaut: `PayPal` |
 | [!UICONTROL Vault Enabled] | Site internet | Lorsqu&#39;il est activé, fournit un stockage sécurisé pour les informations de paiement du client, afin que les clients n&#39;aient pas à saisir à nouveau leurs informations PayPal pour chaque achat. Options : `Yes` / `No` |
 | [!UICONTROL Send Cart Line Items for PayPal] | Site internet | Envoyez les articles de ligne (articles de commande) à PayPal avec les cartes-cadeaux, l&#39;emballage-cadeau pour les articles, l&#39;emballage-cadeau pour la commande, le crédit de magasin, l&#39;expédition et la taxe en tant qu&#39;articles de ligne. Options : `Yes` / `No` |
 | [!UICONTROL Sort Order] | Site internet | Un numéro qui détermine l&#39;ordre dans lequel PayPal via Braintree est répertorié avec d&#39;autres modes de paiement lors du passage en caisse. |
@@ -182,8 +183,11 @@ ht-degree: 0%
 | [!UICONTROL Payment from Applicable Countries] | Site internet | Détermine si vous acceptez les paiements traités par PayPal via Braintree depuis tous les pays ou uniquement des pays spécifiques. Options : `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Site internet | Le cas échéant, indique les pays spécifiques à partir desquels vous acceptez les paiements traités par Braintree. |
 | [!UICONTROL Require Customer's Billing Address] | Site internet | Détermine si l&#39;adresse de facturation du client est requise pour envoyer une commande. Options : `Yes` / `No` |
+| [!UICONTROL Skip Order Review Step] | Site internet | Détermine si les clients doivent être redirigés vers la page de révision avant d&#39;effectuer le paiement. Options : `Yes` / `No` |
 | [!UICONTROL Debug] | Site internet | Détermine si les communications entre PayPal via le système Braintree et votre boutique sont enregistrées dans un fichier journal. Options : `Yes` / `No` |
 | [!UICONTROL Display on Shopping Cart] | Site internet | Détermine si le bouton PayPal apparaît dans le [mini panier](../../stores-purchase/cart-configuration.md#mini-cart) et sur la page [panier](../../stores-purchase/cart.md). Options : `Yes` / `No` |
+| [!UICONTROL Send Package Tracking] | Site internet | Les informations de suivi des packages seront envoyées à PayPal pour les transactions/commandes PayPal uniquement. Vous devez activer le champ de configuration [!UICONTROL Send Cart Line Items for PayPal] pour que la fonction [!UICONTROL Package Tracking] fonctionne correctement. Options : `Yes` / `No` |
+| [!UICONTROL Use PayPal's "Notify Payer" functionality] | Site internet | Une fois que ce paramètre est défini sur Oui, l&#39;acheteur ou le payeur sera averti par PayPal des mises à jour du suivi des colis. Options : `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -217,7 +221,7 @@ Les options et paramètres de cette section varient en fonction du type de bouto
 |--- |--- |--- |
 | [!UICONTROL Show PayPal Button] | Site internet | Détermine l&#39;emplacement du bouton PayPal sur l&#39;emplacement sélectionné. Options : `Yes` / `No` |
 | [!UICONTROL Button Label] | Site internet | Détermine le libellé du bouton PayPal. Options : `Paypal` / `Checkout` / `Buy Now` / `Pay` |
-| [!UICONTROL Color] | Site internet | Détermine la couleur du bouton PayPal. Options : `Blue` / `Black` / `Gold` / `Silver` |
+| [!UICONTROL Color] | Site internet | Détermine la couleur du bouton PayPal. Options : `Blue` / `Black` / / `Gold``Silver` |
 | [!UICONTROL Shape] | Site internet | Détermine la forme du bouton PayPal. Options : `Pill` / `Rectangle` |
 | [!UICONTROL Size(Deprecated)] | Site internet | Détermine la taille du bouton PayPal. Options : `Medium` / `Large` / `Responsive` |
 
@@ -227,18 +231,6 @@ Les options et paramètres de cette section varient en fonction du type de bouto
 >
 >Le champ de configuration **[!DNL Size(Deprecated)]** est obsolète et n&#39;est pas utilisé pour appliquer un style aux boutons PayPal.
 
-**[!UICONTROL PayLater Messaging]**
-
-| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
-|--- |--- |--- |
-| [!UICONTROL Show PayLater Messaging] | Site internet | Active la messagerie PayLater à l&#39;emplacement sélectionné. Options : `Yes` / `No`. Lorsqu’elle est activée, elle affiche un message PayLater pour les offres disponibles ([des restrictions s’appliquent](https://developer.paypal.com/docs/checkout/pay-later/us/)). |
-| [!UICONTROL Message Layout] | Site internet | Détermine la disposition du message PayLater. Options : `Text` / `Flex` |
-| [!UICONTROL Logo] | Site internet | Détermine le type de logo utilisé pour le bouton PayPal. Options : `Inline` / `Primary` / `Alternative` / `None` |
-| [!UICONTROL Logo Position] | Site internet | Détermine la position du logo pour le bouton PayPal. Options : `Left` / `Right` / `Top` |
-| [!UICONTROL Text Color] | Site internet | Détermine la couleur du texte du bouton PayPal. Options : `Black` / `White` / `Monochrome` / `Grayscale` |
-
-{style="table-layout:auto"}
-
 Lorsque ces options sont définies, vous pouvez voir l&#39;aperçu des boutons PayPal et des messages PayLater. Vous pouvez utiliser certaines commandes pour appliquer les paramètres ou réinitialiser les valeurs :
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
@@ -246,6 +238,48 @@ Lorsque ces options sont définies, vous pouvez voir l&#39;aperçu des boutons P
 | [!UICONTROL Apply] | Site internet | Stocke les paramètres de style sélectionnés pour les boutons et les messages PayLater et les applique à l’emplacement et au type de bouton actuels. |
 | [!UICONTROL Apply to All Buttons] | Site internet | Stocke les paramètres de style sélectionnés pour les boutons et les valeurs de message PayLater et les applique à tous les types de boutons et emplacements. |
 | [!UICONTROL Reset to Recommended Defaults] | Site internet | Renvoie les paramètres de style aux valeurs par défaut recommandées pour les boutons et la messagerie PayLater et les applique à tous les types de boutons et emplacements. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Pay Later Messaging]
+
+**[!UICONTROL Product Page]**
+
+![Page Produit des messages payants différés](./assets/payment-methods-braintree-paylater-messaging-product.png)<!-- zoom -->
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--- |--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Show PayLater Messaging] | Site internet | Active la messagerie PayLater à l&#39;emplacement sélectionné. Options : `Yes` / `No`. Affiche le message Payer plus tard pour les offres disponibles. Des restrictions s’appliquent. [Pour en savoir plus, cliquez ici.](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Message Layout] | Site internet | Détermine la disposition du message PayLater. Options : `Text` / `Flex` |
+| [!UICONTROL Logo] | Site internet | Détermine le type de logo utilisé pour le message Payer plus tard. Options : `Inline` / `Primary` / `Alternative` / `None` |
+| [!UICONTROL Logo Position] | Site internet | Détermine la position du logo pour le message Payer plus tard. Options : `Left` / `Right` / `Top` |
+| [!UICONTROL Text Color] | Site internet | Détermine la couleur du texte du message Payer plus tard. Options : `Black` / `White` / `Monochrome` / `Grayscale` |
+
+{style="table-layout:auto"}
+
+**[!UICONTROL Cart]**
+
+![Payer plus tard - Panier](./assets/payment-methods-braintree-paylater-messaging-cart.png)<!-- zoom -->
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--- |--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Show PayLater Messaging] | Site internet | Active la messagerie PayLater à l&#39;emplacement sélectionné. Options : `Yes` / `No`. Affiche le message Payer plus tard pour les offres disponibles. Des restrictions s’appliquent. [Pour en savoir plus, cliquez ici.](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Message Layout] | Site internet | Détermine la disposition du message PayLater. Options : `Text` / `Flex` |
+| [!UICONTROL Logo] | Site internet | Détermine le type de logo utilisé pour le message Payer plus tard. Options : `Inline` / `Primary` / `Alternative` / `None` |
+| [!UICONTROL Logo Position] | Site internet | Détermine la position du logo pour le message Payer plus tard. Options : `Left` / `Right` / `Top` |
+| [!UICONTROL Text Color] | Site internet | Détermine la couleur du texte du message Payer plus tard. Options : `Black` / `White` / `Monochrome` / `Grayscale` |
+
+{style="table-layout:auto"}
+
+**[!UICONTROL Checkout]**
+
+![Pay Later Messaging - Passage en caisse](./assets/payment-methods-braintree-paylater-messaging-checkout.png)<!-- zoom -->
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--------------------------------------|--- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Show PayLater Messaging] | Site internet | Active la messagerie PayLater à l&#39;emplacement sélectionné. Options : `Yes` / `No`. Affiche le message Payer plus tard pour les offres disponibles. Des restrictions s’appliquent. [Cliquez ici pour en savoir plus.](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Text Align] | Site internet | Détermine la disposition du message PayLater. Options : `Left` / `Center` / `Right` |
+| [!UICONTROL Text Color] | Site internet | Détermine la couleur du texte du message Payer plus tard. Options : `Black` / `White` |
 
 {style="table-layout:auto"}
 
