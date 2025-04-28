@@ -3,9 +3,9 @@ title: Installation du package AEM Assets pour Commerce
 description: Ajoutez les métadonnées de ressource requises pour permettre à l’intégration d’AEM Assets pour Commerce de synchroniser les ressources entre les projets Adobe Commerce et Experience Manager Assets.
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
+source-git-commit: d7125774dbf6fb2796ccabc6df8e574455e1e968
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Le modèle ajoute les ressources suivantes à l’environnement de création AEM
 
   ![Contrôle personnalisé de l’interface utilisateur des données du produit](./assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
 
-- Formulaire de schéma de métadonnées avec un onglet Commerce contenant les champs `Does it exist in Adobe Commerce?` et `Product Data` pour le balisage des ressources Commerce. Le formulaire fournit également des options pour afficher ou masquer les champs `roles` et `order` (position) de l’interface utilisateur d’AEM Assets.
+- Formulaire de schéma de métadonnées avec un onglet Commerce contenant les champs `Eligible for Commerce?` et `Product Data` pour le balisage des ressources Commerce. Le formulaire fournit également des options pour afficher ou masquer les champs `roles` et `order` (position) de l’interface utilisateur d’AEM Assets.
 
   Onglet ![Commerce du formulaire de schéma de métadonnées AEM Assets](./assets/assets-configure-metadata-schema-form-editor.png){width="600" zoomable="yes"}
 
@@ -59,6 +59,15 @@ Pour utiliser ce projet AEM et mettre à jour la configuration de l’environnem
 
 Dans l’environnement de création AEM Assets, définissez les valeurs par défaut des métadonnées de ressources Commerce en créant un profil de métadonnées. Appliquez ensuite le nouveau profil aux dossiers AEM Assets pour utiliser automatiquement ces paramètres par défaut. Cette configuration simplifie le traitement des ressources en réduisant les étapes manuelles.
 
+Lorsque vous configurez le profil de métadonnées, il vous suffit de configurer les composants suivants :
+
+- Ajoutez un onglet Commerce . Cet onglet active les paramètres de configuration spécifiques à Commerce ajoutés par le modèle
+- Ajoutez le champ `Eligible for Commerce` à l’onglet Commerce .
+
+Le composant d’interface utilisateur des données de produit est ajouté automatiquement en fonction du modèle.
+
+### Configuration du profil de métadonnées
+
 1. Connectez-vous à l’environnement de création de Adobe Experience Manager.
 
 1. Dans l’espace de travail Adobe Experience Manager , accédez à l’espace de travail Créer une administration de contenu pour AEM Assets en cliquant sur l’icône Adobe Experience Manager .
@@ -81,27 +90,41 @@ Dans l’environnement de création AEM Assets, définissez les valeurs par déf
 
    1. Cliquez sur **[!UICONTROL +]** dans la section d’onglet, puis spécifiez le **[!UICONTROL Tab Name]**, `Commerce`.
 
-1. Ajoutez le champ `Does it exist in Commerce?` au formulaire et définissez la valeur par défaut sur `yes`.
+1. Ajoutez le champ `Eligible for Commerce` au formulaire.
 
    ![L’administrateur de création AEM ajoute des champs de métadonnées au profil](./assets/aem-edit-metadata-profile-fields.png){width="600" zoomable="yes"}
 
+   - Cliquez sur **[!UICONTROL Build form]**.
+
+   - Faites glisser le champ `Single Line text` vers le formulaire.
+
+   - Ajoutez le texte `Eligible for Commerce` pour le libellé en cliquant sur **[!UICONTROL Field Label]**.
+
+   - Dans l’onglet Paramètres , ajoutez le texte du libellé à **Libellé du champ**.
+
+   - Définissez le texte d’espace réservé sur `yes`.
+
+   - Dans le champ **[!UICONTROL Map to Property]** , copiez et collez la valeur suivante :
+
+     ```terminal
+     ./jcr:content/metadata/commerce:isCommerce
+     ```
+
+1. Facultatif. Pour synchroniser automatiquement les ressources Commerce approuvées lors de leur chargement dans l’environnement AEM Assets, définissez la valeur par défaut du champ _[!UICONTROL Review Status]_de l’onglet `Basic` sur `approved`.
+
 1. Enregistrez la mise à jour.
 
-1. Appliquez le profil de métadonnées `Commerce integration` au dossier dans lequel les ressources Commerce sont stockées.
+#### Application du profil de métadonnées au dossier source des ressources Commerce
 
-   1. Sur la page [!UICONTROL  Metadata Profiles], sélectionnez le profil d’intégration de Commerce.
+1. Sur la page [!UICONTROL  Metadata Profiles], sélectionnez le profil d’intégration de Commerce.
 
-   1. Dans le menu d’actions, sélectionnez **[!UICONTROL Apply Metadata Profiles to Folders]**.
+1. Dans le menu d’actions, sélectionnez **[!UICONTROL Apply Metadata Profiles to Folders]**.
 
-   1. Sélectionnez le dossier contenant les ressources Commerce.
+1. Sélectionnez le dossier contenant les ressources Commerce.
 
-      Créez un dossier Commerce s’il n’existe pas.
+   Créez un dossier Commerce s’il n’existe pas.
 
-   1. Cliquez sur **[!UICONTROL Apply]**.
-
->[!TIP]
->
->Vous pouvez synchroniser automatiquement les ressources Commerce lors de leur chargement dans l’environnement AEM Assets en mettant à jour le profil de métadonnées afin de définir la valeur par défaut du champ de _[!UICONTROL Review Status]_sur `Approved`. Le type de propriété du champ `Review Status` est `./jcr:content/metadata/dam:status`.
+1. Cliquez sur **[!UICONTROL Apply]**.
 
 ## Étape suivante
 
