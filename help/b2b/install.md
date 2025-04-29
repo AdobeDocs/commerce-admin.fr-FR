@@ -4,9 +4,10 @@ description: Découvrez comment installer le métapaquet  [!DNL Adobe Commerce B
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: df3f01bb8e6dab61523d5cb7e0e430b61f87145b
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 25964363ca5c4ec849e231d4eccb5f60b682a499
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -185,7 +186,7 @@ L’extension Adobe Commerce B2B utilise MySQL pour la gestion des files d’att
 
 Empêchez d’éventuels problèmes ou retards de traitement en ajoutant les paramètres suivants lorsque vous [démarrez les consommateurs de messages](#start-message-consumers) pour les fonctionnalités B2B.
 
-- `--max-messages <value>` : indique le nombre maximal de messages que chaque client doit traiter avant de s&#39;arrêter (par défaut = 10000). Bien que Adobe ne le recommande pas, vous pouvez utiliser 0 pour empêcher le client de s’arrêter. La bonne pratique pour une application PHP est de redémarrer les processus de longue durée pour éviter les fuites de mémoire.
+- `--max-messages <value>` : indique le nombre maximal de messages que chaque client doit traiter avant de s&#39;arrêter (par défaut = 10000). Bien qu’Adobe ne le recommande pas, vous pouvez utiliser la valeur 0 pour empêcher le client de s’arrêter. La bonne pratique pour une application PHP est de redémarrer les processus de longue durée pour éviter les fuites de mémoire.
 
 - `--batch-size <value>` : permet de limiter les ressources système consommées par les consommateurs (CPU, mémoire). L’utilisation de lots plus petits réduit l’utilisation des ressources et, par conséquent, ralentit le traitement.  Si spécifié, les messages d&#39;une file d&#39;attente sont consommés par lots de `<value>` chacun. Cette option s’applique uniquement au client par lots. Si `--batch-size` n’est pas défini, le client par lots reçoit tous les messages disponibles dans une file d’attente.
 
