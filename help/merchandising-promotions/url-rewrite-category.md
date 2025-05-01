@@ -1,44 +1,45 @@
 ---
-title: Réécritures d’URL de catégorie
+title: Réécritures des URL de catégorie
 description: Découvrez comment utiliser les réécritures d’URL de catégorie pour rediriger les liens vers l’URL d’une autre catégorie de votre boutique Commerce.
 exl-id: fc18f472-4aa8-4203-ade9-7ca576689d61
 feature: Categories, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
 
-# Réécritures d’URL de catégorie
+# Réécritures des URL de catégorie
 
-Si une catégorie est supprimée de votre catalogue, vous pouvez utiliser une réécriture de catégorie pour rediriger les liens vers l’URL d’une autre catégorie de votre magasin. Pensez en termes de _cible_ / _requête d’origine_ ou de _redirection vers_ / _redirection depuis_. Bien que les visiteurs puissent toujours accéder à l’ancienne page à partir de moteurs de recherche ou de liens obsolètes, la redirection entraîne le passage de votre magasin vers la nouvelle cible.
+Si une catégorie est supprimée de votre catalogue, vous pouvez utiliser une réécriture de catégorie pour rediriger les liens vers l’URL d’une autre catégorie de votre boutique. Pensez en termes de _cible_ / _requête originale_ ou _rediriger vers_ / _rediriger depuis_. Bien que des personnes puissent toujours accéder à l’ancienne page à partir de moteurs de recherche ou de liens obsolètes, la redirection entraîne le passage de votre magasin vers la nouvelle cible.
 
-Si les [redirections automatiques](url-redirect-product-automatic.md) sont activées pour votre magasin, il n’est pas nécessaire de créer une réécriture lorsqu’une catégorie [clé URL](../catalog/catalog-urls.md) est modifiée.
+Si les [redirections automatiques](url-redirect-product-automatic.md) sont activées pour votre boutique, il n’est pas nécessaire de créer une réécriture lorsqu’une catégorie [clé d’URL](../catalog/catalog-urls.md) est modifiée.
 
 {{url-rewrite-skip}}
 
-## Étape 1. Planification de la réécriture
+## Étape 1. Planifier la réécriture
 
-Pour éviter des erreurs, écrivez le chemin _redirect to_ et le chemin _redirect from_ et incluez la clé URL et le suffixe (le cas échéant).
+Pour éviter les erreurs, notez le chemin _redirection vers_ et le chemin _redirection depuis_ et incluez la clé d’URL et le suffixe (le cas échéant).
 
-Si vous n’en êtes pas sûr, ouvrez chaque page de catégorie de votre magasin, puis copiez le chemin d’accès depuis la barre d’adresse de votre navigateur.
+En cas de doute, ouvrez chaque page de catégorie de votre boutique, puis copiez le chemin d’accès à partir de la barre d’adresse de votre navigateur.
 
-**Exemple :**
+**Exemple:**
 
-Redirection vers : `gear/backpacks-and-bags.html`
+Rediriger vers : `gear/backpacks-and-bags.html`
 
-Redirection depuis : `gear/bags.html`
+Rediriger depuis : `gear/bags.html`
 
 ## Étape 2. Créer la réécriture
 
 {{url-rewrite-params}}
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**.
 
-1. Avant de poursuivre, procédez comme suit pour vérifier que le chemin de requête est disponible :
+1. Avant de poursuivre, procédez comme suit pour vérifier que le chemin d’accès de la requête est disponible :
 
-   - Dans le filtre de recherche situé en haut de la colonne **[!UICONTROL Request Path]**, saisissez la clé URL de la catégorie à rediriger et cliquez sur **[!UICONTROL Search]**.
+   - Dans le filtre de recherche en haut de la colonne **[!UICONTROL Request Path]**, saisissez la clé URL de la catégorie à rediriger et cliquez sur **[!UICONTROL Search]**.
 
    - S’il existe plusieurs enregistrements de redirection pour la page, recherchez celui qui correspond à la vue de magasin applicable et ouvrez l’enregistrement de redirection en mode d’édition.
 
@@ -46,19 +47,19 @@ Redirection depuis : `gear/bags.html`
 
 1. Lorsque vous revenez à la page _[!UICONTROL URL Rewrites]_, cliquez sur **[!UICONTROL Add URL Rewrite]**.
 
-1. Définissez **[!UICONTROL Create URL Rewrite]** sur `For category` et sélectionnez la catégorie cible dans l’arborescence qui est la destination de la redirection.
+1. Définissez **[!UICONTROL Create URL Rewrite]** sur `For category` et choisissez la catégorie cible dans l’arborescence qui est la destination de la redirection.
 
-   ![Réécriture d’URL - choisir la catégorie](./assets/url-rewrite-category-choose.png){width="700" zoomable="yes"}
+   ![Réécriture d’URL : sélectionnez une catégorie](./assets/url-rewrite-category-choose.png){width="700" zoomable="yes"}
 
-1. Dans la section _URL Rewrite_ , procédez comme suit :
+1. Dans la section _Réécriture d’URL_, procédez comme suit :
 
-   - Si vous avez plusieurs magasins, sélectionnez le **[!UICONTROL Store]** auquel s’applique la réécriture.
+   - Si vous disposez de plusieurs magasins, sélectionnez le **[!UICONTROL Store]** auquel s’applique la réécriture.
 
-   - Pour **[!UICONTROL Request Path]**, saisissez la clé d’URL de la catégorie que le client demande. Il s’agit de la catégorie _redirection à partir de_.
+   - Par **[!UICONTROL Request Path]**, saisissez la clé URL de la catégorie demandée par le client. Il s’agit de la catégorie _redirection depuis_.
 
      >[!NOTE]
      >
-     >Le chemin d’accès de la requête doit être unique pour le magasin spécifié. Si une redirection utilise déjà le même chemin de requête, vous recevez une erreur lorsque vous essayez d’enregistrer la redirection. La redirection précédente doit être supprimée avant de pouvoir en créer une.
+     >Le chemin d’accès de la requête doit être unique pour le magasin spécifié. S’il existe déjà une redirection qui utilise le même chemin de requête, vous recevez une erreur lorsque vous essayez d’enregistrer la redirection. La redirection précédente doit être supprimée avant de pouvoir en créer une.
 
    - Définissez **[!UICONTROL Redirect]** sur l’une des options suivantes :
 
@@ -69,34 +70,34 @@ Redirection depuis : `gear/bags.html`
 
    ![Ajouter une réécriture d’URL pour la catégorie](./assets/url-rewrite-for-category.png){width="700" zoomable="yes"}
 
-1. Avant d’enregistrer la redirection, vérifiez les éléments suivants :
+1. Avant d’enregistrer la redirection, vérifiez les points suivants :
 
    - Le lien situé dans le coin supérieur gauche affiche le nom de la catégorie cible.
-   - Le chemin d’accès à la requête contient le chemin d’accès de la catégorie _redirection à partir de_ d’origine.
+   - Le Chemin d’accès à la requête contient le chemin d’accès de la catégorie d’origine _redirection depuis_.
 
-1. Une fois l’opération terminée, cliquez sur le bouton **[!UICONTROL Save]** .
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** bouton .
 
-   La nouvelle réécriture de catégorie s’affiche en haut de la grille Réécritures d’URL .
+   La nouvelle réécriture de catégorie s’affiche en haut de la grille Réécritures d’URL.
 
 ## Étape 3. Tester le résultat
 
-1. Accédez à la page d’accueil de votre magasin.
+1. Accédez à la page d’accueil de votre boutique.
 
 1. Effectuez l’une des opérations suivantes :
 
-   - Accédez à la catégorie _redirection à partir de_ d’origine.
-   - Dans la barre d’adresse du navigateur, saisissez le chemin d’accès à la catégorie _redirection depuis_ d’origine immédiatement après l’URL du magasin et appuyez sur **[!UICONTROL Enter]**.
+   - Accédez à la catégorie d’origine _redirection à partir de_.
+   - Dans la barre d’adresse du navigateur, saisissez le chemin d’accès à la catégorie d’origine _rediriger depuis_ immédiatement après l’URL du magasin et appuyez sur **[!UICONTROL Enter]**.
 
-   La nouvelle catégorie cible apparaît à la place de la demande de catégorie d’origine.
+   La nouvelle catégorie cible s’affiche au lieu de la requête de catégorie d’origine.
 
 ## Descriptions des champs
 
 | Champ | Description |
 |--- |--- |
-| [!UICONTROL Create URL Rewrite] | Indique le type de réécriture. Une fois la réécriture créée, le type ne peut plus être modifié. Options : `Custom` / `For category` / `For product` / `For CMS page` |
-| [!UICONTROL Request Path] | La catégorie à rediriger. Selon votre configuration, le chemin d’accès à la requête peut inclure le suffixe .html ou .htm, ainsi que la catégorie parente. Le chemin de la requête doit être unique et ne peut pas être utilisé par une autre redirection. Si vous recevez une erreur indiquant que le chemin de requête existe, supprimez la redirection existante, puis réessayez. |
+| [!UICONTROL Create URL Rewrite] | Indique le type de réécriture. Le type ne peut pas être modifié une fois la réécriture créée. Options : `Custom` / `For category` / `For product` / `For CMS page` |
+| [!UICONTROL Request Path] | Catégorie à rediriger. Selon votre configuration, le chemin d’accès à la requête peut inclure le suffixe .html ou .htm et la catégorie parente. Le chemin d’accès de la requête doit être unique et ne peut pas être utilisé par une autre redirection. Si vous recevez une erreur indiquant que le chemin de requête existe, supprimez la redirection existante, puis réessayez. |
 | [!UICONTROL Target Path] | Chemin d’accès interne utilisé par le système pour pointer vers la destination de la redirection. Le chemin cible est grisé et ne peut pas être modifié. |
-| [!UICONTROL Redirect] | Détermine le type de redirection. Options : <br/>**[!UICONTROL No]**- Aucune redirection n’est spécifiée. De nombreuses opérations créent des requêtes de redirection de ce type. Par exemple, chaque fois que vous ajoutez des produits à une catégorie, une redirection du type `No` est créée pour chaque vue de magasin.<br/>**[!UICONTROL Temporary (302)]** - Indique aux moteurs de recherche que la réécriture est limitée dans le temps. En règle générale, les moteurs de recherche ne conservent pas les informations de classement de page pour les réécritures temporaires. <br/>**[!UICONTROL Permanent (301)]**- Indique aux moteurs de recherche que la réécriture est permanente. Les moteurs de recherche conservent généralement les informations de classement de page pour les réécritures permanentes. |
+| [!UICONTROL Redirect] | Détermine le type de redirection. Options : <br/>**[!UICONTROL No]**- Aucune redirection n’est spécifiée. De nombreuses opérations créent des demandes de redirection de ce type. Par exemple, chaque fois que vous ajoutez des produits à une catégorie, une redirection de type `No` est créée dans chaque vue de magasin.<br/>**[!UICONTROL Temporary (302)]** - Indique aux moteurs de recherche que la réécriture est limitée dans le temps. Les moteurs de recherche ne conservent généralement pas les informations de classement de page pour les réécritures temporaires. <br/>**[!UICONTROL Permanent (301)]**- Indique aux moteurs de recherche que la réécriture est permanente. Les moteurs de recherche conservent généralement les informations de classement de page pour les réécritures permanentes. |
 | [!UICONTROL Description] | Décrit l’objectif de la réécriture à des fins de référence interne. |
 
 {style="table-layout:auto"}

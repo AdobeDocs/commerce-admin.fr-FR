@@ -1,39 +1,40 @@
 ---
-title: Configuration des attributs intelligents pour le marchandisage visuel
-description: Découvrez comment configurer les attributs intelligents utilisés par Visual Merchandiser.
+title: Configuration des attributs intelligents pour Visual Merchandiser
+description: Découvrez comment configurer les attributs intelligents utilisés par le marchandiseur visuel.
 exl-id: 7bbbca40-d991-4393-b99c-5bef2e711071
 feature: Merchandising, Products, Configuration, Attributes
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
-# Configuration des attributs intelligents pour le marchandisage visuel
+# Configuration des attributs intelligents pour Visual Merchandiser
 
 {{ee-feature}}
 
 La configuration du marchandiseur visuel détermine les attributs qui peuvent être utilisés dans la fenêtre de marchandisage et le seuil de stock minimal. La configuration identifie également l’attribut utilisé pour la couleur et l’ordre des valeurs de couleur.
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et sélectionnez **[!UICONTROL Visual Merchandiser]** sous .
+1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et choisissez **[!UICONTROL Visual Merchandiser]** en dessous.
 
-1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL General Options]** .
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL General Options]** .
 
-   ![Configuration de catalogue - marchandiseur visuel](../configuration-reference/catalog/assets/catalog-visual-merchandiser-general-options.png){width="600" zoomable="yes"}
+   ![Configuration du catalogue - Marchandiseur visuel](../configuration-reference/catalog/assets/catalog-visual-merchandiser-general-options.png){width="600" zoomable="yes"}
 
 1. Dans la liste **[!UICONTROL Attributes for Category Rules]**, sélectionnez chaque attribut que vous souhaitez rendre disponible pour le marchandisage visuel.
 
-   Pour sélectionner plusieurs attributs, maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée, puis cliquez sur chaque élément.
+   Pour sélectionner plusieurs attributs, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque élément.
 
-1. Saisissez le **[!UICONTROL Minimum Stock Threshold]** pour qu’un produit s’affiche dans la fenêtre de marchandisage visuel.
+1. Saisissez le **[!UICONTROL Minimum Stock Threshold]** d’affichage d’un produit dans la fenêtre Visual Merchandiser .
 
 1. Saisissez le **[!UICONTROL Color Attribute Code]**.
 
    La valeur par défaut est `color`. Si votre catalogue utilise un attribut différent, saisissez le nom de l’attribut en minuscules.
 
-1. Pour **[!UICONTROL Color Order]**, saisissez chaque valeur de couleur sur une ligne distincte et dans l’ordre afin de déterminer la priorité de chaque couleur.
+1. Par **[!UICONTROL Color Order]**, saisissez chaque valeur de couleur sur une ligne distincte et dans l’ordre pour déterminer la priorité de chaque couleur.
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
+1. Cliquez ensuite sur **[!UICONTROL Save Config]**.

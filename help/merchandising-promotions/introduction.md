@@ -2,9 +2,9 @@
 title: Présentation du merchandising et des promotions Commerce
 description: Découvrez les outils Commerce pour créer des promotions ciblées et des opportunités d’engagement client.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 7774aa82149faff55591303c7ff2fe2c84797a4a
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1111'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Ciblez les promotions et créez des opportunités d’engagement client, et tran
 
 _Marchandisage_ est un terme utilisé dans le commerce de détail pour décrire l&#39;art et la science de l&#39;élaboration du plan d&#39;étage et de la présentation des produits. Vous pouvez considérer la [navigation par catégorie](../catalog/navigation-top.md) comme le plan d’étage du magasin, et la présentation dynamique des produits comme les conditions que vous pouvez appliquer à l’énumération des produits du magasin. Vous pouvez également implémenter des programmes qui stimulent les ventes de produits :
 
-- [Marchandiseur visuel](visual-merchandiser.md) - Ensemble d’outils avancés qui vous permet de positionner des produits et d’appliquer des conditions qui déterminent quels produits apparaissent dans la liste des catégories.
+- [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} [Marchandiseur visuel](visual-merchandiser.md) - Ensemble d’outils avancés qui vous permettent de positionner des produits et d’appliquer des conditions qui déterminent quels produits apparaissent dans la liste des catégories.
 
 - [Registres cadeaux](gift-registries.md) - Donnez à vos clients la possibilité de créer des registres cadeaux pour des occasions spéciales et d&#39;inviter leurs amis et leur famille à acheter leurs cadeaux dans le registre des cadeaux.
 
@@ -27,7 +27,7 @@ _Marchandisage_ est un terme utilisé dans le commerce de détail pour décrire 
 
 >[!TIP]
 >
->Pour en savoir plus sur les recommandations de produits et sur la manière dont elles peuvent vous fournir les informations et le contrôle dont vous avez besoin pour créer la meilleure expérience pour vos acheteurs, consultez le [Guide d’utilisation des recommandations de produits](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
+>Pour en savoir plus sur les recommandations de produits et sur la manière dont elles peuvent vous apporter l’insight et le contrôle dont vous avez besoin pour offrir la meilleure expérience à vos acheteurs, consultez le [Guide d’utilisation des recommandations de produits](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
 
 ## Promotions
 
