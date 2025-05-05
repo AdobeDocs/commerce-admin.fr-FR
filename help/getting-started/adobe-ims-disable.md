@@ -3,7 +3,7 @@ title: Désactivation de l’intégration d’administration Commerce à Adobe I
 description: Suivez cette procédure facultative pour désactiver l’intégration d’administration d’Adobe Commerce avec Adobe IMS.
 exl-id: 0cd02b23-873e-4e65-ae1f-dbe4f7d0a476
 feature: Identity Management
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
 source-wordcount: '319'
@@ -19,7 +19,7 @@ Les commerçants qui ont intégré leur instance Commerce au workflow d’authen
 
 Les déploiements de Commerce reviennent aux politiques de mot de passe et de workflow d’authentification Commerce par défaut une fois l’intégration IMS désactivée. Seuls les workflows utilisateur administrateur sont affectés lorsque cette intégration est activée ou désactivée.
 
-Voir [Votre compte d’administrateur](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html) pour une présentation de la connexion d’administrateur Commerce.
+Voir [Votre compte d’administrateur](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=fr) pour une présentation de la connexion d’administrateur Commerce.
 
 ## Étape 1 : désactivation de l’intégration
 
@@ -43,7 +43,7 @@ Après la désactivation de l’intégration, les utilisateurs administrateurs d
 
 * Les utilisateurs administrateurs de Commerce qui se souviennent de leur mot de passe Commerce préexistant (c’est-à-dire un mot de passe Commerce créé avant l’intégration IMS) peuvent l’utiliser pour se connecter à l’administrateur.
 
-* Les utilisateurs administrateurs de Commerce qui ne disposent pas d’un mot de passe Commerce préexistant ou qui l’ont oublié doivent en créer un nouveau. Pour créer un mot de passe, les utilisateurs administrateurs peuvent utiliser la fonction [!UICONTROL Forgot your password?] de la page de connexion de Commerce. Voir [ Réinitialiser les mots de passe client ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html). Commerce n’accepte pas un champ de mot de passe vide.
+* Les utilisateurs administrateurs de Commerce qui ne disposent pas d’un mot de passe Commerce préexistant ou qui l’ont oublié doivent en créer un nouveau. Pour créer un mot de passe, les utilisateurs administrateurs peuvent utiliser la fonction [!UICONTROL Forgot your password?] de la page de connexion de Commerce. Voir [ Réinitialiser les mots de passe client ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html?lang=fr). Commerce n’accepte pas un champ de mot de passe vide.
 
 ## Après la désactivation de l’intégration
 

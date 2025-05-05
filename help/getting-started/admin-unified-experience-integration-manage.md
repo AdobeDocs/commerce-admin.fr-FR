@@ -5,7 +5,7 @@ hide: false
 hidefromtoc: false
 feature: Integration
 exl-id: 451bf2e1-7c38-40be-a7c1-aaf0fe9f486c
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
 source-wordcount: '531'
@@ -75,7 +75,7 @@ Tous les utilisateurs administrateurs de Commerce doivent disposer d’un compte
 
 - **Compte d’administrateur Commerce**—[Gérez les utilisateurs Commerce Admin](../systems/permissions-users-all.md) à partir de l’administrateur de l’instance Commerce. Le rôle Administrateur doit être attribué aux comptes utilisateur des administrateurs Commerce.
 
-  Les administrateurs système du projet Commerce peuvent utiliser [SSH pour se connecter à l’environnement distant](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment) et utiliser le `admin:user:create` de l’interface de ligne de commande Commerce et les commandes `admin:user:unlock` pour ajouter ou déverrouiller des comptes utilisateur d’administration.
+  Les administrateurs système du projet Commerce peuvent utiliser [SSH pour se connecter à l’environnement distant](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=fr#connect-to-a-remote-environment) et utiliser le `admin:user:create` de l’interface de ligne de commande Commerce et les commandes `admin:user:unlock` pour ajouter ou déverrouiller des comptes utilisateur d’administration.
 
 - **Compte utilisateur Adobe**—Un administrateur de l&#39;organisation Adobe associée à l&#39;instance Commerce doit se connecter au Adobe Admin Console et ajouter l&#39;Adobe ID de chaque administrateur Commerce à l&#39;organisation. Ensuite, ils doivent attribuer des droits et des autorisations de produit pour accéder à l’application Commerce. Voir [ Configuration des utilisateurs d’Adobe Commerce dans Adobe Admin Console](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console).
 
@@ -83,4 +83,4 @@ Les administrateurs qui gèrent la configuration pour l’intégration d’Exper
 
 >[!NOTE]
 >
->Un Adobe ID est un compte créé via Adobe qui est nécessaire pour accéder aux produits et services via Experience Cloud. Les administrateurs Commerce qui ne disposent pas d’Adobe ID peuvent [créer un compte gratuit](https://helpx.adobe.com/manage-account/using/create-update-adobe-id.html) utiliser la même adresse e-mail que celle qu’ils utilisent pour se connecter à l’administrateur Commerce.
+>Un Adobe ID est un compte créé via Adobe qui est nécessaire pour accéder aux produits et services via Experience Cloud. Les administrateurs Commerce qui ne disposent pas d’Adobe ID peuvent [créer un compte gratuit](https://helpx.adobe.com/fr/manage-account/using/create-update-adobe-id.html) utiliser la même adresse e-mail que celle qu’ils utilisent pour se connecter à l’administrateur Commerce.

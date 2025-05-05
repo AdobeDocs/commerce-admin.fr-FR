@@ -20,11 +20,11 @@ Ces notes de mise à jour décrivent les versions d’[!DNL Inventory Management
 
 [!DNL Inventory Management] est un projet spécial d’ingénierie de la communauté Magento Open Source ouvert aux contributeurs. Pour participer et contribuer, consultez le référentiel [Projet GitHub](https://github.com/magento/inventory) et le [wiki](https://github.com/magento/inventory/wiki) pour commencer. Pour discuter du projet, rejoignez le canal [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) ([auto-inscription](https://opensource.magento.com/slack)).
 
-[ Calendrier des versions ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} pour les versions prises en charge et compatibles.
+[ Calendrier des versions ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=fr){target="_blank"} pour les versions prises en charge et compatibles.
 
 ## v1.2.7
 
-Les notes de mise à jour d’[!DNL Inventory Management] 1.2.7 sont incluses dans les notes de mise à jour d’[core 2.4.7](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
+Les notes de mise à jour d’[!DNL Inventory Management] 1.2.7 sont incluses dans les notes de mise à jour d’[core 2.4.7](https://experienceleague.adobe.com/fr/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
 
 ## v1.2.6
 
@@ -116,7 +116,7 @@ Inventory management 1.2.4 (version du module : `magento/inventory-metapackage =
 
 ![Problème résolu](../assets/fix.svg) Les performances se sont améliorées pour les actions de panier et de passage en caisse telles que l’ajout de produits au panier dans les déploiements avec de nombreuses sources d’inventaire (environ 10 000). <!--- MC-42570-->
 
-![Problème résolu](../assets/fix.svg) [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} La commande `bin/magento inventory:reservation:list-inconsistencies` gère désormais correctement les commandes avec des expéditions partielles, même si les réservations sont manquantes dans la base de données et que le cache a été effacé. Auparavant, lorsque cette commande était exécutée avec un cache pré-effacé, Commerce affichait l’erreur suivante : `Area code is not set`. <!--- MC-42142-->
+![Problème résolu](../assets/fix.svg) [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} La commande `bin/magento inventory:reservation:list-inconsistencies` gère désormais correctement les commandes avec des expéditions partielles, même si les réservations sont manquantes dans la base de données et que le cache a été effacé. Auparavant, lorsque cette commande était exécutée avec un cache pré-effacé, Commerce affichait l’erreur suivante : `Area code is not set`. <!--- MC-42142-->
 
 
 ![Problème résolu ](../assets/fix.svg) l’indexation incrémentielle des produits enfants groupés n’entraîne plus l’indexation incorrecte d’autres produits groupés lorsque les enfants sont partagés. <!--- MC-41963-->
@@ -277,7 +277,7 @@ Les nouveaux modules d’[!DNL Inventory Management] 1.1.2 Beta incluent :
 
 [!DNL Inventory Management] 1.1.0 (version du module : `inventory-composer-metapackage = 1.1.0`) est pris en charge et compatible avec la version 2.3.0 d’Adobe Commerce, Adobe Commerce sur les infrastructures cloud et la base de code Magento Open Source. [!DNL Inventory Management] 1.1.1 est publié uniquement sous la forme d’une mise à jour du nom du package, pris en charge par la version 2.3.1 et compatible avec la version 2.3.0 d’Adobe Commerce, Adobe Commerce sur les infrastructures cloud et la base de code Magento Open Source.
 
-![Correction d’un problème](../assets/fix.svg) **Ajout de la prise en charge d’Elasticsearch pour les modes mono et multi-sources** — Vous pouvez désormais configurer et utiliser Elasticsearch avec des stocks personnalisés. Voir [Configuration du service Elasticsearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html){target="_blank"} pour obtenir des informations sur l’installation. <!-- PR https://github.com/magento/inventory/pull/1943 -->
+![Correction d’un problème](../assets/fix.svg) **Ajout de la prise en charge d’Elasticsearch pour les modes mono et multi-sources** — Vous pouvez désormais configurer et utiliser Elasticsearch avec des stocks personnalisés. Voir [Configuration du service Elasticsearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=fr){target="_blank"} pour obtenir des informations sur l’installation. <!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![Correction de problèmes](../assets/fix.svg) Résolution des problèmes de performances avec le Stock par défaut pour augmenter considérablement les performances avec de nombreuses opérations. Les améliorations augmentent les performances pour le mode à source unique, les pages Transférer l&#39;inventaire vers Source, les pages de catégorie Storefront et les calculs de quantité vendable.
 

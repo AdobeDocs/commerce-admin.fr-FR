@@ -45,11 +45,11 @@ En planifiant ces tâches, vous pouvez éviter les verrous qui se produisent lor
 
 **_Pour activer les mises à jour et la réindexation, procédez comme suit_**
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Lorsque [Mode de production](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) (mode par défaut utilisé dans Adobe Commerce sur les infrastructures cloud) est activé, exécutez la commande suivante :
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Lorsque [Mode de production](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=fr#production-mode) (mode par défaut utilisé dans Adobe Commerce sur les infrastructures cloud) est activé, exécutez la commande suivante :
 
 `bin/magento config:set dev/grid/async_indexing 1`
 
-Lorsque le [mode par défaut](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode) est activé, procédez comme suit :
+Lorsque le [mode par défaut](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=fr#default-mode) est activé, procédez comme suit :
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
