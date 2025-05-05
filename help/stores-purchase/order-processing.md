@@ -230,4 +230,4 @@ Dans cette **[!UICONTROL Order Total]** section, procédez comme suit :
 
 Regardez cette vidéo pour en savoir plus sur le traitement et le statut des commandes :
 
->[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410797/?quality=12&learn=on&captions=fre_fr)

@@ -119,7 +119,7 @@ Pour accorder à une personne un accès limité à l’administrateur, la premi�
 
 Regardez cette vidéo pour en savoir plus sur la gestion des rôles utilisateur :
 
->[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443509?quality=12&learn=on&captions=fre_fr)
 
 ## Ressources de rôle
 

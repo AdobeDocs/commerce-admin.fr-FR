@@ -150,4 +150,4 @@ Pour supprimer une règle d’approbation existante, un client peut effectuer le
 
 Regardez cette vidéo pour en savoir plus sur les validations de commande :
 
->[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410765?quality=12&learn=on&captions=fre_fr)

@@ -196,4 +196,4 @@ _&#x200B;**[!UICONTROL Matched Customers]grid &#x200B;** _
 
 Regardez cette vidéo pour une démonstration de la création de segments de clients :
 
->[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410189/?quality=12&learn=on&captions=fre_fr)

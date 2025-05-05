@@ -334,7 +334,7 @@ Les [blocs dynamiques](../content-design/dynamic-blocks.md) associés à la règ
 
 Regardez cette vidéo pour en savoir plus sur la création de règles de prix de panier :
 
->[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410804?quality=12&learn=on&captions=fre_fr)
 
 ## Descriptions des champs
 

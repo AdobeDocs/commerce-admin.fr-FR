@@ -119,4 +119,4 @@ Si le commerçant annule une commande qui a été imputée au crédit de la soci
 
 Découvrez la gestion du crédit de l’entreprise en regardant cette vidéo de démonstration :
 
->[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410759?quality=12&learn=on&captions=fre_fr)

@@ -96,4 +96,4 @@ Les règles fiscales intègrent une combinaison de catégories de produits, de c
 
 Découvrez la gestion des règles de devise et de taxe en regardant cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410211/?quality=12&learn=on&captions=fre_fr)

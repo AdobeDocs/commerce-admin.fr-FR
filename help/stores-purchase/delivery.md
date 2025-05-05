@@ -40,4 +40,4 @@ Si vous disposez d’un compte commercial avec un ou plusieurs [opérateurs pris
 
 Pour en savoir plus sur les méthodes d’expédition et de diffusion, regardez cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410206/?quality=12&learn=on&captions=fre_fr)

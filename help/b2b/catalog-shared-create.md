@@ -111,7 +111,7 @@ Après la création d’un catalogue partagé, il doit être configuré avec la 
 
 Pour voir une démonstration de la gestion de catalogue partagée, regardez cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/344446?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410753?quality=12&learn=on&captions=fre_fr)
 
 ## Référence de page de catalogue partagée
 

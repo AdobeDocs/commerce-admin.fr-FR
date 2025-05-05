@@ -91,4 +91,4 @@ La grille _Appliquer le modèle_ et la grille de page _Modèles_ offrent deux ma
 
 Regardez cette vidéo pour en savoir plus sur les modèles de contenu du Créateur de pages :
 
->[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410842?quality=12&learn=on&captions=fre_fr)

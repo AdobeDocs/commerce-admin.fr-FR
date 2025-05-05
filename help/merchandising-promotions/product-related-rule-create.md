@@ -84,7 +84,7 @@ Le processus de création d’une règle de produit associée est similaire à l
 
 Regardez cette vidéo pour en savoir plus sur la création de règles de produit connexes :
 
->[!VIDEO](https://video.tv.adobe.com/v/343837?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411062?quality=12&learn=on&captions=fre_fr)
 
 ## Descriptions des champs
 

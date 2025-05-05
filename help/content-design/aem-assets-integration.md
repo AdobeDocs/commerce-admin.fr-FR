@@ -40,7 +40,7 @@ Adobe Experience Manager (AEM) L’intégration d’Assets pour Commerce associe
 
 Regardez cette vidéo pour découvrir comment Adobe Commerce et AEM Assets fonctionnent ensemble pour rationaliser les workflows de contenu :
 
->[!VIDEO](https://video.tv.adobe.com/v/3447837)
+>[!VIDEO](https://video.tv.adobe.com/v/3447885?captions=fre_fr)
 
 ## Étape suivante
 
