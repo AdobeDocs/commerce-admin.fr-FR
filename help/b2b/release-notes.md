@@ -1,18 +1,18 @@
 ---
 title: Notes de mise à jour de [!DNL Adobe Commerce B2B]
-description: Consultez les notes de mise à jour pour plus d’informations sur les modifications apportées aux [!DNL Adobe Commerce B2B] versions.
+description: Consultez les notes de mise à jour pour plus d’informations sur les modifications apportées aux versions  [!DNL Adobe Commerce B2B] .
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: de145205e5fcdcb49ca7626b2666e82af102344f
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '8702'
+source-wordcount: '8736'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Commerce B2B] Notes de mise à jour
+# Notes de mise à jour de [!DNL Adobe Commerce B2B]
 
-Ces notes de mise à jour de l’extension B2B capturent les ajouts et correctifs que Adobe a ajoutés au cours d’un cycle de publication, notamment :
+Ces notes de mise à jour pour l’extension B2B capturent les ajouts et correctifs qu’Adobe a ajoutés au cours d’un cycle de publication, notamment :
 
 ![Nouveau](../assets/new.svg) Nouvelles fonctionnalités
 ![Correction d’un problème](../assets/fix.svg) Correctifs et améliorations
@@ -20,18 +20,18 @@ Ces notes de mise à jour de l’extension B2B capturent les ajouts et correctif
 
 >[!NOTE]
 >
->Consultez [Disponibilité du produit](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=fr) pour plus d’informations sur les versions de l’extension Commerce B2B prises en charge pour les versions d’Adobe Commerce disponibles.
+>Consultez [Disponibilité du produit](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) pour plus d’informations sur les versions de l’extension Commerce B2B prises en charge pour les versions d’Adobe Commerce disponibles.
 
 ## B2B 1.5.2
 
 *8 avril 2025*
 
-[!BADGE Versions 2.4.8, 2.4.7-p5 et 2.4.6-p10 prises en charge]{type=Informative tooltip="Pris en charge"} de Adobe Commerce.
-Compatible avec Adobe versions 2.4.7 à 2.4.7-p4, 2.4.6 à 2.4.6-p9
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"} versions 2.4.8, 2.4.7-p5 et 2.4.6-p10 du correctif de sécurité d’Adobe Commerce.
+Compatible avec Adobe Commerce versions 2.4.7 à 2.4.7-p4, 2.4.6 à 2.4.6-p9
 
-La version B2B v1.5.2 comprend des améliorations de qualité et des corrections de bogues.
+La version B2B v1.5.2 comprend des améliorations de qualité et des correctifs de bugs.
 
-### Gestion d’entreprise
+### Gestion d&#39;entreprise
 
 ![New](../assets/new.svg)<!-- B2B-4123 -->Administrators peut désormais gérer plusieurs sociétés à partir d’un seul compte à l’aide du sélecteur de sociétés de storefront. Les principaux avantages sont les suivants :
 
@@ -49,9 +49,9 @@ Cette amélioration s’appuie sur la fonctionnalité d’appartenance à plusie
 
 ![Problème résolu](../assets/fix.svg) La version 1.5.2 de B2B comprend les correctifs suivants pour les devis négociables :
 
-- &#x200B;<!-- B2B-3252 -->Le champ [!UICONTROL Line Item Discount Amount] valide désormais l’entrée pour empêcher la saisie de valeurs de remise négatives.
-- &#x200B;<!-- B2B-3224 -->Correction d’un problème d’expérience utilisateur en raison duquel les notes d’élément de ligne longues étaient tronquées et difficiles à lire pour les clients B2B.
-- &#x200B;<!-- B2B-2865 -->Les clients B2B peuvent désormais spécifier des quantités de produits à l’aide de valeurs décimales (1,5 ou 2,75, par exemple) lors de la création de devis.
+- <!-- B2B-3252 -->Le champ [!UICONTROL Line Item Discount Amount] valide désormais l’entrée pour empêcher la saisie de valeurs de remise négatives.
+- <!-- B2B-3224 -->Correction d’un problème d’expérience utilisateur en raison duquel les notes d’élément de ligne longues étaient tronquées et difficiles à lire pour les clients B2B.
+- <!-- B2B-2865 -->Les clients B2B peuvent désormais spécifier des quantités de produits à l’aide de valeurs décimales (1,5 ou 2,75, par exemple) lors de la création de devis.
 
 ### Modèle de devis
 
@@ -98,7 +98,7 @@ La version B2B v1.5.1 comprend des améliorations de qualité et des correctifs 
 [!BADGE Prise en charge]{type=Informative tooltip="Pris en charge"} versions 2.4.7-p3+ et 2.4.6-p8+ des correctifs de sécurité d’Adobe Commerce.
 Compatible avec les versions Adobe Commerce 2.4.8-beta1, 2.4.7 à 2.4.7-p2, 2.4.6 à 2.4.6-p7.
 
-La version 1.5.0 d’Adobe Commerce B2B est également compatible avec PHP 8.3 et prend en charge le serveur d’applications [GraphQL](https://experienceleague.adobe.com/fr/docs/commerce-operations/performance-best-practices/concepts/application-server).
+La version 1.5.0 d’Adobe Commerce B2B est également compatible avec PHP 8.3 et prend en charge le serveur d’applications [GraphQL](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 La version B2B v1.5.0 comprend de nouvelles fonctionnalités, des améliorations de qualité et des correctifs de bugs.
 
@@ -114,19 +114,19 @@ La version B2B v1.5.0 comprend de nouvelles fonctionnalités, des améliorations
 
 - Triez et filtrez les sociétés selon le nouveau paramètre de *[!UICONTROL Company Type]*. Dans la grille Sociétés, la colonne *[!UICONTROL Company Type]* indique si une société est une société individuelle ou fait partie de la hiérarchie organisationnelle (parent ou enfant).
 
-![Nouveau](../assets/new.svg) **Gérer la configuration de l’entreprise à grande échelle**<!--B2B-2849--> : modifiez rapidement les paramètres de configuration de l’entreprise pour les entreprises sélectionnées à l’aide de l’action globale désormais disponible lors de la *[!UICONTROL Change company setting]* gestion des entreprises à partir de la *[!UICONTROL Companies]* grille ou *[!UICONTROL Company Hierarchy]* . Par exemple, si vous créez un catalogue partagé pour un groupe d’entreprises, vous pouvez modifier la configuration du catalogue partagé en une seule action au lieu de modifier chaque société individuellement.
+![Nouveau](../assets/new.svg) **Gérer la configuration de l’entreprise à grande échelle**<!--B2B-2849--> : modifiez rapidement les paramètres de configuration de l’entreprise pour les entreprises sélectionnées à l’aide de l’action en bloc *[!UICONTROL Change company setting]* désormais disponible lors de la gestion des entreprises à partir de la grille *[!UICONTROL Companies]* ou *[!UICONTROL Company Hierarchy]*. Par exemple, si vous créez un catalogue partagé pour un groupe d’entreprises, vous pouvez modifier la configuration du catalogue partagé en une seule action au lieu de modifier chaque entreprise individuellement.
 
-![Nouvelle](../assets/new.svg) API Les développeurs peuvent utiliser le nouveau point de terminaison `/V1/company/{parentId}/relations` de l’API REST Relations d’entreprise pour créer, afficher et supprimer des affectations d’entreprise. Voir [Gestion des objets](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) de société dans le Guide *du développeur de l’API* Web.
+![Nouveau](../assets/new.svg) Les développeurs d’API peuvent utiliser la nouvelle `/V1/company/{parentId}/relations` de point d’entrée de l’API REST Relations d’entreprise pour créer, afficher et supprimer des affectations d’entreprise. Voir [Gérer les objets d’entreprise](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) dans le *Guide du développeur de l’API Web*.
 
 ### Comptes d’entreprise
 
-![Nouveau](../assets/new.svg)<!--B2B-2828--> **Affectation multisociété**—Simplifiez l&#39;accès au compte d&#39;entreprise pour les utilisateurs de l&#39;entreprise en affectant un utilisateur à plusieurs sociétés. Par exemple, si vous avez un acheteur qui commande à partir de plusieurs sites d&#39;entreprise, créez un compte unique et affectez toutes les entreprises avec lesquelles l&#39;acheteur travaille à ce compte. Ensuite, l’acheteur peut se connecter une fois et basculer entre les comptes d’entreprise en choisissant l’entreprise dans la vitrine.
+![Nouveau](../assets/new.svg)<!--B2B-2828--> **Affectation multisociété**—Simplifiez l&#39;accès au compte d&#39;entreprise pour les utilisateurs de l&#39;entreprise en affectant un utilisateur à plusieurs sociétés. Par exemple, si vous avez un acheteur qui commande à partir de plusieurs sites d&#39;entreprise, créez un compte unique et affectez toutes les entreprises avec lesquelles l&#39;acheteur travaille à ce compte. Ensuite, l’acheteur peut se connecter une seule fois et passer d’un compte d’entreprise à l’autre en choisissant l’entreprise sur le storefront.
 
 >[!NOTE]
 >
->Un utilisateur de société peut être affecté à plusieurs entreprises, mais il ne peut être l’administrateur de l’entreprise que pour une seule entreprise.
+>Un utilisateur d’entreprise peut être affecté à plusieurs sociétés, mais il ne peut être l’administrateur d’une seule société.
 
-![Nouveau](../assets/new.svg) <!--B2B-2747--> **Sélecteur d’étendue de** la société : permet aux utilisateurs de l’entreprise affectés à plusieurs entreprises de changer d’entreprise dans la vitrine. Lorsque la portée est inversée, les données sont mises à jour pour afficher les informations en fonction du nouveau contexte de l’entreprise. Par exemple, si la nouvelle société utilise un catalogue partagé différent, l’utilisateur de la société voit les produits, les prix et d’autres informations basées sur le nouveau catalogue partagé. Le contenu relatif aux commandes, devis et modèles de devis est également mis à jour en fonction du contexte de la société sélectionnée.
+![Nouveau](../assets/new.svg) <!--B2B-2747--> **Sélecteur de portée d&#39;entreprise** : permet aux utilisateurs d&#39;entreprise affectés à plusieurs entreprises de changer d&#39;entreprise sur le storefront. Lorsque l’étendue est changée, les données sont mises à jour pour afficher les informations en fonction du nouveau contexte de l’entreprise. Par exemple, si la nouvelle société utilise un catalogue partagé différent, l’utilisateur de la société voit les produits, les prix et d’autres informations en fonction du nouveau catalogue partagé. Le contenu relatif aux commandes, devis et modèles de devis est également mis à jour en fonction du contexte de la société sélectionnée.
 
 >[!NOTE]
 >Le contenu du panier reflète les articles sélectionnés par le client actuel. Si le client possède un panier actif et sélectionne une autre société, il est invité à mettre à jour le panier pour refléter l’assortiment de produits, le prix et les remises promotionnelles en fonction du nouveau contexte de la société. Les produits qui ne sont pas disponibles dans le catalogue associé à la nouvelle entreprise sont supprimés du panier. Si le produit a un prix ou une disponibilité différents, le panier est mis à jour pour refléter les données disponibles dans le contexte de la société sélectionnée.<!--B2B-4222-->
@@ -164,7 +164,7 @@ Les améliorations apportées aux fonctionnalités de devis aident les acheteurs
 
 - Les commerçants qui cliquent sur le bouton *[!UICONTROL Print]* dans la vue des détails du devis dans l&#39;Administration sont maintenant invités à enregistrer le devis en tant que PDF. Auparavant, les commerçants étaient redirigés vers une page qui contenait des détails sur le devis. <!--ACP2E-1984-->
 
-- Auparavant, lors de l’envoi d’un devis client avec `0` pourcentage et une quantité variable, l’administrateur générait une exception mais enregistrait la quantité. Une fois ce correctif appliqué, pour l’exception `0 percentage` appropriée avec un message sera généré. <!--ACP2E-1742-->
+- Auparavant, lors de l’envoi d’un devis client avec `0` pourcentage et une quantité variable, l’administrateur générait une exception mais enregistrait la quantité. Une fois que ce correctif est appliqué, l’exception appropriée `0 percentage` avec un message est générée. <!--ACP2E-1742-->
 
 - Lors de la négociation du devis, un vendeur peut maintenant spécifier une remise `0%` dans le champ Remise du devis négocié et renvoyer le devis à l&#39;acheteur. Auparavant, si le vendeur saisissait une remise de 0 % et renvoyait le devis à l&#39;acheteur, l&#39;administrateur renvoyait un message d&#39;erreur `Exception occurred during quote sending`. <!--ACP2E-1742-->
 
@@ -182,7 +182,7 @@ Les améliorations apportées aux fonctionnalités de devis aident les acheteurs
 
 ![Nouveau ](../assets/new.svg) compatibilité ajoutée avec les versions 2.4.7-p5+ et 2.4.6-p10+ des correctifs de sécurité d’Adobe Commerce.
 
-![Problème résolu](../assets/fix.svg) Comprend les correctifs de sécurité documentés dans [Bulletin de sécurité APSB25-26](https://helpx.adobe.com/fr/security/products/magento/apsb25-26.html).
+![Problème résolu](../assets/fix.svg) Comprend les correctifs de sécurité documentés dans [Bulletin de sécurité APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
 
 {{b2b-compatibility}}
 
@@ -194,7 +194,7 @@ Les améliorations apportées aux fonctionnalités de devis aident les acheteurs
 
 ![Nouveau ](../assets/new.svg) compatibilité ajoutée avec les versions 2.4.7-p4+ et 2.4.6-p9+ des correctifs de sécurité d’Adobe Commerce.
 
-![Problème résolu](../assets/fix.svg) Comprend les correctifs de sécurité documentés dans [Bulletin de sécurité APSB25-08](https://helpx.adobe.com/fr/security/products/magento/apsb25-08.html).
+![Problème résolu](../assets/fix.svg) Comprend les correctifs de sécurité documentés dans [Bulletin de sécurité APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
 
 {{b2b-compatibility}}
 
@@ -206,7 +206,7 @@ Les améliorations apportées aux fonctionnalités de devis aident les acheteurs
 
 ![Nouveau ](../assets/new.svg) compatibilité ajoutée avec les versions 2.4.7-p3+ et 2.4.6-p8+ des correctifs de sécurité d’Adobe Commerce.
 
-![Problème](../assets/fix.svg) corrigé Inclut les correctifs de sécurité documentés dans [le Bulletin de sécurité APSB24-73](https://helpx.adobe.com/fr/security/products/magento/apsb24-73.html).
+![Problème résolu](../assets/fix.svg) Comprend les correctifs de sécurité documentés dans [Bulletin de sécurité APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 {{b2b-compatibility}}
 
@@ -224,9 +224,9 @@ Les améliorations apportées aux fonctionnalités de devis aident les acheteurs
 
 *9 août 2024*
 
-[!BADGE Correctifs de sécurité Adobe 2.4.7-p1+ et 2.4.6-p6+ pris en charge]{type=Informative tooltip="Pris en charge"} .
+[!BADGE Prise en charge]{type=Informative tooltip="Pris en charge"} versions des correctifs de sécurité Adobe Commerce 2.4.7-p1+ et 2.4.6-p6+.
 
-![Nouvelle](../assets/new.svg) compatibilité avec les correctifs de sécurité Adobe Commerce 2.4.7-p1+ et 2.4.6-p6+.
+![Nouveau ](../assets/new.svg) compatibilité ajoutée avec les versions de correctifs de sécurité Adobe Commerce 2.4.7-p1+ et 2.4.6-p6+.
 
 {{b2b-compatibility}}
 
@@ -242,13 +242,13 @@ La version B2B v1.4.2 comprend des améliorations de qualité et des correctifs 
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B version 1.4.2+ est compatible avec PHP 8.2. Si vous mettez à niveau l’instance Commerce vers la version 2.4.7+, assurez-vous que l’instance utilise PHP version 8.2 pour maintenir la compatibilité avec la version B2B d’Adobe Commerce. En outre, B2B 1.4.2+ ne prend actuellement pas en charge le [serveur d’applications GraphQL](https://experienceleague.adobe.com/fr/docs/commerce-operations/performance-best-practices/concepts/application-server).
+>Adobe Commerce B2B version 1.4.2+ est compatible avec PHP 8.2. Si vous mettez à niveau l’instance Commerce vers la version 2.4.7+, assurez-vous que l’instance utilise PHP version 8.2 pour maintenir la compatibilité avec la version B2B d’Adobe Commerce. En outre, B2B 1.4.2+ ne prend actuellement pas en charge le [serveur d’applications GraphQL](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 ## B2B v1.4.1
 
 *7 août 2023*
 
-[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=fr). Compatible avec Adobe Commerce 2.4.7-beta1.
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible avec Adobe Commerce 2.4.7-beta1.
 
 La version B2B v1.4.1 comprend des améliorations de qualité et des correctifs de bugs.
 
@@ -266,19 +266,19 @@ La version B2B v1.4.1 comprend des améliorations de qualité et des correctifs 
 
 *13 juin 2023*
 
-[!BADGE Prise en charge de]{type=Informative tooltip="Pris en charge"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=fr). Compatible avec Adobe Commerce 2.4.7-beta1
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible avec Adobe Commerce 2.4.7-beta1
 
-Cette version inclut de nouvelles fonctionnalités et améliorations pour les devis négociables B2B et plusieurs corrections de bogues.
+Cette version comprend de nouvelles fonctionnalités et améliorations pour les devis négociables B2B et plusieurs correctifs de bogues.
 
-![Nouvelle](../assets/new.svg) compatibilité avec Adobe Commerce 2.4.7-beta1.
+![Nouveau](../assets/new.svg) Ajout de la compatibilité avec Adobe Commerce 2.4.7-bêta1.
 
-![Nouveaux](../assets/new.svg) **devis** initiés par le vendeur : les vendeurs peuvent désormais initier un devis pour un acheteur directement à partir des grilles Devis et Client dans l’Administration. Cette fonctionnalité rationalise le processus de devis et réduit la complexité pour les clients. Si un client n&#39;a pas lancé de commande, un vendeur peut rapidement créer un devis au nom du client et lancer le processus de négociation. Auparavant, les devis ne pouvaient être créés qu&#39;à partir du storefront par l&#39;acheteur ou par un vendeur connecté en tant que client.
+![Nouveau](../assets/new.svg) **Devis initié par le vendeur** : les vendeurs peuvent désormais initier un devis pour un acheteur directement à partir des grilles Devis et Client de l&#39;administrateur. Cette fonctionnalité simplifie le processus de devis et réduit la complexité pour les clients. Si un client n&#39;a pas lancé de commande, un vendeur peut rapidement créer un devis au nom du client et lancer le processus de négociation. Auparavant, les devis ne pouvaient être créés qu&#39;à partir du storefront par l&#39;acheteur ou par un vendeur connecté en tant que client.
 
 ![Nouveau](../assets/new.svg) **Remises et négociation d&#39;article de ligne**—<!--B2B-2440--> Dans un devis, les acheteurs et les vendeurs B2B peuvent désormais négocier au niveau de l&#39;article de ligne, en appliquant des remises et en échangeant des notes jusqu&#39;à ce qu&#39;un accord soit conclu. La création et les mises à jour de notes sont incluses dans l&#39;historique des lignes et des devis pour suivre la communication. Auparavant, les acheteurs et les vendeurs ne pouvaient échanger que des billets et appliquer des remises au niveau du devis.
 
 ![Problème résolu](../assets/fix.svg) Adobe Commerce affiche désormais les informations correctes lors du paiement lorsque l&#39;option Commandes est activée et qu&#39;un devis virtuel créé avec l&#39;option de paiement PayPal a été sélectionné. Auparavant, les totaux s’affichaient en tant que zéro dans ces conditions.
 
-![Problème résolu ](../assets/fix.svg) les erreurs de validation <!--ACP2E-1504--> ne se produisent plus lorsque vous tentez de sauver une entreprise dont la limite de crédit dépasse 999. Auparavant, pour les limites de crédit d’entreprise supérieures à 999, Adobe commerce inscrivait un séparateur de virgules, ce qui provoquait une erreur de validation qui empêchait l’enregistrement des mises à jour.
+![Problème résolu ](../assets/fix.svg) les erreurs de validation <!--ACP2E-1504--> ne se produisent plus lorsque vous tentez de sauver une entreprise dont la limite de crédit dépasse 999. Auparavant, pour les limites de crédit d’entreprise supérieures à 999, Adobe commerce insérait un séparateur à virgules, ce qui provoquait une erreur de validation qui empêchait l’enregistrement des mises à jour.
 
 ![Problème résolu](../assets/fix.svg) <!--ACP2E-1474--> L&#39;adresse d&#39;expédition sélectionnée reste inchangée lorsque vous passez une commande avec un devis négociable. Auparavant, lorsque vous passiez une commande, l’adresse de livraison sélectionnée était remplacée par l’adresse de livraison par défaut.
 
@@ -292,7 +292,7 @@ Cette version inclut de nouvelles fonctionnalités et améliorations pour les de
 
 ### Problème connu
 
-Si vous installez ou mettez à niveau B2B 1.4.0 sur [Adobe Commerce version 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=fr), l’erreur suivante se produit :
+Si vous installez ou mettez à niveau B2B 1.4.0 sur [Adobe Commerce version 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html), l’erreur suivante se produit :
 
 ```
 Your requirements could not be resolved to an installable set of packages.
@@ -304,7 +304,7 @@ Your requirements could not be resolved to an installable set of packages.
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
-Vous pouvez résoudre ce problème en ajoutant des dépendances manuelles pour le package de sécurité B2B en ajoutant des dépendances manuelles pour le package de sécurité B2B avec une [ balise de stabilité ](https://getcomposer.org/doc/04-schema.md#package-links). Pour obtenir des instructions, consultez la [Base de connaissances Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html?lang=fr).
+Vous pouvez résoudre ce problème en ajoutant des dépendances manuelles pour le package de sécurité B2B en ajoutant des dépendances manuelles pour le package de sécurité B2B avec une [ balise de stabilité ](https://getcomposer.org/doc/04-schema.md#package-links). Pour obtenir des instructions, consultez la [Base de connaissances Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
 
 ## B2B v1.3.5-p10
 
@@ -314,7 +314,7 @@ Vous pouvez résoudre ce problème en ajoutant des dépendances manuelles pour l
 
 ![Nouveau](../assets/new.svg) Ajout de la compatibilité avec les versions des correctifs de sécurité Adobe Commerce 2.4.6-p10.
 
-![Problème résolu](../assets/fix.svg) Comprend les correctifs de sécurité documentés dans [Bulletin de sécurité APSB25-26](https://helpx.adobe.com/fr/security/products/magento/apsb25-26.html).
+![Problème résolu](../assets/fix.svg) Comprend les correctifs de sécurité documentés dans [Bulletin de sécurité APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
 
 ## B2B v1.3.5-p9
 
@@ -324,7 +324,7 @@ Vous pouvez résoudre ce problème en ajoutant des dépendances manuelles pour l
 
 ![Nouveau](../assets/new.svg) Ajout de la compatibilité avec les versions des correctifs de sécurité Adobe Commerce 2.4.6-p9.
 
-![Problème](../assets/fix.svg) corrigé Inclut les correctifs de sécurité documentés dans [le Bulletin de sécurité APSB25-08](https://helpx.adobe.com/fr/security/products/magento/apsb25-08.html).
+![Problème résolu](../assets/fix.svg) Comprend les correctifs de sécurité documentés dans [Bulletin de sécurité APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
 
 ## B2B v1.3.5-p8
 
@@ -334,15 +334,15 @@ Vous pouvez résoudre ce problème en ajoutant des dépendances manuelles pour l
 
 ![Nouveau](../assets/new.svg) Ajout de la compatibilité avec les versions des correctifs de sécurité Adobe Commerce 2.4.6-p8.
 
-![Problème résolu](../assets/fix.svg) Comprend les correctifs de sécurité documentés dans [Bulletin de sécurité APSB24-73](https://helpx.adobe.com/fr/security/products/magento/apsb24-73.html).
+![Problème résolu](../assets/fix.svg) Comprend les correctifs de sécurité documentés dans [Bulletin de sécurité APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 ## B2B v1.3.5-p7
 
 *9 août 2024*
 
-[!BADGE Correctifs de sécurité Adobe 2.4.6-p7+ pris en charge]{type=Informative tooltip="Pris en charge"} .
+[!BADGE Prise en charge]{type=Informative tooltip="Pris en charge"} versions des correctifs de sécurité Adobe Commerce 2.4.6-p7+.
 
-![Nouvelle](../assets/new.svg) compatibilité avec les versions de correctif de sécurité Adobe Commerce 2.4.6-p7.
+![Nouveau](../assets/new.svg) Ajout de la compatibilité avec les versions des correctifs de sécurité Adobe Commerce 2.4.6-p7.
 
 ## B2B v1.3.5
 
@@ -356,7 +356,7 @@ Publication de la version 1.3.5-p1 de ![New](../assets/new.svg) B2B pour assurer
 
 >[!NOTE]
 >
->Après avoir mis à niveau Commerce de la version 2.4.6 vers la [dernière version](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=fr#2.4.6), veillez à effectuer la mise à jour vers la version de correctif B2B 1.3.5 prise en charge. Vous pouvez également mettre à niveau l’extension B2B de la version 1.3.5 vers la version 1.4.0 ou une version ultérieure pour obtenir les dernières fonctionnalités.
+>Après avoir mis à niveau Commerce de la version 2.4.6 vers la [dernière version](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6), veillez à effectuer la mise à jour vers la version de correctif B2B 1.3.5 prise en charge. Vous pouvez également mettre à niveau l’extension B2B de la version 1.3.5 vers la version 1.4.0 ou une version ultérieure pour obtenir les dernières fonctionnalités.
 
 ![Nouveau](../assets/new.svg) Ajout de la prise en charge d’Adobe Commerce 2.4.6.
 
@@ -368,27 +368,27 @@ Publication de la version 1.3.5-p1 de ![New](../assets/new.svg) B2B pour assurer
 
 ![Correction d’un problème](../assets/fix.svg) <!--- ACP2E-1236--> La désactivation de la fonctionnalité de catalogue partagé sur une portée spécifique fonctionne désormais correctement. Auparavant, Adobe Commerce définissait une portée non valide lorsqu’un commerçant enregistrait la configuration de catalogue partagé.
 
-![Correction d’un problème](../assets/fix.svg) <!--- ACP2E-1203--> les utilisateurs administrateurs peuvent désormais enregistrer les valeurs d’attributs personnalisés du client pour les utilisateurs de l’entreprise. Auparavant, il n’était pas possible d’enregistrer les attributs personnalisés du client pour les utilisateurs de l’entreprise.
+![Correction d’un problème](../assets/fix.svg) <!--- ACP2E-1203--> les utilisateurs administrateurs peuvent désormais enregistrer les valeurs d’attributs personnalisés du client pour les utilisateurs de l’entreprise. Auparavant, les attributs personnalisés du client pour les utilisateurs de l’entreprise ne pouvaient pas être enregistrés.
 
-![Problème](../assets/fix.svg) <!--- ACP2E-1221--> corrigé Les problèmes de performances sont résolus avec la validation des autorisations d’entreprise fournies via GraphQL lorsque de nombreuses autorisations d’entreprise sont déjà attribuées.
+![Problème résolu](../assets/fix.svg) <!--- ACP2E-1221--> Les problèmes de performances sont résolus avec la validation des autorisations d’entreprise fournies via GraphQL lorsque de nombreuses autorisations d’entreprise sont déjà attribuées.
 
-![Correction d’un problème](../assets/fix.svg) <!--- ACP2E-1242--> Adobe Commerce ne renvoie plus d’erreur sur la page du panier lorsque la commande rapide est utilisée pour ajouter un produit dans une quantité supérieure au stock disponible.
+![Problème résolu](../assets/fix.svg) <!--- ACP2E-1242--> Adobe Commerce ne renvoie plus d’erreur sur la page du panier lorsque la commande rapide est utilisée pour ajouter un produit dans une quantité qui dépasse le stock disponible.
 
 ![Correction d’un problème](../assets/fix.svg) <!--- ACP2E-1090--> Les performances des opérations d’autorisations d’`SELECT` société se sont améliorées.
 
 ![Problème résolu](../assets/fix.svg) <!--- ACP2E-2456--> requêtes Catégorie renvoient désormais les prix des produits en fonction des paramètres de configuration du magasin lorsqu’aucune autorisation de catégorie n’est explicitement définie sur la catégorie faisant l’objet de la requête.
 
-![Problème résolu](../assets/fix.svg) <!--- ACP2E-6829--> Le bouton **[!UICONTROL Place Order]** fonctionne désormais comme prévu lors de l&#39;exécution d&#39;un achat avec une demande de devis approuvée. Les problèmes liés au plugin de devis `negotiableQuoteCheckoutSessionPlugin` négociable ont été résolus.
+![Problème résolu](../assets/fix.svg) <!--- ACP2E-6829--> Le bouton **[!UICONTROL Place Order]** fonctionne désormais comme prévu lors de l&#39;exécution d&#39;un achat avec une demande de devis approuvée. Les problèmes liés au module externe de `negotiableQuoteCheckoutSessionPlugin` de devis négociable ont été résolus.
 
 ## B2B v1.3.4-p12
 
 *8 avril 2025*
 
-[!BADGE Prise en charge de]{type=Informative tooltip="Pris en charge"} Adobe Commerce 2.4.0 et versions plus récentes.
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"} Adobe Commerce 2.4.0 et versions plus récentes
 
-![Nouvelle](../assets/new.svg) prise en charge de Adobe Commerce 2.4.5-p12.
+![Nouveau](../assets/new.svg) Ajout de la prise en charge d’Adobe Commerce 2.4.5-p12.
 
-![Problème résolu](../assets/fix.svg) Comprend les correctifs de sécurité documentés dans [Bulletin de sécurité APSB25-26](https://helpx.adobe.com/fr/security/products/magento/apsb25-26.html).
+![Problème résolu](../assets/fix.svg) Comprend les correctifs de sécurité documentés dans [Bulletin de sécurité APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
 
 ## B2B v1.3.4-p11
 
@@ -398,7 +398,7 @@ Publication de la version 1.3.5-p1 de ![New](../assets/new.svg) B2B pour assurer
 
 ![Nouveau](../assets/new.svg) Ajout de la prise en charge d’Adobe Commerce 2.4.5-p11.
 
-![Problème résolu](../assets/fix.svg) Comprend les correctifs de sécurité documentés dans [Bulletin de sécurité APSB25-08](https://helpx.adobe.com/fr/security/products/magento/apsb25-08.html).
+![Problème résolu](../assets/fix.svg) Comprend les correctifs de sécurité documentés dans [Bulletin de sécurité APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
 
 ## B2B v1.3.4-p10
 
@@ -408,7 +408,7 @@ Publication de la version 1.3.5-p1 de ![New](../assets/new.svg) B2B pour assurer
 
 ![Nouveau](../assets/new.svg) Ajout de la prise en charge d’Adobe Commerce 2.4.5-p10.
 
-![Problème résolu](../assets/fix.svg) Comprend les correctifs de sécurité documentés dans [Bulletin de sécurité APSB24-73](https://helpx.adobe.com/fr/security/products/magento/apsb24-73.html).
+![Problème résolu](../assets/fix.svg) Comprend les correctifs de sécurité documentés dans [Bulletin de sécurité APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 ## B2B v1.3.4
 
@@ -436,7 +436,7 @@ Publication de la version 1.3.5-p1 de ![New](../assets/new.svg) B2B pour assurer
 
 ![Correction d’un problème](../assets/fix.svg) <!--- ACP2E-210 -->Ajout d’un plug-in avant l’appel `collectQuoteTotals` pour s’assurer que les crédits de magasin ne sont appliqués qu’une seule fois.
 
-![Problème](../assets/fix.svg) <!--- ACP2E-665 -->corrigé Les clients sont maintenant redirigés vers la page de connexion lorsque leur compte est supprimé par un administrateur de l’administrateur. Auparavant, Adobe Commerce générait une erreur. Le bloc de code du module externe (`SessionPlugin`) se trouve maintenant à l’intérieur du `try…catch` bloc. Auparavant, ce code n’était pas encapsulé dans le bloc générique de gestion des exceptions.
+![Correction d’un problème](../assets/fix.svg) <!--- ACP2E-665 -->les clients sont désormais redirigés vers la page de connexion lorsque leur compte est supprimé par un administrateur de l’administration. Auparavant, Adobe Commerce générait une erreur. Le bloc de code du plug-in (`SessionPlugin`) se trouve désormais dans le bloc `try…catch`. Auparavant, ce code n’était pas encapsulé dans le bloc générique de gestion des exceptions.
 
 ![Problème résolu](../assets/fix.svg) <!--- ACP2E-661 --> Sur la page Commande rapide en mode mobile, si vous appuyez sur **Entrée** après avoir saisi un nom de produit ou un SKU valide, l’acheteur accède au champ suivant comme prévu.
 
@@ -470,19 +470,19 @@ Publication de la version 1.3.5-p1 de ![New](../assets/new.svg) B2B pour assurer
 
 ![Correction d’un problème](../assets/fix.svg) <!--- MC-42203--> Vous pouvez désormais mettre à jour un fichier pour un attribut de client lors de la création d’une entreprise. Auparavant, lorsque vous tentiez de créer une société avec une pièce jointe de type `File`, Adobe Commerce n’effectuait pas cette création et consignait cette erreur dans le journal des exceptions : `Something went wrong while saving file`.
 
-![Correction d’un problème](../assets/fix.svg) <!--- MC-42242--> Vous pouvez désormais créer une entreprise avec un compte client qui possède un attribut personnalisé de type (`File`) ou (`Image`). Auparavant, si le compte disposait de l’une de ces options personnalisables, le chargeur de pages de modification de l’entreprise n’était pas résolu, ce qui empêchait la modification des détails de l’entreprise.
+![Correction d’un problème](../assets/fix.svg) <!--- MC-42242--> Vous pouvez désormais créer une entreprise avec un compte client qui possède un attribut personnalisé de type (`File`) ou (`Image`). Auparavant, si le compte disposait de l’une de ces options personnalisables, le chargeur de page de modification d’entreprise ne se résolvait pas, ce qui empêchait la modification des détails de l’entreprise.
 
-![Problème](../assets/fix.svg) <!--- MC-42268--> corrigé La `products` requête renvoie désormais un champ précis `total_count` lorsque le catalogue partagé est activé.
+![Problème résolu](../assets/fix.svg) <!--- MC-42268--> La requête `products` renvoie désormais un champ `total_count` précis lorsque le catalogue partagé est activé.
 
-![Problème](../assets/fix.svg) <!--- MC-42203-->  corrigé Vous pouvez désormais mettre à jour un fichier pour un attribut client lors de la création d’une société. Auparavant, lorsque vous essayiez de créer une société avec une pièce jointe de type `File`, Adobe Commerce n’a pas créé la société et a consigné cette erreur dans le journal des exceptions : `Something went wrong while saving file`.
+![Correction d’un problème](../assets/fix.svg) <!--- MC-42203--> Vous pouvez désormais mettre à jour un fichier pour un attribut de client lors de la création d’une entreprise. Auparavant, lorsque vous tentiez de créer une société avec une pièce jointe de type `File`, Adobe Commerce n’effectuait pas cette création et consignait cette erreur dans le journal des exceptions : `Something went wrong while saving file`.
 
-![Correction d’un problème](../assets/fix.svg) <!--- MC-43178--> les pages _Configuration de l’entreprise_ et _Créer une entreprise_ fonctionnent désormais comme prévu après la désactivation d’une méthode d’expédition en ligne. La vérification a été ajoutée pour empêcher toute tentative de traitement des modules d’expédition désactivés. Auparavant, Adobe Commerce affichait cette erreur : `Type Error occurred when creating object: Magento\CompanyShipping\Model\Source\ShippingMethod, Too few arguments to function Magento\CompanyShipping\Model\Source\ShippingMethod::__construct(), 1 passed in /var/www/html/elmtup/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 2 expected`.
+![Correction d’un problème](../assets/fix.svg) <!--- MC-43178--> les pages _Configuration de l’entreprise_ et _Créer une entreprise_ fonctionnent désormais comme prévu après la désactivation d’une méthode d’expédition en ligne. Une vérification a été ajoutée pour empêcher la tentative de traitement des modules d&#39;expédition désactivés. Auparavant, Adobe Commerce affichait cette erreur : `Type Error occurred when creating object: Magento\CompanyShipping\Model\Source\ShippingMethod, Too few arguments to function Magento\CompanyShipping\Model\Source\ShippingMethod::__construct(), 1 passed in /var/www/html/elmtup/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 2 expected`.
 
 ![Problème résolu](../assets/fix.svg) <!--- MC-42214--> La page _Catégorie_ affiche désormais des données de produit cohérentes pendant la génération des autorisations lors de l’indexation partielle. Un nouvel indexeur partiel pour les autorisations de répertoire a été ajouté à ce processus. Auparavant, les données affichées pendant l’exécution de l’indexeur étaient incorrectes.
 
-![Problème](../assets/fix.svg) <!--- MC-42567--> résolu La `categoryList` requête renvoie désormais le nombre correct de produits lorsque les autorisations de catalogue sont utilisées et que les produits sont affectés à un catalogue partagé.
+![Problème résolu](../assets/fix.svg) <!--- MC-42567--> La requête `categoryList` renvoie désormais le nombre correct de produits lorsque des autorisations de catalogue sont utilisées et que des produits sont affectés à un catalogue partagé.
 
-![Problème](../assets/fix.svg) <!--- MC-42528--> corrigé : La `categoryList` requête respecte désormais les permissions des catégories et renvoie uniquement les catégories autorisées. Auparavant, elle renvoyait toutes les catégories affectées et non attribuées.
+![Problème résolu](../assets/fix.svg) <!--- MC-42528--> La requête `categoryList` respecte désormais les autorisations de catégorie et renvoie uniquement les catégories autorisées. Auparavant, elle renvoyait toutes les catégories affectées et non affectées.
 
 ![Problème résolu](../assets/fix.svg) <!--- MC-42399--> La demande de `rest/V1/company/{id}` renvoie désormais `is_purchase_order_enabled` valeurs d’attribut comme prévu.
 
@@ -494,7 +494,7 @@ Publication de la version 1.3.5-p1 de ![New](../assets/new.svg) B2B pour assurer
 
 ![Correction d’un problème](../assets/fix.svg) <!--- ACP2E-194--> les opérations d’enregistrement de catalogue partagé ont été optimisées pour s’exécuter plus rapidement. Auparavant, l’enregistrement d’un catalogue partagé avec de nombreux groupes de clients pouvait prendre plusieurs minutes.
 
-![Problème résolu](../assets/fix.svg) <!--- MC-42240--> Adobe Commerce supprime désormais toutes les autorisations de sous-catégorie de la table `sharedcatalog_category_permissions` lorsque la catégorie parent est supprimée. Auparavant, seules les données de catégorie parent étaient supprimées.
+![Problème résolu](../assets/fix.svg) <!--- MC-42240--> Adobe Commerce supprime désormais toutes les autorisations de sous-catégorie de la table `sharedcatalog_category_permissions` lorsque la catégorie parent est supprimée. Auparavant, seules les données de la catégorie parente étaient supprimées.
 
 ## B2B v1.3.2
 
@@ -510,11 +510,11 @@ Publication de la version 1.3.5-p1 de ![New](../assets/new.svg) B2B pour assurer
 
 ### Société
 
-![Problème](../assets/fix.svg) <!--- MC-41542--> corrigé Le champ de liste déroulante Pays de la page Créer un nouveau compte d’entreprise ne répertorie plus les valeurs d’options vides. Auparavant, les deux premières valeurs d’option et le code `AN` pays étaient vides.
+![Problème résolu](../assets/fix.svg) <!--- MC-41542--> le champ déroulant Pays de la page Créer un nouveau compte d’entreprise ne répertorie plus les valeurs d’option vides. Auparavant, les deux premières valeurs d’option et le code pays `AN` étaient vides.
 
 ![Problème résolu](../assets/fix.svg) <!--- MC-41260--> Cliquez sur le bouton **[!UICONTROL Return]** d’une commande créée par un utilisateur de l’entreprise pour rediriger un utilisateur administrateur vers la page Créer un retour comme prévu. Auparavant, l’administrateur était redirigé vers la page Historique des commandes.
 
-![Correction du problème](../assets/fix.svg) <!--- MC-40798--> Adobe Commerce n’échoue plus avec une erreur de mémoire insuffisante lors de l’exécution de la méthode `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` lors de l’`bin/magento setup:upgrade`. Auparavant, Adobe Commerce n’utilisait pas la taille de lot pour la collection lors de l’initialisation des autorisations, mais chargeait à la place une collection de tous les rôles de société.
+![Correction du problème](../assets/fix.svg) [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} <!--- MC-40798--> Adobe Commerce n’échoue plus avec une erreur de mémoire insuffisante lors de l’exécution de la méthode `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` pendant l’`bin/magento setup:upgrade`. Auparavant, Adobe Commerce n’utilisait pas la taille de lot pour la collection lors de l’initialisation des autorisations, mais chargeait à la place une collection de tous les rôles de société.
 
 ![Problème résolu](../assets/fix.svg) <!--- MC-40551--> utilisateurs de la société peuvent désormais modifier et mettre à jour les valeurs d’attribut personnalisé du client. Auparavant, ces attributs ne se liaient pas correctement au formulaire de création et de modification d’utilisateur. Un utilisateur de société peut saisir différentes valeurs d’attribut, mais Adobe Commerce ne les a pas enregistrées correctement.
 
@@ -562,11 +562,11 @@ Publication de la version 1.3.5-p1 de ![New](../assets/new.svg) B2B pour assurer
 
 ![Problème résolu](../assets/fix.svg) <!--- MC-39620--> le composant d’interface utilisateur de l’adresse de facturation dans le module Bon de commande utilise désormais correctement l’adresse du devis lorsque le Gestionnaire de balises Google est activé. Auparavant, une erreur JavaScript s’était produite sur la page de paiement.
 
-### Listes de demandes
+### Listes de demandes d&#39;approvisionnement
 
-![Problème](../assets/fix.svg) <!--- MC-40426--> corrigé Les marchands peuvent désormais utiliser le point de terminaison POST `rest/all/V1/requisition_lists` pour créer une liste de demandes pour un client. Auparavant, Adobe Commerce générait cette erreur 400 lorsque vous tentiez de créer une liste de demandes : `Could not save Requisition List`.
+![Correction d’un problème](../assets/fix.svg) <!--- MC-40426--> Les commerçants peuvent désormais utiliser le point d’entrée de `rest/all/V1/requisition_lists` POST pour créer une liste de demandes d’approvisionnement pour un client. Auparavant, Adobe Commerce générait cette erreur 400 lorsque vous tentiez de créer une liste de demandes d’approvisionnement : `Could not save Requisition List`.
 
-![Problème](../assets/fix.svg) <!--- MC-41123--> corrigé Le **[!UICONTROL Add to Requisition List]** bouton apparaît désormais pour les produits en stock d’un panier lorsque celui-ci contient également des produits en rupture de stock. Auparavant, si un panier contenait deux produits, dont l’un était en rupture de stock, le bouton n’apparaissait _[!UICONTROL Add to Requisition List]_&#x200B;pour aucun des produits.
+![Problème résolu](../assets/fix.svg) <!--- MC-41123--> Le bouton **[!UICONTROL Add to Requisition List]** s’affiche désormais pour les produits en stock d’un panier lorsque le panier contient également des produits en rupture de stock. Auparavant, si un panier contenait deux produits, dont l’un était en rupture de stock, le bouton _[!UICONTROL Add to Requisition List]_ne s’affichait pour aucun d’eux.
 
 ![Correction d&#39;un problème](../assets/fix.svg) <!--- MC-40877--> Vous pouvez désormais utiliser l&#39;API REST pour ajouter un produit à une liste de demandes d&#39;approvisionnement.
 
@@ -574,9 +574,9 @@ Publication de la version 1.3.5-p1 de ![New](../assets/new.svg) B2B pour assurer
 
 ![Problème résolu](../assets/fix.svg) <!--- MC-39580--> Adobe Commerce ne renvoie plus d’erreur irrécupérable lorsque vous modifiez un produit groupé à partir d’une liste de demandes d’approvisionnement.
 
-![Problème](../assets/fix.svg) <!--- MC-40454--> corrigé Adobe Commerce affiche désormais le prix correct du produit lorsque vous ajoutez un produit avec une option `(File)` personnalisable à une liste de souhaits à partir d’une liste de demandes. Le lien vers le fichier téléchargé est également visible comme prévu. Auparavant, Adobe Commerce affichait des prix de produits incorrects et n’affichait pas le lien vers le fichier.
+![Problème résolu](../assets/fix.svg) <!--- MC-40454--> Adobe Commerce affiche désormais le prix correct du produit lorsque vous ajoutez un produit avec une option personnalisable `(File)` à une liste de souhaits à partir d&#39;une liste de demandes d&#39;approvisionnement. Le lien vers le fichier chargé est également visible comme prévu. Auparavant, Adobe Commerce affichait des prix de produit incorrects et n’affichait pas le lien vers le fichier .
 
-![Problème](../assets/fix.svg) <!--- MC-36383--> corrigé Les produits avec une option `(File)` personnalisable peuvent désormais être ajoutés à un panier à partir d’une liste de demandes.
+![Problème résolu](../assets/fix.svg) <!--- MC-36383--> produits dotés d&#39;une option personnalisable `(File)` peuvent désormais être ajoutés à un panier à partir d&#39;une liste de demandes d&#39;approvisionnement.
 
 ### Catalogue partagé
 
@@ -586,9 +586,9 @@ Publication de la version 1.3.5-p1 de ![New](../assets/new.svg) B2B pour assurer
 
 ![Problème résolu](../assets/fix.svg) <!--- MC-40779--> Adobe Commerce affiche désormais correctement le nombre de produits dans les filtres de navigation superposés dans les résultats de recherche. Auparavant, un module externe pour la page Résultats de la recherche n’utilisait pas Elasticsearch, mais envoyait une nouvelle requête à la base de données.
 
-![Problème](../assets/fix.svg) <!--- MC-39978--> corrigé Adobe Commerce ne supprime plus les prix des catégories lorsqu’un marchand supprime tous les produits d’un catalogue partagé par défaut.
+![Problème résolu](../assets/fix.svg) <!--- MC-39978--> Adobe Commerce ne supprime plus les prix de niveau lorsqu’un commerçant supprime tous les produits d’un catalogue partagé par défaut.
 
-![Problème résolu](../assets/fix.svg) <!--- MC-39802--> Les filtres sont désormais filtrés par la catégorie actuelle et s’affichent correctement sur toutes les pages lorsque les catalogues partagés sont activés. Auparavant, les filtres étaient mal calculés pour la page actuelle uniquement et n’étaient pas filtrés par la catégorie actuelle.
+![Problème résolu](../assets/fix.svg) <!--- MC-39802--> Les filtres sont désormais filtrés par la catégorie actuelle et s’affichent correctement sur toutes les pages lorsque les catalogues partagés sont activés. Auparavant, les filtres étaient calculés par erreur pour la page active uniquement et n’étaient pas filtrés par la catégorie active.
 
 ![Problème résolu](../assets/fix.svg) <!--- MC-39522--> La requête de `products` GraphQL ne renvoie plus la plage de prix et la catégorie d’un produit pour les produits qui ne sont pas affectés à un catalogue partagé lorsque le catalogue partagé est activé. Auparavant, la requête renvoyait les agrégations du produit, même si le produit lui-même n’était pas renvoyé dans le tableau `items`.
 
@@ -630,7 +630,7 @@ Publication de la version 1.3.5-p1 de ![New](../assets/new.svg) B2B pour assurer
 
 ![Problème résolu](../assets/fix.svg) La commande de produits par SKU à l’aide de la commande rapide n’entraîne plus la duplication des quantités de produits dans le fichier CSV. <!--- MC-37427-->
 
-![Correction d’un problème](../assets/fix.svg) Le bouton **[!UICONTROL Add to Cart]** n’est plus bloqué lorsque la section _[!UICONTROL Enter Multiple SKUs]_&#x200B;de la page Commande rapide contient une valeur vide. À la place, Adobe Commerce affiche désormais un message vous invitant à saisir des SKU valides. <!--- MC-37387-->
+![Correction d’un problème](../assets/fix.svg) Le bouton **[!UICONTROL Add to Cart]** n’est plus bloqué lorsque la section _[!UICONTROL Enter Multiple SKUs]_de la page Commande rapide contient une valeur vide. À la place, Adobe Commerce affiche désormais un message vous invitant à saisir des SKU valides. <!--- MC-37387-->
 
 ![Problème résolu](../assets/fix.svg) Adobe Commerce affiche désormais ce message sur la page produit lorsque vous envoyez une révision de produit à partir d&#39;une liste de demandes d&#39;approvisionnement : `You submitted your review for moderation`. La révision s’affiche également sur la page Révisions en attente (**[!UICONTROL Marketing]** d’administration > **[!UICONTROL Pending Reviews]**). Auparavant, bien qu’Adobe Commerce ait ajouté la révision à la liste des révisions en attente, une erreur 404 était générée sur la page du produit. <!--- MC-37119-->
 
@@ -654,9 +654,9 @@ Publication de la version 1.3.5-p1 de ![New](../assets/new.svg) B2B pour assurer
 
 - Les acheteurs sont redirigés vers le panier lorsqu&#39;ils tentent de passer une commande à partir d&#39;un bon de commande à l&#39;aide de PayPal Express Checkout lorsque **[!UICONTROL In-Context Mode]** est désactivé. <!--- B2B-1604-->
 
-- Adobe Commerce affiche parfois une erreur 404 lorsqu’un acheteur crée une commande fournisseur, puis accède à la page de passage en caisse. Cette erreur se produit lorsqu&#39;un acheteur a précédemment créé une autre commande avec un mode de paiement en ligne avant de passer à la page de passage en caisse sans effectuer l&#39;achat précédent. L’acheteur peut toujours passer la commande. **_Solutions de contournement_** : Aucune. <!--- B2B-1605-->
+- Adobe Commerce affiche parfois une erreur 404 lorsqu’un acheteur crée une commande fournisseur, puis accède à la page de passage en caisse. Cette erreur se produit lorsqu&#39;un acheteur a précédemment créé une autre commande avec un mode de paiement en ligne avant de passer à la page de passage en caisse sans effectuer l&#39;achat précédent. L&#39;acheteur peut toujours passer la commande. **_Solution de contournement_** : aucune. <!--- B2B-1605-->
 
-- Les remises pour un mode de paiement spécifique persistent lors du paiement d’un bon de commande, même lorsque l’acheteur modifie son mode de paiement lors du paiement final. En conséquence, les clients peuvent recevoir une réduction à laquelle ils n’ont pas droit. Ce problème se produit car une règle de panier pour le mode de paiement d’origine est toujours appliquée malgré le changement de mode de paiement. **_Solutions de contournement_** : Aucune. Voir le problème connu de Adobe Commerce 2.4.2 B2B : la remise reste pour les [bons de commande en ligne après le changement](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html?lang=fr) __ du mode de paiement.<!-- B2B-1012 -->
+- Les remises pour un mode de paiement spécifique persistent lors de la commande fournisseur, même lorsque l&#39;acheteur modifie son mode de paiement lors de la commande finale. Par conséquent, les clients peuvent recevoir une remise à laquelle ils n’ont pas droit. Ce problème se produit, car une règle de panier pour le mode de paiement d’origine est toujours appliquée malgré le changement de mode de paiement. **_Solution de contournement_** : aucune. Consultez l’article [Adobe Commerce 2.4.2 B2B connu : la remise reste pour les commandes en ligne après le changement du mode de paiement](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html) _Base de connaissances_. <!-- B2B-1012 -->
 
 - La requête `deleteRequisitionListOutput` renvoie des détails sur la liste de demandes d&#39;approvisionnement supprimée au lieu des listes restantes. <!--- MC-39894-->
 
@@ -664,11 +664,11 @@ Publication de la version 1.3.5-p1 de ![New](../assets/new.svg) B2B pour assurer
 
 *15 octobre 2020*
 
-[!BADGE Prise en charge de]{type=Informative tooltip="Pris en charge"} Adobe Commerce 2.4.0 et versions plus récentes.
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"} Adobe Commerce 2.4.0 et versions plus récentes
 
-Cette version inclut des améliorations apportées aux approbations de commandes, aux modes d’expédition, au panier d’achat et à la journalisation des actions Admin.
+Cette version comprend des améliorations des approbations de commande, des méthodes d’expédition, du panier et de la journalisation des actions d’administration.
 
-![Nouvelle](../assets/new.svg) prise en charge de Adobe Commerce 2.4.1.
+![Nouveau](../assets/new.svg) Ajout de la prise en charge d’Adobe Commerce 2.4.1.
 
 ![Nouvelle](../assets/new.svg) les approbations de commande B2B ont été améliorées afin d’améliorer la convivialité et de permettre des actions en masse sur les commandes fournisseur.
 
@@ -724,7 +724,7 @@ Cette version inclut des améliorations apportées aux approbations de commandes
 
 ![Problème résolu](../assets/fix.svg) Vous pouvez désormais implémenter avec succès le multishipping pour les commandes contenant des produits physiques et virtuels. <!--- MC-33818-->
 
-![Correction d’un problème](../assets/fix.svg) les commerçants peuvent désormais créer des utilisateurs d’entreprise à partir de la section _[!UICONTROL Company Users]_&#x200B;des pages Mon compte et Structure de l’entreprise lorsque **[!UICONTROL Access Restriction]**&#x200B;est activé et **[!UICONTROL Restriction Mode]**&#x200B;est défini sur `Sales: Login Only`. Auparavant, Adobe Commerce générait cette erreur lorsqu’un commerçant tentait de créer un utilisateur : `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
+![Correction d’un problème](../assets/fix.svg) les commerçants peuvent désormais créer des utilisateurs d’entreprise à partir de la section _[!UICONTROL Company Users]_des pages Mon compte et Structure de l’entreprise lorsque **[!UICONTROL Access Restriction]**est activé et **[!UICONTROL Restriction Mode]**est défini sur `Sales: Login Only`. Auparavant, Adobe Commerce générait cette erreur lorsqu’un commerçant tentait de créer un utilisateur : `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
 
 ![Correction d’un problème](../assets/fix.svg) Adobe Commerce ne réinitialise plus le groupe de clients d’un client sur la valeur par défaut lorsqu’un client enregistre ses informations de compte. <!--- MC-33554-->
 
@@ -754,11 +754,11 @@ Cette version inclut des améliorations apportées aux approbations de commandes
 
 ![Nouveau](../assets/new.svg) Les bons de commande ont été améliorés et réécrits. Ils sont désormais inclus par défaut dans Adobe Commerce.
 
-![De nouvelles](../assets/new.svg) règles d’approbation des bons de commande ont été mises en œuvre. Ces règles permettent aux utilisateurs de contrôler le flux de travail Commande fournisseur en créant des règles d’achat pour les commandes.
+![Nouveau](../assets/new.svg) les règles d&#39;approbation des commandes fournisseur ont été mises en œuvre. Ces règles permettent aux utilisateurs de contrôler le workflow de bon de commande en créant des règles d’achat pour les commandes.
 
-![L’option Nouvelle](../assets/new.svg) connexion en tant que client est désormais incluse par défaut dans Adobe Commerce. Cette fonctionnalité permet aux employés du site d’aider les clients en se connectant en tant que client pour voir ce qu’ils voient.
+![Nouveau](../assets/new.svg) La connexion en tant que client est désormais incluse par défaut dans Adobe Commerce. Cette fonctionnalité permet aux employés du site d’aider les clients en se connectant en tant que client pour voir ce qu’ils voient.
 
-![Problème](../assets/fix.svg) corrigé : les agrégations d’attributs fonctionnent désormais correctement pour la navigation en couches avec Elasticsearch
+![Problème résolu](../assets/fix.svg) les agrégations d’attributs fonctionnent désormais correctement pour la navigation par couches avec Elasticsearch
 
 ![Problème résolu](../assets/fix.svg) La recherche de commandes par caractères spéciaux fonctionne désormais correctement.
 
@@ -784,7 +784,7 @@ Cette version inclut des améliorations apportées aux approbations de commandes
 
 ![Correction d’un problème](../assets/fix.svg) Un correctif est ajouté pour permettre aux administrateurs de magasin d’ajouter des produits à une commande qui ne se trouvent pas dans le catalogue partagé. Auparavant, un message d’erreur s’affichait lors de l’ajout d’un élément qui ne figurait pas dans le catalogue.
 
-![Correction d’un problème](../assets/fix.svg) Auparavant, après l’exécution de la commande `php bin/magento indexer:set-dimensions-mode catalog_product_price website` et la tentative de création d’un catalogue partagé, une erreur se produisait. Ce problème a été résolu.
+![Problème résolu ](../assets/fix.svg) [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Auparavant, après avoir exécuté la commande `php bin/magento indexer:set-dimensions-mode catalog_product_price website` et tenté de créer un catalogue partagé, une erreur se produisait. Ce problème a été résolu.
 
 ![Correction d’un problème](../assets/fix.svg) Lors de l’ajout d’une entreprise et de l’affectation de l’administrateur de l’entreprise à un site web non par défaut, le mauvais ID de site était envoyé, ce qui provoquait une erreur. Ce problème a été résolu.
 

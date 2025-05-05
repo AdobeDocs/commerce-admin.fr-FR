@@ -6,7 +6,7 @@ seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: 09e1ef6be9eed9bcf1d562f0490dfb7d28b18171
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Ce guide est destiné aux administrateurs travaillant dans l’administration Ad
 Il existe deux domaines pour les administrateurs de magasin :
 
 - Administration : utilisez cette zone pour accéder à l’interface utilisateur de configuration et aux rapports.
-- L’interface de ligne de commande : utilisez cet outil pour exécuter les tâches d’installation et de configuration du serveur principal. [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+- [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Interface de ligne de commande : utilisez cet outil pour exécuter les tâches d’installation et de configuration du serveur principal.
 
 Ce guide couvre les sujets suivants :
 
@@ -28,7 +28,7 @@ Ce guide couvre les sujets suivants :
 | ------- | ----------- |
 | [Introduction](introduction.md) | Quelles sont les fonctionnalités disponibles avec [!DNL Adobe Commerce B2B] ? |
 | [Notes de mise à jour](release-notes.md) | Examinez les mises à jour fournies dans chaque version de [!DNL Adobe Commerce B2B]. |
-| [Installer](install.md) | Installez l’extension [!DNL Adobe Commerce B2B]. [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} |
+| [Installer](install.md) | [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Installez l’extension [!DNL Adobe Commerce B2B]. |
 | [Activer les fonctionnalités B2B de base](enable-basic-features.md) | Après avoir installé [!DNL Adobe Commerce B2B], vous devez activer les fonctionnalités que vous souhaitez activer pour votre boutique. |
 | [Comptes d’entreprise](account-companies.md) | Découvrez les comptes d’entreprise et comment ils constituent le principal composant de base pour la prise en charge des acheteurs B2B sur votre boutique. |
 | [Gestion d’entreprise](manage-companies.md) | Découvrez comment les administrateurs de site B2B Commerce peuvent créer des hiérarchies d’entreprise afin de rationaliser la gestion de plusieurs entreprises appartenant à la même entreprise. |
@@ -52,5 +52,5 @@ Pour plus d’informations sur les modifications incluses dans les versions de m
 
 Si vous avez besoin d’informations ou si vous avez des questions qui ne sont pas abordées dans ce guide, utilisez les ressources suivantes :
 
-- [Base de connaissances de l’assistance Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=fr)
-- [Tickets d’assistance](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=fr#submit-ticket) : envoyez un ticket pour recevoir de l’aide supplémentaire.
+- [Base de connaissances de l’assistance Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html)
+- [Tickets d’assistance](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) : envoyez un ticket pour recevoir de l’aide supplémentaire.
