@@ -42,7 +42,7 @@ Le nombre d’étoiles indique la note de satisfaction du produit. Les visiteurs
 
 ### [!UICONTROL My Product Reviews]
 
-La section _[!UICONTROL My Product Reviews]_du tableau de bord du compte client répertorie toutes les révisions soumises par le client et approuvées pour publication. Chaque résumé de révision comprend la date d’envoi de la révision, des liens vers la page du produit et des détails de révision.
+La section _[!UICONTROL My Product Reviews]_&#x200B;du tableau de bord du compte client répertorie toutes les révisions soumises par le client et approuvées pour publication. Chaque résumé de révision comprend la date d’envoi de la révision, des liens vers la page du produit et des détails de révision.
 
 ![Mes révisions de produit](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -90,7 +90,7 @@ Avec les révisions de produit Commerce, les clients peuvent attribuer des éval
 
    ![Admin - Évaluations](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. Dans la section _[!UICONTROL Rating Title]_, saisissez le **[!UICONTROL Default Value]**correspondant à la nouvelle évaluation.
+1. Dans la section _[!UICONTROL Rating Title]_, saisissez le **[!UICONTROL Default Value]**&#x200B;correspondant à la nouvelle évaluation.
 
    Le cas échéant, saisissez également la traduction pour chaque vue de magasin.
 

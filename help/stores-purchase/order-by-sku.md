@@ -43,7 +43,7 @@ _Commande par SKU_ est un [widget](../content-design/widgets.md) qui peut être 
 
 1. Cliquez sur **[!UICONTROL Save Config]**.
 
-![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B uniquement) _**Pour activer la fonction Classer par SKU, désactivez la fonction Ordre rapide :**_
+![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B uniquement) _&#x200B;**Pour activer la fonction Classer par SKU, désactivez la fonction Ordre rapide :**&#x200B;_
 
 1. Accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -75,7 +75,7 @@ Lorsque la fonctionnalité est configurée pour le magasin, les clients peuvent 
 
 1. Ajoute des éléments individuels en fonction des préférences :
 
-   _**Ajoute chaque élément par SKU :**_
+   _&#x200B;**Ajoute chaque élément par SKU :**&#x200B;_
 
    - Entrez les **[!UICONTROL SKU]** et **[!UICONTROL Qty]** de l’élément à commander.
 
@@ -83,7 +83,7 @@ Lorsque la fonctionnalité est configurée pour le magasin, les clients peuvent 
 
    - Clics **[!UICONTROL Add to Cart]**.
 
-   _**Télécharge un fichier CSV de plusieurs éléments :**_
+   _&#x200B;**Télécharge un fichier CSV de plusieurs éléments :**&#x200B;_
 
    - Prépare un fichier [ de données d’importation CSV](../systems/data-csv.md) (valeur séparée par des virgules) qui comprend des colonnes pour `SKU` et `Qty`.
 

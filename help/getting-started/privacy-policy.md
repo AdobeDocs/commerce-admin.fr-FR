@@ -36,7 +36,7 @@ Toute représentation d’informations permettant d’établir l’identité d�
 
 1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Dans la grille, recherchez **[!UICONTROL Privacy Policy]**. Ensuite, dans la colonne _[!UICONTROL Action]_, cliquez sur **[!UICONTROL Select]**et choisissez **[!UICONTROL Edit]**.
+1. Dans la grille, recherchez **[!UICONTROL Privacy Policy]**. Ensuite, dans la colonne _[!UICONTROL Action]_, cliquez sur **[!UICONTROL Select]**&#x200B;et choisissez **[!UICONTROL Edit]**.
 
    >[!NOTE]
    >

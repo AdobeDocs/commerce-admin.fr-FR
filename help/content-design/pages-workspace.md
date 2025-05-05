@@ -79,7 +79,7 @@ L’espace de travail des pages comprend des outils pour vous aider à trouver r
 
 ## Recherche de page
 
-La zone de recherche située en haut à gauche de la grille _[!UICONTROL Pages]_peut être utilisée pour rechercher des pages spécifiques par mot-clé. Pour une recherche plus avancée, vous pouvez [filtrer](../getting-started/admin-grid-controls.md) la recherche selon plusieurs paramètres.
+La zone de recherche située en haut à gauche de la grille _[!UICONTROL Pages]_&#x200B;peut être utilisée pour rechercher des pages spécifiques par mot-clé. Pour une recherche plus avancée, vous pouvez [filtrer](../getting-started/admin-grid-controls.md) la recherche selon plusieurs paramètres.
 
 ### Recherche par mot-clé
 
@@ -139,7 +139,7 @@ Les pages peuvent être modifiées, désactivées, activées et supprimées. Pou
 
 ### Action unique
 
-Utilisez la colonne _[!UICONTROL Action]_à l’extrême droite pour appliquer l’une des actions suivantes à une page individuelle :
+Utilisez la colonne _[!UICONTROL Action]_&#x200B;à l’extrême droite pour appliquer l’une des actions suivantes à une page individuelle :
 
 - [!UICONTROL Edit] : ouvre la page en mode d’édition
 - [!UICONTROL Delete] - supprime la page (confirmation requise)
@@ -149,7 +149,7 @@ Utilisez la colonne _[!UICONTROL Action]_à l’extrême droite pour appliquer l
 
 ### Actions en masse
 
-Appliquez simultanément l’une des actions suivantes à plusieurs pages sélectionnées à l’aide du sélecteur _[!UICONTROL Action]_situé dans le coin supérieur gauche :
+Appliquez simultanément l’une des actions suivantes à plusieurs pages sélectionnées à l’aide du sélecteur _[!UICONTROL Action]_&#x200B;situé dans le coin supérieur gauche :
 
 - [!UICONTROL Delete] - supprime les pages (confirmation requise)
 - [!UICONTROL Disable] - désactive les pages du storefront

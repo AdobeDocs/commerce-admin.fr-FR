@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Expéditions
 
-La grille _[!UICONTROL Shipments]_répertorie l’enregistrement de l’expédition de toutes les factures qui ont été préparées pour l’expédition. Un enregistrement d’expédition peut être généré lorsqu’une commande est [facturée](invoices.md) ou supérieure.
+La grille _[!UICONTROL Shipments]_&#x200B;répertorie l’enregistrement de l’expédition de toutes les factures qui ont été préparées pour l’expédition. Un enregistrement d’expédition peut être généré lorsqu’une commande est [facturée](invoices.md) ou supérieure.
 
 Adobe Commerce et Magento Open Source prennent en charge l’envoi de commandes partiel et complet, avec des options supplémentaires disponibles à partir d’[Inventory management](../inventory-management/introduction.md) et des extensions tierces.
 
@@ -77,7 +77,7 @@ Pour chaque élément de ligne dans l’ordre, modifiez le **[!UICONTROL Qty to 
 
 1. Cliquez sur **[!UICONTROL Ship]**.
 
-1. Faites défiler l’écran jusqu’au bloc _[!UICONTROL Payment & Shipping Method]_et cliquez sur **[!UICONTROL Add Tracking Number]**.
+1. Faites défiler l’écran jusqu’au bloc _[!UICONTROL Payment & Shipping Method]_&#x200B;et cliquez sur **[!UICONTROL Add Tracking Number]**.
 
 1. Définissez **[!UICONTROL Carrier]** :
 
@@ -166,7 +166,7 @@ Avant qu&#39;une cargaison ne soit envoyée à un opérateur, elle peut être an
 
 1. Dans le panneau de gauche, choisissez **[!UICONTROL Shipments]**.
 
-   Si l’envoi peut être annulé, _[!UICONTROL Cancel Shipment]_apparaît comme une option dans la barre de boutons supérieure.
+   Si l’envoi peut être annulé, _[!UICONTROL Cancel Shipment]_&#x200B;apparaît comme une option dans la barre de boutons supérieure.
 
 1. Cliquez sur **[!UICONTROL Cancel Shipment]**.
 

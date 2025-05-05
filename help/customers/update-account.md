@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Mise à jour d’un profil client
 
-Le panneau de gauche de la page _[!UICONTROL Customer Information]_contient des informations sur l’activité des clients, les adresses, les statistiques de commandes, les commandes récentes, le contenu du panier d’achat, les révisions de produits et les abonnements à des newsletters.
+Le panneau de gauche de la page _[!UICONTROL Customer Information]_&#x200B;contient des informations sur l’activité des clients, les adresses, les statistiques de commandes, les commandes récentes, le contenu du panier d’achat, les révisions de produits et les abonnements à des newsletters.
 
 ![Profil client](assets/cust-profile.png){width="700" zoomable="yes"}
 

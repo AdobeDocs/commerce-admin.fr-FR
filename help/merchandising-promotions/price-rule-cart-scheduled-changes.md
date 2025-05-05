@@ -26,7 +26,7 @@ Les règles de prix du panier peuvent être appliquées au planning dans le cadr
 >
 >Toutes les mises à jour planifiées sont appliquées consécutivement. Cela signifie qu’une entité ne peut avoir qu’une seule mise à jour planifiée à un moment donné. Toute mise à jour planifiée est appliquée à toutes les vues de magasin au cours de sa période. Par conséquent, une entité ne peut pas avoir simultanément différentes mises à jour planifiées pour différentes vues de magasin. Toutes les valeurs d’attribut d’entité dans toutes les vues de magasin, qui ne sont pas affectées par la mise à jour planifiée actuelle, sont extraites des valeurs par défaut et non de la mise à jour planifiée précédente.
 
-Si plusieurs règles de prix sont exécutées dans la même campagne, le paramètre _[!UICONTROL Priority]_de la règle de prix détermine la règle qui prévaut. Pour en savoir plus, voir [Évaluation de contenu](../content-design/content-staging.md).
+Si plusieurs règles de prix sont exécutées dans la même campagne, le paramètre _[!UICONTROL Priority]_&#x200B;de la règle de prix détermine la règle qui prévaut. Pour en savoir plus, voir [Évaluation de contenu](../content-design/content-staging.md).
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Gardez à l’esprit les avertissements suivants :
 
 - Si une campagne contenant une règle de prix est initialement créée sans date de fin, elle ne peut pas être modifiée ultérieurement pour inclure une date de fin. Il est recommandé d’ajouter une date de fin lors de la création de la campagne ou de créer une version en double de la campagne existante et d’ajouter la date de fin au doublon, le cas échéant.
 - Lorsque vous utilisez une mise à jour planifiée pour activer une règle de prix de panier avec une date de fin, veillez à définir la règle comme initialement désactivée. Les règles déjà actives ne respectent pas la date de fin.
-- Les bons ne sont pas liés aux règles de prix du panier. Une mise à jour planifiée ne permet pas d’accéder aux champs _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_, _[!UICONTROL Uses per Coupon]_et_[!UICONTROL Uses per Customer]_ de l’onglet _[!UICONTROL Rule Information]_. De plus, tous les paramètres de l’onglet_[!UICONTROL Manage Coupon Codes]_ ne sont pas disponibles.
+- Les bons ne sont pas liés aux règles de prix du panier. Une mise à jour planifiée ne permet pas d’accéder aux champs _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_, _[!UICONTROL Uses per Coupon]_&#x200B;et&#x200B;_[!UICONTROL Uses per Customer]_ de l’onglet _[!UICONTROL Rule Information]_. De plus, tous les paramètres de l’onglet&#x200B;_[!UICONTROL Manage Coupon Codes]_ ne sont pas disponibles.
 
 >[!IMPORTANT]
 >

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Traduire une page de contenu
 
-Si votre boutique comporte plusieurs vues dans différentes [langues](../stores-purchase/store-localize.md) et que vous avez défini le paramètre régional de chaque vue dans une langue différente, le résultat est un site partiellement traduit. L’étape suivante consiste à créer une version traduite de chaque page disponible à partir de la vue de magasin spécifique. La colonne [!UICONTROL Store View] de la liste _[!UICONTROL Manage Pages]_affiche chaque vue ayant une version traduite de la page.
+Si votre boutique comporte plusieurs vues dans différentes [langues](../stores-purchase/store-localize.md) et que vous avez défini le paramètre régional de chaque vue dans une langue différente, le résultat est un site partiellement traduit. L’étape suivante consiste à créer une version traduite de chaque page disponible à partir de la vue de magasin spécifique. La colonne [!UICONTROL Store View] de la liste _[!UICONTROL Manage Pages]_&#x200B;affiche chaque vue ayant une version traduite de la page.
 
 Pour traduire une page de contenu, vous devez créer une autre page qui possède la même clé URL que l’original, mais qui est affectée à la vue de magasin spécifique. Ensuite, mettez à jour la page de la vue spécifique avec le texte traduit. L’exemple suivant montre comment créer une version traduite de la page _À propos de nous_ pour la vue de magasin en espagnol.
 
@@ -25,7 +25,7 @@ Pour traduire une page de contenu, vous devez créer une autre page qui possède
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) de la section **[!UICONTROL Search Engine Optimization]** et copiez les **[!UICONTROL URL Key]** dans le Presse-papiers.
 
-1. Pour revenir à la grille _[!UICONTROL Pages]_, cliquez sur **[!UICONTROL Back]**dans la barre de boutons supérieure.
+1. Pour revenir à la grille _[!UICONTROL Pages]_, cliquez sur **[!UICONTROL Back]**&#x200B;dans la barre de boutons supérieure.
 
 ## Etape 2 : Ajouter une page pour le contenu traduit
 

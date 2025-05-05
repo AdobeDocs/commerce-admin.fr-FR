@@ -34,7 +34,7 @@ La première étape consiste à renseigner les paramètres par défaut pour les 
 
 1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans la section _[!UICONTROL Sales]_du panneau de gauche, choisissez **[!UICONTROL Delivery Methods]**.
+1. Dans la section _[!UICONTROL Sales]_&#x200B;du panneau de gauche, choisissez **[!UICONTROL Delivery Methods]**.
 
 1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Table Rates]** .
 
@@ -84,7 +84,7 @@ La première étape consiste à renseigner les paramètres par défaut pour les 
 1. Définissez **[!UICONTROL Ship to Applicable Countries]** :
 
    - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans votre configuration de magasin peuvent utiliser cette méthode de diffusion.
-   - `Specific Countries` - Lorsque vous choisissez cette option, la liste _[!UICONTROL Ship to Specific Countries]_s’affiche. Sélectionnez chaque pays de la liste dans lequel ce mode de diffusion peut être utilisé.
+   - `Specific Countries` - Lorsque vous choisissez cette option, la liste _[!UICONTROL Ship to Specific Countries]_&#x200B;s’affiche. Sélectionnez chaque pays de la liste dans lequel ce mode de diffusion peut être utilisé.
 
 1. Définissez **[!UICONTROL Show Method if Not Applicable]** sur `Yes` si vous souhaitez afficher les taux de tableau tout le temps.
 
@@ -115,10 +115,10 @@ La première étape consiste à renseigner les paramètres par défaut pour les 
 1. Complétez le tableau avec les valeurs appropriées pour la condition de calcul de l’expédition.
 
    - Utilisez un astérisque (*) comme caractère générique qui représente toutes les valeurs possibles dans n’importe quelle catégorie.
-   - La colonne _[!UICONTROL Country]_doit contenir un [code à trois caractères valide][1] pour chaque ligne.
-   - Triez les données par _[!UICONTROL Region/State]_afin que les emplacements spécifiques soient en haut de la liste et les emplacements de caractères génériques en bas de la liste. L’utilisation de cette méthode traite d’abord les règles avec les valeurs absolues et ensuite les valeurs du caractère générique.
+   - La colonne _[!UICONTROL Country]_&#x200B;doit contenir un [code à trois caractères valide][1] pour chaque ligne.
+   - Triez les données par _[!UICONTROL Region/State]_&#x200B;afin que les emplacements spécifiques soient en haut de la liste et les emplacements de caractères génériques en bas de la liste. L’utilisation de cette méthode traite d’abord les règles avec les valeurs absolues et ensuite les valeurs du caractère générique.
    - Les plages de codes postaux ne sont pas prises en charge. Utilisez un astérisque (*) pour autoriser tous les codes dans la région/l’état ou spécifiez un seul code pour un emplacement spécifique dans la colonne _[!UICONTROL Zip/Postal Code]_.
-   - Les valeurs de la colonne _[!UICONTROL Weight (and above)]_peuvent avoir un maximum de quatre décimales (telles que `2.5075`). L’utilisation de davantage de décimales dans les données entraîne l’échec de l’importation.
+   - Les valeurs de la colonne _[!UICONTROL Weight (and above)]_&#x200B;peuvent avoir un maximum de quatre décimales (telles que `2.5075`). L’utilisation de davantage de décimales dans les données entraîne l’échec de l’importation.
 
    ![ Poids/Destination (Australie)](./assets/table-rates-weight-destination-csv.png){width="500"}
 

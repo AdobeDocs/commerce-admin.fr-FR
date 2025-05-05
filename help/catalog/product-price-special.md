@@ -50,7 +50,7 @@ Adobe Commerce prend en charge les [mises à jour planifiées](../content-design
 
    Dans le storefront, le prix spécial doit apparaître à la fois dans la liste des catalogues et sur la page des produits.
 
-   _[!UICONTROL Scheduled Change]_apparaît en haut de la page.
+   _[!UICONTROL Scheduled Change]_&#x200B;apparaît en haut de la page.
 
    ![Modification planifiée](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
 
@@ -84,7 +84,7 @@ Vous pouvez également attribuer un prix spécial à plusieurs produits, par exe
 
 L’exemple suivant montre comment attribuer le même prix spécial à plusieurs variantes de produits d’un produit configurable dans Adobe Commerce.
 
-1. Sur la page _[!UICONTROL Products]_, cliquez sur **[!UICONTROL Filters]**et saisissez le **[!UICONTROL Name]**du produit configurable.
+1. Sur la page _[!UICONTROL Products]_, cliquez sur **[!UICONTROL Filters]**&#x200B;et saisissez le **[!UICONTROL Name]**&#x200B;du produit configurable.
 
 1. Définissez **[!UICONTROL Type]** sur `Configurable Product` et cliquez sur **[!UICONTROL Apply Filters]**.
 
@@ -94,7 +94,7 @@ L’exemple suivant montre comment attribuer le même prix spécial à plusieurs
 
 1. Définissez le contrôle **[!UICONTROL Actions]** sur `Update attributes`.
 
-1. Faites défiler l’écran jusqu’au champ _[!UICONTROL Special Price]_et cochez la case **[!UICONTROL Change]**située sous le champ_[!UICONTROL Special Price]_ et saisissez le prix spécial que vous souhaitez proposer.
+1. Faites défiler l’écran jusqu’au champ _[!UICONTROL Special Price]_&#x200B;et cochez la case **[!UICONTROL Change]**&#x200B;située sous le champ&#x200B;_[!UICONTROL Special Price]_ et saisissez le prix spécial que vous souhaitez proposer.
 
    ![Champs de prix spécial](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
 

@@ -34,7 +34,7 @@ Pour configurer ces sources, organisez-les de haut en bas en priorité afin de r
 
 1. Cliquez sur **[!UICONTROL Assign Sources]**.
 
-1. Dans la vue _[!UICONTROL Assign Sources]_, cochez la case correspondant à la source requise, puis cliquez sur **[!UICONTROL Done]**pour affecter une source au stock.
+1. Dans la vue _[!UICONTROL Assign Sources]_, cochez la case correspondant à la source requise, puis cliquez sur **[!UICONTROL Done]**&#x200B;pour affecter une source au stock.
 
 >[!NOTE]
 >

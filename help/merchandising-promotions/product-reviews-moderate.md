@@ -28,7 +28,7 @@ Pour afficher toutes les révisions d’un produit spécifique dans l’administ
 
 ## Mise à jour de l’état des révisions
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**ou **[!UICONTROL All Reviews]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**&#x200B;ou **[!UICONTROL All Reviews]**.
 
 1. Dans la liste, cliquez sur une révision en attente pour afficher les détails et les modifier si nécessaire.
 
@@ -60,7 +60,7 @@ Vous pouvez mettre à jour ou supprimer plusieurs révisions en même temps :
 
 1. Sélectionnez les révisions à mettre à jour.
 
-1. Utilisez le sélecteur _[!UICONTROL Action]_dans le coin supérieur gauche pour appliquer une action.
+1. Utilisez le sélecteur _[!UICONTROL Action]_&#x200B;dans le coin supérieur gauche pour appliquer une action.
 
 1. Cliquez sur **[!UICONTROL Submit]**
 

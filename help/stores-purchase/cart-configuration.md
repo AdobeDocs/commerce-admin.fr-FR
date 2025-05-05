@@ -321,7 +321,7 @@ L’image de retour à la ligne du cadeau doit être un échantillon qui affiche
 
 1. Pour télécharger une miniature **[!UICONTROL Image]** de l’encapsulage du cadeau, cliquez sur **[!UICONTROL Choose File]** et sélectionnez le fichier à télécharger dans votre répertoire.
 
-   Une miniature de l’image s’affiche dans le _[!UICONTROL Gift Wrapping Information]_après l’enregistrement.
+   Une miniature de l’image s’affiche dans le _[!UICONTROL Gift Wrapping Information]_&#x200B;après l’enregistrement.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Mises à jour en bloc des attributs de produit
 
-Utilisez l’outil _[!UICONTROL Update Attributes]_pour modifier un ou plusieurs attributs dans vos produits. Cet outil vous permet d’appliquer des modifications importantes à un grand groupe de produits.
+Utilisez l’outil _[!UICONTROL Update Attributes]_&#x200B;pour modifier un ou plusieurs attributs dans vos produits. Cet outil vous permet d’appliquer des modifications importantes à un grand groupe de produits.
 
 1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 

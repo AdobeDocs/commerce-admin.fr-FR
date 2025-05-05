@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Espace de travail du produit
 
-L’espace de travail du produit est pratiquement le même pour tous les types de produit, bien que la sélection des champs varie en fonction de l’ensemble d’attributs utilisé. Les attributs de produit se trouvent en haut du formulaire, suivis par des sections extensibles des informations sur les produits. Lorsqu’un nouveau produit est enregistré pour la première fois, le programme de sélection _[!UICONTROL Store View]_s’affiche dans le coin supérieur gauche du formulaire.
+L’espace de travail du produit est pratiquement le même pour tous les types de produit, bien que la sélection des champs varie en fonction de l’ensemble d’attributs utilisé. Les attributs de produit se trouvent en haut du formulaire, suivis par des sections extensibles des informations sur les produits. Lorsqu’un nouveau produit est enregistré pour la première fois, le programme de sélection _[!UICONTROL Store View]_&#x200B;s’affiche dans le coin supérieur gauche du formulaire.
 
 ![Espace de travail du produit](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ Pour développer ou réduire une section, cliquez sur l’icône Développer ![S
 
 ## Menu [!UICONTROL Save]
 
-Le menu _[!UICONTROL Save]_comprend plusieurs options qui vous permettent d’enregistrer et de continuer, d’enregistrer et de créer un produit, d’enregistrer et de dupliquer le produit ou encore d’enregistrer et de fermer.
+Le menu _[!UICONTROL Save]_&#x200B;comprend plusieurs options qui vous permettent d’enregistrer et de continuer, d’enregistrer et de créer un produit, d’enregistrer et de dupliquer le produit ou encore d’enregistrer et de fermer.
 
 ![Menu Enregistrer](./assets/product-save-menu.png){width="600" zoomable="yes"}
 

@@ -80,7 +80,7 @@ L’exemple suivant utilise le mappage de mots-clés basé sur le SKU. Lorsque l
    ![Section Attributs avec mot-clé de recherche](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
 
 1. Cliquez ensuite sur **[!UICONTROL Save]**.
-1. Accédez à **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**et actualisez le **[!UICONTROL Page Cache]**.
+1. Accédez à **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;et actualisez le **[!UICONTROL Page Cache]**.
 
 ### Étape 3 : Mapper le deuxième produit
 
@@ -88,7 +88,7 @@ L’exemple suivant utilise le mappage de mots-clés basé sur le SKU. Lorsque l
 1. Faites défiler vers le bas et développez la section **[!UICONTROL Attributes]** .
 1. Dans le champ **[!UICONTROL Search Keywords]** , saisissez le SKU de l’autre produit, `MJ03`.
 1. Cliquez sur **[!UICONTROL Save]**.
-1. Accédez à **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**et actualisez le **[!UICONTROL Page Cache]**.
+1. Accédez à **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;et actualisez le **[!UICONTROL Page Cache]**.
 
 ### Étape 4 : Testez-la dans le storefront
 

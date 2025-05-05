@@ -41,7 +41,7 @@ Adobe Commerce et Magento Open Source vous permettent d’accepter des paiements
 1. Définissez **[!UICONTROL Payment from Applicable Countries]** sur l’une des options suivantes :
 
    - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans votre configuration de magasin peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Une fois cette option sélectionnée, la liste _[!UICONTROL Payment from Specific Countries]_s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée, puis cliquez sur chaque option.
+   - `Specific Countries` - Une fois cette option sélectionnée, la liste _[!UICONTROL Payment from Specific Countries]_&#x200B;s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée, puis cliquez sur chaque option.
 
 1. Pour **[!UICONTROL Make Check Payable To]**, saisissez le nom de la partie à qui la vérification doit être due.
 

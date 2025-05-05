@@ -20,7 +20,7 @@ Utilisez le type de contenu _Column_ pour diviser une page en plusieurs colonnes
 
 ## Mises à jour de la version 2.4.5
 
-Les fonctionnalités du créateur de pages sont mises à jour dans la version 2.4.5 de sorte que les utilisateurs utilisent désormais _[!DNL Columns]_comme conteneur parent pour des colonnes individuelles. Ce nouveau conteneur prend également en charge les propriétés en arrière-plan et élimine la nécessité d’encapsuler des colonnes dans une ligne. Cela réduit les balises inutiles et permet un contrôle plus précis de l’affichage et de l’expérience du storefront.
+Les fonctionnalités du créateur de pages sont mises à jour dans la version 2.4.5 de sorte que les utilisateurs utilisent désormais _[!DNL Columns]_&#x200B;comme conteneur parent pour des colonnes individuelles. Ce nouveau conteneur prend également en charge les propriétés en arrière-plan et élimine la nécessité d’encapsuler des colonnes dans une ligne. Cela réduit les balises inutiles et permet un contrôle plus précis de l’affichage et de l’expérience du storefront.
 
 Vous pouvez modifier la mise en page du conteneur [!DNL Columns] en faisant glisser une colonne au-dessus ou en dessous d’autres colonnes du groupe et en les empilant. Cela ouvre une nouvelle variété de combinaisons de mise en page possibles qui peuvent être réalisées sans avoir à être personnalisées par les développeurs.
 
@@ -54,7 +54,7 @@ Dans l&#39;exemple à deux colonnes suivant, les nombres entre parenthèses (6/1
 
 ## Ajouter une colonne
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un **[!UICONTROL Column]**sur la scène.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un **[!UICONTROL Column]**&#x200B;sur la scène.
 
    ![Faire glisser une colonne vers l’étape](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
@@ -100,7 +100,7 @@ Dans l&#39;exemple à deux colonnes suivant, les nombres entre parenthèses (6/1
 
    - Passez la souris sur la colonne pour afficher la boîte à outils et sélectionnez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-   - Faites défiler l’écran jusqu’à la section _[!UICONTROL Advanced]_et définissez les quatre valeurs **[!UICONTROL Padding]**sur `0`.
+   - Faites défiler l’écran jusqu’à la section _[!UICONTROL Advanced]_&#x200B;et définissez les quatre valeurs **[!UICONTROL Padding]**&#x200B;sur `0`.
 
      ![Utilisation de zéro remplissage](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -170,7 +170,7 @@ Dans l&#39;exemple à deux colonnes suivant, les nombres entre parenthèses (6/1
 
    - **[!UICONTROL Background Repeat]** - Si vous souhaitez répéter l’image d’arrière-plan pour remplir l’espace, modifiez ce paramètre `Yes`.
 
-1. Mettez à jour les paramètres _[!UICONTROL Advanced]_si nécessaire.
+1. Mettez à jour les paramètres _[!UICONTROL Advanced]_&#x200B;si nécessaire.
 
    - Pour contrôler le positionnement horizontal des conteneurs de contenu qui sont ajoutés à la colonne, choisissez un **[!UICONTROL Alignment]** :
 

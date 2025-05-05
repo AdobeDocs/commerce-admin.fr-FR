@@ -108,7 +108,7 @@ Facilitez la réalisation de vos achats par les clients. Adobe Commerce et Magen
 
 **Plusieurs options de paiement** - [!DNL Commerce] prend en charge les [ méthodes de paiement ](../stores-purchase/payments.md) et les devises nécessaires au commerce mondial. Vous pouvez choisir ceux que vous souhaitez proposer et vos clients peuvent choisir ceux qu’ils préfèrent au passage en caisse.
 
-**Solutions marchandes PayPal** - Il est facile d’intégrer un compte [ ](../stores-purchase/paypal.md) de paiement PayPal afin de fournir à vos clients des options de paiement plus rapides et plus sécurisées.
+**Solutions marchandes PayPal** - Il est facile d’intégrer un compte [&#128279;](../stores-purchase/paypal.md) de paiement PayPal afin de fournir à vos clients des options de paiement plus rapides et plus sécurisées.
 
 **Étiquettes de livraison** - Les marchands contrôlent complètement les caractéristiques des packages telles que le poids et la taille. [Les libellés d’expédition](../stores-purchase/shipping-labels.md), les taux et les informations de code-barres proviennent directement de l’opérateur. Vous pouvez facilement générer des étiquettes pour une seule commande ou pour plusieurs commandes.
 

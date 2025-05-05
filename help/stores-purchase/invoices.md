@@ -71,7 +71,7 @@ Une facture pour la commande doit être générée avant d&#39;être imprimée. 
 
    >[!NOTE]
    >
-   >L’option _[!UICONTROL Invoice]_n’apparaît pas lorsque l’ [ action de paiement](../configuration-reference/sales/payment-methods.md#payment-actions) pour votre [ méthode de paiement ](../configuration-reference/sales/payment-methods.md) spécifique est définie sur `Authorize and Capture`, qui génère automatiquement une facture. C’est également le cas si la commande est passée et que l’action de paiement pour votre mode de paiement est définie sur `Authorize` et que la commande est facturée.
+   >L’option _[!UICONTROL Invoice]_&#x200B;n’apparaît pas lorsque l’ [ action de paiement](../configuration-reference/sales/payment-methods.md#payment-actions) pour votre [ méthode de paiement ](../configuration-reference/sales/payment-methods.md) spécifique est définie sur `Authorize and Capture`, qui génère automatiquement une facture. C’est également le cas si la commande est passée et que l’action de paiement pour votre mode de paiement est définie sur `Authorize` et que la commande est facturée.
 
    ![Commande de ventes de factures](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -131,7 +131,7 @@ Les factures peuvent être imprimées individuellement ou par lots. Toutefois, a
 
 1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Dans la grille _[!UICONTROL Invoices]_, recherchez la facture et cliquez sur **[!UICONTROL View]**dans la colonne_ Action _.
+1. Dans la grille _[!UICONTROL Invoices]_, recherchez la facture et cliquez sur **[!UICONTROL View]**&#x200B;dans la colonne_ Action _.
 
 1. En haut de la facture, cliquez sur **[!UICONTROL Print]** pour générer un PDF de la facture.
 

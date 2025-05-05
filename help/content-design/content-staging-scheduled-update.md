@@ -26,7 +26,7 @@ L&#39;exemple suivant montre comment planifier une modification temporaire du pr
 
 1. Dans la grille de _[!UICONTROL Products]_, ouvrez un produit en mode d’édition.
 
-1. Dans la zone _[!UICONTROL Scheduled Changes]_en haut de la page, cliquez sur **[!UICONTROL Schedule New Update]**.
+1. Dans la zone _[!UICONTROL Scheduled Changes]_&#x200B;en haut de la page, cliquez sur **[!UICONTROL Schedule New Update]**.
 
    ![Planifier une nouvelle mise à jour](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
 
@@ -49,7 +49,7 @@ L&#39;exemple suivant montre comment planifier une modification temporaire du pr
      >
      >La date de début et de fin de la campagne doivent être définies à l’aide du fuseau horaire **_par défaut_** Administrateur, converti à partir du fuseau horaire local de chaque site web. Par exemple, lorsque vous disposez de plusieurs sites web dans différents fuseaux horaires, mais que vous souhaitez démarrer une campagne selon un fuseau horaire américain (par défaut), vous devez planifier une mise à jour distincte pour chaque fuseau horaire local. Dans ce cas, définissez **[!UICONTROL Start Date]** et **[!UICONTROL End Date]** comme convertis de chaque fuseau horaire du site web local vers le fuseau horaire par défaut de l’administrateur.
 
-1. Faites défiler jusqu’à _[!UICONTROL Price]_et cliquez sur **[!UICONTROL Advanced Pricing]**.
+1. Faites défiler jusqu’à _[!UICONTROL Price]_&#x200B;et cliquez sur **[!UICONTROL Advanced Pricing]**.
 
 1. Saisissez un **[!UICONTROL Special Price]** pour le produit pendant la campagne planifiée et cliquez sur **[!UICONTROL Done]**.
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Renvoie
 
-Une _autorisation de marchandisage renvoyée_ (RMA) peut être accordée aux clients qui demandent de renvoyer un article pour le remplacement ou le remboursement. En règle générale, le client contacte le marchand pour demander un remboursement. S’il est approuvé, un numéro de RAM unique est attribué pour identifier le produit renvoyé. Dans la configuration, vous pouvez activer la RAM pour tous les produits ou n’autoriser la RAM que pour certains produits. La grille _[!UICONTROL Returns]_répertorie les demandes de marchandisage renvoyées actuelles (RMA) et est utilisée pour saisir de nouvelles demandes de retour.
+Une _autorisation de marchandisage renvoyée_ (RMA) peut être accordée aux clients qui demandent de renvoyer un article pour le remplacement ou le remboursement. En règle générale, le client contacte le marchand pour demander un remboursement. S’il est approuvé, un numéro de RAM unique est attribué pour identifier le produit renvoyé. Dans la configuration, vous pouvez activer la RAM pour tous les produits ou n’autoriser la RAM que pour certains produits. La grille _[!UICONTROL Returns]_&#x200B;répertorie les demandes de marchandisage renvoyées actuelles (RMA) et est utilisée pour saisir de nouvelles demandes de retour.
 
 ![Renvoie grid](./assets/return.png){width="600" zoomable="yes"}
 

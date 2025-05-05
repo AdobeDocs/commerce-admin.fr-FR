@@ -18,7 +18,7 @@ ht-degree: 2%
    + [Liste des clients](customers-all.md)
    + [Maintenant en ligne](now-online.md)
    + [Personalization à grande échelle](personalize-scale.md)
-+ {#customer-accounts} des comptes client
++ des comptes client{#customer-accounts}
    + [Périmètre du compte](customer-account-scope.md)
    + Options du compte {#configure}
       + [Page de destination de connexion](login-landing-page.md)
@@ -37,20 +37,20 @@ ht-degree: 2%
       + [Propriétés de l’attribut](attribute-properties.md)
       + [Attributs d’adresse](address-attributes.md)
       + [Modèles d’adresse](address-templates.md)
-   + {#store-credit} de crédit de magasin
+   + de crédit de magasin{#store-credit}
       + [Workflow Stocker le crédit](store-credit.md)
       + [Configurer le crédit du magasin](credit-configure.md)
       + [Appliquer le crédit du magasin](store-credit-using.md)
       + [Stocker le crédit dans le tableau de bord du compte](account-dashboard-store-credit.md)
       + [Remboursements dans le tableau de bord du compte](refunds-customer-account.md)
-   + {#storefront} du tableau de bord du compte client
+   + du tableau de bord du compte client{#storefront}
       + [Gérer le tableau de bord du compte](account-dashboard.md)
       + [[!UICONTROL My Account]](account-dashboard-my-account.md)
       + [[!UICONTROL Address Book]](account-dashboard-address-book.md)
       + [[!UICONTROL Account Information]](account-dashboard-account-information.md)
 + [Audience Activation](audience-activation.md)
 + [Groupes de clients](customer-groups.md)
-+ {#segments} des segments client
++ des segments client{#segments}
    + [Vue d’ensemble](customer-segments.md)
    + [Créer et supprimer des segments de clients](customer-segment-create.md)
    + [Segments clients dans les règles de prix](customer-segment-price-rule.md)

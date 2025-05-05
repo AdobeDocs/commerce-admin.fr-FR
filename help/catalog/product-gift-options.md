@@ -20,7 +20,7 @@ Dans la section _[!UICONTROL Gift Options]_, vous pouvez définir des options de
 
 1. Ouvrez le produit en mode d’édition.
 
-1. Faites défiler l’écran vers le bas et développez ![Sélecteur d’extension](../assets/icon-display-expand.png) dans la section _[!UICONTROL Gift Options]_et procédez comme suit :
+1. Faites défiler l’écran vers le bas et développez ![Sélecteur d’extension](../assets/icon-display-expand.png) dans la section _[!UICONTROL Gift Options]_&#x200B;et procédez comme suit :
 
    - Pour remplacer le paramètre par défaut, désélectionnez la case à cocher **[!UICONTROL Use Config Settings]** .
 

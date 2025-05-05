@@ -44,7 +44,7 @@ Voir [Configuration de la recherche de site](https://support.google.com/analytic
 
    - Choisissez **[!UICONTROL Property Settings]**.
 
-   - Sous _[!UICONTROL Advertising Features]_, définissez **[!UICONTROL Enable Demographics and Interest Reports]**sur `On`.
+   - Sous _[!UICONTROL Advertising Features]_, définissez **[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;sur `On`.
 
    - **[!UICONTROL Save]** les paramètres.
 
@@ -179,7 +179,7 @@ Si vous disposez d’un compte Google AdWords, vous pouvez créer une balise pou
 
    - Sous **[!UICONTROL Choose Product]**, sélectionnez **[!UICONTROL Google AdWords]**.
 
-   - Sous _[!UICONTROL Choose a Tag Type]_, sélectionnez **[!UICONTROL AdWords Conversion Tracking]**et cliquez sur **[!UICONTROL Continue]**.
+   - Sous _[!UICONTROL Choose a Tag Type]_, sélectionnez **[!UICONTROL AdWords Conversion Tracking]**&#x200B;et cliquez sur **[!UICONTROL Continue]**.
 
 1. Saisissez les **[!UICONTROL Conversion ID]** et **[!UICONTROL Conversion Label]** de votre compte AdWords, puis cliquez sur **[!UICONTROL Continue]**.
 

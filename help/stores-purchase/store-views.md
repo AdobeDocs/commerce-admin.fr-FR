@@ -57,9 +57,9 @@ Si votre installation Adobe Commerce ou Magento Open Source comporte une configu
 
 1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
 
-1. Dans la colonne _[!UICONTROL Store View]_de la grille, cliquez sur le nom de la vue que vous souhaitez modifier.
+1. Dans la colonne _[!UICONTROL Store View]_&#x200B;de la grille, cliquez sur le nom de la vue que vous souhaitez modifier.
 
-   Lors de la modification de la vue par défaut, les champs _[!UICONTROL Store]_et_[!UICONTROL Status]_ ne sont pas disponibles.
+   Lors de la modification de la vue par défaut, les champs _[!UICONTROL Store]_&#x200B;et&#x200B;_[!UICONTROL Status]_ ne sont pas disponibles.
 
    ![Affichage magasin - modifier la vue par défaut](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 

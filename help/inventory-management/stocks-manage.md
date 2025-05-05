@@ -43,7 +43,7 @@ Pour une installation multi-magasin, le stock par défaut est initialement affec
 
 | Bouton | Description |
 |--|--|
-| [!UICONTROL Add New Stock] | Ouvre le formulaire _[!UICONTROL New Stock]_utilisé pour entrer un nouveau stock afin de mapper l’inventaire au canal des ventes. |
+| [!UICONTROL Add New Stock] | Ouvre le formulaire _[!UICONTROL New Stock]_&#x200B;utilisé pour entrer un nouveau stock afin de mapper l’inventaire au canal des ventes. |
 
 ## Gestion des descriptions des colonnes Stock
 

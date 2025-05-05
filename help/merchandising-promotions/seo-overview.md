@@ -58,10 +58,11 @@ Par défaut, le fichier robots.txt généré par Commerce contient des instructi
     Ne pas autoriser : /var/
     Ne pas autoriser : /catalog/
     Ne pas autoriser : /customer/
-    Ne pas autoriser : /sendautoriser 10}Disallow: /review/
+    Ne pas autoriser : /sendautoriser 10&rbrace;Disallow: /review/
     Disallow: /*SID=
 
     
+
 ### Configurer `robots.txt`
 
 1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.

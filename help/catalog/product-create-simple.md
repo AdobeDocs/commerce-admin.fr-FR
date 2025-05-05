@@ -83,7 +83,7 @@ Le formulaire est mis à jour pour refléter la modification.
 
 1. Acceptez le paramètre par défaut **[!UICONTROL Visibility]** de `Catalog, Search`.
 
-1. Pour attribuer _[!UICONTROL Categories]_au produit, cliquez sur la zone **[!UICONTROL Select…]**et effectuez l’une des opérations suivantes :
+1. Pour attribuer _[!UICONTROL Categories]_&#x200B;au produit, cliquez sur la zone **[!UICONTROL Select…]**&#x200B;et effectuez l’une des opérations suivantes :
 
    **Choisissez une catégorie existante** :
 

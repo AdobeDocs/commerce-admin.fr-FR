@@ -36,7 +36,7 @@ Bien que les attributs soient principalement gérés à partir du menu [Magasins
 
 ![Propriétés d’attribut](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
-1. Sous _[!UICONTROL Attribute Properties]_, saisissez un **[!UICONTROL Attribute Label]**pour identifier l’attribut.
+1. Sous _[!UICONTROL Attribute Properties]_, saisissez un **[!UICONTROL Attribute Label]**&#x200B;pour identifier l’attribut.
 
 1. Définissez **[!UICONTROL Catalog Input Type for Store Owner]** sur le type de [contrôle d’entrée](attributes-input-types.md) à utiliser pour la saisie de données.
 
@@ -85,7 +85,7 @@ Bien que les attributs soient principalement gérés à partir du menu [Magasins
 
 1. Si vous souhaitez pouvoir inclure l’attribut en tant que colonne dans la grille Produits, définissez **[!UICONTROL Add to Column Options]** sur `Yes`.
 
-1. Si vous souhaitez pouvoir filtrer la grille _[!UICONTROL Products]_en fonction de cette colonne, définissez **[!UICONTROL Use in Filter Options]**sur `Yes`.
+1. Si vous souhaitez pouvoir filtrer la grille _[!UICONTROL Products]_&#x200B;en fonction de cette colonne, définissez **[!UICONTROL Use in Filter Options]**&#x200B;sur `Yes`.
 
 ## Etape 4 : Saisir le libellé du champ
 
@@ -115,7 +115,7 @@ Bien que les attributs soient principalement gérés à partir du menu [Magasins
 
    >[!NOTE]
    >
-   >Lorsque le paramètre _[!UICONTROL Use in Search]_est défini sur `No`, le paramètre_[!UICONTROL Use in Search Results Layered Navigation]_ n’est pas affiché et l’attribut product n’est pas utilisé dans la recherche avec une valeur de paramètre [!UICONTROL Use in Layered Navigation].
+   >Lorsque le paramètre _[!UICONTROL Use in Search]_&#x200B;est défini sur `No`, le paramètre&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ n’est pas affiché et l’attribut product n’est pas utilisé dans la recherche avec une valeur de paramètre [!UICONTROL Use in Layered Navigation].
 
 1. Pour utiliser l’attribut dans la navigation par couches sur les pages de résultats de recherche, définissez **[!UICONTROL Use in Search Results Layered Navigation]** sur `Yes` et saisissez un nombre dans le champ **[!UICONTROL Position]**.
 
@@ -123,7 +123,7 @@ Bien que les attributs soient principalement gérés à partir du menu [Magasins
 
    >[!NOTE]
    >
-   >Le champ _[!UICONTROL Position]_est grisé par défaut et vous devez enregistrer l’attribut avant de pouvoir modifier ce paramètre.
+   >Le champ _[!UICONTROL Position]_&#x200B;est grisé par défaut et vous devez enregistrer l’attribut avant de pouvoir modifier ce paramètre.
 
 1. Pour utiliser l’attribut dans les règles de prix, définissez **[!UICONTROL Use for Promo Rule Conditions]** sur `Yes`.
 

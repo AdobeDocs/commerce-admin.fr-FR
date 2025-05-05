@@ -64,7 +64,7 @@ Dans cet exercice de présentation, vous créez un bloc simple avec du contenu d
 
 1. Dans le coin supérieur droit de l’étape, cliquez sur l’icône _Fermer le plein écran_ (![Icône Fermer le plein écran](./assets/pb-icon-reduce.png)).
 
-   Cliquez sur cette icône pour revenir à la section _[!UICONTROL Content]_du bloc dont l&#39;aperçu est affiché.
+   Cliquez sur cette icône pour revenir à la section _[!UICONTROL Content]_&#x200B;du bloc dont l&#39;aperçu est affiché.
 
 1. Dans le coin supérieur droit, cliquez sur la flèche **[!UICONTROL Save]** et sélectionnez **[!UICONTROL Save & Close]**.
 
@@ -102,11 +102,11 @@ Si [!DNL Google Maps] est déjà configuré pour votre magasin, vous pouvez igno
 
 1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Dans la grille, recherchez le _[!UICONTROL Simple Page]_que vous avez créé dans le premier tutoriel et sélectionnez **[!UICONTROL Edit]**dans la colonne_[!UICONTROL Action]_.
+1. Dans la grille, recherchez le _[!UICONTROL Simple Page]_&#x200B;que vous avez créé dans le premier tutoriel et sélectionnez **[!UICONTROL Edit]**&#x200B;dans la colonne&#x200B;_[!UICONTROL Action]_.
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) de la section **[!UICONTROL Content]** et cliquez sur **[!UICONTROL Edit with Page Builder]** ou dans la zone d’aperçu du contenu.
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Row]**en haut de l’étape.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Row]**&#x200B;en haut de l’étape.
 
    ![Ajout de la ligne en haut de l’étape](./assets/pb-tutorial2-elements-row-drag-top.png){width="600" zoomable="yes"}
 
@@ -130,7 +130,7 @@ Si [!DNL Google Maps] est déjà configuré pour votre magasin, vous pouvez igno
 
 1. Dans le coin supérieur droit de l’étape, cliquez sur l’icône _Fermer le plein écran_ (![Icône Fermer le plein écran](./assets/pb-icon-reduce.png)).
 
-   Cliquez sur cette icône pour revenir à la section _[!UICONTROL Content]_de la page dont l’aperçu est affiché.
+   Cliquez sur cette icône pour revenir à la section _[!UICONTROL Content]_&#x200B;de la page dont l’aperçu est affiché.
 
 1. Dans le coin supérieur droit, cliquez sur la flèche **[!UICONTROL Save]** et sélectionnez **[!UICONTROL Save & Close]**.
 
@@ -182,7 +182,7 @@ Faites défiler l&#39;écran jusqu&#39;à la section _[!UICONTROL Content]_, qui
 
 1. Pour **[!UICONTROL Minimum Height]**, saisissez `400px`.
 
-1. Accédez à la section _[!UICONTROL Background]_et définissez **[!UICONTROL Background Image]**en cliquant sur **[!UICONTROL Select from Gallery]**et en choisissant l’image `wide-banner-background.png` chargée dans le premier tutoriel.
+1. Accédez à la section _[!UICONTROL Background]_&#x200B;et définissez **[!UICONTROL Background Image]**&#x200B;en cliquant sur **[!UICONTROL Select from Gallery]**&#x200B;et en choisissant l’image `wide-banner-background.png` chargée dans le premier tutoriel.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
@@ -190,7 +190,7 @@ Faites défiler l&#39;écran jusqu&#39;à la section _[!UICONTROL Content]_, qui
 
 **Tâche 2 :** Ajouter des colonnes
 
-Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Column]**sur la ligne.
+Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Column]**&#x200B;sur la ligne.
 
 ![Faire glisser le type de colonne dans la ligne](./assets/pb-tutorial2-column-drag.png){width="600" zoomable="yes"}
 
@@ -264,7 +264,7 @@ Au cours du premier exercice, vous avez appris à utiliser le type de contenu [B
 
 1. Dans le coin supérieur droit de l’étape, cliquez sur l’icône _Fermer le plein écran_ (![Icône Fermer le plein écran](./assets/pb-icon-reduce.png)).
 
-   Cliquez sur cette icône pour revenir à la section _[!UICONTROL Content]_du bloc dynamique dont l&#39;aperçu est affiché.
+   Cliquez sur cette icône pour revenir à la section _[!UICONTROL Content]_&#x200B;du bloc dynamique dont l&#39;aperçu est affiché.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]**.
 
@@ -298,7 +298,7 @@ Au cours du premier exercice, vous avez appris à utiliser le type de contenu [B
 
    Pour confirmer la suppression de la ligne de la page, cliquez sur **[!UICONTROL OK]** .
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un nouvel espace réservé&#x200B;**[!UICONTROL Row]**en haut de l’étape.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un nouvel espace réservé&#x200B;**[!UICONTROL Row]**&#x200B;en haut de l’étape.
 
 1. Dans le panneau [!DNL Page Builder], développez **[!UICONTROL Add Content]** et faites glisser un espace réservé **[!UICONTROL Dynamic Block]** sur la nouvelle ligne.
 
@@ -312,7 +312,7 @@ Au cours du premier exercice, vous avez appris à utiliser le type de contenu [B
 
    ![Sélectionner un bloc dynamique](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
 
-1. Recherchez le bloc dynamique _[!DNL Tee Shirt Promo]_que vous avez créé et cliquez sur **[!UICONTROL Select]**.
+1. Recherchez le bloc dynamique _[!DNL Tee Shirt Promo]_&#x200B;que vous avez créé et cliquez sur **[!UICONTROL Select]**.
 
    Un résumé des informations du bloc dynamique apparaît ci-dessous.
 
@@ -326,7 +326,7 @@ Au cours du premier exercice, vous avez appris à utiliser le type de contenu [B
 
 1. Dans le coin supérieur droit de l’étape, cliquez sur l’icône _Fermer le plein écran_ (![Icône Fermer le plein écran](./assets/pb-icon-reduce.png)).
 
-   Cliquez sur cette icône pour revenir à la section _[!UICONTROL Content]_de la page dont l’aperçu est affiché.
+   Cliquez sur cette icône pour revenir à la section _[!UICONTROL Content]_&#x200B;de la page dont l’aperçu est affiché.
 
 1. Dans le coin supérieur droit, cliquez sur la flèche **[!UICONTROL Save]** et sélectionnez **[!UICONTROL Save & Close]**.
 
@@ -342,7 +342,7 @@ Dans cette dernière partie de l’exercice, vous modifiez un bloc dynamique pen
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
 
-1. Recherchez votre bloc dynamique _[!DNL Tee Shirt Promo]_dans la grille et ouvrez-le en mode d&#39;édition.
+1. Recherchez votre bloc dynamique _[!DNL Tee Shirt Promo]_&#x200B;dans la grille et ouvrez-le en mode d&#39;édition.
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) de la section **[!UICONTROL Content]** et cliquez sur **[!UICONTROL Edit with Page Builder]**.
 
@@ -368,7 +368,7 @@ Dans cette dernière partie de l’exercice, vous modifiez un bloc dynamique pen
 
 1. Dans le coin supérieur droit de l’étape, cliquez sur l’icône _Fermer le plein écran_ (![Icône Fermer le plein écran](./assets/pb-icon-reduce.png)).
 
-   Cliquez sur cette icône pour revenir à la section _[!UICONTROL Content]_du bloc dynamique dont l&#39;aperçu est affiché.
+   Cliquez sur cette icône pour revenir à la section _[!UICONTROL Content]_&#x200B;du bloc dynamique dont l&#39;aperçu est affiché.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]**.
 

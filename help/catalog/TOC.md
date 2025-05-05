@@ -20,13 +20,13 @@ ht-degree: 0%
 + Principes de base des catalogues {#catalog}
    + [URL de catalogue et de produit](catalog-urls.md)
    + [Catalogues plats](catalog-flat.md)
-   + {#navigation} de navigation dans les catalogues
+   + de navigation dans les catalogues{#navigation}
       + [Aperçu de la navigation](navigation.md)
       + [Volet de navigation supérieur](navigation-top.md)
       + [Chemins de navigation](navigation-breadcrumb-trail.md)
       + [Listes de produits](navigation-product-listings.md)
       + [Navigation superposée](navigation-layered.md)
-   + {#search} de recherche catalogue
+   + de recherche catalogue{#search}
       + [Aperçu de la recherche](search.md)
       + [Configuration de la recherche catalogue](search-configuration.md)
       + [Résultats de la recherche](search-results.md)
@@ -48,7 +48,7 @@ ht-degree: 0%
       + [Ajouter et supprimer des produits de catégorie](category-products-add.md)
    + [Modifications planifiées](category-scheduled-changes.md)
    + [Autorisations de catégorie](category-permissions.md)
-+ {#products} de produits
++ de produits{#products}
    + [Liste de produits](products-list.md)
    + [Espace de travail du produit](product-workspace.md)
    + [Création d’un produit](product-create.md)
@@ -60,7 +60,7 @@ ht-degree: 0%
       + [Produit groupé](product-create-bundle.md)
       + [Produit téléchargeable](product-create-downloadable.md)
       + [Carte cadeau](product-gift-card-create.md)
-   + {#digital-assets} des ressources numériques du produit
+   + des ressources numériques du produit{#digital-assets}
       + [Catalogue d’images et de vidéos](catalog-images-video.md)
       + [Configuration des ressources d’image](product-image-config.md)
       + [Gestion des images de produit](product-image.md)
@@ -68,7 +68,7 @@ ht-degree: 0%
       + Gestion des modèles 3D de produit {#product-3d-model}
          + [Présentation de la visionneuse AR](ar-viewer-overview.md)
          + [Configuration de la visionneuse AR](ar-viewer-setup.md)
-   + Gérer les {#pricing} de tarification
+   + Gérer les de tarification {#pricing}
       + [Périmètre du prix](catalog-price-scope.md)
       + [Tarification avancée](pricing-advanced.md)
       + [Tarification du groupe](product-price-group.md)
@@ -76,7 +76,7 @@ ht-degree: 0%
       + [Tarification par niveau](product-price-tier.md)
       + [Prix minimal annoncé](product-price-minimum-advertised.md)
    + [Planifier des mises à jour de produit](product-scheduled-changes.md)
-   + {#settings} de référence des paramètres du produit
+   + de référence des paramètres du produit{#settings}
       + [Sources](sources.md)
       + [Contenu](product-content.md)
       + [Configurations](product-configurations.md)

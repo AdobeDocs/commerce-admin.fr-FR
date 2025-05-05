@@ -66,7 +66,7 @@ Fonctionnement des cartes-cadeaux sur la vitrine :
 
 - Les comptes des codes cadeau sont créés pour effectuer le suivi du solde d’un bon spécifique. Un administrateur de magasin peut régler manuellement le solde.
 
-Le client destinataire peut utiliser la section _[!UICONTROL Gift Card]_du tableau de bord de son compte pour vérifier le solde de son [compte de carte-cadeau](product-gift-card-accounts.md) et échanger des cartes-cadeaux pour le [crédit de boutique](../customers/store-credit-using.md).
+Le client destinataire peut utiliser la section _[!UICONTROL Gift Card]_&#x200B;du tableau de bord de son compte pour vérifier le solde de son [compte de carte-cadeau](product-gift-card-accounts.md) et échanger des cartes-cadeaux pour le [crédit de boutique](../customers/store-credit-using.md).
 
 ![Carte cadeau](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
 

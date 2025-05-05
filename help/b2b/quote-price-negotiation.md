@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Si les [devis B2B sont activés](configure-quotes.md) dans la configuration, la négociation des prix peut être initiée par un acheteur autorisé d’une société ou d’un représentant commercial.
 
-Les acheteurs lancent le processus de négociation des prix en demandant un devis](quote-request.md) auprès du panier. [ Les représentants commerciaux peuvent lancer des négociations en [créant un projet de devis pour un acheteur](sales-rep-initiates-quote.md), en mettant à jour le devis avec les articles de commande et le prix initiaux, puis en l’envoyant à l’acheteur.
+Les acheteurs lancent le processus de négociation des prix en demandant un devis[&#128279;](quote-request.md) auprès du panier.  Les représentants commerciaux peuvent lancer des négociations en [créant un projet de devis pour un acheteur](sales-rep-initiates-quote.md), en mettant à jour le devis avec les articles de commande et le prix initiaux, puis en l’envoyant à l’acheteur.
 
 Lorsque la négociation des prix démarre, les guillemets sont répertoriés dans la grille [Quotes](quotes.md). Toutes les négociations entre l&#39;acheteur et le vendeur se font par email, et sont initiées et suivies depuis le détail du devis.
 
@@ -47,7 +47,7 @@ Les acheteurs gèrent le processus de négociation des devis à partir du storef
 
 1. Sélectionnez un **[!UICONTROL Expiration Date]** pour le guillemet.
 
-1. Faites défiler l’écran jusqu’à la section _[!UICONTROL Quote Totals]_et mettez à jour **[!UICONTROL Negotiated Price]**si nécessaire.
+1. Faites défiler l’écran jusqu’à la section _[!UICONTROL Quote Totals]_&#x200B;et mettez à jour **[!UICONTROL Negotiated Price]**&#x200B;si nécessaire.
 
    ![Mettre à jour le prix négocié](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
@@ -65,7 +65,7 @@ Les acheteurs gèrent le processus de négociation des devis à partir du storef
 
 ### Application des mises à jour des éléments de ligne
 
-Appliquez les modifications d’élément de ligne dans la section _[!UICONTROL Items Quoted]_si nécessaire.
+Appliquez les modifications d’élément de ligne dans la section _[!UICONTROL Items Quoted]_&#x200B;si nécessaire.
 
 ![Appliquer les mises à jour des éléments de ligne](./assets/quote-apply-line-item-operations.png){width="600" zoomable="yes"}
 
@@ -100,7 +100,7 @@ la remise d’article et toute remise de niveau de prix sont appliquées au prix
 
 1. Saisissez un **[!UICONTROL Proposed Shipping Price]**.
 
-   Les _[!UICONTROL Quote Totals]_sont mis à jour pour prendre en compte le prix d’expédition proposé.
+   Les _[!UICONTROL Quote Totals]_&#x200B;sont mis à jour pour prendre en compte le prix d’expédition proposé.
 
 ### Joindre un document de prise en charge
 
@@ -112,7 +112,7 @@ la remise d’article et toute remise de niveau de prix sont appliquées au prix
 
 ## Étape 3 : mettre à jour les informations au niveau du devis et envoyer votre réponse
 
-1. Dans la section _[!UICONTROL Negotiation]_de l&#39;onglet_[!UICONTROL Comments]_, saisissez votre réponse dans la section **[!UICONTROL Add your comment]** .
+1. Dans la section _[!UICONTROL Negotiation]_&#x200B;de l&#39;onglet&#x200B;_[!UICONTROL Comments]_, saisissez votre réponse dans la section **[!UICONTROL Add your comment]** .
 
 1. Pour inclure un document de prise en charge, cliquez sur **[!UICONTROL Attach file]** et sélectionnez le fichier dans votre répertoire.
 
@@ -120,7 +120,7 @@ la remise d’article et toute remise de niveau de prix sont appliquées au prix
 
 1. Pour appliquer une remise au devis :
 
-   - Sous _[!UICONTROL Quote Totals]_de la section_[!UICONTROL Negotiated Price]_, sélectionnez l’un des types de remise suivants :
+   - Sous _[!UICONTROL Quote Totals]_&#x200B;de la section&#x200B;_[!UICONTROL Negotiated Price]_, sélectionnez l’un des types de remise suivants :
 
       - `Percentage Discount` : une remise en pourcentage réduit le prix d’origine d’un pourcentage spécifique.
       - `Amount Discount` : une remise sur un montant applique une réduction de prix fixe.
@@ -160,7 +160,7 @@ Pour contrôler sa position dans le workflow, vérifiez votre email et l&#39;ét
 
 | Bouton | Description |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Back] | Renvoie à la page _[!UICONTROL Quotes]_sans enregistrer les modifications. |
+| [!UICONTROL Back] | Renvoie à la page _[!UICONTROL Quotes]_&#x200B;sans enregistrer les modifications. |
 | [!UICONTROL Print] | Envoie le guillemet à une imprimante ou l’enregistre sous la forme d’un fichier de PDF. |
 | [!UICONTROL Create Copy] | Crée et ouvre une copie du guillemet actuel avec `(copy)` ajouté au nom d’origine. Renommez le nouveau guillemet en modifiant le champ [!UICONTROL Name]. Traitez le nouveau guillemet en l’enregistrant en tant que brouillon ou en l’envoyant au client. |
 | Créer un modèle | Créez un modèle de devis basé sur le guillemet actuel. Les modèles de devis rationnalisent la négociation des devis en permettant aux acheteurs et aux vendeurs de se mettre d&#39;accord sur les termes du contrat et des prix qui peuvent être appliqués à plusieurs devis. . Sur accord, l’acheteur peut générer un devis prévalidé et lié à partir du modèle pour les commandes ultérieures au lieu de redémarrer le processus de demande de devis (RFQ). |

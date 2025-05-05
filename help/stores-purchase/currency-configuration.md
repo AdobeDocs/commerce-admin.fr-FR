@@ -150,7 +150,7 @@ La gestion des symboles de devise vous permet de personnaliser le symbole associ
 
    - Saisissez un symbole personnalisé pour chaque devise à utiliser ou cochez la case **[!UICONTROL Use Standard]** pour chaque devise.
 
-   - Pour remplacer le symbole par défaut, décochez la case _[!UICONTROL Use Standard]_et saisissez le symbole à utiliser.
+   - Pour remplacer le symbole par défaut, décochez la case _[!UICONTROL Use Standard]_&#x200B;et saisissez le symbole à utiliser.
 
    >[!NOTE]
    >

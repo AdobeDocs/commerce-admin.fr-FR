@@ -114,7 +114,7 @@ Définissez également les mots-clés et attributs associés, tels que :
    - `Static Block Only`
    - `Static Block and Products`
 
-1. Si vous souhaitez que la page de catégorie inclue la section _`Filter by Attribute`_de la navigation superposée, définissez **[!UICONTROL Anchor]**sur `Yes`.
+1. Si vous souhaitez que la page de catégorie inclue la section _`Filter by Attribute`_de la navigation superposée, définissez **[!UICONTROL Anchor]**&#x200B;sur `Yes`.
 
 1. Pour les options de **[!UICONTROL Available Product Listing Sort By]**, sélectionnez une ou plusieurs des valeurs disponibles pour que les clients puissent trier la liste. Ce paramètre ne s’applique pas au [!DNL Live Search] [widget de page de liste de produits](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 

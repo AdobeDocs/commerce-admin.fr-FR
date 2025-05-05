@@ -26,7 +26,7 @@ Utilisez le type de contenu _Vidéo_ pour ajouter une vidéo hébergée sur [You
 |--- |--- |--- |
 | Déplacer | ![Icône Déplacer](./assets/pb-icon-move.png){width="25"} | Déplace la vidéo vers une autre position sur la scène. |
 | (label) | [!UICONTROL Video] | Identifie le conteneur de contenu actuel en tant que vidéo. Passez la souris sur le conteneur d’images pour afficher la boîte à outils. |
-| Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _[!UICONTROL Edit Video]_dans laquelle vous pouvez modifier les propriétés de la vidéo et du conteneur. |
+| Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _[!UICONTROL Edit Video]_&#x200B;dans laquelle vous pouvez modifier les propriétés de la vidéo et du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque la vidéo en cours. |
 | Afficher | ![Icône Afficher](./assets/pb-icon-show.png){width="25"} | Affiche la vidéo masquée. |
 | Dupliquer | ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="25"} | Effectue une copie de la vidéo. |

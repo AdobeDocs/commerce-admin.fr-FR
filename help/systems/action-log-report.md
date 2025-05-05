@@ -74,4 +74,4 @@ Pour effacer les options de filtre et revenir au rapport complet, cliquez sur **
 
    Le fichier généré est automatiquement enregistré dans le dossier désigné pour les téléchargements.
 
-   ![ {Export du rapport des journaux d’action](./assets/action-log-report-export.png){width="200"}
+   ![ &lbrace;Export du rapport des journaux d’action](./assets/action-log-report-export.png){width="200"}

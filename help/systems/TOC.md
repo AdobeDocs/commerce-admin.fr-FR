@@ -18,7 +18,7 @@ ht-degree: 3%
 - [Guide des systèmes d’administration](guide-overview.md)
 - [Présentation des systèmes d’administration](introduction.md)
 - [[!UICONTROL System] menu](system-menu.md)
-- {#user-accounts} des comptes utilisateur d’administration
+- des comptes utilisateur d’administration{#user-accounts}
    - [Autorisations d’administrateur](permissions.md)
    - [Gestion des comptes utilisateur](permissions-users-all.md)
    - [Rôles utilisateur](permissions-user-roles.md)
@@ -28,11 +28,11 @@ ht-degree: 3%
    - [Variables personnalisées](variables-custom.md)
    - [Référence des variables](variables-reference.md)
    - [Balises de marquage](markup-tags.md)
-- {#communications} Communications
+- Communications{#communications}
    - [Modèles d’e-mail](email-templates.md)
    - [Personnaliser les modèles d’e-mail](email-template-custom.md)
    - [Configuration des e-mails](email-communications.md)
-- {#data-transfer} de transfert de données
+- de transfert de données{#data-transfer}
    - [Vue d’ensemble](data-transfer.md)
    - [Fichiers CSV](data-csv.md)
    - Importer {#import}
@@ -49,7 +49,7 @@ ht-degree: 3%
       - [Importer les données de prix de niveau](data-import-price-tier.md)
    - [Import et export planifiés](data-scheduled-import-export.md)
    - [Tableau de bord de gestion des données](data-dashboard.md)
-- {#action-logs} des logs d’action
+- des logs d’action{#action-logs}
    - [Vue d’ensemble](action-log.md)
    - [Rapport Journaux d’actions](action-log-report.md)
    - [Archive du journal](action-log-archive.md)
@@ -62,7 +62,7 @@ ht-degree: 3%
    - [Outils de développement](developer-tools.md)
    - [Outils d’assistance](support.md)
 - [Intégrations](integrations.md)
-- {#security} de sécurité
+- de sécurité{#security}
    - [Vue d’ensemble](security.md)
    - [Clé de chiffrement](encryption-key.md)
    - [Analyse de sécurité](security-scan.md)

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Le module [!DNL Inventory Management] prend en charge les paramètres de configuration de stock au niveau du produit et global et fournit également des paramètres supplémentaires qui affectent la disponibilité de la source, les produits storefront et l’expédition de commandes. Les paramètres de configuration s’appliquent à :
 
-- L’ensemble du catalogue : accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**. Ensuite, développez **[!UICONTROL Catalog]**dans le panneau de gauche et sélectionnez **[!UICONTROL Inventory]**.
+- L’ensemble du catalogue : accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**. Ensuite, développez **[!UICONTROL Catalog]**&#x200B;dans le panneau de gauche et sélectionnez **[!UICONTROL Inventory]**.
 
 - Produits spécifiques : accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Products]**. Ouvrez ensuite le produit en mode d’édition et cliquez sur **[!UICONTROL Advanced Inventory]** dans la section _[!UICONTROL Sources]_.
 
@@ -46,7 +46,7 @@ Vous pouvez également utiliser le seuil de disponibilité du stock pour gérer 
 
 ## Restauration de la configuration et héritage
 
-Les configurations remplacent ou s’appliquent dans le chemin d’héritage suivant : la section _[!UICONTROL Sources]_du produit remplace la configuration globale du magasin_[!UICONTROL Inventory]_ par le produit _[!UICONTROL Advanced Options]_.
+Les configurations remplacent ou s’appliquent dans le chemin d’héritage suivant : la section _[!UICONTROL Sources]_&#x200B;du produit remplace la configuration globale du magasin&#x200B;_[!UICONTROL Inventory]_ par le produit _[!UICONTROL Advanced Options]_.
 
 Lorsque [!DNL Commerce] recherche des paramètres personnalisés à appliquer, il suit l’ordre suivant :
 

@@ -57,7 +57,7 @@ Le widget _Commandes et retours_ permet aux invités de vérifier l’état de l
 
    - (Facultatif) Pour **[!UICONTROL Sort Order]**, saisissez un nombre afin de déterminer l’ordre dans lequel cet élément apparaît avec les autres dans la même partie de la page. (`0` = premier, `1` = deuxième, `3` = troisième, etc.)
 
-1. Dans la section _[!UICONTROL Layout Updates]_, cliquez sur **[!UICONTROL Add Layout Update]**et procédez comme suit :
+1. Dans la section _[!UICONTROL Layout Updates]_, cliquez sur **[!UICONTROL Add Layout Update]**&#x200B;et procédez comme suit :
 
    - Définissez **[!UICONTROL Display On]** sur le type de page sur lequel vous souhaitez que le widget s’affiche.
 

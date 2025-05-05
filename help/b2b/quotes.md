@@ -142,7 +142,7 @@ Seules les demandes de guillemet ayant le statut `Open` peuvent être refusées.
 
 1. Sélectionnez chaque demande de devis ouverte que vous souhaitez refuser.
 
-1. Définissez le contrôle _[!UICONTROL Actions]_sur `Declined`.
+1. Définissez le contrôle _[!UICONTROL Actions]_&#x200B;sur `Declined`.
 
 1. Lorsque vous y êtes invité, saisissez la raison pour laquelle le guillemet a été refusé, puis cliquez sur **[!UICONTROL Confirm]**.
 

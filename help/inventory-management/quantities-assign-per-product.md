@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Après avoir ajouté [sources](sources-assign-per-product.md), mettez à jour les quantités d’inventaire de votre produit. Ces valeurs effectuent le suivi des montants en stock disponibles.
 
-Pour masquer l’inventaire d’une source des envois sans supprimer la source, définissez _[!UICONTROL Source Item Status]_sur `Out of Stock`. Les options SSA et d’expédition accèdent uniquement aux sources répertoriées en tant que `In Stock` avec la quantité de stock disponible.
+Pour masquer l’inventaire d’une source des envois sans supprimer la source, définissez _[!UICONTROL Source Item Status]_&#x200B;sur `Out of Stock`. Les options SSA et d’expédition accèdent uniquement aux sources répertoriées en tant que `In Stock` avec la quantité de stock disponible.
 
 Toutes les quantités et sources mises à jour s’affichent dans la grille de produits.
 
@@ -33,7 +33,7 @@ Toutes les quantités et sources mises à jour s’affichent dans la grille de p
 1. Pour définir une notification pour les quantités d&#39;inventaire, effectuez l&#39;une des opérations suivantes :
 
    - Quantité de notification personnalisée - Décochez la case **[!UICONTROL Use Default]** et saisissez un montant dans **[!UICONTROL Notify Qty]**.
-   - Quantité de notification par défaut : cochez la case **[!UICONTROL Use Default]** . [!DNL Commerce] vérifie et utilise le paramètre dans _[!UICONTROL Advanced Inventory]_ou la configuration de magasin globale.
+   - Quantité de notification par défaut : cochez la case **[!UICONTROL Use Default]** . [!DNL Commerce] vérifie et utilise le paramètre dans _[!UICONTROL Advanced Inventory]_&#x200B;ou la configuration de magasin globale.
 
    ![Mettre à jour les quantités de produits par Source](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
 
@@ -44,6 +44,6 @@ Toutes les quantités et sources mises à jour s’affichent dans la grille de p
    - Dans le menu **[!UICONTROL Save]** (![Flèche de menu](../assets/icon-menu-down-arrow-red.png)), choisissez **[!UICONTROL Save & Close]**.
 
 
-La grille de produits est mise à jour avec une liste de toutes les sources et des quantités associées. Pour les produits avec plus de cinq sources affectées, passez la souris sur la colonne _[!UICONTROL Quantity per Source]_pour afficher la liste complète.
+La grille de produits est mise à jour avec une liste de toutes les sources et des quantités associées. Pour les produits avec plus de cinq sources affectées, passez la souris sur la colonne _[!UICONTROL Quantity per Source]_&#x200B;pour afficher la liste complète.
 
 ![Quantités de produits par source](assets/inventory-product-quantity.png){width="600" zoomable="yes"}

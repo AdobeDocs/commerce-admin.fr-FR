@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Paramètres du produit - [!UICONTROL Design]
 
-Les paramètres _[!UICONTROL Design]_permettent d’appliquer un thème différent à la page du produit, de modifier la mise en page des colonnes, de déterminer où apparaissent les options du produit et de saisir du code XML personnalisé.
+Les paramètres _[!UICONTROL Design]_&#x200B;permettent d’appliquer un thème différent à la page du produit, de modifier la mise en page des colonnes, de déterminer où apparaissent les options du produit et de saisir du code XML personnalisé.
 
 ![Design](./assets/product-design-ee.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Lorsque le même produit est affecté à plusieurs catégories avec des paramètres de conception différents pour chaque catégorie, il est recommandé de définir **[!UICONTROL Use Categories Path for Product URLs]** = `Yes` dans les [options de configuration de l’optimisation du moteur de recherche](../configuration-reference/catalog/catalog.md#search-engine-optimization). Pour accéder à ce paramètre, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, développez **[!UICONTROL Catalog]**et choisissez **[!UICONTROL Catalog]**sous le panneau de gauche, puis développez la section **[!UICONTROL Search Engine Optimization]**de la page.
+>Lorsque le même produit est affecté à plusieurs catégories avec des paramètres de conception différents pour chaque catégorie, il est recommandé de définir **[!UICONTROL Use Categories Path for Product URLs]** = `Yes` dans les [options de configuration de l’optimisation du moteur de recherche](../configuration-reference/catalog/catalog.md#search-engine-optimization). Pour accéder à ce paramètre, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, développez **[!UICONTROL Catalog]**&#x200B;et choisissez **[!UICONTROL Catalog]**&#x200B;sous le panneau de gauche, puis développez la section **[!UICONTROL Search Engine Optimization]**&#x200B;de la page.
 
 | Champ | [Portée](../getting-started/websites-stores-views.md#scope-settings) | Description |
 |---|---|----|

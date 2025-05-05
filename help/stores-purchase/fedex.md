@@ -146,7 +146,7 @@ Un compte marchand FedEx et une inscription à FedEx Web Services Production Acc
 
 1. Définir **[!UICONTROL Ship to Applicable Countries]** :
 
-   - `All Allowed Countries`- Les clients de tous les pays](../getting-started/store-details.md#country-options) spécifiés dans la [configuration de votre magasin peuvent utiliser ce mode de livraison.
+   - `All Allowed Countries`- Les clients de tous les pays[&#128279;](../getting-started/store-details.md#country-options) spécifiés dans la configuration de votre magasin peuvent utiliser ce mode de livraison.
 
    - `Specific Countries` - Lorsque vous choisissez cette option, la _liste Expédier vers des pays_ spécifiques apparaît. Sélectionnez chaque pays dans la liste où ce mode de livraison peut être utilisé.
 

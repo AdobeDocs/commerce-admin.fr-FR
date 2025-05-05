@@ -89,7 +89,7 @@ Les commerçants contrôlés pour les taxes payées pour les produits numérique
 - L’adresse de livraison du client et un enregistrement d’une transaction de paiement réussie peuvent être utilisés pour établir le lieu de résidence du client. (Le paiement n’est accepté que si l’adresse de livraison correspond aux informations du fournisseur de paiement.)
 - Les informations peuvent également être capturées directement à partir de l’entrepôt de données dans les tables de base de données Commerce.
 
-_**Pour collecter des informations sur la taxe sur les produits numériques :**_
+_&#x200B;**Pour collecter des informations sur la taxe sur les produits numériques :**&#x200B;_
 
 1. Charger les taux d&#39;imposition pour tous les pays membres de l&#39;UE.
 

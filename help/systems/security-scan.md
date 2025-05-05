@@ -104,7 +104,7 @@ L’outil d’analyse de sécurité est disponible gratuitement depuis le tablea
 
         Une fois le processus de création terminé, les modifications sont déployées vers l’interface de votre boutique de PWA.
 
-1. Revenez à la page _[!UICONTROL Security Scan]_de votre compte Commerce et cliquez sur **[!UICONTROL Verify Confirmation Code]**pour établir la propriété du domaine.
+1. Revenez à la page _[!UICONTROL Security Scan]_&#x200B;de votre compte Commerce et cliquez sur **[!UICONTROL Verify Confirmation Code]**&#x200B;pour établir la propriété du domaine.
 
 1. Après une confirmation réussie, configurez les options **[!UICONTROL Set Automatic Security Scan]** pour l’un des types suivants :
 

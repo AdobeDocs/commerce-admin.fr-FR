@@ -30,7 +30,7 @@ Lorsque vous utilisez le type de contenu Curseur , vous ajoutez et modifiez des 
 |--- |--- |--- |
 | Déplacer | ![Icône Déplacer](./assets/pb-icon-move.png){width="25"} | Déplace la diapositive vers une autre position sur le curseur. |
 | (label) | Numéro de la diapositive | Identifie le numéro de la diapositive actuelle. |
-| Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _[!UICONTROL Edit Slide]_où vous pouvez modifier les propriétés de la diapositive actuelle. |
+| Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _[!UICONTROL Edit Slide]_&#x200B;où vous pouvez modifier les propriétés de la diapositive actuelle. |
 | Dupliquer | ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="25"} | Effectue une copie de la diapositive actuelle. |
 | Supprimer | ![Supprimer l’icône](./assets/pb-icon-remove.png){width="25"} | Supprime la diapositive actuelle du curseur. |
 
@@ -42,7 +42,7 @@ Lorsque vous utilisez le type de contenu Curseur , vous ajoutez et modifiez des 
 |--- |--- |--- |
 | Déplacer | ![Icône Déplacer](./assets/pb-icon-move.png){width="25"} | Déplace le curseur vers une autre position sur la scène. |
 | (label) | [!UICONTROL Slider] | Identifie le conteneur de curseur. |
-| Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _[!UICONTROL Edit Slider]_dans laquelle vous pouvez modifier les propriétés de la vidéo et du conteneur. |
+| Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _[!UICONTROL Edit Slider]_&#x200B;dans laquelle vous pouvez modifier les propriétés de la vidéo et du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le curseur actuel. |
 | Afficher | ![Icône Afficher](./assets/pb-icon-show.png){width="25"} | Affiche le curseur masqué. |
 | Dupliquer | ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="25"} | Effectue une copie du curseur. |
@@ -256,7 +256,7 @@ Un type d’arrière-plan peut être une image ou une vidéo. [!DNL Page Builder
 
 ### Paramètres de type d’image
 
-Si vous définissez _[!UICONTROL Background Type]_sur `Image`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
+Si vous définissez _[!UICONTROL Background Type]_&#x200B;sur `Image`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
 
 ![Bannière avec image d’arrière-plan](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -338,9 +338,9 @@ Vous pouvez modifier le contenu de la diapositive directement sur la scène ou l
 
 1. Cliquez sur le point de navigation au bas du curseur pour afficher la boîte à outils de la diapositive individuelle, puis sélectionnez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Dans la section _[!UICONTROL Content]_, saisissez le **[!UICONTROL Message Text]**que vous souhaitez afficher avec la diapositive.
+1. Dans la section _[!UICONTROL Content]_, saisissez le **[!UICONTROL Message Text]**&#x200B;que vous souhaitez afficher avec la diapositive.
 
-1. Faites défiler l’écran jusqu’à la section _[!UICONTROL Content]_et utilisez l’éditeur **[!UICONTROL Message Text]**pour saisir et mettre en forme le texte de bannière.
+1. Faites défiler l’écran jusqu’à la section _[!UICONTROL Content]_&#x200B;et utilisez l’éditeur **[!UICONTROL Message Text]**&#x200B;pour saisir et mettre en forme le texte de bannière.
 
    Vous pouvez également insérer des éléments, tels que des liens de texte, des images et des widgets.
 

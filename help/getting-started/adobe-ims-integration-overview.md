@@ -22,7 +22,7 @@ Pour mettre en oeuvre cette intégration, voir [Configuration de l’intégratio
 
 ## Modifications apportées aux processus et à l’interface d’administration après l’intégration à IMS
 
-Lorsque cette intégration est activée, les utilisateurs administrateurs de Commerce subissent des modifications dans le processus de connexion et d’authentification de l’administrateur Commerce par défaut, car ils effectuent des tâches routinières dans l’administrateur qui nécessitent une réauthentification, comme la création d’un utilisateur administrateur. L’application de l’authentification à deux facteurs (2FA) au niveau de l’organisation Adobe est requise pour l’activation des modules. La connexion d’administrateur par défaut et la connexion 2FA sont désactivées, et le bouton _[!UICONTROL Sign In with Adobe ID]_remplace la connexion d’administrateur par défaut dans le formulaire. Les droits sont toujours gérés par l’administrateur.
+Lorsque cette intégration est activée, les utilisateurs administrateurs de Commerce subissent des modifications dans le processus de connexion et d’authentification de l’administrateur Commerce par défaut, car ils effectuent des tâches routinières dans l’administrateur qui nécessitent une réauthentification, comme la création d’un utilisateur administrateur. L’application de l’authentification à deux facteurs (2FA) au niveau de l’organisation Adobe est requise pour l’activation des modules. La connexion d’administrateur par défaut et la connexion 2FA sont désactivées, et le bouton _[!UICONTROL Sign In with Adobe ID]_&#x200B;remplace la connexion d’administrateur par défaut dans le formulaire. Les droits sont toujours gérés par l’administrateur.
 
 ## Comment l’intégration de l’administrateur à IMS affecte les mots de passe Commerce
 

@@ -96,7 +96,7 @@ Il peut y avoir d’autres attributs individuels qui décrivent le produit. La s
 
 ### Étape 5 : renseigner les informations sur la carte-cadeau
 
-La section _[!UICONTROL Gift Card Information]_des paramètres du produit peut être utilisée pour remplacer les paramètres de [configuration de carte-cadeau](../configuration-reference/sales/gift-cards.md) qui déterminent la manière dont la carte est gérée.
+La section _[!UICONTROL Gift Card Information]_&#x200B;des paramètres du produit peut être utilisée pour remplacer les paramètres de [configuration de carte-cadeau](../configuration-reference/sales/gift-cards.md) qui déterminent la manière dont la carte est gérée.
 
 1. Faites défiler l’écran jusqu’à la section _[!UICONTROL Gift Card Information]_.
 

@@ -141,7 +141,7 @@ Seules les commandes client qui ne sont pas facturées, qui ont un statut de , e
 | [!UICONTROL Customer Name] | Le nom du client ou de l’acheteur qui a passé la commande. Le nom du client est lié au profil du client. |
 | [!UICONTROL Email] | L’adresse électronique du client ou de l’acheteur. L’adresse email est liée pour ouvrir un nouveau message email. |
 | [!UICONTROL Customer Group] | Nom du groupe de clients ou du catalogue partagé auquel le client est affecté. |
-| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Le nom de la société à laquelle l’acheteur est associé et pour le compte de laquelle la commande est passée. Le nom de l’entreprise est lié au profil](../b2b/account-companies.md) de l’entreprise[. |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible avec Adobe Commerce B2B) Le nom de la société à laquelle l’acheteur est associé et pour le compte de laquelle la commande est passée. Le nom de l’entreprise est lié au profil[&#128279;](../b2b/account-companies.md) de l’entreprise. |
 
 {style="table-layout:auto"}
 

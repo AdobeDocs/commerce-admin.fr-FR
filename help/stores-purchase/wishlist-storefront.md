@@ -121,7 +121,7 @@ Dans le storefront, un client peut créer une liste de souhaits à partir du tab
 
    Le message est envoyé à partir de votre principal [contact de magasin](../getting-started/store-details.md#store-email-addresses) et comprend une miniature de chaque produit, avec des liens vers votre boutique.
 
-   ![ {Shared Wish List Email](./assets/account-dashboard-wishlist-sharing-email.png){width="500" zoomable="yes"}
+   ![ &lbrace;Shared Wish List Email](./assets/account-dashboard-wishlist-sharing-email.png){width="500" zoomable="yes"}
 
 ## Modifier les listes de souhaits
 

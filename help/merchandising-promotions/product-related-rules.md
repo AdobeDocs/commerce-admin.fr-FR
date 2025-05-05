@@ -28,8 +28,8 @@ Pour accéder aux règles de produit connexes, accédez à **[!UICONTROL Marketi
 |--- |--- |
 | [!UICONTROL ID] | Identifiant numérique unique attribué à chaque règle de produit associée |
 | [!UICONTROL Rule] | Nom de la règle de produit associée |
-| [!UICONTROL Start] | Utilisez les champs de calendrier dynamique (_[!UICONTROL To:]_et_[!UICONTROL From:]_) pour filtrer la liste en fonction de la date de début de la règle, telle que définie lors de la création de la règle. |
-| [!UICONTROL End] | Utilisez les champs de calendrier dynamique (_[!UICONTROL To:]_et_[!UICONTROL From:]_) pour filtrer la liste en fonction de la date de fin de la règle, telle que définie lors de la création de la règle. |
+| [!UICONTROL Start] | Utilisez les champs de calendrier dynamique (_[!UICONTROL To:]_&#x200B;et&#x200B;_[!UICONTROL From:]_) pour filtrer la liste en fonction de la date de début de la règle, telle que définie lors de la création de la règle. |
+| [!UICONTROL End] | Utilisez les champs de calendrier dynamique (_[!UICONTROL To:]_&#x200B;et&#x200B;_[!UICONTROL From:]_) pour filtrer la liste en fonction de la date de fin de la règle, telle que définie lors de la création de la règle. |
 | [!UICONTROL Priority] | Saisissez du texte dans ce champ pour filtrer la liste selon la priorité définie pour une règle. |
 | [!UICONTROL Applies To] | Cette option filtre la liste des règles qui s’appliquent à `Related Products`, `Up-sells` et `Cross-sells`. |
 | [!UICONTROL Status] | Utilisez cette option pour filtrer la liste en fonction de l’état de la règle (`Active` ou `Inactive`). |
@@ -47,7 +47,7 @@ Le nombre d’ID de produit pouvant être inclus dans une règle de relations de
 Par exemple, supposons que vous ayez trois règles avec une priorité de `1`, `2` et `3`.
 
 - Deux produits correspondants sont renvoyés pour _Règle 1_, six produits correspondants pour _Règle 2_ et 20 produits correspondants pour _Règle 3_.
-- Dans la configuration, _[!UICONTROL Maximum Number of Products for Related Products List]_est défini sur `6`.
+- Dans la configuration, _[!UICONTROL Maximum Number of Products for Related Products List]_&#x200B;est défini sur `6`.
 
   | Règles | Priorité | Correspondance de produits |
   |---|---|-----|

@@ -155,6 +155,7 @@ Renvoie le nombre moyen d’événements d’application dans le catalogue par c
     ET CatalogCategoryCount > 0
     AND appName = &#39;&lt;your_app_name>&#39; DEPUIS 2 minutes LIMITE 1
 &lt;/your_app_name>
+
 #### Produits actifs
 
 Renvoie le nombre d’événements d’application par produit au cours de la période spécifiée.
@@ -230,7 +231,7 @@ Renvoie le nombre moyen de clients au cours de la période spécifiée.
     FROM Cron
     WHERE CustomerCount IS NOT NULL
     AND CustomerCount > 0
-    AND appName = &#39;&lt;your_app_name>&#39; DEPUIS 2 minutes LIMIT 1{5
+    AND appName = &#39;&lt;your_app_name>&#39; DEPUIS 2 minutes LIMIT 1&lbrace;5
 
 #### État du module
 
@@ -256,7 +257,7 @@ Renvoie le nombre moyen d’événements d’application par site web et magasin
 
     SELECT average(StoreViewCount), average(WebsiteCount)
     FROM Cron
-    WHERE appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; TIMESERIES 2 minutes{3
+    WHERE appName = &#39;&lt;your_app_name&gt;&#39; TIMESERIES 2 minutes&lbrace;3
 
 #### Nombre actuel de sites web et de magasins
 
@@ -272,7 +273,7 @@ Renvoie toutes les données d’événement d’application.
 
     SELECT *
     FROM Cron
-    WHERE appName = &#39;&lt;your_app_name>&#39;{3
+    WHERE appName = &#39;&lt;your_app_name>&#39;&lbrace;3
 
 ### Clients
 

@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Gestion des catalogues partagés
 
-La page _[!UICONTROL Shared Catalogs]_donne accès aux outils nécessaires à la gestion de vos catalogues partagés. La page est similaire à l’espace de travail Admin standard, avec des filtres et des contrôles d’action. La grille répertorie tous les catalogues partagés, y compris le catalogue partagé public par défaut et tous les catalogues personnalisés que vous avez configurés.
+La page _[!UICONTROL Shared Catalogs]_&#x200B;donne accès aux outils nécessaires à la gestion de vos catalogues partagés. La page est similaire à l’espace de travail Admin standard, avec des filtres et des contrôles d’action. La grille répertorie tous les catalogues partagés, y compris le catalogue partagé public par défaut et tous les catalogues personnalisés que vous avez configurés.
 
 ## Mettre à jour la sélection de produits
 
-La sélection de produits dans n’importe quel catalogue partagé peut être facilement mise à jour à partir de la colonne _[!UICONTROL Action]_de la grille des catalogues partagés. Les modifications que vous apportez sont visibles par les membres de tout compte d’entreprise associé. Le processus est essentiellement le même que le choix de produits pour une nouvelle [structure de catalogue](catalog-shared-pricing-structure.md), sauf que la portée de la configuration ne peut pas être modifiée.
+La sélection de produits dans n’importe quel catalogue partagé peut être facilement mise à jour à partir de la colonne _[!UICONTROL Action]_&#x200B;de la grille des catalogues partagés. Les modifications que vous apportez sont visibles par les membres de tout compte d’entreprise associé. Le processus est essentiellement le même que le choix de produits pour une nouvelle [structure de catalogue](catalog-shared-pricing-structure.md), sauf que la portée de la configuration ne peut pas être modifiée.
 
 1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
@@ -28,7 +28,7 @@ La sélection de produits dans n’importe quel catalogue partagé peut être fa
 
    Vous pouvez ignorer le premier élément, car la portée d’un catalogue partagé ne peut pas être modifiée après son enregistrement initial.
 
-Si vous travaillez avec un produit spécifique, la section _[!UICONTROL Products In Shared Catalog]_répertorie chaque catalogue partagé où le produit est disponible. Pour en savoir plus, voir [Ajout de produits à un catalogue partagé](catalog-shared-product-add.md).
+Si vous travaillez avec un produit spécifique, la section _[!UICONTROL Products In Shared Catalog]_&#x200B;répertorie chaque catalogue partagé où le produit est disponible. Pour en savoir plus, voir [Ajout de produits à un catalogue partagé](catalog-shared-product-add.md).
 
 ![Produit dans les catalogues partagés](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
@@ -40,7 +40,7 @@ La tarification personnalisée des produits d’un catalogue partagé peut être
 
 1. Pour le catalogue partagé dans la grille que vous souhaitez mettre à jour, accédez à la colonne **[!UICONTROL Action]** et sélectionnez **[!UICONTROL Set Pricing and Structure]**.
 
-1. Sur la page _[!UICONTROL Catalog Structure]_, cliquez sur **[!UICONTROL Configure]**et effectuez l’une des opérations suivantes :
+1. Sur la page _[!UICONTROL Catalog Structure]_, cliquez sur **[!UICONTROL Configure]**&#x200B;et effectuez l’une des opérations suivantes :
 
    - Dans l’indicateur de progression en haut de la page, cliquez sur **[!UICONTROL Pricing]**.
    - Dans le coin supérieur droit, cliquez sur **[!UICONTROL Next]**.
@@ -53,7 +53,7 @@ La tarification personnalisée des produits d’un catalogue partagé peut être
 
 >[!NOTE]
 >
->**[Version B2B 1.3.0](release-notes.md#b2b-v130) et ultérieure** — Lorsque vous créez un catalogue partagé, chaque [autorisation de catégorie](../catalog/category-permissions.md) pour le catalogue est définie sur `Allow` pour les _[!UICONTROL Display Product Prices]_et_[!UICONTROL Add to Cart]_ pour les groupes de clients auxquels cet accès est affecté dans les paramètres d’autorisation du catalogue. Auparavant, ces paramètres étaient automatiquement définis sur `Deny` même lorsque les autorisations du catalogue étaient définies sur `Allow`.
+>**[Version B2B 1.3.0](release-notes.md#b2b-v130) et ultérieure** — Lorsque vous créez un catalogue partagé, chaque [autorisation de catégorie](../catalog/category-permissions.md) pour le catalogue est définie sur `Allow` pour les _[!UICONTROL Display Product Prices]_&#x200B;et&#x200B;_[!UICONTROL Add to Cart]_ pour les groupes de clients auxquels cet accès est affecté dans les paramètres d’autorisation du catalogue. Auparavant, ces paramètres étaient automatiquement définis sur `Deny` même lorsque les autorisations du catalogue étaient définies sur `Allow`.
 
 >[!IMPORTANT]
 >

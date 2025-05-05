@@ -15,7 +15,7 @@ Lorsque vous utilisez une collection d&#39;enregistrements dans la grille, vous 
 
 Vous pouvez apporter autant de modifications que nécessaire, puis mettre à jour les enregistrements en une seule étape. Il est beaucoup plus efficace que de modifier les paramètres individuellement pour chaque produit. L’application de modifications à un lot d’enregistrements est une opération asynchrone qui s’exécute en arrière-plan afin que vous puissiez continuer à travailler dans l’administrateur sans attendre la fin de l’opération. Le système affiche un message lorsque la tâche est terminée.
 
-La sélection des actions disponibles varie en fonction de la liste. D’autres options peuvent s’afficher, selon l’action sélectionnée. Par exemple, lors de la modification de l’état d’un groupe d’enregistrements, une zone _[!UICONTROL Status]_s’affiche en regard du contrôle Actions avec des options supplémentaires.
+La sélection des actions disponibles varie en fonction de la liste. D’autres options peuvent s’afficher, selon l’action sélectionnée. Par exemple, lors de la modification de l’état d’un groupe d’enregistrements, une zone _[!UICONTROL Status]_&#x200B;s’affiche en regard du contrôle Actions avec des options supplémentaires.
 
 ## Etape 1 : Sélection des enregistrements
 

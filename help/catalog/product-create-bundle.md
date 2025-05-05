@@ -115,7 +115,7 @@ Le formulaire est mis à jour pour refléter la modification.
 
 1. Acceptez le paramètre par défaut **[!UICONTROL Visibility]** de `Catalog, Search`.
 
-1. Pour attribuer _[!UICONTROL Categories]_au produit, cliquez sur la zone **[!UICONTROL Select…]**et effectuez l’une des opérations suivantes :
+1. Pour attribuer _[!UICONTROL Categories]_&#x200B;au produit, cliquez sur la zone **[!UICONTROL Select…]**&#x200B;et effectuez l’une des opérations suivantes :
 
    **Choisissez une catégorie existante :**
 
@@ -139,7 +139,7 @@ Le formulaire est mis à jour pour refléter la modification.
 
 ## Étape 5 : Ajout des éléments du lot
 
-La section _[!UICONTROL Bundle Items]_est utilisée pour ajouter des éléments à un type de produit Bundle et pour modifier la sélection actuelle d’éléments.
+La section _[!UICONTROL Bundle Items]_&#x200B;est utilisée pour ajouter des éléments à un type de produit Bundle et pour modifier la sélection actuelle d’éléments.
 
 ![Éléments groupés définis pour un produit](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
@@ -180,7 +180,7 @@ La section _[!UICONTROL Bundle Items]_est utilisée pour ajouter des éléments 
 
      >[!NOTE]
      >
-     >La quantité peut être une valeur prédéfinie ou définie par l’utilisateur. Cependant, n’affectez pas la propriété _[!UICONTROL User Defined]_à la case à cocher ou aux types d’entrée à sélection multiple.
+     >La quantité peut être une valeur prédéfinie ou définie par l’utilisateur. Cependant, n’affectez pas la propriété _[!UICONTROL User Defined]_&#x200B;à la case à cocher ou aux types d’entrée à sélection multiple.
 
      Par défaut, la quantité par défaut incluse dans un élément de lot ne peut pas être modifiée par le client. Cependant, le client peut saisir la quantité de l’article à inclure dans le lot.
 
@@ -283,7 +283,7 @@ L’état du stock de produits en bundle est **_non automatiquement remplacé pa
 
 ![Case à cocher](../assets/checkbox.png) Le SKU et le poids peuvent être `Fixed` ou `Dynamic`.
 
-![Case à cocher](../assets/checkbox.png) La quantité peut être une valeur prédéfinie ou définie par l’utilisateur. Cependant, n’affectez pas la propriété _[!UICONTROL User Defined]_à la case à cocher ou aux types d’entrée à sélection multiple.
+![Case à cocher](../assets/checkbox.png) La quantité peut être une valeur prédéfinie ou définie par l’utilisateur. Cependant, n’affectez pas la propriété _[!UICONTROL User Defined]_&#x200B;à la case à cocher ou aux types d’entrée à sélection multiple.
 
 ![Case à cocher](../assets/checkbox.png) Les éléments du bundle peuvent être livrés ensemble ou séparément.
 

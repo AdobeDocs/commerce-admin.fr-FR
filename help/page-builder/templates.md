@@ -56,7 +56,7 @@ Vous pouvez appliquer un modèle à une zone de contenu [!DNL Page Builder] (pag
 
    ![[!DNL Page Builder] Bouton Appliquer un modèle ](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
-1. Sélectionnez un modèle dans la grille _[!UICONTROL Apply Template]_et cliquez sur **[!UICONTROL Apply]**à la fin de la ligne.
+1. Sélectionnez un modèle dans la grille _[!UICONTROL Apply Template]_&#x200B;et cliquez sur **[!UICONTROL Apply]**&#x200B;à la fin de la ligne.
 
    Pour afficher l’intégralité du modèle, vous pouvez cliquer sur l’image miniature du modèle. Cette action développe l’image afin que vous puissiez afficher l’ensemble du modèle selon vos besoins.
 

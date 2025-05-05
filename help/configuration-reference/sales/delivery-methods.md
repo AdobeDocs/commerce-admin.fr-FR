@@ -147,7 +147,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Package Weight] | Site Web | Définit le poids minimum qu’un package peut être tel que spécifié par UPS. Si le poids des produits commandés est inférieur au poids minimum du package, cette option d&#39;expédition n&#39;est pas disponible. Pour vérifier le poids minimum, contactez votre opérateur de transport. |
 | [!UICONTROL Calculate Handling Fee] | Site Web | Définit la méthode de calcul des frais de gestion pour les frais d’expédition à taux variable. Options : <br>**`Fixed`**- Les frais de gestion sont un taux fixe.<br>**`Percent`** - Les frais de gestion sont appliqués en pourcentage du montant de la commande. |
 | [!UICONTROL Handling Applied] | Site Web | Indique si les frais de traitement sont appliqués à chaque commande ou à chaque module dans une commande. |
-| [!UICONTROL Handling Fee] | Site Web | Définit la gestion incluse dans le prix de livraison. Les frais de gestion peuvent être définis sous la forme d’un montant fixe ou d’un pourcentage. <br/><br/>**_Remarque :_**Si vous saisissez un pourcentage, utilisez le format décimal `0.25` pour 25 %. |
+| [!UICONTROL Handling Fee] | Site Web | Définit la gestion incluse dans le prix de livraison. Les frais de gestion peuvent être définis sous la forme d’un montant fixe ou d’un pourcentage. <br/><br/>**_Remarque :_**&#x200B;Si vous saisissez un pourcentage, utilisez le format décimal `0.25` pour 25 %. |
 
 {style="table-layout:auto"}
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL UPS allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Site Web | Spécifie les méthodes d’expédition UPS autorisées proposées aux clients. Les taux d’expédition sont calculés en fonction du mode de livraison sélectionné. |
-| [!UICONTROL Free Method] | Site Web | Identifie la méthode utilisée pour la méthode d’expédition gratuite via UPS. Pour désactiver la livraison gratuite, sélectionnez &quot;Aucun&quot;. <br/><br/>**_Remarque :_**Cette méthode est similaire à la [livraison gratuite](../../stores-purchase/shipping-free.md) de base, mais elle apparaît comme une option d’expédition UPS lors du passage en caisse. |
+| [!UICONTROL Free Method] | Site Web | Identifie la méthode utilisée pour la méthode d’expédition gratuite via UPS. Pour désactiver la livraison gratuite, sélectionnez &quot;Aucun&quot;. <br/><br/>**_Remarque :_**&#x200B;Cette méthode est similaire à la [livraison gratuite](../../stores-purchase/shipping-free.md) de base, mais elle apparaît comme une option d’expédition UPS lors du passage en caisse. |
 | [!UICONTROL Free Shipping Amount Threshold] | Site Web | Détermine si la livraison gratuite est appliquée lorsque le montant de la commande respecte le seuil de livraison gratuite. Options : `Enable` / `Disable` |
 | [!UICONTROL Free Shipping Amount Threshold] | Site Web | Définit le montant total minimum qu’une commande doit atteindre pour être admissible à la livraison gratuite. |
 | [!UICONTROL Displayed Error Message] | Affichage en magasin | Message d’erreur affiché lorsque ce mode de livraison n’est pas disponible pour une raison quelconque. |
@@ -219,7 +219,7 @@ ht-degree: 0%
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Site Web | Définit la méthode de calcul des frais de gestion pour les frais d’expédition à taux variable. Options : <br/>**`Fixed`**- Les frais de gestion sont un taux fixe.<br/>**`Percent`** - Les frais de gestion sont appliqués en pourcentage du montant de la commande. |
 | [!UICONTROL Handling Applied] | Site Web | Indique si les frais de traitement sont appliqués à chaque commande ou à chaque module dans une commande. |
-| [!UICONTROL Handling Fee] | Site Web | Définit la gestion incluse dans le prix de livraison. Les frais de gestion peuvent être définis sous la forme d’un montant fixe ou d’un pourcentage. <br/><br/>**_Remarque :_**Lorsque vous entrez un pourcentage, utilisez le format décimal `0.25` pour 25 %. |
+| [!UICONTROL Handling Fee] | Site Web | Définit la gestion incluse dans le prix de livraison. Les frais de gestion peuvent être définis sous la forme d’un montant fixe ou d’un pourcentage. <br/><br/>**_Remarque :_**&#x200B;Lorsque vous entrez un pourcentage, utilisez le format décimal `0.25` pour 25 %. |
 
 {style="table-layout:auto"}
 
@@ -231,7 +231,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL USPS Allowed Methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Site Web | Spécifie les méthodes d’expédition USPS autorisées proposées aux clients. Les taux d’expédition sont calculés en fonction du mode de livraison sélectionné. |
-| [!UICONTROL Free Method] | Site Web | Définit la méthode d’expédition gratuite via USPS ou peut être désactivée en sélectionnant `None`. <br/><br/>**_Remarque :_**Cette méthode d’expédition est similaire à la méthode d’expédition gratuite de votre magasin, mais elle est répertoriée comme option d’expédition USPS et identifiée comme expédition USPS. |
+| [!UICONTROL Free Method] | Site Web | Définit la méthode d’expédition gratuite via USPS ou peut être désactivée en sélectionnant `None`. <br/><br/>**_Remarque :_**&#x200B;Cette méthode d’expédition est similaire à la méthode d’expédition gratuite de votre magasin, mais elle est répertoriée comme option d’expédition USPS et identifiée comme expédition USPS. |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Site Web | Définit le montant minimum de commande qui doit être respecté pour être admissible à la livraison gratuite. |
 | [!UICONTROL Displayed Error Message] | Affichage en magasin | Message d’erreur qui s’affiche lorsque USPS n’est pas disponible pour une raison quelconque. |
 
@@ -291,7 +291,7 @@ ht-degree: 0%
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Calculate Handling Fee] | Site Web | Détermine la méthode utilisée pour calculer les frais de traitement. Options : `Fixed Fee` / `Percentage` <br/><br/>**_Remarque :_**Les frais de gestion sont facultatifs et s’affichent sous la forme d’un frais supplémentaire ajouté aux frais de livraison FedEx. |
+| [!UICONTROL Calculate Handling Fee] | Site Web | Détermine la méthode utilisée pour calculer les frais de traitement. Options : `Fixed Fee` / `Percentage` <br/><br/>**_Remarque :_**&#x200B;Les frais de gestion sont facultatifs et s’affichent sous la forme d’un frais supplémentaire ajouté aux frais de livraison FedEx. |
 | [!UICONTROL Handling Applied] | Site Web | Détermine le mode d’application des frais de traitement. Options : `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Site Web | Indique le montant imputé en tant que frais de traitement, en fonction de la méthode de calcul du montant. Si la facture est basée sur des frais fixes, entrez le montant sous forme de décimale, par exemple `4.90`. Si les frais de traitement sont basés sur un pourcentage de la commande, saisissez le montant en pourcentage. Par exemple, pour facturer 6 % de la commande, entrez la valeur `.06`. |
 
@@ -306,7 +306,7 @@ ht-degree: 0%
 | [!UICONTROL Residential Delivery] | Site Web | Définissez cette variable sur l’une des valeurs suivantes, selon que vous vendez Entreprise à consommateur (B2C) ou Entreprise à entreprise (B2B) : <br/>**`Yes`**- Pour les diffusions B2C<br/>**`No`** - Pour les diffusions B2B |
 | [!UICONTROL Allowed Methods] | Site Web | Dans la liste, sélectionnez les méthodes d’expédition que vous prenez en charge. Les méthodes dépendent de votre compte FedEx, de la fréquence et de la taille de vos envois, et si vous autorisez les envois internationaux. En tant que commerçant, vous pouvez décider de ne proposer que la navigation terrestre. |
 | [!UICONTROL Hub ID] | Site Web | Identifiant fourni par FedEx utilisé avec la méthode [!DNL Smart Post]. |
-| [!UICONTROL Free Method] | Site Web | Dans la liste, sélectionnez le mode de livraison que vous préférez utiliser pour les offres d’expédition gratuite. <br/><br/>**_Remarque :_**Cette méthode de livraison est similaire à la méthode habituelle de livraison gratuite, mais elle est répertoriée dans les options de livraison FedEx et est identifiée comme expédition FedEx. |
+| [!UICONTROL Free Method] | Site Web | Dans la liste, sélectionnez le mode de livraison que vous préférez utiliser pour les offres d’expédition gratuite. <br/><br/>**_Remarque :_**&#x200B;Cette méthode de livraison est similaire à la méthode habituelle de livraison gratuite, mais elle est répertoriée dans les options de livraison FedEx et est identifiée comme expédition FedEx. |
 | [!UICONTROL Free Shipping Amount Threshold] | Site Web | Détermine si un montant minimum de commande est requis pour la livraison gratuite. Options : <br/>**`Enable`**- Permet la livraison gratuite de FedEx pour les commandes qui correspondent au montant minimum.<br/>**`Disable`** - Désactive la livraison gratuite de FedEx avec la commande minimale. |
 | [!UICONTROL Free Shipping Amount Threshold] | Site Web | Indique le montant minimum de commande requis pour la livraison gratuite. |
 | [!UICONTROL Displayed Error Message] | Affichage en magasin | Le message qui s’affiche lorsque FedEx n’est pas disponible pour une raison quelconque. Vous pouvez utiliser le message par défaut ou en saisir un autre. |

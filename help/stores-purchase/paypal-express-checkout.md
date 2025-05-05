@@ -93,13 +93,13 @@ Vous pouvez activer deux solutions PayPal en même temps : paiement express PayP
 
 1. Si votre installation comporte plusieurs sites web, magasins ou vues, définissez **[!UICONTROL Store View]** sur la vue de magasin dans laquelle vous souhaitez appliquer cette configuration.
 
-1. Dans la section _[!UICONTROL Merchant Location]_, sélectionnez l’**[!UICONTROL Merchant Country]**où se trouve votre entreprise.
+1. Dans la section _[!UICONTROL Merchant Location]_, sélectionnez l’**[!UICONTROL Merchant Country]**&#x200B;où se trouve votre entreprise.
 
    Ce paramètre détermine la sélection des solutions PayPal qui apparaissent dans la configuration.
 
    ![Pays commerçant](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. Sous _[!UICONTROL Recommended Solutions]_, cliquez sur **[!UICONTROL Configure]**pour **[!UICONTROL PayPal Express Checkout]**.
+1. Sous _[!UICONTROL Recommended Solutions]_, cliquez sur **[!UICONTROL Configure]**&#x200B;pour **[!UICONTROL PayPal Express Checkout]**.
 
    ![Configurer le paiement express PayPal](./assets/paypal-express-checkout.png){width="600"}
 
@@ -311,7 +311,7 @@ Définissez **[!UICONTROL Enable PayPal PayLater Experience]** sur l’une des o
    - `Sale` - Le montant de l’achat est autorisé et immédiatement retiré du compte du client.
    - `Order` - Le montant de la commande n’est pas capturé ou autorisé dans le solde client, le compte bancaire ou la carte de crédit de PayPal. L&#39;action Paiement de commande représente un accord entre le système de paiement de PayPal et le marchand. Il permet au commerçant de capturer un ou plusieurs montants jusqu’au total commandé du compte client acheteur, sur une période pouvant aller jusqu’à 29 jours. Une fois les fonds commandés, le marchand peut les capturer à tout moment au cours de la période de 29 jours suivante. La capture du montant de la commande ne peut être effectuée que depuis l’administrateur Commerce en créant une ou plusieurs factures.
 
-1. Pour afficher le bouton _[!UICONTROL Check out with PayPal]_sur la page du produit, définissez **[!UICONTROL Display on Product Details Page]**sur `Yes`.
+1. Pour afficher le bouton _[!UICONTROL Check out with PayPal]_&#x200B;sur la page du produit, définissez **[!UICONTROL Display on Product Details Page]**&#x200B;sur `Yes`.
 
 1. Si l’action de paiement est définie sur `Order`, procédez comme suit :
 
@@ -332,7 +332,7 @@ Définissez **[!UICONTROL Enable PayPal PayLater Experience]** sur l’une des o
 1. Définissez **[!UICONTROL Payment Applicable From]** sur l’une des options suivantes :
 
    - `All Allowed Countries` - Les clients de tous les pays spécifiés dans votre configuration de magasin peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Après avoir choisi cette option, la liste _[!UICONTROL Payment from Specific Countries]_s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée, puis cliquez sur chaque élément.
+   - `Specific Countries` - Après avoir choisi cette option, la liste _[!UICONTROL Payment from Specific Countries]_&#x200B;s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée, puis cliquez sur chaque élément.
 
 1. Pour écrire des communications avec le système de paiement dans le fichier journal, définissez **[!UICONTROL Debug Mode]** sur `Yes`.
 
@@ -409,7 +409,7 @@ Un [contrat de facturation](paypal-billing-agreements.md) est un contrat de vent
 1. Définissez **[!UICONTROL Payment Applicable From]** sur l’une des options suivantes :
 
    - `All Allowed Countries` - Les clients de tous les pays spécifiés dans votre configuration de magasin peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Après avoir choisi cette option, la liste _[!UICONTROL Payment from Specific Countries]_s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée, puis cliquez sur chacun d’eux.
+   - `Specific Countries` - Après avoir choisi cette option, la liste _[!UICONTROL Payment from Specific Countries]_&#x200B;s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée, puis cliquez sur chacun d’eux.
 
 1. Pour enregistrer les communications avec le système de paiement dans le fichier journal, définissez **[!UICONTROL Debug Mode]** sur `Yes`.
 
@@ -579,5 +579,5 @@ Les paramètres des fonctionnalités vous permettent de désactiver certaines fo
 [3]: https://manager.paypal.com/
 [4]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
 [5]: https://www.paypal.com/rs/webapps/mpp/express-checkout
-[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;amp;page=incontextProductCheckout
+[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout
 [7]: https://developer.paypal.com/docs/api-basics/sandbox/

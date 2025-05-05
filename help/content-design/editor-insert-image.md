@@ -21,7 +21,7 @@ Dans l’éditeur, vous pouvez insérer une image à l’aide de trois types de 
 
 1. Ouvrez une page, un bloc ou un bloc dynamique en mode d’édition.
 
-1. Accédez à la section _[!UICONTROL Content]_et cliquez sur un élément prenant en charge l’éditeur.
+1. Accédez à la section _[!UICONTROL Content]_&#x200B;et cliquez sur un élément prenant en charge l’éditeur.
 
 1. Placez le curseur à l’endroit où vous souhaitez que l’image s’affiche.
 

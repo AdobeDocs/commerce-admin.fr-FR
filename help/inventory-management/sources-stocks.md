@@ -39,8 +39,8 @@ Vous commencez avec un stock par défaut affecté avec le Source par défaut et 
 
 La quantité est le nombre de produits de votre inventaire actif qui peuvent être achetés. La quantité de produits augmente et diminue lorsque vous effectuez des envois ou que vous ajustez le stock. L’ajout de produits à un panier n’a aucune incidence sur ce montant. La quantité vendable suit la disponibilité du produit pour un canal de vente et utilise également cette valeur pour déterminer le stock disponible à acheter. Selon le nombre de vos sources, vous voyez et gérez la quantité de produits pour l’une des sources suivantes :
 
-- **Quantity** - Pour les marchands à source unique, la colonne _[!UICONTROL Quantity]_et la valeur effectuent le suivi de la quantité de stock disponible.
-- **Quantité par Source** - Pour les marchands multi-sources, la colonne _[!UICONTROL Quantity per Source]_et les valeurs effectuent le suivi de l’inventaire disponible par emplacement. Si vous ajoutez plusieurs sources, cette valeur remplace la quantité et répertorie chaque source et quantité affectée.
+- **Quantity** - Pour les marchands à source unique, la colonne _[!UICONTROL Quantity]_&#x200B;et la valeur effectuent le suivi de la quantité de stock disponible.
+- **Quantité par Source** - Pour les marchands multi-sources, la colonne _[!UICONTROL Quantity per Source]_&#x200B;et les valeurs effectuent le suivi de l’inventaire disponible par emplacement. Si vous ajoutez plusieurs sources, cette valeur remplace la quantité et répertorie chaque source et quantité affectée.
 
 Les réservations effectuent le suivi des demandes de stock pour l’ensemble du processus d’achat : ajout de produits au panier, exécution du passage en caisse et gestion des remboursements. Pour les stocks et les stocks disponibles, les réservations réservent les montants de stock par commande via le processus de passage en caisse, soustrait de la quantité vendable. Les quotas sont convertis en déductions quantitatives lors de la facturation et de l’expédition de produits.
 

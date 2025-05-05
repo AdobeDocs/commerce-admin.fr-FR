@@ -30,7 +30,7 @@ La première étape de la création de newsletters consiste à configurer les pa
 
 1. Pour activer les newsletters pour la portée de la vue de magasin, définissez **[!UICONTROL Enabled]** sur `Yes`.
 
-Après avoir activé la fonction de newsletter, la section _[!UICONTROL Subscription Options]_s’affiche.
+Après avoir activé la fonction de newsletter, la section _[!UICONTROL Subscription Options]_&#x200B;s’affiche.
 
 ## Configuration des options d’abonnement
 

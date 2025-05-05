@@ -130,13 +130,13 @@ Outre les paramètres prédéfinis d’état de commande, vous pouvez créer vos
 
 1. Dans la grille _[!UICONTROL Order Status]_, recherchez l’enregistrement d’état de commande à ne pas attribuer.
 
-1. Dans la colonne _[!UICONTROL Action]_située à l’extrémité droite de la ligne, cliquez sur le lien **[!UICONTROL Unassign]**.
+1. Dans la colonne _[!UICONTROL Action]_&#x200B;située à l’extrémité droite de la ligne, cliquez sur le lien **[!UICONTROL Unassign]**.
 
    Un message s’affiche en haut de l’espace de travail pour indiquer que l’état de la commande n’a pas été attribué. Bien que le libellé d’état de la commande apparaisse toujours dans la liste, il n’est plus affecté à un état. Les paramètres d’état de la commande ne peuvent pas être supprimés.
 
 >[!NOTE]
 >
->Si l’état de commande par défaut n’est pas attribué de l’état de commande, l’état de commande _**another**_ est _**défini automatiquement**_ comme état par défaut pour cet état de commande.
+>Si l’état de commande par défaut n’est pas attribué de l’état de commande, l’état de commande _&#x200B;**another**&#x200B;_ est _&#x200B;**défini automatiquement**&#x200B;_ comme état par défaut pour cet état de commande.
 
 ## Notification
 

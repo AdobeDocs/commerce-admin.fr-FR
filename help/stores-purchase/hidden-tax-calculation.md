@@ -69,7 +69,7 @@ Lorsqu’une remise est incorporée à la taxe, Commerce calcule une _taxe masqu
 
 1. Comment le client comprend habituellement le prix réduit (total de la commande) :
 
-   _Prix complet de l&#39;article, taxes comprises **inférieur**au montant de remise : 100 $ à 8,33 $ = 91,67 $_
+   _Prix complet de l&#39;article, taxes comprises **inférieur**&#x200B;au montant de remise : 100 $ à 8,33 $ = 91,67 $_
 
 1. **Comment Commerce calcule le prix escompté** (voir plus haut pour la formule) :
 

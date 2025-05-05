@@ -54,7 +54,7 @@ Le bon de commande d’origine peut être fermé s’il n’est plus nécessaire
 
 ## Approbation des commandes d’achat
 
-Pour un client désigné comme approbateur en fonction de la structure de la société ou du rôle de société attribué, la page de tableau de bord _[!UICONTROL My Purchase Orders]_affiche l’onglet **[!UICONTROL Requires My Approval]**. Le client clique sur cet onglet pour consulter les PO qui attendent leur approbation. Le compteur indique le nombre de commandes en attente d’approbation.
+Pour un client désigné comme approbateur en fonction de la structure de la société ou du rôle de société attribué, la page de tableau de bord _[!UICONTROL My Purchase Orders]_&#x200B;affiche l’onglet **[!UICONTROL Requires My Approval]**. Le client clique sur cet onglet pour consulter les PO qui attendent leur approbation. Le compteur indique le nombre de commandes en attente d’approbation.
 
 Après avoir cliqué sur **[!UICONTROL View]** pour un bon de commande et consulté les détails, l’approbateur peut cliquer sur **[!UICONTROL Approve]** ou **[!UICONTROL Reject]**.
 

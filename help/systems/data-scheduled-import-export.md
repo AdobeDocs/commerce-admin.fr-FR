@@ -83,7 +83,7 @@ Après chaque tâche d’importation planifiée, une opération de réindexation
 
      >[!NOTE]
      >
-     >Pour les types d’entités _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_et_[!UICONTROL Stock Sources]_, ces comportements d’importation s’affichent : `Add/Update`, `Replace` et `Delete`. Pour les types d&#39;entités _Customer Finances_, _Customers Main File_ et _Customers and Addresses_, ces comportements d&#39;importation s&#39;affichent : `Add/Update Complex Data`, `Delete Entities` et `Custom Action`.
+     >Pour les types d’entités _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;et&#x200B;_[!UICONTROL Stock Sources]_, ces comportements d’importation s’affichent : `Add/Update`, `Replace` et `Delete`. Pour les types d&#39;entités _Customer Finances_, _Customers Main File_ et _Customers and Addresses_, ces comportements d&#39;importation s&#39;affichent : `Add/Update Complex Data`, `Delete Entities` et `Custom Action`.
 
    - **[!UICONTROL Start Time]** — Défini sur l’heure, la minute et la seconde auxquelles l’importation est planifiée pour commencer.
 
@@ -224,7 +224,7 @@ Après chaque exportation, le fichier d’exportation est placé à l’emplacem
       - `Customer Addresses`
       - `Stock Sources`
 
-     La section _[!UICONTROL Entity Attributes]_au bas de la page est mise à jour pour prendre en compte le type d’entité sélectionné.
+     La section _[!UICONTROL Entity Attributes]_&#x200B;au bas de la page est mise à jour pour prendre en compte le type d’entité sélectionné.
 
    - Définissez **[!UICONTROL Start Time]** sur l’heure, la minute et la seconde auxquelles l’exportation est planifiée pour commencer.
 
@@ -258,7 +258,7 @@ Après chaque exportation, le fichier d’exportation est placé à l’emplacem
    - Pour **[!UICONTROL Local Server]**, saisissez un chemin relatif dans l’installation de Commerce, par exemple `var/export`. Si le module de stockage distant est configuré, utilisez `import_export/export`.
    - Pour **[!UICONTROL Remote FTP server]**, saisissez l’URL complète et le chemin d’accès au dossier cible sur le serveur de destination.
 
-1. Si le serveur _[!UICONTROL Remote FTP]_est sélectionné, saisissez les informations de connexion au serveur et sélectionnez des paramètres supplémentaires :
+1. Si le serveur _[!UICONTROL Remote FTP]_&#x200B;est sélectionné, saisissez les informations de connexion au serveur et sélectionnez des paramètres supplémentaires :
 
    - Pour **[!UICONTROL FTP Host[:Port]]**, saisissez l’adresse d’hôte FTP distante.
    - Pour **[!UICONTROL User Name]**, saisissez le nom d’utilisateur utilisé pour accéder au serveur distant.
@@ -319,7 +319,7 @@ Après chaque exportation, le fichier d’exportation est placé à l’emplacem
 | Champ | Description |
 | ----- | ----------- | 
 | [!UICONTROL Server Type] | Détermine l’emplacement du fichier d’exportation. Options : <br>**Serveur local** — Place le fichier d’exportation sur le même serveur que celui sur lequel Commerce est déployé. Si le module de stockage à distance est activé, `Local Server` est remplacé par `Remote Storage`.<br>**FTP distant** : place le fichier d’exportation sur un serveur distant. Des options supplémentaires pour les informations d’identification et les paramètres de transfert de fichiers s’affichent. |
-| [!UICONTROL File Directory] | Indiquez le répertoire dans lequel se trouve le fichier d’exportation. Si _[!UICONTROL Server Type]_est défini sur `Local Server`, indiquez le chemin d’accès relatif au chemin d’installation de Commerce. Par exemple, `var/export` ou `import_export/export` pour le stockage à distance. |
+| [!UICONTROL File Directory] | Indiquez le répertoire dans lequel se trouve le fichier d’exportation. Si _[!UICONTROL Server Type]_&#x200B;est défini sur `Local Server`, indiquez le chemin d’accès relatif au chemin d’installation de Commerce. Par exemple, `var/export` ou `import_export/export` pour le stockage à distance. |
 
 {style="table-layout:auto"}
 

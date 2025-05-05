@@ -38,7 +38,7 @@ ht-degree: 1%
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Redeemable] | Global | Détermine si le détenteur de la carte-cadeau peut rembourser sa valeur en espèces. Options : `Yes` / `No`. |
-| [!UICONTROL Lifetime (days)] | Global | Détermine le nombre de jours de validité de la carte. Si rien n’est indiqué, la carte n’expire pas. <br/><br/>**_Important :_**Dans certains endroits, il est illégal de définir une donnée d’expiration sur les cartes-cadeaux. Vérifiez vos lois locales avant de définir une durée de vie pour vos cartes-cadeaux. |
+| [!UICONTROL Lifetime (days)] | Global | Détermine le nombre de jours de validité de la carte. Si rien n’est indiqué, la carte n’expire pas. <br/><br/>**_Important :_**&#x200B;Dans certains endroits, il est illégal de définir une donnée d’expiration sur les cartes-cadeaux. Vérifiez vos lois locales avant de définir une durée de vie pour vos cartes-cadeaux. |
 | [!UICONTROL Allow Gift Message] | Affichage en magasin | Détermine si l’option permettant d’inclure un message cadeau est disponible pour les clients qui achètent une carte cadeau. Options : `Yes` / `No`. |
 | [!UICONTROL Gift Message Maximum Length] | Affichage en magasin | Détermine le nombre maximal de caractères autorisés dans un message de carte cadeau. Valeur par défaut : 255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | Global | Détermine si un compte de carte cadeau est généré lorsqu’un client passe une commande ou lorsque la commande est facturée. Options : `Ordered` / `Invoiced` |

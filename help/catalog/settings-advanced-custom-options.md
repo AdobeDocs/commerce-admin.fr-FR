@@ -57,7 +57,7 @@ Si une règle de prix de panier est déclenchée par l’achat, le calcul initia
 
    - (Facultatif) Saisissez un **[!UICONTROL SKU]** pour l’option. L’option SKU est un suffixe ajouté au SKU du produit.
 
-   - Si _[!UICONTROL Option Type]_est `File`, définissez les paramètres du fichier. Pour **[!UICONTROL Compatible File Extensions]**, saisissez les extensions valides sous forme de valeurs séparées par des virgules (telles que `png, jpg, gif`). Pour **[!UICONTROL Maximum Image Size]**, saisissez la taille maximale de l’image en pixels. S’il s’agit d’une entrée de texte, saisissez la valeur maximale pour **[!UICONTROL Maximum Characters]**.
+   - Si _[!UICONTROL Option Type]_&#x200B;est `File`, définissez les paramètres du fichier. Pour **[!UICONTROL Compatible File Extensions]**, saisissez les extensions valides sous forme de valeurs séparées par des virgules (telles que `png, jpg, gif`). Pour **[!UICONTROL Maximum Image Size]**, saisissez la taille maximale de l’image en pixels. S’il s’agit d’une entrée de texte, saisissez la valeur maximale pour **[!UICONTROL Maximum Characters]**.
 
    ![Ajouter des valeurs pour l’option de personnalisation](./assets/product-customizable-options-add-values.png){width="600" zoomable="yes"}
 

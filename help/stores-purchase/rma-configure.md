@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Lorsqu’elles sont activées, les demandes RMA peuvent être envoyées par les clients à partir du storefront. Une RMA ne peut être générée que si un élément est disponible pour renvoi dans l’ordre. Les demandes de renvoi d’éléments individuels sont gérées par l’attribut _Enable RMA_ dans chaque enregistrement de produit. Par défaut, les paramètres de configuration sont appliqués au produit (_[!UICONTROL Use Config Settings]_est sélectionné). Si_[!UICONTROL Enable RMA]_ est défini sur `No`, le produit n’apparaît pas dans la liste des éléments qui peuvent être renvoyés. Si vous modifiez le paramètre _Activer RMA_ , il s’applique aux commandes nouvelles et existantes.
+Lorsqu’elles sont activées, les demandes RMA peuvent être envoyées par les clients à partir du storefront. Une RMA ne peut être générée que si un élément est disponible pour renvoi dans l’ordre. Les demandes de renvoi d’éléments individuels sont gérées par l’attribut _Enable RMA_ dans chaque enregistrement de produit. Par défaut, les paramètres de configuration sont appliqués au produit (_[!UICONTROL Use Config Settings]_&#x200B;est sélectionné). Si&#x200B;_[!UICONTROL Enable RMA]_ est défini sur `No`, le produit n’apparaît pas dans la liste des éléments qui peuvent être renvoyés. Si vous modifiez le paramètre _Activer RMA_ , il s’applique aux commandes nouvelles et existantes.
 
 ## Activation des RMA pour votre magasin
 
@@ -34,7 +34,7 @@ Lorsqu’elles sont activées, les demandes RMA peuvent être envoyées par les 
 
    Ce paramètre détermine le comportement de l’attribut _Activer RMA_ pour les produits individuels sur le storefront :
 
-   - Lorsque [!UICONTROL Enable RMA on Product Level] est défini sur `Yes`, les clients du storefront peuvent renvoyer tous les produits individuels. Elle inclut les valeurs d’attribut de produit _[!UICONTROL Enable RMA]_= `Yes` et_[!UICONTROL Enable RMA]_ = `No`.
+   - Lorsque [!UICONTROL Enable RMA on Product Level] est défini sur `Yes`, les clients du storefront peuvent renvoyer tous les produits individuels. Elle inclut les valeurs d’attribut de produit _[!UICONTROL Enable RMA]_= `Yes` et&#x200B;_[!UICONTROL Enable RMA]_ = `No`.
    - Lorsque [!UICONTROL Enable RMA on Product Level] est défini sur `No`, les clients du storefront peuvent renvoyer uniquement les produits avec une valeur d’attribut de produit _[!UICONTROL Enable RMA]_= `Yes`.
 
 1. Définissez **[!UICONTROL Use Store Address]** sur l’une des valeurs suivantes :

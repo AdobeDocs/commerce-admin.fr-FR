@@ -23,7 +23,7 @@ Par défaut, les liens héritent de leur style à partir de la feuille de style 
 
 1. Ouvrez une page, un bloc ou un bloc dynamique en mode d’édition.
 
-1. Accédez à la section _[!UICONTROL Content]_et cliquez sur un élément prenant en charge l’éditeur.
+1. Accédez à la section _[!UICONTROL Content]_&#x200B;et cliquez sur un élément prenant en charge l’éditeur.
 
 1. Placez le curseur à l’endroit où vous souhaitez que le widget s’affiche, puis cliquez sur l’icône _Insérer le widget_ .
 

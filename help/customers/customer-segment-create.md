@@ -18,13 +18,13 @@ La création d’un segment de client est similaire à la création d’une [rè
 
 ![Liste de segments clients](assets/customer-segments.png){width="700" zoomable="yes"}
 
-_**[!UICONTROL Customer Segments]grid **_
+_&#x200B;**[!UICONTROL Customer Segments]grid &#x200B;** _
 
 | Colonne | Description |
 |--- |--- |
 | **[!UICONTROL ID]** | Identifiant unique du segment client. |
 | **[!UICONTROL Segment]** | Nom du segment de client. |
-| **[!UICONTROL Status]** | Indique si le segment de client est _[!UICONTROL Active]_ou_[!UICONTROL Inactive]_. |
+| **[!UICONTROL Status]** | Indique si le segment de client est _[!UICONTROL Active]_&#x200B;ou&#x200B;_[!UICONTROL Inactive]_. |
 | **[!UICONTROL Website]** | Indique le site web auquel appartient le segment client. |
 
 {style="table-layout:auto"}
@@ -107,7 +107,7 @@ Les étapes suivantes utilisent un exemple de création d’un segment client qu
 
 1. Dans le volet de gauche, cliquez sur **[!UICONTROL Conditions]**.
 
-   La condition par défaut commence par _[!UICONTROL If ALL of these conditions are TRUE:]_sur la page.
+   La condition par défaut commence par _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;sur la page.
 
    ![Conditions](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
@@ -119,7 +119,7 @@ Les étapes suivantes utilisent un exemple de création d’un segment client qu
 
    - Cliquez sur **...** et sélectionnez `female`.
 
-   ![ {1](assets/customer-segment-condition-line1.png){width="600" zoomable="yes"}
+   ![ &lbrace;1](assets/customer-segment-condition-line1.png){width="600" zoomable="yes"}
 
 1. Créez une autre condition qui cible les résidents de Los Angeles :
 
@@ -153,7 +153,7 @@ Les étapes suivantes utilisent un exemple de création d’un segment client qu
 
 1. Le segment de client peut désormais être utilisé pour cibler des promotions, du contenu et des envois.
 
-_**[!UICONTROL Matched Customers]grid **_
+_&#x200B;**[!UICONTROL Matched Customers]grid &#x200B;** _
 
 | Colonne | Description |
 |--- |--- |
@@ -183,7 +183,7 @@ _**[!UICONTROL Matched Customers]grid **_
 
 | Bouton | Description |
 |--- |--- |
-| **[!UICONTROL Back]** | Renvoie à la page _[!UICONTROL Customer Segments]_sans enregistrer les modifications. |
+| **[!UICONTROL Back]** | Renvoie à la page _[!UICONTROL Customer Segments]_&#x200B;sans enregistrer les modifications. |
 | **[!UICONTROL Delete]** | Supprime le segment client actuel. Les clients ou les commandes terminées associées au client dans le segment ne sont pas supprimés. |
 | **[!UICONTROL Reset]** | Réinitialise les modifications non enregistrées du formulaire de segment client sur leurs valeurs précédentes. |
 | **[!UICONTROL Refresh Segment Data]** | Actualise les données du segment aux valeurs enregistrées les plus récemment. Pertinent si des données de segment sont indisponibles ou obsolètes. |

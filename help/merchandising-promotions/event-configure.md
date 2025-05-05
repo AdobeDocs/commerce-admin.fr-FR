@@ -88,6 +88,6 @@ L’accès à une vente, un événement ou un site privé peut être limité aux
 
 ### Limiter les ventes
 
-Par défaut, les produits qui apparaissent dans les événements à venir ou fermés ne sont pas disponibles pour vente générale et le bouton _[!UICONTROL Add to Cart]_n’apparaît pas dans la liste de produits ou la page de produits.
+Par défaut, les produits qui apparaissent dans les événements à venir ou fermés ne sont pas disponibles pour vente générale et le bouton _[!UICONTROL Add to Cart]_&#x200B;n’apparaît pas dans la liste de produits ou la page de produits.
 
-Pour restaurer le bouton _[!UICONTROL Add to Cart]_d&#39;un événement fermé, l&#39;événement doit être supprimé (voir [Mettre à jour les événements](event-create.md#update-events)). Cependant, si un produit est associé à une autre catégorie qui n’a aucune restriction de vente, le bouton est disponible sur la page du produit. De même, le bloc de coche n’apparaît pas sur la page de produits si le produit est associé à une autre catégorie qui n’a aucune restriction de vente.
+Pour restaurer le bouton _[!UICONTROL Add to Cart]_&#x200B;d&#39;un événement fermé, l&#39;événement doit être supprimé (voir [Mettre à jour les événements](event-create.md#update-events)). Cependant, si un produit est associé à une autre catégorie qui n’a aucune restriction de vente, le bouton est disponible sur la page du produit. De même, le bloc de coche n’apparaît pas sur la page de produits si le produit est associé à une autre catégorie qui n’a aucune restriction de vente.

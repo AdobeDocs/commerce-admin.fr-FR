@@ -36,7 +36,7 @@ Un mode de paiement prenant en charge un coffre sécurisé, tel que [Braintree](
 
 1. Clics **[!UICONTROL Place Order]**.
 
-Le mode de paiement enregistré est ensuite affiché dans l’onglet _[!UICONTROL Stored Payment Methods]_du tableau de bord du client.
+Le mode de paiement enregistré est ensuite affiché dans l’onglet _[!UICONTROL Stored Payment Methods]_&#x200B;du tableau de bord du client.
 
 ## Supprimer un mode de paiement stocké
 

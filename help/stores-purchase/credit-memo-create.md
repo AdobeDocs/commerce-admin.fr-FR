@@ -53,7 +53,7 @@ Déterminez le type de remboursement que vous souhaitez émettre (pour un [achat
 
 1. Recherchez l’ordre dans la grille, puis cliquez sur **[!UICONTROL View]**.
 
-1. Si le bouton _[!UICONTROL Credit Memo]_est visible dans la barre de boutons, effectuez l’une des opérations suivantes :
+1. Si le bouton _[!UICONTROL Credit Memo]_&#x200B;est visible dans la barre de boutons, effectuez l’une des opérations suivantes :
 
    - Pour effectuer un remboursement `offline`, suivez l&#39;étape #6.
    - Pour effectuer un remboursement `online`, passez à l&#39;étape #4.
@@ -118,7 +118,7 @@ Déterminez le type de remboursement que vous souhaitez émettre (pour un [achat
 
    Pour plus d’informations sur les remboursements en ligne et hors ligne, voir [Mémos de crédit](credit-memos.md) .
 
-   ![}Remboursement total de la commande](./assets/credit-memo-order-total-refund.png){width="600" zoomable="yes"}
+   ![&rbrace;Remboursement total de la commande](./assets/credit-memo-order-total-refund.png){width="600" zoomable="yes"}
 
 ### Émettre un remboursement hors ligne pour un chèque ou un mandat
 

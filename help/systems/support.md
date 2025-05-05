@@ -55,7 +55,7 @@ Une fois la sauvegarde générée, vous pouvez télécharger la copie du code et
 
 1. Assurez-vous qu’il a l’état `Complete`.
 
-1. Cliquez sur le nom de l’entité dans les colonnes _[!UICONTROL Code Dump]_ou_[!UICONTROL DB Dump]_ .
+1. Cliquez sur le nom de l’entité dans les colonnes _[!UICONTROL Code Dump]_&#x200B;ou&#x200B;_[!UICONTROL DB Dump]_ .
 
 Le processus de téléchargement doit démarrer automatiquement.
 
@@ -133,10 +133,10 @@ Dans la colonne **[!UICONTROL Action]** de la grille, sélectionnez l’une des 
 | [!UICONTROL Configuration] | Configuration<br>Données provenant de `app/etc/env.php`<br>méthodes de livraison<br>méthodes de paiement<br>matrice des fonctionnalités de paiement |
 | [!UICONTROL Logs] | Fichiers journaux<br>Principaux messages système<br>Principaux messages système du jour<br>Principaux messages de débogage<br>Principaux messages de débogage du jour<br>Principaux messages d’exception<br>Principaux messages d’exception d’aujourd’hui |
 | [!UICONTROL Attributes] | Attributs EAV Définis Par L’Utilisateur<br>Nouveaux Attributs EAV<br>Types D’Entité<br>Tous Les Attributs EAV<br>Attributs EAV De Catégorie<br>Attributs EAV De Produit<br>Attributs Customer EAV<br>Attribut Customer Address EAV<br>Attribut RMA Item EAV Attributs |
-| [!UICONTROL Events] | Événements globaux personnalisés<br>Événements d’administration personnalisés<br>Événements front-end personnalisés<br>Événements Doc personnalisés<br>Événements Crontab personnalisés<br>Événements SOAP personnalisés<br>Événements globaux principaux<br>Événements principaux d’administration<br>Événements principaux front-end<br>Événements principaux Doc<br>Événements principaux Crontab<br>Événements principaux<br>}Événements REST événements principaux<br>Événements principaux}}Événements principaux1}Événements principaux1}Événements principaux1}Événements principaux1}Événements de REST<br>Événements principauxÉvénements principaux2}Événements principaux1}Événements principaux1}Événements principaux2}Évén3}Tous les événements globaux<br>Tous les événements d’administration<br>Tous les événements frontend<br>Tous les événements Doc<br>Tous les événements REST<br>Tous les événements SOAP<br>Tous les événements Crontab |
+| [!UICONTROL Events] | Événements globaux personnalisés<br>Événements d’administration personnalisés<br>Événements front-end personnalisés<br>Événements Doc personnalisés<br>Événements Crontab personnalisés<br>Événements SOAP personnalisés<br>Événements globaux principaux<br>Événements principaux d’administration<br>Événements principaux front-end<br>Événements principaux Doc<br>Événements principaux Crontab<br>Événements principaux<br>&rbrace;Événements REST événements principaux<br>Événements principaux&rbrace;&rbrace;Événements principaux1&rbrace;Événements principaux1&rbrace;Événements principaux1&rbrace;Événements principaux1&rbrace;Événements de REST<br>Événements principauxÉvénements principaux2&rbrace;Événements principaux1&rbrace;Événements principaux1&rbrace;Événements principaux2&rbrace;Évén3&rbrace;Tous les événements globaux<br>Tous les événements d’administration<br>Tous les événements frontend<br>Tous les événements Doc<br>Tous les événements REST<br>Tous les événements SOAP<br>Tous les événements Crontab |
 | [!UICONTROL Cron] | Planifications cron par code d’état<br>Planifications cron par code de tâche<br>Erreurs dans la file d’attente des plannings cron<br>Liste des plannings cron<br>Tâches Cron globales personnalisées<br>Tâches Cron configurables personnalisées<br>Tâches Cron principales<br>Tâches Cron configurables<br>Toutes les tâches Cron globales<br> |
 | [!UICONTROL Design] | Adminhtml Liste de thèmes<br>Liste de thèmes front |
 | [!UICONTROL Stores] | Arborescence De Sites Web<br>Liste De Sites Web<br>Liste De Magasins<br>Liste De Vues De Magasin |
-| Connecteur OMS <br>_(visible avec l’intégration OMS){1_ | Version du connecteur<br>Surveillance du connecteur<br>Résultats du traitement des messages |
+| Connecteur OMS <br>_(visible avec l’intégration OMS)&lbrace;1_ | Version du connecteur<br>Surveillance du connecteur<br>Résultats du traitement des messages |
 
 {style="table-layout:auto"}

@@ -15,7 +15,7 @@ Votre boutique reçoit régulièrement des messages d’Adobe. Les messages sont
 
 ![Admin - messages entrants](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
-La page _[!UICONTROL Notifications]_répertorie tous les messages classés par date. Les commandes_[!UICONTROL Action]_ peuvent être utilisées pour marquer des messages individuels comme lus, afficher des informations plus détaillées ou supprimer le message de la boîte de réception.
+La page _[!UICONTROL Notifications]_&#x200B;répertorie tous les messages classés par date. Les commandes&#x200B;_[!UICONTROL Action]_ peuvent être utilisées pour marquer des messages individuels comme lus, afficher des informations plus détaillées ou supprimer le message de la boîte de réception.
 
 La configuration détermine la fréquence de mise à jour de la boîte de réception et la diffusion des messages. Si votre administrateur de magasin dispose d’une URL sécurisée, les notifications doivent être diffusées via HTTPS.
 

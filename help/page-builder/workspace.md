@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Page Builder] Workspace
 
-Lorsque [[!DNL Page Builder] est activé](setup.md), la section _[!UICONTROL Content]_et le processus de création de contenu sont modifiés pour tirer parti des [!DNL Page Builder] outils avancés pour les [pages](../content-design/page-add.md) du CMS, les [pages](../catalog/product-content.md) et les [pages de catégorie](../catalog/categories-content-settings.md), les [blocs](../content-design/block-add.md) et les [blocs dynamiques](../content-design/dynamic-blocks.md). Cette section comprend un champ_ En-tête de contenu _, un aperçu du contenu et un accès facile à l’espace de travail [!DNL Page Builder] plein écran.
+Lorsque [[!DNL Page Builder] est activé](setup.md), la section _[!UICONTROL Content]_&#x200B;et le processus de création de contenu sont modifiés pour tirer parti des [!DNL Page Builder] outils avancés pour les [pages](../content-design/page-add.md) du CMS, les [pages](../catalog/product-content.md) et les [pages de catégorie](../catalog/categories-content-settings.md), les [blocs](../content-design/block-add.md) et les [blocs dynamiques](../content-design/dynamic-blocks.md). Cette section comprend un champ_ En-tête de contenu _, un aperçu du contenu et un accès facile à l’espace de travail [!DNL Page Builder] plein écran.
 
 ![Section de contenu avec [!DNL Page Builder] aperçu](./assets/pb-content-preview.png){width="700" zoomable="yes"}
 
@@ -22,15 +22,15 @@ Comme les moteurs de recherche recherchent les en-têtes de niveau 1 (H1), l’a
 
 >[!NOTE]
 >
->Le champ _[!UICONTROL Content Heading]_qui apparaît en haut de la page est un champ hérité qui prend en charge le contenu créé avec les versions antérieures de [!DNL Commerce]. Il ne fait toutefois pas partie de [!DNL Page Builder]. Le [!UICONTROL Content Heading] est formaté en tant qu’en-tête H1 en fonction de la feuille de style associée au thème actuel. Il est positionné juste au-dessus de la zone de contenu active définie par l’étape [!DNL Page Builder].
+>Le champ _[!UICONTROL Content Heading]_&#x200B;qui apparaît en haut de la page est un champ hérité qui prend en charge le contenu créé avec les versions antérieures de [!DNL Commerce]. Il ne fait toutefois pas partie de [!DNL Page Builder]. Le [!UICONTROL Content Heading] est formaté en tant qu’en-tête H1 en fonction de la feuille de style associée au thème actuel. Il est positionné juste au-dessus de la zone de contenu active définie par l’étape [!DNL Page Builder].
 
-Pour mieux contrôler le positionnement et le format des en-têtes de tous les niveaux, il est recommandé de laisser le champ _[!UICONTROL Content Heading]_vide et d’utiliser le type de contenu [!DNL Page Builder] [En-tête](heading.md) .
+Pour mieux contrôler le positionnement et le format des en-têtes de tous les niveaux, il est recommandé de laisser le champ _[!UICONTROL Content Heading]_&#x200B;vide et d’utiliser le type de contenu [!DNL Page Builder] [En-tête](heading.md) .
 
 ![En-tête de contenu et autres en-têtes](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
 ## Prévisualiser
 
-Lorsque vous développez la section _[!UICONTROL Content]_et qu’il existe du contenu créé avec [!DNL Page Builder], elle affiche un aperçu du contenu tel qu’il apparaîtrait dans une page. Cliquez sur **[!UICONTROL Edit with Page Builder]**ou à l’intérieur de la zone d’aperçu du contenu pour ouvrir l’espace de travail [!DNL Page Builder], où vous pouvez effectuer les mises à jour nécessaires.
+Lorsque vous développez la section _[!UICONTROL Content]_&#x200B;et qu’il existe du contenu créé avec [!DNL Page Builder], elle affiche un aperçu du contenu tel qu’il apparaîtrait dans une page. Cliquez sur **[!UICONTROL Edit with Page Builder]**&#x200B;ou à l’intérieur de la zone d’aperçu du contenu pour ouvrir l’espace de travail [!DNL Page Builder], où vous pouvez effectuer les mises à jour nécessaires.
 
 ![Aperçu de la description du produit](./assets/pb-product-category-content-preview.png){width="500" zoomable="yes"}
 
@@ -77,7 +77,7 @@ Par défaut, [!DNL Page Builder] fournit deux aperçus de fenêtre d’affichage
 
 ### Paramètres des points d’arrêt
 
-Les boutons de fenêtre d’affichage offrent également la possibilité d’appliquer différents styles de point d’arrêt aux types de contenu en fonction de la fenêtre d’affichage sélectionnée. Par défaut, [!DNL Page Builder] fournit des paramètres de point d’arrêt pour les champs _[!UICONTROL Minimum Height]_de Lignes, Colonnes, Onglets, Éléments d’onglet, Bannières, Curseurs et Diapositives. Lorsque vous sélectionnez la fenêtre d’affichage Mobile, puis ouvrez l’éditeur pour l’un de ces types de contenu, vous pouvez saisir des valeurs de champ spécifiques aux points d’arrêt de la fenêtre d’affichage Mobile . Les champs de type Contenu qui autorisent des paramètres de point d’arrêt spécifiques affichent une icône à droite du champ, comme dans l’exemple suivant pour une ligne :
+Les boutons de fenêtre d’affichage offrent également la possibilité d’appliquer différents styles de point d’arrêt aux types de contenu en fonction de la fenêtre d’affichage sélectionnée. Par défaut, [!DNL Page Builder] fournit des paramètres de point d’arrêt pour les champs _[!UICONTROL Minimum Height]_&#x200B;de Lignes, Colonnes, Onglets, Éléments d’onglet, Bannières, Curseurs et Diapositives. Lorsque vous sélectionnez la fenêtre d’affichage Mobile, puis ouvrez l’éditeur pour l’un de ces types de contenu, vous pouvez saisir des valeurs de champ spécifiques aux points d’arrêt de la fenêtre d’affichage Mobile . Les champs de type Contenu qui autorisent des paramètres de point d’arrêt spécifiques affichent une icône à droite du champ, comme dans l’exemple suivant pour une ligne :
 
 ![Indicateur d’icône pour le paramètre de point d’arrêt](./assets/pb-workspace-viewport-field-breakpoint.png){width="400"}
 
@@ -87,7 +87,7 @@ Le panneau [!DNL Page Builder] se trouve à gauche de l’étape et contient les
 
 ### Disposition
 
-La section _[!UICONTROL Layout]_du panneau [!DNL Page Builder] est utilisée pour ajouter des lignes, des colonnes ou des onglets à la scène. Lorsque vous faites glisser un type de contenu du panneau vers la scène, un conteneur s’affiche avec une boîte à outils d’options spécifiques au type de contenu.
+La section _[!UICONTROL Layout]_&#x200B;du panneau [!DNL Page Builder] est utilisée pour ajouter des lignes, des colonnes ou des onglets à la scène. Lorsque vous faites glisser un type de contenu du panneau vers la scène, un conteneur s’affiche avec une boîte à outils d’options spécifiques au type de contenu.
 
 Par défaut, l’étape [!DNL Page Builder] est vide. Lorsque vous faites glisser des types de contenu de mise en page du panneau vers la scène, vous pouvez les placer au-dessus, en dessous ou à l’intérieur d’autres conteneurs de mise en page sur la page. Les lignes ne peuvent être ajoutées directement à la scène que.
 
@@ -103,7 +103,7 @@ Par défaut, l’étape [!DNL Page Builder] est vide. Lorsque vous faites glisse
 
 ### Éléments
 
-Utilisez la section _[!UICONTROL Elements]_du panneau [!DNL Page Builder] pour ajouter du texte, des en-têtes, des boutons, des séparateurs et du code d’HTML à n’importe quel conteneur de mises en page sur l’ [[!DNL Page Builder] étape](workspace.md#stage). Lorsque vous faites glisser un type de contenu du panneau vers une ligne ou une colonne, ou vers un ensemble d’onglets sur la scène, un conteneur s’affiche. Utilisez la boîte à outils de type de contenu pour accéder aux paramètres spécifiques au type.
+Utilisez la section _[!UICONTROL Elements]_&#x200B;du panneau [!DNL Page Builder] pour ajouter du texte, des en-têtes, des boutons, des séparateurs et du code d’HTML à n’importe quel conteneur de mises en page sur l’ [[!DNL Page Builder] étape](workspace.md#stage). Lorsque vous faites glisser un type de contenu du panneau vers une ligne ou une colonne, ou vers un ensemble d’onglets sur la scène, un conteneur s’affiche. Utilisez la boîte à outils de type de contenu pour accéder aux paramètres spécifiques au type.
 
 ![[!DNL Page Builder] panneau avec types de contenu d’élément](./assets/pb-elements.png){width="600" zoomable="yes"}
 
@@ -119,7 +119,7 @@ Utilisez la section _[!UICONTROL Elements]_du panneau [!DNL Page Builder] pour a
 
 ### Média
 
-Utilisez la section _[!UICONTROL Media]_du panneau [!DNL Page Builder] pour ajouter des images, des vidéos, des bannières, des curseur et [!DNL Google Maps] à n’importe quel conteneur de mises en page sur l’ [[!DNL Page Builder] étape](workspace.md#stage). Lorsqu’un type de contenu multimédia est glissé du panneau vers la scène, un conteneur s’affiche avec une boîte à outils contenant les options propres au type de contenu.
+Utilisez la section _[!UICONTROL Media]_&#x200B;du panneau [!DNL Page Builder] pour ajouter des images, des vidéos, des bannières, des curseur et [!DNL Google Maps] à n’importe quel conteneur de mises en page sur l’ [[!DNL Page Builder] étape](workspace.md#stage). Lorsqu’un type de contenu multimédia est glissé du panneau vers la scène, un conteneur s’affiche avec une boîte à outils contenant les options propres au type de contenu.
 
 ![[!DNL Page Builder] panneau avec types de contenu multimédia](./assets/pb-media-content-types.png){width="600" zoomable="yes"}
 
@@ -135,7 +135,7 @@ Utilisez la section _[!UICONTROL Media]_du panneau [!DNL Page Builder] pour ajou
 
 ### Ajouter du contenu
 
-Utilisez la section _[!UICONTROL Add Content]_du panneau [!DNL Page Builder] pour ajouter du contenu existant à la [[!DNL Page Builder] scène](workspace.md#stage). Lorsque vous faites glisser un type de contenu multimédia du panneau vers la scène, un conteneur s’affiche. Utilisez la boîte à outils de type de contenu pour accéder aux_ Paramètres _spécifiques au type.
+Utilisez la section _[!UICONTROL Add Content]_&#x200B;du panneau [!DNL Page Builder] pour ajouter du contenu existant à la [[!DNL Page Builder] scène](workspace.md#stage). Lorsque vous faites glisser un type de contenu multimédia du panneau vers la scène, un conteneur s’affiche. Utilisez la boîte à outils de type de contenu pour accéder aux_ Paramètres _spécifiques au type.
 
 Panneau ![[!DNL Page Builder] avec Ajouter des types de contenu](./assets/pb-add-content.png){width="600" zoomable="yes"}
 

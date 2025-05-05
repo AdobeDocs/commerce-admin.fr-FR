@@ -56,7 +56,7 @@ Pour ajouter une vidéo de produit, vous devez d’abord obtenir une clé API de
 
 1. Ouvrez un produit en mode d’édition.
 
-1. Accédez à la section _[!UICONTROL Images and Videos]_et développez-la.
+1. Accédez à la section _[!UICONTROL Images and Videos]_&#x200B;et développez-la.
 
    ![Images et vidéos](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
@@ -94,7 +94,7 @@ Pour ajouter une vidéo de produit, vous devez d’abord obtenir une clé API de
 
    >[!NOTE]
    >
-   >Si l’option de configuration _[!UICONTROL Autostart base video]_est définie sur `Yes` mais que la lecture de la vidéo ne commence pas automatiquement, cela peut être dû aux stratégies de lecture automatique qui sont appliquées par le navigateur et ne peuvent pas être contrôlées par Adobe Commerce. Chaque navigateur pris en charge possède ses propres stratégies de lecture automatique qui peuvent changer au fil du temps et la lecture de votre vidéo risque de ne plus être automatique à l’avenir. La bonne pratique recommandée consiste à ne pas vous fier à la lecture automatique pour les fonctionnalités critiques de l’entreprise et à tester le comportement de lecture automatique de la vidéo dans votre boutique avec chaque navigateur pris en charge.
+   >Si l’option de configuration _[!UICONTROL Autostart base video]_&#x200B;est définie sur `Yes` mais que la lecture de la vidéo ne commence pas automatiquement, cela peut être dû aux stratégies de lecture automatique qui sont appliquées par le navigateur et ne peuvent pas être contrôlées par Adobe Commerce. Chaque navigateur pris en charge possède ses propres stratégies de lecture automatique qui peuvent changer au fil du temps et la lecture de votre vidéo risque de ne plus être automatique à l’avenir. La bonne pratique recommandée consiste à ne pas vous fier à la lecture automatique pour les fonctionnalités critiques de l’entreprise et à tester le comportement de lecture automatique de la vidéo dans votre boutique avec chaque navigateur pris en charge.
 
 ## Maintenir l’accès aux API
 

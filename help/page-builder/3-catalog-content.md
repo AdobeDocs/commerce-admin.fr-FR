@@ -30,7 +30,7 @@ Cet exercice suppose que vous avez terminé [Partie 1 : Page simple](1-simple-pa
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) de la section **[!UICONTROL Content]** et cliquez sur **[!UICONTROL Edit with Page Builder]** ou dans la zone d’aperçu du contenu.
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un **[!UICONTROL Row]**jusqu’en haut de l’étape.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un **[!UICONTROL Row]**&#x200B;jusqu’en haut de l’étape.
 
 1. Dans le panneau [!DNL Page Builder], développez **[!UICONTROL Add Content]** et faites glisser un espace réservé **[!UICONTROL Products]** sur la nouvelle ligne.
 
@@ -80,7 +80,7 @@ Cet exercice suppose que vous avez terminé [Partie 1 : Page simple](1-simple-pa
 
 1. Dans le coin supérieur droit de l’étape, cliquez sur l’icône _Fermer le plein écran_ ( ![Icône Fermer le plein écran](./assets/pb-icon-reduce.png){width="20"} ).
 
-   Cliquez sur cette icône pour revenir à la section _[!UICONTROL Content]_de la page dont l’aperçu est affiché.
+   Cliquez sur cette icône pour revenir à la section _[!UICONTROL Content]_&#x200B;de la page dont l’aperçu est affiché.
 
 1. Dans le coin supérieur droit, cliquez sur la flèche **[!UICONTROL Save]** et sélectionnez **[!UICONTROL Save & Close]**.
 
@@ -104,7 +104,7 @@ Dans cette partie de l’exercice, vous découvrez à quel point il est facile d
 
    Si la description du produit a été précédemment saisie sans [!DNL Page Builder], la description actuelle s’affiche comme HTML dans un conteneur [Code HTML](html-code.md). Avec le thème Luma, la description du produit s’affiche dans l’onglet Détails .
 
-1. Dans le panneau [!DNL Page Builder] situé sous _[!UICONTROL Layout]_, faites glisser un **[!UICONTROL Row]**jusqu’à l’étape, le plaçant sous le conteneur de code d’HTML.
+1. Dans le panneau [!DNL Page Builder] situé sous _[!UICONTROL Layout]_, faites glisser un **[!UICONTROL Row]**&#x200B;jusqu’à l’étape, le plaçant sous le conteneur de code d’HTML.
 
    Recherchez la ligne guide rouge qui s’affiche lorsque la ligne est à la bonne position.
 
@@ -136,7 +136,7 @@ Dans cette partie de l’exercice, vous découvrez à quel point il est facile d
 
 1. Dans le coin supérieur droit de l’étape, cliquez sur l’icône _Fermer le plein écran_ ( ![Icône Fermer le plein écran](./assets/pb-icon-reduce.png){width="20"} ).
 
-   Cliquez sur cette icône pour revenir à la section _[!UICONTROL Content]_de la page dont l’aperçu est affiché.
+   Cliquez sur cette icône pour revenir à la section _[!UICONTROL Content]_&#x200B;de la page dont l’aperçu est affiché.
 
 1. Dans le coin supérieur droit, cliquez sur la flèche **[!UICONTROL Save]** et sélectionnez **[!UICONTROL Save & Close]**.
 
@@ -160,17 +160,22 @@ Pour éviter toute modification de votre boutique en ligne, créez un produit à
 
 1. Créez le produit avec les propriétés suivantes :
 
-   - 
+   - &#x200B;
+
      [!UICONTROL Jeu d’attributs]: Default
    - [!UICONTROL Product Name] : Mon produit
-   - 
+   - &#x200B;
+
      [!UICONTROL SKU]: Tutorial
-   - 
+   - &#x200B;
+
      [!UICONTROL Price]: 75.00
-   - 
+   - &#x200B;
+
      [!UICONTROL Quantity]: 100
    - [!UICONTROL Stock Status] : En Stock
-   - 
+   - &#x200B;
+
      [!UICONTROL Weight]: 1
    - [!UICONTROL Categories] : Femmes > Trops > Tees
 
@@ -199,20 +204,26 @@ Au cours de cette étape, vous créez deux nouveaux attributs personnalisés pou
    - [!UICONTROL Attribute Code] : saisissez un code d’attribut en minuscules avec des tirets au lieu d’espaces. Pour cet exemple, utilisez `my_page_builder_attribute`.
    - [!UICONTROL Scope] : acceptez la valeur par défaut, `Store View`.
    - [!UICONTROL Default Value] : entrez une valeur par défaut pour l’attribut .
-   - 
+   - &#x200B;
+
      [!UICONTROL Unique Value]: `No`
-   - 
+   - &#x200B;
+
      [!UICONTROL Add to Column Options]: `No`
-   - 
+   - &#x200B;
+
      [!UICONTROL Use in Filter Options]: `Yes`
 
-1. Dans le panneau _[!UICONTROL Attribute Information]_à gauche, sélectionnez **[!UICONTROL Storefront Properties]**et définissez les paramètres suivants :
+1. Dans le panneau _[!UICONTROL Attribute Information]_&#x200B;à gauche, sélectionnez **[!UICONTROL Storefront Properties]**&#x200B;et définissez les paramètres suivants :
 
-   - 
+   - &#x200B;
+
      [!UICONTROL Use for Promo Rule Conditions]: `Yes`
-   - 
+   - &#x200B;
+
      [!UICONTROL Visible on Catalog Pages on Storefront]: `Yes`
-   - 
+   - &#x200B;
+
      [!UICONTROL Used in Product Listing]: `Yes`
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Attribute]**.
@@ -221,7 +232,8 @@ Au cours de cette étape, vous créez deux nouveaux attributs personnalisés pou
 
    - [!UICONTROL Default Label] : attribut de l’éditeur de texte
    - [!UICONTROL Catalog Input Type for Store Owner] : Éditeur de texte
-   - 
+   - &#x200B;
+
      [!UICONTROL Attribute Code]: `my_text_editor_attribute`
 
 ### Étape 3 : mise à jour du jeu d’attributs de produit
@@ -234,7 +246,7 @@ Au cours de cette étape, vous créez deux nouveaux attributs personnalisés pou
    >
    >Si vous ne souhaitez pas modifier votre magasin en direct, vous pouvez suivre sans mettre à jour le jeu d’attributs.
 
-1. Recherchez l’attribut _[!UICONTROL Default]_défini dans la liste et double-cliquez dessus pour l’ouvrir en mode d’édition.
+1. Recherchez l’attribut _[!UICONTROL Default]_&#x200B;défini dans la liste et double-cliquez dessus pour l’ouvrir en mode d’édition.
 
 1. Dans la liste _Attributs non attribués_, recherchez les nouveaux attributs que vous avez créés et faites glisser chacun d’eux vers la colonne _[!UICONTROL Groups]_, sous **[!UICONTROL Content]**.
 
@@ -266,7 +278,7 @@ Au cours de cette étape, vous créez deux nouveaux attributs personnalisés pou
    - _My [!DNL Page Builder] Attribute_, qui affiche l’aperçu [!DNL Page Builder].
    - _My Text Editor Attribute_, qui utilise l’éditeur WYSIWYG standard.
 
-   ![ {Modification du contenu du produit](./assets/pb-product-content-my-attributes.png){width="600" zoomable="yes"}
+   ![ &lbrace;Modification du contenu du produit](./assets/pb-product-content-my-attributes.png){width="600" zoomable="yes"}
 
 1. Dans l’éditeur **My Text Editor Attribute** , saisissez `Text Editor Attribute placeholder text`.
 

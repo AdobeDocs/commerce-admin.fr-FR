@@ -114,7 +114,7 @@ Pour créer un lien pour un numéro de téléphone ou un email, voir [Ajout de v
 
 1. Mettez à jour le contenu suivant vos besoins.
 
-1. Mettez à jour les paramètres _[!UICONTROL Advanced]_si nécessaire.
+1. Mettez à jour les paramètres _[!UICONTROL Advanced]_&#x200B;si nécessaire.
 
    - Pour contrôler le positionnement du texte dans le conteneur parent, choisissez un **[!UICONTROL Alignment]** :
 

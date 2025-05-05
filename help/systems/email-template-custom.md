@@ -218,7 +218,7 @@ La personnalisation du corps de chaque message est identique à celle de l&#39;e
 
 ### Étape 3. Mise à jour de la configuration
 
-Le chemin de navigation _[!UICONTROL Currently Used For]_indique l’emplacement d’utilisation du modèle. Dans cet exemple, la configuration du modèle se trouve sur la page_[!UICONTROL Customer Configuration]_, dans la section _[!UICONTROL Create New Account Options]_et dans le champ_[!UICONTROL Default Welcome Email]_.
+Le chemin de navigation _[!UICONTROL Currently Used For]_&#x200B;indique l’emplacement d’utilisation du modèle. Dans cet exemple, la configuration du modèle se trouve sur la page&#x200B;_[!UICONTROL Customer Configuration]_, dans la section _[!UICONTROL Create New Account Options]_&#x200B;et dans le champ&#x200B;_[!UICONTROL Default Welcome Email]_.
 
 - Page - [!UICONTROL Customer Configuration]
 - Section - [!UICONTROL Create New Account Options]

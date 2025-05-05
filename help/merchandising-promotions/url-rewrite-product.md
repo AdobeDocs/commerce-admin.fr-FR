@@ -124,7 +124,7 @@ Vous pouvez rapidement mettre à jour les réécritures d’URL pour plusieurs o
 
 1. Sélectionnez tous les produits pour lesquels vous souhaitez mettre à jour les réécritures d’URL.
 
-1. Sous _[!UICONTROL Actions]_, choisissez **[!UICONTROL Update attributes]**pour mettre à jour plusieurs réécritures ou toutes les réécritures.
+1. Sous _[!UICONTROL Actions]_, choisissez **[!UICONTROL Update attributes]**&#x200B;pour mettre à jour plusieurs réécritures ou toutes les réécritures.
 
 1. Sous _[!UICONTROL PRODUCTS INFORMATION]_, cliquez sur l’onglet **[!UICONTROL Websites]**.
 

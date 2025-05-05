@@ -68,7 +68,7 @@ Pour une installation multi-magasin, un menu principal différent peut être aff
 
    ![Navigation supérieure des catégories](../configuration-reference/catalog/assets/catalog-category-top-navigation.png){width="600" zoomable="yes"}
 
-   La profondeur de la navigation supérieure ayant une [portée de configuration](../getting-started/websites-stores-views.md#scope-settings) globale, le paramètre s’applique à tous les sites web, magasins et vues de magasin dans l’installation Commerce. La section de configuration _[!UICONTROL Category Top Navigation]_est disponible uniquement lorsque_[!UICONTROL Store View]_ dans le coin supérieur gauche est défini sur `Default Config`.
+   La profondeur de la navigation supérieure ayant une [portée de configuration](../getting-started/websites-stores-views.md#scope-settings) globale, le paramètre s’applique à tous les sites web, magasins et vues de magasin dans l’installation Commerce. La section de configuration _[!UICONTROL Category Top Navigation]_&#x200B;est disponible uniquement lorsque&#x200B;_[!UICONTROL Store View]_ dans le coin supérieur gauche est défini sur `Default Config`.
 
    Pour obtenir une liste détaillée de ces options, reportez-vous à la section [Navigation supérieure des catégories](../configuration-reference/catalog/catalog.md#layered-navigation) dans la _Référence de configuration_.
 

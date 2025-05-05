@@ -38,7 +38,7 @@ _La livraison gratuite_ est l’une des promotions les plus efficaces que vous p
 
    >[!TIP]
    >
-   >Pour utiliser la livraison gratuite avec des [tarifs de table](shipping-table-rate.md), rendez le _[!UICONTROL Minimum Order Amount]_si élevé qu&#39;il n&#39;est jamais rempli. L’utilisation de cette valeur élevée empêche la livraison gratuite de prendre effet, sauf si elle est déclenchée par une règle de prix.
+   >Pour utiliser la livraison gratuite avec des [tarifs de table](shipping-table-rate.md), rendez le _[!UICONTROL Minimum Order Amount]_&#x200B;si élevé qu&#39;il n&#39;est jamais rempli. L’utilisation de cette valeur élevée empêche la livraison gratuite de prendre effet, sauf si elle est déclenchée par une règle de prix.
 
 1. Définissez **[!UICONTROL Include Tax to Amount]** :
 
@@ -53,7 +53,7 @@ _La livraison gratuite_ est l’une des promotions les plus efficaces que vous p
 
    - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans votre configuration de magasin peuvent utiliser la livraison gratuite.
 
-   - `Specific Countries` - Après avoir choisi cette valeur, la liste _[!UICONTROL Ship to Specific Countries]_s’affiche. Sélectionnez chaque pays de la liste où la livraison gratuite peut être utilisée.
+   - `Specific Countries` - Après avoir choisi cette valeur, la liste _[!UICONTROL Ship to Specific Countries]_&#x200B;s’affiche. Sélectionnez chaque pays de la liste où la livraison gratuite peut être utilisée.
 
 1. Définissez **[!UICONTROL Show Method if Not Applicable]** :
 

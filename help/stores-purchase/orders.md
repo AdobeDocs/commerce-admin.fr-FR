@@ -111,7 +111,7 @@ Pour appliquer une action à des commandes spécifiques, cochez la case dans la 
 | [!UICONTROL Grand Total (Base)] | Total général de la commande. |
 | [!UICONTROL Grand Total (Purchased)] | Total général des produits achetés dans la commande. |
 | [!UICONTROL Status] | État actuel de la commande. |
-| [!UICONTROL Action] | _[!UICONTROL View]_ouvre la commande en mode d’édition. |
+| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;ouvre la commande en mode d’édition. |
 | [!UICONTROL Allocated sources] | Les sources allouées à cet ordre spécifique. |
 
 {style="table-layout:auto"}

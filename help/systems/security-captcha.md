@@ -51,7 +51,7 @@ Pour un niveau de sécurité supplémentaire, vous pouvez ajouter un CAPTCHA à 
    - Définissez **[!UICONTROL Displaying Modes]** sur l’une des options suivantes :
 
       - `Always` — CAPTCHA est toujours nécessaire pour se connecter à l’administrateur.
-      - `After number of attempts to login` — Cette option s’applique uniquement au formulaire de connexion administrateur. Lorsqu’il est sélectionné, le champ _[!UICONTROL Number of Unsuccessful Attempts to Login]_s’affiche. Saisissez le nombre de tentatives de connexion que vous souhaitez autoriser. Une valeur de 0 (zéro) est similaire à la définition du mode d’affichage sur `Always`.
+      - `After number of attempts to login` — Cette option s’applique uniquement au formulaire de connexion administrateur. Lorsqu’il est sélectionné, le champ _[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;s’affiche. Saisissez le nombre de tentatives de connexion que vous souhaitez autoriser. Une valeur de 0 (zéro) est similaire à la définition du mode d’affichage sur `Always`.
 
      Pour suivre le nombre de tentatives de connexion infructueuses, chaque tentative de connexion sous une adresse électronique et depuis une adresse IP est comptabilisée. Le nombre maximal de tentatives de connexion autorisées à partir d’une même adresse IP est de 1 000. Cette limitation s’applique uniquement lorsque CAPTCHA est activé.
 

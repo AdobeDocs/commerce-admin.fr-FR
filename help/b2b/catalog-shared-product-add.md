@@ -26,9 +26,9 @@ Les exigences suivantes doivent être respectées pour qu’un produit complexe 
 
 1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Pour le produit dans la grille que vous souhaitez ajouter, accédez à la colonne _[!UICONTROL Action]_et cliquez sur **[!UICONTROL Edit]**.
+1. Pour le produit dans la grille que vous souhaitez ajouter, accédez à la colonne _[!UICONTROL Action]_&#x200B;et cliquez sur **[!UICONTROL Edit]**.
 
-1. Faites défiler la page vers le bas, développez ![Sélecteur d’extension](../assets/icon-display-expand.png) de la section _[!UICONTROL Product in Shared Catalogs]_et procédez comme suit :
+1. Faites défiler la page vers le bas, développez ![Sélecteur d’extension](../assets/icon-display-expand.png) de la section _[!UICONTROL Product in Shared Catalogs]_&#x200B;et procédez comme suit :
 
    - Cochez la case de chaque catalogue partagé où doit apparaître le produit. Pour choisir tous les catalogues, cliquez sur **[!UICONTROL Select all]**.
 
@@ -46,7 +46,7 @@ Les exigences suivantes doivent être respectées pour qu’un produit complexe 
 
 1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
-1. Pour le catalogue partagé dans la grille, accédez à la colonne _[!UICONTROL Action]_et sélectionnez **[!UICONTROL Set Pricing and Structure]**.
+1. Pour le catalogue partagé dans la grille, accédez à la colonne _[!UICONTROL Action]_&#x200B;et sélectionnez **[!UICONTROL Set Pricing and Structure]**.
 
 1. Dans l’arborescence des catégories, effectuez l’une des opérations suivantes :
 

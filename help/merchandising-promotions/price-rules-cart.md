@@ -48,9 +48,9 @@ Les règles de prix du panier s’appliquent aux articles du panier, selon un en
 | [!UICONTROL Priority] | Champ de texte libre qui filtre la liste selon la priorité définie pour une règle. |
 | [!UICONTROL Status] | Utilisez cette option pour filtrer la liste en fonction de l’état de la règle (`Active` ou `Inactive`). |
 | [!UICONTROL Web Site] | Utilisez cette option pour filtrer la liste en fonction des sites web définis pour une règle. |
-| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Cliquez sur **[!UICONTROL Edit]** pour afficher la page _[!UICONTROL Rule Information]_et mettre à jour les paramètres des règles (comme pour créer une règle). |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Utilisez les champs de calendrier dynamique (_[!UICONTROL To:]_et_[!UICONTROL From:]_) pour filtrer la liste en fonction de la date de début de la règle, telle que définie lors de la création de la règle. |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Utilisez les champs de calendrier dynamique (_[!UICONTROL To:]_et_[!UICONTROL From:]_) pour filtrer la liste en fonction de la date de fin de la règle, telle que définie lors de la création de la règle. |
+| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Cliquez sur **[!UICONTROL Edit]** pour afficher la page _[!UICONTROL Rule Information]_&#x200B;et mettre à jour les paramètres des règles (comme pour créer une règle). |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Utilisez les champs de calendrier dynamique (_[!UICONTROL To:]_&#x200B;et&#x200B;_[!UICONTROL From:]_) pour filtrer la liste en fonction de la date de début de la règle, telle que définie lors de la création de la règle. |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Utilisez les champs de calendrier dynamique (_[!UICONTROL To:]_&#x200B;et&#x200B;_[!UICONTROL From:]_) pour filtrer la liste en fonction de la date de fin de la règle, telle que définie lors de la création de la règle. |
 
 {style="table-layout:auto"}
 

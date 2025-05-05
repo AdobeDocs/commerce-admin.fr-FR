@@ -18,7 +18,7 @@ Un segment de client peut être utilisé pour les promotions ciblées en l’ass
 
 ![Règle de prix du panier - segment client ciblé](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
-_**Pour associer un segment à une règle de prix de panier :**_
+_&#x200B;**Pour associer un segment à une règle de prix de panier :**&#x200B;_
 
 1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _Promotions_ > **[!UICONTROL Cart Price Rules]**.
 

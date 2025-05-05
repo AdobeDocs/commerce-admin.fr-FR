@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Nouvelles options du compte client
 
-Dans la section _[!UICONTROL Create New Account Options]_de la configuration, les options de base du compte sont combinées avec des options plus avancées liées à la validation de l’ID de TVA et aux intégrations personnalisées. Les instructions suivantes portent uniquement sur les options les plus fréquemment utilisées. Pour en savoir plus sur les affectations automatiques de groupes de clients, voir [Validation de la TVA](../stores-purchase/vat.md).
+Dans la section _[!UICONTROL Create New Account Options]_&#x200B;de la configuration, les options de base du compte sont combinées avec des options plus avancées liées à la validation de l’ID de TVA et aux intégrations personnalisées. Les instructions suivantes portent uniquement sur les options les plus fréquemment utilisées. Pour en savoir plus sur les affectations automatiques de groupes de clients, voir [Validation de la TVA](../stores-purchase/vat.md).
 
 ![Créer des options de compte](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 

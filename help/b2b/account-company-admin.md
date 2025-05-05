@@ -33,7 +33,7 @@ L’administrateur de la société est initialement affecté lors de la créatio
 
 1. Saisissez le **[!UICONTROL Job Title]** du nouvel administrateur de la société.
 
-   Cette action efface le formulaire et les champs _[!UICONTROL First Name]_et_[!UICONTROL Last Name]_ requis sont mis en surbrillance.
+   Cette action efface le formulaire et les champs _[!UICONTROL First Name]_&#x200B;et&#x200B;_[!UICONTROL Last Name]_ requis sont mis en surbrillance.
 
 1. Saisissez l’adresse **[!UICONTROL Email]** du nouvel administrateur de la société.
 

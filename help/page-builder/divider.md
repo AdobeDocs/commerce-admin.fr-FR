@@ -73,7 +73,7 @@ Bien que la plupart des conteneurs de séparateurs soient invisibles, l’exempl
 
    ![Définition de la couleur, de l’épaisseur et de la largeur de la ligne](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Mettez à jour les paramètres _[!UICONTROL Advanced]_si nécessaire.
+1. Mettez à jour les paramètres _[!UICONTROL Advanced]_&#x200B;si nécessaire.
 
    - Pour contrôler le positionnement du séparateur dans le conteneur parent, choisissez la propriété **[!UICONTROL Alignment]** :
 

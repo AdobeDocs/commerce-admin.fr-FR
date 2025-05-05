@@ -61,7 +61,7 @@ Pour chaque fichier multimédia que vous prévoyez de migrer, saisissez les vale
 | commerce:sku | SKU de produit associés à cette ressource | Valeur de chaîne (par exemple, `sample1`) |
 | commerce :rôles | Les rôles ou types d’images pour la ressource (par exemple, `thumbnail`, `main image`, `swatch`) | Plusieurs valeurs séparées par des points-virgules (par exemple, « miniature ; image ; image_échantillon ; image_petite ») |
 
-Code +++CSV
++++Code CSV
 
 Utilisez cet exemple de code CSV pour créer le fichier dans un éditeur de code ou une tableur telle que Microsoft Excel.
 

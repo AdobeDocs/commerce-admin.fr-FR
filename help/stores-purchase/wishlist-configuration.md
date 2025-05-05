@@ -83,7 +83,7 @@ Vous trouverez n’importe quelle liste de souhaits publics à l’aide du widge
 
      `0` = premier (par défaut), `1` = second, `2` = troisième, etc.
 
-1. Dans la section _[!UICONTROL Layout Updates]_, cliquez sur **[!UICONTROL Add Layout Update]**et définissez **[!UICONTROL Display on]**sur l’une des options suivantes :
+1. Dans la section _[!UICONTROL Layout Updates]_, cliquez sur **[!UICONTROL Add Layout Update]**&#x200B;et définissez **[!UICONTROL Display on]**&#x200B;sur l’une des options suivantes :
 
    - _[!UICONTROL Categories]_
 

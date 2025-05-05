@@ -83,7 +83,7 @@ Les modes de paiement ci-après sont intégrés à Commerce et ne font pas appel
 | [!UICONTROL Make Check Payable to] | Affichage de la boutique | Nom de l&#39;entité à laquelle les chèques et les mandats doivent être rendus payables. |
 | [!UICONTROL Send Check to] | Affichage de la boutique | Adresse postale ou BP où les chèques et les mandats doivent être envoyés. |
 | [!UICONTROL Minimum Order Total] | Site internet | Montant de commande le plus faible pouvant être payé par chèque ou mandat. |
-| [!UICONTROL Maximum Order Total] | Site internet | Montant de commande le plus élevé pouvant être payé par chèque ou mandat. <br/><br/>**_Remarque :_**une commande est qualifiée si le total est compris entre le total minimum ou maximum de la commande ou s&#39;il correspond à ce total. |
+| [!UICONTROL Maximum Order Total] | Site internet | Montant de commande le plus élevé pouvant être payé par chèque ou mandat. <br/><br/>**_Remarque :_**&#x200B;une commande est qualifiée si le total est compris entre le total minimum ou maximum de la commande ou s&#39;il correspond à ce total. |
 | [!UICONTROL Sort Order] | Site internet | Nombre qui détermine l&#39;ordre dans lequel le paiement par chèque ou mandat-poste apparaît lorsqu&#39;il est indiqué avec d&#39;autres modes de paiement lors du passage en caisse. Saisissez `0` pour le placer en haut de la liste. |
 
 {style="table-layout:auto"}
@@ -102,7 +102,7 @@ Les modes de paiement ci-après sont intégrés à Commerce et ne font pas appel
 | [!UICONTROL Payment from Applicable Countries] | Site internet | Détermine les pays d&#39;où vous acceptez le paiement par virement bancaire. Options : `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Site internet | Indique les pays spécifiques à partir desquels vous acceptez un paiement par virement bancaire. |
 | [!UICONTROL Minimum Order Total] | Site internet | Montant de commande le plus faible pouvant être payé par virement bancaire. |
-| [!UICONTROL Maximum Order Total] | Site internet | Montant de commande le plus élevé pouvant être payé par virement bancaire. <br/><br/>**_Remarque :_**une commande est qualifiée si le total est compris entre le total minimum ou maximum de la commande ou s&#39;il correspond à ce total. |
+| [!UICONTROL Maximum Order Total] | Site internet | Montant de commande le plus élevé pouvant être payé par virement bancaire. <br/><br/>**_Remarque :_**&#x200B;une commande est qualifiée si le total est compris entre le total minimum ou maximum de la commande ou s&#39;il correspond à ce total. |
 | [!UICONTROL Sort Order] | Site internet | Nombre qui détermine l&#39;ordre dans lequel apparaît le paiement par virement bancaire lorsqu&#39;il est indiqué avec d&#39;autres modes de paiement lors du passage en caisse. Saisissez `0` pour le placer en haut de la liste. |
 
 {style="table-layout:auto"}
@@ -123,7 +123,7 @@ Les modes de paiement ci-après sont intégrés à Commerce et ne font pas appel
 | [!UICONTROL Payment from Applicable Countries] | Site internet | Détermine les pays dans lesquels vous autorisez les sociétés à imputer les achats sur leurs comptes. Options : `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Site internet | Identifie les pays spécifiques dans lesquels les entreprises peuvent imputer les achats sur leurs comptes. |
 | [!UICONTROL Minimum Order Total] | Site internet | Spécifie le plus petit montant de commande pouvant être imputé à un compte société. |
-| [!UICONTROL Maximum Order Total] | Site internet | Montant de commande le plus élevé pouvant être imputé à un compte d’entreprise. <br/><br/>**_Remarque :_**une commande est qualifiée si le total est compris entre le total minimum ou maximum de la commande ou s&#39;il correspond à ce total. |
+| [!UICONTROL Maximum Order Total] | Site internet | Montant de commande le plus élevé pouvant être imputé à un compte d’entreprise. <br/><br/>**_Remarque :_**&#x200B;une commande est qualifiée si le total est compris entre le total minimum ou maximum de la commande ou s&#39;il correspond à ce total. |
 | [!UICONTROL Sort Order] | Site internet | Nombre qui détermine l&#39;ordre dans lequel apparaît le paiement en compte lorsqu&#39;il est indiqué avec d&#39;autres modes de paiement lors du passage en caisse. Saisissez `0` pour le placer en haut de la liste. |
 
 {style="table-layout:auto"}
@@ -146,7 +146,7 @@ Les modes de paiement ci-après sont intégrés à Commerce et ne font pas appel
 | [!UICONTROL Payment from Applicable Countries] | Site internet | Détermine les pays d&#39;où vous acceptez le paiement par virement bancaire. Options : `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Site internet | Indique les pays spécifiques à partir desquels vous acceptez un paiement par virement bancaire. |
 | [!UICONTROL Minimum Order Total] | Site internet | Spécifie le plus petit montant de commande qui peut être payé par virement bancaire. |
-| [!UICONTROL Maximum Order Total] | Site internet | Montant de commande le plus élevé pouvant être payé par virement bancaire. <br/><br/>**_Remarque :_**une commande est qualifiée si le total est compris entre le total minimum ou maximum de la commande ou s&#39;il correspond à ce total. |
+| [!UICONTROL Maximum Order Total] | Site internet | Montant de commande le plus élevé pouvant être payé par virement bancaire. <br/><br/>**_Remarque :_**&#x200B;une commande est qualifiée si le total est compris entre le total minimum ou maximum de la commande ou s&#39;il correspond à ce total. |
 | [!UICONTROL Sort Order] | Site internet | Nombre qui détermine l&#39;ordre dans lequel apparaît le paiement par virement bancaire lorsqu&#39;il est indiqué avec d&#39;autres modes de paiement lors du passage en caisse. Saisissez `0` pour le placer en haut de la liste. |
 
 {style="table-layout:auto"}
@@ -205,7 +205,7 @@ Consultez la section Paramètres de base de chaque mode de paiement pour obtenir
 | [!UICONTROL Payment from Applicable Countries] | Site internet | Détermine les pays d&#39;où vous acceptez le paiement par commande. Options : `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Site internet | Indique les pays spécifiques à partir desquels vous acceptez le paiement par commande. |
 | [!UICONTROL Minimum Order Total] | Site internet | Montant de commande le plus faible pouvant être payé par le bon de commande. |
-| [!UICONTROL Maximum Order Total] | Site internet | Montant de commande le plus élevé pouvant être payé par le bon de commande. <br/><br/>**_Remarque :_**une commande est qualifiée si le total est compris entre le total minimum ou maximum de la commande ou s&#39;il correspond à ce total. |
+| [!UICONTROL Maximum Order Total] | Site internet | Montant de commande le plus élevé pouvant être payé par le bon de commande. <br/><br/>**_Remarque :_**&#x200B;une commande est qualifiée si le total est compris entre le total minimum ou maximum de la commande ou s&#39;il correspond à ce total. |
 | [!UICONTROL Sort Order] | Site internet | Nombre qui détermine l&#39;ordre dans lequel le paiement par commande apparaît lorsqu&#39;il est répertorié avec d&#39;autres modes de paiement lors du passage en caisse. Saisissez `0` pour le placer en haut de la liste. |
 
 {style="table-layout:auto"}

@@ -121,7 +121,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Optimis
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Image Adapter] | Global | Indique l’adaptateur utilisé pour effectuer le rendu des images. Après avoir modifié le paramètre de l’adaptateur, videz le cache des images du catalogue. Options : `PHP GD2` / `ImageMagick` <br/><br/>**_Remarque :_**Le type de fichier ICO est pris en charge uniquement par l’adaptateur ImageMagik. |
+| [!UICONTROL Image Adapter] | Global | Indique l’adaptateur utilisé pour effectuer le rendu des images. Après avoir modifié le paramètre de l’adaptateur, videz le cache des images du catalogue. Options : `PHP GD2` / `ImageMagick` <br/><br/>**_Remarque :_**&#x200B;Le type de fichier ICO est pris en charge uniquement par l’adaptateur ImageMagik. |
 
 {style="table-layout:auto"}
 

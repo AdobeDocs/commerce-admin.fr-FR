@@ -26,7 +26,7 @@ Les administrateurs de magasin peuvent afficher le solde et l’historique du cr
 
 1. Dans la colonne _Action_, cliquez sur **[!UICONTROL Edit]**.
 
-1. Faites défiler la page _[!UICONTROL Customer View]_et affichez le **[!UICONTROL Store Credit Balance]**en bas de la page.
+1. Faites défiler la page _[!UICONTROL Customer View]_&#x200B;et affichez le **[!UICONTROL Store Credit Balance]**&#x200B;en bas de la page.
 
 ![Solde du crédit de magasin](assets/store-credit-balance.png){width="600" zoomable="yes"}
 

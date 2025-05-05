@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Paramètres du produit - [!UICONTROL Content]
 
-La section _[!UICONTROL Content]_est utilisée pour saisir et modifier la description principale du produit qui apparaît sur la page du produit. La brève description peut être utilisée dans la plupart des flux RSS et peut également apparaître dans les listes de catalogues, selon [theme](../content-design/themes.md).
+La section _[!UICONTROL Content]_&#x200B;est utilisée pour saisir et modifier la description principale du produit qui apparaît sur la page du produit. La brève description peut être utilisée dans la plupart des flux RSS et peut également apparaître dans les listes de catalogues, selon [theme](../content-design/themes.md).
 
 ## Ajoutez la description du produit dans [!DNL Page Builder].
 
@@ -30,7 +30,7 @@ La section _[!UICONTROL Content]_est utilisée pour saisir et modifier la descri
 
 ## [!DNL Page Builder] preview
 
-Lorsque vous développez la section _[!UICONTROL Content]_d’un produit existant contenant du contenu créé avec [!DNL Page Builder], elle affiche un aperçu du contenu **[!UICONTROL Description]**tel qu’il apparaîtrait dans la page du produit. Ouvrez l’espace de travail [!DNL Page Builder], dans lequel vous pouvez effectuer les mises à jour nécessaires, en cliquant sur **[!UICONTROL Edit with Page Builder]**.
+Lorsque vous développez la section _[!UICONTROL Content]_&#x200B;d’un produit existant contenant du contenu créé avec [!DNL Page Builder], elle affiche un aperçu du contenu **[!UICONTROL Description]**&#x200B;tel qu’il apparaîtrait dans la page du produit. Ouvrez l’espace de travail [!DNL Page Builder], dans lequel vous pouvez effectuer les mises à jour nécessaires, en cliquant sur **[!UICONTROL Edit with Page Builder]**.
 
 ![Aperçu de la description](../page-builder/assets/pb-product-category-content-preview.png){width="600" zoomable="yes"}
 

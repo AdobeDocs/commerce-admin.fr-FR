@@ -19,19 +19,19 @@ Avec la méthode de remise en magasin, le client peut sélectionner une source �
 Pendant le passage en caisse sur le storefront :
 
 1. Le client clique sur **[!UICONTROL Pick In Store]** ou sélectionne la méthode d’expédition _[!UICONTROL In-Store Pickup Delivery]_.
-1. L’onglet de passage en caisse _[!UICONTROL Pick In Store]_s’ouvre.
+1. L’onglet de passage en caisse _[!UICONTROL Pick In Store]_&#x200B;s’ouvre.
 
 Lorsque le client dispose d’une adresse, ou a déjà rempli le formulaire d’adresse de livraison avant de passer à l’onglet _[!UICONTROL Pick In Store]_:
 
 - La source la plus proche de l’adresse du client dans le rayon configuré est automatiquement présélectionnée en tant que magasin de ramassage.
-- Lorsque le client clique sur **[!UICONTROL Select Other]**, le formulaire de recherche _[!UICONTROL Select Store]_s’ouvre. Seuls les magasins situés à la distance configurée (rayon) du magasin présélectionné s’affichent dans la liste. Tous les magasins de la liste sont triés par distance par rapport au magasin présélectionné.
+- Lorsque le client clique sur **[!UICONTROL Select Other]**, le formulaire de recherche _[!UICONTROL Select Store]_&#x200B;s’ouvre. Seuls les magasins situés à la distance configurée (rayon) du magasin présélectionné s’affichent dans la liste. Tous les magasins de la liste sont triés par distance par rapport au magasin présélectionné.
 - Lorsque le client saisit un code postal ou un nom de ville dans le champ de recherche, seuls les magasins situés à la distance (rayon) configurée par rapport à l’emplacement recherché s’affichent dans la liste. Tous les magasins de la liste sont triés par distance par rapport à l’emplacement recherché.
 - Lorsque le client efface le code postal ou le nom de la ville du champ de recherche, tous les magasins de relance affectés aux produits du panier sont affichés au client. Tous les magasins de la liste sont triés dans l’ordre croissant des codes source sans aucune limite de distance (rayon).
 
 Si le client n’a pas d’adresse ou n’a pas rempli précédemment le formulaire d’adresse de livraison avant de passer à l’onglet _[!UICONTROL Pick In Store]_:
 
 - La page affiche le message _Nous n’avons pas pu sélectionner l’emplacement de sélection en fonction des informations disponibles_.
-- Lorsque le client clique sur **[!UICONTROL Select Store]**, le formulaire de recherche _[!UICONTROL Select Store]_s’ouvre.
+- Lorsque le client clique sur **[!UICONTROL Select Store]**, le formulaire de recherche _[!UICONTROL Select Store]_&#x200B;s’ouvre.
 - Tous les magasins de ramassage affectés aux produits dans le panier s’affichent dans l’ordre croissant des codes sources sans limite de distance (rayon).
 - Lorsque le client saisit un code postal ou un nom de ville dans le champ de recherche, seuls les magasins situés à la distance (rayon) configurée par rapport à l’emplacement recherché s’affichent dans la liste. Tous les magasins de la liste sont triés par distance par rapport à l’emplacement recherché.
 

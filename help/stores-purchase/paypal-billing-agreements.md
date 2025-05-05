@@ -26,7 +26,7 @@ Pour simplifier le processus de passage en caisse, les clients peuvent conclure 
 
 ## Gestion des contrats de facturation
 
-La page _[!UICONTROL Billing Agreements]_répertorie tous les contrats de facturation entre votre boutique et ses clients. Les commerçants peuvent filtrer les enregistrements par client ou par informations de contrat de facturation, y compris l’ID de référence du contrat de facturation, l’état et la date de création. Chaque enregistrement contient des informations générales sur le contrat de facturation, ainsi que toutes les commandes client qui l’ont utilisé comme mode de paiement. Vous pouvez afficher, annuler ou supprimer des contrats de facturation client. Un contrat de facturation annulé ne peut être supprimé que par l’administrateur du magasin.
+La page _[!UICONTROL Billing Agreements]_&#x200B;répertorie tous les contrats de facturation entre votre boutique et ses clients. Les commerçants peuvent filtrer les enregistrements par client ou par informations de contrat de facturation, y compris l’ID de référence du contrat de facturation, l’état et la date de création. Chaque enregistrement contient des informations générales sur le contrat de facturation, ainsi que toutes les commandes client qui l’ont utilisé comme mode de paiement. Vous pouvez afficher, annuler ou supprimer des contrats de facturation client. Un contrat de facturation annulé ne peut être supprimé que par l’administrateur du magasin.
 
 ### Afficher un contrat de facturation
 
@@ -34,7 +34,7 @@ La page _[!UICONTROL Billing Agreements]_répertorie tous les contrats de factur
 
 1. Recherchez le contrat de facturation dans la liste et cliquez pour l&#39;ouvrir.
 
-Chaque page du contrat de facturation se compose de deux onglets : _[!UICONTROL General Information]_et_[!UICONTROL Related Orders]_.
+Chaque page du contrat de facturation se compose de deux onglets : _[!UICONTROL General Information]_&#x200B;et&#x200B;_[!UICONTROL Related Orders]_.
 
 #### Informations générales
 

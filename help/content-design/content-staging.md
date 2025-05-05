@@ -27,7 +27,7 @@ Les champs liés à la date de début et à la date de fin ont été supprimés 
 
 Toutes les mises à jour planifiées sont appliquées de manière consécutive, ce qui signifie que toute entité ne peut avoir qu’une seule mise à jour planifiée à la fois. Toute mise à jour planifiée est appliquée à toutes les vues de magasin au cours de sa période. Par conséquent, une entité ne peut pas avoir une mise à jour planifiée différente pour différentes vues de magasin en même temps. Toutes les valeurs d’attribut d’entité dans toutes les vues de magasin, qui ne sont pas affectées par la mise à jour planifiée actuelle, sont extraites des valeurs par défaut, et non de la mise à jour planifiée précédente.
 
-Lorsqu’une nouvelle mise à jour planifiée est créée pour l’un des objets suivants, une campagne correspondante est créée comme espace réservé et la zone de _[!UICONTROL Scheduled Changes]_s’affiche en haut de la page. La campagne d’espace réservé comporte une date de début, mais pas de fin. Vous pouvez planifier des mises à jour du contenu dans le cadre d’une campagne, puis prévisualiser et partager les modifications par date, heure ou vue de magasin. Une fois qu’une nouvelle campagne est créée pour un objet, vous pouvez l’affecter en tant que mise à jour planifiée à d’autres objets.
+Lorsqu’une nouvelle mise à jour planifiée est créée pour l’un des objets suivants, une campagne correspondante est créée comme espace réservé et la zone de _[!UICONTROL Scheduled Changes]_&#x200B;s’affiche en haut de la page. La campagne d’espace réservé comporte une date de début, mais pas de fin. Vous pouvez planifier des mises à jour du contenu dans le cadre d’une campagne, puis prévisualiser et partager les modifications par date, heure ou vue de magasin. Une fois qu’une nouvelle campagne est créée pour un objet, vous pouvez l’affecter en tant que mise à jour planifiée à d’autres objets.
 
 - [Produits](../catalog/product-scheduled-changes.md)
 - [Catégories](../catalog/category-scheduled-changes.md)
@@ -40,7 +40,7 @@ Lorsqu’une nouvelle mise à jour planifiée est créée pour l’un des objets
 
 1. **Créer le contenu de base**
 
-   La ligne de base correspond au contenu d’une ressource sans campagne et inclut tous les éléments situés sous la section _[!UICONTROL Scheduled Changes]_en haut de la page. Le contenu de base est toujours utilisé, sauf s’il existe une campagne active avec des modifications planifiées à cet emplacement sur le journal.
+   La ligne de base correspond au contenu d’une ressource sans campagne et inclut tous les éléments situés sous la section _[!UICONTROL Scheduled Changes]_&#x200B;en haut de la page. Le contenu de base est toujours utilisé, sauf s’il existe une campagne active avec des modifications planifiées à cet emplacement sur le journal.
 
 1. **Créer la première campagne**
 

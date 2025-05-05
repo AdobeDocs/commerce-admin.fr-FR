@@ -76,7 +76,7 @@ Pour modifier les objets de cette campagne, procédez comme suit.
    - Pour afficher une liste, cliquez sur **[!UICONTROL Select]** puis **[!UICONTROL View/Edit]** dans la colonne _[!UICONTROL Action]_.
    - Pour un affichage chronologique, cliquez une fois pour afficher le résumé, puis cliquez sur **[!UICONTROL View/Edit]**.
 
-1. Mettez à jour l’un des paramètres de la section _[!UICONTROL General]_selon vos besoins.
+1. Mettez à jour l’un des paramètres de la section _[!UICONTROL General]_&#x200B;selon vos besoins.
 
 1. Développez ![sélecteur de développement](../assets/icon-display-expand.png) toute section contenant un élément à modifier.
 

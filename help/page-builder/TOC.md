@@ -19,12 +19,12 @@ ht-degree: 4%
 - [Présentation de  [!DNL Page Builder]](introduction.md)
 - [Notes de mise à jour](release-notes.md)
 - [Configuration et configuration](setup.md)
-- {#walkthrough} de présentation
+- de présentation{#walkthrough}
    - [Partie 1 : page simple](1-simple-page.md)
    - [Partie 2 : blocs](2-blocks.md)
    - [Partie 3 : contenu du catalogue](3-catalog-content.md)
 - [Workspace](workspace.md)
-- {#layout} de mise en page
+- de mise en page{#layout}
    - [Lignes](row.md)
    - [Colonnes](column.md)
    - [Onglets](tabs.md)
@@ -34,13 +34,13 @@ ht-degree: 4%
    - [Boutons](buttons.md)
    - [Diviseur](divider.md)
    - [Code HTML](html-code.md)
-- {#media} de médias
+- de médias{#media}
    - [Image](image.md)
    - [Vidéo](video.md)
    - [Bannière](banner.md)
    - [Curseur](slider.md)
    - [Carte](map.md)
-- Ajouter des {#add-content} de contenu
+- Ajouter des de contenu {#add-content}
    - [Bloquer](block.md)
    - [Bloc Dynamique](dynamic-block.md)
    - [Produits](products.md)

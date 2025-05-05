@@ -16,7 +16,7 @@ Les _paramètres d’envoi de courrier_ vous permettent d’acheminer les courri
 
 >[!IMPORTANT]
 >
->**Avis de sécurité** Tous les commerçants doivent immédiatement définir leur configuration d’envoi de courrier afin de se protéger contre un exploit d’exécution de code distant potentiel récemment identifié. Tant que ce problème n’est pas résolu, il est vivement recommandé d’éviter d’utiliser [!DNL Sendmail] pour les communications par courrier électronique. Dans _[!UICONTROL Mail Sending Settings]_, assurez-vous que_[!UICONTROL Set Return Path]_ est défini sur `No`.
+>**Avis de sécurité** Tous les commerçants doivent immédiatement définir leur configuration d’envoi de courrier afin de se protéger contre un exploit d’exécution de code distant potentiel récemment identifié. Tant que ce problème n’est pas résolu, il est vivement recommandé d’éviter d’utiliser [!DNL Sendmail] pour les communications par courrier électronique. Dans _[!UICONTROL Mail Sending Settings]_, assurez-vous que&#x200B;_[!UICONTROL Set Return Path]_ est défini sur `No`.
 
 Pour obtenir la liste détaillée des paramètres de configuration, voir [_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md) dans la _référence de configuration_.
 

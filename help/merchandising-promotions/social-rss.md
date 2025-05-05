@@ -95,7 +95,7 @@ Les sites de réseau social disposent de nombreux modules externes qui peuvent f
 
    - Saisissez un nombre dans le champ **[!UICONTROL Sort Order]** pour déterminer l’ordre du bloc s’il doit apparaître au même emplacement sur la page que les autres éléments de contenu. La position supérieure est zéro.
 
-1. Dans la section _[!UICONTROL Layout Updates]_, cliquez sur **[!UICONTROL Add Layout Update]**et définissez **[!UICONTROL Display On]**sur la catégorie, le produit ou la page où vous souhaitez que le bloc apparaisse.
+1. Dans la section _[!UICONTROL Layout Updates]_, cliquez sur **[!UICONTROL Add Layout Update]**&#x200B;et définissez **[!UICONTROL Display On]**&#x200B;sur la catégorie, le produit ou la page où vous souhaitez que le bloc apparaisse.
 
    Par exemple, si vous choisissez `All Pages` et positionnez le bloc dans l’en-tête ou le pied de page, le bloc apparaît au même endroit sur chaque page du magasin.
 

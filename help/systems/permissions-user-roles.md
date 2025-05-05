@@ -26,7 +26,7 @@ Pour accorder à une personne un accès limité à l’administrateur, la premi�
 
 ### Étape 1 : Ajout du nom du rôle
 
-1. Sous _[!UICONTROL Role Information]_, saisissez un **[!UICONTROL Role Name]**descriptif.
+1. Sous _[!UICONTROL Role Information]_, saisissez un **[!UICONTROL Role Name]**&#x200B;descriptif.
 
 1. Sous _[!UICONTROL Current User Identity Verification]_, saisissez votre mot de passe.
 
@@ -49,9 +49,9 @@ Pour accorder à une personne un accès limité à l’administrateur, la premi�
 
    >[!NOTE]
    >
-   >Les utilisateurs disposant d’une portée de rôle `Custom` ne peuvent pas créer de sites web et de catégories, affecter des produits à des catégories ou modifier des produits dans une portée _[!UICONTROL All Store Views]_lorsqu’ils sont affectés à des boutiques restreintes. Ces utilisateurs ne peuvent pas non plus effectuer d’autres actions_ global _qui affectent les portées auxquelles ils n’ont pas accès.
+   >Les utilisateurs disposant d’une portée de rôle `Custom` ne peuvent pas créer de sites web et de catégories, affecter des produits à des catégories ou modifier des produits dans une portée _[!UICONTROL All Store Views]_&#x200B;lorsqu’ils sont affectés à des boutiques restreintes. Ces utilisateurs ne peuvent pas non plus effectuer d’autres actions_ global _qui affectent les portées auxquelles ils n’ont pas accès.
 
-1. Sous _[!UICONTROL Roles Resources]_, définissez **[!UICONTROL Resource Access]**sur `Custom`.
+1. Sous _[!UICONTROL Roles Resources]_, définissez **[!UICONTROL Resource Access]**&#x200B;sur `Custom`.
 
 1. Dans l’arborescence **[!UICONTROL Resource]**, cochez la case de chaque fonctionnalité d’administration à laquelle le rôle peut accéder.
 
@@ -77,7 +77,7 @@ Pour accorder à une personne un accès limité à l’administrateur, la premi�
 
 1. Dans le panneau de gauche, choisissez **[!UICONTROL Role Users]**.
 
-   L’option _[!UICONTROL Role Users]_ne s’affiche qu’après l’enregistrement d’un nouveau rôle.
+   L’option _[!UICONTROL Role Users]_&#x200B;ne s’affiche qu’après l’enregistrement d’un nouveau rôle.
 
    ![Comptes utilisateur affectés au rôle](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
@@ -152,7 +152,7 @@ L’accès aux ressources suivantes peut être affecté à un rôle personnalis�
 |  | [`User Content`](../merchandising-promotions/product-reviews-moderate.md) | [`All Reviews`](../merchandising-promotions/product-reviews.md) <br/>[`Pending Reviews`](../merchandising-promotions/product-reviews-moderate.md) <br/> |  |
 | [`Content`](../content-design/content-menu.md) | [`Elements`](../content-design/content-menu.md#uicontrol-elements)) | [`Pages`](../content-design/pages.md)<br/>[`Hierarchy`](../content-design/page-hierarchy.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Blocks`](../content-design/blocks.md)<br/>[`Dynamic Blocks`](../content-design/dynamic-blocks.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Widgets`](../content-design/widgets.md)<br/>[`Media Gallery`](../content-design/media-gallery.md) |  |
 |  | [`Design`](../content-design/introduction.md#design) | [`Themes`](../content-design/themes.md)<br/>[`Schedule`](../content-design/schedule.md) |  |
-|  | [ ](../content-design/content-staging.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br /> |  |
+|  | [&#128279;](../content-design/content-staging.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br /> |  |
 | [`Reports`](../getting-started/reports-menu.md) | [`Marketing`](../getting-started/marketing-reports.md) | `Shopping Cart`<br />[`Search Terms`](../catalog/search-terms.md#search-terms-report)<br />`Newsletter Problem Reports` |  |
 |  | [`Reviews`](../getting-started/review-reports.md)<br /> |  |
 |  | [`Sales`](../getting-started/sales-reports.md) |  |

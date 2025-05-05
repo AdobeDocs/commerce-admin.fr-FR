@@ -27,7 +27,7 @@ Le sélecteur de vue de magasin situé dans le coin supérieur gauche de nombreu
 
 ## [!UICONTROL Use system value]
 
-La case à cocher _[!UICONTROL Use System Value]_située à droite de nombreux paramètres de configuration est utilisée pour appliquer ou remplacer la valeur de champ par défaut dans la portée de configuration actuelle. La valeur du champ par défaut ne peut pas être modifiée lorsque la case à cocher est cochée. Pour modifier la valeur, décochez la case et saisissez la nouvelle valeur. Vous êtes invité à confirmer la modification de la valeur système.
+La case à cocher _[!UICONTROL Use System Value]_&#x200B;située à droite de nombreux paramètres de configuration est utilisée pour appliquer ou remplacer la valeur de champ par défaut dans la portée de configuration actuelle. La valeur du champ par défaut ne peut pas être modifiée lorsque la case à cocher est cochée. Pour modifier la valeur, décochez la case et saisissez la nouvelle valeur. Vous êtes invité à confirmer la modification de la valeur système.
 
 Le libellé de la case à cocher change en fonction de la portée actuelle et fait toujours référence au niveau parent qui est une étape de la hiérarchie de la portée. Le niveau parent étant un conteneur pour tous les éléments situés en dessous de ce niveau, le paramètre de portée du niveau parent est hérité, sauf s’il est remplacé.
 

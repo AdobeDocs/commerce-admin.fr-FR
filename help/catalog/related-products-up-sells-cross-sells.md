@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Paramètres du produit - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 
-Utilisez la section _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_pour configurer des blocs promotionnels simples qui présentent une sélection de produits supplémentaires susceptibles d’intéresser le client. Pour plus d’informations, voir [Relations produit](../merchandising-promotions/product-relationships.md).
+Utilisez la section _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_&#x200B;pour configurer des blocs promotionnels simples qui présentent une sélection de produits supplémentaires susceptibles d’intéresser le client. Pour plus d’informations, voir [Relations produit](../merchandising-promotions/product-relationships.md).
 
 ![Produits connexes, ventes incitatives et ventes croisées](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
 
@@ -91,7 +91,7 @@ Les articles de vente croisée sont similaires aux achats impulsifs placés prè
 
 >[!NOTE]
 >
->Pour afficher ou masquer les articles de ventes croisées par affichage de magasin, reportez-vous à l’option [Passer en caisse > Panier](../configuration-reference/sales/checkout.md) appelée _[!UICONTROL Show Cross-sell Items]_dans le panier. Vous pouvez masquer les ventes croisées lors de ventes spécifiques ou pour les tests A/B dans une vue de magasin.
+>Pour afficher ou masquer les articles de ventes croisées par affichage de magasin, reportez-vous à l’option [Passer en caisse > Panier](../configuration-reference/sales/checkout.md) appelée _[!UICONTROL Show Cross-sell Items]_&#x200B;dans le panier. Vous pouvez masquer les ventes croisées lors de ventes spécifiques ou pour les tests A/B dans une vue de magasin.
 
 ![Ventes croisées dans un panier](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
 

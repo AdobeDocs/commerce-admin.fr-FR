@@ -22,7 +22,7 @@ La liste des nouveaux produits est un exemple de contenu dynamique et se compose
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Pour les magasins Adobe Commerce, reportez-vous à la section [Planification d’une mise à jour](content-staging-scheduled-update.md) et passez à l’étape 2 de cette page.
 
-Le paramètre de plage de dates _[!UICONTROL Set Product as New]_ne peut être configuré que dans les mises à jour planifiées.
+Le paramètre de plage de dates _[!UICONTROL Set Product as New]_&#x200B;ne peut être configuré que dans les mises à jour planifiées.
 
 La définition d&#39;un produit comme nouveau ajoute le produit à la liste _Nouveaux produits_. Vous pouvez revenir à ce paramètre lorsque vous ne souhaitez plus l’inclure dans la liste, à tout moment.
 

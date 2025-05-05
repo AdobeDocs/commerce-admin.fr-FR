@@ -16,7 +16,7 @@ Parfois, les clients ont besoin d’aide pour leur commande. Les administrateurs
 
 Toutes les actions entreprises lors de la connexion en tant que client sont appliquées au compte du client réel.
 
-Lorsqu’il est activé pour un utilisateur _Admin_, le bouton _[!UICONTROL Login as Customer]_s’affiche sur plusieurs pages :
+Lorsqu’il est activé pour un utilisateur _Admin_, le bouton _[!UICONTROL Login as Customer]_&#x200B;s’affiche sur plusieurs pages :
 
 * [Page Modifier le client](../customers/update-account.md)
 * [Page Afficher la commande](../stores-purchase/order-processing.md)

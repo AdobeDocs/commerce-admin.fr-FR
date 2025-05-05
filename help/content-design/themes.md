@@ -52,7 +52,7 @@ Le thème réactif `Magento Blank` affiche votre vitrine pour différents appare
 
 1. Recherchez la vue de magasin que vous souhaitez configurer et cliquez sur **[!UICONTROL Edit]** dans la colonne _[!UICONTROL Action]_.
 
-1. Sous _[!UICONTROL Default Theme]_, définissez **[!UICONTROL Applied Theme]**sur celui que vous souhaitez utiliser pour la vue actuelle.
+1. Sous _[!UICONTROL Default Theme]_, définissez **[!UICONTROL Applied Theme]**&#x200B;sur celui que vous souhaitez utiliser pour la vue actuelle.
 
    ![Thème appliqué](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 

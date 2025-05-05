@@ -147,7 +147,7 @@ Le formulaire est mis à jour pour refléter la modification.
 
 1. Pour afficher le produit dans la [liste des nouveaux produits](../content-design/widget-new-products-list.md), cochez la case **[!UICONTROL Set Product as New]** .
 
-1. Pour attribuer _[!UICONTROL Categories]_au produit, cliquez sur la zone **[!UICONTROL Select…]**et effectuez l’une des opérations suivantes :
+1. Pour attribuer _[!UICONTROL Categories]_&#x200B;au produit, cliquez sur la zone **[!UICONTROL Select…]**&#x200B;et effectuez l’une des opérations suivantes :
 
    **Choisissez une catégorie existante** :
 
@@ -178,15 +178,15 @@ Le formulaire est mis à jour pour refléter la modification.
 
 ### Étape 5 : renseigner les informations téléchargeables
 
-Faites défiler l’écran vers le bas, développez ![Sélecteur d’extension](../assets/icon-display-expand.png) de la section _[!UICONTROL Downloadable Information]_et cochez la case **[!UICONTROL Is this downloadable product?]**.
+Faites défiler l’écran vers le bas, développez ![Sélecteur d’extension](../assets/icon-display-expand.png) de la section _[!UICONTROL Downloadable Information]_&#x200B;et cochez la case **[!UICONTROL Is this downloadable product?]**.
 
-Lorsqu’elle est activée, la section _[!UICONTROL Downloadable Information]_comporte deux parties. La première partie décrit chaque lien de téléchargement et la seconde partie décrit chaque fichier d’exemple. La valeur par défaut de la plupart de ces options peut être définie dans la [configuration](#configure-the-download-options).
+Lorsqu’elle est activée, la section _[!UICONTROL Downloadable Information]_&#x200B;comporte deux parties. La première partie décrit chaque lien de téléchargement et la seconde partie décrit chaque fichier d’exemple. La valeur par défaut de la plupart de ces options peut être définie dans la [configuration](#configure-the-download-options).
 
 ![Informations téléchargeables](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 
 #### Remplir les liens
 
-1. Dans la section _[!UICONTROL Links]_, saisissez le **[!UICONTROL Title]**que vous souhaitez utiliser comme en-tête pour les liens de téléchargement.
+1. Dans la section _[!UICONTROL Links]_, saisissez le **[!UICONTROL Title]**&#x200B;que vous souhaitez utiliser comme en-tête pour les liens de téléchargement.
 
 1. Le cas échéant, cochez la case **[!UICONTROL Links can be purchased separately]** .
 
@@ -222,7 +222,7 @@ Lorsqu’elle est activée, la section _[!UICONTROL Downloadable Information]_co
 
 #### Remplissage des exemples
 
-1. Dans la section _[!UICONTROL Samples]_, saisissez le **[!UICONTROL Title]**que vous souhaitez utiliser comme en-tête pour les exemples.
+1. Dans la section _[!UICONTROL Samples]_, saisissez le **[!UICONTROL Title]**&#x200B;que vous souhaitez utiliser comme en-tête pour les exemples.
 
 1. Pour renseigner les informations de chaque échantillon, cliquez sur **[!UICONTROL Add Link]**.
 
@@ -274,7 +274,7 @@ Dans le menu _[!UICONTROL Save]_( ![Flèche de menu](../assets/icon-menu-down-ar
 
 ## Expérience Storefront
 
-Dans le tableau de bord du compte client, la page _[!UICONTROL My Downloadable Products]_pointe vers chaque commande de produits téléchargeables. Les téléchargements deviennent disponibles à partir du compte du client lorsque la commande est terminée.
+Dans le tableau de bord du compte client, la page _[!UICONTROL My Downloadable Products]_&#x200B;pointe vers chaque commande de produits téléchargeables. Les téléchargements deviennent disponibles à partir du compte du client lorsque la commande est terminée.
 
 ![Mes produits téléchargeables](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
 
@@ -288,7 +288,7 @@ Le tableau suivant décrit les valeurs de _Mes produits téléchargeables_ :
 | [!UICONTROL Status] | État du traitement des commandes. |
 | [!UICONTROL Remaining Downloads] | Nombre de téléchargements disponibles du produit téléchargé. |
 
-_**Pour télécharger un fichier de produit à partir du tableau de bord du compte**_
+_&#x200B;**Pour télécharger un fichier de produit à partir du tableau de bord du compte**&#x200B;_
 
 1. Dans le tableau de bord de leur compte, le client choisit **[!UICONTROL My Downloadable Products]**.
 

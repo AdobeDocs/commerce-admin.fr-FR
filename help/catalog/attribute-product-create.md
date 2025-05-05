@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Créer et supprimer des attributs de produit
 
-Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à partir de la page _[!UICONTROL Product Attributes]_. Les étapes suivantes indiquent comment créer des attributs à partir du menu_[!UICONTROL Stores]_.
+Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à partir de la page _[!UICONTROL Product Attributes]_. Les étapes suivantes indiquent comment créer des attributs à partir du menu&#x200B;_[!UICONTROL Stores]_.
 
 ## Étape 1 : décrire les propriétés d’attribut de base
 
@@ -31,7 +31,7 @@ Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à pa
    | `Text Field` | Champ de saisie d’une seule ligne pour le texte. |
    | `Text Area` | Champ de saisie de plusieurs lignes permettant de saisir des paragraphes de texte, tels qu’une description de produit. Vous pouvez utiliser l’éditeur WYSIWYG pour formater le texte avec des balises HTML ou saisir directement les balises dans le texte. |
    | `Text Editor` | Un éditeur de texte entièrement opérationnel à l’emplacement des attributs. |
-   | Date | Affiche une valeur de date au [format préféré](attributes-input-types.md#date-and-time-options) et [fuseau horaire](../getting-started/store-details.md#locale-options). Les valeurs de date peuvent être sélectionnées dans une liste ou un calendrier ( ![icône Calendrier](../assets/icon-calendar.png) ). <br/><br/>**_Remarque :_**selon la configuration de votre système, les utilisateurs_administrateurs _peuvent saisir des dates directement dans un champ ou sélectionner une date dans le calendrier ou la liste. Pour plus d’informations sur la spécification des valeurs de date et d’heure, voir [Options de date et d’heure](attributes-input-types.md#date-and-time-options). |
+   | Date | Affiche une valeur de date au [format préféré](attributes-input-types.md#date-and-time-options) et [fuseau horaire](../getting-started/store-details.md#locale-options). Les valeurs de date peuvent être sélectionnées dans une liste ou un calendrier ( ![icône Calendrier](../assets/icon-calendar.png) ). <br/><br/>**_Remarque :_**&#x200B;selon la configuration de votre système, les utilisateurs_administrateurs _peuvent saisir des dates directement dans un champ ou sélectionner une date dans le calendrier ou la liste. Pour plus d’informations sur la spécification des valeurs de date et d’heure, voir [Options de date et d’heure](attributes-input-types.md#date-and-time-options). |
    | `Yes/No` | Affiche une liste déroulante avec les options prédéfinies de `Yes` et `No`. |
    | `Dropdown` | Affiche une liste déroulante de valeurs qui accepte une seule sélection. Le type d’entrée de liste déroulante est un composant clé des [produits configurables](product-create-configurable.md). |
    | `Multiple Select` | Affiche une liste déroulante de valeurs qui accepte plusieurs sélections. |

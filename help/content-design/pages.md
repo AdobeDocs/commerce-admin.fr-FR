@@ -87,7 +87,7 @@ La configuration _Pages par défaut_ détermine la page d’entrée associée à
 
    >[!NOTE]
    >
-   >Pour une vue de magasin spécifique, décochez la case **[!UICONTROL Use Default]** en regard de _[!UICONTROL Default Web URL]_et tous les autres paramètres par défaut à modifier.
+   >Pour une vue de magasin spécifique, décochez la case **[!UICONTROL Use Default]** en regard de _[!UICONTROL Default Web URL]_&#x200B;et tous les autres paramètres par défaut à modifier.
 
 1. Définissez **[!UICONTROL CMS Home Page]** sur la page CMS à utiliser comme page d’accueil. D’autres pages créées peuvent être utilisées comme page d’accueil, par exemple :
 

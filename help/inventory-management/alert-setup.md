@@ -32,7 +32,7 @@ L’alerte en stock crée un lien appelé _Avertissez-moi lorsque ce produit est
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et sélectionnez **[!UICONTROL Catalog]** sous .
 
-1. Cliquez pour développer la section _[!UICONTROL Product Alerts]_et procédez comme suit :
+1. Cliquez pour développer la section _[!UICONTROL Product Alerts]_&#x200B;et procédez comme suit :
 
    ![Alertes produit](assets/config-catalog-product-alerts.png){width="600" zoomable="yes"}
 

@@ -24,7 +24,7 @@ Par exemple, si vous vendez uniquement aux clients de gros, vous pouvez permettr
 
 ![Les utilisateurs connectés voient la catégorie &quot;Collections&quot;](./assets/storefront-category-permissions-logged-in.png){width="600" zoomable="yes"}
 
-Lorsqu’elle est activée, une nouvelle section _[!UICONTROL Category Permissions]_s’affiche sur la page Catégorie , ce qui vous permet d’appliquer l’accès nécessaire pour chaque catégorie. Vous pouvez ajouter plusieurs règles d’autorisation à chaque catégorie pour différents sites web et groupes de clients.
+Lorsqu’elle est activée, une nouvelle section _[!UICONTROL Category Permissions]_&#x200B;s’affiche sur la page Catégorie , ce qui vous permet d’appliquer l’accès nécessaire pour chaque catégorie. Vous pouvez ajouter plusieurs règles d’autorisation à chaque catégorie pour différents sites web et groupes de clients.
 
 ## Étape 1 : configuration des autorisations de catégorie
 
@@ -74,7 +74,7 @@ Pour **_restreindre l&#39;accès et la redirection vers une landing page_**, pro
 
    >[!NOTE]
    >
-   >Bien que le paramètre _[!UICONTROL Allow Browsing Category]_s’applique à toutes les catégories du site web, vous pouvez configurer une page d’entrée différente pour chaque vue de magasin.
+   >Bien que le paramètre _[!UICONTROL Allow Browsing Category]_&#x200B;s’applique à toutes les catégories du site web, vous pouvez configurer une page d’entrée différente pour chaque vue de magasin.
 
 ### [!UICONTROL Display Product Prices]
 

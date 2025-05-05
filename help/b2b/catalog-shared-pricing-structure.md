@@ -23,7 +23,7 @@ Dans l’arborescence de catégorie standard, la catégorie racine est le conten
 
 1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**
 
-1. Pour le catalogue partagé dans la grille, accédez à la colonne _[!UICONTROL Action]_et cliquez sur **[!UICONTROL Set Pricing and Structure]**.
+1. Pour le catalogue partagé dans la grille, accédez à la colonne _[!UICONTROL Action]_&#x200B;et cliquez sur **[!UICONTROL Set Pricing and Structure]**.
 
    ![Définition de la tarification et de la structure pour le catalogue partagé](./assets/shared-catalog-set-pricing-structure.png){width="700" zoomable="yes"}
 
@@ -69,7 +69,7 @@ Seules les catégories avec des produits sélectionnés apparaissent dans la [na
 
 ## Étape 3 : définition de prix personnalisés
 
-Vous pouvez définir une tarification personnalisée pour chaque produit individuellement ou utiliser le contrôle _[!UICONTROL Action]_pour définir la tarification personnalisée en tant que montant ou pourcentage fixe pour plusieurs enregistrements de produit.
+Vous pouvez définir une tarification personnalisée pour chaque produit individuellement ou utiliser le contrôle _[!UICONTROL Action]_&#x200B;pour définir la tarification personnalisée en tant que montant ou pourcentage fixe pour plusieurs enregistrements de produit.
 
 - **[!UICONTROL Fixed]** : indique le prix final du produit. Par exemple, si vous saisissez un prix fixe de 10,00 $, le prix dans la vitrine de la société correspondante est de 10,00 $.
 
@@ -83,7 +83,7 @@ Vous pouvez définir une tarification personnalisée pour chaque produit individ
 
 - **[!UICONTROL Percentage]** : détermine le prix personnalisé en fonction du pourcentage de remise. Par exemple, pour offrir une remise de 10 %, définissez le type de prix personnalisé sur `Percentage` et saisissez `10`. Le prix personnalisé escompté est 90 % du prix du produit d’origine.
 
-Pour définir la remise sur un montant fixe ou un pourcentage pour les types de produits suivants, utilisez la colonne _[!UICONTROL Custom Price]_de la grille :
+Pour définir la remise sur un montant fixe ou un pourcentage pour les types de produits suivants, utilisez la colonne _[!UICONTROL Custom Price]_&#x200B;de la grille :
 
 - [Simple](../catalog/product-create-simple.md) (y compris les variations de produit configurables)
 - [Bundle](../catalog/product-create-bundle.md)
@@ -105,7 +105,7 @@ La sélection de produits dans la grille ne peut pas être modifiée à partir d
 1. Utilisez l’une des méthodes suivantes pour sélectionner les produits auxquels s’applique la tarification personnalisée.
 
    - Utilisez l’arborescence des catégories pour sélectionner tous les produits d’une catégorie spécifique.
-   - Définissez le contrôle _[!UICONTROL Mass Actions]_dans l’en-tête sur `Select All`.
+   - Définissez le contrôle _[!UICONTROL Mass Actions]_&#x200B;dans l’en-tête sur `Select All`.
    - Cochez la case correspondant aux produits individuels.
 
    La grille affiche les produits des catégories actuellement sélectionnées. Vous pouvez utiliser les commandes standard pour rechercher des produits et filtrer la liste.
@@ -163,4 +163,4 @@ Les instructions suivantes expliquent comment appliquer un niveau de prix à un 
 
 Une fois la tarification personnalisée terminée, cliquez sur **[!UICONTROL Generate Catalog]** puis sur **[!UICONTROL Save]**.
 
-Le catalogue partagé est maintenant enregistré dans la base de données. Son nom apparaît dans la colonne _[!UICONTROL Shared Catalog]_de la grille_[!UICONTROL Products]_. L’étape suivante consiste à [attribuer le catalogue partagé à une entreprise](./catalog-shared-assign-companies.md).
+Le catalogue partagé est maintenant enregistré dans la base de données. Son nom apparaît dans la colonne _[!UICONTROL Shared Catalog]_&#x200B;de la grille&#x200B;_[!UICONTROL Products]_. L’étape suivante consiste à [attribuer le catalogue partagé à une entreprise](./catalog-shared-assign-companies.md).

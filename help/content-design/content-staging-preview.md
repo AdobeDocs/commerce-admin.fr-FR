@@ -26,7 +26,7 @@ Vous pouvez prévisualiser n’importe quel jour ou n’importe quelle période 
 
    - _Depuis n’importe quelle page avec des modifications planifiées_
 
-      - Ouvrez n’importe quelle page avec une zone de _[!UICONTROL Scheduled Changes]_en haut.
+      - Ouvrez n’importe quelle page avec une zone de _[!UICONTROL Scheduled Changes]_&#x200B;en haut.
       - Cliquez sur **[!UICONTROL Preview]**.
 
    La prévisualisation s’ouvre dans un nouvel onglet du navigateur et montre l’aspect du produit pendant la campagne planifiée.

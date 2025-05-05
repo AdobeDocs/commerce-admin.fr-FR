@@ -56,7 +56,7 @@ Lorsque vous travaillez avec le type de contenu _Onglets_, vous ajoutez et modif
 
 ## Ajouter un onglet individuel
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser l’espace réservé&#x200B;**[!UICONTROL Tabs]**directement sur l’étape ou sur une ligne ou une colonne sur l’étape.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser l’espace réservé&#x200B;**[!UICONTROL Tabs]**&#x200B;directement sur l’étape ou sur une ligne ou une colonne sur l’étape.
 
    ![Faire glisser des onglets sur une ligne](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 

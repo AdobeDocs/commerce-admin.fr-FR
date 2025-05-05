@@ -243,7 +243,7 @@ Les sections suivantes décrivent une série d’étapes permettant de commencer
 
 ## Modification des paramètres avancés
 
-Vous pouvez modifier les paramètres _[!UICONTROL Advanced]_de boutons individuels et du conteneur de boutons.
+Vous pouvez modifier les paramètres _[!UICONTROL Advanced]_&#x200B;de boutons individuels et du conteneur de boutons.
 
 1. Pour contrôler le positionnement dans le conteneur parent, choisissez le **[!UICONTROL Alignment]** :
 

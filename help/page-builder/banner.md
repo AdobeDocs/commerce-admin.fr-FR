@@ -50,7 +50,7 @@ La boîte à outils de la bannière s’affiche lorsque vous passez la souris su
 
    ![Faire glisser un type de contenu de bannière vers l’étape](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   Les boutons _[!UICONTROL Upload Image]_et_[!UICONTROL Select from Gallery]_ sont inclus afin que vous puissiez apporter rapidement des modifications au contenu de la bannière directement depuis l’étape. Vous pouvez également modifier le contenu sur la page _[!UICONTROL Edit Banner]_.
+   Les boutons _[!UICONTROL Upload Image]_&#x200B;et&#x200B;_[!UICONTROL Select from Gallery]_ sont inclus afin que vous puissiez apporter rapidement des modifications au contenu de la bannière directement depuis l’étape. Vous pouvez également modifier le contenu sur la page _[!UICONTROL Edit Banner]_.
 
 1. Cliquez sur l’espace réservé de la bannière pour afficher l’ [éditeur de texte](../content-design/editor.md) et saisir le contenu de la bannière.
 
@@ -183,7 +183,7 @@ Si vous définissez le _Type d’arrière-plan_ sur `Image`, utilisez les param�
 
 ### Paramètres de type vidéo
 
-Si vous définissez _[!UICONTROL Background Type]_sur `Video`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
+Si vous définissez _[!UICONTROL Background Type]_&#x200B;sur `Video`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
 
 - **[!UICONTROL Video URL]** - Entrez une URL de vidéo valide. Les URL de vidéo valides peuvent être des liens vers :
 
@@ -223,7 +223,7 @@ Vous pouvez modifier le contenu de la bannière directement sur la scène ou lor
 
 1. Pointez sur le conteneur de bannières pour afficher la boîte à outils et sélectionnez l’icône _Paramètres_ ( ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} ).
 
-1. Faites défiler l’écran jusqu’à la section _[!UICONTROL Content]_et utilisez l’éditeur **[!UICONTROL Message Text]**pour saisir et mettre en forme le texte de bannière.
+1. Faites défiler l’écran jusqu’à la section _[!UICONTROL Content]_&#x200B;et utilisez l’éditeur **[!UICONTROL Message Text]**&#x200B;pour saisir et mettre en forme le texte de bannière.
 
    Vous pouvez également insérer des éléments, tels que des liens de texte, des images et des widgets.
 
@@ -240,7 +240,7 @@ Vous pouvez modifier le contenu de la bannière directement sur la scène ou lor
 
    >[!NOTE]
    >
-   >À compter de la version 2.4.1, [!DNL Page Builder] ne prend plus en charge la liaison de la bannière et des liens dans le texte imbriqué en raison de problèmes d’affichage sur le storefront. Si vous utilisez un lien dans _[!UICONTROL Message Text]_, vous ne pouvez pas configurer l’option_[!UICONTROL Link]_. Si vous préférez utiliser un lien unique pour la bannière entière, vous pouvez supprimer tous les liens du texte.<br/>
+   >À compter de la version 2.4.1, [!DNL Page Builder] ne prend plus en charge la liaison de la bannière et des liens dans le texte imbriqué en raison de problèmes d’affichage sur le storefront. Si vous utilisez un lien dans _[!UICONTROL Message Text]_, vous ne pouvez pas configurer l’option&#x200B;_[!UICONTROL Link]_. Si vous préférez utiliser un lien unique pour la bannière entière, vous pouvez supprimer tous les liens du texte.<br/>
    >
    >![La configuration du lien est bloquée](./assets/pb-nested-link-blocked.png){width="200"}
 

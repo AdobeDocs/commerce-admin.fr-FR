@@ -26,7 +26,7 @@ Chaque site web d’une installation Adobe Commerce ou Magento Open Source compo
 
 Les URL de base de votre magasin ont été initialement configurées lors de votre installation d’Adobe Commerce. Si un certificat de sécurité était disponible à l’époque, vous pouvez spécifier les URL `HTTPS` à utiliser pour le magasin, l’administrateur ou les deux. Si votre installation Adobe Commerce comprend plusieurs magasins ou si vous prévoyez d’ajouter d’autres magasins par la suite, vous pouvez inclure le code de magasin dans l’URL. Toutes les ressources et opérations d’Adobe peuvent être utilisées avec un protocole sécurisé.
 
-Si aucun certificat de sécurité n’était disponible pour le domaine au moment de l’installation, veillez à mettre à jour la configuration avant de lancer votre boutique. Une fois qu’un certificat de sécurité a été établi pour votre domaine, vous pouvez configurer ou les deux URL de base pour qu’elles fonctionnent avec le protocole SSL (Secure Sockets Layer) chiffré et TLS (Transport Layer Security][1]).[
+Si aucun certificat de sécurité n’était disponible pour le domaine au moment de l’installation, veillez à mettre à jour la configuration avant de lancer votre boutique. Une fois qu’un certificat de sécurité a été établi pour votre domaine, vous pouvez configurer ou les deux URL de base pour qu’elles fonctionnent avec le protocole SSL (Secure Sockets Layer) chiffré et TLS (Transport Layer Security&rbrack;[1]).&lbrack;
 
 >[!IMPORTANT]
 >
@@ -50,11 +50,11 @@ Adobe Commerce et Magento Open Source peuvent être configurés par défaut pour
 
    - **[!UICONTROL Base URL for Static View Files]** — (Facultatif) Spécifiez un autre emplacement pour l’URL de base pour les fichiers d’affichage statique en saisissant le chemin d’accès commençant par l’espace réservé suivant :
 
-     \{\{unsecure_base_url}
+     \&lbrace;\{unsecure_base_url}
 
    - **[!UICONTROL Base URL for User Media Files]** — (Facultatif) Spécifiez un autre emplacement pour l’URL de base pour les fichiers multimédias utilisateur en saisissant le chemin commençant par l’espace réservé suivant :
 
-     \{\{unsecure_base_url}
+     \&lbrace;\{unsecure_base_url}
 
      Dans le cas d’une installation standard, il n’est pas nécessaire de mettre à jour les chemins d’accès des fichiers d’affichage statique ou des fichiers multimédias, car ils sont relatifs à l’URL de base.
 
@@ -80,11 +80,11 @@ Si votre domaine dispose d’un certificat de sécurité valide, vous pouvez con
 
    - **[!UICONTROL Secure Base URL for Static View Files]** — (Facultatif) Spécifiez un autre emplacement pour l’URL de base sécurisée pour les fichiers d’affichage statique en saisissant le chemin d’accès commençant par l’espace réservé suivant :
 
-     \{\{secure_base_url}
+     \&lbrace;\{secure_base_url}
 
    - **[!UICONTROL Secure Base URL for User Media Files]** — (Facultatif) Spécifiez un autre emplacement pour l’URL de base sécurisée pour les fichiers multimédias utilisateur en saisissant le chemin commençant par l’espace réservé suivant :
 
-     \{\{secure_base_url}
+     \&lbrace;\{secure_base_url}
 
 1. Pour améliorer la sécurité, définissez les deux options suivantes sur `Yes`.
 
@@ -111,7 +111,7 @@ Si votre domaine dispose d’un certificat de sécurité valide, vous pouvez con
 
 1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Sous _[!UICONTROL General]_dans le panneau de gauche, sélectionnez **[!UICONTROL Web]**.
+1. Sous _[!UICONTROL General]_&#x200B;dans le panneau de gauche, sélectionnez **[!UICONTROL Web]**.
 
 1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL URL Options]** .
 

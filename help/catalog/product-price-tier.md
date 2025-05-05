@@ -56,7 +56,7 @@ Les prix dans la vitrine sont prioritaires de la quantité la plus élevée à l
 
      >[!NOTE]
      >
-     >Pour obtenir le prix escompté, le pourcentage défini est calculé par rapport à la valeur définie dans le champ _[!UICONTROL Price]_, et non par rapport au champ_[!UICONTROL Special Price]_.
+     >Pour obtenir le prix escompté, le pourcentage défini est calculé par rapport à la valeur définie dans le champ _[!UICONTROL Price]_, et non par rapport au champ&#x200B;_[!UICONTROL Special Price]_.
 
      ![Prix de niveau en pourcentage](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 

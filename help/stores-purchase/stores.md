@@ -85,7 +85,7 @@ La première étape consiste à choisir la position du magasin. Les magasins doi
 
 1. Dans la barre latérale _Admin_, cliquez sur **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Sous _[!UICONTROL General]_dans le panneau de gauche, sélectionnez **[!UICONTROL Web]**.
+1. Sous _[!UICONTROL General]_&#x200B;dans le panneau de gauche, sélectionnez **[!UICONTROL Web]**.
 
 1. Dans le coin supérieur gauche, définissez **[!UICONTROL Store View]** sur la vue que vous avez créée pour le nouveau magasin.
 

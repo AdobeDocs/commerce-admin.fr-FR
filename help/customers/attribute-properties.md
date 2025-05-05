@@ -36,7 +36,7 @@ Les attributs du client fournissent les informations nécessaires à la prise en
 
    >[!TIP]
    >
-   >**Raccourci :** Pour remplir uniquement les champs requis, faites défiler l’écran jusqu’à _[!UICONTROL Storefront Properties]_, saisissez le_[!UICONTROL Sort Order]_ et enregistrez.
+   >**Raccourci :** Pour remplir uniquement les champs requis, faites défiler l’écran jusqu’à _[!UICONTROL Storefront Properties]_, saisissez le&#x200B;_[!UICONTROL Sort Order]_ et enregistrez.
 
 1. Renseignez les propriétés de saisie des données :
 
@@ -47,7 +47,7 @@ Les attributs du client fournissent les informations nécessaires à la prise en
      | `Text Field` | Champ de texte d’une seule ligne. |
      | `Text Area` | Champ de saisie multi-lignes permettant de saisir des paragraphes de texte, comme une description de produit. Vous pouvez utiliser l’éditeur WYSIWYG pour mettre en forme le texte avec des balises d’HTML ou saisir les balises directement dans le texte. |
      | `Multiple Line` | Crée plusieurs lignes de texte pour l’attribut, comme une adresse de rue multi-lignes. Le nombre de lignes de saisie de données distinctes peut être compris entre 2 et 20. Utilisez le `Default Value` pour spécifier la valeur initiale du champ. |
-     | `Date` | Affiche une valeur de date dans le format de date et le fuseau horaire de votre choix. Les valeurs de date peuvent être sélectionnées à partir d’une liste ou d’un calendrier ( ![Icône Calendrier](../assets/icon-calendar.png) ). <br/><br/>**_Remarque :_**Selon la configuration de votre système, les utilisateurs de_Admin _peuvent saisir des dates directement dans un champ ou sélectionner une date dans le calendrier ou la liste. Pour plus d&#39;informations sur la spécification des valeurs de date et d&#39;heure, voir [Options de date et d&#39;heure](../catalog/attributes-input-types.md#date-and-time-options). |
+     | `Date` | Affiche une valeur de date dans le format de date et le fuseau horaire de votre choix. Les valeurs de date peuvent être sélectionnées à partir d’une liste ou d’un calendrier ( ![Icône Calendrier](../assets/icon-calendar.png) ). <br/><br/>**_Remarque :_**&#x200B;Selon la configuration de votre système, les utilisateurs de_Admin _peuvent saisir des dates directement dans un champ ou sélectionner une date dans le calendrier ou la liste. Pour plus d&#39;informations sur la spécification des valeurs de date et d&#39;heure, voir [Options de date et d&#39;heure](../catalog/attributes-input-types.md#date-and-time-options). |
      | `Yes/No` | Affiche une liste déroulante avec des options prédéfinies `Yes` et `No`. |
      | `Dropdown` | Affiche une liste déroulante de valeurs qui n’acceptent qu’une seule sélection. Le type d’entrée Liste déroulante est un composant clé de [produits configurables](../catalog/product-create-configurable.md). |
      | `Multiple Select` | Liste déroulante qui accepte plusieurs valeurs à sélectionner. |
@@ -163,7 +163,7 @@ Les attributs du client fournissent les informations nécessaires à la prise en
 | `lastname` | Nom du client. |
 | `suffix` | Tout suffixe utilisé avec le nom du client. (par exemple, Jr., Sr. ou Esquire) |
 | `email` | Adresse électronique du client. |
-| `dob` | Date de naissance du client.  <br><br>**_Important :_**Conformément aux bonnes pratiques actuelles en matière de sécurité et de confidentialité, gardez à l’esprit tous les risques potentiels liés à la sécurité et au stockage de la date de naissance complète des clients (mois, jour, année) avec d’autres identifiants personnels. Il est recommandé de limiter le stockage des dates de naissance complètes des clients et de suggérer d’utiliser l’année de naissance du client comme alternative. |
+| `dob` | Date de naissance du client.  <br><br>**_Important :_**&#x200B;Conformément aux bonnes pratiques actuelles en matière de sécurité et de confidentialité, gardez à l’esprit tous les risques potentiels liés à la sécurité et au stockage de la date de naissance complète des clients (mois, jour, année) avec d’autres identifiants personnels. Il est recommandé de limiter le stockage des dates de naissance complètes des clients et de suggérer d’utiliser l’année de naissance du client comme alternative. |
 | `taxvat` | L’ID de taxe sur la valeur ajoutée (TVA) attribué au client. Le libellé par défaut de cet attribut est `VAT Number`. Le champ Numéro de TVA est toujours présent dans toutes les adresses client d’expédition et de facturation lorsqu’il est affiché à partir de l’administrateur, mais il n’est pas obligatoire. |
 | `gender` | Genre du client. |
 

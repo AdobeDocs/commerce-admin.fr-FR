@@ -17,7 +17,7 @@ Créez un contenu riche et interactif piloté par la logique des [règles de pri
 
 >[!NOTE]
 >
->L’option _[!UICONTROL Banner]_du menu [[!UICONTROL Content]](content-menu.md) a été abandonnée dans la version 2.3.1 et supprimée dans la version 2.4.0. Sa fonctionnalité est remplacée par des blocs dynamiques.
+>L’option _[!UICONTROL Banner]_&#x200B;du menu [[!UICONTROL Content]](content-menu.md) a été abandonnée dans la version 2.3.1 et supprimée dans la version 2.4.0. Sa fonctionnalité est remplacée par des blocs dynamiques.
 
 ![[!DNL Page Builder] - bloc dynamique avec règle de prix et segment client](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 

@@ -35,7 +35,7 @@ Accédez à [Braintree Payments][1] et inscrivez-vous à un compte.
 
    - Si votre installation Commerce comporte plusieurs sites Web, magasins ou vues, dans le coin supérieur gauche, choisissez l’emplacement **[!UICONTROL Store View]** où la configuration s’applique.
 
-   - Dans la _[!UICONTROL Merchant Location]_section, vérifiez que **[!UICONTROL Merchant Country]**est définie sur l’emplacement de votre entreprise.
+   - Dans la _[!UICONTROL Merchant Location]_&#x200B;section, vérifiez que **[!UICONTROL Merchant Country]**&#x200B;est définie sur l’emplacement de votre entreprise.
 
 1. Sous _[!UICONTROL Recommended Solutions]_, dans la_[!UICONTROL Braintree Payments] section (par [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [Notes](https://support.gene.co.uk/support/solutions/articles/35000278668)_de mise à jour), cliquez sur **[!UICONTROL Configure]**.
 
@@ -132,7 +132,7 @@ Accédez à [Braintree Payments][1] et inscrivez-vous à un compte.
 1. Définissez **[!UICONTROL Payment from Applicable Countries]** sur l’une des options suivantes :
 
    - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans la configuration de votre boutique peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Payment from Specific Countries]_s’affiche. Maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et sélectionnez chaque pays dans la liste où les clients peuvent effectuer des achats dans votre boutique.
+   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Payment from Specific Countries]_&#x200B;s’affiche. Maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et sélectionnez chaque pays dans la liste où les clients peuvent effectuer des achats dans votre boutique.
 
    ![Paramètres spécifiques au pays](../configuration-reference/sales/assets/payment-methods-braintree-country-specific-config.png){width="600" zoomable="yes"}
 
@@ -251,7 +251,7 @@ Accédez à [Braintree Payments][1] et inscrivez-vous à un compte.
 
      >[!NOTE]
      >
-     >PayPal Credit est disponible uniquement aux États-Unis et au Royaume-Uni. Le crédit PayPal est désactivé si la valeur sélectionnée pour le champ _[!UICONTROL Merchant Country]_n&#39;est pas `US` ou `UK`.
+     >PayPal Credit est disponible uniquement aux États-Unis et au Royaume-Uni. Le crédit PayPal est désactivé si la valeur sélectionnée pour le champ _[!UICONTROL Merchant Country]_&#x200B;n&#39;est pas `US` ou `UK`.
 
    - Pour inclure le [!DNL PayPal PayLater] en tant qu’option de paiement avec Braintree, définissez **[!UICONTROL Enable PayPal PayLater through Braintree]** sur `Yes`.
 
@@ -267,7 +267,7 @@ Accédez à [Braintree Payments][1] et inscrivez-vous à un compte.
 
 1. Par **[!UICONTROL Sort Order]**, saisissez un nombre pour déterminer l&#39;ordre dans lequel l&#39;option de paiement Braintree PayPal apparaît lorsqu&#39;elle est répertoriée avec d&#39;autres options de paiement lors du passage en caisse.
 
-1. Pour afficher le nom de votre marchand différemment de ce qui est défini dans la configuration](../getting-started/store-details.md#store-information) de votre [magasin, entrez le nom dans le **[!UICONTROL Override Merchant Name]** champ tel que vous souhaitez qu’il apparaisse.
+1. Pour afficher le nom de votre marchand différemment de ce qui est défini dans la configuration[&#128279;](../getting-started/store-details.md#store-information) de votre magasin, entrez le nom dans le **[!UICONTROL Override Merchant Name]** champ tel que vous souhaitez qu’il apparaisse.
 
 1. Définissez **[!UICONTROL Payment Action]** l’une des valeurs suivantes :
 
@@ -276,8 +276,8 @@ Accédez à [Braintree Payments][1] et inscrivez-vous à un compte.
 
 1. Définissez **[!UICONTROL Payment from Applicable Countries]** sur l&#39;une des valeurs suivantes pour les transactions Braintree traitées par PayPal :
 
-   - `All Allowed Countries`- Les clients de tous les pays](../getting-started/store-details.md#country-options) spécifiés dans la [configuration de votre magasin peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Après avoir choisi cette option, la _[!UICONTROL Payment from Specific Countries]_liste apparaît. Maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et sélectionnez chaque pays dans la liste où les clients peuvent effectuer des achats dans votre boutique.
+   - `All Allowed Countries`- Les clients de tous les pays[&#128279;](../getting-started/store-details.md#country-options) spécifiés dans la configuration de votre magasin peuvent utiliser ce mode de paiement.
+   - `Specific Countries` - Après avoir choisi cette option, la _[!UICONTROL Payment from Specific Countries]_&#x200B;liste apparaît. Maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et sélectionnez chaque pays dans la liste où les clients peuvent effectuer des achats dans votre boutique.
 
    ![PayPal via les paramètres Braintree 2](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
 
@@ -398,7 +398,7 @@ Lorsque ces options sont définies, vous pouvez voir l&#39;aperçu des boutons P
 4. Définissez **[!UICONTROL Verify for Applicable Countries]** sur l’une des options suivantes :
 
    - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans la configuration de votre boutique peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Verify for Specific Countries]_s’affiche. Maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et sélectionnez chaque pays dans la liste où les clients peuvent effectuer des achats dans votre boutique.
+   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Verify for Specific Countries]_&#x200B;s’affiche. Maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et sélectionnez chaque pays dans la liste où les clients peuvent effectuer des achats dans votre boutique.
 
    Paramètres de vérification ![3D](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
 

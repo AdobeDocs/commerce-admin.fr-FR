@@ -40,13 +40,13 @@ ht-degree: 0%
 >
 >À partir de la version 2.4.5, l’intégration des services Google est mise à jour afin de prendre en charge l’utilisation des API GTag. GTag est un mécanisme unifié d’intégration de la fonctionnalité Google pour les pages web. Il prend en charge les fonctionnalités et opportunités les plus récentes pour le suivi et la gestion du contenu via les services Google. Pour plus d’informations, consultez la [documentation destinée aux développeurs de Google Analytics](https://developers.google.com/analytics/devguides/collection/gtagjs).
 
-## Note de saut automatique de réécriture d&#39;URL {#url-rewrite-skip}
+## Note de saut automatique de réécriture d'URL {#url-rewrite-skip}
 
 >[!NOTE]
 >
 >Lorsque les redirections automatiques sont activées et que vous enregistrez une catégorie, toutes les réécritures de produit et de catégorie sont générées en temps réel et stockées dans des tables de réécriture par défaut. Ce processus peut entraîner des problèmes de performances importants pour les catégories comportant de nombreux produits attribués. La solution consiste à modifier cette valeur par défaut et à ignorer la génération de réécritures d’URL de catégorie/produits pour l’enregistrement de catégorie. Dans ce cas, les réécritures de produit ne sont générées que pour l’URL de produit canonique. Pour plus d’informations, consultez [Redirections automatiques de produits](/help/merchandising-promotions/url-redirect-product-automatic.md).
 
-## Remarque sur les paramètres de réécriture d&#39;URL {#url-rewrite-params}
+## Remarque sur les paramètres de réécriture d'URL {#url-rewrite-params}
 
 >[!IMPORTANT]
 >
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## Paramètres de configuration {#config}
 
-Pour accéder aux paramètres de configuration du magasin, sélectionnez **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**dans la barre latérale_ Admin _.
+Pour accéder aux paramètres de configuration du magasin, sélectionnez **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;dans la barre latérale_ Admin _.
 
 ## Obsolescence de l’API UPS {#ups-api}
 

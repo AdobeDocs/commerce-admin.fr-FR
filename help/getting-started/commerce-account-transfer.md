@@ -54,7 +54,7 @@ Ce type de transfert nécessite de créer d’abord une Adobe ID associée, puis
 
 1. Cliquez sur **[!UICONTROL Continue]**.
 
-   Vous créez ainsi une Adobe ID que vous liez au compte Commerce courant (MAGEID). Avec ce lien de compte, le champ _[!UICONTROL Email]_est bloqué de toute modification. L’adresse e-mail associée est gérée par le compte Adobe ID.
+   Vous créez ainsi une Adobe ID que vous liez au compte Commerce courant (MAGEID). Avec ce lien de compte, le champ _[!UICONTROL Email]_&#x200B;est bloqué de toute modification. L’adresse e-mail associée est gérée par le compte Adobe ID.
 
 1. Accédez à [account.adobe.com](https://account.adobe.com/).
 

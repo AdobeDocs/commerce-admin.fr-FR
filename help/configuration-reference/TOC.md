@@ -17,7 +17,7 @@ ht-degree: 1%
 
 - [Référence de configuration](guide-overview.md)
 - [Portée de la configuration](scope-change.md)
-- {#general} générale
+- générale{#general}
    - [Général](./general/general.md)
    - [Fonctionnalités B2B](./general/b2b-features.md)
    - [Web](./general/web.md)
@@ -28,19 +28,19 @@ ht-degree: 1%
    - [Gestion de contenu](./general/content-management.md)
    - [Création de rapports New Relic](./general/new-relic-reporting.md)
    - [Rapports avancés](./general/advanced-reporting.md)
-- {#catalog} de catalogue
+- de catalogue{#catalog}
    - [Catalogue](./catalog/catalog.md)
    - [Marchandiseur visuel](./catalog/visual-merchandiser.md)
    - [Inventaire](./catalog/inventory.md)
    - [Plan de site XML](./catalog/xml-sitemap.md)
    - [Flux RSS](./catalog/rss-feeds.md)
    - [Envoyer par e-mail à un ami](./catalog/email-to-a-friend.md)
-- {#security} de sécurité
+- de sécurité{#security}
    - [2FA](./security/2fa.md)
    - [Panneau d’administration reCAPTCHA de Google](./security/google-recaptcha-admin.md)
    - [Storefront reCAPTCHA de Google](./security/google-recaptcha-storefront.md)
    - [Security.txt](./security/security-txt.md)
-- {#customers} des clients
+- des clients{#customers}
    - [Se connecter en tant que client](./customers/login-as-customer.md)
    - [Newsletter](./customers/newsletter.md)
    - [Configuration de l’entreprise](./customers/company-configuration.md)
@@ -52,7 +52,7 @@ ht-degree: 1%
    - [Promotions](./customers/promotions.md)
    - [Registre Des Cadeaux](./customers/gift-registry.md)
    - [Panier persistant](./customers/persistent-shopping-cart.md)
-- {#sales} de vente
+- de vente{#sales}
    - [Ventes](./sales/sales.md)
    - [E-mails commerciaux](./sales/sales-emails.md)
    - [Citations](./sales/quotes.md)
@@ -76,11 +76,11 @@ ht-degree: 1%
       - [PayPal Payflow Pro](./sales/paypal-payflow-pro.md)
       - [Lien de flux de paiement PayPal](./sales/paypal-payflow-link.md)
 - [Canaux de vente](./sales-channels.md)
-- {#services} des services
+- des services{#services}
    - [API web](./services/magento-web-api.md)
    - [Services Commerce](./services/saas.md)
    - [OAuth](./services/oauth.md)
-- {#advanced} avancés
+- avancés{#advanced}
    - [Admin](./advanced/admin.md)
    - [Système](./advanced/system.md)
    - [Développeur](./advanced/developer.md)

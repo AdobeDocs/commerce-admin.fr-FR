@@ -60,7 +60,7 @@ Si plusieurs règles de prix sont exécutées dans la même campagne, le paramè
 
    >[!NOTE]
    >
-   >Si vous changez en l’un des paramètres d’informations de règle, assurez-vous que le _[!UICONTROL Status]_est correctement défini. Si vous souhaitez que la modification entraîne une règle appliquée activement, l’état doit être`Active`.
+   >Si vous changez en l’un des paramètres d’informations de règle, assurez-vous que le _[!UICONTROL Status]_&#x200B;est correctement défini. Si vous souhaitez que la modification entraîne une règle appliquée activement, l’état doit être`Active`.
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
 
@@ -114,4 +114,4 @@ Si plusieurs règles de prix sont exécutées dans la même campagne, le paramè
 
    Pour afficher les modifications planifiées pour différentes vues de magasin, cliquez sur **[!UICONTROL Scope]** dans l’en-tête de la page Aperçu. Sélectionnez la vue de site web, de magasin ou de magasin que vous souhaitez prévisualiser.
 
-1. Si nécessaire, revenez au calendrier et cliquez sur **[!UICONTROL View/Edit]** dans la colonne _[!UICONTROL Action]_pour ouvrir une autre mise à jour planifiée.
+1. Si nécessaire, revenez au calendrier et cliquez sur **[!UICONTROL View/Edit]** dans la colonne _[!UICONTROL Action]_&#x200B;pour ouvrir une autre mise à jour planifiée.

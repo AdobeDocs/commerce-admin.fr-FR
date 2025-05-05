@@ -164,7 +164,7 @@ Le solde des points de récompense peut être mis à jour à partir de l’admin
 
 1. Cliquez sur **[!UICONTROL Save Customer]**.
 
-Toutes les actions liées aux points de récompense sont affichées dans le bloc _[!UICONTROL Reward Points History]_du client dans son compte sur le storefront.
+Toutes les actions liées aux points de récompense sont affichées dans le bloc _[!UICONTROL Reward Points History]_&#x200B;du client dans son compte sur le storefront.
 
 ## Descriptions des champs
 

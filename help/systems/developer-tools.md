@@ -246,7 +246,7 @@ Si votre boutique est disponible dans plusieurs langues, vous pouvez effectuer d
 
    Décochez la case **[!UICONTROL Use Website]** si nécessaire pour modifier ces paramètres.
 
-   L’option _[!UICONTROL Enabled for Admin]_n’est pas disponible lors de la modification d’une vue de magasin spécifique.
+   L’option _[!UICONTROL Enabled for Admin]_&#x200B;n’est pas disponible lors de la modification d’une vue de magasin spécifique.
 
    ![Configuration avancée - traduire en ligne](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 

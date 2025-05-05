@@ -77,7 +77,7 @@ La clé provient de la [plateforme Google Maps][1] et doit avoir l’ [API Geoco
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et choisissez **[!UICONTROL Inventory]**.
 
-1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) de la section _[!UICONTROL Distance Provider for Distance Based SSA]_et définissez **[!UICONTROL Provider]**sur `Google MAP`.
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) de la section _[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;et définissez **[!UICONTROL Provider]**&#x200B;sur `Google MAP`.
 
    ![Fournisseurs pour SSA basée sur les distances](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 

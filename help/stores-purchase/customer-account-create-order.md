@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Création d’une commande
 
-Pour les clients enregistrés qui ont besoin d’aide, vous pouvez créer une commande entière directement à partir de l’administrateur. Le formulaire _[!UICONTROL Create New Order]_contient toutes les informations nécessaires au processus de passage en caisse normal, avec des résumés des activités du tableau de bord du compte du client.
+Pour les clients enregistrés qui ont besoin d’aide, vous pouvez créer une commande entière directement à partir de l’administrateur. Le formulaire _[!UICONTROL Create New Order]_&#x200B;contient toutes les informations nécessaires au processus de passage en caisse normal, avec des résumés des activités du tableau de bord du compte du client.
 
 ![Créer une commande pour un client](./assets/create-new-order.png){width="700" zoomable="yes"}
 

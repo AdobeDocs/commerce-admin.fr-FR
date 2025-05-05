@@ -126,11 +126,11 @@ Inventory management 1.2.4 (version de module : `magento/inventory-metapackage =
 
 ![Correction d’un problème ](../assets/fix.svg) La gestion du stock qui dépasse 10 000 articles a été améliorée. Auparavant, les problèmes de performances empêchaient parfois les commerçants de modifier le stock dans l’administrateur avant de lancer leur site web. <!--- MC-42643-->
 
-![ Correction d’un problème ](../assets/fix.svg) La page **[!UICONTROL User Roles]** de l’administrateur est mise à jour afin de fournir aux administrateurs des autorisations restreintes d’accès à la configuration des méthodes de diffusion. La section _Méthodes d’expédition_ a été renommée _[!UICONTROL Delivery methods]_et_[!UICONTROL In-Store Pickup]_ est déplacé sous la section _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![ Correction d’un problème ](../assets/fix.svg) La page **[!UICONTROL User Roles]** de l’administrateur est mise à jour afin de fournir aux administrateurs des autorisations restreintes d’accès à la configuration des méthodes de diffusion. La section _Méthodes d’expédition_ a été renommée _[!UICONTROL Delivery methods]_&#x200B;et&#x200B;_[!UICONTROL In-Store Pickup]_ est déplacé sous la section _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![ Problème corrigé ](../assets/fix.svg) Adobe Commerce ne crée plus de réservation de produit en double après la mise à jour d’une note de crédit par l’API. <!--- MC-41757-->
 
-![ Correction d’un problème ](../assets/fix.svg) Le passage de l’onglet _[!UICONTROL Pick up in Store]_à l’onglet_[!UICONTROL Shipping]_ dans le workflow de passage en caisse ne déclenche plus d’erreur JavaScript lorsque seule la livraison de la prise en charge en magasin est disponible. <!--- MC-42808-->
+![ Correction d’un problème ](../assets/fix.svg) Le passage de l’onglet _[!UICONTROL Pick up in Store]_&#x200B;à l’onglet&#x200B;_[!UICONTROL Shipping]_ dans le workflow de passage en caisse ne déclenche plus d’erreur JavaScript lorsque seule la livraison de la prise en charge en magasin est disponible. <!--- MC-42808-->
 
 ![Problème corrigé](../assets/fix.svg) La quantité de produits vendables et la quantité de produits en stock sont désormais synchronisées correctement. Auparavant, la compensation des réservations de stock n’était pas recréée pour les commandes annulées. <!--- MC-42485-->
 

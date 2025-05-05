@@ -26,7 +26,7 @@ Le panneau de recherche Adobe Stock est accessible lorsque vous [ajoutez ou modi
 
 1. Cliquez sur **[!UICONTROL Add a New Page]**.
 
-   Si vous souhaitez modifier une page existante, vous pouvez utiliser la colonne _[!UICONTROL Action]_pour cliquer sur **[!UICONTROL Select]**et choisir **[!UICONTROL Edit]**.
+   Si vous souhaitez modifier une page existante, vous pouvez utiliser la colonne _[!UICONTROL Action]_&#x200B;pour cliquer sur **[!UICONTROL Select]**&#x200B;et choisir **[!UICONTROL Edit]**.
 
 1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) de **[!UICONTROL Content]** et procédez comme suit :
 

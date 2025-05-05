@@ -18,7 +18,7 @@ L’archivage des commandes améliore régulièrement les performances et évite
 
 >[!NOTE]
 >
->L’option _[!UICONTROL Archive]_apparaît dans le menu [[!UICONTROL Sales] ](sales-menu.md) uniquement lorsque l’archivage est [activé](../configuration-reference/sales/sales.md).
+>L’option _[!UICONTROL Archive]_&#x200B;apparaît dans le menu [[!UICONTROL Sales] ](sales-menu.md) uniquement lorsque l’archivage est [activé](../configuration-reference/sales/sales.md).
 
 ## Configuration de l’archive de commande
 
@@ -52,7 +52,7 @@ Votre boutique peut être configurée pour archiver des commandes, des factures,
 
 ## Affichage des documents archivés
 
-1. Dans le menu _[!UICONTROL Sales]_sous_[!UICONTROL Archive]_, sélectionnez l’une des options suivantes :
+1. Dans le menu _[!UICONTROL Sales]_&#x200B;sous&#x200B;_[!UICONTROL Archive]_, sélectionnez l’une des options suivantes :
 
    - **[!UICONTROL Orders]**
    - **[!UICONTROL Invoices]**
@@ -111,7 +111,7 @@ Sélectionnez chaque document pour être la cible de l’action et choisissez l�
 
 1. Cliquez sur **[!UICONTROL Export]**.
 
-Votre boutique peut être configurée pour archiver des commandes, des factures, des envois et des notes de crédit après un nombre défini de jours. Vous pouvez déplacer les commandes et les documents associés dans l’archive ou les restaurer à leur état précédent. Les commandes archivées ne sont pas supprimées et restent disponibles auprès de l’administrateur. Les données archivées peuvent être exportées dans un fichier CSV et ouvertes dans une feuille de calcul. Lorsque cette option est activée, la commande _[!UICONTROL Archive]_s’affiche en haut de l’espace de travail.
+Votre boutique peut être configurée pour archiver des commandes, des factures, des envois et des notes de crédit après un nombre défini de jours. Vous pouvez déplacer les commandes et les documents associés dans l’archive ou les restaurer à leur état précédent. Les commandes archivées ne sont pas supprimées et restent disponibles auprès de l’administrateur. Les données archivées peuvent être exportées dans un fichier CSV et ouvertes dans une feuille de calcul. Lorsque cette option est activée, la commande _[!UICONTROL Archive]_&#x200B;s’affiche en haut de l’espace de travail.
 
 ## Archivage manuel des commandes
 
@@ -137,7 +137,7 @@ Votre boutique peut être configurée pour archiver des commandes, des factures,
 
    >[!NOTE]
    >
-   >Comme la page Commandes, le titre de la page des commandes archivées est _[!UICONTROL Orders]_. La seule différence notable est l’option de la barre de boutons sur_[!UICONTROL Return to Orders Management]_. L’URL de la page indique également que vous vous trouvez dans l’archive de commande.
+   >Comme la page Commandes, le titre de la page des commandes archivées est _[!UICONTROL Orders]_. La seule différence notable est l’option de la barre de boutons sur&#x200B;_[!UICONTROL Return to Orders Management]_. L’URL de la page indique également que vous vous trouvez dans l’archive de commande.
 
 1. Dans la colonne _Action_, cliquez sur **[!UICONTROL View]**.
 

@@ -17,37 +17,37 @@ ht-degree: 1%
 
 + [Guide de prise en main d’Adobe Commerce Admin](guide-overview.md)
 + [Identifiants de connexion et URL](login-urls.md)
-+ {#commerce-account} des comptes Commerce
++ des comptes Commerce{#commerce-account}
    + [Créer votre compte et y accéder](commerce-account-create.md)
    + [Sécuriser votre compte](commerce-account-secure.md)
    + [Partager votre compte](commerce-account-share.md)
    + [Transfert d’un compte](commerce-account-transfer.md)
-+ {#compliance} de conformité du site
++ de conformité du site{#compliance}
    + Préparation du HIPAA pour Adobe Commerce{#hipaa-ready-service}
       + [Vue d’ensemble](hipaa/overview.md)
       + [Orientations opérationnelles](hipaa/operations.md)
-   + {#privacy} de confidentialité
+   + de confidentialité{#privacy}
       + [Politique de confidentialité de la boutique](privacy-policy.md)
       + [Conformité au CCPA](compliance-ccpa.md)
       + [Conformité au RGPD](compliance-gdpr.md)
       + [Conformité à la loi sur les cookies](compliance-cookie-law.md)
-   + {#payments} des paiements
+   + des paiements{#payments}
       + [Conformité PCI](compliance-pci.md)
       + [Directive sur les services de paiement](compliance-payment-services-directive.md)
    + [Accessibilité](navigation-accessibility.md)
 + Admin {#admin}
    + [Qu’est-ce que l’administrateur ?](admin.md)
    + [Votre compte utilisateur d’administrateur](admin-signin.md)
-   + {#ims} d’intégration du service Adobe Identity Management (IMS)
+   + d’intégration du service Adobe Identity Management (IMS){#ims}
       + [Présentation de l’intégration IMS](adobe-ims-integration-overview.md)
       + [Configuration de l’intégration Admin avec IMS](adobe-ims-config.md)
       + [Désactiver l’intégration administrateur avec IMS](adobe-ims-disable.md)
-   + {#unifiedexperience} d’intégration de Adobe Experience Cloud
+   + d’intégration de Adobe Experience Cloud{#unifiedexperience}
       + [Vue d’ensemble](admin-unified-experience-integration-overview.md)
       + [Configuration de l’intégration](admin-unified-experience-integration-configure.md)
       + [Gestion de l’intégration Experience Cloud](admin-unified-experience-integration-manage.md)
       + [Notes de mise à jour](admin-unified-experience-release-notes.md)
-   + Outils d’administration et {#tools} de l’espace de travail
+   + Outils d’administration et de l’espace de travail {#tools}
       + [Workspace](admin-workspace.md)
       + [Barre latérale d’administration](admin-menu.md)
       + [Tableau de bord](admin-dashboard.md)
@@ -57,12 +57,12 @@ ht-degree: 1%
 + Le storefront {#storefront}
    + [Quelle est la devanture ?](storefront.md)
    + [Expériences de magasin améliorées](enhanced-experiences.md)
-+ Configuration de base et {#setup} de configuration
++ Configuration de base et de configuration {#setup}
    + [Site, magasin et portée d’affichage](websites-stores-views.md)
    + [Détails de la boutique](store-details.md)
    + [Image de marque de Storefront](storefront-branding.md)
    + [Liste de contrôle de prélancement](prelaunch-checklist.md)
-+ {#reporting} de création de rapports standard
++ de création de rapports standard{#reporting}
    + [Menu Rapports](reports-menu.md)
    + [Rapports marketing](marketing-reports.md)
    + [Consulter les rapports](review-reports.md)
@@ -72,7 +72,7 @@ ht-degree: 1%
    + [Rapports de ventes privées](private-sales-reports.md)
    + [Outils Commerce Intelligence](business-intelligence.md)
    + [Création de rapports New Relic](new-relic-reporting.md)
-+ {#resources} des ressources
++ des ressources{#resources}
    + [Écosystème](resources.md)
    + [Extensions](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)

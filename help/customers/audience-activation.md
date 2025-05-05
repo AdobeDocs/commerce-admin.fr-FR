@@ -52,7 +52,7 @@ _30 mai 2023_
 
 ### 2.4.0
 
-[!BADGE Compatibilité ]{type=Informative tooltip="Compatibilité"}
+[!BADGE Compatibilité &#x200B;]{type=Informative tooltip="Compatibilité"}
 
 _24 mars 2025_
 
@@ -60,7 +60,7 @@ _24 mars 2025_
 
 ### 2.3.1
 
-[!BADGE Compatibilité ]{type=Informative tooltip="Compatibilité"}
+[!BADGE Compatibilité &#x200B;]{type=Informative tooltip="Compatibilité"}
 
 _12 novembre 2024_
 
@@ -68,7 +68,7 @@ _12 novembre 2024_
 
 ### 2.3.0
 
-[!BADGE Compatibilité ]{type=Informative tooltip="Compatibilité"}
+[!BADGE Compatibilité &#x200B;]{type=Informative tooltip="Compatibilité"}
 
 _29 juillet 2024_
 
@@ -76,7 +76,7 @@ _29 juillet 2024_
 
 ### 2.2.0
 
-[!BADGE Compatibilité ]{type=Informative tooltip="Compatibilité"}
+[!BADGE Compatibilité &#x200B;]{type=Informative tooltip="Compatibilité"}
 
 _12 juin 2024_
 
@@ -84,7 +84,7 @@ _12 juin 2024_
 
 ### 2.1.1
 
-[!BADGE Compatibilité ]{type=Informative tooltip="Compatibilité"}
+[!BADGE Compatibilité &#x200B;]{type=Informative tooltip="Compatibilité"}
 
 _4 avril 2024_
 
@@ -92,7 +92,7 @@ _4 avril 2024_
 
 ### 2.2.0-beta1
 
-[!BADGE Compatibilité ]{type=Informative tooltip="Compatibilité"}
+[!BADGE Compatibilité &#x200B;]{type=Informative tooltip="Compatibilité"}
 
 _16 février 2024_
 
@@ -101,7 +101,7 @@ _16 février 2024_
 
 ### 2.1.0
 
-[!BADGE Compatibilité ]{type=Informative tooltip="Compatibilité"}
+[!BADGE Compatibilité &#x200B;]{type=Informative tooltip="Compatibilité"}
 
 _24 janvier 2024_
 
@@ -109,7 +109,7 @@ _24 janvier 2024_
 
 ### 2.0.1
 
-[!BADGE Compatibilité ]{type=Informative tooltip="Compatibilité"}
+[!BADGE Compatibilité &#x200B;]{type=Informative tooltip="Compatibilité"}
 
 _16 novembre 2023_
 
@@ -117,7 +117,7 @@ _16 novembre 2023_
 
 ### 2.0.0
 
-[!BADGE Compatibilité ]{type=Informative tooltip="Compatibilité"}
+[!BADGE Compatibilité &#x200B;]{type=Informative tooltip="Compatibilité"}
 
 _10 octobre 2023_
 
@@ -126,7 +126,7 @@ _10 octobre 2023_
 
 ### 1.2.0
 
-[!BADGE Compatibilité ]{type=Informative tooltip="Compatibilité"}
+[!BADGE Compatibilité &#x200B;]{type=Informative tooltip="Compatibilité"}
 
 _15 août 2023_
 
@@ -136,7 +136,7 @@ _15 août 2023_
 
 _30 mai 2023_
 
-[!BADGE Compatibilité ]{type=Informative tooltip="Compatibilité"}
+[!BADGE Compatibilité &#x200B;]{type=Informative tooltip="Compatibilité"}
 
 ![Nouveau](../assets/new.svg) - Ajout de la prise en charge des [blocs dynamiques](#headless-support) dans un storefront découplé.
 
@@ -144,7 +144,7 @@ _30 mai 2023_
 
 _1 mai 2023_
 
-[!BADGE Compatibilité ]{type=Informative tooltip="Compatibilité"}
+[!BADGE Compatibilité &#x200B;]{type=Informative tooltip="Compatibilité"}
 
 ![Correctif](../assets/fix.svg) - Correction d’un problème en raison duquel une règle de prix de bloc ou de panier dynamique n’était pas appliquée au storefront.
 ![Correctif](../assets/fix.svg) - Correction d’un problème en raison duquel une installation non configurée de l’extension Audience Activation provoquait une erreur lorsqu’un commerçant tentait de créer ou de mettre à jour un bloc dynamique.
@@ -153,7 +153,7 @@ _1 mai 2023_
 
 _31 mars 2023_
 
-[!BADGE Compatibilité ]{type=Informative tooltip="Compatibilité"}
+[!BADGE Compatibilité &#x200B;]{type=Informative tooltip="Compatibilité"}
 
 ![Nouveau](../assets/new.svg) - Version à disponibilité générale
 

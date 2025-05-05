@@ -110,7 +110,7 @@ La réutilisation des quatre derniers mots de passe attribués au compte n’est
 
    ![Se déconnecter](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-La page _[!UICONTROL Sign In]_affiche un message indiquant que vous êtes déconnecté. Déconnectez-vous du_ Administrateur _chaque fois que vous laissez votre ordinateur sans surveillance.
+La page _[!UICONTROL Sign In]_&#x200B;affiche un message indiquant que vous êtes déconnecté. Déconnectez-vous du_ Administrateur _chaque fois que vous laissez votre ordinateur sans surveillance.
 
 ## Modifier les informations du compte
 

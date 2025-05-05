@@ -55,8 +55,8 @@ Lors de la conversion d’une devise en points, le nombre de points ne peut pas 
 
    | Direction | Paramètres de taux |
    |---------|-------------|
-   | [!UICONTROL Points to Currency] | Dans le premier champ _[!UICONTROL Rate]_, saisissez le nombre de points. Dans le deuxième champ_[!UICONTROL Rate]_, saisissez la valeur monétaire des points. |
-   | [!UICONTROL Currency to Points] | Dans le premier champ _[!UICONTROL Rate]_, saisissez la valeur monétaire. Dans le deuxième champ_[!UICONTROL Rate]_ , saisissez le nombre de points représentés par la valeur monétaire. |
+   | [!UICONTROL Points to Currency] | Dans le premier champ _[!UICONTROL Rate]_, saisissez le nombre de points. Dans le deuxième champ&#x200B;_[!UICONTROL Rate]_, saisissez la valeur monétaire des points. |
+   | [!UICONTROL Currency to Points] | Dans le premier champ _[!UICONTROL Rate]_, saisissez la valeur monétaire. Dans le deuxième champ&#x200B;_[!UICONTROL Rate]_ , saisissez le nombre de points représentés par la valeur monétaire. |
 
    Lors de la conversion de points en devise, le nombre de points ne peut pas être divisé. Par exemple, si dix points sont convertis à 2,00 $, les points doivent être échangés en groupes de dix. Par conséquent, 25 points seraient remboursés pour 4,00 $, et 5 points resteraient dans le solde du client.
 
@@ -80,4 +80,4 @@ Lors de la conversion d’une devise en points, le nombre de points ne peut pas 
 |--- |--- |
 | [!UICONTROL Website] | Les sites web sur lesquels s&#39;appliquent les taux de récompense. |
 | [!UICONTROL Customer Group] | Les groupes de clients auxquels s&#39;appliquent les taux de récompense. |
-| [!UICONTROL Direction] | Détermine le type de transaction que le taux d’exchange définit. Options : <br/>**[!UICONTROL Points to Currency]**- Définit le nombre de points qui peuvent être appliqués comme crédit au montant d’une commande. Dans le premier champ _[!UICONTROL Rate]_, saisissez le nombre de points. Dans le deuxième champ_[!UICONTROL Rate]_, saisissez la valeur monétaire des points.<br/>**[!UICONTROL Currency to Points]** - Définit le montant d’une commande qui peut gagner des points du client. Dans le premier champ _[!UICONTROL Rate]_, saisissez la valeur monétaire. Dans le deuxième champ_[!UICONTROL Rate]_ , saisissez le nombre de points représentés par la valeur monétaire. |
+| [!UICONTROL Direction] | Détermine le type de transaction que le taux d’exchange définit. Options : <br/>**[!UICONTROL Points to Currency]**- Définit le nombre de points qui peuvent être appliqués comme crédit au montant d’une commande. Dans le premier champ _[!UICONTROL Rate]_, saisissez le nombre de points. Dans le deuxième champ&#x200B;_[!UICONTROL Rate]_, saisissez la valeur monétaire des points.<br/>**[!UICONTROL Currency to Points]** - Définit le montant d’une commande qui peut gagner des points du client. Dans le premier champ _[!UICONTROL Rate]_, saisissez la valeur monétaire. Dans le deuxième champ&#x200B;_[!UICONTROL Rate]_ , saisissez le nombre de points représentés par la valeur monétaire. |

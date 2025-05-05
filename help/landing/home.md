@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# <!-- use banner as heading -->![Documentation destinée aux administrateurs](./assets/banner-user-home.png) {#documentation}
+# &#x200B;<!-- use banner as heading -->![Documentation destinée aux administrateurs](./assets/banner-user-home.png) {#documentation}
 
 Bienvenue dans la nouvelle génération de la principale plateforme de commerce numérique au monde. Adobe Commerce offre aux commerçants en ligne une flexibilité et un contrôle inégalés sur l’aspect, le contenu et les fonctionnalités de leurs boutiques en ligne. Admin dispose de puissants outils de marketing, d’optimisation des moteurs de recherche et de gestion des produits qui vous permettent de créer des sites adaptés aux besoins spécifiques de votre entreprise.
 

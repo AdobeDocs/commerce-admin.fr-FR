@@ -17,7 +17,7 @@ ht-degree: 5%
 - [Guide d’Inventory management](guide-overview.md)
 - [Présentation de  [!DNL Inventory Management]](introduction.md)
 - [Notes de mise à jour](release-notes.md)
-- {#basics} des notions de base relatives aux stocks
+- des notions de base relatives aux stocks{#basics}
    - [Sources et stocks](sources-stocks.md)
    - [Sélection et réservations Source](selection-reservations.md)
    - [Statut de la commande et de la réservation](order-status.md)
@@ -27,7 +27,7 @@ ht-degree: 5%
    - [Installation et mise à jour](install-update.md)
    - [Approvisionnement des commerçants](merchant-sourcing.md)
    - [Augmenter et restructurer l&#39;inventaire](expand-restructure.md)
-- {#configuration} de configuration
+- de configuration{#configuration}
    - [Vue d’ensemble](configuration.md)
    - [Activer  [!DNL Inventory Management]](enable.md)
    - [Configuration des options globales](global-options.md)
@@ -35,7 +35,7 @@ ht-degree: 5%
    - [Configurer les commandes en souffrance](backorders.md)
    - [Configurer la priorité source](source-priority-algorithm.md)
    - [Configurer la priorité de distance](distance-priority-algorithm.md)
-   - {#product-alerts} des alertes de produits
+   - des alertes de produits{#product-alerts}
       - [Configurer des alertes de produit](alert-setup.md)
       - [Scénarios de message Stock](stock-messages.md)
 - Gérer les sources {#sources}

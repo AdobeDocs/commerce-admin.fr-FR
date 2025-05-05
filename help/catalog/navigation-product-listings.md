@@ -16,7 +16,7 @@ Les listes de produits peuvent être définies pour apparaître par défaut sous
 
 >[!NOTE]
 >
->Lors du tri d’une catégorie selon un attribut de produit, les produits avec les mêmes valeurs d’attribut sont également triés par leur _[!UICONTROL Product ID]_dans l’ordre croissant.
+>Lors du tri d’une catégorie selon un attribut de produit, les produits avec les mêmes valeurs d’attribut sont également triés par leur _[!UICONTROL Product ID]_&#x200B;dans l’ordre croissant.
 
 ![Produits affichés sous forme de grille](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 
@@ -34,7 +34,7 @@ Les listes de produits peuvent être définies pour apparaître par défaut sous
 
    >[!NOTE]
    >
-   >Pour afficher correctement les produits et leurs prix en fonction du _tri des produits par prix_, assurez-vous que les paramètres d&#39;affichage des prix dans la [configuration de la taxe sur les ventes](../configuration-reference/sales/tax.md) ont la même valeur (`Excluding Tax` **ou** `Including Tax`). Pour le _[!UICONTROL Calculation Settings]_, vérifiez la valeur **[!UICONTROL Catalog Prices]**. Et pour_[!UICONTROL Price Display Settings]_, vérifiez la valeur **[!UICONTROL Display Product Prices in Catalog]**. Si ces valeurs sont différentes, les filtres de prix dans la navigation superposée peuvent ne pas correctement filtrer et trier les produits par prix.
+   >Pour afficher correctement les produits et leurs prix en fonction du _tri des produits par prix_, assurez-vous que les paramètres d&#39;affichage des prix dans la [configuration de la taxe sur les ventes](../configuration-reference/sales/tax.md) ont la même valeur (`Excluding Tax` **ou** `Including Tax`). Pour le _[!UICONTROL Calculation Settings]_, vérifiez la valeur **[!UICONTROL Catalog Prices]**. Et pour&#x200B;_[!UICONTROL Price Display Settings]_, vérifiez la valeur **[!UICONTROL Display Product Prices in Catalog]**. Si ces valeurs sont différentes, les filtres de prix dans la navigation superposée peuvent ne pas correctement filtrer et trier les produits par prix.
 
 1. Définissez la valeur par défaut **[!UICONTROL List Mode]** sur l’une des options suivantes :
 
@@ -95,7 +95,7 @@ Les paramètres de pagination apparaissent en haut et en bas de la liste et cont
 | Contrôle | Description |
 |--- |--- |
 | ![Grille d’affichage](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] : affiche la liste au format Grille ou Liste. |
-| ![Trier par](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Modifie l’ordre de tri de la liste. La propriété _[!UICONTROL Used for Sorting in Product Listing]_storefront détermine les [attributs de produit](../catalog/product-attributes.md) pouvant être utilisés pour trier la liste. |
+| ![Trier par](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Modifie l’ordre de tri de la liste. La propriété _[!UICONTROL Used for Sorting in Product Listing]_&#x200B;storefront détermine les [attributs de produit](../catalog/product-attributes.md) pouvant être utilisés pour trier la liste. |
 | ![Afficher par page](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Détermine le nombre de produits qui apparaissent par page. |
 | ![Liens de pagination](./assets/control-pagination.png) | Liens de pagination : liens de navigation vers d’autres pages. |
 

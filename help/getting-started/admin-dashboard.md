@@ -23,7 +23,7 @@ La [création de rapports avancés](business-intelligence.md#advanced-reporting)
 
 ## Configuration du tableau de bord
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**et renseignez l’un des paramètres suivants.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;et renseignez l’un des paramètres suivants.
 
 1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Save Config]**.
 
@@ -49,7 +49,7 @@ Pour plus d’informations sur les options de configuration de l’administrateu
 
 Le tableau de bord est la [page de démarrage](../configuration-reference/advanced/admin.md) par défaut pour l’administrateur, bien que vous puissiez configurer une autre page de démarrage.
 
-1. Si les options de configuration de l’administrateur ne sont pas encore ouvertes, choisissez **[!UICONTROL Admin]** sous _[!UICONTROL Advanced]_dans le panneau de navigation de gauche.
+1. Si les options de configuration de l’administrateur ne sont pas encore ouvertes, choisissez **[!UICONTROL Admin]** sous _[!UICONTROL Advanced]_&#x200B;dans le panneau de navigation de gauche.
 
 1. Cliquez pour développer la section **Startup Page**.
 

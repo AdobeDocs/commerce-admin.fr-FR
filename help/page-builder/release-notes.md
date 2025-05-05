@@ -94,7 +94,7 @@ Voir [Disposition - Colonne](./column.md) pour plus d’informations sur l’uti
 
 ![Nouveau](../assets/new.svg) <!-- Issue 510, 511, 512, 513 -->**Modification immersive en plein écran** - La modification de contenu [!DNL Page Builder] est désormais en plein écran uniquement pour toutes les zones contrôlées par [!DNL Page Builder]. Cette modification inclut les pages CMS, les pages de produits et de catégories, les blocs et les blocs dynamiques. La modification en plein écran met l’accent sur votre contenu et fournit une vue qui correspond mieux à l’expérience de l’utilisateur sur le storefront.
 
-![Nouvel ](../assets/new.svg) <!-- Issue 544 -->**[!DNL Page Builder] aperçus de contenu **- Par défaut, [!DNL Page Builder] fournit désormais des aperçus de contenu non seulement pour les pages CMS, les blocs et les blocs dynamiques, mais également pour les pages de produits et de catégories. Vous pouvez configurer cette fonction pour qu’elle soit activée ou désactivée pour les pages de produits et de catégories à l’aide du nouveau paramètre [!DNL Page Builder] Aperçu de contenu, accessible dans la configuration du magasin sous Gestion de contenu > Outils de contenu avancé.
+![Nouvel ](../assets/new.svg) <!-- Issue 544 -->**[!DNL Page Builder] aperçus de contenu &#x200B;**- Par défaut, [!DNL Page Builder] fournit désormais des aperçus de contenu non seulement pour les pages CMS, les blocs et les blocs dynamiques, mais également pour les pages de produits et de catégories. Vous pouvez configurer cette fonction pour qu’elle soit activée ou désactivée pour les pages de produits et de catégories à l’aide du nouveau paramètre [!DNL Page Builder] Aperçu de contenu, accessible dans la configuration du magasin sous Gestion de contenu > Outils de contenu avancé.
 
 ![New](../assets/new.svg) <!-- Issue 543 -->**Accès amélioré aux descriptions courtes de produit** - Par défaut, une brève description de produit s’affiche maintenant avant la description plus longue. Cette modification entraîne une correspondance avec l’ordre dans lequel ils apparaissent sur le storefront et évite la nécessité de faire défiler le contenu de description plus longue pour accéder à la brève description.
 
@@ -186,16 +186,16 @@ Cette version de [!DNL Page Builder] n’est qu’une mise à jour de numéro de
 
 ![Problème corrigé](../assets/fix.svg) **Divers correctifs**
 
-- <!-- PB-50 -->Correction d’un problème en raison duquel le menu TinyMCE pour le contenu d’une diapositive s’affichait sous d’autres types de contenu si le conteneur parent de la diapositive était dupliqué.
-- <!-- PB-166 -->Mise à jour de [!DNL Page Builder] pour mettre en oeuvre une méthode de destruction afin d’empêcher les fuites de mémoire dans certains scénarios.
-- <!-- PB-170 -->Amélioration des performances de TinyMCE lorsque plusieurs instances sont utilisées sur l’étape d’administration.
-- <!-- PB-252 -->Correction d’un problème en raison duquel le type de contenu Bloc dynamique n’était pas rendu sur l’étape Admin si la ligne supérieure était marquée comme masquée.
-- <!-- PB-273 -->Événements de survol de la souris perfectionnés sur l’étape d’administration en supprimant un délai de 200 ms des différentes commandes de l’interface utilisateur. Cette modification facilite l’utilisation d’éléments de contenu imbriqués sur la scène.
-- <!-- PB-294 -->Correction d’un problème en raison duquel le symbole de devise était échappé de manière incorrecte dans le widget Liste de produits dans le bloc/bloc dynamique de l’étape Admin.
-- <!-- PB-296 -->Correction d’un problème en raison duquel le total du produit sur le panneau d’édition [!DNL Page Builder] ne fonctionnait pas pour les produits de stock MSI personnalisés.
-- <!-- PB-317 -->Correction d’un problème en raison duquel l’enregistrement du contenu [!DNL Page Builder] avec des images d’arrière-plan sur Microsoft Edge n’affichait pas ces images sur le storefront.
-- <!-- PB-390 -->Correction d’un problème qui empêchait l’enregistrement du contenu imbriqué [!DNL Page Builder] si les utilisateurs cliquaient sur le bouton Enregistrer avant que la page ne soit entièrement rendue.
-- <!-- PB-418 -->Correction d’une erreur d’exception générée dans les tâches cron en raison de [!DNL Page Builder] analytics.
+- &#x200B;<!-- PB-50 -->Correction d’un problème en raison duquel le menu TinyMCE pour le contenu d’une diapositive s’affichait sous d’autres types de contenu si le conteneur parent de la diapositive était dupliqué.
+- &#x200B;<!-- PB-166 -->Mise à jour de [!DNL Page Builder] pour mettre en oeuvre une méthode de destruction afin d’empêcher les fuites de mémoire dans certains scénarios.
+- &#x200B;<!-- PB-170 -->Amélioration des performances de TinyMCE lorsque plusieurs instances sont utilisées sur l’étape d’administration.
+- &#x200B;<!-- PB-252 -->Correction d’un problème en raison duquel le type de contenu Bloc dynamique n’était pas rendu sur l’étape Admin si la ligne supérieure était marquée comme masquée.
+- &#x200B;<!-- PB-273 -->Événements de survol de la souris perfectionnés sur l’étape d’administration en supprimant un délai de 200 ms des différentes commandes de l’interface utilisateur. Cette modification facilite l’utilisation d’éléments de contenu imbriqués sur la scène.
+- &#x200B;<!-- PB-294 -->Correction d’un problème en raison duquel le symbole de devise était échappé de manière incorrecte dans le widget Liste de produits dans le bloc/bloc dynamique de l’étape Admin.
+- &#x200B;<!-- PB-296 -->Correction d’un problème en raison duquel le total du produit sur le panneau d’édition [!DNL Page Builder] ne fonctionnait pas pour les produits de stock MSI personnalisés.
+- &#x200B;<!-- PB-317 -->Correction d’un problème en raison duquel l’enregistrement du contenu [!DNL Page Builder] avec des images d’arrière-plan sur Microsoft Edge n’affichait pas ces images sur le storefront.
+- &#x200B;<!-- PB-390 -->Correction d’un problème qui empêchait l’enregistrement du contenu imbriqué [!DNL Page Builder] si les utilisateurs cliquaient sur le bouton Enregistrer avant que la page ne soit entièrement rendue.
+- &#x200B;<!-- PB-418 -->Correction d’une erreur d’exception générée dans les tâches cron en raison de [!DNL Page Builder] analytics.
 
 ## 1.2.2 pour Adobe Commerce 2.3.4-p2
 
@@ -219,14 +219,14 @@ Cette version de [!DNL Page Builder] n’est qu’une mise à jour de numéro de
 
 ![Problème corrigé](../assets/fix.svg) **Divers correctifs**
 
-- <!-- PB-237 -->Amélioration de la sécurité.
-- <!-- PB-41 -->Correction des recherches dans les composants de sélection de l’interface utilisateur afin d’effectuer une seule requête AJAX par terme de recherche.
-- <!-- PB-76, PB-84-->Mise à jour des aperçus de produit dans l’administrateur pour qu’ils correspondent au storefront, y compris les options d’évaluation des étoiles, de couleur et de taille du produit, le cas échéant.
-- <!-- PB-169 -->Correction d’un problème en raison duquel [!DNL Page Builder] ne pouvait pas être enregistré lorsque la minification et le regroupement JavaScript étaient activés dans Commerce.
-- <!-- PB-241 -->Correction des aperçus administrateur des produits, blocs et blocs dynamiques afin qu’ils s’affichent correctement sur les installations Commerce qui définissent différentes URL pour l’administrateur et le serveur frontal.
-- <!-- PB-238 -->Correction des aperçus administrateur des produits, blocs et blocs dynamiques pour un rendu correct sur les installations Commerce avec B2B installé avec l’option _Connexion uniquement_ activée. Avant ce correctif, l’aperçu [!DNL Page Builder] provoquait la redirection de la page vers la connexion au compte client.
-- <!-- PB-239 -->Correction d&#39;une erreur de session qui pouvait se produire lors de la prévisualisation d&#39;une grande page dans l&#39;administrateur [!DNL Page Builder].
-- <!-- PB-248 -->Mise à jour des styles [!DNL Page Builder] LESS pour empêcher la duplication des styles storefront.
+- &#x200B;<!-- PB-237 -->Amélioration de la sécurité.
+- &#x200B;<!-- PB-41 -->Correction des recherches dans les composants de sélection de l’interface utilisateur afin d’effectuer une seule requête AJAX par terme de recherche.
+- &#x200B;<!-- PB-76, PB-84-->Mise à jour des aperçus de produit dans l’administrateur pour qu’ils correspondent au storefront, y compris les options d’évaluation des étoiles, de couleur et de taille du produit, le cas échéant.
+- &#x200B;<!-- PB-169 -->Correction d’un problème en raison duquel [!DNL Page Builder] ne pouvait pas être enregistré lorsque la minification et le regroupement JavaScript étaient activés dans Commerce.
+- &#x200B;<!-- PB-241 -->Correction des aperçus administrateur des produits, blocs et blocs dynamiques afin qu’ils s’affichent correctement sur les installations Commerce qui définissent différentes URL pour l’administrateur et le serveur frontal.
+- &#x200B;<!-- PB-238 -->Correction des aperçus administrateur des produits, blocs et blocs dynamiques pour un rendu correct sur les installations Commerce avec B2B installé avec l’option _Connexion uniquement_ activée. Avant ce correctif, l’aperçu [!DNL Page Builder] provoquait la redirection de la page vers la connexion au compte client.
+- &#x200B;<!-- PB-239 -->Correction d&#39;une erreur de session qui pouvait se produire lors de la prévisualisation d&#39;une grande page dans l&#39;administrateur [!DNL Page Builder].
+- &#x200B;<!-- PB-248 -->Mise à jour des styles [!DNL Page Builder] LESS pour empêcher la duplication des styles storefront.
 
 ## 1.1.1 pour Adobe Commerce 2.3.3-p1
 

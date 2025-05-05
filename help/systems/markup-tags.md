@@ -40,17 +40,17 @@ La balise d’URL de média dynamique représente l’emplacement et le nom de f
 
 La balise de balisage d’identifiant de bloc est l’une des plus faciles à utiliser. Elle peut être utilisée pour placer un bloc directement sur une page CMS, voire l’imbriquer dans un autre bloc. Vous pouvez utiliser cette technique pour modifier un bloc pour différentes promotions ou langues. La balise de balisage d’identifiant de bloc fait référence à un bloc à l’aide de son identifiant.
 
-\{\{block id=&#39;block-id&#39;}
+\&lbrace;\{block id=&#39;block-id&#39;}
 
 ## Balise de modèle
 
 Une balise de modèle fait référence à un fichier de modèle PHTML et peut être utilisée pour afficher le bloc sur une page CMS ou un bloc statique. Le code de l&#39;exemple suivant peut être ajouté à une page ou à un bloc pour afficher le formulaire de contact.
 
-\{\{block class=&quot;Magento\Contact\Block\ContactForm&quot; name=&quot;contactForm&quot; template=&quot;Magento_Contact::form.phtml&quot;}
+\&lbrace;\{block class=&quot;Magento\Contact\Block\ContactForm&quot; name=&quot;contactForm&quot; template=&quot;Magento_Contact::form.phtml&quot;}
 
 Le code de l’exemple suivant peut être ajouté à une page ou à un bloc pour afficher une liste de produits d’une catégorie spécifique, par identifiant de catégorie.
 
-\{\{block type=&quot;catalog/product_list&quot; category_id=&quot;22&quot; template=&quot;catalog/product/list.phtml&quot;}
+\&lbrace;\{block type=&quot;catalog/product_list&quot; category_id=&quot;22&quot; template=&quot;catalog/product/list.phtml&quot;}
 
 ## Code widget
 
@@ -58,7 +58,7 @@ L’outil Widget peut être utilisé pour afficher des listes de produits ou pou
 
 Le code de l’exemple suivant peut être ajouté à une page ou à un bloc pour afficher la liste des nouveaux produits.
 
-\{\{widget type=&quot;catalog/product_widget_new&quot; display_type=&quot;new_products&quot; products_count=&quot;10&quot; template=&quot;catalog/product/widget/new/content/new_grid.phtml&quot;}
+\&lbrace;\{widget type=&quot;catalog/product_widget_new&quot; display_type=&quot;new_products&quot; products_count=&quot;10&quot; template=&quot;catalog/product/widget/new/content/new_grid.phtml&quot;}
 
 Le code de l’exemple suivant peut être ajouté à une page ou à un bloc pour afficher un lien vers un produit spécifique, par ID de produit.
 
@@ -120,7 +120,7 @@ Placez la balise de balisage complétée à l’intérieur d’une balise d’an
 
 #### Balisage dans la balise d’ancrage
 
-\&lt;a href=&quot;\{\{la balise de balisage va ici}&quot;>Texte de lien\&lt;/a>
+\&lt;a href=&quot;\&lbrace;\{la balise de balisage va ici}&quot;>Texte de lien\&lt;/a>
 
 Collez la balise d’ancrage complétée dans le code d’une page, d’un bloc, d’une bannière ou d’un modèle de courrier électronique CMS dans lequel vous souhaitez que le lien s’affiche.
 

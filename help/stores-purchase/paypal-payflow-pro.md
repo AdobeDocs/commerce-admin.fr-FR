@@ -113,7 +113,7 @@ Cette méthode de configuration suppose que vous disposez d’un compte PayPal e
 
 1. Si votre installation Commerce comporte plusieurs sites web, magasins ou vues, définissez **[!UICONTROL Store View]** sur la vue de magasin dans laquelle vous souhaitez appliquer cette configuration.
 
-1. Dans la section _[!UICONTROL Merchant Location]_, sélectionnez l’**[!UICONTROL Merchant Country]**où se trouve votre entreprise.
+1. Dans la section _[!UICONTROL Merchant Location]_, sélectionnez l’**[!UICONTROL Merchant Country]**&#x200B;où se trouve votre entreprise.
 
    Ce paramètre détermine la sélection des solutions PayPal qui apparaissent dans la configuration.
 
@@ -316,7 +316,7 @@ Définissez **[!UICONTROL Enable PayPal PayLater Experience]** sur l’une des o
 1. Définissez **[!UICONTROL Payment Applicable From]** sur l’une des options suivantes :
 
    - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans votre configuration de magasin peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Après avoir choisi cette option, la liste _[!UICONTROL Payment from Specific Countries]_s’affiche. Maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et sélectionnez chaque pays de la liste dans lequel les clients peuvent effectuer des achats dans votre boutique.
+   - `Specific Countries` - Après avoir choisi cette option, la liste _[!UICONTROL Payment from Specific Countries]_&#x200B;s’affiche. Maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et sélectionnez chaque pays de la liste dans lequel les clients peuvent effectuer des achats dans votre boutique.
 
 1. Pour écrire des communications avec le système de paiement dans le fichier journal, définissez **[!UICONTROL Debug Mode]** sur `Yes`.
 
@@ -448,7 +448,7 @@ Utilisez les paramètres d’expérience de la frontière pour choisir les logos
    - `Authorization` - Approuve l’achat et met un frein aux fonds. Le montant n’est pas retiré tant qu’il n’a pas été _capturé_ par le commerçant.
    - `Sale` - Le montant de l’achat est autorisé et immédiatement retiré du compte du client.
 
-1. Pour afficher le bouton _[!UICONTROL Check out with PayPal]_sur la page du produit, définissez **[!UICONTROL Display on Product Details Page]**sur `Yes`.
+1. Pour afficher le bouton _[!UICONTROL Check out with PayPal]_&#x200B;sur la page du produit, définissez **[!UICONTROL Display on Product Details Page]**&#x200B;sur `Yes`.
 
 ### Étape 7 : Définition des paramètres avancés du paiement express PayPal
 
@@ -461,7 +461,7 @@ Utilisez les paramètres d’expérience de la frontière pour choisir les logos
 1. Définissez **[!UICONTROL Payment Applicable From]** sur l’une des options suivantes :
 
    - `All Allowed Countries` - Les clients de tous les pays spécifiés dans votre configuration de magasin peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Après avoir choisi cette option, la liste _[!UICONTROL Payment from Specific Countries]_s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée, puis cliquez sur chaque élément.
+   - `Specific Countries` - Après avoir choisi cette option, la liste _[!UICONTROL Payment from Specific Countries]_&#x200B;s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée, puis cliquez sur chaque élément.
 
 1. Pour écrire des communications avec le système de paiement dans le fichier journal, définissez **[!UICONTROL Debug Mode]** sur `Yes`.
 

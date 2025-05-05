@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-La page _[!UICONTROL Store Credit]_du tableau de bord du compte client répertorie les montants des retours et des remboursements qui peuvent être appliqués aux achats futurs. Les clients peuvent également racheter la valeur d’une carte-cadeau.
+La page _[!UICONTROL Store Credit]_&#x200B;du tableau de bord du compte client répertorie les montants des retours et des remboursements qui peuvent être appliqués aux achats futurs. Les clients peuvent également racheter la valeur d’une carte-cadeau.
 
 ![Crédit de la boutique cliente](assets/account-dashboard-store-credit.png){width="700" zoomable="yes"}
 

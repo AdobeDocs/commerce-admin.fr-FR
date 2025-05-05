@@ -16,7 +16,7 @@ Votre magasin comprend de nombreuses [variables](../systems/variables-predefined
 
 1. Ouvrez une page, un bloc ou un bloc dynamique en mode d’édition.
 
-1. Accédez à la section _[!UICONTROL Content]_et cliquez sur un élément prenant en charge l’éditeur.
+1. Accédez à la section _[!UICONTROL Content]_&#x200B;et cliquez sur un élément prenant en charge l’éditeur.
 
 1. Positionnez le curseur à l’endroit où vous souhaitez que la variable apparaisse et cliquez sur l’icône _Insérer la variable_ .
 

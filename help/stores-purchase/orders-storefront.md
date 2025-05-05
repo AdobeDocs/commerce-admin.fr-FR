@@ -18,7 +18,7 @@ Les clients ont accès à toutes leurs commandes depuis leur compte . Les comman
 
 {{b2b-feature}}
 
-Vos résultats _[!UICONTROL My Orders]_initiaux contiennent également les commandes correspondantes d’utilisateurs subordonnés de tous les sites web de l’instance de commerce. Un client associé à un compte d’entreprise peut filtrer la liste des commandes afin de trouver rapidement des enregistrements dans les résultats. Pour afficher les options de filtre, le client clique sur **[!UICONTROL Filter]**, puis sur **[!UICONTROL Close]**pour masquer les filtres.
+Vos résultats _[!UICONTROL My Orders]_&#x200B;initiaux contiennent également les commandes correspondantes d’utilisateurs subordonnés de tous les sites web de l’instance de commerce. Un client associé à un compte d’entreprise peut filtrer la liste des commandes afin de trouver rapidement des enregistrements dans les résultats. Pour afficher les options de filtre, le client clique sur **[!UICONTROL Filter]**, puis sur **[!UICONTROL Close]**&#x200B;pour masquer les filtres.
 
 ![Mes commandes](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
@@ -42,7 +42,7 @@ Un client trouve la commande dans la liste et clique sur **[!UICONTROL View Orde
 
 Le bloc **[!UICONTROL Recent Orders]** s’affiche dans la barre latérale et sur la page **[!UICONTROL My Account]** pour les clients connectés après avoir passé une commande. Il affiche cinq produits du dernier achat.
 
-Le client peut lire les produits dans le panier en sélectionnant les produits et en cliquant sur **[!UICONTROL Add to Cart]**. Ils peuvent également afficher la dernière commande en cliquant sur **[!UICONTROL View all]**, qui redirige vers la page _[!UICONTROL My Account]_et le bloc **[!UICONTROL Recent Orders]**.
+Le client peut lire les produits dans le panier en sélectionnant les produits et en cliquant sur **[!UICONTROL Add to Cart]**. Ils peuvent également afficher la dernière commande en cliquant sur **[!UICONTROL View all]**, qui redirige vers la page _[!UICONTROL My Account]_&#x200B;et le bloc **[!UICONTROL Recent Orders]**.
 
 ### Ordre d’impression
 
@@ -103,7 +103,7 @@ Un client peut lancer la fonctionnalité de réorganisation d’une commande sp�
 
 ## Révisions
 
-Le lien _[!UICONTROL Reorder]_s&#39;affiche dans la liste avec les commandes à proximité du lien_[!UICONTROL View]_.
+Le lien _[!UICONTROL Reorder]_&#x200B;s&#39;affiche dans la liste avec les commandes à proximité du lien&#x200B;_[!UICONTROL View]_.
 
 ![Lien de réorganisation sur la page Ma commande](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
@@ -117,7 +117,7 @@ Le client est redirigé vers le panier et tous les produits sont ajoutés au pan
 >
 >Il est possible de réorganiser des produits `Not Visible Individually`.
 
-Le lien _[!UICONTROL Reorder]_n&#39;apparaît pas sur les pages_[!UICONTROL My Orders]_ et _[!UICONTROL View Order]_.
+Le lien _[!UICONTROL Reorder]_&#x200B;n&#39;apparaît pas sur les pages&#x200B;_[!UICONTROL My Orders]_ et _[!UICONTROL View Order]_.
 
 ![Ma page de commande](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
@@ -135,7 +135,7 @@ Un client peut lancer la fonctionnalité d’annulation d’une commande spécif
 - Page Afficher la commande
 - Page Mon compte
 
-Le lien _[!UICONTROL Cancel Order]_s’affiche près du lien_[!UICONTROL Reorder]_. Si la commande ne peut pas être annulée, le lien ne s’affiche pas.
+Le lien _[!UICONTROL Cancel Order]_&#x200B;s’affiche près du lien&#x200B;_[!UICONTROL Reorder]_. Si la commande ne peut pas être annulée, le lien ne s’affiche pas.
 
 ![Lien Annuler sur la page Ma commande](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
@@ -153,7 +153,7 @@ Pour annuler, le client :
 
    ![Annuler sur la page Ma commande](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   Après l’annulation, les commandes ayant eu l’état _[!UICONTROL Pending]_, le statut_[!UICONTROL Canceled]_, les commandes ayant eu l’état _[!UICONTROL Processing]_, le statut_[!UICONTROL Closed]_ et un remboursement seront traités.
+   Après l’annulation, les commandes ayant eu l’état _[!UICONTROL Pending]_, le statut&#x200B;_[!UICONTROL Canceled]_, les commandes ayant eu l’état _[!UICONTROL Processing]_, le statut&#x200B;_[!UICONTROL Closed]_ et un remboursement seront traités.
 
    Une fois l’annulation terminée, un email est envoyé au client.
 

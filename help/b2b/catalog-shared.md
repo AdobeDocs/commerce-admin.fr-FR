@@ -20,13 +20,13 @@ Pour le catalogue partagé public `Default (General)`, vous devez attribuer des 
 
 >[!NOTE]
 >
->**[Version B2B 1.3.0](release-notes.md#b2b-v130) et ultérieure** — Lorsque vous créez un catalogue partagé, chaque [autorisation de catégorie](../catalog/category-permissions.md) pour le catalogue est définie sur _[!UICONTROL Allow for the Display Product Prices]_et_[!UICONTROL Add to Cart]_ pour les groupes de clients auxquels cet accès est affecté dans les paramètres d’autorisation du catalogue. Auparavant, ces paramètres étaient automatiquement définis sur `Deny` même lorsque les autorisations du catalogue étaient définies sur `Allow`.
+>**[Version B2B 1.3.0](release-notes.md#b2b-v130) et ultérieure** — Lorsque vous créez un catalogue partagé, chaque [autorisation de catégorie](../catalog/category-permissions.md) pour le catalogue est définie sur _[!UICONTROL Allow for the Display Product Prices]_&#x200B;et&#x200B;_[!UICONTROL Add to Cart]_ pour les groupes de clients auxquels cet accès est affecté dans les paramètres d’autorisation du catalogue. Auparavant, ces paramètres étaient automatiquement définis sur `Deny` même lorsque les autorisations du catalogue étaient définies sur `Allow`.
 
 >[!IMPORTANT]
 >
 >Tous les [paramètres d&#39;autorisation de groupe](../configuration-reference/catalog/catalog.md#category-permissions) existants sont ignorés par **_toutes_** catégories dans le catalogue lorsque la fonction **_[!UICONTROL Shared Catalog]_** est activée. [!UICONTROL Shared Catalog] contrôle entièrement toutes les autorisations de catégorie dans le catalogue lorsqu’il est activé.
 
-La page _[!UICONTROL Shared Catalogs]_donne accès aux outils utilisés pour gérer vos catalogues partagés. La page est similaire à l’[espace de travail Admin](../getting-started/admin-workspace.md) standard, avec des filtres et des contrôles d’action. La grille répertorie tous les catalogues partagés, y compris le catalogue partagé public par défaut et tous les catalogues personnalisés que vous avez configurés.
+La page _[!UICONTROL Shared Catalogs]_&#x200B;donne accès aux outils utilisés pour gérer vos catalogues partagés. La page est similaire à l’[espace de travail Admin](../getting-started/admin-workspace.md) standard, avec des filtres et des contrôles d’action. La grille répertorie tous les catalogues partagés, y compris le catalogue partagé public par défaut et tous les catalogues personnalisés que vous avez configurés.
 
 ![Catalogues partagés](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
 
@@ -36,7 +36,7 @@ Sur la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICON
 
 ## Contrôles des actions
 
-Les [contrôles d’actions](../getting-started/admin-actions-control.md) dans le coin supérieur gauche peuvent être utilisés avec le contrôle d’actions de masse pour supprimer les catalogues partagés sélectionnés qui ne sont plus nécessaires. Dans la grille, la colonne _[!UICONTROL Actions]_contient la sélection complète des outils pour gérer vos catalogues partagés.
+Les [contrôles d’actions](../getting-started/admin-actions-control.md) dans le coin supérieur gauche peuvent être utilisés avec le contrôle d’actions de masse pour supprimer les catalogues partagés sélectionnés qui ne sont plus nécessaires. Dans la grille, la colonne _[!UICONTROL Actions]_&#x200B;contient la sélection complète des outils pour gérer vos catalogues partagés.
 
 ![Actions de catalogue partagé](./assets/shared-catalog-grid-action-column-controls.png){width="350"}
 

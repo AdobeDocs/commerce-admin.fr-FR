@@ -54,9 +54,9 @@ Lorsque vous saisissez des envois, les quantités de stock en main sont déduite
 
      ![Sélectionnez un Source et saisissez une Quantité](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. Passez en revue la page _[!UICONTROL New Shipment]_et saisissez d’autres modifications si nécessaire.
+1. Passez en revue la page _[!UICONTROL New Shipment]_&#x200B;et saisissez d’autres modifications si nécessaire.
 
-   La section _[!UICONTROL Inventory]_affiche la source, l’expédition des produits, la quantité totale commandée et la quantité à envoyer.
+   La section _[!UICONTROL Inventory]_&#x200B;affiche la source, l’expédition des produits, la quantité totale commandée et la quantité à envoyer.
 
    ![Détails du stock pour l’expédition, exemple une expédition partielle](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 

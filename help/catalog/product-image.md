@@ -44,7 +44,7 @@ Pour télécharger une image, effectuez l’une des opérations suivantes :
 
 ### Réorganiser les images
 
-Pour modifier l’ordre des images dans la galerie, cliquez sur l’icône _[!UICONTROL Sort]_( ![Icône Trier](./assets/inventory-icon-sort.png) ) au bas de la mosaïque de l’image et faites glisser l’image vers une autre position dans la zone_[!UICONTROL Images And Videos]_.
+Pour modifier l’ordre des images dans la galerie, cliquez sur l’icône _[!UICONTROL Sort]_( ![Icône Trier](./assets/inventory-icon-sort.png) ) au bas de la mosaïque de l’image et faites glisser l’image vers une autre position dans la zone&#x200B;_[!UICONTROL Images And Videos]_.
 
 ![Modifier l’ordre](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 

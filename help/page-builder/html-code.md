@@ -84,7 +84,7 @@ L’exemple suivant montre comment incorporer le code [Google Font][1] et décla
 
 ### Étape 3 : aperçu de la page
 
-1. Dans la section _[!UICONTROL Currently Active]_, définissez **[!UICONTROL Enable Page]**sur `Yes`.
+1. Dans la section _[!UICONTROL Currently Active]_, définissez **[!UICONTROL Enable Page]**&#x200B;sur `Yes`.
 
    ![Activation de la page](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -110,7 +110,7 @@ L’exemple suivant montre comment incorporer le code [Google Font][1] et décla
    | Insérer une image... | Cliquez pour insérer une image téléchargée ou une image de la galerie à l’emplacement du curseur dans la zone de texte HTML. |
    | Insérer une variable... | Cliquez pour insérer une variable à la position du curseur dans la zone de texte HTML. |
 
-1. Mettez à jour les paramètres _[!UICONTROL Advanced]_si nécessaire.
+1. Mettez à jour les paramètres _[!UICONTROL Advanced]_&#x200B;si nécessaire.
 
    - Pour contrôler le positionnement du code dans le conteneur parent, choisissez un **[!UICONTROL Alignment]** :
 
