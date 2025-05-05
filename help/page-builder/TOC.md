@@ -5,10 +5,11 @@ breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 516b605ba357f093bdd1cf1e92df18202d16a800
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 4%
+source-wordcount: '98'
+ht-degree: 6%
 
 ---
 
@@ -19,12 +20,12 @@ ht-degree: 4%
 - [Présentation de  [!DNL Page Builder]](introduction.md)
 - [Notes de mise à jour](release-notes.md)
 - [Configuration et configuration](setup.md)
-- de présentation{#walkthrough}
+- Présentation {#walkthrough}
    - [Partie 1 : page simple](1-simple-page.md)
    - [Partie 2 : blocs](2-blocks.md)
    - [Partie 3 : contenu du catalogue](3-catalog-content.md)
 - [Workspace](workspace.md)
-- de mise en page{#layout}
+- Disposition {#layout}
    - [Lignes](row.md)
    - [Colonnes](column.md)
    - [Onglets](tabs.md)
@@ -34,17 +35,17 @@ ht-degree: 4%
    - [Boutons](buttons.md)
    - [Diviseur](divider.md)
    - [Code HTML](html-code.md)
-- de médias{#media}
+- Média {#media}
    - [Image](image.md)
    - [Vidéo](video.md)
    - [Bannière](banner.md)
    - [Curseur](slider.md)
    - [Carte](map.md)
-- Ajouter des de contenu {#add-content}
+- Ajouter du contenu {#add-content}
    - [Bloquer](block.md)
    - [Bloc Dynamique](dynamic-block.md)
    - [Produits](products.md)
    - [Recommandations de produit](recommendations.md)
 - [Modèles](templates.md)
-- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/fr/docs/commerce-admin/user-guides/home)
+- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
