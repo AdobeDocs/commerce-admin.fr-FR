@@ -16,17 +16,17 @@ Le système de gestion du cache d’Adobe Commerce et de Magento Open Source per
 
 ![Enregistrer l’attribut de produit - Mettre à jour le message du cache](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
-La page _[!UICONTROL Cache Management]_affiche le statut de chaque cache principal et de la balise qui lui est associée. Les grands boutons situés dans le coin supérieur droit peuvent être utilisés pour vider le cache ou l’espace de stockage dans le cache « Tout compris ». Au bas de la page, des boutons supplémentaires vous permettent de vider le cache des images de produits du catalogue et le cache JavaScript/CSS.
+La page _[!UICONTROL Cache Management]_&#x200B;affiche le statut de chaque cache principal et de la balise qui lui est associée. Les grands boutons situés dans le coin supérieur droit peuvent être utilisés pour vider le cache ou l’espace de stockage dans le cache « Tout compris ». Au bas de la page, des boutons supplémentaires vous permettent de vider le cache des images de produits du catalogue et le cache JavaScript/CSS.
 
 >[!IMPORTANT]
 >
->Lorsque des entités de catalogue sont modifiées, cela peut affecter d’autres pages et invalider plusieurs caches simultanément. Lorsque vous examinez la page de gestion du cache, vous pouvez voir les éléments non valides qui doivent être actualisés lorsqu’ils n’ont _**été modifiés directement**_. Par exemple, cette invalidation se produit lorsque vous modifiez un produit du catalogue affecté à une catégorie ou lorsque vous modifiez une règle de produit associée.
+>Lorsque des entités de catalogue sont modifiées, cela peut affecter d’autres pages et invalider plusieurs caches simultanément. Lorsque vous examinez la page de gestion du cache, vous pouvez voir les éléments non valides qui doivent être actualisés lorsqu’ils n’ont _&#x200B;**été modifiés directement**&#x200B;_. Par exemple, cette invalidation se produit lorsque vous modifiez un produit du catalogue affecté à une catégorie ou lorsque vous modifiez une règle de produit associée.
 
 Après avoir effacé un cache, actualisez toujours votre navigateur pour vous assurer que vous pouvez voir les fichiers les plus récents. L’effacement du cache de Commerce n’efface pas le cache du navigateur web. Vous devrez peut-être vider la mémoire cache du navigateur pour afficher le contenu mis à jour.
 
 Des informations techniques supplémentaires sur la mise en cache d’Adobe Commerce sont disponibles à partir de la [ présentation du cache ](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target="_blank"} dans le _Guide de développement du front-end de Commerce_.
 
-Accédez à la page _[!UICONTROL Cache Management]_en effectuant l’une des opérations suivantes :
+Accédez à la page _[!UICONTROL Cache Management]_&#x200B;en effectuant l’une des opérations suivantes :
 
 - Cliquez sur le lien **[!UICONTROL Cache Management]** dans le message au-dessus de l’espace de travail.
 - Dans la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**.
@@ -86,7 +86,7 @@ Pour plus d’informations sur l’affectation de ressources pour accorder l’a
 
 ## Videz le cache d’images du produit.
 
-1. Sous _[!UICONTROL Additional Cache Management]_, cliquez sur **[!UICONTROL Flush Catalog Images Cache]**pour effacer les fichiers image de produit prégénérés.
+1. Sous _[!UICONTROL Additional Cache Management]_, cliquez sur **[!UICONTROL Flush Catalog Images Cache]**&#x200B;pour effacer les fichiers image de produit prégénérés.
 
    Le message `Image cache was cleaned` s’affiche en haut de l’espace de travail.
 
@@ -108,7 +108,7 @@ Les administrateurs système et les développeurs ayant accès au serveur d’ap
 
 | Contrôle | Description |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Mass Actions] | Coche la case de plusieurs caches. Options : <br/>**[!UICONTROL Select All]**— Coche la case de tous les caches.<br/>** Tout désélectionner **— Décoche la case de tous les caches.<br/>**[!UICONTROL Select Visible]** : coche la case de tous les caches visibles. <br/>**[!UICONTROL Unselect Visible]**— Décoche la case de tous les caches visibles. |
+| [!UICONTROL Mass Actions] | Coche la case de plusieurs caches. Options : <br/>**[!UICONTROL Select All]**— Coche la case de tous les caches.<br/>**&#x200B; Tout désélectionner &#x200B;**— Décoche la case de tous les caches.<br/>**[!UICONTROL Select Visible]** : coche la case de tous les caches visibles. <br/>**[!UICONTROL Unselect Visible]**— Décoche la case de tous les caches visibles. |
 | [!UICONTROL Actions] | Détermine l&#39;action à appliquer à tous les caches sélectionnés. Options : <br/>**[!UICONTROL Enable]**— Active tous les caches sélectionnés.<br/>**[!UICONTROL Disable]** — Désactive tous les caches sélectionnés. <br/>**[!UICONTROL Refresh]**— Actualise tous les caches sélectionnés. |
 | [!UICONTROL Submit] | Applique l’action à tous les caches sélectionnés. |
 

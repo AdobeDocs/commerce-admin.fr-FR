@@ -47,7 +47,7 @@ Pour une intégration réussie, tous les utilisateurs d’Adobe Commerce doivent
 
 ## Configuration de l’intégration
 
-Une fois les étapes suivantes effectuées par un administrateur ou un développeur disposant d’un accès système, le bouton _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_s’affiche sur la page de connexion d’administrateur Commerce pour tous les utilisateurs administrateurs.
+Une fois les étapes suivantes effectuées par un administrateur ou un développeur disposant d’un accès système, le bouton _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_&#x200B;s’affiche sur la page de connexion d’administrateur Commerce pour tous les utilisateurs administrateurs.
 
 ### Étape 1 : obtention de l’ID d’organisation Adobe
 
@@ -55,7 +55,7 @@ Pour activer cette fonctionnalité, vous devez être membre d’au moins une org
 
 ### Étape 2 : générer un nouveau projet, des clés API IMS et un secret
 
-Pour créer des projets pour une organisation, le compte Administrateur Adobe de l’organisation doit disposer du rôle d’administrateur système ou de développeur. Voir le Guide de Developer Console [](https://developer.adobe.com/developer-console/docs/guides/projects/).
+Pour créer des projets pour une organisation, le compte Administrateur Adobe de l’organisation doit disposer du rôle d’administrateur système ou de développeur. Voir le Guide de Developer Console [&#128279;](https://developer.adobe.com/developer-console/docs/guides/projects/).
 
 1. Connectez-vous à [Adobe Developer Console](https://developer.adobe.com/).
 1. Accédez à l’onglet **[!UICONTROL Projects]** (adobe.io/projects) et cliquez sur **[!UICONTROL Create a new project]**.

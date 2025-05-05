@@ -95,7 +95,7 @@ Activez l’extension Commerce Admin Unified Experience , puis connectez-vous vi
 
 >[!NOTE]
 >
->Ces instructions expliquent comment un administrateur de projet Commerce Cloud peut activer l’extension à l’aide de l’interface de ligne de commande Adobe Commerce. Les utilisateurs administrateurs de Commerce peuvent également activer l’extension en mettant à jour les paramètres de configuration de la boutique Commerce [](admin-unified-experience-integration-manage.md#from-the-commerce-admin).
+>Ces instructions expliquent comment un administrateur de projet Commerce Cloud peut activer l’extension à l’aide de l’interface de ligne de commande Adobe Commerce. Les utilisateurs administrateurs de Commerce peuvent également activer l’extension en mettant à jour les paramètres de configuration de la boutique Commerce [&#128279;](admin-unified-experience-integration-manage.md#from-the-commerce-admin).
 
 1. À partir du répertoire racine de votre environnement de projet cloud sur votre station de travail locale, utilisez l’outil [Magento-cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html) pour vous connecter au serveur d’applications Commerce.
 

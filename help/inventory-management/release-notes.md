@@ -127,11 +127,11 @@ Inventory management 1.2.4 (version du module : `magento/inventory-metapackage =
 
 ![Problème résolu](../assets/fix.svg) La gestion des stocks de plus de 10 000 articles a été améliorée. Auparavant, les problèmes de performances empêchaient parfois les commerçants de modifier les stocks dans l’administrateur avant de lancer leur site web. <!--- MC-42643-->
 
-![Correction d’un problème](../assets/fix.svg) La page **[!UICONTROL User Roles]** dans l’interface Administration est mise à jour afin de fournir aux administrateurs un accès restreint aux autorisations pour la configuration des méthodes de diffusion. La section _Modes d’expédition_ a été renommée en _[!UICONTROL Delivery methods]_et_[!UICONTROL In-Store Pickup]_ est déplacée sous la section _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![Correction d’un problème](../assets/fix.svg) La page **[!UICONTROL User Roles]** dans l’interface Administration est mise à jour afin de fournir aux administrateurs un accès restreint aux autorisations pour la configuration des méthodes de diffusion. La section _Modes d’expédition_ a été renommée en _[!UICONTROL Delivery methods]_&#x200B;et&#x200B;_[!UICONTROL In-Store Pickup]_ est déplacée sous la section _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![Problème résolu](../assets/fix.svg) Adobe Commerce ne crée plus de réservation de produit en double après la mise à jour d&#39;un avoir par l&#39;API. <!--- MC-41757-->
 
-![Problème corrigé](../assets/fix.svg) Le passage de l’onglet _[!UICONTROL Pick up in Store]_à l’onglet_[!UICONTROL Shipping]_ dans le workflow de passage en caisse ne déclenche plus d’erreur JavaScript lorsque seule la diffusion en magasin Pickup est disponible. <!--- MC-42808-->
+![Problème corrigé](../assets/fix.svg) Le passage de l’onglet _[!UICONTROL Pick up in Store]_&#x200B;à l’onglet&#x200B;_[!UICONTROL Shipping]_ dans le workflow de passage en caisse ne déclenche plus d’erreur JavaScript lorsque seule la diffusion en magasin Pickup est disponible. <!--- MC-42808-->
 
 ![Problème résolu](../assets/fix.svg) La quantité de produit vendable et la quantité de produit en stock sont désormais correctement synchronisées. Auparavant, la compensation de réservation de stock n&#39;était pas recréée pour les commandes annulées. <!--- MC-42485-->
 

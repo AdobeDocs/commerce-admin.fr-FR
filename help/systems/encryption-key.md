@@ -55,7 +55,7 @@ Les instructions suivantes nécessitent l’accès à un terminal.
 
 1. Modifiez la clé de chiffrement à l’aide de l’une des méthodes suivantes.
 
-   Commande +++CLI
+   +++Commande CLI
 
    Exécutez la commande d’interface de ligne de commande suivante et assurez-vous qu’elle se termine sans erreur. Si vous devez rechiffrer certaines valeurs de configuration système ou certains champs de paiement, consultez le [guide détaillé sur le rechiffrement](https://developer.adobe.com/commerce/php/development/security/data-encryption/) dans le _Guide de développement PHP_.
 
@@ -63,7 +63,7 @@ Les instructions suivantes nécessitent l’accès à un terminal.
    bin/magento encryption:key:change
    ```
 
-+++
+   +++
 
    +++Paramètres d’administration
 
@@ -86,7 +86,7 @@ Les instructions suivantes nécessitent l’accès à un terminal.
       >
       >Conservez l’enregistrement de la nouvelle clé dans un emplacement sécurisé. Il est nécessaire de déchiffrer les données si des problèmes se produisent avec vos fichiers.
 
-+++
+   +++
 
 1. Videz le cache.
 

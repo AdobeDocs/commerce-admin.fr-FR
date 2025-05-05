@@ -84,7 +84,7 @@ Le processus d’installation [!DNL Inventory Management] ajoute tous les module
 
 ## Activer les fonctionnalités [!DNL Inventory Management]
 
-Lorsqu’elle est installée, mise à niveau ou mise à jour, l’option _[!UICONTROL Manage Stock]_dans l’Administration est activée par défaut. Cette option permet le suivi et la gestion des stocks, mais n’affecte pas le statut du module. Pour désactiver les modules, reportez-vous à la section suivante.
+Lorsqu’elle est installée, mise à niveau ou mise à jour, l’option _[!UICONTROL Manage Stock]_&#x200B;dans l’Administration est activée par défaut. Cette option permet le suivi et la gestion des stocks, mais n’affecte pas le statut du module. Pour désactiver les modules, reportez-vous à la section suivante.
 
 Pour plus d’informations sur les configurations, voir [ Configuration d’Inventory management ](configuration.md).
 
@@ -99,7 +99,7 @@ Vous pouvez désactiver [!DNL Inventory Management] modules pour :
 * Accélérez le processus de mise à niveau pour les commerçants effectuant la migration de 2.0.x, 2.1.x, 2.2.x ou 2.3.x vers 2.4.x.
 * Utilisez des modules système d’inventaire et de gestion des commandes personnalisés ou tiers.
 
-Pour plus d’informations sur la désactivation des modules applicables](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) reportez-vous à la page [Activer ou désactiver des modules du _Guide d’installation_.
+Pour plus d’informations sur la désactivation des modules applicables[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) reportez-vous à la page Activer ou désactiver des modules du _Guide d’installation_.
 
 Une fois l’opération terminée, le système fournit une liste de modules et de valeurs dans `<Magento_installation_directory>/app/etc/config.php`, en commençant par :
 
@@ -241,5 +241,5 @@ Pour la dernière version, mettez à jour votre version de métapaquet :
 
 Consultez les guides suivants pour plus d’informations sur les mises à niveau de Commerce :
 
-* Guide de mise à jour de Commerce [](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
+* Guide de mise à jour de Commerce [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
 * [Activation ou désactivation de modules](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}

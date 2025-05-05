@@ -16,7 +16,7 @@ Le cœur de [!DNL Inventory Management] suit chaque produit disponible virtuelle
 
 >[!NOTE]
 >
->Pour plus d’informations sur l’utilisation du système [!DNL Inventory Management] par programmation](https://developer.adobe.com/commerce/php/development/framework/inventory-management/) consultez la [ documentation pour les développeurs .
+>Pour plus d’informations sur l’utilisation du système [!DNL Inventory Management] par programmation[&#128279;](https://developer.adobe.com/commerce/php/development/framework/inventory-management/) consultez la  documentation pour les développeurs .
 
 ## Algorithme de sélection Source
 
