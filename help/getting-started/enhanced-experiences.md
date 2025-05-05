@@ -16,7 +16,7 @@ Outre les éléments standard qui permettent aux clients d’effectuer des achat
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=fr)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
@@ -84,7 +84,7 @@ Adobe Commerce et Magento Open Source proposent toute une gamme d’outils pour 
 
 ## Optimiser les processus d’entreprise et la rentabilité
 
-- **[!DNL Advanced Reporting]** - Obtenez des informations précieuses en un coup d’oeil grâce aux rapports dynamiques sur les produits, les commandes et les clients, optimisés par [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=en).
+- **[!DNL Advanced Reporting]** - Obtenez des informations précieuses en un coup d’oeil grâce aux rapports dynamiques sur les produits, les commandes et les clients, optimisés par [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=fr).
 
 - **Instantanés de tableau de bord** - Il est essentiel de connaître les éléments de votre site qui vous intéressent pour maximiser votre budget marketing. Utilisez ces [informations sur votre tableau de bord](admin-dashboard.md) pour déterminer ce que vous devez vendre de manière croisée à des clients fidèles ou les produits à mettre en vente.
 

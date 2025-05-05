@@ -14,7 +14,7 @@ ht-degree: 0%
 
 
 
-Payment Services offre une solution clé en main en libre-service, notamment des tests de sandbox et une configuration simple, pour offrir un traitement des paiements robuste et sécurisé. Pour en savoir plus, consultez le [_Guide de l’utilisateur des services de paiement_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html).
+Payment Services offre une solution clé en main en libre-service, notamment des tests de sandbox et une configuration simple, pour offrir un traitement des paiements robuste et sécurisé. Pour en savoir plus, consultez le [_Guide de l’utilisateur des services de paiement_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=fr).
 
 Pour accéder aux paramètres de configuration des services de paiement, dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** et cliquez sur **[!UICONTROL Settings]**.
 
@@ -22,7 +22,7 @@ Pour accéder aux paramètres de configuration des services de paiement, dans la
 
 >[!NOTE]
 >
->Pour utiliser la configuration héritée au lieu de [Paramètres](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html), voir [Configuration héritée](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html).
+>Pour utiliser la configuration héritée au lieu de [Paramètres](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html?lang=fr), voir [Configuration héritée](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html?lang=fr).
 
 ## [!UICONTROL General]
 
@@ -46,10 +46,10 @@ Pour accéder aux paramètres de configuration des services de paiement, dans la
 |---|---|---|
 | [!UICONTROL Title] | vue magasin | Ajoutez le texte à afficher comme titre pour cette option de paiement dans la vue Mode de paiement lors du passage en caisse. |
 | [!UICONTROL Payment Action] | site internet | [action de paiement](payment-methods.md#payment-actions) pour le mode de paiement spécifié. Options : [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL 3DS Secure authentication] | site internet | Activez ou désactivez l’authentification sécurisée [3DS](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/security.html#3ds). Options : [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
+| [!UICONTROL 3DS Secure authentication] | site internet | Activez ou désactivez l’authentification sécurisée [3DS](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/security.html?lang=fr#3ds). Options : [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | site internet | Activez ou désactivez les champs de carte de crédit à afficher sur la page de passage en caisse. Options : [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Vault enabled] | vue magasin | Activez ou désactivez [chambre forte de carte de crédit](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html). Options : [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show vaulted payment methods in Admin] | vue magasin | Activez ou désactivez la possibilité d’exécuter des commandes pour les clients dans l’Administration [à l’aide d’un mode de paiement en chambre forte](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html). Options : [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Vault enabled] | vue magasin | Activez ou désactivez [chambre forte de carte de crédit](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html?lang=fr). Options : [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show vaulted payment methods in Admin] | vue magasin | Activez ou désactivez la possibilité d’exécuter des commandes pour les clients dans l’Administration [à l’aide d’un mode de paiement en chambre forte](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html?lang=fr). Options : [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | site internet | Activez ou désactivez le mode de débogage. Options : [!UICONTROL Yes] / [!UICONTROL No] |
 
 {style="table-layout:auto"}

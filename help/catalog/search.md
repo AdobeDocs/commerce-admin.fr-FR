@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) offre une expérience de recherche rapide, très pertinente et intuitive et est disponible gratuitement pour Adobe Commerce. Cette section décrit les fonctionnalités de recherche standard qui peuvent être différentes de [!DNL Live Search].
+>[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=fr) offre une expérience de recherche rapide, très pertinente et intuitive et est disponible gratuitement pour Adobe Commerce. Cette section décrit les fonctionnalités de recherche standard qui peuvent être différentes de [!DNL Live Search].
 
 Les recherches montrent que les personnes qui utilisent la recherche sont plus susceptibles de faire un achat que les clients qui dépendent uniquement de la navigation. En fait, selon certaines études, les gens qui utilisent le référencement sont près de deux fois plus susceptibles de faire un achat.
 
@@ -32,7 +32,7 @@ Les sections suivantes décrivent les fonctionnalités de base de la recherche c
 
 >[!NOTE]
 >
->Lorsque [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) est installé et que le widget [[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/storefront-popover) est activé, la zone de recherche renvoie « rechercher au fur et à mesure que vous tapez » dans une fenêtre contextuelle.
+>Lorsque [[!DNL Live Search]](https://experienceleague.adobe.com/fr/docs/commerce/live-search/overview) est installé et que le widget [[!DNL Storefront Popover]](https://experienceleague.adobe.com/fr/docs/commerce/live-search/live-search-storefront/storefront-popover) est activé, la zone de recherche renvoie « rechercher au fur et à mesure que vous tapez » dans une fenêtre contextuelle.
 
 La zone de recherche située dans l’en-tête du magasin permet aux visiteurs de trouver les produits de votre catalogue. Le texte de recherche peut être le nom complet ou partiel du produit ou tout autre mot ou expression qui décrit le produit. Les termes de recherche que les personnes utilisent pour trouver des produits peuvent être gérés à partir de l’administrateur.
 
@@ -48,7 +48,7 @@ La zone de recherche située dans l’en-tête du magasin permet aux visiteurs d
 
 >[!NOTE]
 >
->La fonctionnalité de recherche avancée de formulaires décrite ici ne s’applique pas aux [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
+>La fonctionnalité de recherche avancée de formulaires décrite ici ne s’applique pas aux [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=fr).
 
 La recherche avancée permet aux acheteurs de rechercher dans le catalogue en fonction des valeurs saisies dans un formulaire. Comme le formulaire contient plusieurs champs, une seule recherche peut inclure plusieurs paramètres. Le résultat est une liste de tous les produits du catalogue qui correspondent aux critères. Un lien vers la Recherche avancée se trouve dans le pied de page de votre boutique.
 

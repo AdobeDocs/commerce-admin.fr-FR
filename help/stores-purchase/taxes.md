@@ -18,7 +18,7 @@ Configurez votre boutique pour calculer les taxes en fonction des paramètres r�
 >
 >Les versions 2.4.0 à 2.4.3 d’Adobe Commerce et de Magento Open Source comprenaient l’extension développée par le fournisseur Vertex, utilisée pour l’intégration à Vertex Cloud afin de fournir la gestion fiscale et la normalisation des adresses. À compter de la version 2.4.4, cette extension n’est plus fournie avec la version principale et doit être installée et mise à jour à partir du Commerce Marketplace ou directement à partir du fournisseur. [Contactez le sommet](https://marketplace.magento.com/partner/vertex_inc) pour plus d’informations sur l’extension et la documentation.<br><br>
 >
->Si l’extension groupée est activée et configurée, vous devez mettre à jour votre fichier compositeur.json dans le cadre du processus de mise à niveau 2.4.4 et gérer les mises à jour de l’extension. Voir [Mise à niveau de modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) dans le _Guide de mise à niveau_.
+>Si l’extension groupée est activée et configurée, vous devez mettre à jour votre fichier compositeur.json dans le cadre du processus de mise à niveau 2.4.4 et gérer les mises à jour de l’extension. Voir [Mise à niveau de modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=fr) dans le _Guide de mise à niveau_.
 
 ## Référence rapide
 

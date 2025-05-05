@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Utiliser un réseau de diffusion de contenu
 
-Un réseau de diffusion de contenu (CDN) peut être utilisé pour stocker des fichiers multimédias. Adobe Commerce sur l’infrastructure cloud inclut le réseau de diffusion de contenu Fastly (voir [Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html) dans le _Guide de l’infrastructure Commerce sur le cloud_). Une instance Commerce installée _sur site_ n’inclut pas d’intégration à un réseau de diffusion de contenu spécifique. Vous pouvez utiliser le réseau de diffusion de contenu de votre choix.
+Un réseau de diffusion de contenu (CDN) peut être utilisé pour stocker des fichiers multimédias. Adobe Commerce sur l’infrastructure cloud inclut le réseau de diffusion de contenu Fastly (voir [Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=fr) dans le _Guide de l’infrastructure Commerce sur le cloud_). Une instance Commerce installée _sur site_ n’inclut pas d’intégration à un réseau de diffusion de contenu spécifique. Vous pouvez utiliser le réseau de diffusion de contenu de votre choix.
 
 Après avoir configuré le réseau de diffusion de contenu, vous devez effectuer la configuration à partir de l’administrateur. Les modifications peuvent être apportées au niveau global ou au niveau du site web. Lorsqu’un réseau de diffusion de contenu est utilisé pour le stockage des médias, tous les chemins d’accès aux médias sur les pages de magasin Commerce sont modifiés en chemins d’accès au réseau de diffusion de contenu spécifiés dans la configuration.
 

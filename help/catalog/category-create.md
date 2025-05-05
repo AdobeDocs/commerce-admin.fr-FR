@@ -116,7 +116,7 @@ Définissez également les mots-clés et attributs associés, tels que :
 
 1. Si vous souhaitez que la page de catégorie inclue la section _`Filter by Attribute`_de la navigation superposée, définissez **[!UICONTROL Anchor]**&#x200B;sur `Yes`.
 
-1. Pour les options de **[!UICONTROL Available Product Listing Sort By]**, sélectionnez une ou plusieurs des valeurs disponibles pour que les clients puissent trier la liste. Ce paramètre ne s’applique pas au [!DNL Live Search] [widget de page de liste de produits](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
+1. Pour les options de **[!UICONTROL Available Product Listing Sort By]**, sélectionnez une ou plusieurs des valeurs disponibles pour que les clients puissent trier la liste. Ce paramètre ne s’applique pas au [!DNL Live Search] [widget de page de liste de produits](https://experienceleague.adobe.com/fr/docs/commerce/live-search/live-search-storefront/plp-styling).
 
    Par défaut, toutes les valeurs disponibles sont incluses. Décochez la case **[!UICONTROL Use All]** pour modifier les sélections. Par exemple, les valeurs peuvent inclure :
 
@@ -124,7 +124,7 @@ Définissez également les mots-clés et attributs associés, tels que :
    - `Product Name`
    - `Price`
 
-1. Pour définir l’ordre de tri par défaut de la catégorie, choisissez la valeur **[!UICONTROL Default Product Listing Sort By]** . Ce paramètre ne s’applique pas au [!DNL Live Search] [widget de page de liste de produits](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
+1. Pour définir l’ordre de tri par défaut de la catégorie, choisissez la valeur **[!UICONTROL Default Product Listing Sort By]** . Ce paramètre ne s’applique pas au [!DNL Live Search] [widget de page de liste de produits](https://experienceleague.adobe.com/fr/docs/commerce/live-search/live-search-storefront/plp-styling).
 
 1. Pour modifier le paramètre de navigation par couches par défaut [étape de prix](navigation-layered.md#configure-price-navigation), procédez comme suit :
 

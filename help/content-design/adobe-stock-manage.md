@@ -118,13 +118,13 @@ Les détails de chaque image peuvent être affichés. D’autres actions spécif
 
 ## Connectez-vous à votre compte Adobe
 
-Pour accéder à une image et éliminer le filigrane Adobe Stock, vous devez [vous connecter avec un compte d’Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) et acheter des crédits pour acquérir des droits de licence d’utilisation d’une image.
+Pour accéder à une image et éliminer le filigrane Adobe Stock, vous devez [vous connecter avec un compte d’Adobe](https://helpx.adobe.com/fr/manage-account/using/access-adobe-id-account.html) et acheter des crédits pour acquérir des droits de licence d’utilisation d’une image.
 
 1. [Accédez à la grille de recherche Adobe Stock](#access-the-adobe-stock-search-grid).
 
 1. Cliquez sur **[!UICONTROL Sign In]** en haut à droite.
 
-   Une nouvelle fenêtre de navigateur vous guide tout au long du [processus de connexion à l’Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
+   Une nouvelle fenêtre de navigateur vous guide tout au long du [processus de connexion à l’Adobe](https://helpx.adobe.com/fr/manage-account/using/access-adobe-id-account.html).
 
    Une fois le processus de connexion terminé, l’état des images sous licence s’affiche sous forme d’étiquette dans les résultats de recherche.
 
@@ -178,7 +178,7 @@ Les ressources Adobe Stock que vous souhaitez utiliser pour vos magasins de prod
 
      >[!NOTE]
      >
-     >Vous devez disposer des [crédits Adobe Stock](https://helpx.adobe.com/stock/help/credit-packs.html) disponibles dans votre compte pour obtenir une licence pour l’image.
+     >Vous devez disposer des [crédits Adobe Stock](https://helpx.adobe.com/fr/stock/help/credit-packs.html) disponibles dans votre compte pour obtenir une licence pour l’image.
 
    Cette action vous invite à spécifier un nom de fichier utilisé pour enregistrer l’image dans le [stockage multimédia](media-storage.md). Un nom de fichier par défaut est fourni, mais vous pouvez le personnaliser selon vos préférences.
 

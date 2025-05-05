@@ -21,11 +21,11 @@ Commencez avec l’intégration de l’Experience Cloud avec Commerce Admin en c
 ## Conditions préalables
 
 - Adobe Commerce doit être configuré pour utiliser l’ [authentification Adobe IMS](../getting-started/adobe-ims-config.md)
-- Approvisionnement des comptes et autorisations : les administrateurs doivent disposer d’un [profil d’entreprise Adobe](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html#:~:text=Adobe%20profiles%20help%20you%20manage,under%20the%20same%20email%20address) avec accès aux ressources suivantes pour configurer l’intégration Experience Cloud :
-   - [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html) : ajoutez et gérez des comptes utilisateurs et développeurs d’Adobes pour l’organisation.
+- Approvisionnement des comptes et autorisations : les administrateurs doivent disposer d’un [profil d’entreprise Adobe](https://helpx.adobe.com/fr/enterprise/kb/introducing-adobe-profiles.html#:~:text=Adobe%20profiles%20help%20you%20manage,under%20the%20same%20email%20address) avec accès aux ressources suivantes pour configurer l’intégration Experience Cloud :
+   - [Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/admin-guide.html) : ajoutez et gérez des comptes utilisateurs et développeurs d’Adobes pour l’organisation.
    - [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started/) : accès développeur ou administrateur système pour créer des projets App Builder et générer les informations d’identification de connexion et la configuration de projet afin d’utiliser le service Adobe I/O Events
-   - [Commerce sur le projet d’infrastructure cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/start/onboarding.html#get-started-with-the-project-web-interface) : installez les modules requis et configurez le serveur d’applications Commerce à l’aide de l’interface de ligne de commande Adobe Commerce.
-   - [Administrateur Commerce](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html) : mettez à jour la configuration du magasin et gérez les comptes utilisateur Commerce
+   - [Commerce sur le projet d’infrastructure cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/start/onboarding.html?lang=fr#get-started-with-the-project-web-interface) : installez les modules requis et configurez le serveur d’applications Commerce à l’aide de l’interface de ligne de commande Adobe Commerce.
+   - [Administrateur Commerce](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html?lang=fr) : mettez à jour la configuration du magasin et gérez les comptes utilisateur Commerce
 
 ## Présentation de la configuration
 
@@ -49,7 +49,7 @@ Avant de configurer l’intégration de l’Experience Cloud, vérifiez que votr
 
 1. Vérifiez qu’Adobe IMS est activé.
 
-   - Utilisez l’ [ URL d’accès SSH](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) pour que l’environnement se connecte au serveur d’applications Commerce.
+   - Utilisez l’ [ URL d’accès SSH](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=fr) pour que l’environnement se connecte au serveur d’applications Commerce.
 
    - Dans la ligne de commande, utilisez l’interface de ligne de commande Adobe Commerce pour vérifier l’état du module IMS.
 
@@ -96,7 +96,7 @@ Activez l’extension Commerce Admin Unified Experience (Expérience unifiée d�
 >
 >Ces instructions indiquent comment un administrateur de projet Commerce Cloud peut activer l’extension à l’aide de l’interface de ligne de commande d’Adobe Commerce. Les utilisateurs administrateurs de Commerce peuvent également activer l’extension en mettant à jour les [paramètres de configuration du magasin Commerce](admin-unified-experience-integration-manage.md#from-the-commerce-admin).
 
-1. Dans le répertoire racine de votre environnement de projet Cloud sur votre poste de travail local, utilisez l’[outil d’interface de ligne de commande magento-cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html) pour vous connecter au serveur d’applications Commerce.
+1. Dans le répertoire racine de votre environnement de projet Cloud sur votre poste de travail local, utilisez l’[outil d’interface de ligne de commande magento-cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html?lang=fr) pour vous connecter au serveur d’applications Commerce.
 
    ```bash
    magento-cloud ssh
@@ -144,7 +144,7 @@ Activez l’extension Commerce Events (`magento/commerce-eventing`) pour envoyer
 
 >[!TIP]
 >
->Pour plus d’informations sur la configuration et la gestion des variables d’environnement à l’aide du fichier `.magento.env.yaml`, voir [ Configuration des variables d’environnement pour le déploiement](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html).
+>Pour plus d’informations sur la configuration et la gestion des variables d’environnement à l’aide du fichier `.magento.env.yaml`, voir [ Configuration des variables d’environnement pour le déploiement](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=fr).
 
 ### Configuration de l’intégration des événements Commerce
 
@@ -168,7 +168,7 @@ Configurez l’intégration des événements Commerce en effectuant les tâches 
 
 1. Pour établir la connexion, envoyez un événement au consommateur via le fournisseur d’événements.
 
-   - À partir de la ligne de commande du répertoire de projet cloud local, [utilisez SSH pour vous connecter au serveur d’applications Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment).
+   - À partir de la ligne de commande du répertoire de projet cloud local, [utilisez SSH pour vous connecter au serveur d’applications Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=fr#connect-to-a-remote-environment).
 
      ```bash
      magento-cloud ssh
@@ -198,6 +198,6 @@ Vérifiez qu’un administrateur Commerce peut se connecter à l’Experience Cl
 
 1. Vérifiez que vous pouvez effectuer les tâches d’administration comme prévu.
 
-   Les workflows de l’administrateur Commerce doivent suivre le même processus. Si vous rencontrez des modifications ou des erreurs de workflow après l’activation de l’intégration de l’Experience Cloud, contactez votre administrateur système Commerce ou [ envoyez un ticket d’assistance à l’Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+   Les workflows de l’administrateur Commerce doivent suivre le même processus. Si vous rencontrez des modifications ou des erreurs de workflow après l’activation de l’intégration de l’Experience Cloud, contactez votre administrateur système Commerce ou [ envoyez un ticket d’assistance à l’Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=fr#submit-ticket).
 
 Une fois l’intégration de l’Experience Cloud configurée, vérifiez que les comptes d’administrateur sont configurés correctement pour accéder aux projets Commerce via Experience Cloud. Voir [Gérer les utilisateurs administrateurs](/help/getting-started/admin-unified-experience-integration-manage.md#manage-admin-user-accounts).

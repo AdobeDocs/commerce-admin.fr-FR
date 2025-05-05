@@ -187,5 +187,5 @@ La zone de recherche située en haut à gauche de la grille Commandes permet de 
 
 Pour obtenir de l’aide sur la résolution des problèmes de commande, reportez-vous aux articles suivants de la base de connaissances de prise en charge de Commerce :
 
-- [Erreur d’affichage des commandes](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
+- [Erreur d’affichage des commandes](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html?lang=fr)
 - [Commandes non affichées dans la grille Commandes dans l’Admin](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)

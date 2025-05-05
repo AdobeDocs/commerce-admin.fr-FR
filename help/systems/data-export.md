@@ -80,7 +80,7 @@ La case à cocher de la première colonne permet d’exclure des attributs du fi
 
 1. Faites défiler la page vers le bas et cliquez sur **[!UICONTROL Continue]** dans le coin inférieur droit de la page.
 
-   Une fois la tâche terminée, le fichier est traité via une file d’attente de messages (assurez-vous que votre tâche cron est en cours d’exécution). Le fichier exporté est enregistré dans le `var/export/ folder`. Pour plus d’informations sur la file d’attente des messages, voir [Gestion des files d’attente des messages](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) dans le _Guide de configuration_.
+   Une fois la tâche terminée, le fichier est traité via une file d’attente de messages (assurez-vous que votre tâche cron est en cours d’exécution). Le fichier exporté est enregistré dans le `var/export/ folder`. Pour plus d’informations sur la file d’attente des messages, voir [Gestion des files d’attente des messages](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=fr) dans le _Guide de configuration_.
 
    Vous pouvez enregistrer ou ouvrir le fichier CSV exporté sous forme de feuille de calcul, puis modifier les données et le réimporter dans votre magasin.
 
@@ -92,4 +92,4 @@ La case à cocher de la première colonne permet d’exclure des attributs du fi
 
 Pour obtenir de l’aide sur la résolution des problèmes d’exportation des données, reportez-vous aux articles suivants de la base de connaissances de prise en charge de Commerce :
 
-- [ Le fichier .csv de produits exportés n’apparaît pas](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)
+- [ Le fichier .csv de produits exportés n’apparaît pas](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=fr)

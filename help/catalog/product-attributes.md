@@ -47,4 +47,4 @@ Supprimez les propriétés de produit inutilisées pour une meilleure structure 
 
 >[REMARQUE !]
 >
->Pour plus d’informations sur l’optimisation de la configuration des attributs de produit pour les performances, voir [Bonnes pratiques de gestion de catalogue](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) dans le _manuel d’implémentation_.
+>Pour plus d’informations sur l’optimisation de la configuration des attributs de produit pour les performances, voir [Bonnes pratiques de gestion de catalogue](https://experienceleague.adobe.com/fr/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) dans le _manuel d’implémentation_.

@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Inventory Management] pour Adobe Commerce et Magento Open Source vous donne les outils nécessaires pour gérer votre inventaire de produits. Les commerçants disposant d’un seul magasin pour plusieurs entrepôts, magasins, lieux de ramassage, expéditeurs, etc. peuvent utiliser ces fonctionnalités pour conserver les quantités à vendre et traiter les envois afin de terminer les commandes. Pour plus d’informations sur ces fonctionnalités et sur leur utilisation pour gérer des stocks à plusieurs emplacements, consultez le [_[!DNL Inventory Management] Guide de l’utilisateur _](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html).
+>[!DNL Inventory Management] pour Adobe Commerce et Magento Open Source vous donne les outils nécessaires pour gérer votre inventaire de produits. Les commerçants disposant d’un seul magasin pour plusieurs entrepôts, magasins, lieux de ramassage, expéditeurs, etc. peuvent utiliser ces fonctionnalités pour conserver les quantités à vendre et traiter les envois afin de terminer les commandes. Pour plus d’informations sur ces fonctionnalités et sur leur utilisation pour gérer des stocks à plusieurs emplacements, consultez le [_[!DNL Inventory Management] Guide de l’utilisateur _](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=fr).
 
 ## [!UICONTROL Stock Options]
 
 ![Options Stock](./assets/catalog-inventory-stock-options.png)<!-- zoom -->
 
-<!-- [Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Stock Options](https://experienceleague.adobe.com/fr/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 ![Options Stock de produits](./assets/catalog-inventory-product-stock-options.png)<!-- zoom -->
 
-<!-- [Product Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Product Stock Options](https://experienceleague.adobe.com/fr/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Manage Stock] | Global | Détermine si vous utilisez le contrôle d’inventaire complet pour gérer les éléments de votre catalogue. Options : <br/>**Oui** - Active le contrôle de stock complet pour suivre le nombre d’articles actuellement en stock. <br/>**Non** - Ne suit pas le nombre d’éléments actuellement en stock. |
 | [!UICONTROL Backorders] | Global | Détermine la manière dont votre boutique gère les commandes en arrière-plan. Un ordre de traitement ne modifie pas l’état de traitement de la commande. Les fonds sont toujours autorisés ou capturés immédiatement lorsque la commande est passée, que le produit soit en stock ou non. Lorsque le produit est disponible, il est expédié. Options : <br/>**sans commandes arrière** - N’accepte pas les commandes arrière lorsque le produit est en rupture de stock. <br/>**Autoriser la quantité inférieure à 0** - Accepte les commandes en arrière-plan lorsque la quantité est inférieure à zéro. <br/>**Allow Qty Below 0 and Notify Customer** - Accepte les commandes en arrière-plan lorsque la quantité est inférieure à zéro, mais avertit les clients que des commandes peuvent toujours être passées. |
-| [!UICONTROL Use deferred Stock update] | Global | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Détermine s’il faut différer la mise à jour du stock si les commandes en arrière-plan sont autorisées (l’option _Commandes en arrière_ est définie sur autre chose que la valeur par défaut `No backorders`). Il fonctionne pour un seul produit ou un site web entier et utilise le mécanisme _File d’attente des tâches_ pour permettre la mise à jour asynchrone des indicateurs de quantité d’inventaire après le passage des commandes. Cette option fonctionne également avec [Placement de commande asynchrone](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/high-throughput-order-processing.html#asynchronous-order-placement) en combinaison avec [Inventory management](../../inventory-management/introduction.md). |
+| [!UICONTROL Use deferred Stock update] | Global | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Détermine s’il faut différer la mise à jour du stock si les commandes en arrière-plan sont autorisées (l’option _Commandes en arrière_ est définie sur autre chose que la valeur par défaut `No backorders`). Il fonctionne pour un seul produit ou un site web entier et utilise le mécanisme _File d’attente des tâches_ pour permettre la mise à jour asynchrone des indicateurs de quantité d’inventaire après le passage des commandes. Cette option fonctionne également avec [Placement de commande asynchrone](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/high-throughput-order-processing.html?lang=fr#asynchronous-order-placement) en combinaison avec [Inventory management](../../inventory-management/introduction.md). |
 | Quantité maximale autorisée dans le panier | Global | Détermine le nombre maximal de produits qu’il est possible d’acheter dans une seule commande. Par défaut, la quantité maximale est définie sur 10 000. |
 | [!UICONTROL Out-of-Stock Threshold] | Global | Détermine le niveau de stock auquel un produit est considéré comme en rupture de stock. Options : <br/>**Montant positif** - Si _Bordures_ est désactivé, saisissez un montant positif. Lorsque les commandes d’arrière-plan sont activées, ce montant est ignoré. <br/>**Zéro** - Avec _Backorders_ activés, la saisie de `0` permet d’obtenir des commandes d’arrière-plan infinies. <br/>**Montant négatif** - Avec _Backorders_ activés, nous vous recommandons de saisir un montant négatif. Le montant est ajouté à la quantité vendable. Par exemple, saisissez -50 pour autoriser les commandes jusqu’à ce montant. |
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | Global | Détermine le montant minimum d’un article disponible à l’achat selon le groupe de clients. Par défaut, la quantité minimale est définie sur 1. Cliquez sur **[!UICONTROL Add Minimum Qty]** pour saisir une autre valeur pour un groupe de clients spécifique. |
@@ -61,11 +61,11 @@ ht-degree: 0%
 
 ![Opérations d’administration en bloc](./assets/catalog-inventory-admin-bulk-operations.png)<!-- zoom -->
 
-<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/fr/docs/commerce-admin/inventory/configuration/global-options) -->
 
 >[!NOTE]
 >
->Pour configurer et prendre en charge les **gestionnaires de file d’attente asynchrones**, vous devez utiliser la ligne de commande. Cela peut nécessiter l’aide des développeurs. Voir [Démarrage des consommateurs de la file d’attente de messages](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) dans le _Guide de configuration_.
+>Pour configurer et prendre en charge les **gestionnaires de file d’attente asynchrones**, vous devez utiliser la ligne de commande. Cela peut nécessiter l’aide des développeurs. Voir [Démarrage des consommateurs de la file d’attente de messages](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=fr) dans le _Guide de configuration_.
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 ![Fournisseurs de distance pour SSA basée sur les distances](./assets/catalog-inventory-distance-provider.png)<!-- zoom -->
 
-<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
+<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/fr/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 ![Fournisseur d’instances Google](./assets/catalog-inventory-distance-provider-settings.png)<!-- zoom -->
 
-<!-- [Google Distance Provider](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
+<!-- [Google Distance Provider](https://experienceleague.adobe.com/fr/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

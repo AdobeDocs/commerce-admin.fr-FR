@@ -86,7 +86,7 @@ Configurez les options de configuration par défaut pour le produit et le stock 
 
      >[!NOTE]
      >
-     >Pour configurer et prendre en charge les _gestionnaires de file d’attente asynchrones_, vous devez émettre une commande à l’aide de la ligne de commande. Cette étape peut nécessiter l’aide des développeurs. Voir [Démarrage des consommateurs de la file d’attente de messages](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) dans le _Guide de configuration_.
+     >Pour configurer et prendre en charge les _gestionnaires de file d’attente asynchrones_, vous devez émettre une commande à l’aide de la ligne de commande. Cette étape peut nécessiter l’aide des développeurs. Voir [Démarrage des consommateurs de la file d’attente de messages](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=fr) dans le _Guide de configuration_.
 
    - S’il est activé, définissez le **[!UICONTROL Asynchronous batch size]**. La taille de lot par défaut est 100. Lorsque les processus en masse atteignent cette valeur, le système les déclenche.
 

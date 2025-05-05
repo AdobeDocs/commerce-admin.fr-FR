@@ -25,7 +25,7 @@ Adobe Commerce et Magento Open Source réduisent les erreurs de commande en vér
 
 >[!TIP]
 >
->![Adobe Commerce B2B](../assets/b2b.svg) Avec l’installation et l’activation d’Adobe Commerce B2B, vous pouvez configurer la _commande rapide_ pour les clients associés à un compte d’entreprise. Cette fonction réduit le processus de commande à plusieurs clics lorsqu’ils connaissent le nom ou le SKU des produits qu’ils souhaitent commander. Vous pouvez également configurer la prise en charge des devis négociables pour les comptes de votre société. Pour plus d’informations sur les fonctionnalités B2B, consultez le [Guide de l’utilisateur d’Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>![Adobe Commerce B2B](../assets/b2b.svg) Avec l’installation et l’activation d’Adobe Commerce B2B, vous pouvez configurer la _commande rapide_ pour les clients associés à un compte d’entreprise. Cette fonction réduit le processus de commande à plusieurs clics lorsqu’ils connaissent le nom ou le SKU des produits qu’ils souhaitent commander. Vous pouvez également configurer la prise en charge des devis négociables pour les comptes de votre société. Pour plus d’informations sur les fonctionnalités B2B, consultez le [Guide de l’utilisateur d’Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=fr).
 
 ## Assistance commerciale
 

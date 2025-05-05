@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ![Tableau de bord](./assets/reports-dashboard.png)<!-- zoom -->
 
-<!-- [Dashboard](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
+<!-- [Dashboard](https://experienceleague.adobe.com/fr/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

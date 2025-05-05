@@ -49,5 +49,5 @@ Voir [[!DNL Inventory Management]](https://developer.adobe.com/commerce/webapi/r
 
 Si vous avez besoin d’informations ou si vous avez des questions qui ne sont pas abordées dans ce guide, utilisez les ressources suivantes :
 
-- [Statut de stock incorrect après l’installation de l’inventaire](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html)
-- [Tickets d’assistance](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) : envoyez un ticket pour recevoir de l’aide supplémentaire.
+- [Statut de stock incorrect après l’installation de l’inventaire](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html?lang=fr)
+- [Tickets d’assistance](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=fr#submit-ticket) : envoyez un ticket pour recevoir de l’aide supplémentaire.

@@ -16,7 +16,7 @@ Adobe Commerce et Magento Open Source prennent en charge divers services et mét
 
 >[!TIP]
 >
->Payment Services pour Adobe Commerce et Magento Open Source offre une solution en libre-service clé en main, y compris les tests de sandbox et une configuration simple, pour offrir un traitement des paiements robuste et sécurisé. Pour en savoir plus sur cet ensemble d&#39;outils puissants et sur la manière dont il peut vous donner les informations et le contrôle dont vous avez besoin pour créer la meilleure expérience pour vos acheteurs, consultez le [Guide d&#39;utilisation des services de paiement](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html).
+>Payment Services pour Adobe Commerce et Magento Open Source offre une solution en libre-service clé en main, y compris les tests de sandbox et une configuration simple, pour offrir un traitement des paiements robuste et sécurisé. Pour en savoir plus sur cet ensemble d&#39;outils puissants et sur la manière dont il peut vous donner les informations et le contrôle dont vous avez besoin pour créer la meilleure expérience pour vos acheteurs, consultez le [Guide d&#39;utilisation des services de paiement](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=fr).
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Certaines intégrations de paiements et extensions groupées ont été supprimé
 
 - **Amazon Pay** et **Klarna** : les versions 2.4.0 à 2.4.3 d’Adobe Commerce et Magento Open Source incluaient ces extensions développées par le fournisseur. À compter de la version 2.4.4, ces extensions ne sont plus incluses dans la version de base et doivent être installées et mises à jour à partir de Commerce Marketplace. La Marketplace permet également d’accéder à la documentation actuelle fournie par le développeur d’extensions.
 
-  Si l’une de ces extensions groupées est activée et configurée, vous devez mettre à jour votre fichier composer.json dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Voir [Mise à niveau des modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) dans le _Guide de mise à niveau_ pour plus d’informations.
+  Si l’une de ces extensions groupées est activée et configurée, vous devez mettre à jour votre fichier composer.json dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Voir [Mise à niveau des modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=fr) dans le _Guide de mise à niveau_ pour plus d’informations.
 
 - **Worldpay**, **Eway**, **CyberSource** et **Authorize.Net** : Pour plus d’informations sur la manière d’effectuer une transition sécurisée depuis ces intégrations de paiement, consultez le [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
@@ -49,7 +49,7 @@ Adobe Commerce et Magento Open Source prennent en charge de nombreuses solutions
 
 ### Solutions recommandées
 
-- [ Services de paiement ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
+- [ Services de paiement ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=fr)
 - [PayPal Express Checkout](paypal-express-checkout.md)
 - [Braintree](braintree.md)
 
@@ -82,6 +82,6 @@ Les services et filtres de protection contre la fraude examinent les commandes e
 
 ## Résolution des problèmes liés aux ressources
 
-Pour obtenir de l’aide sur la résolution des problèmes de paiement, consultez la [Base de connaissances du support technique](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=en).
+Pour obtenir de l’aide sur la résolution des problèmes de paiement, consultez la [Base de connaissances du support technique](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=fr).
 
 [1]: https://marketplace.magento.com/catalogsearch/result?q=fraud%20protection

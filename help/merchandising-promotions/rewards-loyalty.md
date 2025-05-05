@@ -187,4 +187,4 @@ Toutes les actions liées aux points de récompense sont affichées dans le bloc
 
 Pour obtenir de l’aide sur la résolution des problèmes liés aux points de récompense, reportez-vous aux articles suivants de la base de connaissances de support Commerce :
 
-- [Erreur 404 - suppression des points de récompense lors du passage en caisse multi-livraison](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html)
+- [Erreur 404 - suppression des points de récompense lors du passage en caisse multi-livraison](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html?lang=fr)

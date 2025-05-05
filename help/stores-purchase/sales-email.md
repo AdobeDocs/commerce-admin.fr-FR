@@ -35,7 +35,7 @@ Veillez à mettre à jour le modèle [en-tête d&#39;email](../systems/email-tem
    - `Disable` - Envoie le courrier électronique de vente lorsqu’il est déclenché par un événement.
    - `Enable` - Envoie le courrier électronique de vente à intervalles réguliers et prédéterminés.
 
-   Le support Adobe Commerce recommande d’activer l’envoi asynchrone afin d’améliorer les performances de placement des commandes. Voir [Bonnes pratiques de configuration pour le traitement des commandes](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html) dans la base de connaissances de support Adobe Commerce.
+   Le support Adobe Commerce recommande d’activer l’envoi asynchrone afin d’améliorer les performances de placement des commandes. Voir [Bonnes pratiques de configuration pour le traitement des commandes](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html?lang=fr) dans la base de connaissances de support Adobe Commerce.
 
 ## Étape 3. Compléter les détails de chaque email de vente
 

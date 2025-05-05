@@ -169,7 +169,7 @@ Vous pouvez également configurer la livraison vers des pays spécifiques pour c
 
 Pour obtenir de l’aide sur la résolution des problèmes de configuration des pays, reportez-vous aux [!DNL Commerce] articles suivants de la base de connaissances d’assistance :
 
-- [Comment ajouter un pays](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
+- [Comment ajouter un pays](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=fr)
 
 ## [!UICONTROL Merchant Location]
 

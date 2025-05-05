@@ -19,7 +19,7 @@ Ces notes de mise à jour de l’extension Commerce Admin Unified Experience (`m
 
 >[!NOTE]
 >
->Voir [Disponibilité du produit](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) pour obtenir des informations détaillées sur l’état de publication de l’extension Admin Unified Experience par rapport à Adobe Commerce.
+>Voir [Disponibilité du produit](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=fr) pour obtenir des informations détaillées sur l’état de publication de l’extension Admin Unified Experience par rapport à Adobe Commerce.
 
 ## Version 1.0
 

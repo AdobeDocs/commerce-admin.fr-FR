@@ -18,7 +18,7 @@ Les commerçants qui ont intégré leur instance Commerce au workflow d’authen
 
 Les déploiements de Commerce reviennent aux stratégies d’authentification et de mot de passe par défaut de Commerce une fois l’intégration IMS désactivée. Seuls les workflows des utilisateurs administrateurs sont affectés lorsque cette intégration est activée ou désactivée.
 
-Voir [Votre compte administrateur](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html) pour une présentation de la connexion de l’administrateur Commerce.
+Voir [Votre compte administrateur](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=fr) pour une présentation de la connexion de l’administrateur Commerce.
 
 ## Étape 1 : désactivation de l’intégration
 
@@ -42,7 +42,7 @@ Après avoir désactivé l’intégration, les utilisateurs administrateurs doiv
 
 * Les utilisateurs administrateurs de Commerce qui se souviennent de leur mot de passe Commerce préexistant (c’est-à-dire un mot de passe Commerce qui a été créé avant l’intégration IMS) peuvent l’utiliser pour se connecter à l’administrateur.
 
-* Les utilisateurs administrateurs de Commerce qui ne disposent pas d’un mot de passe Commerce préexistant ou qui l’ont oublié doivent créer un nouveau mot de passe. Pour créer un nouveau mot de passe, les utilisateurs administrateurs peuvent utiliser la fonction [!UICONTROL Forgot your password?] de la page de connexion de Commerce pour créer un nouveau mot de passe. Voir [Réinitialisation des mots de passe client](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html). Commerce n’accepte pas de champ de mot de passe vide.
+* Les utilisateurs administrateurs de Commerce qui ne disposent pas d’un mot de passe Commerce préexistant ou qui l’ont oublié doivent créer un nouveau mot de passe. Pour créer un nouveau mot de passe, les utilisateurs administrateurs peuvent utiliser la fonction [!UICONTROL Forgot your password?] de la page de connexion de Commerce pour créer un nouveau mot de passe. Voir [Réinitialisation des mots de passe client](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html?lang=fr). Commerce n’accepte pas de champ de mot de passe vide.
 
 ## Après désactivation de l’intégration
 

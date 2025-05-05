@@ -16,7 +16,7 @@ Chaque installation d’Adobe Commerce et de Magento Open Source comporte une [h
 
 >[!NOTE]
 >
->Pour en savoir plus, voir [Plusieurs sites Web ou magasins](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) dans la documentation destinée aux développeurs [!DNL Commerce].
+>Pour en savoir plus, voir [Plusieurs sites Web ou magasins](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=fr) dans la documentation destinée aux développeurs [!DNL Commerce].
 
 ## Sites web
 

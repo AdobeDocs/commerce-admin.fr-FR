@@ -142,4 +142,4 @@ Si votre boutique comporte plusieurs vues dans différentes langues, les mêmes 
 
 
 [1]: https://marketplace.magento.com/extensions/content-customizations/translations-localization.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=fr

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**Fonction désactivée :** La sauvegarde est désactivée par défaut. L’activation de cette fonction peut nécessiter l’aide d’un développeur. Consultez la rubrique suivante _Guide d’installation_ pour activer les sauvegardes : [Sauvegarde et restauration du système de fichiers, du média et de la base de données](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html).
+>**Fonction désactivée :** La sauvegarde est désactivée par défaut. L’activation de cette fonction peut nécessiter l’aide d’un développeur. Consultez la rubrique suivante _Guide d’installation_ pour activer les sauvegardes : [Sauvegarde et restauration du système de fichiers, du média et de la base de données](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html?lang=fr).
 
 >[!NOTE]
 >

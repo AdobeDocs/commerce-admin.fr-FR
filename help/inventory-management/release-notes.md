@@ -20,11 +20,11 @@ Ces notes de mise à jour décrivent les versions de [!DNL Inventory Management]
 
 [!DNL Inventory Management] est un projet spécial d’ingénierie communautaire Magento Open Source ouvert aux contributeurs. Pour participer et contribuer, consultez le référentiel [GitHub project](https://github.com/magento/inventory) et [wiki](https://github.com/magento/inventory/wiki) pour commencer. Pour discuter du projet, rejoignez le canal [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) ([auto-inscription](https://opensource.magento.com/slack)).
 
-[Calendrier des versions](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} pour les versions prises en charge et compatibles.
+[Calendrier des versions](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=fr){target="_blank"} pour les versions prises en charge et compatibles.
 
 ## v1.2.7
 
-Les notes de mise à jour de [!DNL Inventory Management] 1.2.7 sont incluses dans les [notes de mise à jour de base 2.4.7](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
+Les notes de mise à jour de [!DNL Inventory Management] 1.2.7 sont incluses dans les [notes de mise à jour de base 2.4.7](https://experienceleague.adobe.com/fr/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
 
 ## v1.2.6
 
@@ -276,7 +276,7 @@ Les nouveaux modules pour [!DNL Inventory Management] 1.1.2 Beta incluent :
 
 [!DNL Inventory Management] 1.1.0 (version de module : `inventory-composer-metapackage = 1.1.0`) est pris en charge et compatible avec la version 2.3.0 d’Adobe Commerce, Adobe Commerce sur l’infrastructure cloud et la base de code du Magento Open Source. [!DNL Inventory Management] 1.1.1 est publié uniquement sous la forme d’une mise à jour de nom de package, prise en charge pour la version 2.3.1 et compatible avec la version 2.3.0 d’Adobe Commerce, Adobe Commerce sur l’infrastructure cloud et la base de code du Magento Open Source.
 
-![ Correction d’un problème ](../assets/fix.svg) **Ajout de la prise en charge des Elasticsearch pour les modes unique et multi-source** — Vous pouvez désormais configurer et utiliser Elasticsearch avec des stocks personnalisés. Voir [Configuration du service Elasticsearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html){target="_blank"} pour obtenir des informations sur l’installation. <!-- PR https://github.com/magento/inventory/pull/1943 -->
+![ Correction d’un problème ](../assets/fix.svg) **Ajout de la prise en charge des Elasticsearch pour les modes unique et multi-source** — Vous pouvez désormais configurer et utiliser Elasticsearch avec des stocks personnalisés. Voir [Configuration du service Elasticsearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=fr){target="_blank"} pour obtenir des informations sur l’installation. <!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![Correction d’un problème ](../assets/fix.svg) Résolution de problèmes de performances avec le stock par défaut pour augmenter considérablement les performances avec de nombreuses opérations. Les améliorations améliorent les performances pour le mode source unique, le transfert du stock vers Source, les pages de catégorie de storefront et les calculs de quantité vendable.
 

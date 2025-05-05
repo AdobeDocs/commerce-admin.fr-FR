@@ -52,5 +52,5 @@ Les entreprises qui se conforment au RGPD pourraient avoir des obligations suppl
 - Pour les diagrammes de flux de données et le mappage des entités de base de données, voir la [référence sur les informations personnelles][2]{: target=&quot;_blank&quot;}.
 
 [1]: https://business.adobe.com/privacy/general-data-protection-regulation.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=fr
 [3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf

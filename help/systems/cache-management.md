@@ -102,7 +102,7 @@ Pour plus d’informations sur l’affectation de ressources pour accorder l’a
 
 ## Purge à l’aide de la ligne de commande
 
-Les administrateurs système et les développeurs ayant accès au serveur d’applications Commerce peuvent également gérer la configuration du cache et du cache à partir de la ligne de commande à l’aide de l’interface de ligne de commande Commerce. Voir [Gérer le cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target=&quot;_blank&quot;} dans le _Guide de configuration_.
+Les administrateurs système et les développeurs ayant accès au serveur d’applications Commerce peuvent également gérer la configuration du cache et du cache à partir de la ligne de commande à l’aide de l’interface de ligne de commande Commerce. Voir [Gérer le cache](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target=&quot;_blank&quot;} dans le _Guide de configuration_.
 
 ## Contrôles
 
@@ -138,7 +138,7 @@ Les développeurs et les intégrateurs de système utilisent ces valeurs pour co
 
 >[!NOTE]
 >
->Les développeurs et les intégrateurs système peuvent personnaliser et étendre le système de gestion du cache de Commerce pour prendre en charge les modules et intégrations personnalisés. Pour plus d’informations, voir [Configuration de la mise en cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview) dans le _Guide de configuration d’Adobe Commerce_.
+>Les développeurs et les intégrateurs système peuvent personnaliser et étendre le système de gestion du cache de Commerce pour prendre en charge les modules et intégrations personnalisés. Pour plus d’informations, voir [Configuration de la mise en cache](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/cache/caching-overview) dans le _Guide de configuration d’Adobe Commerce_.
 
 <!-- prettier-ignore -->
 
@@ -181,7 +181,7 @@ Le contenu mis en cache peut être utilisé pour traiter les demandes provenant 
 - `Sessioned` - Au cours d’une visite de session, un ID de session est attribué aux acheteurs qui interagissent avec le magasin. Les interactions incluent des activités telles que la comparaison de produits ou l’ajout de produits au panier. Les pages mises en cache qui sont générées au cours de la session sont utilisées uniquement par cet acheteur au cours de la session.
 - `Customer` - Les sessions client sont créées pour les clients qui se connectent et font leurs achats à l’aide de leur compte enregistré. Au cours de la session, les clients peuvent recevoir des offres spéciales, des promotions et des prix en fonction du groupe de clients qui leur est assigné.
 
-Pour plus d’informations techniques, voir [Configurer et utiliser vernis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target=&quot;_blank&quot;} et [Utiliser des segments pour la page Commerce et le cache par défaut](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target=&quot;_blank&quot;} dans le _Guide de configuration_.
+Pour plus d’informations techniques, voir [Configurer et utiliser vernis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=fr){:target=&quot;_blank&quot;} et [Utiliser des segments pour la page Commerce et le cache par défaut](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=fr){:target=&quot;_blank&quot;} dans le _Guide de configuration_.
 
 **_Pour configurer le cache de la page entière :_**
 
@@ -200,7 +200,7 @@ Pour plus d’informations techniques, voir [Configurer et utiliser vernis](http
 
 1. Pour définir le délai d’expiration du cache de la page, saisissez le **[!UICONTROL TTL for public content]**. (La valeur par défaut est `86400`)
 
-1. Pour spécifier le nombre maximal de [gestionnaires de mise en page](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) à traiter sur le point d’entrée HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html), saisissez le **[!UICONTROL Handles param size]**. La limitation de la taille peut améliorer la sécurité et les performances. (La valeur par défaut est `100`)
+1. Pour spécifier le nombre maximal de [gestionnaires de mise en page](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) à traiter sur le point d’entrée HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=fr), saisissez le **[!UICONTROL Handles param size]**. La limitation de la taille peut améliorer la sécurité et les performances. (La valeur par défaut est `100`)
 
 1. Si vous utilisez du vernis, complétez la section **[!UICONTROL Varnish Configuration]** comme suit :
 
@@ -210,7 +210,7 @@ Pour plus d’informations techniques, voir [Configurer et utiliser vernis](http
 
    - **[!UICONTROL Backend port]** - Identifiez le port principal utilisé pour générer les fichiers de configuration. La valeur par défaut est : `8080`.
 
-   - **[!UICONTROL Grace period]** - Indiquez le nombre de secondes à utiliser comme période de grâce pour générer les fichiers de configuration. Voir [Configuration de vernis avancé](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html) dans le _Guide de configuration_.
+   - **[!UICONTROL Grace period]** - Indiquez le nombre de secondes à utiliser comme période de grâce pour générer les fichiers de configuration. Voir [Configuration de vernis avancé](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html?lang=fr) dans le _Guide de configuration_.
 
    - Pour exporter la configuration en tant que fichier `varnish.vcl`, cliquez sur le bouton correspondant à la version de vernis que vous utilisez.
 

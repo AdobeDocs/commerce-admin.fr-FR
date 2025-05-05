@@ -35,11 +35,11 @@ Les ventes privées et autres événements de catalogue constituent un excellent
 
 ### [!UICONTROL Channels]
 
-Augmentez les recettes en augmentant les ventes vers d’autres webstores avec l’ [intégration Amazon Marketplace](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html). Le sous-menu Canaux n’apparaît que lorsque Amazon Sales Channel est configuré.
+Augmentez les recettes en augmentant les ventes vers d’autres webstores avec l’ [intégration Amazon Marketplace](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html?lang=fr). Le sous-menu Canaux n’apparaît que lorsque Amazon Sales Channel est configuré.
 
 >[!TIP]
 >
->Grâce à Channel Manager, les marchands peuvent augmenter leurs ventes, atteindre de nouveaux clients, rationaliser leurs opérations de vente et gagner du temps en intégrant un catalogue de produits Adobe Commerce ou Magento Open Source à Walmart Marketplace. Pour plus d’informations sur l’installation, l’intégration, la configuration et la gestion de Channel Manager, consultez le [_Guide du gestionnaire de canaux_](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html).
+>Grâce à Channel Manager, les marchands peuvent augmenter leurs ventes, atteindre de nouveaux clients, rationaliser leurs opérations de vente et gagner du temps en intégrant un catalogue de produits Adobe Commerce ou Magento Open Source à Walmart Marketplace. Pour plus d’informations sur l’installation, l’intégration, la configuration et la gestion de Channel Manager, consultez le [_Guide du gestionnaire de canaux_](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html?lang=fr).
 
 ### [!UICONTROL Communications]
 

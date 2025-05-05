@@ -57,7 +57,7 @@ Vous pouvez utiliser l’achat instantané avec Braintree ou les services de pai
 Découvrez comment configurer le mode de paiement et activer la mise en chambre forte pour Braintree ou les services de paiement :
 
 - [Braintree](braintree.md)
-- [Documentation des services de paiement](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
+- [Documentation des services de paiement](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=fr)
 
 ### Étape 3 : activer l’achat instantané
 

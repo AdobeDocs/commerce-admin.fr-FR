@@ -38,6 +38,6 @@ Il existe de nombreuses zones légères tierces et de curseurs que vous pouvez u
 
 Pour obtenir de l’aide sur le dépannage des problèmes d’image et de vidéo, reportez-vous aux articles suivants de la base de connaissances de prise en charge de Commerce :
 
-- [Après l’installation, les images et les feuilles de style ne se chargent pas ; seul le texte s’affiche, aucun graphique ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html)
-- [ Les images de produit ne s’affichent pas en dépit des rôles d’image de modification de produit ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
-- [Stocker les images non affichées après le déploiement](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)
+- [Après l’installation, les images et les feuilles de style ne se chargent pas ; seul le texte s’affiche, aucun graphique ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html?lang=fr)
+- [ Les images de produit ne s’affichent pas en dépit des rôles d’image de modification de produit ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html?lang=fr)
+- [Stocker les images non affichées après le déploiement](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html?lang=fr)

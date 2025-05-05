@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La navigation par couches standard décrite dans cette section diffère de la navigation filtrée Live Search avec [facettes](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html).
+>La navigation par couches standard décrite dans cette section diffère de la navigation filtrée Live Search avec [facettes](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html?lang=fr).
 
 La navigation en couches facilite la recherche de produits en fonction de la catégorie, de la gamme de prix ou de tout autre attribut disponible. La navigation superposée apparaît généralement dans la colonne gauche des résultats de recherche et des pages de catégories, et parfois sur la page d’accueil. La navigation standard comprend une liste _Shop By_ de catégories et de plages de prix. Vous pouvez configurer l’affichage d’une navigation par couches, y compris le nombre de produits et la plage de prix.
 
@@ -24,7 +24,7 @@ La navigation en couches facilite la recherche de produits en fonction de la cat
 
 >[!NOTE]
 >
->Les exigences en matière d’attributs filtrables décrites dans cette rubrique diffèrent pour [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html). Pour en savoir plus, voir [Facettes](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html).
+>Les exigences en matière d’attributs filtrables décrites dans cette rubrique diffèrent pour [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=fr). Pour en savoir plus, voir [Facettes](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html?lang=fr).
 
 La navigation en couches peut être utilisée pour rechercher des produits par catégorie ou par attribut. Par exemple, lorsqu’un acheteur sélectionne la catégorie Hommes/Shorts dans le volet de navigation supérieur, les premiers résultats incluent tous les produits de la catégorie. Vous pouvez filtrer davantage la liste en choisissant un style, un climat, une couleur, un matériau, un modèle ou un prix spécifique, ou une combinaison de valeurs. Les attributs filtrables apparaissent dans une section en expansion qui répertorie chaque valeur d’attribut. Il est possible de configurer la liste de produits présentant des résultats correspondants de manière à inclure des produits présentant ou non une correspondance.
 
@@ -112,7 +112,7 @@ Vous pouvez suivre les étapes suivantes pour supprimer les valeurs d’attribut
 
 >[!NOTE]
 >
->La configuration de navigation par prix décrite dans cette rubrique diffère pour [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
+>La configuration de navigation par prix décrite dans cette rubrique diffère pour [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=fr).
 
 La navigation par prix peut être utilisée pour distribuer les produits par plage de prix dans une navigation par couches. Vous pouvez également fractionner chaque plage en intervalles. Il existe plusieurs façons de calculer la navigation par prix :
 
@@ -201,7 +201,7 @@ Conservez la **[!UICONTROL Price Navigation Steps Calculation]** définie sur `A
 
 >[!NOTE]
 >
->La configuration standard décrite sur cette page diffère pour [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
+>La configuration standard décrite sur cette page diffère pour [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=fr).
 
 La configuration de navigation superposée détermine si un nombre de produits apparaît entre parenthèses après chaque attribut, ainsi que la taille du calcul d’étape utilisé dans la navigation par prix.
 

@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Configuration de la recherche catalogue
 
-Il existe deux variantes de la configuration de la recherche catalogue . La première méthode décrit les paramètres disponibles lors de l’installation de [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html). La deuxième méthode décrit les paramètres de configuration d’Adobe Commerce natif avec [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target="_blank"}.
+Il existe deux variantes de la configuration de la recherche catalogue . La première méthode décrit les paramètres disponibles lors de l’installation de [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=fr). La deuxième méthode décrit les paramètres de configuration d’Adobe Commerce natif avec [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html?lang=fr){:target="_blank"}.
 
 >[!NOTE]
 >
->Pour les projets d’infrastructure cloud, consultez les instructions supplémentaires dans le guide [_Commerce sur les infrastructures cloud_](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch).
+>Pour les projets d’infrastructure cloud, consultez les instructions supplémentaires dans le guide [_Commerce sur les infrastructures cloud_](https://experienceleague.adobe.com/fr/docs/commerce-cloud-service/user-guide/configure/service/opensearch).
 
 ## Méthode 1 : Adobe Commerce avec [!DNL Live Search]
 
@@ -36,7 +36,7 @@ Il existe deux variantes de la configuration de la recherche catalogue . La prem
 
    La valeur par défaut est `100`. La saisie d’une valeur `0` met en cache tous les termes et résultats de recherche lorsqu’elle est effectuée une seconde fois.
 
-1. Pour modifier le nombre maximal de lignes disponibles pour les résultats renvoyés dans la fenêtre contextuelle [storefront](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html), saisissez une autre valeur de **[!UICONTROL Autocomplete Limit]**.
+1. Pour modifier le nombre maximal de lignes disponibles pour les résultats renvoyés dans la fenêtre contextuelle [storefront](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html?lang=fr), saisissez une autre valeur de **[!UICONTROL Autocomplete Limit]**.
 
    Limiter le nombre de lignes améliore les performances des recherches et réduit la taille de la liste renvoyée. La valeur par défaut est `8` lignes.
 
@@ -44,7 +44,7 @@ Il existe deux variantes de la configuration de la recherche catalogue . La prem
 
 >[!IMPORTANT]
 >
->- En raison de l’annonce de fin de prise en charge [!DNL Elasticsearch 7] d’août 2023, il est recommandé à tous les clients Adobe Commerce de migrer vers le moteur de recherche OpenSearch 2.x. Pour plus d’informations sur la migration de votre moteur de recherche pendant la mise à niveau du produit, voir [Migration vers OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) dans le _Guide de mise à niveau_.
+>- En raison de l’annonce de fin de prise en charge [!DNL Elasticsearch 7] d’août 2023, il est recommandé à tous les clients Adobe Commerce de migrer vers le moteur de recherche OpenSearch 2.x. Pour plus d’informations sur la migration de votre moteur de recherche pendant la mise à niveau du produit, voir [Migration vers OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=fr) dans le _Guide de mise à niveau_.
 >- Dans les versions 2.4.4 et 2.4.3-p2, tous les champs libellés Elasticsearch s’appliquent également à OpenSearch. Lorsque la prise en charge d’Elasticsearch 8.x a été introduite dans la version 2.4.6, de nouveaux libellés ont été créés pour faire la distinction entre les configurations Elasticsearch et OpenSearch. Toutefois, les options de configuration pour les deux sont identiques.
 
 ### Étape 1 : Configurer les options de recherche générales

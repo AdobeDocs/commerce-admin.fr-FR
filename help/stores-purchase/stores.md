@@ -33,7 +33,7 @@ Voici quelques exemples de configuration des URL pour plusieurs magasins :
 | `yourdomain.com/store1`<br>`yourdomain.com/store2` | Chaque magasin possède un chemin d’accès différent, mais partage un domaine. |
 | `store1.yourdomain.com`<br>`store2.yourdomain.com` | Chaque magasin possède un sous-domaine différent du domaine principal. |
 
-Les installations multi-magasin d’Adobe Commerce doivent être configurées à partir de l’administrateur et également à partir de la ligne de commande du serveur. Le [Guide de configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) d’Adobe Commerce fournit des instructions détaillées sur la configuration de l’environnement du serveur.
+Les installations multi-magasin d’Adobe Commerce doivent être configurées à partir de l’administrateur et également à partir de la ligne de commande du serveur. Le [Guide de configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=fr) d’Adobe Commerce fournit des instructions détaillées sur la configuration de l’environnement du serveur.
 
 ### Étape 1 : Sélection du domaine de magasin
 
@@ -105,20 +105,20 @@ La première étape consiste à choisir la position du magasin. Les magasins doi
 
 ### Etape 5 : Configuration du serveur
 
-Pour configurer votre serveur de manière à prendre en charge plusieurs sites Web, reportez-vous à la section [Plusieurs sites Web ou magasins](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) du _Guide de configuration_.
+Pour configurer votre serveur de manière à prendre en charge plusieurs sites Web, reportez-vous à la section [Plusieurs sites Web ou magasins](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=fr) du _Guide de configuration_.
 
 Pour obtenir de l’aide sur la configuration de votre serveur web, consultez les ressources suivantes :
 
-- [Configuration de plusieurs sites web avec NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
-- [Configuration de plusieurs sites web avec Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
+- [Configuration de plusieurs sites web avec NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=fr)
+- [Configuration de plusieurs sites web avec Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=fr)
 
-Pour Adobe Commerce sur l’infrastructure cloud, voir [Configuration de plusieurs sites web ou magasins](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html).
+Pour Adobe Commerce sur l’infrastructure cloud, voir [Configuration de plusieurs sites web ou magasins](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=fr).
 
 ## Ajouter des sites web
 
 Plusieurs sites web peuvent être configurés à partir d’une installation Adobe Commerce ou d’un Magento Open Source unique avec le même domaine ou des domaines différents. Par défaut, les magasins situés sous le même site web ont les mêmes adresse IP et domaine, utilisent le même certificat de sécurité et partagent un seul processus de passage en caisse. Si vous souhaitez que chaque magasin dispose d’un processus de passage en caisse dédié sous son propre domaine, chaque magasin doit disposer d’une adresse IP distincte et d’un certificat de sécurité distinct.
 
-Les installations multi-site d’Adobe Commerce ou de Magento Open Source doivent être configurées à partir de l’administrateur et également à partir de la ligne de commande du serveur. Le [Guide de configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) de Commerce fournit des instructions détaillées sur la configuration de l’environnement du serveur.
+Les installations multi-site d’Adobe Commerce ou de Magento Open Source doivent être configurées à partir de l’administrateur et également à partir de la ligne de commande du serveur. Le [Guide de configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=fr) de Commerce fournit des instructions détaillées sur la configuration de l’environnement du serveur.
 
 ![Portée - sites web](./assets/scope-multisite.svg){width="550"}
 
@@ -152,11 +152,11 @@ Pour configurer les [URL de magasin](store-urls.md), suivez les instructions.
 
 ### Etape 3 : Configuration du serveur
 
-Pour configurer votre serveur de manière à prendre en charge plusieurs sites Web, reportez-vous à la section [Plusieurs sites Web ou magasins](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) du _Guide de configuration_.
+Pour configurer votre serveur de manière à prendre en charge plusieurs sites Web, reportez-vous à la section [Plusieurs sites Web ou magasins](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=fr) du _Guide de configuration_.
 
 Pour obtenir de l’aide sur la configuration de votre serveur web, consultez les tutoriels suivants :
 
-- [Configuration de plusieurs sites web avec NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
-- [Configuration de plusieurs sites web avec Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
+- [Configuration de plusieurs sites web avec NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=fr)
+- [Configuration de plusieurs sites web avec Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=fr)
 
-Pour Adobe Commerce sur l’infrastructure cloud, voir [Configuration de plusieurs sites web ou magasins](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html).
+Pour Adobe Commerce sur l’infrastructure cloud, voir [Configuration de plusieurs sites web ou magasins](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=fr).

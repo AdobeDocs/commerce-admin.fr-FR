@@ -188,7 +188,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Mise en
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Global | Détermine l’application utilisée pour gérer le cache de la page entière. Options : <br/>**`Built-in Application`**- Non recommandé pour l’environnement de production.<br/>**`Varnish Caching`** - Recommandé pour l’environnement de production. |
 | [!UICONTROL TTL for public content] | Global | Détermine la durée de vie du cache de contenu public en secondes. Valeur par défaut : `120` |
-| [!UICONTROL Handles param size] | global | Spécifie le nombre maximal de [gestionnaires de mise en page](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) à traiter sur le point d’entrée HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html). La limitation de la taille peut améliorer la sécurité et les performances. Valeur par défaut : `100` |
+| [!UICONTROL Handles param size] | global | Spécifie le nombre maximal de [gestionnaires de mise en page](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) à traiter sur le point d’entrée HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=fr). La limitation de la taille peut améliorer la sécurité et les performances. Valeur par défaut : `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Global | Indique les adresses IP qui peuvent purger la configuration de vernis pour générer un fichier de configuration. Séparez plusieurs entrées par une virgule. Valeur par défaut : `localhost` |
 | [!UICONTROL Backend host] | Global | Spécifie l’hôte principal qui génère les fichiers de configuration. Valeur par défaut : `localhost` |
@@ -268,7 +268,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Import 
 
 ![Configuration avancée - Configuration du téléchargement d’images](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

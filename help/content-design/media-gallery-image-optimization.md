@@ -31,6 +31,6 @@ Lorsque la fonctionnalité d’optimisation des images de la galerie multimédia
 
 Lorsque les valeurs _Largeur maximale_ et _Hauteur maximale_ sont modifiées dans la configuration, elles mettent à jour toutes les images optimisées existantes qui ont été insérées précédemment.
 
-L’optimisation des images de la galerie multimédia requiert que les clients de la file d’attente `media.gallery.renditions.update` s’exécutent pour générer à nouveau des images optimisées lorsque la configuration est modifiée. Pour plus d’informations, voir [Gestion des files d’attente de messages](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) dans le _Guide de configuration_.
+L’optimisation des images de la galerie multimédia requiert que les clients de la file d’attente `media.gallery.renditions.update` s’exécutent pour générer à nouveau des images optimisées lorsque la configuration est modifiée. Pour plus d’informations, voir [Gestion des files d’attente de messages](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=fr) dans le _Guide de configuration_.
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}

@@ -40,7 +40,7 @@ Avec Adobe Commerce ou Magento Open Source 2.4, les commerçants peuvent utilise
 
 >[!NOTE]
 >
->La fonctionnalité complète pour le nouveau [!DNL Media Gallery] nécessite que les consommateurs de file d’attente `media.gallery.synchronization` et `media.content.synchronization` soient démarrés pour la synchronisation initiale. Pour plus d’informations, voir [Gestion des files d’attente de messages](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) dans le _Guide de configuration_.
+>La fonctionnalité complète pour le nouveau [!DNL Media Gallery] nécessite que les consommateurs de file d’attente `media.gallery.synchronization` et `media.content.synchronization` soient démarrés pour la synchronisation initiale. Pour plus d’informations, voir [Gestion des files d’attente de messages](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=fr) dans le _Guide de configuration_.
 
 ## Accédez au nouvel [!DNL Media Gallery]
 

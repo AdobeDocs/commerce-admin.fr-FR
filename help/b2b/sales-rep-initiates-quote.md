@@ -27,7 +27,7 @@ Un représentant commercial peut créer un guillemet à partir des guillemets ou
 
 >[!NOTE]
 >
->Pour une démonstration vidéo d’un vendeur créant un devis pour un acheteur, reportez-vous à la section [Le représentant commercial lance le devis](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html) dans _Vidéos et Tutorials Commerce_.
+>Pour une démonstration vidéo d’un vendeur créant un devis pour un acheteur, reportez-vous à la section [Le représentant commercial lance le devis](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=fr) dans _Vidéos et Tutorials Commerce_.
 
 ### Créer un guillemet à partir de la grille entre guillemets
 
@@ -79,7 +79,7 @@ Après avoir créé le projet de devis, ajoutez des produits, appliquez des remi
 
    >[!NOTE]
    >
-   >Pour une démonstration vidéo montrant comment les remises sur l’article fonctionnent, reportez-vous à la section [Le représentant commercial applique une remise sur une ligne de devis](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html) dans _Vidéos et Tutorials Commerce_.
+   >Pour une démonstration vidéo montrant comment les remises sur l’article fonctionnent, reportez-vous à la section [Le représentant commercial applique une remise sur une ligne de devis](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=fr) dans _Vidéos et Tutorials Commerce_.
 
 1. Appliquez une remise de niveau guillemet si nécessaire :
 

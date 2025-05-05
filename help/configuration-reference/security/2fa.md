@@ -14,7 +14,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Pour les magasins qui ont activé l’authentification Adobe Identity Management Services (IMS), l’authentification native Adobe Commerce et Magento Open Source à deux facteurs (2FA) est désactivée. Les utilisateurs administrateurs connectés à leur instance Adobe Commerce avec leurs informations d’identification Adobe n’ont pas besoin de s’authentifier à nouveau pour de nombreuses tâches d’administration. L’authentification est gérée par Adobe IMS lorsque l’utilisateur administrateur se connecte à sa session en cours. Voir [ Intégration d’Adobe Commerce à Adobe IMS](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
+>Pour les magasins qui ont activé l’authentification Adobe Identity Management Services (IMS), l’authentification native Adobe Commerce et Magento Open Source à deux facteurs (2FA) est désactivée. Les utilisateurs administrateurs connectés à leur instance Adobe Commerce avec leurs informations d’identification Adobe n’ont pas besoin de s’authentifier à nouveau pour de nombreuses tâches d’administration. L’authentification est gérée par Adobe IMS lorsque l’utilisateur administrateur se connecte à sa session en cours. Voir [ Intégration d’Adobe Commerce à Adobe IMS](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=fr).
 
 {{config}}
 

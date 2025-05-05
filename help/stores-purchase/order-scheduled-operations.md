@@ -45,11 +45,11 @@ En planifiant ces tâches, vous pouvez éviter les verrous qui se produisent lor
 
 **_Pour activer les mises à jour et la réindexation :_**
 
-Lorsque le [mode de production](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) (mode par défaut utilisé dans Adobe Commerce sur l’infrastructure cloud) est activé, exécutez la commande suivante :
+Lorsque le [mode de production](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=fr#production-mode) (mode par défaut utilisé dans Adobe Commerce sur l’infrastructure cloud) est activé, exécutez la commande suivante :
 
 ``bin/magento config:set dev/grid/async_indexing 1``
 
-Lorsque le [mode par défaut](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode) est activé, procédez comme suit :
+Lorsque le [mode par défaut](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=fr#default-mode) est activé, procédez comme suit :
 
 1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

@@ -58,5 +58,5 @@ ht-degree: 5%
    - [Vue d’ensemble](shipments.md)
    - [Créer des expéditions](shipments-create.md)
 - [Référence de l’interface de ligne de commande](cli.md)
-- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/fr/docs/commerce-admin/user-guides/home)
 
