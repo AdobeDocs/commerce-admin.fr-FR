@@ -169,11 +169,11 @@ Vous pouvez également configurer l’expédition vers des pays spécifiques pou
 
 Pour obtenir de l’aide sur la résolution des problèmes de configuration des pays, consultez les articles suivants de la base de connaissances de l’assistance [!DNL Commerce] :
 
-- [Comment ajouter un pays ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
+- [Comment ajouter un pays ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=fr)
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 Le paramètre Emplacement du vendeur est utilisé pour configurer [modes de paiement](../stores-purchase/payments.md). S’il n’existe aucune valeur pour ce paramètre, le paramètre [Pays par défaut](#uicontrol-country-options) est utilisé.
 
