@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
 description: Vérifiez les paramètres de configuration sur la page de [!UICONTROL Payment Methods] d’[!UICONTROL Sales] &gt; de l’administrateur Commerce.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 489c72652693a15ffe1c745277bbaa9da084dcba
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1772'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,17 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Payment Services pour Adobe Commerce et Magento Open Source offre une solution en libre-service clé en main, y compris les tests de sandbox et une configuration simple, pour offrir un traitement des paiements robuste et sécurisé. Pour en savoir plus sur cet ensemble d&#39;outils puissants et sur la manière dont il peut vous donner les informations et le contrôle dont vous avez besoin pour créer la meilleure expérience pour vos acheteurs, consultez le [_Guide d&#39;utilisation des services de paiement_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=fr).
+>Payment Services pour Adobe Commerce et Magento Open Source offre une solution en libre-service clé en main, y compris les tests de sandbox et une configuration simple, pour offrir un traitement des paiements robuste et sécurisé. Pour en savoir plus sur cet ensemble d&#39;outils puissants et sur la manière dont il peut vous fournir l&#39;insight et le contrôle dont vous avez besoin pour offrir la meilleure expérience à vos acheteurs, consultez le [_Guide d&#39;utilisation des services de paiement_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html).
 
 {{config}}
 
 ## [!UICONTROL Merchant Location]
 
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+
 ![Emplacement du commerçant](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
-<!-- [Merchant Location](https://experienceleague.adobe.com/fr/docs/commerce-admin/start/setup/store-details#merchant-location) -->
+<!-- [Merchant Location](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#merchant-location) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -34,9 +36,9 @@ ht-degree: 0%
 
 Les solutions de paiement suivantes sont recommandées comme un moyen facile pour les commerçants qui commencent tout juste à accepter le paiement en ligne par compte PayPal ou carte de crédit. Au fur et à mesure que votre entreprise se développe, vous pouvez les combiner avec d&#39;autres solutions de paiement PayPal.
 
-- [PayPal Express Checkout](paypal-express-checkout.md)
-- [Braintree](braintree.md)
 - [Services de paiement](payment-services.md)
+- [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} [PayPal Express Checkout](paypal-express-checkout.md)
+- [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} [Braintree](braintree.md)
 
 >[!NOTE]
 >
@@ -44,21 +46,27 @@ Les solutions de paiement suivantes sont recommandées comme un moyen facile pou
 ><br/>
 >**Amazon Pay** et **Klarna** : les versions 2.4.0 à 2.4.3 d’Adobe Commerce et Magento Open Source incluaient ces extensions développées par le fournisseur. À compter de la version 2.4.4, ces extensions ne sont plus incluses dans la version de base et doivent être installées et mises à jour à partir de Commerce Marketplace. La Marketplace permet également d’accéder à la documentation actuelle fournie par le développeur d’extensions.
 ><br/>
->Si l’une de ces extensions groupées est activée et configurée, vous devez mettre à jour votre fichier `composer.json` dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Pour plus d’informations, consultez [Mise à niveau des modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=fr) dans le _Guide de mise à niveau_.<br/>
+>Si l’une de ces extensions groupées est activée et configurée, vous devez mettre à jour votre fichier `composer.json` dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Pour plus d’informations, consultez [Mise à niveau des modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) dans le _Guide de mise à niveau_.<br/>
 ><br/>
 >**Worldpay**, **Eway**, **CyberSource** et **Authorize.Net** : pour plus d’informations sur la manière d’effectuer une transition sécurisée depuis ces intégrations de paiement, consultez le [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
 ## Autres méthodes PayPal
 
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+
 PayPal propose diverses solutions de paiement qui répondent aux besoins des entreprises de toutes tailles, et qui sont engagées dans les affaires partout dans le monde. PayPal vous donne la possibilité d&#39;accepter les paiements de toutes les principales cartes de débit et de crédit. PayPal offre un confort supplémentaire sans effort supplémentaire, car même les clients qui n&#39;ont pas de compte PayPal peuvent payer leurs achats avec PayPal.
 
 ### Méthodes tout-en-un PayPal
+
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 - [Paiement PayPal avancé](paypal-payments-advanced.md)
 - [PayPal Payments Pro](paypal-payments-pro.md)
 - [Paiements PayPal Standard](paypal-payments-standard.md)
 
 ### Passerelles de paiement PayPal
+
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 - [PayPal Payflow Pro](paypal-payflow-pro.md) (avec paiement express)
 - [Lien de flux de paiement PayPal](paypal-payflow-link.md) (comprend le paiement express)
@@ -71,7 +79,7 @@ Les modes de paiement ci-après sont intégrés à Commerce et ne font pas appel
 
 ![Chèque / Mandat](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
-<!-- [Check / Money Order](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
+<!-- [Check / Money Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -83,7 +91,7 @@ Les modes de paiement ci-après sont intégrés à Commerce et ne font pas appel
 | [!UICONTROL Make Check Payable to] | Affichage de la boutique | Nom de l&#39;entité à laquelle les chèques et les mandats doivent être rendus payables. |
 | [!UICONTROL Send Check to] | Affichage de la boutique | Adresse postale ou BP où les chèques et les mandats doivent être envoyés. |
 | [!UICONTROL Minimum Order Total] | Site internet | Montant de commande le plus faible pouvant être payé par chèque ou mandat. |
-| [!UICONTROL Maximum Order Total] | Site internet | Montant de commande le plus élevé pouvant être payé par chèque ou mandat. <br/><br/>**_Remarque :_**&#x200B;une commande est qualifiée si le total est compris entre le total minimum ou maximum de la commande ou s&#39;il correspond à ce total. |
+| [!UICONTROL Maximum Order Total] | Site internet | Montant de commande le plus élevé pouvant être payé par chèque ou mandat. <br/><br/>**_Remarque :_**une commande est qualifiée si le total est compris entre le total minimum ou maximum de la commande ou s&#39;il correspond à ce total. |
 | [!UICONTROL Sort Order] | Site internet | Nombre qui détermine l&#39;ordre dans lequel le paiement par chèque ou mandat-poste apparaît lorsqu&#39;il est indiqué avec d&#39;autres modes de paiement lors du passage en caisse. Saisissez `0` pour le placer en haut de la liste. |
 
 {style="table-layout:auto"}
@@ -92,7 +100,7 @@ Les modes de paiement ci-après sont intégrés à Commerce et ne font pas appel
 
 ![Paiement par virement bancaire](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
-<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
+<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -102,7 +110,7 @@ Les modes de paiement ci-après sont intégrés à Commerce et ne font pas appel
 | [!UICONTROL Payment from Applicable Countries] | Site internet | Détermine les pays d&#39;où vous acceptez le paiement par virement bancaire. Options : `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Site internet | Indique les pays spécifiques à partir desquels vous acceptez un paiement par virement bancaire. |
 | [!UICONTROL Minimum Order Total] | Site internet | Montant de commande le plus faible pouvant être payé par virement bancaire. |
-| [!UICONTROL Maximum Order Total] | Site internet | Montant de commande le plus élevé pouvant être payé par virement bancaire. <br/><br/>**_Remarque :_**&#x200B;une commande est qualifiée si le total est compris entre le total minimum ou maximum de la commande ou s&#39;il correspond à ce total. |
+| [!UICONTROL Maximum Order Total] | Site internet | Montant de commande le plus élevé pouvant être payé par virement bancaire. <br/><br/>**_Remarque :_**une commande est qualifiée si le total est compris entre le total minimum ou maximum de la commande ou s&#39;il correspond à ce total. |
 | [!UICONTROL Sort Order] | Site internet | Nombre qui détermine l&#39;ordre dans lequel apparaît le paiement par virement bancaire lorsqu&#39;il est indiqué avec d&#39;autres modes de paiement lors du passage en caisse. Saisissez `0` pour le placer en haut de la liste. |
 
 {style="table-layout:auto"}
@@ -113,7 +121,7 @@ Les modes de paiement ci-après sont intégrés à Commerce et ne font pas appel
 
 ![Paiement en compte](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
-<!-- [Payment on Account](https://experienceleague.adobe.com/fr/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
+<!-- [Payment on Account](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -123,7 +131,7 @@ Les modes de paiement ci-après sont intégrés à Commerce et ne font pas appel
 | [!UICONTROL Payment from Applicable Countries] | Site internet | Détermine les pays dans lesquels vous autorisez les sociétés à imputer les achats sur leurs comptes. Options : `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Site internet | Identifie les pays spécifiques dans lesquels les entreprises peuvent imputer les achats sur leurs comptes. |
 | [!UICONTROL Minimum Order Total] | Site internet | Spécifie le plus petit montant de commande pouvant être imputé à un compte société. |
-| [!UICONTROL Maximum Order Total] | Site internet | Montant de commande le plus élevé pouvant être imputé à un compte d’entreprise. <br/><br/>**_Remarque :_**&#x200B;une commande est qualifiée si le total est compris entre le total minimum ou maximum de la commande ou s&#39;il correspond à ce total. |
+| [!UICONTROL Maximum Order Total] | Site internet | Montant de commande le plus élevé pouvant être imputé à un compte d’entreprise. <br/><br/>**_Remarque :_**une commande est qualifiée si le total est compris entre le total minimum ou maximum de la commande ou s&#39;il correspond à ce total. |
 | [!UICONTROL Sort Order] | Site internet | Nombre qui détermine l&#39;ordre dans lequel apparaît le paiement en compte lorsqu&#39;il est indiqué avec d&#39;autres modes de paiement lors du passage en caisse. Saisissez `0` pour le placer en haut de la liste. |
 
 {style="table-layout:auto"}
@@ -146,7 +154,7 @@ Les modes de paiement ci-après sont intégrés à Commerce et ne font pas appel
 | [!UICONTROL Payment from Applicable Countries] | Site internet | Détermine les pays d&#39;où vous acceptez le paiement par virement bancaire. Options : `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Site internet | Indique les pays spécifiques à partir desquels vous acceptez un paiement par virement bancaire. |
 | [!UICONTROL Minimum Order Total] | Site internet | Spécifie le plus petit montant de commande qui peut être payé par virement bancaire. |
-| [!UICONTROL Maximum Order Total] | Site internet | Montant de commande le plus élevé pouvant être payé par virement bancaire. <br/><br/>**_Remarque :_**&#x200B;une commande est qualifiée si le total est compris entre le total minimum ou maximum de la commande ou s&#39;il correspond à ce total. |
+| [!UICONTROL Maximum Order Total] | Site internet | Montant de commande le plus élevé pouvant être payé par virement bancaire. <br/><br/>**_Remarque :_**une commande est qualifiée si le total est compris entre le total minimum ou maximum de la commande ou s&#39;il correspond à ce total. |
 | [!UICONTROL Sort Order] | Site internet | Nombre qui détermine l&#39;ordre dans lequel apparaît le paiement par virement bancaire lorsqu&#39;il est indiqué avec d&#39;autres modes de paiement lors du passage en caisse. Saisissez `0` pour le placer en haut de la liste. |
 
 {style="table-layout:auto"}
@@ -169,6 +177,8 @@ Les modes de paiement ci-après sont intégrés à Commerce et ne font pas appel
 {style="table-layout:auto"}
 
 ## [!UICONTROL Payment actions]
+
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 Les actions de paiement sont configurées _par mode de paiement_. L&#39;action de paiement détermine à quel moment les fonds sont saisis et quand les factures sont créées pour vos commandes client.
 
@@ -205,7 +215,7 @@ Consultez la section Paramètres de base de chaque mode de paiement pour obtenir
 | [!UICONTROL Payment from Applicable Countries] | Site internet | Détermine les pays d&#39;où vous acceptez le paiement par commande. Options : `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Site internet | Indique les pays spécifiques à partir desquels vous acceptez le paiement par commande. |
 | [!UICONTROL Minimum Order Total] | Site internet | Montant de commande le plus faible pouvant être payé par le bon de commande. |
-| [!UICONTROL Maximum Order Total] | Site internet | Montant de commande le plus élevé pouvant être payé par le bon de commande. <br/><br/>**_Remarque :_**&#x200B;une commande est qualifiée si le total est compris entre le total minimum ou maximum de la commande ou s&#39;il correspond à ce total. |
+| [!UICONTROL Maximum Order Total] | Site internet | Montant de commande le plus élevé pouvant être payé par le bon de commande. <br/><br/>**_Remarque :_**une commande est qualifiée si le total est compris entre le total minimum ou maximum de la commande ou s&#39;il correspond à ce total. |
 | [!UICONTROL Sort Order] | Site internet | Nombre qui détermine l&#39;ordre dans lequel le paiement par commande apparaît lorsqu&#39;il est répertorié avec d&#39;autres modes de paiement lors du passage en caisse. Saisissez `0` pour le placer en haut de la liste. |
 
 {style="table-layout:auto"}
