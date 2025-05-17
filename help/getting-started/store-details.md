@@ -3,9 +3,9 @@ title: Détails de la boutique
 description: Découvrez comment mettre à jour les informations de base de votre boutique.
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: 81b55a634d33b79d3164a4d438ae0f23198bc364
+source-git-commit: c9c04d4fb2f51b9bac0de6a172d7bcf35be18a85
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1895'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Les informations de base de votre boutique comprennent le nom et l’adresse de 
 
 ## [!UICONTROL Store Information]
 
-La section _[!UICONTROL Store Information]_&#x200B;fournit les informations de base qui apparaissent sur les documents de vente et dans d’autres communications.
+La section _[!UICONTROL Store Information]_fournit les informations de base qui apparaissent sur les documents de vente et dans d’autres communications.
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -169,11 +169,11 @@ Vous pouvez également configurer l’expédition vers des pays spécifiques pou
 
 Pour obtenir de l’aide sur la résolution des problèmes de configuration des pays, consultez les articles suivants de la base de connaissances de l’assistance [!DNL Commerce] :
 
-- [Comment ajouter un pays ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=fr)
+- [Comment ajouter un pays ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 Le paramètre Emplacement du vendeur est utilisé pour configurer [modes de paiement](../stores-purchase/payments.md). S’il n’existe aucune valeur pour ce paramètre, le paramètre [Pays par défaut](#uicontrol-country-options) est utilisé.
 
@@ -213,7 +213,21 @@ Chaque identité et son adresse e-mail associée peuvent être associées à des
 
 Avant de pouvoir configurer des adresses e-mail pour le magasin , chacune d’elles doit être configurée en tant qu’adresse e-mail valide pour votre domaine. Pour créer chaque adresse e-mail requise, suivez les instructions de l’administrateur du serveur ou du fournisseur d’hébergement de messagerie.
 
-### Étape 2 : configurer les adresses e-mail de votre boutique
+### Étape 2 : définir l’URL de base pour les liens générés
+
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
+
+Certains e-mails destinés aux clients et clientes incluent des liens vers le magasin, tels que ceux qui aident les clients à réinitialiser leurs mots de passe. Pour vous assurer que les liens vers le storefront sont fonctionnels, vous devez définir l’URL de base vers votre storefront.
+
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+
+1. Sous **[!UICONTROL General]** dans le panneau de navigation de gauche, choisissez **[!UICONTROL Store Email Addresses]**.
+
+1. Dans la section **[!UICONTROL General]** du champ **[!UICONTROL Storefront Base URL]** , saisissez l’URL racine de votre boutique, par exemple `https://www.example.com/`. L’URL doit se terminer par une barre oblique.
+
+   ![Configuration générale - Général](../configuration-reference/general/assets/store-email-addresses-general-general.png){width="600"}
+
+### Étape 3 : configurer les adresses e-mail de votre boutique
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -231,7 +245,7 @@ Avant de pouvoir configurer des adresses e-mail pour le magasin , chacune d’el
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 
-### Étape 3 : mettre à jour la configuration de l’e-mail de vente
+### Étape 4 : mettre à jour la configuration de l’e-mail de vente
 
 Si vous utilisez des adresses e-mail personnalisées, veillez à mettre à jour la configuration de tous les e-mails associés, de sorte que l’identité correcte s’affiche en tant qu’expéditeur.
 
