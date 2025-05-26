@@ -52,4 +52,4 @@ Il ne couvre pas les fonctionnalités de base d’Adobe Commerce et de Magento O
 
 Pour obtenir de l’aide sur la résolution des problèmes [!DNL Page Builder], consultez les articles suivants de la base de connaissances de l’assistance [!DNL Commerce] :
 
-- [Page vide lors de l’enregistrement  [!DNL Page Builder]  DotDigitalform](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html?lang=fr)
+- [Page vide lors de l’enregistrement  [!DNL Page Builder]  DotDigitalform](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html)
