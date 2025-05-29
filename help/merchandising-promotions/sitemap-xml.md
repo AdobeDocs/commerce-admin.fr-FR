@@ -3,7 +3,7 @@ title: Cartes du site
 description: Découvrez comment configurer un plan de site pour indexer toutes les pages et images de vos sites Commerce.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
 source-wordcount: '1209'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Pour Adobe Commerce as a Cloud Service, consultez les [directives SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) de la documentation du Storefront Commerce
+>Pour Adobe Commerce as a Cloud Service, consultez les [directives SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=fr) de la documentation du Storefront Commerce
 
 Un plan de site améliore la façon dont votre boutique est indexée par les moteurs de recherche et est conçu pour trouver les pages qui pourraient être ignorées par les robots d’exploration. Un plan de site peut être configuré pour indexer toutes les pages et images.
 
@@ -102,7 +102,7 @@ Pour créer des plans de site pour une instance multimagasin, procédez comme su
    
 >[!NOTE]
 >
->Si votre site utilise le moteur de serveur web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html), vous devez mettre à jour le fichier [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) dans la racine de votre site web pour diriger toute autre requête de plan de site vers l’emplacement approprié.
+>Si votre site utilise le moteur de serveur web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=fr), vous devez mettre à jour le fichier [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) dans la racine de votre site web pour diriger toute autre requête de plan de site vers l’emplacement approprié.
 
 ## Descriptions des colonnes
 
@@ -228,6 +228,6 @@ La carte de votre site doit être mise à jour aussi souvent que le contenu de v
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html
+[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=fr
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
 [3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

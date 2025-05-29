@@ -4,7 +4,7 @@ description: Découvrez comment configurer la détection des fonctionnalités du
 exl-id: 16caab8b-3ba5-43a1-a6f0-7c1e921be132
 role: Admin
 feature: Configuration, Security
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
 source-wordcount: '265'
@@ -19,7 +19,7 @@ Comme la plupart des sites web et des applications sur Internet, Adobe Commerce 
 - Si les paramètres de confidentialité du navigateur interdisent les cookies, vous pouvez configurer le système pour les rediriger automatiquement vers la page [Activer les cookies](../content-design/pages.md#enable-cookies), qui explique comment définir les paramètres recommandés avec la plupart des navigateurs.
 - Si les paramètres de confidentialité du navigateur interdisent JavaScript, vous pouvez configurer le système pour afficher le message suivant au-dessus de l’en-tête de chaque page.
 
-Pour obtenir des informations techniques, reportez-vous à la section [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers) du _Guide d’installation_.
+Pour obtenir des informations techniques, reportez-vous à la section [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=fr#supported-browsers) du _Guide d’installation_.
 
 ## Configuration de la détection des fonctionnalités du navigateur
 

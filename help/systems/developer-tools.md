@@ -3,7 +3,7 @@ title: Outils de développement
 description: Découvrez les outils de développement avancés disponibles pour aider les développeurs à travailler sur des projets de personnalisation.
 exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
 source-wordcount: '1688'
@@ -27,7 +27,7 @@ Utilisez les outils de développement avancés pour déterminer le mode de compi
 
 Votre instance Adobe Commerce ou Magento Open Source peut être déployée pour s’exécuter en _mode de production_ ou _mode développeur_. Les outils et paramètres de configuration conçus spécifiquement pour les développeurs ne sont accessibles que lorsque le magasin est en cours d’exécution en _mode développeur_.
 
-Le mode de fonctionnement ne peut être modifié qu’à partir de la ligne de commande du serveur par un utilisateur disposant des autorisations appropriées. Voir [Définir le mode de fonctionnement](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) dans le _Guide de configuration_ pour plus d’informations.
+Le mode de fonctionnement ne peut être modifié qu’à partir de la ligne de commande du serveur par un utilisateur disposant des autorisations appropriées. Voir [Définir le mode de fonctionnement](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=fr) dans le _Guide de configuration_ pour plus d’informations.
 
 La plupart des rubriques de la documentation pour les commerçants s’appliquent à une instance Commerce exécutée en mode de production. Toutefois, les paramètres de configuration et outils suivants ne peuvent être utilisés que lorsque l’installation est en cours d’exécution en mode Développeur.
 
@@ -59,7 +59,7 @@ Voir [Compilation LESS côté client ou côté serveur](https://developer.adobe.
 
 L’ajout d’une signature numérique à l’URL des fichiers statiques permet aux navigateurs de détecter lorsqu’une version plus récente du fichier est disponible. Les fichiers statiques qui peuvent être suivis à l’aide de signatures numériques comprennent les fichiers JavaScript, CSS, images et polices. La signature est ajoutée au chemin d’accès directement après l’URL de base. Si la signature d’un fichier diffère de celle stockée dans le cache du navigateur, la version la plus récente du fichier est utilisée.
 
-Voir [Signature de contenu statique](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html){:target="_blank"} dans la documentation destinée aux développeurs de Commerce.
+Voir [Signature de contenu statique](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=fr){:target="_blank"} dans la documentation destinée aux développeurs de Commerce.
 
 >[!NOTE]
 >
@@ -91,7 +91,7 @@ Le temps de chargement des fichiers de ressources peut être réduit en fusionna
 
 Par défaut, Adobe Commerce et Magento Open Source ne fusionnent pas, ne regroupent pas ou ne réduisent pas au minimum les fichiers. Le développeur du projet doit déterminer les méthodes d’optimisation des fichiers à utiliser.
 
-Pour plus d’informations, consultez [Bonnes pratiques relatives aux performances](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html).
+Pour plus d’informations, consultez [Bonnes pratiques relatives aux performances](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=fr).
 
 >[!NOTE]
 >
@@ -141,7 +141,7 @@ Placer sur la liste autorisée Avant d’utiliser un outil tel que [conseils de 
 >
 >Les restrictions client pour les développeurs peuvent être définies en [mode Développeur](../systems/developer-tools.md#operation-modes) uniquement.
 
-Pour obtenir des informations techniques, consultez [Custom VCL for allow requests](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html) dans le guide _Commerce on Cloud Infrastructure_.
+Pour obtenir des informations techniques, consultez [Custom VCL for allow requests](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=fr) dans le guide _Commerce on Cloud Infrastructure_.
 
 **_Pour ajouter votre adresse IP à la liste autorisée :_**
 
