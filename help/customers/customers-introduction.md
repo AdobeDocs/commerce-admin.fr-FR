@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Présentation de la gestion des clients
 
-Le menu _[!UICONTROL Customers]_donne accès aux outils de gestion des comptes clients et vous permet de voir qui est en ligne dans votre boutique.
+Le menu _[!UICONTROL Customers]_&#x200B;donne accès aux outils de gestion des comptes clients et vous permet de voir qui est en ligne dans votre boutique.
 
 >[!BEGINTABS]
 

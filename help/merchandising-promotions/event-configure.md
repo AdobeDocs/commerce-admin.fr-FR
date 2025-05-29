@@ -89,6 +89,6 @@ L’accès à une vente privée, à un événement ou à un site peut être limi
 
 ### Limiter les ventes
 
-Par défaut, les produits qui apparaissent dans les événements à venir ou fermés ne sont pas disponibles à la vente générale et le bouton _[!UICONTROL Add to Cart]_n’apparaît pas dans la liste de produits ou la page des produits.
+Par défaut, les produits qui apparaissent dans les événements à venir ou fermés ne sont pas disponibles à la vente générale et le bouton _[!UICONTROL Add to Cart]_&#x200B;n’apparaît pas dans la liste de produits ou la page des produits.
 
-Pour restaurer le bouton _[!UICONTROL Add to Cart]_d&#39;un événement fermé, l&#39;événement doit être supprimé (voir [Mettre à jour les événements](event-create.md#update-events)). Cependant, si un produit est associé à une autre catégorie qui n’a pas de restrictions de vente, le bouton est disponible sur la page des produits. De même, le bloc de signet n’apparaît pas sur la page produit si le produit est associé à une autre catégorie qui n’a pas de restrictions de vente.
+Pour restaurer le bouton _[!UICONTROL Add to Cart]_&#x200B;d&#39;un événement fermé, l&#39;événement doit être supprimé (voir [Mettre à jour les événements](event-create.md#update-events)). Cependant, si un produit est associé à une autre catégorie qui n’a pas de restrictions de vente, le bouton est disponible sur la page des produits. De même, le bloc de signet n’apparaît pas sur la page produit si le produit est associé à une autre catégorie qui n’a pas de restrictions de vente.

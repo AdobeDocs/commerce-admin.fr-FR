@@ -81,7 +81,7 @@ Pour générer un nouveau jeton d’accès à l’intégration et un nouveau sec
 
 1. Recherchez l’intégration avec le statut **[!UICONTROL Active]** .
 
-1. Dans _[!UICONTROL Activate]_colonne, cliquez sur le **[!UICONTROL Reauthorize]**.
+1. Dans _[!UICONTROL Activate]_&#x200B;colonne, cliquez sur le **[!UICONTROL Reauthorize]**.
 
 1. Cliquez sur **[!UICONTROL Reauthorize]** pour approuver l’accès aux ressources de l’API.
 

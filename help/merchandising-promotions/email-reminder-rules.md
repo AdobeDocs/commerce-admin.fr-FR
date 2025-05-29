@@ -21,7 +21,7 @@ Les rappels par e-mail peuvent être déclenchés après un nombre spécifique d
 
 >[!NOTE]
 >
->Si un client possède plusieurs paniers abandonnés, listes de souhaits ou combinaisons des deux, l’e-mail de rappel n’est déclenché qu’une seule fois pour ce client. Pour déclencher à nouveau le même rappel par e-mail, utilisez le champ _[!UICONTROL Repeat Schedule]_pour définir le nombre de jours entre les e-mails.
+>Si un client possède plusieurs paniers abandonnés, listes de souhaits ou combinaisons des deux, l’e-mail de rappel n’est déclenché qu’une seule fois pour ce client. Pour déclencher à nouveau le même rappel par e-mail, utilisez le champ _[!UICONTROL Repeat Schedule]_&#x200B;pour définir le nombre de jours entre les e-mails.
 
 ![Rappels par e-mail](./assets/email-reminders.png){width="700" zoomable="yes"}
 

@@ -35,11 +35,11 @@ Pour réinitialiser les authentificateurs à partir de la ligne de commande et o
 
 1. Sélectionnez l’utilisateur et ouvrez le compte en mode d’édition.
 
-1. Faites défiler l’écran jusqu’à la section _[!UICONTROL Current User Identity Verification]_et saisissez votre mot de passe.
+1. Faites défiler l’écran jusqu’à la section _[!UICONTROL Current User Identity Verification]_&#x200B;et saisissez votre mot de passe.
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL 2FA]**.
 
-1. Dans la section _[!UICONTROL Configuration reset]_, cliquez sur **[!UICONTROL Reset]**et **[!UICONTROL OK]**pour confirmer.
+1. Dans la section _[!UICONTROL Configuration reset]_, cliquez sur **[!UICONTROL Reset]**&#x200B;et **[!UICONTROL OK]**&#x200B;pour confirmer.
 
    ![Compte utilisateur - Activer 2FA](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}
 

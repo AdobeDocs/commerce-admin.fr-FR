@@ -20,8 +20,8 @@ Commerce comprend une fonctionnalité native de révision des produits que vous 
 >[!NOTE]
 >
 >Les versions 2.4.0 à 2.4.3 d’Adobe Commerce et de Magento Open Source incluaient l’extension Yotpo développée par le fournisseur. À compter de la version 2.4.4, cette extension n’est plus fournie avec la version de base et doit être installée et mise à jour à partir de Commerce Marketplace. La Marketplace permet également d’accéder à la documentation actuelle fournie par le développeur d’extensions.
->><br><br>
->>Si l’extension groupée est activée et configurée, vous devez mettre à jour votre fichier composer.json dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Voir [Mise à niveau des modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) dans le _Guide de mise à niveau_ pour plus d’informations.
+>&#x200B;><br><br>
+>&#x200B;>Si l’extension groupée est activée et configurée, vous devez mettre à jour votre fichier composer.json dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Voir [Mise à niveau des modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) dans le _Guide de mise à niveau_ pour plus d’informations.
 
 ## Évaluations de produits sur le storefront
 
@@ -43,7 +43,7 @@ Le nombre d’étoiles indique la note de satisfaction du produit. Les visiteurs
 
 ### [!UICONTROL My Product Reviews]
 
-La section _[!UICONTROL My Product Reviews]_du tableau de bord du compte client répertorie tous les avis soumis par le client et dont la publication a été approuvée. Chaque résumé de révision comprend la date à laquelle la révision a été soumise, des liens vers la page du produit et des détails de révision.
+La section _[!UICONTROL My Product Reviews]_&#x200B;du tableau de bord du compte client répertorie tous les avis soumis par le client et dont la publication a été approuvée. Chaque résumé de révision comprend la date à laquelle la révision a été soumise, des liens vers la page du produit et des détails de révision.
 
 ![Mes avis sur les produits](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -91,7 +91,7 @@ Grâce aux révisions de produit Commerce, les clients peuvent attribuer des év
 
    ![Admin - Ratings](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. Dans la section _[!UICONTROL Rating Title]_, saisissez le **[!UICONTROL Default Value]**de la nouvelle évaluation.
+1. Dans la section _[!UICONTROL Rating Title]_, saisissez le **[!UICONTROL Default Value]**&#x200B;de la nouvelle évaluation.
 
    Le cas échéant, saisissez également la traduction pour chaque vue de magasin.
 

@@ -84,7 +84,7 @@ Google reCAPTCHA requiert une paire de clés API pour l’activer. Vous pouvez o
    >
    >Décochez la case **[!UICONTROL Use system value]** pour chaque champ à configurer.
 
-1. Pour utiliser _[!DNL reCAPTCHA v2 ("I am not a robot")]_, développez la section **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**et procédez comme suit :
+1. Pour utiliser _[!DNL reCAPTCHA v2 ("I am not a robot")]_, développez la section **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**&#x200B;et procédez comme suit :
 
    - Par **[!UICONTROL Google API Website Key]**, saisissez la clé de site web qui a été créée pour ce type reCAPTCHA lorsque vous avez enregistré votre compte Google reCAPTCHA.
 
@@ -98,7 +98,7 @@ Google reCAPTCHA requiert une paire de clés API pour l’activer. Vous pouvez o
 
    ![reCAPTCHA v2 - « Je ne suis pas un robot »](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
-1. Pour utiliser _[!DNL reCAPTCHA v2 Invisible]_, développez la section **[!UICONTROL reCAPTCHA v2 Invisible]**et procédez comme suit :
+1. Pour utiliser _[!DNL reCAPTCHA v2 Invisible]_, développez la section **[!UICONTROL reCAPTCHA v2 Invisible]**&#x200B;et procédez comme suit :
 
    - Par **[!UICONTROL Google API Website Key]**, saisissez la clé de site web qui a été créée pour ce type reCAPTCHA lorsque vous avez enregistré votre compte Google reCAPTCHA.
 
@@ -112,7 +112,7 @@ Google reCAPTCHA requiert une paire de clés API pour l’activer. Vous pouvez o
 
    ![reCAPTCHA v2 invisible](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
-1. Pour utiliser _[!DNL reCAPTCHA v3 Invisible]_, développez la section **[!UICONTROL reCAPTCHA v3 Invisible]**et procédez comme suit :
+1. Pour utiliser _[!DNL reCAPTCHA v3 Invisible]_, développez la section **[!UICONTROL reCAPTCHA v3 Invisible]**&#x200B;et procédez comme suit :
 
    - Par **[!UICONTROL Google API Website Key]**, saisissez la clé de site web qui a été créée pour ce type reCAPTCHA lorsque vous avez enregistré votre compte Google reCAPTCHA.
 

@@ -24,7 +24,7 @@ Adobe Commerce et Magento Open Source effectuent certaines opérations selon le 
 
 >[!IMPORTANT]
 >
->Les services Commerce doivent être installés dans crontab pour que les composants principaux et certaines extensions tierces fonctionnent comme prévu. Pour plus d’informations sur l’installation des services sur crontab _](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html) consultez les [instructions du_ Guide d’installation.
+>Les services Commerce doivent être installés dans crontab pour que les composants principaux et certaines extensions tierces fonctionnent comme prévu. Pour plus d’informations sur l’installation des services sur crontab _[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html) consultez les instructions du_ Guide d’installation.
 
 En outre, vous pouvez configurer les éléments suivants pour qu’ils s’exécutent selon un planning cron :
 

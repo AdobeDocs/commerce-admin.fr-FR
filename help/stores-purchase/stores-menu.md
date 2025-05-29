@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # [!UICONTROL Stores] menu
 
-Le menu _[!UICONTROL Stores]_permet d’accéder aux paramètres qui sont utilisés moins fréquemment, mais référencés tout au long de votre installation Adobe Commerce ou Magento Open Source. Ces fonctions incluent la configuration de la hiérarchie du magasin, de la configuration, des paramètres de commande et de vente, de la taxe et de la devise, des attributs de produit, des évaluations de révision de produit et des groupes de clients.
+Le menu _[!UICONTROL Stores]_&#x200B;permet d’accéder aux paramètres qui sont utilisés moins fréquemment, mais référencés tout au long de votre installation Adobe Commerce ou Magento Open Source. Ces fonctions incluent la configuration de la hiérarchie du magasin, de la configuration, des paramètres de commande et de vente, de la taxe et de la devise, des attributs de produit, des évaluations de révision de produit et des groupes de clients.
 
 >[!BEGINTABS]
 
