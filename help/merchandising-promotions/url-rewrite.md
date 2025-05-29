@@ -111,4 +111,4 @@ Commerce propose les types de réécriture d’URL suivants :
 
 Regardez cette vidéo pour en savoir plus sur la gestion des réécritures d’URL :
 
->[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410124?quality=12&learn=on&captions=fre_fr)
