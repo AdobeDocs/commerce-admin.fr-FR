@@ -4,9 +4,10 @@ description: Découvrez comment configurer la gestion des sessions pour sécuris
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -48,8 +49,6 @@ Utilisez les paramètres de configuration suivants pour limiter la taille de ses
 
 ### Sessions d’administrateur
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
-
 Si vous dépassez la taille de session maximale, un message d’erreur s’affiche et le système consigne la contrainte de taille de session dans le répertoire `var/log`.
 
 Si vous perdez l’accès à l’administrateur après avoir défini une taille de session trop basse, utilisez l’interface de ligne de commande pour réinitialiser la configuration :
@@ -60,15 +59,13 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 ### Sessions Storefront
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
-
 Si vous dépassez la taille de session maximale, aucune erreur ne s’affiche, mais le système consigne la contrainte de taille de session dans le répertoire `var/log`.
 
 ## Validation de session
 
 Adobe Commerce et Magento Open Source vous permettent de valider les variables de session à titre de mesure de protection contre d’éventuelles attaques de fixation de session ou tentatives d’empoisonnement ou de détournement de sessions utilisateur. Les paramètres de validation de session déterminent la manière dont les variables de session sont validées lors de chaque visite de la boutique et si l’ID de session est inclus dans l’URL de la boutique.
 
-Pour plus d’informations techniques, voir [Utilisation de Redis pour le stockage de session](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=fr) dans le _Guide de configuration_.
+Pour plus d’informations techniques, voir [Utilisation de Redis pour le stockage de session](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) dans le _Guide de configuration_.
 
 ![Configuration générale - Validation des sessions web](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 
@@ -80,7 +77,7 @@ L’activation de toutes les variables de validation peut prévenir les attaques
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de gauche, développez _[!UICONTROL General]_&#x200B;et choisissez **[!UICONTROL Web]**.
+1. Dans le panneau de gauche, développez _[!UICONTROL General]_et choisissez **[!UICONTROL Web]**.
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Session Validation Settings]** .
 

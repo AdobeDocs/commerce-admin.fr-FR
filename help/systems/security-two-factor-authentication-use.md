@@ -4,22 +4,23 @@ description: Découvrez comment configurer l’authentification à deux facteurs
 exl-id: 1ea7f09e-4753-40fa-b9d4-376ba5d8f58f
 role: Admin, User
 feature: Configuration, Security, User Account
-source-git-commit: dc6e5fc7c0996af30bae6374cd7c9879902b9235
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
 
-# Configuration de l’authentification à deux facteurs pour les comptes utilisateurs
+# Configuration de l’authentification à deux facteurs pour les comptes utilisateur
 
-Ces instructions montrent comment configurer l’authentification à deux facteurs lors de votre connexion initiale à Adobe Commerce ou Magento Open Source et comment authentifier votre identité à l’aide des applications et appareils suivants.
+Ces instructions expliquent comment configurer l’authentification à deux facteurs lors de votre connexion initiale à Adobe Commerce ou Magento Open Source et comment authentifier votre identité à l’aide des applications et appareils suivants.
 
-Pour obtenir des instructions complètes, voir [Admin Login](../getting-started/admin-signin.md).
+Pour obtenir des instructions complètes, voir [Connexion administrateur](../getting-started/admin-signin.md).
 
 >[!NOTE]
 >
->Les magasins qui ont activé [!DNL Adobe Identity Management Services] l’authentification (IMS) ont Adobe natif Commerce et Magento Open Source 2FA désactivés. Les utilisateurs administrateurs connectés à leur instance Commerce avec leurs informations d’identification Adobe n’ont pas besoin de se réauthentifier pour de nombreuses tâches d’administration. Authentication est gérée par Adobe IMS lorsque l’utilisateur Admin se connecte à sa session en cours. Voir [[!DNL Adobe Identity Management Service] (IMS) Vue d’ensemble](../getting-started/adobe-ims-integration-overview.md) de l’intégration.
+>Les magasins qui ont activé l’authentification [!DNL Adobe Identity Management Services] (IMS) ont Adobe Commerce et Magento Open Source 2FA natifs désactivés. Les utilisateurs administrateurs connectés à leur instance Commerce avec leurs informations d’identification Adobe n’ont pas besoin de s’authentifier à nouveau pour de nombreuses tâches d’administration. L’authentification est gérée par Adobe IMS lorsque l’utilisateur administrateur se connecte à sa session en cours. Voir Présentation de l’intégration [[!DNL Adobe Identity Management Service] (IMS)](../getting-started/adobe-ims-integration-overview.md).
 
 ## [!DNL Google Authenticator]
 
@@ -55,15 +56,15 @@ Pour obtenir des instructions complètes, voir [Admin Login](../getting-started/
 
 [!DNL Duo] offre une version d’évaluation gratuite et des frais en fonction du nombre d’utilisateurs associés au compte. Suivez leurs [instructions pour configurer votre compte et télécharger l’application](https://duo.com/product/multi-factor-authentication-mfa/duo-mobile-app).
 
-### Étape 1 : Configuration [!DNL Duo Security]
+### Étape 1 : configurer [!DNL Duo Security]
 
-1. Saisissez les informations d’identification de votre compte et connectez-vous à l’administrateur __.
+1. Saisissez les informations d’identification de votre compte et connectez-vous à l’adresse _Admin_.
 
-1. Lorsque la page Configuration s’affiche [!DNL Duo] , cliquez **[!UICONTROL Get Started]** et procédez comme suit :
+1. Lorsque la page Configuration du [!DNL Duo] s’affiche, cliquez sur **[!UICONTROL Get Started]** et procédez comme suit :
 
-   ![Exemple de vitrine - Configuration Duo](./assets/storefront-2fa-duo-setup-options.png){width="300"}
+   ![Exemple de configuration storefront - Duo](./assets/storefront-2fa-duo-setup-options.png){width="300"}
 
-1. Sélectionnez votre option. Vous pouvez choisir Touch ID, Duo Mobile, Clé de sécurité ou Numéro de téléphone. Cet exemple illustre l’option Duo Mobile ou Numéro de téléphone.
+1. Sélectionnez votre option. Vous pouvez choisir Touch ID, Duo Mobile, Security Key ou Phone Number. Cet exemple illustre l’option Duo Mobile ou Numéro de téléphone .
 
 1. A l&#39;invite, entrez votre numéro de téléphone et cliquez sur **[!UICONTROL Continue]**.
 
@@ -85,7 +86,7 @@ L’exemple suivant illustre les options de `Ask me to choose an authenticator m
 
    ![Duo - connexion](./assets/storefront-2fa-duo-auth.png){width="300"}
 
-1. Choisissez Se connecter avec Duo pour recevoir une notification push sur l’application Duo Mobile, connectez-vous avec Touch ID ou utilisez une autre option que vous avez configurée lors de la configuration.
+1. Choisissez Se connecter avec Duo pour obtenir une notification push sur l&#39;application Duo Mobile, vous connecter avec un identifiant tactile ou continuer avec une autre option que vous avez configurée lors de la configuration.
 
 1. Approuvez la demande de l’application Duo / de l’ID tactile / du message texte et vous serez correctement connecté.
 
@@ -95,7 +96,7 @@ L’exemple suivant illustre les options de `Ask me to choose an authenticator m
 
 [!DNL Authy] offre son application et son service gratuitement aux utilisateurs. Suivez leurs instructions pour télécharger et configurer l’application pour votre appareil ou navigateur. Pour en savoir plus, consultez la [[!DNL Authy] documentation](https://authy.com/features/setup/).
 
-### Étape 1 : Configuration d’Authy
+### Étape 1 : configurer l’auteur
 
 1. Saisissez les informations d’identification de votre compte et connectez-vous à l’adresse _Admin_.
 
@@ -119,21 +120,21 @@ L’exemple suivant illustre les options de `Ask me to choose an authenticator m
 
 ### Étape 2 : Se connecter avec [!DNL Authy]
 
-1. Saisissez les informations d’identification de votre compte et connectez-vous à l’administrateur __.
+1. Saisissez les informations d’identification de votre compte et connectez-vous à l’adresse _Admin_.
 
    ![[!DNL Authy] - connexion](./assets/storefront-2fa-authy-access.png){width="300"}
 
 1. Sélectionnez l’une des méthodes d’authentification suivantes :
 
    - `Use one touch` — Envoie une alerte à votre application [!DNL Authy]. Dans l’application, acceptez l’accès.
-   - `Use authy token` — Invite à saisir un code de votre [!DNL Authy] application.
+   - `Use authy token` : vous invite à saisir un code à partir de l&#39;application [!DNL Authy].
 
-1. Si vous ne parvenez pas à vous connecter, choisissez la méthode que vous souhaitez utiliser pour recevoir le code. Ensuite, entrez le code que vous recevez pour accéder à l’administrateur __.
+1. Si vous rencontrez des problèmes lors de la connexion, choisissez la méthode à utiliser pour recevoir le code. Saisissez ensuite le code que vous recevez pour accéder au _Admin_.
 
-   L’application inclut ces méthodes d’urgence supplémentaires.
+   L’application comprend ces méthodes d’urgence supplémentaires.
 
-   - `Send me a code via SMS` — Un SMS texte est envoyé à l’appareil mobile configuré.
-   - `Send me a code via phone call` — L’utilisateur reçoit un appel téléphonique avec un code.
+   - `Send me a code via SMS` — Un SMS est envoyé à l&#39;appareil mobile configuré.
+   - `Send me a code via phone call` — L&#39;utilisateur reçoit un appel téléphonique comportant un code.
 
    Votre compte est vérifié et s’ouvre.
 

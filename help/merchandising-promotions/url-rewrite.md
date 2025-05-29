@@ -3,15 +3,19 @@ title: Réécritures d’URL
 description: Découvrez les réécritures d’URL et utilisez l’outil de réécriture d’URL de Commerce pour modifier les URL associées à un produit, une catégorie ou une page CMS.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
 
 # Réécritures d’URL
+
+>[!TIP]
+>
+>Pour Adobe Commerce as a Cloud Service, consultez les [directives SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) de la documentation du Storefront Commerce
 
 L’outil de réécriture d’URL vous permet de modifier toute URL associée à un produit, une catégorie ou une page CMS. Lorsque la réécriture prend effet, tous les liens renvoyant à l’URL précédente sont redirigés vers la nouvelle adresse.
 
@@ -45,7 +49,7 @@ Selon la configuration de votre site web, l’index peut contenir plusieurs vers
     https://example.com
     https://www.example.com/index.html
 
-Pour spécifier une page canonique, consultez la documentation de Google Search Central [&#128279;](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).
+Pour spécifier une page canonique, consultez la documentation de Google Search Central [](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).
 
 ## Configuration des réécritures d’URL
 
@@ -107,4 +111,4 @@ Commerce propose les types de réécriture d’URL suivants :
 
 Regardez cette vidéo pour en savoir plus sur la gestion des réécritures d’URL :
 
->[!VIDEO](https://video.tv.adobe.com/v/3410124?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
