@@ -3,7 +3,7 @@ title: Le  [!DNL Media Gallery]
 description: Utilisez la Galerie de médias pour organiser et gérer vos fichiers multimédias sur le serveur.
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '330'
@@ -41,7 +41,7 @@ Avec Adobe Commerce ou Magento Open Source 2.4, les commerçants peuvent utilise
 
 >[!NOTE]
 >
->La fonctionnalité complète des nouvelles [!DNL Media Gallery] nécessite le démarrage des clients de file d’attente `media.gallery.synchronization` et `media.content.synchronization` pour la synchronisation initiale. Voir [ Gestion des files d’attente de messages ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) dans le _Guide de configuration_ pour plus d’informations.
+>La fonctionnalité complète des nouvelles [!DNL Media Gallery] nécessite le démarrage des clients de file d’attente `media.gallery.synchronization` et `media.content.synchronization` pour la synchronisation initiale. Voir [ Gestion des files d’attente de messages ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=fr) dans le _Guide de configuration_ pour plus d’informations.
 
 ## Accéder au nouveau [!DNL Media Gallery]
 

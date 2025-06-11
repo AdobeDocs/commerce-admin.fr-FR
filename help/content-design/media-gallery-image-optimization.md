@@ -3,7 +3,7 @@ title: Optimisation des images de Media Gallery
 description: Découvrez comment utiliser l’optimisation des images pour vos ressources  [!DNL Commerce]  médias.
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '191'
@@ -32,6 +32,6 @@ Lorsque la fonctionnalité d’optimisation des images de la Galerie de médias 
 
 Lorsque les valeurs _Largeur maximale_ et _Hauteur maximale_ sont modifiées dans la configuration, elle met à jour toutes les images optimisées existantes qui ont été insérées précédemment.
 
-L’optimisation des images de la Galerie de médias nécessite que les consommateurs de la file d’attente `media.gallery.renditions.update` s’exécutent pour régénérer des images optimisées lorsque la configuration est modifiée. Voir [ Gestion des files d’attente de messages ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) dans le _Guide de configuration_ pour plus d’informations.
+L’optimisation des images de la Galerie de médias nécessite que les consommateurs de la file d’attente `media.gallery.renditions.update` s’exécutent pour régénérer des images optimisées lorsque la configuration est modifiée. Voir [ Gestion des files d’attente de messages ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=fr) dans le _Guide de configuration_ pour plus d’informations.
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}

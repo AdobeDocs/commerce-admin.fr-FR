@@ -3,7 +3,7 @@ title: Utilisation des images Adobe Stock
 description: Améliorez vos pages de boutique avec des images provenant d’Adobe Stock.
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '1013'
@@ -119,13 +119,13 @@ Chaque image contient des détails disponibles pour l’affichage. D’autres ac
 
 ## Connectez-vous à votre compte Adobe
 
-Pour obtenir un accès complet à une image et éliminer le filigrane Adobe Stock, vous devez vous [connecter à l’aide d’un compte Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) et acheter des crédits pour acquérir des droits d’utilisation d’une image.
+Pour obtenir un accès complet à une image et éliminer le filigrane Adobe Stock, vous devez vous [connecter à l’aide d’un compte Adobe](https://helpx.adobe.com/fr/manage-account/using/access-adobe-id-account.html) et acheter des crédits pour acquérir des droits d’utilisation d’une image.
 
 1. [Accédez à la grille de recherche Adobe Stock](#access-the-adobe-stock-search-grid).
 
 1. Cliquez sur **[!UICONTROL Sign In]** en haut à droite.
 
-   Une nouvelle fenêtre de navigateur vous guide tout au long du processus de connexion à [Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
+   Une nouvelle fenêtre de navigateur vous guide tout au long du processus de connexion à [Adobe](https://helpx.adobe.com/fr/manage-account/using/access-adobe-id-account.html).
 
    Une fois le processus de connexion terminé, l’état sous licence des images s’affiche dans les résultats de recherche sous forme de libellé.
 
@@ -179,7 +179,7 @@ Les ressources Adobe Stock que vous souhaitez utiliser pour vos magasins de [!DN
 
      >[!NOTE]
      >
-     >Vous devez disposer de [crédits Adobe Stock disponibles](https://helpx.adobe.com/stock/help/credit-packs.html) sur votre compte pour obtenir la licence de l’image.
+     >Vous devez disposer de [crédits Adobe Stock disponibles](https://helpx.adobe.com/fr/stock/help/credit-packs.html) sur votre compte pour obtenir la licence de l’image.
 
    Cette action affiche une invite vous demandant de spécifier un nom de fichier utilisé pour enregistrer l’image dans le [espace de stockage multimédia](media-storage.md). Un nom de fichier par défaut est fourni, mais vous pouvez personnaliser le nom en fonction de vos préférences.
 

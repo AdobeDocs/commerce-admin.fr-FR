@@ -4,7 +4,7 @@ description: Découvrez comment utiliser un réseau de diffusion de contenu (CDN
 exl-id: cb612b79-f3e3-4f1b-8cf9-d47886486686
 feature: Page Content, Media, Configuration
 level: Experienced
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '416'
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Utiliser un réseau de diffusion de contenu
 
-Un réseau de diffusion de contenu (CDN) peut être utilisé pour stocker des fichiers multimédias. Adobe Commerce sur l’infrastructure cloud inclut le réseau CDN Fastly (voir [Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html) dans le _Guide de Commerce sur l’infrastructure cloud_). Une instance Commerce installée _on-premise_ n’inclut pas d’intégration à un réseau CDN spécifique. Vous pouvez utiliser le réseau CDN de votre choix.
+Un réseau de diffusion de contenu (CDN) peut être utilisé pour stocker des fichiers multimédias. Adobe Commerce sur l’infrastructure cloud inclut le réseau CDN Fastly (voir [Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=fr) dans le _Guide de Commerce sur l’infrastructure cloud_). Une instance Commerce installée _on-premise_ n’inclut pas d’intégration à un réseau CDN spécifique. Vous pouvez utiliser le réseau CDN de votre choix.
 
 Après avoir configuré le réseau CDN, vous devez effectuer la configuration à partir de l’administration. Les modifications peuvent être apportées au niveau global ou au niveau du site web. Lorsqu’un réseau CDN est utilisé pour le stockage de médias, tous les chemins d’accès aux médias sur les pages de magasin Commerce sont modifiés en chemins d’accès CDN spécifiés dans la configuration.
 
