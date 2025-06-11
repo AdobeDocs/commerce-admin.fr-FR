@@ -2,9 +2,10 @@
 title: '[!UICONTROL Content] menu'
 description: Utilisez le menu [!UICONTROL Content] pour accéder à plusieurs fonctionnalités de gestion du contenu de votre boutique.
 exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
-source-git-commit: c036fffe602593a801f9cf1361fdb44f1f7e1d5f
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -13,19 +14,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Lorsque le nouveau [[!DNL Media Gallery]](media-gallery.md) est activé, la section _[!UICONTROL Media]_&#x200B;s’affiche avec une seule option pour accéder au [!DNL Media Gallery]. Vous pouvez définir l’option **[!UICONTROL Enable Old Media Gallery]**&#x200B;sur `No` en accédant à&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** et en choisissant **[!UICONTROL Advanced]** > **[!UICONTROL System]** dans le panneau de gauche.
+>Lorsque le nouveau [[!DNL Media Gallery]](media-gallery.md) est activé, la section _[!UICONTROL Media]_s’affiche avec une seule option pour accéder au [!DNL Media Gallery]. Vous pouvez définir l’option **[!UICONTROL Enable Old Media Gallery]**sur `No` en accédant à&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** et en choisissant **[!UICONTROL Advanced]** > **[!UICONTROL System]** dans le panneau de gauche.
 
 >[!BEGINTABS]
 
 >[!TAB Adobe Commerce]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 ![Menu [!UICONTROL Content] affiché dans l’Administration](./assets/admin-menu-content.png){width="400" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
 
 ![Menu [!UICONTROL Content] affiché dans l’Administration](./assets/admin-menu-content-accs.png){width="400" zoomable="yes"}
 
@@ -46,7 +47,7 @@ Dans la barre latérale _Admin_, choisissez **[!UICONTROL Content]**.
 
 >[!NOTE]
 >
->L’option _[!UICONTROL Banners]_&#x200B;de ce menu a été abandonnée dans la version 2.3.1 et est désormais supprimée. Sa fonctionnalité est remplacée par Blocs dynamiques.
+>L’option _[!UICONTROL Banners]_de ce menu a été abandonnée dans la version 2.3.1 et est désormais supprimée. Sa fonctionnalité est remplacée par Blocs dynamiques.
 
 ## [!UICONTROL Design] {#design-features}
 

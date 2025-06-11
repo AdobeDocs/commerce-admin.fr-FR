@@ -1,32 +1,33 @@
 ---
-title: Gestion des dossiers Media Gallery
-description: Découvrez comment utiliser des dossiers pour organiser vos ressources multimédia.
+title: Gestion des dossiers de Media Gallery
+description: Découvrez comment utiliser des dossiers pour organiser vos ressources multimédias.
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-source-git-commit: 65521c2b2113768ebec43b3aadac487d4d07c3a0
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
 
-# Gestion des dossiers Media Gallery
+# Gestion des dossiers de Media Gallery
 
-Utilisez des dossiers pour organiser les images dans la nouvelle [galerie de médias](media-gallery.md). À mesure que le nombre de ressources multimédia augmente, les dossiers facilitent la localisation et la gestion des ressources existantes dans votre galerie multimédia.
+Utilisez des dossiers pour organiser les images dans la nouvelle [ Galerie de médias ](media-gallery.md). À mesure que le nombre de ressources multimédias augmente, les dossiers facilitent la recherche et la gestion des ressources existantes dans votre galerie de médias.
 
 ## Création d’un dossier
 
 >[!NOTE]
 >
->Vous pouvez uniquement créer un dossier dans les dossiers `pub/media/wysywig` et `pub/media/catalog/category`.
+>Vous ne pouvez créer un dossier que dans les dossiers `pub/media/wysywig` et `pub/media/catalog/category`.
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
 1. Cliquez sur **[!UICONTROL Create Folder]**.
 
    Si vous souhaitez créer un sous-dossier, sélectionnez le dossier parent avant de cliquer sur **[!UICONTROL Create Folder]**.
 
-1. Saisissez le nouveau nom du dossier et cliquez sur **[!UICONTROL Confirm]**.
+1. Saisissez le nouveau nom de dossier et cliquez sur **[!UICONTROL Confirm]**.
 
    ![Nouveau nom de dossier](./assets/media-gallery-folder-name.png){width="600" zoomable="yes"}
 
@@ -36,7 +37,7 @@ Utilisez des dossiers pour organiser les images dans la nouvelle [galerie de mé
 >
 >La suppression d’un dossier entraîne la suppression de toutes les images qu’il contient. Vous pouvez uniquement supprimer un dossier dans les dossiers `pub/media/wysywig` et `pub/media/catalog/category`.
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
 1. Sélectionnez le dossier à supprimer.
 

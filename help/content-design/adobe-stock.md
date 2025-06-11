@@ -1,45 +1,46 @@
 ---
-title: Intégration Adobe Stock
-description: Intégrez Adobe Stock à votre instance  [!DNL Commerce] pour accéder à d’innombrables ressources multimédias à utiliser dans votre boutique.
+title: Intégration d’Adobe Stock
+description: Intégrez Adobe Stock à votre instance pour accéder  [!DNL Commerce]  nombreuses ressources multimédias à utiliser dans votre magasin.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
 
-# Intégration Adobe Stock
+# Intégration d’Adobe Stock
 
-Pour accéder à d’innombrables ressources multimédias à utiliser dans votre boutique, intégrez [Adobe Stock][adobe-stock] à [!UICONTROL Commerce].
+Pour accéder à d’innombrables ressources multimédias à utiliser dans votre magasin, intégrez [Adobe Stock][adobe-stock] à [!UICONTROL Commerce].
 
 ![Résultats de la recherche Adobe Stock](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
 
-Le service Adobe Stock permet aux entreprises d’accéder à des millions de photos, de vecteurs, d’illustrations, de vidéos, de modèles et de ressources 3D organisés, de haute qualité et libres de droits pour tous leurs projets de création. [!DNL Commerce] utilisateurs peuvent rapidement rechercher, prévisualiser et acquérir sous licence des ressources Adobe Stock. Les utilisateurs peuvent également les enregistrer dans le [stockage multimédia](./media-storage.md), le tout sans quitter l’espace de travail Admin.
+Le service Adobe Stock permet aux entreprises d’accéder à des millions de photos, de vecteurs, d’illustrations, de vidéos, de modèles et de ressources 3D organisés, de haute qualité et libres de droits pour tous leurs projets de création. [!DNL Commerce] utilisateurs peuvent rechercher, prévisualiser et acquérir rapidement des licences pour les ressources Adobe Stock. Les utilisateurs peuvent également les enregistrer dans le [espace de stockage multimédia](./media-storage.md), le tout sans quitter l’espace de travail d’administration.
 
 ## Conditions préalables
 
-Cette intégration requiert :
+Cette intégration nécessite :
 
 - Un compte [Adobe Developer][dev-console]
-- Adobe Commerce ou Magento Open Source, 2.3.4 ou version ultérieure
+- Adobe Commerce ou Magento Open Source, version 2.3.4 ou ultérieure
 
-L’obtention de licences pour les images Adobe Stock requiert :
+L’obtention d’une licence pour les images Adobe Stock requiert :
 
-- Un [compte d&#39;Adobe][adobe-signin]
-- Un abonnement [Adobe Stock][adobe-stock] payant associé au compte
+- Un compte [Adobe][adobe-signin]
+- Un plan [Adobe Stock][adobe-stock] payant associé au compte
 
 ## Intégrer [!DNL Commerce] et Adobe Stock
 
-La configuration de l’intégration Adobe Stock pour Adobe Commerce est un processus en deux étapes :
+La configuration de l&#39;intégration d&#39;Adobe Stock pour Adobe Commerce est un processus en deux étapes :
 
-1. [Création d’une intégration adobe.developer](#create-an-adobe-developer-integration) pour générer une clé API
-1. [Configuration de l’intégration Adobe Stock dans Commerce Admin](#configure-the-adobe-stock-integration)
+1. [Créer une intégration adobe.developer](#create-an-adobe-developer-integration) pour générer une clé API
+1. [Configuration de l’intégration d’Adobe Stock dans Commerce Admin](#configure-the-adobe-stock-integration)
 
 ### Création d’une intégration Adobe Developer
 
-1. Accédez au [Adobe Developer Console][dev-console].
+1. Accédez à [Adobe Developer Console][dev-console].
 
 1. Sous _[!UICONTROL Quick Start]_, cliquez sur **[!UICONTROL Create new project]**.
 
@@ -47,35 +48,35 @@ La configuration de l’intégration Adobe Stock pour Adobe Commerce est un proc
 
 1. Sélectionnez **[!UICONTROL Adobe Stock]** dans la liste des intégrations et cliquez sur **[!UICONTROL Next]**.
 
-1. Sélectionnez OAuth 2.0 **[!UICONTROL Web App]**.
+1. Sélectionnez la **[!UICONTROL Web App]** OAuth 2.0 .
 
-1. Spécifiez le **[!UICONTROL redirect URI]**.
+1. Spécifiez la **[!UICONTROL redirect URI]**.
 
    L’URI de redirection par défaut se présente sous la forme `${HOST}/${ADMIN_URI}/adobe_ims/oauth/callback/`, par exemple `https://store.myshop.com/admin_hgkq1l/adobe_ims/oauth/callback/`, où :
 
-   - `${HOST}` est votre nom de domaine [!DNL Commerce] entièrement qualifié (par exemple, `https://store.myshop.com`).
+   - `${HOST}` est votre [!DNL Commerce] nom de domaine complet (par exemple, `https://store.myshop.com`).
    - `${ADMIN_URI}` est votre URI d’administrateur [!DNL Commerce] (tel que `admin_hgkq1l`), qui peut être récupéré en exécutant `magento info:adminuri`.
 
-1. Spécifiez le **[!UICONTROL Redirect URI pattern]**, qui est identique à votre URI de redirection avec deux différences :
+1. Spécifiez la **[!UICONTROL Redirect URI pattern]**, qui est identique à l’URI de redirection, avec deux différences :
 
-   - Toutes les périodes (`.`) doivent être précédées de deux barres obliques inverses (`\\`).
-   - Ajoutez `.*` à la fin du modèle.
+   - Les points (`.`) doivent être précédés de deux barres obliques inverses (`\\`).
+   - Ajoutez `.*` à la fin du motif.
 
-   En utilisant l’exemple de l’URI de redirection par défaut précédent, il serait `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`.
+   En reprenant l’exemple de l’URI de redirection par défaut précédent, il serait `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`.
 
 1. Cliquez sur **[!UICONTROL Next]**.
 
 1. Vérifiez les portées disponibles et cliquez sur **[!UICONTROL Save configured API]**.
 
-1. Sur la page qui suit, copiez votre **[!UICONTROL Client ID]** (clé API) et **[!UICONTROL Client secret]**.
+1. Sur la page qui suit, copiez vos **[!UICONTROL Client ID]** (clé API) et **[!UICONTROL Client secret]**.
 
    Ces informations sont utilisées dans les étapes de la section suivante.
 
 ### Configuration de l’intégration Adobe Stock
 
-Pour définir la configuration système dans votre administrateur [!DNL Commerce], utilisez la _clé API_ et le _secret client_ générés dans la [section précédente][create-integration].
+Pour définir la configuration système dans votre administrateur [!DNL Commerce], utilisez les clés _API_ et _Secret client_ générées dans la [section précédente][create-integration].
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Advanced]** et choisissez **[!UICONTROL System]**.
 
@@ -89,13 +90,13 @@ Pour définir la configuration système dans votre administrateur [!DNL Commerce
 
    - Cliquez sur **[!UICONTROL Test Connection]** pour valider vos clés.
 
-   ![ Configuration avancée - Intégration Adobe Stock](./assets/system-adobe-stock-integration.png){width="600" zoomable="yes"}
+   ![Configuration avancée - Intégration Adobe Stock](./assets/system-adobe-stock-integration.png){width="600" zoomable="yes"}
 
-   Donnez quelques secondes à la validation. Si vos informations d’identification sont valides, une _connexion réussie&quot; verte s’affiche.Message_.
+   Accordez quelques secondes à la validation. Si vos informations d’identification sont valides, un _vert Connexion réussie !_ le message.
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
+1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/fr/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration

@@ -1,43 +1,44 @@
 ---
 title: URL Dynamic Media
-description: Découvrez comment utiliser une URL de média dynamique comme référence relative à une image ou à une autre ressource multimédia.
+description: Découvrez comment utiliser une URL de média dynamique comme référence relative à une image ou à une autre ressource de média.
 exl-id: 41aabde2-f6cc-4b83-8d56-9753a7aa93e9
 feature: CMS, Media
-source-git-commit: d3b9b4cd0d12f8d5feb2bad0bf601970f9ee1a36
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
 
 # URL Dynamic Media
 
-Une URL de média dynamique est une référence relative à une image ou à une autre ressource multimédia. Lorsque cette option est activée, les URL Dynamic Media peuvent être utilisées pour créer des liens directs vers des ressources de votre serveur ou vers des fichiers stockés sur un [réseau de diffusion de contenu](media-storage-content-delivery-network.md). L’utilisation d’URL de média dynamique peut avoir une incidence sur les performances du catalogue et l’ [éditeur](editor.md#configure-the-editor) peut être configuré pour utiliser des URL de média statique ou dynamique.
+Une URL de média dynamique est une référence relative à une image ou à une autre ressource de média. Lorsqu’elles sont activées, les URL Dynamic Media peuvent être utilisées pour établir un lien direct vers les ressources de votre serveur ou vers les fichiers stockés sur un [réseau de diffusion de contenu](media-storage-content-delivery-network.md). L’utilisation d’URL Dynamic Media peut avoir un impact sur les performances du catalogue et l’éditeur [ peut être configuré pour utiliser des URL statiques ou Dynamic Media](editor.md#configure-the-editor)
 
-Comme pour toutes les [balises de balisage](../systems/markup-tags.md), la directive est entourée d’accolades doubles. Le format d’une URL de média dynamique se présente comme suit :
+Comme avec toutes les [ balises de balisage ](../systems/markup-tags.md), la directive est entourée de doubles accolades. Le format d’une URL Dynamic Media est le suivant :
 
 `\{\{media url="path/to/image.jpg"}}`
 
-Les directives d’URL dynamiques sont traitées à partir du contenu d’HTML enregistré lorsque la page est rendue sur le storefront. Chaque fois que la page est rendue, le contenu est analysé pour `\{\{media url="..."}}` et chaque directive est remplacée par l’URL du média correspondant.
+Les directives d’URL dynamiques sont traitées à partir du contenu HTML enregistré lorsque la page est rendue sur le storefront. Chaque fois que la page est rendue, le contenu est analysé à la recherche de `\{\{media url="..."}}` et chaque directive est remplacée par l’URL de média correspondante.
 
 {{$include /help/_includes/directives-caution.md}}
 
-## Configuration d’URL de médias statiques
+## Configuration des URL de médias statiques
 
-Par défaut, les images insérées dans le catalogue à partir de l&#39;éditeur WYSIWYG ont des URL relatives et dynamiques. Si vous préférez utiliser une URL statique, vous pouvez modifier le paramètre de configuration.
+Par défaut, les images insérées dans le catalogue à partir de l’éditeur WYSIWYG ont des URL dynamiques relatives. Si vous préférez utiliser une URL statique, vous pouvez modifier le paramètre de configuration.
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche sous _[!UICONTROL General]_, choisissez **[!UICONTROL Content Management]**.
 
-1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL WYSIWYG Options]** .
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL WYSIWYG Options]** .
 
    ![Options WYSIWYG](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
 
 1. Définissez **[!UICONTROL Use Static URLs for Media Content in WYSIWYG]** sur l’une des options suivantes :
 
-   - `Yes` - Utilise des URL statiques pour le contenu multimédia inséré avec l’éditeur WYSIWYG. Les URL statiques sont absolues et coupées si l’ [URL de base](../stores-purchase/store-urls.md) du magasin change.
+   - `Yes` - Utilise des URL statiques pour le contenu multimédia inséré avec l’éditeur WYSIWYG. Les URL statiques sont absolues et interrompues si l’[URL de base](../stores-purchase/store-urls.md) du magasin change.
 
-   - `No` - (Par défaut) Utilise des URL dynamiques pour le contenu multimédia inséré avec l’éditeur WYSIWYG, en fonction de la directive `\{\{media url="..."}}`. Les URL dynamiques sont relatives et ne rompent pas si l’URL de base du magasin change.
+   - `No` : (par défaut) utilise des URL dynamiques pour le contenu multimédia inséré avec l’éditeur WYSIWYG, en fonction de la directive `\{\{media url="..."}}`. Les URL dynamiques sont relatives et ne sont pas rompues si l’URL de base du magasin change.
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
+1. Cliquez ensuite sur **[!UICONTROL Save Config]**.

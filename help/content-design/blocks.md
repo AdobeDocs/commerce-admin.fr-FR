@@ -1,26 +1,27 @@
 ---
 title: Blocs de contenu
-description: Un bloc peut être utilisé pour afficher des informations fixes telles que du texte, des images et des vidéos incorporées, ainsi que des informations dynamiques.
+description: Un bloc peut être utilisé pour afficher des informations fixes telles que du texte, des images et de la vidéo incorporée, ainsi que des informations dynamiques.
 exl-id: 545740f7-802c-459e-acd1-a3b3ede29d07
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
 
 # Blocs de contenu
 
-Un _bloc_ est une unité modulaire de contenu qui peut être positionnée presque n’importe où sur la page. Les blocs de contenu sont parfois appelés _blocs statiques_ ou _blocs CMS_. Ils peuvent être utilisés pour afficher des informations fixes telles que du texte, des images et des vidéos incorporées, ainsi que des informations dynamiques fournies par un widget ou provenant d’une base de données ou d’une autre source. La plupart des éléments de la page d’accueil sont des blocs qui peuvent être facilement gérés.
+Un _bloc_ est une unité modulaire de contenu qui peut être positionnée n’importe où sur la page. Les blocs de contenu sont parfois appelés _blocs statiques_ ou _blocs CMS_. Ils peuvent être utilisés pour afficher des informations fixes telles que du texte, des images et de la vidéo incorporée, ainsi que des informations dynamiques fournies par un widget ou provenant d’une base de données ou d’une autre source. La plupart des éléments de la page d’accueil sont des blocs qui peuvent être facilement gérés.
 
-Vous pouvez créer des blocs de contenu personnalisés sans écrire de code et les attribuer à un emplacement spécifique dans la mise en page. Les blocs peuvent être positionnés à l’aide de l’outil [widget](widget-static-block.md) ou en composant une [mise à jour de mise en page](layout-updates.md) en XML et en l’enregistrant sur le serveur. Pour plus d’informations sur l’utilisation des mises à jour de mise en page, consultez les informations [Mise en page][1] du _Guide du développeur Frontend_.
+Vous pouvez créer des blocs de contenu personnalisés sans écrire de code et les affecter pour qu’ils apparaissent à un emplacement spécifique dans la mise en page. Les blocs peuvent être positionnés à l’aide de l’outil [widget](widget-static-block.md) ou en composant une [mise à jour de disposition](layout-updates.md) au format XML et en l’enregistrant sur le serveur. Pour plus d’informations sur l’utilisation des mises à jour de disposition, consultez les informations [Disposition][1] dans le _Guide de développement de Frontend_.
 
-![Blocs sur l’exemple de page d’accueil storefront](./assets/storefront-blocks-home-page.png){width="600" zoomable="yes"}
+![Blocs sur l’exemple de page d’accueil de storefront](./assets/storefront-blocks-home-page.png){width="600" zoomable="yes"}
 
 ## Démonstration des blocs statiques et dynamiques
 
-Découvrez les [blocs dynamiques](dynamic-blocks.md) et statiques en regardant cette vidéo :
+Découvrez les blocs statiques et [dynamiques](dynamic-blocks.md) en regardant cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3411068?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12&learn=on)
 
 [1]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/
