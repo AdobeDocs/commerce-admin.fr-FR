@@ -87,13 +87,13 @@ Sur la page, les blocs de contenu flottent pour remplir l’espace disponible, e
 
 ![Diagramme - Disposition une colonne](./assets/layout-1-col-th.png){zoomable="yes"}
 
-La disposition _[!UICONTROL 1 Column]_peut être utilisée pour créer une page d’accueil dramatique avec une grande image ou un point focal. Il s’agit également d’un bon choix pour une page de destination ou toute autre page qui combine texte, images et vidéo.
+La disposition _[!UICONTROL 1 Column]_&#x200B;peut être utilisée pour créer une page d’accueil dramatique avec une grande image ou un point focal. Il s’agit également d’un bon choix pour une page de destination ou toute autre page qui combine texte, images et vidéo.
 
 ### Deux colonnes avec barre gauche
 
 ![Diagramme - disposition à deux colonnes avec barre gauche](./assets/layout-2-col-lft-bar-th.png){zoomable="yes"}
 
-La disposition _[!UICONTROL 2 Columns with Left Bar]_est souvent utilisée pour les pages avec navigation à gauche, comme un catalogue ou des pages de résultats de recherche avec navigation superposée. Il s’agit également d’un excellent choix pour les pages d’accueil qui nécessitent une navigation supplémentaire ou des blocs de contenu de prise en charge sur la gauche.
+La disposition _[!UICONTROL 2 Columns with Left Bar]_&#x200B;est souvent utilisée pour les pages avec navigation à gauche, comme un catalogue ou des pages de résultats de recherche avec navigation superposée. Il s’agit également d’un excellent choix pour les pages d’accueil qui nécessitent une navigation supplémentaire ou des blocs de contenu de prise en charge sur la gauche.
 
 ### Deux colonnes avec barre de droite
 
@@ -105,10 +105,10 @@ Avec une disposition _[!UICONTROL 2 Columns with Right Bar]_, la zone de contenu
 
 ![Diagramme - disposition à trois colonnes](./assets/layout-3-col-th.png){zoomable="yes"}
 
-La disposition _[!UICONTROL 3 Column]_comporte une colonne centrale suffisamment large pour le texte principal de la page, avec de l’espace de chaque côté pour une navigation supplémentaire et des blocs de contenu connexe.
+La disposition _[!UICONTROL 3 Column]_&#x200B;comporte une colonne centrale suffisamment large pour le texte principal de la page, avec de l’espace de chaque côté pour une navigation supplémentaire et des blocs de contenu connexe.
 
 ### Vide
 
 ![Diagramme - disposition vide](./assets/layout-blank-th.png){zoomable="yes"}
 
-La mise en page _[!UICONTROL Empty]_peut être utilisée pour définir des mises en page personnalisées.
+La mise en page _[!UICONTROL Empty]_&#x200B;peut être utilisée pour définir des mises en page personnalisées.

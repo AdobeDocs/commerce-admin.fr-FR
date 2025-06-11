@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Traduction d’une page de contenu
 
-Si votre magasin comporte plusieurs vues dans différentes [langues](../stores-purchase/store-localize.md) et que vous avez défini le paramètre régional de chaque vue dans une langue différente, le site est partiellement traduit. L’étape suivante consiste à créer une version traduite de chaque page disponible dans une vue de magasin spécifique. La colonne [!UICONTROL Store View] de la liste des _[!UICONTROL Manage Pages]_affiche chaque vue dont la version de la page est traduite.
+Si votre magasin comporte plusieurs vues dans différentes [langues](../stores-purchase/store-localize.md) et que vous avez défini le paramètre régional de chaque vue dans une langue différente, le site est partiellement traduit. L’étape suivante consiste à créer une version traduite de chaque page disponible dans une vue de magasin spécifique. La colonne [!UICONTROL Store View] de la liste des _[!UICONTROL Manage Pages]_&#x200B;affiche chaque vue dont la version de la page est traduite.
 
 Pour traduire une page de contenu, vous devez créer une autre page qui possède la même clé URL que la page d’origine, mais qui est affectée à la vue spécifique du magasin. Ensuite, mettez à jour la page pour la vue spécifique avec le texte traduit. L’exemple suivant montre comment créer une version traduite de la page _À propos de nous_ pour la vue de magasin en espagnol.
 
@@ -26,7 +26,7 @@ Pour traduire une page de contenu, vous devez créer une autre page qui possède
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Search Engine Optimization]** et copiez le **[!UICONTROL URL Key]** dans le presse-papiers.
 
-1. Pour revenir à la grille de _[!UICONTROL Pages]_, cliquez sur **[!UICONTROL Back]**dans la barre de boutons supérieure.
+1. Pour revenir à la grille de _[!UICONTROL Pages]_, cliquez sur **[!UICONTROL Back]**&#x200B;dans la barre de boutons supérieure.
 
 ## Étape 2 : ajouter une page pour le contenu traduit
 

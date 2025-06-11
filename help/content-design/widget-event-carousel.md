@@ -71,7 +71,7 @@ Avant de commencer, suivez les [instructions](../merchandising-promotions/event-
 
    >[!NOTE]
    >
-   >Les résultats varient en fonction du thème et de la mise en page. Vous devez également spécifier le _[!UICONTROL Catalog Events Carousel Default Template]_dans la configuration des catégories.
+   >Les résultats varient en fonction du thème et de la mise en page. Vous devez également spécifier le _[!UICONTROL Catalog Events Carousel Default Template]_&#x200B;dans la configuration des catégories.
 
 1. Si vous souhaitez que le carrousel d’événements apparaisse à un autre emplacement du storefront, cliquez sur **[!UICONTROL Add Layout Update]** et répétez ces étapes pour cet emplacement.
 

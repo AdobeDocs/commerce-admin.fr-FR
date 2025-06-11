@@ -54,7 +54,7 @@ Pour [créer les blocs dynamiques](dynamic-blocks.md) à placer dans le rotateur
 
    - Définissez **[!UICONTROL Display on]** sur la page, ou le type de page, où le rotateur doit apparaître.
 
-      - `Categories` - Affiche le rotateur sur les pages de catégorie ancre](../catalog/navigation-layered.md) ou [ ancre. Options : Catégories d’ancrage / Catégories non-ancres
+      - `Categories` - Affiche le rotateur sur les pages de catégorie ancre[&#128279;](../catalog/navigation-layered.md) ou  ancre. Options : Catégories d’ancrage / Catégories non-ancres
       - `Products` - Affiche le rotateur sur un type spécifique de page de produit ou sur toutes les pages de produit. Options : Tous les types de produits / [Produit simple](../catalog/product-create-simple.md) / [Produit virtuel](../catalog/product-create-virtual.md) / [Produit groupé](../catalog/product-create-bundle.md) / [Produit téléchargeable](../catalog/product-create-downloadable.md) / [Carte cadeau](../catalog/product-gift-card-create.md) / [Produit configurable](../catalog/product-create-configurable.md) / [Produit groupé](../catalog/product-create-grouped.md)
       - `Generic Pages` - Affiche le rotateur sur toutes les pages, sur une page spécifique ou uniquement sur les pages avec une certaine disposition. Options : `All Pages` / `Specified Page` / `Page Layouts`
 

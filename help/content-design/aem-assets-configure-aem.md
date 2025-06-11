@@ -111,13 +111,13 @@ Le composant d’interface utilisateur des données de produit est ajouté autom
      ./jcr:content/metadata/commerce:isCommerce
      ```
 
-1. Facultatif. Pour synchroniser automatiquement les ressources Commerce approuvées lors de leur chargement dans l’environnement AEM Assets, définissez la valeur par défaut du champ _[!UICONTROL Review Status]_de l’onglet `Basic` sur `approved`.
+1. Facultatif. Pour synchroniser automatiquement les ressources Commerce approuvées lors de leur chargement dans l’environnement AEM Assets, définissez la valeur par défaut du champ _[!UICONTROL Review Status]_&#x200B;de l’onglet `Basic` sur `approved`.
 
 1. Enregistrez la mise à jour.
 
 #### Application du profil de métadonnées au dossier source des ressources Commerce
 
-1. Sur la page [!UICONTROL  Metadata Profiles], sélectionnez le profil d’intégration de Commerce.
+1. Sur la page [!UICONTROL &#x200B; Metadata Profiles], sélectionnez le profil d’intégration de Commerce.
 
 1. Dans le menu d’actions, sélectionnez **[!UICONTROL Apply Metadata Profiles to Folders]**.
 

@@ -53,7 +53,7 @@ Le thème réactif `Magento Blank` effectue le rendu de l’affichage de votre s
 
 1. Recherchez la vue de magasin que vous souhaitez configurer, puis cliquez sur **[!UICONTROL Edit]** dans la colonne _[!UICONTROL Action]_.
 
-1. Sous _[!UICONTROL Default Theme]_, définissez **[!UICONTROL Applied Theme]**sur celui que vous souhaitez utiliser pour l’affichage actuel.
+1. Sous _[!UICONTROL Default Theme]_, définissez **[!UICONTROL Applied Theme]**&#x200B;sur celui que vous souhaitez utiliser pour l’affichage actuel.
 
    ![Thème appliqué](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 

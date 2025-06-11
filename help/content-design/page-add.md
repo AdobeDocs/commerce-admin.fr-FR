@@ -152,7 +152,7 @@ Ajoutez le contenu de la page en fonction de votre [configuration des outils de 
 
 ### Étape 8 : publier la page
 
-1. Sélectionnez **[!UICONTROL Edit]** dans la colonne _[!UICONTROL Action]_de la grille.
+1. Sélectionnez **[!UICONTROL Edit]** dans la colonne _[!UICONTROL Action]_&#x200B;de la grille.
 
 1. Définissez **[!UICONTROL Enable Page]** sur `Yes`.
 
@@ -207,7 +207,7 @@ N’importe quelle page de contenu peut être utilisée comme modèle et enregis
 
 ## Suppression d’une page
 
-Il existe deux manières de supprimer une page créée. Vous pouvez le supprimer de la grille de _[!UICONTROL Pages]_ou de la page de_[!UICONTROL Edit]_.
+Il existe deux manières de supprimer une page créée. Vous pouvez le supprimer de la grille de _[!UICONTROL Pages]_&#x200B;ou de la page de&#x200B;_[!UICONTROL Edit]_.
 
 ### Méthode 1 : suppression d’une page de la grille Pages
 
@@ -225,7 +225,7 @@ Il existe deux manières de supprimer une page créée. Vous pouvez le supprimer
 
 1. Recherchez la page à supprimer.
 
-1. Dans la colonne _[!UICONTROL Actions]_de l’entité de page, cliquez sur **[!UICONTROL Select]**et choisissez **[!UICONTROL Edit]**.
+1. Dans la colonne _[!UICONTROL Actions]_&#x200B;de l’entité de page, cliquez sur **[!UICONTROL Select]**&#x200B;et choisissez **[!UICONTROL Edit]**.
 
 1. Dans la barre de boutons, cliquez sur **[!UICONTROL Delete Page]**.
 

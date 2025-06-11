@@ -60,7 +60,7 @@ Pour créer un lien vers un nœud, utilisez l’outil [Widget](widgets.md) afin 
 
 1. Au-dessus de la grille, cliquez sur **[!UICONTROL Add Node...]**.
 
-1. Sous _[!UICONTROL Page Properties]_, saisissez un **[!UICONTROL Title]**pour le nœud et un **[!UICONTROL URL Key]**approprié.
+1. Sous _[!UICONTROL Page Properties]_, saisissez un **[!UICONTROL Title]**&#x200B;pour le nœud et un **[!UICONTROL URL Key]**&#x200B;approprié.
 
    La clé URL fournit une adresse web unique pour le nœud . Il doit s’agir de caractères minuscules, avec des tirets pour séparer les mots, au lieu d’espaces.
 
@@ -86,7 +86,7 @@ Pour créer un lien vers un nœud, utilisez l’outil [Widget](widgets.md) afin 
 
 1. Cliquez sur le nœud en haut de la hiérarchie.
 
-   La section _[!UICONTROL Page Properties]_affiche désormais des informations sur le nœud .
+   La section _[!UICONTROL Page Properties]_&#x200B;affiche désormais des informations sur le nœud .
 
 1. Sous **[!UICONTROL Render Metadata in HTML Head]**, procédez comme suit :
 

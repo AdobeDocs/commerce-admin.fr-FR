@@ -17,7 +17,7 @@ Votre boutique comprend de nombreuses [variables](../systems/variables-predefine
 
 1. Ouvrez une page, un bloc ou un bloc dynamique en mode d’édition.
 
-1. Accédez à la section _[!UICONTROL Content]_et cliquez sur n’importe quel élément prenant en charge l’éditeur.
+1. Accédez à la section _[!UICONTROL Content]_&#x200B;et cliquez sur n’importe quel élément prenant en charge l’éditeur.
 
 1. Placez le curseur à l’endroit où vous souhaitez que la variable apparaisse, puis cliquez sur l’icône _Insérer une variable_.
 

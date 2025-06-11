@@ -51,7 +51,7 @@ Les deux premières étapes sont identiques à celles de l’insertion d’une i
 
    - Cliquez sur **[!UICONTROL Open]**.
 
-   Pour utiliser des ressources d’Adobe Stock à l’aide de l’intégration [](adobe-stock.md) :
+   Pour utiliser des ressources d’Adobe Stock à l’aide de l’intégration [&#128279;](adobe-stock.md) :
 
    - Cliquez sur **[!UICONTROL Search Adobe Stock]**.
 
