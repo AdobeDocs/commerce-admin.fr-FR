@@ -4,16 +4,29 @@ description: Découvrez comment exécuter une analyse de sécurité renforcée e
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 4f46ce0ee4e4d51d178dac04d1493f0d9cffc49b
+source-git-commit: fa3931d4aaa5e7b903a17ec074703d2c8130c71d
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
 
+
 # Analyse de sécurité
 
-Surveillez vos sites Adobe Commerce et Magento Open Source pour détecter les risques de sécurité et les programmes malveillants, et recevez des mises à jour de sécurité et des notifications.
+L’outil d’analyse de sécurité Adobe Commerce effectue une surveillance de sécurité gratuite de vos sites Adobe Commerce et Magento Open Source. L’outil fonctionne comme un service web auquel vous pouvez accéder via votre compte Adobe Commerce en ligne à l’adresse [account.magento.com](https://account.magento.com/customer/account/login).
+
+![Outil d’analyse de sécurité](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Adobe fournit ce service gratuitement, bien que les commerçants doivent accepter les conditions qui limitent la responsabilité d&#39;Adobe en fonction des résultats d&#39;analyse et de la configuration du site.
+
+## Couverture d’analyse
+
+L&#39;outil d&#39;analyse de sécurité fonctionne sur les protocoles HTTP et HTTPS pour détecter les programmes malveillants, identifier les vulnérabilités de sécurité et vous aider à maintenir la position de sécurité de votre magasin. L’outil est disponible pour tous les commerçants, développeurs et membres du personnel désignés responsables de la sécurité du site.
+
+L’outil Analyse de sécurité fournit des fonctionnalités complètes de surveillance de la sécurité qui vous aident à maintenir un environnement de magasin sécurisé :
 
 - Obtenez insight pour obtenir le statut de sécurité en temps réel de votre boutique.
 - Recevez des suggestions basées sur les bonnes pratiques pour vous aider à résoudre les problèmes.
@@ -22,11 +35,25 @@ Surveillez vos sites Adobe Commerce et Magento Open Source pour détecter les ri
 - Accédez aux rapports de sécurité historiques qui suivent et surveillent la progression de vos sites.
 - Accédez au rapport d’analyse qui indique les vérifications réussies et ayant échoué, avec les actions recommandées.
 
-L&#39;outil d&#39;analyse de sécurité est disponible gratuitement depuis le tableau de bord de votre compte [Commerce/Magento](../getting-started/commerce-account-create.md). Pour obtenir des informations techniques, consultez [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) dans le _Guide de Commerce sur les infrastructures cloud_.
+>[!NOTE]
+>
+>Vous ne pouvez pas exclure des tests de sécurité spécifiques des analyses de l’outil Analyse de sécurité pour Adobe Commerce. Cependant, vous pouvez vous servir de dans [en ignorant les échecs](#manage-scan-failures) comme faux positifs, le cas échéant.
 
-![Outil d’analyse de sécurité](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+## Accès
 
-## Exécuter une analyse de sécurité
+L&#39;outil Analyse de sécurité maintient des contrôles d&#39;accès stricts pour protéger les informations de votre site. Vous seul pouvez analyser votre site, car l’outil nécessite une vérification de la propriété du domaine via votre compte Adobe Commerce. Chaque site se connecte à votre compte par le biais d’un jeton unique, ce qui empêche toute analyse non autorisée par des tiers.
+
+Cet outil se concentre spécifiquement sur les domaines Adobe Commerce et leurs vulnérabilités en matière de sécurité. Bien que votre boutique en ligne puisse inclure des pages d’autres plateformes, l’outil Analyse de sécurité ne doit analyser que le contenu généré par Adobe Commerce pour garantir des résultats fiables. L’analyse des pages non Adobe Commerce peut générer des évaluations de vulnérabilité non fiables.
+
+## Exécuter une analyse
+
+Le processus d’analyse compare votre site aux problèmes de sécurité connus et identifie les correctifs Adobe Commerce manquants et les mises à jour qui pourraient rendre votre boutique vulnérable aux attaques.
+
+>[!TIP]
+>
+>Pour Commerce sur les projets d’infrastructure cloud, voir [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+
+Pour exécuter une analyse :
 
 1. Sur la page d’accueil de Commerce, connectez-vous à votre compte [Commerce/Magento](../getting-started/commerce-account-create.md).
 
@@ -104,7 +131,7 @@ L&#39;outil d&#39;analyse de sécurité est disponible gratuitement depuis le ta
 
          Une fois le processus de création terminé, les modifications seront déployées sur votre vitrine PWA.
 
-1. Revenez à la page _[!UICONTROL Security Scan]_&#x200B;de votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**&#x200B;pour établir la propriété du domaine.
+1. Revenez à la page _[!UICONTROL Security Scan]_de votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**pour établir la propriété du domaine.
 
 1. Après une confirmation réussie, configurez les options de **[!UICONTROL Set Automatic Security Scan]** pour l’un des types suivants :
 
@@ -159,7 +186,7 @@ Les scénarios courants dans lesquels vous pouvez marquer un échec d’analyse 
 
 Pour gérer les échecs d’analyse que vous avez identifiés comme des faux positifs, procédez comme suit :
 
-1. Dans la page _[!UICONTROL Monitored Websites]_, cliquez sur **[!UICONTROL View Report]**&#x200B;pour le site à gérer.
+1. Dans la page _[!UICONTROL Monitored Websites]_, cliquez sur **[!UICONTROL View Report]**pour le site à gérer.
 
 1. Dans la vue Rapport, recherchez l&#39;analyse qui a échoué et que vous voulez marquer comme faux positif.
 
@@ -169,7 +196,7 @@ Pour gérer les échecs d’analyse que vous avez identifiés comme des faux pos
 
 1. Cliquez sur **[!UICONTROL Apply Changes]** pour enregistrer votre sélection.
 
-L’échec d’analyse ignoré passe à la section _[!UICONTROL Ignored Results]_&#x200B;et est exclu de votre score de risque.
+L’échec d’analyse ignoré passe à la section _[!UICONTROL Ignored Results]_et est exclu de votre score de risque.
 
 ### Arrêter d&#39;ignorer les échecs d&#39;analyse
 
@@ -183,7 +210,7 @@ Si vous devez restaurer un échec d&#39;analyse précédemment ignoré dans votr
 
 1. Cliquez sur **[!UICONTROL Apply Changes]** pour enregistrer votre sélection.
 
-L’échec de l’analyse revient à la section _[!UICONTROL Failed Scans]_&#x200B;et est inclus dans votre score de risque.
+L’échec de l’analyse revient à la section _[!UICONTROL Failed Scans]_et est inclus dans votre score de risque.
 
 ### Afficher les échecs d&#39;analyse ignorés
 
