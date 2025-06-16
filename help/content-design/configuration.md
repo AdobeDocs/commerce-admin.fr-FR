@@ -3,7 +3,7 @@ title: Configuration de la conception
 description: La configuration de la conception facilite la modification des règles liées à la conception et des paramètres de configuration en affichant les paramètres sur une seule page.
 exl-id: 43fec57f-d76d-45a9-812b-ba1947cea46d
 feature: Page Content, Configuration
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+source-git-commit: 91c7748c3aa30f0856ef027ca5391be4dbea240a
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -28,7 +28,7 @@ La configuration de la conception facilite la modification des règles liées à
 
    Si aucun thème n’est spécifié, le thème système par défaut est utilisé. Certaines extensions tierces modifient le thème système par défaut.
 
-1. [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Si le thème doit être utilisé uniquement pour un appareil spécifique, définissez la **[!UICONTROL User Agent Rules]** .
+1. [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Si le thème doit être utilisé uniquement pour un appareil spécifique, définissez la **[!UICONTROL User Agent Rules]** .
 
    ![Règles User-Agent](./assets/configuration-user-agent-rules.png){width="400" zoomable="yes"}
 
@@ -50,11 +50,11 @@ La configuration de la conception facilite la modification des règles liées à
 
 1. Sous _[!UICONTROL Other Settings]_, développez chaque section et suivez les instructions des rubriques liées pour modifier les paramètres si nécessaire.
 
-   - [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls) [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
-   - [[!UICONTROL HTML Head]](page-setup.md#html-head) [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
-   - [[!UICONTROL Header]](page-setup.md#header) [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
-   - [[!UICONTROL Footer]](page-setup.md#footer) [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
-   - [[!UICONTROL Search Engine Robots]](../merchandising-promotions/seo-overview.md#search-engine-robots) [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+   - [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls)
+   - [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} [[!UICONTROL HTML Head]](page-setup.md#html-head)
+   - [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} [[!UICONTROL Header]](page-setup.md#header)
+   - [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} [[!UICONTROL Footer]](page-setup.md#footer)
+   - [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} [[!UICONTROL Search Engine Robots]](../merchandising-promotions/seo-overview.md#search-engine-robots)
    - [[!UICONTROL Product Image Watermarks]](../catalog/product-image.md#watermarks)
    - [[!UICONTROL Transactional Emails]](../systems/email-templates.md#configure-email-templates)
 
