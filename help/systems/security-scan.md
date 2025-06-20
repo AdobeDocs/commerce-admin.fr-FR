@@ -4,9 +4,9 @@ description: Découvrez comment exécuter une analyse de sécurité renforcée e
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: fa3931d4aaa5e7b903a17ec074703d2c8130c71d
+source-git-commit: eb226a969397bbfa31f72a4ae4fb61b22a0101bc
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,25 @@ L&#39;outil Analyse de sécurité maintient des contrôles d&#39;accès stricts 
 
 Cet outil se concentre spécifiquement sur les domaines Adobe Commerce et leurs vulnérabilités en matière de sécurité. Bien que votre boutique en ligne puisse inclure des pages d’autres plateformes, l’outil Analyse de sécurité ne doit analyser que le contenu généré par Adobe Commerce pour garantir des résultats fiables. L’analyse des pages non Adobe Commerce peut générer des évaluations de vulnérabilité non fiables.
 
+>[!NOTE]
+>
+>L’outil d’analyse de sécurité utilise les adresses IP publiques suivantes :
+>
+>```text
+>52.87.98.44
+>34.196.167.176
+>3.218.25.102
+>```
+>
+>Ajoutez ces adresses IP à une liste autorisée dans les règles de pare-feu de votre réseau pour permettre à l’outil d’analyser votre site. L’outil publie les requêtes dans les ports `80` et `443` uniquement.
+
 ## Exécuter une analyse
 
 Le processus d’analyse compare votre site aux problèmes de sécurité connus et identifie les correctifs Adobe Commerce manquants et les mises à jour qui pourraient rendre votre boutique vulnérable aux attaques.
 
 >[!TIP]
 >
->Pour Commerce sur les projets d’infrastructure cloud, voir [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Pour Commerce sur les projets d’infrastructure cloud, voir [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Pour exécuter une analyse :
 
@@ -131,7 +143,7 @@ Pour exécuter une analyse :
 
          Une fois le processus de création terminé, les modifications seront déployées sur votre vitrine PWA.
 
-1. Revenez à la page _[!UICONTROL Security Scan]_&#x200B;de votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**&#x200B;pour établir la propriété du domaine.
+1. Revenez à la page _[!UICONTROL Security Scan]_de votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**pour établir la propriété du domaine.
 
 1. Après une confirmation réussie, configurez les options de **[!UICONTROL Set Automatic Security Scan]** pour l’un des types suivants :
 
@@ -186,7 +198,7 @@ Les scénarios courants dans lesquels vous pouvez marquer un échec d’analyse 
 
 Pour gérer les échecs d’analyse que vous avez identifiés comme des faux positifs, procédez comme suit :
 
-1. Dans la page _[!UICONTROL Monitored Websites]_, cliquez sur **[!UICONTROL View Report]**&#x200B;pour le site à gérer.
+1. Dans la page _[!UICONTROL Monitored Websites]_, cliquez sur **[!UICONTROL View Report]**pour le site à gérer.
 
 1. Dans la vue Rapport, recherchez l&#39;analyse qui a échoué et que vous voulez marquer comme faux positif.
 
@@ -196,7 +208,7 @@ Pour gérer les échecs d’analyse que vous avez identifiés comme des faux pos
 
 1. Cliquez sur **[!UICONTROL Apply Changes]** pour enregistrer votre sélection.
 
-L’échec d’analyse ignoré passe à la section _[!UICONTROL Ignored Results]_&#x200B;et est exclu de votre score de risque.
+L’échec d’analyse ignoré passe à la section _[!UICONTROL Ignored Results]_et est exclu de votre score de risque.
 
 ### Arrêter d&#39;ignorer les échecs d&#39;analyse
 
@@ -210,7 +222,7 @@ Si vous devez restaurer un échec d&#39;analyse précédemment ignoré dans votr
 
 1. Cliquez sur **[!UICONTROL Apply Changes]** pour enregistrer votre sélection.
 
-L’échec de l’analyse revient à la section _[!UICONTROL Failed Scans]_&#x200B;et est inclus dans votre score de risque.
+L’échec de l’analyse revient à la section _[!UICONTROL Failed Scans]_et est inclus dans votre score de risque.
 
 ### Afficher les échecs d&#39;analyse ignorés
 
