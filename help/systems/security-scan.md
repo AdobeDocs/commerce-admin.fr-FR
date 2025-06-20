@@ -63,7 +63,7 @@ Le processus d’analyse compare votre site aux problèmes de sécurité connus 
 
 >[!TIP]
 >
->Pour Commerce sur les projets d’infrastructure cloud, voir [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Pour Commerce sur les projets d’infrastructure cloud, voir [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Pour exécuter une analyse :
 
