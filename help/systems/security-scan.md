@@ -4,9 +4,9 @@ description: Découvrez comment exécuter une analyse de sécurité renforcée e
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 183b8c52c6d8e2ea1afcc74fe4e2ed8e42efb216
+source-git-commit: bea6570d8d40ec7be8802ae6a793d88b72943e6f
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,19 @@ L’outil Analyse de sécurité fournit des fonctionnalités complètes de surve
 
 >[!NOTE]
 >
->Vous ne pouvez pas exclure des tests de sécurité spécifiques des analyses de l’outil Analyse de sécurité pour Adobe Commerce. Cependant, vous pouvez vous servir de dans [en ignorant les échecs](#manage-scan-failures) comme faux positifs, le cas échéant.
+>Vous ne pouvez pas exclure l’exécution de tests de sécurité spécifiques, mais vous pouvez déplacer les contrôles ayant échoué vers la catégorie **[!UICONTROL Ignored Results]**. Pour plus d’informations, voir [Gérer les échecs d’analyse](#manage-scan-failures).
 
 ## Accès
 
 L&#39;outil Analyse de sécurité maintient des contrôles d&#39;accès stricts pour protéger les informations de votre site. Vous seul pouvez analyser votre site, car l’outil nécessite une vérification de la propriété du domaine via votre compte Adobe Commerce. Chaque site se connecte à votre compte par le biais d’un jeton unique, ce qui empêche toute analyse non autorisée par des tiers.
 
 Cet outil se concentre spécifiquement sur les domaines Adobe Commerce et leurs vulnérabilités en matière de sécurité. Bien que votre boutique en ligne puisse inclure des pages d’autres plateformes, l’outil Analyse de sécurité ne doit analyser que le contenu généré par Adobe Commerce pour garantir des résultats fiables. L’analyse des pages non Adobe Commerce peut générer des évaluations de vulnérabilité non fiables.
+
+
+## Accès aux résultats de l&#39;analyse
+
+Les résultats de l&#39;analyse ne sont accessibles qu&#39;à l&#39;utilisateur qui les a configurés à l&#39;origine. Pour partager les résultats avec d’autres personnes, l’utilisateur original doit distribuer manuellement le rapport PDF. Un propriétaire de magasin peut également partager des envois avec un autre MAGEID à l’aide de la fonctionnalité [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share). D&#39;autres personnes peuvent également lancer des analyses à partir de leurs propres comptes. Lors de la configuration de l&#39;analyse, une liste d&#39;adresses e-mail séparées par des virgules peut être spécifiée pour recevoir des notifications sur les analyses terminées et le niveau de risque évalué.
+
 
 >[!NOTE]
 >
@@ -61,13 +67,14 @@ Cet outil se concentre spécifiquement sur les domaines Adobe Commerce et leurs 
 >
 >Ajoutez ces adresses IP à une liste autorisée dans les règles de pare-feu de votre réseau pour permettre à l’outil d’analyser votre site. L’outil publie les requêtes dans les ports `80` et `443` uniquement.
 
+
 ## Exécuter une analyse
 
 Le processus d’analyse compare votre site aux problèmes de sécurité connus et identifie les correctifs Adobe Commerce manquants et les mises à jour qui pourraient rendre votre boutique vulnérable aux attaques.
 
 >[!TIP]
 >
->Pour Commerce sur les projets d’infrastructure cloud, voir [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Pour Commerce sur les projets d’infrastructure cloud, voir [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Pour exécuter une analyse :
 
@@ -147,7 +154,7 @@ Pour exécuter une analyse :
 
          Une fois le processus de création terminé, les modifications seront déployées sur votre vitrine PWA.
 
-1. Revenez à la page _[!UICONTROL Security Scan]_&#x200B;de votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**&#x200B;pour établir la propriété du domaine.
+1. Revenez à la page _[!UICONTROL Security Scan]_de votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**pour établir la propriété du domaine.
 
 1. Après une confirmation réussie, configurez les options de **[!UICONTROL Set Automatic Security Scan]** pour l’un des types suivants :
 
@@ -191,18 +198,20 @@ La gestion des échecs d’analyse vous permet de conserver une vue d’ensemble
 - Suppression de la nécessité de contacter l’assistance pour les faux positifs connus.
 - Gagnez du temps en gérant automatiquement les échecs d’analyse que vous avez déjà étudiés.
 
-Les scénarios courants dans lesquels vous pouvez marquer un échec d’analyse comme faux positif incluent :
+### Exemples de scénarios valides pour ignorer les échecs d’analyse
 
 - Lorsque vous avez déjà appliqué un correctif de sécurité que l&#39;outil de numérisation n&#39;a pas détecté.
-- Lorsqu’un problème détecté ne s’applique pas à votre configuration de magasin spécifique.
-- Lorsque vous avez mis en place une mesure de sécurité alternative qui répond à cette préoccupation.
+- Lorsqu’un problème détecté ne s’applique pas à votre configuration de magasin spécifique (par exemple, les pages de connexion et d’enregistrement d’utilisateurs personnalisés).
+- Lorsque vous avez mis en œuvre une autre mesure de sécurité pour résoudre le problème (par exemple, le pare-feu d’application web).
 - Lorsque l’échec de l’analyse repose sur une configuration que vous avez intentionnellement définie en fonction des besoins de votre entreprise.
+- Lorsque vous utilisez intentionnellement un code JavaScript tiers dont la vérification échoue en raison d’un obscurcissement et/ou d’un codage de code.
+
 
 ### Ignorer les échecs d’analyse
 
 Pour gérer les échecs d’analyse que vous avez identifiés comme des faux positifs, procédez comme suit :
 
-1. Dans la page _[!UICONTROL Monitored Websites]_, cliquez sur **[!UICONTROL View Report]**&#x200B;pour le site à gérer.
+1. Dans la page _[!UICONTROL Monitored Websites]_, cliquez sur **[!UICONTROL View Report]**pour le site à gérer.
 
 1. Dans la vue Rapport, recherchez l&#39;analyse qui a échoué et que vous voulez marquer comme faux positif.
 
@@ -212,7 +221,7 @@ Pour gérer les échecs d’analyse que vous avez identifiés comme des faux pos
 
 1. Cliquez sur **[!UICONTROL Apply Changes]** pour enregistrer votre sélection.
 
-L’échec d’analyse ignoré passe à la section _[!UICONTROL Ignored Results]_&#x200B;et est exclu de votre score de risque.
+L’échec d’analyse ignoré passe à la section _[!UICONTROL Ignored Results]_et est exclu de votre score de risque.
 
 ### Arrêter d&#39;ignorer les échecs d&#39;analyse
 
@@ -226,7 +235,7 @@ Si vous devez restaurer un échec d&#39;analyse précédemment ignoré dans votr
 
 1. Cliquez sur **[!UICONTROL Apply Changes]** pour enregistrer votre sélection.
 
-L’échec de l’analyse revient à la section _[!UICONTROL Failed Scans]_&#x200B;et est inclus dans votre score de risque.
+L’échec de l’analyse revient à la section _[!UICONTROL Failed Scans]_et est inclus dans votre score de risque.
 
 ### Afficher les échecs d&#39;analyse ignorés
 
