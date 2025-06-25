@@ -52,7 +52,7 @@ Cet outil se concentre spécifiquement sur les domaines Adobe Commerce et leurs 
 
 ## Accès aux résultats de l&#39;analyse
 
-Les résultats de l&#39;analyse ne sont accessibles qu&#39;à l&#39;utilisateur qui les a configurés à l&#39;origine. Pour partager les résultats avec d’autres personnes, l’utilisateur original doit distribuer manuellement le rapport PDF. Un propriétaire de magasin peut également partager des envois avec un autre MAGEID à l’aide de la fonctionnalité [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share). D&#39;autres personnes peuvent également lancer des analyses à partir de leurs propres comptes. Lors de la configuration de l&#39;analyse, une liste d&#39;adresses e-mail séparées par des virgules peut être spécifiée pour recevoir des notifications sur les analyses terminées et le niveau de risque évalué.
+Les résultats de l&#39;analyse ne sont accessibles qu&#39;à l&#39;utilisateur qui les a configurés à l&#39;origine. Pour partager les résultats avec d’autres personnes, l’utilisateur original doit distribuer manuellement le rapport PDF. Un propriétaire de magasin peut également partager des envois avec un autre MAGEID à l’aide de la fonctionnalité [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/fr/docs/commerce-admin/start/commerce-account/commerce-account-share). D&#39;autres personnes peuvent également lancer des analyses à partir de leurs propres comptes. Lors de la configuration de l&#39;analyse, une liste d&#39;adresses e-mail séparées par des virgules peut être spécifiée pour recevoir des notifications sur les analyses terminées et le niveau de risque évalué.
 
 
 >[!NOTE]
@@ -74,7 +74,7 @@ Le processus d’analyse compare votre site aux problèmes de sécurité connus 
 
 >[!TIP]
 >
->Pour Commerce sur les projets d’infrastructure cloud, voir [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Pour Commerce sur les projets d’infrastructure cloud, voir [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Pour exécuter une analyse :
 
