@@ -58,7 +58,7 @@ L’équipe d’assistance [!DNL Commerce] n’a pas accès au compte et ne peut
 
 1. Cliquez sur **[!UICONTROL Create Shared Access]**.
 
-   Les informations sur le nouvel utilisateur apparaissent dans la section _[!UICONTROL Manage Permissions]_de la page Accès partagé et une invitation par e-mail contenant des instructions pour accéder au compte partagé est envoyée au nouvel utilisateur.
+   Les informations sur le nouvel utilisateur apparaissent dans la section _[!UICONTROL Manage Permissions]_&#x200B;de la page Accès partagé et une invitation par e-mail contenant des instructions pour accéder au compte partagé est envoyée au nouvel utilisateur.
 
    ![Gestion des autorisations d’accès partagé](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
@@ -72,7 +72,7 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
 
 1. Lorsque vous recevez une invitation à accéder à un compte partagé, suivez les instructions contenues dans l’e-mail pour vous connecter à votre propre compte [!DNL Commerce].
 
-   Le panneau de navigation de gauche de votre compte comporte un nouvel onglet _[!UICONTROL Shared with me]_. Le contrôle_[!UICONTROL Switch Accounts]_ situé dans le coin supérieur droit propose des options relatives au `My Account` et au nom du compte partagé.
+   Le panneau de navigation de gauche de votre compte comporte un nouvel onglet _[!UICONTROL Shared with me]_. Le contrôle&#x200B;_[!UICONTROL Switch Accounts]_ situé dans le coin supérieur droit propose des options relatives au `My Account` et au nom du compte partagé.
 
    ![Partagé avec moi](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
@@ -95,7 +95,7 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
 
    >[!NOTE]
    >
-   >Après avoir reçu l’accès partagé, l’utilisateur doit se connecter à son [[!DNL Commerce] compte](https://account.magento.com/customer/account/login), accéder à _Accès partagé_ et cliquer sur l’onglet **[!UICONTROL Support]** . Cette action est requise la première fois uniquement pour s’assurer que la base de connaissances de l’assistance Adobe Commerce [](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) est correctement configurée par le biais de l’appel `SSO`.
+   >Après avoir reçu l’accès partagé, l’utilisateur doit se connecter à son [[!DNL Commerce] compte](https://account.magento.com/customer/account/login), accéder à _Accès partagé_ et cliquer sur l’onglet **[!UICONTROL Support]** . Cette action est requise la première fois uniquement pour s’assurer que la base de connaissances de l’assistance Adobe Commerce [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) est correctement configurée par le biais de l’appel `SSO`.
 
 1. Pour revenir à votre propre compte, cliquez sur **Précédent** dans les commandes de votre navigateur et définissez **[!UICONTROL Switch Accounts]** sur `My Account`.
 
@@ -105,7 +105,7 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
 
 1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL Shared Access]**.
 
-1. Recherchez le compte à révoquer sous _[!UICONTROL Managing Users & Permissions]_et cliquez sur **[!UICONTROL Delete]**.
+1. Recherchez le compte à révoquer sous _[!UICONTROL Managing Users & Permissions]_&#x200B;et cliquez sur **[!UICONTROL Delete]**.
 
    >[!NOTE]
    >
