@@ -211,7 +211,7 @@ Vous pouvez définir une condition pour une règle de prix de panier basée sur 
    | `Name` | Nom de l’audience, par exemple `Orders over $50` |
    | `Description` | Description de l’audience, par exemple `People who placed an order over $50 in the last month.`. |
    | `Source` | Indique l’origine de l’audience, par exemple `Experience Platform`. |
-   | `Website` | Indique le site web que vous avez lié au flux de données contenant les audiences. Vous créez ce lien lorsque vous connectez votre instance Commerce à Experience Platform par le biais de l’extension [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html). |
+   | `Website` | Indique le site web que vous avez lié au flux de données contenant les audiences. Vous créez ce lien lorsque vous connectez votre instance Commerce à Experience Platform par le biais de l’extension [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=fr). |
 
    {style="table-layout:auto"}
 
