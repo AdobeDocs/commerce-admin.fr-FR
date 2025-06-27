@@ -104,7 +104,7 @@ L&#39;outil Analyse de sécurité est disponible gratuitement depuis le tableau 
 
         Une fois le processus de création terminé, les modifications seront déployées sur votre vitrine PWA.
 
-1. Revenez à la page _[!UICONTROL Security Scan]_de votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**pour établir la propriété du domaine.
+1. Revenez à la page _[!UICONTROL Security Scan]_&#x200B;de votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**&#x200B;pour établir la propriété du domaine.
 
 1. Après une confirmation réussie, configurez les options de **[!UICONTROL Set Automatic Security Scan]** pour l’un des types suivants :
 
@@ -148,4 +148,4 @@ L&#39;outil Analyse de sécurité est disponible gratuitement depuis le tableau 
    - Lisez le **[!UICONTROL Terms and Conditions]**.
    - Cliquez sur **[!UICONTROL Agree]** pour continuer.
 
-1. Sur la page _[!UICONTROL Monitored Websites]_, recherchez la liste déroulante sous la colonne [!UICONTROL Actions], puis sélectionnez **[!UICONTROL Delete]**pour le ou les sites web appropriés.
+1. Sur la page _[!UICONTROL Monitored Websites]_, recherchez la liste déroulante sous la colonne [!UICONTROL Actions], puis sélectionnez **[!UICONTROL Delete]**&#x200B;pour le ou les sites web appropriés.
