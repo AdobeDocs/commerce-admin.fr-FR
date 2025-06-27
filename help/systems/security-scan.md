@@ -22,7 +22,7 @@ L&#39;analyse de sécurité améliorée vous permet de surveiller chacun de vos 
 - Accédez aux rapports de sécurité historiques qui suivent et surveillent la progression de vos sites.
 - Accédez au rapport d’analyse qui indique les vérifications réussies et ayant échoué, avec les actions recommandées.
 
-L&#39;outil Analyse de sécurité est disponible gratuitement depuis le tableau de bord de votre compte [Commerce/Magento](../getting-started/commerce-account-create.md). Pour obtenir des informations techniques, consultez [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) dans le _Guide de Commerce sur les infrastructures cloud_.
+L&#39;outil Analyse de sécurité est disponible gratuitement depuis le tableau de bord de votre compte [Commerce/Magento](../getting-started/commerce-account-create.md). Pour obtenir des informations techniques, consultez [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html?lang=fr#set-up-the-security-scan-tool) dans le _Guide de Commerce sur les infrastructures cloud_.
 
 ![Outil d’analyse de sécurité](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
