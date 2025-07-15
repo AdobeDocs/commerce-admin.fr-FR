@@ -56,7 +56,7 @@ Les instructions suivantes nécessitent l’accès à un terminal.
 
 1. Modifiez la clé de chiffrement à l’aide de l’une des méthodes suivantes.
 
-   Commande +++CLI
+   +++Commande CLI
 
    Vérifiez que la nouvelle commande existe :
 
@@ -76,7 +76,7 @@ Les instructions suivantes nécessitent l’accès à un terminal.
    bin/magento encryption:key:change
    ```
 
-+++
+   +++
 
    +++Paramètres d’administration
 
@@ -99,7 +99,7 @@ Les instructions suivantes nécessitent l’accès à un terminal.
       >
       >Conservez l’enregistrement de la nouvelle clé dans un emplacement sécurisé. Il est nécessaire de déchiffrer les données si des problèmes se produisent avec vos fichiers.
 
-+++
+   +++
 
 1. Videz le cache.
 
