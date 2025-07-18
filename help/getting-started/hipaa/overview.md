@@ -18,7 +18,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >**Clause de non-responsabilité**<br/>
->>Ces informations sont destinées à aider les clients Adobe à répondre à leurs questions concernant les services conformes à la norme HIPAA d’Adobe. Il ne s&#39;agit pas d&#39;un avis juridique. Les commerçants doivent consulter leur propre service juridique pour connaître leurs obligations en vertu de la loi HIPAA ainsi que l’utilisation et la configuration appropriées des produits Adobe.
+>&#x200B;>Ces informations sont destinées à aider les clients Adobe à répondre à leurs questions concernant les services conformes à la norme HIPAA d’Adobe. Il ne s&#39;agit pas d&#39;un avis juridique. Les commerçants doivent consulter leur propre service juridique pour connaître leurs obligations en vertu de la loi HIPAA ainsi que l’utilisation et la configuration appropriées des produits Adobe.
 
 >[!BEGINSHADEBOX]
 
