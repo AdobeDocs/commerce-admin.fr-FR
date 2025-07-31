@@ -3,9 +3,9 @@ title: Navigation superposée
 description: Découvrez comment la navigation à plusieurs niveaux permet aux acheteurs de trouver facilement des produits en fonction de la catégorie, de la plage de prix ou de tout autre attribut disponible.
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 687169e4333d60eb1b876e24e6855fbb59fb598f
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1355'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La navigation par couches standard décrite dans cette section diffère de la navigation filtrée Live Search avec [facettes](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html?lang=fr).
+>La navigation par couches standard décrite dans cette section diffère de la navigation filtrée Live Search avec [facettes](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
-La navigation en couches facilite la recherche de produits en fonction de la catégorie, de la gamme de prix ou de tout autre attribut disponible. La navigation superposée apparaît généralement dans la colonne gauche des résultats de recherche et des pages de catégories, et parfois sur la page d’accueil. La navigation standard comprend une liste _Shop By_ de catégories et de plages de prix. Vous pouvez configurer l’affichage d’une navigation par couches, y compris le nombre de produits et la plage de prix.
+La navigation en couches facilite la recherche de produits en fonction de la catégorie, de la gamme de prix ou de tout autre attribut disponible. La navigation superposée s’affiche généralement dans la colonne de gauche des résultats de recherche et des pages de catégories, et parfois sur la page d’accueil. La navigation standard comprend une liste _Shop By_ de catégories et de plages de prix. Vous pouvez configurer l’affichage d’une navigation par couches, y compris le nombre de produits et la plage de prix.
 
 ![Navigation superposée par catégorie et prix](./assets/navigation-layered-basic.png){width="700" zoomable="yes"}
 
@@ -24,9 +24,9 @@ La navigation en couches facilite la recherche de produits en fonction de la cat
 
 >[!NOTE]
 >
->Les exigences en matière d’attributs filtrables décrites dans cette rubrique diffèrent pour [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=fr). Pour en savoir plus, voir [Facettes](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html?lang=fr).
+>Les exigences en matière d’attributs filtrables décrites dans cette rubrique diffèrent pour [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview). Pour en savoir plus, voir [Facettes](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
-La navigation en couches peut être utilisée pour rechercher des produits par catégorie ou par attribut. Par exemple, lorsqu’un acheteur sélectionne la catégorie Hommes/Shorts dans le volet de navigation supérieur, les premiers résultats incluent tous les produits de la catégorie. Vous pouvez filtrer davantage la liste en choisissant un style, un climat, une couleur, un matériau, un modèle ou un prix spécifique, ou une combinaison de valeurs. Les attributs filtrables apparaissent dans une section en expansion qui répertorie chaque valeur d’attribut. Il est possible de configurer la liste de produits présentant des résultats correspondants de manière à inclure des produits présentant ou non une correspondance.
+La navigation en couches peut être utilisée pour rechercher des produits par catégorie ou par attribut. Par exemple, lorsqu’un acheteur sélectionne la catégorie Hommes/Shorts dans le volet de navigation supérieur, les premiers résultats incluent tous les produits de la catégorie. Vous pouvez filtrer davantage la liste en choisissant un style, un climat, une couleur, un matériau, un modèle ou un prix spécifique (ou une combinaison de valeurs). Les attributs filtrables s’affichent dans une section en expansion qui répertorie chaque valeur d’attribut. Il est possible de configurer la liste de produits présentant des résultats correspondants de manière à inclure des produits présentant ou non une correspondance.
 
 Les propriétés d’attribut, combinées au type d’entrée de produit, déterminent quels attributs peuvent être utilisés pour la navigation superposée. La navigation superposée est disponible uniquement pour les catégories [_anchor_](categories-display-settings.md), mais peut également être ajoutée aux pages de résultats de recherche. La propriété **Type d’entrée de catalogue pour le propriétaire de la boutique** de chaque attribut doit être définie sur `Yes/No`, `Dropdown`, `Multiple Select` ou `Price`. Pour que les attributs puissent être filtrés, la propriété **Utiliser en navigation superposée** de chaque attribut doit être définie sur `Filterable (with results)` ou `Filterable (no results)`.
 
@@ -50,9 +50,9 @@ Les instructions suivantes montrent comment configurer une navigation par couche
 
 1. Dans le panneau de gauche, choisissez **[!UICONTROL Storefront Properties]** et définissez **[!UICONTROL Use In Layered Navigation]** sur l’une des options suivantes :
 
-   - `Filterable (with results)` - La navigation par couches inclut uniquement les filtres pour lesquels des produits correspondants peuvent être trouvés. Toute valeur d’attribut qui s’applique déjà à tous les produits affichés dans la liste doit toujours apparaître comme un filtre disponible. Les valeurs d’attribut avec un nombre de zéro (0) correspondance de produit sont omises de la liste des filtres disponibles. La liste filtrée inclut uniquement les produits qui correspondent au filtre. La liste des produits n’est mise à jour que si les filtres sélectionnés modifient ce qui s’affiche.
+   - `Filterable (with results)` - La navigation par couches inclut uniquement les filtres pour lesquels des produits correspondants peuvent être trouvés. Toute valeur d’attribut qui s’applique déjà à tous les produits affichés dans la liste doit toujours s’afficher comme un filtre disponible. Les valeurs d’attribut avec un nombre de zéro (0) correspondance de produit sont omises de la liste des filtres disponibles. La liste filtrée inclut uniquement les produits qui correspondent au filtre. La liste des produits n’est mise à jour que si les filtres sélectionnés modifient ce qui s’affiche.
 
-   - `Filterable (no results)` - La navigation superposée inclut des filtres pour toutes les valeurs d’attribut disponibles et leur nombre de produits, y compris les produits sans correspondance de produit (0). Si la valeur de l’attribut est un échantillon, la valeur apparaît comme un filtre, mais est barrée. Le filtrage par couches de prix n’est pas pris en charge par cette option et n’affecte pas les filtres Prix.
+   - `Filterable (no results)` - La navigation superposée affiche des filtres pour toutes les valeurs d’attribut disponibles et leur nombre de produits, même s’il existe des produits sans correspondance (0). Si la valeur de l’attribut est un échantillon, le filtre s’affiche mais est barré. Cette option ne prend pas en charge le filtrage par couches de prix et n’affecte pas les filtres de prix.
 
 1. Définissez **[!UICONTROL Use In Search Results Layered Navigation]** sur `Yes`.
 
@@ -62,11 +62,9 @@ Les instructions suivantes montrent comment configurer une navigation par couche
 
 >[!NOTE]
 >
->Lorsque le paramètre _[!UICONTROL Use in Search]_&#x200B;est défini sur `No`, le paramètre&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ n’est pas affiché et l’attribut product n’est pas utilisé dans la recherche avec une valeur de paramètre [!UICONTROL Use in Layered Navigation].
-
->[!NOTE]
+>- Si le paramètre _[!UICONTROL Use in Search]_est défini sur `No`, le paramètre_[!UICONTROL Use in Search Results Layered Navigation]_ ne s’affiche pas. Dans ce cas, l’attribut de produit n’est pas utilisé dans la recherche, quel que soit le paramètre [!UICONTROL Use in Layered Navigation].
 >
->Le champ [!UICONTROL Position] est grisé par défaut. Vous devez donc enregistrer l’attribut avant de pouvoir modifier ce paramètre.
+>- Le champ [!UICONTROL Position] est grisé par défaut. Vous devez enregistrer l’attribut avant de pouvoir modifier ce paramètre.
 
 ## Étape 2 : faire de la catégorie une ancre
 
@@ -112,13 +110,19 @@ Vous pouvez suivre les étapes suivantes pour supprimer les valeurs d’attribut
 
 >[!NOTE]
 >
->La configuration de navigation par prix décrite dans cette rubrique diffère pour [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=fr).
+>La configuration de navigation par prix décrite dans cette section diffère de la navigation filtrée Live Search avec [ facettes ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
 La navigation par prix peut être utilisée pour distribuer les produits par plage de prix dans une navigation par couches. Vous pouvez également fractionner chaque plage en intervalles. Il existe plusieurs façons de calculer la navigation par prix :
 
 - Automatique (égaliser les fourchettes de prix)
 - Automatique (égaliser le nombre de produits)
 - Manuelle
+
+>[!BEGINSHADEBOX]
+
+Lors du filtrage par prix dans la navigation superposée, Adobe Commerce utilise le prix le plus bas des éléments enfants d’un produit configurable. Par conséquent, un produit configurable n&#39;apparaît que dans la plage de prix la plus basse de ses produits enfants, même si certains produits enfants ont des prix plus élevés.
+
+>[!ENDSHADEBOX]
 
 Avec les deux premières méthodes, les étapes de navigation sont calculées automatiquement. La méthode manuelle permet de définir une limite de division pour les intervalles de prix. L’exemple suivant illustre la différence entre les étapes de navigation de prix de 10 et 100.
 
@@ -145,7 +149,7 @@ Le fractionnement itératif offre la meilleure répartition des produits entre l
 
 >[!IMPORTANT]
 >
->Pour afficher correctement les produits et leurs prix en fonction des _filtres de prix_ dans la navigation superposée, assurez-vous que les paramètres d’affichage des prix dans le [paramétrage de la taxe](../configuration-reference/sales/tax.md) ont la même valeur (`Excluding Tax` **ou** `Including Tax`). Pour l’_[!UICONTROL Calculation Settings]_, vérifiez la valeur **[!UICONTROL Catalog Prices]**. Et pour&#x200B;_[!UICONTROL Price Display Settings]_, vérifiez la valeur **[!UICONTROL Display Product Prices in Catalog]** . Si elles ont des valeurs différentes, les filtres de prix dans la navigation superposée peuvent ne pas filtrer et trier correctement les produits par prix.
+>Pour afficher correctement les produits et leurs prix en fonction des _filtres de prix_ dans la navigation superposée, assurez-vous que les paramètres d’affichage des prix dans le [paramétrage de la taxe](../configuration-reference/sales/tax.md) ont la même valeur (`Excluding Tax` **ou** `Including Tax`). Pour l’_[!UICONTROL Calculation Settings]_, vérifiez la valeur **[!UICONTROL Catalog Prices]**. Et pour_[!UICONTROL Price Display Settings]_, vérifiez la valeur **[!UICONTROL Display Product Prices in Catalog]** . Si elles ont des valeurs différentes, les filtres de prix dans la navigation superposée peuvent ne pas filtrer et trier correctement les produits par prix.
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -201,13 +205,13 @@ Conservez la **[!UICONTROL Price Navigation Steps Calculation]** définie sur `A
 
 >[!NOTE]
 >
->La configuration standard décrite sur cette page diffère pour [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=fr).
+>La navigation par couches standard décrite dans cette section diffère de la navigation filtrée Live Search avec [facettes](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
-La configuration de navigation superposée détermine si un nombre de produits apparaît entre parenthèses après chaque attribut, ainsi que la taille du calcul d’étape utilisé dans la navigation par prix.
+La configuration de navigation superposée détermine si un nombre de produits s’affiche entre parenthèses après chaque attribut et la taille du calcul d’étape utilisé dans la navigation par prix.
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de gauche, développez la section _[!UICONTROL Catalog]_&#x200B;et choisissez **[!UICONTROL Catalog]**&#x200B;en dessous.
+1. Dans le panneau de gauche, développez la section _[!UICONTROL Catalog]_et choisissez **[!UICONTROL Catalog]**en dessous.
 
 1. Développez la section _[!UICONTROL Layered Navigation]_.
 
