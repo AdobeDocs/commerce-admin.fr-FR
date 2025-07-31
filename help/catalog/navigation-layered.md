@@ -62,7 +62,7 @@ Les instructions suivantes montrent comment configurer une navigation par couche
 
 >[!NOTE]
 >
->- Si le paramètre _[!UICONTROL Use in Search]_est défini sur `No`, le paramètre_[!UICONTROL Use in Search Results Layered Navigation]_ ne s’affiche pas. Dans ce cas, l’attribut de produit n’est pas utilisé dans la recherche, quel que soit le paramètre [!UICONTROL Use in Layered Navigation].
+>- Si le paramètre _[!UICONTROL Use in Search]_&#x200B;est défini sur `No`, le paramètre&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ ne s’affiche pas. Dans ce cas, l’attribut de produit n’est pas utilisé dans la recherche, quel que soit le paramètre [!UICONTROL Use in Layered Navigation].
 >
 >- Le champ [!UICONTROL Position] est grisé par défaut. Vous devez enregistrer l’attribut avant de pouvoir modifier ce paramètre.
 
@@ -149,7 +149,7 @@ Le fractionnement itératif offre la meilleure répartition des produits entre l
 
 >[!IMPORTANT]
 >
->Pour afficher correctement les produits et leurs prix en fonction des _filtres de prix_ dans la navigation superposée, assurez-vous que les paramètres d’affichage des prix dans le [paramétrage de la taxe](../configuration-reference/sales/tax.md) ont la même valeur (`Excluding Tax` **ou** `Including Tax`). Pour l’_[!UICONTROL Calculation Settings]_, vérifiez la valeur **[!UICONTROL Catalog Prices]**. Et pour_[!UICONTROL Price Display Settings]_, vérifiez la valeur **[!UICONTROL Display Product Prices in Catalog]** . Si elles ont des valeurs différentes, les filtres de prix dans la navigation superposée peuvent ne pas filtrer et trier correctement les produits par prix.
+>Pour afficher correctement les produits et leurs prix en fonction des _filtres de prix_ dans la navigation superposée, assurez-vous que les paramètres d’affichage des prix dans le [paramétrage de la taxe](../configuration-reference/sales/tax.md) ont la même valeur (`Excluding Tax` **ou** `Including Tax`). Pour l’_[!UICONTROL Calculation Settings]_, vérifiez la valeur **[!UICONTROL Catalog Prices]**. Et pour&#x200B;_[!UICONTROL Price Display Settings]_, vérifiez la valeur **[!UICONTROL Display Product Prices in Catalog]** . Si elles ont des valeurs différentes, les filtres de prix dans la navigation superposée peuvent ne pas filtrer et trier correctement les produits par prix.
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -211,7 +211,7 @@ La configuration de navigation superposée détermine si un nombre de produits s
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de gauche, développez la section _[!UICONTROL Catalog]_et choisissez **[!UICONTROL Catalog]**en dessous.
+1. Dans le panneau de gauche, développez la section _[!UICONTROL Catalog]_&#x200B;et choisissez **[!UICONTROL Catalog]**&#x200B;en dessous.
 
 1. Développez la section _[!UICONTROL Layered Navigation]_.
 
