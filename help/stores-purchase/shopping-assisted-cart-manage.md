@@ -55,7 +55,7 @@ Pour démarrer une session d’achat assistée, le client doit être connecté �
    >
    >Pour trouver l’enregistrement du client rapidement, utilisez la commande [Filtres](../getting-started/admin-grid-controls.md).
 
-   Dans le profil client sous _[!UICONTROL Personal Information]_, la date et l’heure_[!UICONTROL Last Logged In]_ indiquent que le client est en ligne.
+   Dans le profil client sous _[!UICONTROL Personal Information]_, la date et l’heure&#x200B;_[!UICONTROL Last Logged In]_ indiquent que le client est en ligne.
 
    ![Profil client d’un client en ligne](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -175,7 +175,7 @@ Vous pouvez transférer des articles vers le panier à partir de la liste de sou
 
 1. Cliquez sur **[!UICONTROL Create Order]**.
 
-   La page _[!UICONTROL Create New Order]_affiche les articles du panier, suivis des informations d’expédition et de paiement.
+   La page _[!UICONTROL Create New Order]_&#x200B;affiche les articles du panier, suivis des informations d’expédition et de paiement.
 
 1. Complétez les informations d&#39;expédition et de paiement.
 
