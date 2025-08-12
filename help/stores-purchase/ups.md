@@ -3,7 +3,7 @@ title: United Parcel Service (UPS)
 description: Découvrez comment configurer UPS en tant que transporteur pour votre boutique.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 614a94856c114244c8fdb281c73650878849a2fb
+source-git-commit: a925827f2d939eeb9e6b3e57c023792ae358cbfc
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 0%
@@ -46,9 +46,9 @@ Lorsque vous configurez les paramètres de l’onduleur dans l’administration,
 
    - Définissez **[!UICONTROL Mode]** sur `Live` pour envoyer des données au système d&#39;expédition UPS via une connexion sécurisée. (Le mode de développement n’envoie pas de données via une connexion sécurisée.)
 
-   - Vérifiez les **[!UICONTROL Gateway URL]** requises pour envoyer des requêtes. Utilisez une URL de sandbox (`https://wwwcie.ups.com/`) pour le mode test et une URL de production pour les requêtes en direct (`https://onlinetools.ups.com`). Veillez à utiliser les points d’entrée respectifs pour chaque requête avec l’hôte donné.
+   - Vérifiez les **[!UICONTROL Gateway URL]** requises pour envoyer des requêtes. Utilisez une URL de sandbox (`https://wwwcie.ups.com/api/rating/`) pour le mode test et une URL de production pour les requêtes en direct (`https://onlinetools.ups.com/api/rating/`). Veillez à utiliser les points d’entrée respectifs pour chaque requête avec l’hôte donné.
 
-   - Vérifiez le **[!UICONTROL Tracking URL]** requis pour obtenir les informations de suivi. Utilisez une URL de sandbox (`https://wwwcie.ups.com/`) pour le mode test et une URL de production pour les requêtes en direct (`https://onlinetools.ups.com`). Veillez à utiliser les points d’entrée respectifs pour chaque requête avec l’hôte donné.
+   - Vérifiez le **[!UICONTROL Tracking URL]** requis pour obtenir les informations de suivi. Utilisez une URL de sandbox (`https://wwwcie.ups.com/api/track/`) pour le mode test et une URL de production pour les requêtes en direct (`https://onlinetools.ups.com/api/track/`). Veillez à utiliser les points d’entrée respectifs pour chaque requête avec l’hôte donné.
 
    - Définissez **[!UICONTROL Origin of the Shipment]** dans la région d&#39;origine de l&#39;expédition.
 
