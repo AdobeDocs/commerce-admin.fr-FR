@@ -86,5 +86,5 @@ ht-degree: 1%
    - [Google Analytics](google-analytics.md)
    - [Google Tag Manager](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
-- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/fr/docs/commerce-admin/user-guides/home)
 
