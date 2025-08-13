@@ -4,9 +4,9 @@ user-guide-description: Informations complètes sur les fonctionnalités de gest
 breadcrumb-title: Gestion des catalogues
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 5703ca88d085d39c36ab1edca70e4e802b625e7a
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -17,16 +17,16 @@ ht-degree: 0%
 + [Guide de gestion des catalogues](guide-overview.md)
 + [Présentation de la gestion des catalogues](introduction.md)
 + [Menu Catalogue](catalog-menu.md)
-+ Principes de base des catalogues {#catalog}
++ Principes de base du catalogue {#catalog}
    + [URL de catalogue et de produit](catalog-urls.md)
    + [Catalogues plats](catalog-flat.md)
-   + de navigation dans les catalogues{#navigation}
+   + Navigation dans les catalogues {#navigation}
       + [Aperçu de la navigation](navigation.md)
       + [Volet de navigation supérieur](navigation-top.md)
       + [Chemins de navigation](navigation-breadcrumb-trail.md)
       + [Listes de produits](navigation-product-listings.md)
       + [Navigation superposée](navigation-layered.md)
-   + de recherche catalogue{#search}
+   + Recherche catalogue {#search}
       + [Aperçu de la recherche](search.md)
       + [Configuration de la recherche catalogue](search-configuration.md)
       + [Résultats de la recherche](search-results.md)
@@ -48,7 +48,7 @@ ht-degree: 0%
       + [Ajouter et supprimer des produits de catégorie](category-products-add.md)
    + [Modifications planifiées](category-scheduled-changes.md)
    + [Autorisations de catégorie](category-permissions.md)
-+ de produits{#products}
++ Produits {#products}
    + [Liste de produits](products-list.md)
    + [Espace de travail du produit](product-workspace.md)
    + [Création d’un produit](product-create.md)
@@ -60,7 +60,7 @@ ht-degree: 0%
       + [Produit groupé](product-create-bundle.md)
       + [Produit téléchargeable](product-create-downloadable.md)
       + [Carte cadeau](product-gift-card-create.md)
-   + des ressources numériques du produit{#digital-assets}
+   + Ressources numériques de produit {#digital-assets}
       + [Catalogue d’images et de vidéos](catalog-images-video.md)
       + [Configuration des ressources d’image](product-image-config.md)
       + [Gestion des images de produit](product-image.md)
@@ -68,7 +68,7 @@ ht-degree: 0%
       + Gestion des modèles 3D de produit {#product-3d-model}
          + [Présentation de la visionneuse AR](ar-viewer-overview.md)
          + [Configuration de la visionneuse AR](ar-viewer-setup.md)
-   + Gérer les de tarification {#pricing}
+   + Gérer les prix {#pricing}
       + [Périmètre du prix](catalog-price-scope.md)
       + [Tarification avancée](pricing-advanced.md)
       + [Tarification du groupe](product-price-group.md)
@@ -76,7 +76,7 @@ ht-degree: 0%
       + [Tarification par niveau](product-price-tier.md)
       + [Prix minimal annoncé](product-price-minimum-advertised.md)
    + [Planifier des mises à jour de produit](product-scheduled-changes.md)
-   + de référence des paramètres du produit{#settings}
+   + Référence des paramètres du produit {#settings}
       + [Sources](sources.md)
       + [Contenu](product-content.md)
       + [Configurations](product-configurations.md)
@@ -84,7 +84,6 @@ ht-degree: 0%
       + [Images et vidéos](product-images-and-video.md)
       + [Optimisation du moteur de recherche](product-search-engine-optimization.md)
       + [Produits associés, ventes incitatives et ventes croisées](related-products-up-sells-cross-sells.md)
-      + [Optimisation de la consultation des produits](product-view-optimization.md)
       + [Options personnalisables](settings-advanced-custom-options.md)
       + [Produit dans les sites web](settings-basic-websites.md)
       + [Conception](settings-advanced-design.md)
@@ -99,5 +98,5 @@ ht-degree: 0%
       + [Création et suppression d’attributs](attribute-product-create.md)
       + [Mises à jour en bloc](bulk-product-attribute-update.md)
       + [Jeux d’attributs](attribute-sets.md)
-+ [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/fr/docs/commerce-admin/user-guides/home)
++ [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

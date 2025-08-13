@@ -2,9 +2,9 @@
 title: Présentation du merchandising et des promotions Commerce
 description: Découvrez les outils Commerce pour créer des promotions ciblées et des opportunités d’engagement client.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: 7774aa82149faff55591303c7ff2fe2c84797a4a
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1092'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Ciblez les promotions et créez des opportunités d’engagement client, et tran
 
 _Marchandisage_ est un terme utilisé dans le commerce de détail pour décrire l&#39;art et la science de l&#39;élaboration du plan d&#39;étage et de la présentation des produits. Vous pouvez considérer la [navigation par catégorie](../catalog/navigation-top.md) comme le plan d’étage du magasin, et la présentation dynamique des produits comme les conditions que vous pouvez appliquer à l’énumération des produits du magasin. Vous pouvez également implémenter des programmes qui stimulent les ventes de produits :
 
-- [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} [Marchandiseur visuel](visual-merchandiser.md) - Ensemble d’outils avancés qui vous permettent de positionner des produits et d’appliquer des conditions qui déterminent quels produits apparaissent dans la liste des catégories.
+- [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} [Marchandiseur visuel](visual-merchandiser.md) - Ensemble d’outils avancés qui vous permettent de positionner des produits et d’appliquer des conditions qui déterminent quels produits apparaissent dans la liste des catégories.
 
 - [Registres cadeaux](gift-registries.md) - Donnez à vos clients la possibilité de créer des registres cadeaux pour des occasions spéciales et d&#39;inviter leurs amis et leur famille à acheter leurs cadeaux dans le registre des cadeaux.
 
@@ -27,7 +27,7 @@ _Marchandisage_ est un terme utilisé dans le commerce de détail pour décrire 
 
 >[!TIP]
 >
->Pour en savoir plus sur les recommandations de produits et sur la manière dont elles peuvent vous apporter l’insight et le contrôle dont vous avez besoin pour offrir la meilleure expérience à vos acheteurs, consultez le [Guide d’utilisation des recommandations de produits](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=fr).
+>Pour en savoir plus sur les recommandations de produits et sur la manière dont elles peuvent vous apporter l’insight et le contrôle dont vous avez besoin pour offrir la meilleure expérience à vos acheteurs, consultez le [Guide d’utilisation des recommandations de produits](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
 
 ## Promotions
 
@@ -67,8 +67,8 @@ L’une des tâches à effectuer avant de lancer votre boutique consiste à exam
 >[!NOTE]
 >
 >Les versions 2.4.0 à 2.4.3 d’Adobe Commerce et de Magento Open Source incluaient l’extension développée par le fournisseur dotdigital utilisée pour s’intégrer à dotdigital Engagement Cloud. À compter de la version 2.4.4, cette extension n’est plus fournie avec la version de base et doit être installée et mise à jour à partir de Commerce Marketplace. La Marketplace permet également d’accéder à la documentation actuelle fournie par le développeur d’extensions.
-><br><br>
->Si l’extension groupée est activée et configurée, vous devez mettre à jour votre fichier composer.json dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Voir [Mise à niveau des modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=fr) dans le _Guide de mise à niveau_ pour plus d’informations.
+>><br><br>
+>>Si l’extension groupée est activée et configurée, vous devez mettre à jour votre fichier composer.json dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Voir [Mise à niveau des modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) dans le _Guide de mise à niveau_ pour plus d’informations.
 
 - [Newsletters](newsletters.md) - Produisez des newsletters, gérez votre liste d’abonnés, développez du contenu et générez du trafic vers votre boutique.
 
@@ -85,8 +85,6 @@ La configuration de votre boutique est intégrée aux outils Google suivants pou
 >À partir de la version 2.4.5, l’intégration des services Google est mise à jour afin de prendre en charge l’utilisation des API GTag. GTag est un mécanisme unifié d’intégration de la fonctionnalité Google pour les pages web. Il prend en charge les fonctionnalités et opportunités les plus récentes pour le suivi et la gestion du contenu via les services Google. Pour plus d’informations, consultez la [documentation destinée aux développeurs de Google Analytics](https://developers.google.com/analytics/devguides/collection/gtagjs).
 
 - [Google Analytics](google-analytics.md) - Utilisez Google Universal Analytics pour définir des dimensions et des mesures personnalisées supplémentaires pour le suivi, avec la prise en charge des interactions d’applications hors ligne et mobiles et l’accès aux mises à jour en cours.
-
-- [Expériences de contenu Google ](google-content-experiments.md) - Configurez un test A/B de produits, de catégories ou de pages de contenu à l’aide du contenu Google Analytics
 
 - [Google Tag Manager](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Utilisez Google Tag Manager pour gérer les nombreuses balises liées aux événements de campagne marketing.
 

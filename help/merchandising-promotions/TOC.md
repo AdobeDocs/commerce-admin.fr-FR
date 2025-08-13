@@ -4,9 +4,9 @@ user-guide-description: Adobe Commerce et Magento Open Source incluent de nombre
 breadcrumb-title: Marchandisage et promotions
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -17,12 +17,12 @@ ht-degree: 1%
 - [Présentation du guide](guide-overview.md)
 - [Présentation du merchandising et des promotions](introduction.md)
 - [Menu marketing](marketing-menu.md)
-- de marchandisage{#merchandising}
-   - du marchandiseur visuel{#visual-merch}
+- Marchandisage {#merchandising}
+   - Marchandiseur visuel {#visual-merch}
       - [Présentation visuelle du marchandiseur](visual-merchandiser.md)
       - [Règles de catégorie pour le marchandisage](category-product-rules.md)
       - [Configuration des attributs intelligents](smart-attributes-configure.md)
-   - des registres de cadeaux{#gift-registry}
+   - Registres des cadeaux {#gift-registry}
       - [Présentation du registre des cadeaux](gift-registries.md)
       - [Configurer les registres de cadeaux](gift-registry-configure.md)
       - [Configuration du registre des cadeaux](gift-registry-create.md)
@@ -33,11 +33,11 @@ ht-degree: 1%
       - [Taux de change de récompense](reward-exchange-rates.md)
       - [Points de récompense dans les règles de prix](reward-points-price-rules.md)
       - [Expérience storefront des points de récompense](reward-points-storefront.md)
-   - des avis sur les produits{#product-reviews}
+   - Examens de produits {#product-reviews}
       - [Examens de produits client](product-reviews.md)
       - [Modération des avis](product-reviews-moderate.md)
 - Promotions {#promotions}
-   - de ventes privées et d’événements{#events}
+   - Ventes et événements privés {#events}
       - [Présentation des événements](events-private-sales.md)
       - [Configuration d’événements](event-configure.md)
       - [Création d’événements](event-create.md)
@@ -60,7 +60,7 @@ ht-degree: 1%
       - [Vue d’ensemble](product-relationships.md)
       - [Règles et configuration des produits associés](product-related-rules.md)
       - [Créer une règle de produit associée](product-related-rule-create.md)
-- des communications marketing{#communications}
+- Communications marketing {#communications}
    - Newsletters {#newsletters}
       - [Activer les newsletters](newsletters.md)
       - [Modèles de newsletter](newsletter-template.md)
@@ -70,22 +70,21 @@ ht-degree: 1%
    - Rappels par e-mail {#email-reminders}
       - [Activer les rappels par e-mail](email-reminder-rules.md)
       - [Créer des rappels par e-mail](email-reminder-rules-create.md)
-- d’optimisation du moteur de recherche{#seo}
+- Optimisation des moteurs de recherche {#seo}
    - [Présentation de l’optimisation pour les moteurs de recherche et bonnes pratiques](seo-overview.md)
    - [Métadonnées](meta-data.md)
    - [Cartes du site](sitemap-xml.md)
-   - des réécritures d’URL{#url-rewrites}
+   - Réécritures d’URL {#url-rewrites}
       - [Présentation et configuration](url-rewrite.md)
       - [Réécritures de catégorie](url-rewrite-category.md)
       - [Réécritures du produit](url-rewrite-product.md)
       - [Réécritures de page CMS](url-rewrite-cms-page.md)
       - [Réécritures personnalisées](url-rewrite-custom.md)
       - [Redirections automatiques](url-redirect-product-automatic.md)
-- des outils du site Google{#google-tools}
+- Outils de site Google {#google-tools}
    - [Vue d’ensemble](google-tools.md)
    - [Google Analytics](google-analytics.md)
    - [Google Tag Manager](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
-   - [Expériences de contenu Google](google-content-experiments.md)
-- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/fr/docs/commerce-admin/user-guides/home)
+- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

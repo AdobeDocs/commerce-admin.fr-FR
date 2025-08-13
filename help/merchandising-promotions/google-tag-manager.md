@@ -3,9 +3,9 @@ title: '[!DNL Google Tag Manager]'
 description: Découvrez comment utiliser  [!DNL Google Tag Manager]  gérer les nombreuses balises (fragments de code) liées à vos événements de campagne marketing sur vos sites Adobe Commerce.
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: 22a619db0b0673dc520b9bdc5d6cd0c8ffecdf08
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Voir [Configuration de la recherche de site](https://support.google.com/analytic
 
    - Choisissez **[!UICONTROL Property Settings]**.
 
-   - Sous _[!UICONTROL Advertising Features]_, définissez **[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;sur `On`.
+   - Sous _[!UICONTROL Advertising Features]_, définissez **[!UICONTROL Enable Demographics and Interest Reports]**sur `On`.
 
    - **[!UICONTROL Save]** les paramètres.
 
@@ -140,12 +140,11 @@ Les instructions suivantes indiquent comment configurer un nouveau conteneur ave
 
 ## Descriptions des champs
 
-| Champ | Champ d’application | Description |
+| Champ | Portée | Description |
 |--- |--- |--- |
 | [!UICONTROL Enable] | Affichage de la boutique | Détermine si l’e-commerce amélioré de Google Analytics peut être utilisé pour analyser l’activité dans votre magasin. Options : `Yes` / `No` |
 | [!UICONTROL Account type] | Affichage de la boutique | Détermine le code de suivi Google utilisé pour surveiller l’activité et le trafic du magasin. Options : `Google Analytics` / `Google Tag Manager` |
 | [!UICONTROL Anonymize IP] | Affichage de la boutique | Détermine si les informations d’identification sont supprimées des adresses IP qui apparaissent dans les résultats de Google Analytics. |
-| [!UICONTROL Enable Content Experiments] | Affichage de la boutique | Active les expériences de contenu Google, qui peuvent être utilisées pour tester jusqu’à dix versions différentes d’une même page. Options : `Yes` / `No` |
 | [!UICONTROL Container Id] | Affichage de la boutique | Si [!DNL Google Tag Manager] est déjà installé et configuré pour votre magasin, l’ID de conteneur s’affiche automatiquement dans ce champ. |
 | [!UICONTROL List property for the catalog page] | Affichage de la boutique | Identifie la propriété du Gestionnaire de balises associée à la page de catalogue. Valeur par défaut : `Catalog Page` |
 | [!UICONTROL List property for the cross-sell block] | Affichage de la boutique | Identifie la propriété du Gestionnaire de balises associée au bloc de ventes croisées. Valeur par défaut : `Cross-sell` |
@@ -179,7 +178,7 @@ Si vous disposez d’un compte Google AdWords, vous pouvez créer une balise pou
 
    - Sous **[!UICONTROL Choose Product]**, sélectionnez **[!UICONTROL Google AdWords]**.
 
-   - Sous _[!UICONTROL Choose a Tag Type]_, sélectionnez **[!UICONTROL AdWords Conversion Tracking]**&#x200B;et cliquez sur **[!UICONTROL Continue]**.
+   - Sous _[!UICONTROL Choose a Tag Type]_, sélectionnez **[!UICONTROL AdWords Conversion Tracking]**et cliquez sur **[!UICONTROL Continue]**.
 
 1. Saisissez les **[!UICONTROL Conversion ID]** et **[!UICONTROL Conversion Label]** de votre compte AdWords, puis cliquez sur **[!UICONTROL Continue]**.
 
