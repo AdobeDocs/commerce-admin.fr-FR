@@ -237,7 +237,7 @@ Dans l’exemple suivant, le code de coupon « H20 » a été utilisé par deux 
 
 | Champ | Description |
 |--- |--- |
-| [!UICONTROL Date Used] | Identifie le champ de date utilisé comme base du rapport. Options : <br/>**[!UICONTROL Order Created]**génère l&#39;état en fonction de la date à laquelle la commande a été passée par le client. Pour vous assurer que les données les plus récentes sont incluses, cliquez sur le lien dans le message pour actualiser les statistiques.<br/>**[!UICONTROL Order Updated]** : génère l&#39;état en fonction de la date de la dernière mise à jour des commandes. Ce rapport utilise des données en temps réel et ne nécessite pas d’actualisation des statistiques. |
+| [!UICONTROL Date Used] | Identifie le champ de date utilisé comme base du rapport. Options : <br/>**[!UICONTROL Order Created]**&#x200B;génère l&#39;état en fonction de la date à laquelle la commande a été passée par le client. Pour vous assurer que les données les plus récentes sont incluses, cliquez sur le lien dans le message pour actualiser les statistiques.<br/>**[!UICONTROL Order Updated]** : génère l&#39;état en fonction de la date de la dernière mise à jour des commandes. Ce rapport utilise des données en temps réel et ne nécessite pas d’actualisation des statistiques. |
 | [!UICONTROL Period] | Détermine le type de période utilisé pour le rapport. Options : `Day` / `Month` / `Year` |
 | [!UICONTROL From] | Indique la première date de la plage de données de commande incluse dans l&#39;état. |
 | [!UICONTROL To] | Indique la dernière date de la plage de données de commande incluse dans l&#39;état. |
