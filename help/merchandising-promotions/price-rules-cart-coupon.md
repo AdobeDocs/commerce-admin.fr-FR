@@ -3,9 +3,9 @@ title: Codes de coupon
 description: Découvrez comment utiliser des codes de coupons avec des règles de prix de panier pour appliquer une remise lorsqu’un ensemble de conditions est rempli.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+source-git-commit: 9ba2b4f7847559e2c59c7bec3b87781c12270712
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,17 @@ Depuis Commerce 2.4.7, les acheteurs peuvent appliquer plusieurs coupons à un p
 >Les règles de prix de panier ayant la même priorité n’entraînent pas de remise combinée. Chaque règle (coupon) est appliquée séparément aux produits correspondants, un par un, en fonction de l’identifiant de règle de prix de panier dans la base de données. Pour contrôler l’ordre dans lequel les remises sont appliquées, Adobe recommande de définir une priorité différente pour chaque règle de prix de panier ajoutée.
 
 ## Configuration des codes coupon
+
+>[!BEGINSHADEBOX]
+
+Par défaut, Commerce prend en charge deux méthodes de création de codes de coupon :
+
+1. Création d’un code de coupon spécifique unique
+1. Génération de plusieurs codes de coupon _aléatoires_
+
+Si vous avez déjà une liste de codes coupon que vous souhaitez importer et associer à une règle de prix de panier, vous devez envisager d’utiliser une extension du [Commerce Marketplace](https://marketplace.magento.com/).
+
+>[!ENDSHADEBOX]
 
 La longueur et le format des codes coupon générés automatiquement sont contrôlés par la configuration. Les caractères peuvent être définis sur tous les nombres, toutes les lettres ou une combinaison de ces éléments. Vous pouvez insérer un tiret à intervalles réguliers pour faciliter la lecture et ajouter un préfixe et un suffixe pour associer le code à une campagne ou une initiative spécifique.
 
@@ -62,7 +73,7 @@ La longueur et le format des codes coupon générés automatiquement sont contr�
 
 >[!NOTE]
 >
->[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Avant de créer des coupons, utilisez la commande `bin/magento cron:run` pour vérifier que cron est en cours d’exécution. Voir [Exécuter cron à partir de la ligne de commande](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=fr#run-cron-from-the-command-line) dans le _Guide de configuration_ pour plus d’informations.
+>[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Avant de créer des coupons, utilisez la commande `bin/magento cron:run` pour vérifier que cron est en cours d’exécution. Voir [Exécuter cron à partir de la ligne de commande](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) dans le _Guide de configuration_ pour plus d’informations.
 
 ### Méthode 1 : créer un coupon spécifique
 
@@ -170,10 +181,6 @@ Vous pouvez exporter des codes de coupon dans un fichier CSV ou XML Excel en sé
 
 Pour supprimer des codes coupon, sélectionnez un ou plusieurs codes dans la liste. Sélectionnez `Delete` dans le sélecteur de **[!UICONTROL Actions]**, puis cliquez sur **[!UICONTROL Submit]**.
 
->[!NOTE]
->
->Bien que Commerce permette de configurer plusieurs codes de coupon, un client ne peut utiliser qu’un seul code de coupon dans le panier. Pour permettre l’utilisation simultanée de plusieurs codes de coupon dans le panier, vous pouvez utiliser une extension correspondante de [Commerce Marketplace](https://marketplace.magento.com/).
-
 ## Rapport Coupons
 
 Le rapport _Coupons_ agrège les données de chaque coupon utilisé au cours d’une période spécifique. Comme les coupons sont appliqués à partir du panier, le rapport inclut les données de tous les coupons échangés, quel que soit le [statut de la commande](../stores-purchase/order-status.md). Par conséquent, le rapport peut inclure à la fois les totaux prévus et les totaux réels. Le rapport peut être filtré pour une vue de magasin, une période, un statut de commande et une règle de prix de panier spécifiques.
@@ -230,7 +237,7 @@ Dans l’exemple suivant, le code de coupon « H20 » a été utilisé par deux 
 
 | Champ | Description |
 |--- |--- |
-| [!UICONTROL Date Used] | Identifie le champ de date utilisé comme base du rapport. Options : <br/>**[!UICONTROL Order Created]**&#x200B;génère l&#39;état en fonction de la date à laquelle la commande a été passée par le client. Pour vous assurer que les données les plus récentes sont incluses, cliquez sur le lien dans le message pour actualiser les statistiques.<br/>**[!UICONTROL Order Updated]** : génère l&#39;état en fonction de la date de la dernière mise à jour des commandes. Ce rapport utilise des données en temps réel et ne nécessite pas d’actualisation des statistiques. |
+| [!UICONTROL Date Used] | Identifie le champ de date utilisé comme base du rapport. Options : <br/>**[!UICONTROL Order Created]**génère l&#39;état en fonction de la date à laquelle la commande a été passée par le client. Pour vous assurer que les données les plus récentes sont incluses, cliquez sur le lien dans le message pour actualiser les statistiques.<br/>**[!UICONTROL Order Updated]** : génère l&#39;état en fonction de la date de la dernière mise à jour des commandes. Ce rapport utilise des données en temps réel et ne nécessite pas d’actualisation des statistiques. |
 | [!UICONTROL Period] | Détermine le type de période utilisé pour le rapport. Options : `Day` / `Month` / `Year` |
 | [!UICONTROL From] | Indique la première date de la plage de données de commande incluse dans l&#39;état. |
 | [!UICONTROL To] | Indique la dernière date de la plage de données de commande incluse dans l&#39;état. |
