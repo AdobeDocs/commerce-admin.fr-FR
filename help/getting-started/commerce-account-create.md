@@ -19,7 +19,7 @@ Vous pouvez accéder à votre compte [!DNL Commerce] à partir du site web [!DNL
 
 L’identifiant de votre compte [!DNL Commerce] est distinct de celui de votre administrateur de boutique. Vous utiliserez normalement des informations d’identification différentes pour chaque système et l’accès à chaque système est géré indépendamment.
 
-Cependant, un utilisateur qui souhaite rationaliser sa connexion aux produits Adobe Commerce et Adobe Business peut configurer son Adobe ID pour se connecter à la boutique Admin : [Configurer l’intégration d’administration Commerce à Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) dans le *Guide d’intégration IMS pour Commerce*.
+Cependant, un utilisateur qui souhaite rationaliser sa connexion aux produits Adobe Commerce et Adobe Business peut configurer son Adobe ID pour se connecter à la boutique Admin : [Configurer l’intégration d’administration Commerce à Adobe ID](https://experienceleague.adobe.com/fr/docs/commerce-admin/start/admin/ims/adobe-ims-config) dans le *Guide d’intégration IMS pour Commerce*.
 
 >[!NOTE]
 >
