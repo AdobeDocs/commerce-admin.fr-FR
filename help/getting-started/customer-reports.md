@@ -1,32 +1,33 @@
 ---
-title: Rapports sur les clients
-description: Les rapports sur les clients disponibles dans Adobe Commerce et Magento Open Source fournissent des informations sur l’activité des clients au cours d’une période ou d’une période spécifiée.
+title: Rapports clients
+description: Les rapports clients disponibles dans Adobe Commerce et Magento Open Source fournissent des informations insight sur l’activité des clients au cours d’une période ou d’une période spécifiée.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-source-git-commit: a530d74f8d073f834f310826562407b8f949f17b
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 1%
+source-wordcount: '893'
+ht-degree: 2%
 
 ---
 
-# Rapports sur les clients
+# Rapports clients
 
-Les rapports sur les clients fournissent des informations sur l’activité des clients au cours d’une période ou d’une période spécifiée.
+Les rapports des clients fournissent insight dans l’activité des clients au cours d’une période ou d’une période spécifiée.
 
 ## [!UICONTROL Order Total Report]
 
-Le [!UICONTROL Order Total Report] affiche les commandes client pour un intervalle de temps ou une période spécifié. Le rapport inclut le nombre de commandes par client, le montant moyen de la commande et le montant total.
+La [!UICONTROL Order Total Report] affiche les commandes client pour un intervalle de temps ou une période spécifié. L&#39;état inclut le nombre de commandes par client, le montant moyen des commandes et le montant total.
 
-Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**.
+Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**.
 
-![Rapport Total de commande](./assets/customers-order-total.png){width="600"}
+![Rapport du total des commandes](./assets/customers-order-total.png){width="600"}
 
 ### Contrôles Workspace
 
 | Contrôle | Description |
 |--- |--- |
-| [!UICONTROL From / To] | Utilisé pour définir une recherche pour les commandes en fonction des dates de début et de fin. |
+| [!UICONTROL From / To] | Permet de définir une recherche des commandes en fonction des dates de début et de fin. |
 | [!UICONTROL Show By] | Définit la granularité du fractionnement de l’enregistrement de commande. Options : `Month` / `Day` / `Year` |
 | [!UICONTROL Refresh] | Met à jour la grille avec les filtres spécifiés. |
 | [!UICONTROL Export] | Exporte les enregistrements sélectionnés au format CSV ou XML Excel. |
@@ -38,19 +39,19 @@ Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONT
 
 | Colonne | Description |
 |--- |--- |
-| [!UICONTROL Interval] | Intervalle total de la commande, de `Month` / `Day` / `Year`. |
+| [!UICONTROL Interval] | L’intervalle total de commande, par `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | Nom du client qui a passé les commandes. |
 | [!UICONTROL Orders] | Nombre de commandes pour l’intervalle spécifié. |
-| [!UICONTROL Average] | Montant moyen de la commande. Ce montant est toujours calculé pour les prix des produits **hors taxe** même si les prix des produits catalogues, le sous-total de la commande et le total de la commande incluent la taxe. Par conséquent, le montant indiqué dans le rapport est différent du montant indiqué dans les détails de la commande lorsque les totaux de la commande comprennent la taxe. |
-| [!UICONTROL Total] | Somme de toutes les commandes de la période. Ce montant est toujours calculé pour les prix des produits **hors taxe** même si les prix des produits catalogues, le sous-total de la commande et le total de la commande incluent la taxe. Par conséquent, le total affiché dans le rapport est différent du montant affiché dans les détails de la commande lorsque les totaux de la commande comprennent la taxe. |
+| [!UICONTROL Average] | Montant moyen de la commande. Ce montant est toujours calculé pour les prix des produits **hors taxe** même si les prix des produits du catalogue, le sous-total de la commande et le total de la commande incluent la taxe. Par conséquent, le montant indiqué dans l&#39;état est différent du montant indiqué dans les détails de la commande dans les cas où les totaux des commandes incluent la taxe. |
+| [!UICONTROL Total] | Somme de toutes les commandes pour la période. Ce montant est toujours calculé pour les prix des produits **hors taxe** même si les prix des produits du catalogue, le sous-total de la commande et le total de la commande incluent la taxe. Par conséquent, le total indiqué dans l&#39;état est différent du montant indiqué dans les détails de la commande dans les cas où les totaux des commandes incluent la taxe. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order Count Report]
 
-Le [!UICONTROL Order Count Report] indique le nombre de commandes par client pour un intervalle de temps ou une période spécifié. Le rapport inclut le nombre de commandes par client, le montant moyen de la commande et le montant total.
+La [!UICONTROL Order Count Report] affiche le nombre de commandes par client pour un intervalle de temps ou une période spécifié. L&#39;état inclut le nombre de commandes par client, le montant moyen des commandes et le montant total.
 
-Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**.
+Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**.
 
 ![Rapport Nombre de commandes](./assets/customer-order-count.png){width="600"}
 
@@ -58,7 +59,7 @@ Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONT
 
 | Contrôle | Description |
 |--- |--- |
-| [!UICONTROL From / To] | Utilisé pour définir une recherche pour les commandes en fonction des dates de début et de fin. |
+| [!UICONTROL From / To] | Permet de définir une recherche des commandes en fonction des dates de début et de fin. |
 | [!UICONTROL Show By] | Définit la granularité du fractionnement de l’enregistrement de commande. Options : `Month` / `Day` / `Year` |
 | [!UICONTROL Refresh] | Met à jour la grille avec les filtres spécifiés. |
 | [!UICONTROL Export] | Exporte les enregistrements sélectionnés au format CSV ou XML Excel. |
@@ -70,28 +71,28 @@ Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONT
 
 | Colonne | Description |
 |--- |--- |
-| [!UICONTROL Interval] | Intervalle de comptage des commandes, par `Month` / `Day` / `Year`. |
-| [!UICONTROL Customer] | Le client qui a passé la commande. |
+| [!UICONTROL Interval] | L’intervalle de nombre de commandes, par `Month` / `Day` / `Year`. |
+| [!UICONTROL Customer] | Client qui a passé la commande. |
 | [!UICONTROL Orders] | Nombre de commandes pour l’intervalle spécifié. |
-| [!UICONTROL Average] | Montant moyen de la commande. Ce montant est toujours calculé pour les prix des produits **hors taxe** même si les prix des produits catalogues, le sous-total de la commande et le total de la commande incluent la taxe. Par conséquent, le montant indiqué dans le rapport est différent du montant indiqué dans les détails de la commande lorsque les totaux de la commande comprennent la taxe. |
-| [!UICONTROL Total] | Somme de toutes les commandes de la période. Ce montant est toujours calculé pour les prix des produits **hors taxe** même si les prix des produits catalogues, le sous-total de la commande et le total de la commande incluent la taxe. Par conséquent, le total affiché dans le rapport est différent du montant affiché dans les détails de la commande lorsque les totaux de la commande incluent des balises. |
+| [!UICONTROL Average] | Montant moyen de la commande. Ce montant est toujours calculé pour les prix des produits **hors taxe** même si les prix des produits du catalogue, le sous-total de la commande et le total de la commande incluent la taxe. Par conséquent, le montant indiqué dans l&#39;état est différent du montant indiqué dans les détails de la commande dans les cas où les totaux des commandes incluent la taxe. |
+| [!UICONTROL Total] | Somme de toutes les commandes pour la période. Ce montant est toujours calculé pour les prix des produits **hors taxe** même si les prix des produits du catalogue, le sous-total de la commande et le total de la commande incluent la taxe. Par conséquent, le total indiqué dans l&#39;état est différent du montant indiqué dans les détails de la commande dans les cas où les totaux des commandes incluent des tâches. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL New Accounts Report]
 
-[!UICONTROL New Accounts Report] affiche le nombre de nouveaux comptes clients ouverts au cours d’un intervalle de temps ou d’une période spécifié.
+La [!UICONTROL New Accounts Report] affiche le nombre de nouveaux comptes client ouverts au cours d’un intervalle de temps ou d’une période spécifié.
 
-Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
+Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
 
-![Nouveau rapport Comptes](./assets/customers-new-accounts.png){width="600"}
+![ Rapport Nouveaux Comptes ](./assets/customers-new-accounts.png){width="600"}
 
 ### Contrôles Workspace
 
 | Contrôle | Description |
 |--- |--- |
-| [!UICONTROL From / To] | Utilisé pour définir une recherche pour les nouveaux comptes en fonction des dates de début et de fin. |
-| [!UICONTROL Show By] | Définit la granularité du fractionnement de l’enregistrement de commande. Options : mois/jour/année |
+| [!UICONTROL From / To] | Permet de définir une recherche des nouveaux comptes en fonction des dates de début et de fin. |
+| [!UICONTROL Show By] | Définit la granularité du fractionnement de l’enregistrement de commande. Options : Mois / Jour / Année |
 | [!UICONTROL Refresh] | Met à jour la grille avec les filtres spécifiés. |
 | [!UICONTROL Export] | Exporte les enregistrements sélectionnés au format CSV ou XML Excel. |
 | [!UICONTROL Scope] | Utilisé pour définir le site ou le magasin pour lequel le rapport est généré. |
@@ -102,7 +103,7 @@ Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONT
 
 | Colonne | Description |
 |--- |--- |
-| [!UICONTROL Interval] | Nouvel intervalle de création de compte, par mois/jour/année. |
+| [!UICONTROL Interval] | Intervalle de création du nouveau compte, par mois/jour/année. |
 | [!UICONTROL New Accounts] | Nombre de nouveaux comptes créés dans un certain intervalle. |
 
 {style="table-layout:auto"}
@@ -111,9 +112,9 @@ Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONT
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement)
 
-[!UICONTROL Customer Wish List Report] fournit des informations sur les listes de souhaits des clients.
+Le [!UICONTROL Customer Wish List Report] fournit des informations sur les listes de souhaits des clients.
 
-Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**.
+Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**.
 
 ![Rapport de liste de souhaits](./assets/customer-wish-list.png){width="600"}
 
@@ -123,12 +124,12 @@ Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONT
 |--- |--- |
 | [!UICONTROL Scope] | Utilisé pour définir le site ou le magasin pour lequel le rapport est généré. |
 | [!UICONTROL Search] | Lance une recherche selon les paramètres spécifiés. |
-| [!UICONTROL Reset Filter] | Lance une réinitialisation de tous les paramètres de recherche. |
-| [!UICONTROL Per Page] | Définit le nombre d&#39;enregistrements affichés sur une seule page. |
+| [!UICONTROL Reset Filter] | Lance la réinitialisation de tous les paramètres de recherche. |
+| [!UICONTROL Per Page] | Définit le nombre d’enregistrements affichés dans une seule page. |
 | [!UICONTROL Export] | Exporte les enregistrements sélectionnés au format CSV ou XML Excel. |
-| [!UICONTROL From / To] | Utilisé pour définir une recherche pour les listes de souhaits en fonction des dates de début et de fin. |
+| [!UICONTROL From / To] | Permet de définir une recherche pour les listes de souhaits en fonction des dates de début et de fin. |
 | [!UICONTROL Wishlist] | Lance une recherche de liste de souhaits par nom. |
-| [!UICONTROL Status] | État de la liste de souhaits. Options : `Private` / `Public` |
+| [!UICONTROL Status] | Statut de la liste de souhaits. Options : `Private` / `Public` |
 | [!UICONTROL Comment] | Lance une recherche par texte dans les commentaires de la liste de souhaits. |
 
 {style="table-layout:auto"}
@@ -138,12 +139,12 @@ Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONT
 | Colonne | Description |
 |--- |--- |
 | [!UICONTROL Added] | Date de création de la liste de souhaits. |
-| [!UICONTROL Customer] | Prénom et nom du client qui a créé la liste de souhaits. |
+| [!UICONTROL Customer] | Prénom et nom du client ou de la cliente qui a créé la liste de souhaits. |
 | [!UICONTROL Wishlist] | Nom de la liste de souhaits. |
-| [!UICONTROL Status] | État de la liste de souhaits. Options : `Private` / `Public` |
+| [!UICONTROL Status] | Statut de la liste de souhaits. Options : `Private` / `Public` |
 | [!UICONTROL Product] | Nom du produit ajouté à la liste de souhaits. |
 | [!UICONTROL SKU] | SKU du produit ajouté à la liste de souhaits. |
-| [!UICONTROL Comment] | Le texte du commentaire saisi lors de la création de la liste de souhaits. |
+| [!UICONTROL Comment] | Texte de commentaire saisi lors de la création de la liste de souhaits. |
 
 {style="table-layout:auto"}
 
@@ -151,20 +152,20 @@ Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONT
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement)
 
-[!UICONTROL Customer Segment Report] fournit des informations sur le nombre de clients dans chaque segment.
+Le [!UICONTROL Customer Segment Report] fournit des informations sur le nombre de clients dans chaque segment.
 
-Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
+Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
 
-![Rapport Segments](./assets/customers-segments.png){width="600"}
+![ Rapport Segments ](./assets/customers-segments.png){width="600"}
 
 ### Contrôles Workspace
 
 | Contrôle | Description |
 |--- |--- |
 | [!UICONTROL Search] | Lance une recherche selon les paramètres spécifiés. |
-| [!UICONTROL Reset Filter] | Lance une réinitialisation de tous les paramètres de recherche. |
+| [!UICONTROL Reset Filter] | Lance la réinitialisation de tous les paramètres de recherche. |
 | [!UICONTROL Action] | Lance l’affichage des segments par paramètres. Options : `Action` / `View Combined Report` |
-| [!UICONTROL Per Page] | Définit le nombre d&#39;enregistrements affichés sur une seule page. |
+| [!UICONTROL Per Page] | Définit le nombre d’enregistrements affichés dans une seule page. |
 
 {style="table-layout:auto"}
 
@@ -174,7 +175,7 @@ Sur la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONT
 |--- |--- |
 | [!UICONTROL ID] | Identifiant numérique unique attribué à chaque segment. |
 | [!UICONTROL Segment] | Nom du segment. |
-| [!UICONTROL Status] | État du segment. Options : `Active` / `Inactive` |
+| [!UICONTROL Status] | Statut du segment. Options : `Active` / `Inactive` |
 | [!UICONTROL Website] | Site web auquel le segment est affecté. |
 | [!UICONTROL Customers] | Nombre de clients affectés au segment. |
 
