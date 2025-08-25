@@ -68,4 +68,4 @@ ht-degree: 6%
 + Référence {#reference}
    + [Modifications non rétrocompatibles](backward-incompatible-changes.md)
    + [Packages](packages.md)
-+ [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/fr/docs/commerce-admin/user-guides/home)
