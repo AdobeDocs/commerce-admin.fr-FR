@@ -1,108 +1,155 @@
 ---
-title: Gestion de la hiérarchie de l’entreprise
-description: Créez et gérez des hiérarchies d’entreprises pour prendre en charge les organisations B2B avec des modèles opérationnels complexes.
+title: Gérer les hiérarchies d'entreprise
+description: Créez et gérez des hiérarchies d’entreprise pour prendre en charge les organisations B2B avec des modèles opérationnels complexes.
 feature: B2B, Companies
 role: Admin
 hide: false
 hidefromtoc: false
 exl-id: a277ed95-7935-4d27-adb2-35116972732b
-source-git-commit: 6b06f52eb4ee8ca136a1c60fd6dc04a9ac96bbfa
+source-git-commit: 1fc1e07f20e2c22ac430f384e9e2b278edae405c
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
 
-# Gérer les [!UICONTROL Company Hierarchy]
+# Gérer les hiérarchies d&#39;entreprise
 
-Les administrateurs peuvent créer un [!UICONTROL Company Hierarchy] en affectant les sociétés associées à une société mère désignée, qui est la société en haut de la hiérarchie de l’organisation.
+La fonction [!UICONTROL Company Hierarchy] vous permet d&#39;organiser plusieurs sociétés associées sous une structure de société parent unique. Cette solution est idéale pour les entreprises ayant des filiales, des franchises, plusieurs sites ou des structures organisationnelles complexes qui nécessitent une gestion centralisée tout en conservant les identités individuelles de l’entreprise.
 
-À partir de l’administrateur, créez une société mère en modifiant une société (`[!UICONTROL Company Type] = Company`) individuelle et en affectant les sociétés associées dans la configuration [!UICONTROL Company Hierarchy].
+## Cas d’utilisation
 
-![Grille de hiérarchie de l’entreprise](./assets/company-hierarchy-grid.png){width="700"}
+* **Gestion centralisée** : appliquez les paramètres et les configurations à plusieurs sociétés à partir d&#39;une seule société mère
+* **Tenir à jour la structure**—Organisez les sociétés selon une hiérarchie logique qui reflète l&#39;organisation de votre entreprise
+* **Rationaliser les opérations**— Gérez les devis, les commandes, les modes de paiement et les paramètres d&#39;expédition pour l&#39;ensemble de l&#39;organisation
+* **Préserver l’autonomie** : les entreprises individuelles conservent leur identité tout en bénéficiant de configurations partagées
 
+## Conditions préalables
+
+Avant de créer une hiérarchie d’entreprise, assurez-vous des points suivants :
+
+* Les fonctionnalités B2B sont activées dans votre installation Commerce
+* Vous disposez d’un accès administrateur pour gérer les sociétés
+* Les sociétés parents et enfants sont déjà créées en tant que sociétés individuelles
+* Vous comprenez que l’application des paramètres parents remplacera les configurations d’entreprise enfant existantes
+
+## Fonctionnement
+
+Les administrateurs peuvent créer une hiérarchie d&#39;entreprise en attribuant des sociétés apparentées à une société parent désignée, c&#39;est-à-dire la société au sommet de la hiérarchie organisationnelle.
+
+Dans l’administration, créez une société parent en modifiant une société individuelle (`[!UICONTROL Company Type] = Company`) et en affectant des sociétés associées dans la configuration de [!UICONTROL Company Hierarchy].
+
+![Grille de hiérarchie d’entreprise](./assets/company-hierarchy-grid.png){width="700"}
 
 >[!NOTE]
 >
->Pour plus d’informations sur la grille [!UICONTROL Company Hierarchy], voir la description des champs [Hiérarchie de l’entreprise](account-company-create.md#company-hierarchy).
+>Pour plus d’informations sur la grille de [!UICONTROL Company Hierarchy], voir la description des champs [Hiérarchie de l’entreprise](account-company-create.md#company-hierarchy).
 
-Gérez les affectations de l’entreprise en modifiant une société mère et en utilisant la grille *[!UICONTROL Company Hierarchy]* pour ajouter ou supprimer des entreprises. Utilisez le contrôle *[!UICONTROL Actions]* pour gérer la [configuration avancée des paramètres](#change-company-settings) pour les entreprises de l’entreprise.
+Gérez les affectations d&#39;entreprise en modifiant une société parent et en utilisant la grille de *[!UICONTROL Company Hierarchy]* pour ajouter ou supprimer des sociétés. Utilisez le contrôle *[!UICONTROL Actions]* pour gérer la [configuration des paramètres avancés](#change-company-settings) pour les sociétés de l’organisation.
 
-## Affecter des sociétés à une société mère
+## Affecter des sociétés à une société parent
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-   ![Grille d’entreprises](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+   ![Grille des sociétés](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-1. Dans la grille [!UICONTROL Companies], ouvrez la page des détails de l’entreprise pour créer les affectations.
+1. Dans la grille de [!UICONTROL Companies], ouvrez la page des détails de la société pour créer les affectations.
 
-   - Pour affecter des sociétés supplémentaires à une société mère existante, sélectionnez l’action **[!UICONTROL Edit]** pour la société mère.
-   - Pour créer une société mère, sélectionnez l’action **[!UICONTROL Edit]** pour la société désignée comme parent.
+   * Pour affecter des sociétés supplémentaires à une société parent existante, sélectionnez l&#39;action **[!UICONTROL Edit]** pour la société parent.
+   * Pour créer une société parent, sélectionnez l&#39;action **[!UICONTROL Edit]** de la société désignée comme société parent.
 
-     Vous ne pouvez pas créer de société mère à partir d’une société mère ou d’une société enfant existante.
+     Vous ne pouvez pas créer une nouvelle société parent à partir d&#39;une société parent ou enfant existante.
 
-1. Sur la page Détails de la société, développez **[!UICONTROL Company Hierarchy]**, puis sélectionnez **[!UICONTROL Assign Companies]**.
+1. Sur la page Détails de l’entreprise, développez **[!UICONTROL Company Hierarchy]**, puis sélectionnez **[!UICONTROL Assign Companies]**.
 
-   ![Créer une société mère](./assets/company-hierarchy-grid.png){width="675" zoomable="yes"}
+   ![Créer une société parent](./assets/company-hierarchy-grid.png){width="675" zoomable="yes"}
 
 1. Dans la liste des sociétés disponibles, sélectionnez les sociétés à affecter, puis sélectionnez **[!UICONTROL Assign Selected Companies]**.
 
-   ![Sélectionner les entreprises à attribuer](./assets/company-hierarchy-select-companies-assign.png){width="675" zoomable="yes"}
+   ![Sélectionner les sociétés à affecter](./assets/company-hierarchy-select-companies-assign.png){width="675" zoomable="yes"}
 
-1. Lorsque vous y êtes invité, effectuez l’affectation de la société en sélectionnant **[!UICONTROL Assign]**.
+1. Lorsque vous y êtes invité, complétez l’affectation de la société en sélectionnant **[!UICONTROL Assign]**.
 
-## Annulation de l’affectation d’entreprises à une société mère
+## Annuler l’affectation des sociétés d’une société parent
 
-1. Sur la page Entreprises , ouvrez la page des détails de la société mère en sélectionnant l’action **[!UICONTROL Edit]**.
+1. Sur la page Entreprises , ouvrez la page des détails de l’entreprise pour la société parent en sélectionnant l’action **[!UICONTROL Edit]**.
 
-   ![Page des détails de la société parente](./assets/company-update.png){width="700" zoomable="yes"}
+   ![Page des détails de la société parent](./assets/company-update.png){width="700" zoomable="yes"}
 
-1. Affichez la liste des sociétés affectées en développant **[!UICONTROL Company Hierarchy]**.
+1. Affichez la liste des sociétés affectées en développant les **[!UICONTROL Company Hierarchy]**.
 
 1. Supprimez la société de l’organisation.
 
-   - Dans la colonne [!UICONTROL Action] de la société à supprimer, **[!UICONTROL Select]** > **[!UICONTROL Unassign from parent]**.
+   * Dans la colonne [!UICONTROL Action] de la société à supprimer, **[!UICONTROL Select]** > **[!UICONTROL Unassign from parent]**.
 
-     ![Supprimer une société d&#39;une organisation](./assets/company-hierarchy-grid-unassign.png){width="640" zoomable="yes"}
+     ![Supprimer une entreprise d’une organisation](./assets/company-hierarchy-grid-unassign.png){width="640" zoomable="yes"}
 
-   - Lorsque vous y êtes invité, supprimez la société affectée de la hiérarchie en sélectionnant **[!UICONTROL Unassign]**.
+   * Lorsque vous y êtes invité, supprimez la société affectée de la hiérarchie en sélectionnant **[!UICONTROL Unassign]**.
 
-## Gestion des paramètres d’entreprise d’une entreprise
+## Gérer les paramètres d’entreprise pour une organisation
 
-Mettez à jour la configuration [Paramètres avancés](account-company-create.md#advanced-settings) pour qu’une organisation applique la configuration parent à toutes les entreprises enfants ou applique les mêmes paramètres à certaines entreprises de l’organisation.
+Mettez à jour la configuration [Paramètres avancés](account-company-create.md#advanced-settings) pour une organisation. Vous pouvez :
 
-Au cours du processus de mise à jour, les valeurs de configuration initiales par défaut correspondent aux valeurs actuelles configurées pour la société mère. Vous devez modifier au moins un paramètre pour mettre à jour la configuration pour certaines entreprises.
+* Appliquer les paramètres de configuration parent à toutes les sociétés enfants
+* Appliquer les mêmes paramètres aux sociétés sélectionnées de l’organisation
 
-**Modification de la configuration Paramètres avancés de plusieurs entreprises**
+Vous pouvez appliquer l’un des paramètres suivants :
+
+* **Gestion des devis** : activez ou désactivez la possibilité pour les entreprises de demander et de gérer des devis
+* **Bons de commande**—Déterminez si les entreprises peuvent créer et gérer des bons de commande
+* **Configuration du mode de paiement** : permet de définir les modes de paiement disponibles pour les sociétés.
+* **Paramètres du mode de paiement** : configurez des paramètres et des limites de mode de paiement spécifiques
+* **Disponibilité du mode d&#39;expédition** : permet de définir les modes d&#39;expédition que les sociétés peuvent utiliser
+* **Configuration du mode d&#39;expédition** : définissez les paramètres et les restrictions du mode d&#39;expédition.
+
+Pendant le processus de mise à jour, les valeurs de configuration initiales sont définies par défaut sur les valeurs actuelles configurées pour la société parent. Vous devez cocher la case Modifier pour au moins un paramètre afin d’appliquer les paramètres aux sociétés sélectionnées. Vous pouvez également mettre à jour la valeur par défaut de chaque paramètre avant d’appliquer les modifications.
+
+>[!WARNING]
+>
+>L’application des paramètres de la société parent remplace les configurations existantes de la société enfant, y compris les limites de crédit, les modes de paiement, les paramètres d’expédition et les restrictions personnalisées. Après avoir appliqué les paramètres, vous pouvez toujours gérer et personnaliser les paramètres avancés pour les sociétés parents et enfants individuelles en modifiant l’élément de ligne de la société.
+
+### Bonnes pratiques
+
+Lors de l’application des paramètres de la société parent aux sociétés enfant, tenez compte des bonnes pratiques suivantes :
+
+* Vérifier les paramètres d’entreprise enfants existants avant d’appliquer les configurations parents
+* Tester d’abord les modifications des paramètres sur une seule entreprise enfant
+* Communiquez les modifications aux administrateurs de l’entreprise qui peuvent être affectés
+
+### Appliquer les paramètres de configuration parent aux sociétés enfants
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Dans la grille [!UICONTROL Companies], modifiez la société mère en sélectionnant **[!UICONTROL Edit]** dans la colonne **[!UICONTROL Action]**.
+1. Dans la grille de [!UICONTROL Companies], modifiez la société parent en sélectionnant **[!UICONTROL Edit]** dans la colonne **[!UICONTROL Action]**.
 
-1. Sur la page des détails de la société parente, développez la section **[!UICONTROL Company Hierarchy]** pour afficher les entreprises incluses dans l’organisation.
+1. Sur la page des détails de la société parent, développez **[!UICONTROL Company Hierarchy]** section pour afficher les sociétés incluses dans l&#39;organisation.
 
 1. Sélectionnez les sociétés à configurer.
 
-   ![Sélectionner des entreprises dans la hiérarchie de l’entreprise](assets/company-hierarchy-select-companies.png){width="675" zoomable="yes"}
+   ![Sélectionner des sociétés dans la hiérarchie de la société](assets/company-hierarchy-select-companies.png){width="675" zoomable="yes"}
 
-1. Dans la commande **[!UICONTROL Actions]** située au-dessus de la grille, sélectionnez **[!UICONTROL Change company settings]**.
+1. Sélectionnez **[!UICONTROL Actions]** dans le contrôle **[!UICONTROL Change company settings]** situé au-dessus de la grille.
 
-   ![Modification des paramètres de l’entreprise pour la hiérarchie de l’entreprise](assets/company-hierarchy-change-company-settings-action.png){width="675" zoomable="yes"}
+   ![Modifier les paramètres de l’entreprise pour la hiérarchie de l’entreprise](assets/company-hierarchy-change-company-settings-action.png){width="675" zoomable="yes"}
 
 1. Modifiez la configuration des paramètres.
 
-   - Sur la page [!UICONTROL Change company settings], recherchez le paramètre de configuration à modifier.
+   * Sur la page [!UICONTROL Change company settings], recherchez le paramètre de configuration à modifier.
 
-   - Cochez la case **[!UICONTROL Change]** pour activer le paramètre.
+   * Cochez la case **[!UICONTROL Change]** pour activer le paramètre.
 
-   - Mettez à jour la valeur selon vos besoins.
+   * Mettez à jour la valeur si nécessaire.
 
-     ![Modification des paramètres de la société pour plusieurs entreprises](assets/company-hierarchy-change-settings-config.png){width="575" zoomable="yes"}
+     ![Modifier les paramètres d’entreprise pour plusieurs entreprises](assets/company-hierarchy-change-settings-config.png){width="575" zoomable="yes"}
 
-1. Après la mise à jour de la configuration, sélectionnez **[!UICONTROL Apply Changes]**.
+1. Après avoir mis à jour la configuration, sélectionnez **[!UICONTROL Apply Changes]**.
 
-1. Lorsque vous y êtes invité, sélectionnez **[!UICONTROL Change settings]** pour mettre à jour la configuration des entreprises sélectionnées.
+1. Lorsque vous y êtes invité, sélectionnez **[!UICONTROL Change settings]** pour mettre à jour la configuration pour les sociétés sélectionnées.
 
->[!TIP]
+>[!MORELIKETHIS]
 >
->Gérez la configuration des paramètres avancés d’une seule entreprise en modifiant l’élément de ligne de l’entreprise.
+>* [Créer un compte d’entreprise](account-company-create.md) - Découvrez comment créer des entreprises individuelles avant de créer des hiérarchies
+>* [Rôles et autorisations de l’entreprise](account-company-roles-permissions.md) - Comprendre l’accès des utilisateurs dans les structures de l’entreprise
+>* [Gestion du crédit d’entreprise](credit-company.md) - Configurez les limites de crédit et les conditions de paiement pour les entreprises
+>* [Gérer les entreprises](manage-companies.md) - Présentation des fonctionnalités de gestion des entreprises
+>* [Activer les fonctionnalités B2B](enable-basic-features.md) - Activer et configurer la fonctionnalité B2B
