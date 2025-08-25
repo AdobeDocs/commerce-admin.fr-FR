@@ -74,7 +74,7 @@ La grille affiche les informations suivantes pour chaque transaction :
 | [!UICONTROL Operation] | Type d’activité associé à la transaction. Valeurs : <br/>**[!UICONTROL Allocated]**- Crédit attribué à la société.<br/>**[!UICONTROL Updated]** - Une modification a été appliquée à l’un des champs suivants : [!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**- Une commande a été passée.<br/>**[!UICONTROL Reimbursed]** - Le solde restant dû a été remboursé. <br/>**[!UICONTROL Refunded]**- Un montant d&#39;avoir a été remboursé.<br/>**[!UICONTROL Reverted]** - La commande a été annulée et le montant a été renvoyé au solde créditeur. |
 | [!UICONTROL Amount] | Montant de la transaction associé aux types de transaction suivants : `Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/>Pour les montants d’achat, le montant apparaît dans la devise d’affichage du magasin et au format du paramètre de devise de crédit, suivi du taux de conversion actuel (le cas échéant). Par exemple : <br/>2 000,00 EUR (22 400,00 $) <br/>USD/EUR 0,8928 |
 | [!UICONTROL Outstanding Balance] | Montant remboursé, moins le total dû de toutes les commandes passées à l&#39;aide de la méthode de paiement en compte. Le montant peut apparaître comme une valeur positive ou négative. <br/>**[!UICONTROL Positive value]**- Un paiement anticipé est représenté comme une valeur positive.<br/>**[!UICONTROL Negative value]** - Un montant dû est représenté sous la forme d’une valeur négative. |
-| [!UICONTROL Available Credit] | La somme des _[!UICONTROL Credit Limit]_et des_[!UICONTROL Outstanding Balance]_. Si la société a dépassé la limite de crédit, le montant apparaît comme une valeur négative. |
+| [!UICONTROL Available Credit] | La somme des _[!UICONTROL Credit Limit]_&#x200B;et des&#x200B;_[!UICONTROL Outstanding Balance]_. Si la société a dépassé la limite de crédit, le montant apparaît comme une valeur négative. |
 | [!UICONTROL Credit Limit] | Montant du crédit accordé à la société. |
 | [!UICONTROL Updated By] | Nom de la personne qui a initié l’opération. |
 | [!UICONTROL Custom Reference Number] | Numéro de référence personnalisé associé à la transaction. |
@@ -167,7 +167,7 @@ Lors de la gestion du crédit d’entreprise, mettez en œuvre des mesures de s�
 
 ## Bonnes pratiques
 
-* 
+* &#x200B;
    * **Gestion de la politique de crédit** - Lors de la gestion du crédit d&#39;entreprise, établissez des politiques claires pour définir les limites de crédit en fonction de l&#39;historique des paiements du client et des relations commerciales. Examinez régulièrement les soldes impayés et les modes de paiement afin d&#39;évaluer le risque, et documentez toujours les modifications apportées aux paramètres de crédit avec des raisons détaillées à des fins d&#39;audit.
 
 Traitez les paiements rapidement pour maintenir des soldes précis et vous assurer que les paramètres de devise de crédit correspondent aux principales opérations commerciales de chaque entreprise.
