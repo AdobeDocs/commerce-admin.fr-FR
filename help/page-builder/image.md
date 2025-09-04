@@ -1,42 +1,42 @@
 ---
-title: Media - Image
-description: Découvrez le type de contenu Image, utilisé pour ajouter une image de JPG, de GIF ou PNG à l’étape  [!DNL Page Builder] .
+title: Média - Image
+description: Découvrez le type de contenu Image, utilisé pour ajouter une image JPG, GIF ou PNG à l’étape [!DNL Page Builder] image.
 exl-id: 1b8d906e-7570-4c1f-87a0-992400faf55c
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 0%
 
 ---
 
-# Media - Image
+# Média - Image
 
-Utilisez le type de contenu _Image_ pour ajouter une image de GIF, de  ou PNG à l’ [[!DNL Page Builder] étape](workspace.md#stage). Outre l’image de bureau par défaut, vous pouvez spécifier une image secondaire pour les appareils mobiles. Vous pouvez également ajouter une légende qui s’affiche sous l’image et associer l’image à n’importe quelle URL, produit, catégorie ou page.
+Utilisez le type de contenu _Image_ pour ajouter une image JPG, GIF ou PNG à l’[[!DNL Page Builder] étape](workspace.md#stage). Outre l’image de bureau par défaut, vous pouvez spécifier une image secondaire pour les appareils mobiles. Vous pouvez également ajouter une légende qui s’affiche sous l’image et lier l’image à une URL, un produit, une catégorie ou une page.
 
 >[!TIP]
 >
->Vous pouvez utiliser l’ [intégration Adobe Stock](../content-design/adobe-stock.md) pour rechercher et enregistrer une ressource appropriée parmi les millions de ressources fournies par [Adobe Stock](https://stock.adobe.com). Voir [Utilisation d’images Adobe Stock](../content-design/adobe-stock-manage.md) pour plus d’informations sur la recherche, l’affinage et l’enregistrement de ressources Adobe Stock dans votre galerie.
+>Vous pouvez utiliser l’intégration [Adobe Stock](../content-design/adobe-stock.md) pour rechercher et enregistrer une ressource appropriée parmi les millions fournis par [Adobe Stock](https://stock.adobe.com). Consultez [Utilisation d’images Adobe Stock](../content-design/adobe-stock-manage.md) pour plus d’informations sur la recherche, l’affinement et l’enregistrement de ressources Adobe Stock dans votre galerie.
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
-## Zone d’outils Image
+## Boîte à outils Image
 
-La boîte à outils d’image s’affiche lorsque vous placez le pointeur de la souris sur le conteneur d’images.
+La boîte à outils Image s’affiche lorsque vous placez le pointeur de la souris sur le conteneur d’images.
 
-![Boîte à outils d’image](./assets/pb-media-image-giftcard-column-toolbox.png){width="500" zoomable="yes"}
+![Boîte à outils Image](./assets/pb-media-image-giftcard-column-toolbox.png){width="500" zoomable="yes"}
 
-| Outil | Icône | Description |
+| Outil | Icon | Description |
 |--- |--- |--- |
-| Déplacer | ![Icône Déplacer](./assets/pb-icon-move.png){width="25"} | Déplace l’image vers une autre position sur la scène. |
-| (label) | Image | Identifie le conteneur de contenu actuel en tant qu’image. Passez la souris sur le conteneur d’images pour afficher la boîte à outils. |
-| Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _Modifier l’image_ où vous pouvez modifier les propriétés de l’image et du conteneur. |
-| Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque l’image active. |
-| Afficher | ![Icône Afficher](./assets/pb-icon-show.png){width="25"} | Affiche l’image masquée. |
+| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace l&#39;image vers un autre emplacement sur la scène. |
+| (libellé) | Image | Identifie le conteneur de contenu actuel en tant qu’image. Pointez sur le conteneur d’image pour afficher la boîte à outils. |
+| Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _Modifier l’image_, dans laquelle vous pouvez modifier les propriétés de l’image et du conteneur. |
+| Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque l&#39;image courante. |
+| Afficher | ![Afficher l’icône](./assets/pb-icon-show.png){width="25"} | Affiche l’image masquée. |
 | Dupliquer | ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="25"} | Effectue une copie de l’image. |
-| Supprimer | ![Supprimer l’icône](./assets/pb-icon-remove.png){width="25"} | Supprime l’image de la scène. |
+| Supprimer | ![Icône Supprimer](./assets/pb-icon-remove.png){width="25"} | Supprime l’image de l’étape. |
 | Charger une nouvelle image |  | Télécharge une image de votre système de fichiers local vers la galerie. |
-| Sélectionner dans la galerie |  | Choisit une image existante dans la galerie. |
+| Sélectionner dans la Galerie |  | Choisit une image existante dans la galerie. |
 
 {style="table-layout:auto"}
 
@@ -48,98 +48,98 @@ La boîte à outils d’image s’affiche lorsque vous placez le pointeur de la 
 
    Vous pouvez ajouter une image à une ligne, une colonne ou un onglet. Dans l’exemple suivant, l’image est glissée sur une colonne vide.
 
-   ![Faire glisser un type de contenu d’image vers l’étape](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
+   ![Faire glisser un type de contenu d’image sur l’étape](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
 
 1. Utilisez l’une des méthodes suivantes pour ajouter la ressource image :
 
-   ![Télécharger l’image ou effectuer une sélection à partir des outils de galerie sur l’étape](./assets/pb-media-image-upload-select.png){width="500" zoomable="yes"}
+   ![Chargez l’image ou sélectionnez-en une parmi les outils de la Galerie sur la scène](./assets/pb-media-image-upload-select.png){width="500" zoomable="yes"}
 
    >[!NOTE]
    >
    >La taille de fichier maximale est de 4 Mo. Les types de fichiers pris en charge sont JPG, GIF et PNG.
 
-   - _&#x200B;**Télécharger une nouvelle image**&#x200B;_ : utilisez cette méthode pour charger un nouveau fichier image à partir de votre système.
+   - _**Charger une nouvelle image**_ : utilisez cette méthode pour charger un nouveau fichier image à partir de votre système.
 
       - Cliquez sur **[!UICONTROL Upload Image]**.
 
-      - Recherchez et sélectionnez l’image à ajouter à la galerie et au conteneur cible.
+      - Recherchez et choisissez l’image à ajouter au conteneur galerie et cible.
 
-     Vous pouvez également faire glisser un fichier image de votre système et le déposer sur l’icône _Camera_ ( ![Icône de caméra](./assets/pb-icon-camera.png){width="20"} ).
+     Vous pouvez également faire glisser un fichier image de votre système et le déposer sur l’icône _Appareil photo_ ( ![Icône d’appareil photo](./assets/pb-icon-camera.png){width="20"} ).
 
-   - _&#x200B;**Sélectionner une ressource existante**&#x200B;_ : utilisez cette méthode pour sélectionner une ressource d’image existante dans le stockage/la galerie de médias.
+   - _**Sélectionner une ressource existante**_ : utilisez cette méthode pour sélectionner une ressource image existante dans la galerie ou le stockage de médias.
 
       - Cliquez sur **[!UICONTROL Select from Gallery]**.
 
       - Utilisez l’arborescence pour accéder à l’image.
 
-      - Cliquez sur la miniature et sur **[!UICONTROL Add Selected]**.
+      - Cliquez sur la miniature, puis sur **[!UICONTROL Add Selected]**.
 
         ![Ajouter une image sélectionnée](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _&#x200B;**Recherchez et sélectionnez une image Adobe Stock**&#x200B;_ : utilisez cette méthode pour trouver une image à partir d’Adobe Stock.
+   - _**Rechercher et sélectionner une image Adobe Stock**_ : utilisez cette méthode pour rechercher une image dans Adobe Stock.
 
      >[!NOTE]
      >
-     >Cette méthode nécessite une [intégration Adobe Stock](../content-design/adobe-stock.md) configurée pour votre administrateur.
+     >Cette méthode nécessite une intégration [Adobe Stock](../content-design/adobe-stock.md) configurée pour votre administrateur.
 
       - Cliquez sur **[!UICONTROL Search Adobe Stock]** et recherchez une image.
 
       - Enregistrez l’aperçu ou l’image sous licence dans la galerie.
 
-        Pour plus d’informations sur l’utilisation des ressources Adobe Stock, voir [Utilisation d’images Adobe Stock](../content-design/adobe-stock-manage.md) .
+        Voir [Utilisation d’images Adobe Stock](../content-design/adobe-stock-manage.md) pour plus d’informations sur l’utilisation des ressources Adobe Stock.
 
       - Sélectionnez la miniature de la ressource dans la galerie et cliquez sur **[!UICONTROL Add Selected]**.
 
-   L’image apparaît dans le conteneur cible à l’emplacement de l’espace réservé. Contrairement à une image d’arrière-plan, vous pouvez déplacer l’image vers une autre position dans le conteneur actif ou vers un autre conteneur.
+   L’image s’affiche dans le conteneur cible à l’emplacement de l’espace réservé. Contrairement à une image d’arrière-plan, vous pouvez déplacer l’image vers un autre emplacement au sein du conteneur actif ou vers un autre conteneur.
 
    >[!NOTE]
    >
-   >Les types de contenu [Bannière](banner.md) et [Curseur](slider.md) incluent également les options _Télécharger l’image_ et _Sélectionner dans la galerie_ pour ajouter des images.
+   >Les types de contenu [Bannière](banner.md) et [Curseur](slider.md) incluent également les options _Charger l’image_ et _Sélectionner dans la galerie_ pour ajouter des images.
 
    ![Image dans une colonne](./assets/pb-media-image-column1-giftcard.png){width="500" zoomable="yes"}
 
-## Modification des paramètres d’image
+## Modifier les paramètres de l’image
 
-1. Pointez sur le conteneur d’images pour afficher la boîte à outils et sélectionnez l’icône _Paramètres_ (![Icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
-Le nom, les dimensions et la taille du fichier apparaissent sous l’image active.
+1. Pointez sur le conteneur d’image pour afficher la boîte à outils et sélectionnez l’icône _Paramètres_ (![icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
+Le nom, les dimensions et la taille du fichier s’affichent sous l’image actuelle.
 
    ![Image actuelle](./assets/pb-media-image-settings-image.png){width="600" zoomable="yes"}
 
-1. Pour modifier le **[!UICONTROL Image]** actif, effectuez l’une des opérations suivantes :
+1. Pour modifier le **[!UICONTROL Image]** actuel, effectuez l’une des opérations suivantes :
 
-   - _&#x200B;**Télécharger une nouvelle image**&#x200B;_ : utilisez cette méthode pour charger un nouveau fichier image à partir de votre système.
+   - _**Charger une nouvelle image**_ : utilisez cette méthode pour charger un nouveau fichier image à partir de votre système.
 
       - Cliquez sur **[!UICONTROL Upload Image]**.
 
-      - Recherchez et sélectionnez l’image à ajouter à la galerie et au conteneur cible.
+      - Recherchez et choisissez l’image à ajouter au conteneur galerie et cible.
 
-   - _&#x200B;**Sélectionner une ressource existante**&#x200B;_ : utilisez cette méthode pour sélectionner une ressource d’image existante dans le stockage/la galerie de médias.
+   - _**Sélectionner une ressource existante**_ : utilisez cette méthode pour sélectionner une ressource image existante dans la galerie ou le stockage de médias.
 
       - Cliquez sur **[!UICONTROL Select from Gallery]**.
 
       - Utilisez l’arborescence pour accéder à l’image.
 
-      - Cliquez sur la miniature et sur **[!UICONTROL Add Selected]**.
+      - Cliquez sur la miniature, puis sur **[!UICONTROL Add Selected]**.
 
         ![Ajouter une image sélectionnée](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - **Recherchez et sélectionnez une image Adobe Stock** : utilisez cette méthode pour trouver une image à partir d’Adobe Stock.
+   - **Rechercher et sélectionner une image Adobe Stock** : utilisez cette méthode pour rechercher une image dans Adobe Stock.
 
      >[!NOTE]
      >
-     >Cette méthode nécessite une [intégration Adobe Stock](../content-design/adobe-stock.md) configurée pour votre administrateur.
+     >Cette méthode nécessite une intégration [Adobe Stock](../content-design/adobe-stock.md) configurée pour votre administrateur.
 
       - Cliquez sur **[!UICONTROL Search Adobe Stock]** et recherchez une image.
 
       - Enregistrez l’aperçu ou l’image sous licence dans la galerie.
 
-        Pour plus d’informations sur l’utilisation des ressources Adobe Stock, voir [Utilisation d’images Adobe Stock](../content-design/adobe-stock-manage.md) .
+        Voir [Utilisation d’images Adobe Stock](../content-design/adobe-stock-manage.md) pour plus d’informations sur l’utilisation des ressources Adobe Stock.
 
       - Sélectionnez la miniature de la ressource dans la galerie et cliquez sur **[!UICONTROL Add Selected]**.
 
-1. Pour ajouter un **[!UICONTROL Mobile Image]**, utilisez les mêmes méthodes que celles décrites à l&#39;étape précédente pour sélectionner une image à utiliser pour l&#39;affichage sur les appareils mobiles.
+1. Pour ajouter une **[!UICONTROL Mobile Image]**, utilisez les mêmes méthodes que celles décrites à l’étape précédente pour sélectionner une image à utiliser pour l’affichage sur les appareils mobiles.
 
-   ![Image mobile](./assets/pb-media-image-settings-mobile-image.png){width="600" zoomable="yes"}
+   ![ Image mobile ](./assets/pb-media-image-settings-mobile-image.png){width="600" zoomable="yes"}
 
 1. Si nécessaire, spécifiez un **[!UICONTROL Link]** pour l’image.
 
@@ -147,27 +147,27 @@ Le nom, les dimensions et la taille du fichier apparaissent sous l’image activ
 
    - **[!UICONTROL URL]** - Liens vers une URL relative ou complète.
 
-   - **[!UICONTROL Product]** - Identifie la page de destination en fonction du nom du produit ou du SKU. Recherchez le produit par nom en fonction d’un nom partiel ou complet. Sélectionnez le produit dans la liste des résultats de recherche.
+   - **[!UICONTROL Product]** : identifie la page de destination en fonction du nom du produit ou du SKU. Recherchez le produit par nom en fonction d’un nom partiel ou complet. Choisissez le produit dans la liste des résultats de la recherche.
 
-     ![Choisir un produit à lier](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"}
+     ![Choix d’un produit à lier](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Category]** - Identifie la page de destination en tant que catégorie ou sous-catégorie spécifique dans l’arborescence des catégories. Recherchez la catégorie selon un nom partiel ou complet. Sélectionnez la catégorie dans la section développée de l&#39;arborescence affichée.
+   - **[!UICONTROL Category]** - Identifie la page de destination en tant que catégorie ou sous-catégorie spécifique dans l’arborescence des catégories. Recherchez la catégorie en fonction d’un nom partiel ou complet. Sélectionnez la catégorie dans la section développée de l’arborescence affichée.
 
      ![Choix d’une catégorie à lier](./assets/pb-media-image-settings-image-link-category-tree.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Page]** - Identifie la page de destination en tant que page de contenu spécifique. Recherchez la page en fonction d’un nom partiel ou complet. Sélectionnez la page dans la liste des résultats de recherche.
+   - **[!UICONTROL Page]** - Identifie la page de destination en tant que page de contenu spécifique. Recherchez la page en fonction d’un nom partiel ou complet. Sélectionnez la page dans la liste des résultats de la recherche.
 
      ![Choix d’une page à lier](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
 
-   Si vous souhaitez empêcher le visiteur de quitter votre boutique, cochez la case **[!UICONTROL Open in new tab]** . Lorsque la case à cocher est décochée, la destination liée s’ouvre dans le même onglet du navigateur, ce qui peut permettre de faire quitter votre boutique au visiteur.
+   Si vous souhaitez empêcher le visiteur de quitter votre boutique, cochez la case **[!UICONTROL Open in new tab]** . Lorsque la case à cocher est désactivée, la destination liée s’ouvre dans le même onglet du navigateur, ce qui peut efficacement éloigner le visiteur de votre magasin.
 
 1. Pour ajouter un **[!UICONTROL Image Caption]**, saisissez le texte qui doit apparaître sous l’image.
 
    Le format de la légende est déterminé par la feuille de style associée au thème actif.
 
-   La légende apparaît généralement sous l’image et fournit des informations sur l’image aux visiteurs et aux moteurs de recherche. Si votre site est disponible en plusieurs langues, vous pouvez utiliser la même image, mais traduire la légende. En HTML, la balise `<figcaption>` est un sous-ensemble de la balise `<figure>`. `<figcaption>This is the image caption</figcaption>`
+   La légende s’affiche généralement sous l’image et fournit des informations sur l’image à l’intention des visiteurs et des moteurs de recherche. Si votre site est disponible dans plusieurs langues, vous pouvez utiliser la même image, mais traduire la légende. Dans HTML, la balise `<figcaption>` est un sous-ensemble de la balise `<figure>` . `<figcaption>This is the image caption</figcaption>`
 
-1. Mettez à jour les autres paramètres si nécessaire :
+1. Mettez à jour l’un des autres paramètres si nécessaire :
 
    - [Optimisation du moteur de recherche](#search-engine-optimization)
    - [Avancé](#advanced)
@@ -176,85 +176,87 @@ Le nom, les dimensions et la taille du fichier apparaissent sous l’image activ
 
 ## Déplacer une image
 
-1. Pointez sur le conteneur d’images pour afficher la boîte à outils et sélectionnez l’icône _Déplacer_ (![Icône Déplacer](./assets/pb-icon-move.png){width="20"} ).
+1. Pointez sur le conteneur d’image pour afficher la boîte à outils et sélectionnez l’icône _Déplacer_ (![Icône Déplacer](./assets/pb-icon-move.png){width="20"} ).
 
-   ![Déplacement d’une image](./assets/pb-media-image-column1-move-giftcard.png){width="500" zoomable="yes"}
+   ![Déplacer une image](./assets/pb-media-image-column1-move-giftcard.png){width="500" zoomable="yes"}
 
-1. Sélectionnez l’image et faites-la glisser jusqu’à sa nouvelle position, juste en dessous de la ligne directrice rouge.
+1. Sélectionnez l’image et faites-la glisser vers sa nouvelle position, juste en dessous de la ligne directrice rouge.
 
-   ![Utilisation de la ligne guide rouge pour positionner l&#39;image](./assets/pb-media-image-column2-move-giftcard-red-guideline.png){width="500" zoomable="yes"}
+   ![Utilisation de la consigne rouge pour positionner l’image](./assets/pb-media-image-column2-move-giftcard-red-guideline.png){width="500" zoomable="yes"}
 
-## Supprimer une image
+## Suppression d’une image
 
-1. Pointez sur le conteneur d’images pour afficher la boîte à outils et sélectionnez l’icône _Supprimer_ ( ![Icône Supprimer](./assets/pb-icon-remove.png){width="20"} ).
+1. Pointez sur le conteneur d’image pour afficher la boîte à outils et sélectionnez l’icône _Supprimer_ ( ![Icône Supprimer](./assets/pb-icon-remove.png){width="20"} ).
 
-1. Lorsque vous êtes invité à confirmer l’opération, cliquez sur **[!UICONTROL OK]**.
+1. Lorsque vous êtes invité à confirmer, cliquez sur **[!UICONTROL OK]**.
 
 ## Optimisation du moteur de recherche
 
-Le texte de ces paramètres est visible par les moteurs de recherche et améliore la manière dont la page est indexée.
+Le texte de ces paramètres est visible par les moteurs de recherche et améliore la façon dont la page est indexée.
 
-- Pour **[!UICONTROL Alternative Text]**, saisissez une description textuelle _alt_ pour les outils d’accessibilité numérique à afficher.
+- Par **[!UICONTROL Alternative Text]**, saisissez une description textuelle _alt_ pour les outils d’accessibilité numérique à afficher.
 
-  L’utilisation de texte de remplacement est une bonne pratique en matière d’accessibilité. Elle est requise par la loi dans certains paramètres régionaux. En HTML, l’attribut `alt` est un sous-ensemble de la balise `image` : `<image title="tooltip" alt="description" src="image.jpg">`.
+  L’utilisation de texte secondaire est une bonne pratique en matière d’accessibilité et est requise par la loi dans certains paramètres régionaux. Dans HTML, l’attribut `alt` est un sous-ensemble de la balise `image` : `<image title="tooltip" alt="description" src="image.jpg">`.
 
-- Pour **[!UICONTROL Title Attribute]**, saisissez le texte à afficher sous forme d’info-bulle lorsque vous pointez dessus.
+- Par **[!UICONTROL Title Attribute]**, saisissez le texte à afficher sous forme d’info-bulle lorsque vous pointez dessus.
 
-  Il est recommandé de choisir un titre descriptif et riche en mots-clés afin d’améliorer l’indexation de l’image par les moteurs de recherche. En HTML, l’attribut `title` est un sous-ensemble de la balise `image` : `<image title="tooltip" alt="description" src="image.jpg">`.
+  Il est recommandé de choisir un titre descriptif et riche en mots-clés pour améliorer la manière dont l’image est indexée par les moteurs de recherche. Dans HTML, l’attribut `title` est un sous-ensemble de la balise `image` : `<image title="tooltip" alt="description" src="image.jpg">`.
 
 ## [!UICONTROL Advanced]
 
-- Pour contrôler le positionnement horizontal des images ajoutées au conteneur, choisissez un **[!UICONTROL Alignment]**.
+- Pour contrôler le positionnement horizontal des images ajoutées au conteneur, choisissez une **[!UICONTROL Alignment]**.
 
   | Option | Description |
   | ------ | ----------- |
   | `Default` | Applique le paramètre d’alignement par défaut spécifié dans la feuille de style du thème actif. |
   | `Left` | Aligne le contenu de l’image le long de la bordure gauche du conteneur d’images, en tenant compte de la marge intérieure spécifiée. |
-  | `Center` | Aligne le contenu de l’image dans le centre du conteneur d’images, en tenant compte de la marge intérieure qui est spécifiée. |
+  | `Center` | Aligne le contenu de l’image au centre du conteneur d’images en tenant compte de la marge intérieure spécifiée. |
   | `Right` | Aligne le contenu de l’image le long de la bordure droite du conteneur d’images, en tenant compte de la marge intérieure spécifiée. |
 
   {style="table-layout:auto"}
 
-- Définissez le style **[!UICONTROL Border]** appliqué aux quatre côtés du conteneur d’images :
+- Définissez le style de **[!UICONTROL Border]** appliqué aux quatre côtés du conteneur d’images :
 
   | Option | Description |
   | ------ | ----------- |
   | `Default` | Applique le style de bordure par défaut spécifié par la feuille de style associée. |
   | `None` | Ne fournit aucune indication visible des bordures du conteneur. |
   | `Dotted` | La bordure du conteneur s’affiche sous la forme d’une ligne pointillée. |
-  | `Dashed` | La bordure du conteneur s’affiche sous la forme d’une ligne en pointillés. |
-  | `Solid` | La bordure du conteneur s’affiche sous la forme d’une ligne pleine. |
+  | `Dashed` | La bordure du conteneur s’affiche sous la forme d’une ligne en tirets. |
+  | `Solid` | La bordure du conteneur s’affiche sous la forme d’une ligne continue. |
   | `Double` | La bordure du conteneur s’affiche sous la forme d’une ligne double. |
-  | `Groove` | La bordure du conteneur s’affiche sous forme de ligne droite. |
-  | `Ridge` | La bordure du conteneur s’affiche sous la forme d’une ligne à droite. |
-  | `Inset` | La bordure du conteneur s’affiche sous la forme d’une ligne d’insertion. |
-  | `Outset` | La bordure du conteneur apparaît comme une ligne de départ. |
+  | `Groove` | La bordure du conteneur s’affiche sous la forme d’une ligne rainurée. |
+  | `Ridge` | La bordure du conteneur s’affiche sous la forme d’une ligne crantée. |
+  | `Inset` | La bordure du conteneur s’affiche sous la forme d’une ligne insérée. |
+  | `Outset` | La bordure du conteneur s’affiche sous la forme d’une ligne de départ. |
 
   {style="table-layout:auto"}
 
-- Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage de la bordure :
+- Si vous définissez un style de bordure autre que `None`, renseignez les options d’affichage des bordures :
 
   ![Couleur de bordure](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
   | Option | Description |
   | ------ |------------ |
-  | [!UICONTROL Border Color] | Définissez la couleur en choisissant un échantillon, en cliquant sur le sélecteur de couleurs ou en saisissant un nom de couleur valide ou une valeur hexadécimale équivalente. |
+  | [!UICONTROL Border Color] | Spécifiez la couleur en choisissant une nuance, en cliquant sur le sélecteur de couleurs ou en saisissant un nom de couleur valide ou une valeur hexadécimale équivalente. |
   | [!UICONTROL Border Width] | Saisissez le nombre de pixels pour la largeur de la ligne de bordure. |
   | [!UICONTROL Border Radius] | Saisissez le nombre de pixels pour définir la taille du rayon utilisé pour arrondir chaque coin de la bordure. |
 
   {style="table-layout:auto"}
 
-- (Facultatif) Indiquez les noms de **[!UICONTROL CSS classes]** dans la feuille de style actuelle à appliquer au conteneur d’images.
+- (Facultatif) Spécifiez les noms des **[!UICONTROL CSS classes]** de la feuille de style actuelle à appliquer au conteneur d’images.
 
   Séparez plusieurs noms de classe par un espace.
 
-- Saisissez des valeurs, en pixels, pour que **[!UICONTROL Margins and Padding]** spécifient les marges extérieures et la marge intérieure du conteneur d’images.
+- Saisissez les valeurs, en pixels, du **[!UICONTROL Margins and Padding]** pour spécifier les marges extérieures et la marge intérieure du conteneur d’images.
 
-  Saisissez chaque valeur correspondante dans le diagramme du conteneur d’images.
+  Saisissez chaque valeur correspondante dans le diagramme de conteneur d’images.
 
-  | Zone de conteneur | Description |
+  | Zone conteneur | Description |
   | -------------- | ----------- |
-  | [!UICONTROL Margins] | Espace vide appliqué au bord extérieur de tous les côtés du conteneur. |
-  | [!UICONTROL Padding] | Espace blanc appliqué au bord intérieur de tous les côtés du conteneur. |
+  | [!UICONTROL Margins] | Quantité d’espace vide appliqué au bord extérieur de tous les côtés du conteneur. |
+  | [!UICONTROL Padding] | Quantité d’espace vide appliqué au bord intérieur de tous les côtés du conteneur. |
 
   {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

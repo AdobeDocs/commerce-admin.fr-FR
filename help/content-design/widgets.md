@@ -2,8 +2,8 @@
 title: Widgets
 description: Découvrez les widgets, qui fournissent un fragment de code permettant d’afficher un large éventail de contenu et de le placer à des références de bloc spécifiques dans votre boutique.
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
@@ -43,3 +43,5 @@ Lorsque vous [créez un widget](widget-create.md), vous devez définir le type. 
 | [!UICONTROL Wish List Search] | Utilisez cette option pour permettre à un client de rechercher des listes de souhaits accessibles au public en fonction du nom ou de l’adresse e-mail du propriétaire de la liste de souhaits. Les clients du magasin peuvent rechercher des listes de souhaits appartenant à d’autres clients, les afficher et commander des produits auprès d’eux ou ajouter les produits à leurs propres listes de souhaits. |
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

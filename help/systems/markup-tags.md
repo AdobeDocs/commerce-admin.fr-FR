@@ -1,83 +1,83 @@
 ---
-title: Balises marketing
-description: Découvrez les balises qui contiennent des fragments de code pour référencer un objet dans votre magasin.
+title: Balises de marquage
+description: Découvrez les balises de balisage qui contiennent des fragments de code pour référencer un objet dans votre magasin.
 exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 0%
 
 ---
 
-# Balises marketing
+# Balises de marquage
 
-Une balise de balisage est une directive qui contient un fragment de code avec une référence relative à un objet de votre magasin, tel qu’une variable, une URL, une image ou un bloc. Les balises de balisage peuvent être utilisées partout où l’éditeur est disponible et incorporé dans l’HTML des modèles [email](email-templates.md) et [newsletter](../merchandising-promotions/newsletter-template.md), ainsi que d’autres types de [contenu](../content-design/introduction.md#content).
+Une balise de balisage est une directive qui contient un fragment de code avec une référence relative à un objet de votre magasin, tel qu’une variable, une URL, une image ou un bloc. Les balises de balisage peuvent être utilisées partout où l’éditeur est disponible et intégrées à l’HTML de modèles [e-mail](email-templates.md) et [newsletter](../merchandising-promotions/newsletter-template.md), ainsi que d’autres types de [contenu](../content-design/introduction.md#content).
 
-Les balises de balisage sont entourées de deux accolades et peuvent être générées par l’outil Widget ou directement saisies dans le contenu de l’HTML. Par exemple, plutôt que de coder en dur le chemin d’accès complet à une page, vous pouvez utiliser une balise pour représenter l’URL du magasin. Les balises de balisage présentées dans les exemples suivants sont les suivantes :
+Les balises de balisage sont entourées d’accolades doubles et peuvent être générées par l’outil Widget ou saisies directement dans le contenu HTML. Par exemple, plutôt que de coder en dur le chemin d’accès complet d’une page, vous pouvez utiliser une balise de balisage pour représenter l’URL du magasin. Les balises de balisage présentées dans les exemples suivants sont les suivantes :
 
 {{$include /help/_includes/directives-caution.md}}
 
 ## Variable personnalisée
 
-La balise de balisage variable peut être utilisée pour insérer une [variable personnalisée](variables-custom.md) dans un modèle de courrier électronique, des blocs, des newsletters et des pages de contenu.
+La balise de balisage de variable peut être utilisée pour insérer une [variable personnalisée](variables-custom.md) dans un modèle d’e-mail, des blocs, des newsletters et des pages de contenu.
 
-\{\{CustomVar code= &quot;my_custom_variable&quot;}}
+\{\{CustomVar code= « my_custom_variable »}}
 
-## URL du magasin
+## URL de la boutique
 
-La balise de balisage d’URL de magasin représente l’URL de base de votre site web et est utilisée comme substitut à la première partie d’une URL complète, y compris le nom de domaine. Il existe deux versions de cette balise de balisage : l’une qui va directement à votre magasin, l’autre avec une barre oblique (`/`) à la fin qui est utilisée lorsqu’un chemin est ajouté.
+La balise de balisage de l’URL du magasin représente l’URL de base de votre site web et est utilisée comme substitut de la première partie d’une URL complète, y compris le nom de domaine. Il existe deux versions de cette balise de balisage : l’une va directement dans votre magasin, et l’autre comporte une barre oblique (`/`) à la fin, utilisée lorsqu’un chemin est ajouté.
 
-\{\{url du magasin=&#39;apparel/chaussures/femmes&#39;}}
+\{\{store url=&#39;vêtements/chaussures/femmes&#39;}}
 
 ## URL du média
 
-La balise d’URL de média dynamique représente l’emplacement et le nom de fichier d’une image stockée sur un réseau de diffusion de contenu (CDN). La balise peut être utilisée pour placer une image sur une page, un bloc, une bannière ou un modèle de courrier électronique.
+La balise de balisage d’URL Dynamic Media représente l’emplacement et le nom de fichier d’une image stockée sur un réseau de diffusion de contenu (CDN). La balise peut être utilisée pour placer une image sur une page, un bloc, une bannière ou un modèle d’e-mail.
 
 \{\{media url=&#39;shoe-sale.jpg&#39;}}
 
-## Identifiant du bloc
+## ID de bloc
 
-La balise de balisage d’identifiant de bloc est l’une des plus faciles à utiliser. Elle peut être utilisée pour placer un bloc directement sur une page CMS, voire l’imbriquer dans un autre bloc. Vous pouvez utiliser cette technique pour modifier un bloc pour différentes promotions ou langues. La balise de balisage d’identifiant de bloc fait référence à un bloc à l’aide de son identifiant.
+La balise Balisage de l’ID de bloc est l’une des plus faciles à utiliser. Elle peut être utilisée pour placer un bloc directement sur une page CMS, ou même imbriquée dans un autre bloc. Vous pouvez utiliser cette technique pour modifier un bloc pour différentes promotions ou langues. La balise de balisage ID de bloc référence un bloc par son identifiant.
 
-\&lbrace;\{block id=&#39;block-id&#39;}
+\{\{block id=&#39;block-id&#39;}}
 
-## Balise de modèle
+## Balise du modèle
 
-Une balise de modèle fait référence à un fichier de modèle PHTML et peut être utilisée pour afficher le bloc sur une page CMS ou un bloc statique. Le code de l&#39;exemple suivant peut être ajouté à une page ou à un bloc pour afficher le formulaire de contact.
+Une balise de modèle fait référence à un fichier de modèle HTML et peut être utilisée pour afficher le bloc sur une page CMS ou un bloc statique. Le code de l’exemple suivant peut être ajouté à une page ou à un bloc pour afficher le formulaire Nous contacter.
 
-\&lbrace;\{block class=&quot;Magento\Contact\Block\ContactForm&quot; name=&quot;contactForm&quot; template=&quot;Magento_Contact::form.phtml&quot;}
+\{\{block class= »Magento\Contact\Block\ContactForm » name=« contactForm » template= »Magento_Contact::form.phtml »}}
 
-Le code de l’exemple suivant peut être ajouté à une page ou à un bloc pour afficher une liste de produits d’une catégorie spécifique, par identifiant de catégorie.
+Le code de l’exemple suivant peut être ajouté à une page ou à un bloc pour afficher une liste de produits d’une catégorie spécifique, par ID de catégorie.
 
-\&lbrace;\{block type=&quot;catalog/product_list&quot; category_id=&quot;22&quot; template=&quot;catalog/product/list.phtml&quot;}
+\{\{block type=« catalog/product_list » category_id=« 22 » template= »catalog/product/list.phtml« }}
 
-## Code widget
+## Code du widget
 
-L’outil Widget peut être utilisé pour afficher des listes de produits ou pour insérer des liens complexes, tels que celui qui accède à une page de produit spécifique, en fonction de l’ID du produit. Le code généré inclut la référence de bloc, l’emplacement du module de code et le modèle PHTML correspondant. Une fois le code généré, vous pouvez le copier et le coller d’un emplacement à un autre.
+L’outil Widget peut être utilisé pour afficher des listes de produits ou pour insérer des liens complexes, tels qu’un lien vers une page de produit spécifique, en fonction de l’ID de produit. Le code généré inclut la référence du bloc, l’emplacement du module de code et le modèle HTML correspondant. Une fois le code généré, vous pouvez le copier-coller d’un emplacement à un autre.
 
 Le code de l’exemple suivant peut être ajouté à une page ou à un bloc pour afficher la liste des nouveaux produits.
 
-\&lbrace;\{widget type=&quot;catalog/product_widget_new&quot; display_type=&quot;new_products&quot; products_count=&quot;10&quot; template=&quot;catalog/product/widget/new/content/new_grid.phtml&quot;}
+\{\{widget type=« catalog/product_widget_new » display_type=« new_products » products_count=« 10 » template= »catalog/product/widget/new/content/new_grid.phtml« }}
 
 Le code de l’exemple suivant peut être ajouté à une page ou à un bloc pour afficher un lien vers un produit spécifique, par ID de produit.
 
-\{\{widget type=&quot;catalog/product_widget_link&quot; anchor_text=&quot;My Product Link&quot; title=&quot;My Product Link&quot; template=&quot;catalog/product/widgetlink/link_block.phtml&quot; id_path=&quot;product/31&quot;}}
+\{\{widget type=« catalog/product_widget_link » anchor_text=« My Product Link » title=« My Product Link » template= »catalog/product/widgetlink/link_block.phtml » id_path=« product/31 »}}
 
-## Utilisation de balises dans les liens
+## Utiliser des balises de balisage dans les liens
 
-Vous pouvez utiliser des balises avec des balises d’ancrage d’HTML et créer un lien direct vers n’importe quelle page de votre magasin. Le lien peut être intégré à des pages de contenu, des blocs ou des modèles d’email et de newsletter. Vous pouvez également utiliser cette technique pour lier une image à une page spécifique.
+Vous pouvez utiliser les balises de balisage avec les balises d’ancrage HTML et le lien direct vers n’importe quelle page de votre boutique. Le lien peut être incorporé dans des pages de contenu, des blocs ou des modèles d’e-mail et de newsletter. Vous pouvez également utiliser cette technique pour lier une image à une page spécifique.
 
-### Étape 1. Identification de l’URL de destination
+### Étape 1. Identifier l’URL de destination
 
-Si possible, accédez à la page à laquelle vous souhaitez créer un lien et copiez l’URL complète dans la barre d’adresse de votre navigateur. La partie de l’URL dont vous avez besoin se trouve après le `.com/`. Sinon, copiez la clé URL de la page CMS que vous souhaitez utiliser comme destination du lien.
+Si possible, accédez à la page à laquelle vous souhaitez créer le lien, puis copiez l’URL complète à partir de la barre d’adresse de votre navigateur. La partie de l’URL dont vous avez besoin se trouve après le `.com/` . Sinon, copiez la clé URL de la page CMS que vous souhaitez utiliser comme destination du lien.
 
 #### URL complète vers la page de catégorie
 
 `https://mystore.com/apparel/shoes/womens`
 `https://mystore.com/apparel/shoes/womens.html`
 
-#### URL complète vers la page de produit
+#### URL complète vers la page du produit
 
 `https://mystore.com/apparel/shoes/womens/nine-west-pump`
 `https://mystore.com/apparel/shoes/womens/nine-west-pump.html`
@@ -86,44 +86,46 @@ Si possible, accédez à la page à laquelle vous souhaitez créer un lien et co
 
 `https://mystore.com/about-us`
 
-### Étape 2. Ajouter les balises à l’URL
+### Étape 2. Ajoutez le balisage à l’URL
 
-La balise URL du magasin représente l’URL de base de votre site web et est utilisée comme substitut à la partie adresse HTTP de l’URL du magasin, y compris le nom de domaine et `.com`. Il existe deux versions de la balise, que vous pouvez utiliser, en fonction des résultats que vous souhaitez obtenir.
+La balise URL de magasin représente l’URL de base de votre site web et est utilisée comme substitut de la partie adresse HTTP de l’URL de magasin, y compris le nom de domaine et le `.com`. Vous pouvez utiliser deux versions de la balise , en fonction des résultats que vous souhaitez obtenir.
 
-`store direct_url` - Liens directement vers une page.
+`store direct_url` : fournit des liens directs vers une page.
 
-`store url` - Place une barre oblique à la fin, de sorte que des références supplémentaires peuvent être ajoutées en tant que chemin.
+`store url` - Place une barre oblique à l’extrémité pour que d’autres références puissent être ajoutées sous forme de chemin.
 
-Dans les exemples suivants, la clé URL est entourée de guillemets simples et l’ensemble de la balise de balisage est entouré d’accolades doubles. Lorsqu’elle est utilisée avec une balise d’ancrage, celle-ci est placée entre les guillemets doubles de l’ancre. Pour éviter toute confusion, vous pouvez alterner à l’aide de guillemets simples et doubles pour chaque ensemble imbriqué de guillemets.
+Dans les exemples suivants, la clé d’URL est placée entre guillemets simples et l’ensemble de la balise de balisage est placé entre des accolades doubles. Lorsqu’elle est utilisée avec une balise d’ancrage, la balise de balisage est placée entre les guillemets doubles de l’ancrage. Pour éviter toute confusion, vous pouvez alterner l’utilisation de guillemets simples et doubles pour chaque ensemble imbriqué de guillemets.
 
-Si vous commencez avec une URL complète, supprimez la partie de l’URL (`http://` ou `https://`) de l’adresse HTTP, via et incluant l’ `.com/`. À la place, saisissez la balise de balisage URL de magasin, en passant par le guillemet simple d’ouverture.
+Si vous commencez avec une URL complète, supprimez la partie adresse HTTP (`http://` ou `https://`) de l’URL, jusqu’au `.com/` inclus. À sa place, saisissez la balise de balisage de l’URL de la boutique, en commençant par le guillemet simple d’ouverture.
 
-#### Balise de balisage de l’URL de magasin
+#### Balise de balisage de l’URL du magasin
 
 `https://mystore.com/apparel/shoes/womens`
 
 `{{store url='apparel/shoes/womens'}}`
 
-Sinon, saisissez la première partie de la balise Store URL et collez la clé ou le chemin d’accès de l’URL que vous avez copié précédemment.
+Sinon, saisissez la première partie de la balise de balisage de l’URL du magasin et collez la clé d’URL ou le chemin d’accès que vous avez copié précédemment.
 
-### Balise de balisage URL de magasin avec clé URL
+### Balise de balisage d’URL de magasin avec clé d’URL
 
 `{{store url=`
 
-Pour terminer la balise de balisage, saisissez les guillemets doubles fermants et les accolades doubles.
+Pour terminer la balise de balisage, saisissez les guillemets doubles et les accolades doubles fermants.
 
 `{{store url='apparel/shoes/womens'}}`
 
-### Étape 3. Fin de la balise d’ancrage
+### Étape 3. Terminer la balise d’ancrage
 
-Placez la balise de balisage complétée à l’intérieur d’une balise d’ancrage, à l’aide de la balise de balisage au lieu de l’URL cible. Ajoutez ensuite le texte du lien et la balise d’ancrage de fermeture.
+Placez la balise de balisage terminée dans une balise d’ancrage, à l’aide de la balise de balisage au lieu de l’URL cible. Ajoutez ensuite le texte du lien et la balise d’ancrage de fermeture.
 
 #### Balisage dans la balise d’ancrage
 
-\&lt;a href=&quot;\&lbrace;\{la balise de balisage va ici}&quot;>Texte de lien\&lt;/a>
+\&lt;a href=« \{\{la balise de balisage va ici}}« >Texte du lien\&lt;/a>
 
-Collez la balise d’ancrage complétée dans le code d’une page, d’un bloc, d’une bannière ou d’un modèle de courrier électronique CMS dans lequel vous souhaitez que le lien s’affiche.
+Collez la balise d’ancrage terminée dans le code d’une page, d’un bloc, d’une bannière ou d’un modèle d’e-mail CMS où vous souhaitez que le lien apparaisse.
 
 ### Lien complet avec balisage
 
-\&lt;a href=&quot;\{\{store url=&#39;apparel/chaussures&#39;}}&quot;>Vente de chaussures\&lt;/a>
+\&lt;a href=« \{\{store url=&#39;habillement/chaussures&#39;}}« >Vente de chaussures\&lt;/a>
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

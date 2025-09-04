@@ -3,8 +3,8 @@ title: URL Dynamic Media
 description: Découvrez comment utiliser une URL de média dynamique comme référence relative à une image ou à une autre ressource de média.
 exl-id: 41aabde2-f6cc-4b83-8d56-9753a7aa93e9
 feature: CMS, Media
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -42,3 +42,5 @@ Par défaut, les images insérées dans le catalogue à partir de l’éditeur W
    - `No` : (par défaut) utilise des URL dynamiques pour le contenu multimédia inséré avec l’éditeur WYSIWYG, en fonction de la directive `\{\{media url="..."}}`. Les URL dynamiques sont relatives et ne sont pas rompues si l’URL de base du magasin change.
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

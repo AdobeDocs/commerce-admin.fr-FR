@@ -2,8 +2,8 @@
 title: Insertion d’un widget dans l’éditeur
 description: Ajoutez différents éléments de contenu à une page à l’aide de l’outil widget de l’éditeur de WYSIWYG.
 exl-id: bbc5e059-06d8-4dda-89a7-6c9826b73fd3
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Par défaut, les liens héritent de leur style de la feuille de style du thème.
 
 1. Ouvrez une page, un bloc ou un bloc dynamique en mode d’édition.
 
-1. Accédez à la section _[!UICONTROL Content]_&#x200B;et cliquez sur n’importe quel élément prenant en charge l’éditeur.
+1. Accédez à la section _[!UICONTROL Content]_et cliquez sur n’importe quel élément prenant en charge l’éditeur.
 
 1. Placez le curseur à l’endroit où vous souhaitez que le widget apparaisse, puis cliquez sur l’icône _Insérer un widget_.
 
@@ -59,3 +59,5 @@ Par défaut, les liens héritent de leur style de la feuille de style du thème.
    Si vous utilisez du code HTML, une [ balise de balisage ](../systems/markup-tags.md) pour le lien s’affiche en haut de la page, entre doubles accolades. Si nécessaire, utilisez _Couper et coller_ pour placer la balise de balisage dans le code où vous souhaitez que le lien apparaisse.
 
 1. Une fois vos modifications de contenu terminées, cliquez sur **[!UICONTROL Save]**.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->
