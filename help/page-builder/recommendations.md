@@ -45,11 +45,11 @@ Utilisez le type de contenu _Recommandations de produits_ pour ajouter une [unit
 
 1. Ouvrez la page, le bloc ou le bloc dynamique en mode d’édition.
 
-1. Développez la section _[!UICONTROL Content]_et cliquez sur **[!UICONTROL Edit with Page Builder]**ou dans la zone d’aperçu du contenu pour ouvrir l’espace de travail [!DNL Page Builder].
+1. Développez la section _[!UICONTROL Content]_&#x200B;et cliquez sur **[!UICONTROL Edit with Page Builder]**&#x200B;ou dans la zone d’aperçu du contenu pour ouvrir l’espace de travail [!DNL Page Builder].
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Row]**vers la scène.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Row]**&#x200B;vers la scène.
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Add Content]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Product Recommendation]**jusqu’à la ligne.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Add Content]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Product Recommendation]**&#x200B;jusqu’à la ligne.
 
    ![Ajout du type de contenu de recommandation de produit](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
@@ -68,7 +68,7 @@ Utilisez le type de contenu _Recommandations de produits_ pour ajouter une [unit
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add Selected]**.
 
-   Le nom de la recommandation de produit sélectionnée s’affiche dans la section _[!UICONTROL Selection]_de la page_[!UICONTROL Edit Product Recommendation]_.
+   Le nom de la recommandation de produit sélectionnée s’affiche dans la section _[!UICONTROL Selection]_&#x200B;de la page&#x200B;_[!UICONTROL Edit Product Recommendation]_.
 
 1. Apportez les modifications nécessaires aux [Paramètres avancés](#advanced-settings).
 

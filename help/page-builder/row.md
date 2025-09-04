@@ -38,7 +38,7 @@ La boîte à outils de lignes s’affiche lorsque vous pointez sur le conteneur 
 
 ## Ajouter une ligne
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un nouveau **[!UICONTROL Row]**vers la scène, juste en dessous de la première ligne.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un nouveau **[!UICONTROL Row]**&#x200B;vers la scène, juste en dessous de la première ligne.
 
 1. Pour formater la ligne, passez la souris sur le conteneur de lignes pour afficher la boîte à outils et choisissez l’icône _Paramètres_ ( ![icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
@@ -114,7 +114,7 @@ Un type d’arrière-plan peut être une image ou une vidéo. [!DNL Page Builder
 
 ### Paramètres de type d’image
 
-Si vous définissez la _[!UICONTROL Background Type]_sur `Image`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
+Si vous définissez la _[!UICONTROL Background Type]_&#x200B;sur `Image`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
 
 ![Image d’arrière-plan](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 

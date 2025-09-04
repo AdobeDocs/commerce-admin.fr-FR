@@ -153,8 +153,8 @@ Pour plus d’informations sur la modification de ces paramètres, consultez [Sa
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | Global | Détermine si l’instance Commerce autorise les sauvegardes. Options : `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | Global | (Affiché lorsque _[!UICONTROL Enable Backup]_est défini sur `Yes`.) Détermine si l’instance Commerce est automatiquement sauvegardée selon un calendrier régulier. Options : `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | Global | (Affiché lorsque _[!UICONTROL Enable Scheduled Backup]_est défini sur `Yes`.) Détermine les éléments de l’instance Commerce inclus dans la sauvegarde. Options : `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Enable Scheduled Backup] | Global | (Affiché lorsque _[!UICONTROL Enable Backup]_&#x200B;est défini sur `Yes`.) Détermine si l’instance Commerce est automatiquement sauvegardée selon un calendrier régulier. Options : `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Global | (Affiché lorsque _[!UICONTROL Enable Scheduled Backup]_&#x200B;est défini sur `Yes`.) Détermine les éléments de l’instance Commerce inclus dans la sauvegarde. Options : `Database` / `Database and Media` / `System` / `System (excluding Media)` |
 | [!UICONTROL Start Time] | Global | (Affiché lorsque [!UICONTROL Enable Scheduled Backup] est défini sur `Yes`.) Indique l’heure, la minute et la seconde auxquelles la sauvegarde planifiée commence. |
 | [!UICONTROL Frequency] | Global | (Affiché lorsque [!UICONTROL Enable Scheduled Backup] est défini sur `Yes`.) Détermine la fréquence à laquelle la sauvegarde planifiée a lieu. Options : `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Maintenance Mode] | Global | (Affiché lorsque [!UICONTROL Enable Scheduled Backup] est défini sur `Yes`.) Détermine si le magasin est placé en mode de maintenance pendant la sauvegarde planifiée. Options : `Yes` / `No` |

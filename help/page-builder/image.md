@@ -58,7 +58,7 @@ La boîte à outils Image s’affiche lorsque vous placez le pointeur de la sour
    >
    >La taille de fichier maximale est de 4 Mo. Les types de fichiers pris en charge sont JPG, GIF et PNG.
 
-   - _**Charger une nouvelle image**_ : utilisez cette méthode pour charger un nouveau fichier image à partir de votre système.
+   - _&#x200B;**Charger une nouvelle image**&#x200B;_ : utilisez cette méthode pour charger un nouveau fichier image à partir de votre système.
 
       - Cliquez sur **[!UICONTROL Upload Image]**.
 
@@ -66,7 +66,7 @@ La boîte à outils Image s’affiche lorsque vous placez le pointeur de la sour
 
      Vous pouvez également faire glisser un fichier image de votre système et le déposer sur l’icône _Appareil photo_ ( ![Icône d’appareil photo](./assets/pb-icon-camera.png){width="20"} ).
 
-   - _**Sélectionner une ressource existante**_ : utilisez cette méthode pour sélectionner une ressource image existante dans la galerie ou le stockage de médias.
+   - _&#x200B;**Sélectionner une ressource existante**&#x200B;_ : utilisez cette méthode pour sélectionner une ressource image existante dans la galerie ou le stockage de médias.
 
       - Cliquez sur **[!UICONTROL Select from Gallery]**.
 
@@ -76,7 +76,7 @@ La boîte à outils Image s’affiche lorsque vous placez le pointeur de la sour
 
         ![Ajouter une image sélectionnée](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _**Rechercher et sélectionner une image Adobe Stock**_ : utilisez cette méthode pour rechercher une image dans Adobe Stock.
+   - _&#x200B;**Rechercher et sélectionner une image Adobe Stock**&#x200B;_ : utilisez cette méthode pour rechercher une image dans Adobe Stock.
 
      >[!NOTE]
      >
@@ -107,13 +107,13 @@ Le nom, les dimensions et la taille du fichier s’affichent sous l’image actu
 
 1. Pour modifier le **[!UICONTROL Image]** actuel, effectuez l’une des opérations suivantes :
 
-   - _**Charger une nouvelle image**_ : utilisez cette méthode pour charger un nouveau fichier image à partir de votre système.
+   - _&#x200B;**Charger une nouvelle image**&#x200B;_ : utilisez cette méthode pour charger un nouveau fichier image à partir de votre système.
 
       - Cliquez sur **[!UICONTROL Upload Image]**.
 
       - Recherchez et choisissez l’image à ajouter au conteneur galerie et cible.
 
-   - _**Sélectionner une ressource existante**_ : utilisez cette méthode pour sélectionner une ressource image existante dans la galerie ou le stockage de médias.
+   - _&#x200B;**Sélectionner une ressource existante**&#x200B;_ : utilisez cette méthode pour sélectionner une ressource image existante dans la galerie ou le stockage de médias.
 
       - Cliquez sur **[!UICONTROL Select from Gallery]**.
 

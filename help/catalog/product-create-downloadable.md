@@ -147,7 +147,7 @@ Le formulaire est mis à jour pour refléter la modification.
 
 1. Pour mettre le produit en avant dans la [liste des nouveaux produits](../content-design/widget-new-products-list.md), cochez la case **[!UICONTROL Set Product as New]**.
 
-1. Pour attribuer des _[!UICONTROL Categories]_au produit, cliquez sur la zone de **[!UICONTROL Select…]**et effectuez l’une des opérations suivantes :
+1. Pour attribuer des _[!UICONTROL Categories]_&#x200B;au produit, cliquez sur la zone de **[!UICONTROL Select…]**&#x200B;et effectuez l’une des opérations suivantes :
 
    **Choisissez une catégorie existante** :
 
@@ -180,13 +180,13 @@ Le formulaire est mis à jour pour refléter la modification.
 
 Faites défiler vers le bas, développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Downloadable Information]_, puis cochez la case **[!UICONTROL Is this downloadable product?]**.
 
-Lorsqu’elle est activée, la section _[!UICONTROL Downloadable Information]_comporte deux parties. La première partie décrit chaque lien de téléchargement et la seconde partie décrit chaque fichier d’exemple. La valeur par défaut de la plupart de ces options peut être définie dans la [configuration](#configure-the-download-options).
+Lorsqu’elle est activée, la section _[!UICONTROL Downloadable Information]_&#x200B;comporte deux parties. La première partie décrit chaque lien de téléchargement et la seconde partie décrit chaque fichier d’exemple. La valeur par défaut de la plupart de ces options peut être définie dans la [configuration](#configure-the-download-options).
 
 ![Informations téléchargeables](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 
 #### Compléter les liens
 
-1. Dans la section _[!UICONTROL Links]_, saisissez le **[!UICONTROL Title]**que vous souhaitez utiliser comme en-tête pour les liens de téléchargement.
+1. Dans la section _[!UICONTROL Links]_, saisissez le **[!UICONTROL Title]**&#x200B;que vous souhaitez utiliser comme en-tête pour les liens de téléchargement.
 
 1. Le cas échéant, cochez la case **[!UICONTROL Links can be purchased separately]** .
 
@@ -222,7 +222,7 @@ Lorsqu’elle est activée, la section _[!UICONTROL Downloadable Information]_co
 
 #### Complétez les exemples
 
-1. Dans la section _[!UICONTROL Samples]_, saisissez le **[!UICONTROL Title]**que vous souhaitez utiliser comme en-tête pour les échantillons.
+1. Dans la section _[!UICONTROL Samples]_, saisissez le **[!UICONTROL Title]**&#x200B;que vous souhaitez utiliser comme en-tête pour les échantillons.
 
 1. Pour compléter les informations de chaque échantillon, cliquez sur **[!UICONTROL Add Link]**.
 
@@ -274,7 +274,7 @@ Dans le menu _[!UICONTROL Save]_( ![flèche du menu](../assets/icon-menu-down-ar
 
 ## Expérience Storefront
 
-Dans le tableau de bord du compte client, la page _[!UICONTROL My Downloadable Products]_renvoie vers chaque commande de produits téléchargeables. Les téléchargements sont disponibles à partir du compte du client une fois la commande terminée.
+Dans le tableau de bord du compte client, la page _[!UICONTROL My Downloadable Products]_&#x200B;renvoie vers chaque commande de produits téléchargeables. Les téléchargements sont disponibles à partir du compte du client une fois la commande terminée.
 
 ![Mes produits téléchargeables](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
 
@@ -288,7 +288,7 @@ Le tableau suivant décrit les valeurs _Mes produits téléchargeables_ :
 | [!UICONTROL Status] | Statut du traitement de la commande. |
 | [!UICONTROL Remaining Downloads] | Nombre de téléchargements disponibles du produit téléchargé. |
 
-_**Pour télécharger un fichier de produit à partir du tableau de bord du compte**_
+_&#x200B;**Pour télécharger un fichier de produit à partir du tableau de bord du compte**&#x200B;_
 
 1. Dans le tableau de bord de son compte, le client choisit **[!UICONTROL My Downloadable Products]**.
 

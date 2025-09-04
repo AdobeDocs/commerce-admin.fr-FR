@@ -256,7 +256,7 @@ Un type d’arrière-plan peut être une image ou une vidéo. [!DNL Page Builder
 
 ### Paramètres de type d’image
 
-Si vous définissez la _[!UICONTROL Background Type]_sur `Image`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
+Si vous définissez la _[!UICONTROL Background Type]_&#x200B;sur `Image`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
 
 ![Bannière avec image de fond](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -338,9 +338,9 @@ Vous pouvez modifier le contenu de la diapositive directement sur la scène ou l
 
 1. Cliquez sur le point de navigation en bas du curseur pour afficher la palette d’outils de la diapositive et sélectionnez l’icône _Paramètres_ ( ![icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Dans la section _[!UICONTROL Content]_, saisissez le **[!UICONTROL Message Text]**que vous souhaitez afficher avec la diapositive.
+1. Dans la section _[!UICONTROL Content]_, saisissez le **[!UICONTROL Message Text]**&#x200B;que vous souhaitez afficher avec la diapositive.
 
-1. Faites défiler jusqu’à la section _[!UICONTROL Content]_et utilisez l’éditeur de **[!UICONTROL Message Text]**pour saisir et mettre en forme le texte de la bannière.
+1. Faites défiler jusqu’à la section _[!UICONTROL Content]_&#x200B;et utilisez l’éditeur de **[!UICONTROL Message Text]**&#x200B;pour saisir et mettre en forme le texte de la bannière.
 
    Vous pouvez également insérer des éléments, tels que des liens de texte, des images et des widgets.
 

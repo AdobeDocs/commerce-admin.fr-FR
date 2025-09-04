@@ -116,7 +116,7 @@ Renseignez les informations des sections suivantes selon vos besoins :
 
 >[!NOTE]
 >
->L’option _[!UICONTROL Is this downloadable product?]_est désactivée par défaut. L’activation de cette fonctionnalité pour un produit virtuel rend le produit [téléchargeable](product-create-downloadable.md#downloadable-product).
+>L’option _[!UICONTROL Is this downloadable product?]_&#x200B;est désactivée par défaut. L’activation de cette fonctionnalité pour un produit virtuel rend le produit [téléchargeable](product-create-downloadable.md#downloadable-product).
 
 ## Étape 6 : publier le produit
 
