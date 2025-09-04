@@ -188,7 +188,7 @@ Pour plus d’informations sur la modification de ces paramètres, consultez [Mi
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Global | Détermine l’application utilisée pour gérer le cache de page complète. Options : <br/>**`Built-in Application`**- Non recommandé pour l’environnement de production.<br/>**`Varnish Caching`** - Recommandé pour l’environnement de production. |
 | [!UICONTROL TTL for public content] | Global | Détermine la durée de vie du cache de contenu public en secondes. Valeur par défaut : `120` |
-| [!UICONTROL Handles param size] | global | Indique le nombre maximal de [handles de mise en page](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) à traiter sur le point d’entrée HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html). Limiter la taille peut améliorer la sécurité et les performances. Valeur par défaut : `100` |
+| [!UICONTROL Handles param size] | global | Indique le nombre maximal de [handles de mise en page](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) à traiter sur le point d’entrée HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=fr). Limiter la taille peut améliorer la sécurité et les performances. Valeur par défaut : `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Global | Spécifie les adresses IP qui peuvent purger la configuration du vernis pour générer un fichier de configuration. Séparez les entrées multiples par une virgule. Valeur par défaut : `localhost` |
 | [!UICONTROL Backend host] | Global | Spécifie l’hôte principal qui génère les fichiers de configuration. Valeur par défaut : `localhost` |
@@ -268,7 +268,7 @@ Pour plus d&#39;informations sur la modification de ces paramètres, consultez [
 
 ![Configuration avancée - Configuration du chargement d’images](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
