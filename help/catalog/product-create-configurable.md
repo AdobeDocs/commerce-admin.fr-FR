@@ -138,7 +138,7 @@ La barre de progression en haut de la page indique où vous en êtes dans le pro
 
 ### Étape 1 : sélection des attributs
 
-1. En continuant depuis le haut, faites défiler l’écran vers le bas jusqu’à la section _[!UICONTROL Configurations]_et cliquez sur **[!UICONTROL Create Configurations]**.
+1. En continuant depuis le haut, faites défiler l’écran vers le bas jusqu’à la section _[!UICONTROL Configurations]_&#x200B;et cliquez sur **[!UICONTROL Create Configurations]**.
 
    ![Configurations ](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
