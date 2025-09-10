@@ -5,9 +5,9 @@ breadcrumb-title: Référence de configuration
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 - [Référence de configuration](guide-overview.md)
 - [Portée de la configuration](scope-change.md)
-- générale{#general}
+- Général {#general}
    - [Général](./general/general.md)
    - [Fonctionnalités B2B](./general/b2b-features.md)
    - [Web](./general/web.md)
@@ -26,21 +26,20 @@ ht-degree: 1%
    - [Contacts](./general/contacts.md)
    - [Rapports](./general/reports.md)
    - [Gestion de contenu](./general/content-management.md)
-   - [Création de rapports New Relic](./general/new-relic-reporting.md)
    - [Rapports avancés](./general/advanced-reporting.md)
-- de catalogue{#catalog}
+- Catalogue {#catalog}
    - [Catalogue](./catalog/catalog.md)
    - [Marchandiseur visuel](./catalog/visual-merchandiser.md)
    - [Inventaire](./catalog/inventory.md)
    - [Plan de site XML](./catalog/xml-sitemap.md)
    - [Flux RSS](./catalog/rss-feeds.md)
    - [Envoyer par e-mail à un ami](./catalog/email-to-a-friend.md)
-- de sécurité{#security}
+- Sécurité {#security}
    - [2FA](./security/2fa.md)
    - [Panneau d’administration reCAPTCHA de Google](./security/google-recaptcha-admin.md)
    - [Storefront reCAPTCHA de Google](./security/google-recaptcha-storefront.md)
    - [Security.txt](./security/security-txt.md)
-- des clients{#customers}
+- Clients {#customers}
    - [Se connecter en tant que client](./customers/login-as-customer.md)
    - [Newsletter](./customers/newsletter.md)
    - [Configuration de l’entreprise](./customers/company-configuration.md)
@@ -52,7 +51,7 @@ ht-degree: 1%
    - [Promotions](./customers/promotions.md)
    - [Registre Des Cadeaux](./customers/gift-registry.md)
    - [Panier persistant](./customers/persistent-shopping-cart.md)
-- de vente{#sales}
+- Ventes {#sales}
    - [Ventes](./sales/sales.md)
    - [E-mails commerciaux](./sales/sales-emails.md)
    - [Citations](./sales/quotes.md)
@@ -76,13 +75,13 @@ ht-degree: 1%
       - [PayPal Payflow Pro](./sales/paypal-payflow-pro.md)
       - [Lien de flux de paiement PayPal](./sales/paypal-payflow-link.md)
 - [Canaux de vente](./sales-channels.md)
-- des services{#services}
+- Services tertiaires {#services}
    - [API web](./services/magento-web-api.md)
    - [Services Commerce](./services/saas.md)
    - [OAuth](./services/oauth.md)
-- avancés{#advanced}
+- Avancé {#advanced}
    - [Admin](./advanced/admin.md)
    - [Système](./advanced/system.md)
    - [Développeur](./advanced/developer.md)
-- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/fr/docs/commerce-admin/user-guides/home)
+- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
