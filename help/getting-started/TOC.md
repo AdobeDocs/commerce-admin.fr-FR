@@ -70,5 +70,5 @@ ht-degree: 0%
    + [Écosystème](resources.md)
    + [Extensions](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/fr/docs/commerce-admin/user-guides/home)
 
