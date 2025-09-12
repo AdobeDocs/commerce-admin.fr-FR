@@ -1,8 +1,8 @@
 ---
-source-git-commit: c74edb1884d4839e70fbbea0df4a79ef54b368a6
+source-git-commit: edd93b54c6e76ef879688292006ead069ab37e39
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 6%
+source-wordcount: '165'
+ht-degree: 7%
 
 ---
 # Nouveautés du modèle
@@ -10,6 +10,50 @@ ht-degree: 6%
 ## Nouveautés
 
 Cette section contient les modifications apportées au cours des 60 derniers jours. Toutes les mises à jour mineures, telles que la modification de copies, sont exclues de cette liste.
+
+### jeudi 10 septembre 2025
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Ajout d’une description de chaque type de condition <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segment-create"> segment client </a>.</p>
+</td>
+      <td>
+        Technique
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3caa8f3067d534d46e4dafb5731df200723216f8">validation</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### mercredi 9 septembre 2025
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Suppression de la documentation des fonctionnalités New Relic <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting">reporting</a> obsolète.</p>
+</td>
+      <td>
+        Mise à jour majeure
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/066bcb5b86cfcf5ecb8a6384e6023fd839c4dfcb">validation</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### vendredi 14 août 2025
 
@@ -23,7 +67,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Clarification des méthodes par défaut pour la <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">création de codes de coupon</a> et conseils sur l’utilisation d’une extension pour importer une liste de codes de coupon personnalisés.</p>
+      <td><p>Clarification des méthodes par défaut pour la <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">création de codes de coupon</a> et conseils sur l’utilisation d’une extension pour importer une liste de codes de coupon personnalisés.</p>
 </td>
       <td>
         Technique
@@ -45,7 +89,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Ajout en août 2025 du correctif de sécurité B2B <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/b2b/release-notes">notes de mise à jour</a>.</p>
+      <td><p>Ajout en août 2025 du correctif de sécurité B2B <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">notes de mise à jour</a>.</p>
 </td>
       <td>
         Mise à jour majeure
@@ -67,7 +111,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Clarification du comportement attendu du <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">filtrage des prix</a> pour les produits configurables en navigation superposée.</p>
+      <td><p>Clarification du comportement attendu du <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">filtrage des prix</a> pour les produits configurables en navigation superposée.</p>
 </td>
       <td>
         Technique
@@ -75,7 +119,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3227227b6cf4f159b40fda8a5a165a7097f8a0bd">validation</a></td>
     </tr>
     <tr>
-      <td><p>Clarification de la procédure de <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">suppression de tous les articles</a> du panier d’un client en mode d’achat assisté.</p>
+      <td><p>Clarification de la procédure de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">suppression de tous les articles</a> du panier d’un client en mode d’achat assisté.</p>
 </td>
       <td>
         Mise à jour majeure
@@ -97,34 +141,12 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Mise à jour de la configuration requise pour l’extension <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">HIPAA</a>.</p>
+      <td><p>Mise à jour de la configuration requise pour l’extension <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">HIPAA</a>.</p>
 </td>
       <td>
         Technique
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a8a79656179b9a725aa84ce5481ef82747547745">validation</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### samedi 11 juillet 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Clarification du mode par défaut de l’<a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/tools/index-management">indexeur de grille client</a>, qui a été modifié dans la version 2.4.8.</p>
-</td>
-      <td>
-        Technique
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/5294e7e31941d13d2cbeae89851bfe3a800acc6e">validation</a></td>
     </tr>
   </tbody>
 </table>
