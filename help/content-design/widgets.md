@@ -2,10 +2,10 @@
 title: Widgets
 description: Découvrez les widgets, qui fournissent un fragment de code permettant d’afficher un large éventail de contenu et de le placer à des références de bloc spécifiques dans votre boutique.
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: a5e42a412d09a8e6306ef6eb72e65675fc244091
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Lorsque vous [créez un widget](widget-create.md), vous devez définir le type. 
 | [!UICONTROL Order by SKU] | La commande par SKU peut être affichée dans la boutique pour faciliter la tâche de tous les acheteurs, ou être disponible uniquement pour des groupes de clients spécifiques. Les acheteurs peuvent saisir le SKU et les informations sur la quantité directement dans le bloc Commander par SKU ou charger un fichier CSV à partir de leur compte client. |
 | [!UICONTROL Orders and Returns] | Utilisez cette option pour permettre aux clients de vérifier le statut de leurs commandes et d&#39;envoyer des demandes de retour de marchandises. Le widget s’affiche uniquement pour les invités et les clients qui ne sont pas connectés à leurs comptes. |
 | [!UICONTROL Recently Compared Products] | Affiche le bloc des produits récemment comparés. Vous pouvez spécifier le nombre de produits inclus et les formater sous la forme d’une liste ou d’une grille de produits. |
-| [!UICONTROL Recently Viewed Products] | Utilisez cette option pour afficher le bloc des produits récemment consultés. Vous pouvez spécifier le nombre de produits inclus et les formater sous la forme d’une liste ou d’une grille de produits. |
+| [!UICONTROL Recently Viewed Products] | Utilisez cette option pour afficher le bloc des produits récemment consultés. Vous pouvez spécifier le nombre de produits inclus et les formater sous la forme d’une liste ou d’une grille de produits. Le widget peut ne pas afficher les mises à jour des prix en temps réel. L’acheteur doit cliquer sur un produit pour afficher le prix actuel sur sa page produit. |
 | [!UICONTROL Wish List Search] | Utilisez cette option pour permettre à un client de rechercher des listes de souhaits accessibles au public en fonction du nom ou de l’adresse e-mail du propriétaire de la liste de souhaits. Les clients du magasin peuvent rechercher des listes de souhaits appartenant à d’autres clients, les afficher et commander des produits auprès d’eux ou ajouter les produits à leurs propres listes de souhaits. |
 
 {style="table-layout:auto"}
