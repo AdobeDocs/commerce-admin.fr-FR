@@ -1,8 +1,8 @@
 ---
-source-git-commit: edd93b54c6e76ef879688292006ead069ab37e39
+source-git-commit: 9b879d7c6984f8740d1be15cccb9de3c7c551733
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 7%
+source-wordcount: '189'
+ht-degree: 6%
 
 ---
 # Nouveautés du modèle
@@ -23,7 +23,15 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Ajout d’une description de chaque type de condition <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/customers/segments/customer-segment-create"> segment client </a>.</p>
+      <td><p>Suppression de l’attribut Utiliser pour les conditions de règle de promotion du tableau « Exigences d’attribut de variation de produit » de la rubrique <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements">Produits configurables</a>.</p>
+</td>
+      <td>
+        Technique
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/7035acbe2b974ab8bdb4904e769856f0646211ea">validation</a></td>
+    </tr>
+    <tr>
+      <td><p>Ajout d’une description de chaque type de condition <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segment-create"> segment client </a>.</p>
 </td>
       <td>
         Technique
@@ -45,7 +53,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Suppression de la documentation des fonctionnalités New Relic <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/start/reporting/new-relic-reporting">reporting</a> obsolète.</p>
+      <td><p>Suppression de la documentation des fonctionnalités New Relic <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting">reporting</a> obsolète.</p>
 </td>
       <td>
         Mise à jour majeure
@@ -67,7 +75,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Clarification des méthodes par défaut pour la <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">création de codes de coupon</a> et conseils sur l’utilisation d’une extension pour importer une liste de codes de coupon personnalisés.</p>
+      <td><p>Clarification des méthodes par défaut pour la <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">création de codes de coupon</a> et conseils sur l’utilisation d’une extension pour importer une liste de codes de coupon personnalisés.</p>
 </td>
       <td>
         Technique
@@ -89,7 +97,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Ajout en août 2025 du correctif de sécurité B2B <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/b2b/release-notes">notes de mise à jour</a>.</p>
+      <td><p>Ajout en août 2025 du correctif de sécurité B2B <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">notes de mise à jour</a>.</p>
 </td>
       <td>
         Mise à jour majeure
@@ -111,7 +119,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Clarification du comportement attendu du <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">filtrage des prix</a> pour les produits configurables en navigation superposée.</p>
+      <td><p>Clarification du comportement attendu du <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">filtrage des prix</a> pour les produits configurables en navigation superposée.</p>
 </td>
       <td>
         Technique
@@ -119,7 +127,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3227227b6cf4f159b40fda8a5a165a7097f8a0bd">validation</a></td>
     </tr>
     <tr>
-      <td><p>Clarification de la procédure de <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">suppression de tous les articles</a> du panier d’un client en mode d’achat assisté.</p>
+      <td><p>Clarification de la procédure de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">suppression de tous les articles</a> du panier d’un client en mode d’achat assisté.</p>
 </td>
       <td>
         Mise à jour majeure
@@ -141,7 +149,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Mise à jour de la configuration requise pour l’extension <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">HIPAA</a>.</p>
+      <td><p>Mise à jour de la configuration requise pour l’extension <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">HIPAA</a>.</p>
 </td>
       <td>
         Technique
