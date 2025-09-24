@@ -3,16 +3,16 @@ title: Création d’une commande
 description: Découvrez comment créer une commande pour un client dans Commerce Admin.
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 0e2d79f6b716f5d59aa9cd60b096608a6b2dbb98
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 0%
+source-wordcount: '368'
+ht-degree: 1%
 
 ---
 
 # Création d’une commande
 
-Pour les clients enregistrés qui ont besoin d’aide, vous pouvez créer une commande entière directement à partir de l’administrateur. Le formulaire _[!UICONTROL Create New Order]_&#x200B;contient toutes les informations nécessaires au processus de passage en caisse normal, avec des résumés des activités du tableau de bord du compte du client.
+Pour les clients enregistrés qui ont besoin d’aide, vous pouvez créer une commande entière directement à partir de l’administrateur. Le formulaire _[!UICONTROL Create New Order]_contient toutes les informations nécessaires au processus de passage en caisse normal, avec des résumés des activités du tableau de bord du compte du client.
 
 ![Créer une commande pour un client](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -95,10 +95,11 @@ Vous pouvez transférer des articles vers le panier à partir de la liste de sou
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
+   - [!UICONTROL [Attributs d&#39;ordre personnalisés]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >
->Consultez le [ Guide des services de paiement ](https://experienceleague.adobe.com/fr/docs/commerce/payment-services/guide-overview) pour plus d’informations sur les modes de paiement afin de prendre en charge cette fonctionnalité lorsque l’extension des services de paiement est installée et configurée.
+>Consultez le [ Guide des services de paiement ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) pour plus d’informations sur les modes de paiement afin de prendre en charge cette fonctionnalité lorsque l’extension des services de paiement est installée et configurée.
 
 ## Étape 3 : envoyer la commande
 
