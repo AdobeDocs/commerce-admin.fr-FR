@@ -3,9 +3,9 @@ title: Conformité à la loi sur les cookies
 description: Pour suivre le rythme de la législation dans de nombreux pays concernant l’utilisation des cookies, Adobe Commerce et Magento Open Source offrent aux commerçants un choix de méthodes pour obtenir le consentement du client.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: abdd70f63ce9ce49ea7e6552951c644480f6024f
+source-git-commit: 3276729b2da1068e7c3d236d568ac745a97d71be
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1921'
 ht-degree: 0%
 
 ---
@@ -206,15 +206,15 @@ Défini par le module Page Builder. Contient un indicateur qui empêche les invi
 
 Défini par le module Page Builder. Contient un indicateur qui empêche les invites suivantes demandant à un administrateur de confirmer l&#39;ouverture d&#39;une certaine action si l&#39;administrateur les a explicitement ignorées auparavant. Utilisé uniquement dans la zone administrative d’un magasin. Non applicable aux acheteurs.
 
-#### `accordion-&lbrace;VARIABLE&rbrace;-&lbrace;VARIABLE&rbrace;`
+#### `accordion-{VARIABLE}-{VARIABLE}`
 
 Utilisé dans le cadre de l’implémentation de la fonctionnalité d’onglets uniquement dans une zone d’administration d’un magasin. Non applicable aux acheteurs.
 
 ## Cookies de recommandations de produits
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Les cookies suivants sont utilisés par les recommandations de produits pour les clients Adobe Commerce. Ces cookies sont installés avec le [module DataServices](https://experienceleague.adobe.com/fr/docs/commerce/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Les cookies suivants sont utilisés par les recommandations de produits pour les clients Adobe Commerce. Ces cookies sont installés avec le [module DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt` : permet de [restreindre la collecte de données Adobe Commerce](https://experienceleague.adobe.com/fr/docs/commerce/product-recommendations/developer/setting-cookie) si vous disposez d’un code personnalisé pour gérer le consentement des cookies sur votre site.
+- `mg_dnt` : permet de [restreindre la collecte de données Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie) si vous disposez d’un code personnalisé pour gérer le consentement des cookies sur votre site.
 - `user_allowed_save_cookie` : utilisé pour [mode de restriction des cookies](#cookie-restriction-mode).
 - `authentication_flag` : indique si un acheteur s’est connecté ou s’est déconnecté. Ce cookie est mis à jour en même temps que le cookie `dataservices_customer_id`.
 - `dataservices_customer_id` : indique si un acheteur s’est connecté ou s’est déconnecté. Ce cookie contient l’ID unique du client dans le système.
@@ -222,9 +222,19 @@ Utilisé dans le cadre de l’implémentation de la fonctionnalité d’onglets 
 - `dataservices_cart_id` : identifie les actions liées au panier d’un acheteur. Ce cookie contient l’ID de panier unique du client dans le système.
 - `dataservices_product_context` : identifie les interactions produit d’un acheteur. Ce cookie contient l’ID de devis unique du client dans le système.
 
+### Données de stockage local des recommandations de produits
+
+Les données suivantes sont enregistrées dans le stockage local pour les magasins à l’aide du thème Luma lors de l’installation de Live Search ou de Recommandations de produits :
+
+- `ds-cart` : stocke les informations sur le panier pour les fonctionnalités spécifiques à Luma.
+- `ds-cart-order` : stocke les informations de commande pour la fonctionnalité de panier.
+- `ds-purchase-history` : effectue le suivi de l’historique des achats des clients
+- `ds-view-history-time-decay` : stocke l’historique des consultations de produit avec une décroissance temporelle
+- `ds-logged-in` : indique le statut de connexion du client. Ces données n’existent que lorsque le client est connecté et sont stockées même lorsque le mode de restriction des cookies est activé. Il s’agit des seules données que Commerce stocke dans l’enregistrement local lorsque le mode de restriction des cookies est activé, quel que soit le statut de consentement de l’utilisateur.
+
 ## Cookies supplémentaires
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Les cookies suivants sont définis pour les clients Adobe Commerce. Ces cookies sont installés avec le [module DataServices](https://experienceleague.adobe.com/fr/docs/commerce/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Les cookies suivants sont définis pour les clients Adobe Commerce. Ces cookies sont installés avec le [module DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
 - `mg` : défini par le dispositif de suivi JavaScript Snowplow. Vous trouverez plus d’informations à ce sujet dans la [documentation Snowplow](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/).
 - `com.adobe.alloy.getTld` : compte tenu du nom d&#39;hôte de la page web actuelle, il s&#39;agit du domaine le plus élevé qui n&#39;est pas un « suffixe public » comme indiqué dans https://publicsuffix.org. Essentiellement, il s’agit du domaine le plus élevé qui peut accepter les cookies. Ce cookie fait partie du [Alloy Web SDK](https://github.com/adobe/alloy).
