@@ -22,7 +22,7 @@ Les cookies sont de petits fichiers qui sont enregistrés sur l&#39;ordinateur d
 
 Lorsque le mode de restriction des cookies est activé, les visiteurs de votre boutique sont avertis que les cookies sont requis pour les opérations complètes. Selon votre thème, le message peut apparaître au-dessus de l’en-tête, sous le pied de page ou ailleurs sur la page. Le message renvoie à votre politique de confidentialité pour plus d’informations et encourage les visiteurs à cliquer sur le bouton Autoriser pour accorder leur consentement. Une fois le consentement accordé, le message disparaît.
 
-Votre [politique de confidentialité](privacy-policy.md)) doit inclure le nom de votre boutique et vos coordonnées, et expliquer la finalité de chaque cookie utilisé par votre boutique. Pour en savoir plus, voir [ Référence des cookies ](#default-cookies).
+Votre [politique de confidentialité](privacy-policy.md)) doit inclure le nom de votre boutique et vos coordonnées, et expliquer la finalité de chaque cookie utilisé par votre boutique. Pour en savoir plus, voir [&#x200B; Référence des cookies &#x200B;](#default-cookies).
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Mettez à jour votre [politique de confidentialité](privacy-policy.md) afin qu�
 
 Les cookies par défaut dans Adobe Commerce et Magento Open Source sont classés comme Exempts/Non exempts afin d’aider les commerçants à respecter les exigences des réglementations de confidentialité telles que le [RGPD](compliance-gdpr.md). Les commerçants doivent utiliser ces informations comme guide et consulter leurs conseillers juridiques pour mettre à jour leurs politiques en matière de confidentialité et de cookies dans le cadre d&#39;une stratégie complète de conformité à la réglementation sur la confidentialité.
 
-Les cookies suivants sont utilisés par [!DNL Commerce] « prêt à l’emploi » pour les installations on-premise et cloud. Ces cookies peuvent être requis par une fonctionnalité explicitement demandée par le client. Pour en savoir plus sur la durée de vie des cookies de session, voir [ Durée de vie de la session ](../customers/customer-online-options.md).
+Les cookies suivants sont utilisés par [!DNL Commerce] « prêt à l’emploi » pour les installations on-premise et cloud. Ces cookies peuvent être requis par une fonctionnalité explicitement demandée par le client. Pour en savoir plus sur la durée de vie des cookies de session, voir [&#x200B; Durée de vie de la session &#x200B;](../customers/customer-online-options.md).
 
 Certains de ces cookies peuvent fournir des options de configuration, notamment activer/désactiver, si nécessaire.
 
@@ -206,7 +206,7 @@ Défini par le module Page Builder. Contient un indicateur qui empêche les invi
 
 Défini par le module Page Builder. Contient un indicateur qui empêche les invites suivantes demandant à un administrateur de confirmer l&#39;ouverture d&#39;une certaine action si l&#39;administrateur les a explicitement ignorées auparavant. Utilisé uniquement dans la zone administrative d’un magasin. Non applicable aux acheteurs.
 
-#### `accordion-{VARIABLE}-{VARIABLE}`
+#### `accordion-&lbrace;VARIABLE&rbrace;-&lbrace;VARIABLE&rbrace;`
 
 Utilisé dans le cadre de l’implémentation de la fonctionnalité d’onglets uniquement dans une zone d’administration d’un magasin. Non applicable aux acheteurs.
 
