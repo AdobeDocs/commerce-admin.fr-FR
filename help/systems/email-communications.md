@@ -28,7 +28,7 @@ Pour obtenir la liste détaillée des paramètres de configuration, voir [_[!UIC
 
 1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) de **[!UICONTROL Mail Sending Settings]** et procédez comme suit :
 
-   ![ Configuration avancée - Paramètres d&#39;envoi de courrier ](../configuration-reference/advanced/assets/system-mail-sending-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Configuration avancée - Paramètres d&#39;envoi de courrier &#x200B;](../configuration-reference/advanced/assets/system-mail-sending-settings.png){width="600" zoomable="yes"}
 
    - Si nécessaire, définissez **[!UICONTROL Disable Email Communications]** sur `No`.
 
@@ -53,7 +53,7 @@ Pour obtenir la liste détaillée des paramètres de configuration, voir [_[!UIC
       - **[!UICONTROL Auth]** - Choisissez le type d’authentification pour la connexion au serveur SMTP : `NONE`, `PLAIN` ou `LOGIN`
       - **[!UICONTROL SSL]** - Choisissez le type de vérification pour le certificat de sécurité du serveur : `SSL` ou `TLS`
 
-     ![ Configuration avancée - Paramètres d&#39;envoi de courrier ](../configuration-reference/advanced/assets/system-mail-sending-settings-smtp.png){width="600" zoomable="yes"}
+     ![&#x200B; Configuration avancée - Paramètres d&#39;envoi de courrier &#x200B;](../configuration-reference/advanced/assets/system-mail-sending-settings-smtp.png){width="600" zoomable="yes"}
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Sales Emails]**.
 

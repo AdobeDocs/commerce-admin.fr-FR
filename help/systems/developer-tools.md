@@ -116,7 +116,7 @@ Pour plus d’informations, consultez [Bonnes pratiques relatives aux performanc
    - Définissez **[!UICONTROL Merge CSS Files]** sur `Yes`.
    - Définissez **[!UICONTROL Minify CSS Files]** sur `Yes`.
 
-   ![ Configuration avancée - Paramètres CSS ](../configuration-reference/advanced/assets/developer-css-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Configuration avancée - Paramètres CSS &#x200B;](../configuration-reference/advanced/assets/developer-css-settings.png){width="600" zoomable="yes"}
 
 [_Paramètres CSS_](../configuration-reference/advanced/developer.md)
 
@@ -175,7 +175,7 @@ Voir [Rechercher des modèles, des mises en page et des styles](https://develope
 
 ### Étape 1 : ajouter votre adresse IP à la place sur la liste autorisée
 
-Avant d’utiliser les indications de chemin d’accès du modèle, ajoutez votre adresse IP à la [liste autorisée ](#client-restrictions) afin d’éviter toute interférence avec les clients qui font leurs achats dans le magasin. Lorsque vous avez terminé, veillez à effacer le cache de Commerce pour supprimer toutes les indications du magasin.
+Avant d’utiliser les indications de chemin d’accès du modèle, ajoutez votre adresse IP à la [liste autorisée &#x200B;](#client-restrictions) afin d’éviter toute interférence avec les clients qui font leurs achats dans le magasin. Lorsque vous avez terminé, veillez à effacer le cache de Commerce pour supprimer toutes les indications du magasin.
 
 ![Configuration avancée - Restrictions du client développeur](../configuration-reference/advanced/assets/developer-developer-client-restrictions.png){width="600" zoomable="yes"}
 

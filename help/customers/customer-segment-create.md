@@ -117,7 +117,7 @@ Les conditions possibles sont organisées dans les groupes suivants :
 
    La condition par défaut commence par _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;sur la page.
 
-   ![Conditions ](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
+   ![Conditions &#x200B;](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
 1. Créez une condition qui cible les clientes :
 

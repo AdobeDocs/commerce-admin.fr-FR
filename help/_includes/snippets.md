@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Les commerçants Adobe Commerce qui disposent d’une Adobe ID et souhaitent une connexion rationalisée aux produits Adobe Commerce et Adobe Business peuvent intégrer l’authentification Commerce Admin au workflow d’authentification Adobe IMS. Une fois cette intégration activée pour votre boutique Commerce, chaque utilisateur administrateur doit utiliser ses informations d’identification Adobe, et non ses informations d’identification de compte Commerce, pour se connecter. Voir [ Intégration d’Adobe Commerce à Adobe IMS](/help/getting-started/adobe-ims-integration-overview.md).
+>Les commerçants Adobe Commerce qui disposent d’une Adobe ID et souhaitent une connexion rationalisée aux produits Adobe Commerce et Adobe Business peuvent intégrer l’authentification Commerce Admin au workflow d’authentification Adobe IMS. Une fois cette intégration activée pour votre boutique Commerce, chaque utilisateur administrateur doit utiliser ses informations d’identification Adobe, et non ses informations d’identification de compte Commerce, pour se connecter. Voir [&#x200B; Intégration d’Adobe Commerce à Adobe IMS](/help/getting-started/adobe-ims-integration-overview.md).
 
 ## Remarque sur les API GTag {#gtag-api-note}
 

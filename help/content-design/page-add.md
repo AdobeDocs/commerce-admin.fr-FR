@@ -60,7 +60,7 @@ Ajoutez le contenu de la page en fonction de votre [configuration des outils de 
 
 1. Complétez le contenu et mettez le texte en forme selon vos besoins.
 
-   Vous pouvez ajouter des [images](media-storage.md), [variables](../systems/variables-predefined.md) et [widgets](widgets.md) selon vos besoins. Pour plus d’informations, voir [ Utilisation de l’éditeur ](editor.md).
+   Vous pouvez ajouter des [images](media-storage.md), [variables](../systems/variables-predefined.md) et [widgets](widgets.md) selon vos besoins. Pour plus d’informations, voir [&#x200B; Utilisation de l’éditeur &#x200B;](editor.md).
 
 ### Étape 3 : remplir les informations d’optimisation pour les moteurs de recherche
 
@@ -102,7 +102,7 @@ Ajoutez le contenu de la page en fonction de votre [configuration des outils de 
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) **[!UICONTROL Hierarchy]**.
 
-   ![ Hiérarchie ](./assets/page-hierarchy.png){width="600" zoomable="yes"}
+   ![&#x200B; Hiérarchie &#x200B;](./assets/page-hierarchy.png){width="600" zoomable="yes"}
 
 1. Si cette page est l’enfant d’une autre page, cochez la case du **[!UICONTROL Parent page]**.
 
@@ -110,7 +110,7 @@ Ajoutez le contenu de la page en fonction de votre [configuration des outils de 
 
 1. Pour modifier la disposition de la page, développez ![Sélecteur d’extension](../assets/icon-display-expand.png) **[!UICONTROL Design]**.
 
-   ![ Conception ](./assets/page-design.png){width="600" zoomable="yes"}
+   ![&#x200B; Conception &#x200B;](./assets/page-design.png){width="600" zoomable="yes"}
 
 1. Pour modifier la disposition des colonnes de la page, définissez **[!UICONTROL Layout]** sur l’une des options suivantes :
 
@@ -125,7 +125,7 @@ Ajoutez le contenu de la page en fonction de votre [configuration des outils de 
 
 1. Pour appliquer un **[!UICONTROL Custom Layout Update]**, choisissez le nom du fichier dans la liste.
 
-   Pour plus d’informations, voir [ Mises à jour de la disposition ](layout-updates.md).
+   Pour plus d’informations, voir [&#x200B; Mises à jour de la disposition &#x200B;](layout-updates.md).
 
 1. Pour modifier le thème de la page, définissez **[!UICONTROL New Theme]** sur l’une des options suivantes :
 

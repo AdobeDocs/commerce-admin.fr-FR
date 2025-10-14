@@ -47,7 +47,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Email Sent from Gift Card Account Management]
 
-![ Courrier électronique envoyé à partir de la gestion de compte de carte cadeau ](./assets/gift-cards-email-sent-from-account.png)<!-- zoom -->
+![&#x200B; Courrier électronique envoyé à partir de la gestion de compte de carte cadeau &#x200B;](./assets/gift-cards-email-sent-from-account.png)<!-- zoom -->
 
 <!-- [Email Sent from Gift Card Account Management](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
 

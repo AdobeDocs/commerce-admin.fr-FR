@@ -22,7 +22,7 @@ La sélection de produits dans n’importe quel catalogue partagé peut être fa
 
 1. Pour le catalogue partagé dans la grille, accédez à la colonne **[!UICONTROL Action]** et sélectionnez **[!UICONTROL Set Pricing and Structure]**.
 
-   ![ Grille de catalogue partagée et menu d’action](./assets/shared-catalog-set-pricing-structure.png){width="700" zoomable="yes"}
+   ![&#x200B; Grille de catalogue partagée et menu d’action](./assets/shared-catalog-set-pricing-structure.png){width="700" zoomable="yes"}
 
 1. Suivez les instructions de l’ [Étape 2 : Sélection de produits](catalog-shared-pricing-structure.md#step-2-choose-the-products).
 

@@ -22,7 +22,7 @@ Avantages d’un compte d’entreprise :
 
 - Offre un nombre illimité d&#39;[utilisateurs de l&#39;entreprise](account-company-users.md) et la création de comptes supplémentaires, ce qui simplifie les achats de l&#39;entreprise.
 
-- Inclut la prise en charge d’une hiérarchie de comptes d’entreprise _smart_ avec différents [ rôles et autorisations](account-company-roles-permissions.md) pour le placement de commandes.
+- Inclut la prise en charge d’une hiérarchie de comptes d’entreprise _smart_ avec différents [&#x200B; rôles et autorisations](account-company-roles-permissions.md) pour le placement de commandes.
 
 - Fournit un mécanisme permettant aux commerçants d’augmenter leurs revenus en proposant le [crédit de boutique d’entreprise](credit-company.md) comme mode de paiement.
 
@@ -30,7 +30,7 @@ Avantages d’un compte d’entreprise :
 
 ## Affichage des comptes d’entreprise
 
-La grille _Entreprises_ répertorie tous les comptes d’entreprise actifs et les demandes en attente, quel que soit le paramètre d’état. Il fournit également les outils pour [créer](account-company-create.md) et [gérer](account-company-manage.md) comptes d’entreprise. Utilisez les contrôles de grille standard pour filtrer la liste et ajuster la disposition des colonnes. Pour obtenir la liste des descriptions des colonnes, reportez-vous à la section _Descriptions des colonnes_ dans la section [ Gestion des comptes d’entreprise](account-company-manage.md).
+La grille _Entreprises_ répertorie tous les comptes d’entreprise actifs et les demandes en attente, quel que soit le paramètre d’état. Il fournit également les outils pour [créer](account-company-create.md) et [gérer](account-company-manage.md) comptes d’entreprise. Utilisez les contrôles de grille standard pour filtrer la liste et ajuster la disposition des colonnes. Pour obtenir la liste des descriptions des colonnes, reportez-vous à la section _Descriptions des colonnes_ dans la section [&#x200B; Gestion des comptes d’entreprise](account-company-manage.md).
 
 Les clients peuvent créer un compte d’entreprise à partir du storefront ou un commerçant peut en créer un à partir de l’administrateur. Par défaut, la possibilité de créer des comptes d’entreprise à partir du storefront est activée. S’il est autorisé par la configuration, un visiteur du magasin peut demander l’ouverture d’un compte de société. Une fois le compte de l’entreprise approuvé, l’administrateur de l’entreprise peut configurer la structure de l’entreprise et les utilisateurs avec différents niveaux d’autorisation.
 
@@ -38,7 +38,7 @@ Dans la barre latérale _Admin_, accédez à **[!UICONTROL Customers]** > **[!UI
 
 ![Grille d’entreprises](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-La grille [!UICONTROL Companies] répertorie toutes les entreprises, quel que soit leur statut. La liste des sociétés indique si une société est associée à une [hiérarchie de société](manage-company-hierarchy.md) et fournit [ des informations ](/help/b2b/account-company-manage.md#company-options-and-columns) sur la société, l’administrateur de la société et d’autres informations. Personnalisez la vue en utilisant les [contrôles de grille d’administration](../getting-started/admin-grid-controls.md) pour définir des filtres, des options d’affichage des colonnes, etc.
+La grille [!UICONTROL Companies] répertorie toutes les entreprises, quel que soit leur statut. La liste des sociétés indique si une société est associée à une [hiérarchie de société](manage-company-hierarchy.md) et fournit [&#x200B; des informations &#x200B;](/help/b2b/account-company-manage.md#company-options-and-columns) sur la société, l’administrateur de la société et d’autres informations. Personnalisez la vue en utilisant les [contrôles de grille d’administration](../getting-started/admin-grid-controls.md) pour définir des filtres, des options d’affichage des colonnes, etc.
 
 ## Administrateur d’entreprise
 
@@ -48,7 +48,7 @@ L’exemple suivant illustre la grille _Customers_ avec les premiers comptes adm
 
 Chaque société dispose d’un seul administrateur de société identifié par l’adresse électronique du compte, ainsi que par le prénom et le nom de l’administrateur. L’administrateur peut être affecté à d’autres sociétés en tant qu’utilisateur, mais il peut être un administrateur pour une seule société.
 
-Après la création du compte, l’administrateur de l’entreprise définit la structure de l’entreprise de [équipes](account-company-structure.md), configure les [ utilisateurs de l’entreprise](account-company-users.md) et établit les [rôles et autorisations](account-company-roles-permissions.md) pour chacun d’eux.
+Après la création du compte, l’administrateur de l’entreprise définit la structure de l’entreprise de [équipes](account-company-structure.md), configure les [&#x200B; utilisateurs de l’entreprise](account-company-users.md) et établit les [rôles et autorisations](account-company-roles-permissions.md) pour chacun d’eux.
 
 ### Définition du mot de passe de l’administrateur de la société avant la première connexion
 
@@ -58,7 +58,7 @@ Après la création du compte, l’administrateur de l’entreprise définit la 
 
    >[!NOTE]
    >
-   >Les cibles d’adresse électronique et le contenu de l’adresse électronique sont déterminés par les options spécifiées dans la configuration [ des options d’adresse électronique de l’entreprise ](email-company-configuration.md).
+   >Les cibles d’adresse électronique et le contenu de l’adresse électronique sont déterminés par les options spécifiées dans la configuration [&#x200B; des options d’adresse électronique de l’entreprise &#x200B;](email-company-configuration.md).
 
 1. Suivez les instructions et cliquez sur [!UICONTROL **link**] pour définir leur mot de passe.
 

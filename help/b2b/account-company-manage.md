@@ -176,7 +176,7 @@ Méthode 2 : **Modification complète**
 
 ## Attribution d’un représentant commercial
 
-Le représentant commercial est un [utilisateur administrateur](../systems/permissions.md) qui se voit attribuer le rôle de point de contact d’un compte de société et qui reçoit tous les [ messages électroniques](../b2b/enable-basic-features.md#configure-company-email-options) automatisés liés à la société. Un seul représentant commercial peut être affecté par compte de société, mais un seul représentant commercial peut gérer plusieurs comptes de société. Le compte d’utilisateur administrateur par défaut est attribué en tant que représentant commercial, sauf si un autre utilisateur administrateur est affecté.
+Le représentant commercial est un [utilisateur administrateur](../systems/permissions.md) qui se voit attribuer le rôle de point de contact d’un compte de société et qui reçoit tous les [&#x200B; messages électroniques](../b2b/enable-basic-features.md#configure-company-email-options) automatisés liés à la société. Un seul représentant commercial peut être affecté par compte de société, mais un seul représentant commercial peut gérer plusieurs comptes de société. Le compte d’utilisateur administrateur par défaut est attribué en tant que représentant commercial, sauf si un autre utilisateur administrateur est affecté.
 
 Le nom et l’adresse électronique du représentant commercial affecté sont visibles par les membres de la société à partir de la page du compte et des devis de la société.
 

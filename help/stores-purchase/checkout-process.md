@@ -22,7 +22,7 @@ L’objectif du processus de passage en caisse est de collecter les informations
 
 La première étape du processus de passage en caisse est que le client remplisse les informations d’adresse de livraison et choisisse le mode de livraison. Si le client dispose d’un compte, l’adresse de livraison est saisie automatiquement, mais peut être modifiée si nécessaire.
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Le format de l’adresse postale du destinataire et de l’expéditeur est déterminé par les propriétés de l’ [ attribut d’adresse du client ](../customers/address-attributes.md). Le paramètre de validation d’entrée détermine les caractères valides qui peuvent être utilisés dans une adresse de livraison.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Le format de l’adresse postale du destinataire et de l’expéditeur est déterminé par les propriétés de l’ [&#x200B; attribut d’adresse du client &#x200B;](../customers/address-attributes.md). Le paramètre de validation d’entrée détermine les caractères valides qui peuvent être utilisés dans une adresse de livraison.
 
 La barre de progression en haut de la page suit chaque étape du processus de passage en caisse, et le résumé de la commande indique que les informations saisies jusqu’à présent.
 
@@ -112,7 +112,7 @@ La confirmation de commande s’affiche une fois la commande passée. Pour les c
 
 La page de confirmation de commande est également appelée la page _Succès_ et est utilisée par les programmes d’analyse pour suivre les conversions.
 
-![ La page de confirmation de commande affiche un message de succès et le numéro de commande](./assets/storefront-checkout-confirmation-customer.png){width="700" zoomable="yes"}
+![&#x200B; La page de confirmation de commande affiche un message de succès et le numéro de commande](./assets/storefront-checkout-confirmation-customer.png){width="700" zoomable="yes"}
 
 ## Options de passage en caisse
 

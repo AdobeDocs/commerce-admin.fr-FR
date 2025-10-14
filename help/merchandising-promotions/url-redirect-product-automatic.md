@@ -44,7 +44,7 @@ Votre boutique peut être configurée pour générer automatiquement une redirec
 
 1. Recherchez le produit dans la liste et cliquez pour ouvrir l’enregistrement.
 
-1. Développez ![Sélecteur d’extension ](../assets/icon-display-expand.png) la section **[!UICONTROL Search Engine Optimization]** .
+1. Développez ![Sélecteur d’extension &#x200B;](../assets/icon-display-expand.png) la section **[!UICONTROL Search Engine Optimization]** .
 
    ![Optimisation du moteur de recherche de produits - redirection permanente](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 

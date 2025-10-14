@@ -16,7 +16,7 @@ Le prix de niveau vous permet d’offrir une remise quantitative sur une liste d
 
 Si vous avez de nombreux produits à mettre à jour, il est plus efficace d’importer les modifications de prix du niveau, plutôt que de les saisir individuellement. Pour plus d’informations, voir [Prix du niveau d’importation](../systems/data-import-price-tier.md).
 
-![ Prix de niveau sur une page de produit storefront](./assets/product-price-tier-storefront.png){width="700" zoomable="yes"}
+![&#x200B; Prix de niveau sur une page de produit storefront](./assets/product-price-tier-storefront.png){width="700" zoomable="yes"}
 
 La page produit calcule la remise sur la quantité et affiche un message tel que :
 

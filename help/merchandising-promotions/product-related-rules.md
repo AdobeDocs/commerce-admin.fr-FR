@@ -20,7 +20,7 @@ Comme plusieurs règles actives peuvent être déclenchées en même temps, vous
 
 Pour accéder aux règles de produit connexes, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
 
-![ Liste de règles de produits connexes](./assets/related-products-rules.png){width="700" zoomable="yes"}
+![&#x200B; Liste de règles de produits connexes](./assets/related-products-rules.png){width="700" zoomable="yes"}
 
 ## Descriptions des colonnes
 

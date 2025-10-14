@@ -40,7 +40,7 @@ Les instructions suivantes indiquent comment ajouter une liste Produits à un bl
 
 | Outil | Icon | Description |
 | --------- | ------------- | ----------------- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de produits et son contenu vers un autre emplacement sur la scène. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de produits et son contenu vers un autre emplacement sur la scène. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _Modifier les produits_, dans laquelle vous pouvez choisir la liste de produits et modifier les propriétés du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le conteneur de produits actuel et son contenu. |
 | Afficher | ![Afficher l’icône](./assets/pb-icon-show.png){width="25"} | Affiche le conteneur de produits masqué et son contenu. |

@@ -42,7 +42,7 @@ ht-degree: 0%
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Quote Lifetime (days)] | Site Web | Détermine la durée de vie [d’un prix entre guillemets](../../stores-purchase/cart-configuration.md#quote-lifetime), en jours. |
-| [!UICONTROL After Adding a Product Redirect to Shopping Cart] | Affichage en magasin | Détermine si la page [ panier apparaît](../../stores-purchase/cart-configuration.md#redirect-to-cart) immédiatement après l’ajout d’un produit au panier. Options : `Yes` / `No` |
+| [!UICONTROL After Adding a Product Redirect to Shopping Cart] | Affichage en magasin | Détermine si la page [&#x200B; panier apparaît](../../stores-purchase/cart-configuration.md#redirect-to-cart) immédiatement après l’ajout d’un produit au panier. Options : `Yes` / `No` |
 | [!UICONTROL Number of Items to Display Pager] | Affichage en magasin | Détermine le nombre d’articles dans le panier avant le déclenchement du pager. Valeur par défaut : `20` |
 | [!UICONTROL Show Cross-sell Items in the Shopping Cart] | Affichage en magasin | Indique si des [articles de ventes croisées](../../catalog/related-products-up-sells-cross-sells.md#cross-sells) sont affichés dans le panier, ce qui offre des options de vente supplémentaires aux clients. Options : `Yes` (par défaut) / `No` |
 | [!UICONTROL Grouped Product Image] | Affichage en magasin | Détermine l’image [miniature](../../stores-purchase/cart-configuration.md#cart-thumbnails) qui apparaît pour un [produit groupé](../../catalog/product-create-grouped.md) dans le panier. Options : `Product Thumbnail Itself` / `Parent Product Thumbnail` |
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Payment Failed Emails]
 
-![ Courriers électroniques en échec du paiement ](./assets/checkout-payment-failed-emails.png)<!-- zoom -->
+![&#x200B; Courriers électroniques en échec du paiement &#x200B;](./assets/checkout-payment-failed-emails.png)<!-- zoom -->
 
 <!-- [*Payment Failed Emails*](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-payment-failed-emails) -->
 

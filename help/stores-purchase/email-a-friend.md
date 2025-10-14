@@ -24,7 +24,7 @@ Le lien Email permet à vos clients de partager facilement des liens vers des pr
 
 1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) et définissez les options suivantes :**[!UICONTROL Email Templates]**
 
-   ![ Configuration de catalogue - modèles d’email](../configuration-reference/catalog/assets/email-to-a-friend-email-templates.png){width="600" zoomable="yes"}
+   ![&#x200B; Configuration de catalogue - modèles d’email](../configuration-reference/catalog/assets/email-to-a-friend-email-templates.png){width="600" zoomable="yes"}
 
    Pour une description détaillée de chacun de ces paramètres de configuration, voir [Modèles d’e-mail](../configuration-reference/catalog/email-to-a-friend.md) dans le _Guide de référence de configuration_.
 

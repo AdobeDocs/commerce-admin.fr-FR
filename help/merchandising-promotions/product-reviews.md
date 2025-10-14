@@ -39,7 +39,7 @@ Votre configuration détermine si les clients doivent ouvrir un compte dans votr
 
 Le nombre d’étoiles indique la note de satisfaction du produit. Les visiteurs peuvent cliquer sur le lien pour lire les avis et écrire les leurs. À titre d’incitation, les clients peuvent recevoir des points de récompense pour avoir envoyé une révision. Lorsqu’une révision est soumise, elle est envoyée à l’administrateur pour modération. Une fois approuvée, la révision est publiée dans votre boutique.
 
-![Exemple de storefront - Onglet Révisions ](./assets/storefront-reviews-tab.png){width="700" zoomable="yes"}
+![Exemple de storefront - Onglet Révisions &#x200B;](./assets/storefront-reviews-tab.png){width="700" zoomable="yes"}
 
 ### [!UICONTROL My Product Reviews]
 

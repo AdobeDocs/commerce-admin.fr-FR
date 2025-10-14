@@ -30,7 +30,7 @@ La boîte à outils de bannière s’affiche lorsque vous pointez sur le contene
 
 | Outil | Icon | Description |
 |--- |--- |--- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace la bannière vers une autre position sur la scène. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace la bannière vers une autre position sur la scène. |
 | (libellé) | Bannière | Identifie le conteneur de contenu actuel en tant que bannière. Pointez sur le conteneur pour afficher la boîte à outils. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Modifier la bannière , qui permet de modifier les propriétés de la bannière et du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque la bannière active. |
@@ -140,7 +140,7 @@ Si vous définissez le _Type d’arrière-plan_ sur `Image`, utilisez les param�
   | ---- | ----------- |
   | [!UICONTROL Upload] | Télécharge un fichier image de votre ordinateur local dans la galerie, puis l’applique comme image d’arrière-plan pour la bannière. |
   | [!UICONTROL Select from Gallery] | Vous invite à choisir une image existante de la galerie comme image d’arrière-plan pour la bannière. |
-  | ![ Icône Appareil photo ](./assets/pb-icon-camera.png){width="25"} | Vous permet de faire glisser l’image vers la mosaïque de la caméra ou d’accéder à l’image dans votre système de fichiers local. |
+  | ![&#x200B; Icône Appareil photo &#x200B;](./assets/pb-icon-camera.png){width="25"} | Vous permet de faire glisser l’image vers la mosaïque de la caméra ou d’accéder à l’image dans votre système de fichiers local. |
 
   {style="table-layout:auto"}
 
@@ -296,7 +296,7 @@ Vous pouvez modifier le contenu de la bannière directement sur la scène ou lor
    - Cliquez sur l’échantillon **Aucune couleur** et choisissez-en un.
    - Dans le champ **Aucune couleur** , saisissez un nom de couleur valide ou une valeur hexadécimale.
 
-   ![ Couleur de recouvrement ](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
+   ![&#x200B; Couleur de recouvrement &#x200B;](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 

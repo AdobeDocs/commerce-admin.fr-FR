@@ -86,7 +86,7 @@ Le processus d’installation [!DNL Inventory Management] ajoute tous les module
 
 Lorsqu’elle est installée, mise à niveau ou mise à jour, l’option _[!UICONTROL Manage Stock]_&#x200B;dans l’Administration est activée par défaut. Cette option permet le suivi et la gestion des stocks, mais n’affecte pas le statut du module. Pour désactiver les modules, reportez-vous à la section suivante.
 
-Pour plus d’informations sur les configurations, voir [ Configuration d’Inventory management ](configuration.md).
+Pour plus d’informations sur les configurations, voir [&#x200B; Configuration d’Inventory management &#x200B;](configuration.md).
 
 ## Désactiver Inventory management
 

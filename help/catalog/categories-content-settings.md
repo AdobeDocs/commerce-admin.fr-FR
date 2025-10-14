@@ -24,7 +24,7 @@ Les paramètres _[!UICONTROL Content]_&#x200B;déterminent tout contenu supplém
 
 1. En haut à droite de la zone **[!UICONTROL Description]**, cliquez sur **[!UICONTROL Edit with Page Builder]**.
 
-1. Utilisez les outils de contenu [[!DNL Page Builder]](../page-builder/introduction.md) pour [ modifier le texte existant ](../page-builder/text.md) et ajouter d’autres contenus (si nécessaire).
+1. Utilisez les outils de contenu [[!DNL Page Builder]](../page-builder/introduction.md) pour [&#x200B; modifier le texte existant &#x200B;](../page-builder/text.md) et ajouter d’autres contenus (si nécessaire).
 
 ## [!DNL Page Builder] preview
 

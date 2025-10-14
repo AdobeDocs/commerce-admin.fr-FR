@@ -82,7 +82,7 @@ ht-degree: 2%
 
 ## [!UICONTROL Sitemap File Limits]
 
-![ Limites de fichier plan du site ](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
+![&#x200B; Limites de fichier plan du site &#x200B;](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
 
 <!-- [Sitemap File Limits](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 

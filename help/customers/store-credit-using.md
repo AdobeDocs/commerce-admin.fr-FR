@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Les administrateurs de magasin peuvent afficher le solde et l’historique du crédit du compte client, ainsi que appliquer le crédit de magasin à un achat.
 
-![ Solde du crédit client et historique ](assets/store-credit-balance-history.png){width="600" zoomable="yes"}
+![&#x200B; Solde du crédit client et historique &#x200B;](assets/store-credit-balance-history.png){width="600" zoomable="yes"}
 
 ## Afficher le solde du crédit
 

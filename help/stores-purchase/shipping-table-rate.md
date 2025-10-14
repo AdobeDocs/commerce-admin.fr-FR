@@ -120,7 +120,7 @@ La première étape consiste à renseigner les paramètres par défaut pour les 
    - Les plages de codes postaux ne sont pas prises en charge. Utilisez un astérisque (*) pour autoriser tous les codes dans la région/l’état ou spécifiez un seul code pour un emplacement spécifique dans la colonne _[!UICONTROL Zip/Postal Code]_.
    - Les valeurs de la colonne _[!UICONTROL Weight (and above)]_&#x200B;peuvent avoir un maximum de quatre décimales (telles que `2.5075`). L’utilisation de davantage de décimales dans les données entraîne l’échec de l’importation.
 
-   ![ Poids/Destination (Australie)](./assets/table-rates-weight-destination-csv.png){width="500"}
+   ![&#x200B; Poids/Destination (Australie)](./assets/table-rates-weight-destination-csv.png){width="500"}
 
 1. Enregistrez le fichier `tablerates.csv`.
 

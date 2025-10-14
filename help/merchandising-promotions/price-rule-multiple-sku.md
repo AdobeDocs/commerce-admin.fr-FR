@@ -45,11 +45,11 @@ Avant de commencer, assurez-vous que les [Propriétés Storefront](../catalog/at
 
    - Cliquez sur _Ajouter_ (![Ajouter une icône](../assets/icon-add-green-circle.png)) au début de la ligne suivante et, dans la liste sous **[!UICONTROL Product Attribute]**, cliquez sur `SKU`.
 
-     ![Condition de règle de prix du catalogue - SKU est l’un des ](./assets/multiple-skus-condition1a.png){width="600" zoomable="yes"}
+     ![Condition de règle de prix du catalogue - SKU est l’un des &#x200B;](./assets/multiple-skus-condition1a.png){width="600" zoomable="yes"}
 
    - Pour la comparaison, vous disposez d’options. Si vous souhaitez en trouver au moins une dans une liste de SKU, `select is one of`. Si vous souhaitez localiser un groupe de SKU que vous devez tous trouver pour appliquer, sélectionnez `is`. Nous vous recommandons de sélectionner `is one of`.
 
-     ![Condition de règle de prix du catalogue - SKU est l’un des ](./assets/multiple-skus-condition1b.png){width="600" zoomable="yes"}
+     ![Condition de règle de prix du catalogue - SKU est l’un des &#x200B;](./assets/multiple-skus-condition1b.png){width="600" zoomable="yes"}
 
    - Pour remplir la condition, cliquez sur le lien plus (**...**) et cliquez sur l’icône _Sélecteur_ (![Icône Liste](../assets/icon-list-chooser.png)) pour la liste des produits disponibles.
 

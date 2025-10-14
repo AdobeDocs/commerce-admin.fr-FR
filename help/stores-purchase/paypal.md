@@ -22,7 +22,7 @@ PayPal est un leader mondial des paiements en ligne et un moyen rapide et sécur
 
 ## Compte professionnel PayPal
 
-Pour proposer PayPal comme mode de paiement dans votre boutique, vous devez disposer d&#39;un compte PayPal [compte professionnel][1] et/ou d&#39;un [compte PayPal Payflow][2]. Les conditions requises pour le compte sont spécifiées dans la description de chaque solution PayPal. Votre compte marchand PayPal est également utilisé pour gérer les [ filtres de fraude](#paypal-fraud-management-filters) appliqués aux achats effectués à partir de votre boutique.
+Pour proposer PayPal comme mode de paiement dans votre boutique, vous devez disposer d&#39;un compte PayPal [compte professionnel][1] et/ou d&#39;un [compte PayPal Payflow][2]. Les conditions requises pour le compte sont spécifiées dans la description de chaque solution PayPal. Votre compte marchand PayPal est également utilisé pour gérer les [&#x200B; filtres de fraude](#paypal-fraud-management-filters) appliqués aux achats effectués à partir de votre boutique.
 
 Les clients qui utilisent PayPal Express Checkout ou Express Checkout pour Payflow Pro doivent disposer d&#39;un compte acheteur PayPal. PayPal Payments Standard (Website Payments Standard dans certains pays) peut être utilisé directement ou par l&#39;intermédiaire d&#39;un compte acheteur lorsque le commerçant active _Compte PayPal facultatif_. Par défaut, ce paramètre est activé afin que les clients puissent choisir de saisir leurs informations de carte de crédit ou de créer un compte acheteur avec PayPal. Lorsqu&#39;ils sont désactivés, les clients doivent d&#39;abord créer un compte acheteur PayPal avant d&#39;effectuer un achat.
 

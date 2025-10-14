@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Un compte de carte-cadeau est automatiquement créé pour chaque carte-cadeau achetée. La valeur de la carte-cadeau peut ensuite être appliquée à l’achat d’un produit dans votre boutique. Vous pouvez également créer des comptes de carte-cadeau à partir de l’administrateur en tant que promotion ou service pour les clients. Le numéro de compte de la carte-cadeau correspond au code de la carte-cadeau.
 
-![ Comptes Carte cadeau ](./assets/marketing-gift-card-accounts-grid.png){width="700" zoomable="yes"}
+![&#x200B; Comptes Carte cadeau &#x200B;](./assets/marketing-gift-card-accounts-grid.png){width="700" zoomable="yes"}
 
 ## Configuration des comptes de carte cadeau
 

@@ -31,7 +31,7 @@ Un représentant commercial peut créer un guillemet à partir des guillemets ou
 
 ### Créer un guillemet à partir de la grille entre guillemets
 
-1. Le représentant commercial se connecte à l’administrateur en tant qu’administrateur avec les [ autorisations d’exploitation commerciale ](../systems/permissions.md) pour gérer les devis.
+1. Le représentant commercial se connecte à l’administrateur en tant qu’administrateur avec les [&#x200B; autorisations d’exploitation commerciale &#x200B;](../systems/permissions.md) pour gérer les devis.
 
 1. Dans Admin, accédez à la grille [!UICONTROL Quotes] en sélectionnant **[!UICONTROL Sales]**, puis sélectionnez **[!UICONTROL Quotes]**.
 

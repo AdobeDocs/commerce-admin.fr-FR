@@ -97,7 +97,7 @@ Les attributs du client fournissent les informations nécessaires à la prise en
 
 1. Faites défiler l’écran jusqu’à la section **[!UICONTROL Storefront Properties]**.
 
-   ![ Attributs du client - propriétés storefront](./assets/attribute-customer-storefront-properties.png){width="600" zoomable="yes"}
+   ![&#x200B; Attributs du client - propriétés storefront](./assets/attribute-customer-storefront-properties.png){width="600" zoomable="yes"}
 
 1. Pour rendre l’attribut visible aux clients, définissez **[!UICONTROL Show on Storefront]** sur `Yes`.
 
@@ -117,7 +117,7 @@ Les attributs du client fournissent les informations nécessaires à la prise en
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Attribute]**.
 
-   ![ Attributs du client - étiquettes/options](./assets/attribute-customer-manage-label-options.png){width="600" zoomable="yes"}
+   ![&#x200B; Attributs du client - étiquettes/options](./assets/attribute-customer-manage-label-options.png){width="600" zoomable="yes"}
 
 ## Descriptions des champs
 

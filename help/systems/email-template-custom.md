@@ -48,7 +48,7 @@ Une fois la [configuration](email-templates.md#configure-email-templates) termin
 
 1. Dans la section **[!UICONTROL Load default template]** , cliquez sur le sélecteur **[!UICONTROL Template]** et choisissez `Magento_Email` > `Header`.
 
-   ![ En-tête du modèle de courrier électronique - Charger le modèle par défaut](./assets/email-template-select-default-header.png){width="600" zoomable="yes"}
+   ![&#x200B; En-tête du modèle de courrier électronique - Charger le modèle par défaut](./assets/email-template-select-default-header.png){width="600" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Load Template]**.
 
@@ -128,7 +128,7 @@ Le pied de page du modèle d’email contient la ligne de fermeture et de signat
 
    Dans la grille, les modèles peuvent être triés et filtrés par colonne _[!UICONTROL Subject]_.
 
-   ![ Pied de page de modèle de courrier électronique - informations](./assets/email-template-footer-information.png){width="600" zoomable="yes"}
+   ![&#x200B; Pied de page de modèle de courrier électronique - informations](./assets/email-template-footer-information.png){width="600" zoomable="yes"}
 
 1. Dans la zone **[!UICONTROL Template Content]**, modifiez l’HTML selon vos besoins.
 
@@ -158,7 +158,7 @@ Le pied de page du modèle d’email contient la ligne de fermeture et de signat
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
 
-![ Configuration de la conception d’email transactionnel - modèle de pied de page](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
+![&#x200B; Configuration de la conception d’email transactionnel - modèle de pied de page](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
 
 ## Modèles de message
 
@@ -170,7 +170,7 @@ La personnalisation du corps de chaque message est identique à celle de l&#39;e
 
 1. Cliquez sur **[!UICONTROL Add New Template]**.
 
-   ![ Modèles d’email - Charger le modèle par défaut](./assets/email-templates-message-load-default.png){width="600" zoomable="yes"}
+   ![&#x200B; Modèles d’email - Charger le modèle par défaut](./assets/email-templates-message-load-default.png){width="600" zoomable="yes"}
 
 1. Procédez comme suit :
 
@@ -188,7 +188,7 @@ La personnalisation du corps de chaque message est identique à celle de l&#39;e
 
 1. Prenez note du chemin d’accès **[!UICONTROL Currently Used For]** au modèle, qui est le chemin d’accès utilisé pour mettre à jour la configuration.
 
-   ![ Modèles d’email - informations sur le modèle](./assets/email-template-message-information.png){width="600" zoomable="yes"}
+   ![&#x200B; Modèles d’email - informations sur le modèle](./assets/email-template-message-information.png){width="600" zoomable="yes"}
 
 1. Dans la zone **[!UICONTROL Template Content]**, modifiez l’HTML selon vos besoins.
 

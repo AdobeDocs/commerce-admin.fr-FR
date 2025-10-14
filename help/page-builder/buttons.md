@@ -40,7 +40,7 @@ Lorsque vous utilisez le type de contenu Boutons , vous ajoutez et modifiez des 
 
 | Outil | Icon | Description |
 | --------- | ----------------- | ----------- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de boutons vers un autre emplacement valide sur la page. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de boutons vers un autre emplacement valide sur la page. |
 | Ajouter | ![Icône Ajouter](./assets/pb-icon-add-button.png){width="25"} | Ajoute un bouton au conteneur. |
 | (libellé) | Bouton | Identifie le conteneur actif comme un élément de bouton. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Boutons de modification , qui permet de modifier les propriétés du conteneur. |
@@ -173,7 +173,7 @@ Les sections suivantes décrivent une série d’étapes pour commencer avec un 
 
    L’ensemble complet de boutons empilés apparaît sur l’étape, avec un bouton principal et deux boutons secondaires.
 
-   ![Boutons empilés sur la scène ](./assets/pb-elements-buttons-stacked.png){width="500" zoomable="yes"}
+   ![Boutons empilés sur la scène &#x200B;](./assets/pb-elements-buttons-stacked.png){width="500" zoomable="yes"}
 
 ## Déplacer un bouton
 

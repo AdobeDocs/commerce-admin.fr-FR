@@ -139,7 +139,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Browser Capabilities Detection]
 
-![ Web > Détection des fonctionnalités de navigateur](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
+![&#x200B; Web > Détection des fonctionnalités de navigateur](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
 
 <!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
 

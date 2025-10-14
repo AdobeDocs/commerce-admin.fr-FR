@@ -36,7 +36,7 @@ La boîte à outils de mappage s’affiche lorsque vous placez le pointeur de la
 
 | Outil | Icon | Description |
 |--- |--- |--- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace la carte vers un autre emplacement de la scène. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace la carte vers un autre emplacement de la scène. |
 | (libellé) | [!UICONTROL Map] | Identifie le conteneur de contenu actuel en tant que mappage. Pointez sur le conteneur de carte pour afficher la boîte à outils. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Modifier la carte, qui permet de modifier les propriétés de la carte et du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque la carte actuelle. |
@@ -74,7 +74,7 @@ Selon que vous disposez déjà d’une clé [!DNL Google Maps], utilisez l’une
 
    ![Outils de contenu avancés](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
-   Pour plus d’informations sur les options de configuration des outils avancés de gestion de contenu, consultez le [ Guide de référence de configuration ](../configuration-reference/general/content-management.md).
+   Pour plus d’informations sur les options de configuration des outils avancés de gestion de contenu, consultez le [&#x200B; Guide de référence de configuration &#x200B;](../configuration-reference/general/content-management.md).
 
 1. Par **[!UICONTROL Google Maps API Key]**, collez la clé que vous avez copiée à l’étape 1.
 

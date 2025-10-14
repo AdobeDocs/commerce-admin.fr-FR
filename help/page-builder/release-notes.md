@@ -26,9 +26,9 @@ Ces notes de mise à jour décrivent les versions de [!DNL Page Builder] et incl
 
 ## 1.7.2 pour Commerce 2.4.5
 
-![Nouvelle ](../assets/new.svg) **Nouvelle entité wrapper - [!DNL Columns] conteneur introduit pour les dispositions de colonnes** - Auparavant, les utilisateurs pouvaient ajouter des colonnes uniquement dans un autre type de contenu container/wrapper, tel qu’un [!DNL Tab] ou un [!DNL Row]. Désormais, le [!DNL Column] a son propre wrapper et peut être ajouté directement sur scène. De plus, le conteneur [!DNL Columns] comporte un élément settings où les utilisateurs peuvent spécifier la configuration de cette entité wrapper.<!--- PB-500-->
+![Nouvelle &#x200B;](../assets/new.svg) **Nouvelle entité wrapper - [!DNL Columns] conteneur introduit pour les dispositions de colonnes** - Auparavant, les utilisateurs pouvaient ajouter des colonnes uniquement dans un autre type de contenu container/wrapper, tel qu’un [!DNL Tab] ou un [!DNL Row]. Désormais, le [!DNL Column] a son propre wrapper et peut être ajouté directement sur scène. De plus, le conteneur [!DNL Columns] comporte un élément settings où les utilisateurs peuvent spécifier la configuration de cette entité wrapper.<!--- PB-500-->
 
-![ Nouveau ](../assets/new.svg) **Nouvelles options de menu pour dupliquer, masquer et supprimer des groupes de colonnes** - Grâce à ces nouvelles options, les utilisateurs peuvent dupliquer, masquer et supprimer des groupes [!DNL Columns] — comme ils le peuvent avec les types de contenu.<!--- PB-507-->
+![&#x200B; Nouveau &#x200B;](../assets/new.svg) **Nouvelles options de menu pour dupliquer, masquer et supprimer des groupes de colonnes** - Grâce à ces nouvelles options, les utilisateurs peuvent dupliquer, masquer et supprimer des groupes [!DNL Columns] — comme ils le peuvent avec les types de contenu.<!--- PB-507-->
 
 ![Nouveau](../assets/new.svg) <!-- Issue 594 -->**Nouvelle prise en charge de colonnes multilignes ajoutée au groupe de colonnes** - Avec cet ajout, les utilisateurs peuvent manipuler plusieurs lignes de colonnes dans un groupe [!DNL Columns] pour rendre les dispositions de colonnes beaucoup plus flexibles.<!--- PB-108-->
 
@@ -40,7 +40,7 @@ Voir [Disposition - Colonne](./column.md) pour plus d’informations sur l’uti
 
 ![Problème corrigé](../assets/fix.svg) Les vendeurs peuvent désormais ajouter un texte alternatif (`alt_text`) aux images (image, bannière, diapositive) pour améliorer l’accessibilité du contenu.<!--- PB-1193-->
 
-![ Correction d’un problème ](../assets/fix.svg) Les utilisateurs administrateurs disposant d’autorisations limitées à la modification du contenu ne voyaient plus d’erreur lors de l’utilisation du Créateur de pages pour ajouter un widget de produit à une page CMS. Page Builder affiche également un nombre de produits précis sur la page des paramètres du widget. Auparavant, Page Builder nécessitait des autorisations pour le module Catalog lors de la récupération du nombre de produits et affichait cette erreur : `A technical problem with the server created an error. Try again to continue what you were doing. If the problem persists, try again later`. <!--- MC-42779-->
+![&#x200B; Correction d’un problème &#x200B;](../assets/fix.svg) Les utilisateurs administrateurs disposant d’autorisations limitées à la modification du contenu ne voyaient plus d’erreur lors de l’utilisation du Créateur de pages pour ajouter un widget de produit à une page CMS. Page Builder affiche également un nombre de produits précis sur la page des paramètres du widget. Auparavant, Page Builder nécessitait des autorisations pour le module Catalog lors de la récupération du nombre de produits et affichait cette erreur : `A technical problem with the server created an error. Try again to continue what you were doing. If the problem persists, try again later`. <!--- MC-42779-->
 
 ![Problème corrigé](../assets/fix.svg) Les problèmes d’affichage avec le menu Format du générateur de pages sont désormais résolus avec la mise à niveau de la bibliothèque TinyMCE 5. <!--- AC-446-->
 
@@ -48,7 +48,7 @@ Voir [Disposition - Colonne](./column.md) pour plus d’informations sur l’uti
 
 ![Problème corrigé](../assets/fix.svg) Le Créateur de pages affiche désormais toutes les options comme prévu dans le menu Options Taille de police. Auparavant, toutes les options n’étaient pas affichées. <!--- AC-1056-->
 
-![ Correction d’un problème ](../assets/fix.svg) Mise à niveau de la dépendance du compositeur `phpgt/dom` pour l’extension `magento/magento2-page-builder` vers les versions les plus récentes. <!--- magento/magento2-page-builder/pull/779-->
+![&#x200B; Correction d’un problème &#x200B;](../assets/fix.svg) Mise à niveau de la dépendance du compositeur `phpgt/dom` pour l’extension `magento/magento2-page-builder` vers les versions les plus récentes. <!--- magento/magento2-page-builder/pull/779-->
 
 ![Problème corrigé](../assets/fix.svg) Le générateur de pages ne redimensionne plus les boîtes de dialogue Insérer un lien et Insérer une image lors de l’affichage du curseur dans une petite colonne. <!--- AC-973-->
 
@@ -60,7 +60,7 @@ Voir [Disposition - Colonne](./column.md) pour plus d’informations sur l’uti
 
 ![Correction d’un problème](../assets/fix.svg) Correction des anomalies avec le positionnement des boîtes de dialogue Insérer/Modifier l’image et Insérer/Modifier le lien . <!--- AC-397-->
 
-![ Correction d’un problème ](../assets/fix.svg) Le Créateur de pages ne renvoie plus d’erreur lorsque vous cliquez sur l’ **Éditeur de texte** pour une bannière. <!--- AC-398-->
+![&#x200B; Correction d’un problème &#x200B;](../assets/fix.svg) Le Créateur de pages ne renvoie plus d’erreur lorsque vous cliquez sur l’ **Éditeur de texte** pour une bannière. <!--- AC-398-->
 
 ![Problème corrigé](../assets/fix.svg) Le Créateur de pages ne convertit plus tous les blocs dynamiques en une seule langue lors de la mise à niveau. <!--- MC-42265-->
 
@@ -78,53 +78,53 @@ Voir [Disposition - Colonne](./column.md) pour plus d’informations sur l’uti
 
 ![Nouveau](../assets/new.svg) <!-- Issue 635, 557,  -->**Ajout de l’espacement dans les scènes** - Les lignes et les colonnes offrent désormais des espaces supplémentaires autour des types de contenu contenus contenus sur la scène, mais pas sur le storefront. L’espacement des scènes supplémentaire facilite l’accès aux menus des options de survol avec la souris pour les types de contenu conteneur et contenu.
 
-![Correction d’un problème ](../assets/fix.svg) <!-- MC-37348 -->**Correction du défilement automatique vers les révisions** - Le défilement automatique vers les révisions de produits sur le storefront est désormais résolu.
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- MC-37348 -->**Correction du défilement automatique vers les révisions** - Le défilement automatique vers les révisions de produits sur le storefront est désormais résolu.
 
-![ Problème corrigé ](../assets/fix.svg) <!-- MC-36227 -->**Contenu recadré** : la catégorie longue et les descriptions de produits ne sont plus recadrées.
+![&#x200B; Problème corrigé &#x200B;](../assets/fix.svg) <!-- MC-36227 -->**Contenu recadré** : la catégorie longue et les descriptions de produits ne sont plus recadrées.
 
-![ Problème corrigé ](../assets/fix.svg) <!-- MC-35402 -->**Contenu de catégorie à fond plein vide fixe** : le contenu de la catégorie peut désormais s’afficher dans une disposition pleine largeur ou fond perdu.
+![&#x200B; Problème corrigé &#x200B;](../assets/fix.svg) <!-- MC-35402 -->**Contenu de catégorie à fond plein vide fixe** : le contenu de la catégorie peut désormais s’afficher dans une disposition pleine largeur ou fond perdu.
 
 ![Correction d’un problème](../assets/fix.svg) <!-- MC-37989 -->**Améliorations de la sécurité**
 
 ## 1.5.1 pour Adobe Commerce 2.4.1-p1
 
-![Correction d’un problème ](../assets/fix.svg) <!-- PB-1140, MC-38812 -->**Affichage d’erreur** - Correction d’un problème en raison duquel [!DNL Page Builder] affichait une erreur lors de l’ajout de sous-catégories de catalogue dans l’administrateur.
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- PB-1140, MC-38812 -->**Affichage d’erreur** - Correction d’un problème en raison duquel [!DNL Page Builder] affichait une erreur lors de l’ajout de sous-catégories de catalogue dans l’administrateur.
 
 ## 1.5.0 pour Adobe Commerce 2.4.1
 
 ![Nouveau](../assets/new.svg) <!-- Issue 510, 511, 512, 513 -->**Modification immersive en plein écran** - La modification de contenu [!DNL Page Builder] est désormais en plein écran uniquement pour toutes les zones contrôlées par [!DNL Page Builder]. Cette modification inclut les pages CMS, les pages de produits et de catégories, les blocs et les blocs dynamiques. La modification en plein écran met l’accent sur votre contenu et fournit une vue qui correspond mieux à l’expérience de l’utilisateur sur le storefront.
 
-![Nouvel ](../assets/new.svg) <!-- Issue 544 -->**[!DNL Page Builder] aperçus de contenu &#x200B;**- Par défaut, [!DNL Page Builder] fournit désormais des aperçus de contenu non seulement pour les pages CMS, les blocs et les blocs dynamiques, mais également pour les pages de produits et de catégories. Vous pouvez configurer cette fonction pour qu’elle soit activée ou désactivée pour les pages de produits et de catégories à l’aide du nouveau paramètre [!DNL Page Builder] Aperçu de contenu, accessible dans la configuration du magasin sous Gestion de contenu > Outils de contenu avancé.
+![Nouvel &#x200B;](../assets/new.svg) <!-- Issue 544 -->**[!DNL Page Builder] aperçus de contenu &#x200B;**- Par défaut, [!DNL Page Builder] fournit désormais des aperçus de contenu non seulement pour les pages CMS, les blocs et les blocs dynamiques, mais également pour les pages de produits et de catégories. Vous pouvez configurer cette fonction pour qu’elle soit activée ou désactivée pour les pages de produits et de catégories à l’aide du nouveau paramètre [!DNL Page Builder] Aperçu de contenu, accessible dans la configuration du magasin sous Gestion de contenu > Outils de contenu avancé.
 
 ![New](../assets/new.svg) <!-- Issue 543 -->**Accès amélioré aux descriptions courtes de produit** - Par défaut, une brève description de produit s’affiche maintenant avant la description plus longue. Cette modification entraîne une correspondance avec l’ordre dans lequel ils apparaissent sur le storefront et évite la nécessité de faire défiler le contenu de description plus longue pour accéder à la brève description.
 
 ![Nouveau](../assets/new.svg) <!-- Issue 419 -->**Liens imbriqués empêchés dans les bannières et les diapositives** - L’ajout de liens vers le contenu et les éléments externes des bannières et des diapositives a créé des liens imbriqués qui ne s’affichaient pas ou ne se comportaient pas correctement sur le storefront. Pour résoudre ce problème, les liens ne peuvent plus être ajoutés à *la zone Texte du message et l’attribut Lien pour les bannières et les diapositives*.
 
-![ Correction d’un problème ](../assets/fix.svg) <!-- Issue 421 --> en raison duquel la définition du rayon de bordure vide sur un élément d’onglet provoquait des erreurs et endommageait le contenu de l’élément d’onglet.
+![&#x200B; Correction d’un problème &#x200B;](../assets/fix.svg) <!-- Issue 421 --> en raison duquel la définition du rayon de bordure vide sur un élément d’onglet provoquait des erreurs et endommageait le contenu de l’élément d’onglet.
 
-![Correction d’un problème ](../assets/fix.svg) <!-- Issue 422 --> Correction d’un problème en raison duquel l’ajout de certaines combinaisons de conditions au filtre Condition des produits provoquait des erreurs qui empêchaient l’enregistrement du formulaire Produits.
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- Issue 422 --> Correction d’un problème en raison duquel l’ajout de certaines combinaisons de conditions au filtre Condition des produits provoquait des erreurs qui empêchaient l’enregistrement du formulaire Produits.
 
-![ Correction d’un problème ](../assets/fix.svg) <!-- Issue 425 --> en raison duquel le type de contenu du curseur ne se comportait pas correctement lorsque le paramètre Boucle infinie était désactivé.
+![&#x200B; Correction d’un problème &#x200B;](../assets/fix.svg) <!-- Issue 425 --> en raison duquel le type de contenu du curseur ne se comportait pas correctement lorsque le paramètre Boucle infinie était désactivé.
 
-![Correction d’un problème ](../assets/fix.svg) <!-- Issue 426 --> Correction du prix publicitaire minimum de sorte qu’il fonctionne désormais dans [!DNL Page Builder].
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- Issue 426 --> Correction du prix publicitaire minimum de sorte qu’il fonctionne désormais dans [!DNL Page Builder].
 
-![Correction d’un problème ](../assets/fix.svg) <!-- Issue 436 --> Correction d’un problème dans Safari et IE 11 qui empêchait de faire glisser une image vers la zone de chargement dans les bannières et les diapositives.
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- Issue 436 --> Correction d’un problème dans Safari et IE 11 qui empêchait de faire glisser une image vers la zone de chargement dans les bannières et les diapositives.
 
-![Correction d’un problème ](../assets/fix.svg) <!-- Issue 525 --> Correction d’un problème en raison duquel le type de contenu du curseur ne réagissait pas dans Firefox.
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- Issue 525 --> Correction d’un problème en raison duquel le type de contenu du curseur ne réagissait pas dans Firefox.
 
-![Correction d’un problème ](../assets/fix.svg) <!-- Issue 567 --> Correction d’un problème en raison duquel la configuration du widget créait des sélecteurs incorrects dans le DOM pour les différentes apparences.
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- Issue 567 --> Correction d’un problème en raison duquel la configuration du widget créait des sélecteurs incorrects dans le DOM pour les différentes apparences.
 
-![Correction d’un problème ](../assets/fix.svg) <!-- Issue 609 --> Correction d’un problème en raison duquel la barre d’outils En-tête masquait le menu d’options du type de contenu, ce qui empêchait l’accès au formulaire et à d’autres options.
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- Issue 609 --> Correction d’un problème en raison duquel la barre d’outils En-tête masquait le menu d’options du type de contenu, ce qui empêchait l’accès au formulaire et à d’autres options.
 
-![Correction d’un problème ](../assets/fix.svg) <!-- Issue 612, 613 --> Correction de problèmes en raison desquels les curseurs et plusieurs lignes utilisant des arrière-plans de parallaxe ne s’affichaient pas correctement après avoir basculé plusieurs fois en mode plein écran.
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- Issue 612, 613 --> Correction de problèmes en raison desquels les curseurs et plusieurs lignes utilisant des arrière-plans de parallaxe ne s’affichaient pas correctement après avoir basculé plusieurs fois en mode plein écran.
 
-![Correction d’un problème ](../assets/fix.svg) <!--MC-35220--> Correction d’un problème en raison duquel la tentative de copie du contenu d’un type de contenu En-tête vers un type de contenu Texte empêchait l’enregistrement de [!DNL Page Builder].
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!--MC-35220--> Correction d’un problème en raison duquel la tentative de copie du contenu d’un type de contenu En-tête vers un type de contenu Texte empêchait l’enregistrement de [!DNL Page Builder].
 
-![Correction d’un problème ](../assets/fix.svg) <!-- MC-34620 --> Correction du type de contenu Texte pour gérer et enregistrer correctement les caractères non latins-1.
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- MC-34620 --> Correction du type de contenu Texte pour gérer et enregistrer correctement les caractères non latins-1.
 
-![ Correction d’un problème ](../assets/fix.svg) <!-- MC-34679 --> Correction des styles CSS [!DNL Page Builder] en raison desquels Safari 13.1 affichait incorrectement le menu du thème Luma pour les petits ports d’affichage et les écrans mobiles.
+![&#x200B; Correction d’un problème &#x200B;](../assets/fix.svg) <!-- MC-34679 --> Correction des styles CSS [!DNL Page Builder] en raison desquels Safari 13.1 affichait incorrectement le menu du thème Luma pour les petits ports d’affichage et les écrans mobiles.
 
-![Correction d’un problème ](../assets/fix.svg) <!-- MC-34848 --> Correction du type de contenu HTML pour afficher correctement les widgets incorporés tels que &quot;Ordre par SKU&quot; sur le storefront.
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- MC-34848 --> Correction du type de contenu HTML pour afficher correctement les widgets incorporés tels que &quot;Ordre par SKU&quot; sur le storefront.
 
 ## 1.4.1 pour Adobe Commerce 2.4.0-p1
 
@@ -134,11 +134,11 @@ Voir [Disposition - Colonne](./column.md) pour plus d’informations sur l’uti
 
 ![Nouveau](../assets/new.svg) <!-- PB-494 --> Ajout de la prise en charge de PHP 7.4.
 
-![ Correction d’un problème ](../assets/fix.svg) <!-- MC-31247 --> en raison duquel le type de contenu Produits n’affichait pas les produits configurables lorsque la condition était définie sur le prix.
+![&#x200B; Correction d’un problème &#x200B;](../assets/fix.svg) <!-- MC-31247 --> en raison duquel le type de contenu Produits n’affichait pas les produits configurables lorsque la condition était définie sur le prix.
 
-![Correction d’un problème ](../assets/fix.svg) <!-- PB-179 --> Correction de la configuration d’alignement Produits pour positionner uniquement le conteneur de produits lui-même, et non le contenu du conteneur de produits, tel que le nom, le prix, les boutons, les images et d’autres éléments.
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- PB-179 --> Correction de la configuration d’alignement Produits pour positionner uniquement le conteneur de produits lui-même, et non le contenu du conteneur de produits, tel que le nom, le prix, les boutons, les images et d’autres éléments.
 
-![ Correction d’un problème ](../assets/fix.svg) <!-- MC-33556 -->Amélioration des performances.
+![&#x200B; Correction d’un problème &#x200B;](../assets/fix.svg) <!-- MC-33556 -->Amélioration des performances.
 
 ![Correction d’un problème](../assets/fix.svg) améliorations de sécurité.
 
@@ -148,15 +148,15 @@ Voir [Disposition - Colonne](./column.md) pour plus d’informations sur l’uti
 
 ## 1.3.3 pour Adobe Commerce 2.3.6
 
-![Correction d’un problème ](../assets/fix.svg) <!-- MC-32766 --> Correction du type de contenu Texte pour enregistrer correctement les directives de variable ajoutées aux attributs html.
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- MC-32766 --> Correction du type de contenu Texte pour enregistrer correctement les directives de variable ajoutées aux attributs html.
 
-![Correction d’un problème ](../assets/fix.svg) <!-- MC-34590 --> Correction du type de contenu Texte pour gérer et enregistrer correctement les caractères non latins-1.
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- MC-34590 --> Correction du type de contenu Texte pour gérer et enregistrer correctement les caractères non latins-1.
 
-![ Correction d’un problème ](../assets/fix.svg) <!-- MC-34677 --> Correction des styles CSS [!DNL Page Builder] en raison desquels Safari 13.1 affichait incorrectement le menu du thème Luma pour les petits ports d’affichage et les écrans mobiles.
+![&#x200B; Correction d’un problème &#x200B;](../assets/fix.svg) <!-- MC-34677 --> Correction des styles CSS [!DNL Page Builder] en raison desquels Safari 13.1 affichait incorrectement le menu du thème Luma pour les petits ports d’affichage et les écrans mobiles.
 
-![Correction d’un problème ](../assets/fix.svg) <!-- MC-34846 --> Correction du type de contenu d’HTML pour afficher correctement les widgets incorporés tels que _Ordre par SKU_ sur le storefront.
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- MC-34846 --> Correction du type de contenu d’HTML pour afficher correctement les widgets incorporés tels que _Ordre par SKU_ sur le storefront.
 
-![ Correction d’un problème ](../assets/fix.svg) qui empêchait parfois les utilisateurs d’enregistrer des formulaires de type contenu. L’erreur (&quot;[!DNL Page Builder] était rendu pendant 5 secondes sans libérer de verrous&quot;) provoquait une rotation indéfinie de l’icône de chargeur après avoir tenté d’enregistrer un formulaire.
+![&#x200B; Correction d’un problème &#x200B;](../assets/fix.svg) qui empêchait parfois les utilisateurs d’enregistrer des formulaires de type contenu. L’erreur (&quot;[!DNL Page Builder] était rendu pendant 5 secondes sans libérer de verrous&quot;) provoquait une rotation indéfinie de l’icône de chargeur après avoir tenté d’enregistrer un formulaire.
 
 ## 1.3.2 pour Adobe Commerce 2.3.5-p2
 
@@ -207,7 +207,7 @@ Cette version de [!DNL Page Builder] n’est qu’une mise à jour de numéro de
 
 ## 1.2.0 pour Adobe Commerce 2.3.4
 
-![Nouvelle ](../assets/new.svg) **[!DNL Page Builder]intégration avec PWA Studio** - Ajout du rendu de contenu [!DNL Page Builder] à l’application Venia en PWA Studio. Le contenu [!DNL Page Builder] peut désormais être visualisé dans l’application Venia PWA Studio. Consultez la documentation [!DNL Page Builder] dans [PWA Studio] pour toutes les informations sur cette nouvelle fonctionnalité.
+![Nouvelle &#x200B;](../assets/new.svg) **[!DNL Page Builder]intégration avec PWA Studio** - Ajout du rendu de contenu [!DNL Page Builder] à l’application Venia en PWA Studio. Le contenu [!DNL Page Builder] peut désormais être visualisé dans l’application Venia PWA Studio. Consultez la documentation [!DNL Page Builder] dans [PWA Studio] pour toutes les informations sur cette nouvelle fonctionnalité.
 
 ![Nouveau](../assets/new.svg) **Nouveau carrousel de produit** - <!-- PB-77, PB-173, PB-175 -->Le type de contenu Produits offre désormais une option pour afficher vos produits dans un format de carrousel/curseur, y compris plusieurs options pour personnaliser le carrousel en fonction de vos besoins.
 
@@ -240,9 +240,9 @@ Cette version de [!DNL Page Builder] n’est qu’une mise à jour de numéro de
 
 ![Correction d’un problème](../assets/fix.svg) Amélioration de la sécurité [!DNL Page Builder].
 
-![Correction d’un problème ](../assets/fix.svg) <!-- MC-1805 --> Mise à jour de [!DNL Page Builder] pour prendre en charge la version 7.3 de PHP.
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- MC-1805 --> Mise à jour de [!DNL Page Builder] pour prendre en charge la version 7.3 de PHP.
 
-![Correction d’un problème ](../assets/fix.svg) <!-- MC-4137 --> Mise à jour de TinyMCE vers la version 4.9.5. Cette mise à jour, ainsi que les améliorations supplémentaires, ont corrigé plusieurs problèmes de l’éditeur intégré TinyMCE :
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- MC-4137 --> Mise à jour de TinyMCE vers la version 4.9.5. Cette mise à jour, ainsi que les améliorations supplémentaires, ont corrigé plusieurs problèmes de l’éditeur intégré TinyMCE :
 
 - Des variables, des images et des liens d’image sont ajoutés à l’endroit où se trouve le curseur.
 - Les tableaux et les cellules de tableau peuvent être centrés.
@@ -251,13 +251,13 @@ Cette version de [!DNL Page Builder] n’est qu’une mise à jour de numéro de
 - Les puces sont correctement alignées.
 - Les modifications de l’éditeur intégré peuvent être enregistrées sans cliquer au préalable en dehors de l’éditeur.
 
-![Correction d’un problème ](../assets/fix.svg) <!-- MC-3880 --> Correction d’un problème en raison duquel la hauteur minimale et l’alignement vertical étaient incohérents entre les sections du panneau de modification pour chaque type de contenu.
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- MC-3880 --> Correction d’un problème en raison duquel la hauteur minimale et l’alignement vertical étaient incohérents entre les sections du panneau de modification pour chaque type de contenu.
 
-![Correction d’un problème ](../assets/fix.svg) <!-- MC-14994 --> Correction d’un problème en raison duquel la barre d’outils du type de contenu En-tête était mal positionnée lors du premier dépôt sur la scène.
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- MC-14994 --> Correction d’un problème en raison duquel la barre d’outils du type de contenu En-tête était mal positionnée lors du premier dépôt sur la scène.
 
-![Correction d’un problème ](../assets/fix.svg) <!-- MC-15742 --> Correction de marges codées en dur dans les types de contenu Curseur et Vidéo.
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- MC-15742 --> Correction de marges codées en dur dans les types de contenu Curseur et Vidéo.
 
-![Correction d’un problème ](../assets/fix.svg) <!-- MC-16241 --> Correction d’un problème en raison duquel le symbole astérisque requis s’affichait deux fois sur les champs du formulaire.
+![Correction d’un problème &#x200B;](../assets/fix.svg) <!-- MC-16241 --> Correction d’un problème en raison duquel le symbole astérisque requis s’affichait deux fois sur les champs du formulaire.
 
 ## 1.0.3 pour Adobe Commerce 2.3.2-p2
 
@@ -273,7 +273,7 @@ Cette version de [!DNL Page Builder] n’est qu’une mise à jour de numéro de
 
 ## 1.0.0 pour Adobe Commerce 2.3.1
 
-![Nouvelle ](../assets/new.svg) Disponibilité générale
+![Nouvelle &#x200B;](../assets/new.svg) Disponibilité générale
 
 
 [PWA Studio]: https://developer.adobe.com/commerce/pwa-studio/

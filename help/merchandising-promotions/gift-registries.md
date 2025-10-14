@@ -26,7 +26,7 @@ Les visiteurs du registre qui souhaitent effectuer un achat peuvent ajouter l’
 
 ## Workflow du registre des cadeaux
 
-1. **Configurez le registre des cadeaux pour le magasin**. L&#39;administrateur du magasin [ active le registre des cadeaux ](gift-registry-configure.md) et [ configure le type de registre et les attributs](gift-registry-create.md).
+1. **Configurez le registre des cadeaux pour le magasin**. L&#39;administrateur du magasin [&#x200B; active le registre des cadeaux &#x200B;](gift-registry-configure.md) et [&#x200B; configure le type de registre et les attributs](gift-registry-create.md).
 
 1. **Le client crée son propre registre**. Un [client crée un registre des cadeaux](gift-registry-storefront.md#create-a-new-gift-registry) à partir de son compte de boutique pour une occasion à venir et remplit les champs requis dans chaque section du registre des cadeaux. Après avoir ajouté des éléments au registre, ils peuvent être partagés avec des amis et de la famille.
 

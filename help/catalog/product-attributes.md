@@ -34,7 +34,7 @@ Les descriptions de couleurs ad hoc peuvent poser problème du point de vue des 
 
 ## Gestion des variations
 
-Utilisez les [options de configuration](product-configurations.md) et les [ produits configurables](product-create-configurable.md) pour gérer les variations de vos offres de produits. Ces fonctionnalités permettent de classer plus facilement les produits, de créer des règles de prix de panier et des règles de catégories dynamiques, et d’offrir une sélection d’options avec différents types de saisie de texte, de sélection et de date.
+Utilisez les [options de configuration](product-configurations.md) et les [&#x200B; produits configurables](product-create-configurable.md) pour gérer les variations de vos offres de produits. Ces fonctionnalités permettent de classer plus facilement les produits, de créer des règles de prix de panier et des règles de catégories dynamiques, et d’offrir une sélection d’options avec différents types de saisie de texte, de sélection et de date.
 
 ## Recherche pondérée
 

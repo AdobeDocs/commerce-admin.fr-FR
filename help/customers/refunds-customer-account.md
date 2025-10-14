@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Si un remboursement a été effectué pour une commande, les clients peuvent consulter dans le tableau de bord de leur compte les informations de remboursement associées à la commande. Si vous avez activé l’option [!UICONTROL _Afficher l’historique de crédit de magasin aux clients_] pour [ la configuration de crédit de magasin ](../customers/credit-configure.md), les clients peuvent également accéder à leur historique de [crédit de magasin](../customers/store-credit.md).
+Si un remboursement a été effectué pour une commande, les clients peuvent consulter dans le tableau de bord de leur compte les informations de remboursement associées à la commande. Si vous avez activé l’option [!UICONTROL _Afficher l’historique de crédit de magasin aux clients_] pour [&#x200B; la configuration de crédit de magasin &#x200B;](../customers/credit-configure.md), les clients peuvent également accéder à leur historique de [crédit de magasin](../customers/store-credit.md).
 
 ## Afficher un remboursement sur la vitrine
 

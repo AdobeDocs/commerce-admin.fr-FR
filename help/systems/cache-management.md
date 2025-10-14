@@ -25,14 +25,14 @@ La page _[!UICONTROL Cache Management]_&#x200B;affiche le statut de chaque cache
 
 Après avoir effacé un cache, actualisez toujours votre navigateur pour vous assurer que vous pouvez voir les fichiers les plus récents. L’effacement du cache de Commerce n’efface pas le cache du navigateur web. Vous devrez peut-être vider la mémoire cache du navigateur pour afficher le contenu mis à jour.
 
-Des informations techniques supplémentaires sur la mise en cache d’Adobe Commerce sont disponibles à partir de la [ présentation du cache ](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target="_blank"} dans le _Guide de développement du front-end de Commerce_.
+Des informations techniques supplémentaires sur la mise en cache d’Adobe Commerce sont disponibles à partir de la [&#x200B; présentation du cache &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target="_blank"} dans le _Guide de développement du front-end de Commerce_.
 
 Accédez à la page _[!UICONTROL Cache Management]_&#x200B;en effectuant l’une des opérations suivantes :
 
 - Cliquez sur le lien **[!UICONTROL Cache Management]** dans le message au-dessus de l’espace de travail.
 - Dans la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**.
 
-![ Gestion du cache ](./assets/cache-management-invalid.png){width="700" zoomable="yes"}
+![&#x200B; Gestion du cache &#x200B;](./assets/cache-management-invalid.png){width="700" zoomable="yes"}
 
 ## Bonnes pratiques de mise en cache
 
@@ -103,7 +103,7 @@ Pour plus d’informations sur l’affectation de ressources pour accorder l’a
 
 ## Vider à l’aide de la ligne de commande
 
-Les administrateurs système et les développeurs ayant accès au serveur d’applications Commerce peuvent également gérer la configuration du cache et du cache à partir de la ligne de commande à l’aide de l’interface de ligne de commande Commerce. Voir [ Gestion du cache ](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} dans le _Guide de configuration_.
+Les administrateurs système et les développeurs ayant accès au serveur d’applications Commerce peuvent également gérer la configuration du cache et du cache à partir de la ligne de commande à l’aide de l’interface de ligne de commande Commerce. Voir [&#x200B; Gestion du cache &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} dans le _Guide de configuration_.
 
 ## Contrôles
 

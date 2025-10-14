@@ -68,7 +68,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [classes
 
 ![Paramètres d’affichage du prix](./assets/tax-price-display-settings.png)<!-- zoom -->
 
-Pour plus d’informations sur la modification de ces paramètres, voir [ Configuration des paramètres d’affichage des prix](../../stores-purchase/display-settings.md#configure-price-display-settings) dans le _Guide d’expérience des magasins et des achats_.
+Pour plus d’informations sur la modification de ces paramètres, voir [&#x200B; Configuration des paramètres d’affichage des prix](../../stores-purchase/display-settings.md#configure-price-display-settings) dans le _Guide d’expérience des magasins et des achats_.
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -79,7 +79,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [ Config
 
 ## [!UICONTROL Shopping Cart Display Settings]
 
-![ Paramètres d’affichage du panier](./assets/tax-shopping-cart-display-settings.png)<!-- zoom -->
+![&#x200B; Paramètres d’affichage du panier](./assets/tax-shopping-cart-display-settings.png)<!-- zoom -->
 
 Pour plus d’informations sur la modification de ces paramètres, voir [Configuration des paramètres d’affichage du panier](../../stores-purchase/display-settings.md#step-2-configure-shopping-cart-display-settings) dans le _Guide des magasins et de l’expérience d’achat_.
 
@@ -98,7 +98,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Configu
 
 ![Commandes, factures, Paramètres d’affichage des notes de crédit](./assets/tax-orders-invoices-credit-memos-display-settings.png)<!-- zoom -->
 
-Pour plus d’informations sur la modification de ces paramètres, voir [ Configuration des paramètres d’affichage de la commande, de la facture et de la note de crédit ](../../stores-purchase/display-settings.md#step-3-configure-order-invoice-and-credit-memo-display-settings) dans le _Guide d’expérience de magasins et d’achat_.
+Pour plus d’informations sur la modification de ces paramètres, voir [&#x200B; Configuration des paramètres d’affichage de la commande, de la facture et de la note de crédit &#x200B;](../../stores-purchase/display-settings.md#step-3-configure-order-invoice-and-credit-memo-display-settings) dans le _Guide d’expérience de magasins et d’achat_.
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

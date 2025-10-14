@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Si vous apportez des modifications importantes au contenu [!DNL Page Builder], il est recommandé d’augmenter la durée de vie de la session d’administration [ afin d’empêcher l’expiration de la session pendant que vous travaillez.](../systems/security-admin.md)
+>Si vous apportez des modifications importantes au contenu [!DNL Page Builder], il est recommandé d’augmenter la durée de vie de la session d’administration [&#x200B; afin d’empêcher l’expiration de la session pendant que vous travaillez.](../systems/security-admin.md)

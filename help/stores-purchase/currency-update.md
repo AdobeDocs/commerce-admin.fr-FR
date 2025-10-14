@@ -46,7 +46,7 @@ Avant d’importer des taux de change, effectuez la [configuration du taux de de
 
 1. Lorsque vous êtes invité à mettre à jour le cache, cliquez sur le lien **[!UICONTROL Cache Management]** et actualisez le cache non valide.
 
-   ![ Message système : actualisez le cache non valide](./assets/currency-cache-update.png){width="600" zoomable="yes"}
+   ![&#x200B; Message système : actualisez le cache non valide](./assets/currency-cache-update.png){width="600" zoomable="yes"}
 
 ## Importer les taux de change selon le calendrier
 

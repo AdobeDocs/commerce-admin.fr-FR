@@ -40,7 +40,7 @@ Le rapport Journaux d’action comprend les informations suivantes :
 
 1. Pour afficher tous les détails d’une action d’administration répertoriée, cliquez sur **[!UICONTROL View]**.
 
-   ![ Détails de l’entrée du journal d’action ](./assets/action-log-report-view.png){width="600" zoomable="yes"}
+   ![&#x200B; Détails de l’entrée du journal d’action &#x200B;](./assets/action-log-report-view.png){width="600" zoomable="yes"}
 
 ## Filtrage du rapport Journaux d’actions
 
@@ -74,4 +74,4 @@ Pour effacer les options de filtre et revenir au rapport complet, cliquez sur **
 
    Le fichier généré est automatiquement enregistré dans le dossier désigné pour les téléchargements.
 
-   ![ &lbrace;Export du rapport des journaux d’action](./assets/action-log-report-export.png){width="200"}
+   ![&#x200B; &lbrace;Export du rapport des journaux d’action](./assets/action-log-report-export.png){width="200"}

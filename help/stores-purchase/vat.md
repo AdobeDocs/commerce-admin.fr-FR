@@ -152,11 +152,11 @@ Une règle de taxe est une combinaison d’une classe d’impôt client, d’une
 
 ### Informations sur le magasin
 
-Commerce utilise les [ paramètres de configuration Informations sur la boutique ](../configuration-reference/general/general.md#store-information) suivants pour calculer la TVA en fonction des informations sur le commerce.
+Commerce utilise les [&#x200B; paramètres de configuration Informations sur la boutique &#x200B;](../configuration-reference/general/general.md#store-information) suivants pour calculer la TVA en fonction des informations sur le commerce.
 
 **[!UICONTROL VAT Number]** - Numéro de taxe sur la valeur ajoutée attribué au commerçant.
 
-**[!UICONTROL Validate VAT Number]** - [ La validation de la TVA](#vat-id-validation) confirme que le numéro de la TVA correspond à l&#39;enregistrement correspondant dans la base de données de la [Commission européenne](https://ec.europa.eu/taxation_customs/vies/).
+**[!UICONTROL Validate VAT Number]** - [&#x200B; La validation de la TVA](#vat-id-validation) confirme que le numéro de la TVA correspond à l&#39;enregistrement correspondant dans la base de données de la [Commission européenne](https://ec.europa.eu/taxation_customs/vies/).
 
 ### Informations sur le client
 

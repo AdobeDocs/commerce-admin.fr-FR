@@ -51,7 +51,7 @@ Pour plus d’informations sur la configuration de ces paramètres, voir [Activa
 
 ## [!UICONTROL Customer-Related Emails]
 
-![ Courriers électroniques liés au client](./assets/company-email-options-customer-related-emails.png)<!-- zoom -->
+![&#x200B; Courriers électroniques liés au client](./assets/company-email-options-customer-related-emails.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

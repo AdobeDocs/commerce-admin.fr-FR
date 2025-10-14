@@ -22,7 +22,7 @@ Lorsque les commandes d’achat sont [activées pour une société](purchase-ord
 
 ## Gestion des commandes d’achat
 
-Sur la page _Afficher le bon de commande_, le client peut gérer le bon de commande, en fonction de ses [ autorisations de rôle](account-company-roles-permissions.md).
+Sur la page _Afficher le bon de commande_, le client peut gérer le bon de commande, en fonction de ses [&#x200B; autorisations de rôle](account-company-roles-permissions.md).
 
 - Pour afficher le bon de commande, cliquez sur **[!UICONTROL View]**.
 - Pour afficher les commentaires sur le bon de commande, cliquez sur l’onglet **[!UICONTROL Comments]** .

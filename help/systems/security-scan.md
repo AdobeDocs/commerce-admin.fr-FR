@@ -60,7 +60,7 @@ L&#39;outil d&#39;analyse de sécurité est disponible gratuitement depuis le ta
       1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL HTML Head]** .
       1. Faites défiler jusqu’à **[!UICONTROL Scripts and Style Sheets]** et cliquez dans la zone de texte à la fin de tout code existant. Collez le code de confirmation dans la zone de texte.
 
-         ![ Scripts et feuilles de style ](./assets/scan-paste-code.png){width="600" zoomable="yes"}
+         ![&#x200B; Scripts et feuilles de style &#x200B;](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
       1. Cliquez ensuite sur **[!UICONTROL Save Configuration]**.
 

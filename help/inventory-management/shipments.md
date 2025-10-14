@@ -32,7 +32,7 @@ Pour les commandes à plusieurs adresses, une série de commandes uniques est g�
 
 Lorsque vous saisissez un [avoir](../stores-purchase/credit-memo-create.md){target="_blank"} pour émettre un remboursement, vous pouvez renvoyer la quantité de produit à la source déduite. Les informations sur la commande incluent la source de l’inventaire qui a expédié le produit. Il est recommandé d’attribuer la quantité de produit renvoyée par le biais d’une note de crédit lors de la réception du produit renvoyé.
 
-![ Éléments à rembourser avec retour à l’inventaire sélectionné](assets/credit-memo-items-to-refund.png)
+![&#x200B; Éléments à rembourser avec retour à l’inventaire sélectionné](assets/credit-memo-items-to-refund.png)
 {width="350" zoomable="yes"}
 
 ### Annuler les commandes non expédiées

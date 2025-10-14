@@ -56,7 +56,7 @@ Le [tableau de bord](admin-workspace.md#the-dashboard) est la page de démarrage
 
 1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Startup Page]** .
 
-   ![ Configuration avancée - Paramétrage de la page de démarrage de l’administrateur ](./assets/admin-startup-page.png){width="600"}
+   ![&#x200B; Configuration avancée - Paramétrage de la page de démarrage de l’administrateur &#x200B;](./assets/admin-startup-page.png){width="600"}
 
 1. Définissez **[!UICONTROL Startup Page]** sur la page que vous souhaitez afficher en premier après vous être connecté à l’administrateur.
 

@@ -78,7 +78,7 @@ Les paramètres de configuration téléchargeables déterminent les valeurs par 
 
 ## Créer un produit téléchargeable
 
-Les instructions suivantes illustrent le processus de création d’un produit téléchargeable à l’aide d’un [ modèle de produit](attribute-sets.md) de champs obligatoires et de paramètres de base. Chaque champ obligatoire est signalé par un astérisque rouge (`*`). Lorsque vous avez terminé les principes de base, vous pouvez définir les autres paramètres du produit selon vos besoins.
+Les instructions suivantes illustrent le processus de création d’un produit téléchargeable à l’aide d’un [&#x200B; modèle de produit](attribute-sets.md) de champs obligatoires et de paramètres de base. Chaque champ obligatoire est signalé par un astérisque rouge (`*`). Lorsque vous avez terminé les principes de base, vous pouvez définir les autres paramètres du produit selon vos besoins.
 
 >[!NOTE]
 >

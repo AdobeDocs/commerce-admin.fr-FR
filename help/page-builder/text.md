@@ -14,13 +14,13 @@ ht-degree: 0%
 
 Utilisez le type de contenu _Texte_ pour ajouter un conteneur de texte avec un éditeur WYSIWYG (« What You See Is What You Get ») dans l’[[!DNL Page Builder] étape](workspace.md#stage). En outre, vous pouvez ajouter au texte des liens, des images, des [variables](../systems/variables-predefined.md) et des widgets à partir de la barre d’outils de l’éditeur.
 
-![ Texte formaté sur une bannière ](./assets/pb-storefont-banner-with-button.png){width="700"}
+![&#x200B; Texte formaté sur une bannière &#x200B;](./assets/pb-storefont-banner-with-button.png){width="700"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## Outils de l’éditeur de texte
 
-Vous pouvez accéder à l’éditeur de texte directement depuis l’étape ou à partir d’une page de paramètres. Les modifications apportées directement à l’étape sont enregistrées automatiquement. Pour plus d’informations, voir [ Utilisation de l’éditeur ](../content-design/editor.md).
+Vous pouvez accéder à l’éditeur de texte directement depuis l’étape ou à partir d’une page de paramètres. Les modifications apportées directement à l’étape sont enregistrées automatiquement. Pour plus d’informations, voir [&#x200B; Utilisation de l’éditeur &#x200B;](../content-design/editor.md).
 
 ![Outil Éditeur de texte - TinyMCE](./assets/pb-elements-text-editor-tools.png){width="600"}
 
@@ -30,7 +30,7 @@ Vous pouvez accéder à l’éditeur de texte directement depuis l’étape ou �
 
 | Outil | Icon | Description |
 | --------- | --------------------- | -------------- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de texte vers un autre emplacement valide de la page. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de texte vers un autre emplacement valide de la page. |
 | (libellé) | TEXTE | Identifie le conteneur courant comme un élément texte. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre les propriétés du conteneur de texte en mode d’édition. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le conteneur de texte. |
@@ -50,7 +50,7 @@ Vous pouvez accéder à l’éditeur de texte directement depuis l’étape ou �
 
 1. Utilisez l’éditeur pour saisir et mettre en forme le texte, si nécessaire.
 
-   Pour plus d’informations, voir [ Utilisation de l’éditeur ](../content-design/editor.md).
+   Pour plus d’informations, voir [&#x200B; Utilisation de l’éditeur &#x200B;](../content-design/editor.md).
 
    ![Éditeur de texte avec contenu](./assets/pb-elements-text-editor.png){width="600"}
 

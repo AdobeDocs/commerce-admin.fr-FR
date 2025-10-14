@@ -28,7 +28,7 @@ Dans l’éditeur, vous pouvez insérer une image à l’aide de trois types de 
 
 1. Dans la barre d’outils de l’éditeur, cliquez sur l’icône _Insérer une image_.
 
-   ![ Icône Insérer une image ](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
+   ![&#x200B; Icône Insérer une image &#x200B;](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
    Cette action ouvre la boîte de dialogue _[!UICONTROL Insert/edit image]_.
 

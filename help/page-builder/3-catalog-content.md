@@ -278,7 +278,7 @@ Au cours de cette étape, vous créez deux nouveaux attributs personnalisés pou
    - _My [!DNL Page Builder] Attribute_, qui affiche l’aperçu [!DNL Page Builder].
    - _My Text Editor Attribute_, qui utilise l’éditeur WYSIWYG standard.
 
-   ![ &lbrace;Modification du contenu du produit](./assets/pb-product-content-my-attributes.png){width="600" zoomable="yes"}
+   ![&#x200B; &lbrace;Modification du contenu du produit](./assets/pb-product-content-my-attributes.png){width="600" zoomable="yes"}
 
 1. Dans l’éditeur **My Text Editor Attribute** , saisissez `Text Editor Attribute placeholder text`.
 

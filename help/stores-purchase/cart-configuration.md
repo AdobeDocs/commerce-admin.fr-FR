@@ -151,7 +151,7 @@ La configuration vous permet de spécifier un montant minimum, après applicatio
 
 1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Minimum Order Amount]** .
 
-   ![ Les options de configuration de commande minimale développées sur la page](../configuration-reference/sales/assets/sales-minimum-order-amount.png){width="600" zoomable="yes"}
+   ![&#x200B; Les options de configuration de commande minimale développées sur la page](../configuration-reference/sales/assets/sales-minimum-order-amount.png){width="600" zoomable="yes"}
 
 1. Pour exiger un montant de commande minimal, définissez **[!UICONTROL Enable]** sur `Yes`.
 

@@ -136,7 +136,7 @@ La zone Rechercher dans le coin supérieur gauche de la grille _[!UICONTROL Page
 
 Les pages peuvent être modifiées, désactivées, activées et supprimées. Pour appliquer une action à une page individuelle, cochez la case située dans la première colonne. Pour sélectionner ou désélectionner toutes les pages, utilisez la commande de sélection en haut de la colonne.
 
-![ Actions de page ](./assets/pages-select.png){width="400" zoomable="yes"}
+![&#x200B; Actions de page &#x200B;](./assets/pages-select.png){width="400" zoomable="yes"}
 
 ### Action unique
 

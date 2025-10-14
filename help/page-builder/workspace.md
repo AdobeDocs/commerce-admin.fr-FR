@@ -32,7 +32,7 @@ Pour un meilleur contrôle du positionnement et du format des en-têtes de tous 
 
 Lorsque vous développez la section _[!UICONTROL Content]_&#x200B;et que du contenu existant est créé avec [!DNL Page Builder], elle affiche un aperçu du contenu tel qu’il apparaîtrait sur une page. Cliquez sur **[!UICONTROL Edit with Page Builder]**&#x200B;ou dans la zone d’aperçu du contenu pour ouvrir l’espace de travail [!DNL Page Builder], où vous pouvez effectuer les mises à jour nécessaires.
 
-![ Aperçu de la description du produit ](./assets/pb-product-category-content-preview.png){width="500" zoomable="yes"}
+![&#x200B; Aperçu de la description du produit &#x200B;](./assets/pb-product-category-content-preview.png){width="500" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ Par défaut, l’étape [!DNL Page Builder] est vide. Lorsque vous faites glisse
 | ------------------- |------------ |
 | [Ligne](row.md) | Vous pouvez uniquement faire glisser une nouvelle ligne du panneau vers la scène, et la placer au-dessus ou au-dessous d’un autre groupe de lignes, onglets ou colonnes. Vous pouvez également utiliser l’option Dupliquer pour faire une copie d’une ligne existante. |
 | [Colonne](column.md) | Vous pouvez faire glisser une colonne du panneau à la scène ou aux lignes et onglets. Le nombre maximal de colonnes pouvant être ajoutées est déterminé par le nombre de divisions de la grille spécifié dans la [configuration](setup.md). |
-| [ Onglets ](tabs.md) | Vous pouvez faire glisser un seul onglet du panneau vers la scène ou vers des lignes et des colonnes. Vous pouvez ajouter d’autres onglets à partir de la palette. |
+| [&#x200B; Onglets &#x200B;](tabs.md) | Vous pouvez faire glisser un seul onglet du panneau vers la scène ou vers des lignes et des colonnes. Vous pouvez ajouter d’autres onglets à partir de la palette. |
 
 {style="table-layout:auto"}
 
@@ -105,13 +105,13 @@ Par défaut, l’étape [!DNL Page Builder] est vide. Lorsque vous faites glisse
 
 Utilisez la section _[!UICONTROL Elements]_&#x200B;du panneau [!DNL Page Builder] pour ajouter du texte, des en-têtes, des boutons, des séparateurs et du code HTML à n’importe quel conteneur de disposition sur la [[!DNL Page Builder] scène](workspace.md#stage). Lorsque vous faites glisser un type de contenu du panneau vers une ligne, une colonne ou un ensemble d’onglets sur la scène, un conteneur s’affiche. Utilisez la boîte à outils Type de contenu pour accéder aux paramètres spécifiques au type.
 
-Panneau ![[!DNL Page Builder] avec les types de contenu d’éléments ](./assets/pb-elements.png){width="600" zoomable="yes"}
+Panneau ![[!DNL Page Builder] avec les types de contenu d’éléments &#x200B;](./assets/pb-elements.png){width="600" zoomable="yes"}
 
 | Type de contenu de l’élément | Description |
 | -------------------- | ----------- |
-| [Texte ](text.md) | Ajoute un conteneur de texte et un éditeur à l’étape. |
+| [Texte &#x200B;](text.md) | Ajoute un conteneur de texte et un éditeur à l’étape. |
 | [Titre](heading.md) | Ajoute un conteneur d’en-tête à l’étape. |
-| [ Boutons ](buttons.md) | Ajoute un conteneur pour un bouton individuel ou un ensemble de boutons à la scène. |
+| [&#x200B; Boutons &#x200B;](buttons.md) | Ajoute un conteneur pour un bouton individuel ou un ensemble de boutons à la scène. |
 | [Diviseur](divider.md) | Ajoute un conteneur pour un séparateur à la scène. |
 | [Code HTML](html-code.md) | Ajoute un conteneur pour le code HTML à l’étape. |
 
@@ -125,7 +125,7 @@ Utilisez la section _[!UICONTROL Media]_&#x200B;du panneau [!DNL Page Builder] p
 
 | Type de contenu multimédia | Description |
 | ------------------- | ------------------------------------------ |
-| [Image ](image.md) | Ajoute un conteneur d’images à l’étape. |
+| [Image &#x200B;](image.md) | Ajoute un conteneur d’images à l’étape. |
 | [Vidéo](video.md) | Ajoute un conteneur vidéo à l’étape. |
 | [Bannière](banner.md) | Ajoute un conteneur de bannières à l’étape. |
 | [Curseur](slider.md) | Ajoute un conteneur curseur à la scène. |
@@ -162,7 +162,7 @@ Pointez sur le conteneur pour afficher la boîte à outils et choisissez une opt
 
 | Option | Icon | Description |
 | --------- | ---------------------------------------- | ------------ |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de contenu actuel vers un autre emplacement sur la scène. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de contenu actuel vers un autre emplacement sur la scène. |
 | Ajouter | ![Icône Ajouter](./assets/pb-icon-add.png){width="25"} | Ajoute des éléments enfants tels qu’un bouton, une diapositive ou un onglet. |
 | (libellé) |           | Identifie le type de contenu du conteneur. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre les propriétés du conteneur de contenu en mode d’édition. |

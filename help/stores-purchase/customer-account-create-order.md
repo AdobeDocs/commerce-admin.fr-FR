@@ -99,7 +99,7 @@ Vous pouvez transférer des articles vers le panier à partir de la liste de sou
 
 >[!NOTE]
 >
->Consultez le [ Guide des services de paiement ](https://experienceleague.adobe.com/fr/docs/commerce/payment-services/guide-overview) pour plus d’informations sur les modes de paiement afin de prendre en charge cette fonctionnalité lorsque l’extension des services de paiement est installée et configurée.
+>Consultez le [&#x200B; Guide des services de paiement &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce/payment-services/guide-overview) pour plus d’informations sur les modes de paiement afin de prendre en charge cette fonctionnalité lorsque l’extension des services de paiement est installée et configurée.
 
 ## Étape 3 : envoyer la commande
 

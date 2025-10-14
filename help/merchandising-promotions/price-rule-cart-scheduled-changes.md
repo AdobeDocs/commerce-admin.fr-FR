@@ -20,7 +20,7 @@ Les règles de prix du panier peuvent être appliquées au planning dans le cadr
 >
 >Les champs [!UICONTROL From] et [!UICONTROL To] ont été supprimés dans ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce et ne peuvent pas être modifiés directement sur la règle du prix du panier. Vous devez créer une mise à jour planifiée pour ces activations.
 
-![ Règles de prix du panier - modifications planifiées](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
+![&#x200B; Règles de prix du panier - modifications planifiées](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >

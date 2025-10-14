@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Le journal des actions en masse enregistre les détails des opérations de masse asynchrones qui s’exécutent en arrière-plan, comme l’importation/exportation ou l’attribution de [prix personnalisés](../b2b/catalog-shared-manage.md#update-custom-pricing) à plusieurs produits dans un [ catalogue partagé](../b2b/catalog-shared.md).
+Le journal des actions en masse enregistre les détails des opérations de masse asynchrones qui s’exécutent en arrière-plan, comme l’importation/exportation ou l’attribution de [prix personnalisés](../b2b/catalog-shared-manage.md#update-custom-pricing) à plusieurs produits dans un [&#x200B; catalogue partagé](../b2b/catalog-shared.md).
 
 ![Journal des actions en masse](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
 

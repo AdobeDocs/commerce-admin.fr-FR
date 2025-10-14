@@ -91,7 +91,7 @@ Le système dispose d’un rôle d’utilisateur par défaut prédéfini, que vo
 
 Les administrateurs d’entreprise peuvent mettre à jour la configuration des autorisations pour un rôle en sélectionnant [!UICONTROL Edit action], puis en sélectionnant ou en supprimant des autorisations dans la liste **Autorisations de rôle**.
 
-![ Liste des rôles et autorisations](./assets/role-permissions-list.png){width="700" zoomable="yes"}
+![&#x200B; Liste des rôles et autorisations](./assets/role-permissions-list.png){width="700" zoomable="yes"}
 
 ## Attribution d’un rôle à un utilisateur de société
 

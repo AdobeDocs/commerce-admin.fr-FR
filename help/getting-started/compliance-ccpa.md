@@ -49,7 +49,7 @@ Cette section décrit de manière approfondie les étapes nécessaires pour que 
 
 ### RGPD et CCPA
 
-Si votre entreprise est tenue de se conformer au [ Règlement général sur la protection des données ](compliance-gdpr.md) (RGPD) et à la CCPA, vous pouvez utiliser une partie du travail effectué dans le cadre de votre programme de conformité au RGPD pour le CCPA. Bien que la réglementation présente certaines similitudes, quelques différences incluent :
+Si votre entreprise est tenue de se conformer au [&#x200B; Règlement général sur la protection des données &#x200B;](compliance-gdpr.md) (RGPD) et à la CCPA, vous pouvez utiliser une partie du travail effectué dans le cadre de votre programme de conformité au RGPD pour le CCPA. Bien que la réglementation présente certaines similitudes, quelques différences incluent :
 
 - La définition des informations personnelles diffère pour chaque réglementation.
 - Le RGPD exige que les consommateurs s’inscrivent avant que leurs données personnelles ne puissent être utilisées à certaines fins ; le CCPA accorde aux consommateurs le droit de s’exclure.

@@ -36,7 +36,7 @@ Comme pour tous les conteneurs de contenu, la boîte à outils s’affiche lorsq
 
 | Outil | Icon | Description |
 | --------- | ----------------- | ---------------------- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur d’en-tête vers un autre emplacement valide sur la page. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur d’en-tête vers un autre emplacement valide sur la page. |
 | (libellé) | Titre | Identifie le conteneur actuel en tant qu’en-tête. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Modifier l’en-tête , qui permet de modifier les propriétés du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le conteneur d’en-tête. |

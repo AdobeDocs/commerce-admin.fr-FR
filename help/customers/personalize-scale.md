@@ -30,7 +30,7 @@ Personalization signifie personnaliser les aspects de l’expérience d’achat 
 - **Promotions et offres** - Ciblez les promotions et les offres pour inciter chaque client à convertir son contenu
 - **Expériences de contenu** - Adaptation du contenu du site pour qu’il semble extrêmement pertinent pour chaque client et son parcours
 
-![ Types de Personalization ](assets/types-personalization.png){width="700" zoomable="yes"}
+![&#x200B; Types de Personalization &#x200B;](assets/types-personalization.png){width="700" zoomable="yes"}
 
 Bien que ces types d’expériences personnalisées puissent sembler réalisables pour un petit sous-ensemble de clients et clientes, la personnalisation à l’échelle pour des milliers ou des millions de clients et clientes sur chaque point de contact et canal, le tout en temps réel peut sembler impossible. Dans les sections suivantes, vous découvrirez comment Adobe [!DNL Commerce] et Adobe Experience Cloud peuvent vous aider.
 

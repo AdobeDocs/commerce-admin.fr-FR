@@ -27,7 +27,7 @@ Ce guide couvre les sujets suivants :
 | [Configuration de base](websites-stores-views.md) | Découvrez les concepts de hiérarchie de magasin et de portée de la configuration, puis parcourez les paramètres de configuration de base. |
 | [Conformité du site](privacy-policy.md) | Découvrez comment les commerçants sont responsables de respecter les directives du secteur pour maintenir un environnement sécurisé, et de respecter les exigences légales et les bonnes pratiques pour les commerçants en ligne dans leur juridiction. |
 | [Rapports standard](reports-menu.md) | Découvrez comment filtrer les données et générer des rapports en ligne. Les données du rapport peuvent être ouvertes dans une feuille de calcul ou importées dans d&#39;autres applications. |
-| [ Ressources ](resources.md) | Découvrez la richesse des ressources commerciales et techniques, des outils d’aide autonome et des services qui vous aident à réussir. |
+| [&#x200B; Ressources &#x200B;](resources.md) | Découvrez la richesse des ressources commerciales et techniques, des outils d’aide autonome et des services qui vous aident à réussir. |
 
 {style="table-layout:auto"}
 

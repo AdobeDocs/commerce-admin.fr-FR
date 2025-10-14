@@ -35,7 +35,7 @@ Dans la barre latérale _Admin_, cliquez sur **[!UICONTROL System]**.
 
 ## [!UICONTROL Data Transfer]
 
-Ces [ outils ](data-transfer.md) permettent de gérer plusieurs enregistrements en une seule opération. Vous pouvez importer de nouveaux articles, ainsi que mettre à jour, remplacer et supprimer des produits et des taux de taxe existants.
+Ces [&#x200B; outils &#x200B;](data-transfer.md) permettent de gérer plusieurs enregistrements en une seule opération. Vous pouvez importer de nouveaux articles, ainsi que mettre à jour, remplacer et supprimer des produits et des taux de taxe existants.
 
 ## [!UICONTROL Extensions]
 
@@ -55,7 +55,7 @@ Utilisez cet ensemble d’outils pour gérer les ressources de votre système, n
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement)
 
-Les [ outils d’assistance ](support.md) peuvent être utilisés comme ressource au cours des processus de développement et d’optimisation, et comme outil de diagnostic pour aider notre équipe d’assistance à identifier et à résoudre les problèmes liés à votre système.
+Les [&#x200B; outils d’assistance &#x200B;](support.md) peuvent être utilisés comme ressource au cours des processus de développement et d’optimisation, et comme outil de diagnostic pour aider notre équipe d’assistance à identifier et à résoudre les problèmes liés à votre système.
 
 ## [!UICONTROL Permissions]
 

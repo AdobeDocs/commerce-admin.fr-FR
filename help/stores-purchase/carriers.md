@@ -20,7 +20,7 @@ Si vous disposez d’un compte commercial avec un opérateur pris en charge, vou
 
 Avant de pouvoir offrir à vos clients une sélection de compagnies de transport, vous devez effectuer les étapes suivantes :
 
-- Configurez les [ paramètres d’expédition](shipping-settings.md) pour établir le point d’origine de votre boutique.
+- Configurez les [&#x200B; paramètres d’expédition](shipping-settings.md) pour établir le point d’origine de votre boutique.
 
 - Configurez les paramètres de chaque service de l&#39;opérateur que vous souhaitez proposer.
 

@@ -212,7 +212,7 @@ L’étape suivante du processus consiste à prévisualiser la balise . Chaque f
 
 ## Balise HTML personnalisée avec JavaScript
 
-Cette section explique comment ajouter une valeur à usage unique CSP au JavaScript de balise HTML personnalisé pour l’exécuter sur la page de passage en caisse, en veillant à la conformité aux exigences de la politique de sécurité du contenu (CSP). Cet ajout améliore la sécurité du site en empêchant l’exécution de scripts non autorisés. Pour plus d’informations, consultez la documentation [ Politique de sécurité du contenu ](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+Cette section explique comment ajouter une valeur à usage unique CSP au JavaScript de balise HTML personnalisé pour l’exécuter sur la page de passage en caisse, en veillant à la conformité aux exigences de la politique de sécurité du contenu (CSP). Cet ajout améliore la sécurité du site en empêchant l’exécution de scripts non autorisés. Pour plus d’informations, consultez la documentation [&#x200B; Politique de sécurité du contenu &#x200B;](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
 
 >[!NOTE]
 >

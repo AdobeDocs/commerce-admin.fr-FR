@@ -30,7 +30,7 @@ Pour savoir comment connecter votre boutique aux services Adobe Commerce, voir [
 
 ## [!UICONTROL Production Keys]
 
-![ Clé API de production ](./assets/prod-key-saas-configuration.png)<!-- zoom -->
+![&#x200B; Clé API de production &#x200B;](./assets/prod-key-saas-configuration.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -52,7 +52,7 @@ Pour savoir comment connecter votre boutique aux services Adobe Commerce, voir [
 
 ## [!UICONTROL IMS Organization]
 
-![ Organisation IMS ](./assets/ims-organization.png)<!-- zoom -->
+![&#x200B; Organisation IMS &#x200B;](./assets/ims-organization.png)<!-- zoom -->
 
 | Champ | Description |
 |--- |--- |

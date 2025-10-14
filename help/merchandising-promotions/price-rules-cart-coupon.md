@@ -77,13 +77,13 @@ La longueur et le format des codes coupon générés automatiquement sont contr�
 
 ### Méthode 1 : créer un coupon spécifique
 
-1. Suivez les instructions pour créer une [ règle de prix de panier ](price-rules-cart.md).
+1. Suivez les instructions pour créer une [&#x200B; règle de prix de panier &#x200B;](price-rules-cart.md).
 
 1. Dans la section **[!UICONTROL Rule Information]**, définissez **[!UICONTROL Coupon]** sur `Specific Coupon`.
 
 1. Saisissez un **[!UICONTROL Coupon Code]** à utiliser avec la promotion.
 
-   Le format du code (numérique, alphanumérique ou alphabétique) est déterminé par la [ configuration ](#configure-coupon-codes).
+   Le format du code (numérique, alphanumérique ou alphabétique) est déterminé par la [&#x200B; configuration &#x200B;](#configure-coupon-codes).
 
 1. Pour limiter le nombre de fois où le coupon peut être utilisé, procédez comme suit :
 
@@ -130,7 +130,7 @@ La longueur et le format des codes coupon générés automatiquement sont contr�
 
 La génération des coupons de remise est une opération asynchrone, qui s’exécute en arrière-plan afin que vous puissiez continuer à travailler dans l’administration sans attendre que l’opération se termine. Le système affiche un message lorsque la tâche est terminée.
 
-1. Suivez les instructions pour créer une [ règle de prix de panier ](price-rules-cart.md).
+1. Suivez les instructions pour créer une [&#x200B; règle de prix de panier &#x200B;](price-rules-cart.md).
 
 1. Sous **[!UICONTROL Coupon Code]**, cochez la case **[!UICONTROL Use Auto Generation]** .
 

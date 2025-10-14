@@ -27,7 +27,7 @@ Dans les ventes, le terme _catalog_ fait généralement référence à une séle
 
 Comme la table des matières d’un catalogue imprimé, le menu principal de votre boutique — ou _navigation supérieure_ — organise les produits par catégorie pour faciliter la recherche de ce qu’ils veulent par les clients. Le menu principal est basé sur une _catégorie racine_, qui est un conteneur pour le menu affecté au magasin. Comme les options de menu spécifiques sont définies au niveau de l’affichage en magasin, chaque vue peut avoir un menu principal différent basé sur la même catégorie racine. Dans chaque menu, vous pouvez proposer une sélection de produits adaptés au magasin.
 
-![ Diagramme de hiérarchie de catalogue ](./assets/catalog-hierarchy-scope.svg){width="550"}
+![&#x200B; Diagramme de hiérarchie de catalogue &#x200B;](./assets/catalog-hierarchy-scope.svg){width="550"}
 
 ## Portée du produit
 

@@ -37,7 +37,7 @@ ht-degree: 1%
 >
 >À compter de la version 2.4.6, le service [[!DNL Fixer.io]](https://fixer.io/) est obsolète et remplacé par le service [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api). Il est vivement recommandé d’utiliser un compte APILayer au lieu d’un compte [!DNL Fixer.io] obsolète.
 
-![ Configuration de devise > Fixer.io](./assets/currency-setup-fixer.png)<!-- zoom -->
+![&#x200B; Configuration de devise > Fixer.io](./assets/currency-setup-fixer.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Currency Converter API]
 
-![ Configuration de devise > API de convertisseur de devises](./assets/currency-setup-converter.png)<!-- zoom -->
+![&#x200B; Configuration de devise > API de convertisseur de devises](./assets/currency-setup-converter.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

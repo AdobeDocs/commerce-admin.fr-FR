@@ -93,6 +93,6 @@ Vous avez deux feuilles de calcul ouvertes, côte à côte. L’une contient la 
 
 1. Utilisez les commandes de page pour afficher les nouveaux taux d’imposition.
 
-   ![ Taux de taxe d’importation des données](../stores-purchase/assets/tax-zones-rates.png){width="600" zoomable="yes"}
+   ![&#x200B; Taux de taxe d’importation des données](../stores-purchase/assets/tax-zones-rates.png){width="600" zoomable="yes"}
 
 1. Exécutez certaines transactions de test dans votre boutique avec des clients provenant de différents codes postaux afin de vous assurer que les nouveaux taux d’imposition fonctionnent correctement.

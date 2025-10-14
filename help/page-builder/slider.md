@@ -28,7 +28,7 @@ Lorsque vous utilisez le type de contenu Curseur, vous ajoutez et modifiez des d
 
 | Outil | Icon | Description |
 |--- |--- |--- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace la diapositive vers une autre position sur le curseur. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace la diapositive vers une autre position sur le curseur. |
 | (libellé) | Diapositive # | Indique le numéro de la diapositive en cours. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _[!UICONTROL Edit Slide]_, dans laquelle vous pouvez modifier les propriétés de la diapositive active. |
 | Dupliquer | ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="25"} | Effectue une copie de la diapositive active. |
@@ -40,7 +40,7 @@ Lorsque vous utilisez le type de contenu Curseur, vous ajoutez et modifiez des d
 
 | Outil | Icon | Description |
 |--- |--- |--- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le curseur vers une autre position sur la scène. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le curseur vers une autre position sur la scène. |
 | (libellé) | [!UICONTROL Slider] | Identifie le conteneur de curseur. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _[!UICONTROL Edit Slider]_, où vous pouvez modifier les propriétés de la vidéo et du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le curseur actif. |
@@ -144,7 +144,7 @@ Vous pouvez ajouter n’importe quel [type de widget](../content-design/widgets.
 
 1. Spécifiez les paramètres, qui sont différents selon le type de widget
 
-   ![ Exemple d’insertion d’un widget sur la diapositive ](./assets/insert-widget-to-slide-page.png){width="600" zoomable="yes"}
+   ![&#x200B; Exemple d’insertion d’un widget sur la diapositive &#x200B;](./assets/insert-widget-to-slide-page.png){width="600" zoomable="yes"}
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Insert Widget]** dans le coin supérieur droit.
 
@@ -266,7 +266,7 @@ Si vous définissez la _[!UICONTROL Background Type]_&#x200B;sur `Image`, utilis
   | ---- | ----------- |
   | [!UICONTROL Upload] | Télécharge un fichier image de votre ordinateur local dans la galerie, puis l’applique comme image d’arrière-plan pour la bannière. |
   | [!UICONTROL Select from Gallery] | Vous invite à choisir une image existante de la galerie comme image d’arrière-plan pour la bannière. |
-  | ![ Icône Appareil photo ](./assets/pb-icon-camera.png){width="25"} | Vous permet de faire glisser l’image vers la mosaïque de la caméra ou d’accéder à l’image dans votre système de fichiers local. |
+  | ![&#x200B; Icône Appareil photo &#x200B;](./assets/pb-icon-camera.png){width="25"} | Vous permet de faire glisser l’image vers la mosaïque de la caméra ou d’accéder à l’image dans votre système de fichiers local. |
 
   {style="table-layout:auto"}
 

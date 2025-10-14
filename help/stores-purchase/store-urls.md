@@ -21,7 +21,7 @@ Chaque site web d’une installation Adobe Commerce ou Magento Open Source compo
 
 >[!IMPORTANT]
 >
->Ne modifiez pas l’URL d’administration à partir de la configuration d’URL de base par défaut. Pour modifier l’URL ou le chemin d’accès d’administration, voir [ Utiliser une URL d’administration personnalisée ](#use-a-custom-admin-url).
+>Ne modifiez pas l’URL d’administration à partir de la configuration d’URL de base par défaut. Pour modifier l’URL ou le chemin d’accès d’administration, voir [&#x200B; Utiliser une URL d’administration personnalisée &#x200B;](#use-a-custom-admin-url).
 
 ## Utiliser un protocole sécurisé
 

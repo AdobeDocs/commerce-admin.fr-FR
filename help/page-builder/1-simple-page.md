@@ -22,7 +22,7 @@ Suivez cet exercice en trois parties pour vous familiariser avec l’espace de t
 
 ## Avant de commencer
 
-Avant de commencer cet exercice, il est recommandé d’augmenter la durée de vie de la session d’administration [ afin d’empêcher l’expiration de la session pendant que vous travaillez.](../systems/security-admin.md)
+Avant de commencer cet exercice, il est recommandé d’augmenter la durée de vie de la session d’administration [&#x200B; afin d’empêcher l’expiration de la session pendant que vous travaillez.](../systems/security-admin.md)
 
 Vérifiez les paramètres de configuration requis pour la gestion de contenu :
 
@@ -76,7 +76,7 @@ Dans cette partie de l’exercice Page simple, vous créez une page qui comporte
    >
    >La disposition Largeur complète ne peut être utilisée qu’avec un [thème](../content-design/themes.md) compatible.
 
-   ![ Paramètres de conception de page ](./assets/pb-tutorial1-design-section.png){width="600" zoomable="yes"}
+   ![&#x200B; Paramètres de conception de page &#x200B;](./assets/pb-tutorial1-design-section.png){width="600" zoomable="yes"}
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]**.
 

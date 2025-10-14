@@ -26,7 +26,7 @@ Bien que la plupart des conteneurs de séparateur soient invisibles, l’exemple
 
 | Outil | Icon | Description |
 | ---- | --------------------| ------------|
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur du séparateur vers un autre emplacement valide sur la page. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur du séparateur vers un autre emplacement valide sur la page. |
 | (libellé) | SÉPARATEUR | Identifie le conteneur courant comme un élément diviseur. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Modifier le séparateur, qui permet de modifier les propriétés du séparateur et de son conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le conteneur du séparateur. |

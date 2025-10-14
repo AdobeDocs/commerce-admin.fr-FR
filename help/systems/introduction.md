@@ -20,7 +20,7 @@ Les variables sont des informations qui peuvent être créées une seule fois et
 - [Variables prédéfinies](variables-predefined.md)
 - [Variables personnalisées](variables-custom.md)
 
-L’une des tâches à effectuer avant de lancer votre boutique consiste à examiner les modèles d’e-mail utilisés pour toutes les communications envoyées depuis votre boutique afin de s’assurer qu’ils reflètent votre marque. [ Vous pouvez notamment personnaliser les modèles d’e-mail et de newsletter](../merchandising-promotions/newsletter-template.md) ainsi que les factures et bons de livraison PDF. Il comprend également la personnalisation du contenu avec des variables et des [ balises de balisage ](markup-tags.md).
+L’une des tâches à effectuer avant de lancer votre boutique consiste à examiner les modèles d’e-mail utilisés pour toutes les communications envoyées depuis votre boutique afin de s’assurer qu’ils reflètent votre marque. [&#x200B; Vous pouvez notamment personnaliser les modèles d’e-mail et de newsletter](../merchandising-promotions/newsletter-template.md) ainsi que les factures et bons de livraison PDF. Il comprend également la personnalisation du contenu avec des variables et des [&#x200B; balises de balisage &#x200B;](markup-tags.md).
 
 ## Gestion des opérations
 

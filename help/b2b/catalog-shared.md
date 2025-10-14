@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe Commerce B2B vous permet de gérer des catalogues protégés _shared_ avec des tarifs personnalisés pour différentes entreprises. Outre le catalogue de produits _primary_ standard, il permet aux clients d’accéder à deux types de catalogues partagés avec des structures de tarification différentes.
 
-Si la [ fonction de catalogue partagé](enable-basic-features.md) est activée dans la configuration, le catalogue principal d’origine reste visible depuis l’administrateur, mais seul le catalogue partagé public par défaut (général) est visible depuis le storefront. En outre, il est possible de créer des catalogues personnalisés qui ne sont visibles que par les membres de comptes [company](account-companies.md) spécifiques.
+Si la [&#x200B; fonction de catalogue partagé](enable-basic-features.md) est activée dans la configuration, le catalogue principal d’origine reste visible depuis l’administrateur, mais seul le catalogue partagé public par défaut (général) est visible depuis le storefront. En outre, il est possible de créer des catalogues personnalisés qui ne sont visibles que par les membres de comptes [company](account-companies.md) spécifiques.
 
 Pour le catalogue partagé public `Default (General)`, vous devez attribuer des produits pour afficher le catalogue sur le storefront. Par défaut, il est vide et ne contient aucun produit.
 

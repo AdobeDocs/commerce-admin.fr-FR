@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Actions for Acquiring Reward Points by Customers]
 
-![ Actions d’acquisition de points de récompense par les clients](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
+![&#x200B; Actions d’acquisition de points de récompense par les clients](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
 
 <!-- [Actions for Acquiring Reward Points by Customers](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 

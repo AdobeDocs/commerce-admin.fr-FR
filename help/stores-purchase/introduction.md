@@ -21,7 +21,7 @@ Lorsque la [hiérarchie](stores.md) est définie, vous pouvez appliquer des para
 
 ## Point d’achat
 
-Adobe Commerce et Magento Open Source réduisent les erreurs de commande en vérifiant automatiquement le SKU et la disponibilité de tous les éléments avant l’envoi d’une commande. Vous pouvez configurer les [panier](cart.md) et les [ options de passage en caisse](checkout-process.md) pour offrir une expérience d’achat optimale, de la transaction à la diffusion. Les clients qui sont connectés à leur compte peuvent effectuer rapidement l’extraction, car la plupart des informations se trouvent déjà dans leurs comptes. La page _Passage en caisse_ guide le client à chaque étape du processus pour terminer la transaction de commande. Si vous activez l’ [achat instantané](checkout-instant-purchase.md), les clients peuvent accélérer le processus de passage en caisse à l’aide des informations enregistrées dans leur compte.
+Adobe Commerce et Magento Open Source réduisent les erreurs de commande en vérifiant automatiquement le SKU et la disponibilité de tous les éléments avant l’envoi d’une commande. Vous pouvez configurer les [panier](cart.md) et les [&#x200B; options de passage en caisse](checkout-process.md) pour offrir une expérience d’achat optimale, de la transaction à la diffusion. Les clients qui sont connectés à leur compte peuvent effectuer rapidement l’extraction, car la plupart des informations se trouvent déjà dans leurs comptes. La page _Passage en caisse_ guide le client à chaque étape du processus pour terminer la transaction de commande. Si vous activez l’ [achat instantané](checkout-instant-purchase.md), les clients peuvent accélérer le processus de passage en caisse à l’aide des informations enregistrées dans leur compte.
 
 >[!TIP]
 >

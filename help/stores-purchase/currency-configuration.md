@@ -52,7 +52,7 @@ Vous spécifiez également les devises que vous acceptez et la devise que vous s
 
    - Définissez **[!UICONTROL Catalog Price Scope]** sur `Global` ou `Website`.
 
-   ![ Configuration du catalogue - options de prix](../configuration-reference/catalog/assets/catalog-price.png){width="600" zoomable="yes"}
+   ![&#x200B; Configuration du catalogue - options de prix](../configuration-reference/catalog/assets/catalog-price.png){width="600" zoomable="yes"}
 
 ## Etape 2 : paramétrer la connexion à l&#39;import
 
@@ -86,7 +86,7 @@ Vous spécifiez également les devises que vous acceptez et la devise que vous s
 
       - Pour **[!UICONTROL Connection Timeout in Seconds]**, saisissez le nombre de secondes d’inactivité à autoriser avant l’expiration de la connexion.
 
-     ![ Configuration générale - Configuration de devise - Options de l’API du correcteur (APILayer)](../configuration-reference/general/assets/currency-setup-fixer-api.png){width="600" zoomable="yes"}
+     ![&#x200B; Configuration générale - Configuration de devise - Options de l’API du correcteur (APILayer)](../configuration-reference/general/assets/currency-setup-fixer-api.png){width="600" zoomable="yes"}
 
    - _Pour se connecter au [[!DNL Currency Convertor API] service](https://free.currencyconverterapi.com/) :_
 
@@ -96,7 +96,7 @@ Vous spécifiez également les devises que vous acceptez et la devise que vous s
 
       - Pour **[!UICONTROL Connection Timeout in Seconds]**, saisissez le nombre de secondes d’inactivité à autoriser avant l’expiration de la connexion.
 
-     ![ Configuration générale - Configuration de la devise - Options de l’API du convertisseur de devise](../configuration-reference/general/assets/currency-setup-converter.png){width="600" zoomable="yes"}
+     ![&#x200B; Configuration générale - Configuration de la devise - Options de l’API du convertisseur de devise](../configuration-reference/general/assets/currency-setup-converter.png){width="600" zoomable="yes"}
 
 ## Étape 3 : configuration des paramètres d&#39;import planifiés
 
@@ -130,7 +130,7 @@ Vous spécifiez également les devises que vous acceptez et la devise que vous s
 
 1. Lorsque vous êtes invité à mettre à jour le cache, cliquez sur le lien **[!UICONTROL Cache Management]** et actualisez le cache non valide.
 
-   ![ Message système : actualisez le cache non valide](./assets/msg-cache-management.png){width="600" zoomable="yes"}
+   ![&#x200B; Message système : actualisez le cache non valide](./assets/msg-cache-management.png){width="600" zoomable="yes"}
 
 ## Etape 4 : Mise à jour des taux de change
 

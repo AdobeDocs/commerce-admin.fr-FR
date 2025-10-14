@@ -27,7 +27,7 @@ Les deux premières étapes sont identiques à celles de l’insertion d’une i
 
 1. Dans la barre d’outils [éditeur](editor.md), cliquez sur l’icône _Insérer une image_.
 
-   ![ Icône Insérer une image ](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
+   ![&#x200B; Icône Insérer une image &#x200B;](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
    Cette action ouvre la boîte de dialogue _[!UICONTROL Insert/edit image]_.
 
@@ -55,7 +55,7 @@ Les deux premières étapes sont identiques à celles de l’insertion d’une i
 
    - Cliquez sur **[!UICONTROL Search Adobe Stock]**.
 
-   - Ajoutez un aperçu ou une image sous licence à partir d’Adobe Stock (voir [ Utilisation d’images Adobe Stock](adobe-stock-manage.md)).
+   - Ajoutez un aperçu ou une image sous licence à partir d’Adobe Stock (voir [&#x200B; Utilisation d’images Adobe Stock](adobe-stock-manage.md)).
 
 Les images sont chargées dans le dossier Stockage multimédia actuel sur le serveur.
 

@@ -28,7 +28,7 @@ La boîte à outils Image s’affiche lorsque vous placez le pointeur de la sour
 
 | Outil | Icon | Description |
 |--- |--- |--- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace l&#39;image vers un autre emplacement sur la scène. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace l&#39;image vers un autre emplacement sur la scène. |
 | (libellé) | Image | Identifie le conteneur de contenu actuel en tant qu’image. Pointez sur le conteneur d’image pour afficher la boîte à outils. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _Modifier l’image_, dans laquelle vous pouvez modifier les propriétés de l’image et du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque l&#39;image courante. |
@@ -139,7 +139,7 @@ Le nom, les dimensions et la taille du fichier s’affichent sous l’image actu
 
 1. Pour ajouter une **[!UICONTROL Mobile Image]**, utilisez les mêmes méthodes que celles décrites à l’étape précédente pour sélectionner une image à utiliser pour l’affichage sur les appareils mobiles.
 
-   ![ Image mobile ](./assets/pb-media-image-settings-mobile-image.png){width="600" zoomable="yes"}
+   ![&#x200B; Image mobile &#x200B;](./assets/pb-media-image-settings-mobile-image.png){width="600" zoomable="yes"}
 
 1. Si nécessaire, spécifiez un **[!UICONTROL Link]** pour l’image.
 

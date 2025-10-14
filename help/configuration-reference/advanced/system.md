@@ -117,7 +117,7 @@ Pour plus d’informations sur la modification de ce paramètre, voir [Configura
 
 ## [!UICONTROL Security]
 
-![ Configuration avancée - Sécurité ](./assets/system-security.png)<!-- zoom -->
+![&#x200B; Configuration avancée - Sécurité &#x200B;](./assets/system-security.png)<!-- zoom -->
 
 Pour plus d’informations sur la modification de ces paramètres, voir [Gestion des sessions](../../systems/security-session-management.md) dans le _Guide des systèmes d’administration_.
 
@@ -144,7 +144,7 @@ Pour plus d&#39;informations sur la modification de ces paramètres, consultez [
 
 ## [!UICONTROL Backup Settings]
 
-![ Configuration avancée - Paramètres de sauvegarde ](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
+![&#x200B; Configuration avancée - Paramètres de sauvegarde &#x200B;](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
 
 {{$include /help/_includes/backups-note.md}}
 

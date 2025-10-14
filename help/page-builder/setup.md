@@ -32,7 +32,7 @@ Pour plus d’informations sur les options de configuration des outils avancés 
 
 1. Dans le panneau de gauche sous _[!UICONTROL General]_, choisissez **[!UICONTROL Content Management]**.
 
-1. Développez ![ Développeur de sélecteur ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** et vérifiez que **[!UICONTROL Enable Page Builder]** est défini sur `Yes`.
+1. Développez ![&#x200B; Développeur de sélecteur &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** et vérifiez que **[!UICONTROL Enable Page Builder]** est défini sur `Yes`.
 
    ![Outils de contenu avancé](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
@@ -82,13 +82,13 @@ Pour plus d’informations sur les options de configuration des outils avancés 
 
 >[!NOTE]
 >
->La désactivation de [!DNL Page Builder] remplace les outils de contenu avancés par l’éditeur [ WYSIWYG ](../content-design/editor.md) et peut entraîner des erreurs d’affichage dans le storefront. Le contenu que vous avez précédemment créé avec [!DNL Page Builder] peut ne pas être modifiable à partir de l’administrateur.
+>La désactivation de [!DNL Page Builder] remplace les outils de contenu avancés par l’éditeur [&#x200B; WYSIWYG &#x200B;](../content-design/editor.md) et peut entraîner des erreurs d’affichage dans le storefront. Le contenu que vous avez précédemment créé avec [!DNL Page Builder] peut ne pas être modifiable à partir de l’administrateur.
 
 1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche sous _[!UICONTROL General]_, choisissez **[!UICONTROL Content Management]**.
 
-1. Développez ![ Développeur de sélecteur ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** et définissez **[!UICONTROL Enable Page Builder]** sur `No`.
+1. Développez ![&#x200B; Développeur de sélecteur &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** et définissez **[!UICONTROL Enable Page Builder]** sur `No`.
 
 1. Lorsque vous êtes invité à confirmer l’opération, cliquez sur **[!UICONTROL Turn Off]**.
 

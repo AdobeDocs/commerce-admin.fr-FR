@@ -28,7 +28,7 @@ Cette intégration prend en charge les commerçants Commerce avec les utilisateu
 
 L’administrateur qui configure cette intégration a besoin des informations d’identification suivantes pendant l’activation du module :
 
-* Identifiant de l&#39;organisation (obtenu à partir de [Adobe Admin Console](https://adminconsole.adobe.com/)), qui doit comporter au moins 24 caractères. L’utilisateur authentifié doit appartenir à cette organisation IMS. Pour plus d’informations sur la recherche de votre ID d’organisation, voir [ Organisations dans Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr).
+* Identifiant de l&#39;organisation (obtenu à partir de [Adobe Admin Console](https://adminconsole.adobe.com/)), qui doit comporter au moins 24 caractères. L’utilisateur authentifié doit appartenir à cette organisation IMS. Pour plus d’informations sur la recherche de votre ID d’organisation, voir [&#x200B; Organisations dans Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr).
 * 2FA doit être appliqué au niveau de l’organisation dans Adobe Admin Console pour activer le module. Cochez la case [Paramètres d’authentification](https://helpx.adobe.com/fr/enterprise/using/authentication-settings.html#two-step-verification).
 * Identifiant client
 * Secret client

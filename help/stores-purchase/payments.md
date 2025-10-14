@@ -51,7 +51,7 @@ Adobe Commerce et Magento Open Source prennent en charge de nombreuses solutions
 
 ### Solutions recommandées
 
-- [ Services de paiement ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=fr)
+- [&#x200B; Services de paiement &#x200B;](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=fr)
 - [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} [PayPal Express Checkout](paypal-express-checkout.md)
 - [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} [Braintree](braintree.md)
 

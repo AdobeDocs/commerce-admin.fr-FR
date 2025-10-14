@@ -18,7 +18,7 @@ L’archivage des commandes améliore régulièrement les performances et évite
 
 >[!NOTE]
 >
->L’option _[!UICONTROL Archive]_&#x200B;apparaît dans le menu [[!UICONTROL Sales] ](sales-menu.md) uniquement lorsque l’archivage est [activé](../configuration-reference/sales/sales.md).
+>L’option _[!UICONTROL Archive]_&#x200B;apparaît dans le menu [[!UICONTROL Sales] &#x200B;](sales-menu.md) uniquement lorsque l’archivage est [activé](../configuration-reference/sales/sales.md).
 
 ## Configuration de l’archive de commande
 
@@ -121,7 +121,7 @@ Votre boutique peut être configurée pour archiver des commandes, des factures,
 
 1. Définissez le contrôle **[!UICONTROL Actions]** sur `Move to Archive` et recherchez le message que la commande a été archivée.
 
-   ![Déplacement des commandes sélectionnées vers l’archive ](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
+   ![Déplacement des commandes sélectionnées vers l’archive &#x200B;](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >

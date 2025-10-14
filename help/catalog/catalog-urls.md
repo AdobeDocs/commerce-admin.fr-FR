@@ -37,7 +37,7 @@ La clé URL est la partie d’une URL statique qui décrit le produit ou la cat�
 
 >[!NOTE]
 >
->Par défaut, les caractères spéciaux accentués sont automatiquement remplacés par leurs versions standard non accentuées dans la clé d’URL. Par exemple, `ñ` est automatiquement remplacé par `n`. Ce comportement peut être désactivé en définissant l’option de configuration _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;sur `No`. Voir [ Configuration des URL de catalogue ](#configure-catalog-urls).
+>Par défaut, les caractères spéciaux accentués sont automatiquement remplacés par leurs versions standard non accentuées dans la clé d’URL. Par exemple, `ñ` est automatiquement remplacé par `n`. Ce comportement peut être désactivé en définissant l’option de configuration _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;sur `No`. Voir [&#x200B; Configuration des URL de catalogue &#x200B;](#configure-catalog-urls).
 
 La clé de l’URL doit comporter des caractères minuscules séparés par des tirets sans fin. Les tirets ne sont pas autorisés au début ou à la fin de la clé URL. Une clé d’URL bien conçue et « adaptée aux moteurs de recherche » peut inclure le nom du produit et des mots-clés afin d’améliorer la manière dont elle est indexée par les moteurs de recherche. La clé URL peut être configurée pour créer une redirection automatique en cas de modification de la clé URL.
 

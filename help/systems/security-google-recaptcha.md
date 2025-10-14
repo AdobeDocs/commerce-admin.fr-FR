@@ -94,7 +94,7 @@ Google reCAPTCHA requiert une paire de clés API pour l’activer. Vous pouvez o
 
    - Par **[!UICONTROL Theme]**, choisissez le thème que vous souhaitez utiliser pour appliquer un style à la zone reCAPTCHA de Google. Options : `Light Theme (default)` / `Dark Theme`
 
-   - Par **[!UICONTROL Language Code]**, saisissez le code à deux caractères pour spécifier la langue [ utilisée pour le texte et la messagerie reCAPTCHA de Google](https://developers.google.com/recaptcha/docs/language).
+   - Par **[!UICONTROL Language Code]**, saisissez le code à deux caractères pour spécifier la langue [&#x200B; utilisée pour le texte et la messagerie reCAPTCHA de Google](https://developers.google.com/recaptcha/docs/language).
 
    ![reCAPTCHA v2 - « Je ne suis pas un robot »](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
@@ -108,7 +108,7 @@ Google reCAPTCHA requiert une paire de clés API pour l’activer. Vous pouvez o
 
    - Par **[!UICONTROL Theme]**, choisissez le thème à utiliser pour appliquer un style à la zone reCAPTCHA de Google. Options : `Light Theme (default)` / `Dark Theme`
 
-   - Par **[!UICONTROL Language Code]**, saisissez un code à deux caractères qui spécifie la langue [ utilisée pour le texte et la messagerie reCAPTCHA de Google](https://developers.google.com/recaptcha/docs/language).
+   - Par **[!UICONTROL Language Code]**, saisissez un code à deux caractères qui spécifie la langue [&#x200B; utilisée pour le texte et la messagerie reCAPTCHA de Google](https://developers.google.com/recaptcha/docs/language).
 
    ![reCAPTCHA v2 invisible](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
@@ -124,13 +124,13 @@ Google reCAPTCHA requiert une paire de clés API pour l’activer. Vous pouvez o
 
    - Par **[!UICONTROL Theme]**, choisissez le thème à utiliser pour appliquer un style à la zone reCAPTCHA de Google. Options : `Light Theme (default)` / `Dark Theme`
 
-   - Par **[!UICONTROL Language Code]**, saisissez un code à deux caractères qui spécifie la langue [ utilisée pour le texte et la messagerie reCAPTCHA de Google](https://developers.google.com/recaptcha/docs/language).
+   - Par **[!UICONTROL Language Code]**, saisissez un code à deux caractères qui spécifie la langue [&#x200B; utilisée pour le texte et la messagerie reCAPTCHA de Google](https://developers.google.com/recaptcha/docs/language).
 
    ![reCAPTCHA v3 invisible](../configuration-reference/security/assets/recaptcha-admin-v3-invisible.png){width="600" zoomable="yes"}
 
 1. Développez **[!UICONTROL reCAPTCHA Validation Failure Messages]** et saisissez les messages qui s’affichent dans Admin si la validation échoue ou ne peut pas être effectuée.
 
-   ![ Messages d’échec reCAPTCHA ](../configuration-reference/security/assets/recaptcha-admin-failure-messages.png){width="600" zoomable="yes"}
+   ![&#x200B; Messages d’échec reCAPTCHA &#x200B;](../configuration-reference/security/assets/recaptcha-admin-failure-messages.png){width="600" zoomable="yes"}
 
 1. Développez la section **[!UICONTROL Admin Panel]** et configurez les éléments suivants selon vos besoins :
 

@@ -22,11 +22,11 @@ La configuration de sécurité d’administration vous permet d’effectuer les 
 - Exiger que les mots de passe respectent la casse
 - Limiter la durée des sessions Admin
 - Limiter la durée de vie des mots de passe
-- Limitez le nombre de tentatives de connexion avant que le compte utilisateur administrateur ne soit [ verrouillé](permissions-users-all.md#locked-users).
+- Limitez le nombre de tentatives de connexion avant que le compte utilisateur administrateur ne soit [&#x200B; verrouillé](permissions-users-all.md#locked-users).
 
 Pour une sécurité renforcée, vous pouvez configurer la durée d’inactivité du clavier avant l’expiration de la session en cours et exiger que le nom d’utilisateur et le mot de passe soient sensibles à la casse.
 
-Outre les paramètres de sécurité de cette section, l’[authentification à deux facteurs](security-two-factor-authentication.md) (2FA) est nécessaire pour vérifier l’identité des utilisateurs à l’aide d’un mot de passe à usage unique généré par une application ou un appareil. La première fois que vous vous connectez à l’administrateur, vous êtes invité à configurer 2FA. Pour plus de sécurité, la connexion d’administrateur peut également être configurée pour nécessiter un [ CAPTCHA ](security-captcha.md).
+Outre les paramètres de sécurité de cette section, l’[authentification à deux facteurs](security-two-factor-authentication.md) (2FA) est nécessaire pour vérifier l’identité des utilisateurs à l’aide d’un mot de passe à usage unique généré par une application ou un appareil. La première fois que vous vous connectez à l’administrateur, vous êtes invité à configurer 2FA. Pour plus de sécurité, la connexion d’administrateur peut également être configurée pour nécessiter un [&#x200B; CAPTCHA &#x200B;](security-captcha.md).
 
 >[!NOTE]
 >

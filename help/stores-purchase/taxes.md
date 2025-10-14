@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Taxes
 
-Configurez votre boutique pour calculer les taxes en fonction des paramètres régionaux. Vous pouvez configurer des [ classes de taxe ](tax-class.md) pour les produits et les groupes de clients, et créer des [ règles fiscales ](tax-rules.md) qui combinent les classes de produits et de clients, les zones fiscales et les taux. Commerce fournit également des paramètres de configuration pour les taxes fixes sur les produits, les taxes composites et l’affichage des prix au-delà des frontières internationales. Si vous devez collecter une [taxe sur la valeur ajoutée](vat.md), vous pouvez configurer votre boutique pour calculer automatiquement le montant approprié avec validation.
+Configurez votre boutique pour calculer les taxes en fonction des paramètres régionaux. Vous pouvez configurer des [&#x200B; classes de taxe &#x200B;](tax-class.md) pour les produits et les groupes de clients, et créer des [&#x200B; règles fiscales &#x200B;](tax-rules.md) qui combinent les classes de produits et de clients, les zones fiscales et les taux. Commerce fournit également des paramètres de configuration pour les taxes fixes sur les produits, les taxes composites et l’affichage des prix au-delà des frontières internationales. Si vous devez collecter une [taxe sur la valeur ajoutée](vat.md), vous pouvez configurer votre boutique pour calculer automatiquement le montant approprié avec validation.
 
 >[!NOTE]
 >

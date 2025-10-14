@@ -67,7 +67,7 @@ Un client de magasin crée un compte sur le storefront.
 
 1. Une fois l’opération terminée, cliquez sur **Créer un compte**.
 
-Le client peut alors utiliser son adresse électronique et son mot de passe pour [se connecter ](../customers/customer-sign-in.md) à son compte et renseigner les informations sur son adresse.
+Le client peut alors utiliser son adresse électronique et son mot de passe pour [se connecter &#x200B;](../customers/customer-sign-in.md) à son compte et renseigner les informations sur son adresse.
 
 ## Création d’un compte à partir de l’administrateur
 

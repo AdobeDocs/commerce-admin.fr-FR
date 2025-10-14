@@ -49,7 +49,7 @@ Avant d’effectuer un paramètre de configuration qui s’applique uniquement �
 
    - Pour la plupart des paramètres de configuration, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-   - Pour [ paramètres de conception ](../content-design/configuration.md), accédez à **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**. Ensuite, dans la grille, sélectionnez la vue de magasin appropriée.
+   - Pour [&#x200B; paramètres de conception &#x200B;](../content-design/configuration.md), accédez à **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**. Ensuite, dans la grille, sélectionnez la vue de magasin appropriée.
 
 1. Accédez au paramètre de configuration à modifier et procédez comme suit :
 

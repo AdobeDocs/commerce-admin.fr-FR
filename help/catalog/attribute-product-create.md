@@ -72,7 +72,7 @@ Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à pa
 
    Les options disponibles dépendent du paramètre _[!UICONTROL Catalog Input Type for Store Owner]_.
 
-1. Définissez **[!UICONTROL Scope]** pour indiquer où, dans votre hiérarchie [ magasin](../getting-started/websites-stores-views.md) l’attribut peut être utilisé.
+1. Définissez **[!UICONTROL Scope]** pour indiquer où, dans votre hiérarchie [&#x200B; magasin](../getting-started/websites-stores-views.md) l’attribut peut être utilisé.
 
 1. Pour empêcher toute entrée de valeurs en double, définissez **[!UICONTROL Unique Value]** sur `Yes`.
 

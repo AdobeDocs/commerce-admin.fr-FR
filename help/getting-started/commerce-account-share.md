@@ -30,7 +30,7 @@ L’équipe d’assistance [!DNL Commerce] n’a pas accès au compte et ne peut
    - Le `MAGE ID/Account ID (MAG00XXXXXXX)` s’affiche dans le coin supérieur gauche de l’onglet _[!UICONTROL Magento]_, juste au-dessus du lien **Déconnexion**.
    - Adresse `Email` associée au compte.
 
-1. Connectez-vous à votre [[!DNL Commerce]  compte ](commerce-account-create.md).
+1. Connectez-vous à votre [[!DNL Commerce]  compte &#x200B;](commerce-account-create.md).
 
 1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL Shared Access]**.
 
@@ -109,7 +109,7 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
 
    >[!NOTE]
    >
-   > Si **[!UICONTROL Delete]** n’est pas affiché, vérifiez si le **[!UICONTROL Share Name]** contient le modèle de dénomination `Cloud Shared Access from MAG0XYZ`. Si le compte possède ce modèle de dénomination [ et ne peut pas être supprimé](https://experienceleague.adobe.com/fr/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), c’est parce que l’accès partagé a été créé par une API et non directement à partir du compte [Commerce](https://account.magento.com/).
+   > Si **[!UICONTROL Delete]** n’est pas affiché, vérifiez si le **[!UICONTROL Share Name]** contient le modèle de dénomination `Cloud Shared Access from MAG0XYZ`. Si le compte possède ce modèle de dénomination [&#x200B; et ne peut pas être supprimé](https://experienceleague.adobe.com/fr/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), c’est parce que l’accès partagé a été créé par une API et non directement à partir du compte [Commerce](https://account.magento.com/).
    > 
    > S’il ne peut pas être supprimé, demandez simplement au propriétaire du compte de modifier le compte d’accès partagé et, sous Accorder des autorisations de compte, décochez chaque élément. Après cette mise à jour, l’utilisateur ne pourra plus accéder aux ressources du compte.
    > ![image](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)

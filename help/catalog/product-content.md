@@ -26,7 +26,7 @@ La section _[!UICONTROL Content]_&#x200B;est utilisée pour saisir et modifier l
 
 1. Sur l&#39;étiquette **[!UICONTROL Description]**, cliquez sur **[!UICONTROL Edit with Page Builder]**.
 
-1. Utilisez les outils de contenu [[!DNL Page Builder]](../page-builder/introduction.md) pour [ modifier le texte existant ](../page-builder/text.md) et ajouter un autre contenu (si nécessaire).
+1. Utilisez les outils de contenu [[!DNL Page Builder]](../page-builder/introduction.md) pour [&#x200B; modifier le texte existant &#x200B;](../page-builder/text.md) et ajouter un autre contenu (si nécessaire).
 
 ## [!DNL Page Builder] preview
 

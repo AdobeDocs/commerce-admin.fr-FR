@@ -43,7 +43,7 @@ Après la désactivation de l’intégration, les utilisateurs administrateurs d
 
 * Les utilisateurs administrateurs de Commerce qui se souviennent de leur mot de passe Commerce préexistant (c’est-à-dire un mot de passe Commerce créé avant l’intégration IMS) peuvent l’utiliser pour se connecter à l’administrateur.
 
-* Les utilisateurs administrateurs de Commerce qui ne disposent pas d’un mot de passe Commerce préexistant ou qui l’ont oublié doivent en créer un nouveau. Pour créer un mot de passe, les utilisateurs administrateurs peuvent utiliser la fonction [!UICONTROL Forgot your password?] de la page de connexion de Commerce. Voir [ Réinitialiser les mots de passe client ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html?lang=fr). Commerce n’accepte pas un champ de mot de passe vide.
+* Les utilisateurs administrateurs de Commerce qui ne disposent pas d’un mot de passe Commerce préexistant ou qui l’ont oublié doivent en créer un nouveau. Pour créer un mot de passe, les utilisateurs administrateurs peuvent utiliser la fonction [!UICONTROL Forgot your password?] de la page de connexion de Commerce. Voir [&#x200B; Réinitialiser les mots de passe client &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html?lang=fr). Commerce n’accepte pas un champ de mot de passe vide.
 
 ## Après la désactivation de l’intégration
 

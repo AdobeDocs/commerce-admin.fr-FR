@@ -289,4 +289,4 @@ L’état du stock de produits en bundle est **_non automatiquement remplacé pa
 
 ![Case à cocher](../assets/checkbox.png) Le produit du lot parent s’affiche toujours automatiquement en tant que produit de vente incitative pour tous ses produits enfants.
 
-![Case à cocher ](../assets/checkbox.png) [!UICONTROL Special Price] et [!UICONTROL Customer Group Price] (Prix de niveau) sont toujours définis comme pourcentage de remise pour tous les types de produits en regroupement.
+![Case à cocher &#x200B;](../assets/checkbox.png) [!UICONTROL Special Price] et [!UICONTROL Customer Group Price] (Prix de niveau) sont toujours définis comme pourcentage de remise pour tous les types de produits en regroupement.

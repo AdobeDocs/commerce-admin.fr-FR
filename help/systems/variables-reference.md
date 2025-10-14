@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Référence des variables
 
-La plupart des [ modèles d’email](email-template-custom.md) ont une section de [ variables prédéfinies](variables-predefined.md) spécifiques au modèle. La liste suivante comprend des exemples de modèles d’email fréquemment utilisés et de leurs variables associées.
+La plupart des [&#x200B; modèles d’email](email-template-custom.md) ont une section de [&#x200B; variables prédéfinies](variables-predefined.md) spécifiques au modèle. La liste suivante comprend des exemples de modèles d’email fréquemment utilisés et de leurs variables associées.
 
 ## Variables de modèle de courrier électronique
 

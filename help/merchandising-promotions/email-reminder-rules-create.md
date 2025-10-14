@@ -45,7 +45,7 @@ Avant de configurer une règle de rappel par e-mail, vous devez [configurer une 
 
 1. Dans le panneau de gauche, choisissez **[!UICONTROL Conditions]**.
 
-   Au moins une condition doit être définie pour la règle. Le processus est similaire à la création d’une [ règle de prix de catalogue ](price-rules-catalog.md).
+   Au moins une condition doit être définie pour la règle. Le processus est similaire à la création d’une [&#x200B; règle de prix de catalogue &#x200B;](price-rules-catalog.md).
 
    ![Conditions de rappel des emails](./assets/email-reminder-conditions.png){width="600" zoomable="yes"}
 
@@ -66,7 +66,7 @@ Avant de configurer une règle de rappel par e-mail, vous devez [configurer une 
 
 1. Dans le panneau de gauche, choisissez **[!UICONTROL Emails and Labels]**.
 
-   ![Règle de rappel d’e-mail - Modèles d’e-mails et de libellés ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![Règle de rappel d’e-mail - Modèles d’e-mails et de libellés &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
 1. Dans la section **[!UICONTROL Email Templates]** , choisissez le modèle d’e-mail à utiliser pour chaque site web et vue de magasin dans votre [hiérarchie de magasin](../getting-started/websites-stores-views.md).
 

@@ -20,7 +20,7 @@ Il existe plusieurs façons de sécuriser votre magasin et de maintenir votre s�
 
 >[!NOTE]
 >
->Les magasins qui ont activé l’authentification [!DNL Adobe Identity Management Services] (IMS) ont natif Adobe Commerce et Magento Open Source 2FA désactivé. Les utilisateurs administrateurs connectés à leur instance Commerce avec leurs informations d’identification d’Adobe n’ont pas besoin de se réauthentifier pour de nombreuses tâches d’administration. L’authentification est gérée par Adobe IMS lorsque l’utilisateur administrateur se connecte à sa session en cours. Voir [[!DNL Adobe Identity Management Service] (IMS) Présentation de l’intégration ](../getting-started/adobe-ims-integration-overview.md).
+>Les magasins qui ont activé l’authentification [!DNL Adobe Identity Management Services] (IMS) ont natif Adobe Commerce et Magento Open Source 2FA désactivé. Les utilisateurs administrateurs connectés à leur instance Commerce avec leurs informations d’identification d’Adobe n’ont pas besoin de se réauthentifier pour de nombreuses tâches d’administration. L’authentification est gérée par Adobe IMS lorsque l’utilisateur administrateur se connecte à sa session en cours. Voir [[!DNL Adobe Identity Management Service] (IMS) Présentation de l’intégration &#x200B;](../getting-started/adobe-ims-integration-overview.md).
 
 Visitez le [Centre de sécurité](https://helpx.adobe.com/fr/security.html){:target=&quot;_blank&quot;} pour obtenir les dernières informations sur les vulnérabilités potentielles, enregistrez-vous pour recevoir des notifications de sécurité Adobe et accédez au Centre de gestion de l’Adobe.
 

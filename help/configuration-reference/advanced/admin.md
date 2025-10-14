@@ -167,7 +167,7 @@ Pour plus d’informations sur la définition de ces options, voir [Limiter l’
 
 ## [!UICONTROL CAPTCHA]
 
-![ CAPTCHA ](./assets/admin-captcha.png)<!-- zoom -->
+![&#x200B; CAPTCHA &#x200B;](./assets/admin-captcha.png)<!-- zoom -->
 
 Pour plus d’informations sur la définition de ces options, consultez [CAPTCHA](../../systems/security-captcha.md) dans le _Guide des systèmes d’administration_.
 

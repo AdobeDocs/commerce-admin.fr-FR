@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [!DNL Inventory Management] prend en charge la gestion des stocks et des commandes pour tous les types de produits dans Adobe Commerce et Magento Open Source : simple, configurable, virtuel, téléchargeable, groupé et groupé. Les options et les exigences peuvent différer selon le type de produit pour les sources, les stocks et l’expédition.
 
-- [ Les vendeurs uniques ](merchant-sourcing.md#single-source-merchants) créent et mettent à jour des paramètres et des quantités de produits sans nécessiter de mises à jour supplémentaires. Tous les produits créés et nouvellement importés sont automatiquement attribués au Source par défaut et au Stock par défaut, immédiatement disponibles pour les clients s’ils sont activés et en stock.
+- [&#x200B; Les vendeurs uniques &#x200B;](merchant-sourcing.md#single-source-merchants) créent et mettent à jour des paramètres et des quantités de produits sans nécessiter de mises à jour supplémentaires. Tous les produits créés et nouvellement importés sont automatiquement attribués au Source par défaut et au Stock par défaut, immédiatement disponibles pour les clients s’ils sont activés et en stock.
 
 - [Les marchands multi-sources](merchant-sourcing.md#multi-source-merchants) attribuent des sources, des quantités par source et des paramètres pendant ou après la création du produit. [!DNL Commerce] affecte tous les produits nouvellement importés au Source par défaut, ce qui nécessite des modifications supplémentaires pour affecter les sources et les quantités.
 

@@ -64,7 +64,7 @@ L’onglet _Affichage client_ répertorie les informations sur le client, dont *
 
 ### [!UICONTROL Account Information]
 
-L’onglet [ Informations sur le compte ](../customers/account-dashboard-account-information.md) fournit des informations détaillées sur le client, où un utilisateur administrateur peut modifier des informations personnelles, un e-mail, une assistance commerciale à distance, la date de naissance et joindre le client à un site web ou une société.
+L’onglet [&#x200B; Informations sur le compte &#x200B;](../customers/account-dashboard-account-information.md) fournit des informations détaillées sur le client, où un utilisateur administrateur peut modifier des informations personnelles, un e-mail, une assistance commerciale à distance, la date de naissance et joindre le client à un site web ou une société.
 
 ### [!UICONTROL Addresses]
 
@@ -107,17 +107,17 @@ L’onglet [Newsletter](../merchandising-promotions/newsletters.md) affiche tous
 
 ### [!UICONTROL Billing Agreements]
 
-L’onglet [ Accords de facturation](../stores-purchase/paypal-billing-agreements.md) répertorie tous les contrats de facturation PayPal entre le magasin et le client.
+L’onglet [&#x200B; Accords de facturation](../stores-purchase/paypal-billing-agreements.md) répertorie tous les contrats de facturation PayPal entre le magasin et le client.
 
 ### [!UICONTROL Product Reviews]
 
-L’onglet [ Product Review](../catalog/settings-advanced-product-reviews.md) affiche toutes les révisions soumises par ce client.
+L’onglet [&#x200B; Product Review](../catalog/settings-advanced-product-reviews.md) affiche toutes les révisions soumises par ce client.
 
 ### [!UICONTROL Reward Points]
 
 {{ee-feature}}
 
-La section [ Points de récompense](../merchandising-promotions/rewards-loyalty.md) présente l’équilibre actuel des points de récompense du client. Un utilisateur administrateur peut gérer cette valeur.
+La section [&#x200B; Points de récompense](../merchandising-promotions/rewards-loyalty.md) présente l’équilibre actuel des points de récompense du client. Un utilisateur administrateur peut gérer cette valeur.
 
 ## Barre de boutons
 

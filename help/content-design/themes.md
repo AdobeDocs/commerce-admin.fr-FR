@@ -19,7 +19,7 @@ Un thème réactif ajuste la disposition de la page en fonction du port d’affi
 
 [!DNL Commerce] thèmes comprennent les fichiers de disposition, les fichiers de modèle, les fichiers de traduction et les habillages. Une apparence est un ensemble de fichiers CSS, d’images et JavaScript qui, ensemble, créent la présentation visuelle et les interactions que vos clients expérimentent lorsqu’ils visitent votre boutique. Les thèmes et les habillages peuvent être modifiés et personnalisés par un développeur ou un professionnel du design maîtrisant la conception de thèmes Commerce et ayant accès à votre serveur. Pour en savoir plus, consultez le [_Guide du développeur Frontend_](https://developer.adobe.com/commerce/frontend-core/guide/themes/).
 
-![ Thème Luma ](./assets/design-responsive.png){width="600" zoomable="yes"}
+![&#x200B; Thème Luma &#x200B;](./assets/design-responsive.png){width="600" zoomable="yes"}
 
 ## Le thème par défaut
 

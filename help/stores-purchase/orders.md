@@ -57,7 +57,7 @@ Dans le coin supérieur droit, cliquez sur le contrôle _Colonnes_ ( ![Paramètr
 
 1. Saisissez un **[!UICONTROL name]** pour la vue.
 
-1. Pour enregistrer toutes les modifications, cliquez sur la flèche ( ![ icône de flèche ](../assets/icon-arrow-save.png) ).
+1. Pour enregistrer toutes les modifications, cliquez sur la flèche ( ![&#x200B; icône de flèche &#x200B;](../assets/icon-arrow-save.png) ).
 
    Le nom de la vue s’affiche désormais sous la forme de la vue actuelle.
 

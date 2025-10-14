@@ -34,7 +34,7 @@ Chaque colonne comporte une boîte à outils d’options qui s’affiche lorsque
 
 | Outil | Icon | Description |
 |--- |--- |--- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace la colonne et son contenu vers une autre position par rapport aux autres colonnes. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace la colonne et son contenu vers une autre position par rapport aux autres colonnes. |
 | (libellé) | Colonne | Identifie le conteneur actuel sous forme d’une colonne. Pointez sur le conteneur de colonnes pour afficher la palette. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Modifier la colonne , qui permet de modifier les propriétés du conteneur. |
 | Dupliquer | ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="25"} | Effectue une copie de la colonne active. |
@@ -141,7 +141,7 @@ Dans l’exemple à deux colonnes suivant, les nombres entre parenthèses (6/12)
      | ------ | ----------- |
      | [!UICONTROL Upload] | Télécharge un fichier image de votre ordinateur local dans la galerie, puis l’applique en tant qu’image d’arrière-plan de la colonne. |
      | [!UICONTROL Select from Gallery] | Vous invite à choisir une image existante de la galerie comme image d’arrière-plan pour la colonne. |
-     | ![ Icône Appareil photo ](./assets/pb-icon-camera.png){width="25"} | Vous permet de faire glisser l’image vers la mosaïque de la caméra ou d’accéder à l’image dans votre système de fichiers local. |
+     | ![&#x200B; Icône Appareil photo &#x200B;](./assets/pb-icon-camera.png){width="25"} | Vous permet de faire glisser l’image vers la mosaïque de la caméra ou d’accéder à l’image dans votre système de fichiers local. |
 
      {style="table-layout:auto"}
 

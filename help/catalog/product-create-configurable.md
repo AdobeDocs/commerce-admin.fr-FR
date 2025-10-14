@@ -92,7 +92,7 @@ Le [jeu d’attributs](attribute-sets.md) détermine la sélection des champs ut
 
    >[!NOTE]
    >
-   >Le **Statut du stock** du produit configurable est un paramètre contrôlé **_semi-manuellement_**. Elle est partiellement contrôlée par l&#39;état des stocks de ses produits fils. Il fait partie d’un calcul d’état des stocks **_à critères multiples_** décrit dans la section [ Configurer l’état des stocks](#configure-the-stock-status).
+   >Le **Statut du stock** du produit configurable est un paramètre contrôlé **_semi-manuellement_**. Elle est partiellement contrôlée par l&#39;état des stocks de ses produits fils. Il fait partie d’un calcul d’état des stocks **_à critères multiples_** décrit dans la section [&#x200B; Configurer l’état des stocks](#configure-the-stock-status).
 
 1. Saisissez le **[!UICONTROL Weight]** du produit.
 
@@ -140,7 +140,7 @@ La barre de progression en haut de la page indique où vous en êtes dans le pro
 
 1. En continuant depuis le haut, faites défiler l’écran vers le bas jusqu’à la section _[!UICONTROL Configurations]_&#x200B;et cliquez sur **[!UICONTROL Create Configurations]**.
 
-   ![Configurations ](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
+   ![Configurations &#x200B;](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
 1. Cochez la case de chaque attribut à inclure en tant que configuration.
 
@@ -282,7 +282,7 @@ Les variations actuelles du produit s’affichent au bas de la section _Configur
 
 1. Cliquez sur la mosaïque _Appareil photo_ et accédez à l’image principale que vous souhaitez utiliser pour le produit configurable.
 
-Pour plus d’informations, voir [ Images et vidéo ](product-images-and-video.md).
+Pour plus d’informations, voir [&#x200B; Images et vidéo &#x200B;](product-images-and-video.md).
 
 ### Étape 6 : compléter les informations sur le produit
 

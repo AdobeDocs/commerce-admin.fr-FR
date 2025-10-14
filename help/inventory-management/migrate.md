@@ -28,7 +28,7 @@ Lorsque vous installez Magento Open Source 2.4.x ou Adobe Commerce 2.4.x, les mo
 
    - Les stocks fournissent une quantité vendable virtuelle agrégée avec des réservations pour effectuer le suivi des paniers et des commandes, ce qui garantit un passage en caisse simultané.
 
-   - Tous les produits existants de votre catalogue sont affectés au Source par défaut. Tant que vous n’ajoutez pas de nouvelles sources, l’interface du produit ne change pas. Si vous n’envoyez que des produits d’un emplacement, il n’existe aucune autre différence pour les sources. Vous pouvez créer des [sources](sources-add.md) et [ attribuer des quantités](quantities-manage.md) par emplacement d’expédition.
+   - Tous les produits existants de votre catalogue sont affectés au Source par défaut. Tant que vous n’ajoutez pas de nouvelles sources, l’interface du produit ne change pas. Si vous n’envoyez que des produits d’un emplacement, il n’existe aucune autre différence pour les sources. Vous pouvez créer des [sources](sources-add.md) et [&#x200B; attribuer des quantités](quantities-manage.md) par emplacement d’expédition.
 
    - Vous pouvez configurer une source comme emplacement de collecte et [attribuer des quantités](quantities-manage.md) à cette source.
 

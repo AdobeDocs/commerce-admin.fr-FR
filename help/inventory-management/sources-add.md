@@ -40,7 +40,7 @@ Si vous modifiez le Source par défaut, vous pouvez modifier toutes les configur
 
      Pour trouver les coordonnées GPS avec [Google Maps][1], saisissez l’adresse dans la zone de recherche. Cliquez avec le bouton droit sur le marqueur sur la carte et choisissez **[!UICONTROL What's here?]**. Les coordonnées GPS apparaissent dans la zone de détails située sous l’adresse de la rue.
 
-     ![ Options générales de la source ](assets/inventory-source-general.png)
+     ![&#x200B; Options générales de la source &#x200B;](assets/inventory-source-general.png)
 
    - Si cette source d’inventaire est un emplacement de récupération, définissez **[!UICONTROL Use as Pickup Location]** sur `Yes`.
 

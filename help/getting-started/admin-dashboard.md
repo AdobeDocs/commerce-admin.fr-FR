@@ -53,7 +53,7 @@ Le tableau de bord est la [page de démarrage](../configuration-reference/advanc
 
 1. Cliquez pour développer la section **Startup Page**.
 
-   ![ Tableau de bord d’administration - paramètre de page de démarrage ](./assets/admin-startup-page.png){width="600"}
+   ![&#x200B; Tableau de bord d’administration - paramètre de page de démarrage &#x200B;](./assets/admin-startup-page.png){width="600"}
 
 1. Décochez la case **[!UICONTROL Use system value]** et sélectionnez la **page de démarrage** que vous souhaitez afficher lorsque vous vous connectez à l’administrateur.
 

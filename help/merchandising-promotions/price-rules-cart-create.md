@@ -223,7 +223,7 @@ Les actions de règle de prix de panier décrivent la manière dont les prix son
 
 1. Faites défiler jusqu’à **[!UICONTROL Actions]**, puis développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section.
 
-   ![Règle de prix du panier - Actions ](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
+   ![Règle de prix du panier - Actions &#x200B;](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
 
 1. Définissez **[!UICONTROL Apply]** sur l’une des options de remise suivantes :
 

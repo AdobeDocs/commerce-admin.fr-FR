@@ -54,13 +54,13 @@ Vous pouvez appliquer un modèle à une zone de contenu [!DNL Page Builder] (pag
 
 1. Dans la zone de contenu, cliquez sur **[!UICONTROL Apply Template]** en haut à droite.
 
-   ![[!DNL Page Builder] Bouton Appliquer un modèle ](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] Bouton Appliquer un modèle &#x200B;](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
 1. Sélectionnez un modèle dans la grille _[!UICONTROL Apply Template]_&#x200B;et cliquez sur **[!UICONTROL Apply]**&#x200B;à la fin de la ligne.
 
    Pour afficher l’intégralité du modèle, vous pouvez cliquer sur l’image miniature du modèle. Cette action développe l’image afin que vous puissiez afficher l’ensemble du modèle selon vos besoins.
 
-   ![[!DNL Page Builder] Appliquer la grille de modèle ](./assets/pb-templates-apply-slideout-nofilters.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] Appliquer la grille de modèle &#x200B;](./assets/pb-templates-apply-slideout-nofilters.png){width="600" zoomable="yes"}
 
 ## Supprimer un modèle
 
@@ -85,7 +85,7 @@ La grille _Appliquer le modèle_ et la grille de page _Modèles_ offrent deux ma
    - Nom du modèle (**[!UICONTROL Template Name]**)
    - La zone de contenu désignée (**[!UICONTROL Created For]**)
 
-![[!DNL Page Builder] Appliquer la grille de modèle ](./assets/pb-templates-apply-slideout-withfilters.png){width="600" zoomable="yes"}
+![[!DNL Page Builder] Appliquer la grille de modèle &#x200B;](./assets/pb-templates-apply-slideout-withfilters.png){width="600" zoomable="yes"}
 
 ## Démonstration des modèles de contenu
 

@@ -15,7 +15,7 @@ La barre latérale gauche est le menu principal du magasin _Admin_ et est conçu
 
 | Icône de menu | Lien | Description |
 | --------- | ---- | ----------- |
-| ![ Icône de barre latérale d’administration ](./assets/icon-admin-sidebar-logo.png) | **[Page de démarrage de l’administrateur](../configuration-reference/advanced/admin.md)** | Affiche la page de démarrage d’administration, qui est le tableau de bord par défaut. |
+| ![&#x200B; Icône de barre latérale d’administration &#x200B;](./assets/icon-admin-sidebar-logo.png) | **[Page de démarrage de l’administrateur](../configuration-reference/advanced/admin.md)** | Affiche la page de démarrage d’administration, qui est le tableau de bord par défaut. |
 | ![Menu Tableau de bord](./assets/icon-admin-sidebar-dashboard.png) | **[[!UICONTROL Dashboard]](admin-dashboard.md)** | Le tableau de bord offre un aperçu rapide des ventes et de l’activité des clients dans votre boutique. Il s’agit généralement de la première page qui s’affiche lorsque vous vous connectez à l’administrateur. |
 | ![Menu Ventes](./assets/icon-admin-sidebar-sales.png) | **[[!UICONTROL Sales]](../stores-purchase/sales-menu.md)** | Dans le menu [!UICONTROL Sales], vous trouverez tout ce qui concerne les opérations de traitement des commandes, des factures, des expéditions, des avoirs et des transactions. |
 | ![Menu Catalogue](./assets/icon-admin-sidebar-catalog.png) | **[[!UICONTROL Catalog]](../catalog/catalog-menu.md)** | Le menu [!UICONTROL Catalog] permet de créer des produits et de définir des catégories. |

@@ -188,7 +188,7 @@ Accédez à [Braintree Payments][1] et inscrivez-vous à un compte.
 
    Options : `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` (pas encore pris en charge)
 
-   ![ Paramètres des modes de paiement locaux ](../configuration-reference/sales/assets/payment-methods-braintree-local-payment-config.png){width="600" zoomable="yes"}
+   ![&#x200B; Paramètres des modes de paiement locaux &#x200B;](../configuration-reference/sales/assets/payment-methods-braintree-local-payment-config.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -407,7 +407,7 @@ Lorsque ces options sont définies, vous pouvez voir l&#39;aperçu des boutons P
 
 Les descripteurs suivants sont utilisés pour identifier les achats sur les relevés de carte de crédit du client. Vous pouvez réduire le nombre de refacturations en identifiant clairement la société associée à chaque achat. Si les descripteurs dynamiques ne sont pas activés pour votre compte, contactez l’assistance Braintree.
 
-![ Descripteurs dynamiques ](../configuration-reference/sales/assets/payment-methods-braintree-dynamic-config.png){width="600" zoomable="yes"}
+![&#x200B; Descripteurs dynamiques &#x200B;](../configuration-reference/sales/assets/payment-methods-braintree-dynamic-config.png){width="600" zoomable="yes"}
 
 1. Saisissez le descripteur dynamique pour le **[!UICONTROL Name]**, le **[!UICONTROL Phone]** et le **[!UICONTROL URL]** conformément à ces instructions :
 

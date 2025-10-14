@@ -56,7 +56,7 @@ Dans le cadre de l’optimisation de votre site et de la réduction du temps de 
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL CSS Settings]** .
 
-   ![ Paramètres CSS ](./assets/developer-css-settings.png){width="500" zoomable="yes"}
+   ![&#x200B; Paramètres CSS &#x200B;](./assets/developer-css-settings.png){width="500" zoomable="yes"}
 
    Pour une description détaillée de ces options de configuration, voir [Paramètres CSS](../configuration-reference/advanced/developer.md#css-settings) dans le _Guide de référence de configuration_.
 

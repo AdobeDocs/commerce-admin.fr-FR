@@ -37,7 +37,7 @@ Une commande qui a été payée en espèces à la livraison ([DCO](cash-on-deliv
 
 1. **Action de paiement** - Si la configuration [Action de paiement](credit-memo-create.md#payment-action-setting) est définie sur `Authorize`, vous devez générer une facture avant de créer une note de crédit, passez à l’étape 2. Si celle-ci est définie sur `Authorize and Capture`, une facture a déjà été générée et passez à l’étape 3.
 
-1. **Générer une facture** - [ Créez une facture](invoices.md#create-an-invoice) pour la commande, de sorte que vous puissiez envoyer un remboursement au client via un avoir.
+1. **Générer une facture** - [&#x200B; Créez une facture](invoices.md#create-an-invoice) pour la commande, de sorte que vous puissiez envoyer un remboursement au client via un avoir.
 
 1. **Créer un avoir** - [Émettez un avoir](credit-memo-create.md) dans l’administrateur pour un [achat de crédit](credit-memo-create.md#issue-a-refund-for-a-credit-purchase) ou un [chèque ou mandat bancaire](credit-memo-create.md#issue-an-offline-refund-for-check-or-money-order).
 

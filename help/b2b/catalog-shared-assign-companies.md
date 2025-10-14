@@ -51,6 +51,6 @@ Il existe deux manières d’affecter une société à un catalogue partagé. Vo
 
    La modification de l’affectation du catalogue partagé modifie également l’affectation du groupe de clients pour tous les membres de l’entreprise.
 
-   ![ Groupes clients / Catalogues partagés ](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
+   ![&#x200B; Groupes clients / Catalogues partagés &#x200B;](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
 1. Lorsque vous êtes invité à confirmer l’opération, cliquez sur **[!UICONTROL Proceed]**, puis sur **[!UICONTROL Save]**.

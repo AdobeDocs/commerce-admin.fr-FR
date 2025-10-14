@@ -46,7 +46,7 @@ Pour commencer :
 
 - Configurez les paramètres globaux pour l’inventaire de votre magasin, si nécessaire.
 
-- Ajoutez des [ sources personnalisées](sources-add.md) pour les emplacements de stock : entrepôts, magasins, centres de distribution et expéditeurs.
+- Ajoutez des [&#x200B; sources personnalisées](sources-add.md) pour les emplacements de stock : entrepôts, magasins, centres de distribution et expéditeurs.
 
 - Ajoutez des [stocks personnalisés](stocks-add.md) pour chaque région afin de mapper vos sites web avec plusieurs sources. Réorganisez les sources de chaque stock en priorité de localisation, ce qui s’avère utile lorsque vous effectuez vos commandes.
 

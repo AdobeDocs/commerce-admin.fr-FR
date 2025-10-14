@@ -78,7 +78,7 @@ Si votre installation Commerce ne dispose que d’une seule vue de magasin et de
 
    - Cliquez sur le lien **[!UICONTROL Cache Management]** dans le message système en haut de la page.
 
-     ![ Message système - Gestion du cache](../catalog/assets/msg-cache-management.png){width="600" zoomable="yes"}
+     ![&#x200B; Message système - Gestion du cache](../catalog/assets/msg-cache-management.png){width="600" zoomable="yes"}
 
    - Cochez la case **[!UICONTROL Page Cache]** .
 

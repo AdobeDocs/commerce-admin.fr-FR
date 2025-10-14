@@ -16,7 +16,7 @@ ht-degree: 0%
 
 La définition d’une intégration dans Commerce Admin établit l’emplacement des informations d’identification OAuth et de l’URL de redirection pour les intégrations tierces, et identifie les ressources d’API disponibles qui sont nécessaires à l’intégration. Pour plus d’informations sur le processus d’enregistrement de l’intégration, consultez [Authentification basée sur OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) dans la documentation du développeur de Commerce.
 
-![ Intégrations ](./assets/integrations.png){width="700" zoomable="yes"}
+![&#x200B; Intégrations &#x200B;](./assets/integrations.png){width="700" zoomable="yes"}
 
 ## Workflow d’intégration
 

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Gestion des comptes clients
 
-Utilisez la grille _[!UICONTROL Customers]_&#x200B;pour trouver n’importe quel compte client. Vous pouvez utiliser les [ contrôles standard sur le lieu de travail](../getting-started/admin-workspace.md) pour filtrer la liste, modifier la [ disposition des colonnes](../getting-started/admin-grid-controls.md), enregistrer les vues et exporter les données. Le [contrôle d’actions](../getting-started/admin-actions-control.md) au-dessus de la grille peut être utilisé pour appliquer une opération à plusieurs enregistrements de client.
+Utilisez la grille _[!UICONTROL Customers]_&#x200B;pour trouver n’importe quel compte client. Vous pouvez utiliser les [&#x200B; contrôles standard sur le lieu de travail](../getting-started/admin-workspace.md) pour filtrer la liste, modifier la [&#x200B; disposition des colonnes](../getting-started/admin-grid-controls.md), enregistrer les vues et exporter les données. Le [contrôle d’actions](../getting-started/admin-actions-control.md) au-dessus de la grille peut être utilisé pour appliquer une opération à plusieurs enregistrements de client.
 
 ![Tous les clients](assets/customers-all-customers.png){width="700" zoomable="yes"}
 

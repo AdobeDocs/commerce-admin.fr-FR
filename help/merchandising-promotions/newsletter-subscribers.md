@@ -34,7 +34,7 @@ Si vous souhaitez utiliser un service tiers pour envoyer des newsletters, vous p
 
    Pour une configuration de site/magasin unique, vous pouvez simplement cocher ou décocher la case **[!UICONTROL Subscribed to Newsletter]** .
 
-   ![ Case à cocher abonnement à la newsletter pour un seul magasin ](./assets/newsletter-customer-single-store.png){width="500" zoomable="yes"}
+   ![&#x200B; Case à cocher abonnement à la newsletter pour un seul magasin &#x200B;](./assets/newsletter-customer-single-store.png){width="500" zoomable="yes"}
 
    Pour une configuration de site unique/multi-magasin, vous pouvez cocher ou décocher la case **[!UICONTROL Subscribed to Newsletter]** et définir **[!UICONTROL Subscribed on Store View]** sur la vue de magasin correcte pour l’abonnement.
 

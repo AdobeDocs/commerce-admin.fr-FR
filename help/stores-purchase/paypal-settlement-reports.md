@@ -25,7 +25,7 @@ Après avoir configuré et activé les rapports de règlement dans le compte mar
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL PayPal Settlement]**.
 
-   ![ Rapports de règlement PayPal ](../getting-started/assets/reports-sales-paypal-settlement.png){width="600" zoomable="yes"}
+   ![&#x200B; Rapports de règlement PayPal &#x200B;](../getting-started/assets/reports-sales-paypal-settlement.png){width="600" zoomable="yes"}
 
 1. Pour les mises à jour les plus récentes, cliquez sur **[!UICONTROL Fetch Updates]** dans le coin supérieur droit.
 

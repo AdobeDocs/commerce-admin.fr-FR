@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Gestion des dossiers de Media Gallery
 
-Utilisez des dossiers pour organiser les images dans la nouvelle [ Galerie de médias ](media-gallery.md). À mesure que le nombre de ressources multimédias augmente, les dossiers facilitent la recherche et la gestion des ressources existantes dans votre galerie de médias.
+Utilisez des dossiers pour organiser les images dans la nouvelle [&#x200B; Galerie de médias &#x200B;](media-gallery.md). À mesure que le nombre de ressources multimédias augmente, les dossiers facilitent la recherche et la gestion des ressources existantes dans votre galerie de médias.
 
 ## Création d’un dossier
 

@@ -51,7 +51,7 @@ Vous ne pouvez pas modifier substantiellement une commande `Processing`, mais vo
 
 >[!NOTE]
 >
->Lorsque l’action de paiement du mode de paiement est définie sur `Authorize and Capture`, une facture est automatiquement créée lorsque le client passe une commande. Dans ce cas, vous pouvez rembourser des fonds à l’aide d’un [avoir ](credit-memo-create.md), mais vous ne pouvez pas [annuler](#cancel-a-pending-order) ou [annuler](#void-a-processing-order) la commande.
+>Lorsque l’action de paiement du mode de paiement est définie sur `Authorize and Capture`, une facture est automatiquement créée lorsque le client passe une commande. Dans ce cas, vous pouvez rembourser des fonds à l’aide d’un [avoir &#x200B;](credit-memo-create.md), mais vous ne pouvez pas [annuler](#cancel-a-pending-order) ou [annuler](#void-a-processing-order) la commande.
 
 | Bouton | Description |
 |--- |--- |

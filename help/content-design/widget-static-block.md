@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Le _bloc statique CMS_ [widget](widgets.md) vous permet de placer un [bloc de contenu](blocks.md) existant presque n’importe où dans votre boutique.
 
-![ Widgets ](./assets/widgets.png){width="700" zoomable="yes"}
+![&#x200B; Widgets &#x200B;](./assets/widgets.png){width="700" zoomable="yes"}
 
 ## Étape 1 : choisir le type de widget
 
@@ -56,7 +56,7 @@ Le _bloc statique CMS_ [widget](widgets.md) vous permet de placer un [bloc de co
 
    - Acceptez le paramètre par défaut pour **[!UICONTROL Template]**, qui est défini sur `CMS Static Block Default Template`.
 
-     ![ Mises à jour de la disposition ](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
+     ![&#x200B; Mises à jour de la disposition &#x200B;](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
 ### Options de mise à jour de la disposition
 

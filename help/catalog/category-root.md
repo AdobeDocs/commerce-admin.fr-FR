@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Les produits du menu principal sont déterminés par la catégorie racine affectée au [magasin](../stores-purchase/stores.md#add-stores). La catégorie racine est essentiellement un conteneur pour le menu principal dans l’arborescence des catégories. Vous pouvez créer une catégorie racine avec un ensemble entièrement nouveau de produits ou copier des produits d’une catégorie racine existante. La catégorie racine peut être affectée au magasin actuel ou à tout autre magasin du même site web.
 
-![ Diagramme de hiérarchie de catalogue ](./assets/catalog-hierarchy-scope.svg){width="550"}
+![&#x200B; Diagramme de hiérarchie de catalogue &#x200B;](./assets/catalog-hierarchy-scope.svg){width="550"}
 
 Depuis l’administrateur, la structure de catégorie est semblable à une arborescence ascendante, avec la racine au-dessus. La racine a un nom, mais aucune clé d’URL et n’apparaît pas dans la [navigation supérieure](navigation-top.md) du magasin. Toutes les autres catégories du menu sont imbriquées sous la racine. Comme la catégorie racine est le niveau le plus élevé du catalogue, votre boutique ne peut avoir qu’une seule catégorie racine active à la fois. Vous pouvez toutefois créer d’autres catégories racine pour d’autres structures de catalogue et différents magasins.
 

@@ -33,7 +33,7 @@ Ce guide couvre les sujets suivants :
 | [Listes de souhaits](wishlists.md) | Permettre aux clients de créer une liste de produits qu’ils peuvent partager avec des amis ou enregistrer pour les transférer ultérieurement au panier. |
 | [Modes de paiement](payments.md) | Explorez tous les services et méthodes de paiement pris en charge de manière native que vous pouvez offrir pour faciliter le passage en caisse et la commodité du client. |
 | [Menu Ventes](sales-menu.md) | Utilisez le menu [!UICONTROL Sales] pour accéder aux outils permettant d’utiliser les commandes en fonction de leur emplacement dans le workflow. |
-| [Gestion des commandes ](orders.md) | Suivre la progression et le statut des commandes tout au long du workflow, où une commande devient une facture et où une facture devient une livraison. |
+| [Gestion des commandes &#x200B;](orders.md) | Suivre la progression et le statut des commandes tout au long du workflow, où une commande devient une facture et où une facture devient une livraison. |
 | [Expédition et livraison](delivery.md) | Configurez plusieurs méthodes de livraison et transporteurs pour une expérience client optimale. |
 
 {style="table-layout:auto"}

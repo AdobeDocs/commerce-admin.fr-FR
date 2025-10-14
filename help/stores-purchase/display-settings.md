@@ -62,7 +62,7 @@ Si vous choisissez d&#39;afficher les deux prix (avec et sans taxe), la vitrine 
 
 1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Shopping Cart Display Settings]** .
 
-   ![ Paramètres d’affichage du panier](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Paramètres d’affichage du panier](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png){width="600" zoomable="yes"}
 
 1. Pour **[!UICONTROL Display Prices]**, sélectionnez l’une des options suivantes :
 

@@ -82,7 +82,7 @@ Configurez les options de configuration par défaut pour le produit et le stock 
 
    - Définissez **[!UICONTROL Run asynchronously]** pour exécuter des opérations en bloc de manière asynchrone pour des actions de produits de masse.
 
-     Ces opérations comprennent l&#39;affectation et l&#39;annulation de l&#39;attribution des sources [&#128279;](bulk-assignment.md) en masse et le [ transfert de l&#39;inventaire vers la source](inventory-transfer.md).  Il collecte les actions en bloc jusqu’à la taille de lot asynchrone, puis exécute ces actions. Cette option est désactivée par défaut. Il est recommandé de consulter vos performances avec des actions en bloc avant d’activer .
+     Ces opérations comprennent l&#39;affectation et l&#39;annulation de l&#39;attribution des sources [&#128279;](bulk-assignment.md) en masse et le [&#x200B; transfert de l&#39;inventaire vers la source](inventory-transfer.md).  Il collecte les actions en bloc jusqu’à la taille de lot asynchrone, puis exécute ces actions. Cette option est désactivée par défaut. Il est recommandé de consulter vos performances avec des actions en bloc avant d’activer .
 
      >[!NOTE]
      >

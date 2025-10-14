@@ -40,7 +40,7 @@ Pour utiliser ce projet AEM et mettre à jour la configuration de l’environnem
 
 - Un [environnement de développement AEM local](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) et une connaissance du processus de développement local d’AEM.
 
-- Découvrez la structure de projet [AEM et comment déployer ](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) packages de contenu personnalisés à l’aide de Cloud Manager.
+- Découvrez la structure de projet [AEM et comment déployer &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) packages de contenu personnalisés à l’aide de Cloud Manager.
 
 ## Installation du package `commerce-assets`
 
@@ -83,7 +83,7 @@ Le composant d’interface utilisateur des données de produit est ajouté autom
 
 1. **[!UICONTROL Create]** un profil de métadonnées pour l’intégration de Commerce.
 
-   ![L’administrateur de création AEM ajoute des profils de métadonnées ](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
+   ![L’administrateur de création AEM ajoute des profils de métadonnées &#x200B;](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
 
 1. Ajoutez un onglet pour les métadonnées Commerce.
 

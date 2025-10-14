@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Cette page décrit les fonctionnalités de recherche standard qui peuvent être différentes de la [recherche en direct](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=fr).
 
-La liste _Résultats de la recherche_ comprend tous les produits qui correspondent aux critères de recherche saisis dans la zone de recherche rapide ou le formulaire de recherche avancée. Chaque liste de produits du catalogue comporte essentiellement les mêmes contrôles. La seule différence est que l’une est le résultat d’une requête de recherche et l’autre est le résultat de [ navigation](navigation.md).
+La liste _Résultats de la recherche_ comprend tous les produits qui correspondent aux critères de recherche saisis dans la zone de recherche rapide ou le formulaire de recherche avancée. Chaque liste de produits du catalogue comporte essentiellement les mêmes contrôles. La seule différence est que l’une est le résultat d’une requête de recherche et l’autre est le résultat de [&#x200B; navigation](navigation.md).
 
 Les résultats peuvent être formatés sous la forme d’une grille ou d’une liste et triés en fonction d’une sélection d’attributs. Des contrôles de pagination s’affichent s’il y a plus de produits que nécessaire sur la page. Utilisez ces commandes pour passer d&#39;une page à l&#39;autre. Le nombre d’enregistrements par page est déterminé par la configuration du catalogue frontal. Pour plus d’informations, voir [Liste des produits](navigation-product-listings.md).
 

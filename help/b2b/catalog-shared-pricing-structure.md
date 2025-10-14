@@ -131,7 +131,7 @@ La sélection de produits dans la grille ne peut pas être modifiée à partir d
 
 ### Appliquer un prix de niveau
 
-Le [ niveau de prix](../catalog/product-price-tier.md) vous permet d’offrir une remise sur une quantité donnée pour les produits du catalogue partagé. La colonne _Prix de niveau_ de la grille contient un lien vers les options _de tarification avancée_ qui s’appliquent spécifiquement au catalogue partagé. Si le produit comprend déjà le niveau de prix, le nombre de niveaux existants s’affiche entre parenthèses après le lien.
+Le [&#x200B; niveau de prix](../catalog/product-price-tier.md) vous permet d’offrir une remise sur une quantité donnée pour les produits du catalogue partagé. La colonne _Prix de niveau_ de la grille contient un lien vers les options _de tarification avancée_ qui s’appliquent spécifiquement au catalogue partagé. Si le produit comprend déjà le niveau de prix, le nombre de niveaux existants s’affiche entre parenthèses après le lien.
 
 Les instructions suivantes expliquent comment appliquer un niveau de prix à un seul produit. Pour appliquer des tarifs de niveau à plusieurs produits, reportez-vous à la section [Prix de niveau d&#39;importation](../systems/data-import-price-tier.md).
 
@@ -151,7 +151,7 @@ Les instructions suivantes expliquent comment appliquer un niveau de prix à un 
    - Saisissez le montant de la remise.
    - Pour entrer dans un autre niveau, cliquez sur **Ajouter le prix** et répétez le processus pour définir le niveau suivant.
 
-   ![ Prix à plusieurs niveaux](./assets/shared-catalog-tier-price-configure-multiple-tiers.png){width="600" zoomable="yes"}
+   ![&#x200B; Prix à plusieurs niveaux](./assets/shared-catalog-tier-price-configure-multiple-tiers.png){width="600" zoomable="yes"}
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Done]**.
 

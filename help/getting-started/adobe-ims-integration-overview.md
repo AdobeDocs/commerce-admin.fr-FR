@@ -70,4 +70,4 @@ Le plug-in `\Magento\AdminAdobeIms\Plugin\BackendAuthSessionPlugin` vérifie si 
 
 Le métapaquet Adobe IMS est installé avec Adobe Commerce 2.4.5 et versions ultérieures, mais doit être configuré pour être utilisé. Il étend le module `AdobeIms` pour prendre en charge le module qui active la logique d’authentification (`AdminAdobeIms`).
 
-Pour plus d’informations sur l’activation de l’intégration, voir [ Configuration de l’intégration d’administration Commerce avec Adobe IMS ](./adobe-ims-config.md).
+Pour plus d’informations sur l’activation de l’intégration, voir [&#x200B; Configuration de l’intégration d’administration Commerce avec Adobe IMS &#x200B;](./adobe-ims-config.md).

@@ -26,7 +26,7 @@ Pour accéder aux paramètres de configuration des services de paiement, dans la
 
 ## [!UICONTROL General]
 
-![ Paramètres généraux ](assets/payments-general-settings.png){width="600" zoomable="yes"}
+![&#x200B; Paramètres généraux &#x200B;](assets/payments-general-settings.png){width="600" zoomable="yes"}
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |---|---|---|

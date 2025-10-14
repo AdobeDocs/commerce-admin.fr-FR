@@ -56,7 +56,7 @@ Par défaut, les liens héritent de leur style de la feuille de style du thème.
 
 1. Cliquez sur **[!UICONTROL Insert Widget]** pour placer le lien sur la page.
 
-   Si vous utilisez du code HTML, une [ balise de balisage ](../systems/markup-tags.md) pour le lien s’affiche en haut de la page, entre doubles accolades. Si nécessaire, utilisez _Couper et coller_ pour placer la balise de balisage dans le code où vous souhaitez que le lien apparaisse.
+   Si vous utilisez du code HTML, une [&#x200B; balise de balisage &#x200B;](../systems/markup-tags.md) pour le lien s’affiche en haut de la page, entre doubles accolades. Si nécessaire, utilisez _Couper et coller_ pour placer la balise de balisage dans le code où vous souhaitez que le lien apparaisse.
 
 1. Une fois vos modifications de contenu terminées, cliquez sur **[!UICONTROL Save]**.
 

@@ -63,7 +63,7 @@ Pour ajouter un attribut existant au produit, utilisez les [contrôles de filtre
 
    Un produit groupé n’a pas son propre prix dans le catalogue. Le prix du produit regroupé est dérivé du prix des produits individuels inclus dans le groupe.
 
-1. Comme le produit n’est pas encore prêt à être publié, définissez **[!UICONTROL Enable Product]** sur `No` ( ![Basculer sur ](../assets/toggle-no.png) ).
+1. Comme le produit n’est pas encore prêt à être publié, définissez **[!UICONTROL Enable Product]** sur `No` ( ![Basculer sur &#x200B;](../assets/toggle-no.png) ).
 
 1. Cliquez sur **[!UICONTROL Save]** et continuez.
 

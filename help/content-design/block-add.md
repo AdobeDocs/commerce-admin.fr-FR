@@ -36,7 +36,7 @@ Vous pouvez créer des blocs de contenu personnalisés, puis les ajouter à n’
 
 1. Ajoutez le contenu du bloc à l’aide de l’ensemble d’outils de contenu affiché :
 
-   - Si [Page Builder](../page-builder/introduction.md) est activé, sélectionnez **[!UICONTROL Edit with Page Builder]** pour utiliser les outils de Page Builder dans l’espace de travail [ contenu](../page-builder/workspace.md).
+   - Si [Page Builder](../page-builder/introduction.md) est activé, sélectionnez **[!UICONTROL Edit with Page Builder]** pour utiliser les outils de Page Builder dans l’espace de travail [&#x200B; contenu](../page-builder/workspace.md).
 
      ![Espace de travail de Page Builder](./assets/pb-workspace-block.png){width="500" zoomable="yes"}
 

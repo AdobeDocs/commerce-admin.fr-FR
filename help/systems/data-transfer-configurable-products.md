@@ -60,7 +60,7 @@ Dans l’exemple suivant, vous ajoutez un ensemble de variations de produit pour
 
 1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
 
-   ![ Paramètres d’exportation des données](./assets/data-transfer-export-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Paramètres d’exportation des données](./assets/data-transfer-export-settings.png){width="600" zoomable="yes"}
 
 1. Sous _[!UICONTROL Export Setting]s_, procédez comme suit :
 

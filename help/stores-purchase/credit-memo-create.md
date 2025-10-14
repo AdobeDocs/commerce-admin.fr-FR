@@ -35,7 +35,7 @@ Voir [Créer une facture](invoices.md#create-an-invoice) pour plus d’informati
 
 Le processus de remboursement des commandes payées par carte de crédit est déterminé par le [paramètre d’action de paiement](../configuration-reference/sales/payment-methods.md#payment-actions) dans la configuration de chaque mode de paiement disponible. Les remboursements ne peuvent pas être émis tant que la transaction n&#39;a pas été réglée.
 
-![ Paramètre d’action de paiement ](./assets/payment-action-setting.png){width="600" zoomable="yes"}
+![&#x200B; Paramètre d’action de paiement &#x200B;](./assets/payment-action-setting.png){width="600" zoomable="yes"}
 
 - Si l’action de paiement de votre mode de paiement configuré est définie sur `Authorize`, vous devez d’abord générer la facture auprès de l’administrateur avant de pouvoir créer un avoir de crédit.
 - Si l’action de paiement pour le mode de paiement que vous avez configuré est définie sur `Authorize and Capture`, la facture a déjà été générée par l’entité de traitement des paiements, mais les fonds ne sont pas disponibles tant que la transaction n’a pas été réglée. Cette courte période d’attente est recommandée par de nombreux responsables de paiement comme mesure de sécurité et peut généralement être gérée automatiquement. Les transactions peuvent également être réglées manuellement à partir de votre compte marchand auprès du responsable du traitement des paiements.
@@ -212,7 +212,7 @@ Déterminez le type de remboursement que vous souhaitez émettre (pour un [achat
 
 | Champ | Description |
 |--- |--- |
-| [!UICONTROL Payment Information] | Mode de paiement à utiliser pour la commande et numéro de la commande, le cas échéant, suivi de la devise utilisée pour la commande. Si la commande est imputée au crédit de l’entreprise par l’intermédiaire de l’option [ Paiement sur le compte ](../b2b/enable-basic-features.md#configure-payment-on-account), le montant imputé au compte est indiqué. |
+| [!UICONTROL Payment Information] | Mode de paiement à utiliser pour la commande et numéro de la commande, le cas échéant, suivi de la devise utilisée pour la commande. Si la commande est imputée au crédit de l’entreprise par l’intermédiaire de l’option [&#x200B; Paiement sur le compte &#x200B;](../b2b/enable-basic-features.md#configure-payment-on-account), le montant imputé au compte est indiqué. |
 | [!UICONTROL Shipping & Handling Information] | Le mode d’expédition à utiliser et les frais de gestion applicables. |
 
 {style="table-layout:auto"}

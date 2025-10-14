@@ -156,7 +156,7 @@ Définissez également les mots-clés et attributs associés, tels que :
 
    ![Produits dans la catégorie](./assets/category-products-in-category.png){width="600" zoomable="yes"}
 
-   Pour plus d’informations sur ces options, voir [ Produits dans la catégorie ](categories-product-assignments.md).
+   Pour plus d’informations sur ces options, voir [&#x200B; Produits dans la catégorie &#x200B;](categories-product-assignments.md).
 
 1. Si nécessaire, utilisez les [filtres](../getting-started/admin-grid-controls.md) pour rechercher les produits.
 

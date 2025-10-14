@@ -24,7 +24,7 @@ Utilisez le type de contenu _Recommandations de produits_ pour ajouter une [unit
 
 | Outil | Icon | Description |
 | --- | --| --- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de recommandations de produits et son contenu vers une autre position sur la scène. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de recommandations de produits et son contenu vers une autre position sur la scène. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Modifier la recommandation de produit, qui vous permet de choisir l’unité de recommandation et de modifier les propriétés du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le conteneur de recommandations de produits actuel et son contenu. |
 | Afficher | ![Afficher l’icône](./assets/pb-icon-show.png){width="25"} | Affiche le conteneur de recommandations de produits masqué et son contenu. |

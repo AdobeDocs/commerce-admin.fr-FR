@@ -80,4 +80,4 @@ Les options d’expédition multi-adresses permettent aux clients d’envoyer un
 
 >[!NOTE]
 >
->![ Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B) Pour les commandes avec plusieurs adresses de livraison, le mode de paiement [ Paiement sur compte](../b2b/enable-basic-features.md#configure-payment-on-account), même s’il est activé, n’est pas disponible pendant le passage en caisse.
+>![&#x200B; Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B) Pour les commandes avec plusieurs adresses de livraison, le mode de paiement [&#x200B; Paiement sur compte](../b2b/enable-basic-features.md#configure-payment-on-account), même s’il est activé, n’est pas disponible pendant le passage en caisse.

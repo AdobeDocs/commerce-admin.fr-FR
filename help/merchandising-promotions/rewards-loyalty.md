@@ -38,7 +38,7 @@ Les points peuvent être échangés par les utilisateurs administrateurs et les 
 
 ## Rembourser les points de récompense
 
-Les commandes passées avec points de récompense peuvent être remboursées au solde des points de récompense jusqu&#39;au montant consommé dans la commande. Sur la page [_New Credit Memo_ ](../stores-purchase/credit-memo-create.md) , le nombre de points à appliquer au solde du client peut être saisi. Par défaut, le champ contient le nombre total de points utilisés dans la commande.
+Les commandes passées avec points de récompense peuvent être remboursées au solde des points de récompense jusqu&#39;au montant consommé dans la commande. Sur la page [_New Credit Memo_ &#x200B;](../stores-purchase/credit-memo-create.md) , le nombre de points à appliquer au solde du client peut être saisi. Par défaut, le champ contient le nombre total de points utilisés dans la commande.
 
 ## Activation des opérations de point de récompense pour votre magasin
 

@@ -39,7 +39,7 @@ La fonction de licence d’Adobe Stock n’est disponible que si l’[intégrati
 
    >[!NOTE]
    >
-   >Si vous n’êtes pas connecté, le formulaire de connexion s’affiche. Pour plus d’informations sur la connexion, voir [ Utilisation d’images Adobe Stock ](./adobe-stock-manage.md).
+   >Si vous n’êtes pas connecté, le formulaire de connexion s’affiche. Pour plus d’informations sur la connexion, voir [&#x200B; Utilisation d’images Adobe Stock &#x200B;](./adobe-stock-manage.md).
 
 1. Dans la boîte de dialogue de confirmation de licence, cliquez sur **[!UICONTROL Confirm]** pour obtenir la licence de l’image.
 

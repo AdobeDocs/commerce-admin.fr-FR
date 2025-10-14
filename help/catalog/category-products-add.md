@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. Utilisez _Rechercher par mot-clé_ ou des filtres pour trouver les produits à ajouter.
 
-   ![ Onglet Rechercher tous les produits](./assets/search-all-product.png){width="700" zoomable="yes"}
+   ![&#x200B; Onglet Rechercher tous les produits](./assets/search-all-product.png){width="700" zoomable="yes"}
 
 1. Dans la colonne _[!UICONTROL Assign]_, faites basculer l’option sur `Yes` pour chaque produit à ajouter.
 

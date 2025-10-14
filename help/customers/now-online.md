@@ -19,7 +19,7 @@ L’état en ligne des clients n’est mis à jour que lors de la connexion, de 
 
 >[!NOTE]
 >
->Les visites de page seules ne mettent pas à jour l’état en ligne du client. Pour collecter ces informations, il est recommandé de [ configurer des Google Analytics](../merchandising-promotions/google-analytics.md) (seuls ou avec [Google Tag Manager](../merchandising-promotions/google-tag-manager.md)) ou d’utiliser d’autres logiciels d’analyse avec Adobe Commerce.
+>Les visites de page seules ne mettent pas à jour l’état en ligne du client. Pour collecter ces informations, il est recommandé de [&#x200B; configurer des Google Analytics](../merchandising-promotions/google-analytics.md) (seuls ou avec [Google Tag Manager](../merchandising-promotions/google-tag-manager.md)) ou d’utiliser d’autres logiciels d’analyse avec Adobe Commerce.
 
 ## Afficher tous les clients actuellement en ligne
 

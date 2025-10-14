@@ -108,7 +108,7 @@ Si plusieurs règles de prix sont exécutées dans la même campagne, le paramè
 
    >[!NOTE]
    >
-   >Un compte d’utilisateur administrateur est requis pour afficher un aperçu partagé. Si votre rôle [ a accès à ](../systems/permissions-user-roles.md) pour créer un compte d’utilisateur administrateur, vous devez créer le compte d’un nouvel utilisateur avant de le partager.
+   >Un compte d’utilisateur administrateur est requis pour afficher un aperçu partagé. Si votre rôle [&#x200B; a accès à &#x200B;](../systems/permissions-user-roles.md) pour créer un compte d’utilisateur administrateur, vous devez créer le compte d’un nouvel utilisateur avant de le partager.
 
    **Modification de la portée de l’aperçu**
 

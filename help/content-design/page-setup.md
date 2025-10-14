@@ -53,7 +53,7 @@ Les paramètres de la section HTML Head correspondent à la balise `<head>` d’
 
    >[!NOTE]
    >
-   >Tous les JavaScript saisis dans le champ [!UICONTROL Scripts and Style Sheets] doivent être whitelistés dans les paramètres de la politique de sécurité du contenu (CSP), sinon ils ne seront pas exécutés sur les pages de passage en caisse. Pour plus d’informations, voir [ Politique de sécurité du contenu ](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+   >Tous les JavaScript saisis dans le champ [!UICONTROL Scripts and Style Sheets] doivent être whitelistés dans les paramètres de la politique de sécurité du contenu (CSP), sinon ils ne seront pas exécutés sur les pages de passage en caisse. Pour plus d’informations, voir [&#x200B; Politique de sécurité du contenu &#x200B;](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
 
 
 1. Activez ou désactivez l’[avis de magasin de démonstration](../getting-started/storefront-branding.md#set-the-store-demo-notice) si nécessaire.
@@ -113,7 +113,7 @@ La configuration d’en-tête identifie le chemin d’accès au logo de votre bo
 
 La section Configuration du pied de page vous permet de mettre à jour l’[avis de copyright](../getting-started/storefront-branding.md#change-the-copyright-notice) qui s’affiche au bas de la page, et de saisir divers scripts qui doivent être positionnés avant la balise de `<body>` de fermeture.
 
-![ Paramètres de configuration du pied de page ](./assets/configuration-footer.png){width="400" zoomable="yes"}
+![&#x200B; Paramètres de configuration du pied de page &#x200B;](./assets/configuration-footer.png){width="400" zoomable="yes"}
 
 ### Configurer le pied de page
 
@@ -127,7 +127,7 @@ La section Configuration du pied de page vous permet de mettre à jour l’[avis
 
    >[!NOTE]
    >
-   >Tous les JavaScript saisis dans le champ [!UICONTROL Miscellaneous HTML] doivent être whitelistés dans les paramètres de la politique de sécurité du contenu (CSP), sinon ils ne seront pas exécutés sur les pages de passage en caisse. Pour plus d’informations, voir [ Politique de sécurité du contenu ](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+   >Tous les JavaScript saisis dans le champ [!UICONTROL Miscellaneous HTML] doivent être whitelistés dans les paramètres de la politique de sécurité du contenu (CSP), sinon ils ne seront pas exécutés sur les pages de passage en caisse. Pour plus d’informations, voir [&#x200B; Politique de sécurité du contenu &#x200B;](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
 
 1. Cliquez ensuite sur **[!UICONTROL Save Configuration]**.
 

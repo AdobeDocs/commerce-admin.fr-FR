@@ -60,7 +60,7 @@ La case à cocher de la première colonne permet d’exclure des attributs du fi
    - `Customer Addresses`
    - `Stock Sources`
 
-   ![ Paramètres d’exportation des données](./assets/data-export-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Paramètres d’exportation des données](./assets/data-export-settings.png){width="600" zoomable="yes"}
 
 1. Acceptez la valeur par défaut **[!UICONTROL Export File Format]** de CSV.
 
@@ -70,7 +70,7 @@ La case à cocher de la première colonne permet d’exclure des attributs du fi
 
    Par défaut, la section Attributs d’entité répertorie tous les attributs disponibles dans l’ordre alphabétique. Vous pouvez utiliser les [commandes de liste](../getting-started/admin-grid-controls.md) standard pour rechercher des attributs spécifiques et trier la liste. Les contrôles Rechercher et Réinitialiser le filtre contrôlent l’affichage de la liste, mais n’ont aucun effet sur la sélection des attributs à inclure dans le fichier d’exportation.
 
-   ![ Attributs d’entité filtrés d’exportation de données](./assets/data-export-filter-entity-attributes.png){width="600" zoomable="yes"}
+   ![&#x200B; Attributs d’entité filtrés d’exportation de données](./assets/data-export-filter-entity-attributes.png){width="600" zoomable="yes"}
 
 1. Pour filtrer les données exportées en fonction de la valeur d’attribut, procédez comme suit :
 
@@ -92,4 +92,4 @@ La case à cocher de la première colonne permet d’exclure des attributs du fi
 
 Pour obtenir de l’aide sur la résolution des problèmes d’exportation des données, reportez-vous aux articles suivants de la base de connaissances de prise en charge de Commerce :
 
-- [ Le fichier .csv de produits exportés n’apparaît pas](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=fr)
+- [&#x200B; Le fichier .csv de produits exportés n’apparaît pas](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=fr)

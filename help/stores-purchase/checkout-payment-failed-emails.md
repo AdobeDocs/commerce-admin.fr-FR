@@ -26,7 +26,7 @@ Veillez à avoir mis à jour le modèle d’email nécessaire pour refléter vot
 
 1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Payment Failed Emails]** .
 
-   ![ Courriers électroniques en échec du paiement ](../configuration-reference/sales/assets/checkout-payment-failed-emails.png){width="600" zoomable="yes"}
+   ![&#x200B; Courriers électroniques en échec du paiement &#x200B;](../configuration-reference/sales/assets/checkout-payment-failed-emails.png){width="600" zoomable="yes"}
 
 1. Définissez les options de paiement des emails en échec :
 

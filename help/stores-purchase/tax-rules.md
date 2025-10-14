@@ -72,13 +72,13 @@ Les règles fiscales intègrent une combinaison de catégories de produits, de c
 
 1. Sélectionnez le **[!UICONTROL Customer Tax Class]** auquel s&#39;applique la règle.
 
-   - Pour modifier une classe de taxe client, cliquez sur l’icône _Modifier_ ![ ](../assets/icon-edit-pencil.png), mettez à jour le formulaire selon les besoins, puis cliquez sur **[!UICONTROL Save]**.
+   - Pour modifier une classe de taxe client, cliquez sur l’icône _Modifier_ ![&#x200B; &#x200B;](../assets/icon-edit-pencil.png), mettez à jour le formulaire selon les besoins, puis cliquez sur **[!UICONTROL Save]**.
 
    - Pour créer une classe de taxe, cliquez sur **[!UICONTROL Add New Tax Class]**, remplissez le formulaire selon les besoins, puis cliquez sur **[!UICONTROL Save]**.
 
 1. Sélectionnez le **[!UICONTROL Product Tax Class]** auquel s&#39;applique la règle.
 
-   - Pour modifier une classe de taxe de produit, cliquez sur l’icône _Modifier_ ![ ](../assets/icon-edit-pencil.png), mettez à jour le formulaire selon les besoins, puis cliquez sur **[!UICONTROL Save]**.
+   - Pour modifier une classe de taxe de produit, cliquez sur l’icône _Modifier_ ![&#x200B; &#x200B;](../assets/icon-edit-pencil.png), mettez à jour le formulaire selon les besoins, puis cliquez sur **[!UICONTROL Save]**.
 
    - Pour créer une classe de taxe, cliquez sur **[!UICONTROL Add New Tax Class]**, remplissez le formulaire selon les besoins, puis cliquez sur **[!UICONTROL Save]**.
 

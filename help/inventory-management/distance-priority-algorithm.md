@@ -63,13 +63,13 @@ La clé provient de la [plateforme Google Maps][1] et doit avoir l’ [API Geoco
 
    - Développez le menu et cliquez sur **[!UICONTROL APIs & Services]** > **[!UICONTROL Library]**.
 
-     ![ Services d’API Google](assets/inventory-google-key2.png){width="350" zoomable="yes"}
+     ![&#x200B; Services d’API Google](assets/inventory-google-key2.png){width="350" zoomable="yes"}
 
    - Recherchez [API Geocoding][2] et [API Distance Matrix][3]. Sélectionnez et activez chaque service.
 
 1. Développez le menu, cliquez sur **[!UICONTROL APIs & Services]** > **[!UICONTROL Credentials]**, puis copiez la clé API Google.
 
-   ![ Copie de clé de l’API Google](assets/inventory-google-key3.png){width="350" zoomable="yes"}
+   ![&#x200B; Copie de clé de l’API Google](assets/inventory-google-key3.png){width="350" zoomable="yes"}
 
 ### Étape 2 : configuration du fournisseur Google MAP
 

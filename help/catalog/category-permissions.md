@@ -102,7 +102,7 @@ Pour autoriser uniquement les membres de **_groupes de clients spécifiques_** �
 
    Pour sélectionner plusieurs groupes, maintenez la touche Ctrl (PC) ou la touche Commande (Mac) enfoncée lorsque vous cliquez sur chaque groupe.
 
-   ![ Seul un groupe de clients de vente en gros peut placer un produit dans le panier ](./assets/category-permissions-cart-customer-groups.png){width="600" zoomable="yes"}
+   ![&#x200B; Seul un groupe de clients de vente en gros peut placer un produit dans le panier &#x200B;](./assets/category-permissions-cart-customer-groups.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Disallow Catalog Search]
 

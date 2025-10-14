@@ -220,7 +220,7 @@ Après l’activation, la section **[!UICONTROL Approval Rules]** s’affiche su
 
 >[!NOTE]
 >
->L’accès aux commandes sur le storefront doit être accordé par l’administrateur de l’entreprise en fonction des [ autorisations de rôle utilisateur de l’entreprise ](account-company-roles-permissions.md).
+>L’accès aux commandes sur le storefront doit être accordé par l’administrateur de l’entreprise en fonction des [&#x200B; autorisations de rôle utilisateur de l’entreprise &#x200B;](account-company-roles-permissions.md).
 
 ## Configuration du paiement sur le compte
 
@@ -228,7 +228,7 @@ Le paiement sur compte est un mode de paiement hors ligne qui permet aux entrepr
 
 >[!NOTE]
 >
->Le paiement sur compte n’est pas pris en charge pour les commandes comportant [ plusieurs adresses de livraison ](../stores-purchase/shipping-settings.md#multiple-addresses) et n’apparaît pas parmi les options de paiement pour ces commandes.
+>Le paiement sur compte n’est pas pris en charge pour les commandes comportant [&#x200B; plusieurs adresses de livraison &#x200B;](../stores-purchase/shipping-settings.md#multiple-addresses) et n’apparaît pas parmi les options de paiement pour ces commandes.
 
 Pour activer le paiement sur le compte de votre boutique :
 

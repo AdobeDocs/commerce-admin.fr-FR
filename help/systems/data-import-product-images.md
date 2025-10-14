@@ -54,7 +54,7 @@ Avant d’essayer d’importer de nombreuses images, passez en revue les étapes
    var/import/images
    ```
 
-   ![ Répertoire de fichier d’images d’importation de données ](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
+   ![&#x200B; Répertoire de fichier d’images d’importation de données &#x200B;](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 
    >[!TIP]
    >

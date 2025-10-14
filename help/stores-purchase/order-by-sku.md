@@ -53,7 +53,7 @@ _Commande par SKU_ est un [widget](../content-design/widgets.md) qui peut être 
 
 1. Définissez **[!UICONTROL Enable Quick Order]** sur `No`.
 
-   La [ fonction Commande rapide](../b2b/quick-order.md) permet aux clients et aux invités d’effectuer rapidement des commandes en fonction du SKU ou du nom du produit.
+   La [&#x200B; fonction Commande rapide](../b2b/quick-order.md) permet aux clients et aux invités d’effectuer rapidement des commandes en fonction du SKU ou du nom du produit.
 
 ## Expérience Storefront
 
@@ -85,7 +85,7 @@ Lorsque la fonctionnalité est configurée pour le magasin, les clients peuvent 
 
    _&#x200B;**Télécharge un fichier CSV de plusieurs éléments :**&#x200B;_
 
-   - Prépare un fichier [ de données d’importation CSV](../systems/data-csv.md) (valeur séparée par des virgules) qui comprend des colonnes pour `SKU` et `Qty`.
+   - Prépare un fichier [&#x200B; de données d’importation CSV](../systems/data-csv.md) (valeur séparée par des virgules) qui comprend des colonnes pour `SKU` et `Qty`.
 
    ![SKU à importer](./assets/account-dashboard-order-by-sku-import.png){width="500" zoomable="yes"}
 

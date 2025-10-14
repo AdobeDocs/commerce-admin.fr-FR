@@ -94,7 +94,7 @@ Les attributs d’adresse du client sont utilisés dans les formulaires suivants
 
 1. Faites défiler l’écran jusqu’à la section **[!UICONTROL Storefront Properties]**.
 
-   ![ Attributs d’adresse du client - Propriétés Storefront](./assets/attribute-customer-address-storefront-properties.png){width="600" zoomable="yes"}
+   ![&#x200B; Attributs d’adresse du client - Propriétés Storefront](./assets/attribute-customer-address-storefront-properties.png){width="600" zoomable="yes"}
 
 1. Pour rendre l’attribut visible aux clients, définissez **[!UICONTROL Show on Storefront]** sur `Yes`.
 
@@ -115,7 +115,7 @@ Les attributs d’adresse du client sont utilisés dans les formulaires suivants
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Attribute]**.
 
-   ![ Attributs d’adresse du client - étiquettes/options](./assets/attribute-customer-address-new-manage-label-options.png){width="600" zoomable="yes"}
+   ![&#x200B; Attributs d’adresse du client - étiquettes/options](./assets/attribute-customer-address-new-manage-label-options.png){width="600" zoomable="yes"}
 
 ## Descriptions des champs
 

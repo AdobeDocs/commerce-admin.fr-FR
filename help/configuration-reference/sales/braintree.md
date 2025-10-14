@@ -299,7 +299,7 @@ Lorsque ces options sont définies, vous pouvez voir l&#39;aperçu des boutons P
 
 ## [!UICONTROL Dynamic Descriptors]
 
-![ Descripteurs dynamiques ](./assets/payment-methods-braintree-dynamic-config.png)<!-- zoom -->
+![&#x200B; Descripteurs dynamiques &#x200B;](./assets/payment-methods-braintree-dynamic-config.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

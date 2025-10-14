@@ -14,7 +14,7 @@ ht-degree: 0%
 
 La section _[!UICONTROL Product in Websites]_&#x200B;identifie chaque site web sur lequel le produit est disponible, en fonction de la [hiérarchie de magasins](../stores-purchase/stores.md).
 
-![ Diagramme d’étendue du site web du produit ](./assets/scope-product-website.svg){width="550"}
+![&#x200B; Diagramme d’étendue du site web du produit &#x200B;](./assets/scope-product-website.svg){width="550"}
 
 **_Pour copier un produit sur un autre site web :_**
 

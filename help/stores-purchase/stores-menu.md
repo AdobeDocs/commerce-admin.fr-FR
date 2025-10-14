@@ -37,7 +37,7 @@ Dans la barre latérale _Admin_, cliquez sur **[!UICONTROL Stores]**.
 
 ### [!UICONTROL Settings]
 
-Gérez la hiérarchie des [sites web, boutiques et vues de boutique](stores.md#store-and-site-structure) dans votre installation Adobe Commerce ou Magento Open Source, ainsi que tous les [ paramètres de configuration](../configuration-reference/guide-overview.md). En outre, vous pouvez configurer les [conditions générales](terms-and-conditions.md) d’une vente et gérer les [paramètres de statut de la commande](order-status.md#custom-order-status).
+Gérez la hiérarchie des [sites web, boutiques et vues de boutique](stores.md#store-and-site-structure) dans votre installation Adobe Commerce ou Magento Open Source, ainsi que tous les [&#x200B; paramètres de configuration](../configuration-reference/guide-overview.md). En outre, vous pouvez configurer les [conditions générales](terms-and-conditions.md) d’une vente et gérer les [paramètres de statut de la commande](order-status.md#custom-order-status).
 
 ### [!UICONTROL Inventory]
 

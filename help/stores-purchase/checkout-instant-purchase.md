@@ -28,7 +28,7 @@ _Achat instantané_ permet aux clients d’accélérer le processus de passage e
 
   Les modes de paiement suivants peuvent être utilisés pour fournir un accès sécurisé aux informations de carte de crédit enregistrées :
 
-   - [Cartes de crédit Braintree ](braintree.md) (l&#39;achat instantané ne peut pas être utilisé avec les cartes de crédit Braintree si 3D Secure est activé.)
+   - [Cartes de crédit Braintree &#x200B;](braintree.md) (l&#39;achat instantané ne peut pas être utilisé avec les cartes de crédit Braintree si 3D Secure est activé.)
    - [Braintree avec PayPal activé](braintree.md)
    - [PayPal Payflow Pro](paypal-payflow-pro.md)
 

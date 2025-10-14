@@ -57,7 +57,7 @@ Le _Marchandiseur visuel_ est un ensemble d’outils avancés qui vous permet de
 | ![Icône Afficher en tant que mosaïques](../assets/icon-view-tiles.png) | Afficher sous forme de mosaïque |
 | ![Bouton bascule Correspondance par règle - non](../assets/toggle-no.png) | Correspondance par règle - non |
 | ![Bouton bascule Correspondance par règle - oui](../assets/toggle-yes.png) | Correspondance par règle - oui |
-| ![ Icône Déplacer ](../assets/icon-move.png) | Faire glisser |
+| ![&#x200B; Icône Déplacer &#x200B;](../assets/icon-move.png) | Faire glisser |
 | ![Contrôleur de position](../assets/control-position.png) | Position |
 | ![Icône Supprimer de la catégorie](../assets/icon-delete-x.png) | Supprimer de la catégorie |
 | ![Éléments par contrôle de page](../assets/control-items-per-page.png) | Afficher par page |

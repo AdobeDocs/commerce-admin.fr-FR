@@ -44,7 +44,7 @@ Pour [créer les blocs dynamiques](dynamic-blocks.md) à placer dans le rotateur
 
    - Saisissez un **[!UICONTROL Title]** pour le rotateur.
 
-   - Dans la liste **[!UICONTROL Assign to Store Views]**, sélectionnez les [ vues de magasin](../getting-started/websites-stores-views.md) où le rotateur est disponible.
+   - Dans la liste **[!UICONTROL Assign to Store Views]**, sélectionnez les [&#x200B; vues de magasin](../getting-started/websites-stores-views.md) où le rotateur est disponible.
 
    - (Facultatif) Saisissez un nombre **[!UICONTROL Sort Order]** pour déterminer la position du rotateur dans le conteneur cible. Il est relatif aux autres widgets qui peuvent être affectés au même conteneur.
 

@@ -18,7 +18,7 @@ La section _[!UICONTROL Design]_&#x200B;vous permet de contrôler l’aspect d�
 
 >[!NOTE]
 >
->Lorsque le même produit est affecté à plusieurs catégories avec des paramètres de conception différents pour chaque catégorie, il est recommandé de définir **Utiliser le chemin des catégories pour les URL de produit** = `Yes` dans les [ options de configuration de l’optimisation du moteur de recherche](../configuration-reference/catalog/catalog.md#search-engine-optimization). Pour accéder à ce paramètre, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, développez **[!UICONTROL Catalog]**, choisissez **Catalogue**&#x200B;sous le panneau de gauche, puis développez la section **Optimisation du moteur de recherche**&#x200B;sur la page.
+>Lorsque le même produit est affecté à plusieurs catégories avec des paramètres de conception différents pour chaque catégorie, il est recommandé de définir **Utiliser le chemin des catégories pour les URL de produit** = `Yes` dans les [&#x200B; options de configuration de l’optimisation du moteur de recherche](../configuration-reference/catalog/catalog.md#search-engine-optimization). Pour accéder à ce paramètre, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, développez **[!UICONTROL Catalog]**, choisissez **Catalogue**&#x200B;sous le panneau de gauche, puis développez la section **Optimisation du moteur de recherche**&#x200B;sur la page.
 
 | Champ | Description |
 |--- |--- |

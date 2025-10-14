@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Pour Adobe Commerce as a Cloud Service, consultez les [ directives relatives aux métadonnées ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=fr) dans la documentation de Commerce Storefront
+>Pour Adobe Commerce as a Cloud Service, consultez les [&#x200B; directives relatives aux métadonnées &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=fr) dans la documentation de Commerce Storefront
 
 Votre boutique contient de nombreux emplacements où vous pouvez saisir des métadonnées riches en mots-clés afin d’améliorer la façon dont les moteurs de recherche indexent votre site. Lors de la configuration de votre boutique, vous pouvez saisir des métadonnées préliminaires, avec l’intention de les terminer ultérieurement. Au fil du temps, vous pouvez affiner les métadonnées pour cibler les schémas et les préférences d’achat de vos clients.
 

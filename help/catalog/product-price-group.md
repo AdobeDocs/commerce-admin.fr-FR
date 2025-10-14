@@ -38,7 +38,7 @@ La tarification pour les groupes de clients est un composant de la [tarification
 
 1. Dans la section _[!UICONTROL Customer Group Price]_, cliquez sur **[!UICONTROL Add]**.
 
-   Si votre boutique comprend [Adobe Commerce B2B](../b2b/introduction.md) et que [ catalogues partagés](../b2b/catalog-shared.md) est activé, cette section est intitulée _[!UICONTROL Catalog and Tier Price]_.
+   Si votre boutique comprend [Adobe Commerce B2B](../b2b/introduction.md) et que [&#x200B; catalogues partagés](../b2b/catalog-shared.md) est activé, cette section est intitulée _[!UICONTROL Catalog and Tier Price]_.
 
    ![Tarifs avancés](./assets/product-price-group.png){width="600" zoomable="yes"}
 
@@ -56,7 +56,7 @@ La tarification pour les groupes de clients est un composant de la [tarification
 
       - `Discount` - Saisissez le prix escompté en pourcentage du prix du produit.
 
-     ![ Tarifs des groupes clients](./assets/product-price-group-discount.png){width="600" zoomable="yes"}
+     ![&#x200B; Tarifs des groupes clients](./assets/product-price-group-discount.png){width="600" zoomable="yes"}
 
 1. Pour ajouter un autre prix de groupe, cliquez sur **[!UICONTROL Add]** et répétez l’étape précédente.
 

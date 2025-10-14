@@ -168,7 +168,7 @@ Le logiciel requis pour lire un flux RSS est appelé un lecteur de flux, et perm
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) de la section **[!UICONTROL Rss Config]** et définissez **[!UICONTROL Enable RSS]** sur `Enable`.
 
-   ![ Configuration du catalogue - flux RSS](../configuration-reference/catalog/assets/rss-feeds-rss-config.png){width="600" zoomable="yes"}
+   ![&#x200B; Configuration du catalogue - flux RSS](../configuration-reference/catalog/assets/rss-feeds-rss-config.png){width="600" zoomable="yes"}
 
    Si nécessaire, décochez la case **[!UICONTROL Use Default]** pour modifier la valeur par défaut.
 

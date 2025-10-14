@@ -46,7 +46,7 @@ Ce guide couvre les sujets suivants :
 
 ## Informations sur le développeur
 
-Pour plus d’informations sur les modifications incluses dans les versions de module, voir [ Notes de mise à jour ](release-notes.md). La documentation [ Intégrations B2B ](https://developer.adobe.com/commerce/webapi/rest/b2b/) dans le _Guide de référence de l’API REST Adobe Commerce_ fournit des détails sur l’architecture du module, les API et la personnalisation de l’algorithme.
+Pour plus d’informations sur les modifications incluses dans les versions de module, voir [&#x200B; Notes de mise à jour &#x200B;](release-notes.md). La documentation [&#x200B; Intégrations B2B &#x200B;](https://developer.adobe.com/commerce/webapi/rest/b2b/) dans le _Guide de référence de l’API REST Adobe Commerce_ fournit des détails sur l’architecture du module, les API et la personnalisation de l’algorithme.
 
 ## Dépannage et assistance
 

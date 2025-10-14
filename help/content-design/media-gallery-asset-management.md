@@ -110,7 +110,7 @@ Assets peut être largement utilisé dans l’ensemble de l’administration, pa
 
 1. Cliquez sur l’onglet **[!UICONTROL Filters]** .
 
-   ![ Filtres ](./assets/media-gallery-filters.png){width="600" zoomable="yes"}
+   ![&#x200B; Filtres &#x200B;](./assets/media-gallery-filters.png){width="600" zoomable="yes"}
 
 1. Définissez les options de filtrage.
 

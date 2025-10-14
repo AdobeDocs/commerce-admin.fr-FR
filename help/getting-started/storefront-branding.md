@@ -32,7 +32,7 @@ Si vous ne connaissez pas la taille du logo ou des autres images utilisées dans
 
 >[!NOTE]
 >
->Outre le logo dans l’en-tête, votre logo apparaît également sur les [ modèles d’email ](../systems/email-templates.md#prepare-your-email-logo) et sur les [ factures PDF ](../stores-purchase/sales-documents.md) et autres documents de vente. Les logos utilisés pour les modèles d&#39;email et les factures ont des tailles différentes et doivent être téléchargés séparément.
+>Outre le logo dans l’en-tête, votre logo apparaît également sur les [&#x200B; modèles d’email &#x200B;](../systems/email-templates.md#prepare-your-email-logo) et sur les [&#x200B; factures PDF &#x200B;](../stores-purchase/sales-documents.md) et autres documents de vente. Les logos utilisés pour les modèles d&#39;email et les factures ont des tailles différentes et doivent être téléchargés séparément.
 
 Formats de fichiers de logo pris en charge :
 

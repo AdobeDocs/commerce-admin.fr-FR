@@ -16,7 +16,7 @@ La grille _[!UICONTROL Shipments]_&#x200B;répertorie l’enregistrement de l’
 
 Adobe Commerce et Magento Open Source prennent en charge l’envoi de commandes partiel et complet, avec des options supplémentaires disponibles à partir d’[Inventory management](../inventory-management/introduction.md) et des extensions tierces.
 
-![ Grille des envois](./assets/shipments.png){width="600" zoomable="yes"}
+![&#x200B; Grille des envois](./assets/shipments.png){width="600" zoomable="yes"}
 
 ## Descriptions des colonnes
 

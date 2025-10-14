@@ -24,7 +24,7 @@ Dans la section _[!UICONTROL Create New Account Options]_&#x200B;de la configura
 
 1. Développez la section **[!UICONTROL Create New Account Options]** :
 
-   ![ Paramètres par défaut Créer des options de compte ](../configuration-reference/customers/assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
+   ![&#x200B; Paramètres par défaut Créer des options de compte &#x200B;](../configuration-reference/customers/assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
 1. Définissez chacune des options en fonction de l’expérience client que vous devez prendre en charge sur votre storefront :
 
@@ -54,6 +54,6 @@ Dans la section _[!UICONTROL Create New Account Options]_&#x200B;de la configura
 
    ![Créer des options de compte avec la TVA activée](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
 
-   Pour plus d’informations sur chacune des options disponibles dans cet ensemble d’options de configuration, voir la _référence de configuration_ [ de ](../configuration-reference/customers/customer-configuration.md) pour créer de nouvelles options de compte.
+   Pour plus d’informations sur chacune des options disponibles dans cet ensemble d’options de configuration, voir la _référence de configuration_ [&#x200B; de &#x200B;](../configuration-reference/customers/customer-configuration.md) pour créer de nouvelles options de compte.
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.

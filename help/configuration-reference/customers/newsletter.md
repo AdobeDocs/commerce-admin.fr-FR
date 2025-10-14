@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La newsletter fait partie des instruments marketing qui permettent d’envoyer aux clients des informations, des remises et d’autres emails marketing. Les clients enregistrés peuvent gérer leur abonnement depuis leur [ tableau de bord de compte ](../../customers/account-dashboard-my-account.md).
+>La newsletter fait partie des instruments marketing qui permettent d’envoyer aux clients des informations, des remises et d’autres emails marketing. Les clients enregistrés peuvent gérer leur abonnement depuis leur [&#x200B; tableau de bord de compte &#x200B;](../../customers/account-dashboard-my-account.md).
 
 ## [!UICONTROL General Options]
 

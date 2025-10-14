@@ -37,11 +37,11 @@ Avec Adobe Commerce ou Magento Open Source 2.4, les commerçants peuvent utilise
 
 1. Lorsque vous y êtes invité, cliquez sur le lien **[!UICONTROL Cache Management]** dans le message système et actualisez le cache non valide.
 
-   Le menu [[!UICONTROL Content] affiche désormais ](/help/content-design/content-menu.md) nouvelle option de _[!UICONTROL Media Gallery]_.
+   Le menu [[!UICONTROL Content] affiche désormais &#x200B;](/help/content-design/content-menu.md) nouvelle option de _[!UICONTROL Media Gallery]_.
 
 >[!NOTE]
 >
->La fonctionnalité complète des nouvelles [!DNL Media Gallery] nécessite le démarrage des clients de file d’attente `media.gallery.synchronization` et `media.content.synchronization` pour la synchronisation initiale. Voir [ Gestion des files d’attente de messages ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=fr) dans le _Guide de configuration_ pour plus d’informations.
+>La fonctionnalité complète des nouvelles [!DNL Media Gallery] nécessite le démarrage des clients de file d’attente `media.gallery.synchronization` et `media.content.synchronization` pour la synchronisation initiale. Voir [&#x200B; Gestion des files d’attente de messages &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=fr) dans le _Guide de configuration_ pour plus d’informations.
 
 ## Accéder au nouveau [!DNL Media Gallery]
 

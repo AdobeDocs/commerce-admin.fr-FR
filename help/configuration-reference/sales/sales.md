@@ -214,7 +214,7 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![ Commandes, factures, envois, archivage de notes de crédit ](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
+![&#x200B; Commandes, factures, envois, archivage de notes de crédit &#x200B;](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
 
 Pour plus d’informations sur la modification de ces paramètres, voir [Configuration de l’archive de commande](../../stores-purchase/order-archive.md#configure-the-order-archive) dans le _Guide des magasins et de l’expérience d’achat_.
 

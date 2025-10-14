@@ -110,7 +110,7 @@ Vous pouvez suivre les étapes suivantes pour supprimer les valeurs d’attribut
 
 >[!NOTE]
 >
->La configuration de navigation par prix décrite dans cette section diffère de la navigation filtrée Live Search avec [ facettes ](https://experienceleague.adobe.com/fr/docs/commerce/live-search/live-search-admin/facets/facets).
+>La configuration de navigation par prix décrite dans cette section diffère de la navigation filtrée Live Search avec [&#x200B; facettes &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce/live-search/live-search-admin/facets/facets).
 
 La navigation par prix peut être utilisée pour distribuer les produits par plage de prix dans une navigation par couches. Vous pouvez également fractionner chaque plage en intervalles. Il existe plusieurs façons de calculer la navigation par prix :
 

@@ -18,7 +18,7 @@ Les acheteurs et les vendeurs utilisent les guillemets pour gérer le processus 
 
 Une fois le devis créé, le processus de négociation commence lorsque l’acheteur ou le vendeur l’envoie pour examen. La grille _Guillemets_ qui répertorie chaque guillemet reçu et conserve un historique de la communication entre l’acheteur et le vendeur. Utilisez les [contrôles sur le lieu de travail](../getting-started/admin-workspace.md) standard pour filtrer la liste, modifier la disposition des colonnes, enregistrer les vues et exporter les données.
 
-- Dans le storefront, les acheteurs soumettent le devis en tant que [ demande de négociation](quote-price-negotiation.md) du prix du panier. Lors de la création de la demande de devis, un acheteur peut enregistrer le devis en tant que brouillon ou le soumettre directement au vendeur.
+- Dans le storefront, les acheteurs soumettent le devis en tant que [&#x200B; demande de négociation](quote-price-negotiation.md) du prix du panier. Lors de la création de la demande de devis, un acheteur peut enregistrer le devis en tant que brouillon ou le soumettre directement au vendeur.
 
 - Dans l’administrateur, les vendeurs peuvent créer des devis pour le compte de l’acheteur de la société. Lors de la création du devis, un vendeur peut enregistrer le devis en tant que brouillon ou le soumettre directement à l&#39;acheteur pour lancer le processus de négociation.
 
@@ -43,7 +43,7 @@ Ce diagramme présente les statuts des devis d’un acheteur et d’un vendeur (
 
 **Étape 1 : création de citations (nouvelle)**
 
-- **Demande de devis par l’acheteur** - L’acheteur [ demande un devis](quote-request.md) auprès du panier. La demande apparaît dans la liste _Mes guillemets_ du tableau de bord du compte de l’acheteur et une notification électronique est envoyée au représentant commercial affecté au compte de la société. Dans l’Admin, la requête apparaît dans la grille _Guillemets_, avec l’état `New`. Une demande de devis peut être modifiée par l&#39;acheteur jusqu&#39;à ce qu&#39;elle soit ouverte par le vendeur.
+- **Demande de devis par l’acheteur** - L’acheteur [&#x200B; demande un devis](quote-request.md) auprès du panier. La demande apparaît dans la liste _Mes guillemets_ du tableau de bord du compte de l’acheteur et une notification électronique est envoyée au représentant commercial affecté au compte de la société. Dans l’Admin, la requête apparaît dans la grille _Guillemets_, avec l’état `New`. Une demande de devis peut être modifiée par l&#39;acheteur jusqu&#39;à ce qu&#39;elle soit ouverte par le vendeur.
 
   ![Guillemets](./assets/quote-request-from-shopping-cart.png){width="700" zoomable="yes"}
 
