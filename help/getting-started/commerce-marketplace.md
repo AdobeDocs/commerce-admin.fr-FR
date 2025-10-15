@@ -109,7 +109,7 @@ Les problèmes de connexion sont généralement liés à une incohérence entre 
 
 ### Questions open source
 
-L’équipe d’assistance du Marketplace résout les problèmes liés aux sites [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) et [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) uniquement. Veuillez adresser vos questions sur Magento Open Source au [Forum de la communauté](https://community.magento.com/) ou [contacter un partenaire](https://business.adobe.com/products/magento/partners.html) qui peut vous aider à utiliser Magento Open Source.
+L’équipe d’assistance du Marketplace résout les problèmes liés aux sites [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) et [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) uniquement. Veuillez adresser vos questions sur Magento Open Source au [Forum de la communauté](https://community.magento.com/) ou [contacter un partenaire](https://business.adobe.com/fr/products/magento/partners.html) qui peut vous aider à utiliser Magento Open Source.
 
 ### Demandes de remboursement
 
@@ -143,4 +143,4 @@ Ces autorisations spéciales accordent le même niveau d’accès sur Adobe Comm
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/products/magento/magento-commerce.html
+[6]: https://business.adobe.com/fr/products/magento/magento-commerce.html

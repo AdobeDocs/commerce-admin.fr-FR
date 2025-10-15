@@ -30,13 +30,13 @@ Adobe offre une mine de ressources techniques et commerciales, d’outils d’au
 {style="table-layout:auto"}
 
 [1]: https://experienceleague.adobe.com/docs/commerce.html?lang=fr
-[3]: https://business.adobe.com/resources/main.html?Products+%26+Services=Commerce%252CCommerce%2520Cloud
+[3]: https://business.adobe.com/fr/resources/main.html?Products+%26+Services=Commerce%252CCommerce%2520Cloud
 [4]: https://helpx.adobe.com/fr/security.html
 [5]: https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf
 [6]: https://community.magento.com/
-[7]: https://business.adobe.com/blog/
+[7]: https://business.adobe.com/fr/blog/
 [8]: https://www.adobe.com/events.html
 [9]: https://marketplace.magento.com/
 [10]: https://learning.adobe.com/catalog.html?solution=Adobe%20Commerce
-[12]: https://business.adobe.com/products/magento/partners.html
-[13]: https://business.adobe.com/products/magento/fully-managed-service.html
+[12]: https://business.adobe.com/fr/products/magento/partners.html
+[13]: https://business.adobe.com/fr/products/magento/fully-managed-service.html

@@ -48,5 +48,5 @@ Pour en savoir plus, voir [Approche Adobe de la conformité PCI][1]{:target=&quo
 
 Au fur et à mesure que votre entreprise se développe, vous devrez peut-être remplir un rapport de conformité annuel. Les exigences de création de rapports PCI augmentent proportionnellement au niveau du commerce, mais sont levées pour les entreprises qui traitent moins de 20 000 transactions de carte de crédit par an. Pour en savoir plus, rendez-vous sur le site [PCI Security Standards Council][2] .
 
-[1]: https://business.adobe.com/products/magento/pci-compliance.html
+[1]: https://business.adobe.com/fr/products/magento/pci-compliance.html
 [2]: https://www.pcisecuritystandards.org/index.php

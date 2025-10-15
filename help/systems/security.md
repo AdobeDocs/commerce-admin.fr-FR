@@ -40,4 +40,4 @@ Si vous pensez que votre site Adobe Commerce ou Magento Open Source est compromi
 
 1. **Rapport** : si vous pensez avoir trouvé une vulnérabilité spécifique dans Commerce, [ouvrez un problème avec Adobe](https://hackerone.com/adobe?type=team) et incluez des détails techniques.
 
-1. **Mise à niveau** : pour bénéficier d’une plus grande tranquillité d’esprit grâce à la prise en charge de 24/7, planifiez votre mise à niveau vers [Adobe Commerce sur notre architecture cloud](https://business.adobe.com/products/magento/cloud-delivery.html) maintenant.
+1. **Mise à niveau** : pour bénéficier d’une plus grande tranquillité d’esprit grâce à la prise en charge de 24/7, planifiez votre mise à niveau vers [Adobe Commerce sur notre architecture cloud](https://business.adobe.com/fr/products/magento/cloud-delivery.html) maintenant.
