@@ -3,16 +3,16 @@ title: Créer et supprimer des attributs de produit
 description: Découvrez comment créer et supprimer des attributs de produit, qui sont utilisés pour décrire les caractéristiques spécifiques des produits de votre catalogue.
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-source-git-commit: 3768fc8896dd353e5cc29b4fe82862d6653d6348
+source-git-commit: ab91c19cda6a89219fc8946dad4a0a70d0991b38
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
 
 # Créer et supprimer des attributs de produit
 
-Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à partir de la page _[!UICONTROL Product Attributes]_. Les étapes suivantes indiquent comment créer des attributs à partir du menu&#x200B;_[!UICONTROL Stores]_.
+Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à partir de la page _[!UICONTROL Product Attributes]_. Les étapes suivantes indiquent comment créer des attributs à partir du menu_[!UICONTROL Stores]_.
 
 ## Étape 1 : décrire les propriétés d’attribut de base
 
@@ -31,7 +31,7 @@ Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à pa
    | `Text Field` | Champ de saisie d’une seule ligne pour le texte. |
    | `Text Area` | Champ de saisie de plusieurs lignes permettant de saisir des paragraphes de texte, tels qu’une description de produit. Vous pouvez utiliser l’éditeur WYSIWYG pour formater le texte avec des balises HTML ou saisir directement les balises dans le texte. |
    | `Text Editor` | Un éditeur de texte entièrement opérationnel à l’emplacement des attributs. |
-   | Date | Affiche une valeur de date au [format préféré](attributes-input-types.md#date-and-time-options) et [fuseau horaire](../getting-started/store-details.md#locale-options). Les valeurs de date peuvent être sélectionnées dans une liste ou un calendrier ( ![icône Calendrier](../assets/icon-calendar.png) ). <br/><br/>**_Remarque :_**&#x200B;selon la configuration de votre système, les utilisateurs_administrateurs _peuvent saisir des dates directement dans un champ ou sélectionner une date dans le calendrier ou la liste. Pour plus d’informations sur la spécification des valeurs de date et d’heure, voir [Options de date et d’heure](attributes-input-types.md#date-and-time-options). |
+   | Date | Affiche une valeur de date au [format préféré](attributes-input-types.md#date-and-time-options) et [fuseau horaire](../getting-started/store-details.md#locale-options). Les valeurs de date peuvent être sélectionnées dans une liste ou un calendrier ( ![icône Calendrier](../assets/icon-calendar.png) ). <br/><br/>**_Remarque:_** selon la configuration de votre système, les utilisateurs _administrateurs_ peuvent saisir des dates directement dans un champ ou sélectionner une date dans le calendrier ou la liste. Pour plus d’informations sur la spécification des valeurs de date et d’heure, voir [Options de date et d’heure](attributes-input-types.md#date-and-time-options). |
    | `Yes/No` | Affiche une liste déroulante avec les options prédéfinies de `Yes` et `No`. |
    | `Dropdown` | Affiche une liste déroulante de valeurs qui accepte une seule sélection. Le type d’entrée de liste déroulante est un composant clé des [produits configurables](product-create-configurable.md). |
    | `Multiple Select` | Affiche une liste déroulante de valeurs qui accepte plusieurs sélections. |
@@ -72,7 +72,7 @@ Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à pa
 
    Les options disponibles dépendent du paramètre _[!UICONTROL Catalog Input Type for Store Owner]_.
 
-1. Définissez **[!UICONTROL Scope]** pour indiquer où, dans votre hiérarchie [&#x200B; magasin](../getting-started/websites-stores-views.md) l’attribut peut être utilisé.
+1. Définissez **[!UICONTROL Scope]** pour indiquer où, dans votre hiérarchie [ magasin](../getting-started/websites-stores-views.md) l’attribut peut être utilisé.
 
 1. Pour empêcher toute entrée de valeurs en double, définissez **[!UICONTROL Unique Value]** sur `Yes`.
 
@@ -103,6 +103,10 @@ Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à pa
    Si votre boutique est disponible dans différentes langues, vous pouvez saisir un titre traduit pour chaque affichage.
 
    ![Attribut de produit - Gestion des titres](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   > Si vous prévoyez d’utiliser cet attribut en tant que facette dans la recherche en direct, vous devez spécifier un libellé spécifique au magasin. Sans cela, le nom de l’attribut risque de ne pas s’afficher correctement sur la page de configuration des facettes. Pour mettre à jour la configuration, modifiez manuellement le libellé à l’aide de l’option [modifier dans la liste de facettes de Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) dans le _Guide de Live Search_.
 
 ## Étape 4 : décrire les propriétés du storefront
 
@@ -163,7 +167,7 @@ Tout attribut utilisé comme liste déroulante d’options pour un [produit conf
 | Propriété | Valeur |
 |----------|------ |
 | Type d’entrée de catalogue pour le propriétaire de la boutique | Liste déroulante |
-| Champ d’application | Global |
+| Portée | Global |
 
 {style="table-layout:auto"}
 
@@ -173,7 +177,7 @@ Lorsqu’un attribut est supprimé, il est supprimé de tous les produits et jeu
 
 Avant de supprimer un attribut, assurez-vous qu’il n’est actuellement utilisé par aucun produit de votre catalogue. Pour déterminer facilement si un attribut est en cours d’utilisation, utilisez l’outil [Export](../systems/data-export.md) afin de vérifier la liste des attributs d’entité du produit. Si l’attribut n’est pas inclus dans la liste, il n’est utilisé par aucun produit du catalogue.
 
-**_Pour supprimer un attribut :_**
+**_Pour supprimer un attribut:_**
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
