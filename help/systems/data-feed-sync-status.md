@@ -2,7 +2,7 @@
 title: Surveillance du statut du flux de données
 description: Surveillez la synchronisation de l’exportation des données et identifiez les problèmes ou retards de traitement des flux pour  [!DNL Catalog Service],  [!DNL Live Search] et  [!DNL Product Recommendations].
 feature: Products, Customers, Data Import/Export
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 433d3fd4dc10a81b685262c1e3c06a0da5778841
 workflow-type: tm+mt
 source-wordcount: '1455'
@@ -38,24 +38,24 @@ Le statut est suivi pour les flux suivants :
 
 >[!TIP]
 >
->Pour en savoir plus sur le processus de synchronisation des données, consultez la section [Synchroniser les données avec l’exportation de données SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization) du *Guide d’exportation de données SaaS**.
+>Pour en savoir plus sur le processus de synchronisation des données, consultez la section [Synchroniser les données avec l’exportation de données SaaS](https://experienceleague.adobe.com/fr/docs/commerce/saas-data-export/data-synchronization) du *Guide d’exportation de données SaaS**.
 
 ## Installation de l’extension
 
 La page Statut du flux de données est disponible pour tous les commerçants Commerce disposant de licences actives pour les services Commerce suivants :
 
-* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
-* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)
-* [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) avec une licence active.
+* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/fr/docs/commerce/product-recommendations/guide-overview)
+* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/fr/docs/commerce/live-search/guide-overview)
+* [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/fr/docs/commerce/catalog-service/guide-overview) avec une licence active.
 
 **Conditions requises**
 
 * PHP 8.1, 8.2, 8.3 ou 8.4
 * Adobe Commerce 2.4.4+
-* [Extension Adobe Commerce Data Export](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/manage-extension), version 103.4.15 ou ultérieure
+* [Extension Adobe Commerce Data Export](https://experienceleague.adobe.com/fr/docs/commerce/saas-data-export/manage-extension), version 103.4.15 ou ultérieure
 * Accès à [repo.magento.com](https://repo.magento.com)
 
-  Pour générer des clés et obtenir les droits nécessaires, voir [&#x200B; Obtenir vos clés d’authentification &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Pour les installations cloud, consultez le guide [Commerce sur les infrastructures cloud](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
+  Pour générer des clés et obtenir les droits nécessaires, voir [&#x200B; Obtenir vos clés d’authentification &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Pour les installations cloud, consultez le guide [Commerce sur les infrastructures cloud](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
 
 * Accès à la ligne de commande du serveur applicatif Adobe Commerce.
 
@@ -69,9 +69,9 @@ composer require magento/module-data-exporter-status
 
 Pour obtenir des instructions d’installation détaillées, consultez les guides suivants :
 
-* [Installation de l’extension sur Adobe Commerce sur une infrastructure cloud](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+* [Installation de l’extension sur Adobe Commerce sur une infrastructure cloud](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/configure-store/extensions)
 
-* [Installation de l’extension Adobe Commerce sur site](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
+* [Installation de l’extension Adobe Commerce sur site](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ## Accès à la page Statut du flux de données
 
@@ -133,7 +133,7 @@ En haut de la page des détails de chaque flux, les indicateurs d’intégrité 
 
 >[!TIP]
 >
->Pour en savoir plus sur le traitement des index, consultez la rubrique [Gestion des index](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management).
+>Pour en savoir plus sur le traitement des index, consultez la rubrique [Gestion des index](https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/tools/index-management).
 
 #### Liste d&#39;attente du journal des modifications
 
@@ -165,7 +165,7 @@ Lorsque le nombre d’enregistrements envoyés avec succès correspond au nombre
 
 >[!NOTE]
 >
->Adobe fournit également des outils d’interface de ligne de commande et des journaux système que les développeurs et les intégrateurs système peuvent utiliser pour gérer et suivre les opérations de synchronisation. Pour plus d&#39;informations, consultez le [Guide d&#39;exportation de données SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe fournit également des outils d’interface de ligne de commande et des journaux système que les développeurs et les intégrateurs système peuvent utiliser pour gérer et suivre les opérations de synchronisation. Pour plus d&#39;informations, consultez le [Guide d&#39;exportation de données SaaS](https://experienceleague.adobe.com/fr/docs/commerce-merchant-services/saas-data-export/overview).
 
 ### Gestion des exportations ayant échoué
 
@@ -265,5 +265,5 @@ Si vous devez resynchroniser des éléments de flux spécifiques :
 
 >[!MORELIKETHIS]
 >
->* [Tableau de bord de gestion des données](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard)
->* [Guide d&#39;exportation de données SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)
+>* [Tableau de bord de gestion des données](https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/data-transfer/data-dashboard)
+>* [Guide d&#39;exportation de données SaaS](https://experienceleague.adobe.com/fr/docs/commerce-merchant-services/saas-data-export/overview)
