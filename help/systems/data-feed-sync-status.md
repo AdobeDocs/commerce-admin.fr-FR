@@ -55,7 +55,7 @@ La page Statut du flux de données est disponible pour tous les commerçants Com
 * [Extension Adobe Commerce Data Export](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/manage-extension), version 103.4.15 ou ultérieure
 * Accès à [repo.magento.com](https://repo.magento.com)
 
-  Pour générer des clés et obtenir les droits nécessaires, voir [ Obtenir vos clés d’authentification ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Pour les installations cloud, consultez le guide [Commerce sur les infrastructures cloud](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
+  Pour générer des clés et obtenir les droits nécessaires, voir [&#x200B; Obtenir vos clés d’authentification &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Pour les installations cloud, consultez le guide [Commerce sur les infrastructures cloud](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
 
 * Accès à la ligne de commande du serveur applicatif Adobe Commerce.
 
