@@ -18,10 +18,10 @@ Les paramètres suivants doivent être définis au niveau du produit et dans la 
 
 | [!UICONTROL Carrier] | Conditions requises |
 |-------|--------|
-| [ USPS ](usps.md) | Nécessite un compte USPS pour l&#39;affranchissement des étiquettes d&#39;expédition. |
+| [&#x200B; USPS &#x200B;](usps.md) | Nécessite un compte USPS pour l&#39;affranchissement des étiquettes d&#39;expédition. |
 | [UPS](ups.md) | Nécessite un compte UPS. Les étiquettes d&#39;expédition ne sont disponibles que pour les expéditions provenant des États-Unis. Des informations d&#39;identification spécifiques aux États-Unis sont requises pour les magasins situés en dehors des États-Unis. |
-| [FedEx ](fedex.md) | Nécessite un compte FedEx. Pour les magasins situés à l’extérieur des États-Unis, les étiquettes d’expédition sont prises en charge uniquement pour les envois internationaux. FedEx n&#39;autorise pas les expéditions intérieures provenant de l&#39;extérieur des États-Unis |
-| [ DHL ](dhl.md) | Nécessite un compte DHL. Les étiquettes d&#39;expédition ne sont prises en charge que pour les expéditions provenant des États-Unis. |
+| [FedEx &#x200B;](fedex.md) | Nécessite un compte FedEx. Pour les magasins situés à l’extérieur des États-Unis, les étiquettes d’expédition sont prises en charge uniquement pour les envois internationaux. FedEx n&#39;autorise pas les expéditions intérieures provenant de l&#39;extérieur des États-Unis |
+| [&#x200B; DHL &#x200B;](dhl.md) | Nécessite un compte DHL. Les étiquettes d&#39;expédition ne sont prises en charge que pour les expéditions provenant des États-Unis. |
 
 {style="table-layout:auto"}
 
