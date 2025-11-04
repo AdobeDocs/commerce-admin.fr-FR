@@ -3,9 +3,9 @@ title: Création de votre compte et accès  [!DNL Commerce]  celui-ci
 description: Découvrez les comptes [!DNL Commerce]  qui gèrent les produits et services que vous avez achetés.
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: d036962b767be0817dbd14d679e89ab4d4f03455
+source-git-commit: 2b0959de64e139d3f652e1cd5edb744c0a8489a3
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '442'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ Vous pouvez accéder à votre compte [!DNL Commerce] à partir du site web [!DNL
 
 L’identifiant de votre compte [!DNL Commerce] est distinct de celui de votre administrateur de boutique. Vous utiliserez normalement des informations d’identification différentes pour chaque système et l’accès à chaque système est géré indépendamment.
 
-Cependant, un utilisateur qui souhaite rationaliser sa connexion aux produits Adobe Commerce et Adobe Business peut configurer son Adobe ID pour se connecter à la boutique Admin : [Configurer l’intégration d’administration Commerce à Adobe ID](https://experienceleague.adobe.com/fr/docs/commerce-admin/start/admin/ims/adobe-ims-config) dans le *Guide d’intégration IMS pour Commerce*.
+Cependant, un utilisateur qui souhaite rationaliser sa connexion aux produits Adobe Commerce et Adobe Business peut configurer son Adobe ID pour se connecter à la boutique Admin : [Configurer l’intégration d’administration Commerce à Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) dans le *Guide d’intégration IMS pour Commerce*.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Cependant, un utilisateur qui souhaite rationaliser sa connexion aux produits Ad
 
 ## Connectez-vous à votre compte [!DNL Commerce]
 
-Un Adobe ID est requis pour accéder à un compte Commerce. Si vous disposez déjà d’un compte [!DNL Commerce] mais que vous ne vous êtes pas connecté au compte depuis août 2022, vous devrez créer un Adobe ID pendant le processus de connexion.
+Un Adobe ID est requis pour accéder à votre compte Commerce. Si vous disposez déjà d’un compte [!DNL Commerce] mais que vous ne vous êtes pas connecté depuis août 2022, vous devez créer un compte Adobe ID pendant le processus de connexion. Cette étape est nécessaire avant de pouvoir vous connecter à votre compte .
 
 >[!WARNING]
 >
