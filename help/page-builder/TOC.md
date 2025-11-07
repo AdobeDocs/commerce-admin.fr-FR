@@ -1,14 +1,14 @@
 ---
 user-guide-title: Guide de l’utilisateur d’[!DNL Page Builder]
-user-guide-description: Découvrez comment utiliser  [!DNL Page Builder]  fonctionnalités pour créer des pages riches en contenu avec des mises en page personnalisées qui améliorent votre narration visuelle et stimulent l’engagement et la fidélité des clients.
+user-guide-description: Découvrez comment utiliser  [!DNL Page Builder]  fonctionnalités pour créer des pages riches en contenu avec des mises en page personnalisées qui améliorent votre storytelling visuelle et stimulent l’engagement et la fidélité des clients.
 breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 516b605ba357f093bdd1cf1e92df18202d16a800
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: d36acfb2c87af08c3d4a711a161183d76fcba312
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '92'
 ht-degree: 6%
 
 ---
@@ -47,5 +47,3 @@ ht-degree: 6%
    - [Produits](products.md)
    - [Recommandations de produit](recommendations.md)
 - [Modèles](templates.md)
-- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/fr/docs/commerce-admin/user-guides/home)
-

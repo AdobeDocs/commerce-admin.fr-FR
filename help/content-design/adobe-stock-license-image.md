@@ -3,8 +3,8 @@ title: Obtenir la licence d’une image Adobe Stock
 description: Pour vous assurer que vous disposez d’un accès légal et pour éliminer le filigrane Adobe Stock, vous devez obtenir une licence pour vos images Adobe Stock.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 9d6dade372d4b931bec9aec9b9bfeedc3107ad1e
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -39,7 +39,7 @@ La fonction de licence d’Adobe Stock n’est disponible que si l’[intégrati
 
    >[!NOTE]
    >
-   >Si vous n’êtes pas connecté, le formulaire de connexion s’affiche. Pour plus d’informations sur la connexion, voir [&#x200B; Utilisation d’images Adobe Stock &#x200B;](./adobe-stock-manage.md).
+   >Si vous n’êtes pas connecté, le formulaire de connexion s’affiche. Pour plus d’informations sur la connexion, voir [ Utilisation d’images Adobe Stock ](./adobe-stock-manage.md).
 
 1. Dans la boîte de dialogue de confirmation de licence, cliquez sur **[!UICONTROL Confirm]** pour obtenir la licence de l’image.
 
@@ -51,9 +51,9 @@ La fonction de licence d’Adobe Stock n’est disponible que si l’[intégrati
 
 ## Obtenir la licence d’une image à partir du stockage multimédia standard
 
-1. [Accédez à la grille de recherche Adobe Stock][access-search].
+1. [Accédez à la grille de recherche Adobe Stock][adobe-stock-manage.md].
 
-1. Pour [afficher les détails de l’image][view-details], cliquez sur une image dans la grille de recherche dans l’ordre.
+1. Pour [afficher les détails de l’image][adobe-stock-manage.md#view-image-details], cliquez sur une image dans la grille de recherche dans l’ordre.
 
 1. Selon le statut de licence actuel de l’image, effectuez l’une des opérations suivantes :
 
@@ -75,6 +75,6 @@ La fonction de licence d’Adobe Stock n’est disponible que si l’[intégrati
 
 [access-search]: adobe-stock-manage.md#access-the-adobe-stock-search-grid
 [view-details]: adobe-stock-manage.md#view-image-details
-[stock-credits]: https://helpx.adobe.com/fr/stock/help/credit-packs.html
+[stock-credits]: https://helpx.adobe.com/stock/help/credit-packs.html
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/fr/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html

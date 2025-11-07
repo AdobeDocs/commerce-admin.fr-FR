@@ -5,9 +5,9 @@ breadcrumb-title: Expérience d’achat et de magasins
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 2e5d8c81cbf20612d1351da2f5474f13f353c34c
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '314'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 + [Guide de l’expérience d’achat et des magasins](guide-overview.md)
 + [Présentation des magasins et de l’expérience d’achat](introduction.md)
-+ de gestion des sites et des magasins{#site-store}
++ Gestion des sites et des magasins {#site-store}
    + [Menu Magasins](stores-menu.md)
    + [Structure du magasin et du site](stores.md)
    + [Vues de la boutique](store-views.md)
@@ -34,24 +34,24 @@ ht-degree: 3%
       + [Zones fiscales et taux](tax-zones-rates.md)
       + [TVA (taxe sur la valeur ajoutée)](vat.md)
       + [Directives fiscales par pays](international-tax-guidelines.md)
-   + de devise{#currency}
+   + Devise monétaire {#currency}
       + [Vue d’ensemble](currency.md)
       + [Configuration de la devise](currency-configuration.md)
       + [Mettre à jour les taux de change](currency-update.md)
    + [E-mails de vente](sales-email.md)
    + [Documents vente](sales-documents.md)
-+ du point d’achat{#point-of-purchase}
++ Point d’achat {#point-of-purchase}
    + [Achat instantané](checkout-instant-purchase.md)
-   + de panier{#cart}
+   + Panier {#cart}
       + [Vue d’ensemble](cart.md)
       + [Configuration du panier](cart-configuration.md)
       + [Persistance du panier](cart-persistent.md)
       + [Classer par SKU](order-by-sku.md)
-   + d’assistance à l’achat{#assist}
+   + Assistance pour les achats {#assist}
       + [Gestion d’un panier](shopping-assisted-cart-manage.md)
       + [Création d’une commande](customer-account-create-order.md)
       + [Mettre à jour une commande client](order-update.md)
-   + de passage en caisse{#checkout}
+   + Extraire {#checkout}
       + [Vue d’ensemble](checkout-process.md)
       + [Passage en caisse d’une page](checkout-one-page.md)
       + [Passage en caisse des invités](checkout-guest.md)
@@ -59,10 +59,10 @@ ht-degree: 3%
       + [Recherche d’adresses](checkout-address-search.md)
       + [Notification d’échec de paiement](checkout-payment-failed-emails.md)
       + [Ordre de tri des totaux de passage en caisse](checkout-totals-sort-order.md)
-   + Cartes-cadeaux {#gift-cards}
+   + Cartes cadeaux {#gift-cards}
       + [Achat et remboursement par carte-cadeau](product-gift-card-workflow.md)
       + [Comptes de carte cadeau](product-gift-card-accounts.md)
-+ des outils de l’acheteur{#shopper-tools}
++ Outils pour les acheteurs {#shopper-tools}
    + [Envoyer un e-mail à un ami](email-a-friend.md)
    + Listes de souhaits {#wish-lists}
       + [Vue d’ensemble](wishlists.md)
@@ -72,7 +72,7 @@ ht-degree: 3%
    + [Récemment consulté ou comparé](products-viewed-compared.md)
    + [Autoriser les nouvelles commandes](reorders-allow.md)
    + [Autoriser l&#39;annulation de la commande](cancel-allow.md)
-+ des paiements{#payments}
++ Paiements {#payments}
    + [Vue d’ensemble](payments.md)
    + Solutions de paiement PayPal {#paypal}
       + [Présentation des solutions PayPal](paypal.md)
@@ -92,7 +92,7 @@ ht-degree: 3%
       + [Virements bancaires](bank-transfer.md)
       + [Commandes fournisseur](purchase-order.md)
       + [Passage en caisse du sous-total zéro](zero-subtotal-checkout.md)
-+ Gérer les de flux de commande {#order-management}
++ Gérer le flux de commande {#order-management}
    + [Menu Ventes](sales-menu.md)
    + Commandes {#orders}
       + [Vue d’ensemble](orders.md)
@@ -104,7 +104,7 @@ ht-degree: 3%
       + [Gestion des commandes de Storefront](orders-storefront.md)
    + [Factures](invoices.md)
    + [Expéditions](shipments.md)
-   + des avoirs{#credit-memos}
+   + Avoirs {#credit-memos}
       + [Vue d’ensemble](credit-memos.md)
       + [Émettre un avoir](credit-memo-create.md)
    + Renvoie {#returns}
@@ -113,7 +113,7 @@ ht-degree: 3%
       + [Attributs de retour](attributes-returns.md)
       + [Retourne l’expérience du storefront](rma-customer-experience.md)
    + [Transactions](transactions.md)
-+ de diffusion{#delivery}
++ Diffusion {#delivery}
    + [Vue d’ensemble](delivery.md)
    + [Paramètres d’expédition](shipping-settings.md)
    + Méthodes de diffusion de base {#basic-methods}
@@ -121,15 +121,13 @@ ht-degree: 3%
       + [Taux forfaitaire](shipping-flat-rate.md)
       + [Taux de table](shipping-table-rate.md)
       + [Diffusion en magasin](shipping-in-store-delivery.md)
-   + des transporteurs{#shipping-carriers}
+   + Transporteurs {#shipping-carriers}
       + [Paramétrage du transporteur](carriers.md)
       + [UPS](ups.md)
       + [USPS](usps.md)
       + [FedEx](fedex.md)
       + [DHL](dhl.md)
-   + Étiquettes d&#39;expédition {#shipping-labels}
+   + Étiquettes d’expédition {#shipping-labels}
       + [Aperçu de l’étiquette d’expédition](shipping-labels.md)
       + [Configurer les étiquettes d&#39;expédition](shipping-label-configure.md)
       + [Créer des étiquettes d&#39;expédition](shipping-label-create.md)
-+ [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/fr/docs/commerce-admin/user-guides/home)
-

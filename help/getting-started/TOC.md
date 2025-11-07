@@ -5,9 +5,9 @@ breadcrumb-title: Prise en main
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 0ea13aa32745f6ba5045c2aeec54926857525836
+source-git-commit: 97e4f0ccf57cb7bb18ed36a151ccaff8fad7d787
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -70,5 +70,3 @@ ht-degree: 0%
    + [Écosystème](resources.md)
    + [Extensions](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/fr/docs/commerce-admin/user-guides/home)
-
