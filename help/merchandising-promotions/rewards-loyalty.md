@@ -18,7 +18,7 @@ Le système _points de récompense_ d’Adobe Commerce vous permet de mettre en 
 
 ## Règles de prix des paniers
 
-Les points peuvent être récompensés aux clients selon une [ règle de panier d’achat ](price-rules-cart.md). Ils peuvent être récompensés comme la seule action de la règle de prix, ou avec une remise.
+Les points peuvent être récompensés aux clients selon une [&#x200B; règle de panier d’achat &#x200B;](price-rules-cart.md). Ils peuvent être récompensés comme la seule action de la règle de prix, ou avec une remise.
 
 ## Solde client
 
@@ -164,7 +164,7 @@ Le solde des points de récompense peut être mis à jour à partir de l’admin
 
 1. Cliquez sur **[!UICONTROL Save Customer]**.
 
-Toutes les actions liées aux points de récompense sont affichées dans le bloc de _[!UICONTROL Reward Points History]_du client dans son compte sur le storefront.
+Toutes les actions liées aux points de récompense sont affichées dans le bloc de _[!UICONTROL Reward Points History]_&#x200B;du client dans son compte sur le storefront.
 
 ## Descriptions des champs
 
