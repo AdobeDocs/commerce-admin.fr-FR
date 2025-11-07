@@ -38,5 +38,5 @@ Il existe de nombreuses zones lumineuses et curseurs tiers que vous pouvez utili
 
 Pour obtenir de l’aide sur la résolution des problèmes d’images et de vidéos, consultez les articles suivants de la base de connaissances de la prise en charge de Commerce :
 
-- [Les images de produit ne s’affichent pas malgré les rôles d’image de modification de produit](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
-- [Les images du magasin ne s’affichent pas après le déploiement](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)
+- [Les images de produit ne s’affichent pas malgré les rôles d’image de modification de produit](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html?lang=fr)
+- [Les images du magasin ne s’affichent pas après le déploiement](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html?lang=fr)

@@ -3,7 +3,7 @@ title: Obtenir la licence d’une image Adobe Stock
 description: Pour vous assurer que vous disposez d’un accès légal et pour éliminer le filigrane Adobe Stock, vous devez obtenir une licence pour vos images Adobe Stock.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 9d6dade372d4b931bec9aec9b9bfeedc3107ad1e
 workflow-type: tm+mt
 source-wordcount: '388'
@@ -75,6 +75,6 @@ La fonction de licence d’Adobe Stock n’est disponible que si l’[intégrati
 
 [access-search]: adobe-stock-manage.md#access-the-adobe-stock-search-grid
 [view-details]: adobe-stock-manage.md#view-image-details
-[stock-credits]: https://helpx.adobe.com/stock/help/credit-packs.html
+[stock-credits]: https://helpx.adobe.com/fr/stock/help/credit-packs.html
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/fr/manage-account/using/access-adobe-id-account.html
