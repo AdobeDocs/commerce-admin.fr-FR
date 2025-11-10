@@ -49,7 +49,7 @@ Par défaut, les [redirections d’URL automatiques](url-redirect-product-automa
 
 Regardez la vidéo suivante pour en savoir plus sur la gestion des réécritures d’URL :
 
->[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410124?captions=fre_fr&quality=12&learn=on)
 
 ## Créer des réécritures d’URL
 
