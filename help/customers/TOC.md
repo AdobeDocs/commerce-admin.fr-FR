@@ -2,9 +2,9 @@
 user-guide-title: Guide de gestion des clients
 breadcrumb-title: Gestion des clients
 feature: Customers
-source-git-commit: b58e5e2dc660b58be694bd7896d8596e9ef48c04
+source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -55,4 +55,4 @@ ht-degree: 0%
    + [Créer et supprimer des segments de clients](customer-segment-create.md)
    + [Segments clients dans les règles de prix](customer-segment-price-rule.md)
    + [Rapport Segments de clients](customer-segment-reports.md)
-
++ [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

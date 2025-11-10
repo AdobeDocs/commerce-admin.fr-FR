@@ -5,9 +5,9 @@ breadcrumb-title: Référence de configuration
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 2e8662ac7bc0b372a74d071f68355efdad96006e
+source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '159'
 ht-degree: 1%
 
 ---
@@ -83,4 +83,4 @@ ht-degree: 1%
    - [Admin](./advanced/admin.md)
    - [Système](./advanced/system.md)
    - [Développeur](./advanced/developer.md)
-
+- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
