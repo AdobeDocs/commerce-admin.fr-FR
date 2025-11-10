@@ -3,7 +3,7 @@ title: Réécritures d’URL
 description: Découvrez les réécritures d’URL et utilisez l’outil de réécriture d’URL de Commerce pour modifier les URL associées à un produit, une catégorie ou une page CMS.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 2f2db4926ff92adfa27692eeca872c1765fd31d6
 workflow-type: tm+mt
 source-wordcount: '905'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Pour Adobe Commerce as a Cloud Service, consultez les [directives SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) de la documentation du Storefront Commerce
+>Pour Adobe Commerce as a Cloud Service, consultez les [directives SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=fr) de la documentation du Storefront Commerce
 
 L’outil Réécritures d’URL permet de modifier toute URL associée à un produit, une catégorie ou une page CMS. Lorsque vous créez une réécriture d’URL, Commerce crée automatiquement une redirection permanente (301) afin que tous les liens pointant vers l’ancienne URL soient redirigés vers la nouvelle adresse.
 
