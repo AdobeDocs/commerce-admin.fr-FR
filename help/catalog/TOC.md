@@ -98,4 +98,4 @@ ht-degree: 0%
       + [Création et suppression d’attributs](attribute-product-create.md)
       + [Mises à jour en bloc](bulk-product-attribute-update.md)
       + [Jeux d’attributs](attribute-sets.md)
-+ [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=fr)
