@@ -58,7 +58,7 @@ Si une règle de prix active a été créée sans date de fin et que vous devez 
 
    >[!NOTE]
    >
-   >Chaque fois que vous mettez à jour des paramètres d’informations de règle, assurez-vous que le _[!UICONTROL Status]_est correctement défini. Si vous souhaitez que la modification entraîne l’application active d’une règle, définissez le statut sur `Active`.
+   >Chaque fois que vous mettez à jour des paramètres d’informations de règle, assurez-vous que le _[!UICONTROL Status]_&#x200B;est correctement défini. Si vous souhaitez que la modification entraîne l’application active d’une règle, définissez le statut sur `Active`.
 
 1. Cliquez ensuite sur **[!UICONTROL Save]**.
 
@@ -112,4 +112,4 @@ Si une règle de prix active a été créée sans date de fin et que vous devez 
 
    Pour afficher les modifications planifiées pour différentes vues de magasin, cliquez sur **[!UICONTROL Scope]** dans l’en-tête de la page Aperçu . Choisissez le site web, le magasin ou l’affichage du magasin à prévisualiser.
 
-1. Si nécessaire, revenez au calendrier et cliquez sur **[!UICONTROL View/Edit]** dans la colonne _[!UICONTROL Action]_pour ouvrir une autre mise à jour planifiée.
+1. Si nécessaire, revenez au calendrier et cliquez sur **[!UICONTROL View/Edit]** dans la colonne _[!UICONTROL Action]_&#x200B;pour ouvrir une autre mise à jour planifiée.

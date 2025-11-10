@@ -164,4 +164,4 @@ Selon la configuration de votre site web, l’index peut contenir plusieurs vers
     https://example.com
     https://www.example.com/index.html
 
-Pour spécifier une page canonique, consultez la documentation de Google Search Central [](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).
+Pour spécifier une page canonique, consultez la documentation de Google Search Central [&#128279;](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).
