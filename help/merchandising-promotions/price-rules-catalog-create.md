@@ -3,9 +3,9 @@ title: Créer une règle de prix de catalogue
 description: Découvrez comment créer une règle de prix de catalogue qui applique une remise à des produits spécifiques chaque fois qu’un ensemble de conditions est rempli.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 3011d0287c74fd39b44e180733343c39d1cadea7
+source-git-commit: 5e21259c196419f9a337795f9bec29f0737e84ca
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1727'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Suivez ces instructions pour appliquer une remise à des produits spécifiques c
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add New Rule]**.
 
-   La section _[!UICONTROL Rule Information]_&#x200B;comprend des sections extensibles pour les **[!UICONTROL Conditions]**&#x200B;et les **[!UICONTROL Actions]**.
+   La section _[!UICONTROL Rule Information]_comprend des sections extensibles pour les **[!UICONTROL Conditions]**et les **[!UICONTROL Actions]**.
 
    ![Règle de prix de catalogue - informations](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -44,6 +44,10 @@ Suivez ces instructions pour appliquer une remise à des produits spécifiques c
 1. ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Saisissez les dates **[!UICONTROL From]** et **[!UICONTROL To]** pour déterminer quand la règle de prix est en vigueur.
 
    Vous pouvez saisir les dates ou utiliser la **[!UICONTROL Calendar]** (![icône de calendrier](../assets/icon-calendar.png)) pour choisir les dates. Si vous laissez les dates vides, la règle est activée lorsque la règle de prix est enregistrée.
+
+   >[!NOTE]
+   >
+   >Les champs `From` et `To` ont été supprimés de la page Configuration des règles de prix de catalogue dans Adobe Commerce et ne peuvent pas être modifiés directement sur la règle de prix de catalogue. Vous devez créer une mise à jour planifiée pour définir le planning d&#39;activation des règles de prix.
 
 1. Entrez un nombre pour établir la **[!UICONTROL Priority]** de cette règle par rapport aux autres règles.
 
@@ -215,7 +219,7 @@ Les [blocs dynamiques](../content-design/dynamic-blocks.md) associés à une rè
 
 Regardez cette vidéo pour en savoir plus sur la création de règles de prix de catalogue :
 
->[!VIDEO](https://video.tv.adobe.com/v/3410848?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## Descriptions des champs
 
@@ -242,7 +246,7 @@ Spécifie les conditions qui doivent être remplies avant que la règle de prix 
 
 | Champ | Description |
 |-----|-----------|
-| [!UICONTROL Apply] | Détermine le type de calcul appliqué à l&#39;achat. Options : <br/>**[!UICONTROL Apply as percentage of original]**- Article de remises en soustrayant un pourcentage du prix normal.<br/>**[!UICONTROL Apply as fixed amount]** - Escompte l&#39;article en soustrayant un montant fixe du prix normal. <br/>**[!UICONTROL Adjust final price to this percentage]**- Ajuste le prix final d&#39;un pourcentage du prix normal.<br/>**[!UICONTROL Adjust final price to discount value]** - Définit le prix final sur un montant fixe avec remise. <br/><br/>**_Remarque :_**&#x200B;prix normal fait référence au prix de base du produit sans prix avancé (spécial/niveau/groupe) ni remises promotionnelles. Le prix final fait référence au prix réduit qui apparaît dans le panier. <br/>Le prix&#x200B;**_final _**&#x200B;du produit est calculé comme le prix&#x200B;**_minimum _**&#x200B;pertinent, en utilisant la formule suivante : <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | Détermine le type de calcul appliqué à l&#39;achat. Options : <br/>**[!UICONTROL Apply as percentage of original]**- Article de remises en soustrayant un pourcentage du prix normal.<br/>**[!UICONTROL Apply as fixed amount]** - Escompte l&#39;article en soustrayant un montant fixe du prix normal. <br/>**[!UICONTROL Adjust final price to this percentage]**- Ajuste le prix final d&#39;un pourcentage du prix normal.<br/>**[!UICONTROL Adjust final price to discount value]** - Définit le prix final sur un montant fixe avec remise. <br/><br/>**_Note:_** le prix normal fait référence au prix de base du produit sans aucune tarification avancée (spécial/niveau/groupe) ni remises promotionnelles. Le prix final fait référence au prix réduit qui apparaît dans le panier. <br/>Le prix **_final_** du produit est calculé comme le prix **_minimum_** pertinent, en utilisant la formule suivante : <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | (Obligatoire) Montant de la remise proposée. |
 | [!UICONTROL Discard Subsequent Rules] | Détermine si des règles supplémentaires peuvent être appliquées à cet achat. Pour empêcher l&#39;application de plusieurs remises au même achat, sélectionnez `Yes`. Options : `Yes` / `No` |
 
