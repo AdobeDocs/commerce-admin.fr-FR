@@ -22,7 +22,7 @@ Surveillez vos sites Adobe Commerce et Magento Open Source pour détecter les ri
 - Accédez aux rapports de sécurité historiques qui suivent et surveillent la progression de vos sites.
 - Accédez au rapport d’analyse qui indique les vérifications réussies et ayant échoué, avec les actions recommandées.
 
-L&#39;outil d&#39;analyse de sécurité est disponible gratuitement depuis le tableau de bord de votre compte [Commerce/Magento](../getting-started/commerce-account-create.md). Pour obtenir des informations techniques, consultez [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) dans le _Guide de Commerce sur les infrastructures cloud_.
+L&#39;outil d&#39;analyse de sécurité est disponible gratuitement depuis le tableau de bord de votre compte [Commerce/Magento](../getting-started/commerce-account-create.md). Pour obtenir des informations techniques, consultez [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) dans le _Guide de Commerce sur les infrastructures cloud_.
 
 ![Outil d’analyse de sécurité](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
