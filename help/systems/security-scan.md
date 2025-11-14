@@ -71,11 +71,11 @@ Pour installer et configurer l’outil d’analyse de sécurité pour votre site
    1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL HTML Head]** .
    1. Faites défiler jusqu’à **[!UICONTROL Scripts and Style Sheets]** et cliquez dans la zone de texte à la fin de tout code existant. Collez le code de confirmation dans la zone de texte.
 
-      ![ Scripts et feuilles de style ](./assets/scan-paste-code.png){width="600" zoomable="yes"}
+      ![&#x200B; Scripts et feuilles de style &#x200B;](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
    1. Cliquez ensuite sur **[!UICONTROL Save Configuration]**.
 
-1. Revenez à la page _[!UICONTROL Security Scan]_de votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**pour établir la propriété du domaine.
+1. Revenez à la page _[!UICONTROL Security Scan]_&#x200B;de votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**&#x200B;pour établir la propriété du domaine.
 
 >[!TAB PWA storefront]
 
@@ -117,7 +117,7 @@ Pour installer et configurer l’outil d’analyse de sécurité pour votre site
 
       Une fois le processus de création terminé, les modifications seront déployées sur votre storefront PWA.
 
-1. Revenez à la page _[!UICONTROL Security Scan]_de votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**pour établir la propriété du domaine.
+1. Revenez à la page _[!UICONTROL Security Scan]_&#x200B;de votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**&#x200B;pour établir la propriété du domaine.
 
 >[!TAB AEM Storefront]
 
@@ -150,7 +150,7 @@ Pour installer et configurer l’outil d’analyse de sécurité pour votre site
 
    Une fois le processus de création terminé, les modifications seront déployées sur votre vitrine AEM.
 
-1. Revenez à la page _[!UICONTROL Security Scan]_de votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**pour établir la propriété du domaine.
+1. Revenez à la page _[!UICONTROL Security Scan]_&#x200B;de votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**&#x200B;pour établir la propriété du domaine.
 
 >[!ENDTABS]
 
@@ -209,7 +209,7 @@ Les scénarios courants dans lesquels vous pouvez marquer un échec d’analyse 
 
 Pour gérer les échecs d’analyse que vous avez identifiés comme des faux positifs, procédez comme suit :
 
-1. Dans la page _[!UICONTROL Monitored Websites]_, cliquez sur **[!UICONTROL View Report]**pour le site à gérer.
+1. Dans la page _[!UICONTROL Monitored Websites]_, cliquez sur **[!UICONTROL View Report]**&#x200B;pour le site à gérer.
 
 1. Dans la vue Rapport, recherchez l&#39;analyse qui a échoué et que vous voulez marquer comme faux positif.
 
@@ -219,7 +219,7 @@ Pour gérer les échecs d’analyse que vous avez identifiés comme des faux pos
 
 1. Cliquez sur **[!UICONTROL Apply Changes]** pour enregistrer votre sélection.
 
-L’échec d’analyse ignoré passe à la section _[!UICONTROL Ignored Results]_et est exclu de votre score de risque.
+L’échec d’analyse ignoré passe à la section _[!UICONTROL Ignored Results]_&#x200B;et est exclu de votre score de risque.
 
 ### Arrêter d&#39;ignorer les échecs d&#39;analyse
 
@@ -233,7 +233,7 @@ Si vous devez restaurer un échec d&#39;analyse précédemment ignoré dans votr
 
 1. Cliquez sur **[!UICONTROL Apply Changes]** pour enregistrer votre sélection.
 
-L’échec de l’analyse revient à la section _[!UICONTROL Failed Scans]_et est inclus dans votre score de risque.
+L’échec de l’analyse revient à la section _[!UICONTROL Failed Scans]_&#x200B;et est inclus dans votre score de risque.
 
 ### Afficher les échecs d&#39;analyse ignorés
 
