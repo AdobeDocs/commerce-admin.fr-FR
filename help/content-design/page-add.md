@@ -64,7 +64,7 @@ Ajoutez le contenu de la page en fonction de votre [configuration des outils de 
 
 1. Complétez le contenu et mettez le texte en forme selon vos besoins.
 
-   Vous pouvez ajouter des [images](media-storage.md), [variables](../systems/variables-predefined.md) et [widgets](widgets.md) selon vos besoins. Pour plus d’informations, voir [ Utilisation de l’éditeur ](editor.md).
+   Vous pouvez ajouter des [images](media-storage.md), [variables](../systems/variables-predefined.md) et [widgets](widgets.md) selon vos besoins. Pour plus d’informations, voir [&#x200B; Utilisation de l’éditeur &#x200B;](editor.md).
 
 ### Étape 3 : remplir les informations d’optimisation pour les moteurs de recherche
 
@@ -106,7 +106,7 @@ Ajoutez le contenu de la page en fonction de votre [configuration des outils de 
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) **[!UICONTROL Hierarchy]**.
 
-   ![ Hiérarchie ](./assets/page-hierarchy.png){width="600" zoomable="yes"}
+   ![&#x200B; Hiérarchie &#x200B;](./assets/page-hierarchy.png){width="600" zoomable="yes"}
 
 1. Si cette page est l’enfant d’une autre page, cochez la case du **[!UICONTROL Parent page]**.
 
@@ -114,7 +114,7 @@ Ajoutez le contenu de la page en fonction de votre [configuration des outils de 
 
 1. Pour modifier la disposition de la page, développez ![Sélecteur d’extension](../assets/icon-display-expand.png) **[!UICONTROL Design]**.
 
-   ![ Conception ](./assets/page-design.png){width="600" zoomable="yes"}
+   ![&#x200B; Conception &#x200B;](./assets/page-design.png){width="600" zoomable="yes"}
 
 1. Pour modifier la disposition des colonnes de la page, définissez **[!UICONTROL Layout]** sur l’une des options suivantes :
 
@@ -129,7 +129,7 @@ Ajoutez le contenu de la page en fonction de votre [configuration des outils de 
 
 1. Pour appliquer un **[!UICONTROL Custom Layout Update]**, choisissez le nom du fichier dans la liste.
 
-   Pour plus d’informations, voir [ Mises à jour de la disposition ](layout-updates.md).
+   Pour plus d’informations, voir [&#x200B; Mises à jour de la disposition &#x200B;](layout-updates.md).
 
 1. Pour modifier le thème de la page, définissez **[!UICONTROL New Theme]** sur l’une des options suivantes :
 
@@ -156,7 +156,7 @@ Ajoutez le contenu de la page en fonction de votre [configuration des outils de 
 
 ### Étape 8 : publier la page
 
-1. Sélectionnez **[!UICONTROL Edit]** dans la colonne _[!UICONTROL Action]_de la grille.
+1. Sélectionnez **[!UICONTROL Edit]** dans la colonne _[!UICONTROL Action]_&#x200B;de la grille.
 
 1. Définissez **[!UICONTROL Enable Page]** sur `Yes`.
 
@@ -211,7 +211,7 @@ N’importe quelle page de contenu peut être utilisée comme modèle et enregis
 
 ## Suppression d’une page
 
-Il existe deux manières de supprimer une page créée. Vous pouvez le supprimer de la grille de _[!UICONTROL Pages]_ou de la page de_[!UICONTROL Edit]_.
+Il existe deux manières de supprimer une page créée. Vous pouvez le supprimer de la grille de _[!UICONTROL Pages]_&#x200B;ou de la page de&#x200B;_[!UICONTROL Edit]_.
 
 ### Méthode 1 : suppression d’une page de la grille Pages
 
@@ -229,7 +229,7 @@ Il existe deux manières de supprimer une page créée. Vous pouvez le supprimer
 
 1. Recherchez la page à supprimer.
 
-1. Dans la colonne _[!UICONTROL Actions]_de l’entité de page, cliquez sur **[!UICONTROL Select]**et choisissez **[!UICONTROL Edit]**.
+1. Dans la colonne _[!UICONTROL Actions]_&#x200B;de l’entité de page, cliquez sur **[!UICONTROL Select]**&#x200B;et choisissez **[!UICONTROL Edit]**.
 
 1. Dans la barre de boutons, cliquez sur **[!UICONTROL Delete Page]**.
 
