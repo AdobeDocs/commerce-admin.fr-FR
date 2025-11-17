@@ -77,7 +77,7 @@ Vous pouvez créer plusieurs clés d’accès à différentes fins et les active
 
 >[!IMPORTANT]
 >
->À partir d’Adobe Commerce et de Magento Open Source 2.4.0, l’assistant de configuration web est supprimé et vous devez utiliser la ligne de commande pour [installer](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) ou [mettre à niveau](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) votre instance. Cette exigence inclut également les [modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) et [extensions](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
+>À partir d’Adobe Commerce et de Magento Open Source 2.4.0, l’assistant de configuration web est supprimé et vous devez utiliser la ligne de commande pour [installer](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=fr) ou [mettre à niveau](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=fr) votre instance. Cette exigence inclut également les [modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=fr) et [extensions](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=fr).
 
 Le processus d’installation pour [!DNL Marketplace] achats est différent pour les installations _on-premise_ de Commerce et pour les installations hébergées sur [l’architecture cloud Adobe][4].
 
@@ -109,7 +109,7 @@ Les problèmes de connexion sont généralement liés à une incohérence entre 
 
 ### Questions open source
 
-L’équipe d’assistance du Marketplace résout les problèmes liés aux sites [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) et [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) uniquement. Veuillez adresser vos questions sur Magento Open Source au [Forum de la communauté](https://community.magento.com/) ou [contacter un partenaire](https://business.adobe.com/products/magento/partners.html) qui peut vous aider à utiliser Magento Open Source.
+L’équipe d’assistance du Marketplace résout les problèmes liés aux sites [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) et [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) uniquement. Veuillez adresser vos questions sur Magento Open Source au [Forum de la communauté](https://community.magento.com/) ou [contacter un partenaire](https://business.adobe.com/fr/products/magento/partners.html) qui peut vous aider à utiliser Magento Open Source.
 
 ### Demandes de remboursement
 
@@ -143,4 +143,4 @@ Ces autorisations spéciales accordent le même niveau d’accès sur Adobe Comm
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/products/magento/magento-commerce.html
+[6]: https://business.adobe.com/fr/products/magento/magento-commerce.html
