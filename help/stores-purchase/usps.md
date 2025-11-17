@@ -3,7 +3,7 @@ title: Service postal des États-Unis (USPS)
 description: Découvrez comment configurer USPS en tant que transporteur pour votre boutique.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
+source-git-commit: be8a4e9d7cbcf34452724f8055980007794f525f
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Les frais de manutention sont facultatifs et apparaissent comme des frais suppl�
 
    Cette zone de texte est prédéfinie avec un message par défaut, mais vous pouvez saisir un message différent que vous souhaitez afficher si USPS n&#39;est plus disponible.
 
-   ![&#x200B; Méthodes autorisées USPS &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
+   ![ Méthodes autorisées USPS ](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
 
 1. Définissez **[!UICONTROL Ship to Applicable Countries]** sur l’une des options suivantes :
 
@@ -144,3 +144,5 @@ Les frais de manutention sont facultatifs et apparaissent comme des frais suppl�
 
 [1]: https://secure.shippingapis.com/registration/
 [2]: https://www.usps.com/business/web-tools-apis/welcome.htm
+
+<!-- Last updated from includes: 2025-10-29 05:34:15 -->
