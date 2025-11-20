@@ -21,7 +21,7 @@ Ce guide couvre les sujets suivants :
 | Objet | Description |
 | ------- | ----------- |
 | [Introduction](introduction.md) | Présentation de l’utilisation des fonctionnalités de contenu et de conception de site pour refléter votre marque et votre style sur votre boutique. |
-| [ Menu Contenu ](content-menu.md) | Utilisez le menu [!UICONTROL Content] pour accéder à plusieurs fonctionnalités de gestion du contenu de votre boutique. |
+| [&#x200B; Menu Contenu &#x200B;](content-menu.md) | Utilisez le menu [!UICONTROL Content] pour accéder à plusieurs fonctionnalités de gestion du contenu de votre boutique. |
 | Conception | Utilisez les outils de conception pour contrôler le [thème](themes.md) et les [mises en page](page-layout.md) de votre storefront. Le [[!UICONTROL Design Configuration]](configuration.md) facilite la modification des règles liées à la conception et des paramètres de configuration en affichant les paramètres sur une seule page. |
 | Éléments de contenu | Dans cette section du guide, vous trouverez des informations détaillées sur la création et la gestion de contenu [pages](pages.md) et [blocs](blocks.md), ainsi que sur l’utilisation de [widgets](widgets.md) pour ajouter du contenu dynamique. |
 | [Éditeur WYSIWYG](editor.md) | L’éditeur vous permet de saisir et de mettre en forme le contenu lorsque vous travaillez dans une vue _What You See Is What You Get_ (WYSIWYG) du contenu. |

@@ -46,7 +46,7 @@ Il ne couvre pas les fonctionnalités de base d’Adobe Commerce et de Magento O
 
 ## Informations sur le développeur [!DNL Page Builder]
 
-[!DNL Page Builder] est installé avec Adobe Commerce 2.4.x et Magento Open Source 2.4.3 et versions ultérieures, toutes les fonctionnalités étant activées par défaut. Pour plus d’informations sur les modifications incluses dans les versions de module, voir [[!DNL Page Builder]  Notes de mise à jour ](release-notes.md). Le [[!DNL Page Builder] guide de développement](https://developer.adobe.com/commerce/frontend-core/page-builder/) fournit des détails sur l’architecture et la personnalisation des modules.
+[!DNL Page Builder] est installé avec Adobe Commerce 2.4.x et Magento Open Source 2.4.3 et versions ultérieures, toutes les fonctionnalités étant activées par défaut. Pour plus d’informations sur les modifications incluses dans les versions de module, voir [[!DNL Page Builder]  Notes de mise à jour &#x200B;](release-notes.md). Le [[!DNL Page Builder] guide de développement](https://developer.adobe.com/commerce/frontend-core/page-builder/) fournit des détails sur l’architecture et la personnalisation des modules.
 
 ## Résolution des problèmes liés aux ressources
 
