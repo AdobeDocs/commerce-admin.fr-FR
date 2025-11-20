@@ -4,7 +4,7 @@ description: Informations complètes sur les fonctionnalités de contenu et de c
 seo-title: Adobe Commerce Content and Design Guide
 seo-description: Describes how to use the Content and Design features for Adobe Commerce and Magento Open Source.
 exl-id: ad3cd024-1703-409f-9820-a0b90e7d460f
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '292'
@@ -21,7 +21,7 @@ Ce guide couvre les sujets suivants :
 | Objet | Description |
 | ------- | ----------- |
 | [Introduction](introduction.md) | Présentation de l’utilisation des fonctionnalités de contenu et de conception de site pour refléter votre marque et votre style sur votre boutique. |
-| [&#x200B; Menu Contenu &#x200B;](content-menu.md) | Utilisez le menu [!UICONTROL Content] pour accéder à plusieurs fonctionnalités de gestion du contenu de votre boutique. |
+| [ Menu Contenu ](content-menu.md) | Utilisez le menu [!UICONTROL Content] pour accéder à plusieurs fonctionnalités de gestion du contenu de votre boutique. |
 | Conception | Utilisez les outils de conception pour contrôler le [thème](themes.md) et les [mises en page](page-layout.md) de votre storefront. Le [[!UICONTROL Design Configuration]](configuration.md) facilite la modification des règles liées à la conception et des paramètres de configuration en affichant les paramètres sur une seule page. |
 | Éléments de contenu | Dans cette section du guide, vous trouverez des informations détaillées sur la création et la gestion de contenu [pages](pages.md) et [blocs](blocks.md), ainsi que sur l’utilisation de [widgets](widgets.md) pour ajouter du contenu dynamique. |
 | [Éditeur WYSIWYG](editor.md) | L’éditeur vous permet de saisir et de mettre en forme le contenu lorsque vous travaillez dans une vue _What You See Is What You Get_ (WYSIWYG) du contenu. |

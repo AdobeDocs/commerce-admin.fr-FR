@@ -17,7 +17,7 @@ Ciblez les promotions et créez des opportunités d’engagement client, et tran
 
 _Marchandisage_ est un terme utilisé dans le commerce de détail pour décrire l&#39;art et la science de l&#39;élaboration du plan d&#39;étage et de la présentation des produits. Vous pouvez considérer la [navigation par catégorie](../catalog/navigation-top.md) comme le plan d’étage du magasin, et la présentation dynamique des produits comme les conditions que vous pouvez appliquer à l’énumération des produits du magasin. Vous pouvez également implémenter des programmes qui stimulent les ventes de produits :
 
-- [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} [Marchandiseur visuel](visual-merchandiser.md) - Ensemble d’outils avancés qui vous permettent de positionner des produits et d’appliquer des conditions qui déterminent quels produits apparaissent dans la liste des catégories.
+- [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} [Marchandiseur visuel](visual-merchandiser.md) - Ensemble d’outils avancés qui vous permettent de positionner des produits et d’appliquer des conditions qui déterminent quels produits apparaissent dans la liste des catégories.
 
 - [Registres cadeaux](gift-registries.md) - Donnez à vos clients la possibilité de créer des registres cadeaux pour des occasions spéciales et d&#39;inviter leurs amis et leur famille à acheter leurs cadeaux dans le registre des cadeaux.
 
@@ -27,7 +27,7 @@ _Marchandisage_ est un terme utilisé dans le commerce de détail pour décrire 
 
 >[!TIP]
 >
->Pour en savoir plus sur les recommandations de produits et sur la manière dont elles peuvent vous apporter l’insight et le contrôle dont vous avez besoin pour offrir la meilleure expérience à vos acheteurs, consultez le [Guide d’utilisation des recommandations de produits](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=fr).
+>Pour en savoir plus sur les recommandations de produits et sur la manière dont elles peuvent vous apporter l’insight et le contrôle dont vous avez besoin pour offrir la meilleure expérience à vos acheteurs, consultez le [Guide d’utilisation des recommandations de produits](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
 
 ## Promotions
 
@@ -67,8 +67,8 @@ L’une des tâches à effectuer avant de lancer votre boutique consiste à exam
 >[!NOTE]
 >
 >Les versions 2.4.0 à 2.4.3 d’Adobe Commerce et de Magento Open Source incluaient l’extension développée par le fournisseur dotdigital utilisée pour s’intégrer à dotdigital Engagement Cloud. À compter de la version 2.4.4, cette extension n’est plus fournie avec la version de base et doit être installée et mise à jour à partir de Commerce Marketplace. La Marketplace permet également d’accéder à la documentation actuelle fournie par le développeur d’extensions.
->&#x200B;><br><br>
->&#x200B;>Si l’extension groupée est activée et configurée, vous devez mettre à jour votre fichier composer.json dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Voir [Mise à niveau des modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=fr) dans le _Guide de mise à niveau_ pour plus d’informations.
+><br><br>
+>Si l’extension groupée est activée et configurée, vous devez mettre à jour votre fichier composer.json dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Voir [Mise à niveau des modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) dans le _Guide de mise à niveau_ pour plus d’informations.
 
 - [Newsletters](newsletters.md) - Produisez des newsletters, gérez votre liste d’abonnés, développez du contenu et générez du trafic vers votre boutique.
 

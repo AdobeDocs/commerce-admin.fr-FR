@@ -40,15 +40,15 @@ Pour plus d&#39;informations, voir [Gestion des entreprises](manage-companies.md
 
 Les services pour Adobe Commerce sont des services hébergés qui fournissent des fonctionnalités étendues à Adobe Commerce et Magento Open Source. Les services suivants prennent en charge les workflows B2B :
 
-* [Service de catalogue](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=fr)
-* [Recherche en direct](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html?lang=fr)
-* [Recommandations de produits](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=fr)
+* [Service de catalogue](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)
+* [Recherche en direct](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html)
+* [Recommandations de produits](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)
 
 ## Catalogues partagés
 
 Les catalogues partagés sont les niveaux de prix qui permettent de définir des prix personnalisés par produit pour différentes sociétés sur un ou plusieurs sites web. En utilisant des catalogues partagés, vous pouvez vendre des produits en appliquant différents niveaux de tarification à différents groupes de clients. La prise en charge des catalogues partagés est disponible uniquement pour les magasins Commerce configurés pour prendre en charge les comptes d’entreprise.
 
-Pour plus d’informations, voir [&#x200B; Utilisation de catalogues partagés &#x200B;](catalog-shared.md).
+Pour plus d’informations, voir [ Utilisation de catalogues partagés ](catalog-shared.md).
 
 ## Commande rapide
 

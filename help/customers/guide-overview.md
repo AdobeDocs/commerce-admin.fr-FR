@@ -19,7 +19,7 @@ Ce guide est destiné au personnel du service client travaillant pour Adobe Comm
 | Objet | Description |
 | ------- | ----------- |
 | [Introduction](customers-introduction.md) | Présentation de l’utilisation des fonctionnalités de gestion des clients dans Commerce Admin. |
-| Outils de gestion des clients | Découvrez comment utiliser la grille de [[!UICONTROL Customers] &#x200B;](customers-all.md) et [[!UICONTROL Now Online] fonctionnalité](now-online.md) dans Commerce Admin, que vous pouvez utiliser pour gérer vos clients de boutique. |
+| Outils de gestion des clients | Découvrez comment utiliser la grille de [[!UICONTROL Customers] ](customers-all.md) et [[!UICONTROL Now Online] fonctionnalité](now-online.md) dans Commerce Admin, que vous pouvez utiliser pour gérer vos clients de boutique. |
 | Comptes clients | Découvrez comment offrir une expérience optimale aux clients enregistrés sur le storefront, des [connexions](login-landing-page.md) aux [tests de mot de passe](password-reset.md), en passant par [assistance à l’acheteur](login-as-customer.md). |
 | [Personalization à grande échelle](personalize-scale.md) | Découvrez les fonctionnalités disponibles pour personnaliser l’expérience d’achat de chaque point de contact client en fonction du contexte immédiat et du comportement observé précédemment. |
 | [[!DNL Audience Activation]](audience-activation.md) | Découvrez l’extension [!DNL Audience Activation] qui vous permet d’activer les audiences Real-Time CDP dans Adobe Commerce afin d’informer les offres uniques dans le panier, les blocs dynamiques et les produits associés. |
