@@ -72,7 +72,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Indicat
 
 ## [!UICONTROL Translate Inline]
 
-![ Traduire en ligne ](./assets/developer-translate-inline.png)<!-- zoom -->
+![&#x200B; Traduire en ligne &#x200B;](./assets/developer-translate-inline.png)<!-- zoom -->
 
 Pour plus d’informations sur la modification de ces paramètres, voir [Traduire en ligne](../../systems/developer-tools.md#translate-inline) dans le _Guide d’administration des systèmes_.
 
@@ -103,7 +103,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Optimis
 
 ## [!UICONTROL CSS Settings]
 
-![ Paramètres CSS ](./assets/developer-css-settings.png)<!-- zoom -->
+![&#x200B; Paramètres CSS &#x200B;](./assets/developer-css-settings.png)<!-- zoom -->
 
 Pour plus d’informations sur la modification de ces paramètres, voir [Optimisation des fichiers de ressources](../../systems/developer-tools.md#optimizing-resource-files) dans le _Guide d’administration des systèmes_.
 
@@ -127,7 +127,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Optimis
 
 ## [!UICONTROL Caching Settings]
 
-![ Paramètres de mise en cache ](./assets/developer-cache-settings.png)<!-- zoom -->
+![&#x200B; Paramètres de mise en cache &#x200B;](./assets/developer-cache-settings.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
