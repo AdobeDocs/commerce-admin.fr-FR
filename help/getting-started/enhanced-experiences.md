@@ -3,7 +3,7 @@ title: Expériences storefront améliorées
 description: Découvrez les nombreux outils conçus pour vous aider à optimiser l’engagement, la fidélisation et la fidélisation de votre clientèle.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Outre les éléments standard qui permettent aux clients d’effectuer des achat
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=fr)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
@@ -28,7 +28,7 @@ Adobe Commerce et Magento Open Source regorgent de fonctionnalités qui facilite
 
 - **URL personnalisées** - Spécifiez des [URL personnalisées](../stores-purchase/store-urls.md) pour qu’elles soient courtes, propres et faciles à mémoriser. Vous pouvez également générer automatiquement des URL conviviales pour la recherche afin de rationaliser votre chemin d’achat.
 
-- **Métadonnées** - Améliorez le classement de vos moteurs de recherche en choisissant des critères spécifiques qui aident les moteurs de recherche à trouver et à indexer plus facilement vos produits. Vous pouvez saisir des [métadonnées](../merchandising-promotions/meta-data.md) pour les pages de produit, de catégorie et de contenu.
+- **Données Meta** - Améliorez le classement de vos moteurs de recherche en choisissant des critères spécifiques qui aident les moteurs de recherche à rechercher et à indexer plus facilement vos produits. Vous pouvez saisir des [métadonnées](../merchandising-promotions/meta-data.md) pour les pages de produit, de catégorie et de contenu.
 
 - **Plan du site** - Créez un lien vers un [plan du site](../merchandising-promotions/sitemap-xml.md) depuis le pied de page de votre boutique pour donner aux clients un aperçu de la structure du catalogue, avec des liens vers toutes les catégories et tous les produits de la boutique. Intégration facile au plan de site Google.
 
@@ -54,7 +54,7 @@ Adobe Commerce et Magento Open Source facilitent la création d’une expérienc
 
 Adobe Commerce et Magento Open Source proposent un ensemble riche d’outils pour créer des expériences personnalisées sur plusieurs points de contact numériques, en fonction de l’activité et du profil du client ou de la cliente.
 
-- **Catalogue et tarifs personnalisés** - Proposez une sélection de produits sélectionnée avec un [&#x200B; personnalisétarification pour des sociétés spécifiques](../b2b/catalog-shared-pricing-structure.md), tout en continuant à proposer le catalogue standard avec une tarification régulière pour les clients généraux.
+- **Catalogue et tarifs personnalisés** - Proposez une sélection de produits sélectionnée avec un [ personnalisétarification pour des sociétés spécifiques](../b2b/catalog-shared-pricing-structure.md), tout en continuant à proposer le catalogue standard avec une tarification régulière pour les clients généraux.
 
 - **Segmentation ciblée** - Optimisez vos initiatives marketing avec du contenu dynamique, des promotions et des bannières [en fonction des propriétés](../customers/customer-segments.md) telles que l’adresse du client, l’historique des commandes et le contenu du panier.
 
@@ -84,7 +84,7 @@ Adobe Commerce et Magento Open Source proposent toute une gamme d’outils pour 
 
 ## Optimiser les processus métiers et la rentabilité
 
-- **[!DNL Advanced Reporting]** - Obtenez des informations précieuses en un coup d’œil grâce aux rapports dynamiques sur les produits, les commandes et les clients, optimisés par [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=fr).
+- **[!DNL Advanced Reporting]** - Obtenez des informations précieuses en un coup d’œil grâce aux rapports dynamiques sur les produits, les commandes et les clients, optimisés par [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html).
 
 - **Instantanés de tableau de bord** - Pour optimiser votre budget marketing, il est essentiel de connaître les éléments qui présentent un intérêt pour votre site. Utilisez ces [informations sur votre tableau de bord](admin-dashboard.md) pour déterminer les ventes croisées et incitatives à des clients fidèles ou les produits à mettre en vente.
 
