@@ -54,7 +54,7 @@ Adobe Commerce et Magento Open Source facilitent la création d’une expérienc
 
 Adobe Commerce et Magento Open Source proposent un ensemble riche d’outils pour créer des expériences personnalisées sur plusieurs points de contact numériques, en fonction de l’activité et du profil du client ou de la cliente.
 
-- **Catalogue et tarifs personnalisés** - Proposez une sélection de produits sélectionnée avec un [ personnalisétarification pour des sociétés spécifiques](../b2b/catalog-shared-pricing-structure.md), tout en continuant à proposer le catalogue standard avec une tarification régulière pour les clients généraux.
+- **Catalogue et tarifs personnalisés** - Proposez une sélection de produits sélectionnée avec un [&#x200B; personnalisétarification pour des sociétés spécifiques](../b2b/catalog-shared-pricing-structure.md), tout en continuant à proposer le catalogue standard avec une tarification régulière pour les clients généraux.
 
 - **Segmentation ciblée** - Optimisez vos initiatives marketing avec du contenu dynamique, des promotions et des bannières [en fonction des propriétés](../customers/customer-segments.md) telles que l’adresse du client, l’historique des commandes et le contenu du panier.
 

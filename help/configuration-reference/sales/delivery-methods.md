@@ -106,9 +106,9 @@ ht-degree: 0%
 
 {{ups-api}}
 
-![ Paramètres du compte REST UPS ](./assets/delivery-methods-ups1.png)<!-- zoom -->
+![&#x200B; Paramètres du compte REST UPS &#x200B;](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-![ Paramètres du compte XML UPS ](./assets/delivery-methods-ups1.png)<!-- zoom -->
+![&#x200B; Paramètres du compte XML UPS &#x200B;](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
 <!-- [UPS REST Account Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![ Méthodes autorisées UPS ](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
+![&#x200B; Méthodes autorisées UPS &#x200B;](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
 <!-- [UPS Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
@@ -195,7 +195,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-Les champs suivants ne sont disponibles que si vous avez appliqué le correctif de qualité [ Migration de l’API REST USPS ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210). Ce correctif permet la prise en charge des API USPS, une plateforme REST qui remplace les API Web Tools. Pour plus d’informations, consultez [Obsolescence de l’API des outils web USPS](../../stores-purchase/carriers.md).
+Les champs suivants ne sont disponibles que si vous avez appliqué le correctif de qualité [&#x200B; Migration de l’API REST USPS &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210). Ce correctif permet la prise en charge des API USPS, une plateforme REST qui remplace les API Web Tools. Pour plus d’informations, consultez [Obsolescence de l’API des outils web USPS](../../stores-purchase/carriers.md).
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -240,7 +240,7 @@ Les champs suivants ne sont disponibles que si vous avez appliqué le correctif 
 
 {style="table-layout:auto"}
 
-![ Méthodes autorisées USPS ](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
+![&#x200B; Méthodes autorisées USPS &#x200B;](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
 <!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
@@ -378,7 +378,7 @@ Les champs suivants ne sont disponibles que si vous avez appliqué le correctif 
 
 {style="table-layout:auto"}
 
-![ Méthodes autorisées DHL ](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
+![&#x200B; Méthodes autorisées DHL &#x200B;](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
 <!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
