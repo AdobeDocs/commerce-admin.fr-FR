@@ -51,7 +51,7 @@ Le 25 janvier 2026, USPS mettra hors service les API des outils web hérités. P
 
 Pour éviter toute interruption des services d&#39;expédition USPS, prenez les mesures suivantes avant le 25 janvier 2026 :
 
-- Appliquez le correctif de qualité [&#x200B; Migration de l’API REST USPS &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) pour ajouter la prise en charge de l’intégration aux API REST USPS.
+- Appliquez le correctif de qualité [&#x200B; Migration de l’API REST USPS &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) pour ajouter la prise en charge de l’intégration aux API REST USPS.
 
 - Mettez à jour la configuration USPS de Commerce pour utiliser les API REST :
 
