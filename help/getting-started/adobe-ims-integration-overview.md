@@ -23,7 +23,7 @@ Pour implémenter cette intégration, consultez [Configuration de l’intégrati
 
 ## Modifications des workflows et de l’interface d’administration après l’intégration avec IMS
 
-Lorsque cette intégration est activée, les utilisateurs administrateurs de Commerce subissent des modifications du workflow d’authentification et de connexion par défaut d’Commerce Admin lorsqu’ils effectuent des tâches de routine dans l’administration nécessitant une réauthentification, telles que la création d’un utilisateur administrateur. L’application de l’authentification à deux facteurs (2FA) au niveau de l’organisation Adobe est requise pour l’activation du module . Les paramètres de connexion d’administrateur par défaut et 2FA sont désactivés, et le bouton _[!UICONTROL Sign In with Adobe ID]_remplace le formulaire de connexion d’administrateur par défaut. Les droits sont toujours gérés à partir de l’administrateur.
+Lorsque cette intégration est activée, les utilisateurs administrateurs de Commerce subissent des modifications du workflow d’authentification et de connexion par défaut d’Commerce Admin lorsqu’ils effectuent des tâches de routine dans l’administration nécessitant une réauthentification, telles que la création d’un utilisateur administrateur. L’application de l’authentification à deux facteurs (2FA) au niveau de l’organisation Adobe est requise pour l’activation du module . Les paramètres de connexion d’administrateur par défaut et 2FA sont désactivés, et le bouton _[!UICONTROL Sign In with Adobe ID]_&#x200B;remplace le formulaire de connexion d’administrateur par défaut. Les droits sont toujours gérés à partir de l’administrateur.
 
 ## Impact de l’intégration d’administration avec IMS sur les mots de passe Commerce
 
@@ -70,4 +70,4 @@ Le plug-in `\Magento\AdminAdobeIms\Plugin\BackendAuthSessionPlugin` vérifie si 
 
 Le métapaquet Adobe IMS est installé avec Adobe Commerce 2.4.5 et versions ultérieures, mais doit être configuré pour être utilisé. Il étend le module `AdobeIms` pour prendre en charge le module qui active la logique d’authentification (`AdminAdobeIms`).
 
-Pour plus d’informations sur l’activation de l’intégration, voir [ Configuration de l’intégration d’administration Commerce avec Adobe IMS ](./adobe-ims-config.md).
+Pour plus d’informations sur l’activation de l’intégration, voir [&#x200B; Configuration de l’intégration d’administration Commerce avec Adobe IMS &#x200B;](./adobe-ims-config.md).
