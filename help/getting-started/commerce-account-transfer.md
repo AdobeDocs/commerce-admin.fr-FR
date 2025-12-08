@@ -72,7 +72,7 @@ Ce type de transfert nécessite que vous disposiez d’une Adobe ID liée au com
 
 1. Cliquez sur **[!UICONTROL Verify]**.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447661/?captions=fre_fr&learn=on)
 
 ## Modification d’e-mail
 
