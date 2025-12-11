@@ -3,9 +3,9 @@ title: Optimisation des moteurs de recherche
 description: Découvrez les outils d’optimisation du moteur de recherche (SEO) pour les sites Commerce et les bonnes pratiques pour une SEO optimale.
 exl-id: ba09159a-1b40-4592-8758-f7072dab4589
 feature: Merchandising, Products, Search
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+source-git-commit: c8649d9107a92b15a1c9af8ae5d2ad0e8e34e64e
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -16,23 +16,23 @@ Le _référencement naturel_ (SEO) consiste à affiner le contenu et la présent
 
 >[!TIP]
 >
->Pour Adobe Commerce as a Cloud Service, consultez les [directives SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=fr) de la documentation du Storefront Commerce
+>Pour Adobe Commerce as a Cloud Service, consultez les [directives SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) de la documentation du Storefront Commerce
 
 ## Métadonnées
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 Découvrez comment ajouter et améliorer des [métadonnées](meta-data.md) riches en mots-clés pour votre site et votre boutique.
 
 ## Utilisation d’un plan de site
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 Un [plan de site](sitemap-xml.md) améliore la façon dont votre boutique est indexée par les moteurs de recherche et est conçu pour trouver les pages qui pourraient être ignorées par les robots d’exploration web. Un plan de site peut être configuré pour indexer toutes les pages et images.
 
 ## Réécritures d’URL
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 L’outil [Réécriture d’URL](url-rewrite.md) vous permet de modifier toute URL associée à un produit, une catégorie ou une page CMS.
 
@@ -90,8 +90,8 @@ Par défaut, le fichier robots.txt généré par Commerce contient des instructi
      |------|------------|
      | `INDEX, FOLLOW` | Indique aux robots d’exploration Web d’indexer le site et de vérifier ultérieurement les modifications. |
      | `NOINDEX, FOLLOW` | Indique aux robots d’exploration Web d’éviter d’indexer le site, mais de revenir ultérieurement pour prendre connaissance des modifications. |
-     | `INDEX, NOFOLLOW` | Indique aux robots d’indexation web d’indexer le site une fois, mais de ne pas revenir ultérieurement pour connaître les modifications. |
-     | `NOINDEX, NOFOLLOW` | Indique aux robots d’exploration Web d’éviter d’indexer le site et de ne pas revenir ultérieurement pour connaître les modifications. |
+     | `INDEX, NOFOLLOW` | Indique aux robots d’indexation de répertorier le site une fois, mais de ne suivre aucun lien sur la page. |
+     | `NOINDEX, NOFOLLOW` | Indique aux robots d’exploration web d’éviter d’indexer le site et de ne pas suivre les liens de la page. |
 
      {style="table-layout:auto"}
 
