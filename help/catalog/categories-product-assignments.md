@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Affectations de produits de catégorie
 
-Pour une catégorie, utilisez la section _[!UICONTROL Products in Category]_pour passer en revue les produits actuellement affectés à la catégorie. Les filtres de recherche en haut de chaque colonne sont utilisés pour ajouter et supprimer des produits de la catégorie. Vous pouvez également utiliser des [règles de catégorie](../merchandising-promotions/category-product-rules.md) ( ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce uniquement) pour modifier de manière dynamique la sélection de produits lorsqu’un ensemble de conditions est rempli. Pour en savoir plus, voir [Marchandiseur visuel](../merchandising-promotions/visual-merchandiser.md)).
+Pour une catégorie, utilisez la section _[!UICONTROL Products in Category]_&#x200B;pour passer en revue les produits actuellement affectés à la catégorie. Les filtres de recherche en haut de chaque colonne sont utilisés pour ajouter et supprimer des produits de la catégorie. Vous pouvez également utiliser des [règles de catégorie](../merchandising-promotions/category-product-rules.md) ( ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce uniquement) pour modifier de manière dynamique la sélection de produits lorsqu’un ensemble de conditions est rempli. Pour en savoir plus, voir [Marchandiseur visuel](../merchandising-promotions/visual-merchandiser.md)).
 
 >[!TIP]
 >
@@ -26,7 +26,7 @@ Pour une catégorie, utilisez la section _[!UICONTROL Products in Category]_pour
 
 >[!NOTE]
 >
->La colonne _Stock_ affiche la quantité de produits disponible pour _**portée de catégorie sélectionnée**_ uniquement. Lorsque plusieurs stocks sont gérés pour des produits, vous devez basculer entre les portées correspondantes pour afficher d’autres valeurs de colonne _Stock_ dans la grille _Produits de catégorie_.
+>La colonne _Stock_ affiche la quantité de produits disponible pour _&#x200B;**portée de catégorie sélectionnée**&#x200B;_ uniquement. Lorsque plusieurs stocks sont gérés pour des produits, vous devez basculer entre les portées correspondantes pour afficher d’autres valeurs de colonne _Stock_ dans la grille _Produits de catégorie_.
 
 ## Application d’une règle de catégorie
 
@@ -80,7 +80,7 @@ Pour une catégorie, utilisez la section _[!UICONTROL Products in Category]_pour
 
 | Option | Description |
 |--- |--- |
-| [!UICONTROL Attribute] | Détermine l’attribut utilisé comme base de la condition. Options : <br/>**[!UICONTROL Clone Category ID(s)]**- clone dynamiquement les produits, sans leur tri ni leur ordre, à partir de plusieurs catégories en fonction de l’ID de catégorie.<br/>**[!UICONTROL Color]** - Inclut des produits en fonction de la couleur. <br/>**[!UICONTROL Date Created (days ago)]**- Inclut les produits en fonction du nombre de jours écoulés depuis leur ajout au catalogue.<br/>**[!UICONTROL Date Modified (days ago)]** - Inclut les produits en fonction du nombre de jours écoulés depuis la dernière modification des produits. <br/>**[!UICONTROL Name]**- Inclut les produits en fonction du nom du produit.<br/>**[!UICONTROL Price]** - Inclut les produits en fonction du prix. <br/>**[!UICONTROL Quantity]**- Inclut les produits en fonction de la quantité en stock.<br/>** SKU **- Inclut les produits basés sur SKU. |
+| [!UICONTROL Attribute] | Détermine l’attribut utilisé comme base de la condition. Options : <br/>**[!UICONTROL Clone Category ID(s)]**- clone dynamiquement les produits, sans leur tri ni leur ordre, à partir de plusieurs catégories en fonction de l’ID de catégorie.<br/>**[!UICONTROL Color]** - Inclut des produits en fonction de la couleur. <br/>**[!UICONTROL Date Created (days ago)]**- Inclut les produits en fonction du nombre de jours écoulés depuis leur ajout au catalogue.<br/>**[!UICONTROL Date Modified (days ago)]** - Inclut les produits en fonction du nombre de jours écoulés depuis la dernière modification des produits. <br/>**[!UICONTROL Name]**- Inclut les produits en fonction du nom du produit.<br/>**[!UICONTROL Price]** - Inclut les produits en fonction du prix. <br/>**[!UICONTROL Quantity]**- Inclut les produits en fonction de la quantité en stock.<br/>**&#x200B; SKU &#x200B;**- Inclut les produits basés sur SKU. |
 | [!UICONTROL Operator] | Spécifie l&#39;opérateur appliqué à la valeur d&#39;attribut pour remplir la condition. Sauf si un opérateur est spécifié, `Equal` est utilisé par défaut. Options : `Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains` |
 | [!UICONTROL Value] | Indique la valeur que l’attribut doit avoir pour remplir la condition. |
 | [!UICONTROL Logic] | Utilisé pour définir plusieurs conditions, et s’affiche uniquement lorsqu’une autre condition est ajoutée. Options : `OR` / `AND` |
