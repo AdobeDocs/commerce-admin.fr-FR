@@ -150,9 +150,9 @@ Les étapes suivantes indiquent comment ajouter des configurations pour plusieur
 
 ### Étape 6 : sélection des attributs de variation
 
-1. Faites défiler jusqu’à la section _[!UICONTROL Configurations]_et cliquez sur **[!UICONTROL Create Configurations]**.
+1. Faites défiler jusqu’à la section _[!UICONTROL Configurations]_&#x200B;et cliquez sur **[!UICONTROL Create Configurations]**.
 
-   ![Configurations ](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
+   ![Configurations &#x200B;](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
 1. Cochez la case de chaque attribut à inclure en tant que variation.
 
@@ -254,7 +254,7 @@ _Marchands Source uniques :_
 
 Saisissez le **[!UICONTROL Quantity]**.
 
-_Marchands Multi Source utilisant [Inventory management ](../inventory-management/introduction.md):_
+_Marchands Multi Source utilisant [Inventory management &#x200B;](../inventory-management/introduction.md):_
 
 Affectez des sources et ajoutez des quantités pour toutes les variantes de produit générées :
 
@@ -274,7 +274,7 @@ _Marchands Source uniques :_
 
 Saisissez le **[!UICONTROL Quantity]** de chaque valeur d’attribut.
 
-_Marchands Multi Source utilisant [Inventory management ](../inventory-management/introduction.md):_
+_Marchands Multi Source utilisant [Inventory management &#x200B;](../inventory-management/introduction.md):_
 
 Affectez des sources et ajoutez des quantités pour toutes les variantes de produit générées :
 
@@ -306,7 +306,7 @@ Les variations actuelles du produit s’affichent au bas de la section _Configur
 
 1. Cliquez sur la mosaïque _Appareil photo_ et accédez à l’image principale à utiliser pour le produit configurable.
 
-Pour plus d’informations, voir [ Images et vidéo ](product-images-and-video.md).
+Pour plus d’informations, voir [&#x200B; Images et vidéo &#x200B;](product-images-and-video.md).
 
 ### Étape 11 : Compléter les informations sur le produit
 
