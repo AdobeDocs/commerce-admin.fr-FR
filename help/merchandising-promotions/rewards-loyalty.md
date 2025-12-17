@@ -3,9 +3,9 @@ title: Programmes de récompense et de fidélité
 description: Découvrez le système de points de récompense que vous pouvez utiliser pour stimuler l’engagement des clients et promouvoir la fidélisation de la clientèle.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: 7a505b1dc953286aa9879e77bd322d9681513096
+source-git-commit: b0e9087016f7a6ce682e84feb931f7ad870e6420
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Le système _points de récompense_ d’Adobe Commerce vous permet de mettre en 
 
 ## Règles de prix des paniers
 
-Les points peuvent être récompensés aux clients selon une [&#x200B; règle de panier d’achat &#x200B;](price-rules-cart.md). Ils peuvent être récompensés comme la seule action de la règle de prix, ou avec une remise.
+Les points peuvent être récompensés aux clients selon une [ règle de panier d’achat ](price-rules-cart.md). Ils peuvent être récompensés comme la seule action de la règle de prix, ou avec une remise.
 
 ## Solde client
 
@@ -31,6 +31,10 @@ Les soldes des points de récompense peuvent être gérés par les utilisateurs 
 >La configuration [Taux de change de récompense](reward-exchange-rates.md) est requise pour l’échange de points de récompense par les clients et les utilisateurs administrateurs lors du passage en caisse.
 
 Les points peuvent être échangés par les utilisateurs administrateurs et les clients (si activé) lors du passage en caisse. Dans la section Mode de paiement, une case à cocher Utiliser mes points de récompense apparaît au-dessus des modes de paiement activés. Les points disponibles et le taux de change monétaire sont inclus. Si le solde disponible est supérieur au total général de la commande, aucun mode de paiement supplémentaire n&#39;est nécessaire. Le nombre de points de récompense appliqués à la commande s’affiche avec les totaux des commandes, soustraits du total général, comme pour les cartes de crédit ou les cartes-cadeaux du magasin. Si des points de récompense sont utilisés avec un crédit de magasin ou une carte cadeau, les points de récompense sont déduits en premier. La carte de crédit ou cadeau de la boutique est ensuite déduite si le total de la commande est supérieur au nombre de points de récompense échangeables.
+
+>[!NOTE]
+>
+>Les points de récompense et le crédit de magasin ne réduisent pas la base imposable de la commande. La taxe est calculée sur le sous-total avant l&#39;application de ces remises. Les points ou le crédit ne réduisent que le montant final que le client paie.
 
 >[!NOTE]
 >
@@ -164,7 +168,7 @@ Le solde des points de récompense peut être mis à jour à partir de l’admin
 
 1. Cliquez sur **[!UICONTROL Save Customer]**.
 
-Toutes les actions liées aux points de récompense sont affichées dans le bloc de _[!UICONTROL Reward Points History]_&#x200B;du client dans son compte sur le storefront.
+Toutes les actions liées aux points de récompense sont affichées dans le bloc de _[!UICONTROL Reward Points History]_du client dans son compte sur le storefront.
 
 ## Descriptions des champs
 
