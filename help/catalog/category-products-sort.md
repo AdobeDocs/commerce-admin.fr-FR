@@ -16,7 +16,7 @@ ht-degree: 0%
 
 La position des produits dans une catégorie peut être spécifiée manuellement en faisant glisser et en déposant les produits en position ou en appliquant un ordre de tri prédéfini. Par défaut, les produits peuvent être triés par niveau de stock, âge, couleur, nom, SKU et prix. Le tri automatique remplace l’ordre de tri actuel et réinitialise toutes les positions de glisser-déposer définies manuellement. L’ordre de tri des couleurs et le niveau de stock minimal qui peut être requis pour que les produits soient inclus dans la liste sont définis dans la configuration [Marchandiseur visuel](../configuration-reference/catalog/visual-merchandiser.md).
 
-Vous pouvez configurer les options de catégorie séparément pour chaque [vue de magasin](../stores-purchase/stores.md#add-stores) afin de déterminer la sélection des produits, leur position relative dans la liste et les attributs disponibles pour les règles de catégorie. Cependant, il existe un seul ordre de tri **_global_** et la position des produits dans le catalogue, et ils sont partagés dans toutes les [ vues de magasin](../stores-purchase/store-views.md), tous les magasins et tous les sites web.
+Vous pouvez configurer les options de catégorie séparément pour chaque [vue de magasin](../stores-purchase/stores.md#add-stores) afin de déterminer la sélection des produits, leur position relative dans la liste et les attributs disponibles pour les règles de catégorie. Cependant, il existe un seul ordre de tri **_global_** et la position des produits dans le catalogue, et ils sont partagés dans toutes les [&#x200B; vues de magasin](../stores-purchase/store-views.md), tous les magasins et tous les sites web.
 
 ## Étape 1 : définir la portée de la configuration
 
@@ -24,7 +24,7 @@ Vous pouvez configurer les options de catégorie séparément pour chaque [vue d
 
 1. Si nécessaire, choisissez l’**[!UICONTROL Store View]** où les paramètres s’appliquent.
 
-   Pour une installation multi-magasin, le paramètre _[!UICONTROL Store View]_applique l’ordre de tri à toutes les vues disponibles dans le magasin.
+   Pour une installation multi-magasin, le paramètre _[!UICONTROL Store View]_&#x200B;applique l’ordre de tri à toutes les vues disponibles dans le magasin.
 
 1. Dans l’arborescence de catégorie à gauche, choisissez la catégorie à modifier.
 
@@ -34,7 +34,7 @@ Vous pouvez configurer les options de catégorie séparément pour chaque [vue d
 
 >[!NOTE]
 >
->Lors du tri d’une catégorie par attribut de produit, les produits ayant les mêmes valeurs d’attribut sont également triés en fonction de leur _[!UICONTROL Product ID]_dans l’ordre croissant.
+>Lors du tri d’une catégorie par attribut de produit, les produits ayant les mêmes valeurs d’attribut sont également triés en fonction de leur _[!UICONTROL Product ID]_&#x200B;dans l’ordre croissant.
 
 Dans la section _[!UICONTROL Products in Category]_, cliquez sur l’icône en forme de mosaïque ( ![Afficher les mosaïques](../assets/icon-view-tiles.png) ) pour afficher les mosaïques de produit dans une grille. Utilisez la méthode manuelle ou automatique pour trier les produits.
 
