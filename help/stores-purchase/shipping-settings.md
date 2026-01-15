@@ -1,30 +1,30 @@
 ---
-title: Paramètres d'expédition
-description: Découvrez comment configurer les paramètres d’expédition qui définissent le point d’origine et la politique d’expédition de votre magasin.
+title: Paramètres d’expédition
+description: Découvrez comment configurer les paramètres d’expédition qui définissent le point d’origine et la politique d’expédition de votre boutique.
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
 
-# Paramètres d&#39;expédition
+# Paramètres d’expédition
 
-La configuration de l’expédition établit le point d’origine de tous les envois, votre politique d’expédition et le traitement des envois à plusieurs adresses.
+La configuration d&#39;expédition établit le point d&#39;origine de toutes les expéditions, votre politique d&#39;expédition et la gestion des expéditions à plusieurs adresses.
 
 ## Point d’origine
 
-Le point d’origine sert à calculer les frais pour les envois effectués à partir de votre magasin ou de votre entrepôt, ainsi qu’à déterminer le taux de taxe pour les produits vendus. Lors du calcul des [taxes européennes](international-tax-guidelines.md#eu-tax-configuration), assurez-vous que le [calcul de destination fiscale par défaut](../configuration-reference/sales/tax.md) pour chaque vue de magasin correspond au point d’origine Paramètres d’expédition.
+Le point d’origine est utilisé pour calculer les frais pour les expéditions effectuées à partir de votre magasin ou entrepôt et détermine également le taux de taxe pour les produits vendus. Lors du calcul de [taxes UE](international-tax-guidelines.md#eu-tax-configuration), assurez-vous que le [Calcul de la destination de la taxe par défaut](../configuration-reference/sales/tax.md) pour chaque vue de magasin correspond au point d’origine des paramètres d’expédition.
 
-![Origin](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
+![Origine](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Shipping Settings]**.
 
-1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) et complétez les éléments suivants :**[!UICONTROL Origin]**
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Origin]** et effectuez les opérations suivantes :
 
    - [!UICONTROL Country]
    - [!UICONTROL Region / State]
@@ -36,41 +36,41 @@ Le point d’origine sert à calculer les frais pour les envois effectués à pa
 
 ## Politique d&#39;expédition
 
-Une politique d’expédition doit expliquer les règles commerciales et les directives de votre société concernant les envois. Par exemple, si des règles de prix entraînent la livraison gratuite, vous pouvez expliquer les conditions de votre politique de livraison.
+Une politique d&#39;expédition doit expliquer les règles commerciales et les directives de votre entreprise en matière d&#39;expédition. Par exemple, si vous avez des règles de prix qui déclenchent la livraison gratuite, vous pouvez expliquer les termes dans votre politique de livraison.
 
-![Règles d’expédition lors du passage en caisse](./assets/storefront-checkout-shipping-policy.png){width="700" zoomable="yes"}
+![Politique D&#39;Expédition Lors Du Passage En Caisse](./assets/storefront-checkout-shipping-policy.png){width="700" zoomable="yes"}
 
-Pour afficher votre politique de livraison lors du passage en caisse, renseignez les Paramètres de la politique de livraison dans la configuration. Le texte s’affiche lorsque les clients cliquent sur _Voir notre politique d’expédition_ lors du passage en caisse.
+Pour afficher votre politique d&#39;expédition lors du passage en caisse, complétez les paramètres de la politique d&#39;expédition dans la configuration. Le texte s’affiche lorsque les clients cliquent sur _Voir notre politique d’expédition_ lors du passage en caisse.
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Shipping Settings]**.
 
-1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Shipping Policy Parameters]** .
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Shipping Policy Parameters]** .
 
 1. Définissez **[!UICONTROL Apply Custom Shipping Policy]** sur `Yes`.
 
-1. Collez ou entrez votre **[!UICONTROL Shipping Policy]** dans la zone de texte.
+1. Collez ou saisissez votre **[!UICONTROL Shipping Policy]** dans la zone de texte.
 
    >[!NOTE]
    >
-   >Si vous utilisez un traitement de texte pour composer le texte, veillez à enregistrer le document sous la forme d’un fichier .txt afin de supprimer les caractères de contrôle du texte. Ensuite, copiez et collez le texte dans la zone de texte Politique de livraison .
+   >Si vous utilisez un traitement de texte pour composer le texte, veillez à enregistrer le document en tant que fichier .txt pour supprimer tous les caractères de contrôle du texte. Copiez et collez ensuite le texte dans la zone de texte Politique d&#39;expédition.
 
-   ![Paramètres de politique de livraison](../configuration-reference/sales/assets/shipping-settings-shipping-policy-parameters.png){width="600" zoomable="yes"}
+   ![Paramètres de la stratégie d&#39;expédition](../configuration-reference/sales/assets/shipping-settings-shipping-policy-parameters.png){width="600" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Save Config]**.
 
-## Plusieurs adresses
+## Adresses multiples
 
-Les options d’expédition multi-adresses permettent aux clients d’envoyer une commande à plusieurs adresses lors de l’extraction et de déterminer le nombre maximal d’adresses auxquelles une commande peut être expédiée.
+Les options d’expédition à adresses multiples permettent aux clients d’envoyer une commande à plusieurs adresses au cours du passage en caisse et de déterminer le nombre maximal d’adresses vers lesquelles une commande peut être envoyée.
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Multishipping Settings]**.
 
-1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Options]** .
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Options]** .
 
-   ![Options d’expédition multi-adresses](../configuration-reference/sales/assets/multishipping-settings-options.png){width="600" zoomable="yes"}
+   ![Options d’expédition à adresses multiples](../configuration-reference/sales/assets/multishipping-settings-options.png){width="600" zoomable="yes"}
 
 1. Définissez **[!UICONTROL Allow Shipping to Multiple Addresses]** sur `Yes`.
 
@@ -80,4 +80,37 @@ Les options d’expédition multi-adresses permettent aux clients d’envoyer un
 
 >[!NOTE]
 >
->![&#x200B; Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B) Pour les commandes avec plusieurs adresses de livraison, le mode de paiement [&#x200B; Paiement sur compte](../b2b/enable-basic-features.md#configure-payment-on-account), même s’il est activé, n’est pas disponible pendant le passage en caisse.
+>![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B) Pour les commandes avec plusieurs adresses d’expédition, le mode de paiement [Paiement en compte](../b2b/enable-basic-features.md#configure-payment-on-account), même s’il est activé, n’est pas disponible lors du passage en caisse.
+
+## URL de tracking des expéditions par e-mail
+
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
+
+[!BADGE  Sandbox ]{type=Caution tooltip="Les éléments répertoriés ne sont actuellement disponibles que dans les environnements Sandbox. Adobe commence par rendre les nouvelles versions disponibles dans les environnements Sandbox afin que vous disposiez du temps nécessaire pour tester les modifications à venir avant que la version ne soit disponible dans les environnements de production."}
+
+Par défaut, les numéros de suivi des expéditions envoyés dans les e-mails des acheteurs sont en texte brut. Vous pouvez convertir ces numéros de suivi en liens cliquables en activant la fonctionnalité d’URL de suivi personnalisée. Cette fonctionnalité permet de définir un modèle pour le suivi des URL de différents transporteurs. Chaque modèle comprend l’URL complète du site web de suivi et un espace réservé pour le numéro de suivi. Commerce remplace l’espace réservé par le numéro de suivi réel dans l’e-mail.
+
+Les transporteurs suivants sont pris en charge :
+
+- Service postal des États-Unis (USPS)
+- United Parcel Service (UPS)
+- Federal Express (FedEx)
+- DHL Express (DHL)
+
+Pour activer ou modifier les URL de tracking personnalisées :
+
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+
+1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Shipping Settings]**.
+
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Shipment Tracking URLs]** .
+
+1. Définissez **[!UICONTROL Enable Custom Tracking URLs]** sur `Yes`.
+
+1. Des modèles d’URL par défaut sont fournis pour chaque opérateur pris en charge. Si vous devez modifier l’une de ces valeurs, saisissez un nouveau modèle d’URL dans le champ correspondant. Utilisez `{{tracking_number}}` comme espace réservé pour le numéro de suivi réel. Si, par exemple, UPS modifie son URL en `https://www.ups.com/newtracker?tracknumber`, le nouveau modèle d’URL de tracking peut ressembler à ceci :
+
+   ```text
+   https://www.ups.com/newtracker?tracknumber={{tracking_number}}
+   ```
+
+1. Cliquez sur **[!UICONTROL Save Config]**.
