@@ -65,7 +65,7 @@ Le tableau suivant montre la compatibilité entre les versions d’Adobe Commerc
 >[!BEGINSHADEBOX]
 
 - Adobe a configuré votre compte Adobe Commerce pour accéder à l’extension conforme à la loi HIPAA.
-- Accédez à [repo.magento.com](https://repo.magento.com) pour installer l’extension. Pour la génération des clés et l’obtention des droits nécessaires, voir [ Obtenir vos clés d’authentification ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
+- Accédez à [repo.magento.com](https://repo.magento.com) pour installer l’extension. Pour la génération des clés et l’obtention des droits nécessaires, voir [&#x200B; Obtenir vos clés d’authentification &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
 
 >[!ENDSHADEBOX]
 
@@ -280,11 +280,11 @@ Le tableau suivant répertorie les services Adobe Commerce disponibles pour l’
 | Service | Hors production | Production |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | Oui | Oui |
-| [ Maillage API pour Adobe Developer App Builder ](https://developer.adobe.com/graphql-mesh-gateway/) | Oui | Oui |
+| [&#x200B; Maillage API pour Adobe Developer App Builder &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/) | Oui | Oui |
 | [Exportation de données SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | Oui | Oui |
 | [Recherche en direct](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | Non | Non |
 | [Recommandations de produits](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | Non | Non |
-| [ Services de paiement ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | Non | Non |
+| [&#x200B; Services de paiement &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | Non | Non |
 | [Événements Back Office De Connexion Aux Données](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | Oui | Oui |
 | [Événements de storefront de connexion de données](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Non | Non |
 | [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | Non | Non |
