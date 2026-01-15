@@ -56,7 +56,7 @@ Les prix dans le storefront ont la priorité de la quantité la plus élevée à
 
      >[!NOTE]
      >
-     >Pour obtenir le prix réduit, le pourcentage défini est calculé par rapport à la valeur définie dans le champ _[!UICONTROL Price]_, et non dans le champ_[!UICONTROL Special Price]_ .
+     >Pour obtenir le prix réduit, le pourcentage défini est calculé par rapport à la valeur définie dans le champ _[!UICONTROL Price]_, et non dans le champ&#x200B;_[!UICONTROL Special Price]_ .
 
      ![Prix de niveau en pourcentage](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
@@ -78,7 +78,7 @@ Les prix dans le storefront ont la priorité de la quantité la plus élevée à
 
 [!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
 
-[!BADGE  Sandbox ]{type=Caution tooltip="Les éléments répertoriés ne sont actuellement disponibles que dans les environnements Sandbox. Adobe commence par rendre les nouvelles versions disponibles dans les environnements Sandbox afin que vous disposiez du temps nécessaire pour tester les modifications à venir avant que la version ne soit disponible dans les environnements de production."}
+[!BADGE &#x200B; Sandbox &#x200B;]{type=Caution tooltip="Les éléments répertoriés ne sont actuellement disponibles que dans les environnements Sandbox. Adobe commence par rendre les nouvelles versions disponibles dans les environnements Sandbox afin que vous disposiez du temps nécessaire pour tester les modifications à venir avant que la version ne soit disponible dans les environnements de production."}
 
 Dans les versions précédentes de Commerce, la tarification de niveau ne pouvait pas être utilisée conjointement avec les règles de prix de catalogue. Les règles de catalogue ont ignoré la configuration du prix de niveau et ont calculé les remises uniquement à partir du prix de base d’origine. Avec Adobe Commerce as a Cloud Service, vous pouvez désormais choisir d’inclure la tarification de niveau dans le calcul des règles de prix de catalogue.
 
