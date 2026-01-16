@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Google reCAPTCHA Enterprise
 
-[!BADGE  Sandbox ]{type=Caution tooltip="Les éléments répertoriés sont actuellement disponibles uniquement dans les environnements Sandbox. Adobe publie d’abord les mises à jour de Sandbox afin que vous puissiez tester les modifications à venir avant qu’elles ne soient déployées en production."}
+[!BADGE &#x200B; Sandbox &#x200B;]{type=Caution tooltip="Les éléments répertoriés sont actuellement disponibles uniquement dans les environnements Sandbox. Adobe publie d’abord les mises à jour de Sandbox afin que vous puissiez tester les modifications à venir avant qu’elles ne soient déployées en production."}
 
 [Google reCAPTCHA Enterprise](https://cloud.google.com/security/products/recaptcha#protect-against-fraud-and-abuse-with-modern-bot-protection-and-fraud-prevention-platform) fournit une protection avancée des robots pour votre storefront Adobe Commerce as a Cloud Service en utilisant l&#39;analyse de risque adaptative et le machine learning pour différencier les utilisateurs humains des robots. Cela permet d’empêcher les activités frauduleuses, le spam et les abus sur votre site.
 
