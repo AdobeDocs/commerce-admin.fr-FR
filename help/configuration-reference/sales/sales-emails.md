@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Invoice]
 
-![ Facture ](./assets/sales-emails-invoice.png)<!-- zoom -->
+![&#x200B; Facture &#x200B;](./assets/sales-emails-invoice.png)<!-- zoom -->
 
 <!-- [Invoice](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices) -->
 
@@ -227,15 +227,15 @@ Cette option nécessite l&#39;activation de [Inventory management](../../invento
 
 {{ee-feature}}
 
-![RMA ](./assets/sales-emails-rma.png)<!-- zoom -->
+![RMA &#x200B;](./assets/sales-emails-rma.png)<!-- zoom -->
 
 <!-- [RMA](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Affichage de la boutique | Active la notification par e-mail pour chaque RMA généré. Options : `Yes` / `No` |
-| [!UICONTROL RMA Email Sender] | Affichage de la boutique | Identifie le [ contact du magasin ](../../getting-started/store-details.md#store-email-addresses) qui apparaît comme l’expéditeur du message. Valeur par défaut : `Sales Representative` |
-| [!UICONTROL RMA Email Template] | Affichage de la boutique | Détermine le [ modèle d&#39;e-mail ](../../systems/email-templates.md) utilisé pour la notification envoyée lorsqu&#39;une autorisation de retour client est générée pour un client. Modèle par défaut : `New RMA` |
+| [!UICONTROL RMA Email Sender] | Affichage de la boutique | Identifie le [&#x200B; contact du magasin &#x200B;](../../getting-started/store-details.md#store-email-addresses) qui apparaît comme l’expéditeur du message. Valeur par défaut : `Sales Representative` |
+| [!UICONTROL RMA Email Template] | Affichage de la boutique | Détermine le [&#x200B; modèle d&#39;e-mail &#x200B;](../../systems/email-templates.md) utilisé pour la notification envoyée lorsqu&#39;une autorisation de retour client est générée pour un client. Modèle par défaut : `New RMA` |
 | [!UICONTROL RMA Email Template for Guest] | Affichage de la boutique | Détermine le modèle envoyé lorsqu&#39;une autorisation de retour client est générée pour un invité. Modèle par défaut : `New RMA for Guest` |
 | [!UICONTROL Send RMA Email Copy To] | Affichage de la boutique | Fournit l&#39;adresse e-mail de toute personne qui devrait recevoir une copie d&#39;un e-mail RMA. Séparez les adresses multiples par une virgule. |
 | [!UICONTROL Send RMA  Email Copy Method] | Affichage de la boutique | Indique la méthode e-mail utilisée pour envoyer la copie. Les options incluent : <br/>**`Bcc`**- envoie une copie de courtoisie invisible en incluant le destinataire dans l’en-tête du même e-mail envoyé au client ou à la cliente. Le destinataire en Cci n’est pas visible pour le client.<br/>**`Separate Email`** - Envoie la copie sous forme d’e-mail distinct. |
@@ -246,14 +246,14 @@ Cette option nécessite l&#39;activation de [Inventory management](../../invento
 
 {{ee-feature}}
 
-![ Autorisation RMA ](./assets/sales-emails-rma-auth.png)<!-- zoom -->
+![&#x200B; Autorisation RMA &#x200B;](./assets/sales-emails-rma-auth.png)<!-- zoom -->
 
 <!-- [RMA Authorization](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/rma-configure) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Affichage de la boutique | Lorsque cette option est activée, envoie une notification par e-mail pour chaque autorisation RMA. Options : `Yes` / `No` |
-| [!UICONTROL RMA Authorization Email Sender] | Affichage de la boutique | Identifie le [ contact du magasin ](../../getting-started/store-details.md#store-email-addresses) qui apparaît comme l’expéditeur du message. Valeur par défaut : `Sales Representative` |
+| [!UICONTROL RMA Authorization Email Sender] | Affichage de la boutique | Identifie le [&#x200B; contact du magasin &#x200B;](../../getting-started/store-details.md#store-email-addresses) qui apparaît comme l’expéditeur du message. Valeur par défaut : `Sales Representative` |
 | [!UICONTROL RMA Authorization Email Template] | Affichage de la boutique | Détermine le [modèle d&#39;e-mail](../../systems/email-templates.md) utilisé lorsqu&#39;une notification d&#39;autorisation RMA est envoyée. Modèle par défaut : `RMA Authorization` |
 | [!UICONTROL RMA Authorization Email Template for Guest] | Affichage de la boutique | Détermine le modèle utilisé lorsqu&#39;une notification d&#39;autorisation RMA est envoyée à un invité. Modèle par défaut : `RMA Authorization for Guest` |
 | [!UICONTROL Send RMA Authorization Email Copy To] | Affichage de la boutique | Fournit l&#39;adresse e-mail de toute personne souhaitant recevoir une copie d&#39;un e-mail d&#39;autorisation RMA. Séparez les adresses multiples par une virgule. |
@@ -270,7 +270,7 @@ Cette option nécessite l&#39;activation de [Inventory management](../../invento
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Affichage de la boutique | Lorsqu&#39;elle est activée, envoie une notification électronique pour chaque commentaire d&#39;administrateur RMA. Options : `Yes` / `No` |
-| [!UICONTROL RMA Comment Email Sender] | Affichage de la boutique | Identifie le [ contact du magasin ](../../getting-started/store-details.md#store-email-addresses) qui apparaît comme l’expéditeur du message. Valeur par défaut : `Sales Representative` |
+| [!UICONTROL RMA Comment Email Sender] | Affichage de la boutique | Identifie le [&#x200B; contact du magasin &#x200B;](../../getting-started/store-details.md#store-email-addresses) qui apparaît comme l’expéditeur du message. Valeur par défaut : `Sales Representative` |
 | [!UICONTROL RMA Comment Email Template] | Affichage de la boutique | Détermine le [modèle d&#39;e-mail](../../systems/email-templates.md) utilisé lorsqu&#39;un administrateur ajoute un commentaire à une RMA pour un client. Modèle par défaut : `RMA Admin Comments` |
 | [!UICONTROL RMA Comment Email Template for Guest] | Affichage de la boutique | Détermine le modèle utilisé lorsqu’un administrateur ajoute un commentaire à une RMA pour un invité. Modèle par défaut : `RMA Admin Comments for Guest` |
 | [!UICONTROL Send RMA Comment Email Copy To] | Affichage de la boutique | Fournit l’adresse e-mail de toute personne souhaitant recevoir une copie de la notification. Séparez les adresses multiples par une virgule. |
@@ -289,7 +289,7 @@ Cette option nécessite l&#39;activation de [Inventory management](../../invento
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Affichage de la boutique | Lorsqu&#39;elle est activée, envoie une notification par e-mail pour chaque commentaire client RMA. Options : `Yes` / `No` |
-| [!UICONTROL RMA Comment Email Sender] | Affichage de la boutique | Identifie le [ contact du magasin ](../../getting-started/store-details.md#store-email-addresses) qui apparaît comme l’expéditeur du message. Valeur par défaut : `Customer Support` |
+| [!UICONTROL RMA Comment Email Sender] | Affichage de la boutique | Identifie le [&#x200B; contact du magasin &#x200B;](../../getting-started/store-details.md#store-email-addresses) qui apparaît comme l’expéditeur du message. Valeur par défaut : `Customer Support` |
 | [!UICONTROL RMA Comment Email Recipient] | Affichage de la boutique | Identifie le contact du magasin qui est le destinataire de l’e-mail de commentaire client. Valeur par défaut : `Sales Representative` |
 | [!UICONTROL RMA Comment Email Template] | Affichage de la boutique | Détermine le [modèle d&#39;e-mail](../../systems/email-templates.md) utilisé lorsqu&#39;un client ajoute un commentaire à une RMA. Modèle par défaut : `RMA Admin Comments` |
 | [!UICONTROL Send RMA Comment Email Copy To] | Affichage de la boutique | Fournit l’adresse e-mail de toute personne souhaitant recevoir une copie de la notification. Séparez les adresses multiples par une virgule. |
