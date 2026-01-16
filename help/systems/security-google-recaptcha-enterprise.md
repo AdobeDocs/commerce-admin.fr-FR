@@ -3,14 +3,17 @@ title: Google reCAPTCHA Enterprise
 description: Découvrez comment configurer Google reCAPTCHA Enterprise pour protéger votre storefront Adobe Commerce as a Cloud Service des robots et des activités frauduleuses.
 role: Admin
 feature: Configuration, Security
-source-git-commit: 5181e6dcbffdca87dd6c376c36f7c9d0a3fbc015
+badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."
+source-git-commit: dde1d634a1c6c7435668a8ad6084b926cc0d6193
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
 
 # Google reCAPTCHA Enterprise
+
+[!BADGE  Sandbox ]{type=Caution tooltip="Les éléments répertoriés sont actuellement disponibles uniquement dans les environnements Sandbox. Adobe publie d’abord les mises à jour de Sandbox afin que vous puissiez tester les modifications à venir avant qu’elles ne soient déployées en production."}
 
 [Google reCAPTCHA Enterprise](https://cloud.google.com/security/products/recaptcha#protect-against-fraud-and-abuse-with-modern-bot-protection-and-fraud-prevention-platform) fournit une protection avancée des robots pour votre storefront Adobe Commerce as a Cloud Service en utilisant l&#39;analyse de risque adaptative et le machine learning pour différencier les utilisateurs humains des robots. Cela permet d’empêcher les activités frauduleuses, le spam et les abus sur votre site.
 
@@ -28,7 +31,7 @@ Google reCAPTCHA Enterprise offre les fonctionnalités suivantes :
 - **Analyse de la note de risque** : fournit des notes de risque détaillées (0,0 à 1,0) pour chaque interaction
 - **Seuils configurables** : définissez les scores de risque minimum acceptables par client
 - **Prise en charge multi-tenant** : configuration par client avec des projets Google Cloud isolés
-- **Informations d’identification chiffrées** : informations d’identification de compte de service stockées chiffrées dans la base de données
+- **Informations d’identification chiffrées** : informations d’identification de compte de service stockées chiffrées dans une base de données
 - **Protection des formulaires** : protège tous les formulaires Commerce standard, y compris la connexion, le passage en caisse, les révisions de produits, etc.
 
 ## Conditions préalables
@@ -60,13 +63,13 @@ Suivez ces étapes générales pour configurer Google reCAPTCHA Enterprise pour 
 
 1. Renseignez la section **[!UICONTROL reCAPTCHA Enterprise]** comme suit.
 
-   - Par **[!UICONTROL Site Key]**, copiez et collez votre clé de site reCAPTCHA Enterprise à partir de votre console Google Cloud.
+   - Par **[!UICONTROL Site Key]**, copiez et collez votre clé de site reCAPTCHA Enterprise à partir de votre console cloud Google.
 
    - Par **[!UICONTROL Google Cloud Project ID]**, copiez et collez l’ID de projet à partir de votre projet Google Cloud.
 
    - Par **[!UICONTROL Service Account JSON]**, copiez le contenu du fichier de clé JSON du compte de service que vous avez téléchargé à l’[Étape 1 : configurer Google reCAPTCHA Enterprise](#step-1-set-up-google-recaptcha-enterprise).
 
-   - Par **[!UICONTROL Minimum Score Threshold]**, saisissez le score minimum (0,0 à 1,0) pour identifier lorsqu’une interaction utilisateur est signalée comme risque potentiel ; où 1,0 est une interaction utilisateur type et 0,0 est probablement un robot.
+   - Par **[!UICONTROL Minimum Score Threshold]**, saisissez le score minimal (0,0 à 1,0) pour identifier lorsqu’une interaction utilisateur est signalée comme risque potentiel. Un score de 1,0 est une interaction utilisateur type, et 0,0 est probablement un robot.
 
    - Par **[!UICONTROL Badge Position]**, choisissez la position du badge reCAPTCHA invisible sur chaque page. Options : `Inline` / `Bottom Right` / `Bottom Left`.
 
