@@ -35,7 +35,7 @@ Chaque bloc est constitué d’une liste de produits appartenant à une option s
 >
 >![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) **Recommandations de produits optimisées par l’IA dédiée à Adobe** simplifie le processus de définition des relations de produit en utilisant l’intelligence artificielle et des algorithmes de machine learning pour effectuer une analyse approfondie des données agrégées du visiteur. Ces données, lorsqu’elles sont combinées à votre catalogue Adobe Commerce, génèrent des expériences très attrayantes, pertinentes et personnalisées pour l’acheteur.
 ><br/>
->Pour plus d’informations sur l’utilisation de cette extension développée par Adobe comme alternative aux recommandations de produits et aux ventes incitatives configurées manuellement, consultez le _[Guide de recommandations de produits &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_.
+>Pour plus d’informations sur l’utilisation de cette extension développée par Adobe comme alternative aux recommandations de produits et aux ventes incitatives configurées manuellement, consultez le _[Guide de recommandations de produits &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=fr)_.
 
 ## Produits connexes
 
