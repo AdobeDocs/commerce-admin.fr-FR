@@ -56,7 +56,7 @@ Les prix dans le storefront ont la priorité de la quantité la plus élevée à
 
      >[!NOTE]
      >
-     >Pour obtenir le prix réduit, le pourcentage défini est calculé par rapport à la valeur définie dans le champ _[!UICONTROL Price]_, et non dans le champ_[!UICONTROL Special Price]_ .
+     >Pour obtenir le prix réduit, le pourcentage défini est calculé par rapport à la valeur définie dans le champ _[!UICONTROL Price]_, et non dans le champ&#x200B;_[!UICONTROL Special Price]_ .
 
      ![Prix de niveau en pourcentage](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 

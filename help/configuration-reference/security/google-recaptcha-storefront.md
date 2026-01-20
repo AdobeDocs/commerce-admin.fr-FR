@@ -44,7 +44,7 @@ Pour plus d’informations sur l’utilisation de Google reCAPTCHA pour sécuris
 | [!UICONTROL Google API Secret Key] | Site internet | Clé secrète associée à votre compte Google reCAPTCHA. |
 | [!UICONTROL Invisible Badge Position] | Site internet | Position du badge reCAPTCHA invisible sur chaque page. Options : `Inline` / `Bottom Right` / `Bottom Left` |
 | [!UICONTROL Theme] | Global | Détermine le style de la zone reCAPTCHA Google. Options : `Light Theme` (par défaut) / `Dark Theme` |
-| [!UICONTROL Language Code] | Affichage de la boutique | Code [ à deux caractères](https://developers.google.com/recaptcha/docs/language) qui spécifie la langue utilisée pour le texte et la messagerie reCAPTCHA de Google. |
+| [!UICONTROL Language Code] | Affichage de la boutique | Code [&#x200B; à deux caractères](https://developers.google.com/recaptcha/docs/language) qui spécifie la langue utilisée pour le texte et la messagerie reCAPTCHA de Google. |
 
 {style="table-layout:auto"}
 
@@ -59,7 +59,7 @@ Pour plus d’informations sur l’utilisation de Google reCAPTCHA pour sécuris
 | [!UICONTROL Minimum Score Threshold] | Global | Score minimal qui identifie une interaction utilisateur comme un risque potentiel, où 1,0 est une interaction utilisateur type et 0,0 est probablement un robot. Valeur par défaut : `0.5` |
 | [!UICONTROL Invisible Badge Position] | Site internet | Position du badge reCAPTCHA invisible sur chaque page. Options : `Inline` / `Bottom Right` / `Bottom Left` |
 | [!UICONTROL Theme] | Site internet | Détermine le style de la zone reCAPTCHA Google. Options : `Light Theme` (par défaut) / `Dark Theme` |
-| [!UICONTROL Language Code] | Affichage de la boutique | Code [ à deux caractères](https://developers.google.com/recaptcha/docs/language) qui spécifie la langue utilisée pour le texte et la messagerie reCAPTCHA de Google. |
+| [!UICONTROL Language Code] | Affichage de la boutique | Code [&#x200B; à deux caractères](https://developers.google.com/recaptcha/docs/language) qui spécifie la langue utilisée pour le texte et la messagerie reCAPTCHA de Google. |
 
 {style="table-layout:auto"}
 
@@ -77,7 +77,7 @@ Pour plus d’informations sur l’utilisation de Google reCAPTCHA pour sécuris
 | [!UICONTROL Minimum Score Threshold] | Site internet | Score minimal qui identifie une interaction utilisateur comme un risque potentiel, où 1,0 est une interaction utilisateur type et 0,0 est probablement un robot. Valeur par défaut : `0.5` |
 | [!UICONTROL Badge Position] | Site internet | Position du badge reCAPTCHA invisible sur chaque page. Options : `Inline` / `Bottom Right` / `Bottom Left` |
 | [!UICONTROL Theme] | Site internet | Détermine le style de la zone reCAPTCHA Google. Options : `Light Theme` (par défaut) / `Dark Theme` |
-| [!UICONTROL Language Code] | Affichage de la boutique | Code [ à deux caractères](https://developers.google.com/recaptcha/docs/language) qui spécifie la langue utilisée pour le texte et la messagerie reCAPTCHA de Google. Laissez le champ vide pour utiliser la langue par défaut du navigateur de l’utilisateur. |
+| [!UICONTROL Language Code] | Affichage de la boutique | Code [&#x200B; à deux caractères](https://developers.google.com/recaptcha/docs/language) qui spécifie la langue utilisée pour le texte et la messagerie reCAPTCHA de Google. Laissez le champ vide pour utiliser la langue par défaut du navigateur de l’utilisateur. |
 | [!UICONTROL Validation Failure Message] | Affichage de la boutique | Message à afficher lorsque la validation échoue. |
 
 {style="table-layout:auto"}
