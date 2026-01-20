@@ -76,7 +76,7 @@ Les prix dans le storefront ont la priorité de la quantité la plus élevée à
 
 ## Activer la tarification de niveau pour les règles de prix de catalogue
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
 
 Dans les versions précédentes de Commerce, la tarification de niveau ne pouvait pas être utilisée conjointement avec les règles de prix de catalogue. Les règles de catalogue ont ignoré la configuration du prix de niveau et ont calculé les remises uniquement à partir du prix de base d’origine. Avec Adobe Commerce as a Cloud Service, vous pouvez désormais choisir d’inclure la tarification de niveau dans le calcul des règles de prix de catalogue.
 
