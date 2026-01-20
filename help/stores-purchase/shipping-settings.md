@@ -3,9 +3,9 @@ title: Paramètres d’expédition
 description: Découvrez comment configurer les paramètres d’expédition qui définissent le point d’origine et la politique d’expédition de votre boutique.
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
+source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,7 @@ Les options d’expédition à adresses multiples permettent aux clients d’env
 
 ## URL de tracking des expéditions par e-mail
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
-
-[!BADGE &#x200B; Sandbox &#x200B;]{type=Caution tooltip="Les éléments répertoriés ne sont actuellement disponibles que dans les environnements Sandbox. Adobe commence par rendre les nouvelles versions disponibles dans les environnements Sandbox afin que vous disposiez du temps nécessaire pour tester les modifications à venir avant que la version ne soit disponible dans les environnements de production."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
 
 Par défaut, les numéros de suivi des expéditions envoyés dans les e-mails des acheteurs sont en texte brut. Vous pouvez convertir ces numéros de suivi en liens cliquables en activant la fonctionnalité d’URL de suivi personnalisée. Cette fonctionnalité permet de définir un modèle pour le suivi des URL de différents transporteurs. Chaque modèle comprend l’URL complète du site web de suivi et un espace réservé pour le numéro de suivi. Commerce remplace l’espace réservé par le numéro de suivi réel dans l’e-mail.
 
