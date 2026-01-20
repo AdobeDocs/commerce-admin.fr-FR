@@ -3,7 +3,7 @@ title: Relations du produit
 description: Découvrez les types de relations de produit que vous pouvez utiliser pour promouvoir des produits auprès d’acheteurs ciblés.
 exl-id: 180352dc-65bf-4264-8287-9bf30f368ca1
 feature: Merchandising, Products
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 36c91007d21834b49351c8b53c617e442deebaa0
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
@@ -34,6 +34,6 @@ Les [produits de vente croisée](../catalog/related-products-up-sells-cross-sell
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) [Règles relatives aux produits associés](product-related-rules.md) vous permet de cibler la sélection de produits présentés aux clients sous la forme de produits associés, de ventes incitatives et de ventes croisées.
 
-## Recommandations de produits optimisées par Adobe Sensei
+## Recommandations de produits optimisées par l’IA dédiée à Adobe
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) [Recommandations de produits](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=fr) optimisé par Adobe Sensei simplifie le processus de définition des relations de produit en utilisant l’intelligence artificielle et des algorithmes de machine learning pour effectuer une analyse approfondie des données agrégées du visiteur. Ces données, lorsqu’elles sont combinées à votre catalogue Adobe Commerce, génèrent des expériences très attrayantes, pertinentes et personnalisées pour l’acheteur.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) [Recommandations de produits](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html) optimisé par l’IA dédiée à Adobe simplifie le processus de définition des relations de produit en utilisant l’intelligence artificielle et des algorithmes de machine learning pour effectuer une analyse approfondie des données agrégées du visiteur. Ces données, lorsqu’elles sont combinées à votre catalogue Adobe Commerce, génèrent des expériences très attrayantes, pertinentes et personnalisées pour l’acheteur.
