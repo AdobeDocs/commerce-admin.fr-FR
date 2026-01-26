@@ -3,7 +3,7 @@ title: Données Meta
 description: Découvrez comment saisir des métadonnées riches en mots-clés pour améliorer la manière dont les moteurs de recherche indexent votre site Commerce.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '703'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Pour Adobe Commerce as a Cloud Service, consultez les [&#x200B; directives relatives aux métadonnées &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/) dans la documentation de Commerce Storefront
+>Pour Adobe Commerce as a Cloud Service, consultez les [&#x200B; directives relatives aux métadonnées &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=fr) dans la documentation de Commerce Storefront
 
 Votre boutique contient de nombreux emplacements où vous pouvez saisir des métadonnées riches en mots-clés afin d’améliorer la façon dont les moteurs de recherche indexent votre site. Lors de la configuration de votre boutique, vous pouvez saisir des métadonnées préliminaires, avec l’intention de les terminer ultérieurement. Au fil du temps, vous pouvez affiner les métadonnées pour cibler les schémas et les préférences d’achat de vos clients.
 

@@ -3,7 +3,7 @@ title: Braintree
 description: Découvrez comment configurer Braintree en tant que solution de paiement en ligne sur votre boutique.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2890'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Si vous avez besoin d&#39;aide pour régler des frais imprévus sur votre carte, consultez la page [annuler l&#39;abonnement](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) pour obtenir de l&#39;aide.
+>Si vous avez besoin d&#39;aide pour régler des frais imprévus sur votre carte, consultez la page [annuler l&#39;abonnement](https://helpx.adobe.com/fr/manage-account/using/cancel-subscription.html) pour obtenir de l&#39;aide.
 
 Braintree offre une expérience de paiement entièrement personnalisable avec détection des fraudes et intégration PayPal. Il prend en charge les méthodes de paiement [!DNL Apple Pay], [!DNL Google Pay], ACH, Venmo et locales. Braintree réduit la charge de conformité PCI pour les commerçants, car la transaction a lieu sur le système Braintree. L’intégration de Braintree Payments est développée par [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/).
 

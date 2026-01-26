@@ -19,7 +19,7 @@ Votre contenu doit refléter l&#39;image de marque de votre magasin et être dif
 
 Adobe Commerce et Magento Open Source offrent de nombreuses options de conception conviviales que vous pouvez utiliser pour apporter des modifications simples à votre boutique. De nombreux thèmes conçus par des professionnels sont également disponibles dans [Commerce Marketplace](../getting-started/commerce-marketplace.md). Comme pour le maquillage de votre boutique, vous pouvez changer de thème pour la saison ou pour une promotion.
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} les concepteurs de magasins plus avancés apprécient la flexibilité de travailler avec un environnement orienté objet qui assemble des pages à partir de composants distincts. Après avoir compris les principes de base, vous apprécierez de travailler dans un environnement aussi flexible et fluide. Pour en savoir plus, consultez le [Guide du développeur Frontend](https://developer.adobe.com/commerce/frontend-core/guide/).
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} les concepteurs de magasins plus avancés apprécient la flexibilité de travailler avec un environnement orienté objet qui assemble des pages à partir de composants distincts. Après avoir compris les principes de base, vous apprécierez de travailler dans un environnement aussi flexible et fluide. Pour en savoir plus, consultez le [Guide du développeur Frontend](https://developer.adobe.com/commerce/frontend-core/guide/).
 
 ### Configuration
 
@@ -31,7 +31,7 @@ Le [thème](themes.md) détermine la présentation visuelle de votre boutique et
 
 ### Planning
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 Les thèmes peuvent être activés pour une période spécifique, selon un [planning](schedule.md). Utilisez le planning pour planifier les changements de thème à l’avance pour une saison ou une promotion.
 
