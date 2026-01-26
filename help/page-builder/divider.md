@@ -3,7 +3,7 @@ title: Éléments - Diviseur
 description: Découvrez le type de contenu Diviseur, utilisé pour ajouter une règle comme saut visuel entre des sections de contenu dans l’étape [!DNL Page Builder] d’.
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Bien que la plupart des conteneurs de séparateur soient invisibles, l’exemple
 
 | Outil | Icon | Description |
 | ---- | --------------------| ------------|
-| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur du séparateur vers un autre emplacement valide sur la page. |
+| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur du séparateur vers un autre emplacement valide sur la page. |
 | (libellé) | SÉPARATEUR | Identifie le conteneur courant comme un élément diviseur. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Modifier le séparateur, qui permet de modifier les propriétés du séparateur et de son conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le conteneur du séparateur. |
@@ -60,7 +60,7 @@ Bien que la plupart des conteneurs de séparateur soient invisibles, l’exemple
 
 1. Modifiez le **[!UICONTROL Line Color]** de division à l’aide de l’une des méthodes suivantes :
 
-   - Saisissez un [nom de couleur HTML valide][1]. Par exemple, `Teal`.
+   - Saisissez un [nom de couleur HTML valide](https://en.wikipedia.org/wiki/Web_colors). Par exemple, `Teal`.
    - Saisissez la valeur de couleur hexadécimale. Par exemple, `#008080`.
 
    Cliquez ensuite sur **[!UICONTROL Apply]**.
@@ -73,7 +73,7 @@ Bien que la plupart des conteneurs de séparateur soient invisibles, l’exemple
 
    ![Définition de la couleur, de l’épaisseur et de la largeur des lignes](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Mettez à jour les paramètres _[!UICONTROL Advanced]_&#x200B;selon vos besoins.
+1. Mettez à jour les paramètres _[!UICONTROL Advanced]_selon vos besoins.
 
    - Pour contrôler le positionnement du séparateur dans le conteneur parent, choisissez l’**[!UICONTROL Alignment]** :
 
@@ -156,6 +156,5 @@ Pour un séparateur formaté avec des paramètres spécifiques, il est plus effi
 
    ![Mise en place du séparateur dupliqué](./assets/pb-elements-divider-move-guideline.png){width="500" zoomable="yes"}
 
-[1]: https://en.wikipedia.org/wiki/Web_colors
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

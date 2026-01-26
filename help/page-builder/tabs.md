@@ -3,7 +3,7 @@ title: Disposition - Onglets
 description: Découvrez le type de contenu Onglets, utilisé pour ajouter un ensemble d’onglets dans l’étape [!DNL Page Builder] du .
 exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Lorsque vous utilisez le type de contenu _Onglets_, vous ajoutez et modifiez des
 
 | Outil | Icon | Description |
 |--- |--- |--- |
-| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Cette commande en regard du libellé de l’onglet est utilisée pour déplacer l’onglet individuel vers une autre position dans l’ensemble d’onglets. |
+| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Cette commande en regard du libellé de l’onglet est utilisée pour déplacer l’onglet individuel vers une autre position dans l’ensemble d’onglets. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Modifier les onglets, qui permet de modifier les propriétés de chaque onglet. |
 | Dupliquer | ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="25"} | Effectue une copie de l’onglet. |
 | Supprimer | ![Icône Supprimer](./assets/pb-icon-remove.png){width="25"} | Supprime l’onglet du jeu d’onglets. |
@@ -41,7 +41,7 @@ Lorsque vous utilisez le type de contenu _Onglets_, vous ajoutez et modifiez des
 
 | Outil | Icon | Description |
 |--- |--- |--- |
-| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le jeu d&#39;onglets vers un autre emplacement de la grille dans le conteneur parent. |
+| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le jeu d&#39;onglets vers un autre emplacement de la grille dans le conteneur parent. |
 | Ajouter | ![Icône Ajouter](./assets/pb-icon-add.png){width="25"} | Ajoute un onglet au jeu d’onglets. |
 | (libellé) | [!UICONTROL Tabs] | Identifie le conteneur actuel en tant que jeu d’onglets. Pointez sur la bordure supérieure du conteneur pour afficher la boîte à outils. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Modifier l’onglet , qui permet de modifier les propriétés du conteneur. |
@@ -56,7 +56,7 @@ Lorsque vous utilisez le type de contenu _Onglets_, vous ajoutez et modifiez des
 
 ## Ajout d’un onglet individuel
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser l’espace réservé&#x200B;**[!UICONTROL Tabs]**&#x200B;directement vers la scène ou vers une ligne ou une colonne de la scène.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser l’espace réservé&#x200B;**[!UICONTROL Tabs]**directement vers la scène ou vers une ligne ou une colonne de la scène.
 
    ![Faire glisser les onglets sur une ligne](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
@@ -74,8 +74,8 @@ Lorsque vous utilisez le type de contenu _Onglets_, vous ajoutez et modifiez des
 
 1. Si nécessaire, définissez les autres options en vous aidant des instructions des sections suivantes :
 
-   - [[!UICONTROL Background]][background]
-   - [[!UICONTROL Advanced]][advanced]
+   - [[!UICONTROL Background]](#background)
+   - [[!UICONTROL Advanced]](#advanced)
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
@@ -163,7 +163,7 @@ Vous pouvez ajouter n’importe quel type de contenu à un onglet comme vous le 
   |--- |--- |
   | [!UICONTROL Upload] | Télécharge un fichier image de votre ordinateur local dans la galerie, puis l’applique comme image d’arrière-plan pour l’onglet. |
   | [!UICONTROL Select from Gallery] | Vous invite à choisir une image existante de la galerie comme image d’arrière-plan pour l’onglet. |
-  | ![&#x200B; Icône Appareil photo &#x200B;](./assets/pb-icon-camera.png){width="25"} | Vous permet de faire glisser l’image vers la mosaïque de la caméra ou d’accéder à l’image dans votre système de fichiers local. |
+  | ![ Icône Appareil photo ](./assets/pb-icon-camera.png){width="25"} | Vous permet de faire glisser l’image vers la mosaïque de la caméra ou d’accéder à l’image dans votre système de fichiers local. |
 
   {style="table-layout:auto"}
 
@@ -324,7 +324,5 @@ Vous pouvez ajouter n’importe quel type de contenu à un onglet comme vous le 
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
-[background]: #background
-[advanced]: #advanced
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

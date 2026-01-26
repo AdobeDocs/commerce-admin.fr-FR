@@ -3,8 +3,8 @@ title: Paiements PayPal Standard
 description: Découvrez comment configurer PayPal Payments Standard en tant que solution de paiement en ligne sur votre boutique.
 exl-id: b4024dac-34d7-4f1a-ad9d-0fc406194609
 feature: Payments
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2081'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Paiements PayPal Standard
 
-[PayPal Payments Standard][4] est le moyen le plus simple d&#39;accepter des paiements en ligne. Vous pouvez offrir à vos clients la commodité du paiement par carte de crédit et PayPal en ajoutant simplement un bouton de passage en caisse à votre boutique.
+[PayPal Payments Standard](https://developer.paypal.com/docs/paypal-payments-standard/mobile-paypal-payments-standard/) est le moyen le plus simple d&#39;accepter des paiements en ligne. Vous pouvez offrir à vos clients la commodité du paiement par carte de crédit et PayPal en ajoutant simplement un bouton de passage en caisse à votre boutique.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Avec PayPal Payments Standard, vous pouvez faire glisser les cartes de crédit s
 
 ## Exigences des commerçants
 
-- [Compte professionnel PayPal][1]
+- [Compte professionnel PayPal](https://www.paypal.com/webapps/mpp/how-to-sell-online)
 
 ## Workflow de passage en caisse
 
@@ -58,7 +58,7 @@ Cette méthode de configuration suppose que vous disposez d&#39;un compte PayPal
 
 1. Si votre installation Commerce comporte plusieurs sites web, boutiques ou vues, définissez **[!UICONTROL Store View]** sur la vue de la boutique dans laquelle vous souhaitez appliquer cette configuration.
 
-1. Dans la section _[!UICONTROL Merchant Location]_, sélectionnez le **[!UICONTROL Merchant Country]**&#x200B;où se trouve votre entreprise.
+1. Dans la section _[!UICONTROL Merchant Location]_, sélectionnez le **[!UICONTROL Merchant Country]**où se trouve votre entreprise.
 
    Ce paramètre détermine la sélection des solutions PayPal qui apparaissent dans la configuration.
 
@@ -74,7 +74,7 @@ Cette méthode de configuration suppose que vous disposez d&#39;un compte PayPal
 
 1. Connectez votre compte à des fins de test ou de production :
 
-   - Pour le mode test (développement) , cliquez sur **[!UICONTROL Sandbox Credentials]** et saisissez vos informations d’identification [sandbox PayPal][3].
+   - Pour le mode test (développement) , cliquez sur **[!UICONTROL Sandbox Credentials]** et saisissez vos informations d’identification [sandbox PayPal](https://developer.paypal.com/docs/api-basics/sandbox/).
    - Pour le mode de production, cliquez sur **[!UICONTROL Connect with PayPal]** et saisissez les informations d’identification de votre compte de production.
 
    Une fois votre connexion validée, vous pouvez continuer.
@@ -110,7 +110,7 @@ Cette méthode de configuration suppose que vous disposez d&#39;un compte PayPal
 
 1. Si vous utilisez des informations d’identification provenant de votre compte sandbox, définissez **[!UICONTROL Sandbox Mode]** sur `Yes`.
 
-   Lors du test de la configuration dans un sandbox, utilisez uniquement les [numéros de carte de crédit][2] recommandés par PayPal. Lorsque vous êtes prêt à passer en production, revenez à la configuration et définissez le mode Sandbox sur `No` et connectez-vous à votre compte PayPal de production.
+   Lors du test de la configuration dans un sandbox, utilisez uniquement les [numéros de carte de crédit](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) recommandés par PayPal. Lorsque vous êtes prêt à passer en production, revenez à la configuration et définissez le mode Sandbox sur `No` et connectez-vous à votre compte PayPal de production.
 
 1. Si votre système utilise un serveur proxy pour établir la connexion entre Adobe Commerce ou Magento Open Source et le système de paiement PayPal, définissez **[!UICONTROL API Uses Proxy]** sur `Yes` et effectuez les opérations suivantes :
 
@@ -257,7 +257,7 @@ Définissez **[!UICONTROL Enable PayPal PayLater Experience]** sur l’une des o
    - `Authorization` - Valide l&#39;achat et met un blocage sur les fonds. Le montant n&#39;est pas retiré tant qu&#39;il n&#39;est pas saisi par le commerçant.
    - `Sale` - Le montant de l&#39;achat est autorisé et immédiatement retiré du compte du client.
 
-1. Pour afficher le bouton _[!UICONTROL Check out with PayPal]_&#x200B;sur la page produit, définissez **[!UICONTROL Display on Product Details Page]**&#x200B;sur `Yes`.
+1. Pour afficher le bouton _[!UICONTROL Check out with PayPal]_sur la page produit, définissez **[!UICONTROL Display on Product Details Page]**sur `Yes`.
 
 ### Étape 6 : définition des paramètres avancés
 
@@ -270,7 +270,7 @@ Définissez **[!UICONTROL Enable PayPal PayLater Experience]** sur l’une des o
 1. Définissez **[!UICONTROL Payment from Applicable Countries]** sur l’une des options suivantes :
 
    - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans la configuration de votre boutique peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Une fois cette option sélectionnée, la liste des _[!UICONTROL Payment from Specific Countries]_&#x200B;s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque option.
+   - `Specific Countries` - Une fois cette option sélectionnée, la liste des _[!UICONTROL Payment from Specific Countries]_s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque option.
 
 1. Pour enregistrer les communications avec le système de paiement dans le fichier journal, **[!UICONTROL Debug Mode]** sur `Yes`.
 
@@ -341,7 +341,7 @@ Un [accord de facturation](paypal-billing-agreements.md) est un accord de vente 
 1. Définissez **[!UICONTROL Payment Applicable From]** sur l’une des options suivantes :
 
    - `All Allowed Countries` - Les clients de tous les pays spécifiés dans la configuration de votre boutique peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Payment from Specific Countries]_&#x200B;s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chacun d&#39;eux.
+   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Payment from Specific Countries]_s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chacun d&#39;eux.
 
 1. Pour enregistrer les communications avec le système de paiement dans le fichier journal, **[!UICONTROL Debug Mode]** sur `Yes`.
 
@@ -398,7 +398,7 @@ Un [accord de facturation](paypal-billing-agreements.md) est un accord de vente 
 
 #### Paramètres de l’expérience front-end
 
-Utilisez le _[!UICONTROL Frontend Experience Settings]_&#x200B;pour choisir les logos PayPal qui apparaîtront sur votre site et personnaliser l&#39;apparence de vos pages marchandes PayPal.
+Utilisez le _[!UICONTROL Frontend Experience Settings]_pour choisir les logos PayPal qui apparaîtront sur votre site et personnaliser l&#39;apparence de vos pages marchandes PayPal.
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Frontend Experience Settings]** .
 
@@ -433,8 +433,3 @@ Utilisez le _[!UICONTROL Frontend Experience Settings]_&#x200B;pour choisir les 
       - **[!UICONTROL Header Background Color]** - Couleur d’arrière-plan de l’en-tête de la page de passage en caisse.
       - **[!UICONTROL Header Border Color]** : couleur de la bordure de deux pixels autour de l’en-tête.
       - **[!UICONTROL Page Background Color]** - Couleur d’arrière-plan de la page de passage en caisse et autour de l’en-tête et du formulaire de paiement.
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[3]: https://developer.paypal.com/docs/api-basics/sandbox/
-[4]: https://developer.paypal.com/docs/paypal-payments-standard/mobile-paypal-payments-standard/

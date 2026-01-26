@@ -3,18 +3,18 @@ title: Média - Carte
 description: Découvrez le type de contenu Mappage, utilisé pour ajouter un mappage de [!DNL Google Maps] Platform à la  [!DNL Page Builder] .
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
 
 # Média - Carte
 
-Utilisez le type de contenu _Map_ pour ajouter un mappage de [[!DNL Google Maps] Platform][1] à [[!DNL Page Builder] stage](workspace.md#stage). Par exemple, vous pouvez ajouter une carte à un bloc, puis ajouter le bloc aux pages [À propos de nous](../content-design/pages.md#about-us) et [Nous contacter](../getting-started/store-details.md#contact-us-form).
+Utilisez le type de contenu _Map_ pour ajouter un mappage de [[!DNL Google Maps] Platform](https://cloud.google.com/maps-platform/) à [[!DNL Page Builder] stage](workspace.md#stage). Par exemple, vous pouvez ajouter une carte à un bloc, puis ajouter le bloc aux pages [À propos de nous](../content-design/pages.md#about-us) et [Nous contacter](../getting-started/store-details.md#contact-us-form).
 
-Pour tirer le meilleur parti de [!DNL Google Maps] Platform, vous pouvez personnaliser la carte, mettre en évidence les emplacements de vos magasins et utiliser Google [Places][2] pour ajouter des informations riches sur votre magasin à tous les [!DNL Google Maps].
+Pour tirer le meilleur parti de [!DNL Google Maps] Platform, vous pouvez personnaliser la carte, mettre en évidence les emplacements de vos magasins et utiliser Google [Places](https://cloud.google.com/maps-platform/places/) pour ajouter des informations riches sur votre magasin à tous les [!DNL Google Maps].
 
 ## Avantages de l’incorporation d’une carte Google
 
@@ -36,7 +36,7 @@ La boîte à outils de mappage s’affiche lorsque vous placez le pointeur de la
 
 | Outil | Icon | Description |
 |--- |--- |--- |
-| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace la carte vers un autre emplacement de la scène. |
+| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace la carte vers un autre emplacement de la scène. |
 | (libellé) | [!UICONTROL Map] | Identifie le conteneur de contenu actuel en tant que mappage. Pointez sur le conteneur de carte pour afficher la boîte à outils. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Modifier la carte, qui permet de modifier les propriétés de la carte et du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque la carte actuelle. |
@@ -50,7 +50,7 @@ La boîte à outils de mappage s’affiche lorsque vous placez le pointeur de la
 
 ## Configuration de [!DNL Google Maps] pour votre administrateur
 
-Avant d’ajouter un mappage, vous devez d’abord ouvrir un [compte][3] pour bénéficier d’une version d’essai gratuite de [!DNL Google Maps] Platform. L&#39;essai gratuit dure 12 mois et comprend un crédit de 300 $. Si vous utilisez votre crédit, Google ne facture pas votre compte sans votre autorisation.
+Avant d’ajouter un mappage, vous devez d’abord ouvrir un [compte](https://cloud.google.com/maps-platform/user-guide/) pour bénéficier d’une version d’essai gratuite de [!DNL Google Maps] Platform. L&#39;essai gratuit dure 12 mois et comprend un crédit de 300 $. Si vous utilisez votre crédit, Google ne facture pas votre compte sans votre autorisation.
 
 ### Étape 1 : obtenir votre clé API [!DNL Google Maps]
 
@@ -60,7 +60,7 @@ Selon que vous disposez déjà d’une clé [!DNL Google Maps], utilisez l’une
 
 1. Cliquez sur la liste déroulante du projet et sélectionnez ou créez le projet pour lequel vous souhaitez ajouter une clé API.
 
-1. Pour configurer vos informations d’identification d’API, suivez les [instructions][4] dans la documentation [!DNL Google Maps].
+1. Pour configurer vos informations d’identification d’API, suivez les [instructions](https://developers.google.com/maps/documentation/javascript/get-api-key) dans la documentation [!DNL Google Maps].
 
 1. Copiez votre clé API dans le presse-papiers.
 
@@ -74,7 +74,7 @@ Selon que vous disposez déjà d’une clé [!DNL Google Maps], utilisez l’une
 
    ![Outils de contenu avancés](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
-   Pour plus d’informations sur les options de configuration des outils avancés de gestion de contenu, consultez le [&#x200B; Guide de référence de configuration &#x200B;](../configuration-reference/general/content-management.md).
+   Pour plus d’informations sur les options de configuration des outils avancés de gestion de contenu, consultez le [ Guide de référence de configuration ](../configuration-reference/general/content-management.md).
 
 1. Par **[!UICONTROL Google Maps API Key]**, collez la clé que vous avez copiée à l’étape 1.
 
@@ -112,7 +112,7 @@ Selon que vous disposez déjà d’une clé [!DNL Google Maps], utilisez l’une
 
    Vous pouvez également faire glisser l’épingle dans la carte affichée dans la zone **[!UICONTROL Position]**.
 
-   Si nécessaire, accédez à [[!DNL Google Maps]][5] dans une nouvelle fenêtre de navigateur et utilisez l’une des méthodes suivantes pour obtenir les coordonnées :
+   Si nécessaire, accédez à [[!DNL Google Maps]](https://www.google.com/maps) dans une nouvelle fenêtre de navigateur et utilisez l’une des méthodes suivantes pour obtenir les coordonnées :
 
    ![Mapper les coordonnées](./assets/pb-media-maps-settings-add-location-coordinates.png){width="600" zoomable="yes"}
 
@@ -164,9 +164,9 @@ Utilisez l’assistant de style [!DNL Google Maps] Platform pour appliquer l’u
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
-1. Sous la zone de texte **[!UICONTROL Google Maps Style]**, cliquez sur [Créer un style de mappage][6].
+1. Sous la zone de texte **[!UICONTROL Google Maps Style]**, cliquez sur [Créer un style de mappage](https://mapstyle.withgoogle.com/).
 
-   Cette action ouvre l’[[!DNL Google Maps] assistant de style Platform][6] dans un onglet distinct, dans lequel vous pouvez définir un style pour votre projet [!DNL Google Maps] Platform.
+   Cette action ouvre l’[[!DNL Google Maps] assistant de style Platform](https://mapstyle.withgoogle.com/) dans un onglet distinct, dans lequel vous pouvez définir un style pour votre projet [!DNL Google Maps] Platform.
 
 1. Cliquez sur **[!UICONTROL Create a Style]** et suivez les instructions fournies.
 
@@ -197,7 +197,7 @@ Utilisez l’assistant de style [!DNL Google Maps] Platform pour appliquer l’u
 
    {style="table-layout:auto"}
 
-1. Modifiez les paramètres _[!UICONTROL Advanced]_&#x200B;selon vos besoins :
+1. Modifiez les paramètres _[!UICONTROL Advanced]_selon vos besoins :
 
    - Pour contrôler le positionnement horizontal du contenu de carte qui a été ajouté au conteneur, choisissez une **[!UICONTROL Alignment]** :
 
@@ -284,11 +284,5 @@ La taille de la grille détermine la taille de la carte associée à une [colonn
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 
-[1]: https://cloud.google.com/maps-platform/
-[2]: https://cloud.google.com/maps-platform/places/
-[3]: https://cloud.google.com/maps-platform/user-guide/
-[4]: https://developers.google.com/maps/documentation/javascript/get-api-key
-[5]: https://www.google.com/maps
-[6]: https://mapstyle.withgoogle.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

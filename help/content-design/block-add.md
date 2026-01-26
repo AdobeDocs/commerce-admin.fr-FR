@@ -2,8 +2,8 @@
 title: Ajouter des blocs de contenu
 description: Créez des blocs de contenu personnalisés que vous pouvez réutiliser dans n’importe quelle page ou dans un autre bloc.
 exl-id: 2f104d77-a1d1-4f10-82ce-014955fe560b
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Vous pouvez créer des blocs de contenu personnalisés, puis les ajouter à n’
 
 1. Ajoutez le contenu du bloc à l’aide de l’ensemble d’outils de contenu affiché :
 
-   - Si [Page Builder](../page-builder/introduction.md) est activé, sélectionnez **[!UICONTROL Edit with Page Builder]** pour utiliser les outils de Page Builder dans l’espace de travail [&#x200B; contenu](../page-builder/workspace.md).
+   - Si [Page Builder](../page-builder/introduction.md) est activé, sélectionnez **[!UICONTROL Edit with Page Builder]** pour utiliser les outils de Page Builder dans l’espace de travail [ contenu](../page-builder/workspace.md).
 
      ![Espace de travail de Page Builder](./assets/pb-workspace-block.png){width="500" zoomable="yes"}
 
@@ -91,8 +91,6 @@ Il existe deux manières de supprimer un bloc personnalisé. Vous pouvez le supp
 
   ![curseur du générateur de page](./assets/pb-tutorial3-slider-tee-shirt-promo.png){width="600" zoomable="yes"}
 
-  Il existe également un large éventail de lightbox basés sur jQuery disponibles sur [[!DNL Commerce Marketplace]][1], et certains sont gratuits.
+  Il existe également un large éventail de lightbox basés sur jQuery disponibles sur [[!DNL Commerce Marketplace]](https://marketplace.magento.com/extensions.html?q=lightbox), et certains sont gratuits.
 
 - Vous pouvez également télécharger une extension à partir de [!DNL Commerce Marketplace]. Pour obtenir de l’aide supplémentaire, consultez la documentation fournie par le développeur d’extensions.
-
-[1]: https://marketplace.magento.com/extensions.html?q=lightbox

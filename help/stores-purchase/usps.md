@@ -3,9 +3,9 @@ title: Service postal des États-Unis (USPS)
 description: Découvrez comment configurer USPS en tant que transporteur pour votre boutique.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: c9acf475eeadcd249467e4cc89fe61d37230bd7d
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ Le United States Postal Service est le service postal indépendant du gouverneme
 
 ## Étape 1 : Ouvrir un compte d&#39;expédition USPS
 
-Ouvrez un compte [USPS Web Tools][1]. Une fois le processus d&#39;enregistrement terminé, vous recevrez votre identifiant utilisateur et une URL vers le serveur de test USPS.
+Ouvrez un compte [USPS Web Tools](https://secure.shippingapis.com/registration/). Une fois le processus d&#39;enregistrement terminé, vous recevrez votre identifiant utilisateur et une URL vers le serveur de test USPS.
 
-Vous pouvez également ouvrir un compte [USPS Web Tools][1]. Une fois le processus d&#39;enregistrement terminé, vous recevrez votre identifiant utilisateur et une URL vers le serveur de test USPS. Pour en savoir plus sur les outils Web USPS, consultez leur [documentation technique][2].
+Vous pouvez également ouvrir un compte [USPS Web Tools](https://secure.shippingapis.com/registration/). Une fois le processus d&#39;enregistrement terminé, vous recevrez votre identifiant utilisateur et une URL vers le serveur de test USPS. Pour en savoir plus sur les outils Web USPS, consultez leur [documentation technique](https://www.usps.com/business/web-tools-apis/welcome.htm).
 
 ## Étape 2 : activer USPS pour votre magasin
 
@@ -120,7 +120,7 @@ Les frais de manutention sont facultatifs et apparaissent comme des frais suppl�
 
    Cette zone de texte est prédéfinie avec un message par défaut, mais vous pouvez saisir un message différent que vous souhaitez afficher si USPS n&#39;est plus disponible.
 
-   ![&#x200B; Méthodes autorisées USPS &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
+   ![ Méthodes autorisées USPS ](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
 
 1. Définissez **[!UICONTROL Ship to Applicable Countries]** sur l’une des options suivantes :
 
@@ -142,7 +142,5 @@ Les frais de manutention sont facultatifs et apparaissent comme des frais suppl�
 
 1. Cliquez sur **[!UICONTROL Save Config]**.
 
-[1]: https://secure.shippingapis.com/registration/
-[2]: https://www.usps.com/business/web-tools-apis/welcome.htm
 
 <!-- Last updated from includes: 2025-11-26 10:55:00 -->

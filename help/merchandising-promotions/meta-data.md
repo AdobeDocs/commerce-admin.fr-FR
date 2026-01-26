@@ -1,45 +1,45 @@
 ---
-title: Métadonnées
+title: Données Meta
 description: Découvrez comment saisir des métadonnées riches en mots-clés pour améliorer la manière dont les moteurs de recherche indexent votre site Commerce.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
-# Métadonnées
+# Données Meta
 
 >[!TIP]
 >
->Pour Adobe Commerce as a Cloud Service, consultez les [&#x200B; directives relatives aux métadonnées &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=fr) dans la documentation de Commerce Storefront
+>Pour Adobe Commerce as a Cloud Service, consultez les [ directives relatives aux métadonnées ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/) dans la documentation de Commerce Storefront
 
 Votre boutique contient de nombreux emplacements où vous pouvez saisir des métadonnées riches en mots-clés afin d’améliorer la façon dont les moteurs de recherche indexent votre site. Lors de la configuration de votre boutique, vous pouvez saisir des métadonnées préliminaires, avec l’intention de les terminer ultérieurement. Au fil du temps, vous pouvez affiner les métadonnées pour cibler les schémas et les préférences d’achat de vos clients.
 
 ![Paramètres du produit - Optimisation du moteur de recherche](./assets/product-basic-settings-search-engine-optimization-yoga-strap.png){width="700" zoomable="yes"}
 
-## Méta-titre
+## Titre du Meta
 
 Le méta-titre s’affiche dans la barre de titre et dans l’onglet de votre navigateur et dans les listes de résultats de recherche. Le méta-titre doit être propre à la page et comporter moins de 70 caractères.
 
 ![Exemple de storefront - méta-titre](./assets/storefront-home-page-meta-title.png){width="600"}
 
-## Mots-clés méta
+## Mots-clés Meta
 
 Bien que certains moteurs de recherche ignorent les méta-mots-clés, d’autres continuent de les utiliser. La bonne pratique actuelle consiste à incorporer des mots-clés à forte valeur ajoutée au méta-titre et à la méta-description.
 
 ![Recherche dans un navigateur web - mots-clés méta](./assets/storefront-meta-description.png){width="500"}
 
-## Méta-description
+## Description du Meta
 
-Les méta-descriptions fournissent un bref aperçu de la page pour les listes de résultats de recherche. Idéalement, une méta-description doit comporter entre 150 et 160 caractères, bien que le champ accepte jusqu’à 255 caractères.
+Les descriptions de Meta donnent un bref aperçu de la page des résultats de recherche. Idéalement, une méta-description doit comporter entre 150 et 160 caractères, bien que le champ accepte jusqu’à 255 caractères.
 
 ## Fragments de code riches
 
-Les fragments de code riches fournissent des informations détaillées pour les résultats de recherche et d’autres applications. Par défaut, le balisage de données structurées basé sur la norme [schema.org][1] est ajouté au modèle de produit de votre boutique. Par conséquent, les moteurs de recherche disposent de plus d’informations à inclure en tant que _fragments de code enrichis_ dans les listes de produits.
+Les fragments de code riches fournissent des informations détaillées pour les résultats de recherche et d’autres applications. Par défaut, le balisage de données structurées basé sur la norme [schema.org](https://schema.org/) est ajouté au modèle de produit de votre boutique. Par conséquent, les moteurs de recherche disposent de plus d’informations à inclure en tant que _fragments de code enrichis_ dans les listes de produits.
 
 ## Balise meta canonique
 
@@ -82,22 +82,20 @@ Vous pouvez éviter d’être pénalisé par les moteurs de recherche en omettan
 
 1. Si vous souhaitez que les moteurs de recherche indexent uniquement les pages de catégorie à l’aide du chemin de catégorie complet, procédez comme suit :
 
-   - Définissez **Utiliser la balise META de lien canonique pour les catégories** sur `Yes`.
+   - Définissez **Utiliser la balise Meta de lien canonique pour les catégories** sur `Yes`.
 
-   - Définissez **Utiliser la balise meta de lien canonique pour les produits** sur `No`.
+   - Définissez **Utiliser la balise Meta de lien canonique pour les produits** sur `No`.
 
 1. Si vous souhaitez que les moteurs de recherche indexent les pages de produits uniquement à l’aide du format nom-de-domaine/nom-de-produit-URL-clé, procédez comme suit :
 
-   - Définissez **Utiliser la balise meta de lien canonique pour les produits** sur `Yes`.
+   - Définissez **Utiliser la balise Meta de lien canonique pour les produits** sur `Yes`.
 
-   - Définissez **Utiliser la balise META de lien canonique pour les catégories** sur `No`.
+   - Définissez **Utiliser la balise Meta de lien canonique pour les catégories** sur `No`.
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 
-## Démonstration des métadonnées
+## Démonstration des données Meta
 
 Regardez cette vidéo pour en savoir plus sur la gestion des métadonnées d’optimisation du moteur de recherche :
 
->[!VIDEO](https://video.tv.adobe.com/v/3410174?quality=12&learn=on&captions=fre_fr)
-
-[1]: https://schema.org/
+>[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)

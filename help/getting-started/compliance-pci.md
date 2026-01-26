@@ -1,52 +1,49 @@
 ---
-title: Instructions relatives à la conformité PCI
-description: Consultez ces informations sur les exigences du secteur des cartes de paiement (PCI) pour les entreprises qui acceptent le paiement par carte de crédit sur Internet.
+title: Instructions de conformité PCI
+description: Consultez ces informations sur les exigences de l’industrie des cartes de paiement (PCI) pour les entreprises qui acceptent le paiement par carte de crédit sur Internet.
 exl-id: b9fff131-bea3-4d7a-bbf7-e98b284387d3
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
-# Instructions relatives à la conformité PCI
+# Instructions de conformité PCI
 
-Le secteur des cartes de paiement (PCI) a établi un ensemble d’exigences pour les entreprises qui acceptent le paiement par carte de crédit sur Internet. Outre la maintenance d’un environnement serveur sécurisé, les vendeurs qui traitent les informations de carte de crédit client doivent respecter les instructions suivantes.
+L&#39;industrie des cartes de paiement (PCI) a établi un ensemble d&#39;exigences pour les entreprises qui acceptent le paiement par carte de crédit sur Internet. En plus de maintenir un environnement de serveur sécurisé, les commerçants qui manipulent les informations de carte de crédit client doivent respecter les directives suivantes.
 
-## Configurations PCI
+## Exigences PCI
 
-![case à cocher](../assets/checkbox.png) - Installez et conservez une configuration de pare-feu pour protéger les données des titulaires de carte.
+![case à cocher](../assets/checkbox.png) - Installez et gérez une configuration de pare-feu pour protéger les données du titulaire de carte.
 
-![checkbox](../assets/checkbox.png) - N’utilisez pas les valeurs par défaut fournies par le fournisseur pour les mots de passe système et d’autres paramètres de sécurité.
+![case à cocher](../assets/checkbox.png) - N’utilisez pas les valeurs par défaut fournies par le fournisseur pour les mots de passe système et d’autres paramètres de sécurité.
 
-![case à cocher](../assets/checkbox.png) - Données de titulaire de carte stockées Protect.
+![case à cocher](../assets/checkbox.png) - Protégez les données stockées du détenteur de carte.
 
-![case à cocher](../assets/checkbox.png) - Chiffrer la transmission des données des titulaires de carte sur des réseaux publics ouverts.
+![case à cocher](../assets/checkbox.png) - Chiffrez la transmission des données du titulaire de carte sur les réseaux publics ouverts.
 
 ![case à cocher](../assets/checkbox.png) - Utilisez et mettez régulièrement à jour un logiciel antivirus.
 
-![case à cocher](../assets/checkbox.png) - Développez et conservez des systèmes et des applications sécurisés.
+![case à cocher](../assets/checkbox.png) - Développez et maintenez des systèmes et des applications sécurisés.
 
-![case à cocher](../assets/checkbox.png) - Limite l’accès aux données des titulaires de carte en fonction des besoins de l’entreprise.
+![case à cocher](../assets/checkbox.png) - Restreindre l’accès aux données du titulaire de carte en fonction des besoins de l’entreprise.
 
-![case à cocher](../assets/checkbox.png) - Attribuez un identifiant unique à chaque personne ayant accès à l’ordinateur.
+![case à cocher](../assets/checkbox.png) - Attribuez un ID unique à chaque personne ayant accès à l’ordinateur.
 
-![case à cocher](../assets/checkbox.png) - Limite l’accès physique aux données des titulaires de carte.
+![case à cocher](../assets/checkbox.png) - Restreindre l’accès physique aux données du titulaire de carte.
 
-![case à cocher](../assets/checkbox.png) - Suivez et surveillez tous les accès aux ressources réseau et aux données des titulaires de carte.
+![case à cocher](../assets/checkbox.png) - Suivez et surveillez tous les accès aux ressources réseau et aux données du titulaire de carte.
 
 ![case à cocher](../assets/checkbox.png) - Testez régulièrement les systèmes et les processus de sécurité.
 
-![case à cocher](../assets/checkbox.png) - Conservez une stratégie qui traite de la sécurité des informations.
+![case à cocher](../assets/checkbox.png) - Conservez une politique relative à la sécurité des informations.
 
-Pour en savoir plus, voir [Approche Adobe de la conformité PCI][1]{:target=&quot;_blank&quot;}.
+Pour en savoir plus, voir [Approche Adobe de la conformité PCI](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}.
 
 >[!NOTE]
 >
->Ce contenu est destiné uniquement à titre d’information et ne doit pas être interprété comme un avis juridique. Pour déterminer si et comment votre entreprise doit se conformer à des obligations légales, consultez votre service juridique.
+>Ce contenu est fourni uniquement à titre d’information et ne doit pas être interprété comme un avis juridique. Pour déterminer si votre entreprise devrait se conformer à des obligations légales et, le cas échéant, comment, consultez votre conseiller juridique.
 
-Au fur et à mesure que votre entreprise se développe, vous devrez peut-être remplir un rapport de conformité annuel. Les exigences de création de rapports PCI augmentent proportionnellement au niveau du commerce, mais sont levées pour les entreprises qui traitent moins de 20 000 transactions de carte de crédit par an. Pour en savoir plus, rendez-vous sur le site [PCI Security Standards Council][2] .
-
-[1]: https://business.adobe.com/fr/products/magento/pci-compliance.html
-[2]: https://www.pcisecuritystandards.org/index.php
+Au fur et à mesure que votre entreprise prend de l&#39;expansion, vous devrez peut-être produire un rapport de conformité annuel. Les exigences en matière de rapports PCI augmentent proportionnellement au niveau des commerçants, mais sont exemptées pour les entreprises qui traitent moins de 20 000 transactions par carte de crédit par an. Pour en savoir plus, consultez le site Web du [Conseil des normes de sécurité PCI](https://www.pcisecuritystandards.org/index.php).

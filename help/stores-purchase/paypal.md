@@ -3,8 +3,8 @@ title: Solutions de paiement PayPal
 description: Découvrez les intégrations de solutions de paiement PayPal disponibles pour votre boutique.
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -22,7 +22,7 @@ PayPal est un leader mondial des paiements en ligne et un moyen rapide et sécur
 
 ## Compte professionnel PayPal
 
-Pour proposer PayPal comme mode de paiement dans votre boutique, vous devez disposer d&#39;un compte PayPal [compte professionnel][1] et/ou d&#39;un [compte PayPal Payflow][2]. Les conditions requises pour le compte sont spécifiées dans la description de chaque solution PayPal. Votre compte marchand PayPal est également utilisé pour gérer les [&#x200B; filtres de fraude](#paypal-fraud-management-filters) appliqués aux achats effectués à partir de votre boutique.
+Pour proposer PayPal comme mode de paiement dans votre boutique, vous devez disposer d&#39;un compte PayPal [compte professionnel](https://manager.paypal.com/) et/ou d&#39;un [compte PayPal Payflow](https://developer.paypal.com/docs/payflow/payflow-gateway/). Les conditions requises pour le compte sont spécifiées dans la description de chaque solution PayPal. Votre compte marchand PayPal est également utilisé pour gérer les [ filtres de fraude](#paypal-fraud-management-filters) appliqués aux achats effectués à partir de votre boutique.
 
 Les clients qui utilisent PayPal Express Checkout ou Express Checkout pour Payflow Pro doivent disposer d&#39;un compte acheteur PayPal. PayPal Payments Standard (Website Payments Standard dans certains pays) peut être utilisé directement ou par l&#39;intermédiaire d&#39;un compte acheteur lorsque le commerçant active _Compte PayPal facultatif_. Par défaut, ce paramètre est activé afin que les clients puissent choisir de saisir leurs informations de carte de crédit ou de créer un compte acheteur avec PayPal. Lorsqu&#39;ils sont désactivés, les clients doivent d&#39;abord créer un compte acheteur PayPal avant d&#39;effectuer un achat.
 
@@ -30,7 +30,7 @@ Website Payments Pro, Website Payments Pro Payflow Edition, Payflow Pro Gateway 
 
 ## Crédit PayPal et PayLater
 
-PayPal PayLater offre à vos clients un accès rapide au financement, afin qu&#39;ils puissent acheter maintenant et payer au fil du temps, sans frais supplémentaires pour vous. Vous n&#39;êtes pas facturé lorsque les clients choisissent les options de crédit PayPal, et vous ne payez que vos frais de transaction PayPal normaux. Pour en savoir plus, consultez le [site web PayPal][3].
+PayPal PayLater offre à vos clients un accès rapide au financement, afin qu&#39;ils puissent acheter maintenant et payer au fil du temps, sans frais supplémentaires pour vous. Vous n&#39;êtes pas facturé lorsque les clients choisissent les options de crédit PayPal, et vous ne payez que vos frais de transaction PayPal normaux. Pour en savoir plus, consultez le [site web PayPal](https://www.paypal.com/us/business/buy-now-pay-later).
 
 Donnez un coup de pouce à vos ventes lorsque vous faites de la publicité sur le financement. PayPal permet de transformer les navigateurs en acheteurs avec un financement avec PayPal PayLater. Vos clients peuvent payer au fil du temps, tandis que vous êtes payé à l&#39;avance, sans frais supplémentaires pour vous. Utilisez les bannières publicitaires PayPal gratuites pour annoncer le financement PayPal comme option de paiement lorsque vos clients passent en caisse avec PayPal. Il a été démontré que le programme PayPal Advertising génère des achats supplémentaires et augmente la taille moyenne des achats de 15 % ou plus.
 
@@ -103,7 +103,7 @@ Les filtres de gestion des fraudes PayPal facilitent la détection et la répons
 | Action | Résultat |
 | --- | --- |
 | [!UICONTROL Review] | La commande suspecte reçoit le statut _Révision des règlements_ lors du passage de la commande. Vous pouvez vérifier la commande et approuver ou annuler le paiement dans l&#39;Admin ou du côté PayPal. Lorsque vous cliquez sur **[!UICONTROL Accept Payment]** ou **[!UICONTROL Deny Payment]**, aucune nouvelle transaction pour la commande n&#39;est créée. <br/><br/>Si vous modifiez le statut de la transaction sur le site PayPal, vous devez cliquer sur **[!UICONTROL Get Payment Update]** dans la page Commande de l&#39;administrateur pour appliquer les modifications. Si vous cliquez sur **[!UICONTROL Accept Payment]** ou **[!UICONTROL Deny Payment]**, les modifications apportées sur le site PayPal sont appliquées. |
-| [!UICONTROL Deny] | La commande suspecte ne peut pas être passée par le client, car la transaction correspondante est rejetée par PayPal. <br/><br/>Pour refuser le paiement de l’administrateur, cliquez sur **[!UICONTROL Deny Payment]** dans le coin supérieur droit de la page. Le statut de la commande passe à `Canceled`, la transaction est annulée et les fonds sont libérés sur le compte client. Les informations correspondantes sont ajoutées dans la section _[!UICONTROL Comments History]_&#x200B;de la vue de commande. |
+| [!UICONTROL Deny] | La commande suspecte ne peut pas être passée par le client, car la transaction correspondante est rejetée par PayPal. <br/><br/>Pour refuser le paiement de l’administrateur, cliquez sur **[!UICONTROL Deny Payment]** dans le coin supérieur droit de la page. Le statut de la commande passe à `Canceled`, la transaction est annulée et les fonds sont libérés sur le compte client. Les informations correspondantes sont ajoutées dans la section _[!UICONTROL Comments History]_de la vue de commande. |
 | [!UICONTROL Flag] | La commande suspecte obtient le statut `Processing` lorsqu’elle est passée. La transaction correspondante est marquée avec un indicateur dans la liste des transactions du compte marchand. |
 
 {style="table-layout:auto"}
@@ -185,8 +185,3 @@ PayPal Express Checkout et PayPal Website Payments Standard sont disponibles dan
 - Uruguay
 - Vénézuela
 - Vietnam
-
-
-[1]: https://manager.paypal.com/
-[2]: https://developer.paypal.com/docs/payflow/payflow-gateway/
-[3]: https://www.paypal.com/us/business/buy-now-pay-later

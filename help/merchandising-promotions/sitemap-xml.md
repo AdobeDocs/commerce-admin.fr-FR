@@ -3,8 +3,8 @@ title: Cartes du site
 description: Découvrez comment configurer un plan de site pour indexer toutes les pages et images de vos sites Commerce.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Pour Adobe Commerce as a Cloud Service, consultez les [directives SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=fr) de la documentation du Storefront Commerce
+>Pour Adobe Commerce as a Cloud Service, consultez les [directives SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) de la documentation du Storefront Commerce
 
 Un plan de site améliore la façon dont votre boutique est indexée par les moteurs de recherche et est conçu pour trouver les pages qui pourraient être ignorées par les robots d’exploration. Un plan de site peut être configuré pour indexer toutes les pages et images.
 
@@ -23,7 +23,7 @@ Lorsqu’il est activé, Commerce crée un fichier appelé `sitemap.xml` qui est
 
 Pendant le développement de votre site, vous pouvez inclure des instructions dans le fichier `robots.txt` pour les robots d’exploration web afin d’éviter d’indexer le site. Ensuite, avant le lancement, vous pouvez modifier les instructions pour permettre l’indexation du site.
 
-Pour obtenir des informations techniques, voir [Ajouter un plan de site et robots.txt][1] dans le guide _Commerce sur les infrastructures cloud_.
+Pour obtenir des informations techniques, voir [Ajouter un plan de site et robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) dans le guide _Commerce sur les infrastructures cloud_.
 
 ![Grille du plan du site](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -67,8 +67,8 @@ Vous pouvez envoyer votre plan de site à différents moteurs de recherche en le
 
 Pour plus d’informations, consultez les instructions relatives au moteur de recherche spécifique. Voici des liens vers des instructions pour deux moteurs de recherche principaux :
 
-- [Google][2]
-- [Microsoft® Bing][3]
+- [Google](https://support.google.com/webmasters/answer/183669?hl=en)
+- [Microsoft® Bing](https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed)
 
 ## Étape 5 : Restaurer les instructions précédentes du robot (facultatif)
 
@@ -102,7 +102,7 @@ Pour créer des plans de site pour une instance multimagasin, procédez comme su
    
 >[!NOTE]
 >
->Si votre site utilise le moteur de serveur web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=fr), vous devez mettre à jour le fichier [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) dans la racine de votre site web pour diriger toute autre requête de plan de site vers l’emplacement approprié.
+>Si votre site utilise le moteur de serveur web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html), vous devez mettre à jour le fichier [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) dans la racine de votre site web pour diriger toute autre requête de plan de site vers l’emplacement approprié.
 
 ## Descriptions des colonnes
 
@@ -227,7 +227,3 @@ La carte de votre site doit être mise à jour aussi souvent que le contenu de v
 1. Si vous utilisez un fichier `robots.txt` pour fournir des instructions aux moteurs de recherche qui explorent votre site, définissez **[!UICONTROL Enable Submission to Robots.txt]** sur `Yes`.
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
-
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=fr
-[2]: https://support.google.com/webmasters/answer/183669?hl=en
-[3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

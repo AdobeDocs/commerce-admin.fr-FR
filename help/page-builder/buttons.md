@@ -3,7 +3,7 @@ title: Éléments - Boutons
 description: Découvrez le type de contenu Boutons , utilisé pour ajouter un bouton individuel ou un ensemble de boutons dans l [!DNL Page Builder] étape.
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Lorsque vous utilisez le type de contenu Boutons , vous ajoutez et modifiez des 
 
 | Outil | Icon | Description |
 | --------- | ----------------- | ----------- |
-| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de boutons vers un autre emplacement valide sur la page. |
+| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de boutons vers un autre emplacement valide sur la page. |
 | Ajouter | ![Icône Ajouter](./assets/pb-icon-add-button.png){width="25"} | Ajoute un bouton au conteneur. |
 | (libellé) | Bouton | Identifie le conteneur actif comme un élément de bouton. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Boutons de modification , qui permet de modifier les propriétés du conteneur. |
@@ -107,7 +107,7 @@ Lorsque vous utilisez le type de contenu Boutons , vous ajoutez et modifiez des 
 
      ![Choisir la page CMS pour le lien du bouton](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
 
-1. Renseignez les [paramètres avancés][advanced-settings] selon vos besoins.
+1. Renseignez les [paramètres avancés](#change-advanced-settings) selon vos besoins.
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** dans le coin supérieur droit pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
@@ -135,7 +135,7 @@ Les sections suivantes décrivent une série d’étapes pour commencer avec un 
 
    ![Paramètres du bouton Nous contacter](./assets/pb-elements-button-set-edit-button2-toolbox-settings.png){width="600" zoomable="yes"}
 
-1. Renseignez les [paramètres avancés][advanced-settings] selon vos besoins.
+1. Renseignez les [paramètres avancés](#change-advanced-settings) selon vos besoins.
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
@@ -167,13 +167,13 @@ Les sections suivantes décrivent une série d’étapes pour commencer avec un 
 
    ![Boutons empilés de la même taille](./assets/pb-elements-buttons-settings-appearance-stacked.png){width="300"}
 
-1. Mettez à jour les paramètres restants si nécessaire, à l’aide des descriptions de [Modifier les paramètres d’un conteneur de boutons][button-container].
+1. Mettez à jour les paramètres restants si nécessaire, à l’aide des descriptions de [Modifier les paramètres d’un conteneur de boutons](#change-settings-for-a-button-container).
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
    L’ensemble complet de boutons empilés apparaît sur l’étape, avec un bouton principal et deux boutons secondaires.
 
-   ![Boutons empilés sur la scène &#x200B;](./assets/pb-elements-buttons-stacked.png){width="500" zoomable="yes"}
+   ![Boutons empilés sur la scène ](./assets/pb-elements-buttons-stacked.png){width="500" zoomable="yes"}
 
 ## Déplacer un bouton
 
@@ -214,7 +214,7 @@ Les sections suivantes décrivent une série d’étapes pour commencer avec un 
 
      {style="table-layout:auto"}
 
-1. Renseignez les [paramètres avancés][advanced-settings] selon vos besoins.
+1. Renseignez les [paramètres avancés](#change-advanced-settings) selon vos besoins.
 
 1. Pour enregistrer les paramètres et revenir à l’espace de travail [!DNL Page Builder], cliquez sur **[!UICONTROL Save]** dans le coin supérieur droit.
 
@@ -237,13 +237,13 @@ Les sections suivantes décrivent une série d’étapes pour commencer avec un 
 
      Lorsque ce paramètre est défini sur `Yes`, tous les boutons du conteneur ont une taille cohérente en fonction de la longueur du texte du bouton le plus long.
 
-1. Renseignez les [Paramètres avancés][advanced-settings] selon vos besoins.
+1. Renseignez les [Paramètres avancés](#change-advanced-settings) selon vos besoins.
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
 ## Modifier les paramètres avancés
 
-Vous pouvez modifier les paramètres de _[!UICONTROL Advanced]_&#x200B;de chaque bouton et du conteneur de boutons.
+Vous pouvez modifier les paramètres de _[!UICONTROL Advanced]_de chaque bouton et du conteneur de boutons.
 
 1. Pour contrôler le positionnement dans le conteneur parent, choisissez l’**[!UICONTROL Alignment]** :
 
@@ -298,7 +298,5 @@ Vous pouvez modifier les paramètres de _[!UICONTROL Advanced]_&#x200B;de chaque
 
    {style="table-layout:auto"}
 
-[advanced-settings]: #change-advanced-settings
-[button-container]: #change-settings-for-a-button-container
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -3,16 +3,16 @@ title: Média - Vidéo
 description: Découvrez le type de contenu Vidéo utilisé pour ajouter à l’étape une vidéo hébergée sur YouTube ou  [!DNL Page Builder] .
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
 
 # Média - Vidéo
 
-Utilisez le type de contenu _Vidéo_ pour ajouter une vidéo hébergée sur [YouTube][1] ou [Vimeo][2] à [[!DNL Page Builder] stage](workspace.md#stage). Il est facile d’incorporer des vidéos dans une page ou un bloc, ou dans des descriptions de produits et de catégories.
+Utilisez le type de contenu _Vidéo_ pour ajouter une vidéo hébergée sur [YouTube](https://www.youtube.com/) ou [Vimeo](https://vimeo.com/) à [[!DNL Page Builder] stage](workspace.md#stage). Il est facile d’incorporer des vidéos dans une page ou un bloc, ou dans des descriptions de produits et de catégories.
 
 ![Vidéo sur la page d’accueil du storefront](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
 
@@ -20,11 +20,11 @@ Utilisez le type de contenu _Vidéo_ pour ajouter une vidéo hébergée sur [You
 
 ## Boîte à outils vidéo
 
-![&#x200B; Boîte à outils vidéo &#x200B;](./assets/pb-media-video-toolbox.png){width="600" zoomable="yes"}
+![ Boîte à outils vidéo ](./assets/pb-media-video-toolbox.png){width="600" zoomable="yes"}
 
 | Outil | Icon | Description |
 |--- |--- |--- |
-| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace la vidéo vers un autre emplacement sur la scène. |
+| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace la vidéo vers un autre emplacement sur la scène. |
 | (libellé) | [!UICONTROL Video] | Identifie le conteneur de contenu actuel en tant que vidéo. Pointez sur le conteneur d’image pour afficher la boîte à outils. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _[!UICONTROL Edit Video]_, où vous pouvez modifier les propriétés de la vidéo et du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque la vidéo active. |
@@ -38,7 +38,7 @@ Utilisez le type de contenu _Vidéo_ pour ajouter une vidéo hébergée sur [You
 
 ## Ajout d’une vidéo
 
-1. Avant de commencer, accédez à la vidéo [YouTube][1] ou [Vimeo][2] que vous souhaitez incorporer, puis copiez le lien.
+1. Avant de commencer, accédez à la vidéo [YouTube](https://www.youtube.com/) ou [Vimeo](https://vimeo.com/) que vous souhaitez incorporer, puis copiez le lien.
 
    Vous pouvez également copier un lien direct vers un fichier vidéo valide. Consultez la section [Paramètres vidéo de base](#basic-video-settings) pour obtenir des liens valides.
 
@@ -89,9 +89,9 @@ Utilisez le type de contenu _Vidéo_ pour ajouter une vidéo hébergée sur [You
 
    Si la lecture automatique est définie sur `Yes`, la vidéo est mise en sourdine lors de la lecture, conformément à la politique. Cependant, même avec ce paramètre, les appareils mobiles ne peuvent pas lire automatiquement vos vidéos. Pour plus d’informations sur ces politiques, consultez les ressources de développement suivantes :
 
-   - [&#x200B; Politique de lecture automatique de Vimeo &#x200B;](https://vimeo.zendesk.com/hc/en-us/articles/115004485728-Autoplaying-and-looping-embedded-videos)
+   - [ Politique de lecture automatique de Vimeo ](https://vimeo.zendesk.com/hc/en-us/articles/115004485728-Autoplaying-and-looping-embedded-videos)
    - [Politique de lecture automatique à partir de Google (Chrome/YouTube)](https://developer.chrome.com/blog/autoplay/)
-   - [&#x200B; Politique de lecture automatique pour les vidéos locales &#x200B;](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
+   - [ Politique de lecture automatique pour les vidéos locales ](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
 
    Si la lecture automatique est définie sur `No`, la vidéo est lue à la demande de l’utilisateur uniquement.
 
@@ -156,7 +156,7 @@ Utilisez le type de contenu _Vidéo_ pour ajouter une vidéo hébergée sur [You
 
 1. Pointez sur le conteneur vidéo pour afficher la boîte à outils et sélectionnez l’icône _Déplacer_ ( ![Icône Déplacer](./assets/pb-icon-move.png){width="20"} ).
 
-   ![&#x200B; Déplacement d’une vidéo &#x200B;](./assets/pb-media-video-toolbox-move-col1.png){width="500" zoomable="yes"}
+   ![ Déplacement d’une vidéo ](./assets/pb-media-video-toolbox-move-col1.png){width="500" zoomable="yes"}
 
 1. Sélectionnez la vidéo et faites-la glisser vers sa nouvelle position, juste en dessous de la consigne rouge.
 
@@ -168,7 +168,5 @@ Utilisez le type de contenu _Vidéo_ pour ajouter une vidéo hébergée sur [You
 
 1. Lorsque vous êtes invité à confirmer, cliquez sur **[!UICONTROL OK]**.
 
-[1]: https://www.youtube.com/
-[2]: https://vimeo.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

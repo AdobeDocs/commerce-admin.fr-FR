@@ -3,8 +3,8 @@ title: Braintree
 description: Découvrez comment configurer Braintree en tant que solution de paiement en ligne sur votre boutique.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2890'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Si vous avez besoin d&#39;aide pour régler des frais imprévus sur votre carte, consultez la page [annuler l&#39;abonnement](https://helpx.adobe.com/fr/manage-account/using/cancel-subscription.html) pour obtenir de l&#39;aide.
+>Si vous avez besoin d&#39;aide pour régler des frais imprévus sur votre carte, consultez la page [annuler l&#39;abonnement](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) pour obtenir de l&#39;aide.
 
 Braintree offre une expérience de paiement entièrement personnalisable avec détection des fraudes et intégration PayPal. Il prend en charge les méthodes de paiement [!DNL Apple Pay], [!DNL Google Pay], ACH, Venmo et locales. Braintree réduit la charge de conformité PCI pour les commerçants, car la transaction a lieu sur le système Braintree. L’intégration de Braintree Payments est développée par [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/).
 
@@ -26,7 +26,7 @@ Braintree offre une expérience de paiement entièrement personnalisable avec d�
 
 ## Étape 1 : obtenir vos informations d’identification Braintree
 
-Accédez à [Braintree Payments][1] et inscrivez-vous à un compte.
+Accédez à [Braintree Payments](https://www.braintreepayments.com/) et inscrivez-vous à un compte.
 
 ## Étape 2 : définition des paramètres de base
 
@@ -36,7 +36,7 @@ Accédez à [Braintree Payments][1] et inscrivez-vous à un compte.
 
    - Si votre installation Commerce comporte plusieurs sites web, boutiques ou vues, dans le coin supérieur gauche, choisissez la **[!UICONTROL Store View]** où s’applique la configuration.
 
-   - Dans la section _[!UICONTROL Merchant Location]_, vérifiez que **[!UICONTROL Merchant Country]**&#x200B;est défini sur l’emplacement de votre entreprise.
+   - Dans la section _[!UICONTROL Merchant Location]_, vérifiez que **[!UICONTROL Merchant Country]**est défini sur l’emplacement de votre entreprise.
 
 1. Sous _[!UICONTROL Recommended Solutions]_, dans la section_[!UICONTROL Braintree Payments] (par [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [Notes de mise à jour](https://support.gene.co.uk/support/solutions/articles/35000278668)_, cliquez sur **[!UICONTROL Configure]**.
 
@@ -46,14 +46,14 @@ Accédez à [Braintree Payments][1] et inscrivez-vous à un compte.
 
 1. Définissez la **[!UICONTROL Environment]** d’exploitation actuelle pour les transactions Braintree sur `Sandbox` ou `Production`
 
-   Lors du test de la configuration dans un sandbox, utilisez uniquement les [numéros de carte de crédit][2] recommandés par Braintree. Lorsque vous êtes prêt à passer en production avec Braintree, définissez **[!UICONTROL Environment]** sur `Production`.
+   Lors du test de la configuration dans un sandbox, utilisez uniquement les [numéros de carte de crédit](https://developers.braintreepayments.com/reference/general/testing/php) recommandés par Braintree. Lorsque vous êtes prêt à passer en production avec Braintree, définissez **[!UICONTROL Environment]** sur `Production`.
 
    ![Paramètres des informations d’identification de base](../configuration-reference/sales/assets/payment-methods-braintree-basic-config.png){width="600" zoomable="yes"}
 
 1. Définissez **[!UICONTROL Payment Action]** sur l’une des options suivantes :
 
    - `Authorize Only` - Valide l&#39;achat et met un blocage sur les fonds. Le montant n&#39;est pas retiré du compte bancaire du client tant que la vente n&#39;est pas _capturée_ par le commerçant.|
-   - `Intent Sale` - Le montant de l&#39;achat est autorisé et immédiatement retiré du compte du client. **_Remarque :_** cette valeur était _Autoriser et capturer_ dans la version 2.3.x et les versions antérieures.|
+   - `Intent Sale` - Le montant de l&#39;achat est autorisé et immédiatement retiré du compte du client. **_Remarque:_** cette valeur était _Autoriser et capturer_ dans la version 2.3.x et les versions antérieures.|
 
 1. Saisissez le **[!UICONTROL Sandbox Merchant ID / Merchant ID]** de votre compte Braintree.
 
@@ -133,7 +133,7 @@ Accédez à [Braintree Payments][1] et inscrivez-vous à un compte.
 1. Définissez **[!UICONTROL Payment from Applicable Countries]** sur l’une des options suivantes :
 
    - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans la configuration de votre boutique peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Payment from Specific Countries]_&#x200B;s’affiche. Maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et sélectionnez chaque pays dans la liste où les clients peuvent effectuer des achats dans votre boutique.
+   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Payment from Specific Countries]_s’affiche. Maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et sélectionnez chaque pays dans la liste où les clients peuvent effectuer des achats dans votre boutique.
 
    ![Paramètres spécifiques au pays](../configuration-reference/sales/assets/payment-methods-braintree-country-specific-config.png){width="600" zoomable="yes"}
 
@@ -188,7 +188,7 @@ Accédez à [Braintree Payments][1] et inscrivez-vous à un compte.
 
    Options : `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` (pas encore pris en charge)
 
-   ![&#x200B; Paramètres des modes de paiement locaux &#x200B;](../configuration-reference/sales/assets/payment-methods-braintree-local-payment-config.png){width="600" zoomable="yes"}
+   ![ Paramètres des modes de paiement locaux ](../configuration-reference/sales/assets/payment-methods-braintree-local-payment-config.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -252,7 +252,7 @@ Accédez à [Braintree Payments][1] et inscrivez-vous à un compte.
 
      >[!NOTE]
      >
-     >PayPal Credit est disponible uniquement aux États-Unis et au Royaume-Uni. Le crédit PayPal est désactivé si la valeur sélectionnée pour le champ _[!UICONTROL Merchant Country]_&#x200B;n&#39;est pas `US` ou `UK`.
+     >PayPal Credit est disponible uniquement aux États-Unis et au Royaume-Uni. Le crédit PayPal est désactivé si la valeur sélectionnée pour le champ _[!UICONTROL Merchant Country]_n&#39;est pas `US` ou `UK`.
 
    - Pour inclure le [!DNL PayPal PayLater] en tant qu’option de paiement avec Braintree, définissez **[!UICONTROL Enable PayPal PayLater through Braintree]** sur `Yes`.
 
@@ -278,7 +278,7 @@ Accédez à [Braintree Payments][1] et inscrivez-vous à un compte.
 1. Définissez **[!UICONTROL Payment from Applicable Countries]** sur l&#39;une des valeurs suivantes pour les transactions Braintree traitées par PayPal :
 
    - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans la configuration de votre boutique peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Payment from Specific Countries]_&#x200B;s’affiche. Maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et sélectionnez chaque pays dans la liste où les clients peuvent effectuer des achats dans votre boutique.
+   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Payment from Specific Countries]_s’affiche. Maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et sélectionnez chaque pays dans la liste où les clients peuvent effectuer des achats dans votre boutique.
 
    ![PayPal via les paramètres Braintree 2](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
 
@@ -399,7 +399,7 @@ Lorsque ces options sont définies, vous pouvez voir l&#39;aperçu des boutons P
 4. Définissez **[!UICONTROL Verify for Applicable Countries]** sur l’une des options suivantes :
 
    - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans la configuration de votre boutique peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Verify for Specific Countries]_&#x200B;s’affiche. Maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et sélectionnez chaque pays dans la liste où les clients peuvent effectuer des achats dans votre boutique.
+   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Verify for Specific Countries]_s’affiche. Maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et sélectionnez chaque pays dans la liste où les clients peuvent effectuer des achats dans votre boutique.
 
    Paramètres de vérification ![3D](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
 
@@ -407,7 +407,7 @@ Lorsque ces options sont définies, vous pouvez voir l&#39;aperçu des boutons P
 
 Les descripteurs suivants sont utilisés pour identifier les achats sur les relevés de carte de crédit du client. Vous pouvez réduire le nombre de refacturations en identifiant clairement la société associée à chaque achat. Si les descripteurs dynamiques ne sont pas activés pour votre compte, contactez l’assistance Braintree.
 
-![&#x200B; Descripteurs dynamiques &#x200B;](../configuration-reference/sales/assets/payment-methods-braintree-dynamic-config.png){width="600" zoomable="yes"}
+![ Descripteurs dynamiques ](../configuration-reference/sales/assets/payment-methods-braintree-dynamic-config.png){width="600" zoomable="yes"}
 
 1. Saisissez le descripteur dynamique pour le **[!UICONTROL Name]**, le **[!UICONTROL Phone]** et le **[!UICONTROL URL]** conformément à ces instructions :
 
@@ -419,9 +419,9 @@ Les descripteurs suivants sont utilisés pour identifier les achats sur les rele
 
      **_Caractères dans le descripteur de nom_**
 
-     _Option 1 :_ `Company` doit comporter trois caractères, `Product` 18 caractères au maximum
+     _Option 1 :_`Company` doit comporter trois caractères `Product` 18 caractères au maximum
 
-     _Option 2 :_ `Company` doit comporter sept caractères, `Product` 14 caractères au maximum
+     _Option 2 :_`Company` doit comporter sept caractères `Product` 14 caractères au maximum
 
      _Option 3_ : `Company` doit comporter 12 caractères, `Product` peut contenir jusqu&#39;à neuf caractères
 
@@ -442,6 +442,3 @@ Les descripteurs suivants sont utilisés pour identifier les achats sur les rele
 ## Notes de mise à niveau vers 2.4
 
 À partir d’Adobe Commerce et de Magento Open Source 2.4.0, l’extension Braintree est incluse dans la version. Si vous migrez vers Commerce 2.4.x à partir d’une version antérieure à la version 2.4.0 sur laquelle l’extension Marketplace Braintree est installée, vous devez désinstaller cette extension (`paypal/module-braintree` ou `gene/module-braintree`) et mettre à jour toutes les personnalisations de code pour utiliser l’espace de noms `PayPal_Braintree` au lieu de `Magento_Braintree`. Les paramètres de configuration de l’extension principale Commerce Braintree Payments et de l’extension distribuée sur Commerce Marketplace persistent et les paiements placés avec ces versions précédentes peuvent toujours être capturés, annulés ou remboursés normalement.
-
-[1]: https://www.braintreepayments.com/
-[2]: https://developers.braintreepayments.com/reference/general/testing/php

@@ -3,7 +3,7 @@ title: Algorithmes et réservations Source
 description: Découvrez l’algorithme de sélection Source et les systèmes de réservation qui s’exécutent en arrière-plan pour tenir à jour vos quantités vendables.
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2196'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Le cœur de [!DNL Inventory Management] suit chaque produit disponible virtuelle
 
 >[!NOTE]
 >
->Pour plus d’informations sur l’utilisation du système [&#x200B; par programmation](https://developer.adobe.com/commerce/php/development/framework/inventory-management/) consultez la [!DNL Inventory Management] documentation pour les développeurs .
+>Pour plus d’informations sur l’utilisation du système [ par programmation](https://developer.adobe.com/commerce/php/development/framework/inventory-management/) consultez la [!DNL Inventory Management] documentation pour les développeurs .
 
 ## Algorithme de sélection Source
 
@@ -54,7 +54,7 @@ Lorsqu’il est exécuté, l’algorithme :
 - Continue dans la liste jusqu&#39;à ce que l&#39;expédition de la commande soit remplie
 - Ignore les sources désactivées si elles figurent dans la liste
 
-Pour configurer, affecter et commander des sources à un stock personnalisé. Voir [&#x200B; Hiérarchisation des sources pour un stock](stocks-prioritize-sources.md).
+Pour configurer, affecter et commander des sources à un stock personnalisé. Voir [ Hiérarchisation des sources pour un stock](stocks-prioritize-sources.md).
 
 L&#39;exemple suivant détaille les origines mappées dans l&#39;ordre, la quantité disponible, l&#39;origine et le montant recommandés à déduire et à expédier. La source principale est un Drop Shipper au Royaume-Uni avec une quantité disponible de 240.
 
@@ -66,7 +66,7 @@ L&#39;algorithme de priorité de distance compare l&#39;emplacement de l&#39;adr
 
 Vous disposez de deux options pour calculer la distance et le temps pour trouver la source la plus proche pour l&#39;exécution de l&#39;expédition :
 
-- **Google MAP** - Utilise les services de [Google Maps Platform][1] pour calculer la distance et le temps entre l&#39;adresse de destination d&#39;expédition et les emplacements sources (adresse et coordonnées GPS). Cette option utilise la latitude et la longitude de la source. Une clé API Google est requise avec l’[API Geocoding][2] et l’[API Distance Matrix][3] activées. Cette option nécessite un plan de facturation Google et peut entraîner des frais via Google.
+- **Google MAP** - Utilise les services de [Google Maps Platform](https://cloud.google.com/maps-platform/) pour calculer la distance et le temps entre l&#39;adresse de destination d&#39;expédition et les emplacements sources (adresse et coordonnées GPS). Cette option utilise la latitude et la longitude de la source. Une clé API Google est requise avec l’[API Geocoding](https://developers.google.com/maps/documentation/geocoding/start) et l’[API Distance Matrix](https://developers.google.com/maps/documentation/distance-matrix/start) activées. Cette option nécessite un plan de facturation Google et peut entraîner des frais via Google.
 
 - **Calcul hors ligne** - Calcule la distance à l’aide des données de géocode téléchargées et importées afin de déterminer la source la plus proche de l’adresse de destination d’expédition. Cette option utilise les codes pays de l’adresse et de la source d’expédition. Pour configurer cette option, vous pouvez avoir besoin de l&#39;aide d&#39;un développeur pour télécharger et importer initialement des géocodes à l&#39;aide d&#39;une ligne de commande.
 
@@ -82,7 +82,7 @@ Au lieu de déduire ou d&#39;ajouter immédiatement des quantités en stock de p
 
 >[!NOTE]
 >
->[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} La fonctionnalité de réservation nécessite que le client de file d’attente de messages `inventory.reservations.updateSalabilityStatus` s’exécute en continu. Pour vérifier s’il est en cours d’exécution, utilisez la commande `bin/magento queue:consumers:list` . Si le client de la file d’attente de messages n’est pas répertorié, démarrez-le : `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
+>[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} La fonctionnalité de réservation nécessite que le client de file d’attente de messages `inventory.reservations.updateSalabilityStatus` s’exécute en continu. Pour vérifier s’il est en cours d’exécution, utilisez la commande `bin/magento queue:consumers:list` . Si le client de la file d’attente de messages n’est pas répertorié, démarrez-le : `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
 
 ### Réservation de commande
 
@@ -188,7 +188,7 @@ Les trois valeurs `quantity` font la somme de 0 (-25 + 5 + 20). Le système ne m
 
 Le traitement cron `inventory_cleanup_reservations` exécute des requêtes SQL pour effacer la table de la base de données de réservation. Par défaut, il s’exécute tous les jours à minuit, mais vous pouvez configurer les heures et la fréquence. La tâche cron exécute un script qui interroge la base de données pour trouver des séquences de réservation complètes dans lesquelles la somme des valeurs de quantité est égale à 0. Lorsque toutes les réservations d’un produit donné provenant du même jour (ou d’une autre heure configurée) ont été compensées, la tâche cron supprime les réservations en une seule fois.
 
-La tâche cron `inventory_reservations_cleanup` n’est pas identique au consommateur de file d’attente de messages `inventory.reservations.cleanup`. Le client supprime de manière asynchrone les réservations par SKU de produit après la suppression d’un produit, tandis que la tâche cron efface l’ensemble de la table des réservations. Le client est requis lorsque vous activez l’option de stock [**Synchroniser avec le catalogue**](../configuration-reference/catalog/inventory.md) dans la configuration du magasin. Voir [Gérer les files d’attente de messages](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=fr) dans le _Guide de configuration_.
+La tâche cron `inventory_reservations_cleanup` n’est pas identique au consommateur de file d’attente de messages `inventory.reservations.cleanup`. Le client supprime de manière asynchrone les réservations par SKU de produit après la suppression d’un produit, tandis que la tâche cron efface l’ensemble de la table des réservations. Le client est requis lorsque vous activez l’option de stock [**Synchroniser avec le catalogue**](../configuration-reference/catalog/inventory.md) dans la configuration du magasin. Voir [Gérer les files d’attente de messages](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) dans le _Guide de configuration_.
 
 Souvent, toutes les réservations initiales produites au cours d’une seule journée ne peuvent pas être compensées ce même jour. Cette situation peut se produire lorsqu’un client passe une commande juste avant le début de la tâche cron ou effectue l’achat avec un mode de paiement hors ligne, tel qu’un virement bancaire. Les séquences de réservation compensées restent dans la base de données jusqu&#39;à ce qu&#39;elles soient toutes compensées. Cette pratique n’interfère pas avec les calculs de réservation, car le total de chaque réservation est 0.
 
@@ -214,14 +214,11 @@ Toutes les réservations doivent être compensées par des compensations lorsque
 
 >[!NOTE]
 >
->Si vous souhaitez consulter les réservations, une série d’options de ligne de commande est disponible. Vous pouvez uniquement consulter les réservations par le biais d’une interface de ligne de commande. L’utilisation des commandes de l’interface de ligne de commande peut nécessiter l’aide d’un développeur. Voir [[!DNL Inventory Management]  Référence de l’interface en ligne de commande &#x200B;](cli.md).
+>Si vous souhaitez consulter les réservations, une série d’options de ligne de commande est disponible. Vous pouvez uniquement consulter les réservations par le biais d’une interface de ligne de commande. L’utilisation des commandes de l’interface de ligne de commande peut nécessiter l’aide d’un développeur. Voir [[!DNL Inventory Management]  Référence de l’interface en ligne de commande ](cli.md).
 
 Si vous supprimez toutes les sources d&#39;un produit pour un stock avec des commandes en attente, vous avez peut-être bloqué les réservations.
 
 {{$include /help/_includes/unassign-source.md}}
 
-[1]: https://cloud.google.com/maps-platform/
-[2]: https://developers.google.com/maps/documentation/geocoding/start
-[3]: https://developers.google.com/maps/documentation/distance-matrix/start
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->

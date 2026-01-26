@@ -3,8 +3,8 @@ title: Stocker les URL
 description: Découvrez les URL des magasins et comment configurer l’URL de base et les codes de magasin.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1529'
 ht-degree: 0%
@@ -21,19 +21,19 @@ Chaque site web d’une installation Adobe Commerce ou Magento Open Source compo
 
 >[!IMPORTANT]
 >
->Ne modifiez pas l’URL d’administration à partir de la configuration d’URL de base par défaut. Pour modifier l’URL ou le chemin d’accès d’administration, voir [&#x200B; Utiliser une URL d’administration personnalisée &#x200B;](#use-a-custom-admin-url).
+>Ne modifiez pas l’URL d’administration à partir de la configuration d’URL de base par défaut. Pour modifier l’URL ou le chemin d’accès d’administration, voir [ Utiliser une URL d’administration personnalisée ](#use-a-custom-admin-url).
 
 ## Utiliser un protocole sécurisé
 
 Les URL de base de votre boutique ont été initialement configurées lors de votre installation d’Adobe Commerce. Si un certificat de sécurité était disponible à ce moment-là, vous pouviez indiquer les URL `HTTPS` à utiliser pour le magasin, l’administrateur ou les deux. Si votre installation d’Adobe Commerce comprend plusieurs magasins ou si vous prévoyez d’en ajouter d’autres ultérieurement, vous pouvez inclure le code du magasin dans l’URL. Toutes les ressources et opérations d’Adobe peuvent être utilisées avec un protocole sécurisé.
 
-Si aucun certificat de sécurité n’était disponible pour le domaine au moment de l’installation, veillez à mettre à jour la configuration avant de lancer votre boutique. [ Une fois qu’un certificat de sécurité est établi pour votre domaine, vous pouvez configurer les URL de base, ou les deux, pour qu’elles fonctionnent avec le protocole SSL (Secure Sockets Layer) et TLS (Transport Layer Security][1] chiffré.
+Si aucun certificat de sécurité n’était disponible pour le domaine au moment de l’installation, veillez à mettre à jour la configuration avant de lancer votre boutique. [ Une fois qu’un certificat de sécurité est établi pour votre domaine, vous pouvez configurer les URL de base, ou les deux, pour qu’elles fonctionnent avec le protocole SSL (Secure Sockets Layer) et TLS (Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security) chiffré.
 
 >[!IMPORTANT]
 >
 >Adobe recommande vivement de transmettre toutes les pages d’un site de production, y compris les pages de contenu et de produits, à l’aide d’un protocole sécurisé.
 
-Par défaut, Adobe Commerce et Magento Open Source peuvent être configurés pour diffuser toutes les pages sur `HTTPS`. Si votre boutique fonctionne avec le protocole standard, vous pouvez améliorer la sécurité en activant [HTTP Strict Transport Security][2] (HSTS) et en mettant à niveau toutes les requêtes de page non sécurisées. HSTS est un protocole d’accord préalable qui empêche les navigateurs de rendre des pages `HTTP` standard qui sont transmises avec un protocole non sécurisé pour le domaine spécifié. Comme les moteurs de recherche peuvent avoir déjà indexé chaque page de votre boutique avec des URL `HTTP` standard, vous pouvez configurer Commerce pour mettre à niveau toutes les requêtes de page non sécurisées vers `HTTPS` automatiquement , afin de ne pas perdre de trafic. Lorsque Commerce est configuré pour utiliser des URL sécurisées pour le storefront et l’admin, deux champs supplémentaires s’affichent pour vous permettre d’activer `HSTS`.
+Par défaut, Adobe Commerce et Magento Open Source peuvent être configurés pour diffuser toutes les pages sur `HTTPS`. Si votre boutique fonctionne avec le protocole standard, vous pouvez améliorer la sécurité en activant [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) (HSTS) et en mettant à niveau toutes les requêtes de page non sécurisées. HSTS est un protocole d’accord préalable qui empêche les navigateurs de rendre des pages `HTTP` standard qui sont transmises avec un protocole non sécurisé pour le domaine spécifié. Comme les moteurs de recherche peuvent avoir déjà indexé chaque page de votre boutique avec des URL `HTTP` standard, vous pouvez configurer Commerce pour mettre à niveau toutes les requêtes de page non sécurisées vers `HTTPS` automatiquement , afin de ne pas perdre de trafic. Lorsque Commerce est configuré pour utiliser des URL sécurisées pour le storefront et l’admin, deux champs supplémentaires s’affichent pour vous permettre d’activer `HSTS`.
 
 ## Configuration de l’URL de base
 
@@ -112,7 +112,7 @@ Si votre domaine dispose d’un certificat de sécurité valide, vous pouvez con
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Sous _[!UICONTROL General]_&#x200B;dans le panneau de gauche, choisissez **[!UICONTROL Web]**.
+1. Sous _[!UICONTROL General]_dans le panneau de gauche, choisissez **[!UICONTROL Web]**.
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL URL Options]** .
 
@@ -138,7 +138,7 @@ Si, après avoir suivi les instructions de configuration, certaines pages contin
 
 ## Utiliser une URL d’administration personnalisée
 
-En tant que [bonne pratique en matière de sécurité](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=fr), Adobe vous recommande d’utiliser une URL d’administration unique au lieu de la valeur par défaut _admin_ ou un terme courant tel que _backend_. Bien qu’il ne protège pas directement votre site d’un acteur malveillant déterminé, il peut réduire l’exposition aux scripts qui tentent d’obtenir un accès non autorisé.
+En tant que [bonne pratique en matière de sécurité](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), Adobe vous recommande d’utiliser une URL d’administration unique au lieu de la valeur par défaut _admin_ ou un terme courant tel que _backend_. Bien qu’il ne protège pas directement votre site d’un acteur malveillant déterminé, il peut réduire l’exposition aux scripts qui tentent d’obtenir un accès non autorisé.
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Bien qu’il soit possible de modifier l’URL et le chemin d’accès de l’ad
 
 >[!NOTE]
 >
->Par mesure de précaution, n’essayez pas de modifier vous-même l’URL d’administration, sauf si vous savez comment modifier les fichiers de configuration sur le serveur. Pour les projets Adobe Commerce déployés sur une infrastructure cloud, modifiez l’URL d’administration en suivant les [instructions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=fr#admin-url) dans le *Guide d’Adobe Commerce sur une infrastructure cloud*.
+>Par mesure de précaution, n’essayez pas de modifier vous-même l’URL d’administration, sauf si vous savez comment modifier les fichiers de configuration sur le serveur. Pour les projets Adobe Commerce déployés sur une infrastructure cloud, modifiez l’URL d’administration en suivant les [instructions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html#admin-url) dans le *Guide d’Adobe Commerce sur une infrastructure cloud*.
 
 ### Méthode 1 : changement à partir de l’administrateur
 
@@ -200,7 +200,7 @@ Bien qu’il soit possible de modifier l’URL et le chemin d’accès de l’ad
 
    >[!TIP]
    >
-   >Pour Adobe Commerce sur les infrastructures cloud, vous pouvez configurer un chemin d’administration personnalisé à l’aide de la variable `ADMIN_URL` dans l’interface utilisateur Cloud. Voir la rubrique [Variables d’administration](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=fr) dans le guide _Commerce sur les infrastructures cloud_.
+   >Pour Adobe Commerce sur les infrastructures cloud, vous pouvez configurer un chemin d’administration personnalisé à l’aide de la variable `ADMIN_URL` dans l’interface utilisateur Cloud. Voir la rubrique [Variables d’administration](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) dans le guide _Commerce sur les infrastructures cloud_.
 
    - **Chemin d’accès administrateur par défaut**
 
@@ -265,7 +265,3 @@ Si vous avez défini une URL d’administration non valide ou un chemin d’acc�
      ```bash
      php bin/magento cache:flush
      ```
-
-
-[1]: https://en.wikipedia.org/wiki/Transport_Layer_Security
-[2]: https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security

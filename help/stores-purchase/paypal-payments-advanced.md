@@ -3,17 +3,17 @@ title: Paiements PayPal avancés
 description: Découvrez comment configurer PayPal Payments Advanced en tant que solution de paiement en ligne sur votre boutique.
 exl-id: 018dd999-2f17-4650-8f61-624809ae76c6
 feature: Payments
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2162'
 ht-degree: 0%
 
 ---
 
 # Paiements PayPal avancés
 
-[PayPal Payments Advanced][4] est une solution [compatible PCI](../getting-started/compliance-pci.md) qui permet à vos clients de payer par carte de débit ou de crédit sans quitter votre site. Il comprend une page de passage en caisse intégrée qui peut être personnalisée pour créer une expérience de passage en caisse transparente et sécurisée.
+[PayPal Payments Advanced](https://developer.paypal.com/docs/payflow/gs-ppa-hosted-pages/) est une solution [compatible PCI](../getting-started/compliance-pci.md) qui permet à vos clients de payer par carte de débit ou de crédit sans quitter votre site. Il comprend une page de passage en caisse intégrée qui peut être personnalisée pour créer une expérience de passage en caisse transparente et sécurisée.
 
 Même les clients sans compte PayPal peuvent effectuer des achats via la passerelle de paiement sécurisée PayPal. Les cartes de crédit acceptées sont les cartes Visa, MasterCard, Switch/Maestro et Solo aux États-Unis et au Royaume-Uni. Pour plus de commodité, PayPal Express Checkout est inclus avec PayPal Payments Advanced.
 
@@ -28,7 +28,7 @@ Même les clients sans compte PayPal peuvent effectuer des achats via la passere
 
 ## Conditions requises
 
-- [Compte professionnel PayPal][1]
+- [Compte professionnel PayPal](https://www.paypal.com/webapps/mpp/how-to-sell-online)
 - Si vous gérez plusieurs sites web Adobe Commerce et Magento Open Source, vous devez disposer d’un compte marchand PayPal distinct pour chaque site web.
 
 ## Workflow de passage en caisse
@@ -62,7 +62,7 @@ Le traitement des commandes avec PayPal Payments Advanced est le même que pour 
 
 Avant de configurer PayPal Payments Advanced dans Commerce, vous devez configurer votre compte sur le site Web PayPal.
 
-1. Connectez-vous à votre [compte professionnel PayPal][2].
+1. Connectez-vous à votre [compte professionnel PayPal](https://manager.paypal.com/).
 
 1. Accédez à **[!UICONTROL Service Settings]** > **[!UICONTROL Hosted Checkout Pages]** > **[!UICONTROL Set Up Menu]** et définissez les paramètres suivants :
 
@@ -86,7 +86,7 @@ Avant de configurer PayPal Payments Advanced dans Commerce, vous devez configure
 
 1. Configurer un autre utilisateur (recommandé par PayPal) :
 
-   - Connectez-vous à votre [compte professionnel PayPal][2].
+   - Connectez-vous à votre [compte professionnel PayPal](https://manager.paypal.com/).
 
    - Pour configurer un autre utilisateur, suivez les instructions.
 
@@ -110,7 +110,7 @@ Avant de configurer PayPal Payments Advanced dans Commerce, vous devez configure
 
 1. Si votre installation Commerce comporte plusieurs sites web, boutiques ou vues, définissez **[!UICONTROL Store View]** sur la vue de la boutique dans laquelle vous souhaitez appliquer cette configuration.
 
-1. Dans la section _[!UICONTROL Merchant Location]_, sélectionnez le **[!UICONTROL Merchant Country]**&#x200B;où se trouve votre entreprise.
+1. Dans la section _[!UICONTROL Merchant Location]_, sélectionnez le **[!UICONTROL Merchant Country]**où se trouve votre entreprise.
 
    Ce paramètre détermine la sélection des solutions PayPal qui apparaissent dans la configuration.
 
@@ -144,7 +144,7 @@ Avant de configurer PayPal Payments Advanced dans Commerce, vous devez configure
 
 1. Pour exécuter des transactions de test, définissez **[!UICONTROL Test Mode]** sur `Yes`.
 
-   Lors du test de la configuration dans un sandbox, utilisez uniquement les [numéros de carte de crédit][3] recommandés par PayPal. Lorsque vous êtes prêt à passer en production, revenez à la configuration et définissez le Mode Test sur `No`.
+   Lors du test de la configuration dans un sandbox, utilisez uniquement les [numéros de carte de crédit](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) recommandés par PayPal. Lorsque vous êtes prêt à passer en production, revenez à la configuration et définissez le Mode Test sur `No`.
 
 1. Si votre système utilise un serveur proxy pour établir la connexion au système PayPal, définissez **[!UICONTROL Use Proxy]** sur `Yes` et procédez comme suit :
 
@@ -307,7 +307,7 @@ Définissez **[!UICONTROL Enable PayPal PayLater Experience]** sur l’une des o
 1. Définissez **[!UICONTROL Payment Applicable From]** sur l’une des options suivantes :
 
    - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans la configuration de votre boutique peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Payment from Specific Countries]_&#x200B;s’affiche. Maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et sélectionnez chaque pays dans la liste où les clients peuvent effectuer des achats dans votre boutique.
+   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Payment from Specific Countries]_s’affiche. Maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et sélectionnez chaque pays dans la liste où les clients peuvent effectuer des achats dans votre boutique.
 
 1. Pour écrire des communications avec le système de paiement dans le fichier journal, définissez **[!UICONTROL Debug Mode]** sur `Yes`.
 
@@ -380,7 +380,7 @@ Définissez **[!UICONTROL Enable PayPal PayLater Experience]** sur l’une des o
 
 #### Paramètres de l’expérience front-end
 
-Utilisez le _[!UICONTROL Frontend Experience Settings]_&#x200B;pour choisir les logos PayPal qui apparaissent sur votre site et personnaliser l&#39;apparence de vos pages marchandes PayPal.
+Utilisez le _[!UICONTROL Frontend Experience Settings]_pour choisir les logos PayPal qui apparaissent sur votre site et personnaliser l&#39;apparence de vos pages marchandes PayPal.
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Frontend Experience Settings]** .
 
@@ -435,7 +435,7 @@ Utilisez le _[!UICONTROL Frontend Experience Settings]_&#x200B;pour choisir les 
    - `Authorization` - Valide l&#39;achat et met un blocage sur les fonds. Le montant n&#39;est pas retiré tant qu&#39;il n&#39;est pas _saisi_ par le commerçant.
    - `Sale` - Le montant de l&#39;achat est autorisé et immédiatement retiré du compte du client.
 
-1. Pour afficher le bouton _[!UICONTROL Check out with PayPal]_&#x200B;sur la page produit, définissez **[!UICONTROL Display on Product Details Page]**&#x200B;sur `Yes`.
+1. Pour afficher le bouton _[!UICONTROL Check out with PayPal]_sur la page produit, définissez **[!UICONTROL Display on Product Details Page]**sur `Yes`.
 
 ### Étape 7 : Compléter les paramètres avancés - PayPal Express Checkout
 
@@ -463,8 +463,3 @@ Utilisez le _[!UICONTROL Frontend Experience Settings]_&#x200B;pour choisir les 
 1. Pour permettre au client de terminer la transaction à partir du site PayPal sans retourner dans votre magasin pour la révision de commande, définissez **[!UICONTROL Skip Order Review Step]** sur `Yes`.
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://manager.paypal.com/
-[3]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[4]: https://developer.paypal.com/docs/payflow/gs-ppa-hosted-pages/
