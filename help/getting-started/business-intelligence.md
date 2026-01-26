@@ -114,7 +114,7 @@ Si vous recevez un message 404 « Page introuvable », vérifiez que votre bouti
 
    * Vérifiez que la liste des jetons d’intégration pour les extensions est terminée. Cliquez ensuite sur **Terminé**.
 
-     ![ Jetons d’intégration ](./assets/advanced-reporting-integration-tokens-for-extensions.png){width="600"}
+     ![&#x200B; Jetons d’intégration &#x200B;](./assets/advanced-reporting-integration-tokens-for-extensions.png){width="600"}
 
 1. Recherchez le message indiquant que le `Magento Analytics user` d’intégration est réautorisé.
 

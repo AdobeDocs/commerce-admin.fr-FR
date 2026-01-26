@@ -125,7 +125,7 @@ Le suivi des conversions affiche le nombre de clics publicitaires qui entraînen
    - `Dynamic` - Détermine qu&#39;une conversion a eu lieu en fonction de la valeur du montant de commande dynamique.
    - `Constant` - Détermine qu’une conversion a eu lieu en fonction d’une valeur spécifique saisie.
 
-   Pour un type de valeur de conversion _Constante_, saisissez un **[!UICONTROL Value]** spécifique pour que le _[!UICONTROL Order Amount]_soit qualifié de conversion.
+   Pour un type de valeur de conversion _Constante_, saisissez un **[!UICONTROL Value]** spécifique pour que le _[!UICONTROL Order Amount]_&#x200B;soit qualifié de conversion.
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 

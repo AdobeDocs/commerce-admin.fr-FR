@@ -89,7 +89,7 @@ Les commerçants qui font l&#39;objet d&#39;une vérification pour les taxes pay
 - L&#39;adresse de livraison du client et un enregistrement de transaction de paiement réussie peuvent être utilisés pour établir le lieu de résidence du client. (Le paiement n&#39;est accepté que si l&#39;adresse de livraison correspond aux informations du fournisseur de paiement.)
 - Les informations peuvent également être capturées directement à partir du magasin de données dans les tables de la base de données Commerce.
 
-_**Pour collecter des informations relatives à la taxe sur les produits numériques, procédez comme suit**_
+_&#x200B;**Pour collecter des informations relatives à la taxe sur les produits numériques, procédez comme suit**&#x200B;_
 
 1. Chargez les taux d&#39;imposition pour tous les pays membres de l&#39;UE.
 

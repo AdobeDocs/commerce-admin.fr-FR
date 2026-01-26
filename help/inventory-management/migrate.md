@@ -48,7 +48,7 @@ Lorsque vous installez Magento Open Source 2.4.x ou Adobe Commerce 2.4.x, les mo
 
 - De nouvelles [fonctions d’importation/exportation](inventory-import-export.md) vous permettent d’ajouter en masse des sources, de mettre à jour les quantités en stock et de définir le statut du stock (en stock ou en rupture de stock) pour tous les SKU de votre catalogue. Ces fonctions vous permettent de modifier une ou plusieurs sources, sélectionnées ou toutes les sources.
 
-- Les nouvelles options en bloc via la page Grille de produits prennent en charge les [ en bloc ](bulk-assignment.md)affectation et annulation de l’affectation de sources et [ transfert de l’inventaire vers la source](inventory-transfer.md).
+- Les nouvelles options en bloc via la page Grille de produits prennent en charge les [&#x200B; en bloc &#x200B;](bulk-assignment.md)affectation et annulation de l’affectation de sources et [&#x200B; transfert de l’inventaire vers la source](inventory-transfer.md).
 
 - [!DNL Inventory Management] prend en charge les catalogues B2B. Actuellement, tous les produits B2B doivent être affectés au Source par défaut et au Stock par défaut.
 

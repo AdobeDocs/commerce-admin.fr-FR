@@ -44,7 +44,7 @@ Pour ajouter une vidéo de produit, vous devez d’abord obtenir une clé API au
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et choisissez **[!UICONTROL Catalog]** en dessous.
 
-1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Product Video]_et collez votre **[!UICONTROL YouTube API key]**.
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Product Video]_&#x200B;et collez votre **[!UICONTROL YouTube API key]**.
 
    ![Configuration de la vidéo du produit](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
@@ -94,7 +94,7 @@ Pour ajouter une vidéo de produit, vous devez d’abord obtenir une clé API au
 
    >[!NOTE]
    >
-   >Si l’option de configuration _[!UICONTROL Autostart base video]_est définie sur `Yes` mais que la lecture de la vidéo ne commence pas automatiquement, cela peut être dû aux politiques de lecture automatique appliquées par le navigateur et qui ne peuvent pas être contrôlées par Adobe Commerce. Chaque navigateur pris en charge possède ses propres politiques de lecture automatique qui peuvent changer au fil du temps et il se peut que votre vidéo ne soit pas lue automatiquement à l’avenir. Il est recommandé de ne pas vous fier à la lecture automatique pour les fonctionnalités critiques de l’entreprise et de tester le comportement de lecture automatique de la vidéo dans votre boutique avec chaque navigateur pris en charge.
+   >Si l’option de configuration _[!UICONTROL Autostart base video]_&#x200B;est définie sur `Yes` mais que la lecture de la vidéo ne commence pas automatiquement, cela peut être dû aux politiques de lecture automatique appliquées par le navigateur et qui ne peuvent pas être contrôlées par Adobe Commerce. Chaque navigateur pris en charge possède ses propres politiques de lecture automatique qui peuvent changer au fil du temps et il se peut que votre vidéo ne soit pas lue automatiquement à l’avenir. Il est recommandé de ne pas vous fier à la lecture automatique pour les fonctionnalités critiques de l’entreprise et de tester le comportement de lecture automatique de la vidéo dans votre boutique avec chaque navigateur pris en charge.
 
 ## Tenir à jour l’accès à l’API
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Ces informations font partie d’une série de rubriques destinées à aider les commerçants et les développeurs Adobe Commerce à comprendre les implications de la Loi sur la protection de la vie privée des consommateurs de Californie. L&#39;information est basée sur le texte de la loi. Pour confirmer si le CCPA s&#39;applique à votre entreprise, consultez votre avocat.
 
-Le [ California Consumer Privacy Act ](https://oag.ca.gov/privacy/ccpa) (CCPA) élargit les droits des consommateurs californiens quant à la manière dont leurs informations personnelles sont collectées, stockées et utilisées. Elle met l&#39;accent sur la protection des consommateurs contre la vente ou l&#39;échange non autorisé de leurs renseignements personnels. Le CCPA a été adopté en 2018 et est entré en vigueur le 1er janvier 2020.
+Le [&#x200B; California Consumer Privacy Act &#x200B;](https://oag.ca.gov/privacy/ccpa) (CCPA) élargit les droits des consommateurs californiens quant à la manière dont leurs informations personnelles sont collectées, stockées et utilisées. Elle met l&#39;accent sur la protection des consommateurs contre la vente ou l&#39;échange non autorisé de leurs renseignements personnels. Le CCPA a été adopté en 2018 et est entré en vigueur le 1er janvier 2020.
 
 Le CCPA accorde aux consommateurs les nouveaux droits suivants :
 

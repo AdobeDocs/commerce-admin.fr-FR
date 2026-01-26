@@ -19,7 +19,7 @@ Avec Adobe Commerce ou Magento Open Source 2.4, les commerçants peuvent utilise
 
 >[!NOTE]
 >
->Les images de produit ajoutées à la section de produit [_[!UICONTROL Images and Videos]_](../catalog/product-image.md#upload-an-image) ne sont pas gérées par le [!DNL Media Gallery]. Seules les images utilisées dans les champs de la section Produit_[!UICONTROL Content]_ sont affichées et filtrées dans la nouvelle [!DNL Media Gallery].
+>Les images de produit ajoutées à la section de produit [_[!UICONTROL Images and Videos]_](../catalog/product-image.md#upload-an-image) ne sont pas gérées par le [!DNL Media Gallery]. Seules les images utilisées dans les champs de la section Produit&#x200B;_[!UICONTROL Content]_ sont affichées et filtrées dans la nouvelle [!DNL Media Gallery].
 
 ## Activer la nouvelle [!DNL Media Gallery]
 
@@ -37,11 +37,11 @@ Avec Adobe Commerce ou Magento Open Source 2.4, les commerçants peuvent utilise
 
 1. Lorsque vous y êtes invité, cliquez sur le lien **[!UICONTROL Cache Management]** dans le message système et actualisez le cache non valide.
 
-   Le menu [[!UICONTROL Content] affiche désormais ](/help/content-design/content-menu.md) nouvelle option de _[!UICONTROL Media Gallery]_.
+   Le menu [[!UICONTROL Content] affiche désormais &#x200B;](/help/content-design/content-menu.md) nouvelle option de _[!UICONTROL Media Gallery]_.
 
 >[!NOTE]
 >
->La fonctionnalité complète des nouvelles [!DNL Media Gallery] nécessite le démarrage des clients de file d’attente `media.gallery.synchronization` et `media.content.synchronization` pour la synchronisation initiale. Voir [ Gestion des files d’attente de messages ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) dans le _Guide de configuration_ pour plus d’informations.
+>La fonctionnalité complète des nouvelles [!DNL Media Gallery] nécessite le démarrage des clients de file d’attente `media.gallery.synchronization` et `media.content.synchronization` pour la synchronisation initiale. Voir [&#x200B; Gestion des files d’attente de messages &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) dans le _Guide de configuration_ pour plus d’informations.
 
 ## Accéder au nouveau [!DNL Media Gallery]
 
@@ -57,7 +57,7 @@ Pour accéder à la nouvelle Galerie de médias lorsque vous ajoutez ou modifiez
 
 1. Cliquez sur **[!UICONTROL Add a New Page]**.
 
-   Si vous souhaitez modifier une page existante, vous pouvez utiliser la colonne _[!UICONTROL Action]_pour cliquer sur **[!UICONTROL Select]**et choisir **[!UICONTROL Edit]**.
+   Si vous souhaitez modifier une page existante, vous pouvez utiliser la colonne _[!UICONTROL Action]_&#x200B;pour cliquer sur **[!UICONTROL Select]**&#x200B;et choisir **[!UICONTROL Edit]**.
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Content]** et procédez comme suit :
 

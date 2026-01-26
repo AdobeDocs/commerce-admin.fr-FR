@@ -18,7 +18,7 @@ Les informations de base de votre boutique comprennent le nom et l’adresse de 
 
 ## [!UICONTROL Store Information]
 
-La section _[!UICONTROL Store Information]_fournit les informations de base qui apparaissent sur les documents de vente et dans d’autres communications.
+La section _[!UICONTROL Store Information]_&#x200B;fournit les informations de base qui apparaissent sur les documents de vente et dans d’autres communications.
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -85,7 +85,7 @@ Le paramètre régional détermine le fuseau horaire et la langue utilisés pour
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 
-Pour plus d’informations sur les options de configuration des paramètres régionaux, consultez le [ Guide de référence de configuration ](../configuration-reference/general/general.md#locale-options).
+Pour plus d’informations sur les options de configuration des paramètres régionaux, consultez le [&#x200B; Guide de référence de configuration &#x200B;](../configuration-reference/general/general.md#locale-options).
 
 ## [!UICONTROL State Options]
 
@@ -111,7 +111,7 @@ Comme les formats d&#39;adresse standard varient d&#39;un pays à l&#39;autre, v
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 
-Pour plus d’informations sur les options de configuration d’état, consultez le [ Guide de référence de configuration ](../configuration-reference/general/general.md#state-options).
+Pour plus d’informations sur les options de configuration d’état, consultez le [&#x200B; Guide de référence de configuration &#x200B;](../configuration-reference/general/general.md#state-options).
 
 ## [!UICONTROL Country Options]
 
@@ -169,7 +169,7 @@ Vous pouvez également configurer l’expédition vers des pays spécifiques pou
 
 Pour obtenir de l’aide sur la résolution des problèmes de configuration des pays, consultez les articles suivants de la base de connaissances de l’assistance [!DNL Commerce] :
 
-- [Comment ajouter un pays ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
+- [Comment ajouter un pays &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
 
@@ -187,13 +187,13 @@ Le paramètre Emplacement du vendeur est utilisé pour configurer [modes de paie
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 
-Pour plus d&#39;informations sur les options de configuration des modes de paiement, consultez le [ Guide de référence de configuration](../configuration-reference/sales/payment-methods.md).
+Pour plus d&#39;informations sur les options de configuration des modes de paiement, consultez le [&#x200B; Guide de référence de configuration](../configuration-reference/sales/payment-methods.md).
 
 ## Devise monétaire
 
 Configuration de la devise : définit la devise [devise](../stores-purchase/currency-configuration.md) de base et toutes les devises supplémentaires acceptées en tant que paiement. Établit également la connexion et le planning d&#39;importation qui sont utilisés pour mettre à jour automatiquement les taux de change.
 
-Symboles de devise - Définit les [ symboles de devise](../stores-purchase/currency-configuration.md#step-5-customize-currency-symbols-optional) qui apparaissent dans les prix de produit et les documents de vente tels que les commandes et les factures. [!DNL Commerce] prend en charge les devises de plus de 200 pays à travers le monde.
+Symboles de devise - Définit les [&#x200B; symboles de devise](../stores-purchase/currency-configuration.md#step-5-customize-currency-symbols-optional) qui apparaissent dans les prix de produit et les documents de vente tels que les commandes et les factures. [!DNL Commerce] prend en charge les devises de plus de 200 pays à travers le monde.
 
 Mise à jour des taux de change - Les taux de change peuvent être [mis à jour](../stores-purchase/currency-update.md) manuellement ou importés dans votre boutique selon vos besoins ou selon un planning prédéfini.
 

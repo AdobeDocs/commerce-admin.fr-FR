@@ -16,7 +16,7 @@ Le cœur de [!DNL Inventory Management] suit chaque produit disponible virtuelle
 
 >[!NOTE]
 >
->Pour plus d’informations sur l’utilisation du système [ par programmation](https://developer.adobe.com/commerce/php/development/framework/inventory-management/) consultez la [!DNL Inventory Management] documentation pour les développeurs .
+>Pour plus d’informations sur l’utilisation du système [&#x200B; par programmation](https://developer.adobe.com/commerce/php/development/framework/inventory-management/) consultez la [!DNL Inventory Management] documentation pour les développeurs .
 
 ## Algorithme de sélection Source
 
@@ -54,7 +54,7 @@ Lorsqu’il est exécuté, l’algorithme :
 - Continue dans la liste jusqu&#39;à ce que l&#39;expédition de la commande soit remplie
 - Ignore les sources désactivées si elles figurent dans la liste
 
-Pour configurer, affecter et commander des sources à un stock personnalisé. Voir [ Hiérarchisation des sources pour un stock](stocks-prioritize-sources.md).
+Pour configurer, affecter et commander des sources à un stock personnalisé. Voir [&#x200B; Hiérarchisation des sources pour un stock](stocks-prioritize-sources.md).
 
 L&#39;exemple suivant détaille les origines mappées dans l&#39;ordre, la quantité disponible, l&#39;origine et le montant recommandés à déduire et à expédier. La source principale est un Drop Shipper au Royaume-Uni avec une quantité disponible de 240.
 
@@ -214,7 +214,7 @@ Toutes les réservations doivent être compensées par des compensations lorsque
 
 >[!NOTE]
 >
->Si vous souhaitez consulter les réservations, une série d’options de ligne de commande est disponible. Vous pouvez uniquement consulter les réservations par le biais d’une interface de ligne de commande. L’utilisation des commandes de l’interface de ligne de commande peut nécessiter l’aide d’un développeur. Voir [[!DNL Inventory Management]  Référence de l’interface en ligne de commande ](cli.md).
+>Si vous souhaitez consulter les réservations, une série d’options de ligne de commande est disponible. Vous pouvez uniquement consulter les réservations par le biais d’une interface de ligne de commande. L’utilisation des commandes de l’interface de ligne de commande peut nécessiter l’aide d’un développeur. Voir [[!DNL Inventory Management]  Référence de l’interface en ligne de commande &#x200B;](cli.md).
 
 Si vous supprimez toutes les sources d&#39;un produit pour un stock avec des commandes en attente, vous avez peut-être bloqué les réservations.
 

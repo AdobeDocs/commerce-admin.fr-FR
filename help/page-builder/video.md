@@ -20,11 +20,11 @@ Utilisez le type de contenu _Vidéo_ pour ajouter une vidéo hébergée sur [You
 
 ## Boîte à outils vidéo
 
-![ Boîte à outils vidéo ](./assets/pb-media-video-toolbox.png){width="600" zoomable="yes"}
+![&#x200B; Boîte à outils vidéo &#x200B;](./assets/pb-media-video-toolbox.png){width="600" zoomable="yes"}
 
 | Outil | Icon | Description |
 |--- |--- |--- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace la vidéo vers un autre emplacement sur la scène. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace la vidéo vers un autre emplacement sur la scène. |
 | (libellé) | [!UICONTROL Video] | Identifie le conteneur de contenu actuel en tant que vidéo. Pointez sur le conteneur d’image pour afficher la boîte à outils. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _[!UICONTROL Edit Video]_, où vous pouvez modifier les propriétés de la vidéo et du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque la vidéo active. |
@@ -89,9 +89,9 @@ Utilisez le type de contenu _Vidéo_ pour ajouter une vidéo hébergée sur [You
 
    Si la lecture automatique est définie sur `Yes`, la vidéo est mise en sourdine lors de la lecture, conformément à la politique. Cependant, même avec ce paramètre, les appareils mobiles ne peuvent pas lire automatiquement vos vidéos. Pour plus d’informations sur ces politiques, consultez les ressources de développement suivantes :
 
-   - [ Politique de lecture automatique de Vimeo ](https://vimeo.zendesk.com/hc/en-us/articles/115004485728-Autoplaying-and-looping-embedded-videos)
+   - [&#x200B; Politique de lecture automatique de Vimeo &#x200B;](https://vimeo.zendesk.com/hc/en-us/articles/115004485728-Autoplaying-and-looping-embedded-videos)
    - [Politique de lecture automatique à partir de Google (Chrome/YouTube)](https://developer.chrome.com/blog/autoplay/)
-   - [ Politique de lecture automatique pour les vidéos locales ](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
+   - [&#x200B; Politique de lecture automatique pour les vidéos locales &#x200B;](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
 
    Si la lecture automatique est définie sur `No`, la vidéo est lue à la demande de l’utilisateur uniquement.
 
@@ -156,7 +156,7 @@ Utilisez le type de contenu _Vidéo_ pour ajouter une vidéo hébergée sur [You
 
 1. Pointez sur le conteneur vidéo pour afficher la boîte à outils et sélectionnez l’icône _Déplacer_ ( ![Icône Déplacer](./assets/pb-icon-move.png){width="20"} ).
 
-   ![ Déplacement d’une vidéo ](./assets/pb-media-video-toolbox-move-col1.png){width="500" zoomable="yes"}
+   ![&#x200B; Déplacement d’une vidéo &#x200B;](./assets/pb-media-video-toolbox-move-col1.png){width="500" zoomable="yes"}
 
 1. Sélectionnez la vidéo et faites-la glisser vers sa nouvelle position, juste en dessous de la consigne rouge.
 

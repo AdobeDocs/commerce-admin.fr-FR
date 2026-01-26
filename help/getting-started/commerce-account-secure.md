@@ -32,7 +32,7 @@ Pour utiliser TFA, vous devez avoir une application TFA installée sur votre app
 
 ## Activer l’authentification à deux facteurs
 
-1. Connectez-vous à votre [[!DNL Commerce]  compte ](https://account.magento.com/customer/account/login){:target="_blank"}.
+1. Connectez-vous à votre [[!DNL Commerce]  compte &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Dans le volet de navigation de gauche, sélectionnez **[!UICONTROL Account Settings]**, puis **[!UICONTROL Two-factor Authentication]**.
 
@@ -122,7 +122,7 @@ Pour utiliser TFA, vous devez avoir une application TFA installée sur votre app
 
 ## Se connecter à l’aide de l’e-mail de récupération
 
-1. Connectez-vous à votre [[!DNL Commerce]  compte ](https://account.magento.com/customer/account/login){:target="_blank"}.
+1. Connectez-vous à votre [[!DNL Commerce]  compte &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Saisissez votre nom d’utilisateur et votre mot de passe, puis sélectionnez **[!UICONTROL Login]**.
 

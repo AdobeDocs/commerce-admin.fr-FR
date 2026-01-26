@@ -26,7 +26,7 @@ Vous disposez de deux options pour calculer la distance et le temps pour trouver
 
 >[!NOTE]
 >
->Pour un site web multi-magasin comportant plusieurs pays, configurez la [ destination fiscale par défaut ](../stores-purchase/tax-class.md#default-tax-destination){target="_blank"} pour chaque pays.
+>Pour un site web multi-magasin comportant plusieurs pays, configurez la [&#x200B; destination fiscale par défaut &#x200B;](../stores-purchase/tax-class.md#default-tax-destination){target="_blank"} pour chaque pays.
 
 ## Utiliser les cartes Google
 
@@ -77,11 +77,11 @@ La clé provient de la plateforme [Google Maps](https://cloud.google.com/maps-pl
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et choisissez **[!UICONTROL Inventory]**.
 
-1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Distance Provider for Distance Based SSA]_et définissez **[!UICONTROL Provider]**sur `Google MAP`.
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;et définissez **[!UICONTROL Provider]**&#x200B;sur `Google MAP`.
 
    ![Fournisseurs de SSA à distance](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Google Distance Provider]_et configurez les paramètres :
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Google Distance Provider]_&#x200B;et configurez les paramètres :
 
    - Par **[!UICONTROL Google API Key]**, saisissez la clé copiée à partir de votre compte Google.
 
@@ -89,7 +89,7 @@ La clé provient de la plateforme [Google Maps](https://cloud.google.com/maps-pl
 
      >[!NOTE]
      >
-     >Lors de l’utilisation de cet algorithme pour l’expédition, si les itinéraires et les données ne sont pas renvoyés pour le mode de calcul sélectionné (conduite, bicyclette ou marche) pour une expédition, la SSA utilise par défaut la priorité Source. Il est recommandé de définir la [ priorité des sources par stock ](stocks-prioritize-sources.md).
+     >Lors de l’utilisation de cet algorithme pour l’expédition, si les itinéraires et les données ne sont pas renvoyés pour le mode de calcul sélectionné (conduite, bicyclette ou marche) pour une expédition, la SSA utilise par défaut la priorité Source. Il est recommandé de définir la [&#x200B; priorité des sources par stock &#x200B;](stocks-prioritize-sources.md).
 
      | Option | Description |
      | ----- | ----- |

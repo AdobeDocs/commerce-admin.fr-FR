@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Éléments - Code HTML
 
-Utilisez le type de contenu _Code HTML_ pour ajouter des fragments de code HTML, CSS et JavaScript à l’étape [[!DNL Page Builder] ](workspace.md#stage). Par exemple, si vous souhaitez ajouter un HTML personnalisé, déclarez une classe CSS pouvant être appliquée à un élément de la page. Vous pouvez également ajouter un fragment de code pour un logo, un bouton ou une bannière que vous avez reçu d’un fournisseur tiers.
+Utilisez le type de contenu _Code HTML_ pour ajouter des fragments de code HTML, CSS et JavaScript à l’étape [[!DNL Page Builder] &#x200B;](workspace.md#stage). Par exemple, si vous souhaitez ajouter un HTML personnalisé, déclarez une classe CSS pouvant être appliquée à un élément de la page. Vous pouvez également ajouter un fragment de code pour un logo, un bouton ou une bannière que vous avez reçu d’un fournisseur tiers.
 
 ## Boîte à outils Code HTML
 
@@ -20,7 +20,7 @@ Utilisez le type de contenu _Code HTML_ pour ajouter des fragments de code HTML,
 
 | Outil | Icon | Description |
 | --------- | ---------- | ----------------- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur Code HTML vers un autre emplacement valide sur la page. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur Code HTML vers un autre emplacement valide sur la page. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Modifier le code HTML , qui permet de modifier les propriétés du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le conteneur Code HTML. |
 | Afficher | ![Afficher l’icône](./assets/pb-icon-show.png){width="25"} | Affiche le conteneur Code HTML masqué. |
@@ -84,7 +84,7 @@ L&#39;exemple suivant montre comment incorporer du code [Google Font](https://fo
 
 ### Étape 3 : prévisualiser la page
 
-1. Dans la section _[!UICONTROL Currently Active]_, définissez **[!UICONTROL Enable Page]**sur `Yes`.
+1. Dans la section _[!UICONTROL Currently Active]_, définissez **[!UICONTROL Enable Page]**&#x200B;sur `Yes`.
 
    ![Activation de la page](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -110,7 +110,7 @@ L&#39;exemple suivant montre comment incorporer du code [Google Font](https://fo
    | Insérer une image... | Cliquez pour insérer une image téléchargée ou une image de la Galerie à la position du curseur dans la zone de texte HTML. |
    | Insérer une variable... | Cliquez pour insérer une variable à la position du curseur dans la zone de texte HTML. |
 
-1. Mettez à jour les paramètres _[!UICONTROL Advanced]_selon vos besoins.
+1. Mettez à jour les paramètres _[!UICONTROL Advanced]_&#x200B;selon vos besoins.
 
    - Pour contrôler le positionnement du code dans le conteneur parent, choisissez une **[!UICONTROL Alignment]** :
 

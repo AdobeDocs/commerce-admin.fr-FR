@@ -21,13 +21,13 @@ Chaque site web d’une installation Adobe Commerce ou Magento Open Source compo
 
 >[!IMPORTANT]
 >
->Ne modifiez pas l’URL d’administration à partir de la configuration d’URL de base par défaut. Pour modifier l’URL ou le chemin d’accès d’administration, voir [ Utiliser une URL d’administration personnalisée ](#use-a-custom-admin-url).
+>Ne modifiez pas l’URL d’administration à partir de la configuration d’URL de base par défaut. Pour modifier l’URL ou le chemin d’accès d’administration, voir [&#x200B; Utiliser une URL d’administration personnalisée &#x200B;](#use-a-custom-admin-url).
 
 ## Utiliser un protocole sécurisé
 
 Les URL de base de votre boutique ont été initialement configurées lors de votre installation d’Adobe Commerce. Si un certificat de sécurité était disponible à ce moment-là, vous pouviez indiquer les URL `HTTPS` à utiliser pour le magasin, l’administrateur ou les deux. Si votre installation d’Adobe Commerce comprend plusieurs magasins ou si vous prévoyez d’en ajouter d’autres ultérieurement, vous pouvez inclure le code du magasin dans l’URL. Toutes les ressources et opérations d’Adobe peuvent être utilisées avec un protocole sécurisé.
 
-Si aucun certificat de sécurité n’était disponible pour le domaine au moment de l’installation, veillez à mettre à jour la configuration avant de lancer votre boutique. [ Une fois qu’un certificat de sécurité est établi pour votre domaine, vous pouvez configurer les URL de base, ou les deux, pour qu’elles fonctionnent avec le protocole SSL (Secure Sockets Layer) et TLS (Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security) chiffré.
+Si aucun certificat de sécurité n’était disponible pour le domaine au moment de l’installation, veillez à mettre à jour la configuration avant de lancer votre boutique. [&#x200B; Une fois qu’un certificat de sécurité est établi pour votre domaine, vous pouvez configurer les URL de base, ou les deux, pour qu’elles fonctionnent avec le protocole SSL (Secure Sockets Layer) et TLS (Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security) chiffré.
 
 >[!IMPORTANT]
 >
@@ -112,7 +112,7 @@ Si votre domaine dispose d’un certificat de sécurité valide, vous pouvez con
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Sous _[!UICONTROL General]_dans le panneau de gauche, choisissez **[!UICONTROL Web]**.
+1. Sous _[!UICONTROL General]_&#x200B;dans le panneau de gauche, choisissez **[!UICONTROL Web]**.
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL URL Options]** .
 

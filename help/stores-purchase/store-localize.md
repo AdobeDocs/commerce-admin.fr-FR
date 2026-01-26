@@ -104,7 +104,7 @@ Si votre boutique propose plusieurs vues dans différentes langues, les mêmes p
 
 1. Pour _Informations de base_, traduisez **[!UICONTROL Category Name]**.
 
-1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Content]_et traduisez **[!UICONTROL Description]**.
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Content]_&#x200B;et traduisez **[!UICONTROL Description]**.
 
 1. Développez ![Sélecteur de développement](../assets/icon-display-expand.png) la section **[!UICONTROL Search Engine Optimization Settings]** et traduisez les champs suivants :
 
