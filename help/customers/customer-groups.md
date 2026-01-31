@@ -111,4 +111,4 @@ Les groupes de clients déterminent les remises disponibles et la classe de taxe
 
 Découvrez comment créer des groupes de clients en regardant cette démonstration :
 
->[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410169/?captions=fre_fr&quality=12&learn=on)
