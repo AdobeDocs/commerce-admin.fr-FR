@@ -1,7 +1,7 @@
 ---
-source-git-commit: 2129ac8cbafaf4e7a91bc86244eebce9f65fa9b7
+source-git-commit: cd490086a1a3bd46b4f19334fc5b28a2a0c23641
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '261'
 ht-degree: 5%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 5%
 ## Nouveautés
 
 Cette section contient les modifications apportées au cours des 60 derniers jours. Toutes les mises à jour mineures, telles que la modification de copies, sont exclues de cette liste.
+
+### 28 janvier 2020
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Mise à jour de la <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-groups">Groupes de clients</a> dans le Guide de gestion des clients afin de clarifier le fait que les utilisateurs administrateurs ne peuvent pas modifier le groupe de clients d’un client après que ce dernier a été affecté à une société.</p>
+</td>
+      <td>
+        Technique
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/pull/81">demande de tirage</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### mercredi 20 janvier 2026
 
@@ -45,7 +67,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Ajout d’une clarification lorsque les e-mails <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/config/sales/sales-emails#order-ready-for-pickup-in-store">Order Ready For Pickup in Store</a> sont disponibles.</p>
+      <td><p>Ajout d’une clarification lorsque les e-mails <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/sales-emails#order-ready-for-pickup-in-store">Order Ready For Pickup in Store</a> sont disponibles.</p>
 </td>
       <td>
         Feedback
@@ -67,7 +89,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Ajout des fonctionnalités suivantes à Adobe Commerce as a Cloud Service :<br />- Ajout de la prise en charge de <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise">Google reCAPTCHA Enterprise</a>, qui fournit une protection de robots avancée avec des fonctionnalités d’analyse de risque adaptative et de machine learning.<br />- Transformez les numéros de suivi d’expédition inclus dans les e-mails des acheteurs en texte brut en liens cliquables en <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls">activant les URL de suivi personnalisées</a>. Cette fonctionnalité est prise en charge pour USPS, UPS, FedEx et DHL.<br />- Vous pouvez désormais combiner des remises de tarification échelonnée avec des remises de règle de catalogue à l’aide de <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules">règles de prix de catalogue</a>. Cette amélioration vous permet de créer des stratégies de tarification plus dynamiques et plus concurrentielles.</p>
+      <td><p>Ajout des fonctionnalités suivantes à Adobe Commerce as a Cloud Service :<br />- Ajout de la prise en charge de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise">Google reCAPTCHA Enterprise</a>, qui fournit une protection de robots avancée avec des fonctionnalités d’analyse de risque adaptative et de machine learning.<br />- Transformez les numéros de suivi d’expédition inclus dans les e-mails des acheteurs en texte brut en liens cliquables en <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls">activant les URL de suivi personnalisées</a>. Cette fonctionnalité est prise en charge pour USPS, UPS, FedEx et DHL.<br />- Vous pouvez désormais combiner des remises de tarification échelonnée avec des remises de règle de catalogue à l’aide de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules">règles de prix de catalogue</a>. Cette amélioration vous permet de créer des stratégies de tarification plus dynamiques et plus concurrentielles.</p>
 </td>
       <td>
         Mise à jour majeure, nouvelle rubrique
@@ -89,7 +111,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Mise à jour de la rubrique <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Récompenses et fidélité</a> afin de clarifier la manière dont la taxe est calculée lorsque les clients utilisent des points de récompense ou un crédit de boutique lors du passage en caisse.</p>
+      <td><p>Mise à jour de la rubrique <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Récompenses et fidélité</a> afin de clarifier la manière dont la taxe est calculée lorsque les clients utilisent des points de récompense ou un crédit de boutique lors du passage en caisse.</p>
 </td>
       <td>
         Feedback
@@ -111,7 +133,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Mise à jour des descriptions des méta-directives <code class="language-plaintext highlighter-rouge">NOFOLLOW</code> robots dans la <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/seo/seo-overview">documentation SEO</a>.<br /><em>Correction du problème <a href="https://github.com/AdobeDocs/commerce-admin.fr-FR/issues/82">#82</a>.</em></p>
+      <td><p>Mise à jour des descriptions des méta-directives <code class="language-plaintext highlighter-rouge">NOFOLLOW</code> robots dans la <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview">documentation SEO</a>.<br /><em>Correction du problème <a href="https://github.com/AdobeDocs/commerce-admin.en/issues/82">#82</a>.</em></p>
 </td>
       <td>
         Technique, commentaires
