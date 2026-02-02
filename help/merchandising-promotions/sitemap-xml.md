@@ -3,10 +3,10 @@ title: Cartes du site
 description: Découvrez comment configurer un plan de site pour indexer toutes les pages et images de vos sites Commerce.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: c9af0854f60da74959b5d1d822b342def417b0f9
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 321a9fb0f3c6d86aad520b76ff717c0b07ac37f0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Pour Adobe Commerce as a Cloud Service, consultez les [directives SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=fr) de la documentation du Storefront Commerce
+>Pour Adobe Commerce as a Cloud Service, consultez les [directives SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) de la documentation du Storefront Commerce
 
-Un plan de site améliore la façon dont votre boutique est indexée par les moteurs de recherche et est conçu pour trouver les pages qui pourraient être ignorées par les robots d’exploration. Un plan de site peut être configuré pour indexer toutes les pages et images.
+Un plan de site améliore la façon dont votre boutique est indexée par les moteurs de recherche et est conçu pour rechercher les pages qui pourraient être ignorées par les robots d&#39;exploration web. Un plan de site peut être configuré pour indexer toutes les pages et images.
 
 Lorsqu’il est activé, Commerce crée un fichier appelé `sitemap.xml` qui est enregistré dans votre installation à l’emplacement spécifié. La configuration vous permet de définir la fréquence des mises à jour et la priorité de chaque type de contenu. Votre carte de site doit être mise à jour aussi souvent que le contenu de votre site change, ce qui peut être quotidien, hebdomadaire ou mensuel.
 
-Pendant le développement de votre site, vous pouvez inclure des instructions dans le fichier `robots.txt` pour les robots d’exploration web afin d’éviter d’indexer le site. Ensuite, avant le lancement, vous pouvez modifier les instructions pour permettre l’indexation du site.
+Pendant le développement de votre site, vous pouvez inclure des instructions dans le fichier `robots.txt` pour les robots d&#39;exploration web afin d’éviter d’indexer le site. Ensuite, avant le lancement, vous pouvez modifier les instructions pour permettre l’indexation du site.
 
-Pour obtenir des informations techniques, voir [Ajouter un plan de site et robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=fr) dans le guide _Commerce sur les infrastructures cloud_.
+Pour obtenir des informations techniques, voir [Ajouter un plan de site et robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) dans le guide _Commerce sur les infrastructures cloud_.
 
 ![Grille du plan du site](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -55,7 +55,7 @@ Effectuez la [configuration du plan de site XML](#site-map-configuration) pour d
 
 ## Étape 3. Configuration et activation de robots.txt (facultatif)
 
-Effectuez la configuration [robots de moteurs de recherche](seo-overview.md#search-engine-robots) avec des instructions qui demandent aux moteurs de recherche d’analyser les parties de votre site que vous souhaitez indexer.
+Effectuez la configuration [robots de moteurs de recherche](seo-overview.md#search-engine-robots) avec des instructions qui demandent aux moteurs de recherche d’explorer aux parties de votre site que vous souhaitez indexer.
 
 ## Étape 4. Envoyer votre plan du site aux moteurs de recherche
 
@@ -102,7 +102,7 @@ Pour créer des plans de site pour une instance multimagasin, procédez comme su
    
 >[!NOTE]
 >
->Si votre site utilise le moteur de serveur web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=fr), vous devez mettre à jour le fichier [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) dans la racine de votre site web pour diriger toute autre requête de plan de site vers l’emplacement approprié.
+>Si votre site utilise le moteur de serveur web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html), vous devez mettre à jour le fichier [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) dans la racine de votre site web pour diriger toute autre requête de plan de site vers l’emplacement approprié.
 
 ## Descriptions des colonnes
 
@@ -224,33 +224,6 @@ La carte de votre site doit être mise à jour aussi souvent que le contenu de v
 
    ![Configuration du catalogue - Paramètres d’envoi du moteur de recherche du plan de site XML](../configuration-reference/catalog/assets/xml-sitemap-search-engine-submission-settings.png){width="600" zoomable="yes"}
 
-1. Si vous utilisez un fichier `robots.txt` pour fournir des instructions aux moteurs de recherche qui explorent votre site, définissez **[!UICONTROL Enable Submission to Robots.txt]** sur `Yes`.
+1. Si vous utilisez un fichier `robots.txt` pour fournir des instructions aux moteurs de recherche qui explorent à votre site, définissez **[!UICONTROL Enable Submission to Robots.txt]** sur `Yes`.
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
-
-## Activer la génération d’un plan de site par lots pour les catalogues volumineux
-
-Pour les magasins disposant de catalogues volumineux, utilisez la tâche cron alternative suivante pour activer la génération d’un plan de site par lots. Cette approche traite les données par incréments plus petits, ce qui réduit considérablement le risque d’épuisement de la mémoire PHP et garantit que la génération du plan du site se termine correctement, même pour les sites disposant de données de produit volumineuses.
-
-Dans `app/code/Magento/Sitemap/etc/config.xml`, remplacez :
-
-```xml
-<jobs>
-  <sitemap_generate>
-    <schedule>
-      <cron_expr>0 0 * * *</cron_expr>
-    </schedule>
-  </sitemap_generate>
-</jobs>
-```
-
-par :
-
-```xml
-<jobs>
-  <sitemap_generate_batch>
-    <schedule>
-      <cron_expr>0 0 * * *</cron_expr>
-    </schedule>
-  </sitemap_generate_batch>></jobs>
-```
