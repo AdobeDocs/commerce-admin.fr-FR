@@ -26,7 +26,7 @@ Pour accorder à une personne un accès restreint à l’administrateur, la prem
 
 ### Étape 1 : ajouter le nom du rôle
 
-1. Sous _[!UICONTROL Role Information]_, saisissez un **[!UICONTROL Role Name]**descriptif.
+1. Sous _[!UICONTROL Role Information]_, saisissez un **[!UICONTROL Role Name]**&#x200B;descriptif.
 
 1. Sous _[!UICONTROL Current User Identity Verification]_, saisissez votre mot de passe.
 
@@ -49,9 +49,9 @@ Pour accorder à une personne un accès restreint à l’administrateur, la prem
 
    >[!NOTE]
    >
-   >Les utilisateurs dotés d’une portée de rôle `Custom` ne sont pas en mesure de créer des sites web et des catégories, d’affecter des produits à des catégories ou de modifier des produits à _[!UICONTROL All Store Views]_portée lorsqu’ils sont affectés à des magasins restreints. Ces utilisateurs ne peuvent pas non plus effectuer d’autres actions_ globales _qui affectent les portées auxquelles ils n’ont pas accès.
+   >Les utilisateurs dotés d’une portée de rôle `Custom` ne sont pas en mesure de créer des sites web et des catégories, d’affecter des produits à des catégories ou de modifier des produits à _[!UICONTROL All Store Views]_&#x200B;portée lorsqu’ils sont affectés à des magasins restreints. Ces utilisateurs ne peuvent pas non plus effectuer d’autres actions_ globales _qui affectent les portées auxquelles ils n’ont pas accès.
 
-1. Sous _[!UICONTROL Roles Resources]_, définissez **[!UICONTROL Resource Access]**sur `Custom`.
+1. Sous _[!UICONTROL Roles Resources]_, définissez **[!UICONTROL Resource Access]**&#x200B;sur `Custom`.
 
    >[!NOTE]
    >
@@ -81,7 +81,7 @@ Pour accorder à une personne un accès restreint à l’administrateur, la prem
 
 1. Dans le panneau de gauche, choisissez **[!UICONTROL Role Users]**.
 
-   L’option _[!UICONTROL Role Users]_n’apparaît qu’une fois le nouveau rôle enregistré.
+   L’option _[!UICONTROL Role Users]_&#x200B;n’apparaît qu’une fois le nouveau rôle enregistré.
 
    ![Comptes utilisateur affectés au rôle](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
