@@ -56,4 +56,4 @@ Le [!UICONTROL Downloads Report] répertorie tous les téléchargements au cours
 
 Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Downloaded]**.
 
-![ Rapport Téléchargements ](./assets/downloads.png){width="600"}
+![&#x200B; Rapport Téléchargements &#x200B;](./assets/downloads.png){width="600"}
