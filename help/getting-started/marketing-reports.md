@@ -22,7 +22,7 @@ Le rapport [!UICONTROL Products in Cart] fournit une liste de tous les produits 
 
 ## [!UICONTROL Search Terms Report]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 Le rapport [Termes de recherche](../catalog/search-terms.md#search-terms-report) indique ce que vos clients recherchent dans chaque vue de magasin. Le rapport inclut le nombre d’éléments correspondants trouvés dans le catalogue et le nombre de fois où le terme de recherche a été utilisé.
 
@@ -36,7 +36,7 @@ Le rapport [!UICONTROL Abandoned Carts] répertorie tous les clients enregistré
 
 ## [!UICONTROL Newsletter Problems Report]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 Le [!UICONTROL Newsletter Problems Report] contient des informations sur toute file d’attente de newsletter dont la transmission a échoué. Le rapport inclut le nom de chaque abonné, la date de file d’attente et l’objet, ainsi que les informations sur l’erreur.
 
