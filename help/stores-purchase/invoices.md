@@ -3,9 +3,9 @@ title: Factures
 description: Découvrez comment créer et imprimer des factures pour prendre en charge le traitement des commandes et les opérations du service client.
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: 80cc27c4247230eb5e43bca46a34d358f9f0bcea
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Une facture pour la commande doit être générée avant de pouvoir être imprim
 
    >[!NOTE]
    >
-   >L’option _[!UICONTROL Invoice]_&#x200B;n’apparaît pas lorsque l’option [action de paiement](../configuration-reference/sales/payment-methods.md#payment-actions) pour votre [mode de paiement](../configuration-reference/sales/payment-methods.md) spécifique est définie sur `Authorize and Capture`, ce qui génère automatiquement une facture. C&#39;est également le cas si la commande est passée et que l&#39;action de paiement pour votre mode de paiement est définie sur `Authorize` et que la commande est facturée.
+   >L’option _[!UICONTROL Invoice]_n’apparaît pas lorsque l’option [action de paiement](../configuration-reference/sales/payment-methods.md#payment-actions) pour votre [mode de paiement](../configuration-reference/sales/payment-methods.md) spécifique est définie sur `Authorize and Capture`, ce qui génère automatiquement une facture. C&#39;est également le cas si la commande est passée et que l&#39;action de paiement pour votre mode de paiement est définie sur `Authorize` et que la commande est facturée.
 
    ![Commande client de facture](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -131,7 +131,7 @@ Les factures peuvent être imprimées individuellement ou en lot. Toutefois, ava
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Dans la grille de _[!UICONTROL Invoices]_, recherchez la facture et cliquez sur **[!UICONTROL View]**&#x200B;dans la colonne_ Action _.
+1. Dans la grille de _[!UICONTROL Invoices]_, recherchez la facture et cliquez sur **[!UICONTROL View]**dans la colonne_ Action _.
 
 1. Dans la partie supérieure de la facture, cliquez sur **[!UICONTROL Print]** pour générer un PDF de la facture.
 
@@ -148,3 +148,17 @@ Les factures peuvent être imprimées individuellement ou en lot. Toutefois, ava
    ![Imprimer plusieurs factures](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
 Les factures sont enregistrées dans un seul fichier PDF qui peut être envoyé à une imprimante ou enregistré.
+
+## Quantités de capture personnalisées
+
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
+
+Pour offrir aux commerçants une plus grande flexibilité pour les captures partielles et les scénarios de paiement spécialisés, l’API Invoice prend en charge les montants de capture personnalisés à l’aide d’attributs d’extension.
+
+Vous pouvez effectuer des appels REST pour capturer un montant personnalisé lors de la création d’une facture.  Utilisez le point d’entrée REST [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas/) et spécifiez le montant personnalisé dans le champ `extension_attributes.custom_capture_amount` de la payload.
+
+>[!NOTE]
+>
+>Contactez votre représentant de l’assistance technique pour activer cette fonctionnalité.
+>
+>En raison de restrictions légales, le montant de la capture personnalisée n&#39;est disponible que dans la région Amérique du Nord (NA) et d&#39;autres régions où la surcapture des paiements est autorisée.

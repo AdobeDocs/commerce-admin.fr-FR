@@ -3,8 +3,7 @@ title: Rapports clients
 description: Les rapports clients disponibles dans Adobe Commerce et Magento Open Source fournissent des informations insight sur l’activité des clients au cours d’une période ou d’une période spécifiée.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 2%
@@ -85,7 +84,7 @@ La [!UICONTROL New Accounts Report] affiche le nombre de nouveaux comptes client
 
 Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
 
-![&#x200B; Rapport Nouveaux Comptes &#x200B;](./assets/customers-new-accounts.png){width="600"}
+![ Rapport Nouveaux Comptes ](./assets/customers-new-accounts.png){width="600"}
 
 ### Contrôles Workspace
 
@@ -109,6 +108,8 @@ Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICON
 {style="table-layout:auto"}
 
 ## [!UICONTROL Customer Wish List Report]
+
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement)
 
@@ -156,7 +157,7 @@ Le [!UICONTROL Customer Segment Report] fournit des informations sur le nombre d
 
 Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
 
-![&#x200B; Rapport Segments &#x200B;](./assets/customers-segments.png){width="600"}
+![ Rapport Segments ](./assets/customers-segments.png){width="600"}
 
 ### Contrôles Workspace
 

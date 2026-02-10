@@ -3,10 +3,9 @@ title: Rapports sur les produits
 description: Les rapports sur les produits disponibles dans Adobe Commerce et Magento Open Source vous donnent accès à insight concernant les produits consultés et commandés, les best-sellers, les niveaux de stock et les téléchargements.
 exl-id: 7b2430dd-050a-407d-b922-39df5b3c52d1
 feature: Products, Reporting
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -16,6 +15,8 @@ ht-degree: 0%
 Les rapports de produit vous donnent accès à insight concernant les produits consultés et commandés, les best-sellers, les niveaux de stock et les téléchargements.
 
 ## [!UICONTROL Product Views Report]
+
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 La [!UICONTROL Product Views Report] affiche les produits qui ont été consultés au cours d’un intervalle de temps ou d’une plage de dates. Le rapport inclut le nom, le prix et le nombre de consultations du produit.
 
@@ -49,8 +50,10 @@ Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICON
 
 ## [!UICONTROL Downloads Report]
 
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+
 Le [!UICONTROL Downloads Report] répertorie tous les téléchargements au cours de l’intervalle de temps ou de la période spécifié. Le rapport comprend le nom du produit, le lien de téléchargement et le SKU, ainsi que le nombre d’achats et de téléchargements.
 
 Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Downloaded]**.
 
-![&#x200B; Rapport Téléchargements &#x200B;](./assets/downloads.png){width="600"}
+![ Rapport Téléchargements ](./assets/downloads.png){width="600"}

@@ -3,10 +3,9 @@ title: Rapports marketing
 description: Les rapports marketing fournissent des informations sur le statut des paniers, l’utilisation de termes de recherche et la transmission de newsletters.
 exl-id: 3ff6d4f7-ab8d-4e4e-b9e9-b12e3a08de62
 feature: Marketing Tools, Reporting
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -23,6 +22,8 @@ Le rapport [!UICONTROL Products in Cart] fournit une liste de tous les produits 
 
 ## [!UICONTROL Search Terms Report]
 
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+
 Le rapport [Termes de recherche](../catalog/search-terms.md#search-terms-report) indique ce que vos clients recherchent dans chaque vue de magasin. Le rapport inclut le nombre d’éléments correspondants trouvés dans le catalogue et le nombre de fois où le terme de recherche a été utilisé.
 
 ![Rapport Termes de recherche](./assets/search-terms.png){width="600"}
@@ -34,6 +35,8 @@ Le rapport [!UICONTROL Abandoned Carts] répertorie tous les clients enregistré
 ![Rapport Paniers abandonnés](./assets/abandoned-carts.png){width="600"}
 
 ## [!UICONTROL Newsletter Problems Report]
+
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 Le [!UICONTROL Newsletter Problems Report] contient des informations sur toute file d’attente de newsletter dont la transmission a échoué. Le rapport inclut le nom de chaque abonné, la date de file d’attente et l’objet, ainsi que les informations sur l’erreur.
 
