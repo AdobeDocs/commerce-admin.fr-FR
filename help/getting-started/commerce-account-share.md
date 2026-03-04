@@ -32,7 +32,7 @@ La section Historique de facturation affiche uniquement les factures plus ancien
    - Le `MAGE ID/Account ID (MAG00XXXXXXX)` s’affiche dans le coin supérieur gauche de l’onglet _[!UICONTROL Magento]_, juste au-dessus du lien **Déconnexion**.
    - Adresse `Email` associée au compte.
 
-1. Connectez-vous à votre [[!DNL Commerce]  compte ](commerce-account-create.md).
+1. Connectez-vous à votre [[!DNL Commerce]  compte &#x200B;](commerce-account-create.md).
 
 1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL Shared Access]**.
 
@@ -60,7 +60,7 @@ La section Historique de facturation affiche uniquement les factures plus ancien
 
 1. Cliquez sur **[!UICONTROL Create Shared Access]**.
 
-   Les informations sur le nouvel utilisateur apparaissent dans la section _[!UICONTROL Manage Permissions]_de la page Accès partagé et une invitation par e-mail contenant des instructions pour accéder au compte partagé est envoyée au nouvel utilisateur.
+   Les informations sur le nouvel utilisateur apparaissent dans la section _[!UICONTROL Manage Permissions]_&#x200B;de la page Accès partagé et une invitation par e-mail contenant des instructions pour accéder au compte partagé est envoyée au nouvel utilisateur.
 
    ![Gestion des autorisations d’accès partagé](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
@@ -74,7 +74,7 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
 
 1. Lorsque vous recevez une invitation à accéder à un compte partagé, suivez les instructions contenues dans l’e-mail pour vous connecter à votre propre compte [!DNL Commerce].
 
-   Le panneau de navigation de gauche de votre compte comporte un nouvel onglet _[!UICONTROL Shared with me]_. Le contrôle_[!UICONTROL Switch Accounts]_ situé dans le coin supérieur droit propose des options relatives au `My Account` et au nom du compte partagé.
+   Le panneau de navigation de gauche de votre compte comporte un nouvel onglet _[!UICONTROL Shared with me]_. Le contrôle&#x200B;_[!UICONTROL Switch Accounts]_ situé dans le coin supérieur droit propose des options relatives au `My Account` et au nom du compte partagé.
 
    ![Partagé avec moi](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
@@ -107,11 +107,11 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
 
 1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL Shared Access]**.
 
-1. Recherchez le compte à révoquer sous _[!UICONTROL Managing Users & Permissions]_et cliquez sur **[!UICONTROL Delete]**.
+1. Recherchez le compte à révoquer sous _[!UICONTROL Managing Users & Permissions]_&#x200B;et cliquez sur **[!UICONTROL Delete]**.
 
    >[!NOTE]
    >
-   > Si **[!UICONTROL Delete]** n’est pas affiché, vérifiez si le **[!UICONTROL Share Name]** contient le modèle de dénomination `Cloud Shared Access from MAG0XYZ`. Si le compte possède ce modèle de dénomination [ et ne peut pas être supprimé](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), c’est parce que l’accès partagé a été créé par une API et non directement à partir du compte [Commerce](https://account.magento.com/).
+   > Si **[!UICONTROL Delete]** n’est pas affiché, vérifiez si le **[!UICONTROL Share Name]** contient le modèle de dénomination `Cloud Shared Access from MAG0XYZ`. Si le compte possède ce modèle de dénomination [&#x200B; et ne peut pas être supprimé](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), c’est parce que l’accès partagé a été créé par une API et non directement à partir du compte [Commerce](https://account.magento.com/).
    > 
    > S’il ne peut pas être supprimé, demandez simplement au propriétaire du compte de modifier le compte d’accès partagé et, sous Accorder des autorisations de compte, décochez chaque élément. Après cette mise à jour, l’utilisateur ne pourra plus accéder aux ressources du compte.
    > ![image](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
