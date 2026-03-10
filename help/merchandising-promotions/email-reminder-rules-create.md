@@ -3,10 +3,9 @@ title: Créer des rappels par e-mail
 description: Découvrez comment configurer une règle de rappel par e-mail qui utilise une règle de prix de panier existante.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+source-git-commit: 43654def3e227127dcf0732962b4f1142a6a3856
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
@@ -23,7 +22,7 @@ Avant de configurer une règle de rappel par e-mail, vous devez [configurer une 
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add New Rule]**.
 
-1. Effectuez la _[!UICONTROL Rule Information]_&#x200B;comme suit :
+1. Effectuez la _[!UICONTROL Rule Information]_comme suit :
 
    ![Règle de rappel d’e-mail](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
@@ -45,7 +44,7 @@ Avant de configurer une règle de rappel par e-mail, vous devez [configurer une 
 
 1. Dans le panneau de gauche, choisissez **[!UICONTROL Conditions]**.
 
-   Au moins une condition doit être définie pour la règle. Le processus est similaire à la création d’une [&#x200B; règle de prix de catalogue &#x200B;](price-rules-catalog.md).
+   Au moins une condition doit être définie pour la règle. Le processus est similaire à la création d’une [ règle de prix de catalogue ](price-rules-catalog.md).
 
    ![Conditions de rappel des emails](./assets/email-reminder-conditions.png){width="600" zoomable="yes"}
 
@@ -56,9 +55,9 @@ Avant de configurer une règle de rappel par e-mail, vous devez [configurer une 
 
    >[!NOTE]
    >
-   >Si un client possède plusieurs paniers abandonnés, listes de souhaits ou combinaisons des deux, l’e-mail de rappel n’est déclenché qu’une seule fois pour ce client. Pour déclencher à nouveau le même rappel par e-mail, utilisez le champ _[!UICONTROL Repeat Schedule]_&#x200B;pour définir le nombre de jours entre les e-mails. <br/>
+   >Si un client possède plusieurs paniers abandonnés, listes de souhaits ou combinaisons des deux, l’e-mail de rappel n’est déclenché qu’une seule fois pour ce client. Pour déclencher à nouveau le même rappel par e-mail, utilisez le champ _[!UICONTROL Repeat Schedule]_pour définir le nombre de jours entre les e-mails. <br/>
    >
-   >Le même rappel par e-mail n’est **_pas redéclenché_** pour le même client pour les **_nouveaux_** paniers abandonnés et listes de souhaits **_après_** la période de _[!UICONTROL Repeat Schedule]_&#x200B;est terminée.
+   >Le même rappel par e-mail n’est **_pas redéclenché_** pour le même client pour les **_nouveaux_** paniers abandonnés et listes de souhaits **_après_** la période de _[!UICONTROL Repeat Schedule]_est terminée.
 
    Renseignez la condition pour décrire le scénario qui déclenche l’e-mail de rappel.
 
@@ -66,7 +65,7 @@ Avant de configurer une règle de rappel par e-mail, vous devez [configurer une 
 
 1. Dans le panneau de gauche, choisissez **[!UICONTROL Emails and Labels]**.
 
-   ![Règle de rappel d’e-mail - Modèles d’e-mails et de libellés &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![Règle de rappel d’e-mail - Modèles d’e-mails et de libellés ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
 1. Dans la section **[!UICONTROL Email Templates]** , choisissez le modèle d’e-mail à utiliser pour chaque site web et vue de magasin dans votre [hiérarchie de magasin](../getting-started/websites-stores-views.md).
 
@@ -84,7 +83,7 @@ Avant de configurer une règle de rappel par e-mail, vous devez [configurer une 
 
      ![Rappels par e-mail - titres et descriptions](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - Dans la section _[!UICONTROL Titles and Descriptions Per Store View]_, saisissez les **[!UICONTROL Rule Title]**&#x200B;et **[!UICONTROL Description]**&#x200B;de l’_ Affichage de la boutique par défaut _. Pour plusieurs vues de magasin, saisissez le titre et la description appropriés pour chacune d’elles.
+   - Dans la section _[!UICONTROL Titles and Descriptions Per Store View]_, saisissez les **[!UICONTROL Rule Title]**et **[!UICONTROL Description]**de l’_ Affichage de la boutique par défaut _. Pour plusieurs vues de magasin, saisissez le titre et la description appropriés pour chacune d’elles.
 
      >[!NOTE]
      >
