@@ -3,10 +3,9 @@ title: Rappels par e-mail
 description: Découvrez les rappels par e-mail qui peuvent être automatiquement envoyés aux clients lorsqu’un ensemble spécifique de conditions est rempli.
 exl-id: 3293caca-9dd3-4d64-a80c-58c92a9208e5
 feature: Merchandising, Communications
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+source-git-commit: 3e6ffa7d90472256b0e94de03cb2debc9c34bac7
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -21,7 +20,7 @@ Les rappels par e-mail peuvent être déclenchés après un nombre spécifique d
 
 >[!NOTE]
 >
->Si un client possède plusieurs paniers abandonnés, listes de souhaits ou combinaisons des deux, l’e-mail de rappel n’est déclenché qu’une seule fois pour ce client. Pour déclencher à nouveau le même rappel par e-mail, utilisez le champ _[!UICONTROL Repeat Schedule]_&#x200B;pour définir le nombre de jours entre les e-mails.
+>Si un client possède plusieurs paniers abandonnés, listes de souhaits ou combinaisons des deux, l’e-mail de rappel n’est déclenché qu’une seule fois pour ce client. Pour déclencher à nouveau le même rappel par e-mail, utilisez le champ _[!UICONTROL Repeat Schedule]_pour définir le nombre de jours entre les e-mails.
 
 ![Rappels par e-mail](./assets/email-reminders.png){width="700" zoomable="yes"}
 
