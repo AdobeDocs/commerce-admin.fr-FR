@@ -2,7 +2,7 @@
 title: Modifications rétrocompatibles Adobe Commerce B2B
 description: Découvrez les modifications apportées aux versions B2B d’Adobe Commerce qui peuvent nécessiter une mise à jour de votre code personnalisé.
 exl-id: 79b66843-3f34-4fe9-9670-53d19b749eb4
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: 89fd73a6cba31e0a4e5793522bf4745b87e5654d
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 # Modifications rétrocompatibles Adobe Commerce B2B
 
 Consultez les informations de référence de haut niveau pour toutes les modifications non rétrocompatibles dans le B2B pour les versions d’Adobe Commerce. Consultez la section Points forts pour identifier les modifications incompatibles qui ont un impact majeur et qui nécessitent une explication détaillée et des instructions spéciales.
+
+{{$include /help/_includes/backward-incompatible-changes/1.5.2-1.5.3-beta1.md}}
 
 {{$include /help/_includes/backward-incompatible-changes/1.5.1-1.5.2.md}}
 
