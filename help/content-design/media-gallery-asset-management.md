@@ -3,10 +3,10 @@ title: Gestion des ressources de Media Gallery
 description: Découvrez comment gérer les fichiers multimédias chargés et les ressources que vous acquérez par le biais d’une intégration Adobe Stock.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 7052319eb322cbf219aacebf4ba7642dbeb5ca96
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 # Gestion des ressources de Media Gallery
 
 La nouvelle [Galerie de médias](media-gallery.md) fournit des outils pour gérer les fichiers multimédias chargés et les ressources que vous acquérez par le biais d’une intégration [Adobe Stock](adobe-stock.md). Si vous avez enregistré une image Adobe Stock [aperçu de l’image](adobe-stock-save-preview.md), vous pouvez également [obtenir la licence](adobe-stock-license-image.md) l’image dans la nouvelle galerie de médias.
+
+Assets peut uniquement être chargé vers `pub/media/wysywig`, `pub/media/catalog/category` ou d’autres dossiers ajoutés par les modules.
 
 ## Chargement d’un élément
 
@@ -23,7 +25,7 @@ La nouvelle [Galerie de médias](media-gallery.md) fournit des outils pour gére
 
 1. Sélectionnez le fichier à charger.
 
-   La ressource sélectionnée est automatiquement chargée dans le dossier sélectionné (ou à la racine de stockage si aucun dossier n’est sélectionné).
+   La ressource sélectionnée est automatiquement chargée dans le dossier sélectionné.
 
 ## Affichage des détails de la ressource
 
@@ -110,7 +112,7 @@ Assets peut être largement utilisé dans l’ensemble de l’administration, pa
 
 1. Cliquez sur l’onglet **[!UICONTROL Filters]** .
 
-   ![&#x200B; Filtres &#x200B;](./assets/media-gallery-filters.png){width="600" zoomable="yes"}
+   ![ Filtres ](./assets/media-gallery-filters.png){width="600" zoomable="yes"}
 
 1. Définissez les options de filtrage.
 
