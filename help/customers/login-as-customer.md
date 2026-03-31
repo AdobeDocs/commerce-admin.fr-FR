@@ -18,11 +18,11 @@ Toutes les actions effectuées lors de la connexion en tant que client sont appl
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
-Lorsqu’il est activé pour un utilisateur _Admin_, le bouton _[!UICONTROL Login as Customer]_s’affiche sur plusieurs pages :
+Lorsqu’il est activé pour un utilisateur _Admin_, le bouton _[!UICONTROL Login as Customer]_&#x200B;s’affiche sur plusieurs pages :
 
 * [Page de modification du client](../customers/update-account.md)
 * [Page Vue Commande](../stores-purchase/order-processing.md)
@@ -99,7 +99,7 @@ Pour autoriser l’accès au compte pour le personnel d’assistance du magasin 
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
@@ -131,7 +131,7 @@ Pour définir cette autorisation avec GraphQL pour un compte client existant, d�
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
