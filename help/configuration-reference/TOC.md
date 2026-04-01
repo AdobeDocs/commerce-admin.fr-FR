@@ -1,14 +1,14 @@
 ---
 user-guide-title: Guide de référence de configuration
-user-guide-description: Ce guide fournit des informations de référence pour tous les paramètres de configuration de la boutique accessibles hors de la barre latérale _Admin_ à l’adresse **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+user-guide-description: Ce guide fournit des informations de référence pour tous les paramètres de configuration de la boutique accessibles hors de la barre latérale _Admin_ à l’adresse **** > _[!UICONTROL Stores]_ > **[!UICONTROL Settings]**.[!UICONTROL Configuration]
 breadcrumb-title: Référence de configuration
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: ae472bb3be3b9095c4c8b5869c4a4d247cb2aef1
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 1%
+source-wordcount: '162'
+ht-degree: 2%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 1%
    - [Plan de site XML](./catalog/xml-sitemap.md)
    - [Flux RSS](./catalog/rss-feeds.md)
    - [Envoyer par e-mail à un ami](./catalog/email-to-a-friend.md)
+   - [Attributs de fichier de produit](./catalog/product-file-attributes.md)
 - Sécurité {#security}
    - [2FA](./security/2fa.md)
    - [Panneau d’administration reCAPTCHA de Google](./security/google-recaptcha-admin.md)
@@ -79,8 +80,8 @@ ht-degree: 1%
    - [API web](./services/magento-web-api.md)
    - [Services Commerce](./services/saas.md)
    - [OAuth](./services/oauth.md)
-- Avancé {#advanced}
+- Advanced {#advanced}
    - [Admin](./advanced/admin.md)
    - [Système](./advanced/system.md)
    - [Développeur](./advanced/developer.md)
-- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=fr)
+- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
