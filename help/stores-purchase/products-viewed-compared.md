@@ -3,7 +3,7 @@ title: Produits récemment consultés ou comparés
 description: Découvrez comment configurer les blocs de contenu storefront pour les produits récemment consultés et comparés.
 exl-id: a4580835-68c2-4eb0-825e-0939eeab921b
 feature: Products, Storefront
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 6848b28d05bc3da12d0ecdeb32d6515c7be7cdfb
 workflow-type: tm+mt
 source-wordcount: '244'
