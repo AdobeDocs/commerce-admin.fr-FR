@@ -2,10 +2,9 @@
 user-guide-title: Guide de référence de configuration
 user-guide-description: Ce guide fournit des informations de référence pour tous les paramètres de configuration de la boutique accessibles hors de la barre latérale _Admin_ à l’adresse **** > _[!UICONTROL Stores]_ > **[!UICONTROL Settings]**.[!UICONTROL Configuration]
 breadcrumb-title: Référence de configuration
-hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: ae472bb3be3b9095c4c8b5869c4a4d247cb2aef1
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 2%
@@ -84,4 +83,4 @@ ht-degree: 2%
    - [Admin](./advanced/admin.md)
    - [Système](./advanced/system.md)
    - [Développeur](./advanced/developer.md)
-- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=fr)
+- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

@@ -3,7 +3,7 @@ title: Balises de marquage
 description: Découvrez les balises de balisage qui contiennent des fragments de code pour référencer un objet dans votre magasin.
 exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 0%
@@ -22,35 +22,35 @@ Les balises de balisage sont entourées d’accolades doubles et peuvent être g
 
 La balise de balisage de variable peut être utilisée pour insérer une [variable personnalisée](variables-custom.md) dans un modèle d’e-mail, des blocs, des newsletters et des pages de contenu.
 
-\{\{CustomVar code= « my_custom_variable »}}
+\{\{CustomVar code= « my_custom_variable »\}\}
 
 ## URL de la boutique
 
 La balise de balisage de l’URL du magasin représente l’URL de base de votre site web et est utilisée comme substitut de la première partie d’une URL complète, y compris le nom de domaine. Il existe deux versions de cette balise de balisage : l’une va directement dans votre magasin, et l’autre comporte une barre oblique (`/`) à la fin, utilisée lorsqu’un chemin est ajouté.
 
-\{\{store url=&#39;vêtements/chaussures/femmes&#39;}}
+\{\{store url=&#39;vêtements/chaussures/femmes&#39;\}\}
 
 ## URL du média
 
 La balise de balisage d’URL Dynamic Media représente l’emplacement et le nom de fichier d’une image stockée sur un réseau de diffusion de contenu (CDN). La balise peut être utilisée pour placer une image sur une page, un bloc, une bannière ou un modèle d’e-mail.
 
-\{\{media url=&#39;shoe-sale.jpg&#39;}}
+\{\{media url=&#39;shoe-sale.jpg&#39;\}\}
 
 ## ID de bloc
 
 La balise Balisage de l’ID de bloc est l’une des plus faciles à utiliser. Elle peut être utilisée pour placer un bloc directement sur une page CMS, ou même imbriquée dans un autre bloc. Vous pouvez utiliser cette technique pour modifier un bloc pour différentes promotions ou langues. La balise de balisage ID de bloc référence un bloc par son identifiant.
 
-\{\{block id=&#39;block-id&#39;}}
+\{\{block id=&#39;block-id&#39;\}\}
 
 ## Balise du modèle
 
 Une balise de modèle fait référence à un fichier de modèle HTML et peut être utilisée pour afficher le bloc sur une page CMS ou un bloc statique. Le code de l’exemple suivant peut être ajouté à une page ou à un bloc pour afficher le formulaire Nous contacter.
 
-\{\{block class= »Magento\Contact\Block\ContactForm » name=« contactForm » template= »Magento_Contact::form.phtml »}}
+\{\{block class=« Magento\Contact\Block\ContactForm » name=« contactForm » template=« Magento_Contact::form.phtml »\}\}
 
 Le code de l’exemple suivant peut être ajouté à une page ou à un bloc pour afficher une liste de produits d’une catégorie spécifique, par ID de catégorie.
 
-\{\{block type=« catalog/product_list » category_id=« 22 » template= »catalog/product/list.phtml« }}
+\{\{block type=« catalog/product_list » category_id=« 22 » template=« catalog/product/list.phtml« \}\}
 
 ## Code du widget
 
@@ -58,11 +58,11 @@ L’outil Widget peut être utilisé pour afficher des listes de produits ou pou
 
 Le code de l’exemple suivant peut être ajouté à une page ou à un bloc pour afficher la liste des nouveaux produits.
 
-\{\{widget type=« catalog/product_widget_new » display_type=« new_products » products_count=« 10 » template= »catalog/product/widget/new/content/new_grid.phtml« }}
+\{\{widget type=« catalog/product_widget_new » display_type=« new_products » products_count=« 10 » template=« catalog/product/widget/new/content/new_grid.phtml« \}\}
 
 Le code de l’exemple suivant peut être ajouté à une page ou à un bloc pour afficher un lien vers un produit spécifique, par ID de produit.
 
-\{\{widget type=« catalog/product_widget_link » anchor_text=« My Product Link » title=« My Product Link » template= »catalog/product/widgetlink/link_block.phtml » id_path=« product/31 »}}
+\{\{widget type=« catalog/product_widget_link » anchor_text=« My Product Link » title=« My Product Link » template=« catalog/product/widgetlink/link_block.phtml » id_path=« product/31 »\}\}
 
 ## Utiliser des balises de balisage dans les liens
 
@@ -120,12 +120,12 @@ Placez la balise de balisage terminée dans une balise d’ancrage, à l’aide 
 
 #### Balisage dans la balise d’ancrage
 
-\&lt;a href=« \{\{la balise de balisage va ici}}« >Texte du lien\&lt;/a>
+\&lt;a href=« \{\{la balise de balisage va ici\}\}« >Texte du lien\&lt;/a>
 
 Collez la balise d’ancrage terminée dans le code d’une page, d’un bloc, d’une bannière ou d’un modèle d’e-mail CMS où vous souhaitez que le lien apparaisse.
 
 ### Lien complet avec balisage
 
-\&lt;a href=« \{\{store url=&#39;habillement/chaussures&#39;}}« >Vente de chaussures\&lt;/a>
+\&lt;a href=« \{\{store url=&#39;habillement/chaussures&#39;\}\}« >Vente de chaussures\&lt;/a>
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->

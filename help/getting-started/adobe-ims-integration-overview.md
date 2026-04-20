@@ -3,8 +3,8 @@ title: Présentation de l’intégration du service Adobe Identity Management (I
 description: Introduit l’intégration facultative de la connexion administrateur Adobe Commerce à Adobe IMS
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
 feature: Identity Management
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 484351d7db33139e3339ccea82e7a96f5ea7966e
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%
@@ -23,9 +23,9 @@ Pour implémenter cette intégration, consultez [Configuration de l’intégrati
 
 ## Modifications des workflows et de l’interface d’administration après l’intégration avec IMS
 
-Lorsque cette intégration est activée, les utilisateurs administrateurs de Commerce subissent des modifications du workflow d’authentification et de connexion par défaut d’Commerce Admin lorsqu’ils effectuent des tâches de routine dans l’administration nécessitant une réauthentification, telles que la création d’un utilisateur administrateur. L’application de l’authentification à deux facteurs (2FA) au niveau de l’organisation Adobe est requise pour l’activation du module . Les paramètres de connexion d’administrateur par défaut et 2FA sont désactivés, et le bouton _[!UICONTROL Sign In with Adobe ID]_&#x200B;remplace le formulaire de connexion d’administrateur par défaut. Les droits sont toujours gérés à partir de l’administrateur.
+Lorsque cette intégration est activée, les utilisateurs administrateurs de Commerce subissent des modifications du workflow d’authentification et de connexion par défaut d’Commerce Admin lorsqu’ils effectuent des tâches de routine dans l’administration nécessitant une réauthentification, telles que la création d’un utilisateur administrateur. L’application de l’authentification à deux facteurs (2FA) au niveau de l’organisation Adobe est requise pour l’activation du module . Les paramètres de connexion d’administrateur par défaut et 2FA sont désactivés, et le bouton _[!UICONTROL Sign In with Adobe ID]_remplace le formulaire de connexion d’administrateur par défaut. Les droits sont toujours gérés à partir de l’administrateur.
 
->
+>[!IMPORTANT]
 >
 >L’intégration Adobe Ims est appliquée globalement. Une fois activé, tous les utilisateurs doivent s’authentifier via Adobe IMS ; les utilisateurs individuels ne peuvent pas être exclus de cette configuration.
 >
@@ -76,4 +76,4 @@ Le plug-in `\Magento\AdminAdobeIms\Plugin\BackendAuthSessionPlugin` vérifie si 
 
 Le métapaquet Adobe IMS est installé avec Adobe Commerce 2.4.5 et versions ultérieures, mais doit être configuré pour être utilisé. Il étend le module `AdobeIms` pour prendre en charge le module qui active la logique d’authentification (`AdminAdobeIms`).
 
-Pour plus d’informations sur l’activation de l’intégration, voir [&#x200B; Configuration de l’intégration d’administration Commerce avec Adobe IMS &#x200B;](./adobe-ims-config.md).
+Pour plus d’informations sur l’activation de l’intégration, voir [ Configuration de l’intégration d’administration Commerce avec Adobe IMS ](./adobe-ims-config.md).

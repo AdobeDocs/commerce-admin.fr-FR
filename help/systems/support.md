@@ -2,8 +2,8 @@
 title: Outils d’assistance
 description: Découvrez les outils d’assistance fournis que vous pouvez utiliser pour identifier les problèmes de votre système.
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: addde8c3e41b641712f5b08107c1d68b40cd4159
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Dans la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONT
 
 Vous trouverez des informations utiles sur les modules installés.
 
-**_Pour afficher les informations de rapport pour chaque module installé, procédez comme suit_**
+**_Pour afficher les informations de rapport pour chaque module installé:_**
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**.
 1. Cliquez sur **[!UICONTROL New Report]**.
@@ -73,7 +73,7 @@ Dans la colonne **[!UICONTROL Action]** de la grille, sélectionnez l’une des 
 
 | Groupe de rapports | Informations incluses |
 | ------------ | -------------------- |
-| [!UICONTROL General] | Version Adobe Commerce<br>Nombre de données<br>Statut du cache<br>Statut de l’index |
+| [!UICONTROL General] | Version <br>Nombre de données<br>Statut du cache<br>Statut de l’index |
 | [!UICONTROL Environment] | Informations sur l’environnement <br> statut MySQL |
 | [!UICONTROL Data] | Dupliquer les catégories par clé URL<br>Dupliquer les produits par clé URL<br>Dupliquer les produits par SKU<br>Dupliquer les commandes par incrément ID<br>Dupliquer les utilisateurs par e-mail<br>Données de catégories corrompues |
 | [!UICONTROL Modules] | Liste Des Modules Personnalisés<br>Liste Des Modules Désactivés<br>Liste De Tous Les Modules |

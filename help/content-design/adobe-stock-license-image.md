@@ -3,8 +3,8 @@ title: Obtenir la licence d’une image Adobe Stock
 description: Pour vous assurer que vous disposez d’un accès légal et pour éliminer le filigrane Adobe Stock, vous devez obtenir une licence pour vos images Adobe Stock.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Le nouveau [[!DNL Media Gallery]](media-gallery.md) offre une intégration direc
 
 **Conditions préalables**
 
-La fonction de licence d’Adobe Stock n’est disponible que si l’[intégration d’Adobe Stock](./adobe-stock.md) est installée et configurée. L’octroi de licences pour les images [Adobe Stock](https://stock.adobe.com) nécessite un plan Adobe Stock payant et un compte [Adobe](https://helpx.adobe.com/fr/manage-account/using/access-adobe-id-account.html).
+La fonction de licence d’Adobe Stock n’est disponible que si l’[intégration d’Adobe Stock](./adobe-stock.md) est installée et configurée. L’octroi de licences pour les images [](https://stock.adobe.com) nécessite un plan Adobe Stock payant et un compte [Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
 
 >[!ENDSHADEBOX]
 
@@ -35,11 +35,11 @@ La fonction de licence d’Adobe Stock n’est disponible que si l’[intégrati
 
 1. Cliquez sur les trois points situés sous l’image (![icône du menu des ressources](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}), puis cliquez sur **[!UICONTROL License]**.
 
-   ![Actions d’image Adobe Stock](./assets/adobe-stock-gallery-image-actions.png){width="600" zoomable="yes"}
+   ![Actions d’image ](./assets/adobe-stock-gallery-image-actions.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Si vous n’êtes pas connecté, le formulaire de connexion s’affiche. Pour plus d’informations sur la connexion, voir [&#x200B; Utilisation d’images Adobe Stock &#x200B;](./adobe-stock-manage.md).
+   >Si vous n’êtes pas connecté, le formulaire de connexion s’affiche. Pour plus d’informations sur la connexion, voir [ Utilisation d’images Adobe Stock ](./adobe-stock-manage.md).
 
 1. Dans la boîte de dialogue de confirmation de licence, cliquez sur **[!UICONTROL Confirm]** pour obtenir la licence de l’image.
 
@@ -47,13 +47,13 @@ La fonction de licence d’Adobe Stock n’est disponible que si l’[intégrati
 
    >[!NOTE]
    >
-   >Vous devez disposer de [crédits Adobe Stock disponibles](https://helpx.adobe.com/fr/stock/help/credit-packs.html) sur votre compte pour obtenir la licence de l’image.
+   >Vous devez disposer de [crédits Adobe Stock disponibles](https://helpx.adobe.com/stock/help/credit-packs.html) sur votre compte pour obtenir la licence de l’image.
 
 ## Obtenir la licence d’une image à partir du stockage multimédia standard
 
-1. [Accédez à la grille de recherche Adobe Stock][adobe-stock-manage.md].
+1. [Accédez à la grille de recherche Adobe Stock](adobe-stock-manage.md).
 
-1. Pour [afficher les détails de l’image][adobe-stock-manage.md#view-image-details], cliquez sur une image dans la grille de recherche dans l’ordre.
+1. Pour [afficher les détails de l’image](adobe-stock-manage.md#view-image-details), cliquez sur une image dans la grille de recherche dans l’ordre.
 
 1. Selon le statut de licence actuel de l’image, effectuez l’une des opérations suivantes :
 
@@ -63,7 +63,7 @@ La fonction de licence d’Adobe Stock n’est disponible que si l’[intégrati
 
      >[!NOTE]
      >
-     >Vous devez disposer de [crédits Adobe Stock disponibles](https://helpx.adobe.com/fr/stock/help/credit-packs.html) sur votre compte pour obtenir la licence de l’image.
+     >Vous devez disposer de [crédits Adobe Stock disponibles](https://helpx.adobe.com/stock/help/credit-packs.html) sur votre compte pour obtenir la licence de l’image.
 
    Cette action affiche une invite vous demandant de spécifier un nom de fichier utilisé pour enregistrer l’image dans le [espace de stockage multimédia](./media-storage.md). Un nom de fichier par défaut est fourni, mais vous pouvez personnaliser le nom en fonction de vos préférences.
 

@@ -1,5 +1,5 @@
 ---
-source-git-commit: a37e67c332140fbba7609db8cc5e22a3625a1c9d
+source-git-commit: 6023fe9fdffd206f23bed50d247b61859ae59bc9
 workflow-type: tm+mt
 source-wordcount: '2387'
 ht-degree: 0%
@@ -7,17 +7,21 @@ ht-degree: 0%
 ---
 # Adobe Commerce avec packages B2B
 
-<!-- The 'packages' variable contains the 'packages' node of the '_data/codebase/b2b/composer_lock.json' file
- -->
+<!--
+The 'packages' variable contains the 'packages' node of the '_data/codebase/b2b/composer_lock.json' file
+-->
 
-<!-- The 'packages-dev' variable contains the 'packages-dev' node of the '_data/codebase/b2b/composer_lock.json' file
- -->
+<!--
+The 'packages-dev' variable contains the 'packages-dev' node of the '_data/codebase/b2b/composer_lock.json' file
+-->
 
-<!-- The 'product' variable contains data of the 'magento/product-enterprise-edition' package
- -->
+<!--
+The 'product' variable contains data of the 'magento/product-enterprise-edition' package
+-->
 
-<!-- The edition variable contains `commerce-b2b` value from the _data/names.yml file
- -->
+<!--
+The edition variable contains `commerce-b2b` value from the _data/names.yml file
+-->
 
 Adobe Commerce B2B utilise le compositeur pour gérer les packages PHP.
 
@@ -170,7 +174,7 @@ La documentation de référence suivante est générée à partir du fichier `co
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/wikimedia/less.php">wikimedia/less.php</a>
+      <a href="https://github.com/wikimedia/less.php"></a>
     </td>
     <td>Bibliothèque</td>
     <td>Port PHP du processeur LESS</td>
@@ -765,7 +769,7 @@ La documentation de référence suivante est générée à partir du fichier `co
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/jmespath/jmespath.php">mtdowling/jmespath.php</a>
+      <a href="https://github.com/jmespath/jmespath.php"></a>
     </td>
     <td>Bibliothèque</td>
     <td>Spécifier de manière déclarative comment extraire des éléments d’un document JSON</td>
