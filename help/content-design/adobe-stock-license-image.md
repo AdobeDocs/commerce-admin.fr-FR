@@ -21,7 +21,7 @@ Le nouveau [[!DNL Media Gallery]](media-gallery.md) offre une intégration direc
 
 **Conditions préalables**
 
-La fonction de licence d’Adobe Stock n’est disponible que si l’[intégration d’Adobe Stock](./adobe-stock.md) est installée et configurée. L’octroi de licences pour les images [](https://stock.adobe.com) nécessite un plan Adobe Stock payant et un compte [Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
+La fonction de licence d’Adobe Stock n’est disponible que si l’[intégration d’Adobe Stock](./adobe-stock.md) est installée et configurée. L’octroi de licences pour les images [&#128279;](https://stock.adobe.com) nécessite un plan Adobe Stock payant et un compte [Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
 
 >[!ENDSHADEBOX]
 
@@ -35,11 +35,11 @@ La fonction de licence d’Adobe Stock n’est disponible que si l’[intégrati
 
 1. Cliquez sur les trois points situés sous l’image (![icône du menu des ressources](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}), puis cliquez sur **[!UICONTROL License]**.
 
-   ![Actions d’image ](./assets/adobe-stock-gallery-image-actions.png){width="600" zoomable="yes"}
+   ![Actions d’image &#x200B;](./assets/adobe-stock-gallery-image-actions.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Si vous n’êtes pas connecté, le formulaire de connexion s’affiche. Pour plus d’informations sur la connexion, voir [ Utilisation d’images Adobe Stock ](./adobe-stock-manage.md).
+   >Si vous n’êtes pas connecté, le formulaire de connexion s’affiche. Pour plus d’informations sur la connexion, voir [&#x200B; Utilisation d’images Adobe Stock &#x200B;](./adobe-stock-manage.md).
 
 1. Dans la boîte de dialogue de confirmation de licence, cliquez sur **[!UICONTROL Confirm]** pour obtenir la licence de l’image.
 
