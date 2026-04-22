@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Rôles et autorisations de l’entreprise
 
-Vous configurez des rôles pour les utilisateurs de l&#39;entreprise avec différents niveaux d&#39;autorisation pour accéder aux informations de vente et aux ressources. Par défaut, l’administrateur ou l’administratrice d’entreprise est un *super utilisateur* avec des autorisations complètes. La page [ Accès refusé ](../content-design/pages.md#access-denied) s’affiche si l’utilisateur n’est pas autorisé à y accéder.
+Vous configurez des rôles pour les utilisateurs de l&#39;entreprise avec différents niveaux d&#39;autorisation pour accéder aux informations de vente et aux ressources. Par défaut, l’administrateur ou l’administratrice d’entreprise est un *super utilisateur* avec des autorisations complètes. La page [&#x200B; Accès refusé &#x200B;](../content-design/pages.md#access-denied) s’affiche si l’utilisateur n’est pas autorisé à y accéder.
 
 ![Page Rôles et autorisations avec le rôle par défaut](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
 
