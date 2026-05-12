@@ -51,7 +51,7 @@ Depuis le 25 janvier 2026, USPS a mis hors service les API des outils web hérit
 
 Pour éviter toute interruption des services d’expédition USPS, effectuez une mise à niveau vers la dernière version d’Adobe Commerce ou effectuez les actions suivantes :
 
-- Appliquez le correctif de qualité [&#x200B; Migration de l’API REST USPS &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) pour ajouter la prise en charge de l’intégration aux API REST USPS.
+- Appliquez le correctif de qualité [&#x200B; Migration de l’API REST USPS &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) pour ajouter la prise en charge de l’intégration aux API REST USPS.
 
 - Mettez à jour la configuration USPS de Commerce pour utiliser les API REST :
 

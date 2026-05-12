@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Ces instructions incluent les étapes permettant de sélectionner le type d’API USPS à intégrer : API Web Tools ou API REST. USPS ne prend plus en charge l’API Web Tools. Vous devez donc configurer leurs API REST. Si l’option API REST n’est pas affichée, vous devez appliquer le correctif [USPS REST API Migration Quality patch](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)&#x200B;(AC-1520) à votre application Commerce.
+>Ces instructions incluent les étapes permettant de sélectionner le type d’API USPS à intégrer : API Web Tools ou API REST. USPS ne prend plus en charge l’API Web Tools. Vous devez donc configurer leurs API REST. Si l’option API REST n’est pas affichée, vous devez appliquer le correctif [USPS REST API Migration Quality patch](https://experienceleague.adobe.com/fr/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)&#x200B;(AC-1520) à votre application Commerce.
