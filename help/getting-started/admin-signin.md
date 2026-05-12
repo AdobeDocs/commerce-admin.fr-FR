@@ -161,7 +161,7 @@ Admin permet d’accéder à la gestion des fonctionnalités de commandes, de cl
 
 Pour assurer la sécurité de votre administrateur, effectuez des audits réguliers des utilisateurs et des rôles disposant d’un accès administrateur.
 
-En outre, pensez à [mettre à jour la configuration de l’URL de base d’administration](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url) pour remplacer le point d’entrée de `/admin` par défaut par un chemin d’accès personnalisé. La configuration d’un chemin personnalisé offre les avantages de sécurité suivants :
+En outre, pensez à [mettre à jour la configuration de l’URL de base d’administration](https://experienceleague.adobe.com/fr/docs/commerce-admin/config/advanced/admin#admin-base-url) pour remplacer le point d’entrée de `/admin` par défaut par un chemin d’accès personnalisé. La configuration d’un chemin personnalisé offre les avantages de sécurité suivants :
 
 **Sécurité renforcée** : le chemin d’accès « admin » par défaut est largement connu et souvent ciblé par des acteurs malveillants qui tentent des attaques par force brute. En la modifiant à une valeur personnalisée unique, vous réduisez considérablement le risque de tentatives d’accès non autorisées.
 
@@ -173,4 +173,4 @@ En outre, pensez à [mettre à jour la configuration de l’URL de base d’admi
 
 >[!NOTE]
 >
->Si une violation est suspectée, veillez à supprimer tous les utilisateurs administrateurs inconnus, à réinitialiser tous les mots de passe administrateur et à consulter le [plan d’action de sécurité](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security) pour d’autres étapes.
+>Si une violation est suspectée, veillez à supprimer tous les utilisateurs administrateurs inconnus, à réinitialiser tous les mots de passe administrateur et à consulter le [plan d’action de sécurité](https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/security/security) pour d’autres étapes.
