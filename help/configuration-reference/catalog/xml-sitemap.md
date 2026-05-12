@@ -43,7 +43,7 @@ ht-degree: 2%
 
 ## [!UICONTROL CMS Pages Options]
 
-![Options de pages ](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
+![Options de pages &#x200B;](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
 
 <!-- [CMS Pages Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 

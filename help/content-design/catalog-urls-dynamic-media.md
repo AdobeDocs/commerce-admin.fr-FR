@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # URL Dynamic Media
 
-Une URL de média dynamique est une référence relative à une image ou à une autre ressource de média. Lorsqu’elles sont activées, les URL Dynamic Media peuvent être utilisées pour établir un lien direct vers les ressources de votre serveur ou vers les fichiers stockés sur un [réseau de diffusion de contenu](media-storage-content-delivery-network.md). L’utilisation d’URL Dynamic Media peut avoir un impact sur les performances du catalogue et l’éditeur [ peut être configuré pour utiliser des URL statiques ou Dynamic Media](editor.md#configure-the-editor)
+Une URL de média dynamique est une référence relative à une image ou à une autre ressource de média. Lorsqu’elles sont activées, les URL Dynamic Media peuvent être utilisées pour établir un lien direct vers les ressources de votre serveur ou vers les fichiers stockés sur un [réseau de diffusion de contenu](media-storage-content-delivery-network.md). L’utilisation d’URL Dynamic Media peut avoir un impact sur les performances du catalogue et l’éditeur [&#x200B; peut être configuré pour utiliser des URL statiques ou Dynamic Media](editor.md#configure-the-editor)
 
-Comme avec toutes les [ balises de balisage ](../systems/markup-tags.md), la directive est entourée de doubles accolades. Le format d’une URL Dynamic Media est le suivant :
+Comme avec toutes les [&#x200B; balises de balisage &#x200B;](../systems/markup-tags.md), la directive est entourée de doubles accolades. Le format d’une URL Dynamic Media est le suivant :
 
 `\{\{media url="path/to/image.jpg"}}`
 
@@ -33,7 +33,7 @@ Par défaut, les images insérées dans le catalogue à partir de l’éditeur W
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL WYSIWYG Options]** .
 
-   ![Options ](../configuration-reference/general/assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+   ![Options &#x200B;](../configuration-reference/general/assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >

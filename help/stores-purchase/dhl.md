@@ -124,7 +124,7 @@ Si vous utilisez l’API XML DHL, vous devez fournir les informations d’identi
 
    - Par **[!UICONTROL Free Shipping Amount Threshold]**, saisissez le montant minimum pour une commande afin de bénéficier de la livraison gratuite.
 
-     ![ Méthodes autorisées DHL ](../configuration-reference/sales/assets/delivery-methods-dhl-allowed-methods.png){width="600" zoomable="yes"}
+     ![&#x200B; Méthodes autorisées DHL &#x200B;](../configuration-reference/sales/assets/delivery-methods-dhl-allowed-methods.png){width="600" zoomable="yes"}
 
 ## Étape 4 : Indiquez les pays applicables
 

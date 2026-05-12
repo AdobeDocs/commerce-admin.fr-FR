@@ -158,4 +158,4 @@ Les contrôles de pagination apparaissent au bas de la liste lorsque le nombre t
 | Contrôle | Description |
 |----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![Afficher par page](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Détermine le nombre d&#39;éléments de la liste de demandes d&#39;approvisionnement qui apparaissent par page. Vous pouvez choisir 20, 50, 100, 500 ou 1 000 articles de la liste de demandes d&#39;approvisionnement à afficher sur la page. |
-| ![ Liens de pagination ](./assets/control-pagination.png) | [!UICONTROL Pagination links] - Fournit des liens de navigation vers d’autres pages. |
+| ![&#x200B; Liens de pagination &#x200B;](./assets/control-pagination.png) | [!UICONTROL Pagination links] - Fournit des liens de navigation vers d’autres pages. |

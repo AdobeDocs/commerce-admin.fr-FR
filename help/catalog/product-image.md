@@ -44,7 +44,7 @@ Pour charger une image, effectuez l’une des opérations suivantes :
 
 ### Réorganiser les images
 
-Pour modifier l’ordre des images dans la galerie, cliquez sur l’icône _[!UICONTROL Sort]_( ![Icône Trier](./assets/inventory-icon-sort.png) ) au bas de la mosaïque de l’image et faites glisser l’image à un autre emplacement dans la zone de_[!UICONTROL Images And Videos]_.
+Pour modifier l’ordre des images dans la galerie, cliquez sur l’icône _[!UICONTROL Sort]_( ![Icône Trier](./assets/inventory-icon-sort.png) ) au bas de la mosaïque de l’image et faites glisser l’image à un autre emplacement dans la zone de&#x200B;_[!UICONTROL Images And Videos]_.
 
 ![Modifier l’ordre](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
@@ -86,7 +86,7 @@ Pour exclure une image de la galerie de miniatures, cochez la case **[!UICONTROL
 
 ## Gestion des images et des vidéos au niveau de l’affichage du magasin
 
-Lorsque vous basculez le sélecteur de **[!UICONTROL Store View]** vers une vue de magasin spécifique (non **[!UICONTROL All Store Views]**), la section _[!UICONTROL Images and Videos]_fournit des commandes supplémentaires pour gérer l’affichage des images pour cette vue de magasin sans affecter la portée par défaut.
+Lorsque vous basculez le sélecteur de **[!UICONTROL Store View]** vers une vue de magasin spécifique (non **[!UICONTROL All Store Views]**), la section _[!UICONTROL Images and Videos]_&#x200B;fournit des commandes supplémentaires pour gérer l’affichage des images pour cette vue de magasin sans affecter la portée par défaut.
 
 ### Réorganiser les images pour une vue de magasin
 
@@ -140,7 +140,7 @@ Le filigrane utilisé pour l’image _small_ dans l’exemple suivant est un log
 1. Utilisez l’une des méthodes suivantes pour ajouter la ressource image de filigrane :
 
    - Cliquez sur **[!UICONTROL Upload]** et sélectionnez le fichier image de votre système que vous souhaitez charger pour l’utiliser comme filigrane.
-   - Cliquez sur **[!UICONTROL Select from Gallery]** et sélectionnez une ressource image dans la [ Galerie de médias ](../content-design/media-gallery.md).
+   - Cliquez sur **[!UICONTROL Select from Gallery]** et sélectionnez une ressource image dans la [&#x200B; Galerie de médias &#x200B;](../content-design/media-gallery.md).
 
 1. Définissez les paramètres d’affichage du filigrane :
 

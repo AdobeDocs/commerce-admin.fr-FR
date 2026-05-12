@@ -166,7 +166,7 @@ La carte de votre site doit être mise à jour aussi souvent que le contenu de v
 
    ![Configuration du catalogue - Pages CMS du plan de site XML](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
 
-   Pour obtenir une liste détaillée de ces options, voir [Options de pages ](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options) dans la _Référence de configuration_.
+   Pour obtenir une liste détaillée de ces options, voir [Options de pages &#x200B;](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options) dans la _Référence de configuration_.
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Store Url Options]** et renseignez les paramètres **[!UICONTROL Frequency]** et **[!UICONTROL Priority]** selon vos besoins.
 

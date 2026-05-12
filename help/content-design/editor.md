@@ -27,7 +27,7 @@ Les rubriques suivantes fournissent des informations détaillées sur l’utilis
 
 L’éditeur WYSIWYG est activé par défaut et peut être utilisé pour modifier le contenu des pages et des blocs CMS, ainsi que celui des produits et des catégories. À partir de la configuration, vous pouvez activer ou désactiver l’éditeur et choisir d’utiliser des URL statiques plutôt que [dynamiques](../catalog/catalog-urls.md#dynamic-url) pour le contenu multimédia dans les descriptions de produits et de catégories.
 
-![Options ](../configuration-reference/general/assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+![Options &#x200B;](../configuration-reference/general/assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >

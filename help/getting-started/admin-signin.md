@@ -26,7 +26,7 @@ Le [!DNL Commerce] _Admin_ est protégé par plusieurs couches de mesures de sé
 
 Selon la configuration de votre boutique, il peut y avoir un défi [CAPTCHA](../systems/security-google-recaptcha.md) à résoudre, comme saisir une série de caractères au clavier, résoudre un puzzle ou cliquer sur une série d’images avec un thème commun. Ces tests sont conçus pour vous identifier en tant qu’humain, plutôt qu’en tant que robot automatisé.
 
-Pour plus de sécurité, vous pouvez déterminer les parties du _Administrateur_ auxquelles chaque utilisateur a [autorisation](../systems/permissions.md) d’accéder et également limiter le nombre [ tentatives de connexion](../configuration-reference/advanced/admin.md). Par défaut, après six tentatives, le compte est verrouillé et l’utilisateur ou l’utilisatrice doit attendre quelques minutes avant de réessayer. [Comptes verrouillés](../systems/permissions-users-all.md#locked-users) peuvent également être réinitialisés à partir de l’_Admin_.
+Pour plus de sécurité, vous pouvez déterminer les parties du _Administrateur_ auxquelles chaque utilisateur a [autorisation](../systems/permissions.md) d’accéder et également limiter le nombre [&#x200B; tentatives de connexion](../configuration-reference/advanced/admin.md). Par défaut, après six tentatives, le compte est verrouillé et l’utilisateur ou l’utilisatrice doit attendre quelques minutes avant de réessayer. [Comptes verrouillés](../systems/permissions-users-all.md#locked-users) peuvent également être réinitialisés à partir de l’_Admin_.
 
 >[!NOTE]
 >
@@ -92,7 +92,7 @@ La réutilisation des quatre derniers mots de passe attribués au compte n’est
 
 1. Saisissez le **[!UICONTROL Email Address]** associé au compte _Admin_.
 
-   ![ Mot de passe oublié ](./assets/admin-sign-in-forgot-password.png){width="400"}
+   ![&#x200B; Mot de passe oublié &#x200B;](./assets/admin-sign-in-forgot-password.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Retrieve Password]**.
 
@@ -110,7 +110,7 @@ La réutilisation des quatre derniers mots de passe attribués au compte n’est
 
    ![Se déconnecter](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-La page _[!UICONTROL Sign In]_affiche un message indiquant que vous êtes déconnecté. Déconnectez-vous du_ Administrateur _chaque fois que vous laissez votre ordinateur sans surveillance.
+La page _[!UICONTROL Sign In]_&#x200B;affiche un message indiquant que vous êtes déconnecté. Déconnectez-vous du_ Administrateur _chaque fois que vous laissez votre ordinateur sans surveillance.
 
 ## Modifier les informations du compte
 

@@ -31,7 +31,7 @@ Pour les utilisateurs et utilisatrices ou les rôles temporaires, vous pouvez é
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add New User]**.
 
-   Pour modifier un utilisateur existant, cliquez sur un nom d’utilisateur dans la grille. Vous pouvez modifier les sections _[!UICONTROL User Info]_et_[!UICONTROL User Role]_ selon vos besoins.
+   Pour modifier un utilisateur existant, cliquez sur un nom d’utilisateur dans la grille. Vous pouvez modifier les sections _[!UICONTROL User Info]_&#x200B;et&#x200B;_[!UICONTROL User Role]_ selon vos besoins.
 
 1. Dans la section _[!UICONTROL Account Information]_, procédez comme suit :
 
@@ -69,13 +69,13 @@ Pour les utilisateurs et utilisatrices ou les rôles temporaires, vous pouvez é
 
 >[!IMPORTANT]
 >
->Une fois la section _[!UICONTROL Account Information]_terminée, vous pouvez enregistrer l’utilisateur. Le nouvel utilisateur s’affiche dans la grille de_[!UICONTROL Users]_, mais le nom d’utilisateur ne peut pas se connecter tant qu’un rôle n’a pas été attribué.
+>Une fois la section _[!UICONTROL Account Information]_&#x200B;terminée, vous pouvez enregistrer l’utilisateur. Le nouvel utilisateur s’affiche dans la grille de&#x200B;_[!UICONTROL Users]_, mais le nom d’utilisateur ne peut pas se connecter tant qu’un rôle n’a pas été attribué.
 
 ## Attribuer un rôle d’utilisateur
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL User Role]**.
 
-   La grille répertorie tous les rôles utilisateur existants. Pour un nouveau magasin, _[!UICONTROL Administrators]_est le seul rôle disponible.
+   La grille répertorie tous les rôles utilisateur existants. Pour un nouveau magasin, _[!UICONTROL Administrators]_&#x200B;est le seul rôle disponible.
 
    ![Admin - add new user role](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
@@ -105,7 +105,7 @@ Pour les utilisateurs et utilisatrices ou les rôles temporaires, vous pouvez é
 
 1. Lorsque vous y êtes invité, saisissez votre mot de passe pour confirmer votre identité, puis cliquez de nouveau sur **[!UICONTROL Save User]**.
 
-   La grille de _[!UICONTROL Users]_s’ouvre et répertorie tous les utilisateurs.
+   La grille de _[!UICONTROL Users]_&#x200B;s’ouvre et répertorie tous les utilisateurs.
 
 ## Suppression d’un utilisateur administrateur
 
