@@ -3,9 +3,9 @@ title: Paramétrage du transporteur
 description: Découvrez la prise en charge des comptes d’expédition commerciale disponibles pour votre boutique.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+source-git-commit: b0f3256e6e41ce3e605a9564ce0e412efcba9c98
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Si vous disposez d&#39;un compte commercial auprès d&#39;un opérateur pris en 
 
 >[!NOTE]
 >
->Consultez [Commerce Marketplace](../getting-started/commerce-marketplace.md) pour obtenir des services de livraison supplémentaires pour votre installation de Commerce.
+>Consultez [](../getting-started/commerce-marketplace.md) pour obtenir des services de livraison supplémentaires pour votre installation de Commerce.
 
 Avant de pouvoir proposer à vos clients une sélection de transporteurs, vous devez effectuer les étapes suivantes :
 
@@ -47,11 +47,11 @@ Les options de configuration varient pour chaque opérateur. Cependant, toutes n
 
 Les versions 2.4.6, 2.4.7 et 2.4.8 d’Adobe Commerce utilisent les API des outils web hérités pour une intégration d’expédition prête à l’emploi avec USPS. USPS a introduit les API USPS, une plateforme REST pour remplacer les API des outils web hérités.
 
-Le 25 janvier 2026, USPS mettra hors service les API des outils web hérités. Passée cette date, toutes les requêtes envoyées aux API des outils web échoueront.
+Depuis le 25 janvier 2026, USPS a mis hors service les API des outils web hérités. Passée cette date, toutes les requêtes envoyées aux API des outils web échoueront.
 
-Pour éviter toute interruption des services d&#39;expédition USPS, prenez les mesures suivantes avant le 25 janvier 2026 :
+Pour éviter toute interruption des services d’expédition USPS, effectuez une mise à niveau vers la dernière version d’Adobe Commerce ou effectuez les actions suivantes :
 
-- Appliquez le correctif de qualité [&#x200B; Migration de l’API REST USPS &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) pour ajouter la prise en charge de l’intégration aux API REST USPS.
+- Appliquez le correctif de qualité [ Migration de l’API REST USPS ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) pour ajouter la prise en charge de l’intégration aux API REST USPS.
 
 - Mettez à jour la configuration USPS de Commerce pour utiliser les API REST :
 
