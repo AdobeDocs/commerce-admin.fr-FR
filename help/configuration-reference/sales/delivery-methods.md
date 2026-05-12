@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
-description: Vérifiez les paramètres de configuration sur la page de [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] de l’administrateur Commerce.
+title: '[!UICONTROL Sales] > [!UICONTROL Delivery Methods]'
+description: Passez en revue les paramètres de configuration sur la page [!UICONTROL Delivery Methods] de [!UICONTROL Sales] &gt ; de l’administrateur Commerce.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: d1e919d9025c3609e0512f26d563cebae325ca0b
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '4160'
+source-wordcount: '4555'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![Taux forfaitaire](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
 
-<!-- [Flat Rate](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
+<!-- [Flat Rate](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ![Livraison gratuite](./assets/delivery-methods-free-shipping.png)<!-- zoom -->
 
-<!-- [Free Shipping](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
+<!-- [Free Shipping](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -51,7 +51,7 @@ ht-degree: 0%
 | [!UICONTROL Title] | Affichage de la boutique | Nom utilisé pour ce mode d’expédition lors du passage en caisse. |
 | Nom de la méthode | Affichage de la boutique | Nom qui décrit la méthode de calcul utilisée pour produire une estimation d’expédition. Le nom de la méthode s’affiche en regard du taux estimé calculé dans le panier. La valeur par défaut est `Free`. |
 | Montant minimal de la commande | Site internet | Achat minimum requis pour appliquer la livraison gratuite à une commande. |
-| Inclure la taxe au montant | Site internet | Détermine si la taxe est incluse dans le calcul du montant minimum de la commande. Options : <br/>**Oui** - La TVA est incluse dans le calcul du montant minimum de la commande (sous-total + TVA - remise).<br/>**Non** - La taxe n&#39;est pas incluse dans le calcul du montant minimum de la commande (Sous-total - Remise). |
+| Inclure la taxe au montant | Site internet | Détermine si la taxe est incluse dans le calcul du montant minimum de la commande. Options : <br/>**Oui** - La taxe est incluse lors du calcul du montant minimum de la commande (Sous-total + Taxe - Remise).<br/>**Non** - La taxe n&#39;est pas incluse lors du calcul du montant minimum de la commande (Sous-total - Remise). |
 | Message d’erreur affiché | Affichage de la boutique | Message qui s’affiche si un client choisit la livraison gratuite, mais que la méthode n’est pas disponible pour une raison quelconque. |
 | Expédier vers les pays applicables | Site internet | Indique les pays où vous proposez la livraison gratuite. Options : <br/>**Tous les pays autorisés** - Les clients de n’importe quel pays spécifié dans la configuration de la boutique peuvent utiliser la livraison gratuite. <br/>**Pays spécifiques** - Les clients de pays spécifiques seulement peuvent utiliser la livraison gratuite. |
 | Expédier vers des pays spécifiques | Site internet | Indique chaque pays où les clients peuvent utiliser la livraison gratuite. |
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ![Taux du tableau](./assets/delivery-methods-table-rates.png)<!-- zoom -->
 
-<!-- [Table Rates](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
+<!-- [Table Rates](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ![Diffusion En Magasin](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
 
-<!-- [In-Store Delivery](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [In-Store Delivery](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -106,11 +106,11 @@ ht-degree: 0%
 
 {{ups-api}}
 
-![&#x200B; Paramètres du compte REST UPS &#x200B;](./assets/delivery-methods-ups1.png)<!-- zoom -->
+![ Paramètres du compte REST UPS ](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-![&#x200B; Paramètres du compte XML UPS &#x200B;](./assets/delivery-methods-ups1.png)<!-- zoom -->
+![ Paramètres du compte XML UPS ](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 ![Informations sur le package UPS](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
-<!-- [UPS Package Information]https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Package Information]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -151,9 +151,9 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![&#x200B; Méthodes autorisées UPS &#x200B;](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
+![ Méthodes autorisées UPS ](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
-<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 ![Pays applicables UPS et autres paramètres](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
-<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -182,6 +182,8 @@ ht-degree: 0%
 
 ### [!UICONTROL USPS]
 
+![Paramètres du compte USPS](./assets/delivery-methods-usps.png)<!-- zoom -->
+
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | Activé pour le passage en caisse | Site internet | Détermine si USPS est disponible pour les clients en tant que méthode d&#39;expédition lors du passage en caisse. Options : `Yes` / `No` |
@@ -189,13 +191,23 @@ ht-degree: 0%
 | [!UICONTROL Gateway URL] | Site internet | URL utilisée pour se connecter au système USPS afin de récupérer dynamiquement les frais d’expédition. |
 | [!UICONTROL Secure Gateway URL] | Site internet | URL sécurisée utilisée pour se connecter au système USPS via une couche de socket sécurisée (SSL) afin de récupérer de manière dynamique les tarifs d’expédition. |
 | [!UICONTROL Title] | Affichage de la boutique | Titre de cette option d’expédition tel qu’il apparaît dans le passage en caisse du panier. |
+| [!UICONTROL USPS Type] | Site internet | Choisissez **API Rest USPS** ou **API Web Tools USPS** en fonction de celle que vous allez utiliser. |
 | [!UICONTROL User ID] | Site internet | Identifiant utilisateur de votre compte d&#39;expéditeur USPS. |
 | [!UICONTROL Password] | Site internet | Votre mot de passe de compte d&#39;expéditeur USPS. |
-| [!UICONTROL Mode] | Site internet | Détermine le mode de transmission utilisé pour les données envoyées au système USPS. Les options sont les suivantes : <br/>**`Development`**- USPS ne vérifie pas que les données reçues du serveur Commerce sont envoyées via SSL.<br/>**`Live`** - USPS vérifie que les données reçues du serveur Commerce sont envoyées via une couche de socket sécurisée (SSL). |
+| [!UICONTROL Mode] | Site internet | Détermine le mode de transmission utilisé pour les données envoyées au système USPS. Les options disponibles sont les suivantes : <br/>**`Development`**- USPS ne vérifie pas que les données reçues du serveur Commerce sont envoyées via SSL.<br/>**`Live`** - USPS vérifie que les données reçues du serveur Commerce sont envoyées via une couche de socket sécurisée (SSL). |
+| [!UICONTROL Consumer Key] | Site internet | Identifiant client de votre compte d’expéditeur USPS pour l’API REST. |
+| [!UICONTROL Consumer Secret] | Site internet | Votre clé secrète client de compte expéditeur USPS pour l’API REST. |
+| [!UICONTROL Account Type] | Site internet | Type de compte de paiement USPS. Options : `"EPS"` (Enterprise Payment System) ou `"PERMIT"` (Permit Imprint) pour l’API REST. <br/><br/>**_Note:_** ce champ est facultatif ; cependant, il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition. |
+| [!UICONTROL Pricing Options] | Site internet | Options de tarification USPS : **Vente au détail** ou **Commerciale**. A un impact sur les frais d&#39;expédition appliqués. La valeur par défaut est **commerciale** pour l’API REST. |
+| [!UICONTROL Account Number] | Site internet | Votre USPS **numéro de compte**, utilisé pour le paiement de l&#39;API REST. <br/><br/>**_Note:_** Ce champ est facultatif ; cependant, il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition. |
+| [!UICONTROL Customer Registration Identifier(CRID)] | Site internet | Un numéro d&#39;identification d&#39;enregistrement client (CRID) est un code numérique généré par USPS qui identifie de manière unique une entreprise à un emplacement pour l&#39;API REST. <br/><br/>**_Note:_** Ce champ est facultatif ; cependant, il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition. |
+| [!UICONTROL Mailer Identifier(MID)] | Site internet | Le MID (Mailer Identifier) est un champ du code-barres Intelligent Mail utilisé pour identifier les expéditeurs. Les MID sont affectés par l&#39;USPS à un propriétaire de messagerie, un agent de messagerie ou un autre fournisseur de services qui les demande pour l&#39;API REST. <br/><br/>**_Note:_** Ce champ est facultatif ; cependant, il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition. |
+| [!UICONTROL Manifest MID] | Site internet | Identifiant unique de l&#39;expéditeur désigné pour le manifeste pour l&#39;API REST. <br/><br/>**_Note:_** Ce champ est facultatif ; cependant, il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition. |
+| [!UICONTROL AES/ITN] | Site internet | USPS AES - Automated Export System / ITN - Numéro de transaction interne pour l&#39;API REST. <br/><br/>**_Remarque:_** ce champ est généralement facultatif, mais il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition si : <ul><li>Chaque type de marchandises dans l&#39;expédition (tel que défini par les codes d&#39;exportation de l&#39;annexe B à <a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank"></a>) est évalué à 2 500 $ ou moins et ne nécessite pas de licence d&#39;exportation ; ou</li><li>L&#39;expédition, quelle que soit sa valeur, est envoyée au Canada et ne nécessite pas de licence d&#39;exportation.</li></ul> |
 
 {style="table-layout:auto"}
 
-Les champs suivants ne sont disponibles que si vous avez appliqué le correctif de qualité [&#x200B; Migration de l’API REST USPS &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210). Ce correctif permet la prise en charge des API USPS, une plateforme REST qui remplace les API Web Tools. Pour plus d’informations, consultez [Obsolescence de l’API des outils web USPS](../../stores-purchase/carriers.md).
+Les champs suivants ne sont disponibles que si vous avez appliqué le correctif de qualité [ Migration de l’API REST USPS ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210). Ce correctif permet la prise en charge des API USPS, une plateforme REST qui remplace les API Web Tools. Pour plus d’informations, consultez [Obsolescence de l’API des outils web USPS](../../stores-purchase/carriers.md).
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -204,17 +216,17 @@ Les champs suivants ne sont disponibles que si vous avez appliqué le correctif 
 | [!UICONTROL Consumer Secret] | Site internet | Votre clé secrète client de compte expéditeur USPS pour l’API REST. |
 | [!UICONTROL Account Type] | Site internet | Type de compte de paiement USPS. Options : `"EPS"` (Enterprise Payment System) ou `"PERMIT"` (Permit Imprint) pour l’API REST. <br/><br/>**_Note:_** ce champ est facultatif ; cependant, il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition. |
 | [!UICONTROL Pricing Options] | Site internet | Options de tarification USPS : **Vente au détail** ou **Commerciale**. A un impact sur les frais d&#39;expédition appliqués. La valeur par défaut est **commerciale** pour l’API REST. |
-| [!UICONTROL Account Number] | Site internet | Votre USPS **numéro de compte**, utilisé pour le paiement de l’API REST.  <br/><br/>**_Note:_** ce champ est facultatif ; cependant, il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition. |
-| [!UICONTROL Customer Registration Identifier(CRID)] | Site internet | Un numéro d’identification d’enregistrement client (CRID) est un code numérique généré par USPS qui identifie de manière unique une entreprise sur un emplacement pour l’API REST.  <br/><br/>**_Note:_** ce champ est facultatif ; cependant, il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition. |
-| [!UICONTROL Mailer Identifier(MID)] | Site internet | Le MID (Mailer Identifier) est un champ du code-barres Intelligent Mail utilisé pour identifier les expéditeurs. Les MID sont affectés par l&#39;USPS à un propriétaire de messagerie, un agent de messagerie ou un autre fournisseur de services qui les demande pour l&#39;API REST.  <br/><br/>**_Note:_** ce champ est facultatif ; cependant, il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition. |
-| [!UICONTROL Manifest MID] | Site internet | Identifiant de messagerie unique désigné pour le manifeste de l’API REST.  <br/><br/>**_Note:_** ce champ est facultatif ; cependant, il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition. Pour Magento 2.4.7-p8 avec le correctif [AC-15210](https://experienceleague.adobe.com/fr/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) appliqué, [!UICONTROL Manifest MID] est un champ obligatoire. |
-| [!UICONTROL AES/ITN] | Site internet | USPS AES - Automated Export System / ITN - Numéro de transaction interne pour l&#39;API REST. <br/><br/>**_Remarque:_** ce champ est généralement facultatif, mais il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition si : <ul><li>Chaque type de marchandises dans l&#39;expédition (tel que défini par les codes d&#39;exportation de l&#39;annexe B à <a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank">www.census.gov/foreign-trade/schedules/b</a>) est évalué à 2 500 $ ou moins et ne nécessite pas de licence d&#39;exportation ; ou</li><li>L&#39;expédition, quelle que soit sa valeur, est envoyée au Canada et ne nécessite pas de licence d&#39;exportation.</li></ul> |
+| [!UICONTROL Account Number] | Site internet | Votre USPS **numéro de compte**, utilisé pour le paiement de l&#39;API REST. <br/><br/>**_Note:_** Ce champ est facultatif ; cependant, il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition. |
+| [!UICONTROL Customer Registration Identifier(CRID)] | Site internet | Un numéro d&#39;identification d&#39;enregistrement client (CRID) est un code numérique généré par USPS qui identifie de manière unique une entreprise à un emplacement pour l&#39;API REST. <br/><br/>**_Note:_** Ce champ est facultatif ; cependant, il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition. |
+| [!UICONTROL Mailer Identifier(MID)] | Site internet | Le MID (Mailer Identifier) est un champ du code-barres Intelligent Mail utilisé pour identifier les expéditeurs. Les MID sont affectés par l&#39;USPS à un propriétaire de messagerie, un agent de messagerie ou un autre fournisseur de services qui les demande pour l&#39;API REST. <br/><br/>**_Note:_** Ce champ est facultatif ; cependant, il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition. |
+| [!UICONTROL Manifest MID] | Site internet | Identifiant unique de l&#39;expéditeur désigné pour le manifeste pour l&#39;API REST. <br/><br/>**_Note:_** Ce champ est facultatif ; cependant, il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition. Pour Magento 2.4.7-p8 avec le correctif [AC-15210](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) appliqué, [!UICONTROL Manifest MID] est un champ obligatoire. |
+| [!UICONTROL AES/ITN] | Site internet | USPS AES - Automated Export System / ITN - Numéro de transaction interne pour l&#39;API REST. <br/><br/>**_Remarque:_** ce champ est généralement facultatif, mais il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition si : <ul><li>Chaque type de marchandises dans l&#39;expédition (tel que défini par les codes d&#39;exportation de l&#39;annexe B à <a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank"></a>) est évalué à 2 500 $ ou moins et ne nécessite pas de licence d&#39;exportation ; ou</li><li>L&#39;expédition, quelle que soit sa valeur, est envoyée au Canada et ne nécessite pas de licence d&#39;exportation.</li></ul> |
 
 {style="table-layout:auto"}
 
 ![Paramètres d&#39;emballage USPS](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
-<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -229,20 +241,20 @@ Les champs suivants ne sont disponibles que si vous avez appliqué le correctif 
 
 ![Paramètres des frais de gestion USPS](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
-<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Site internet | Définit la méthode de calcul des frais de manutention pour l&#39;expédition au tarif du tableau. Options : <br/>**`Fixed`**- Les frais de gestion sont un taux fixe.<br/>**`Percent`** - Les frais de gestion sont appliqués en tant que pourcentage du montant de la commande. |
 | [!UICONTROL Handling Applied] | Site internet | Indique si des frais de gestion sont appliqués à chaque commande ou à chaque package d&#39;une commande. |
-| [!UICONTROL Handling Fee] | Site internet | Définit la gestion incluse avec le prix de livraison. Les frais de gestion peuvent être définis sous la forme d’un montant fixe ou d’un pourcentage. <br/><br/>**_Note:_** lors de la saisie d&#39;un montant en pourcentage, utilisez le format décimal `0.25` pour 25 %. |
+| [!UICONTROL Handling Fee] | Site internet | Définit la gestion incluse avec le prix de livraison. Les frais de gestion peuvent être définis sous la forme d’un montant fixe ou d’un pourcentage. <br/><br/>**_Note:_** lors de la saisie d&#39;un montant en pourcentage, utilisez le format décimal `25` pour 25 %. |
 
 {style="table-layout:auto"}
 
-![&#x200B; Méthodes autorisées USPS &#x200B;](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
+![ Méthodes autorisées USPS ](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
-<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -256,7 +268,7 @@ Les champs suivants ne sont disponibles que si vous avez appliqué le correctif 
 
 ![Pays applicables USPS](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
-<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -270,7 +282,7 @@ Les champs suivants ne sont disponibles que si vous avez appliqué le correctif 
 
 ### [!UICONTROL FedEx]
 
-<!-- [FedEx Account Settings](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
+<!-- [FedEx Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
 
 #### Paramètres du compte FedEx
 
@@ -348,39 +360,41 @@ Les champs suivants ne sont disponibles que si vous avez appliqué le correctif 
 
 ![Paramètres du compte DHL](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
 
-<!-- [DHL Account Settings](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | _[!UICONTROL DHL Account Settings]_ |  |  |
 | [!UICONTROL Enabled for Checkout] | Site internet | Détermine si DHL est disponible pour les clients en tant que méthode d&#39;expédition lors du passage en caisse. Options : `Yes` / `No` |
 | [!UICONTROL Title] | Affichage de la boutique | Titre de ce mode d’expédition tel qu’il apparaît lors du passage en caisse. |
-| [!UICONTROL Gateway URL] | Site internet | En règle générale, vous pouvez accepter l’URL de passerelle par défaut. Cependant, si DHL vous a fourni une autre URL, saisissez la valeur dans ce champ. |
+| [!UICONTROL DHL Type] | Site internet | Choisissez REST ou XML en fonction de celui que vous allez utiliser. |
 | [!UICONTROL Access ID] | Site internet | Identifiant d&#39;accès à votre compte expéditeur DHL. |
+| [!UICONTROL API KEY] | Site internet | Votre CLÉ API DHL pour l’API REST. |
 | [!UICONTROL Password] | Site internet | Votre mot de passe de compte d&#39;expéditeur DHL. |
+| [!UICONTROL API Secret] | Site internet | Votre clé secrète API DHL pour l’API REST. |
 | [!UICONTROL Account Number] | Site internet | Votre numéro de compte expéditeur DHL. |
 
 {style="table-layout:auto"}
 
 ![Paramètres du package DHL](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
-<!-- [DHL Package Settings](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Package Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | _[!UICONTROL DHL Package Settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Site internet | Les frais de manutention sont facultatifs et apparaissent comme des frais supplémentaires ajoutés aux frais d&#39;expédition DHL. Dans la liste, sélectionnez la méthode à utiliser pour calculer les frais de manutention. Options : Frais fixes / Pourcentage. |
 | [!UICONTROL Handling Applied] | Site internet | Dans la liste, sélectionnez la manière dont vous souhaitez que les frais de gestion soient appliqués. Options : `Per Order` / `Per Package` |
-| Frais de gestion | Site internet | Saisissez le montant à facturer pour les frais de manutention, en fonction de la méthode que vous avez choisie pour calculer le montant. Par exemple, si les frais sont basés sur des frais fixes, saisissez le montant sous la forme d’une décimale, comme `4.90`. Toutefois, si les frais de gestion sont basés sur un pourcentage de la commande, saisissez le montant sous forme de pourcentage. Par exemple, si vous facturez six pour cent de la commande, saisissez la valeur `.06`. |
+| Frais de gestion | Site internet | Saisissez le montant à facturer pour les frais de manutention, en fonction de la méthode que vous avez choisie pour calculer le montant. Par exemple, si les frais sont basés sur des frais fixes, saisissez le montant sous la forme d’une décimale, comme `4.90`. Toutefois, si les frais de gestion sont basés sur un pourcentage de la commande, saisissez le montant sous forme de pourcentage. Par exemple, si vous facturez six pour cent de la commande, saisissez la valeur `6`. |
 | [!UICONTROL Divide Order Weight] | Affichage de la boutique | Détermine si le poids d&#39;une commande de plus de 70 kg peut être divisé en unités plus petites pour garantir des frais d&#39;expédition précis. Options : `Yes` / `No` |
 | [!UICONTROL Weight Unit] | Affichage de la boutique | Détermine l&#39;unité de mesure du poids utilisée dans les calculs d&#39;expédition. Options : `Pounds` / `Kilograms` |
 | [!UICONTROL Size] | Affichage de la boutique | Détermine la taille du package. Options : <br/>**`Regular`**- Les colis expédiés sont conformes aux méthodes d&#39;emballage standard de DHL. Dans la liste [!UICONTROL Allowed Methods], sélectionnez chaque méthode d&#39;emballage utilisée pour expédier les produits de votre magasin.<br/>**`Specific`** - Si les colis expédiés ont des dimensions personnalisées, effectuez les opérations suivantes : [!UICONTROL Height (cm)] / [!UICONTROL Depth (cm)] / [!UICONTROL Width (cm)] |
 
 {style="table-layout:auto"}
 
-![&#x200B; Méthodes autorisées DHL &#x200B;](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
+![ Méthodes autorisées DHL ](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
-<!-- DHL Allowed Methods](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -396,7 +410,7 @@ Les champs suivants ne sont disponibles que si vous avez appliqué le correctif 
 
 ![Pays applicables au DHL](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
-<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -405,6 +419,7 @@ Les champs suivants ne sont disponibles que si vous avez appliqué le correctif 
 | [!UICONTROL Ship to Specific Countries] | Site internet | Spécifie les pays où les expéditions DHL peuvent être envoyées. Cette liste de pays sélectionnés est utilisée si `Specific Countries` est sélectionné dans l’option [!UICONTROL Ship to Applicable Countries]. |
 | [!UICONTROL Show Method if Not Applicable] | Site internet | Détermine quand DHL apparaît comme méthode d&#39;expédition lors du passage en caisse. Options : <br/>**`Yes`**- DHL apparaît toujours comme option d&#39;expédition lors du passage en caisse, même si elle ne s&#39;applique pas à la commande.<br/>**`No`** - DHL apparaît comme option d&#39;expédition lors du passage en caisse seulement si applicable à la commande (c&#39;est-à-dire, le poids de la commande dépasse le poids maximal). |
 | [!UICONTROL Debug] | Site internet | Crée un fichier journal contenant les informations relatives aux erreurs. |
+| [!UICONTROL Sandbox Mode] | Site internet | Définissez sur `Yes` si vous utilisez un sandbox. Définissez sur `No` pour le mode réel. |
 | [!UICONTROL Sort Order] | Site internet | Nombre qui détermine l’ordre dans lequel DHL apparaît lorsqu’il est répertorié avec d’autres méthodes de diffusion lors du passage en caisse. Pour le placer en haut de la liste, saisissez `0`. |
 
 {style="table-layout:auto"}

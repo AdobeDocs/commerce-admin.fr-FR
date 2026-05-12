@@ -3,10 +3,10 @@ title: Cartes du site
 description: Découvrez comment configurer un plan de site pour indexer toutes les pages et images de vos sites Commerce.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 321a9fb0f3c6d86aad520b76ff717c0b07ac37f0
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: 4d5699dc5c4dc4b2bcf208bb0e660ba61e28c507
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Pour Adobe Commerce as a Cloud Service, consultez les [directives SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=fr) de la documentation du Storefront Commerce
+>Pour Adobe Commerce as a Cloud Service, consultez les [directives SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) de la documentation du Storefront Commerce
 
 Un plan de site améliore la façon dont votre boutique est indexée par les moteurs de recherche et est conçu pour rechercher les pages qui pourraient être ignorées par les robots d&#39;exploration web. Un plan de site peut être configuré pour indexer toutes les pages et images.
 
@@ -23,7 +23,7 @@ Lorsqu’il est activé, Commerce crée un fichier appelé `sitemap.xml` qui est
 
 Pendant le développement de votre site, vous pouvez inclure des instructions dans le fichier `robots.txt` pour les robots d&#39;exploration web afin d’éviter d’indexer le site. Ensuite, avant le lancement, vous pouvez modifier les instructions pour permettre l’indexation du site.
 
-Pour obtenir des informations techniques, voir [Ajouter un plan de site et robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=fr) dans le guide _Commerce sur les infrastructures cloud_.
+Pour obtenir des informations techniques, voir [Ajouter un plan de site et robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) dans le guide _Commerce sur les infrastructures cloud_.
 
 ![Grille du plan du site](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -68,7 +68,7 @@ Vous pouvez envoyer votre plan de site à différents moteurs de recherche en le
 Pour plus d’informations, consultez les instructions relatives au moteur de recherche spécifique. Voici des liens vers des instructions pour deux moteurs de recherche principaux :
 
 - [Google](https://support.google.com/webmasters/answer/183669?hl=en)
-- [Microsoft® Bing](https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed)
+- [® Bing](https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed)
 
 ## Étape 5 : Restaurer les instructions précédentes du robot (facultatif)
 
@@ -83,7 +83,7 @@ Pour créer des plans de site pour une instance multimagasin, procédez comme su
 1. Créez un dossier appelé `sitemaps` à la racine de votre site web, puis créez des sous-dossiers pour chaque domaine :
 
        /sitemaps/domain_1/
-       /sitemaps/domain_2/
+     /sitemaps/domain_2/
    
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Site Map]**.
 
@@ -97,12 +97,12 @@ Pour créer des plans de site pour une instance multimagasin, procédez comme su
    Pour vous assurer que les araignées du moteur de recherche sont correctement redirigées vers les nouveaux plans de site, vous pouvez mettre à jour ou créer le fichier robots.txt . Ajoutez les lignes suivantes en haut.
 
        Plan du site Web
-       Plan du site : https://www.domain_1.com/sitemaps/domain_1/sitemap.xml
-       Plan du site : https://www.domain_2.com/sitemaps/domain_2/sitemap.xml
+     Plan du site : https://www.domain_1.com/sitemaps/domain_1/sitemap.xml
+     Plan du site : https://www.domain_2.com/sitemaps/domain_2/sitemap.xml
    
 >[!NOTE]
 >
->Si votre site utilise le moteur de serveur web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=fr), vous devez mettre à jour le fichier [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) dans la racine de votre site web pour diriger toute autre requête de plan de site vers l’emplacement approprié.
+>Si votre site utilise le moteur de serveur web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html), vous devez mettre à jour le fichier [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) dans la racine de votre site web pour diriger toute autre requête de plan de site vers l’emplacement approprié.
 
 ## Descriptions des colonnes
 
@@ -166,7 +166,7 @@ La carte de votre site doit être mise à jour aussi souvent que le contenu de v
 
    ![Configuration du catalogue - Pages CMS du plan de site XML](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
 
-   Pour obtenir une liste détaillée de ces options, voir [Options de pages CMS](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options) dans la _Référence de configuration_.
+   Pour obtenir une liste détaillée de ces options, voir [Options de pages ](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options) dans la _Référence de configuration_.
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Store Url Options]** et renseignez les paramètres **[!UICONTROL Frequency]** et **[!UICONTROL Priority]** selon vos besoins.
 
@@ -187,6 +187,11 @@ La carte de votre site doit être mise à jour aussi souvent que le contenu de v
    Pour obtenir la liste détaillée de ces options, voir [Paramètres de génération](../configuration-reference/catalog/xml-sitemap.md#generation-settings) dans le _Référence de configuration_.
 
 1. Pour générer un plan de site, définissez **[!UICONTROL Enabled]** sur `Yes` et procédez comme suit :
+
+   - Définissez **[!UICONTROL Generation Method]** sur l’une des options suivantes :
+
+      - `Standard` - Traite toutes les données en mémoire.
+      - `Batch` : utilise le traitement optimisé en mémoire pour les catalogues volumineux. Cette option est disponible à partir de la version 2.4.9.
 
    - Définissez **[!UICONTROL Start Time]** sur l’heure, la minute et la seconde auxquelles vous souhaitez que le plan du site soit mis à jour.
 
@@ -227,3 +232,33 @@ La carte de votre site doit être mise à jour aussi souvent que le contenu de v
 1. Si vous utilisez un fichier `robots.txt` pour fournir des instructions aux moteurs de recherche qui explorent à votre site, définissez **[!UICONTROL Enable Submission to Robots.txt]** sur `Yes`.
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
+
+## Autre cronjob pour les catalogues volumineux
+
+>[!NOTE]
+>
+>Pour les magasins disposant de catalogues volumineux, vous pouvez utiliser une autre tâche cron pour vous assurer que toutes les données sont générées. Dans `app/code/Magento/Sitemap/etc/config.xml`, remplacez :
+>
+>```xml
+><jobs>
+>   <sitemap_generate>
+>       <schedule>
+>           <cron_expr>0 0 * * *</cron_expr>
+>       </schedule>
+>   </sitemap_generate>
+></jobs>
+>```
+>
+>par :
+>
+>```xml
+><jobs>
+>   <sitemap_generate_batch>
+>       <schedule>
+>           <cron_expr>0 0 * * *</cron_expr>
+>       </schedule>
+>   </sitemap_generate_batch>
+></jobs>
+>```
+>
+>Cette modification active la génération de plans de site par lots, ce qui est recommandé pour les catalogues volumineux.

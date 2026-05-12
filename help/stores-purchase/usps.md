@@ -3,9 +3,9 @@ title: Service postal des États-Unis (USPS)
 description: Découvrez comment configurer USPS en tant que transporteur pour votre boutique.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,15 @@ Vous pouvez également ouvrir un compte [USPS Web Tools](https://secure.shipping
 
 1. Définissez **[!UICONTROL Enabled for Checkout]** sur `Yes`.
 
-1. Définissez **[!UICONTROL USPS Type]** sur `USPS Rest APIs` si vous utilisez l’API REST USPS.
+1. Définissez le type d’API USPS.
 
-   Si vous utilisez l&#39;API Web Tools d&#39;USPS, définissez **[!UICONTROL USPS Type]** sur `USPS Web Tools API`.
+   - Si vous utilisez l’API REST USPS, définissez **[!UICONTROL USPS Type]** sur `USPS REST API`.
+
+   - Si vous utilisez l&#39;API Web Tools d&#39;USPS, définissez **[!UICONTROL USPS Type]** sur `USPS Web Tools API`.
+
+   >[!NOTE]
+   >
+   >Les API REST USPS sont la méthode préférée pour intégrer à USPS. L’API des outils web USPS est obsolète et peut être supprimée dans les prochaines versions.
 
 1. Si nécessaire, saisissez le **[!UICONTROL Gateway URL]** pour accéder aux tarifs d&#39;expédition USPS.
 
@@ -48,16 +54,17 @@ Vous pouvez également ouvrir un compte [USPS Web Tools](https://secure.shipping
 
 1. Utilisez les informations d&#39;identification fournies par USPS pour remplir les champs suivants :
 
-   Si vous utilisez les API REST USPS, vous devez fournir les informations d’identification suivantes :
+   Si vous utilisez les API REST USPS, indiquez les informations d’identification suivantes :
 
    - **[!UICONTROL Consumer Key]**
    - **[!UICONTROL Consumer Secret]**
    - **[!UICONTROL Pricing Options]**
 
-   Si vous utilisez l&#39;API Web Tools d&#39;USPS, vous devez fournir les informations d&#39;identification suivantes :
+   Si vous utilisez l&#39;API des outils Web USPS, fournissez les informations d&#39;identification suivantes :
 
    - **[!UICONTROL User ID]**
    - **[!UICONTROL Password]**
+
 
 1. Définissez **[!UICONTROL Mode]** sur l’une des options suivantes :
 
@@ -100,7 +107,7 @@ Les frais de manutention sont facultatifs et apparaissent comme des frais suppl�
 
 1. Saisissez le montant de la **[!UICONTROL Handling Fee]** à facturer.
 
-   Pour saisir un pourcentage, utilisez le format décimal. Par exemple, saisissez `0.25` pour 25 %.
+   Pour saisir un pourcentage, utilisez le format décimal. Par exemple, saisissez `25` pour 25 %.
 
    ![Frais de gestion USPS](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
 
@@ -120,7 +127,7 @@ Les frais de manutention sont facultatifs et apparaissent comme des frais suppl�
 
    Cette zone de texte est prédéfinie avec un message par défaut, mais vous pouvez saisir un message différent que vous souhaitez afficher si USPS n&#39;est plus disponible.
 
-   ![&#x200B; Méthodes autorisées USPS &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
+   ![ Méthodes autorisées USPS ](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
 
 1. Définissez **[!UICONTROL Ship to Applicable Countries]** sur l’une des options suivantes :
 

@@ -3,10 +3,10 @@ title: PayPal Payflow Pro
 description: Découvrez comment configurer PayPal Payflow Pro en tant que solution de paiement en ligne sur votre boutique.
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2304'
 ht-degree: 0%
 
 ---
@@ -59,9 +59,9 @@ La passerelle PayPal Payflow Pro, anciennement connue sous le nom de _Verisign_,
 
    - Sous **[!UICONTROL Security Options]**, renseignez les paramètres suivants :
 
-      - **[!UICONTROL AVS]** : `No`
-      - **[!UICONTROL CSC]** : `No`
-      - **[!UICONTROL Enable Secure Token]** : `Yes`
+      - **[!UICONTROL AVS]**: `No`
+      - **[!UICONTROL CSC]**: `No`
+      - **[!UICONTROL Enable Secure Token]**: `Yes`
 
    - Choisissez **[!UICONTROL Customize]**, puis choisissez **[!UICONTROL Layout C]**.
 
@@ -114,7 +114,7 @@ Cette méthode de configuration suppose que vous disposez d&#39;un compte PayPal
 
 1. Si votre installation Commerce comporte plusieurs sites web, boutiques ou vues, définissez **[!UICONTROL Store View]** sur la vue de la boutique dans laquelle vous souhaitez appliquer cette configuration.
 
-1. Dans la section _[!UICONTROL Merchant Location]_, sélectionnez le **[!UICONTROL Merchant Country]**&#x200B;où se trouve votre entreprise.
+1. Dans la section _[!UICONTROL Merchant Location]_, sélectionnez le **[!UICONTROL Merchant Country]**où se trouve votre entreprise.
 
    Ce paramètre détermine la sélection des solutions PayPal qui apparaissent dans la configuration.
 
@@ -159,6 +159,10 @@ Cette méthode de configuration suppose que vous disposez d&#39;un compte PayPal
 1. Si vous souhaitez proposer le [crédit PayPal](paypal.md#paypal-credit-and-pay-later) à vos clients, définissez **[!UICONTROL Enable PayPal Credit]** sur `Yes`.
 
 1. Si vous souhaitez stocker en toute sécurité les informations de paiement/carte de crédit du client, afin que les clients n’aient pas à saisir à nouveau les informations de paiement à chaque fois, définissez **[!UICONTROL Vault Enabled]** sur `Yes`.
+
+>[!NOTE]
+>
+>Les identifiants de transaction PayPal PayFlow Pro (PNREF) peuvent désormais être utilisés dans les transactions de référence pendant une période fixe de 12 mois. Une fois expirée, la carte enregistrée ne s’affiche plus et doit être ajoutée à nouveau.
 
 ### Étape 3 : Configurer le crédit PayPal publicitaire / Annoncer PayPal PayLater (facultatif)
 
@@ -317,7 +321,7 @@ Définissez **[!UICONTROL Enable PayPal PayLater Experience]** sur l’une des o
 1. Définissez **[!UICONTROL Payment Applicable From]** sur l’une des options suivantes :
 
    - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans la configuration de votre boutique peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Payment from Specific Countries]_&#x200B;s’affiche. Maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et sélectionnez chaque pays dans la liste où les clients peuvent effectuer des achats dans votre boutique.
+   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Payment from Specific Countries]_s’affiche. Maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et sélectionnez chaque pays dans la liste où les clients peuvent effectuer des achats dans votre boutique.
 
 1. Pour écrire des communications avec le système de paiement dans le fichier journal, définissez **[!UICONTROL Debug Mode]** sur `Yes`.
 
@@ -449,7 +453,7 @@ Utilisez les paramètres d’expérience Frontend pour choisir les logos PayPal 
    - `Authorization` - Valide l&#39;achat et met un blocage sur les fonds. Le montant n&#39;est pas retiré tant qu&#39;il n&#39;est pas _saisi_ par le commerçant.
    - `Sale` - Le montant de l&#39;achat est autorisé et immédiatement retiré du compte du client.
 
-1. Pour afficher le bouton _[!UICONTROL Check out with PayPal]_&#x200B;sur la page produit, définissez **[!UICONTROL Display on Product Details Page]**&#x200B;sur `Yes`.
+1. Pour afficher le bouton _[!UICONTROL Check out with PayPal]_sur la page produit, définissez **[!UICONTROL Display on Product Details Page]**sur `Yes`.
 
 ### Étape 7 : Définissez les paramètres avancés de PayPal Express Checkout
 
@@ -462,7 +466,7 @@ Utilisez les paramètres d’expérience Frontend pour choisir les logos PayPal 
 1. Définissez **[!UICONTROL Payment Applicable From]** sur l’une des options suivantes :
 
    - `All Allowed Countries` - Les clients de tous les pays spécifiés dans la configuration de votre boutique peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Payment from Specific Countries]_&#x200B;s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque élément.
+   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Payment from Specific Countries]_s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque élément.
 
 1. Pour écrire des communications avec le système de paiement dans le fichier journal, définissez **[!UICONTROL Debug Mode]** sur `Yes`.
 

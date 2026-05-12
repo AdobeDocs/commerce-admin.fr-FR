@@ -1,12 +1,12 @@
 ---
-title: '[!UICONTROL Advanced] &gt; [!UICONTROL Admin]'
-description: Vérifiez les paramètres de configuration sur la page de [!UICONTROL Advanced] d’[!UICONTROL Admin] &gt; de l’administrateur Commerce.
+title: '[!UICONTROL Advanced] > [!UICONTROL Admin]'
+description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Admin] de [!UICONTROL Advanced] &gt ; de l’administrateur Commerce.
 exl-id: 546b8d01-9611-4415-ab2b-29be560316f5
 role: Admin
 feature: Configuration, Admin Workspace
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: 093c0841141f3e39afdabf25f7ce96c65db35291
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Modifie
 | `Reports` | [`Marketing`](../../getting-started/marketing-reports.md) | `Products in Cart`<br />`Search Terms`<br />`Abandoned Carts`<br />`Newsletter Problem Reports` |
 |                                                         | [`Reviews`](../../getting-started/review-reports.md) | `By Customer`<br/> `By Products`<br/> |
 |                                                         | [`Sales`](../../getting-started/sales-reports.md) | `Orders`<br/>`Tax`<br/>`Invoiced`<br/>`Shipping`<br/>`Refunds`<br/>`Coupons`<br/>`PayPal Settlement`<br/>`Braintree Settlement` |
-|                                                         | `System Insights` | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=fr) ![Adobe Commerce](../../assets/adobe-logo.svg) |
+|                                                         | `System Insights` | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) ![Adobe Commerce](../../assets/adobe-logo.svg) |
 |                                                         | [`Customers`](../../getting-started/customer-reports.md) | `Order Total`<br/>`Order Count`<br/>`New`<br/>`Wish Lists`<br/>`Segments`<br/> |
 |                                                         | [`Products`](../../getting-started/product-reports.md) | `Views`<br/>`Bestsellers`<br/>`Low Stock`<br/>`Ordered`<br/>`Downloads` |
 |                                                         | [`Private Sales`](../../getting-started/private-sales-reports.md) ![Adobe Commerce](../../assets/adobe-logo.svg) | `Invitations`<br/>`Invited Customers`<br/>`Conversions` |
@@ -95,7 +95,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 | Field        | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Enable       | Global                                                                 | Determines if the Commerce instance uses the Experience Cloud integration. Before enabling this feature, review the [requirements and configuration instructions](../../getting-started/admin-unified-experience-integration-overview.md). Options: Yes/No.                                                                                                                    |
-| Project Name | Global                                                                 | Identifies the instance in the Experience Cloud Commerce Projects workspace when the Unified Experience is enabled. The name can contain only alphanumeric characters and spaces. Defaults to the [cloud environment name](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html?lang=fr#pro-environment-architecture). |
+| Project Name | Global                                                                 | Identifies the instance in the Experience Cloud Commerce Projects workspace when the Unified Experience is enabled. The name can contain only alphanumeric characters and spaces. Defaults to the [cloud environment name](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html#pro-environment-architecture). |
 
 {style="table-layout:auto"}
 
@@ -134,6 +134,7 @@ Pour plus d’informations sur la définition de ces options, consultez [Configu
 | [!UICONTROL Admin Session Lifetime (seconds)] | Global | Détermine la durée d’une session d’administrateur en secondes. |
 | [!UICONTROL Maximum Login Failures to Lockout Account] | Global | Détermine le nombre de fois que les utilisateurs administrateurs peuvent essayer de se connecter avant que leurs comptes ne soient verrouillés. Si le champ est vide, aucun minimum n’est défini. Valeur par défaut : `6` |
 | [!UICONTROL Lockout Time (minutes)] | Global | Détermine le nombre de minutes pendant lesquelles un compte administrateur est verrouillé avant que l’utilisateur puisse essayer de se reconnecter. Valeur par défaut : `30` |
+| [!UICONTROL Minimum Admin Password Length] | Global | Détermine le nombre minimum de caractères requis pour les mots de passe administrateur. La valeur par défaut est 7 et la valeur minimale autorisée est 7. Ce paramètre affecte les modifications de mot de passe administrateur, la création d’un utilisateur administrateur à partir de l’interface d’administration et de l’interface de ligne de commande, ainsi que les opérations de réinitialisation de mot de passe de l’administrateur. |
 | [!UICONTROL Password Lifetime (days)] | Global | Détermine le nombre de jours avant l&#39;expiration d&#39;un mot de passe administrateur. Si le champ est vide, aucune durée de vie n’est définie. Valeur par défaut : `90` |
 | [!UICONTROL Password Change] | Global | Détermine si les utilisateurs administrateurs doivent modifier leurs mots de passe. Options : <br/>**`Forced`**- Nécessite que les utilisateurs administrateurs modifient leurs mots de passe une fois le compte configuré.<br/>**`Recommended`** - Recommande aux utilisateurs administrateurs de modifier leurs mots de passe une fois le compte configuré. |
 
@@ -168,7 +169,7 @@ Pour plus d’informations sur la définition de ces options, voir [Limiter l’
 
 ## [!UICONTROL CAPTCHA]
 
-![&#x200B; CAPTCHA &#x200B;](./assets/admin-captcha.png)<!-- zoom -->
+![ CAPTCHA ](./assets/admin-captcha.png)<!-- zoom -->
 
 Pour plus d’informations sur la définition de ces options, consultez [CAPTCHA](../../systems/security-captcha.md) dans le _Guide des systèmes d’administration_.
 
@@ -208,6 +209,6 @@ Pour plus d’informations sur la définition de ces options, voir [Collecte de 
 
 | Champ | Portée | Description |
 |------------------------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Enable Admin Usage Tracking] | Global | Accorde l’autorisation à Adobe de collecter des données d’utilisation auprès des administrateurs afin d’améliorer l’expérience d’utilisation de l’_administrateur_ et des produits et services associés. L’autorisation de la collecte de données active également le _conseil intégré au produit_ qui est conçu pour apporter du contenu interactif tel que de l’aide, des info-bulles, des guides pratiques, des informations d’intégration, des annonces de fonctionnalités, etc. au _administrateur_. Les administrateurs individuels ne sont pas identifiés dans les données d’utilisation. Options :<br />**`Yes`**- Permet la collecte de données et active le _guidage intégré au produit_.<br />**`No`** - Ne permet pas la collecte de données et n’active pas le _Guide intégré au produit_. |
+| [!UICONTROL Enable Admin Usage Tracking] | Global | Accorde l’autorisation à Adobe de collecter des données d’utilisation auprès des administrateurs afin d’améliorer l’expérience d’utilisation de l’_administrateur_ et des produits et services associés. L’autorisation de la collecte de données active également le _conseil intégré au produit_ qui est conçu pour apporter du contenu interactif tel que de l’aide, des info-bulles, des guides pratiques, des informations d’intégration, des annonces de fonctionnalités, etc. au _administrateur_. Les administrateurs individuels ne sont pas identifiés dans les données d’utilisation. Options :<br />**`Yes`**- Permet la collecte de données et active le _guidage intégré au produit_.<br />**`No`**. - Ne permet pas la collecte de données et n’active pas les _conseils intégrés au produit_. |
 
 {style="table-layout:auto"}

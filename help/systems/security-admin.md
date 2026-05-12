@@ -4,29 +4,30 @@ description: Découvrez comment configurer la sécurité pour l’administrateur
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+source-git-commit: ad01f8aaa40f6bda0fe329a0e906915f6034972f
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
 
 # Configuration de la sécurité de l’administrateur
 
-Nous vous recommandons d’adopter une approche multidimensionnelle pour protéger la sécurité de votre magasin. Vous pouvez commencer par utiliser une [URL d’administration personnalisée](../stores-purchase/store-urls.md#use-a-custom-admin-url) difficile à deviner, plutôt que l’évidente « Administration » ou « Serveur principal ». Par défaut, les mots de passe utilisés pour [se connecter](../getting-started/admin-signin.md) à l’administrateur doivent comporter sept caractères ou plus, ainsi que des lettres et des chiffres. En [bonne pratique](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=fr), utilisez uniquement des mots de passe d’administration forts qui incluent une combinaison de lettres, de chiffres et de symboles. Adobe Commerce et Magento Open Source n’autorisent pas la réutilisation des quatre derniers mots de passe attribués au compte.
+Nous vous recommandons d’adopter une approche multidimensionnelle pour protéger la sécurité de votre magasin. Vous pouvez commencer par utiliser une [URL d’administration personnalisée](../stores-purchase/store-urls.md#use-a-custom-admin-url) difficile à deviner, plutôt que l’évidente « Administration » ou « Serveur principal ». Par défaut, les mots de passe utilisés pour [se connecter](../getting-started/admin-signin.md) à l’administrateur doivent comporter sept caractères ou plus, ainsi que des lettres et des chiffres. Vous pouvez configurer la longueur minimale requise pour le mot de passe afin d’améliorer la sécurité en fonction des besoins de votre entreprise. En [bonne pratique](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), utilisez uniquement des mots de passe d’administration forts qui incluent une combinaison de lettres, de chiffres et de symboles. Adobe Commerce et Magento Open Source n’autorisent pas la réutilisation des quatre derniers mots de passe attribués au compte.
 
 La configuration de sécurité d’administration vous permet d’effectuer les opérations suivantes :
 
 - Ajout d’une clé secrète aux URL
 - Exiger que les mots de passe respectent la casse
+- Configurer la longueur minimale requise pour le mot de passe
 - Limiter la durée des sessions Admin
 - Limiter la durée de vie des mots de passe
-- Limitez le nombre de tentatives de connexion avant que le compte utilisateur administrateur ne soit [&#x200B; verrouillé](permissions-users-all.md#locked-users).
+- Limitez le nombre de tentatives de connexion avant que le compte utilisateur administrateur ne soit [ verrouillé](permissions-users-all.md#locked-users).
 
 Pour une sécurité renforcée, vous pouvez configurer la durée d’inactivité du clavier avant l’expiration de la session en cours et exiger que le nom d’utilisateur et le mot de passe soient sensibles à la casse.
 
-Outre les paramètres de sécurité de cette section, l’[authentification à deux facteurs](security-two-factor-authentication.md) (2FA) est nécessaire pour vérifier l’identité des utilisateurs à l’aide d’un mot de passe à usage unique généré par une application ou un appareil. La première fois que vous vous connectez à l’administrateur, vous êtes invité à configurer 2FA. Pour plus de sécurité, la connexion d’administrateur peut également être configurée pour nécessiter un [&#x200B; CAPTCHA &#x200B;](security-captcha.md).
+Outre les paramètres de sécurité de cette section, l’[authentification à deux facteurs](security-two-factor-authentication.md) (2FA) est nécessaire pour vérifier l’identité des utilisateurs à l’aide d’un mot de passe à usage unique généré par une application ou un appareil. La première fois que vous vous connectez à l’administrateur, vous êtes invité à configurer 2FA. Pour plus de sécurité, la connexion d’administrateur peut également être configurée pour nécessiter un [ CAPTCHA ](security-captcha.md).
 
 >[!NOTE]
 >
@@ -73,6 +74,12 @@ Pour obtenir des informations techniques, voir [Présentation de la sécurité](
 
 1. Définissez les options de mot de passe :
 
+   - Par **[!UICONTROL Minimum Admin Password Length]**, saisissez le nombre minimum de caractères requis pour les mots de passe d’administration. La valeur par défaut est 7 et la valeur minimale autorisée est 7.
+
+     >[!WARNING]
+     >
+     >La modification de cette valeur à partir de la valeur par défaut peut introduire des problèmes de rétrocompatibilité avec les services existants. Ce paramètre affecte les modifications de mot de passe administrateur, la création d’un utilisateur administrateur à partir de l’interface d’administration et de l’interface de ligne de commande, ainsi que les opérations de réinitialisation de mot de passe de l’administrateur.
+
    - Pour limiter la durée de vie des mots de passe d’administration, saisissez le nombre de jours pendant lesquels un mot de passe est valide pour **[!UICONTROL Password Lifetime (days)]**. Pour une durée de vie illimitée, laissez le champ vide.
 
    - Définissez **[!UICONTROL Password Change]** sur l’une des options suivantes :
@@ -84,4 +91,4 @@ Pour obtenir des informations techniques, voir [Présentation de la sécurité](
 
 ## Exigences de mot de passe administrateur
 
-Par défaut, un mot de passe administrateur doit comporter au moins sept caractères et inclure des lettres et des chiffres.
+Par défaut, un mot de passe administrateur doit comporter au moins sept caractères et inclure des lettres et des chiffres. Vous pouvez utiliser le paramètre **[!UICONTROL Minimum Admin Password Length]** pour configurer la longueur minimale requise pour le mot de passe afin de respecter les normes de sécurité de votre entreprise. Toutefois, l’augmentation de cette valeur peut affecter la compatibilité avec les services et intégrations existants.

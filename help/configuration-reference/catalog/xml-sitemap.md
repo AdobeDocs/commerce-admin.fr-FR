@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap]'
-description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] de l’administrateur Commerce.
+title: '[!UICONTROL Catalog] > [!UICONTROL XML Sitemap]'
+description: Vérifiez les paramètres de configuration sur la page [!UICONTROL XML Sitemap] de [!UICONTROL Catalog] &gt ; de l’administrateur Commerce.
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 4d5699dc5c4dc4b2bcf208bb0e660ba61e28c507
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '381'
 ht-degree: 2%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 2%
 
 ## [!UICONTROL Categories Options]
 
-![Options des catégories](./assets/xml-sitemap-categories-options.png)<!-- zoom -->
+![Options de catégories](./assets/xml-sitemap-categories-options.png)<!-- zoom -->
 
-<!-- [Categories Options](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Categories Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Frequency] | Affichage en magasin | Détermine la fréquence de mise à jour des catégories du plan de site. Options : `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Affichage en magasin | Une valeur comprise entre `0.0` et `1.0` qui détermine la priorité des mises à jour du plan de site de catégorie par rapport à d’autres contenus. Zéro (`0.0`) a la priorité la plus faible. |
+| [!UICONTROL Frequency] | Affichage de la boutique | Détermine la fréquence de mise à jour des catégories de plan de site. Options : `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
+| [!UICONTROL Priority] | Affichage de la boutique | Valeur comprise entre `0.0` et `1.0` qui détermine la priorité des mises à jour du plan de site des catégories par rapport aux autres contenus. Zéro (`0.0`) a la priorité la plus faible. |
 
 {style="table-layout:auto"}
 
@@ -31,26 +31,26 @@ ht-degree: 2%
 
 ![Options de produits](./assets/xml-sitemap-products-options.png)<!-- zoom -->
 
-<!-- [Products Options](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Products Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Frequency] | Affichage en magasin | Détermine la fréquence de mise à jour des produits du plan de site. Options : `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Affichage en magasin | Une valeur comprise entre `0.0` et `1.0` qui détermine la priorité des mises à jour du plan de site du produit par rapport à d’autres contenus. Zéro (`0.0`) a la priorité la plus faible. |
-| [!UICONTROL Add Images into Sitemap] | Affichage en magasin | Détermine l’étendue de l’inclusion des images dans le plan du site. Options : `None` / `Base Only` / `All` |
+| [!UICONTROL Frequency] | Affichage de la boutique | Détermine la fréquence de mise à jour des produits du plan de site. Options : `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
+| [!UICONTROL Priority] | Affichage de la boutique | Valeur comprise entre `0.0` et `1.0` qui détermine la priorité des mises à jour du plan du site du produit par rapport aux autres contenus. Zéro (`0.0`) a la priorité la plus faible. |
+| [!UICONTROL Add Images into Sitemap] | Affichage de la boutique | Détermine la mesure dans laquelle les images sont incluses dans le plan du site. Options : `None` / `Base Only` / `All` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL CMS Pages Options]
 
-![CMS Pages Options](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
+![Options de pages ](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
 
-<!-- [CMS Pages Options](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [CMS Pages Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Frequency] | Affichage en magasin | Détermine la fréquence de mise à jour des pages CMS du plan de site. Options : `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Affichage en magasin | Une valeur comprise entre `0.0` et `1.0` qui détermine la priorité des mises à jour du plan de site de la page CMS par rapport à d’autres contenus. Zéro (`0.0`) a la priorité la plus faible. |
+| [!UICONTROL Frequency] | Affichage de la boutique | Détermine la fréquence de mise à jour des pages CMS du plan du site. Options : `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
+| [!UICONTROL Priority] | Affichage de la boutique | Valeur comprise entre `0.0` et `1.0` qui détermine la priorité des mises à jour du plan de site de la page CMS par rapport aux autres contenus. Zéro (`0.0`) a la priorité la plus faible. |
 
 {style="table-layout:auto"}
 
@@ -58,8 +58,8 @@ ht-degree: 2%
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Frequency] | Affichage en magasin | Détermine la fréquence de mise à jour des URL de stockage. Options : `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Affichage en magasin | Une valeur comprise entre `0.0` et `1.0` qui détermine la priorité des mises à jour de l’URL de magasin par rapport à d’autres contenus. Zéro (`0.0`) a la priorité la plus faible. |
+| [!UICONTROL Frequency] | Affichage de la boutique | Détermine la fréquence de mise à jour des URL des magasins. Options : `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
+| [!UICONTROL Priority] | Affichage de la boutique | Valeur comprise entre `0.0` et `1.0` qui détermine la priorité des mises à jour des URL de boutique par rapport à d’autres contenus. Zéro (`0.0`) a la priorité la plus faible. |
 
 {style="table-layout:auto"}
 
@@ -67,29 +67,30 @@ ht-degree: 2%
 
 ![Paramètres de génération](./assets/xml-sitemap-generation-settings.png)<!-- zoom -->
 
-<!-- [Generation Settings](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Generation Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | Affichage en magasin | Détermine si un plan de site XML est disponible pour le magasin. Options : `Yes` / `No` |
-| [!UICONTROL Start Time] | Affichage en magasin | Indique l’heure, la minute et la seconde du jour où le plan du site est mis à jour. |
-| [!UICONTROL Frequency] | Affichage en magasin | Détermine la fréquence de mise à jour du plan du site. Options : `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL Error Email Recipient] | Affichage en magasin | Adresse électronique de la personne qui reçoit la notification en cas d’erreur lors du processus de mise à jour du plan du site. Pour plusieurs adresses, séparez-les par une virgule. |
-| [!UICONTROL Error Email Sender] | Site Web | Identifie le contact du magasin qui apparaît comme l’expéditeur de la notification d’erreur. Options : `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
-| [!UICONTROL Error Email Template] | Site Web | Identifie le modèle d’email utilisé pour la notification d’erreur. Modèle par défaut : `Sitemap generate Warnings` |
+| [!UICONTROL Enabled] | Affichage de la boutique | Détermine si un plan de site XML est disponible pour le magasin. Options : `Yes` / `No` |
+| [!UICONTROL Generation Method] | Affichage de la boutique | Détermine comment le plan de site XML est généré. `Standard` utilise le processus de génération synchrone traditionnel et traite toutes les données en mémoire, tandis que `Batch` utilise un mode batch asynchrone optimisé en mémoire pour une plus grande flexibilité et évolutivité. Cette option est disponible à partir de la version 2.4.9. Options : `Standard` / `Batch` |
+| [!UICONTROL Start Time] | Affichage de la boutique | Indique l’heure, la minute et la seconde de la journée où le plan de site est mis à jour. |
+| [!UICONTROL Frequency] | Affichage de la boutique | Détermine la fréquence de mise à jour du plan du site. Options : `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Error Email Recipient] | Affichage de la boutique | Adresse e-mail de la personne qui reçoit la notification en cas d’erreur lors du processus de mise à jour du plan de site. Pour plusieurs adresses, séparez-les par une virgule. |
+| [!UICONTROL Error Email Sender] | Site internet | Identifie le contact du magasin qui apparaît comme l’expéditeur de la notification d’erreur. Options : `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
+| [!UICONTROL Error Email Template] | Site internet | Identifie le modèle d’e-mail utilisé pour la notification d’erreur. Modèle par défaut : `Sitemap generate Warnings` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Sitemap File Limits]
 
-![&#x200B; Limites de fichier plan du site &#x200B;](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
+![Limites du fichier de plan de site](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
 
-<!-- [Sitemap File Limits](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Sitemap File Limits](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Maximum No of URLs Per File] | Affichage en magasin | Détermine le nombre maximal d’URL pouvant être incluses dans un seul plan de site. |
-| [!UICONTROL Maximum File Size] | Affichage en magasin | Détermine la taille maximale du plan de site généré, en octets. |
+| [!UICONTROL Maximum No of URLs Per File] | Affichage de la boutique | Détermine le nombre maximal d’URL qui peuvent être incluses dans un seul plan de site. |
+| [!UICONTROL Maximum File Size] | Affichage de la boutique | Détermine la taille maximale du plan de site généré, en octets. |
 
 {style="table-layout:auto"}
 
@@ -97,10 +98,10 @@ ht-degree: 2%
 
 ![Paramètres d’envoi du moteur de recherche](./assets/xml-sitemap-search-engine-submission-settings.png)<!-- zoom -->
 
-<!-- [Search Engine Submission Settings](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Search Engine Submission Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Enable Submission to Robots.txt] | Affichage en magasin | Permet l’envoi de directives pour le fichier robots.txt. Options : `Yes` / `No` |
+| [!UICONTROL Enable Submission to Robots.txt] | Affichage de la boutique | Permet l&#39;envoi de directives pour le fichier robots.txt. Options : `Yes` / `No` |
 
 {style="table-layout:auto"}

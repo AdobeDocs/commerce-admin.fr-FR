@@ -3,9 +3,9 @@ title: Ajout de vidéos de produit
 description: Découvrez comment configurer des vidéos de produit pour votre boutique, qui nécessite une clé d’API de données YouTube provenant d’un compte Google, et ajouter un lien vidéo pour un produit.
 exl-id: 0cfcee67-a2e2-41cb-ac70-304452f5db6d
 feature: Catalog Management, Products, Media
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: d9d964d36a7debebaed327111b5c4d76d0a1a005
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Pour ajouter une vidéo de produit, vous devez d’abord obtenir une clé API au
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et choisissez **[!UICONTROL Catalog]** en dessous.
 
-1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Product Video]_&#x200B;et collez votre **[!UICONTROL YouTube API key]**.
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Product Video]_et collez votre **[!UICONTROL YouTube API key]**.
 
    ![Configuration de la vidéo du produit](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
@@ -94,7 +94,13 @@ Pour ajouter une vidéo de produit, vous devez d’abord obtenir une clé API au
 
    >[!NOTE]
    >
-   >Si l’option de configuration _[!UICONTROL Autostart base video]_&#x200B;est définie sur `Yes` mais que la lecture de la vidéo ne commence pas automatiquement, cela peut être dû aux politiques de lecture automatique appliquées par le navigateur et qui ne peuvent pas être contrôlées par Adobe Commerce. Chaque navigateur pris en charge possède ses propres politiques de lecture automatique qui peuvent changer au fil du temps et il se peut que votre vidéo ne soit pas lue automatiquement à l’avenir. Il est recommandé de ne pas vous fier à la lecture automatique pour les fonctionnalités critiques de l’entreprise et de tester le comportement de lecture automatique de la vidéo dans votre boutique avec chaque navigateur pris en charge.
+   >Si l’option de configuration _[!UICONTROL Autostart base video]_est définie sur `Yes` mais que la lecture de la vidéo ne commence pas automatiquement, cela peut être dû aux politiques de lecture automatique appliquées par le navigateur et qui ne peuvent pas être contrôlées par Adobe Commerce. Chaque navigateur pris en charge possède ses propres politiques de lecture automatique qui peuvent changer au fil du temps et il se peut que votre vidéo ne soit pas lue automatiquement à l’avenir. Il est recommandé de ne pas vous fier à la lecture automatique pour les fonctionnalités critiques de l’entreprise et de tester le comportement de lecture automatique de la vidéo dans votre boutique avec chaque navigateur pris en charge.
+
+## Gestion des rôles vidéo au niveau de la vue du magasin
+
+Lorsque vous ajoutez ou modifiez une vidéo tout en travaillant dans une portée d’affichage de magasin spécifique (non **[!UICONTROL All Store Views]**), chaque option de **[!UICONTROL Role]** de la boîte de dialogue vidéo affiche un bouton de **[!UICONTROL Use Default Value]**. Cliquez sur ce bouton pour hériter de l&#39;affectation de rôle de la portée par défaut pour ce rôle.
+
+![Nouvelle vidéo - Vue Boutique](./assets/product-video-add-store-scope.png){width="600" zoomable="yes"}
 
 ## Tenir à jour l’accès à l’API
 

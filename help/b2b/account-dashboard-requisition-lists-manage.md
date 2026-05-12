@@ -1,71 +1,71 @@
 ---
 title: '[!UICONTROL My Requisition Lists]'
-description: Découvrez l’expérience client pour les listes de demandes d’achat, disponible dans le tableau de bord de leur compte.
+description: Découvrez l’expérience client pour les listes de demandes d’approvisionnement, disponible dans le tableau de bord de leur compte.
 exl-id: ed1b41aa-9c36-49f8-80f2-ad0eb151b7a5
 feature: B2B, Companies
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 537207b0e72127abaca2e39b27c24c5a0aadf801
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 0%
+source-wordcount: '603'
+ht-degree: 3%
 
 ---
 
 # [!UICONTROL My Requisition Lists]
 
-La principale raison pour laquelle vous conservez une liste de demandes d’achat est de faciliter la réorganisation des produits. Les clients autorisés peuvent facilement réorganiser les éléments d’une liste de demandes d’acquisition en les ajoutant au panier, puis les déplacer ou les copier d’une liste à une autre.
+La principale raison de tenir à jour une liste de demandes d&#39;approvisionnement est de faciliter la réorganisation des produits. Les clients autorisés peuvent facilement réorganiser les articles d&#39;une liste de demandes d&#39;approvisionnement en les ajoutant au panier, et déplacer ou copier des articles d&#39;une liste à une autre.
 
-![Mes listes de demandes](./assets/account-dashboard-my-requisition-lists.png){width="700" zoomable="yes"}
+![Mes listes de demandes internes](./assets/account-dashboard-my-requisition-lists.png){width="700" zoomable="yes"}
 
-## Ouvrir une liste de demandes
+## Ouvrir une liste de demandes internes
 
-1. Dans le tableau de bord de leur compte, le client choisit **[!UICONTROL My Requisition Lists]**.
+1. Dans le tableau de bord de son compte, le client choisit **[!UICONTROL My Requisition Lists]**.
 
-1. Localise la liste des demandes qu’il souhaite ouvrir, clique sur **[!UICONTROL View]** et effectuez l’une des opérations suivantes :
+1. Localise la liste de demandes d&#39;approvisionnement à ouvrir, clique sur **[!UICONTROL View]** et effectue l&#39;une des opérations suivantes :
 
-### Ajout de produits au panier
+### Ajouter des produits au panier
 
 1. Le client effectue l’une des opérations suivantes pour sélectionner les produits à ajouter :
 
-   - Coche la case de chaque élément.
-   - Clics **[!UICONTROL Select All]**.
+   - Sélectionne la case à cocher de chaque élément.
+   - Effectue un clic sur **[!UICONTROL Select All]**.
 
-1. Entrez le **[!UICONTROL Qty]** à ajouter au panier.
+1. Saisit le **[!UICONTROL Qty]** à ajouter au panier.
 
 1. Pour modifier les options d’un produit, procédez comme suit :
 
-   - Dans l’élément de ligne, cliquez sur l’icône _Modifier_ (![Icône de crayon](../assets/icon-edit-pencil.png)).
+   - Dans l’élément de ligne, clique sur l’icône _Modifier_ (![icône Crayon](../assets/icon-edit-pencil.png)).
    - Modifie toutes les options nécessaires.
-   - Clics **[!UICONTROL Update Requisition List]**.
+   - Effectue un clic sur **[!UICONTROL Update Requisition List]**.
 
-1. Clics **[!UICONTROL Add to Cart]**.
+1. Effectue un clic sur **[!UICONTROL Add to Cart]**.
 
-   ![Détails de la liste de demandes](./assets/requisition-list-view.png){width="700" zoomable="yes"}
+   ![Détail de la liste des demandes d&#39;approvisionnement](./assets/requisition-list-view.png){width="700" zoomable="yes"}
 
 ### Copier des éléments dans une autre liste
 
-1. Le client sélectionne la case à cocher de chaque élément à déplacer.
+1. Le client coche la case de chaque élément à déplacer.
 
-1. Clique sur **[!UICONTROL Copy Selected]** et effectue l’une des opérations suivantes :
+1. Clique **[!UICONTROL Copy Selected]** et effectue l’une des opérations suivantes :
 
-   - Choisit une liste de commandes existante.
-   - Clics **[!UICONTROL Create New Requisition List]**.
+   - Choisit une liste de demandes d&#39;approvisionnement existante.
+   - Effectue un clic sur **[!UICONTROL Create New Requisition List]**.
 
 ### Exporter une liste
 
-1. Le client ouvre la liste des demandes à exporter.
+1. Le client ouvre la liste des demandes d&#39;approvisionnement à exporter.
 
-1. Cliquez sur le lien **[!UICONTROL Export]** .
+1. Clique sur le lien **[!UICONTROL Export]**.
 
-Adobe Commerce génère et télécharge une liste CSV avec les valeurs `sku` et `qty` .
+Adobe Commerce génère et télécharge une liste CSV avec des valeurs `sku` et `qty`.
 
 ### Déplacer des éléments vers une autre liste
 
-1. Le client sélectionne la case à cocher de chaque élément à déplacer.
+1. Le client coche la case de chaque élément à déplacer.
 
 1. Cliquez sur **[!UICONTROL Move Selected]** et effectuez l’une des opérations suivantes :
 
-   - Choisit une liste de commandes existante.
-   - Clics **[!UICONTROL Create New Requisition List]**.
+   - Choisit une liste de demandes d&#39;approvisionnement existante.
+   - Effectue un clic sur **[!UICONTROL Create New Requisition List]**.
 
 ### Imprimer une liste
 
@@ -73,23 +73,23 @@ Adobe Commerce génère et télécharge une liste CSV avec les valeurs `sku` et 
 
 1. Vérifie le périphérique de sortie et clique sur **[!UICONTROL Print]**.
 
-   ![Liste des demandes d’impression](./assets/requisition-list-print.png){width="500" zoomable="yes"}
+   ![Imprimer la liste des demandes d&#39;approvisionnement](./assets/requisition-list-print.png){width="500" zoomable="yes"}
 
-### Modification des options de produit
+### Modifier les options du produit
 
-Pour modifier les options de produit dans la liste, le client effectue les opérations suivantes :
+Pour modifier les options du produit dans la liste, le client effectue les opérations suivantes :
 
-1. Cliquez sur l’icône _Crayon_ (![Icône Crayon](../assets/icon-edit-pencil.png)) pour ouvrir la page du produit.
+1. Clique sur l’icône _Crayon_ (![icône Crayon](../assets/icon-edit-pencil.png)) pour ouvrir la page du produit.
 
 1. Modifie toutes les options nécessaires.
 
-1. Clics **[!UICONTROL Update Requisition List]**.
+1. Effectue un clic sur **[!UICONTROL Update Requisition List]**.
 
-   ![Mettre à jour la liste des demandes d’acquisition](./assets/requisition-list-update.png){width="700" zoomable="yes"}
+   ![Mettre à jour la liste des demandes internes](./assets/requisition-list-update.png){width="700" zoomable="yes"}
 
-Un produit de la liste des demandes peut être modifié dans les cas suivants :
+Un produit de la liste de demandes d&#39;approvisionnement peut être modifié dans les cas suivants :
 
-- Le produit a **[!UICONTROL all options set]** (s’il s’agit d’un [produit configuré](../catalog/product-create-configurable.md) dans la liste de demandes).
+- Le produit a **[!UICONTROL all options set]** (s&#39;il s&#39;agit d&#39;un produit [configuré](../catalog/product-create-configurable.md) dans la liste des demandes d&#39;approvisionnement).
 
   Le produit est **[!UICONTROL added to this Requisition List]**.
 
@@ -99,45 +99,63 @@ Un produit de la liste des demandes peut être modifié dans les cas suivants :
 
 ### Supprimer des éléments
 
-1. Le client sélectionne la case à cocher de chaque élément à supprimer.
+1. Le client coche la case de chaque élément à supprimer.
 
-1. Clics **[!UICONTROL Remove Selected]**.
+1. Effectue un clic sur **[!UICONTROL Remove Selected]**.
 
-1. Lorsque vous êtes invité à confirmer l’opération, cliquez sur **[!UICONTROL Delete]**.
+1. Lorsque vous êtes invité à confirmer, cliquez sur **[!UICONTROL Delete]**.
 
 ### Renommer une liste
 
 1. Après le titre de la liste, le client clique sur **[!UICONTROL Rename]**.
 
-1. Entrez un **[!UICONTROL Requisition List Name]** différent.
+1. Entre dans un autre **[!UICONTROL Requisition List Name]**.
 
-1. Clics **[!UICONTROL Save]**.
+1. Effectue un clic sur **[!UICONTROL Save]**.
 
-   ![Renommer la liste des demandes d’acquisition](./assets/requisition-list-rename.png){width="300"}
+   ![Renommer la liste de demandes internes](./assets/requisition-list-rename.png){width="300"}
 
 
 ### Supprimer une liste de demandes
 
-1. Le client ouvre la liste des demandes à supprimer.
+1. Le client ouvre la liste des demandes d&#39;approvisionnement à supprimer.
 
-1. Clics **[!UICONTROL Delete Requisition List]**.
+1. Effectue un clic sur **[!UICONTROL Delete Requisition List]**.
 
-1. Lorsque vous êtes invité à confirmer l’opération, cliquez sur **[!UICONTROL Delete]**.
+1. Lorsque vous êtes invité à confirmer, cliquez sur **[!UICONTROL Delete]**.
 
 >[!NOTE]
 >
->Cette action ne peut pas être annulée.
+>Cette action est irréversible.
 
 ## Actions
 
 | Action | Description |
 |--- |--- |
-| [!UICONTROL Rename] | Permet de renommer la liste des demandes et de mettre à jour la description. |
-| [!UICONTROL Export] | Exporte la liste des demandes d’acquisition dans un fichier CSV. |
-| [!UICONTROL Print] | Imprime la liste des demandes en cours. |
-| [!UICONTROL Select] | Gère les sélections d’éléments qui doivent faire l’objet d’une action. <br/>**[!UICONTROL Select All]**- Sélectionne tous les éléments de la liste des demandes.<br/>**[!UICONTROL Remove Selected]** - Supprime tous les éléments sélectionnés de la liste des demandes. <br/>**[!UICONTROL Copy Selected]**- Copie tous les éléments sélectionnés dans une autre liste de demandes d’acquisition. |
-| [!UICONTROL Add to Cart] | Ajoute les éléments sélectionnés au panier. |
+| [!UICONTROL Rename] | Permet de renommer la liste de demandes d&#39;approvisionnement et de mettre à jour la description. |
+| [!UICONTROL Export] | Exporte la liste des demandes d&#39;approvisionnement dans un fichier CSV. |
+| [!UICONTROL Print] | Imprime la liste de demandes d&#39;approvisionnement actuelle. |
+| [!UICONTROL Select] | Gère les sélections d&#39;éléments qui doivent faire l&#39;objet d&#39;une action. <br/>**[!UICONTROL Select All]**- Sélectionne tous les articles de la liste des demandes d&#39;approvisionnement.<br/>**[!UICONTROL Remove Selected]** - Supprime tous les articles sélectionnés de la liste des demandes d&#39;approvisionnement. <br/>**[!UICONTROL Copy Selected]**- Copie tous les articles sélectionnés dans une autre liste de demandes d&#39;approvisionnement. |
+| [!UICONTROL Add to Cart] | Ajoute les articles sélectionnés au panier. |
 | [!UICONTROL Update List] | Recalcule le sous-total pour refléter un changement de quantité. |
-| [!UICONTROL Delete Requisition List] | Supprime la liste des demandes du compte de l’utilisateur de la société. |
+| [!UICONTROL Delete Requisition List] | Supprime la liste des demandes d&#39;approvisionnement du compte de l&#39;utilisateur de la société. |
 
 {style="table-layout:auto"}
+
+## Contrôles de pagination
+
+Les contrôles de pagination apparaissent au bas de la liste lorsque le nombre total d&#39;éléments de la liste de demandes d&#39;approvisionnement dépasse les éléments sélectionnés par page.
+
+![Liste de demandes avec pagination](./assets/requisition-list-bottom-with-pagination.png){width="700" zoomable="yes"}
+
+>[!NOTE]
+>
+> Les produits qui nécessitent votre attention (par exemple, les produits en rupture de stock) s’affichent en haut de la liste s’ils se trouvent dans la page active de la pagination. Le nombre de produits nécessitant votre attention est indiqué au-dessus de la liste.
+> ![Éléments nécessitant une attention particulière](./assets/requisition-list-product-requiring-attention.png){width="500"}
+
+### Contrôles de pagination de Storefront
+
+| Contrôle | Description |
+|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Afficher par page](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Détermine le nombre d&#39;éléments de la liste de demandes d&#39;approvisionnement qui apparaissent par page. Vous pouvez choisir 20, 50, 100, 500 ou 1 000 articles de la liste de demandes d&#39;approvisionnement à afficher sur la page. |
+| ![ Liens de pagination ](./assets/control-pagination.png) | [!UICONTROL Pagination links] - Fournit des liens de navigation vers d’autres pages. |

@@ -4,9 +4,9 @@ description: Découvrez comment créer des comptes utilisateur d’administratio
 exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
-source-git-commit: ad75c77ada34c4d66b1a58a666edadd44d054e17
+source-git-commit: e2644f16f8e8adb77d070ddb66c724c00a15a525
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Si d’autres membres de l’équipe ou fournisseurs de services ont besoin d’
 
 >[!NOTE]
 >
->Les commerçants Adobe Commerce qui disposent d’une Adobe ID et souhaitent une connexion rationalisée aux produits Adobe Commerce et Adobe Business peuvent intégrer l’authentification Commerce au workflow d’authentification Adobe IMS. Une fois cette intégration activée pour votre boutique Commerce, chaque utilisateur administrateur doit utiliser ses informations d’identification Adobe, et non ses informations d’identification Commerce, pour se connecter. Voir [Présentation de l’intégration du service Adobe Identity Management (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=fr).
+>Les commerçants Adobe Commerce qui disposent d’une Adobe ID et souhaitent une connexion rationalisée aux produits Adobe Commerce et Adobe Business peuvent intégrer l’authentification Commerce au workflow d’authentification Adobe IMS. Une fois cette intégration activée pour votre boutique Commerce, chaque utilisateur administrateur doit utiliser ses informations d’identification Adobe, et non ses informations d’identification Commerce, pour se connecter. Voir [Présentation de l’intégration du service Adobe Identity Management (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 Pour les utilisateurs et utilisatrices ou les rôles temporaires, vous pouvez également définir une date d’expiration pour le compte utilisateur.
 
@@ -31,7 +31,7 @@ Pour les utilisateurs et utilisatrices ou les rôles temporaires, vous pouvez é
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add New User]**.
 
-   Pour modifier un utilisateur existant, cliquez sur un nom d’utilisateur dans la grille. Vous pouvez modifier les sections _[!UICONTROL User Info]_&#x200B;et&#x200B;_[!UICONTROL User Role]_ selon vos besoins.
+   Pour modifier un utilisateur existant, cliquez sur un nom d’utilisateur dans la grille. Vous pouvez modifier les sections _[!UICONTROL User Info]_et_[!UICONTROL User Role]_ selon vos besoins.
 
 1. Dans la section _[!UICONTROL Account Information]_, procédez comme suit :
 
@@ -53,7 +53,7 @@ Pour les utilisateurs et utilisatrices ou les rôles temporaires, vous pouvez é
 
      >[!NOTE]
      >
-     >Un mot de passe administrateur doit comporter au moins sept caractères et inclure des lettres et des chiffres. Pour obtenir des options de mot de passe supplémentaires, voir [Configuration d’Admin Security](security-admin.md).
+     >Un mot de passe administrateur doit comporter au moins sept caractères (par défaut) et inclure des lettres et des chiffres. La longueur minimale du mot de passe peut être configurée dans les paramètres de sécurité d’administration. Pour obtenir des options de mot de passe supplémentaires, voir [Configuration d’Admin Security](security-admin.md).
 
    - Par **[!UICONTROL Password Confirmation]**, saisissez à nouveau le mot de passe pour vous assurer qu’il a été saisi correctement.
 
@@ -69,13 +69,13 @@ Pour les utilisateurs et utilisatrices ou les rôles temporaires, vous pouvez é
 
 >[!IMPORTANT]
 >
->Une fois la section _[!UICONTROL Account Information]_&#x200B;terminée, vous pouvez enregistrer l’utilisateur. Le nouvel utilisateur s’affiche dans la grille de&#x200B;_[!UICONTROL Users]_, mais le nom d’utilisateur ne peut pas se connecter tant qu’un rôle n’a pas été attribué.
+>Une fois la section _[!UICONTROL Account Information]_terminée, vous pouvez enregistrer l’utilisateur. Le nouvel utilisateur s’affiche dans la grille de_[!UICONTROL Users]_, mais le nom d’utilisateur ne peut pas se connecter tant qu’un rôle n’a pas été attribué.
 
 ## Attribuer un rôle d’utilisateur
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL User Role]**.
 
-   La grille répertorie tous les rôles utilisateur existants. Pour un nouveau magasin, _[!UICONTROL Administrators]_&#x200B;est le seul rôle disponible.
+   La grille répertorie tous les rôles utilisateur existants. Pour un nouveau magasin, _[!UICONTROL Administrators]_est le seul rôle disponible.
 
    ![Admin - add new user role](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
@@ -105,7 +105,7 @@ Pour les utilisateurs et utilisatrices ou les rôles temporaires, vous pouvez é
 
 1. Lorsque vous y êtes invité, saisissez votre mot de passe pour confirmer votre identité, puis cliquez de nouveau sur **[!UICONTROL Save User]**.
 
-   La grille de _[!UICONTROL Users]_&#x200B;s’ouvre et répertorie tous les utilisateurs.
+   La grille de _[!UICONTROL Users]_s’ouvre et répertorie tous les utilisateurs.
 
 ## Suppression d’un utilisateur administrateur
 
@@ -123,7 +123,7 @@ Pour les utilisateurs et utilisatrices ou les rôles temporaires, vous pouvez é
 
 La configuration du modèle d’e-mail d’administrateur détermine les e-mails envoyés lorsque les utilisateurs oublient et réinitialisent leurs mots de passe. Cette configuration spécifie le contact du magasin qui apparaît comme expéditeur du message et la durée pendant laquelle le lien de récupération du mot de passe reste valide.
 
-**_Pour configurer les modèles d’e-mail d’administration, procédez comme suit_**
+**_Pour configurer les modèles d’e-mail d’administration:_**
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Setting]_>**[!UICONTROL Configuration]**.
 
@@ -149,7 +149,7 @@ Des mesures de sécurité de mot de passe supplémentaires peuvent être mises e
 
 ![Alerte écran de connexion - Le compte est temporairement désactivé](./assets/admin-login-locked-out-message.png){width="300"}
 
-**_Pour déverrouiller un compte d’administrateur, procédez comme suit_**
+**_Pour déverrouiller un compte administrateur:_**
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL Locked Users]**.
 
