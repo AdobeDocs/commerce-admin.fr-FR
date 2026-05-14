@@ -3,9 +3,8 @@ title: Gérer les hiérarchies d'entreprise
 description: Créez et gérez des hiérarchies d’entreprise pour prendre en charge les organisations B2B avec des modèles opérationnels complexes.
 feature: B2B, Companies
 role: Admin
-hidefromtoc: false
 exl-id: a277ed95-7935-4d27-adb2-35116972732b
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: 970cc079f101011b5fd55b95715516342db4978e
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 0%
@@ -127,7 +126,7 @@ Lors de l’application des paramètres de la société parent aux sociétés en
 
    ![Sélectionner des sociétés dans la hiérarchie de la société](assets/company-hierarchy-select-companies.png){width="675" zoomable="yes"}
 
-1. Sélectionnez **[!UICONTROL Actions]** dans le contrôle **[!UICONTROL Change company settings]** situé au-dessus de la grille.
+1. Sélectionnez **[!UICONTROL Change company settings]** dans le contrôle **[!UICONTROL Actions]** situé au-dessus de la grille.
 
    ![Modifier les paramètres de l’entreprise pour la hiérarchie de l’entreprise](assets/company-hierarchy-change-company-settings-action.png){width="675" zoomable="yes"}
 
