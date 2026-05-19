@@ -4,9 +4,9 @@ description: Découvrez comment ajouter l’extension Adobe Commerce HIPAA-Read
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 04c8676c4fe1e055d5b6e89db6fe1b38c1a5d2cf
+source-git-commit: ce54e0bdb361f51e7d6218692178bfb18f9aba3c
 workflow-type: tm+mt
-source-wordcount: '2393'
+source-wordcount: '2619'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->**Clause de non-responsabilité**<br/>
+>**Avertissement légal**<br/>
 >Ces informations sont destinées à aider les clients Adobe à répondre à leurs questions concernant les services conformes à la norme HIPAA d’Adobe. Il ne s&#39;agit pas d&#39;un avis juridique. Les commerçants doivent consulter leur propre service juridique pour connaître leurs obligations en vertu de la loi HIPAA ainsi que l’utilisation et la configuration appropriées des produits Adobe.
 
 >[!BEGINSHADEBOX]
@@ -46,7 +46,8 @@ Le tableau suivant montre la compatibilité entre les versions d’Adobe Commerc
 
 | Adobe Commerce | Pris en charge | Remarques |
 |----------------|-----------|-------|
-| 2.4.7-p4 et versions ultérieures -p | 1.2.0 | La prise en charge d’ 2.4.7-p4 nécessite un [correctif](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-27147) |
+| 2.4.8-p5 | 1.3.0 | La prise en charge de la version 2.4.8-p5 nécessite un correctif de [compatibilité](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-30555) |
+| 2.4.7-p4 et versions ultérieures -p | 1.2.0 | La prise en charge de la version 2.4.7-p4 nécessite un correctif de [compatibilité](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-27147) |
 | 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
 | 2.4.6-p8 | 1.1.0 | La prise en charge des [services de données](#adobe-commerce-services) a été introduite dans la version 1.1.0 |
 | 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
@@ -69,7 +70,7 @@ Le tableau suivant montre la compatibilité entre les versions d’Adobe Commerc
 
 >[!ENDSHADEBOX]
 
-Installez la dernière version de l’extension Adobe HIPAA-Ready Services (`magento/hipaa-ee`) sur une instance qui exécute Adobe Commerce versions 2.4.7-p5 ou 2.4.6-p3 à 2.4.6-p8. L’extension est fournie en tant que métapaquet de compositeur à partir du référentiel [repo.magento.com](https://repo.magento.com). Le métapaquet comprend l’ensemble des modules qui activent les fonctionnalités HIPAA pour une instance Adobe Commerce.
+Installez la dernière version de l’extension Adobe HIPAA-Ready Services (`magento/hipaa-ee`) sur une instance qui exécute une version d’Adobe Commerce prise en charge (voir [Configuration requise](#system-requirements)). L’extension est fournie en tant que métapaquet de compositeur à partir du référentiel [repo.magento.com](https://repo.magento.com). Le métapaquet comprend l’ensemble des modules qui activent les fonctionnalités HIPAA pour une instance Adobe Commerce.
 
 >[!NOTE]
 >
@@ -107,7 +108,7 @@ Installez la dernière version de l’extension Adobe HIPAA-Ready Services (`mag
    git push origin <branch-name>
    ```
 
-   L’envoi des mises à jour lance le processus de déploiement cloud de [Commerce](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/develop/deploy/process) pour appliquer les modifications. Vérifiez le statut du déploiement dans le [journal de déploiement](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/develop/test/log-locations).
+   L’envoi des mises à jour lance le processus de déploiement cloud de [&#128279;](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/develop/deploy/process) pour appliquer les modifications. Vérifiez le statut du déploiement dans le [journal de déploiement](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/develop/test/log-locations).
 
 ### Vérification de l’installation
 
@@ -161,10 +162,10 @@ Les journaux d’actions capturent également des événements lorsque les servi
 La grille de rapport _Journaux d’actions_ (**[!UICONTROL System]** > Journaux d’actions > Rapport) est modifiée pour s’adapter aux actions du client effectuées via l’interface utilisateur d’administration et l’API.
 
 1. Ajout de deux colonnes :
-   - ***Source*** : affiche l’emplacement où l’action a été effectuée.
+   - **&#x200B;**&#x200B;** : affiche l’emplacement où l’action a été effectuée.
 Valeurs : `Admin UI` | `Customer UI` | `REST API` | `SOAP API` | `GraphQL API`
    - ***Type de client*** : affiche le type de client.
-Valeurs : client | Admin | Intégration
+Valeurs : Client | Admin | Intégration
 
 2. Colonne ***Nom d’utilisateur*** renommée ***Identifiant client***
    - ***Identifiant client*** : affiche l’ID de connexion de l’utilisateur qui a exécuté l’action.
@@ -279,7 +280,7 @@ Le tableau suivant répertorie les services Adobe Commerce disponibles pour l’
 
 | Service | Hors production | Production |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
-| [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | Oui | Oui |
+| [&#128279;](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | Oui | Oui |
 | [&#x200B; Maillage API pour Adobe Developer App Builder &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/) | Oui | Oui |
 | [Exportation de données SaaS](https://experienceleague.adobe.com/fr/docs/commerce/saas-data-export/overview) | Oui | Oui |
 | [Recherche en direct](https://experienceleague.adobe.com/fr/docs/commerce/live-search/overview) | Non | Non |
@@ -287,7 +288,7 @@ Le tableau suivant répertorie les services Adobe Commerce disponibles pour l’
 | [&#x200B; Services de paiement &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce/payment-services/guide-overview) | Non | Non |
 | [Événements Back Office De Connexion Aux Données](https://experienceleague.adobe.com/fr/docs/commerce/data-connection/event-forwarding/events-backoffice) | Oui | Oui |
 | [Événements de storefront de connexion de données](https://experienceleague.adobe.com/fr/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Non | Non |
-| [Audience Activation](https://experienceleague.adobe.com/fr/docs/commerce-admin/customers/audience-activation) | Non | Non |
+| [&#128279;](https://experienceleague.adobe.com/fr/docs/commerce-admin/customers/audience-activation) | Non | Non |
 
 ### Outils
 
