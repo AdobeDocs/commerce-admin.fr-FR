@@ -3,9 +3,9 @@ title: Fournir une assistance aux acheteurs
 description: Lorsque vous utilisez la fonction Connexion en tant que client, vous pouvez voir ce que les clients voient et effectuer des mises à jour en leur nom.
 exl-id: 6842ae7a-6440-45f1-af18-e6427088d29d
 feature: Customers, Customer Service
-source-git-commit: 29f3a8bb019d464e6d7646e0ebc7a4fa2ed0dd74
+source-git-commit: 5afc6801ccc55488ce6c209a71ec2ee67958ef5c
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Toutes les actions effectuées lors de la connexion en tant que client sont appl
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
-Lorsqu’il est activé pour un utilisateur _Admin_, le bouton _[!UICONTROL Login as Customer]_&#x200B;s’affiche sur plusieurs pages :
+Lorsqu’il est activé pour un utilisateur _Admin_, le bouton _[!UICONTROL Login as Customer]_s’affiche sur plusieurs pages :
 
 * [Page de modification du client](../customers/update-account.md)
 * [Page Vue Commande](../stores-purchase/order-processing.md)
@@ -34,7 +34,7 @@ Lorsqu’il est activé pour un utilisateur _Admin_, le bouton _[!UICONTROL Logi
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
 
 Dans Adobe Commerce as a Cloud Service, la fonction Connexion en tant que client utilise un workflow **Code à usage unique (OTC)** plutôt qu’une connexion directe. Les administrateurs génèrent un code de courte durée à usage unique pour un client. Ce code peut ensuite être échangé contre un jeton d’accès client via GraphQL, ce qui permet une connexion sans mot de passe en tant que workflows client pour les scénarios d’achats assistés par le vendeur.
 
@@ -99,9 +99,9 @@ Pour autoriser l’accès au compte pour le personnel d’assistance du magasin 
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 1. Le client accède à la page de **[!UICONTROL Account Information]**.
 
@@ -113,7 +113,7 @@ Pour autoriser l’accès au compte pour le personnel d’assistance du magasin 
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
 
 L’attribut d’extension `login_as_customer_assistance_allowed` doit être défini sur **2** pour le client. Elle peut être configurée sur la page **Modifier le client** dans l’administration ou via GraphQL lors de la création ou de la modification d’un client.
 
@@ -131,9 +131,9 @@ Pour définir cette autorisation avec GraphQL pour un compte client existant, d�
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Customers]** > [!UICONTROL _Tous les clients_].
 
@@ -149,7 +149,7 @@ Pour définir cette autorisation avec GraphQL pour un compte client existant, d�
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
 
 >[!NOTE]
 >
@@ -159,13 +159,13 @@ Pour définir cette autorisation avec GraphQL pour un compte client existant, d�
 
 1. Accédez à **[!UICONTROL Customers]** et sélectionnez un client pour ouvrir la page de modification.
 
-1. Sur la page Modifier le client, cliquez sur **[!UICONTROL Get Customer Login OTC]**.
+1. Sur la page Modifier le client, cliquez sur **[!UICONTROL Generate Login Code]**.
 
-   ![Bouton Obtenir la connexion du client OTC sur la page Modifier le client](assets/get-customer-login-otc-button.png){width="600" zoomable="yes"}
+   ![Bouton Obtenir la connexion du client OTC sur la page Modifier le client](assets/get-customer-login-otc-button-new.png){width="600" zoomable="yes"}
 
 1. Saisissez un **[!UICONTROL Reason]** (obligatoire) et cliquez sur **[!UICONTROL Request]**.
 
-   ![Boîte de dialogue modale de demande OTC avec le champ Motif](assets/otc-reason-modal.png){width="600" zoomable="yes"}
+   ![Boîte de dialogue modale de demande OTC avec le champ Motif](assets/otc-reason-modal-new.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -173,11 +173,11 @@ Pour définir cette autorisation avec GraphQL pour un compte client existant, d�
 
 1. Le document OTC généré s’affiche dans la boîte de dialogue modale. Utilisez ce code avec la mutation `generateCustomerToken` ou `exchangeOtpForCustomerToken` GraphQL pour l’autorisation du client.
 
-   ![OTC généré affiché dans la fenêtre modale](assets/otc-generated-code.png){width="300" zoomable="yes"}
+   ![OTC généré affiché dans la fenêtre modale](assets/otc-generated-code-new.png){width="300" zoomable="yes"}
 
 >[!IMPORTANT]
 >
->Le code à usage unique généré en vente libre est valide pendant 30 secondes par défaut et est invalidé après une seule utilisation. La TTL peut être configurée en envoyant un ticket d’assistance [support](https://experienceleague.adobe.com/home?lang=fr&support-tab=home#support).
+>Le code à usage unique généré en vente libre est valide pendant 60 secondes par défaut et est invalidé après une seule utilisation. La TTL peut être configurée en envoyant un ticket d’assistance [support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
 Une fois le code unique généré, vous pouvez l’utiliser en accédant à votre storefront et en vous connectant à l’aide des informations d’identification suivantes :
 
@@ -194,7 +194,7 @@ Une fois le code unique généré, vous pouvez l’utiliser en accédant à votr
 
 _Connexion en tant que client_ vous permet d’afficher le site comme le fait le client, ainsi que de résoudre les problèmes et d’effectuer d’autres actions pour le client. Si un rôle d’utilisateur vous est affecté avec les autorisations requises :
 
-1. Vous pouvez cliquer sur **[!UICONTROL Login as Customer]** dans les pages répertoriées dans la section précédente.
+1. Vous pouvez cliquer sur **[!UICONTROL Login as Customer]** ou **[!UICONTROL Generate Login Code]** dans les pages répertoriées dans la section précédente.
 1. Les actions Se connecter en tant que client sont disponibles dans le rapport d’actions.
 
 >[!WARNING]
