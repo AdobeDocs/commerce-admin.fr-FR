@@ -1,5 +1,5 @@
 ---
-source-git-commit: 78a5f453925aff65bd9b1341b6c796c3260d614d
+source-git-commit: 81482dab56e358bd81c1170029adaef0191509cb
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Si vous faites partie de la communauté Adobe et que vous souhaitez rédiger un 
 
 ### Modifications majeures apportées par les employés d’Adobe
 
-Si vous êtes rédacteur technique, responsable de programme ou développeur au sein de l’équipe produit d’une solution Adobe Experience Cloud et qu’il vous incombe de contribuer ou de rédiger des articles techniques, vous devez utiliser le référentiel privé à l’adresse `https://git.corp.adobe.com/AdobeDocs`.
+Si vous êtes rédacteur technique, responsable de programme ou développeur au sein de l’équipe produit d’une solution Adobe Experience Cloud et qu’il vous incombe de contribuer ou de rédiger des articles techniques, vous devez utiliser le référentiel privé à l’adresse `https://github.com/Adobe-Enterprise-Docs/commerce-admin.fr-FR`.
 
 ## Outils et configuration
 
