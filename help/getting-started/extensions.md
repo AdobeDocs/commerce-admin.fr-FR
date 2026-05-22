@@ -51,7 +51,7 @@ Les extensions Adobe ci-dessous sont incluses dans Adobe Commerce et installées
 
 PayPal et Gene Commerce ont développé ensemble l&#39;extension Braintree officielle pour les magasins Commerce 2.4.x. Offrant une expérience de passage en caisse améliorée conçue pour stimuler la conversion, les mises à jour comprennent des options PayLater qui affichent automatiquement les messages et boutons PayLater pertinents aux consommateurs lors de l&#39;achat et pendant le passage en caisse.
 
-Cette extension est installée par défaut, mais nécessite un compte [](https://www.braintreepayments.com/) ainsi qu’une configuration dans l’interface d’administration pour être activée pour votre boutique. Pour déterminer les frais applicables lors de l&#39;utilisation de Braintree pour traiter vos transactions, vérifiez le prix de [Braintree](https://www.braintreepayments.com/braintree-pricing).
+Cette extension est installée par défaut, mais nécessite un compte [&#128279;](https://www.braintreepayments.com/) ainsi qu’une configuration dans l’interface d’administration pour être activée pour votre boutique. Pour déterminer les frais applicables lors de l&#39;utilisation de Braintree pour traiter vos transactions, vérifiez le prix de [Braintree](https://www.braintreepayments.com/braintree-pricing).
 
 Pour plus d’informations sur la configuration de Braintree dans Admin, consultez la rubrique [Braintree](../stores-purchase/braintree.md) dans le _Guide de l’expérience client_.
 
@@ -144,4 +144,4 @@ Pour obtenir des instructions de configuration et des détails techniques, consu
 
 [!DNL Payment Services] est une solution de paiement clé en main pour les magasins Adobe Commerce et Magento Open Source qui offre des fonctionnalités complètes de traitement des paiements. Le service intègre une fonctionnalité de passerelle de paiement sécurisée avec une protection contre la fraude intégrée, tout en offrant plusieurs options de paiement, notamment les cartes de crédit/débit, PayPal, Venmo (États-Unis) et les plans PayLater. Il offre des rapports de transaction et une gestion des commandes unifiés via l&#39;interface d&#39;administration de Commerce, ce qui permet aux commerçants de suivre facilement les paiements, de gérer les flux de trésorerie et de rapprocher les données financières en un seul endroit.
 
-Pour obtenir des instructions détaillées sur les étapes de configuration et les options de paiement, consultez le [[!DNL Payment Services]  Guide de l’utilisateur ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/overview).
+Pour obtenir des instructions détaillées sur les étapes de configuration et les options de paiement, consultez le [[!DNL Payment Services]  Guide de l’utilisateur &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/payment-services/overview).

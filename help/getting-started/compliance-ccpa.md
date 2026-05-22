@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Ces informations font partie d’une série de rubriques destinées à aider les commerçants et les développeurs Adobe Commerce à comprendre les implications de la Loi sur la protection de la vie privée des consommateurs de Californie. L&#39;information est basée sur le texte de la loi. Pour confirmer si le CCPA s&#39;applique à votre entreprise, consultez votre avocat.
 
-Le [ California Consumer Privacy Act ](https://oag.ca.gov/privacy/ccpa) (CCPA) élargit les droits des consommateurs californiens quant à la manière dont leurs informations personnelles sont collectées, stockées et utilisées. Elle met l&#39;accent sur la protection des consommateurs contre la vente ou l&#39;échange non autorisé de leurs renseignements personnels. Le CCPA a été adopté en 2018 et est entré en vigueur le 1er janvier 2020.
+Le [&#x200B; California Consumer Privacy Act &#x200B;](https://oag.ca.gov/privacy/ccpa) (CCPA) élargit les droits des consommateurs californiens quant à la manière dont leurs informations personnelles sont collectées, stockées et utilisées. Elle met l&#39;accent sur la protection des consommateurs contre la vente ou l&#39;échange non autorisé de leurs renseignements personnels. Le CCPA a été adopté en 2018 et est entré en vigueur le 1er janvier 2020.
 
 Le CCPA accorde aux consommateurs les nouveaux droits suivants :
 
@@ -97,7 +97,7 @@ Faites l’inventaire de vos propriétés numériques, y compris toutes les int�
 
    - **Fournisseurs de services** : entités qui ont accès à vos données client à des fins commerciales et fournissent des services en votre nom. Par exemple, Adobe est un fournisseur de services, tout comme certains développeurs de personnalisations, d’extensions et de services.
 
-     Vérifiez les paramètres par défaut de Google Universal Analytics, de Google Tag Manager (et de tout autre service de données que vous utilisez) et apportez les modifications nécessaires pour vous conformer à la réglementation. Pour en savoir plus, consultez [Paramètres de confidentialité de ](../merchandising-promotions/google-tools.md#google-privacy-settings).
+     Vérifiez les paramètres par défaut de Google Universal Analytics, de Google Tag Manager (et de tout autre service de données que vous utilisez) et apportez les modifications nécessaires pour vous conformer à la réglementation. Pour en savoir plus, consultez [Paramètres de confidentialité de &#x200B;](../merchandising-promotions/google-tools.md#google-privacy-settings).
 
    - **Autres tiers** : entités avec lesquelles vous partagez ou vendez des données des consommateurs. Par exemple, vous pouvez partager des données client avec un réseau publicitaire en échange de publicité.
 
@@ -105,7 +105,7 @@ Faites l’inventaire de vos propriétés numériques, y compris toutes les int�
 
 **Parties Prenantes :** Expérience Utilisateur, Technologie De L’Information, Support Administratif
 
-1. Identifiez chaque point du parcours client] où les informations personnelles sont collectées, ainsi que le type d’informations collectées à chaque étape.[
+1. Identifiez chaque point du parcours client&rbrack; où les informations personnelles sont collectées, ainsi que le type d’informations collectées à chaque étape.&lbrack;
 
    Les visiteurs et visiteuses de votre site doivent être avertis à l’avance ou au point de collecte des données. Par exemple, un magasin sans intégrations personnalisées collecte des informations personnelles lors de la création d’un compte client et lors du passage en caisse. Si votre magasin comporte des intégrations personnalisées, il se peut qu’il y ait des éléments de données et des attributs supplémentaires à identifier.
 
