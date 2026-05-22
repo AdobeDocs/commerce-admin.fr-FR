@@ -6,8 +6,8 @@ exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 0%
+source-wordcount: '866'
+ht-degree: 2%
 
 ---
 
@@ -73,7 +73,7 @@ Le composant d’interface utilisateur des données de produit est ajouté autom
 
 1. Dans l’espace de travail Adobe Experience Manager , accédez à l’espace de travail Créer une administration de contenu pour AEM Assets en cliquant sur l’icône Adobe Experience Manager .
 
-   ![Création AEM Assets](./assets/aem-assets-authoring.png){width="600" zoomable="yes"}
+   ![Création &#x200B;](./assets/aem-assets-authoring.png){width="600" zoomable="yes"}
 
 1. Ouvrez les outils d’administration en sélectionnant l’icône en forme de marteau.
 

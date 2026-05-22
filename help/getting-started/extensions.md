@@ -6,7 +6,7 @@ feature: Extensions
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 36c91007d21834b49351c8b53c617e442deebaa0
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Adobe propose deux approches principales pour étendre ou personnaliser vos proj
    - Permettre aux développeurs de mieux contrôler le calendrier et les méthodes d’implémentation
    - Activation de la mise à l’échelle indépendante et de la maintenance des composants d’extension
 
-Adobe Commerce propose des stratégies et des outils pour prendre en charge ces deux types d’extensibilité. Pour en savoir plus, voir [Extensibilité d’Adobe Commerce](https://developer.adobe.com/commerce/extensibility/).
+Adobe Commerce propose des stratégies et des outils pour prendre en charge ces deux types d’extensibilité. Pour en savoir plus, voir [Extensibilité d’](https://developer.adobe.com/commerce/extensibility/).
 
 +++
 
@@ -51,7 +51,7 @@ Les extensions Adobe ci-dessous sont incluses dans Adobe Commerce et installées
 
 PayPal et Gene Commerce ont développé ensemble l&#39;extension Braintree officielle pour les magasins Commerce 2.4.x. Offrant une expérience de passage en caisse améliorée conçue pour stimuler la conversion, les mises à jour comprennent des options PayLater qui affichent automatiquement les messages et boutons PayLater pertinents aux consommateurs lors de l&#39;achat et pendant le passage en caisse.
 
-Cette extension est installée par défaut, mais nécessite un compte [Braintree](https://www.braintreepayments.com/) ainsi qu’une configuration dans l’interface d’administration pour être activée pour votre boutique. Pour déterminer les frais applicables lors de l&#39;utilisation de Braintree pour traiter vos transactions, vérifiez le prix de [Braintree](https://www.braintreepayments.com/braintree-pricing).
+Cette extension est installée par défaut, mais nécessite un compte [&#128279;](https://www.braintreepayments.com/) ainsi qu’une configuration dans l’interface d’administration pour être activée pour votre boutique. Pour déterminer les frais applicables lors de l&#39;utilisation de Braintree pour traiter vos transactions, vérifiez le prix de [Braintree](https://www.braintreepayments.com/braintree-pricing).
 
 Pour plus d’informations sur la configuration de Braintree dans Admin, consultez la rubrique [Braintree](../stores-purchase/braintree.md) dans le _Guide de l’expérience client_.
 
@@ -96,7 +96,7 @@ Adobe propose des extensions supplémentaires qui doivent être installées sép
 
 ### [!DNL Adobe Commerce B2B]
 
-![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce uniquement, nécessite une licence distincte.
+![](../assets/adobe-logo.svg) Adobe Commerce uniquement, nécessite une licence distincte.
 
 [!DNL Adobe Commerce B2B] est une extension intégrée qui transforme les magasins Commerce standard en plateformes complètes business-to-business. Il permet aux entreprises de gérer des structures organisationnelles complexes avec plusieurs acheteurs, des rôles personnalisés et des autorisations d’achat sous des comptes d’entreprise unifiés. Les principales fonctionnalités comprennent les catalogues et les prix spécifiques à la société, les devis négociables, la gestion des commandes, les listes de demandes d&#39;approvisionnement et les fonctionnalités de commande rapide. La solution prend en charge les modèles B2B et B2C sur une seule instance, ce qui la rend flexible pour divers besoins commerciaux. L’extension nécessite une licence distincte et s’intègre de manière transparente aux fonctionnalités principales d’Adobe Commerce pour fournir une solution d’e-commerce B2B complète.
 
@@ -104,7 +104,7 @@ Pour la mise en service, contactez votre représentant de compte Adobe. Pour plu
 
 ### [!DNL AEM Assets Integration for Commerce]
 
-![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce uniquement, nécessite également des licences pour Adobe Experience Manager (AEM) Assets et AEM Dynamic Media.
+![](../assets/adobe-logo.svg) Adobe Commerce uniquement, nécessite également des licences pour Adobe Experience Manager (AEM) Assets et AEM Dynamic Media.
 
 [!DNL AEM Assets Integration for Commerce] connecte Adobe Commerce au système de gestion des ressources numériques (DAM) de Adobe Experience Manager afin de fournir un contrôle centralisé sur toutes les ressources numériques. Cette intégration permet une synchronisation automatisée des ressources, des mises à jour en temps réel et une réutilisation efficace du contenu sur les storefronts de commerce. En associant les puissantes fonctionnalités de gestion des ressources d’AEM à Commerce, les entreprises bénéficient de workflows rationalisés, d’expériences de marque cohérentes et d’une diffusion multimédia optimisée grâce à une infrastructure cloud.
 
@@ -112,7 +112,7 @@ Pour la mise en service, contactez votre représentant de compte Adobe. Pour plu
 
 ### [!DNL Live Search]
 
-![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce uniquement
+![](../assets/adobe-logo.svg) Adobe Commerce uniquement
 
 Live Search est une fonctionnalité exclusive à Adobe Commerce qui fournit une solution de recherche optimisée par l’IA avec une fonctionnalité de « recherche en temps réel ». Il offre des résultats rapides et pertinents avec des miniatures de produit lorsque les acheteurs saisissent des informations, ainsi qu’un facettage intelligent qui ajuste automatiquement les filtres en fonction du comportement d’achat. La solution comprend des fonctionnalités de marchandisage pour l’enrichissement et l’enterrement des produits, la gestion des synonymes et l’analyse de recherche. Inclus avec Adobe Commerce sans frais supplémentaires, [!DNL Live Search] remplace la fonctionnalité de recherche par défaut par une expérience de recherche plus sophistiquée basée sur SaaS. Pour commencer, une configuration minimale est nécessaire.
 
@@ -120,9 +120,9 @@ Pour plus d’informations sur l’implémentation et connaître les exigences t
 
 ### [!DNL Product Recommendations]
 
-![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce uniquement
+![](../assets/adobe-logo.svg) Adobe Commerce uniquement
 
-[!DNL Product Recommendations] est une fonctionnalité exclusive à Adobe Commerce, optimisée par la technologie d’IA d’Adobe, qui fournit des suggestions de produits personnalisées dans l’ensemble du parcours d’achat des clients. La solution analyse en temps réel le comportement des acheteurs et les relations entre les produits afin de générer automatiquement des recommandations pertinentes, sans nécessiter de règles de marchandisage manuelles. Cette approche axée sur l’IA permet d’augmenter les taux de conversion et le potentiel de chiffre d’affaires tout en créant des expériences de découverte de produits plus attrayantes pour les acheteurs.
+[!DNL Product Recommendations] est une fonctionnalité exclusive à Adobe Commerce, optimisée par la technologie Adobe AI, qui fournit des suggestions de produits personnalisées dans l’ensemble du parcours d’achat des clients. La solution analyse en temps réel le comportement des acheteurs et les relations entre les produits afin de générer automatiquement des recommandations pertinentes, sans nécessiter de règles de marchandisage manuelles. Cette approche axée sur l’IA permet d’augmenter les taux de conversion et le potentiel de chiffre d’affaires tout en créant des expériences de découverte de produits plus attrayantes pour les acheteurs.
 
 Pour obtenir des informations détaillées sur l’implémentation et connaître les bonnes pratiques, consultez le [[!DNL Product Recommendations] Guide de l’utilisateur](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=fr).
 

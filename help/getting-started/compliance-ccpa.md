@@ -5,7 +5,7 @@ exl-id: 165c8b78-683e-4015-b3c4-d3211750799e
 feature: Compliance
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '2252'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Faites l’inventaire de vos propriétés numériques, y compris toutes les int�
 
    - **Fournisseurs de services** : entités qui ont accès à vos données client à des fins commerciales et fournissent des services en votre nom. Par exemple, Adobe est un fournisseur de services, tout comme certains développeurs de personnalisations, d’extensions et de services.
 
-     Vérifiez les paramètres par défaut de Google Universal Analytics, de Google Tag Manager (et de tout autre service de données que vous utilisez) et apportez les modifications nécessaires pour vous conformer à la réglementation. Pour en savoir plus, consultez [Paramètres de confidentialité de Google](../merchandising-promotions/google-tools.md#google-privacy-settings).
+     Vérifiez les paramètres par défaut de Google Universal Analytics, de Google Tag Manager (et de tout autre service de données que vous utilisez) et apportez les modifications nécessaires pour vous conformer à la réglementation. Pour en savoir plus, consultez [Paramètres de confidentialité de &#x200B;](../merchandising-promotions/google-tools.md#google-privacy-settings).
 
    - **Autres tiers** : entités avec lesquelles vous partagez ou vendez des données des consommateurs. Par exemple, vous pouvez partager des données client avec un réseau publicitaire en échange de publicité.
 
@@ -105,7 +105,7 @@ Faites l’inventaire de vos propriétés numériques, y compris toutes les int�
 
 **Parties Prenantes :** Expérience Utilisateur, Technologie De L’Information, Support Administratif
 
-1. Identifiez chaque point du [parcours client] où les informations personnelles sont collectées, ainsi que le type d’informations collectées à chaque étape.
+1. Identifiez chaque point du parcours client&rbrack; où les informations personnelles sont collectées, ainsi que le type d’informations collectées à chaque étape.&lbrack;
 
    Les visiteurs et visiteuses de votre site doivent être avertis à l’avance ou au point de collecte des données. Par exemple, un magasin sans intégrations personnalisées collecte des informations personnelles lors de la création d’un compte client et lors du passage en caisse. Si votre magasin comporte des intégrations personnalisées, il se peut qu’il y ait des éléments de données et des attributs supplémentaires à identifier.
 
