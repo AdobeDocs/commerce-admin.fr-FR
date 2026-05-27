@@ -36,7 +36,7 @@ Vous pouvez mettre à jour le nom, l’adresse, l’emplacement GPS et les coord
 
 Si vous modifiez le Source par défaut, vous pouvez modifier toutes les configurations, à l’exception du nom et du code. Il est recommandé que les commerçants monosources ajoutent des informations correspondant à leur emplacement.
 
-La page _[!UICONTROL Manage Sources]_répertorie tous les emplacements d&#39;inventaire et installations d&#39;exécution disponibles. Vous pouvez ajouter de nouvelles sources de stock et modifier des emplacements existants.
+La page _[!UICONTROL Manage Sources]_&#x200B;répertorie tous les emplacements d&#39;inventaire et installations d&#39;exécution disponibles. Vous pouvez ajouter de nouvelles sources de stock et modifier des emplacements existants.
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
 

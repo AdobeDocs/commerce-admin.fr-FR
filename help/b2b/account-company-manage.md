@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Gestion des comptes d’entreprise
 
-La page _[!UICONTROL Companies]_répertorie tous les comptes de société actuels, quel que soit leur statut. Toutes les demandes d’approbation en attente apparaissent en haut de la liste.
+La page _[!UICONTROL Companies]_&#x200B;répertorie tous les comptes de société actuels, quel que soit leur statut. Toutes les demandes d’approbation en attente apparaissent en haut de la liste.
 
 ![Grille des sociétés](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 Utilisez le contrôle *[!UICONTROL Columns]* pour personnaliser les colonnes affichées dans la grille. Personnalisez les sociétés affichées dans la vue à l’aide des fonctionnalités de recherche et de filtrage.
 
-- Recherchez des sociétés dans la grille **Sociétés** à l’aide de l’_[!UICONTROL Search]_. La recherche indexe les colonnes **Nom de la société**et **Parent**.
+- Recherchez des sociétés dans la grille **Sociétés** à l’aide de l’_[!UICONTROL Search]_. La recherche indexe les colonnes **Nom de la société**&#x200B;et **Parent**.
 
 - Personnalisez la vue pour inclure des enregistrements qui répondent à des critères spécifiques à l’aide de l’[!UICONTROL Filter] . Par exemple, si le site B2B est configuré pour gérer à la fois les comptes de société uniques et les [hiérarchies de société](manage-companies.md), vous pouvez filtrer par `[!UICONTROL Company Type - Company]` pour n’afficher que les sociétés uniques ou par `[!UICONTROL Company Type - Parent]` pour n’afficher que la société parent pour chaque hiérarchie.
 
-Appliquez une action à plusieurs enregistrements d&#39;entreprise à l&#39;aide du contrôle _[!UICONTROL Actions]_au-dessus de la grille. Par exemple, plutôt que d’approuver chaque demande individuelle d’entreprise, vous pouvez sélectionner plusieurs demandes pour activer les comptes en une seule action. Les actions disponibles dépendent des [autorisations](../systems/permissions.md) pour le rôle affecté à votre compte utilisateur d’administrateur.
+Appliquez une action à plusieurs enregistrements d&#39;entreprise à l&#39;aide du contrôle _[!UICONTROL Actions]_&#x200B;au-dessus de la grille. Par exemple, plutôt que d’approuver chaque demande individuelle d’entreprise, vous pouvez sélectionner plusieurs demandes pour activer les comptes en une seule action. Les actions disponibles dépendent des [autorisations](../systems/permissions.md) pour le rôle affecté à votre compte utilisateur d’administrateur.
 
 ## Ressources de rôle d’entreprise
 

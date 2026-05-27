@@ -191,7 +191,7 @@ Après avoir installé l’extension [!DNL Audience Activation], vous devez vous
 
    >[!NOTE]
    >
-   >Lorsque vous spécifiez un identifiant de flux de données, vous [ l’associer à un site web spécifique](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection) dans l’extension [!DNL Data Connection]. Si votre boutique Commerce comporte plusieurs sites web, [créez une destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) pour chaque site web dans Real-Time CDP et utilisez un identifiant de flux de données différent pour chacun.
+   >Lorsque vous spécifiez un identifiant de flux de données, vous [&#x200B; l’associer à un site web spécifique](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection) dans l’extension [!DNL Data Connection]. Si votre boutique Commerce comporte plusieurs sites web, [créez une destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) pour chaque site web dans Real-Time CDP et utilisez un identifiant de flux de données différent pour chacun.
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -217,7 +217,7 @@ Vous pouvez afficher toutes les audiences [actives](https://experienceleague.ado
 
 Pour accéder au tableau de bord **Audiences**, positionnez-vous sur la barre latérale _Admin_, puis sur **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
 
-![Tableau de bord des audiences ](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
+![Tableau de bord des audiences &#x200B;](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
 
 Le tableau de bord contient les champs suivants :
 

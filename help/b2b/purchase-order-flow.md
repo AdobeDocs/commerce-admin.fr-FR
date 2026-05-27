@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Commandes fournisseur pour les entreprises
 
-Les bons de commande (PO) sont un moyen courant pour les entreprises de suivre et de contrôler les dépenses. [ Bon de commande ](../stores-purchase/purchase-order.md) est l’une des méthodes de paiement hors ligne standard prises en charge dans Adobe Commerce et Magento Open Source. Lorsque B2B d’Adobe Commerce est installé et que l’option [_Activer les commandes_](account-company-manage.md#advanced-settings) est activée pour un compte d’entreprise, toutes les commandes sont automatiquement créées en tant que commandes. Les utilisateurs de la société disposant des [autorisations](account-company-roles-permissions.md) requises peuvent créer, modifier et supprimer les ordres d&#39;achat qu&#39;ils créent ainsi que les ordres d&#39;achat créés par des utilisateurs subordonnés.
+Les bons de commande (PO) sont un moyen courant pour les entreprises de suivre et de contrôler les dépenses. [&#x200B; Bon de commande &#x200B;](../stores-purchase/purchase-order.md) est l’une des méthodes de paiement hors ligne standard prises en charge dans Adobe Commerce et Magento Open Source. Lorsque B2B d’Adobe Commerce est installé et que l’option [_Activer les commandes_](account-company-manage.md#advanced-settings) est activée pour un compte d’entreprise, toutes les commandes sont automatiquement créées en tant que commandes. Les utilisateurs de la société disposant des [autorisations](account-company-roles-permissions.md) requises peuvent créer, modifier et supprimer les ordres d&#39;achat qu&#39;ils créent ainsi que les ordres d&#39;achat créés par des utilisateurs subordonnés.
 
 ## Flux de commande fournisseur
 
@@ -58,7 +58,7 @@ Les règles d’approbation sont utilisées pour contrôler les dépenses en fon
 - Toute commande supérieure à 1 000 $ nécessite l&#39;approbation de votre gestionnaire et de l&#39;administrateur de l&#39;entreprise.
 - Toute commande comportant plus de 30 SKU uniques doit être approuvée par l’administrateur de l’entreprise.
 
-Une fois ces règles en place pour une entreprise, un utilisateur de l’entreprise peut terminer la commande immédiatement lorsque celle-ci est inférieure à 100 $. Pour en savoir plus sur la définition des règles d&#39;approbation, voir [ Règles d&#39;approbation ](account-dashboard-approval-rules.md).
+Une fois ces règles en place pour une entreprise, un utilisateur de l’entreprise peut terminer la commande immédiatement lorsque celle-ci est inférieure à 100 $. Pour en savoir plus sur la définition des règles d&#39;approbation, voir [&#x200B; Règles d&#39;approbation &#x200B;](account-dashboard-approval-rules.md).
 
 ### Types d’utilisateurs et d’utilisatrices du magasin
 

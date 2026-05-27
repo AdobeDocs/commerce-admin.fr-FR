@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Chaque carte cadeau comporte un code unique, qui ne peut être utilisé que par un seul client lors du passage en caisse. Un [pool de codes](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) doit être établi avant que les cartes-cadeaux puissent être vendues. Pour plus d’informations sur le mode d’échange des cartes cadeaux dans le panier](../stores-purchase/product-gift-card-workflow.md) reportez-vous à la section [Workflow des cartes cadeau.
+Chaque carte cadeau comporte un code unique, qui ne peut être utilisé que par un seul client lors du passage en caisse. Un [pool de codes](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) doit être établi avant que les cartes-cadeaux puissent être vendues. Pour plus d’informations sur le mode d’échange des cartes cadeaux dans le panier[&#128279;](../stores-purchase/product-gift-card-workflow.md) reportez-vous à la section Workflow des cartes cadeau.
 
 ![Page produit de la carte cadeau](./assets/storefront-giftcard-product-page.png){width="700" zoomable="yes"}
 
@@ -96,7 +96,7 @@ D’autres attributs individuels peuvent décrire le produit. La sélection vari
 
 ### Étape 5 : Complétez les informations de la carte cadeau
 
-La section _[!UICONTROL Gift Card Information]_des paramètres du produit peut être utilisée pour remplacer les paramètres [configuration de la carte cadeau](../configuration-reference/sales/gift-cards.md) qui déterminent la manière dont la carte est gérée.
+La section _[!UICONTROL Gift Card Information]_&#x200B;des paramètres du produit peut être utilisée pour remplacer les paramètres [configuration de la carte cadeau](../configuration-reference/sales/gift-cards.md) qui déterminent la manière dont la carte est gérée.
 
 1. Faites défiler l’écran jusqu’à la section _[!UICONTROL Gift Card Information]_.
 

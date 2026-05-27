@@ -115,7 +115,7 @@ Le formulaire est mis à jour pour refléter la modification.
 
 1. Acceptez le paramètre de **[!UICONTROL Visibility]** par défaut de `Catalog, Search`.
 
-1. Pour attribuer des _[!UICONTROL Categories]_au produit, cliquez sur la zone de **[!UICONTROL Select…]**et effectuez l’une des opérations suivantes :
+1. Pour attribuer des _[!UICONTROL Categories]_&#x200B;au produit, cliquez sur la zone de **[!UICONTROL Select…]**&#x200B;et effectuez l’une des opérations suivantes :
 
    **Choisir une catégorie existante :**
 
@@ -139,7 +139,7 @@ Le formulaire est mis à jour pour refléter la modification.
 
 ## Étape 5 : ajouter les éléments du lot
 
-La section _[!UICONTROL Bundle Items]_permet d’ajouter des éléments à un type de produit Offre groupée et de modifier la sélection d’éléments actuelle.
+La section _[!UICONTROL Bundle Items]_&#x200B;permet d’ajouter des éléments à un type de produit Offre groupée et de modifier la sélection d’éléments actuelle.
 
 ![Articles groupés définis pour un produit](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
@@ -180,7 +180,7 @@ La section _[!UICONTROL Bundle Items]_permet d’ajouter des éléments à un ty
 
      >[!NOTE]
      >
-     >La quantité peut être une valeur prédéfinie ou définie par l’utilisateur. Toutefois, n’affectez pas la propriété _[!UICONTROL User Defined]_aux types d’entrée de case à cocher ou de sélection multiple.
+     >La quantité peut être une valeur prédéfinie ou définie par l’utilisateur. Toutefois, n’affectez pas la propriété _[!UICONTROL User Defined]_&#x200B;aux types d’entrée de case à cocher ou de sélection multiple.
 
      Par défaut, la quantité par défaut incluse dans un article groupé ne peut pas être modifiée par le client. Cependant, le client peut entrer la quantité de l&#39;article à inclure dans le lot.
 
@@ -239,10 +239,10 @@ Faites défiler vers le bas et renseignez les informations des sections suivante
 
 | Contrôle | Description | Exemple |
 |--- |--- |--- |
-| [!UICONTROL Drop-down] | Affiche une liste déroulante d’options avec le nom et le prix du produit. Un seul élément peut être sélectionné. | ![ Liste déroulante ](./assets/product-bundle-input-type-drop-down.png){width="200"} |
+| [!UICONTROL Drop-down] | Affiche une liste déroulante d’options avec le nom et le prix du produit. Un seul élément peut être sélectionné. | ![&#x200B; Liste déroulante &#x200B;](./assets/product-bundle-input-type-drop-down.png){width="200"} |
 | [!UICONTROL Radio Buttons] | Affiche un bouton radio pour chaque option, suivi du nom et du prix du produit. Un seul élément peut être sélectionné. | ![Boutons radio](./assets/product-bundle-input-type-radio-buttons.png){width="200"} |
-| [!UICONTROL Checkbox] | Affiche une case à cocher pour chaque option, suivie du nom et du prix du produit. Plusieurs éléments peuvent être sélectionnés. | ![ Case à cocher ](./assets/product-bundle-input-type-checkbox.png){width="200"} |
-| [!UICONTROL Multiple Select] | Affiche une liste d’options avec le nom et le prix du produit. Pour sélectionner plusieurs éléments, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque élément. | ![ Sélection multiple ](./assets/product-bundle-input-type-multiple-select.png){width="200"} |
+| [!UICONTROL Checkbox] | Affiche une case à cocher pour chaque option, suivie du nom et du prix du produit. Plusieurs éléments peuvent être sélectionnés. | ![&#x200B; Case à cocher &#x200B;](./assets/product-bundle-input-type-checkbox.png){width="200"} |
+| [!UICONTROL Multiple Select] | Affiche une liste d’options avec le nom et le prix du produit. Pour sélectionner plusieurs éléments, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque élément. | ![&#x200B; Sélection multiple &#x200B;](./assets/product-bundle-input-type-multiple-select.png){width="200"} |
 
 {style="table-layout:auto"}
 
@@ -283,7 +283,7 @@ Le statut du stock de produits groupés n’est **_pas automatiquement modifié 
 
 ![Case à cocher](../assets/checkbox.png) SKU et poids peuvent être `Fixed` ou `Dynamic`.
 
-![Case à cocher](../assets/checkbox.png) La quantité peut être un paramètre prédéfini ou une valeur définie par l’utilisateur. Toutefois, n’affectez pas la propriété _[!UICONTROL User Defined]_aux types d’entrée de case à cocher ou de sélection multiple.
+![Case à cocher](../assets/checkbox.png) La quantité peut être un paramètre prédéfini ou une valeur définie par l’utilisateur. Toutefois, n’affectez pas la propriété _[!UICONTROL User Defined]_&#x200B;aux types d’entrée de case à cocher ou de sélection multiple.
 
 ![Case à cocher](../assets/checkbox.png) Les éléments groupés peuvent être expédiés ensemble ou séparément.
 
