@@ -5,7 +5,7 @@ exl-id: 60b0e66a-8ee6-4091-94ce-179cc2fdf57a
 feature: Orders, Shipping/Delivery
 source-git-commit: abd125cc6e61850db55fb31dbcbd9dc38ac0fca5
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Une commande qui a été payée mais qui est en attente d&#39;expédition a le s
 
 1. Recherchez l&#39;ordre d&#39;expédition dans la grille, puis cliquez sur **[!UICONTROL View]**.
 
-1. Faites défiler jusqu’à la section _[!UICONTROL Shipping & Handling Information]_&#x200B;et cliquez sur **[!UICONTROL Track Order]**.
+1. Faites défiler jusqu’à la section _[!UICONTROL Shipping & Handling Information]_et cliquez sur **[!UICONTROL Track Order]**.
 
    Toutes les informations de suivi disponibles s’affichent dans une fenêtre contextuelle.
 

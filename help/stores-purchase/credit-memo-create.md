@@ -5,7 +5,7 @@ exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '2132'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Avant de pouvoir imprimer un avoir, vous devez d&#39;abord le générer pour une [commande facturée](invoices.md#create-an-invoice). Vous pouvez émettre des remboursements en ligne et hors ligne (partiels ou complets) à partir d&#39;un avoir ouvert, selon le mode de paiement.
 
-- ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Des remboursements peuvent être appliqués pour stocker du crédit.
+- ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Des remboursements peuvent être appliqués pour stocker du crédit.
 - ![Adobe Commerce B2B](../assets/b2b.svg) (disponible avec Adobe Commerce B2B) Les remboursements peuvent être appliqués au crédit de la société.
 - Les achats effectués par carte de crédit peuvent être remboursés en ligne ou hors ligne.
 - Les achats effectués par chèque ou mandat doivent être remboursés hors ligne.
@@ -39,7 +39,7 @@ Le workflow de remboursement des commandes payées par carte de crédit est dét
 
 - Si l&#39;action de paiement correspondant au mode de paiement que vous avez configuré est définie sur `Authorize`, vous devez d&#39;abord générer la facture à partir de l&#39;administrateur avant de pouvoir créer un avoir.
 - Si l&#39;action de paiement pour le mode de paiement que vous avez configuré est définie sur `Authorize and Capture`, la facture a déjà été générée par le processeur de paiements, mais les fonds ne sont pas disponibles tant que le mouvement n&#39;est pas réglé. Ce bref délai d&#39;attente est recommandé par de nombreux processeurs de paiement comme mesure de sécurité, et peut généralement être géré automatiquement. Les transactions peuvent également être réglées manuellement à partir de votre compte marchand avec le processeur de paiement.
-- ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Si vous créez un avoir pour une commande qui comprend des options cadeau, le remboursement de l&#39;emballage cadeau et/ou de la carte imprimée apparaît dans la section Totaux du remboursement de l&#39;avoir. Pour exclure ces coûts du montant à rembourser, entrez le montant en tant que commission d&#39;ajustement. Si plusieurs avoirs sont émis pour la même commande, le remboursement des options cadeau n&#39;apparaît que dans le premier avoir.
+- ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Si vous créez un avoir pour une commande qui comprend des options cadeau, le remboursement de l&#39;emballage cadeau et/ou de la carte imprimée apparaît dans la section Totaux du remboursement de l&#39;avoir. Pour exclure ces coûts du montant à rembourser, entrez le montant en tant que commission d&#39;ajustement. Si plusieurs avoirs sont émis pour la même commande, le remboursement des options cadeau n&#39;apparaît que dans le premier avoir.
 
 ## Créer un avoir
 
@@ -53,7 +53,7 @@ Déterminez le type de remboursement que vous souhaitez émettre (pour un [achat
 
 1. Recherchez l’ordre dans la grille, puis cliquez sur **[!UICONTROL View]**.
 
-1. Si le bouton _[!UICONTROL Credit Memo]_&#x200B;est visible dans la barre de boutons, effectuez l’une des opérations suivantes :
+1. Si le bouton _[!UICONTROL Credit Memo]_est visible dans la barre de boutons, effectuez l’une des opérations suivantes :
 
    - Pour émettre un remboursement `offline`, passez à l&#39;étape #6.
    - Pour émettre un remboursement `online`, passez à l’étape #4.
@@ -106,7 +106,7 @@ Déterminez le type de remboursement que vous souhaitez émettre (pour un [achat
 
 1. Procédez comme suit, le cas échéant :
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Pour rembourser le montant au crédit de la boutique du client, cochez la case **[!UICONTROL Refund to Store Credit]**.
+   - ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Pour rembourser le montant au crédit de la boutique du client, cochez la case **[!UICONTROL Refund to Store Credit]**.
 
    - ![Adobe Commerce B2B](../assets/b2b.svg) (disponible avec Adobe Commerce B2B) Pour rembourser le montant au crédit de la société du client, cochez la case **[!UICONTROL Refund to Company Credit]**.
 
@@ -253,7 +253,7 @@ Déterminez le type de remboursement que vous souhaitez émettre (pour un [achat
 | [!UICONTROL Grand Total] | Montant total à rembourser |
 | [!UICONTROL Append Comments] | Case à cocher qui détermine si les commentaires sont inclus dans l&#39;avoir. |
 | [!UICONTROL Email Copy of Credit Memo] | Case à cocher qui détermine si une copie de l&#39;avoir est envoyée par e-mail. |
-| [!UICONTROL Refund to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Case à cocher qui détermine si le total doit être remboursé au [crédit de la boutique](../customers/store-credit-using.md). |
+| [!UICONTROL Refund to Store Credit] | ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Case à cocher qui détermine si le total doit être remboursé au [crédit de la boutique](../customers/store-credit-using.md). |
 | [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponible avec Adobe Commerce B2B) Total de toutes les lignes à rembourser. |
 
 {style="table-layout:auto"}

@@ -5,7 +5,7 @@ exl-id: ce25eba3-7503-46aa-a5cd-9b7d5662164b
 feature: Checkout
 source-git-commit: 347321ec5b0722f06240780136cb29816aab559f
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Pour obtenir une description détaillée de chacun de ces paramètres de configu
 
 ## Autoriser l’accès aux commandes des invités pour les e-mails enregistrés
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
 
 La configuration facultative au niveau du magasin, désactivée par défaut, permet aux acheteurs invités de suivre leurs commandes passées à l’aide d’une adresse e-mail correspondant à un compte client enregistré.
 

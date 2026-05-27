@@ -1,75 +1,75 @@
 ---
-title: Courriers électroniques de vente
-description: Découvrez comment configurer des emails de vente pour prendre en charge les communications avec les clients au sujet de leurs commandes.
+title: E-mails de vente
+description: Découvrez comment configurer les e-mails de vente pour prendre en charge les communications destinées aux clients concernant leurs commandes.
 exl-id: b205dc61-08cc-4783-810c-686ccf2ba300
 feature: Communications, Orders
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
-# Courriers électroniques de vente
+# E-mails de vente
 
-Plusieurs messages électroniques sont déclenchés par les événements liés à une commande et la configuration est similaire. Assurez-vous d’identifier le contact du magasin qui apparaît comme l’expéditeur du message, le modèle d’email à utiliser et toute autre personne devant recevoir une copie du message. Les courriers électroniques de vente peuvent être envoyés lorsqu’ils sont déclenchés par un événement ou selon un intervalle prédéterminé.
+Plusieurs e-mails sont déclenchés par les événements liés à une commande. La configuration est similaire. Assurez-vous d’identifier le contact du magasin qui apparaît comme l’expéditeur du message, le modèle d’e-mail à utiliser et toute autre personne qui doit recevoir une copie du message. Les e-mails de ventes peuvent être envoyés lorsqu’ils sont déclenchés par un événement ou par un intervalle prédéterminé.
 
-![Configuration des ventes - emails de vente](./assets/config-sales-sales-email-full.png){width="600" zoomable="yes"}
+![Configuration des ventes - e-mails de vente](./assets/config-sales-sales-email-full.png){width="600" zoomable="yes"}
 
-## Étape 1. Mettre à jour les modèles d&#39;email
+## Étape 1. Mettre à jour les modèles d’e-mail
 
-Veillez à mettre à jour le modèle [en-tête d&#39;email](../systems/email-template-custom.md#header-template) afin qu&#39;il reflète votre marque et les autres modèles d&#39;email si nécessaire. Pour obtenir la liste complète des modèles, reportez-vous à la section [Modèles d&#39;email](../systems/email-templates.md).
+Veillez à mettre à jour le modèle [en-tête d’e-mail](../systems/email-template-custom.md#header-template) afin qu’il reflète votre marque et les autres modèles d’e-mail si nécessaire. Pour obtenir la liste complète des modèles, voir [ Modèles d’e-mail ](../systems/email-templates.md).
 
-## Étape 2. Choisissez le type de transmission
+## Étape 2. Choisir le type de transmission
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Sales Emails]**.
 
-1. Si nécessaire, développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) de **[!UICONTROL General Settings]** .
+1. Si nécessaire, développez ![Sélecteur d’extension](../assets/icon-display-expand.png) dans la section **[!UICONTROL General Settings]** .
 
-   ![Configuration des ventes - Paramètres généraux des emails de vente](../configuration-reference/sales/assets/sales-emails-general-settings.png){width="600" zoomable="yes"}
+   ![Configuration des ventes - Paramètres généraux des e-mails de ventes](../configuration-reference/sales/assets/sales-emails-general-settings.png){width="600" zoomable="yes"}
 
-   Par défaut, l’envoi asynchrone est défini sur `Disable`. Pour modifier le paramètre système, décochez la case **[!UICONTROL Use system value]** et définissez **[!UICONTROL Asynchronous sending]** sur l’une des options suivantes :
+   Par défaut, l’envoi asynchrone est défini sur `Disable`. Pour modifier le paramètre système, désélectionnez la case **[!UICONTROL Use system value]** et définissez **[!UICONTROL Asynchronous sending]** sur l’une des options suivantes :
 
-   - `Disable` - Envoie le courrier électronique de vente lorsqu’il est déclenché par un événement.
-   - `Enable` - Envoie le courrier électronique de vente à intervalles réguliers et prédéterminés.
+   - `Disable` - Envoie un e-mail de vente lorsqu’il est déclenché par un événement.
+   - `Enable` - Envoie un e-mail de vente à intervalles réguliers prédéterminés.
 
-   Le support Adobe Commerce recommande d’activer l’envoi asynchrone afin d’améliorer les performances de placement des commandes. Voir [Bonnes pratiques de configuration pour le traitement des commandes](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html?lang=fr) dans la base de connaissances de support Adobe Commerce.
+   La prise en charge d’Adobe Commerce recommande d’activer l’envoi asynchrone pour améliorer les performances du placement des commandes. Voir [ Bonnes pratiques de configuration pour le traitement des commandes ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html) dans la base de connaissances du support Adobe Commerce.
 
-## Étape 3. Compléter les détails de chaque email de vente
+## Étape 3. Complétez les détails de chaque e-mail de vente
 
-1. Si nécessaire, développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) de **[!UICONTROL Order]** .
+1. Si nécessaire, développez ![Sélecteur d’extension](../assets/icon-display-expand.png) dans la section **[!UICONTROL Order]** .
 
-   ![Configuration des ventes - commande des emails de vente](../configuration-reference/sales/assets/sales-emails-order.png){width="600" zoomable="yes"}
+   ![Configuration des ventes - Commande d’e-mails de vente](../configuration-reference/sales/assets/sales-emails-order.png){width="600" zoomable="yes"}
 
-1. Vérifiez que **[!UICONTROL Enabled]** est défini sur `Yes` (valeur par défaut).
+1. Vérifiez que **[!UICONTROL Enabled]** est défini sur `Yes` (par défaut).
 
 1. Définissez **[!UICONTROL New Order Confirmation Email]** sur le contact du magasin qui apparaît comme l’expéditeur du message.
 
 1. Définissez **[!UICONTROL New Order Confirmation Template]** sur le modèle utilisé pour l’e-mail envoyé aux clients enregistrés.
 
-1. Définissez **[!UICONTROL New Order Confirmation Template for Guest]** sur le modèle utilisé pour l’e-mail envoyé aux invités qui n’ont pas de compte avec votre boutique.
+1. Définissez **[!UICONTROL New Order Confirmation Template for Guest]** sur le modèle utilisé pour l’e-mail envoyé aux invités qui n’ont pas de compte dans votre boutique.
 
-1. Pour **[!UICONTROL Send Order Email Copy To]**, saisissez l’adresse électronique de toute personne devant recevoir une copie du nouvel email de commande.
+1. Par **[!UICONTROL Send Order Email Copy To]**, saisissez l’adresse e-mail de toute personne qui doit recevoir une copie de l’e-mail de nouvelle commande.
 
    Si vous envoyez une copie à plusieurs destinataires, séparez chaque adresse par une virgule.
 
 1. Définissez **[!UICONTROL Send Order Email Copy Method]** sur l’une des options suivantes :
 
-   - `Bcc` - Envoie une _copie de politesse aveugle_ en incluant le destinataire dans l’en-tête du même email qui est envoyé au client. Le destinataire Cci n&#39;est pas visible par le client.
-   - `Separate Email` - Envoie la copie en tant qu’email distinct.
+   - `Bcc` - Envoie une _copie de courtoisie invisible_ en incluant le destinataire dans l’en-tête du même e-mail envoyé au client. Le destinataire en Cci n’est pas visible pour le client.
+   - `Separate Email` - Envoie la copie sous forme d’e-mail distinct.
 
-1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) de la section **[!UICONTROL Order Comments]** et répétez ces étapes.
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Order Comments]** et répétez ces étapes.
 
-   ![Configuration des ventes - Commentaires sur la commande des emails de vente](../configuration-reference/sales/assets/sales-emails-order-comments.png){width="600" zoomable="yes"}
+   ![Configuration des ventes - Commentaires de commande des e-mails de ventes](../configuration-reference/sales/assets/sales-emails-order-comments.png){width="600" zoomable="yes"}
 
-1. Effectuez la configuration pour les types d&#39;email de vente restants :
+1. Effectuez la configuration pour les types d’e-mail de vente restants :
 
    - **[!UICONTROL Invoice]** / **[!UICONTROL Invoice Comments]**
    - **[!UICONTROL Shipment]** / **[!UICONTROL Shipment Comments]**
    - **[!UICONTROL Credit Memo]** / **[!UICONTROL Credit Memo Comments]**
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
+1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 
-   Lorsque vous y êtes invité, cliquez sur le lien [Gestion du cache](../systems/cache-management.md) dans le message situé en haut de l’espace de travail et effacez tous les caches non valides.
+   Lorsque vous y êtes invité, cliquez sur le lien [Gestion du cache](../systems/cache-management.md) dans le message en haut de l’espace de travail et effacez tous les caches non valides.

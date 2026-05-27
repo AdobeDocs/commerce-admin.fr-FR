@@ -5,7 +5,7 @@ exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
 source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2462'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Les imports et exports planifiés peuvent être exécutés tous les jours, toute
    >
    >Lorsque vous créez ou mettez à jour une importation/exportation planifiée, cela entraîne une modification de la configuration du système. Après l’enregistrement, veillez à adresser l’avis d’invalidation du cache qui s’affiche en haut de la page Admin et à vider le cache afin d’appliquer le planning nouveau ou mis à jour.
 
-1. [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Après chaque traitement planifié, une copie du fichier est placée dans le répertoire `var/log/import_export` du serveur local Adobe Commerce.
+1. [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Après chaque traitement planifié, une copie du fichier est placée dans le répertoire `var/log/import_export` du serveur local Adobe Commerce.
 
    Les détails de chaque opération ne sont pas écrits dans le journal. Si une erreur se produit, une notification est envoyée concernant la tâche d’importation/exportation ayant échoué, avec une description de l’erreur.
 
@@ -48,7 +48,7 @@ L’avantage de l’utilisation de l’importation planifiée est que vous pouve
 
 Les détails de chaque opération d’importation ne sont pas écrits dans un journal, mais en cas d’échec, vous recevez un e-mail _Échec de l’importation_ avec une description de l’erreur. Le résultat de la dernière tâche d’importation planifiée s’affiche dans la colonne Dernier résultat de la page Importation/exportation planifiée .
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Après chaque opération d’import, une copie du fichier d’import est placée dans le répertoire `var/log/import_export` sur le serveur sur lequel Adobe Commerce ou Magento Open Source est déployé. La date et l’heure, le marqueur de l’entité importée (produits ou clients) et le type de l’opération (dans ce cas, importation) sont ajoutés au nom du fichier d’importation.
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Après chaque opération d’import, une copie du fichier d’import est placée dans le répertoire `var/log/import_export` sur le serveur sur lequel Adobe Commerce ou Magento Open Source est déployé. La date et l’heure, le marqueur de l’entité importée (produits ou clients) et le type de l’opération (dans ce cas, importation) sont ajoutés au nom du fichier d’importation.
 
 Après chaque tâche d’importation planifiée, une opération de réindexation est automatiquement effectuée. Sur le front-end, les modifications apportées aux descriptions et aux autres informations textuelles sont reflétées une fois que les données mises à jour sont envoyées dans la base de données, et les modifications de prix ne sont reflétées qu’après l’opération de réindexation.
 
@@ -83,7 +83,7 @@ Après chaque tâche d’importation planifiée, une opération de réindexation
 
      >[!NOTE]
      >
-     >Pour les types d&#39;entités _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;et&#x200B;_[!UICONTROL Stock Sources]_, les comportements d&#39;import suivants s&#39;affichent : `Add/Update`, `Replace` et `Delete`. Pour les types d’entités _Finances client_, _Fichier principal des clients_ et _Clients et adresses_, les comportements d’importation suivants s’affichent : `Add/Update Complex Data`, `Delete Entities` et `Custom Action`.
+     >Pour les types d&#39;entités _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_et_[!UICONTROL Stock Sources]_, les comportements d&#39;import suivants s&#39;affichent : `Add/Update`, `Replace` et `Delete`. Pour les types d’entités _Finances client_, _Fichier principal des clients_ et _Clients et adresses_, les comportements d’importation suivants s’affichent : `Add/Update Complex Data`, `Delete Entities` et `Custom Action`.
 
    - **[!UICONTROL Start Time]** — Définit sur l&#39;heure, la minute et la seconde où l&#39;importation doit commencer.
 
@@ -203,7 +203,7 @@ L’avantage de l’utilisation de l’exportation planifiée est que vous pouve
 
 Les détails de chaque exportation ne sont pas écrits dans un journal, mais en cas d’échec, vous recevez un e-mail Échec de l’exportation , qui contient la description de l’erreur. Le résultat de la dernière tâche d’exportation s’affiche dans la colonne Dernier résultat de la page Importation/exportation planifiée .
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Après chaque exportation, le fichier d’exportation est placé à l’emplacement défini par l’utilisateur et une copie est effectuée dans le répertoire `var/log/import_export` sur le serveur sur lequel Adobe Commerce ou Magento Open Source est déployé. La date et l’heure, ainsi que le marqueur de l’entité exportée (produits ou clients) et le type de l’opération (dans ce cas, exportation) sont ajoutés au nom du fichier d’exportation.
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Après chaque exportation, le fichier d’exportation est placé à l’emplacement défini par l’utilisateur et une copie est effectuée dans le répertoire `var/log/import_export` sur le serveur sur lequel Adobe Commerce ou Magento Open Source est déployé. La date et l’heure, ainsi que le marqueur de l’entité exportée (produits ou clients) et le type de l’opération (dans ce cas, exportation) sont ajoutés au nom du fichier d’exportation.
 
 ### Étape 1 : définition des paramètres d’exportation
 
@@ -224,7 +224,7 @@ Les détails de chaque exportation ne sont pas écrits dans un journal, mais en 
       - `Customer Addresses`
       - `Stock Sources`
 
-     La section _[!UICONTROL Entity Attributes]_&#x200B;au bas de la page est mise à jour pour refléter le type d’entité sélectionné.
+     La section _[!UICONTROL Entity Attributes]_au bas de la page est mise à jour pour refléter le type d’entité sélectionné.
 
    - Définissez **[!UICONTROL Start Time]** sur l’heure, la minute et la seconde auxquelles l’exportation doit commencer.
 
@@ -258,7 +258,7 @@ Les détails de chaque exportation ne sont pas écrits dans un journal, mais en 
    - Par **[!UICONTROL Local Server]**, saisissez un chemin d’accès relatif dans l’installation de Commerce, tel que `var/export`. Si le module de stockage distant est configuré, utilisez `import_export/export`.
    - Par **[!UICONTROL Remote FTP server]**, saisissez l’URL complète et le chemin d’accès au dossier cible sur le serveur de destination.
 
-1. Si le serveur _[!UICONTROL Remote FTP]_&#x200B;est sélectionné, saisissez les informations d’identification de connexion au serveur et sélectionnez les paramètres supplémentaires :
+1. Si le serveur _[!UICONTROL Remote FTP]_est sélectionné, saisissez les informations d’identification de connexion au serveur et sélectionnez les paramètres supplémentaires :
 
    - Par **[!UICONTROL FTP Host[:Port]]**, saisissez l’adresse de l’hôte FTP distant.
    - Par **[!UICONTROL User Name]**, saisissez le nom d’utilisateur utilisé pour accéder au serveur distant.
@@ -319,7 +319,7 @@ Les détails de chaque exportation ne sont pas écrits dans un journal, mais en 
 | Champ | Description |
 | ----- | ----------- |
 | [!UICONTROL Server Type] | Détermine l’emplacement du fichier d’exportation. Options:<br>**Serveur local** — Place le fichier d&#39;exportation sur le serveur sur lequel Commerce est déployé. Si le module de stockage distant est activé, `Local Server` passe à `Remote Storage`.<br>**FTP distant** — Place le fichier d&#39;export sur un serveur distant. Des options supplémentaires pour les informations d’identification et les paramètres de transfert de fichiers s’affichent. |
-| [!UICONTROL File Directory] | Indiquez le répertoire dans lequel le fichier d’exportation est placé. Si _[!UICONTROL Server Type]_&#x200B;est défini sur `Local Server`, spécifiez le chemin relatif au chemin d’installation de Commerce. Par exemple, `var/export` ou `import_export/export` pour le stockage distant. |
+| [!UICONTROL File Directory] | Indiquez le répertoire dans lequel le fichier d’exportation est placé. Si _[!UICONTROL Server Type]_est défini sur `Local Server`, spécifiez le chemin relatif au chemin d’installation de Commerce. Par exemple, `var/export` ou `import_export/export` pour le stockage distant. |
 
 {style="table-layout:auto"}
 
