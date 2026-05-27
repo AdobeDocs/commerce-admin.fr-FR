@@ -7,8 +7,8 @@ feature: B2B
 recommendations: noDisplay
 source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 6%
+source-wordcount: '170'
+ht-degree: 5%
 
 ---
 
@@ -68,4 +68,4 @@ ht-degree: 6%
 + Référence {#reference}
    + [Modifications non rétrocompatibles](backward-incompatible-changes.md)
    + [Packages](packages.md)
-+ [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=fr)
++ [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

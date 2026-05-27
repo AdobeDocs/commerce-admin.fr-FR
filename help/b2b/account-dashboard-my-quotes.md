@@ -4,9 +4,9 @@ description: Découvrez l’expérience client pour les devis, disponible dans l
 exl-id: 137f0a99-8f24-4838-b54b-b0ef2c39a32a
 feature: B2B, Companies, Quotes
 source-git-commit: 6cf53c7caf37c24be473afecfba829595c14cb8c
-workflow-type: ht
-source-wordcount: '1220'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1221'
+ht-degree: 97%
 
 ---
 
