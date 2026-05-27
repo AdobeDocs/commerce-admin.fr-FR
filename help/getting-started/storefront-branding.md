@@ -20,7 +20,7 @@ L’une des premières choses à faire est de [modifier le logo](#upload-your-lo
 
 La taille et l’emplacement du logo dans l’en-tête sont déterminés par le thème du magasin. Votre logo peut être enregistré en tant que type de fichier GIF, PNG ou JPG (JPEG) et téléchargé à partir de l’administration de votre boutique.
 
-![ Logo dans l’en-tête ](./assets/storefront-header-logo.png){width="600"}
+![&#x200B; Logo dans l’en-tête &#x200B;](./assets/storefront-header-logo.png){width="600"}
 
 L’image du logo se trouve à l’emplacement suivant sur le serveur. Tout fichier image portant le nom `logo.svg` est utilisé comme logo de thème par défaut.
 
@@ -52,7 +52,7 @@ Formats de fichiers de logo pris en charge :
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Header]** .
 
-   ![ Paramètres d’en-tête ](./assets/configuration-header.png){width="600"}
+   ![&#x200B; Paramètres d’en-tête &#x200B;](./assets/configuration-header.png){width="600"}
 
 1. Pour télécharger un nouveau logo, cliquez sur **[!UICONTROL Upload]** et sélectionnez le fichier sur votre système.
 
@@ -120,7 +120,7 @@ Une favicon a généralement une taille de 16 x 16 pixels ou de 32 x 32 pixels. 
 
 Le message de bienvenue dans l’en-tête se développe pour inclure le nom du client connecté. Avant de lancer votre boutique, veillez à modifier le texte par défaut _Bienvenue_ pour chaque affichage de la boutique.
 
-![ Message de bienvenue ](./assets/storefront-welcome-message.png){width="600"}
+![&#x200B; Message de bienvenue &#x200B;](./assets/storefront-welcome-message.png){width="600"}
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
@@ -130,7 +130,7 @@ Le message de bienvenue dans l’en-tête se développe pour inclure le nom du c
 
 1. Par **[!UICONTROL Welcome Text]**, saisissez le texte du message de bienvenue que vous souhaitez afficher dans l’en-tête de votre boutique.
 
-   ![ Paramètres d’en-tête ](./assets/configuration-header.png){width="600"}
+   ![&#x200B; Paramètres d’en-tête &#x200B;](./assets/configuration-header.png){width="600"}
 
 1. Cliquez ensuite sur **[!UICONTROL Save Configuration]**.
 

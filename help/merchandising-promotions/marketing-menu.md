@@ -15,7 +15,7 @@ Le menu [!UICONTROL Marketing] fournit des outils d’accès pour gérer les pro
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 

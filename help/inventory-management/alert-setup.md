@@ -32,7 +32,7 @@ L’alerte en stock crée un lien appelé _Avertissez-moi lorsque ce produit est
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et choisissez **[!UICONTROL Catalog]** en dessous.
 
-1. Cliquez pour développer la section _[!UICONTROL Product Alerts]_et procédez comme suit :
+1. Cliquez pour développer la section _[!UICONTROL Product Alerts]_&#x200B;et procédez comme suit :
 
    ![Alertes de produit](assets/config-catalog-product-alerts.png){width="600" zoomable="yes"}
 
@@ -48,7 +48,7 @@ L’alerte en stock crée un lien appelé _Avertissez-moi lorsque ce produit est
 
    - Définissez **[!UICONTROL Stock Alert Email Template]** sur le modèle à utiliser pour les alertes de stock de produits.
 
-   - Définissez **[!UICONTROL Alert Email Sender]** sur le [ contact de magasin ](../getting-started/store-details.md#store-email-addresses){target="_blank"} que vous souhaitez afficher en tant qu’expéditeur de l’alerte par e-mail. Pour en savoir plus sur le [stockage des adresses e-mail](../configuration-reference/general/store-email-addresses.md){target="_blank"}, consultez le guide d’utilisation principal.
+   - Définissez **[!UICONTROL Alert Email Sender]** sur le [&#x200B; contact de magasin &#x200B;](../getting-started/store-details.md#store-email-addresses){target="_blank"} que vous souhaitez afficher en tant qu’expéditeur de l’alerte par e-mail. Pour en savoir plus sur le [stockage des adresses e-mail](../configuration-reference/general/store-email-addresses.md){target="_blank"}, consultez le guide d’utilisation principal.
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 

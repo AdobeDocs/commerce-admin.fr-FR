@@ -28,7 +28,7 @@ Le type de transfert de compte Commerce dépend des identifiants du compte Comme
 | ------------- | ------------- | --------- |
 | [Nouvel Adobe ID et modification des e-mails](#new-adobe-id-and-email-change) | Dispose d’un MAGEID qui **_n’a pas été connecté_** à un compte de connexion Adobe | Ne possède pas de MAGEID et n’est pas connecté à un compte de connexion Adobe. |
 | [Modification de l’e-mail](#email-change) | Dispose d’un MAGEID **_connecté_** avec un compte de connexion Adobe. | Dispose d’un compte de connexion Adobe, mais **_ne dispose pas d’un MAGEID_** connecté à un compte de connexion Adobe. |
-| [Changement de compte ](#adobe-id-account-switch) | Dispose d’un MAGEID **_connecté_** à un compte de connexion Adobe. | Dispose d’un MAGEID et est connecté à un compte de connexion Adobe. |
+| [Changement de compte &#x200B;](#adobe-id-account-switch) | Dispose d’un MAGEID **_connecté_** à un compte de connexion Adobe. | Dispose d’un MAGEID et est connecté à un compte de connexion Adobe. |
 
 {style="table-layout:auto"}
 
@@ -44,7 +44,7 @@ Le type de transfert de compte Commerce dépend des identifiants du compte Comme
 
 Ce type de transfert nécessite que vous disposiez d’une Adobe ID liée au compte Commerce existant, puis que vous remplaciez ce compte par l’adresse e-mail du nouveau propriétaire.
 
-1. Accédez à la page [Connexion au compte ](https://account.magento.com/customer/account/login/).
+1. Accédez à la page [Connexion au compte &#x200B;](https://account.magento.com/customer/account/login/).
 
 1. Cliquez sur **[!UICONTROL Sign in with Adobe ID]**.
 
@@ -54,7 +54,7 @@ Ce type de transfert nécessite que vous disposiez d’une Adobe ID liée au com
 
 1. Cliquez sur **[!UICONTROL Continue]**.
 
-   Cette étape permet de créer une Adobe ID et de la lier au compte Commerce courant (MAGEID). Avec ce lien de compte, le champ _[!UICONTROL Email]_est bloqué de toute modification. La configuration de l’adresse e-mail associée est gérée à partir du compte Adobe ID.
+   Cette étape permet de créer une Adobe ID et de la lier au compte Commerce courant (MAGEID). Avec ce lien de compte, le champ _[!UICONTROL Email]_&#x200B;est bloqué de toute modification. La configuration de l’adresse e-mail associée est gérée à partir du compte Adobe ID.
 
 1. Accédez à [account.adobe.com](https://account.adobe.com/).
 
@@ -172,4 +172,4 @@ Une fois que le nouveau propriétaire a configuré son compte Adobe avec l’adr
 
 ## Dernières étapes
 
-Une fois que le nouveau propriétaire a terminé les étapes du premier ou du troisième cas d’utilisation, il doit [soumettre une demande d’assistance](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case) pour informer l’équipe d’assistance de la mise à jour de l’adresse e-mail. L’équipe d’assistance effectue ensuite des tâches supplémentaires, telles que la mise à jour de l’adresse e-mail sur le profil [](https://commercemarketplace.adobe.com/). Incluez l’adresse e-mail du propriétaire du compte précédent dans la requête.
+Une fois que le nouveau propriétaire a terminé les étapes du premier ou du troisième cas d’utilisation, il doit [soumettre une demande d’assistance](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case) pour informer l’équipe d’assistance de la mise à jour de l’adresse e-mail. L’équipe d’assistance effectue ensuite des tâches supplémentaires, telles que la mise à jour de l’adresse e-mail sur le profil [&#128279;](https://commercemarketplace.adobe.com/). Incluez l’adresse e-mail du propriétaire du compte précédent dans la requête.

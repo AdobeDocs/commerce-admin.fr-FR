@@ -66,7 +66,7 @@ Le tableau suivant montre la compatibilité entre les versions d’Adobe Commerc
 >[!BEGINSHADEBOX]
 
 - Adobe a configuré votre compte Adobe Commerce pour accéder à l’extension conforme à la loi HIPAA.
-- Accédez à [repo.magento.com](https://repo.magento.com) pour installer l’extension. Pour la génération des clés et l’obtention des droits nécessaires, voir [ Obtenir vos clés d’authentification ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
+- Accédez à [repo.magento.com](https://repo.magento.com) pour installer l’extension. Pour la génération des clés et l’obtention des droits nécessaires, voir [&#x200B; Obtenir vos clés d’authentification &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
 
 >[!ENDSHADEBOX]
 
@@ -108,7 +108,7 @@ Installez la dernière version de l’extension Adobe HIPAA-Ready Services (`mag
    git push origin <branch-name>
    ```
 
-   L’envoi des mises à jour lance le processus de déploiement cloud de [](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process) pour appliquer les modifications. Vérifiez le statut du déploiement dans le [journal de déploiement](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations).
+   L’envoi des mises à jour lance le processus de déploiement cloud de [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process) pour appliquer les modifications. Vérifiez le statut du déploiement dans le [journal de déploiement](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations).
 
 ### Vérification de l’installation
 
@@ -162,7 +162,7 @@ Les journaux d’actions capturent également des événements lorsque les servi
 La grille de rapport _Journaux d’actions_ (**[!UICONTROL System]** > Journaux d’actions > Rapport) est modifiée pour s’adapter aux actions du client effectuées via l’interface utilisateur d’administration et l’API.
 
 1. Ajout de deux colonnes :
-   - ****** : affiche l’emplacement où l’action a été effectuée.
+   - **&#x200B;**&#x200B;** : affiche l’emplacement où l’action a été effectuée.
 Valeurs : `Admin UI` | `Customer UI` | `REST API` | `SOAP API` | `GraphQL API`
    - ***Type de client*** : affiche le type de client.
 Valeurs : Client | Admin | Intégration
@@ -280,15 +280,15 @@ Le tableau suivant répertorie les services Adobe Commerce disponibles pour l’
 
 | Service | Hors production | Production |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
-| [](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | Oui | Oui |
-| [ Maillage API pour Adobe Developer App Builder ](https://developer.adobe.com/graphql-mesh-gateway/) | Oui | Oui |
+| [&#128279;](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | Oui | Oui |
+| [&#x200B; Maillage API pour Adobe Developer App Builder &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/) | Oui | Oui |
 | [Exportation de données SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | Oui | Oui |
 | [Recherche en direct](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | Non | Non |
 | [Recommandations de produits](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | Non | Non |
-| [ Services de paiement ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | Non | Non |
+| [&#x200B; Services de paiement &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | Non | Non |
 | [Événements Back Office De Connexion Aux Données](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | Oui | Oui |
 | [Événements de storefront de connexion de données](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Non | Non |
-| [](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | Non | Non |
+| [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | Non | Non |
 
 ### Outils
 

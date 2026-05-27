@@ -16,7 +16,7 @@ Publier un bulletin d&#39;information régulier est considéré comme l&#39;un d
 
 >[!NOTE]
 >
->Vous pouvez ajouter des fonctionnalités en intégrant votre instance Commerce à un fournisseur de services de newsletter tiers et en ajoutant des extensions. Pour en savoir plus, voir [](../getting-started/commerce-marketplace.md).
+>Vous pouvez ajouter des fonctionnalités en intégrant votre instance Commerce à un fournisseur de services de newsletter tiers et en ajoutant des extensions. Pour en savoir plus, voir [&#128279;](../getting-started/commerce-marketplace.md).
 
 La première étape de la création de newsletters consiste à configurer les paramètres de la newsletter pour votre site. Vous pouvez demander aux clients de cliquer sur un lien de confirmation envoyé par e-mail pour confirmer l’abonnement. Cette méthode de double opt-in nécessite que les clients confirment à deux reprises qu&#39;ils souhaitent recevoir votre newsletter et réduit la possibilité qu&#39;elle soit considérée comme du spam.
 
@@ -30,7 +30,7 @@ La première étape de la création de newsletters consiste à configurer les pa
 
 1. Pour activer les newsletters pour la portée d’affichage du magasin, définissez **[!UICONTROL Enabled]** sur `Yes`.
 
-Après avoir activé la fonction de newsletter, la section _[!UICONTROL Subscription Options]_s’affiche.
+Après avoir activé la fonction de newsletter, la section _[!UICONTROL Subscription Options]_&#x200B;s’affiche.
 
 ## Configuration des options d’abonnement
 

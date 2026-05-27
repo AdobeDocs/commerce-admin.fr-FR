@@ -44,7 +44,7 @@ Adobe Commerce dispose de modèles prédéfinis pour chacun de ces e-mails, qui 
 
    - Choisissez le **[!UICONTROL Email Template]** qui avertit les propriétaires de la caisse enregistreuse de cadeaux lorsque leurs caisses enregistreuses sont créées.
 
-   - Sélectionnez le [ contact du magasin ](../getting-started/store-details.md#store-email-addresses) qui s’affiche en tant que **[!UICONTROL Email Sender]** du message.
+   - Sélectionnez le [&#x200B; contact du magasin &#x200B;](../getting-started/store-details.md#store-email-addresses) qui s’affiche en tant que **[!UICONTROL Email Sender]** du message.
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Gift Registry Sharing]** et procédez comme suit :
 

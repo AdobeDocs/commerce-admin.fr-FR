@@ -47,7 +47,7 @@ Lorsque les clients achètent les 25 produits disponibles, de nouvelles commande
 
 >[!NOTE]
 >
->Lorsqu&#39;un client passe une commande à l&#39;aide de _[!UICONTROL backorder qty]_, [!DNL Inventory Management] soustrait automatiquement la quantité de la quantité vendable. Si une commande n&#39;est pas expédiée et est annulée, la quantité revient à la quantité vendable virtuelle agrégée. La **_quantité de commande annulée n&#39;est affectée à aucune des origines_**, mais est renvoyée au nombre total de produits disponibles à la vente (colonne_[!UICONTROL Salable Quantity]_ de la grille des produits).
+>Lorsqu&#39;un client passe une commande à l&#39;aide de _[!UICONTROL backorder qty]_, [!DNL Inventory Management] soustrait automatiquement la quantité de la quantité vendable. Si une commande n&#39;est pas expédiée et est annulée, la quantité revient à la quantité vendable virtuelle agrégée. La **_quantité de commande annulée n&#39;est affectée à aucune des origines_**, mais est renvoyée au nombre total de produits disponibles à la vente (colonne&#x200B;_[!UICONTROL Salable Quantity]_ de la grille des produits).
 
 <!--
 ### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
