@@ -4,10 +4,10 @@ description: Découvrez la prise en charge de l’authentification à deux facte
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ La première fois qu’un utilisateur se connecte à l’_Admin_, il doit config
 
 >[!NOTE]
 >
->Les magasins qui ont activé l’authentification Adobe Identity Management Services (IMS) ont désactivé Adobe Commerce et Magento Open Source 2FA natifs. Les utilisateurs administrateurs connectés à leur instance Commerce avec leurs informations d’identification Adobe n’ont pas besoin de s’authentifier à nouveau pour de nombreuses tâches d’administration. L’authentification est gérée par Adobe IMS lorsque l’utilisateur administrateur se connecte à sa session en cours. Voir [Présentation de l’intégration du service Adobe Identity Management (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=fr).
+>Les magasins qui ont activé l’authentification Adobe Identity Management Services (IMS) ont désactivé Adobe Commerce et Magento Open Source 2FA natifs. Les utilisateurs administrateurs connectés à leur instance Commerce avec leurs informations d’identification Adobe n’ont pas besoin de s’authentifier à nouveau pour de nombreuses tâches d’administration. L’authentification est gérée par Adobe IMS lorsque l’utilisateur administrateur se connecte à sa session en cours. Voir [Présentation de l’intégration du service Adobe Identity Management (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 Vous pouvez regarder cette [vidéo de démonstration](https://video.tv.adobe.com/v/339104?quality=12&learn=on) pour un aperçu de l’authentification à deux facteurs dans l’interface d’administration.
 
@@ -67,11 +67,11 @@ Définissez les paramètres de chaque méthode 2FA dont vous avez besoin.
 
 Pour modifier la durée pendant laquelle le mot de passe à usage unique (OTP) est disponible lors de la connexion, décochez la case **[!UICONTROL Use system value]**. Saisissez ensuite le nombre de secondes pendant lesquelles vous souhaitez que le **[!UICONTROL OTP Window]** soit valide.
 
-![&#x200B; Configuration de la sécurité - Google &#x200B;](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
+![ Configuration de la sécurité - Google ](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Dans Adobe Commerce version 2.4.7 et ultérieure, le paramètre de configuration de la fenêtre du mot de passe à usage unique contrôle la durée (en secondes) pendant laquelle le système accepte le mot de passe à usage unique (OTP) d’un administrateur après son expiration. Cette valeur doit être inférieure à 30 secondes. Le paramètre système par défaut est `29`.<br><br> Dans la version 2.4.6, le paramètre de fenêtre OTP détermine le nombre de codes OTP passés et futurs qui restent valides. Une valeur `1` indique que le code OTP actuel plus un code dans le passé et un code dans le futur restent valides à un moment donné.
+>Dans Adobe Commerce version 2.4.7 et ultérieure, le paramètre de configuration de la fenêtre du mot de passe à usage unique contrôle la durée (en secondes) pendant laquelle le système accepte le mot de passe à usage unique (OTP) d’un administrateur après son expiration. Cette valeur doit être inférieure à 30 secondes. Le paramètre système par défaut est `29`.<br><br> Dans la version 2.4.6, le paramètre de la fenêtre OTP détermine le nombre de codes OTP passés et futurs qui restent valides. Une valeur `1` indique que le code OTP actuel plus un code dans le passé et un code dans le futur restent valides à un moment donné.
 
 ### [!DNL Duo Security]
 

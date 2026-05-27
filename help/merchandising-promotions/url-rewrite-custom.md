@@ -3,10 +3,10 @@ title: Réécritures d’URL personnalisées
 description: Découvrez comment utiliser des réécritures d’URL personnalisées pour gérer diverses redirections dans votre boutique Commerce.
 exl-id: b15054be-e463-48e6-b6c1-0a8a2141cc01
 feature: Search, Configuration
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ En cas de doute, ouvrez chaque page, puis copiez l’URL à partir de la barre d
 
 Rediriger vers :
 
-    http://www.different-website.com/page.html
+    
 
 Rediriger depuis :
 

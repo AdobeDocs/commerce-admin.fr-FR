@@ -5,7 +5,7 @@ exl-id: f2a0dc29-6d8f-4b97-a947-72659c01d0cb
 feature: Page Builder, Page Content
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1506'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Cet exercice suppose que vous avez terminé [Partie 1 : Page simple](1-simple-pa
 
 1. Développez ![Sélecteur de développement](../assets/icon-display-expand.png) la section **[!UICONTROL Content]**, puis cliquez sur **[!UICONTROL Edit with Page Builder]** ou dans la zone de prévisualisation du contenu.
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un **[!UICONTROL Row]**&#x200B;vers le haut de la scène.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un **[!UICONTROL Row]**vers le haut de la scène.
 
 1. Dans le panneau [!DNL Page Builder], développez **[!UICONTROL Add Content]** et faites glisser un espace réservé **[!UICONTROL Products]** vers la nouvelle ligne.
 
@@ -52,7 +52,7 @@ Cet exercice suppose que vous avez terminé [Partie 1 : Page simple](1-simple-pa
 
      ![Choix de l&#39;attribut category pour la condition](./assets/pb-add-content-products-settings-condition.png){width="600" zoomable="yes"}
 
-   - Renseignez la partie _[!UICONTROL Category is]..._ de la condition en cliquant sur l’icône Plus (...), puis cliquez sur l’icône _Sélecteur_ (![icône Sélecteur](../assets/icon-list-chooser.png)).
+   - Renseignez la partie _[!UICONTROL Category is]..._ de la condition en cliquant sur le bouton Plus (...) puis cliquez sur l’icône _Sélecteur_ (![icône Sélecteur](../assets/icon-list-chooser.png)).
 
      ![Définition de la condition](./assets/pb-add-content-products-settings-condition-category-is.png){width="600" zoomable="yes"}
 
@@ -80,7 +80,7 @@ Cet exercice suppose que vous avez terminé [Partie 1 : Page simple](1-simple-pa
 
 1. Dans le coin supérieur droit de la scène, cliquez sur l’icône _Fermer le plein écran_ ( ![Icône Fermer le plein écran](./assets/pb-icon-reduce.png){width="20"} ).
 
-   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_&#x200B;de la page dont l’aperçu est affiché.
+   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_de la page dont l’aperçu est affiché.
 
 1. Dans le coin supérieur droit, cliquez sur la flèche **[!UICONTROL Save]** et choisissez **[!UICONTROL Save & Close]**.
 
@@ -104,7 +104,7 @@ Dans cette partie de l’exercice, vous découvrirez à quel point il est facile
 
    Si la description du produit a été saisie précédemment sans [!DNL Page Builder], la description actuelle s’affiche sous la forme d’HTML dans un conteneur [Code HTML](html-code.md). Avec le thème Luma , la description du produit s’affiche dans l’onglet Détail .
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un **[!UICONTROL Row]**&#x200B;vers la scène, en le plaçant sous le conteneur de code HTML.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un **[!UICONTROL Row]**vers la scène, en le plaçant sous le conteneur de code HTML.
 
    Recherchez l&#39;indicateur rouge qui doit apparaître lorsque la ligne se trouve à la bonne position.
 
@@ -112,19 +112,19 @@ Dans cette partie de l’exercice, vous découvrirez à quel point il est facile
 
 1. Dans le panneau [!DNL Page Builder], développez **[!UICONTROL Media]** et faites glisser un espace réservé **[!UICONTROL Video]** vers la nouvelle ligne.
 
-   ![&#x200B; Espace réservé de la vidéo dans la ligne &#x200B;](./assets/tutorial3-product-drag-video.png){width="600" zoomable="yes"}
+   ![ Espace réservé de la vidéo dans la ligne ](./assets/tutorial3-product-drag-video.png){width="600" zoomable="yes"}
 
 1. Pointez sur le conteneur vidéo vide pour afficher la boîte à outils et sélectionnez l’icône _Paramètres_ ( ![icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-   ![&#x200B; Boîte à outils vidéo &#x200B;](./assets/pb-tutorial3-product-video-toolbox.png){width="500" zoomable="yes"}
+   ![ Boîte à outils vidéo ](./assets/pb-tutorial3-product-video-toolbox.png){width="500" zoomable="yes"}
 
 1. Saisissez le **[!UICONTROL Video URL]**.
 
-   La vidéo peut être hébergée sur [YouTube](https://www.youtube.com/) ou [Vimeo](https://vimeo.com/). La vidéo de cet exemple se trouve sur YouTube à l’adresse URL suivante :
+   La vidéo peut être hébergée sur [](https://www.youtube.com/) ou [Vimeo](https://vimeo.com/). La vidéo de cet exemple se trouve sur YouTube à l’adresse URL suivante :
 
    `https://www.youtube.com/watch?v=ZpFrNyD4100`
 
-   ![&#x200B; Modification de la vidéo &#x200B;](./assets/pb-tutorial3-product-edit-video.png){width="500" zoomable="yes"}
+   ![ Modification de la vidéo ](./assets/pb-tutorial3-product-edit-video.png){width="500" zoomable="yes"}
 
 1. Saisissez le **[!UICONTROL Maximum Width]** en pixels de l’affichage vidéo.
 
@@ -136,7 +136,7 @@ Dans cette partie de l’exercice, vous découvrirez à quel point il est facile
 
 1. Dans le coin supérieur droit de la scène, cliquez sur l’icône _Fermer le plein écran_ ( ![Icône Fermer le plein écran](./assets/pb-icon-reduce.png){width="20"} ).
 
-   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_&#x200B;de la page dont l’aperçu est affiché.
+   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_de la page dont l’aperçu est affiché.
 
 1. Dans le coin supérieur droit, cliquez sur la flèche **[!UICONTROL Save]** et choisissez **[!UICONTROL Save & Close]**.
 
@@ -160,17 +160,17 @@ Pour éviter toute modification de votre boutique en ligne, créez un produit à
 
 1. Créez le produit avec les propriétés suivantes :
 
-   - &#x200B;
+   - 
      [!UICONTROL Jeu D&#39;Attributs]: Default
    - [!UICONTROL Product Name] : Mon produit
-   - &#x200B;
+   - 
      [!UICONTROL SKU]: Tutorial
-   - &#x200B;
+   - 
      [!UICONTROL Price]: 75.00
-   - &#x200B;
+   - 
      [!UICONTROL Quantity]: 100
    - [!UICONTROL Stock Status] : en stock
-   - &#x200B;
+   - 
      [!UICONTROL Weight]: 1
    - [!UICONTROL Categories] : Femmes > Tops > Tees
 
@@ -192,27 +192,27 @@ Au cours de cette étape, vous créez deux nouveaux attributs personnalisés pou
 
    Lors de la création d’un attribut personnalisé, vous pouvez spécifier l’éditeur le plus adapté à l’application comme `Page Builder` ou `Text Editor` WYSIWYG standard.
 
-   Type d’entrée ![[!DNL Page Builder]](./assets/pb-attribute-page-builder.png){width="600" zoomable="yes"}
+   Type d’entrée ](./assets/pb-attribute-page-builder.png){width="600" zoomable="yes"}![[!DNL Page Builder]
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Advanced Attribute Properties]** et définissez les paramètres suivants :
 
    - [!UICONTROL Attribute Code] : saisissez un code d’attribut en minuscules, en utilisant des tirets au lieu d’espaces. Pour cet exemple, utilisez `my_page_builder_attribute`.
    - [!UICONTROL Scope] : acceptez la valeur par défaut, `Store View`.
    - [!UICONTROL Default Value] : saisissez une valeur par défaut pour l’attribut.
-   - &#x200B;
+   - 
      [!UICONTROL Unique Value]: `No`
-   - &#x200B;
+   - 
      [!UICONTROL Add to Column Options]: `No`
-   - &#x200B;
+   - 
      [!UICONTROL Use in Filter Options]: `Yes`
 
-1. Dans le panneau _[!UICONTROL Attribute Information]_&#x200B;à gauche, choisissez **[!UICONTROL Storefront Properties]**&#x200B;et effectuez les paramètres suivants :
+1. Dans le panneau _[!UICONTROL Attribute Information]_à gauche, choisissez **[!UICONTROL Storefront Properties]**et effectuez les paramètres suivants :
 
-   - &#x200B;
+   - 
      [!UICONTROL Use for Promo Rule Conditions]: `Yes`
-   - &#x200B;
+   - 
      [!UICONTROL Visible on Catalog Pages on Storefront]: `Yes`
-   - &#x200B;
+   - 
      [!UICONTROL Used in Product Listing]: `Yes`
 
 1. Cliquez ensuite sur **[!UICONTROL Save Attribute]**.
@@ -221,7 +221,7 @@ Au cours de cette étape, vous créez deux nouveaux attributs personnalisés pou
 
    - [!UICONTROL Default Label] : Mon attribut d’éditeur de texte
    - [!UICONTROL Catalog Input Type for Store Owner] : éditeur de texte
-   - &#x200B;
+   - 
      [!UICONTROL Code d&#39;attribut]: `my_text_editor_attribute`
 
 ### Étape 3 : mettre à jour le jeu d’attributs de produit
@@ -234,7 +234,7 @@ Au cours de cette étape, vous créez deux nouveaux attributs personnalisés pou
    >
    >Si vous ne souhaitez pas modifier votre boutique en direct, vous pouvez suivre sans mettre à jour le jeu d’attributs.
 
-1. Recherchez le jeu d’attributs _[!UICONTROL Default]_&#x200B;dans la liste et double-cliquez dessus pour l’ouvrir en mode d’édition.
+1. Recherchez le jeu d’attributs _[!UICONTROL Default]_dans la liste et double-cliquez dessus pour l’ouvrir en mode d’édition.
 
 1. Dans la liste _Attributs non affectés_, recherchez les nouveaux attributs que vous avez créés et faites glisser chacun d’eux vers la colonne _[!UICONTROL Groups]_, sous **[!UICONTROL Content]**.
 
@@ -256,7 +256,7 @@ Au cours de cette étape, vous créez deux nouveaux attributs personnalisés pou
 
    En haut de la section, vous trouverez deux attributs standard pour le contenu du produit :
 
-   - _Description courte_, qui utilise l’éditeur [&#x200B; WYSIWYG standard](../content-design/editor.md).
+   - _Description courte_, qui utilise l’éditeur [ WYSIWYG standard](../content-design/editor.md).
    - _Description_, qui affiche l’aperçu [!DNL Page Builder].
 
    ![Contenu du produit](./assets/pb-product-content-edit-with-page-builder.png){width="600" zoomable="yes"}
