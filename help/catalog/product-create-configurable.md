@@ -5,7 +5,7 @@ exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
 source-git-commit: 6fcbcd3b7cace10f0841a46b3cd27343862b3f3b
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '1994'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Un produit configurable s’affiche en tant que produit unique avec des options de liste déroulante pour des variations (comme la couleur ou la taille). Chaque variation est un produit simple distinct avec son propre SKU, ce qui permet un suivi d’inventaire individuel, contrairement aux produits simples avec des options personnalisées.
 
-**Idéal pour :** produits avec plusieurs options (couleur, taille, matériau, etc.) où vous devez effectuer le suivi des stocks pour chaque variation. La configuration initiale prend plus de temps, mais offre une meilleure évolutivité.
+**Idéal pour :** produits avec plusieurs options (couleur, taille, matériau, etc.) où vous devez effectuer le suivi de l’inventaire pour chaque variation. La configuration initiale prend plus de temps, mais offre une meilleure évolutivité.
 
 ![Produit configurable](./assets/product-configurable.png){width="700" zoomable="yes"}
 
@@ -150,9 +150,9 @@ Les étapes suivantes indiquent comment ajouter des configurations pour plusieur
 
 ### Étape 6 : sélection des attributs de variation
 
-1. Faites défiler jusqu’à la section _[!UICONTROL Configurations]_&#x200B;et cliquez sur **[!UICONTROL Create Configurations]**.
+1. Faites défiler jusqu’à la section _[!UICONTROL Configurations]_et cliquez sur **[!UICONTROL Create Configurations]**.
 
-   ![Configurations &#x200B;](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
+   ![Configurations ](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
 1. Cochez la case de chaque attribut à inclure en tant que variation.
 
@@ -254,7 +254,7 @@ _Marchands Source uniques :_
 
 Saisissez le **[!UICONTROL Quantity]**.
 
-_Marchands Multi Source utilisant [Inventory management &#x200B;](../inventory-management/introduction.md):_
+_Marchands Multi Source utilisant [Inventory management ](../inventory-management/introduction.md):_
 
 Affectez des sources et ajoutez des quantités pour toutes les variantes de produit générées :
 
@@ -274,7 +274,7 @@ _Marchands Source uniques :_
 
 Saisissez le **[!UICONTROL Quantity]** de chaque valeur d’attribut.
 
-_Marchands Multi Source utilisant [Inventory management &#x200B;](../inventory-management/introduction.md):_
+_Marchands Multi Source utilisant [Inventory management ](../inventory-management/introduction.md):_
 
 Affectez des sources et ajoutez des quantités pour toutes les variantes de produit générées :
 
@@ -306,7 +306,7 @@ Les variations actuelles du produit s’affichent au bas de la section _Configur
 
 1. Cliquez sur la mosaïque _Appareil photo_ et accédez à l’image principale à utiliser pour le produit configurable.
 
-Pour plus d’informations, voir [&#x200B; Images et vidéo &#x200B;](product-images-and-video.md).
+Pour plus d’informations, voir [ Images et vidéo ](product-images-and-video.md).
 
 ### Étape 11 : Compléter les informations sur le produit
 
@@ -378,7 +378,7 @@ Lorsque vous définissez manuellement le statut du stock de produit configurable
 
 >[!NOTE]
 >
->Les stocks et sources personnalisés font partie de l’extension [Inventory management](../inventory-management/sources-stocks.md). Il est vivement recommandé d’utiliser cet outil exclusivement pour gérer le stock et la source. Les fonctions source et stock par défaut font partie du module `CatalogInventory`, qui est désormais obsolète.
+>Les stocks et sources personnalisés font partie de l’extension [](../inventory-management/sources-stocks.md). Il est vivement recommandé d’utiliser cet outil exclusivement pour gérer le stock et la source. Les fonctions source et stock par défaut font partie du module `CatalogInventory`, qui est désormais obsolète.
 
 ### Modifications manuelles du statut du stock
 
