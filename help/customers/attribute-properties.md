@@ -171,4 +171,4 @@ Les attributs du client fournissent les informations requises pour prendre en ch
 
 Pour une démonstration de la création d’attributs du client, regardez cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410184?captions=fre_fr&quality=12&learn=on)
