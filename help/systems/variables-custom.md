@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Pour répondre aux besoins spécifiques de votre entreprise, vous pouvez créer des variables personnalisées et les insérer dans des [pages](../content-design/pages.md), [blocs](../content-design/blocks.md) et [modèles d’e-mail](email-templates.md). La liste des variables autorisées qui s’affiche lorsque vous cliquez sur le bouton _Insérer une variable_ comprend à la fois des variables [prédéfinies](variables-predefined.md) et des variables personnalisées. La liste des variables disponibles pour un modèle d’e-mail spécifique est déterminée par les données associées au modèle. Consultez la [Référence de variable](variables-reference.md) pour obtenir une liste des modèles d’e-mail fréquemment utilisés et des variables associées.
 
-![Variables personnalisées ](./assets/variables-custom.png){width="600" zoomable="yes"}
+![Variables personnalisées &#x200B;](./assets/variables-custom.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Pour répondre aux besoins spécifiques de votre entreprise, vous pouvez créer 
    >
    >Si vous avez besoin de plus d’espace, faites glisser le coin inférieur droit de la zone de texte.
 
-   ![Nouvelle variable personnalisée ](./assets/variable-custom-add.png){width="600" zoomable="yes"}
+   ![Nouvelle variable personnalisée &#x200B;](./assets/variable-custom-add.png){width="600" zoomable="yes"}
 
 1. Cliquez ensuite sur **[!UICONTROL Save]**.
 
@@ -73,7 +73,7 @@ Utilisez [!DNL Page Builder] pour insérer une variable personnalisée.
 
 1. Dans la liste, sélectionnez la variable personnalisée à insérer, puis cliquez sur **[!UICONTROL Insert Variable]**.
 
-   ![Nouvelle variable personnalisée ](./assets/variable-custom-insert-select.png){width="600" zoomable="yes"}
+   ![Nouvelle variable personnalisée &#x200B;](./assets/variable-custom-insert-select.png){width="600" zoomable="yes"}
 
    L’identifiant de variable apparaît comme espace réservé dans l’éditeur.
 

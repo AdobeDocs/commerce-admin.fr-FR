@@ -27,11 +27,11 @@ Les variables [prédéfinies](variables-predefined.md) facilitent la personnalis
 
    - Pour utiliser la variable dans un nouveau modèle, cliquez sur **[!UICONTROL Add New Template]** et personnalisez le code du modèle par défaut. Voir [Modèles de message](email-template-custom.md#message-templates).
 
-1. Sous _[!UICONTROL Load default template]_, choisissez les **[!UICONTROL Template]**à personnaliser.
+1. Sous _[!UICONTROL Load default template]_, choisissez les **[!UICONTROL Template]**&#x200B;à personnaliser.
 
 1. Pour appliquer un modèle, cliquez sur **[!UICONTROL Load Template]**.
 
-   Le champ _[!UICONTROL Currently used for]_affiche le chemin de configuration du modèle. Les_[!UICONTROL Template Subject]_ et _[!UICONTROL Template Content]_sont automatiquement générés par rapport au modèle sélectionné.
+   Le champ _[!UICONTROL Currently used for]_&#x200B;affiche le chemin de configuration du modèle. Les&#x200B;_[!UICONTROL Template Subject]_ et _[!UICONTROL Template Content]_&#x200B;sont automatiquement générés par rapport au modèle sélectionné.
 
    - **[!UICONTROL Template Subject]** - Ce texte est affiché dans l’objet d’un e-mail.
 
