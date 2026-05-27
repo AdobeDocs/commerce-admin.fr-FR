@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Le module [!DNL Inventory Management] prend en charge les paramètres de configuration de l&#39;inventaire au niveau du produit et au niveau global et fournit également des paramètres supplémentaires qui affectent la disponibilité de la source, les produits du storefront et l&#39;expédition des commandes. Les paramètres de configuration s’appliquent aux éléments suivants :
 
-- L&#39;ensemble du catalogue : Accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**. Ensuite, développez **[!UICONTROL Catalog]**dans le panneau de gauche et sélectionnez **[!UICONTROL Inventory]**.
+- L&#39;ensemble du catalogue : Accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**. Ensuite, développez **[!UICONTROL Catalog]**&#x200B;dans le panneau de gauche et sélectionnez **[!UICONTROL Inventory]**.
 
 - Produits spécifiques : Accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Products]**. Ouvrez ensuite le produit en mode d’édition et cliquez sur **[!UICONTROL Advanced Inventory]** dans la section _[!UICONTROL Sources]_.
 
@@ -46,13 +46,13 @@ Les magasins et produits [!DNL Commerce] prennent en charge les configurations s
 
 ## Restauration et héritage de la configuration
 
-Les configurations remplacent ou s’appliquent dans le chemin d’accès suivant de l’héritage : la section _[!UICONTROL Sources]_du produit remplace la configuration globale du magasin de_[!UICONTROL Inventory]_ de produit _[!UICONTROL Advanced Options]_remplace la configuration globale du magasin de produits.
+Les configurations remplacent ou s’appliquent dans le chemin d’accès suivant de l’héritage : la section _[!UICONTROL Sources]_&#x200B;du produit remplace la configuration globale du magasin de&#x200B;_[!UICONTROL Inventory]_ de produit _[!UICONTROL Advanced Options]_&#x200B;remplace la configuration globale du magasin de produits.
 
 Lorsque [!DNL Commerce] vérifie les paramètres personnalisés à appliquer, l’ordre suit :
 
 1. Recherche les paramètres personnalisés au niveau du produit dans la section _[!UICONTROL Sources]_. Quelques paramètres sont disponibles.
 
-1. Vérifie les paramètres de _[!UICONTROL Advanced Inventory]_du produit.
+1. Vérifie les paramètres de _[!UICONTROL Advanced Inventory]_&#x200B;du produit.
 
 1. Si `Use Config Settings` est sélectionné pour les paramètres du produit, il vérifie une valeur de la page de configuration de magasin globale _Inventaire_.
 
