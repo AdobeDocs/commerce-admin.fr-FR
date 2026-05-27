@@ -91,4 +91,4 @@ La grille de page _Appliquer le modèle_ et la grille de page _Modèles_ offrent
 
 Regardez cette vidéo pour en savoir plus sur les modèles de contenu Page Builder :
 
->[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410842?captions=fre_fr&quality=12&learn=on)
