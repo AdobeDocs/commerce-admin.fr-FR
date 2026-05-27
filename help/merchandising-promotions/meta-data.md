@@ -98,4 +98,4 @@ Vous pouvez éviter d’être pénalisé par les moteurs de recherche en omettan
 
 Regardez cette vidéo pour en savoir plus sur la gestion des métadonnées d’optimisation du moteur de recherche :
 
->[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410174?captions=fre_fr&quality=12&learn=on)
