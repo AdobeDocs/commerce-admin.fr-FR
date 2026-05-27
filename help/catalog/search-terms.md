@@ -5,7 +5,7 @@ exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
 source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Au fur et à mesure que vous apprenez de nouveaux mots que les utilisateurs util
 
    ![Informations générales sur les termes de recherche](./assets/search-terms-information.png){width="600" zoomable="yes"}
 
-1. Sous _[!UICONTROL General Information]_&#x200B;dans la zone de **[!UICONTROL Search Query]**, saisissez le mot ou l’expression à ajouter en tant que nouveau terme de recherche.
+1. Sous _[!UICONTROL General Information]_dans la zone de **[!UICONTROL Search Query]**, saisissez le mot ou l’expression à ajouter en tant que nouveau terme de recherche.
 
 1. Si votre boutique est disponible dans plusieurs langues, choisissez la vue de **[!UICONTROL Store]** applicable.
 
@@ -96,7 +96,7 @@ Par défaut, Termes de recherche populaires est activé en tant qu’outil d’o
 
 ![Exemple de storefront - termes de recherche populaires](./assets/store-front-search-terms-yoga-pants.png){width="600" zoomable="yes"}
 
-**_Pour configurer des termes de recherche populaires, procédez comme suit_**
+**_Pour configurer des termes de recherche populaires:_**
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -124,7 +124,7 @@ L’une des manières d’améliorer l’efficacité de la [recherche catalogue]
 
 Adobe Commerce prend en charge deux solutions de gestion des synonymes différentes :
 
-- La fonctionnalité Live Search [Synonymes](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html?lang=fr) est disponible pour les installations d’Adobe Commerce sur lesquelles Live Search est installé.
+- La fonctionnalité Live Search [Synonymes](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html) est disponible pour les installations d’Adobe Commerce sur lesquelles Live Search est installé.
 - La fonctionnalité standard Synonymes de recherche (décrite dans cette page) est disponible par défaut pour toutes les installations d’Adobe Commerce.
 
 >[!NOTE]
@@ -141,7 +141,7 @@ Adobe Commerce prend en charge deux solutions de gestion des synonymes différen
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Synonyms]**.
 
-   La grille de _[!UICONTROL Search Synonyms]_&#x200B;s’affiche. Si c’est la première fois que vous utilisez des synonymes de recherche, la grille est vide.
+   La grille de _[!UICONTROL Search Synonyms]_s’affiche. Si c’est la première fois que vous utilisez des synonymes de recherche, la grille est vide.
 
    ![Grille des synonymes de recherche](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 

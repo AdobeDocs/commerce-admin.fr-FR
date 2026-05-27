@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
-description: Vérifiez les paramètres de configuration sur la page de [!UICONTROL Sales] d’[!UICONTROL Google API] &gt; de l’administrateur Commerce.
+title: '[!UICONTROL Sales] > [!UICONTROL Google API]'
+description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Google API] de [!UICONTROL Sales] &gt ; de l’administrateur Commerce.
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
 source-git-commit: 5ee52e8d4f2ebb8fc28f13cca53e87c3529f76d3
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 ## [!UICONTROL Google Analytics]
 
-![Google Analytics](./assets/google-api-analytics-ee.png)<!-- zoom -->
+![](./assets/google-api-analytics-ee.png)<!-- zoom -->
 
-<!-- [Google Analytics](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | ----- | ------------------------------------------ | ----------- |
 | [!UICONTROL Enable] | Affichage de la boutique | Active l’[!DNL Google Analytics] pour votre boutique. Options : `Yes` / `No` |
-| [!UICONTROL Account Type] | Affichage de la boutique | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Détermine les options de configuration en fonction de votre type de compte Google Analytics. Options : Universal Analytics (par défaut) / Google Tag Manager |
+| [!UICONTROL Account Type] | Affichage de la boutique | ![](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Détermine les options de configuration en fonction de votre type de compte Google Analytics. Options : Universal Analytics (par défaut) / Google Tag Manager |
 | [!UICONTROL Account Number] | Affichage de la boutique | Numéro de compte, ou code de suivi, attribué lors de la création de votre compte [!DNL Google Analytics]. |
 | [!UICONTROL Anonymize IP] | Affichage de la boutique | Détermine si les informations d’identification sont supprimées des adresses IP qui apparaissent dans les résultats [!DNL Google Analytics]. |
 
@@ -53,7 +53,7 @@ Lorsque **[!UICONTROL Account Type]** est défini sur `Google Tag Manager`, d’
 
 ![Google AdWords](./assets/google-api-google-adwords.png)<!-- zoom -->
 
-<!-- [Google AdWords](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- [Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | ----- | ------------------------------------------ | ----------- |
@@ -77,12 +77,12 @@ Lorsque **[!UICONTROL Account Type]** est défini sur `Google Tag Manager`, d’
 
 ![Google Analytics4](./assets/google-api-gtag-google-analytics4.png)<!-- zoom -->
 
-<!-- [Google Analytics4](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics4](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | ----- | ------------------------------------------ | ----------- |
 | [!UICONTROL Enable] | Affichage de la boutique | Active Google Analytics 4 pour votre boutique. Options : `Yes` / `No` |
-| [!UICONTROL Account Type] | Affichage de la boutique | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Détermine les options de configuration en fonction de votre type de compte Google Analytics. Options : `Google Analytics4` (par défaut) / `Google Tag Manager` |
+| [!UICONTROL Account Type] | Affichage de la boutique | ![](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Détermine les options de configuration en fonction de votre type de compte Google Analytics. Options : `Google Analytics4` (par défaut) / `Google Tag Manager` |
 | [!UICONTROL Measurement ID] | Affichage de la boutique | Numéro de compte, ou code de suivi, attribué lors de la création de votre compte Google Analytics. |
 | [!UICONTROL Anonymize IP] | Affichage de la boutique | Détermine si les informations d’identification sont supprimées des adresses IP qui apparaissent dans les résultats de Google Analytics. |
 
@@ -112,7 +112,7 @@ Lorsque **[!UICONTROL Account Type]** est défini sur `Google Tag Manager`, d’
 
 ![Google AdWords](./assets/google-api-gtag-google-adwords.png)<!-- zoom -->
 
-<!-- -- Google AdWords](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- -- Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | ----- | ------------------------------------------ | ----------- |

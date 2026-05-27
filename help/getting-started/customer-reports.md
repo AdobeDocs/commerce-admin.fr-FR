@@ -5,7 +5,7 @@ exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
 source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '903'
 ht-degree: 2%
 
 ---
@@ -84,7 +84,7 @@ La [!UICONTROL New Accounts Report] affiche le nombre de nouveaux comptes client
 
 Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
 
-![&#x200B; Rapport Nouveaux Comptes &#x200B;](./assets/customers-new-accounts.png){width="600"}
+![ Rapport Nouveaux Comptes ](./assets/customers-new-accounts.png){width="600"}
 
 ### Contrôles Workspace
 
@@ -109,9 +109,9 @@ Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICON
 
 ## [!UICONTROL Customer Wish List Report]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement)
+![](../assets/adobe-logo.svg) (Adobe Commerce uniquement)
 
 Le [!UICONTROL Customer Wish List Report] fournit des informations sur les listes de souhaits des clients.
 
@@ -151,13 +151,13 @@ Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICON
 
 ## [!UICONTROL Customer Segment Report]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement)
+![](../assets/adobe-logo.svg) (Adobe Commerce uniquement)
 
 Le [!UICONTROL Customer Segment Report] fournit des informations sur le nombre de clients dans chaque segment.
 
 Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
 
-![&#x200B; Rapport Segments &#x200B;](./assets/customers-segments.png){width="600"}
+![ Rapport Segments ](./assets/customers-segments.png){width="600"}
 
 ### Contrôles Workspace
 

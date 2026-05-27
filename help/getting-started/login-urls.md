@@ -6,7 +6,7 @@ feature: System
 role: Admin, Leader
 source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ L’adresse de votre boutique [Admin](admin.md) est configurée lors de l’inst
 
 ## compte [!DNL Commerce]
 
-Votre compte [Commerce](commerce-account-create.md) permet d&#39;accéder à des informations sur vos produits et services, les paramètres de votre compte, l&#39;historique de facturation et les ressources d&#39;assistance. Pour accéder à votre compte, accédez au site Commerce principal et cliquez sur **[!UICONTROL My Account]** dans le coin supérieur droit.
+Votre compte [](commerce-account-create.md) permet d&#39;accéder à des informations sur vos produits et services, les paramètres de votre compte, l&#39;historique de facturation et les ressources d&#39;assistance. Pour accéder à votre compte, accédez au site Commerce principal et cliquez sur **[!UICONTROL My Account]** dans le coin supérieur droit.
 
 ## Compte client
 
@@ -42,6 +42,6 @@ Pendant que vous vous familiarisez avec le magasin, veillez à configurer un [co
 
 ## Données d’exemple
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
-Adobe fournit un jeu de données d’exemple qui comprend un magasin d’exemple avec plus de 250 produits (dont environ 200 sont des produits configurables), des catégories, des règles de prix promotionnels, des pages CMS, des bannières, etc. Les exemples de données utilisent le thème _Luma_ sur le storefront. [L’installation de ces exemples de données](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=fr) est facultative, mais peut s’avérer utile pour tester et développer des personnalisations pour votre entreprise d’e-commerce.
+Adobe fournit un jeu de données d’exemple qui comprend un magasin d’exemple avec plus de 250 produits (dont environ 200 sont des produits configurables), des catégories, des règles de prix promotionnels, des pages CMS, des bannières, etc. Les exemples de données utilisent le thème _Luma_ sur le storefront. [L’installation de ces exemples de données](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html) est facultative, mais peut s’avérer utile pour tester et développer des personnalisations pour votre entreprise d’e-commerce.

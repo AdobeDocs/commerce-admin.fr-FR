@@ -5,7 +5,7 @@ exl-id: b9fff131-bea3-4d7a-bbf7-e98b284387d3
 feature: Compliance
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ L&#39;industrie des cartes de paiement (PCI) a établi un ensemble d&#39;exigenc
 
 ![case à cocher](../assets/checkbox.png) - Conservez une politique relative à la sécurité des informations.
 
-Pour en savoir plus, voir [Approche Adobe de la conformité PCI](https://business.adobe.com/fr/products/magento/pci-compliance.html){:target="_blank"}.
+Pour en savoir plus, voir [Approche Adobe de la conformité PCI](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}.
 
 >[!NOTE]
 >

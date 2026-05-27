@@ -1,6 +1,6 @@
 ---
-title: Ajout d’une fiche d’inventaire
-description: Découvrez comment ajouter un stock et mapper des sources aux canaux de vente (sites web), en fournissant un lien direct vers les quantités vendables et les inventaires de produits.
+title: Ajouter un stock
+description: Découvrez comment ajouter un stock et mapper des sources aux canaux de vente (sites web), en fournissant un lien direct vers les quantités à vendre et les inventaires de produits.
 exl-id: d0032ed7-c0d6-4654-b182-43a165e7dcf6
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
@@ -11,59 +11,59 @@ ht-degree: 0%
 
 # Ajouter un stock
 
-Les stocks mappent vos sources aux canaux de vente (ou sites web), fournissant un lien direct vers les quantités et les stocks de produits vendables.
+Les stocks mappent vos sources aux canaux de vente (ou sites web), fournissant un lien direct aux quantités à vendre et aux inventaires de produits.
 
-Lors de la création d’un stock personnalisé, vous attribuez des sites web et des sources. Les sources peuvent inclure des sources activées et désactivées. Par exemple, vous pouvez ajouter un entrepôt à votre stock, en vous préparant à ouvrir l’emplacement de gestion du stock et de réalisation des envois.
+Lors de la création d’un stock personnalisé, vous affectez des sites web et des sources. Les sources peuvent inclure des sources activées et désactivées. Par exemple, vous pouvez ajouter un entrepôt à votre stock, vous préparer à ouvrir l&#39;emplacement pour gérer les stocks et terminer les expéditions.
 
-Après avoir ajouté des sources, vous devez donner la priorité à l’ordre des sources du haut (d’abord) vers le bas (d’abord). Cette commande affecte les recommandations lors de l’expédition de la commande.
+Après avoir ajouté des sources, vous devez donner la priorité à l’ordre des sources, du haut (premier) au bas (dernier). Cette commande affecte les recommandations lors de l&#39;expédition de la commande.
 
-![New Stock](assets/inventory-stock-new.png){width="600" zoomable="yes"}
+![Nouveau stock](assets/inventory-stock-new.png){width="600" zoomable="yes"}
 
-## Ajouter le stock
+## Ajouter le stock d’inventaire
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stock]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stock]**.
 
 1. Cliquez sur **[!UICONTROL Add New Stock]**.
 
-1. Développez la section ![Sélecteur d&#39;extension](../assets/icon-display-expand.png) et saisissez un **[!UICONTROL Name]** unique pour identifier le nouveau stock.**[!UICONTROL General]**
+1. Développez ![Sélecteur de développement](../assets/icon-display-expand.png) la section **[!UICONTROL General]** et saisissez un **[!UICONTROL Name]** unique pour identifier le nouveau stock.
 
-   ![Options de stock générales](assets/inventory-stock-general.png){width="350" zoomable="yes"}
+   ![Options générales sur actions](assets/inventory-stock-general.png){width="350" zoomable="yes"}
 
-1. Développez la section ![Sélecteur d&#39;extension](../assets/icon-display-expand.png) et sélectionnez l&#39;élément **[!UICONTROL Websites]** où ce stock est disponible.**[!UICONTROL Sales Channels]**
+1. Développez ![Sélecteur de développement](../assets/icon-display-expand.png) la section **[!UICONTROL Sales Channels]** et sélectionnez le **[!UICONTROL Websites]** où ce stock est disponible.
 
-   Pour une installation multi-site, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée, puis cliquez sur chaque site web.
+   Pour une installation multisite, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque site Web.
 
    >[!NOTE]
    >
-   >Si vous sélectionnez un site web ou un canal de vente affecté à un autre stock, il n’est pas attribué à partir de ce stock. Tous les Sales Channel non affectés à un stock personnalisé sont affectés au stock par défaut.
+   >Si vous sélectionnez un site web ou un canal de vente affecté à un autre stock, l’affectation de ce stock est annulée. Tous les canaux de vente qui ne sont pas affectés à un stock personnalisé sont affectés au stock par défaut.
 
-   ![Options Sales Channel pour les stocks](assets/inventory-sales-channel.png){width="350" zoomable="yes"}
+   ![Options des canaux de vente pour les stocks](assets/inventory-sales-channel.png){width="350" zoomable="yes"}
 
-1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) et procédez comme suit pour tout autre stock que le stock par défaut :**[!UICONTROL Sources]**
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Sources]** et procédez comme suit pour tout stock autre que le stock par défaut :
 
    - Cliquez sur **[!UICONTROL Assign Sources]**.
 
-   ![Sources attribuées](assets/inventory-stock-sources.png){width="350" zoomable="yes"}
+   ![Sources affectées](assets/inventory-stock-sources.png){width="350" zoomable="yes"}
 
    - Cochez les cases correspondant à toutes les sources que vous souhaitez affecter au stock.
 
    >[!IMPORTANT]
    >
-   >Si vous attribuez la même source à plusieurs stocks, cela peut entraîner une vente excessive des produits affectés à cette source.
+   >Si vous affectez la même source à plusieurs stocks, cela peut entraîner une survente des produits affectés à cette source.
 
    - Cliquez sur **[!UICONTROL Done]**.
 
      Les sources ajoutées s’affichent dans Sources affectées.
 
-     ![Attribuer des sources à Stock](assets/inventory-assign-sources.png){width="600" zoomable="yes"}
+     ![Affecter des sources au stock](assets/inventory-assign-sources.png){width="600" zoomable="yes"}
 
-1. Utilisez ![Icône Tri](assets/icon-sort.png) pour faire glisser les sources dans une priorité allant du haut (premier) au bas (dernier).
+1. Utilisez l’icône ![Trier](assets/icon-sort.png) pour faire glisser les sources et les déposer dans une priorité allant du haut (première) au bas (dernière).
 
-   La commande source est importante lors des commandes d’expédition.
+   La commande source est importante lors de l&#39;expédition des commandes.
 
-   ![Exemple de sources attribuées](assets/inventory-stock-priority-after.png){width="600" zoomable="yes"}
+   ![Exemple de sources affectées](assets/inventory-stock-priority-after.png){width="600" zoomable="yes"}
 
-1. Dans le menu _[!UICONTROL Save]_(![Flèche de menu](../assets/icon-menu-down-arrow-red.png)), choisissez **[!UICONTROL Save & Close]**.
+1. Dans le menu _[!UICONTROL Save]_(![flèche du menu](../assets/icon-menu-down-arrow-red.png)), choisissez **[!UICONTROL Save & Close]**.
 
 ## Descriptions des champs
 
@@ -72,7 +72,7 @@ Après avoir ajouté des sources, vous devez donner la priorité à l’ordre de
 | **[!UICONTROL General]** | |
 | [!UICONTROL Name] | Nom du stock. Par exemple : `UK Stock`, `US Stock` |
 | **[!UICONTROL Sales Channels]** | |
-| [!UICONTROL Websites] | Définit la [portée](../getting-started/websites-stores-views.md#scope-settings) du stock en attribuant le stock à des sites web spécifiques sous la forme de _canaux de vente_. Sélectionnez un ou plusieurs sites web par stock. Chaque site web ne peut être affecté qu’à un seul stock. |
+| [!UICONTROL Websites] | Définit la [portée](../getting-started/websites-stores-views.md#scope-settings) du stock en affectant le stock à des sites web spécifiques en tant que _canaux de vente_. Sélectionnez un ou plusieurs sites web par stock. Chaque site web ne peut être affecté qu&#39;à un seul stock. |
 | **[!UICONTROL Sources]** | |
-| [!UICONTROL Assign Sources] | Attribue des sources d’inventaire à ce stock. Les sources personnalisées ne peuvent pas être affectées au stock par défaut. |
-| [!UICONTROL Assigned Sources] | Liste des sources affectées. Faites glisser et déposez les sources à l’aide de ![Icône Tri](assets/icon-sort.png) dans un ordre de priorité pour l’exécution et l’expédition des commandes.<br/><br/>**[!UICONTROL Code]**- ID de code unique de la source.<br/>**[!UICONTROL Name]** - Nom de la description de la source.<br/>**[!UICONTROL Unassign]**- Supprimez la source affectée du stock à l’aide de l’icône ![Corbeille](../assets/icon-delete-trashcan-solid.png). |
+| [!UICONTROL Assign Sources] | Attribue des origines de stock à ce stock. Les sources personnalisées ne peuvent pas être affectées au stock par défaut. |
+| [!UICONTROL Assigned Sources] | Liste des sources attribuées. Faites glisser et déposez les sources à l’aide de l’icône ![Trier](assets/icon-sort.png) dans un ordre de priorité pour l’exécution des commandes et l’expédition.<br/><br/>**[!UICONTROL Code]**- ID de code unique pour la source.<br/>**[!UICONTROL Name]** - Description du nom de la source.<br/>**[!UICONTROL Unassign]**- Supprimez la source affectée du stock à l’aide de ![icône Corbeille](../assets/icon-delete-trashcan-solid.png). |

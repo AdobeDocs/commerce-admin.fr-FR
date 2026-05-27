@@ -3,10 +3,10 @@ title: Données Meta
 description: Découvrez comment saisir des métadonnées riches en mots-clés pour améliorer la manière dont les moteurs de recherche indexent votre site Commerce.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Pour Adobe Commerce as a Cloud Service, consultez les [&#x200B; directives relatives aux métadonnées &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=fr) dans la documentation de Commerce Storefront
+>Pour Adobe Commerce as a Cloud Service, consultez les [ directives relatives aux métadonnées ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/) dans la documentation de Commerce Storefront
 
 Votre boutique contient de nombreux emplacements où vous pouvez saisir des métadonnées riches en mots-clés afin d’améliorer la façon dont les moteurs de recherche indexent votre site. Lors de la configuration de votre boutique, vous pouvez saisir des métadonnées préliminaires, avec l’intention de les terminer ultérieurement. Au fil du temps, vous pouvez affiner les métadonnées pour cibler les schémas et les préférences d’achat de vos clients.
 
@@ -56,13 +56,13 @@ Par exemple, si votre catalogue est configuré pour inclure le chemin d’accès
 
 Lorsque les balises de métadonnées canoniques pour les catégories sont activées, la page de catégorie de votre magasin inclut une URL canonique vers l’URL de catégorie complète :
 
-    http://mystore.com/gear/bags/
+    
 
 ### Exemple 3 : URL complète de la page de produits
 
 Lorsque les balises de métadonnées canoniques pour les produits sont activées, la page de produit inclut une URL canonique vers le nom de domaine/la clé d’URL de produit, car les clés d’URL de produit sont globalement uniques.
 
-    http://mystore.com/driven-backpack.html
+    
 
 Si vous incluez également le chemin d’accès à la catégorie dans les URL de produit, l’URL canonique reste domain-name/product-url-key. Cependant, le produit est également accessible à l’aide de son URL complète, qui inclut la catégorie . Par exemple, si la clé URL du produit est `driven-backpack` et est affectée à la catégorie Engrenage > Sacs , le produit est accessible à l’aide de l’une des URL.
 
@@ -98,4 +98,4 @@ Vous pouvez éviter d’être pénalisé par les moteurs de recherche en omettan
 
 Regardez cette vidéo pour en savoir plus sur la gestion des métadonnées d’optimisation du moteur de recherche :
 
->[!VIDEO](https://video.tv.adobe.com/v/3410174?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
