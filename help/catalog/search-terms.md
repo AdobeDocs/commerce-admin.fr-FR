@@ -48,7 +48,7 @@ Au fur et à mesure que vous apprenez de nouveaux mots que les utilisateurs util
 
    ![Informations générales sur les termes de recherche](./assets/search-terms-information.png){width="600" zoomable="yes"}
 
-1. Sous _[!UICONTROL General Information]_dans la zone de **[!UICONTROL Search Query]**, saisissez le mot ou l’expression à ajouter en tant que nouveau terme de recherche.
+1. Sous _[!UICONTROL General Information]_&#x200B;dans la zone de **[!UICONTROL Search Query]**, saisissez le mot ou l’expression à ajouter en tant que nouveau terme de recherche.
 
 1. Si votre boutique est disponible dans plusieurs langues, choisissez la vue de **[!UICONTROL Store]** applicable.
 
@@ -141,7 +141,7 @@ Adobe Commerce prend en charge deux solutions de gestion des synonymes différen
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Synonyms]**.
 
-   La grille de _[!UICONTROL Search Synonyms]_s’affiche. Si c’est la première fois que vous utilisez des synonymes de recherche, la grille est vide.
+   La grille de _[!UICONTROL Search Synonyms]_&#x200B;s’affiche. Si c’est la première fois que vous utilisez des synonymes de recherche, la grille est vide.
 
    ![Grille des synonymes de recherche](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 

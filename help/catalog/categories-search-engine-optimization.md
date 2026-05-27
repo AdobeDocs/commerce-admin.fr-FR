@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Catégories - Paramètres d’optimisation du moteur de recherche
 
-La section _[!UICONTROL Search Engine Optimization]_spécifie les champs [Clé URL](catalog-urls.md) et [métadonnées](../merchandising-promotions/meta-data.md) utilisés par les moteurs de recherche pour indexer la catégorie. Bien que certains moteurs de recherche ignorent les méta-mots-clés, d’autres continuent de les utiliser. La bonne pratique actuelle d’optimisation du moteur de recherche consiste à incorporer des mots-clés à forte valeur ajoutée au méta-titre et à la méta-description.
+La section _[!UICONTROL Search Engine Optimization]_&#x200B;spécifie les champs [Clé URL](catalog-urls.md) et [métadonnées](../merchandising-promotions/meta-data.md) utilisés par les moteurs de recherche pour indexer la catégorie. Bien que certains moteurs de recherche ignorent les méta-mots-clés, d’autres continuent de les utiliser. La bonne pratique actuelle d’optimisation du moteur de recherche consiste à incorporer des mots-clés à forte valeur ajoutée au méta-titre et à la méta-description.
 
 ![Optimisation du moteur de recherche](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 

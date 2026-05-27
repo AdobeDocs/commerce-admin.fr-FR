@@ -62,11 +62,11 @@ Il existe deux façons de créer un catalogue partagé. Vous pouvez créer un ca
 
    - Sélectionnez la **[!UICONTROL Customer Tax Class]** appropriée qui s’applique aux achats effectués à partir du catalogue partagé.
 
-     Pour plus d&#39;informations sur la configuration et la définition des classes de taxe, voir [ Classes de taxe ](../stores-purchase/tax-class.md).
+     Pour plus d&#39;informations sur la configuration et la définition des classes de taxe, voir [&#x200B; Classes de taxe &#x200B;](../stores-purchase/tax-class.md).
 
      L’exemple suivant illustre un nouveau catalogue personnalisé pour un client en gros spécifique.
 
-     ![ Nouveau catalogue partagé ](./assets/shared-catalog-new.png){width="600" zoomable="yes"}
+     ![&#x200B; Nouveau catalogue partagé &#x200B;](./assets/shared-catalog-new.png){width="600" zoomable="yes"}
 
    - Enter **[!UICONTROL Description]**
 
@@ -105,7 +105,7 @@ Après la création d’un catalogue partagé, il doit être configuré avec la 
 
 >[!NOTE]
 >
->**[Version 1.3.0](release-notes.md#b2b-v130) B2B et versions ultérieures** — Lorsque vous créez un catalogue partagé, chaque autorisation [de catégorie](../catalog/category-permissions.md) pour le catalogue est définie sur _[!UICONTROL Allow for the Display Product Prices]_et_[!UICONTROL Add to Cart]_ pour les groupes de clients auxquels cet accès est affecté dans les paramètres d’autorisation du catalogue. Auparavant, ces paramètres étaient automatiquement définis sur `Deny` même lorsque les autorisations de catalogue étaient définies sur `Allow`.
+>**[Version 1.3.0](release-notes.md#b2b-v130) B2B et versions ultérieures** — Lorsque vous créez un catalogue partagé, chaque autorisation [de catégorie](../catalog/category-permissions.md) pour le catalogue est définie sur _[!UICONTROL Allow for the Display Product Prices]_&#x200B;et&#x200B;_[!UICONTROL Add to Cart]_ pour les groupes de clients auxquels cet accès est affecté dans les paramètres d’autorisation du catalogue. Auparavant, ces paramètres étaient automatiquement définis sur `Deny` même lorsque les autorisations de catalogue étaient définies sur `Allow`.
 
 ## Démonstration du catalogue partagé
 

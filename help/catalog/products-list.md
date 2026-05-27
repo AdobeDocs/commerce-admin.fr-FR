@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Liste de produits
 
-Tous les produits du catalogue sont accessibles à partir de la page _[!UICONTROL Products]_de l’Administration, où vous pouvez créer des produits et modifier des produits existants. Pour une installation multi-site, chaque site web peut proposer une sélection différente de produits à vendre à partir du même catalogue.
+Tous les produits du catalogue sont accessibles à partir de la page _[!UICONTROL Products]_&#x200B;de l’Administration, où vous pouvez créer des produits et modifier des produits existants. Pour une installation multi-site, chaque site web peut proposer une sélection différente de produits à vendre à partir du même catalogue.
 
-La liste _[!UICONTROL Products]_inclut tous les produits du catalogue, indique les sites web où ils sont disponibles et s’ils sont actuellement disponibles à la vente. Dans les installations B2B d’Adobe Commerce avec l’option [catalogues partagés](../b2b/catalog-shared.md) activée, la grille inclut une colonne qui indique quels produits bénéficient d’une autre tarification de remise dans un catalogue partagé.
+La liste _[!UICONTROL Products]_&#x200B;inclut tous les produits du catalogue, indique les sites web où ils sont disponibles et s’ils sont actuellement disponibles à la vente. Dans les installations B2B d’Adobe Commerce avec l’option [catalogues partagés](../b2b/catalog-shared.md) activée, la grille inclut une colonne qui indique quels produits bénéficient d’une autre tarification de remise dans un catalogue partagé.
 
 Vous pouvez parcourir la liste page par page ou rechercher des produits spécifiques. Utilisez les [contrôles](../getting-started/admin-grid-controls.md) standard pour trier et filtrer la liste et appliquer des [actions](../getting-started/admin-actions-control.md) aux produits sélectionnés.
 

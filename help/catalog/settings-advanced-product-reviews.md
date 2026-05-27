@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Paramètres du produit - [!UICONTROL Product Reviews]
 
-La section _[!UICONTROL Product Reviews]_répertorie toutes les critiques soumises par les clients à propos du produit. Cette section s’affiche avec les autres informations sur les produits uniquement après le premier enregistrement d’un nouveau produit. Pour plus d’informations, voir [Avis sur le produit](../merchandising-promotions/product-reviews.md).
+La section _[!UICONTROL Product Reviews]_&#x200B;répertorie toutes les critiques soumises par les clients à propos du produit. Cette section s’affiche avec les autres informations sur les produits uniquement après le premier enregistrement d’un nouveau produit. Pour plus d’informations, voir [Avis sur le produit](../merchandising-promotions/product-reviews.md).
 
 ![Avis sur les produits](./assets/product-review.png){width="600" zoomable="yes"}
 

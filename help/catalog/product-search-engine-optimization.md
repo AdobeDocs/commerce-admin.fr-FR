@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Le _référencement naturel_ (SEO) consiste à affiner le contenu et la présentation d’un site afin d’améliorer la façon dont les pages sont indexées par les moteurs de recherche.
 
-Les paramètres de _[!UICONTROL Search Engine Optimization]_d’un produit spécifient les champs [Clé URL](catalog-urls.md) et [métadonnées](../merchandising-promotions/meta-data.md) utilisés par les moteurs de recherche pour indexer le produit. Bien que certains moteurs de recherche ignorent les méta-mots-clés, d’autres continuent de les utiliser. La [bonne pratique d’optimisation du moteur de recherche](../merchandising-promotions/seo-overview.md) actuelle consiste à incorporer des mots-clés à forte valeur ajoutée au méta-titre et à la méta-description.
+Les paramètres de _[!UICONTROL Search Engine Optimization]_&#x200B;d’un produit spécifient les champs [Clé URL](catalog-urls.md) et [métadonnées](../merchandising-promotions/meta-data.md) utilisés par les moteurs de recherche pour indexer le produit. Bien que certains moteurs de recherche ignorent les méta-mots-clés, d’autres continuent de les utiliser. La [bonne pratique d’optimisation du moteur de recherche](../merchandising-promotions/seo-overview.md) actuelle consiste à incorporer des mots-clés à forte valeur ajoutée au méta-titre et à la méta-description.
 
 La valeur par défaut de chaque champ de métadonnées peut être générée automatiquement en fonction des valeurs spécifiées dans la configuration. Chaque champ contient un espace réservé qui est remplacé par une valeur réelle. Pour plus d’informations, voir [Génération automatique des champs de produit](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation).
 

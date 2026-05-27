@@ -84,7 +84,7 @@ La [!UICONTROL New Accounts Report] affiche le nombre de nouveaux comptes client
 
 Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
 
-![ Rapport Nouveaux Comptes ](./assets/customers-new-accounts.png){width="600"}
+![&#x200B; Rapport Nouveaux Comptes &#x200B;](./assets/customers-new-accounts.png){width="600"}
 
 ### Contrôles Workspace
 
@@ -157,7 +157,7 @@ Le [!UICONTROL Customer Segment Report] fournit des informations sur le nombre d
 
 Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
 
-![ Rapport Segments ](./assets/customers-segments.png){width="600"}
+![&#x200B; Rapport Segments &#x200B;](./assets/customers-segments.png){width="600"}
 
 ### Contrôles Workspace
 

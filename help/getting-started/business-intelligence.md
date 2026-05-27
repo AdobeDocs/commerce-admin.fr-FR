@@ -17,7 +17,7 @@ Utilisez les outils de Commerce Intelligence pour tirer parti de l’insight uti
 
 ## compte [!DNL Commerce Intelligence]
 
-Lorsque vous activez un compte [!DNL Commerce Intelligence] via Adobe, vous avez accès à cinq tableaux de bord contenant environ 70 rapports. Ces rapports sont conçus pour fournir des informations sur vos données et répondre à des questions telles que « Comment mes commandes augmentent-elles mois après mois ? », « Qui sont mes clients les plus fidèles ? » et « Ma stratégie de coupons fonctionne-t-elle ? » Pour plus d’informations sur cet ensemble d’outils, consultez le [Guide de l’utilisateur de ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html).
+Lorsque vous activez un compte [!DNL Commerce Intelligence] via Adobe, vous avez accès à cinq tableaux de bord contenant environ 70 rapports. Ces rapports sont conçus pour fournir des informations sur vos données et répondre à des questions telles que « Comment mes commandes augmentent-elles mois après mois ? », « Qui sont mes clients les plus fidèles ? » et « Ma stratégie de coupons fonctionne-t-elle ? » Pour plus d’informations sur cet ensemble d’outils, consultez le [Guide de l’utilisateur de &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html).
 
 ## [!DNL Advanced Reporting]
 
@@ -114,7 +114,7 @@ Si vous recevez un message 404 « Page introuvable », vérifiez que votre bouti
 
    * Vérifiez que la liste des jetons d’intégration pour les extensions est terminée. Cliquez ensuite sur **Terminé**.
 
-     ![ Jetons d’intégration ](./assets/advanced-reporting-integration-tokens-for-extensions.png){width="600"}
+     ![&#x200B; Jetons d’intégration &#x200B;](./assets/advanced-reporting-integration-tokens-for-extensions.png){width="600"}
 
 1. Recherchez le message indiquant que le `Magento Analytics user` d’intégration est réautorisé.
 
