@@ -219,7 +219,7 @@ Les [blocs dynamiques](../content-design/dynamic-blocks.md) associés à une rè
 
 Regardez cette vidéo pour en savoir plus sur la création de règles de prix de catalogue :
 
->[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410848?captions=fre_fr&quality=12&learn=on)
 
 ## Descriptions des champs
 
