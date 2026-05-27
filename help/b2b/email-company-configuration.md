@@ -19,7 +19,7 @@ Le [commercial](account-company-manage.md) qui est affecté en tant que contact 
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Customers]** et choisissez **[!UICONTROL Company Configuration]**.
 
-1. Si nécessaire, définissez **[!UICONTROL Store View]** à la vue du magasin pour définir la [ portée ](../getting-started/websites-stores-views.md#scope-settings) de la configuration.
+1. Si nécessaire, définissez **[!UICONTROL Store View]** à la vue du magasin pour définir la [&#x200B; portée &#x200B;](../getting-started/websites-stores-views.md#scope-settings) de la configuration.
 
 1. Renseignez la section **[!UICONTROL Company Registration]** :
 

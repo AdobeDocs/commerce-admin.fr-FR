@@ -47,7 +47,7 @@ Les acheteurs gèrent le processus de négociation des devis à partir du storef
 
 1. Choisissez un **[!UICONTROL Expiration Date]** pour le devis.
 
-1. Faites défiler l’écran jusqu’à la section _[!UICONTROL Quote Totals]_et mettez à jour la **[!UICONTROL Negotiated Price]**selon vos besoins.
+1. Faites défiler l’écran jusqu’à la section _[!UICONTROL Quote Totals]_&#x200B;et mettez à jour la **[!UICONTROL Negotiated Price]**&#x200B;selon vos besoins.
 
    ![Mettre à jour le prix négocié](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
@@ -65,7 +65,7 @@ Les acheteurs gèrent le processus de négociation des devis à partir du storef
 
 ### Appliquer les mises à jour des lignes
 
-Appliquez les modifications d&#39;élément de ligne dans la section _[!UICONTROL Items Quoted]_si nécessaire.
+Appliquez les modifications d&#39;élément de ligne dans la section _[!UICONTROL Items Quoted]_&#x200B;si nécessaire.
 
 ![Appliquer les mises à jour des lignes](./assets/quote-apply-line-item-operations.png){width="600" zoomable="yes"}
 
@@ -100,7 +100,7 @@ la remise ligne et la remise de niveau devis sont appliquées au prix du produit
 
 1. Saisissez un **[!UICONTROL Proposed Shipping Price]**.
 
-   Les _[!UICONTROL Quote Totals]_sont mis à jour pour refléter le prix d’expédition proposé.
+   Les _[!UICONTROL Quote Totals]_&#x200B;sont mis à jour pour refléter le prix d’expédition proposé.
 
 ### Joindre un document justificatif
 
@@ -112,7 +112,7 @@ la remise ligne et la remise de niveau devis sont appliquées au prix du produit
 
 ## Étape 3 : mettre à jour les informations au niveau du devis et envoyer votre réponse
 
-1. Dans la section _[!UICONTROL Negotiation]_de l’onglet_[!UICONTROL Comments]_ , saisissez votre réponse dans la section **[!UICONTROL Add your comment]** .
+1. Dans la section _[!UICONTROL Negotiation]_&#x200B;de l’onglet&#x200B;_[!UICONTROL Comments]_ , saisissez votre réponse dans la section **[!UICONTROL Add your comment]** .
 
 1. Pour inclure un document complémentaire, cliquez sur **[!UICONTROL Attach file]** et sélectionnez le fichier dans votre répertoire.
 
@@ -120,7 +120,7 @@ la remise ligne et la remise de niveau devis sont appliquées au prix du produit
 
 1. Pour appliquer une remise au devis :
 
-   - Sous _[!UICONTROL Quote Totals]_dans la section_[!UICONTROL Negotiated Price]_ , choisissez l’un des types de remise suivants :
+   - Sous _[!UICONTROL Quote Totals]_&#x200B;dans la section&#x200B;_[!UICONTROL Negotiated Price]_ , choisissez l’un des types de remise suivants :
 
       - `Percentage Discount` : une remise en pourcentage réduit le prix d&#39;origine d&#39;un pourcentage spécifique.
       - `Amount Discount` : une remise sur montant applique une réduction de prix fixe.
@@ -160,7 +160,7 @@ Pour surveiller sa position dans le workflow, vérifiez votre e-mail et le statu
 
 | Bouton | Description |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Back] | Retourne à la page _[!UICONTROL Quotes]_sans enregistrer les modifications. |
+| [!UICONTROL Back] | Retourne à la page _[!UICONTROL Quotes]_&#x200B;sans enregistrer les modifications. |
 | [!UICONTROL Print] | Envoie le devis à une imprimante ou l&#39;enregistre en tant que fichier PDF. |
 | [!UICONTROL Create Copy] | Crée et ouvre une copie du devis actuel avec `(copy)` ajouté au nom d&#39;origine. Renommez la nouvelle citation en modifiant le champ [!UICONTROL Name]. Traitez le nouveau devis en l&#39;enregistrant en tant que brouillon ou en l&#39;envoyant au client. |
 | Créer un modèle | Créer un modèle de devis basé sur le devis actuel. Les modèles de devis simplifient la négociation de devis en permettant aux acheteurs et aux vendeurs de s&#39;entendre sur des conditions contractuelles et tarifaires qui peuvent être appliquées à plusieurs devis. . Avec l&#39;accord de l&#39;acheteur, celui-ci peut générer un devis lié préapprouvé à partir du modèle pour les commandes suivantes au lieu de relancer le processus de demande de devis. |

@@ -117,7 +117,7 @@ Pour plus d’informations sur la modification de ce paramètre, voir [Configura
 
 ## [!UICONTROL Security]
 
-![ Configuration avancée - Sécurité ](./assets/system-security.png)<!-- zoom -->
+![&#x200B; Configuration avancée - Sécurité &#x200B;](./assets/system-security.png)<!-- zoom -->
 
 Pour plus d’informations sur la modification de ces paramètres, voir [Gestion des sessions](../../systems/security-session-management.md) dans le _Guide des systèmes d’administration_.
 
@@ -144,7 +144,7 @@ Pour plus d&#39;informations sur la modification de ces paramètres, consultez [
 
 ## [!UICONTROL Backup Settings]
 
-![ Configuration avancée - Paramètres de sauvegarde ](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
+![&#x200B; Configuration avancée - Paramètres de sauvegarde &#x200B;](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
 
 {{$include /help/_includes/backups-note.md}}
 
@@ -153,8 +153,8 @@ Pour plus d’informations sur la modification de ces paramètres, consultez [Sa
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | Global | Détermine si l’instance Commerce autorise les sauvegardes. Options : `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | Global | (Affiché lorsque _[!UICONTROL Enable Backup]_est défini sur `Yes`.) Détermine si l’instance Commerce est automatiquement sauvegardée selon un planning régulier. Options : `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | Global | (Affiché lorsque _[!UICONTROL Enable Scheduled Backup]_est défini sur `Yes`.) Détermine les éléments de l’instance Commerce inclus dans la sauvegarde. Options : `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Enable Scheduled Backup] | Global | (Affiché lorsque _[!UICONTROL Enable Backup]_&#x200B;est défini sur `Yes`.) Détermine si l’instance Commerce est automatiquement sauvegardée selon un planning régulier. Options : `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Global | (Affiché lorsque _[!UICONTROL Enable Scheduled Backup]_&#x200B;est défini sur `Yes`.) Détermine les éléments de l’instance Commerce inclus dans la sauvegarde. Options : `Database` / `Database and Media` / `System` / `System (excluding Media)` |
 | [!UICONTROL Start Time] | Global | (Affiché lorsque [!UICONTROL Enable Scheduled Backup] est défini sur `Yes`.) Indique l’heure, la minute et la seconde auxquelles la sauvegarde planifiée commence. |
 | [!UICONTROL Frequency] | Global | (Affiché lorsque [!UICONTROL Enable Scheduled Backup] est défini sur `Yes`.) Détermine la fréquence à laquelle la sauvegarde planifiée a lieu. Options : `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Maintenance Mode] | Global | (Affiché lorsque [!UICONTROL Enable Scheduled Backup] est défini sur `Yes`.) Détermine si le magasin est en mode de maintenance pendant la sauvegarde planifiée. Options : `Yes` / `No` |

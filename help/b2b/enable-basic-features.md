@@ -107,7 +107,7 @@ Le [commercial](account-company-manage.md#assign-a-sales-representative) qui est
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Customers]** et choisissez **[!UICONTROL Company Configuration]**.
 
-1. Si nécessaire, définissez **[!UICONTROL Store View]** à la vue du magasin pour définir la [ portée ](../getting-started/websites-stores-views.md#scope-settings) de la configuration.
+1. Si nécessaire, définissez **[!UICONTROL Store View]** à la vue du magasin pour définir la [&#x200B; portée &#x200B;](../getting-started/websites-stores-views.md#scope-settings) de la configuration.
 
 1. Renseignez la section **[!UICONTROL Company Registration]** :
 
@@ -255,7 +255,7 @@ Pour activer le paiement en compte pour votre boutique :
 1. Définissez **[!UICONTROL Payment from Applicable Countries]** sur l’une des options suivantes :
 
    - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans la configuration de votre boutique peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Une fois cette option sélectionnée, la liste des _[!UICONTROL Payment from Specific Countries]_s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque option.
+   - `Specific Countries` - Une fois cette option sélectionnée, la liste des _[!UICONTROL Payment from Specific Countries]_&#x200B;s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque option.
 
 1. Définissez **[!UICONTROL Minimum Order Total]** et **[!UICONTROL Maximum Order Total]** sur les montants de commande requis pour bénéficier de ce mode de paiement.
 

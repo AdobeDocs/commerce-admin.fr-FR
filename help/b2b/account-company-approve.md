@@ -28,7 +28,7 @@ Vous pouvez également utiliser le contrôle [Actions](account-company-manage.md
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-   Vous pouvez utiliser le sélecteur de _[!UICONTROL Columns]_au-dessus de la grille pour afficher la colonne **[!UICONTROL Status]**.
+   Vous pouvez utiliser le sélecteur de _[!UICONTROL Columns]_&#x200B;au-dessus de la grille pour afficher la colonne **[!UICONTROL Status]**.
 
 1. Dans la colonne _[!UICONTROL Action]_, cliquez sur **[!UICONTROL Edit]**.
 

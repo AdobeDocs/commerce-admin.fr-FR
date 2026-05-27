@@ -53,7 +53,7 @@ Pour obtenir des informations détaillées sur l&#39;utilisation de ces paramèt
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Email Template] | Affichage de la boutique | Détermine le modèle utilisé pour l&#39;e-mail de partage du registre des cadeaux envoyé lors de la création d&#39;un registre des cadeaux. Lorsque le propriétaire clique sur _Partager le registre des cadeaux_, l’e-mail est envoyé à chaque destinataire. Modèle par défaut : `Gift Registry Sharing` |
-| [!UICONTROL Email Sender] | Affichage de la boutique | Identifie le [ contact de la boutique](../../getting-started/store-details.md#store-email-addresses) qui s’affiche comme expéditeur de l’e-mail de partage du registre des cadeaux. Valeur par défaut : `General Contact` |
+| [!UICONTROL Email Sender] | Affichage de la boutique | Identifie le [&#x200B; contact de la boutique](../../getting-started/store-details.md#store-email-addresses) qui s’affiche comme expéditeur de l’e-mail de partage du registre des cadeaux. Valeur par défaut : `General Contact` |
 | [!UICONTROL Maximum Sent Emails Threshold] | Affichage de la boutique | Nombre maximal de messages de notification par e-mail de partage du registre des cadeaux pouvant être envoyés simultanément. |
 
 {style="table-layout:auto"}
@@ -67,6 +67,6 @@ Pour obtenir des informations détaillées sur l&#39;utilisation de ces paramèt
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Email Template] | Affichage de la boutique | Détermine le modèle utilisé pour l&#39;e-mail de mise à jour du registre des cadeaux envoyé au propriétaire du registre des cadeaux lorsqu&#39;un achat est effectué à partir du registre des cadeaux. La mise à jour inclut des informations sur l&#39;article et la quantité achetée, mais n&#39;inclut pas le nom de la personne qui a passé la commande. Modèle par défaut : `Gift Registry Update` |
-| [!UICONTROL Email Sender] | Affichage de la boutique | Identifie le [ contact de la boutique](../../getting-started/store-details.md#store-email-addresses) qui s&#39;affiche comme expéditeur de l&#39;e-mail de mise à jour du registre des cadeaux. Valeur par défaut : `General Contact` |
+| [!UICONTROL Email Sender] | Affichage de la boutique | Identifie le [&#x200B; contact de la boutique](../../getting-started/store-details.md#store-email-addresses) qui s&#39;affiche comme expéditeur de l&#39;e-mail de mise à jour du registre des cadeaux. Valeur par défaut : `General Contact` |
 
 {style="table-layout:auto"}

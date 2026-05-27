@@ -131,4 +131,4 @@ Après avoir créé le devis provisoire, ajoutez des articles de produit, appliq
 
 1. Ouvrez un devis en sélectionnant **[!UICONTROL View]**.
 
-Pour plus d&#39;informations sur la gestion du processus de négociation de devis, voir [ Négocier un devis ](quote-price-negotiation.md)
+Pour plus d&#39;informations sur la gestion du processus de négociation de devis, voir [&#x200B; Négocier un devis &#x200B;](quote-price-negotiation.md)

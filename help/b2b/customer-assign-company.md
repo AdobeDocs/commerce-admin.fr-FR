@@ -59,13 +59,13 @@ Lorsque vous ajoutez un utilisateur de société, la première société que vou
 
 La [!UICONTROL Customers grid] affiche une ligne distincte pour chaque société à laquelle l’utilisateur est affecté. Les colonnes suivantes sont mises à jour.
 
-- La colonne _[!UICONTROL Customer Type]_se met à jour pour afficher le rôle attribué à l’utilisateur.
+- La colonne _[!UICONTROL Customer Type]_&#x200B;se met à jour pour afficher le rôle attribué à l’utilisateur.
 
-  Si c’est la première fois que le client est affecté à une société, la colonne _[!UICONTROL Customer Type]_est mise à jour de_[!UICONTROL Individual user]_ à _[!UICONTROL Company User]_.
+  Si c’est la première fois que le client est affecté à une société, la colonne _[!UICONTROL Customer Type]_&#x200B;est mise à jour de&#x200B;_[!UICONTROL Individual user]_ à _[!UICONTROL Company User]_.
 
-- La colonne _[!UICONTROL Group]_est remplacée par le nom du groupe de clients (ou du catalogue partagé) affecté à la société.
+- La colonne _[!UICONTROL Group]_&#x200B;est remplacée par le nom du groupe de clients (ou du catalogue partagé) affecté à la société.
 
-- La colonne _[!UICONTROL Company]_affiche le nom de la société à laquelle le profil client est désormais associé.
+- La colonne _[!UICONTROL Company]_&#x200B;affiche le nom de la société à laquelle le profil client est désormais associé.
 
 ## Affectation d’un utilisateur à un ou plusieurs comptes d’entreprise
 
@@ -83,7 +83,7 @@ Lorsque vous affectez un nouvel utilisateur, la première société que vous ass
 
 ## Supprimer l’affectation d’entreprise d’un compte utilisateur
 
-La suppression d’une entreprise d’un profil utilisateur révoque l’accès des utilisateurs à cette entreprise. Les données utilisateur restent accessibles dans l’administration. Si vous supprimez toutes les affectations d’entreprise, la _[!UICONTROL Customer Type]_passe à&#x200B;*[!UICONTROL Individual user]*désactivation des fonctionnalités B2B pour le compte.
+La suppression d’une entreprise d’un profil utilisateur révoque l’accès des utilisateurs à cette entreprise. Les données utilisateur restent accessibles dans l’administration. Si vous supprimez toutes les affectations d’entreprise, la _[!UICONTROL Customer Type]_&#x200B;passe à&#x200B;*[!UICONTROL Individual user]*&#x200B;désactivation des fonctionnalités B2B pour le compte.
 
 1. Dans la grille Client de l’Administration, modifiez le profil client à mettre à jour.
 

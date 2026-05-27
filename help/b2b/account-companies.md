@@ -83,7 +83,7 @@ Après avoir créé le compte, l’administrateur ou l’administratrice d’ent
 
 ## Structure de l&#39;entreprise
 
-Un compte d’entreprise peut être configuré pour refléter la structure de l’entreprise. Au départ, la structure de l’entreprise comprend uniquement l’administrateur ou l’administratrice de l’entreprise, mais peut être étendue pour inclure des équipes d’utilisateurs et utilisatrices. Les utilisateurs peuvent être associés à des équipes ou organisés dans une hiérarchie de divisions et de subdivisions au sein de la société. La structure est conçue pour prendre en charge l’utilisation de [ règles d’approbation ](account-dashboard-approval-rules.md) pour les [ commandes fournisseur ](purchase-order-flow.md) associées au compte de la société.
+Un compte d’entreprise peut être configuré pour refléter la structure de l’entreprise. Au départ, la structure de l’entreprise comprend uniquement l’administrateur ou l’administratrice de l’entreprise, mais peut être étendue pour inclure des équipes d’utilisateurs et utilisatrices. Les utilisateurs peuvent être associés à des équipes ou organisés dans une hiérarchie de divisions et de subdivisions au sein de la société. La structure est conçue pour prendre en charge l’utilisation de [&#x200B; règles d’approbation &#x200B;](account-dashboard-approval-rules.md) pour les [&#x200B; commandes fournisseur &#x200B;](purchase-order-flow.md) associées au compte de la société.
 
 ![Structure d’entreprise avec divisions](./assets/company-structure-diagram.svg){width="450"}
 

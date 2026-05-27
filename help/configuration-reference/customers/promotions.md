@@ -46,6 +46,6 @@ ht-degree: 0%
 | [!UICONTROL Code Format] | Global | Définit le format du code bon. Les options incluent : <br/>**`Alphanumeric`**- Toute combinaison de lettres et de chiffres.<br/>**`Alphabetical`** - Lettres uniquement. <br/>**`Numeric`**- Nombres uniquement. |
 | [!UICONTROL Code Prefix] | Global | Valeur ajoutée au début de tous les codes coupon. Si vous ne souhaitez pas utiliser de préfixe, laissez le champ vide. |
 | [!UICONTROL Code Suffix] | Global | Valeur ajoutée à la fin de tous les codes. Si vous ne souhaitez pas utiliser de suffixe, laissez le champ vide. |
-| [!UICONTROL Dash Every X Characters] | Global | Intervalle pour insérer un tiret (-) dans tous les codes coupon. Si vous ne souhaitez pas utiliser de tiret, laissez le champ vide. <br/>_**Remarque :**_ les codes coupon qui ne diffèrent que d’un tiret sont considérés comme des codes différents. |
+| [!UICONTROL Dash Every X Characters] | Global | Intervalle pour insérer un tiret (-) dans tous les codes coupon. Si vous ne souhaitez pas utiliser de tiret, laissez le champ vide. <br/>_&#x200B;**Remarque :**&#x200B;_ les codes coupon qui ne diffèrent que d’un tiret sont considérés comme des codes différents. |
 
 {style="table-layout:auto"}
