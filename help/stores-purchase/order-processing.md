@@ -169,7 +169,7 @@ Seules les commandes client qui ne sont pas facturées, dont le statut est `Proc
 
 ### Attributs d’ordre personnalisés
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
 
 Les attributs de commande personnalisés vous permettent d’associer à la commande des informations supplémentaires spécifiques aux besoins de votre entreprise.
 

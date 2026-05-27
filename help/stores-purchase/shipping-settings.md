@@ -84,7 +84,7 @@ Les options d’expédition à adresses multiples permettent aux clients d’env
 
 ## URL de tracking des expéditions par e-mail
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
 
 Par défaut, les numéros de suivi des expéditions envoyés dans les e-mails des acheteurs sont en texte brut. Vous pouvez convertir ces numéros de suivi en liens cliquables en activant la fonctionnalité d’URL de suivi personnalisée. Cette fonctionnalité permet de définir un modèle pour le suivi des URL de différents transporteurs. Chaque modèle comprend l’URL complète du site web de suivi et un espace réservé pour le numéro de suivi. Commerce remplace l’espace réservé par le numéro de suivi réel dans l’e-mail.
 
