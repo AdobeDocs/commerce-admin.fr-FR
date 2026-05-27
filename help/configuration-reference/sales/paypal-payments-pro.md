@@ -1,21 +1,21 @@
 ---
-title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL PayPal Payments Pro]'
-description: Vérifiez les paramètres de configuration dans la section [!UICONTROL PayPal Payments Pro] de la page [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] de l’administrateur Commerce.
+title: '[!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Payments Pro]'
+description: Passez en revue les paramètres de configuration dans la section [!UICONTROL PayPal Payments Pro] de la page [!UICONTROL Sales] &gt ; [!UICONTROL Payment Methods] de l’Administration Commerce.
 exl-id: 08363002-e1e6-4d5e-9303-44f5ee53ee0a
 feature: Configuration, Payments
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Payments Pro]
+# [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Payments Pro]
 
 >[!IMPORTANT]
 >
->**Exigences de PSD2 :** <br/>
->À compter du 14 septembre 2019, les banques européennes pourront refuser les paiements qui ne répondent pas aux exigences de [PSD2](../../getting-started/compliance-payment-services-directive.md). Pour se conformer à PSD2, [!DNL PayPal Payments Pro] doit être intégré à [!DNL Cardinal Commerce]. Pour en savoir plus, voir [3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
+>**Conditions requises pour PSD2 :** <br/>
+>À compter du 14 septembre 2019, les banques européennes pourraient refuser les paiements qui ne répondent pas aux exigences de [PSD2](../../getting-started/compliance-payment-services-directive.md). Pour se conformer à PSD2, [!DNL PayPal Payments Pro] doit être intégré à [!DNL Cardinal Commerce]. Pour en savoir plus, consultez la section [3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
 
 {{config}}
 
@@ -25,30 +25,30 @@ ht-degree: 0%
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Email Associated with PayPal Merchant Account] | Site Web | (Facultatif) Toute adresse électronique associée à votre compte marchand PayPal. Les adresses électroniques sont sensibles à la casse et doivent correspondre exactement aux adresses contenues dans votre compte. |
-| [!UICONTROL Partner] | Site Web | Votre identifiant de partenaire PayPal, le cas échéant. |
-| [!UICONTROL Vendor] | Site Web | Votre nom d’utilisateur PayPal. |
-| Utilisateur | Site Web | L’identifiant d’un autre utilisateur de votre compte PayPal. |
-| [!UICONTROL Password] | Site Web | Mot de passe associé à votre compte marchand PayPal. |
-| [!UICONTROL Test Mode] | Site Web | Lorsqu’elle est activée, exécute PayPal payment Pro dans un environnement de test. Désactivez le mode test lorsque vous êtes prêt à passer en mode de production. Options : `Yes` / `No` |
-| [!UICONTROL Use Proxy] | Site Web | Un proxy peut être utilisé pour rediriger le trafic lorsque le pare-feu du serveur empêche l’accès direct au serveur PayPal. Le cas échéant, identifie le serveur proxy utilisé pour établir la connexion au serveur PayPal. Options : `Yes` / `No` <br/><br/>Si cette option est activée, définissez les options : <br/>**Hôte du proxy** - Adresse IP de l’hôte proxy. <br/>**Proxy Port** - Numéro de port du proxy. |
-| [!UICONTROL Enable this Solution] | Site Web | Détermine si PayPal payment Pro est disponible pour vos clients en tant que méthode de paiement. |
-| [!UICONTROL Enable PayPal Credit] | Site Web | Détermine si le crédit PayPal est disponible pour vos clients comme option de paiement. |
+| [!UICONTROL Email Associated with PayPal Merchant Account] | Site internet | (Facultatif) Toute adresse e-mail associée à votre compte marchand PayPal. Les adresses e-mail sont sensibles à la casse et doivent correspondre exactement aux adresses qui se trouvent dans votre compte. |
+| [!UICONTROL Partner] | Site internet | Votre identifiant de partenaire PayPal, le cas échéant. |
+| [!UICONTROL Vendor] | Site internet | Votre nom d&#39;utilisateur PayPal. |
+| Utilisateur | Site internet | Identifiant d&#39;un autre utilisateur sur votre compte PayPal. |
+| [!UICONTROL Password] | Site internet | Mot de passe associé à votre compte marchand PayPal. |
+| [!UICONTROL Test Mode] | Site internet | Lorsqu&#39;elle est activée, exécute PayPal Payments Pro dans un environnement de test. Désactivez le mode test lorsque vous êtes prêt à activer le mode production. Options : `Yes` / `No` |
+| [!UICONTROL Use Proxy] | Site internet | Un proxy peut être utilisé pour rediriger le trafic lorsque le pare-feu du serveur empêche l’accès direct au serveur PayPal. Le cas échéant, identifie le serveur proxy utilisé pour établir la connexion au serveur PayPal. Options : `Yes` / `No` <br/><br/>Si cette option est activée, définissez les options : <br/>**Hôte proxy** - Adresse IP de l’hôte proxy. <br/>**Proxy Port** - Numéro du port du proxy. |
+| [!UICONTROL Enable this Solution] | Site internet | Détermine si PayPal Payments Pro est disponible pour vos clients comme mode de paiement. |
+| [!UICONTROL Enable PayPal Credit] | Site internet | Détermine si le crédit PayPal est disponible pour vos clients en tant qu&#39;option de paiement. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Advertise PayPal Credit]
 
-![Publicité du crédit PayPal](./assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png)<!-- zoom -->
+![Annoncer un crédit PayPal](./assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Publisher ID] | Site Web | Identifiant de l’éditeur associé à votre compte de crédit PayPal. |
-| [!UICONTROL Get Publisher ID from PayPal] |  | Récupère votre identifiant d’éditeur auprès de PayPal. |
-| [!UICONTROL Home Page] | Site Web | Détermine la position et la taille de la bannière [!DNL PayPal Credit] sur la page d’accueil. Options : <br/>**`Display`**- Détermine si une bannière [!DNL PayPal Credit] s’affiche sur la page d’accueil de votre magasin. Options : `Yes` / `No`<br/>**`Position`** - Détermine la position de la bannière [!DNL PayPal Credit] sur la page d’accueil. Options : En-tête (centre) / Barre latérale (droite) <br/>**`Size`**- Détermine la taille de la bannière [!DNL PayPal Credit] sur la page d’accueil. Options : `190 x 100` / `234 x 60` / `300 x 50` / `468 x 60` / `728 x 90` /` 800 x 66` |
-| [!UICONTROL Catalog Category Page] | Site Web | Détermine la position et la taille de la bannière [!DNL PayPal Credit] sur les pages de catégorie. Options : (identique à pour [!UICONTROL Home Page]) |
-| [!UICONTROL Catalog Product Page] | Site Web | Détermine la position et la taille de la bannière [!DNL PayPal Credit] sur les pages de produits. Options : (identique à pour [!UICONTROL Home Page]) |
-| [!UICONTROL Checkout Cart Page] | Site Web | Détermine la position et la taille de la bannière [!DNL PayPal Credit] sur la page du panier. Options : (identique à pour [!UICONTROL Home Page]) |
+| [!UICONTROL Publisher ID] | Site internet | ID d&#39;éditeur associé à votre compte de crédit PayPal. |
+| [!UICONTROL Get Publisher ID from PayPal] |  | Récupère votre ID d&#39;éditeur à partir de PayPal. |
+| [!UICONTROL Home Page] | Site internet | Détermine la position et la taille de la bannière [!DNL PayPal Credit] sur la page d’accueil. Options : <br/>**`Display`**- Détermine si une bannière [!DNL PayPal Credit] s’affiche sur la page d’accueil de votre boutique. Options : `Yes` / `No`<br/>**`Position`** - Détermine la position de la bannière [!DNL PayPal Credit] sur la page d’accueil. Options : En-tête (centre) / Barre latérale (droite) <br/>**`Size`**- Détermine la taille de la bannière [!DNL PayPal Credit] sur la page d’accueil. Options : `190 x 100` / `234 x 60` / `300 x 50` / `468 x 60` / `728 x 90` /` 800 x 66` |
+| [!UICONTROL Catalog Category Page] | Site internet | Détermine la position et la taille de la bannière de [!DNL PayPal Credit] sur les pages de catégorie. Options : (identique à [!UICONTROL Home Page]) |
+| [!UICONTROL Catalog Product Page] | Site internet | Détermine la position et la taille de la bannière de [!DNL PayPal Credit] sur les pages de produits. Options : (identique à [!UICONTROL Home Page]) |
+| [!UICONTROL Checkout Cart Page] | Site internet | Détermine la position et la taille de la bannière [!DNL PayPal Credit] sur la page du panier. Options : (identique à [!UICONTROL Home Page]) |
 
 {style="table-layout:auto"}
 
@@ -58,11 +58,11 @@ ht-degree: 0%
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Title] | Affichage en magasin | Nom qui identifie PayPal payment Pro comme mode de paiement lors du passage en caisse. |
-| [!UICONTROL Sort Order] | Affichage en magasin | Numéro qui détermine l’ordre dans lequel PayPal payment Pro apparaît lorsqu’il est répertorié avec d’autres méthodes de paiement lors du passage en caisse. |
-| [!UICONTROL Payment Action] | Site Web | Détermine l’action effectuée par PayPal lors de l’envoi d’une commande. Options : <br/>**`Authorization`**- Approuve l’achat, mais met un frein aux fonds. Le montant n’est pas retiré tant qu’il n’a pas été &quot;capturé&quot; par le marchand.<br/>**`Sale`** - Le montant de l’achat est autorisé et immédiatement retiré du compte du client. |
+| [!UICONTROL Title] | Affichage de la boutique | Nom qui identifie PayPal Payments Pro comme mode de paiement lors du passage en caisse. |
+| [!UICONTROL Sort Order] | Affichage de la boutique | Nombre qui détermine l&#39;ordre dans lequel PayPal Payments Pro apparaît lorsqu&#39;il est répertorié avec d&#39;autres méthodes de paiement lors de la commande. |
+| [!UICONTROL Payment Action] | Site internet | Détermine l&#39;action entreprise par PayPal lors de la soumission d&#39;une commande. Options : <br/>**`Authorization`**- Valide l’achat, mais bloque les fonds. Le montant n&#39;est pas retiré tant qu&#39;il n&#39;a pas été « capturé » par le commerçant.<br/>**`Sale`** - Le montant de l&#39;achat est autorisé et immédiatement retiré du compte du client. |
 | [!UICONTROL Credit Card Settings] |  |  |
-| [!UICONTROL Allowed Credit Cart Types] | Site Web | Détermine les cartes de crédit disponibles pour les clients lors du passage en caisse. Sélectionnez chaque carte prise en charge. Options : `American Express` (nécessite un accord supplémentaire) / `Visa` / `MasterCard` / `Discover` / `JCB` |
+| [!UICONTROL Allowed Credit Cart Types] | Site internet | Détermine les cartes de crédit disponibles pour les clients lors du passage en caisse. Sélectionnez chaque carte prise en charge. Options : `American Express` (nécessite un accord supplémentaire) / `Visa` / `MasterCard` / `Discover` / `JCB` |
 
 {style="table-layout:auto"}
 
@@ -72,79 +72,79 @@ ht-degree: 0%
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Payment Applicable From] | Site Web | Détermine la sélection de pays applicable. Options : `All Allowed Countries` / `Specific Countries` |
-| [!UICONTROL Countries Payment Applicable From] | Site Web | Identifie chaque pays à partir duquel le paiement est accepté. Seuls les clients ayant une adresse de facturation dans un pays sélectionné peuvent effectuer des achats avec ce mode de paiement. |
-| [!UICONTROL Debug Mode] | Site Web | Enregistre les messages envoyés entre votre boutique et le système de paiement dans un fichier journal. Options : `Yes` / `No` <br/><br/>**_Remarque :_**&#x200B;Le fichier journal est stocké sur le serveur et est accessible uniquement aux développeurs. Conformément aux normes de sécurité des données PCI, les informations de carte de crédit ne sont pas enregistrées dans le fichier journal. |
-| [!UICONTROL Enable SSL Verification] | Site Web | Détermine si le canal sécurisé sur l’hôte est vérifié avant la transaction. Options : `Yes` / `No` |
-| [!UICONTROL Require CVV Entry] | Site Web | Détermine si les clients sont tenus de saisir le code CVV à partir du verso de leur carte de crédit. Options : `Yes` / `No` |
+| [!UICONTROL Payment Applicable From] | Site internet | Détermine la sélection de pays applicable. Options : `All Allowed Countries` / `Specific Countries` |
+| [!UICONTROL Countries Payment Applicable From] | Site internet | Identifie chaque pays d&#39;où le paiement est accepté. Seuls les clients disposant d&#39;une adresse de facturation dans un pays sélectionné peuvent effectuer des achats avec ce mode de paiement. |
+| [!UICONTROL Debug Mode] | Site internet | Enregistre les messages envoyés entre votre magasin et le système de paiement dans un fichier journal. Options : `Yes` / `No` <br/><br/>**_Note:_** Le fichier journal est stocké sur le serveur et n’est accessible que par les développeurs. Conformément aux normes PCI Data Security, les informations de carte de crédit ne sont pas enregistrées dans le fichier journal. |
+| [!UICONTROL Enable SSL Verification] | Site internet | Détermine si le canal sécurisé sur l’hôte est vérifié avant qu’une transaction ne soit effectuée. Options : `Yes` / `No` |
+| [!UICONTROL Require CVV Entry] | Site internet | Détermine si les clients doivent saisir le code CVV au verso de leur carte de crédit. Options : `Yes` / `No` |
 | **[!UICONTROL CVV and AVS Settings]** |  |  |
 | _[!UICONTROL Reject Transaction if:]_ |  |  |
-| [!UICONTROL AVS Street Does Not Match] | Site Web | Détermine l’action entreprise si le service de vérification de l’adresse détermine que l’adresse de la rue ne correspond pas aux informations du système. Options : `Yes` / `No` |
-| [!UICONTROL AVS Zip Does Not Match] | Site Web | Détermine l’action effectuée si le service de vérification d’adresse détermine que le code postal ne correspond pas aux informations du système. Options : `Yes` / `No` |
-| [!UICONTROL International AVS Indicator Does Not Match] | Site Web | Détermine l’action effectuée si le service de vérification de l’adresse détermine que l’indicateur international ne correspond pas aux informations du système. Options : `Yes` / `No` |
-| [!UICONTROL Card Security Code Does Not Match] | Site Web | Détermine l’action entreprise si le code de sécurité CVV saisi par le client ne correspond pas aux informations du système. Options : `Yes` / `No` |
+| [!UICONTROL AVS Street Does Not Match] | Site internet | Détermine l&#39;action entreprise si le service de vérification d&#39;adresses détermine que l&#39;adresse postale ne correspond pas aux informations du système. Options : `Yes` / `No` |
+| [!UICONTROL AVS Zip Does Not Match] | Site internet | Détermine l&#39;action entreprise si le service de vérification d&#39;adresses détermine que le code postal ne correspond pas aux informations du système. Options : `Yes` / `No` |
+| [!UICONTROL International AVS Indicator Does Not Match] | Site internet | Détermine l&#39;action entreprise si le service de vérification d&#39;adresses détermine que l&#39;indicateur international ne correspond pas aux informations du système. Options : `Yes` / `No` |
+| [!UICONTROL Card Security Code Does Not Match] | Site internet | Détermine l’action entreprise si le code de sécurité CVV saisi par le client ne correspond pas aux informations du système. Options : `Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Settlement Report Settings]
 
-![Paramètres des rapports de règlement](./assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png)<!-- zoom -->
+![Paramètres du rapport de règlement](./assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Login] | Site Web | Votre nom d’utilisateur requis pour se connecter au serveur FTP sécurisé de PayPal. |
-| [!UICONTROL Password] | Site Web | Votre mot de passe requis pour se connecter au serveur FTP sécurisé de PayPal. |
-| [!UICONTROL Sandbox Mode] | Site Web | Lorsqu’elle est activée, exécute les rapports dans un environnement de test avant la mise en ligne dans l’environnement de production. Options : `Yes` / `No` |
-| [!UICONTROL Custom Endpoint Hostname or IP-Address] | Site Web | URL à laquelle les rapports de règlement sont gérés. Valeur par défaut : `reports.paypal.com` |
-| [!UICONTROL Custom Path] | Site Web | Chemin d’accès où les rapports de résolution sont enregistrés sur votre serveur. Valeur par défaut : `/ppreports/outgoing` |
+| [!UICONTROL Login] | Site internet | Nom d&#39;utilisateur requis pour se connecter au serveur FTP sécurisé de PayPal. |
+| [!UICONTROL Password] | Site internet | Mot de passe requis pour se connecter au serveur FTP sécurisé de PayPal. |
+| [!UICONTROL Sandbox Mode] | Site internet | Lorsqu’il est activé, exécute les rapports dans un environnement de test avant la mise en production dans l’environnement de production. Options : `Yes` / `No` |
+| [!UICONTROL Custom Endpoint Hostname or IP-Address] | Site internet | URL de gestion des rapports de règlement. Valeur par défaut : `reports.paypal.com` |
+| [!UICONTROL Custom Path] | Site internet | Chemin d’accès où les rapports de règlement sont enregistrés sur votre serveur. Valeur par défaut : `/ppreports/outgoing` |
 | [!UICONTROL Scheduled Fetching] |  |  |
-| [!UICONTROL Enable Automatic Fetching] | Site Web | Lorsque cette option est activée, récupère les rapports de règlement automatiquement selon le calendrier. Options : `Yes` / `No` |
+| [!UICONTROL Enable Automatic Fetching] | Site internet | Lorsqu&#39;elle est activée, récupère automatiquement les rapports de règlement selon le calendrier. Options : `Yes` / `No` |
 | [!UICONTROL Schedule] | Global | Détermine la fréquence de génération des rapports de règlement par PayPal. Options : `Daily` / `Every 3 days` / `Every 7 days` / `Every 10 days` / `Every 14 days` / `Every 30 days` / `Every 40 days` |
-| [!UICONTROL Time of Day] | Global | Détermine l’heure, la minute et la seconde pendant lesquelles les rapports de règlement sont générés. |
+| [!UICONTROL Time of Day] | Global | Détermine l&#39;heure, la minute et la seconde auxquelles les rapports de règlement sont générés. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Frontend Experience Settings]
 
-![Paramètres de l’expérience front-end](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings.png)<!-- zoom -->
+![Paramètres d’expérience front-end](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL PayPal Product Logo] | Affichage en magasin | Détermine le logo PayPal qui apparaît dans votre boutique. Il existe quatre styles de base en deux tailles. Options : `No Logo` / `We prefer PayPal (150 x 60)` / `We prefer PayPal (150 x 40)` / `Now accepting PayPal (150 x 60)` / `Now accepting PayPal (150 x 40)` / `Payments by PayPal (150 x 60)` / `Payments by PayPal (150 x 40)` / `Shop now using (150 x 60)` / `Shop now using (150 x 40)` |
+| [!UICONTROL PayPal Product Logo] | Affichage de la boutique | Détermine le logo PayPal qui apparaît dans votre boutique. Il existe quatre styles de base dans deux tailles. Options : `No Logo` / `We prefer PayPal (150 x 60)` / `We prefer PayPal (150 x 40)` / `Now accepting PayPal (150 x 60)` / `Now accepting PayPal (150 x 40)` / `Payments by PayPal (150 x 60)` / `Payments by PayPal (150 x 40)` / `Shop now using (150 x 60)` / `Shop now using (150 x 40)` |
 | **[!UICONTROL PayPal Merchant Pages Style]** |  |  |
-| [!UICONTROL Page Style] | Affichage en magasin | Détermine l’aspect de votre page de commerce PayPal. Valeurs autorisées : <br/>**`paypal`**- Utilise le style de page PayPal.<br/>**`primary`** - Utilise le style de page que vous avez identifié comme le style &quot;principal&quot; dans votre profil de compte. <br/>**`your_custom_value`**- Utilise un style de page de paiement personnalisé, qui est spécifié dans votre profil de compte. |
-| [!UICONTROL Header Image URL] | Affichage en magasin | URL de l’image qui apparaît dans le coin supérieur gauche de la page de passage en caisse. La taille maximale est de 750 x 90 pixels. <br/><br/>**_Remarque :_**&#x200B;PayPal recommande que l’image soit stockée sur un serveur sécurisé (https). Sinon, le navigateur du client peut avertir que &quot;la page contient des éléments sécurisés et non sécurisés&quot;. |
-| [!UICONTROL Header Image Background Color] | Affichage en magasin | Code [hexadécimal &#x200B;](https://en.wikipedia.org/wiki/Web_colors) à six caractères pour la couleur d’arrière-plan de l’en-tête sur la page de passage en caisse. Vous pouvez saisir le code en majuscules ou en minuscules. |
-| [!UICONTROL Header Image Border Color] | Affichage en magasin | Code de couleur hexadécimal à six caractères pour la bordure de 2 pixels autour de l’en-tête. |
-| [!UICONTROL Page Background Color] | Affichage en magasin | Code de couleur hexadécimal à six caractères pour la couleur d’arrière-plan de la page de passage en caisse qui apparaît derrière l’en-tête et le formulaire de paiement. |
+| [!UICONTROL Page Style] | Affichage de la boutique | Détermine l&#39;apparence de votre page de vendeur PayPal. Valeurs autorisées : <br/>**`paypal`**- Utilise le style de page PayPal.<br/>**`primary`** - Utilise le style de page que vous avez identifié comme style « principal » dans le profil de votre compte. <br/>**`your_custom_value`**- Utilise un style de page de paiement personnalisé, spécifié dans le profil de votre compte. |
+| [!UICONTROL Header Image URL] | Affichage de la boutique | URL de l’image qui s’affiche dans le coin supérieur gauche de la page de passage en caisse. La taille maximale est de 750 x 90 pixels. <br/><br/>**_Note:_** PayPal recommande de stocker l&#39;image sur un serveur sécurisé (https). Dans le cas contraire, le navigateur du client peut signaler que « la page contient des éléments sécurisés et non sécurisés ». |
+| [!UICONTROL Header Image Background Color] | Affichage de la boutique | Code [couleur hexadécimale](https://en.wikipedia.org/wiki/Web_colors) de six caractères pour la couleur d’arrière-plan de l’en-tête sur la page de passage en caisse. Vous pouvez saisir le code en majuscules et en minuscules. |
+| [!UICONTROL Header Image Border Color] | Affichage de la boutique | Code couleur hexadécimal de six caractères pour la bordure de 2 pixels autour de l’en-tête. |
+| [!UICONTROL Page Background Color] | Affichage de la boutique | Code couleur hexadécimal de six caractères pour la couleur d’arrière-plan de la page de passage en caisse qui s’affiche derrière l’en-tête et le formulaire de paiement. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings - PayPal Express Checkout]
 
-![Paramètres de base du paiement express PayPal](./assets/payment-methods-paypal-payments-pro-express-checkout-basic-settings.png)<!-- zoom -->
+![Paramètres de base de PayPal Express Checkout](./assets/payment-methods-paypal-payments-pro-express-checkout-basic-settings.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Title] | Affichage en magasin | Nom qui identifie le mode de paiement PayPal Express Checkout lors du passage en caisse. |
-| [!UICONTROL Sort Order] | Affichage en magasin | Numéro qui détermine l’ordre dans lequel le paiement express PayPal apparaît lorsqu’il est répertorié avec d’autres méthodes de paiement lors du passage en caisse. Saisissez 0 en haut de la liste. |
-| [!UICONTROL Payment Action] | Site Web | Détermine l’action effectuée par PayPal lors de la réception d’une commande. Options : <br/>**`Authorization`**- Approuve l’achat, mais met un frein aux fonds. Le montant n’est pas retiré tant qu’il n’a pas été &quot;capturé&quot; par le marchand.<br/>**`Sale`** - Le montant de l’achat est autorisé et immédiatement retiré du compte du client. <br/>**`Order`**- Représente un accord avec PayPal qui permet au marchand de capturer un ou plusieurs montants au total commandé du compte acheteur du client, dans une période définie. Cela peut aller jusqu’à 29 jours. Une ou plusieurs factures doivent être générées par l’administrateur Commerce pour capturer les fonds. |
-| [!UICONTROL URL Display on Product Details Page] | Affichage en magasin | Détermine si le bouton &quot;Passage en caisse avec PayPal&quot; s’affiche sur les pages du produit. Options : `Yes` / `No` |
+| [!UICONTROL Title] | Affichage de la boutique | Un nom qui identifie le mode de paiement de PayPal Express Checkout lors du passage en caisse. |
+| [!UICONTROL Sort Order] | Affichage de la boutique | Nombre qui détermine l&#39;ordre dans lequel apparaît le paiement PayPal Express lorsqu&#39;il est indiqué avec d&#39;autres modes de paiement lors du paiement. Saisissez 0 pour le haut de la liste. |
+| [!UICONTROL Payment Action] | Site internet | Détermine l&#39;action entreprise par PayPal lorsqu&#39;il reçoit une commande. Options : <br/>**`Authorization`**- Valide l’achat, mais bloque les fonds. Le montant n&#39;est pas retiré tant qu&#39;il n&#39;a pas été « capturé » par le commerçant.<br/>**`Sale`** - Le montant de l&#39;achat est autorisé et immédiatement retiré du compte du client. <br/>**`Order`**- Représente un accord avec PayPal qui permet au marchand de capturer un ou plusieurs montants jusqu&#39;au total commandé à partir du compte acheteur du client, dans un délai défini. Cela peut prendre jusqu’à 29 jours. Une ou plusieurs factures doivent être générées à partir de l’administrateur Commerce pour récupérer les fonds. |
+| [!UICONTROL URL Display on Product Details Page] | Affichage de la boutique | Détermine si le bouton « Passer en caisse avec PayPal » s&#39;affiche sur les pages de produits. Options : `Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL PayPal Express Checkout - Advanced Settings]
 
-![Paramètres avancés du paiement express PayPal](./assets/payment-methods-paypal-payments-pro-express-checkout-advanced-settings.png)<!-- zoom -->
+![Paramètres avancés du paiement PayPal Express](./assets/payment-methods-paypal-payments-pro-express-checkout-advanced-settings.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Display on Shopping Cart] | Affichage en magasin | Détermine si le paiement express PayPal apparaît comme option de paiement dans le panier. Options : `Yes` (PayPal recommande cette option) / `No` |
-| [!UICONTROL Payment Action Applicable From] | Site Web | Détermine la plage de la sélection de pays applicable. Options : `All Allowed Countries` / `Specific Countries` |
-| [!UICONTROL Countries Payment Applicable From] | Site Web | Identifie chaque pays à partir duquel le paiement est accepté. Seuls les clients ayant une adresse de facturation dans un pays sélectionné peuvent effectuer des achats avec ce mode de paiement. |
-| [!UICONTROL Debug Mode] | Site Web | Enregistre les messages envoyés entre votre boutique et le système de paiement PayPal dans un fichier journal. Options : `Yes` / `No` <br/><br/>**_Remarque :_**&#x200B;Le fichier journal est stocké sur le serveur et est accessible uniquement aux développeurs. Conformément aux normes de sécurité des données PCI, les informations de carte de crédit ne sont pas enregistrées dans le fichier journal. |
-| [!UICONTROL Enable SSL Verification] | Site Web | Active la vérification du certificat de sécurité hôte. Options : `Yes` / `No` |
-| [!UICONTROL Transfer Cart Line Items] | Site Web | Affiche un résumé complet des éléments de ligne du panier du client sur le site PayPal. Options : `Yes` / `No` |
-| [!UICONTROL Skip Order Review Step] | Site Web | Détermine si les clients peuvent effectuer la transaction à partir du site PayPal ou s’ils doivent retourner dans votre boutique et terminer l’étape de vérification de la commande avant d’envoyer la commande. Options : `Yes` / `No` |
+| [!UICONTROL Display on Shopping Cart] | Affichage de la boutique | Détermine si PayPal Express Checkout apparaît comme option de paiement dans le panier. Options : `Yes` (PayPal recommande cette option) / `No` |
+| [!UICONTROL Payment Action Applicable From] | Site internet | Détermine la plage de la sélection de pays applicable. Options : `All Allowed Countries` / `Specific Countries` |
+| [!UICONTROL Countries Payment Applicable From] | Site internet | Identifie chaque pays d&#39;où le paiement est accepté. Seuls les clients disposant d&#39;une adresse de facturation dans un pays sélectionné peuvent effectuer des achats avec ce mode de paiement. |
+| [!UICONTROL Debug Mode] | Site internet | Enregistre les messages envoyés entre votre boutique et le système de paiement PayPal dans un fichier journal. Options : `Yes` / `No` <br/><br/>**_Note:_** Le fichier journal est stocké sur le serveur et n’est accessible que par les développeurs. Conformément aux normes PCI Data Security, les informations de carte de crédit ne sont pas enregistrées dans le fichier journal. |
+| [!UICONTROL Enable SSL Verification] | Site internet | Permet de vérifier le certificat de sécurité de l&#39;hôte. Options : `Yes` / `No` |
+| [!UICONTROL Transfer Cart Line Items] | Site internet | Affiche un résumé complet des articles de la ligne du panier du client sur le site PayPal. Options : `Yes` / `No` |
+| [!UICONTROL Skip Order Review Step] | Site internet | Détermine si les clients peuvent terminer la transaction à partir du site PayPal ou s&#39;ils doivent retourner dans votre magasin et terminer l&#39;étape de révision de la commande avant d&#39;envoyer la commande. Options : `Yes` / `No` |
 
 {style="table-layout:auto"}

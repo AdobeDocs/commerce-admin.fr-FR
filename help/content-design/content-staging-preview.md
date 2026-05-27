@@ -3,10 +3,10 @@ title: Prévisualiser une campagne
 description: Créez un aperçu pour n’importe quel jour ou période au cours d’une campagne et partagez-le avec les membres de l’équipe.
 exl-id: f05589ae-9fc8-4e51-a504-ab90772b3c3d
 feature: Page Content, Staging
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Vous pouvez prévisualiser n’importe quel jour ou n’importe quelle période 
 
    - _Depuis n’importe quelle page avec des modifications planifiées_
 
-      - Ouvrez n’importe quelle page avec une zone de _[!UICONTROL Scheduled Changes]_&#x200B;en haut.
+      - Ouvrez n’importe quelle page avec une zone de _[!UICONTROL Scheduled Changes]_en haut.
       - Cliquez sur **[!UICONTROL Preview]**.
 
    La prévisualisation s’ouvre dans un nouvel onglet du navigateur et montre l’aspect du produit pendant la campagne planifiée.

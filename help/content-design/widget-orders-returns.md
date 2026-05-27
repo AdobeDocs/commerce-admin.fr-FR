@@ -3,10 +3,10 @@ title: Widget Commandes et retours
 description: Découvrez comment utiliser le widget Commandes et retours pour permettre aux clients de vérifier le statut de leurs commandes, d’imprimer des factures et de suivre les expéditions.
 exl-id: 1c3948e6-a0de-4ee4-8abf-10ab845a94a7
 feature: Page Content, Orders, Returns
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Le widget _Commandes et retours_ permet aux clients de vérifier le statut de le
 
    - (Facultatif) Par **[!UICONTROL Sort Order]**, saisissez un nombre pour déterminer l’ordre dans lequel cet élément apparaît avec les autres dans la même partie de la page. (`0` = premier, `1` = deuxième, `3` = troisième, etc.)
 
-1. Dans la section _[!UICONTROL Layout Updates]_, cliquez sur **[!UICONTROL Add Layout Update]**&#x200B;et procédez comme suit :
+1. Dans la section _[!UICONTROL Layout Updates]_, cliquez sur **[!UICONTROL Add Layout Update]**et procédez comme suit :
 
    - Définissez **[!UICONTROL Display On]** sur le type de page sur lequel vous souhaitez que le widget apparaisse.
 

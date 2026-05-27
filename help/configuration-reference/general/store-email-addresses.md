@@ -1,12 +1,12 @@
 ---
-title: '[!UICONTROL General] &gt; [!UICONTROL Store Email Addresses]'
-description: Vérifiez les paramètres de configuration sur la page de [!UICONTROL Store Email Addresses] d’[!UICONTROL General] &gt; de l’administrateur Commerce.
+title: '[!UICONTROL General] > [!UICONTROL Store Email Addresses]'
+description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Store Email Addresses] de [!UICONTROL General] &gt ; de l’administrateur Commerce.
 exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
 source-git-commit: 7cbb5b3af0803dd2ec4d47d372632756b5ebfffa
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 1%
+source-wordcount: '346'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ Voir [Stockage des adresses e-mail](../../getting-started/store-details.md#store
 
 ## [!UICONTROL General]
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
 
 ![Stocker les adresses électroniques > Contact général](./assets/store-email-addresses-general-general.png)<!-- zoom -->
 

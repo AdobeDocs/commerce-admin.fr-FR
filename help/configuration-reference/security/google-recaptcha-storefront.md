@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront]'
-description: Vérifiez les paramètres de configuration sur la page de [!UICONTROL Security] d’[!UICONTROL Google reCAPTCHA Storefront] &gt; de l’administrateur Commerce.
+title: '[!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Storefront]'
+description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Google reCAPTCHA Storefront] de [!UICONTROL Security] &gt ; de l’administrateur Commerce.
 exl-id: 6c03ee68-7421-4c74-bdc1-0855f088b7f9
 feature: Configuration, Security
 source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1480'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Avant de pouvoir configurer Google reCAPTCHA, vous devez vous assurer que votre fichier `PHP.ini` inclut le paramètre suivant : `allow_url_fopen = 1`. Cela peut nécessiter l’aide d’un développeur. Voir [PHP Settings](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=fr) dans le _Installation Guide_.
+>Avant de pouvoir configurer Google reCAPTCHA, vous devez vous assurer que votre fichier `PHP.ini` inclut le paramètre suivant : `allow_url_fopen = 1`. Cela peut nécessiter l’aide d’un développeur. Voir [PHP Settings](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) dans le _Installation Guide_.
 
 {{config}}
 
@@ -44,7 +44,7 @@ Pour plus d’informations sur l’utilisation de Google reCAPTCHA pour sécuris
 | [!UICONTROL Google API Secret Key] | Site internet | Clé secrète associée à votre compte Google reCAPTCHA. |
 | [!UICONTROL Invisible Badge Position] | Site internet | Position du badge reCAPTCHA invisible sur chaque page. Options : `Inline` / `Bottom Right` / `Bottom Left` |
 | [!UICONTROL Theme] | Global | Détermine le style de la zone reCAPTCHA Google. Options : `Light Theme` (par défaut) / `Dark Theme` |
-| [!UICONTROL Language Code] | Affichage de la boutique | Code [&#x200B; à deux caractères](https://developers.google.com/recaptcha/docs/language) qui spécifie la langue utilisée pour le texte et la messagerie reCAPTCHA de Google. |
+| [!UICONTROL Language Code] | Affichage de la boutique | Code [ à deux caractères](https://developers.google.com/recaptcha/docs/language) qui spécifie la langue utilisée pour le texte et la messagerie reCAPTCHA de Google. |
 
 {style="table-layout:auto"}
 
@@ -59,13 +59,13 @@ Pour plus d’informations sur l’utilisation de Google reCAPTCHA pour sécuris
 | [!UICONTROL Minimum Score Threshold] | Global | Score minimal qui identifie une interaction utilisateur comme un risque potentiel, où 1,0 est une interaction utilisateur type et 0,0 est probablement un robot. Valeur par défaut : `0.5` |
 | [!UICONTROL Invisible Badge Position] | Site internet | Position du badge reCAPTCHA invisible sur chaque page. Options : `Inline` / `Bottom Right` / `Bottom Left` |
 | [!UICONTROL Theme] | Site internet | Détermine le style de la zone reCAPTCHA Google. Options : `Light Theme` (par défaut) / `Dark Theme` |
-| [!UICONTROL Language Code] | Affichage de la boutique | Code [&#x200B; à deux caractères](https://developers.google.com/recaptcha/docs/language) qui spécifie la langue utilisée pour le texte et la messagerie reCAPTCHA de Google. |
+| [!UICONTROL Language Code] | Affichage de la boutique | Code [ à deux caractères](https://developers.google.com/recaptcha/docs/language) qui spécifie la langue utilisée pour le texte et la messagerie reCAPTCHA de Google. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA Enterprise]
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
 
 ![reCAPTCHA v3 Enterprise](./assets/recaptcha-storefront-v3-enterprise.png)<!-- zoom -->
 
@@ -77,7 +77,7 @@ Pour plus d’informations sur l’utilisation de Google reCAPTCHA pour sécuris
 | [!UICONTROL Minimum Score Threshold] | Site internet | Score minimal qui identifie une interaction utilisateur comme un risque potentiel, où 1,0 est une interaction utilisateur type et 0,0 est probablement un robot. Valeur par défaut : `0.5` |
 | [!UICONTROL Badge Position] | Site internet | Position du badge reCAPTCHA invisible sur chaque page. Options : `Inline` / `Bottom Right` / `Bottom Left` |
 | [!UICONTROL Theme] | Site internet | Détermine le style de la zone reCAPTCHA Google. Options : `Light Theme` (par défaut) / `Dark Theme` |
-| [!UICONTROL Language Code] | Affichage de la boutique | Code [&#x200B; à deux caractères](https://developers.google.com/recaptcha/docs/language) qui spécifie la langue utilisée pour le texte et la messagerie reCAPTCHA de Google. Laissez le champ vide pour utiliser la langue par défaut du navigateur de l’utilisateur. |
+| [!UICONTROL Language Code] | Affichage de la boutique | Code [ à deux caractères](https://developers.google.com/recaptcha/docs/language) qui spécifie la langue utilisée pour le texte et la messagerie reCAPTCHA de Google. Laissez le champ vide pour utiliser la langue par défaut du navigateur de l’utilisateur. |
 | [!UICONTROL Validation Failure Message] | Affichage de la boutique | Message à afficher lorsque la validation échoue. |
 
 {style="table-layout:auto"}
@@ -107,7 +107,7 @@ Pour plus d’informations sur l’utilisation de Google reCAPTCHA pour sécuris
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--|--|--|
-| [!UICONTROL Enable for Customer Login] | Site internet | Spécifie le type de reCAPTCHA utilisé lorsque les clients [se connectent](../../customers/customer-sign-in.md) à leurs comptes. Options :<br/>**`No`**- (par défaut) Ne valide pas la demande de connexion.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Nécessite que l&#39;utilisateur coche la case _Je ne suis pas un robot_.<br />**`Invisible reCAPTCHA v2`**- Valide le comportement de l’utilisateur en arrière-plan sans nécessiter d’interactions en fonction du score.<br/>**`Invisible reCAPTCHA v3`** - (Recommandé) Valide le comportement de l’utilisateur en arrière-plan en fonction du score d’interaction. |
+| [!UICONTROL Enable for Customer Login] | Site internet | Spécifie le type de reCAPTCHA utilisé lorsque les clients [se connectent](../../customers/customer-sign-in.md) à leurs comptes. Options : <br/>**`No`**- (par défaut) ne valide pas la demande de connexion.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Nécessite que l&#39;utilisateur coche la case _Je ne suis pas un robot_.<br />**`Invisible reCAPTCHA v2`**- Valide le comportement de l’utilisateur en arrière-plan sans nécessiter d’interactions en fonction du score.<br/>**`Invisible reCAPTCHA v3`** - (Recommandé) Valide le comportement de l’utilisateur en arrière-plan en fonction du score d’interaction. |
 | [!UICONTROL Enable for Forgot Password] | Site internet | Indique le type de reCAPTCHA utilisé lorsque les clients demandent une [réinitialisation de mot de passe](../../customers/password-reset.md). Options : <br/>**`No`**- (par défaut) ne valide pas la demande de réinitialisation du mot de passe.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Nécessite que l&#39;utilisateur coche la case _Je ne suis pas un robot_.<br />**`Invisible reCAPTCHA v2`**- Valide le comportement de l’utilisateur en arrière-plan sans nécessiter d’interactions en fonction du score.<br/>**`Invisible reCAPTCHA v3`** - (Recommandé) Valide le comportement de l’utilisateur en arrière-plan en fonction du score d’interaction. |
 | [!UICONTROL Enable for Create New Customer Account] | Site internet | Indique le type de reCAPTCHA utilisé lorsque le client s’inscrit pour un [nouveau compte](../../customers/account-create.md). Options :<br/>**`No`**- (par défaut) Ne valide pas la demande de compte.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Nécessite que l&#39;utilisateur coche la case _Je ne suis pas un robot_.<br />**`Invisible reCAPTCHA v2`**- Valide le comportement de l’utilisateur en arrière-plan sans nécessiter d’interactions en fonction du score.<br/>**`Invisible reCAPTCHA v3`** - (Recommandé) Valide le comportement de l’utilisateur en arrière-plan en fonction du score d’interaction. |
 | [!UICONTROL Enable for Edit Customer Account] | Site internet | Spécifie le type de reCAPTCHA utilisé lorsque le client modifie ses [informations de compte](../../customers/account-dashboard-account-information.md). Options :<br/>**`No`**- (par défaut) Ne valide pas la demande de compte.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Nécessite que l&#39;utilisateur coche la case _Je ne suis pas un robot_.<br />**`Invisible reCAPTCHA v2`**- Valide le comportement de l’utilisateur en arrière-plan sans nécessiter d’interactions en fonction du score.<br/>**`Invisible reCAPTCHA v3`** - (Recommandé) Valide le comportement de l’utilisateur en arrière-plan en fonction du score d’interaction. |
@@ -118,7 +118,7 @@ Pour plus d’informations sur l’utilisation de Google reCAPTCHA pour sécuris
 | [!UICONTROL Enable for Gift Card] | Site internet | ![](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Spécifie le type de reCAPTCHA utilisé lorsque les clients saisissent un code [carte cadeau](../../catalog/product-gift-card-create.md). Options : <br/>**`No`**- (par défaut) Ne valide pas l’envoi du code de carte cadeau.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Nécessite que l&#39;utilisateur coche la case _Je ne suis pas un robot_.<br />**`Invisible reCAPTCHA v2`**- Valide le comportement de l’utilisateur en arrière-plan sans nécessiter d’interactions en fonction du score.<br/>**`Invisible reCAPTCHA v3`** - (Recommandé) Valide le comportement de l’utilisateur en arrière-plan en fonction du score d’interaction. |
 | [!UICONTROL Enable for Invitation Create Account] | Site internet | Spécifie le type de reCAPTCHA utilisé lorsque les clients envoient un code de création de compte [invitation](../../merchandising-promotions/invitations.md). Options : <br/>**`No`**- (par défaut) ne valide pas l’envoi de l’e-mail d’invitation.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Nécessite que l&#39;utilisateur coche la case _Je ne suis pas un robot_.<br />**`Invisible reCAPTCHA v2`**- Valide le comportement de l’utilisateur en arrière-plan sans nécessiter d’interactions en fonction du score.<br/>**`Invisible reCAPTCHA v3`** - (Recommandé) Valide le comportement de l’utilisateur en arrière-plan en fonction du score d’interaction. |
 | [!UICONTROL Enable for Send to Friend] | Site internet | Indique le type de reCAPTCHA utilisé lorsque les clients [partagent un produit](../../stores-purchase/email-a-friend.md) avec un ami. Options : <br/>**`No`**- (par défaut) ne valide pas l’envoi de l’e-mail.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Nécessite que l&#39;utilisateur coche la case _Je ne suis pas un robot_.<br />**`Invisible reCAPTCHA v2`**- Valide le comportement de l’utilisateur en arrière-plan sans nécessiter d’interactions en fonction du score.<br/>**`Invisible reCAPTCHA v3`** - (Recommandé) Valide le comportement de l’utilisateur en arrière-plan en fonction du score d’interaction. |
-| [!UICONTROL Enable for Wishlist Sharing] | Site internet | Indique le type de reCAPTCHA utilisé lorsque les clients [partagent une liste de souhaits](../../stores-purchase/wishlist-storefront.md#share-the-wish-list). Options : <br/>**`No`**- (par défaut) ne valide pas le message et l’envoi de l’e-mail.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Nécessite que l&#39;utilisateur coche la case _Je ne suis pas un robot_.<br />**`Invisible reCAPTCHA v2`**- Valide le comportement de l’utilisateur en arrière-plan sans nécessiter d’interactions en fonction du score.<br/>**`Invisible reCAPTCHA v3`** - (Recommandé) Valide le comportement de l’utilisateur en arrière-plan en fonction du score d’interaction. |
+| [!UICONTROL Enable for Wishlist Sharing] | Site internet | Indique le type de reCAPTCHA utilisé lorsque les clients [partagent une liste de souhaits](../../stores-purchase/wishlist-storefront.md#share-the-wish-list). Options : <br/>**`No`**- (par défaut) ne valide pas l’envoi du message et de l’e-mail.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Nécessite que l&#39;utilisateur coche la case _Je ne suis pas un robot_.<br />**`Invisible reCAPTCHA v2`**- Valide le comportement de l’utilisateur en arrière-plan sans nécessiter d’interactions en fonction du score.<br/>**`Invisible reCAPTCHA v3`** - (Recommandé) Valide le comportement de l’utilisateur en arrière-plan en fonction du score d’interaction. |
 | [!UICONTROL Enable for Coupon Codes] | Site internet | Spécifie le type de reCAPTCHA utilisé lorsque les clients saisissent un [code coupon](../../merchandising-promotions/price-rules-cart-coupon.md). Options : <br/>**`No`**- (par défaut) ne valide pas l’envoi du code de coupon.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Nécessite que l&#39;utilisateur coche la case _Je ne suis pas un robot_.<br />**`Invisible reCAPTCHA v2`**- Valide le comportement de l’utilisateur en arrière-plan sans nécessiter d’interactions en fonction du score.<br/>**`Invisible reCAPTCHA v3`** - (Recommandé) Valide le comportement de l’utilisateur en arrière-plan en fonction du score d’interaction. |
 | [!UICONTROL Enable for PayPal Payflow Pro payment form] | Site internet | Spécifie le type de reCAPTCHA utilisé lorsque les clients paient pour un achat avec [PayPal Payflow Pro](../../stores-purchase/paypal-payflow-pro.md). Options : <br/>**`No`**- (par défaut) ne valide pas la demande de réinitialisation du mot de passe.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Nécessite que l&#39;utilisateur coche la case _Je ne suis pas un robot_.<br />**`Invisible reCAPTCHA v2`**- Valide le comportement de l’utilisateur en arrière-plan sans nécessiter d’interactions en fonction du score.<br/>**`Invisible reCAPTCHA v3`** - (Recommandé) Valide le comportement de l’utilisateur en arrière-plan en fonction du score d’interaction. |
 

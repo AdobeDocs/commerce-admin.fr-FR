@@ -1,19 +1,19 @@
 ---
-title: '[!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector]'
-description: Vérifiez les paramètres de configuration sur la page de [!UICONTROL Commerce Services Connector] d’[!UICONTROL Services] &gt; de l’administrateur Commerce.
+title: '[!UICONTROL Services] > [!UICONTROL Commerce Services Connector]'
+description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Commerce Services Connector] de [!UICONTROL Services] &gt ; de l’administrateur Commerce.
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 0020db425032254fb7661701533d1e700d98260c
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 1%
+source-wordcount: '238'
+ht-degree: 2%
 
 ---
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-Pour savoir comment connecter votre boutique aux services Adobe Commerce, voir [Services Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=fr).
+Pour savoir comment connecter votre boutique aux services Adobe Commerce, voir [Services Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html).
 
 {{config}}
 
@@ -30,7 +30,7 @@ Pour savoir comment connecter votre boutique aux services Adobe Commerce, voir [
 
 ## [!UICONTROL Production Keys]
 
-![&#x200B; Clé API de production &#x200B;](./assets/prod-key-saas-configuration.png)<!-- zoom -->
+![ Clé API de production ](./assets/prod-key-saas-configuration.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -46,13 +46,13 @@ Pour savoir comment connecter votre boutique aux services Adobe Commerce, voir [
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Project] | Global | Nom du projet SaaS qui regroupe tous vos espaces de données SaaS. Le bouton _Créer un projet_ s’affiche s’il n’existe aucun projet SaaS. |
-| [!UICONTROL Data Space] | Global | Répertorie les espaces de données SaaS dans le projet SaaS spécifié. Le nombre d’espaces de données SaaS dépend de votre [licence Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=fr) :<br />Adobe Commerce - Un espace de données de production ; deux espaces de données de test ;<br />Magento Open Source - Un espace de données de production ; aucun espace de données de test |
+| [!UICONTROL Data Space] | Global | Répertorie les espaces de données SaaS dans le projet SaaS spécifié. Le nombre d’espaces de données SaaS dépend de votre [licence ](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html) :<br />Adobe Commerce - Un espace de données de production ; deux espaces de données de test ;<br />Magento Open Source - Un espace de données de production ; aucun espace de données de test |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL IMS Organization]
 
-![&#x200B; Organisation IMS &#x200B;](./assets/ims-organization.png)<!-- zoom -->
+![ Organisation IMS ](./assets/ims-organization.png)<!-- zoom -->
 
 | Champ | Description |
 |--- |--- |
