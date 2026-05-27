@@ -123,7 +123,7 @@ Pour accorder à une personne un accès restreint à l’administrateur, la prem
 
 Regardez cette vidéo pour en savoir plus sur la gestion des rôles utilisateur :
 
->[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443509?captions=fre_fr&quality=12&learn=on)
 
 ## Ressources des rôles
 
