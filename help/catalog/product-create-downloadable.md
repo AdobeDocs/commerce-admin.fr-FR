@@ -5,7 +5,7 @@ exl-id: c3dd4c5f-adc1-4a8f-a9da-7f0dedd1ee34
 feature: Catalog Management, Products
 source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1638'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Les paramètres de configuration téléchargeables déterminent les valeurs par 
 
 ## Créer un produit téléchargeable
 
-Les instructions suivantes illustrent le processus de création d’un produit téléchargeable à l’aide d’un [&#x200B; modèle de produit](attribute-sets.md) de champs obligatoires et de paramètres de base. Chaque champ obligatoire est signalé par un astérisque rouge (`*`). Lorsque vous avez terminé les principes de base, vous pouvez définir les autres paramètres du produit selon vos besoins.
+Les instructions suivantes illustrent le processus de création d’un produit téléchargeable à l’aide d’un [ modèle de produit](attribute-sets.md) de champs obligatoires et de paramètres de base. Chaque champ obligatoire est signalé par un astérisque rouge (`*`). Lorsque vous avez terminé les principes de base, vous pouvez définir les autres paramètres du produit selon vos besoins.
 
 >[!NOTE]
 >
@@ -137,17 +137,17 @@ Le formulaire est mis à jour pour refléter la modification.
 
    - Par défaut, **[!UICONTROL Stock Status]** est défini sur `Out of Stock`.
 
-   - Comme les produits téléchargeables ne sont pas livrés, le champ **[!UICONTROL Weight]** n’est pas utilisé. Si vous activez cette fonctionnalité, elle devient un [produit simple](product-create-simple.md) et le _Ce produit est-il téléchargeable ?L’onglet_ ne peut pas être utilisé.
+   - Comme les produits téléchargeables ne sont pas livrés, le champ **[!UICONTROL Weight]** n’est pas utilisé. Si vous activez cette fonctionnalité, elle devient un [produit simple](product-create-simple.md) et le _Ce produit est-il téléchargeable ?_ L’onglet ne peut pas être utilisé.
 
    >[!NOTE]
    >
-   >Si vous activez [Inventory management](../inventory-management/introduction.md), les commerçants Single Source définissent la quantité dans cette section. Les marchands Multi Source ajoutent des sources et des quantités dans la section Sources . Voir la section suivante _Attribuer des sources et des quantités (Inventory management)_.
+   >Si vous activez [](../inventory-management/introduction.md), les commerçants Single Source définissent la quantité dans cette section. Les marchands Multi Source ajoutent des sources et des quantités dans la section Sources . Voir la section suivante _Attribuer des sources et des quantités (Inventory management)_.
 
 1. Acceptez le paramètre de **[!UICONTROL Visibility]** par défaut de `Catalog, Search`.
 
 1. Pour mettre le produit en avant dans la [liste des nouveaux produits](../content-design/widget-new-products-list.md), cochez la case **[!UICONTROL Set Product as New]**.
 
-1. Pour attribuer des _[!UICONTROL Categories]_&#x200B;au produit, cliquez sur la zone de **[!UICONTROL Select…]**&#x200B;et effectuez l’une des opérations suivantes :
+1. Pour attribuer des _[!UICONTROL Categories]_au produit, cliquez sur la zone de **[!UICONTROL Select…]**et effectuez l’une des opérations suivantes :
 
    **Choisissez une catégorie existante** :
 
@@ -180,13 +180,13 @@ Le formulaire est mis à jour pour refléter la modification.
 
 Faites défiler vers le bas, développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Downloadable Information]_, puis cochez la case **[!UICONTROL Is this downloadable product?]**.
 
-Lorsqu’elle est activée, la section _[!UICONTROL Downloadable Information]_&#x200B;comporte deux parties. La première partie décrit chaque lien de téléchargement et la seconde partie décrit chaque fichier d’exemple. La valeur par défaut de la plupart de ces options peut être définie dans la [configuration](#configure-the-download-options).
+Lorsqu’elle est activée, la section _[!UICONTROL Downloadable Information]_comporte deux parties. La première partie décrit chaque lien de téléchargement et la seconde partie décrit chaque fichier d’exemple. La valeur par défaut de la plupart de ces options peut être définie dans la [configuration](#configure-the-download-options).
 
 ![Informations téléchargeables](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 
 #### Compléter les liens
 
-1. Dans la section _[!UICONTROL Links]_, saisissez le **[!UICONTROL Title]**&#x200B;que vous souhaitez utiliser comme en-tête pour les liens de téléchargement.
+1. Dans la section _[!UICONTROL Links]_, saisissez le **[!UICONTROL Title]**que vous souhaitez utiliser comme en-tête pour les liens de téléchargement.
 
 1. Le cas échéant, cochez la case **[!UICONTROL Links can be purchased separately]** .
 
@@ -201,7 +201,7 @@ Lorsqu’elle est activée, la section _[!UICONTROL Downloadable Information]_&#
 
    >[!NOTE]
    >
-   >Vous ne pouvez pas utiliser de liens vers des ressources externes comme produits téléchargeables. Les domaines de lien valides sont prédéfinis par programmation dans le fichier `env.php` (voir [référence env.php](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=fr) dans le _Guide de configuration_).
+   >Vous ne pouvez pas utiliser de liens vers des ressources externes comme produits téléchargeables. Les domaines de lien valides sont prédéfinis par programmation dans le fichier `env.php` (voir [référence env.php](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html) dans le _Guide de configuration_).
 
    - Définissez **[!UICONTROL Shareable]** sur l’une des options suivantes :
 
@@ -222,7 +222,7 @@ Lorsqu’elle est activée, la section _[!UICONTROL Downloadable Information]_&#
 
 #### Complétez les exemples
 
-1. Dans la section _[!UICONTROL Samples]_, saisissez le **[!UICONTROL Title]**&#x200B;que vous souhaitez utiliser comme en-tête pour les échantillons.
+1. Dans la section _[!UICONTROL Samples]_, saisissez le **[!UICONTROL Title]**que vous souhaitez utiliser comme en-tête pour les échantillons.
 
 1. Pour compléter les informations de chaque échantillon, cliquez sur **[!UICONTROL Add Link]**.
 
@@ -274,7 +274,7 @@ Dans le menu _[!UICONTROL Save]_( ![flèche du menu](../assets/icon-menu-down-ar
 
 ## Expérience Storefront
 
-Dans le tableau de bord du compte client, la page _[!UICONTROL My Downloadable Products]_&#x200B;renvoie vers chaque commande de produits téléchargeables. Les téléchargements sont disponibles à partir du compte du client une fois la commande terminée.
+Dans le tableau de bord du compte client, la page _[!UICONTROL My Downloadable Products]_renvoie vers chaque commande de produits téléchargeables. Les téléchargements sont disponibles à partir du compte du client une fois la commande terminée.
 
 ![Mes produits téléchargeables](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
 
@@ -288,7 +288,7 @@ Le tableau suivant décrit les valeurs _Mes produits téléchargeables_ :
 | [!UICONTROL Status] | Statut du traitement de la commande. |
 | [!UICONTROL Remaining Downloads] | Nombre de téléchargements disponibles du produit téléchargé. |
 
-_&#x200B;**Pour télécharger un fichier de produit à partir du tableau de bord du compte**&#x200B;_
+_**Pour télécharger un fichier de produit à partir du tableau de bord du compte**_
 
 1. Dans le tableau de bord de son compte, le client choisit **[!UICONTROL My Downloadable Products]**.
 

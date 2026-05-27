@@ -5,7 +5,7 @@ exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
 source-git-commit: 9ba2b4f7847559e2c59c7bec3b87781c12270712
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1960'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Par défaut, Commerce prend en charge deux méthodes de création de codes de co
 1. Création d’un code de coupon spécifique unique
 1. Génération de plusieurs codes de coupon _aléatoires_
 
-Si vous avez déjà une liste de codes coupon que vous souhaitez importer et associer à une règle de prix de panier, vous devez envisager d’utiliser une extension du [Commerce Marketplace](https://marketplace.magento.com/).
+Si vous avez déjà une liste de codes coupon que vous souhaitez importer et associer à une règle de prix de panier, vous devez envisager d’utiliser une extension du [](https://marketplace.magento.com/).
 
 >[!ENDSHADEBOX]
 
@@ -73,17 +73,17 @@ La longueur et le format des codes coupon générés automatiquement sont contr�
 
 >[!NOTE]
 >
->[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Avant de créer des coupons, utilisez la commande `bin/magento cron:run` pour vérifier que cron est en cours d’exécution. Voir [Exécuter cron à partir de la ligne de commande](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=fr#run-cron-from-the-command-line) dans le _Guide de configuration_ pour plus d’informations.
+>[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Avant de créer des coupons, utilisez la commande `bin/magento cron:run` pour vérifier que cron est en cours d’exécution. Voir [Exécuter cron à partir de la ligne de commande](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) dans le _Guide de configuration_ pour plus d’informations.
 
 ### Méthode 1 : créer un coupon spécifique
 
-1. Suivez les instructions pour créer une [&#x200B; règle de prix de panier &#x200B;](price-rules-cart.md).
+1. Suivez les instructions pour créer une [ règle de prix de panier ](price-rules-cart.md).
 
 1. Dans la section **[!UICONTROL Rule Information]**, définissez **[!UICONTROL Coupon]** sur `Specific Coupon`.
 
 1. Saisissez un **[!UICONTROL Coupon Code]** à utiliser avec la promotion.
 
-   Le format du code (numérique, alphanumérique ou alphabétique) est déterminé par la [&#x200B; configuration &#x200B;](#configure-coupon-codes).
+   Le format du code (numérique, alphanumérique ou alphabétique) est déterminé par la [ configuration ](#configure-coupon-codes).
 
 1. Pour limiter le nombre de fois où le coupon peut être utilisé, procédez comme suit :
 
@@ -100,9 +100,9 @@ La longueur et le format des codes coupon générés automatiquement sont contr�
 
 1. Pour rendre le coupon valide pour une période donnée, procédez comme suit :
 
-   - ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Complétez les dates **De** et **À**. Pour sélectionner la date, cliquez sur l’icône **Calendrier** (![icône Calendrier](../assets/icon-calendar.png)) en regard de chaque champ. Si vous laissez la période vide, la règle n’expire pas.
+   - ![](../assets/open-source.svg) (Magento Open Source uniquement) Complétez les dates **De** et **À**. Pour sélectionner la date, cliquez sur l’icône **Calendrier** (![icône Calendrier](../assets/icon-calendar.png)) en regard de chaque champ. Si vous laissez la période vide, la règle n’expire pas.
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Effectuez l’une des opérations suivantes :
+   - ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Effectuez l’une des opérations suivantes :
 
      **Option 1 :** Planifier une nouvelle mise à jour
 
@@ -130,7 +130,7 @@ La longueur et le format des codes coupon générés automatiquement sont contr�
 
 La génération des coupons de remise est une opération asynchrone, qui s’exécute en arrière-plan afin que vous puissiez continuer à travailler dans l’administration sans attendre que l’opération se termine. Le système affiche un message lorsque la tâche est terminée.
 
-1. Suivez les instructions pour créer une [&#x200B; règle de prix de panier &#x200B;](price-rules-cart.md).
+1. Suivez les instructions pour créer une [ règle de prix de panier ](price-rules-cart.md).
 
 1. Sous **[!UICONTROL Coupon Code]**, cochez la case **[!UICONTROL Use Auto Generation]** .
 
@@ -237,13 +237,13 @@ Dans l’exemple suivant, le code de coupon « H20 » a été utilisé par deux 
 
 | Champ | Description |
 |--- |--- |
-| [!UICONTROL Date Used] | Identifie le champ de date utilisé comme base du rapport. Options : <br/>**[!UICONTROL Order Created]**&#x200B;génère l&#39;état en fonction de la date à laquelle la commande a été passée par le client. Pour vous assurer que les données les plus récentes sont incluses, cliquez sur le lien dans le message pour actualiser les statistiques.<br/>**[!UICONTROL Order Updated]** : génère l&#39;état en fonction de la date de la dernière mise à jour des commandes. Ce rapport utilise des données en temps réel et ne nécessite pas d’actualisation des statistiques. |
+| [!UICONTROL Date Used] | Identifie le champ de date utilisé comme base du rapport. Options : <br/>**[!UICONTROL Order Created]**génère l&#39;état en fonction de la date à laquelle la commande a été passée par le client. Pour vous assurer que les données les plus récentes sont incluses, cliquez sur le lien dans le message pour actualiser les statistiques.<br/>**[!UICONTROL Order Updated]** : génère l&#39;état en fonction de la date de la dernière mise à jour des commandes. Ce rapport utilise des données en temps réel et ne nécessite pas d’actualisation des statistiques. |
 | [!UICONTROL Period] | Détermine le type de période utilisé pour le rapport. Options : `Day` / `Month` / `Year` |
 | [!UICONTROL From] | Indique la première date de la plage de données de commande incluse dans l&#39;état. |
 | [!UICONTROL To] | Indique la dernière date de la plage de données de commande incluse dans l&#39;état. |
 | [!UICONTROL Order Status] | Filtre le rapport par statut de commande. L&#39;état peut être généré pour toutes les commandes ou peut être limité à un statut de commande spécifique. Options : <br/>**[!UICONTROL Any]**: inclut toutes les commandes, quel que soit leur statut.<br/>**[!UICONTROL Specified]** : inclut uniquement les commandes avec le statut spécifié. Les commandes annulées ne sont pas incluses dans l&#39;état. |
 | [!UICONTROL Empty Rows] | Détermine si le rapport inclut des lignes de données vides qui pourraient être récupérées. Options : `Yes` / `No` |
-| [!UICONTROL Cart Price Rules] | Détermine les promotions de coupon incluses dans le rapport. Options : <br/>**[!UICONTROL Any]**: inclut des informations sur la commande pour toute promotion de coupon utilisée pendant la période spécifiée.<br/>**[!UICONTROL Specified]** : inclut uniquement les informations de commande pour la promotion de coupon sélectionnée au cours de la période spécifiée. |
+| [!UICONTROL Cart Price Rules] | Détermine les promotions de coupon incluses dans le rapport. Options : <br/>**[!UICONTROL Any]**: inclut des informations de commande pour toute promotion de coupon utilisée pendant la période spécifiée.<br/>**[!UICONTROL Specified]** : inclut uniquement des informations de commande pour la promotion de coupon sélectionnée pendant la période spécifiée. |
 
 {style="table-layout:auto"}
 

@@ -5,7 +5,7 @@ exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
 source-git-commit: 80cc27c4247230eb5e43bca46a34d358f9f0bcea
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Une facture pour la commande doit être générée avant de pouvoir être imprim
 
    >[!NOTE]
    >
-   >L’option _[!UICONTROL Invoice]_&#x200B;n’apparaît pas lorsque l’option [action de paiement](../configuration-reference/sales/payment-methods.md#payment-actions) pour votre [mode de paiement](../configuration-reference/sales/payment-methods.md) spécifique est définie sur `Authorize and Capture`, ce qui génère automatiquement une facture. C&#39;est également le cas si la commande est passée et que l&#39;action de paiement pour votre mode de paiement est définie sur `Authorize` et que la commande est facturée.
+   >L’option _[!UICONTROL Invoice]_n’apparaît pas lorsque l’option [action de paiement](../configuration-reference/sales/payment-methods.md#payment-actions) pour votre [mode de paiement](../configuration-reference/sales/payment-methods.md) spécifique est définie sur `Authorize and Capture`, ce qui génère automatiquement une facture. C&#39;est également le cas si la commande est passée et que l&#39;action de paiement pour votre mode de paiement est définie sur `Authorize` et que la commande est facturée.
 
    ![Commande client de facture](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -121,7 +121,7 @@ Une facture pour la commande doit être générée avant de pouvoir être imprim
 
 ## Imprimer les factures
 
-Les factures peuvent être imprimées individuellement ou en lot. Toutefois, avant qu&#39;une facture puisse être imprimée, elle doit d&#39;abord être générée pour la commande. Vous pouvez charger un logo haute résolution pour une facture PDF prête à être imprimée et inclure l’[ID de commande](../stores-purchase/sales-documents.md#add-reference-ids) dans l’en-tête. Pour personnaliser le modèle de facture avec votre logo et votre adresse, consultez [Conditions requises pour le logo PDF](../stores-purchase/sales-documents.md#image-formats).
+Les factures peuvent être imprimées individuellement ou en lot. Toutefois, avant qu&#39;une facture puisse être imprimée, elle doit d&#39;abord être générée pour la commande. Vous pouvez charger un logo haute résolution pour une facture PDF prête à être imprimée et inclure l’[ID de commande](../stores-purchase/sales-documents.md#add-reference-ids) dans l’en-tête. Pour personnaliser le modèle de facture avec votre logo et votre adresse, consultez [Conditions requises pour le logo ](../stores-purchase/sales-documents.md#image-formats).
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ Les factures peuvent être imprimées individuellement ou en lot. Toutefois, ava
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Dans la grille de _[!UICONTROL Invoices]_, recherchez la facture et cliquez sur **[!UICONTROL View]**&#x200B;dans la colonne_ Action _.
+1. Dans la grille de _[!UICONTROL Invoices]_, recherchez la facture et cliquez sur **[!UICONTROL View]**dans la colonne_ Action _.
 
 1. Dans la partie supérieure de la facture, cliquez sur **[!UICONTROL Print]** pour générer un PDF de la facture.
 
@@ -151,7 +151,7 @@ Les factures sont enregistrées dans un seul fichier PDF qui peut être envoyé 
 
 ## Quantités de capture personnalisées
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
 
 Pour offrir aux commerçants une plus grande flexibilité pour les captures partielles et les scénarios de paiement spécialisés, l’API Invoice prend en charge les montants de capture personnalisés à l’aide d’attributs d’extension.
 
