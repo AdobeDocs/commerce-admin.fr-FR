@@ -18,7 +18,7 @@ Les modules linguistiques se trouvent sous [Traductions et localisation](https:/
 
 ## Étape 1 : installer un module linguistique
 
-Suivez les instructions standard pour installer l’extension du module linguistique. Pour plus d’informations sur l’installation d’une extension, voir [Installation de l’interface de ligne de commande générale](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) dans le _Guide des extensions_.
+Suivez les instructions standard pour installer l’extension du module linguistique. Pour plus d’informations sur l’installation d’une extension, voir [Installation de l’interface de ligne de commande générale](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=fr) dans le _Guide des extensions_.
 
 ## Étape 2 : créer une vue de magasin pour la langue
 

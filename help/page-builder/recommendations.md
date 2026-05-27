@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Ajouter du contenu - Recommandations de produits
 
-Utilisez le type de contenu _Recommandations de produits_ pour ajouter une [unité de recommandation](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) active existante à l’[[!DNL Page Builder] étape](workspace.md#stage) pour une page, un bloc ou un bloc dynamique CMS.
+Utilisez le type de contenu _Recommandations de produits_ pour ajouter une [unité de recommandation](https://experienceleague.adobe.com/fr/docs/commerce/product-recommendations/admin/create) active existante à l’[[!DNL Page Builder] étape](workspace.md#stage) pour une page, un bloc ou un bloc dynamique CMS.
 
 >[!NOTE]
 >
->Le type de contenu [!DNL Page Builder] _Product Recommendations_ est pris en charge dans Adobe Commerce version 2.4.4 et ultérieure et disponible dans le métapaquet [Product Recommendations version 3.0.x ou ultérieure](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Pour ajouter [!DNL Page Builder] prise en charge des recommandations de produits, [voir les informations d’installation](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure). **Ce type de contenu n’est pas disponible pour Magento Open Source.**
+>Le type de contenu [!DNL Page Builder] _Product Recommendations_ est pris en charge dans Adobe Commerce version 2.4.4 et ultérieure et disponible dans le métapaquet [Product Recommendations version 3.0.x ou ultérieure](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Pour ajouter [!DNL Page Builder] prise en charge des recommandations de produits, [voir les informations d’installation](https://experienceleague.adobe.com/fr/docs/commerce/product-recommendations/getting-started/install-configure). **Ce type de contenu n’est pas disponible pour Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +37,7 @@ Utilisez le type de contenu _Recommandations de produits_ pour ajouter une [unit
 
 ## Ajouter une unité de recommandation existante
 
-1. Assurez-vous d’avoir déjà [créé une unité de recommandation](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) pour le type de page [!DNL Page Builder].
+1. Assurez-vous d’avoir déjà [créé une unité de recommandation](https://experienceleague.adobe.com/fr/docs/commerce/product-recommendations/admin/create) pour le type de page [!DNL Page Builder].
 
 >[!NOTE]
 >
