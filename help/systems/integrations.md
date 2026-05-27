@@ -4,10 +4,10 @@ description: Découvrez comment configurer les informations d’identification O
 exl-id: b7632994-b07b-4cdb-b62c-79bc7a3a01c8
 role: Admin, Developer
 feature: System, Integration, Configuration
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 La définition d’une intégration dans Commerce Admin établit l’emplacement des informations d’identification OAuth et de l’URL de redirection pour les intégrations tierces, et identifie les ressources d’API disponibles qui sont nécessaires à l’intégration. Pour plus d’informations sur le processus d’enregistrement de l’intégration, consultez [Authentification basée sur OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) dans la documentation du développeur de Commerce.
 
-![&#x200B; Intégrations &#x200B;](./assets/integrations.png){width="700" zoomable="yes"}
+![ Intégrations ](./assets/integrations.png){width="700" zoomable="yes"}
 
 ## Workflow d’intégration
 
@@ -81,7 +81,7 @@ Pour générer un nouveau jeton d’accès à l’intégration et un nouveau sec
 
 1. Recherchez l’intégration avec le statut **[!UICONTROL Active]** .
 
-1. Dans _[!UICONTROL Activate]_&#x200B;colonne, cliquez sur le **[!UICONTROL Reauthorize]**.
+1. Dans _[!UICONTROL Activate]_colonne, cliquez sur le **[!UICONTROL Reauthorize]**.
 
 1. Cliquez sur **[!UICONTROL Reauthorize]** pour approuver l’accès aux ressources de l’API.
 

@@ -4,10 +4,10 @@ description: Découvrez comment configurer les coordonnées et les liens liés �
 exl-id: 47b95505-51a3-4b7a-a4e3-dbc4b0045797
 role: Admin
 feature: Configuration, Security
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Le fichier `security.txt` contient des coordonnées et des liens liés à la sé
 
 1. Dans le panneau de gauche sous _[!UICONTROL Security]_, cliquez sur **[!UICONTROL Security.txt]**.
 
-1. Dans la section _[!UICONTROL General]_, définissez **[!UICONTROL Enable]**&#x200B;sur `Yes`.
+1. Dans la section _[!UICONTROL General]_, définissez **[!UICONTROL Enable]**sur `Yes`.
 
    ![Configuration générale de la sécurité](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 
