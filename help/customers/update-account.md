@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Mise à jour d’un profil client
 
-Le panneau de gauche de la page _[!UICONTROL Customer Information]_contient des informations sur l’activité des clients, les adresses, les statistiques des commandes, les commandes récentes, le contenu des paniers, les avis de produits et les abonnements aux newsletters.
+Le panneau de gauche de la page _[!UICONTROL Customer Information]_&#x200B;contient des informations sur l’activité des clients, les adresses, les statistiques des commandes, les commandes récentes, le contenu des paniers, les avis de produits et les abonnements aux newsletters.
 
 ![Profil client](assets/cust-profile.png){width="700" zoomable="yes"}
 
@@ -27,7 +27,7 @@ Méthode 1 : **_Modification rapide_**
    >
    >La valeur de chaque valeur qui peut être mise à jour apparaît dans une zone de texte. Seules certaines valeurs de l’enregistrement client sélectionné peuvent être modifiées à partir de la grille.
 
-   ![ Modification rapide ](assets/customers-grid-quick-edit.png){width="700" zoomable="yes"}
+   ![&#x200B; Modification rapide &#x200B;](assets/customers-grid-quick-edit.png){width="700" zoomable="yes"}
 
 1. Mettez à jour l’une des valeurs suivantes, si nécessaire :
 
@@ -64,7 +64,7 @@ L’onglet _Affichage du client_ répertorie les informations sur le client, not
 
 ### [!UICONTROL Account Information]
 
-L’onglet [ Informations du compte ](../customers/account-dashboard-account-information.md) fournit des informations détaillées sur le client. Un utilisateur administrateur peut alors modifier ses informations personnelles, son adresse e-mail, l’assistance pour les achats à distance, sa date de naissance et joindre le client à un site web ou à une société.
+L’onglet [&#x200B; Informations du compte &#x200B;](../customers/account-dashboard-account-information.md) fournit des informations détaillées sur le client. Un utilisateur administrateur peut alors modifier ses informations personnelles, son adresse e-mail, l’assistance pour les achats à distance, sa date de naissance et joindre le client à un site web ou à une société.
 
 ### [!UICONTROL Addresses]
 

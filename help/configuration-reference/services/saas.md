@@ -30,7 +30,7 @@ Pour savoir comment connecter votre boutique aux services Adobe Commerce, voir [
 
 ## [!UICONTROL Production Keys]
 
-![ Clé API de production ](./assets/prod-key-saas-configuration.png)<!-- zoom -->
+![&#x200B; Clé API de production &#x200B;](./assets/prod-key-saas-configuration.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -46,13 +46,13 @@ Pour savoir comment connecter votre boutique aux services Adobe Commerce, voir [
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Project] | Global | Nom du projet SaaS qui regroupe tous vos espaces de données SaaS. Le bouton _Créer un projet_ s’affiche s’il n’existe aucun projet SaaS. |
-| [!UICONTROL Data Space] | Global | Répertorie les espaces de données SaaS dans le projet SaaS spécifié. Le nombre d’espaces de données SaaS dépend de votre [licence ](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html) :<br />Adobe Commerce - Un espace de données de production ; deux espaces de données de test ;<br />Magento Open Source - Un espace de données de production ; aucun espace de données de test |
+| [!UICONTROL Data Space] | Global | Répertorie les espaces de données SaaS dans le projet SaaS spécifié. Le nombre d’espaces de données SaaS dépend de votre [licence &#x200B;](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html) :<br />Adobe Commerce - Un espace de données de production ; deux espaces de données de test ;<br />Magento Open Source - Un espace de données de production ; aucun espace de données de test |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL IMS Organization]
 
-![ Organisation IMS ](./assets/ims-organization.png)<!-- zoom -->
+![&#x200B; Organisation IMS &#x200B;](./assets/ims-organization.png)<!-- zoom -->
 
 | Champ | Description |
 |--- |--- |

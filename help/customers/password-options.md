@@ -47,7 +47,7 @@ Les options de mot de passe du client déterminent le niveau de sécurité utili
 
    - Définissez **[!UICONTROL Reset Password Template]** sur le modèle utilisé lorsque les clients changent leur mot de passe.
 
-   - Définissez **[!UICONTROL Password Template Email Sender]** sur le [ contact du magasin ](../getting-started/store-details.md) qui s’affiche comme l’expéditeur des notifications liées aux mots de passe.
+   - Définissez **[!UICONTROL Password Template Email Sender]** sur le [&#x200B; contact du magasin &#x200B;](../getting-started/store-details.md) qui s’affiche comme l’expéditeur des notifications liées aux mots de passe.
 
 1. Renseignez les options de sécurité de réinitialisation de mot de passe suivantes :
 

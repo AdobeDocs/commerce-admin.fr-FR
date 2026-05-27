@@ -38,7 +38,7 @@ ht-degree: 0%
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Email Associated with PayPal Merchant Account] | Site internet | Spécifie l&#39;adresse e-mail que vous avez spécifiée lors de la création de votre compte marchand PayPal. L’adresse e-mail est sensible à la casse et doit correspondre exactement à votre adresse e-mail dans le système PayPal. |
-| [!UICONTROL API Authentication Methods] | Site internet | Détermine la méthode utilisée pour l’authentification API. Options : <br/>**`API Signature`**- affiche le champ _[!UICONTROL API Signature]_dans le formulaire.<br/>**`API Certificate`**: affiche le champ_[!UICONTROL API Certificate]_ dans le formulaire. |
+| [!UICONTROL API Authentication Methods] | Site internet | Détermine la méthode utilisée pour l’authentification API. Options : <br/>**`API Signature`**- affiche le champ _[!UICONTROL API Signature]_&#x200B;dans le formulaire.<br/>**`API Certificate`**: affiche le champ&#x200B;_[!UICONTROL API Certificate]_ dans le formulaire. |
 | [!UICONTROL API Username] | Site internet | Nom d’utilisateur de l’API associé à votre compte marchand PayPal. |
 | [!UICONTROL API Password] | Site internet | Mot de passe API associé à votre compte marchand PayPal. |
 | [!UICONTROL API Signature] | Site internet | La signature d&#39;API associée à votre compte marchand PayPal. |
