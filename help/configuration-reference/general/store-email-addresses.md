@@ -18,7 +18,7 @@ Voir [Stockage des adresses e-mail](../../getting-started/store-details.md#store
 
 ## [!UICONTROL General]
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
 
 ![Stocker les adresses électroniques > Contact général](./assets/store-email-addresses-general-general.png)<!-- zoom -->
 
