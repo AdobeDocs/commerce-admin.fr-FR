@@ -67,7 +67,7 @@ Définissez les paramètres de chaque méthode 2FA dont vous avez besoin.
 
 Pour modifier la durée pendant laquelle le mot de passe à usage unique (OTP) est disponible lors de la connexion, décochez la case **[!UICONTROL Use system value]**. Saisissez ensuite le nombre de secondes pendant lesquelles vous souhaitez que le **[!UICONTROL OTP Window]** soit valide.
 
-![ Configuration de la sécurité - Google ](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
+![&#x200B; Configuration de la sécurité - Google &#x200B;](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >

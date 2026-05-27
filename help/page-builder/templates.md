@@ -28,11 +28,11 @@ Dans la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICON
 
 1. Au-dessus de la scène, cliquez sur **[!UICONTROL Save as Template]** en haut à droite.
 
-   ![[!DNL Page Builder] l’étape avec le bouton Enregistrer en tant que modèle ](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] l’étape avec le bouton Enregistrer en tant que modèle &#x200B;](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
 
    Cette action affiche la boîte de dialogue _[!UICONTROL Save Content as Template]_.
 
-   ![[!DNL Page Builder] boîte de dialogue Enregistrer en tant que modèle ](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
+   ![[!DNL Page Builder] boîte de dialogue Enregistrer en tant que modèle &#x200B;](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
 
 1. Par **[!UICONTROL Template Name]**, saisissez un nom unique pour le modèle.
 
@@ -54,13 +54,13 @@ Vous pouvez appliquer un modèle à une zone de contenu [!DNL Page Builder] (pag
 
 1. Dans la zone de contenu, cliquez sur **[!UICONTROL Apply Template]** en haut à droite.
 
-   ![[!DNL Page Builder] bouton Appliquer le modèle ](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] bouton Appliquer le modèle &#x200B;](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
-1. Sélectionnez un modèle dans la grille de _[!UICONTROL Apply Template]_et cliquez sur **[!UICONTROL Apply]**à la fin de la ligne.
+1. Sélectionnez un modèle dans la grille de _[!UICONTROL Apply Template]_&#x200B;et cliquez sur **[!UICONTROL Apply]**&#x200B;à la fin de la ligne.
 
    Pour afficher le modèle entier, vous pouvez cliquer sur l’image miniature du modèle. Cette action développe l’image afin que vous puissiez afficher l’ensemble du modèle si nécessaire.
 
-   ![[!DNL Page Builder] Appliquer la grille de modèle ](./assets/pb-templates-apply-slideout-nofilters.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] Appliquer la grille de modèle &#x200B;](./assets/pb-templates-apply-slideout-nofilters.png){width="600" zoomable="yes"}
 
 ## Suppression d’un modèle
 
@@ -85,7 +85,7 @@ La grille de page _Appliquer le modèle_ et la grille de page _Modèles_ offrent
    - Nom du modèle (**[!UICONTROL Template Name]**)
    - Zone de contenu désignée (**[!UICONTROL Created For]**)
 
-![[!DNL Page Builder] Appliquer la grille de modèle ](./assets/pb-templates-apply-slideout-withfilters.png){width="600" zoomable="yes"}
+![[!DNL Page Builder] Appliquer la grille de modèle &#x200B;](./assets/pb-templates-apply-slideout-withfilters.png){width="600" zoomable="yes"}
 
 ## Démonstration des modèles de contenu
 

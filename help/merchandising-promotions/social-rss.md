@@ -22,7 +22,7 @@ Les sites de réseaux sociaux disposent de nombreux plug-ins qui peuvent être f
 
 >[!NOTE]
 >
->Adobe Commerce a supprimé l’intégration native de _Magento Social_ Facebook et ne prend plus en charge l’extension. Accédez à [](https://marketplace.magento.com/catalogsearch/result/?q=Facebook){:target="_blank"} pour trouver d&#39;autres extensions pour l&#39;intégration Facebook.
+>Adobe Commerce a supprimé l’intégration native de _Magento Social_ Facebook et ne prend plus en charge l’extension. Accédez à [&#128279;](https://marketplace.magento.com/catalogsearch/result/?q=Facebook){:target="_blank"} pour trouver d&#39;autres extensions pour l&#39;intégration Facebook.
 
 ### Étape 1. Obtenir le code du bouton
 
@@ -95,7 +95,7 @@ Les sites de réseaux sociaux disposent de nombreux plug-ins qui peuvent être f
 
    - Saisissez un nombre dans le champ **[!UICONTROL Sort Order]** pour déterminer l’ordre du bloc s’il est affecté à apparaître au même emplacement sur la page que les autres éléments de contenu. La position supérieure est zéro.
 
-1. Dans la section _[!UICONTROL Layout Updates]_, cliquez sur **[!UICONTROL Add Layout Update]**et définissez **[!UICONTROL Display On]**à la catégorie, au produit ou à la page où vous souhaitez que le bloc apparaisse.
+1. Dans la section _[!UICONTROL Layout Updates]_, cliquez sur **[!UICONTROL Add Layout Update]**&#x200B;et définissez **[!UICONTROL Display On]**&#x200B;à la catégorie, au produit ou à la page où vous souhaitez que le bloc apparaisse.
 
    Par exemple, si vous choisissez `All Pages` et positionnez le bloc dans l’en-tête ou le pied de page, le bloc apparaît au même endroit sur chaque page du magasin.
 

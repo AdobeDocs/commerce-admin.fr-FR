@@ -56,7 +56,7 @@ La taxe au magasin est calculée en fonction de l’adresse du magasin. La taxe 
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
 
-1. Recherchez le taux de taxe dans la grille de _[!UICONTROL Tax Zones and Rates]_et ouvrez l&#39;enregistrement en mode d&#39;édition.
+1. Recherchez le taux de taxe dans la grille de _[!UICONTROL Tax Zones and Rates]_&#x200B;et ouvrez l&#39;enregistrement en mode d&#39;édition.
 
    Si la liste contient de nombreux taux, utilisez les [contrôles de filtre](../getting-started/admin-grid-controls.md) pour trouver le taux dont vous avez besoin.
 

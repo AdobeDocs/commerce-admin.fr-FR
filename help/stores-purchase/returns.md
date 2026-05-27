@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Renvoie
 
-Une _autorisation de retour de marchandise_ (RMA) peut être accordée aux clients qui demandent à renvoyer un article pour le remplacer ou le rembourser. En règle générale, le client contacte le commerçant pour demander un remboursement. En cas d&#39;approbation, un numéro RMA unique est attribué pour identifier le produit renvoyé. Dans la configuration, vous pouvez activer RMA pour tous les produits ou autoriser RMA pour certains produits uniquement. La grille _[!UICONTROL Returns]_répertorie les demandes de retour de marchandises (RMA) actuelles et permet de saisir de nouvelles demandes de retour.
+Une _autorisation de retour de marchandise_ (RMA) peut être accordée aux clients qui demandent à renvoyer un article pour le remplacer ou le rembourser. En règle générale, le client contacte le commerçant pour demander un remboursement. En cas d&#39;approbation, un numéro RMA unique est attribué pour identifier le produit renvoyé. Dans la configuration, vous pouvez activer RMA pour tous les produits ou autoriser RMA pour certains produits uniquement. La grille _[!UICONTROL Returns]_&#x200B;répertorie les demandes de retour de marchandises (RMA) actuelles et permet de saisir de nouvelles demandes de retour.
 
 ![Renvoie la grille](./assets/return.png){width="600" zoomable="yes"}
 
