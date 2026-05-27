@@ -5,7 +5,7 @@ exl-id: 757dbdc3-b146-4ef8-a17d-59f8da62626f
 feature: Page Builder, Page Content
 source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
-source-wordcount: '3810'
+source-wordcount: '3813'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Lorsque vous utilisez le type de contenu Curseur, vous ajoutez et modifiez des d
 
 | Outil | Icon | Description |
 |--- |--- |--- |
-| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace la diapositive vers une autre position sur le curseur. |
+| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace la diapositive vers une autre position sur le curseur. |
 | (libellé) | Diapositive # | Indique le numéro de la diapositive en cours. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _[!UICONTROL Edit Slide]_, dans laquelle vous pouvez modifier les propriétés de la diapositive active. |
 | Dupliquer | ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="25"} | Effectue une copie de la diapositive active. |
@@ -40,7 +40,7 @@ Lorsque vous utilisez le type de contenu Curseur, vous ajoutez et modifiez des d
 
 | Outil | Icon | Description |
 |--- |--- |--- |
-| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le curseur vers une autre position sur la scène. |
+| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le curseur vers une autre position sur la scène. |
 | (libellé) | [!UICONTROL Slider] | Identifie le conteneur de curseur. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _[!UICONTROL Edit Slider]_, où vous pouvez modifier les propriétés de la vidéo et du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le curseur actif. |
@@ -144,7 +144,7 @@ Vous pouvez ajouter n’importe quel [type de widget](../content-design/widgets.
 
 1. Spécifiez les paramètres, qui sont différents selon le type de widget
 
-   ![&#x200B; Exemple d’insertion d’un widget sur la diapositive &#x200B;](./assets/insert-widget-to-slide-page.png){width="600" zoomable="yes"}
+   ![ Exemple d’insertion d’un widget sur la diapositive ](./assets/insert-widget-to-slide-page.png){width="600" zoomable="yes"}
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Insert Widget]** dans le coin supérieur droit.
 
@@ -256,7 +256,7 @@ Un type d’arrière-plan peut être une image ou une vidéo. [!DNL Page Builder
 
 ### Paramètres de type d’image
 
-Si vous définissez la _[!UICONTROL Background Type]_&#x200B;sur `Image`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
+Si vous définissez la _[!UICONTROL Background Type]_sur `Image`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
 
 ![Bannière avec image de fond](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -266,7 +266,7 @@ Si vous définissez la _[!UICONTROL Background Type]_&#x200B;sur `Image`, utilis
   | ---- | ----------- |
   | [!UICONTROL Upload] | Télécharge un fichier image de votre ordinateur local dans la galerie, puis l’applique comme image d’arrière-plan pour la bannière. |
   | [!UICONTROL Select from Gallery] | Vous invite à choisir une image existante de la galerie comme image d’arrière-plan pour la bannière. |
-  | ![&#x200B; Icône Appareil photo &#x200B;](./assets/pb-icon-camera.png){width="25"} | Vous permet de faire glisser l’image vers la mosaïque de la caméra ou d’accéder à l’image dans votre système de fichiers local. |
+  | ![ Icône Appareil photo ](./assets/pb-icon-camera.png){width="25"} | Vous permet de faire glisser l’image vers la mosaïque de la caméra ou d’accéder à l’image dans votre système de fichiers local. |
 
   {style="table-layout:auto"}
 
@@ -338,9 +338,9 @@ Vous pouvez modifier le contenu de la diapositive directement sur la scène ou l
 
 1. Cliquez sur le point de navigation en bas du curseur pour afficher la palette d’outils de la diapositive et sélectionnez l’icône _Paramètres_ ( ![icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Dans la section _[!UICONTROL Content]_, saisissez le **[!UICONTROL Message Text]**&#x200B;que vous souhaitez afficher avec la diapositive.
+1. Dans la section _[!UICONTROL Content]_, saisissez le **[!UICONTROL Message Text]**que vous souhaitez afficher avec la diapositive.
 
-1. Faites défiler jusqu’à la section _[!UICONTROL Content]_&#x200B;et utilisez l’éditeur de **[!UICONTROL Message Text]**&#x200B;pour saisir et mettre en forme le texte de la bannière.
+1. Faites défiler jusqu’à la section _[!UICONTROL Content]_et utilisez l’éditeur de **[!UICONTROL Message Text]**pour saisir et mettre en forme le texte de la bannière.
 
    Vous pouvez également insérer des éléments, tels que des liens de texte, des images et des widgets.
 

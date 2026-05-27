@@ -5,7 +5,7 @@ exl-id: 8ef38669-a6f6-493b-b963-b0fc4e3bbff4
 feature: Page Builder, Page Content, Products
 source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Les instructions suivantes indiquent comment ajouter une liste Produits à un bl
 
 | Outil | Icon | Description |
 | --------- | ------------- | ----------------- |
-| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de produits et son contenu vers un autre emplacement sur la scène. |
+| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de produits et son contenu vers un autre emplacement sur la scène. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _Modifier les produits_, dans laquelle vous pouvez choisir la liste de produits et modifier les propriétés du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le conteneur de produits actuel et son contenu. |
 | Afficher | ![Afficher l’icône](./assets/pb-icon-show.png){width="25"} | Affiche le conteneur de produits masqué et son contenu. |
@@ -189,7 +189,7 @@ Renseignez les _Paramètres_ en vous reportant aux sections suivantes :
 
    Lorsque ce paramètre est défini sur la valeur par défaut (`Yes`), des points de navigation s’affichent au bas du curseur du carrousel. Si vous désactivez ce paramètre, le curseur du carrousel n’affiche pas les points de navigation.
 
-### Avancé
+### Advanced
 
 1. Pour contrôler le positionnement de la liste Produits dans le conteneur parent, choisissez l’**[!UICONTROL Alignment]** :
 

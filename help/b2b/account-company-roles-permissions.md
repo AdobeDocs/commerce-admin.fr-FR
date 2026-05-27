@@ -9,14 +9,14 @@ level: Intermediate
 exl-id: 9fe20d6a-2c9c-4618-a395-805d64dcf0de
 source-git-commit: d3c5f0da47bfd951431213050546e865c6ab35ec
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1196'
 ht-degree: 1%
 
 ---
 
 # Rôles et autorisations de l’entreprise
 
-Vous configurez des rôles pour les utilisateurs de l&#39;entreprise avec différents niveaux d&#39;autorisation pour accéder aux informations de vente et aux ressources. Par défaut, l’administrateur ou l’administratrice d’entreprise est un *super utilisateur* avec des autorisations complètes. La page [&#x200B; Accès refusé &#x200B;](../content-design/pages.md#access-denied) s’affiche si l’utilisateur n’est pas autorisé à y accéder.
+Vous configurez des rôles pour les utilisateurs de l&#39;entreprise avec différents niveaux d&#39;autorisation pour accéder aux informations de vente et aux ressources. Par défaut, l’administrateur ou l’administratrice d’entreprise est un *super utilisateur* avec des autorisations complètes. La page [ Accès refusé ](../content-design/pages.md#access-denied) s’affiche si l’utilisateur n’est pas autorisé à y accéder.
 
 ![Page Rôles et autorisations avec le rôle par défaut](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
 
@@ -171,8 +171,8 @@ Nœud parent : **Validations de commande**. Les autorisations de commande fourni
 | Libellé de l’autorisation | Description |
 | --- | --- |
 | Approuver les commandes fournisseur sans autre approbation | Approuver des commandes fournisseur même lorsque d&#39;autres approbations sont normalement requises (selon les règles d&#39;approbation). |
-| Afficher les règles d&#39;approbation | View purchase order approval rules. |
-| Create, Edit and Delete | Create, edit, and delete approval rules. |
+| Afficher les règles d&#39;approbation | Afficher les règles d&#39;approbation de commande fournisseur. |
+| Créer, modifier et supprimer | Créer, modifier et supprimer des règles d’approbation. |
 
 ### Profil d&#39;entreprise et contacts
 
@@ -184,9 +184,9 @@ Autorisations de storefront pour les sections de profil d’entreprise. Les entr
 | Informations sur le compte (affichage) | Affichez les informations sur le compte de la société. |
 | Modifier | Modifiez les informations du compte de la société (sous Informations du compte). |
 | Adresse Légale (Vue) | Afficher l&#39;adresse légale de la société. |
-| Modifier | Edit the company legal address (under Legal Address). |
-| Contacts (View) | View company contacts. |
-| Payment Information (View) | Affichez les informations de paiement sur le profil de la société. |
+| Modifier | Modifiez l&#39;adresse légale de la société (sous Adresse légale). |
+| Contacts (affichage) | Afficher les contacts d’entreprise. |
+| Informations de paiement (affichage) | Affichez les informations de paiement sur le profil de la société. |
 | Informations d&#39;expédition (voir) | Affichez les informations d&#39;expédition sur le profil de la société. |
 
 ## Gestion des utilisateurs de l’entreprise

@@ -5,7 +5,7 @@ exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Bien que la plupart des conteneurs de séparateur soient invisibles, l’exemple
 
 | Outil | Icon | Description |
 | ---- | --------------------| ------------|
-| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur du séparateur vers un autre emplacement valide sur la page. |
+| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur du séparateur vers un autre emplacement valide sur la page. |
 | (libellé) | SÉPARATEUR | Identifie le conteneur courant comme un élément diviseur. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Modifier le séparateur, qui permet de modifier les propriétés du séparateur et de son conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le conteneur du séparateur. |
@@ -73,7 +73,7 @@ Bien que la plupart des conteneurs de séparateur soient invisibles, l’exemple
 
    ![Définition de la couleur, de l’épaisseur et de la largeur des lignes](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Mettez à jour les paramètres _[!UICONTROL Advanced]_&#x200B;selon vos besoins.
+1. Mettez à jour les paramètres _[!UICONTROL Advanced]_selon vos besoins.
 
    - Pour contrôler le positionnement du séparateur dans le conteneur parent, choisissez l’**[!UICONTROL Alignment]** :
 

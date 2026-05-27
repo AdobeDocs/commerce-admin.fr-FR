@@ -5,7 +5,7 @@ exl-id: 8788ba04-e911-429e-9e48-ce589f0c9fa1
 feature: Catalog Management, Products
 source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Le formulaire est mis à jour pour refléter la modification.
 
    >[!NOTE]
    >
-   >Si vous activez [Inventory management](../inventory-management/introduction.md), les commerçants à source unique définissent la quantité dans cette section. Les commerçants multi-sources ajoutent des sources et des quantités dans la section Sources . Voir la section suivante _Attribuer des sources et des quantités (Inventory management)_.
+   >Si vous activez [](../inventory-management/introduction.md), les commerçants à source unique définissent la quantité dans cette section. Les commerçants multi-sources ajoutent des sources et des quantités dans la section Sources . Voir la section suivante _Attribuer des sources et des quantités (Inventory management)_.
 
 1. Pour attribuer des **[!UICONTROL Categories]** au produit, cliquez sur la zone de **[!UICONTROL Select…]** et effectuez l’une des opérations suivantes :
 
@@ -116,7 +116,7 @@ Renseignez les informations des sections suivantes selon vos besoins :
 
 >[!NOTE]
 >
->L’option _[!UICONTROL Is this downloadable product?]_&#x200B;est désactivée par défaut. L’activation de cette fonctionnalité pour un produit virtuel rend le produit [téléchargeable](product-create-downloadable.md#downloadable-product).
+>L’option _[!UICONTROL Is this downloadable product?]_est désactivée par défaut. L’activation de cette fonctionnalité pour un produit virtuel rend le produit [téléchargeable](product-create-downloadable.md#downloadable-product).
 
 ## Étape 6 : publier le produit
 

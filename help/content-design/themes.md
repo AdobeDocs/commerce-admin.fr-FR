@@ -3,10 +3,10 @@ title: Thèmes
 description: Découvrez  [!DNL Commerce]  thèmes, qui incluent des fichiers de disposition, des fichiers de modèle, des fichiers de traduction et des habillages qui définissent l’aspect de votre boutique.
 exl-id: d2ccff51-5019-4f80-8eaa-3fe50d5cd6cc
 feature: Page Content, Themes
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Un thème réactif ajuste la disposition de la page en fonction du port d’affi
 
 [!DNL Commerce] thèmes comprennent les fichiers de disposition, les fichiers de modèle, les fichiers de traduction et les habillages. Une apparence est un ensemble de fichiers CSS, d’images et JavaScript qui, ensemble, créent la présentation visuelle et les interactions que vos clients expérimentent lorsqu’ils visitent votre boutique. Les thèmes et les habillages peuvent être modifiés et personnalisés par un développeur ou un professionnel du design maîtrisant la conception de thèmes Commerce et ayant accès à votre serveur. Pour en savoir plus, consultez le [_Guide du développeur Frontend_](https://developer.adobe.com/commerce/frontend-core/guide/themes/).
 
-![&#x200B; Thème Luma &#x200B;](./assets/design-responsive.png){width="600" zoomable="yes"}
+![ Thème Luma ](./assets/design-responsive.png){width="600" zoomable="yes"}
 
 ## Le thème par défaut
 
@@ -53,7 +53,7 @@ Le thème réactif `Magento Blank` effectue le rendu de l’affichage de votre s
 
 1. Recherchez la vue de magasin que vous souhaitez configurer, puis cliquez sur **[!UICONTROL Edit]** dans la colonne _[!UICONTROL Action]_.
 
-1. Sous _[!UICONTROL Default Theme]_, définissez **[!UICONTROL Applied Theme]**&#x200B;sur celui que vous souhaitez utiliser pour l’affichage actuel.
+1. Sous _[!UICONTROL Default Theme]_, définissez **[!UICONTROL Applied Theme]**sur celui que vous souhaitez utiliser pour l’affichage actuel.
 
    ![Thème appliqué](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 

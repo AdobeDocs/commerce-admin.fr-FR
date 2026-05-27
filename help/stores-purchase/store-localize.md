@@ -5,7 +5,7 @@ exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Les modules linguistiques se trouvent sous [Traductions et localisation](https:/
 
 ## Étape 1 : installer un module linguistique
 
-Suivez les instructions standard pour installer l’extension du module linguistique. Pour plus d’informations sur l’installation d’une extension, voir [Installation de l’interface de ligne de commande générale](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=fr) dans le _Guide des extensions_.
+Suivez les instructions standard pour installer l’extension du module linguistique. Pour plus d’informations sur l’installation d’une extension, voir [Installation de l’interface de ligne de commande générale](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) dans le _Guide des extensions_.
 
 ## Étape 2 : créer une vue de magasin pour la langue
 
@@ -56,7 +56,7 @@ Suivez les instructions standard pour installer l’extension du module linguist
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 
-   Après avoir modifié la langue du paramètre régional, le contenu restant que vous avez créé, y compris les noms et descriptions des produits, les catégories, les pages [CMS](../content-design/page-translate.md) et les blocs, doit être traduit séparément pour chaque affichage de magasin.
+   Après avoir modifié la langue du paramètre régional, le contenu restant que vous avez créé, y compris les noms et descriptions des produits, les catégories, les pages [](../content-design/page-translate.md) et les blocs, doit être traduit séparément pour chaque affichage de magasin.
 
 ## Localisation de produits
 
@@ -104,7 +104,7 @@ Si votre boutique propose plusieurs vues dans différentes langues, les mêmes p
 
 1. Pour _Informations de base_, traduisez **[!UICONTROL Category Name]**.
 
-1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Content]_&#x200B;et traduisez **[!UICONTROL Description]**.
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Content]_et traduisez **[!UICONTROL Description]**.
 
 1. Développez ![Sélecteur de développement](../assets/icon-display-expand.png) la section **[!UICONTROL Search Engine Optimization Settings]** et traduisez les champs suivants :
 

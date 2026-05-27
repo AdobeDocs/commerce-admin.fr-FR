@@ -5,7 +5,7 @@ exl-id: 3ac9b28d-3929-4fd6-97ca-145ea6d6897c
 feature: Catalog Management, Products
 source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -77,13 +77,13 @@ Le formulaire est mis à jour pour refléter la modification.
 
    >[!NOTE]
    >
-   >Si vous activez [Inventory management](../inventory-management/introduction.md), les commerçants Single Source définissent la quantité dans cette section. Les marchands Multi Source ajoutent des sources et des quantités dans la section Sources . Voir la section suivante _Attribuer des sources et des quantités (Inventory management)_.
+   >Si vous activez [](../inventory-management/introduction.md), les commerçants Single Source définissent la quantité dans cette section. Les marchands Multi Source ajoutent des sources et des quantités dans la section Sources . Voir la section suivante _Attribuer des sources et des quantités (Inventory management)_.
 
 1. Saisissez le **[!UICONTROL Weight]** du produit.
 
 1. Acceptez le paramètre de **[!UICONTROL Visibility]** par défaut de `Catalog, Search`.
 
-1. Pour attribuer des _[!UICONTROL Categories]_&#x200B;au produit, cliquez sur la zone de **[!UICONTROL Select…]**&#x200B;et effectuez l’une des opérations suivantes :
+1. Pour attribuer des _[!UICONTROL Categories]_au produit, cliquez sur la zone de **[!UICONTROL Select…]**et effectuez l’une des opérations suivantes :
 
    **Choisissez une catégorie existante** :
 
