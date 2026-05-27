@@ -56,7 +56,7 @@ Suivez les instructions standard pour installer l’extension du module linguist
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 
-   Après avoir modifié la langue du paramètre régional, le contenu restant que vous avez créé, y compris les noms et descriptions des produits, les catégories, les pages [](../content-design/page-translate.md) et les blocs, doit être traduit séparément pour chaque affichage de magasin.
+   Après avoir modifié la langue du paramètre régional, le contenu restant que vous avez créé, y compris les noms et descriptions des produits, les catégories, les pages [&#128279;](../content-design/page-translate.md) et les blocs, doit être traduit séparément pour chaque affichage de magasin.
 
 ## Localisation de produits
 
@@ -104,7 +104,7 @@ Si votre boutique propose plusieurs vues dans différentes langues, les mêmes p
 
 1. Pour _Informations de base_, traduisez **[!UICONTROL Category Name]**.
 
-1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Content]_et traduisez **[!UICONTROL Description]**.
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Content]_&#x200B;et traduisez **[!UICONTROL Description]**.
 
 1. Développez ![Sélecteur de développement](../assets/icon-display-expand.png) la section **[!UICONTROL Search Engine Optimization Settings]** et traduisez les champs suivants :
 

@@ -77,7 +77,7 @@ Le formulaire est mis à jour pour refléter la modification.
 
    >[!NOTE]
    >
-   >Si vous activez [](../inventory-management/introduction.md), les commerçants à source unique définissent la quantité dans cette section. Les commerçants multi-sources ajoutent des sources et des quantités dans la section Sources . Voir la section suivante _Attribuer des sources et des quantités (Inventory management)_.
+   >Si vous activez [&#128279;](../inventory-management/introduction.md), les commerçants à source unique définissent la quantité dans cette section. Les commerçants multi-sources ajoutent des sources et des quantités dans la section Sources . Voir la section suivante _Attribuer des sources et des quantités (Inventory management)_.
 
 1. Pour attribuer des **[!UICONTROL Categories]** au produit, cliquez sur la zone de **[!UICONTROL Select…]** et effectuez l’une des opérations suivantes :
 
@@ -116,7 +116,7 @@ Renseignez les informations des sections suivantes selon vos besoins :
 
 >[!NOTE]
 >
->L’option _[!UICONTROL Is this downloadable product?]_est désactivée par défaut. L’activation de cette fonctionnalité pour un produit virtuel rend le produit [téléchargeable](product-create-downloadable.md#downloadable-product).
+>L’option _[!UICONTROL Is this downloadable product?]_&#x200B;est désactivée par défaut. L’activation de cette fonctionnalité pour un produit virtuel rend le produit [téléchargeable](product-create-downloadable.md#downloadable-product).
 
 ## Étape 6 : publier le produit
 

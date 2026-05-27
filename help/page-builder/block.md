@@ -22,7 +22,7 @@ Utilisez le type de contenu _Bloc_ pour ajouter un [bloc](../content-design/bloc
 
 | Outil | Icon | Description |
 | --------- | -------- | ------------- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png) | Déplace le conteneur de blocs et son contenu vers un autre emplacement sur la scène. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png) | Déplace le conteneur de blocs et son contenu vers un autre emplacement sur la scène. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png) | Ouvre la page Modifier le bloc , qui vous permet de choisir le bloc et de modifier les propriétés du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png) | Masque le conteneur du bloc actif et son contenu. |
 | Afficher | ![Afficher l’icône](./assets/pb-icon-show.png) | Affiche le conteneur du bloc masqué et son contenu. |
@@ -49,7 +49,7 @@ Utilisez le type de contenu _Bloc_ pour ajouter un [bloc](../content-design/bloc
 
 1. Dans la ligne du bloc que vous souhaitez ajouter, cliquez sur **[!UICONTROL Select]** dans la dernière colonne.
 
-   ![ Bloc sélectionné ](./assets/pb-add-content-block-selected.png){width="600" zoomable="yes"}
+   ![&#x200B; Bloc sélectionné &#x200B;](./assets/pb-add-content-block-selected.png){width="600" zoomable="yes"}
 
    Le nom du bloc sélectionné s’affiche sur la page.
 

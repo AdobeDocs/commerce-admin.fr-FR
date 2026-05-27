@@ -22,7 +22,7 @@ Utilisez le type de contenu Bloc dynamique pour ajouter un [bloc dynamique](../c
 
 | Outil | Icon | Description |
 | --------- | ------------- | ----------------- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de blocs et son contenu vers un autre emplacement sur la scène. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de blocs et son contenu vers un autre emplacement sur la scène. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _Modifier le bloc_, dans laquelle vous pouvez choisir le bloc et modifier les propriétés du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le conteneur du bloc actif et son contenu. |
 | Afficher | ![Afficher l’icône](./assets/pb-icon-show.png){width="25"} | Affiche le conteneur du bloc masqué et son contenu. |
@@ -43,7 +43,7 @@ Utilisez le type de contenu Bloc dynamique pour ajouter un [bloc dynamique](../c
 
 1. Pointez sur le conteneur de blocs dynamiques vide pour afficher la boîte à outils et choisissez l’icône _Paramètres_ ( ![icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-   ![ Boîte à outils Bloc dynamique ](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Boîte à outils Bloc dynamique &#x200B;](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 
 1. Sur la page _Modifier le bloc dynamique_, cliquez sur **[!UICONTROL Select Dynamic Block]** et utilisez la liste pour sélectionner le bloc.
 
@@ -66,7 +66,7 @@ Utilisez le type de contenu Bloc dynamique pour ajouter un [bloc dynamique](../c
 
    {style="table-layout:auto"}
 
-   ![ Modèle de bloc dynamique ](./assets/pb-add-content-dynamic-block-template.png){width="200"}
+   ![&#x200B; Modèle de bloc dynamique &#x200B;](./assets/pb-add-content-dynamic-block-template.png){width="200"}
 
 1. Renseignez les paramètres avancés selon vos besoins.
 
@@ -131,7 +131,7 @@ Utilisez le type de contenu Bloc dynamique pour ajouter un [bloc dynamique](../c
 
 1. Pointez sur le conteneur de blocs dynamiques pour afficher la boîte à outils et choisissez l’icône _Paramètres_ ( ![icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-   ![ Boîte à outils Bloc dynamique ](./assets/pb-add-content-dynamic-block-toolbox.png){width="500" zoomable="yes"}
+   ![&#x200B; Boîte à outils Bloc dynamique &#x200B;](./assets/pb-add-content-dynamic-block-toolbox.png){width="500" zoomable="yes"}
 
 1. Si nécessaire, modifiez le bloc dynamique :
 

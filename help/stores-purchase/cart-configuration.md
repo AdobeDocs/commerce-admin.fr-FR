@@ -43,7 +43,7 @@ Le lien peut être configuré pour afficher le nombre de produits différents (o
 
 >[!NOTE]
 >
->Pour un client _enregistré_, il existe des cas où le mini panier peut ne pas être synchronisé automatiquement sur plusieurs appareils et navigateurs. Dans ce cas, pour synchroniser le panier, le client peut simplement ouvrir la page [ Panier ](cart.md) sur cet appareil ou navigateur.
+>Pour un client _enregistré_, il existe des cas où le mini panier peut ne pas être synchronisé automatiquement sur plusieurs appareils et navigateurs. Dans ce cas, pour synchroniser le panier, le client peut simplement ouvrir la page [&#x200B; Panier &#x200B;](cart.md) sur cet appareil ou navigateur.
 
 ### Configuration du mini panier
 
@@ -321,7 +321,7 @@ L&#39;image d&#39;emballage cadeau doit être un échantillon qui montre le moti
 
 1. Pour charger une vignette **[!UICONTROL Image]** de l’emballage du cadeau, cliquez sur **[!UICONTROL Choose File]** et sélectionnez le fichier à charger dans votre répertoire.
 
-   Une miniature de l’image s’affiche dans le _[!UICONTROL Gift Wrapping Information]_après l’enregistrement.
+   Une miniature de l’image s’affiche dans le _[!UICONTROL Gift Wrapping Information]_&#x200B;après l’enregistrement.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 

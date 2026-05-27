@@ -33,7 +33,7 @@ Voici quelques exemples de configuration d’URL pour plusieurs magasins :
 | `yourdomain.com/store1`<br>`yourdomain.com/store2` | Chaque magasin possède un chemin d’accès différent, mais partage un domaine. |
 | `store1.yourdomain.com`<br>`store2.yourdomain.com` | Chaque magasin possède un sous-domaine différent du domaine principal. |
 
-Les installations multi-magasin d’Adobe Commerce doivent être configurées à partir de l’Admin, mais également à partir de la ligne de commande du serveur. Le [ Guide de configuration d’Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) fournit des instructions détaillées sur la configuration de l’environnement du serveur.
+Les installations multi-magasin d’Adobe Commerce doivent être configurées à partir de l’Admin, mais également à partir de la ligne de commande du serveur. Le [&#x200B; Guide de configuration d’Adobe Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) fournit des instructions détaillées sur la configuration de l’environnement du serveur.
 
 ### Étape 1 : choisir le domaine du magasin
 
@@ -85,7 +85,7 @@ La première étape consiste à choisir la façon dont vous souhaitez positionne
 
 1. Sur la barre latérale _Admin_, cliquez sur **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Sous _[!UICONTROL General]_dans le panneau de gauche, choisissez **[!UICONTROL Web]**.
+1. Sous _[!UICONTROL General]_&#x200B;dans le panneau de gauche, choisissez **[!UICONTROL Web]**.
 
 1. Dans le coin supérieur gauche, définissez **[!UICONTROL Store View]** sur l’affichage que vous avez créé pour le nouveau magasin.
 
@@ -118,7 +118,7 @@ Pour Adobe Commerce sur les infrastructures cloud, voir [Configuration de plusie
 
 Plusieurs sites web peuvent être configurés à partir d’une seule installation d’Adobe Commerce ou de Magento Open Source avec le même domaine ou des domaines différents. Par défaut, les magasins qui se trouvent sous le même site web ont la même adresse IP et le même domaine, utilisent le même certificat de sécurité et partagent un seul processus de passage en caisse. Si vous souhaitez que chaque magasin dispose d’un processus de passage en caisse dédié sous son propre domaine, chaque magasin doit disposer d’une adresse IP distincte et d’un certificat de sécurité distinct.
 
-Les installations multi-sites d’Adobe Commerce ou de Magento Open Source doivent être configurées à partir de l’Admin, mais aussi à partir de la ligne de commande du serveur. Le [ Guide de configuration de Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) fournit des instructions détaillées sur la configuration de l’environnement du serveur.
+Les installations multi-sites d’Adobe Commerce ou de Magento Open Source doivent être configurées à partir de l’Admin, mais aussi à partir de la ligne de commande du serveur. Le [&#x200B; Guide de configuration de Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) fournit des instructions détaillées sur la configuration de l’environnement du serveur.
 
 ![Portée - Sites web](./assets/scope-multisite.svg){width="550"}
 
