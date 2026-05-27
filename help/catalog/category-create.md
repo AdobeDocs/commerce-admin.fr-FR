@@ -86,7 +86,7 @@ Définissez également les mots-clés et attributs associés, tels que :
 
    - Pour utiliser des images à partir du stockage de médias, cliquez sur **[!UICONTROL Select from Gallery]** et sélectionnez l’image que vous souhaitez représenter la catégorie.
 
-   Dans la Galerie de médias, vous pouvez également utiliser l’intégration [](../content-design/adobe-stock.md) pour rechercher une image appropriée en cliquant sur **[!UICONTROL Search Adobe Stock]**.
+   Dans la Galerie de médias, vous pouvez également utiliser l’intégration [&#128279;](../content-design/adobe-stock.md) pour rechercher une image appropriée en cliquant sur **[!UICONTROL Search Adobe Stock]**.
 
    >[!NOTE]
    >
@@ -114,7 +114,7 @@ Définissez également les mots-clés et attributs associés, tels que :
    - `Static Block Only`
    - `Static Block and Products`
 
-1. Si vous souhaitez que la page de catégorie inclue la section _`Filter by Attribute`_de la navigation superposée, définissez **[!UICONTROL Anchor]**sur `Yes`.
+1. Si vous souhaitez que la page de catégorie inclue la section _`Filter by Attribute`_de la navigation superposée, définissez **[!UICONTROL Anchor]**&#x200B;sur `Yes`.
 
 1. Pour les options de **[!UICONTROL Available Product Listing Sort By]**, sélectionnez une ou plusieurs des valeurs disponibles pour que les clients puissent trier la liste. Ce paramètre ne s’applique pas au [!DNL Live Search] [widget de page de liste de produits](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
@@ -156,7 +156,7 @@ Définissez également les mots-clés et attributs associés, tels que :
 
    ![Produits dans la catégorie](./assets/category-products-in-category.png){width="600" zoomable="yes"}
 
-   Pour plus d’informations sur ces options, voir [ Produits dans la catégorie ](categories-product-assignments.md).
+   Pour plus d’informations sur ces options, voir [&#x200B; Produits dans la catégorie &#x200B;](categories-product-assignments.md).
 
 1. Si nécessaire, utilisez les [filtres](../getting-started/admin-grid-controls.md) pour rechercher les produits.
 

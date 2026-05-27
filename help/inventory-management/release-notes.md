@@ -18,9 +18,9 @@ Ces notes de mise à jour décrivent les versions d’[!DNL Inventory Management
 ![Correction d’un problème](../assets/fix.svg) Correctifs et améliorations
 ![Problème connu](../assets/bug.svg) Problèmes connus
 
-[!DNL Inventory Management] est un projet spécial d’ingénierie de la communauté Magento Open Source ouvert aux contributeurs. Pour participer et contribuer, consultez le référentiel [Projet GitHub](https://github.com/magento/inventory) et le [wiki](https://github.com/magento/inventory/wiki) pour commencer. Pour discuter du projet, rejoignez le canal [](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) ([auto-inscription](https://opensource.magento.com/slack)).
+[!DNL Inventory Management] est un projet spécial d’ingénierie de la communauté Magento Open Source ouvert aux contributeurs. Pour participer et contribuer, consultez le référentiel [Projet GitHub](https://github.com/magento/inventory) et le [wiki](https://github.com/magento/inventory/wiki) pour commencer. Pour discuter du projet, rejoignez le canal [&#128279;](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) ([auto-inscription](https://opensource.magento.com/slack)).
 
-[ Calendrier des versions ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} pour les versions prises en charge et compatibles.
+[&#x200B; Calendrier des versions &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} pour les versions prises en charge et compatibles.
 
 ## v1.2.7
 
@@ -80,7 +80,7 @@ Les notes de mise à jour d’[!DNL Inventory Management] 1.2.7 sont incluses da
 
 ![Problème résolu](../assets/fix.svg) Les produits affectés au stock par défaut et précédemment en rupture de stock sont désormais visibles sur le storefront après la mise à jour de l’élément source à l’aide de `/V1/inventory/source-items`. Auparavant, ce point d’entrée de l’API REST définissait une `stock_status` incorrecte. <!--- ACP2E-562-->
 
-![Problème résolu ](../assets/fix.svg) L’annulation de l’affectation des sources d’inventaire par le biais d’une action en masse (**[!UICONTROL Catalog]** > **[!UICONTROL Products]** > **[!UICONTROL Select Products]** > **[!UICONTROL Actions - Unassign Inventory Source]**) fonctionne désormais comme prévu lorsque les sources incluent des SKU qui sont des doublons, à l’exception d’un zéro au début (par exemple, `01234` et `1234`). Auparavant, l’application n’annulait pas l’affectation des sources d’inventaire et générait une erreur. <!--- ACP2E-2641-->
+![Problème résolu &#x200B;](../assets/fix.svg) L’annulation de l’affectation des sources d’inventaire par le biais d’une action en masse (**[!UICONTROL Catalog]** > **[!UICONTROL Products]** > **[!UICONTROL Select Products]** > **[!UICONTROL Actions - Unassign Inventory Source]**) fonctionne désormais comme prévu lorsque les sources incluent des SKU qui sont des doublons, à l’exception d’un zéro au début (par exemple, `01234` et `1234`). Auparavant, l’application n’annulait pas l’affectation des sources d’inventaire et générait une erreur. <!--- ACP2E-2641-->
 
 ![Problème résolu](../assets/fix.svg) Le statut du stock du produit est désormais toujours **en stock** sur le storefront lorsque d&#39;innombrables commandes en souffrance sont activées et que le produit est affecté à un stock personnalisé, quelle que soit la quantité en souffrance. Auparavant, les produits étaient en rupture de stock même lorsque les commandes en souffrance étaient activées. <!--- ACP2E-664-->
 
@@ -119,7 +119,7 @@ Inventory management 1.2.4 (version du module : `magento/inventory-metapackage =
 ![Problème résolu](../assets/fix.svg) [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} La commande `bin/magento inventory:reservation:list-inconsistencies` gère désormais correctement les commandes avec des expéditions partielles, même si les réservations sont manquantes dans la base de données et que le cache a été effacé. Auparavant, lorsque cette commande était exécutée avec un cache pré-effacé, Commerce affichait l’erreur suivante : `Area code is not set`. <!--- MC-42142-->
 
 
-![Problème résolu ](../assets/fix.svg) l’indexation incrémentielle des produits enfants groupés n’entraîne plus l’indexation incorrecte d’autres produits groupés lorsque les enfants sont partagés. <!--- MC-41963-->
+![Problème résolu &#x200B;](../assets/fix.svg) l’indexation incrémentielle des produits enfants groupés n’entraîne plus l’indexation incorrecte d’autres produits groupés lorsque les enfants sont partagés. <!--- MC-41963-->
 
 ![Problème résolu](../assets/fix.svg) La page de catégorie storefront affiche désormais le nombre correct de produits après la suppression d’un produit d’une catégorie par API. Auparavant, le nombre de produits de la page de catégorie était incorrect jusqu’à la réindexation. <!--- MC-42287-->
 
@@ -127,11 +127,11 @@ Inventory management 1.2.4 (version du module : `magento/inventory-metapackage =
 
 ![Problème résolu](../assets/fix.svg) La gestion des stocks de plus de 10 000 articles a été améliorée. Auparavant, les problèmes de performances empêchaient parfois les commerçants de modifier les stocks dans l’administrateur avant de lancer leur site web. <!--- MC-42643-->
 
-![Correction d’un problème](../assets/fix.svg) La page **[!UICONTROL User Roles]** dans l’interface Administration est mise à jour afin de fournir aux administrateurs un accès restreint aux autorisations pour la configuration des méthodes de diffusion. La section _Modes d’expédition_ a été renommée en _[!UICONTROL Delivery methods]_et_[!UICONTROL In-Store Pickup]_ est déplacée sous la section _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![Correction d’un problème](../assets/fix.svg) La page **[!UICONTROL User Roles]** dans l’interface Administration est mise à jour afin de fournir aux administrateurs un accès restreint aux autorisations pour la configuration des méthodes de diffusion. La section _Modes d’expédition_ a été renommée en _[!UICONTROL Delivery methods]_&#x200B;et&#x200B;_[!UICONTROL In-Store Pickup]_ est déplacée sous la section _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![Problème résolu](../assets/fix.svg) Adobe Commerce ne crée plus de réservation de produit en double après la mise à jour d&#39;un avoir par l&#39;API. <!--- MC-41757-->
 
-![Problème corrigé](../assets/fix.svg) Le passage de l’onglet _[!UICONTROL Pick up in Store]_à l’onglet_[!UICONTROL Shipping]_ dans le workflow de passage en caisse ne déclenche plus d’erreur JavaScript lorsque seule la diffusion en magasin Pickup est disponible. <!--- MC-42808-->
+![Problème corrigé](../assets/fix.svg) Le passage de l’onglet _[!UICONTROL Pick up in Store]_&#x200B;à l’onglet&#x200B;_[!UICONTROL Shipping]_ dans le workflow de passage en caisse ne déclenche plus d’erreur JavaScript lorsque seule la diffusion en magasin Pickup est disponible. <!--- MC-42808-->
 
 ![Problème résolu](../assets/fix.svg) La quantité de produit vendable et la quantité de produit en stock sont désormais correctement synchronisées. Auparavant, la compensation de réservation de stock n&#39;était pas recréée pour les commandes annulées. <!--- MC-42485-->
 
@@ -220,9 +220,9 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.4 (version du module : `inventory-composer-metapackage = 1.1.4`) est pris en charge avec la version 2.3.4 et compatible avec les versions 2.3.3, 2.3.2, 2.3.1 et 2.3.0 d’Adobe Commerce, Adobe Commerce sur les infrastructures cloud et la base de code Magento Open Source.
 
-![Correction d’un problème ](../assets/fix.svg)**Amélioration des performances.** Ajout d’une logique de regroupement pour la commande de l’interface de ligne de commande de réservation d’inventaire afin de réduire l’utilisation de la mémoire et d’éviter les cas où le processus est bloqué sans réponse.
+![Correction d’un problème &#x200B;](../assets/fix.svg)**Amélioration des performances.** Ajout d’une logique de regroupement pour la commande de l’interface de ligne de commande de réservation d’inventaire afin de réduire l’utilisation de la mémoire et d’éviter les cas où le processus est bloqué sans réponse.
 
-![Nouvelle ](../assets/new.svg)**Couverture de test accrue.** Introduction de nombreux nouveaux tests fonctionnels. Presque tous les scénarios d’inventaire manuels sont couverts par des tests automatisés.
+![Nouvelle &#x200B;](../assets/new.svg)**Couverture de test accrue.** Introduction de nombreux nouveaux tests fonctionnels. Presque tous les scénarios d’inventaire manuels sont couverts par des tests automatisés.
 
 ![Problème connu](../assets/bug.svg) De nombreux correctifs ont été conçus pour résoudre les problèmes liés aux avoirs, aux produits groupés et aux actions de masse sur les sources et les stocks.
 
@@ -230,15 +230,15 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.3 (version du module : `inventory-composer-metapackage = 1.1.3`) est pris en charge avec la version 2.3.3 et compatible avec les versions 2.3.2, 2.3.1 et 2.3.0 d’Adobe Commerce, Adobe Commerce sur les infrastructures cloud et la base de code Magento Open Source.
 
-![Correction d’un problème ](../assets/fix.svg)**Amélioration de l’intégration avec les fonctionnalités Adobe Commerce et B2B.** [!DNL Inventory Management] fonctionne désormais correctement avec les fonctionnalités suivantes pour les sites web utilisant des sources d’inventaire et des stocks autres que ceux par défaut :
+![Correction d’un problème &#x200B;](../assets/fix.svg)**Amélioration de l’intégration avec les fonctionnalités Adobe Commerce et B2B.** [!DNL Inventory Management] fonctionne désormais correctement avec les fonctionnalités suivantes pour les sites web utilisant des sources d’inventaire et des stocks autres que ceux par défaut :
 
 - Classer par SKU (Adobe Commerce)
 - Commande rapide (B2B)
 - Listes de demandes d&#39;approvisionnement (B2B)
 
-![Nouveau ](../assets/new.svg)**Performances accrues.** Les performances de navigation dans le catalogue Storefront ont été améliorées pour les sites web exécutant le stock d’inventaire et la source par défaut.
+![Nouveau &#x200B;](../assets/new.svg)**Performances accrues.** Les performances de navigation dans le catalogue Storefront ont été améliorées pour les sites web exécutant le stock d’inventaire et la source par défaut.
 
-![Nouvelle ](../assets/new.svg)**Couverture de test accrue.** La couverture des tests fonctionnels et d’intégration automatisés a considérablement augmenté.
+![Nouvelle &#x200B;](../assets/new.svg)**Couverture de test accrue.** La couverture des tests fonctionnels et d’intégration automatisés a considérablement augmenté.
 
 ## 1.1.2
 

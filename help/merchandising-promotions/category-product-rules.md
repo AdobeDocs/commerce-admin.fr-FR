@@ -41,7 +41,7 @@ Les règles de produits de catégorie peuvent accélérer le processus d’affec
 
    >[!NOTE]
    >
-   >Assurez-vous que l’attribut que vous sélectionnez n’est PAS un _[!UICONTROL Input Type]_à sélection multiple.
+   >Assurez-vous que l’attribut que vous sélectionnez n’est PAS un _[!UICONTROL Input Type]_&#x200B;à sélection multiple.
 
 1. Effectuez la [configuration](smart-attributes-configure.md) pour identifier chaque attribut _intelligent_ à utiliser avec Visual Merchandiser.
 
