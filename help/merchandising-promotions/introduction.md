@@ -81,9 +81,9 @@ La configuration de votre boutique est intégrée aux outils Google suivants pou
 
 >[!NOTE]
 >
->À partir de la version 2.4.5, l’intégration des services Google est mise à jour afin de prendre en charge l’utilisation des API GTag. GTag est un mécanisme unifié d’intégration de la fonctionnalité Google pour les pages web. Il prend en charge les fonctionnalités et opportunités les plus récentes pour le suivi et la gestion du contenu via les services Google. Pour plus d’informations, consultez la [documentation destinée aux développeurs de ](https://developers.google.com/analytics/devguides/collection/gtagjs).
+>À partir de la version 2.4.5, l’intégration des services Google est mise à jour afin de prendre en charge l’utilisation des API GTag. GTag est un mécanisme unifié d’intégration de la fonctionnalité Google pour les pages web. Il prend en charge les fonctionnalités et opportunités les plus récentes pour le suivi et la gestion du contenu via les services Google. Pour plus d’informations, consultez la [documentation destinée aux développeurs de &#x200B;](https://developers.google.com/analytics/devguides/collection/gtagjs).
 
-- [](google-analytics.md) - Utilisez Google Universal Analytics pour définir des dimensions et des mesures personnalisées supplémentaires pour le suivi, avec la prise en charge des interactions d’applications hors ligne et mobiles et l’accès aux mises à jour en cours.
+- [&#128279;](google-analytics.md) - Utilisez Google Universal Analytics pour définir des dimensions et des mesures personnalisées supplémentaires pour le suivi, avec la prise en charge des interactions d’applications hors ligne et mobiles et l’accès aux mises à jour en cours.
 
 - [Google Tag Manager](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Utilisez Google Tag Manager pour gérer les nombreuses balises liées aux événements de campagne marketing.
 

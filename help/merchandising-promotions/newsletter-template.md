@@ -36,7 +36,7 @@ Vous pouvez créer autant de modèles de newsletter que nécessaire à différen
 
    - Par **[!UICONTROL Template Content]**, cliquez sur **[!UICONTROL Show / Hide Editor]** pour afficher l’éditeur WYSIWYG et mettre à jour le contenu si nécessaire.
 
-     Pour en savoir plus, voir [ Utilisation de l’éditeur ](../content-design/editor.md).
+     Pour en savoir plus, voir [&#x200B; Utilisation de l’éditeur &#x200B;](../content-design/editor.md).
 
      >[!NOTE]
      >

@@ -40,11 +40,11 @@ Après avoir créé le compte, l’administrateur ou l’administratrice d’ent
 | Icon | Description |
 | ---- | ----------------- |
 | ![Icône Administrateur d’entreprise](./assets/company-icon-admin.png) | Représente l&#39;administrateur de la société dans la structure de la société. |
-| ![ Icône Équipe ](./assets/company-icon-team.png) | Représente une équipe dans la structure de l&#39;entreprise. |
+| ![&#x200B; Icône Équipe &#x200B;](./assets/company-icon-team.png) | Représente une équipe dans la structure de l&#39;entreprise. |
 | ![Icône Utilisateur](./assets/company-icon-user.png) | Représente un utilisateur dans la structure de l’entreprise. |
-| ![ Icône Déplacer ](./assets/company-icon-move.png) | Déplace une équipe vers un autre poste de la structure de l&#39;entreprise. |
+| ![&#x200B; Icône Déplacer &#x200B;](./assets/company-icon-move.png) | Déplace une équipe vers un autre poste de la structure de l&#39;entreprise. |
 | ![Icône d’extension](./assets/company-icon-expand.png) | Développe une équipe dans la structure de l&#39;entreprise. |
-| ![Icône Réduire ](./assets/company-icon-collapse.png) | Réduit une équipe dans la structure de l&#39;entreprise. |
+| ![Icône Réduire &#x200B;](./assets/company-icon-collapse.png) | Réduit une équipe dans la structure de l&#39;entreprise. |
 
 {style="table-layout:auto"}
 

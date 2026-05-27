@@ -91,7 +91,7 @@ Les instructions suivantes expliquent comment configurer une taxe fixe sur les p
 
    - **[!UICONTROL Use in Filter Options]** - Si vous souhaitez pouvoir [filtrer](../getting-started/admin-workspace.md) les produits dans la grille en fonction de la valeur du champ FPT, définissez sur `Yes`.
 
-   ![ Propriétés d’attribut avancées ](./assets/tax-fpt-advanced-attribute-properties.png){width="600" zoomable="yes"}
+   ![&#x200B; Propriétés d’attribut avancées &#x200B;](./assets/tax-fpt-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
 1. (Facultatif) Dans le panneau de gauche, choisissez **[!UICONTROL Manage Labels]** et saisissez un libellé à utiliser au lieu du libellé par défaut pour chaque vue de magasin.
 
