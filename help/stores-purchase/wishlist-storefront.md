@@ -18,7 +18,7 @@ Une liste de souhaits est un moyen pratique pour les clients de rappeler des pro
 
 ![](../assets/adobe-logo.svg) Adobe Commerce prend en charge l’utilisation de plusieurs listes de souhaits par compte client.
 
-![Magento Open Source ](../assets/open-source.svg) La base de code Magento Open Source prend en charge l’utilisation d’une seule liste de souhaits par compte client.
+![Magento Open Source &#x200B;](../assets/open-source.svg) La base de code Magento Open Source prend en charge l’utilisation d’une seule liste de souhaits par compte client.
 
 ## Créer une liste de souhaits
 

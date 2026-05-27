@@ -30,7 +30,7 @@ Si vous modifiez des parties importantes d’une commande, la commande d’origi
 | **[!UICONTROL Send Email]** | Envoie un e-mail sur la commande en attente au client. |
 | **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Modifie le statut de la commande en attente en `On Hold`. Pour lever le blocage, choisissez _[!UICONTROL Unhold]_. |
 | **[!UICONTROL Invoice]** | Crée une [facture](invoices.md#create-an-invoice) à partir de la commande en attente en la convertissant en facture et en modifiant le statut de la commande sur `processing`. |
-| **[!UICONTROL Ship]** | Crée un enregistrement [ expédition ](shipments.md#create-a-shipment) pour la commande. |
+| **[!UICONTROL Ship]** | Crée un enregistrement [&#x200B; expédition &#x200B;](shipments.md#create-a-shipment) pour la commande. |
 | **[!UICONTROL Reorder]** | Crée un nouvel ordre en attente qui est un doublon de l&#39;ordre en attente actuel. |
 | **[!UICONTROL Edit]** | Ouvre une commande en attente en mode d&#39;édition. Le bouton Modifier est uniquement disponible pour les commandes en attente ou pour les commandes basées sur des [devis](../b2b/quotes.md) négociés. |
 

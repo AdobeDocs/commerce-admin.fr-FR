@@ -104,7 +104,7 @@ Consultez les sections suivantes de la commande client à l&#39;aide des descrip
 
 ### Annuler une commande
 
-Vous pouvez [annuler](order-update.md) les commandes qui ne sont pas encore facturées. Un [ avoir ](credit-memos.md) doit être émis si un client souhaite annuler une commande après sa facturation (le paiement est capturé).
+Vous pouvez [annuler](order-update.md) les commandes qui ne sont pas encore facturées. Un [&#x200B; avoir &#x200B;](credit-memos.md) doit être émis si un client souhaite annuler une commande après sa facturation (le paiement est capturé).
 
 Si une commande est `Pending` ou `Processing` et que le paiement n&#39;est pas saisi ou n&#39;est pas entièrement saisi, vous pouvez [annuler la commande](#void-an-order) au lieu de l&#39;annuler.
 
@@ -116,7 +116,7 @@ Pour restaurer une commande annulée, cliquez sur le bouton **[!UICONTROL Reorde
 
 ### Annuler une commande
 
-Seules les commandes client qui ne sont pas facturées, dont le statut est `Processing` et dont le paramètre d&#39;intégration de paiement [ est `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions), peuvent être [ annulées](order-update.md#void-a-processing-order). Après avoir annulé une commande, vous pouvez l’annuler.
+Seules les commandes client qui ne sont pas facturées, dont le statut est `Processing` et dont le paramètre d&#39;intégration de paiement [&#x200B; est `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions), peuvent être [&#x200B; annulées](order-update.md#void-a-processing-order). Après avoir annulé une commande, vous pouvez l’annuler.
 
 ### [!UICONTROL Order and Account Information]
 

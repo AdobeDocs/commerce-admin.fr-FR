@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Les clients peuvent utiliser l’une des méthodes suivantes pour demander une autorisation de retour de marchandise depuis le storefront :
 
-- [ Widget Commandes et retours ](../content-design/widget-orders-returns.md) dans la barre latérale
+- [&#x200B; Widget Commandes et retours &#x200B;](../content-design/widget-orders-returns.md) dans la barre latérale
 - Lien _Commandes et retours_ dans le pied de page
 
 En règle générale, veillez à inclure une description de vos exigences et processus de RMA dans la politique du service client.
@@ -27,7 +27,7 @@ En règle générale, veillez à inclure une description de vos exigences et pro
 
 Toutes les informations RMA client sont affichées sur la page **[!UICONTROL My Returns]** du tableau de bord du compte client.
 
-![ Mes retours ](./assets/my-returns-page.png){width="700" zoomable="yes"}
+![&#x200B; Mes retours &#x200B;](./assets/my-returns-page.png){width="700" zoomable="yes"}
 
 ## Demander un RMA
 
@@ -43,7 +43,7 @@ Le client effectue les étapes suivantes sur le storefront pour envoyer une RMA 
 
 1. Effectue un clic sur **[!UICONTROL Continue]**.
 
-   ![ Commandes et retours ](./assets/storefront-orders-and-returns.png){width="700" zoomable="yes"}
+   ![&#x200B; Commandes et retours &#x200B;](./assets/storefront-orders-and-returns.png){width="700" zoomable="yes"}
 
 1. Sous la date de commande, cliquez sur **[!UICONTROL Return]**.
 

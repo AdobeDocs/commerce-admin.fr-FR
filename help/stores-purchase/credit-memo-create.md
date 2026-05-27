@@ -53,7 +53,7 @@ Déterminez le type de remboursement que vous souhaitez émettre (pour un [achat
 
 1. Recherchez l’ordre dans la grille, puis cliquez sur **[!UICONTROL View]**.
 
-1. Si le bouton _[!UICONTROL Credit Memo]_est visible dans la barre de boutons, effectuez l’une des opérations suivantes :
+1. Si le bouton _[!UICONTROL Credit Memo]_&#x200B;est visible dans la barre de boutons, effectuez l’une des opérations suivantes :
 
    - Pour émettre un remboursement `offline`, passez à l&#39;étape #6.
    - Pour émettre un remboursement `online`, passez à l’étape #4.

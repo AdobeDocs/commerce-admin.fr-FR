@@ -76,7 +76,7 @@ Une fois la [configuration](email-templates.md#configure-email-templates) termin
 
    ![Modèle d’en-tête - Insérer une variable](./assets/email-template-insert-variable.png){width="600" zoomable="yes"}
 
-   Lorsqu’une variable est sélectionnée, une [ balise de balisage ](markup-tags.md) est insérée dans le code.
+   Lorsqu’une variable est sélectionnée, une [&#x200B; balise de balisage &#x200B;](markup-tags.md) est insérée dans le code.
 
    Bien que les variables Adresse e-mail de la boutique soient celles qui sont le plus souvent incluses dans l’en-tête, vous pouvez saisir le code de n’importe quelle variable système ou [variable personnalisée](variables-custom.md) directement dans le modèle.
 
@@ -140,7 +140,7 @@ Le pied de page du modèle d’e-mail contient la ligne de fermeture et de signa
 
 1. Sélectionnez la variable à insérer.
 
-   Lorsqu’une variable est sélectionnée, une [ balise de balisage ](markup-tags.md) est insérée dans le code.
+   Lorsqu’une variable est sélectionnée, une [&#x200B; balise de balisage &#x200B;](markup-tags.md) est insérée dans le code.
 
    Bien que les variables Contact de magasin soient celles qui sont le plus souvent incluses dans le pied de page, vous pouvez saisir le code de n’importe quelle variable système ou [variable personnalisée](variables-custom.md) directement dans le modèle.
 
@@ -218,7 +218,7 @@ Le processus de personnalisation du corps de chaque message est le même que pou
 
 ### Étape 3. Mise à jour de la configuration
 
-Le chemin de navigation _[!UICONTROL Currently Used For]_indique où le modèle est utilisé. Dans cet exemple, la configuration du modèle se trouve sur la page_[!UICONTROL Customer Configuration]_, dans la section _[!UICONTROL Create New Account Options]_et dans le champ_[!UICONTROL Default Welcome Email]_ .
+Le chemin de navigation _[!UICONTROL Currently Used For]_&#x200B;indique où le modèle est utilisé. Dans cet exemple, la configuration du modèle se trouve sur la page&#x200B;_[!UICONTROL Customer Configuration]_, dans la section _[!UICONTROL Create New Account Options]_&#x200B;et dans le champ&#x200B;_[!UICONTROL Default Welcome Email]_ .
 
 - Page - [!UICONTROL Customer Configuration]
 - Section - [!UICONTROL Create New Account Options]

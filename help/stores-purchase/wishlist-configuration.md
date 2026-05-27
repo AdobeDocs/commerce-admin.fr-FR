@@ -73,7 +73,7 @@ Toute liste de souhaits publique peut être trouvée à l’aide du widget Reche
 
    - Cliquez sur **[!UICONTROL Continue]**.
 
-1. Effectuez les _[!UICONTROL Storefront Properties]_suivantes :
+1. Effectuez les _[!UICONTROL Storefront Properties]_&#x200B;suivantes :
 
    - Saisissez le **[!UICONTROL Widget Title]**.
 
@@ -83,7 +83,7 @@ Toute liste de souhaits publique peut être trouvée à l’aide du widget Reche
 
      `0` = premier (par défaut), `1` = deuxième, `2` = troisième, etc.
 
-1. Dans la section _[!UICONTROL Layout Updates]_, cliquez sur **[!UICONTROL Add Layout Update]**et définissez l’**[!UICONTROL Display on]**sur l’une des options suivantes :
+1. Dans la section _[!UICONTROL Layout Updates]_, cliquez sur **[!UICONTROL Add Layout Update]**&#x200B;et définissez l’**[!UICONTROL Display on]**&#x200B;sur l’une des options suivantes :
 
    - _[!UICONTROL Categories]_
 

@@ -16,7 +16,7 @@ Une liste de souhaits est une liste de produits qu’un client enregistré peut 
 
 ![](../assets/adobe-logo.svg) Adobe Commerce prend en charge l’utilisation de plusieurs listes de souhaits par compte client.
 
-![Magento Open Source ](../assets/open-source.svg) Magento Open Source prend en charge l’utilisation d’une seule liste de souhaits par compte client.
+![Magento Open Source &#x200B;](../assets/open-source.svg) Magento Open Source prend en charge l’utilisation d’une seule liste de souhaits par compte client.
 
 Les listes de souhaits partagées sont envoyées à partir de l’adresse e-mail d’un magasin, mais le corps du message contient une note personnalisée du client ou de la cliente. Vous pouvez personnaliser le modèle d’e-mail utilisé lorsque des listes de souhaits sont partagées et choisir le contact du magasin qui apparaît comme expéditeur.
 

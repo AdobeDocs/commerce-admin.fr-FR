@@ -130,13 +130,13 @@ Outre les paramètres prédéfinis de statut de la commande, vous pouvez créer 
 
 1. Dans la grille de _[!UICONTROL Order Status]_, recherchez l&#39;enregistrement de statut de la commande à laquelle annuler l&#39;affectation.
 
-1. Dans la colonne _[!UICONTROL Action]_tout à droite de la ligne, cliquez sur le lien **[!UICONTROL Unassign]**.
+1. Dans la colonne _[!UICONTROL Action]_&#x200B;tout à droite de la ligne, cliquez sur le lien **[!UICONTROL Unassign]**.
 
    Un message s’affiche en haut de l’espace de travail indiquant que l’affectation du statut de la commande a été annulée. Bien que le libellé Statut de la commande apparaisse toujours dans la liste, il n’est plus affecté à un état. Les paramètres de statut de la commande ne peuvent pas être supprimés.
 
 >[!NOTE]
 >
->Si le statut de commande par défaut n’est pas affecté à partir du statut de commande, _**un autre**_ statut de commande est _**défini automatiquement**_ par défaut pour ce statut de commande.
+>Si le statut de commande par défaut n’est pas affecté à partir du statut de commande, _&#x200B;**un autre**&#x200B;_ statut de commande est _&#x200B;**défini automatiquement**&#x200B;_ par défaut pour ce statut de commande.
 
 ## Notification
 
