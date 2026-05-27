@@ -5,7 +5,7 @@ exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
 feature: Page Builder, Page Content
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2085'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Cet exercice suppose que vous avez terminé [Partie 1 : Page simple](1-simple-pa
 
 ## Partie 1 : créer un bloc simple
 
-Dans cet exercice pas à pas, vous allez créer un bloc simple avec du contenu provenant de [!DNL Google Maps]. Les blocs simples sont parfois appelés _blocs CMS_ ou _blocs statiques_, car le contenu ne change pas. Un bloc simple est idéal pour le contenu que vous souhaitez peut-être réutiliser.
+Dans cet exercice pas à pas, vous allez créer un bloc simple avec du contenu provenant de [!DNL Google Maps]. Les blocs simples sont parfois appelés _blocs_ ou _blocs statiques_, car le contenu ne change pas. Un bloc simple est idéal pour le contenu que vous souhaitez peut-être réutiliser.
 
 ### Étape 1 : créer un bloc
 
@@ -64,7 +64,7 @@ Dans cet exercice pas à pas, vous allez créer un bloc simple avec du contenu p
 
 1. Dans le coin supérieur droit de la scène, cliquez sur l’icône _Fermer le plein écran_ (![icône Fermer le plein écran](./assets/pb-icon-reduce.png)).
 
-   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_&#x200B;du bloc dont l’aperçu est affiché.
+   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_du bloc dont l’aperçu est affiché.
 
 1. Dans le coin supérieur droit, cliquez sur la flèche **[!UICONTROL Save]** et choisissez **[!UICONTROL Save & Close]**.
 
@@ -102,11 +102,11 @@ Si [!DNL Google Maps] est déjà configuré pour votre boutique, vous pouvez ign
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Dans la grille, recherchez le _[!UICONTROL Simple Page]_&#x200B;que vous avez créé dans le premier tutoriel et sélectionnez **[!UICONTROL Edit]**&#x200B;dans la colonne&#x200B;_[!UICONTROL Action]_ .
+1. Dans la grille, recherchez le _[!UICONTROL Simple Page]_que vous avez créé dans le premier tutoriel et sélectionnez **[!UICONTROL Edit]**dans la colonne_[!UICONTROL Action]_ .
 
 1. Développez ![Sélecteur de développement](../assets/icon-display-expand.png) la section **[!UICONTROL Content]**, puis cliquez sur **[!UICONTROL Edit with Page Builder]** ou dans la zone de prévisualisation du contenu.
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Row]**&#x200B;en haut de la scène.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Row]**en haut de la scène.
 
    ![Ajout de la ligne en haut de l’étape](./assets/pb-tutorial2-elements-row-drag-top.png){width="600" zoomable="yes"}
 
@@ -130,11 +130,11 @@ Si [!DNL Google Maps] est déjà configuré pour votre boutique, vous pouvez ign
 
 1. Dans le coin supérieur droit de la scène, cliquez sur l’icône _Fermer le plein écran_ (![icône Fermer le plein écran](./assets/pb-icon-reduce.png)).
 
-   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_&#x200B;de la page dont l’aperçu est affiché.
+   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_de la page dont l’aperçu est affiché.
 
 1. Dans le coin supérieur droit, cliquez sur la flèche **[!UICONTROL Save]** et choisissez **[!UICONTROL Save & Close]**.
 
-**Félicitations !** Vous avez terminé la première partie de l&#39;exercice Bloc. Veillez à conserver votre travail à titre de référence.
+**Félicitations !** Vous avez terminé la première partie de l’exercice Bloc . Veillez à conserver votre travail à titre de référence.
 
 ## Partie 2 : créer un bloc dynamique
 
@@ -182,7 +182,7 @@ Faites défiler jusqu’à la section _[!UICONTROL Content]_, qui affiche un ape
 
 1. Par **[!UICONTROL Minimum Height]**, saisissez `400px`.
 
-1. Faites défiler jusqu’à la section _[!UICONTROL Background]_&#x200B;et définissez les **[!UICONTROL Background Image]**&#x200B;en cliquant sur **[!UICONTROL Select from Gallery]**&#x200B;et en choisissant l’image `wide-banner-background.png` chargée dans le premier tutoriel.
+1. Faites défiler jusqu’à la section _[!UICONTROL Background]_et définissez les **[!UICONTROL Background Image]**en cliquant sur **[!UICONTROL Select from Gallery]**et en choisissant l’image `wide-banner-background.png` chargée dans le premier tutoriel.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
@@ -190,7 +190,7 @@ Faites défiler jusqu’à la section _[!UICONTROL Content]_, qui affiche un ape
 
 **Tâche 2 :** Ajouter des colonnes
 
-Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Column]**&#x200B;sur la ligne.
+Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Column]**sur la ligne.
 
 ![Faire glisser le type de colonne dans la ligne](./assets/pb-tutorial2-column-drag.png){width="600" zoomable="yes"}
 
@@ -260,11 +260,11 @@ Dans le premier exercice, vous avez appris à utiliser le type de contenu [Butto
 
 1. Pour enregistrer le lien et revenir à l’espace de travail [!DNL Page Builder], cliquez sur **[!UICONTROL OK]**.
 
-   ![Détails du lien &#x200B;](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png){width="600" zoomable="yes"}
+   ![Détails du lien ](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png){width="600" zoomable="yes"}
 
 1. Dans le coin supérieur droit de la scène, cliquez sur l’icône _Fermer le plein écran_ (![icône Fermer le plein écran](./assets/pb-icon-reduce.png)).
 
-   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_&#x200B;du bloc dynamique avec l’aperçu affiché.
+   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_du bloc dynamique avec l’aperçu affiché.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]**.
 
@@ -298,7 +298,7 @@ Dans le premier exercice, vous avez appris à utiliser le type de contenu [Butto
 
    Pour confirmer la suppression de la ligne de la page, cliquez sur **[!UICONTROL OK]** .
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un nouvel espace réservé&#x200B;**[!UICONTROL Row]**&#x200B;en haut de la scène.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un nouvel espace réservé&#x200B;**[!UICONTROL Row]**en haut de la scène.
 
 1. Dans le panneau [!DNL Page Builder], développez **[!UICONTROL Add Content]** et faites glisser un espace réservé **[!UICONTROL Dynamic Block]** vers la nouvelle ligne.
 
@@ -312,7 +312,7 @@ Dans le premier exercice, vous avez appris à utiliser le type de contenu [Butto
 
    ![Sélectionner le bloc dynamique](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
 
-1. Recherchez le bloc dynamique _[!DNL Tee Shirt Promo]_&#x200B;que vous avez créé, puis cliquez sur **[!UICONTROL Select]**.
+1. Recherchez le bloc dynamique _[!DNL Tee Shirt Promo]_que vous avez créé, puis cliquez sur **[!UICONTROL Select]**.
 
    Un résumé des informations sur les blocs dynamiques s’affiche ci-dessous.
 
@@ -326,7 +326,7 @@ Dans le premier exercice, vous avez appris à utiliser le type de contenu [Butto
 
 1. Dans le coin supérieur droit de la scène, cliquez sur l’icône _Fermer le plein écran_ (![icône Fermer le plein écran](./assets/pb-icon-reduce.png)).
 
-   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_&#x200B;de la page dont l’aperçu est affiché.
+   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_de la page dont l’aperçu est affiché.
 
 1. Dans le coin supérieur droit, cliquez sur la flèche **[!UICONTROL Save]** et choisissez **[!UICONTROL Save & Close]**.
 
@@ -342,7 +342,7 @@ Dans cette dernière partie de l’exercice, vous allez modifier un bloc dynamiq
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
 
-1. Recherchez le bloc dynamique _[!DNL Tee Shirt Promo]_&#x200B;dans la grille et ouvrez-le en mode d’édition.
+1. Recherchez le bloc dynamique _[!DNL Tee Shirt Promo]_dans la grille et ouvrez-le en mode d’édition.
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Content]** et cliquez sur **[!UICONTROL Edit with Page Builder]**.
 
@@ -364,11 +364,11 @@ Dans cette dernière partie de l’exercice, vous allez modifier un bloc dynamiq
 
    - Dans la barre d’outils de l’éditeur, choisissez **[!UICONTROL Text Color]** et cliquez sur l’échantillon **[!UICONTROL White]**.
 
-   ![&#x200B; Couleur du texte &#x200B;](./assets/pb-tutorial2-dynamic-block-edit-text-color.png){width="600" zoomable="yes"}
+   ![ Couleur du texte ](./assets/pb-tutorial2-dynamic-block-edit-text-color.png){width="600" zoomable="yes"}
 
 1. Dans le coin supérieur droit de la scène, cliquez sur l’icône _Fermer le plein écran_ (![icône Fermer le plein écran](./assets/pb-icon-reduce.png)).
 
-   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_&#x200B;du bloc dynamique avec l’aperçu affiché.
+   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_du bloc dynamique avec l’aperçu affiché.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]**.
 
@@ -394,7 +394,7 @@ Comme ce bloc dynamique n’est visible que par les membres d’un segment clien
 
      **[!UICONTROL Email]** - `roni_cost@example.com`
 
-     **[!UICONTROL Password]** - `roni_cost3@example.com`
+     **[!UICONTROL Password]** -  `roni_cost3@example.com`
 
    - Cliquez sur **[!UICONTROL Sign In]**.
 
