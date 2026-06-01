@@ -6,7 +6,7 @@ feature: Site Management, System
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1584'
 ht-degree: 0%
 
 ---
@@ -118,8 +118,8 @@ Si votre domaine dispose d’un certificat de sécurité valide, vous pouvez con
 
 1. Définissez **[!UICONTROL Add Store Code]** sur votre préférence :
 
-   - **[!UICONTROL URL with Store Code]** : `http://www.yourdomain.com/magento/[store-code]/index.php/url-identifier`
-   - **[!UICONTROL URL without Store Code]** : `http://www.yourdomain.com/magento/index.php/url-identifier`
+   - **[!UICONTROL URL with Store Code]**: `http://www.yourdomain.com/magento/[store-code]/index.php/url-identifier`
+   - **[!UICONTROL URL without Store Code]**: `http://www.yourdomain.com/magento/index.php/url-identifier`
 
    ![Configuration générale - Options d’URL web](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
 

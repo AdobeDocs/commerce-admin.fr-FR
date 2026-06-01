@@ -5,7 +5,7 @@ exl-id: 8ef38669-a6f6-493b-b963-b0fc4e3bbff4
 feature: Page Builder, Page Content, Products
 source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -189,7 +189,7 @@ Renseignez les _Paramètres_ en vous reportant aux sections suivantes :
 
    Lorsque ce paramètre est défini sur la valeur par défaut (`Yes`), des points de navigation s’affichent au bas du curseur du carrousel. Si vous désactivez ce paramètre, le curseur du carrousel n’affiche pas les points de navigation.
 
-### Avancé
+### Advanced
 
 1. Pour contrôler le positionnement de la liste Produits dans le conteneur parent, choisissez l’**[!UICONTROL Alignment]** :
 

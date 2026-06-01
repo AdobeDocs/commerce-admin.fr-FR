@@ -1,6 +1,6 @@
 ---
-title: Renvoie l’expérience storefront
-description: Découvrez comment vos clients peuvent gérer les retours de leurs produits à partir de leur compte sur le storefront.
+title: Retourne l’expérience du storefront
+description: Découvrez comment vos clients peuvent gérer les retours de leurs produits depuis leur compte sur le storefront.
 exl-id: c276ca2c-3d8b-4019-a9aa-e7631080f331
 feature: Returns, Storefront
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
@@ -10,50 +10,50 @@ ht-degree: 0%
 
 ---
 
-# Renvoie l’expérience storefront
+# Retourne l’expérience du storefront
 
 {{ee-feature}}
 
-Les clients peuvent utiliser l’une des méthodes suivantes pour demander une RAM à partir du storefront :
+Les clients peuvent utiliser l’une des méthodes suivantes pour demander une autorisation de retour de marchandise depuis le storefront :
 
-- [Commandes et retours du widget](../content-design/widget-orders-returns.md) dans la barre latérale
+- [&#x200B; Widget Commandes et retours &#x200B;](../content-design/widget-orders-returns.md) dans la barre latérale
 - Lien _Commandes et retours_ dans le pied de page
 
-Pour respecter les bonnes pratiques, veillez à inclure une description de vos exigences et processus de RAM dans la stratégie de service client.
+En règle générale, veillez à inclure une description de vos exigences et processus de RMA dans la politique du service client.
 
 >[!NOTE]
 >
->Si vous souhaitez collecter des informations supplémentaires sur les retours, vous pouvez ajouter vos propres [attributs de retour](attributes-returns.md) personnalisés.
+>Si vous souhaitez collecter des informations supplémentaires relatives aux retours, vous pouvez ajouter vos propres [attributs de retour](attributes-returns.md) personnalisés.
 
-Toutes les informations RMA client s’affichent sur la page **[!UICONTROL My Returns]** du tableau de bord du compte client.
+Toutes les informations RMA client sont affichées sur la page **[!UICONTROL My Returns]** du tableau de bord du compte client.
 
-![Mes retours](./assets/my-returns-page.png){width="700" zoomable="yes"}
+![&#x200B; Mes retours &#x200B;](./assets/my-returns-page.png){width="700" zoomable="yes"}
 
-## Demande d’une RMA
+## Demander un RMA
 
-Le client effectue les étapes suivantes sur le storefront pour envoyer une RAM :
+Le client effectue les étapes suivantes sur le storefront pour envoyer une RMA :
 
-1. Dans le pied de page, cliquez sur **[!UICONTROL Orders and Returns]**.
+1. Dans le pied de page, clique sur **[!UICONTROL Orders and Returns]**.
 
-1. Renseigne les informations de commande :
+1. Saisit les informations sur la commande :
 
    - ID de commande
    - Nom de la facturation
-   - Email
+   - E-mail
 
-1. Clics **[!UICONTROL Continue]**.
+1. Effectue un clic sur **[!UICONTROL Continue]**.
 
-   ![Commandes et retours](./assets/storefront-orders-and-returns.png){width="700" zoomable="yes"}
+   ![&#x200B; Commandes et retours &#x200B;](./assets/storefront-orders-and-returns.png){width="700" zoomable="yes"}
 
 1. Sous la date de commande, cliquez sur **[!UICONTROL Return]**.
 
    ![Détails de la commande](./assets/storefront-orders-and-returns-order-information.png){width="700" zoomable="yes"}
 
-1. Choisit l’élément à renvoyer et entre dans le **[!UICONTROL Quantity to Return]**.
+1. Choisit l’élément à renvoyer et saisit le **[!UICONTROL Quantity to Return]**.
 
 1. Définit **[!UICONTROL Resolution]** sur l’une des options suivantes :
 
-   - Exchange
+   - Échange
    - [Remboursement](../customers/refunds-customer-account.md)
    - [Crédit de la boutique](../customers/store-credit-using.md)
 
@@ -72,10 +72,10 @@ Le client effectue les étapes suivantes sur le storefront pour envoyer une RAM 
 
    ![Créer un retour](./assets/storefront-orders-and-returns-create-new-return.png){width="700" zoomable="yes"}
 
-1. Si nécessaire, définit **[!UICONTROL Contact Email Address]** et **[!UICONTROL Comments]**.
+1. Si nécessaire, définit les **[!UICONTROL Contact Email Address]** et les **[!UICONTROL Comments]**.
 
    >[!NOTE]
    >
-   >Si la commande contient plusieurs éléments et que le client souhaite renvoyer un autre élément, il peut cliquer sur **[!UICONTROL Add Item To Return]**, sélectionner l’élément, puis définir toutes les options mentionnées.
+   >Si la commande contient plusieurs articles et que le client souhaite renvoyer un autre article, il peut cliquer sur **[!UICONTROL Add Item To Return]**, sélectionner l&#39;article, puis définir toutes les options mentionnées.
 
-1. Clics **[!UICONTROL Submit]**.
+1. Effectue un clic sur **[!UICONTROL Submit]**.

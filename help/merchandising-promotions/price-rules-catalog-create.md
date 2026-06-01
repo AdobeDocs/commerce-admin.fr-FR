@@ -5,7 +5,7 @@ exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
 source-git-commit: 5e21259c196419f9a337795f9bec29f0737e84ca
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1730'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Suivez ces instructions pour appliquer une remise à des produits spécifiques c
    - Les options disponibles dépendent des groupes de clients et clientes créés et gérés dans _Clients_ > _Groupes de clients et clientes_.
    - Pour sélectionner plusieurs groupes, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque option.
 
-1. ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Saisissez les dates **[!UICONTROL From]** et **[!UICONTROL To]** pour déterminer quand la règle de prix est en vigueur.
+1. ![](../assets/open-source.svg) (Magento Open Source uniquement) Saisissez les dates **[!UICONTROL From]** et **[!UICONTROL To]** pour déterminer quand la règle de prix est en vigueur.
 
    Vous pouvez saisir les dates ou utiliser la **[!UICONTROL Calendar]** (![icône de calendrier](../assets/icon-calendar.png)) pour choisir les dates. Si vous laissez les dates vides, la règle est activée lorsque la règle de prix est enregistrée.
 
@@ -51,7 +51,7 @@ Suivez ces instructions pour appliquer une remise à des produits spécifiques c
 
 1. Entrez un nombre pour établir la **[!UICONTROL Priority]** de cette règle par rapport aux autres règles.
 
-   Le paramètre **[!UICONTROL Priority]** détermine la règle qui s’applique lorsqu’un produit répond aux conditions de plusieurs règles de prix. La règle ayant la priorité la plus élevée (numéro le plus bas, par exemple 0, 1, 2, 3...) prend effet.
+   Le paramètre **[!UICONTROL Priority]** détermine la règle qui s’applique lorsqu’un produit répond aux conditions de plusieurs règles de prix. Règle ayant la priorité la plus élevée (nombre le plus bas, par exemple 0, 1, 2, 3..) prend effet.
 
 ## Etape 2 : définition des conditions
 
@@ -197,9 +197,9 @@ Les [blocs dynamiques](../content-design/dynamic-blocks.md) associés à une rè
 
 1. Une fois l’opération terminée, enregistrez la règle.
 
-   - ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Cliquez sur **[!UICONTROL Save and Apply]**.
+   - ![](../assets/open-source.svg) (Magento Open Source uniquement) Cliquez sur **[!UICONTROL Save and Apply]**.
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Cliquez sur **[!UICONTROL Save]**.
+   - ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Cliquez sur **[!UICONTROL Save]**.
 
      La page Informations sur la règle affiche un journal mis à jour dans les modifications planifiées de la règle.
 
@@ -207,9 +207,9 @@ Les [blocs dynamiques](../content-design/dynamic-blocks.md) associés à une rè
 
 1. Mettez à jour les propriétés d’une règle :
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Cliquez sur **[!UICONTROL Edit]** pour afficher la page _[!UICONTROL Rule Information]_.
+   - ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Cliquez sur **[!UICONTROL Edit]** pour afficher la page _[!UICONTROL Rule Information]_.
 
-   - ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Cliquez sur la règle dans la liste pour afficher la page _[!UICONTROL Rule Information]_.
+   - ![](../assets/open-source.svg) (Magento Open Source uniquement) Cliquez sur la règle dans la liste pour afficher la page _[!UICONTROL Rule Information]_.
 
 1. Testez la règle pour vous assurer qu’elle fonctionne correctement.
 
@@ -232,9 +232,9 @@ Regardez cette vidéo pour en savoir plus sur la création de règles de prix de
 | [!UICONTROL Websites] | (Obligatoire) Identifie les sites Web où la règle peut être utilisée. |
 | [!UICONTROL Customer Groups] | (Obligatoire) Identifie les groupes de clients auxquels la règle s’applique. |
 | [!UICONTROL Priority] | Nombre qui indique la priorité de cette règle par rapport aux autres. Les priorités du plus haut au plus bas sont `0,1,2,3...` |
-| [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Détermine si la règle est active dans le magasin. Options : `Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Spécifie le premier jour où la règle de prix est en vigueur. Si rien n’est indiqué, la règle de prix prend effet lors de l’enregistrement. |
-| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Indique le dernier jour où la règle de prix est en vigueur. Si rien n’est indiqué, la règle de prix se poursuit indéfiniment. |
+| [!UICONTROL Status] | ![](../assets/open-source.svg) (Magento Open Source uniquement) Détermine si la règle est active dans le magasin. Options : `Yes` / `No` |
+| [!UICONTROL From] | ![](../assets/open-source.svg) (Magento Open Source uniquement) Spécifie le premier jour où la règle de prix est en vigueur. Si rien n’est indiqué, la règle de prix prend effet lors de l’enregistrement. |
+| [!UICONTROL To] | ![](../assets/open-source.svg) (Magento Open Source uniquement) Indique le dernier jour où la règle de prix est en vigueur. Si rien n’est indiqué, la règle de prix se poursuit indéfiniment. |
 
 {style="table-layout:auto"}
 

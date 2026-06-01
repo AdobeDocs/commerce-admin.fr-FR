@@ -3,13 +3,13 @@ title: Surveillance Du Statut De Synchronisation Des Flux De Données
 description: Surveillez la synchronisation de l’exportation des données et identifiez les problèmes ou retards de traitement des flux pour  [!DNL Catalog Service],  [!DNL Live Search] et  [!DNL Product Recommendations].
 feature: Products, Customers, Data Import/Export
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 3079ee3fe394a73d5ab4168e9e40815c340e386c
+exl-id: 4e1b9da0-450c-4488-8693-1938a948e792
+source-git-commit: cd54a8c1b6ccf52497bda61919b5bb69c895d960
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
 
 ---
-
 
 # Surveillance Du Statut De Synchronisation Des Flux De Données
 

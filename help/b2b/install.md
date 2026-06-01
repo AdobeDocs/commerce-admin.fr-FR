@@ -7,7 +7,7 @@ exl-id: a6947212-1708-40ae-9e81-874467eba5e1
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 25964363ca5c4ec849e231d4eccb5f60b682a499
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1320'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ L’extension Adobe Commerce B2B, `magento/extension-b2b`, est disponible pour t
 
 ## Conditions requises
 
-- [Adobe Commerce](https://business.adobe.com/fr/products/magento/magento-commerce.html), toutes les versions prises en charge
+- [&#128279;](https://business.adobe.com/fr/products/magento/magento-commerce.html), toutes les versions prises en charge
 - PHP 8.1, 8.2 et 8.3 (nécessite B2B 1.5.0)
 - [!DNL Composer]
 
@@ -48,7 +48,7 @@ L’extension Adobe Commerce B2B, `magento/extension-b2b`, est disponible pour t
 - Consultez les notes de mise à jour pour obtenir les informations les plus récentes sur la compatibilité des versions, les mises à jour ou les modifications pouvant affecter les exigences d’installation ou de mise à niveau.
 
    - [Notes De Mise À Jour B2B](release-notes.md)
-   - [Notes De Mise À Jour D’Adobe Commerce](https://experienceleague.adobe.com/fr/docs/commerce-operations/release/versions)
+   - [Notes de mise à jour d’Adobe Commerce](https://experienceleague.adobe.com/fr/docs/commerce-operations/release/versions)
 
 >[!ENDSHADEBOX]
 

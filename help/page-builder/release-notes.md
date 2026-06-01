@@ -5,7 +5,7 @@ exl-id: 81abe2f9-ed48-49fe-bbf0-70699d7106b2
 feature: Page Builder, Release Notes
 source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '2813'
+source-wordcount: '2839'
 ht-degree: 0%
 
 ---

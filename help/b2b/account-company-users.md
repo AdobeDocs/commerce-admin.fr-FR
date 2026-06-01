@@ -1,45 +1,45 @@
 ---
-title: Gestion des comptes d’utilisateurs de l’entreprise
-description: Découvrez les comptes d’utilisateurs de l’entreprise et leur fonctionnement dans le compte d’entreprise associé.
+title: Gestion des comptes utilisateur d’entreprise
+description: Découvrez les comptes utilisateur de l’entreprise et leur fonctionnement dans le compte d’entreprise associé.
 exl-id: 36b55f61-e579-4eb8-8f67-0156221d378e
 feature: B2B, Companies, User Account, Storefront
 role: Admin, User
 source-git-commit: 9c16d7a3909598328cc42bbcbf39fc14ae6a9eb9
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Gestion des comptes d’utilisateurs de l’entreprise
+# Gestion des comptes utilisateur d’entreprise
 
-Sur le storefront, les utilisateurs de l’entreprise sont affectés par l’administrateur de l’entreprise et sont visibles à partir de la page _[!UICONTROL Company Users]_. Ces personnes sont généralement des acheteurs disposant de différents niveaux de permission d’accéder aux services et aux ressources des magasins.
+Sur le storefront, les utilisateurs de l’entreprise sont affectés par l’administrateur de l’entreprise et sont visibles à partir de la page _[!UICONTROL Company Users]_. Ces personnes sont généralement des acheteurs disposant de différents niveaux d’autorisation pour accéder aux services et aux ressources du magasin.
 
-L’administrateur de l’entreprise commence par configurer la [structure de l’entreprise](account-company-structure.md), puis effectue les tâches suivantes, si nécessaire :
+L’administrateur ou l’administratrice d’entreprise commence par configurer la [structure de l’entreprise](account-company-structure.md), puis effectue les tâches suivantes selon les besoins :
 
-- Créer des utilisateurs d’entreprise et affecter des utilisateurs à des équipes
+- Créer des utilisateurs d’entreprise et affecter des utilisateurs aux équipes
 
-- Définition des rôles et des autorisations et affectation d’utilisateurs à des rôles
+- Définir des rôles et des autorisations, et affecter des utilisateurs et utilisatrices à des rôles
 
-Seuls les administrateurs de l’entreprise peuvent ajouter, modifier, inactiver ou supprimer des utilisateurs de l’entreprise.
+Seuls les administrateurs de l’entreprise peuvent ajouter, modifier, désactiver ou supprimer des utilisateurs.
 
-- Lorsqu’un utilisateur est supprimé, l’état du compte passe à *inactive* et le client ne peut plus se connecter à la société. Les administrateurs peuvent toujours accéder à tout le contenu associé à l’utilisateur. L’administrateur du compte peut restaurer l’accès en définissant l’état du compte sur *[!UICONTROL Active]* à partir de la page [!UICONTROL Company Users].
+- Lorsqu’un utilisateur est supprimé, le statut du compte passe à *inactif* et le client ne peut plus se connecter à l’entreprise. Les administrateurs peuvent toujours accéder à tout le contenu associé à l’utilisateur. L’administrateur de compte peut restaurer l’accès en modifiant le statut du compte sur *[!UICONTROL Active]* à partir de la page [!UICONTROL Company Users] .
 
 - Lorsqu’un compte utilisateur est supprimé, le compte et tout contenu associé sont supprimés du storefront. Cette action ne peut pas être annulée.
 
-## Ajout d’utilisateurs d’entreprise
+## Ajouter des utilisateurs d’entreprise
 
-1. Depuis le storefront, l’administrateur de la société se connecte à son compte.
+1. À partir du storefront, l’administrateur de l’entreprise se connecte à son compte.
 
-1. Dans le panneau de gauche, choisissez **[!UICONTROL Company Users]**.
+1. Dans le panneau de gauche, sélectionne **[!UICONTROL Company Users]**.
 
    ![Utilisateurs de l’entreprise](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
 1. Clique sur **[!UICONTROL Add New User]** et effectue les opérations suivantes :
 
-   - Saisissez le **[!UICONTROL Job Title]** du nouvel utilisateur.
+   - Entre le **[!UICONTROL Job Title]** du nouvel utilisateur.
 
-   - Choisit le **[!UICONTROL User Role]** approprié si les rôles et les autorisations sont définis. Sinon, ils peuvent renvoyer ultérieurement pour affecter le rôle.
+   - Choisit la **[!UICONTROL User Role]** appropriée si les rôles et les autorisations sont définis. Sinon, ils peuvent revenir ultérieurement pour attribuer le rôle.
 
      ![Ajouter un nouvel utilisateur](./assets/company-structure-users-add.png){width="700" zoomable="yes"}
 
@@ -54,79 +54,79 @@ Seuls les administrateurs de l’entreprise peuvent ajouter, modifier, inactiver
 
 1. Répète le processus pour créer autant d’utilisateurs de l’entreprise que nécessaire.
 
-   Les nouveaux utilisateurs apparaissent dans la liste Utilisateurs de l’entreprise , avec l’administrateur de l’entreprise.
+   Les nouveaux utilisateurs apparaissent dans la liste Utilisateurs de l’entreprise, avec l’administrateur de l’entreprise.
 
-Pour gagner du temps lors de leur première commande, l’administrateur de la société peut rappeler à chaque utilisateur de la société d’ajouter l’adresse de facturation et de livraison par défaut à son [carnet d’adresses](../customers/account-dashboard-address-book.md).
+Pour gagner du temps lors de leur première commande, l’administrateur de la société peut rappeler à chaque utilisateur de la société d’ajouter l’adresse de facturation et d’expédition par défaut de la société à son [carnet d’adresses](../customers/account-dashboard-address-book.md).
 
-## Supprimez un utilisateur de l’ [!UICONTROL Company structure]
+## Supprimer un utilisateur de la [!UICONTROL Company structure]
 
-Les administrateurs d’entreprise peuvent supprimer un utilisateur de l’ [!UICONTROL Company Structure].
+Les administrateurs de l’entreprise peuvent supprimer un utilisateur du [!UICONTROL Company Structure].
 
-Une fois qu’un compte est supprimé, l’état du compte utilisateur passe à *inactive* et l’utilisateur ne peut plus se connecter au storefront.
-L’administrateur peut réactiver un compte en modifiant les informations du compte d’utilisateur à partir de la page Utilisateurs de l’entreprise .
+Après la suppression d’un compte, le statut du compte utilisateur passe à *inactif* et l’utilisateur ne peut plus se connecter au storefront.
+L’administrateur peut réactiver un compte en modifiant les informations de ce compte utilisateur à partir de la page Utilisateurs de l’entreprise.
 
-1. Depuis le storefront, l’administrateur de la société se connecte à son compte.
+1. À partir du storefront, l’administrateur de l’entreprise se connecte à son compte.
 
-1. Dans le panneau de gauche, choisissez **[!UICONTROL Company Structure]**.
+1. Dans le panneau de gauche, sélectionne **[!UICONTROL Company Structure]**.
 
-1. Sélectionne l’utilisateur de l’entreprise dans la structure de l’entreprise.
+1. Sélectionne l&#39;utilisateur société dans la structure société.
 
-1. Clics **[!UICONTROL Remove from Structure]**.
+1. Effectue un clic sur **[!UICONTROL Remove from Structure]**.
 
-   ![Supprimer l’utilisateur](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
+   ![Supprimer utilisateur](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
 
-1. Lorsque vous êtes invité à confirmer l’opération, cliquez sur **[!UICONTROL Remove]**.
+1. Lorsque vous êtes invité à confirmer, cliquez sur **[!UICONTROL Remove]**.
 
-   Dans l’administrateur, l’utilisateur de la société reste répertorié dans la grille [Customers](../customers/customers-all.md), mais avec le statut `Inactive`.
+   Dans l’interface d’administration, l’utilisateur de la société reste répertorié dans la grille [Clients](../customers/customers-all.md), mais avec un statut `Inactive`.
 
-## Affichage et gestion des comptes d’utilisateurs d’entreprise
+## Affichage et gestion des comptes utilisateur d’entreprise
 
-Les administrateurs d’entreprise peuvent afficher et gérer les comptes utilisateurs de l’entreprise à l’aide des filtres d’affichage sur la page [!UICONTROL Company Users].
+Les administrateurs et administratrices d’entreprise peuvent afficher et gérer les comptes utilisateur de l’entreprise à l’aide des filtres d’affichage de la page [!UICONTROL Company Users].
 
 ![Utilisateurs de l’entreprise](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
 - Affichez uniquement les utilisateurs inactifs en sélectionnant **[!UICONTROL Show Inactive Users]**.
 - Affichez uniquement les utilisateurs actifs en sélectionnant **[!UICONTROL Show Active Users]**.
-- Pour afficher tous les utilisateurs, sélectionnez **[!UICONTROL Show All Users]**.
+- Affichez tous les utilisateurs en sélectionnant **[!UICONTROL Show All Users]**.
 
-L’administrateur de l’entreprise peut gérer un compte individuel à l’aide de l’élément de ligne *[!UICONTROL Actions]* pour modifier les informations du compte, gérer l’état du compte ou supprimer un compte.
+L’administrateur d’entreprise peut gérer un compte individuel à l’aide de la *[!UICONTROL Actions]* d’éléments de ligne pour modifier les informations du compte, gérer le statut du compte ou supprimer un compte.
 
-### Modification des informations du compte utilisateur de la société
+### Modifier les informations du compte d’utilisateur de la société
 
-Les administrateurs d’entreprise peuvent mettre à jour les informations de profil du compte utilisateur et modifier l’état du compte.
+Les administrateurs d’entreprise peuvent mettre à jour les informations de profil du compte utilisateur et modifier le statut du compte.
 
 1. Sur la page [!UICONTROL Company Users], recherchez le compte utilisateur à mettre à jour. Cliquez sur **[!UICONTROL Edit]**.
 
-1. Apportez toute modification requise aux informations du compte utilisateur, y compris la modification de l’état du compte.
+1. Apportez les modifications nécessaires aux informations du compte d’utilisateur, y compris le changement de statut du compte.
 
 1. Appliquez les modifications en cliquant sur **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->Si vous modifiez un compte utilisateur de l’entreprise et que vous constatez que les informations de compte requises du profil sont manquantes, telles que le titre de la tâche et le numéro de téléphone de travail, cela indique que le compte a été ajouté par un administrateur de site Commerce. Ces comptes ne peuvent pas être modifiés à partir du storefront. Pour mettre à jour les informations ou modifier l’état du compte, contactez votre administrateur de site.
+>Si vous modifiez le compte utilisateur d’une société et que vous constatez qu’il manque au profil des informations de compte requises telles que l’intitulé de la fonction et le numéro de téléphone professionnel, cela indique que le compte a été ajouté par un administrateur du site Commerce. Ces comptes ne peuvent pas être modifiés à partir du storefront. Pour mettre à jour les informations ou modifier le statut du compte, contactez l’administrateur de votre site.
 
-### Désactivation ou suppression d’un compte actif
+### Désactiver ou supprimer un compte actif
 
 1. Sur la page [!UICONTROL Company Users], recherchez le compte utilisateur à mettre à jour. Cliquez sur **[!UICONTROL Manage]**.
 
    ![Gérer l’utilisateur à partir de la page Utilisateurs de l’entreprise](./assets/company-users-manage-storefront.png){width="600" zoomable="yes"}
 
-1. Lorsque vous y êtes invité, désactivez ou supprimez le compte d’utilisateur selon les besoins.
+1. Lorsque vous y êtes invité, désactivez ou supprimez le compte utilisateur selon les besoins.
 
 >[!IMPORTANT]
 >
 >La suppression d’un compte utilisateur d’entreprise supprime le compte et tout le contenu associé du système. Cette action ne peut pas être annulée.
 
-## Description des champs de profil du compte d’utilisateur de société
+## Descriptions des champs du profil de compte utilisateur d’entreprise
 
 | Champ | Description |
 |--------------------------------|---------------|
-| [!UICONTROL Job Title] | Fonction de l’utilisateur de la société. |
-| [!UICONTROL User Role] | [role](account-company-roles-permissions.md) attribué à l’utilisateur de la société. Options : `Default User` / (autres rôles) |
+| [!UICONTROL Job Title] | Fonction de l&#39;utilisateur de la société. |
+| [!UICONTROL User Role] | [rôle](account-company-roles-permissions.md) affecté à l’utilisateur ou à l’utilisatrice de la société. Options : `Default User` / (autres rôles) |
 | [!UICONTROL First Name] | Prénom de l’utilisateur de la société. |
 | [!UICONTROL Last Name] | Nom de l’utilisateur de la société. |
-| [!UICONTROL Email] | Adresse électronique de l’utilisateur de la société. |
-| [!UICONTROL Work Phone Number] | Numéro de téléphone de travail de l’utilisateur de la société. |
-| [!UICONTROL Status] | État du compte utilisateur de l’entreprise. Options : `Active` / `Inactive` |
+| [!UICONTROL Email] | Adresse e-mail de l’utilisateur de la société. |
+| [!UICONTROL Work Phone Number] | Numéro de téléphone professionnel de l’utilisateur de la société. |
+| [!UICONTROL Status] | Statut du compte utilisateur de la société. Options : `Active` / `Inactive` |
 
 {style="table-layout:auto"}

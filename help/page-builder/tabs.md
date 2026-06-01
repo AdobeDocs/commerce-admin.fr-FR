@@ -5,7 +5,7 @@ exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 feature: Page Builder, Page Content
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '2039'
+source-wordcount: '2041'
 ht-degree: 0%
 
 ---
@@ -192,7 +192,7 @@ Vous pouvez ajouter n’importe quel type de contenu à un onglet comme vous le 
 
 - **[!UICONTROL Background Repeat]** - Définissez sur `Yes` pour répéter l’image d’arrière-plan afin de remplir l’espace disponible dans l’onglet.
 
-### Avancé
+### Advanced
 
 - Pour contrôler l’alignement horizontal des conteneurs de contenu ajoutés à l’onglet, choisissez une **[!UICONTROL Alignment]** .
 

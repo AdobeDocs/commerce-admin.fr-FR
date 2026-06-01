@@ -1,6 +1,6 @@
 ---
 title: Comptes d’entreprise
-description: Découvrez comment les comptes d’entreprise gérés dans votre boutique Adobe Commerce permettent de rejoindre plusieurs acheteurs appartenant à la même société dans un seul compte d’entreprise.
+description: Découvrez comment les comptes d’entreprise gérés dans votre boutique Adobe Commerce permettent de regrouper plusieurs acheteurs appartenant à la même société en un seul compte d’entreprise.
 exl-id: 0b3c3635-a1cf-4ee6-a8bc-e7cbcb4e2e63
 feature: B2B, Companies, Configuration
 source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
@@ -12,87 +12,87 @@ ht-degree: 0%
 
 # Comptes d’entreprise
 
-Lorsque vous incorporez des comptes d’entreprise B2B dans votre boutique, vous pouvez simplifier l’expérience d’achat d’entreprise en permettant aux entreprises de créer plusieurs sous-comptes avec des autorisations flexibles en fonction des rôles d’utilisateur dans leur entreprise.
+Lorsque vous incorporez des comptes d’entreprise B2B dans votre boutique, vous pouvez simplifier l’expérience d’achat en permettant aux entreprises de créer plusieurs sous-comptes avec des autorisations flexibles basées sur les rôles utilisateur dans leur organisation.
 
-Selon l’entreprise, un administrateur de magasin peut ajuster les promotions et les prix en fonction de ses besoins, et créer des offres hautement personnalisées qui répondent aux besoins des acheteurs et augmentent les commandes.
+Selon l&#39;entreprise, un administrateur de magasin peut ajuster les promotions et les prix en fonction de ses besoins et créer des offres hautement personnalisées qui répondent aux demandes des acheteurs et augmentent les commandes.
 
-L’ajout d’une association de compte d’entreprise à un [individu](../customers/account-create.md) standard permet au client d’utiliser les workflows d’achat spécifiques définis pour la société.
+L&#39;ajout d&#39;une association de comptes de société à un [individu](../customers/account-create.md) standard permet au client d&#39;utiliser les workflows d&#39;achat spécifiques définis pour la société.
 
-Avantages d’un compte d’entreprise :
+Avantages d&#39;un compte d&#39;entreprise :
 
-- Offre un nombre illimité d&#39;[utilisateurs de l&#39;entreprise](account-company-users.md) et la création de comptes supplémentaires, ce qui simplifie les achats de l&#39;entreprise.
+- Offre un nombre illimité [utilisateurs de l’entreprise](account-company-users.md) et la création de comptes supplémentaires, ce qui simplifie les achats de l’entreprise.
 
-- Inclut la prise en charge d’une hiérarchie de comptes d’entreprise _smart_ avec différents [&#x200B; rôles et autorisations](account-company-roles-permissions.md) pour le placement de commandes.
+- Inclut la prise en charge d’une hiérarchie de comptes d’entreprise _intelligente_ avec différents [rôles et autorisations](account-company-roles-permissions.md) pour passer des commandes.
 
-- Fournit un mécanisme permettant aux commerçants d’augmenter leurs revenus en proposant le [crédit de boutique d’entreprise](credit-company.md) comme mode de paiement.
+- Fournit un mécanisme permettant aux commerçants d&#39;augmenter leurs revenus en offrant [crédit de magasin de l&#39;entreprise](credit-company.md) comme mode de paiement.
 
 - Prend en charge la [gestion](account-company-manage.md) de tous les comptes de société de l’administrateur.
 
-## Affichage des comptes d’entreprise
+## Afficher les comptes société
 
-La grille _Entreprises_ répertorie tous les comptes d’entreprise actifs et les demandes en attente, quel que soit le paramètre d’état. Il fournit également les outils pour [créer](account-company-create.md) et [gérer](account-company-manage.md) comptes d’entreprise. Utilisez les contrôles de grille standard pour filtrer la liste et ajuster la disposition des colonnes. Pour obtenir la liste des descriptions des colonnes, reportez-vous à la section _Descriptions des colonnes_ dans la section [&#x200B; Gestion des comptes d’entreprise](account-company-manage.md).
+La grille _Entreprises_ répertorie tous les comptes d’entreprise actifs et les demandes en attente, quel que soit le paramètre de statut. Il fournit également les outils nécessaires à la [création](account-company-create.md) et [gestion](account-company-manage.md) des comptes d’entreprise. Utilisez les commandes de grille standard pour filtrer la liste et ajuster la disposition des colonnes. Pour obtenir une liste des descriptions des colonnes, reportez-vous à la section _Descriptions des colonnes_ dans [Gestion des comptes d’entreprise](account-company-manage.md).
 
-Les clients peuvent créer un compte d’entreprise à partir du storefront ou un commerçant peut en créer un à partir de l’administrateur. Par défaut, la possibilité de créer des comptes d’entreprise à partir du storefront est activée. S’il est autorisé par la configuration, un visiteur du magasin peut demander l’ouverture d’un compte de société. Une fois le compte de l’entreprise approuvé, l’administrateur de l’entreprise peut configurer la structure de l’entreprise et les utilisateurs avec différents niveaux d’autorisation.
+Les clients peuvent créer un compte d’entreprise à partir du storefront ou un commerçant peut en créer un à partir de l’administrateur. Par défaut, la possibilité de créer des comptes d’entreprise à partir du storefront est activée. Si la configuration le permet, un visiteur du magasin peut demander l’ouverture d’un compte d’entreprise. Une fois le compte d’entreprise approuvé, l’administrateur de l’entreprise peut configurer la structure de l’entreprise et les utilisateurs avec différents niveaux d’autorisation.
 
 Dans la barre latérale _Admin_, accédez à **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-![Grille d’entreprises](./assets/companies-grid.png){width="700" zoomable="yes"}
+![Grille des sociétés](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-La grille [!UICONTROL Companies] répertorie toutes les entreprises, quel que soit leur statut. La liste des sociétés indique si une société est associée à une [hiérarchie de société](manage-company-hierarchy.md) et fournit [&#x200B; des informations &#x200B;](/help/b2b/account-company-manage.md#company-options-and-columns) sur la société, l’administrateur de la société et d’autres informations. Personnalisez la vue en utilisant les [contrôles de grille d’administration](../getting-started/admin-grid-controls.md) pour définir des filtres, des options d’affichage des colonnes, etc.
+La grille [!UICONTROL Companies] répertorie toutes les sociétés, quel que soit leur statut. La liste des sociétés indique si une société est associée à une [hiérarchie de société](manage-company-hierarchy.md) et fournit des [informations détaillées](/help/b2b/account-company-manage.md#company-options-and-columns) sur la société, l&#39;administrateur de la société et d&#39;autres informations. Personnalisez l’affichage à l’aide des contrôles de grille d’administration [Admin](../getting-started/admin-grid-controls.md) pour définir des filtres, des options d’affichage des colonnes, etc.
 
 ## Administrateur d’entreprise
 
-L’exemple suivant illustre la grille _Customers_ avec les premiers comptes administrateur de l’entreprise.
+L’exemple suivant illustre la grille _Clients_ avec les comptes d’administration initiaux de la société.
 
-![Grille de clients avec compte administrateur de l’entreprise](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![Grille des clients avec compte d’administrateur d’entreprise](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-Chaque société dispose d’un seul administrateur de société identifié par l’adresse électronique du compte, ainsi que par le prénom et le nom de l’administrateur. L’administrateur peut être affecté à d’autres sociétés en tant qu’utilisateur, mais il peut être un administrateur pour une seule société.
+Chaque société a un seul administrateur d’entreprise identifié par l’adresse e-mail du compte et le prénom et le nom de l’administrateur. L’administrateur peut être affecté à d’autres sociétés en tant qu’utilisateur, mais il ne peut être administrateur que d’une seule société.
 
-Après la création du compte, l’administrateur de l’entreprise définit la structure de l’entreprise de [équipes](account-company-structure.md), configure les [&#x200B; utilisateurs de l’entreprise](account-company-users.md) et établit les [rôles et autorisations](account-company-roles-permissions.md) pour chacun d’eux.
+Après avoir créé le compte, l’administrateur ou l’administratrice d’entreprise définit la structure de l’entreprise [équipes](account-company-structure.md), configure les [utilisateurs de l’entreprise](account-company-users.md) et établit les [rôles et autorisations](account-company-roles-permissions.md) pour chacun.
 
-### Définition du mot de passe de l’administrateur de la société avant la première connexion
+### Définir le mot de passe de l&#39;administrateur d&#39;entreprise avant la première connexion
 
-1. L’administrateur de la société trouve un e-mail de bienvenue dans le magasin.
+1. L’administrateur de la société trouve un e-mail de bienvenue dans le magasin .
 
-   ![Exemple de courriel de bienvenue](./assets/company-admin-welcome-email.png){width="500"}
+   ![Exemple de courrier électronique de bienvenue](./assets/company-admin-welcome-email.png){width="500"}
 
    >[!NOTE]
    >
-   >Les cibles d’adresse électronique et le contenu de l’adresse électronique sont déterminés par les options spécifiées dans la configuration [&#x200B; des options d’adresse électronique de l’entreprise &#x200B;](email-company-configuration.md).
+   >Les adresses e-mail cibles et le contenu de l’e-mail sont déterminés par les options spécifiées dans la configuration [options d’e-mail de la société](email-company-configuration.md).
 
-1. Suivez les instructions et cliquez sur [!UICONTROL **link**] pour définir leur mot de passe.
+1. Suit les instructions et clique sur [!UICONTROL **lien**] pour définir son mot de passe.
 
-1. Entrez une confirmation [!UICONTROL **Nouveau mot de passe**] et un mot de passe pour leur compte.
+1. Saisit un [!UICONTROL **Nouveau mot de passe**] et une confirmation de mot de passe pour son compte.
 
-   Le mot de passe doit contenir au moins trois des types de caractères suivants :
+   Le mot de passe doit comporter au moins trois des types de caractères suivants :
 
-   - Caractères minuscules (abc..)
-   - Caractères majuscules (ABC...)
+   - Caractères minuscules (abc...)
+   - Caractères en majuscules (ABC...)
    - Nombres (1234567890)
    - Caractères spéciaux (!@#$...)
 
-1. Cliquez sur [!UICONTROL **Définir un nouveau mot de passe**].
+1. Clique sur [!UICONTROL **Définir un nouveau mot de passe**].
 
    ![Connexion client - administrateur de la société](./assets/company-admin-account-login.png){width="700" zoomable="yes"}
 
-1. Lorsque la page [!UICONTROL Customer Login] apparaît, le client saisit son [!UICONTROL **Email**] et son [!UICONTROL **Mot de passe**].
+1. Lorsque la page de [!UICONTROL Customer Login] s’affiche, le client saisit ses [!UICONTROL **E-mail**] et [!UICONTROL **Mot de passe**].
 
-1. Cliquez sur [!UICONTROL **Se connecter**] pour accéder au tableau de bord de leur compte.
+1. Clique sur [!UICONTROL **Se connecter**] pour accéder au tableau de bord de son compte.
 
-   ![Tableau de bord du compte - société](./assets/account-dashboard-company.png){width="700" zoomable="yes"}
+   ![Tableau de bord du compte - Société](./assets/account-dashboard-company.png){width="700" zoomable="yes"}
 
 ## Structure de l&#39;entreprise
 
-Un compte d’entreprise peut être configuré pour refléter la structure de l’entreprise. Au départ, la structure de l’entreprise inclut uniquement l’administrateur de l’entreprise, mais peut être développée pour inclure des équipes d’utilisateurs. Les utilisateurs peuvent être associés à des équipes ou organisés au sein d’une hiérarchie de divisions et de subdivisions au sein de l’entreprise. La structure est conçue pour prendre en charge l’utilisation des [règles d’approbation](account-dashboard-approval-rules.md) pour les [commandes](purchase-order-flow.md) (PO) associées au compte de la société.
+Un compte d’entreprise peut être configuré pour refléter la structure de l’entreprise. Au départ, la structure de l’entreprise comprend uniquement l’administrateur ou l’administratrice de l’entreprise, mais peut être étendue pour inclure des équipes d’utilisateurs et utilisatrices. Les utilisateurs peuvent être associés à des équipes ou organisés dans une hiérarchie de divisions et de subdivisions au sein de la société. La structure est conçue pour prendre en charge l’utilisation de [&#x200B; règles d’approbation &#x200B;](account-dashboard-approval-rules.md) pour les [&#x200B; commandes fournisseur &#x200B;](purchase-order-flow.md) associées au compte de la société.
 
-![Structure de l’entreprise avec des divisions](./assets/company-structure-diagram.svg){width="450"}
+![Structure d’entreprise avec divisions](./assets/company-structure-diagram.svg){width="450"}
 
-Dans le tableau de bord du compte de l’administrateur de l’entreprise, la structure de l’entreprise est représentée sous la forme d’une arborescence et se compose initialement uniquement de l’administrateur de l’entreprise.
+Dans le tableau de bord du compte de l&#39;administrateur de la société, la structure de la société est représentée sous la forme d&#39;une arborescence et n&#39;est initialement constituée que de l&#39;administrateur de la société.
 
-![Structure de l’entreprise avec administrateur de l’entreprise](./assets/company-structure-tree-admin.png){width="600"}
+![Structure de l’entreprise avec l’administrateur d’entreprise](./assets/company-structure-tree-admin.png){width="600"}
 
-Lors de la création du compte, l’administrateur de l’entreprise peut utiliser l’adresse électronique de l’entreprise ou se voir attribuer une autre adresse électronique.
+Lors de la création du compte, l’administrateur ou l’administratrice de la société peut utiliser l’adresse e-mail de la société ou se voir attribuer une autre adresse e-mail.
 
-Dans l’exemple suivant, la structure initiale de l’entreprise inclut l’administrateur de l’entreprise ainsi qu’un compte utilisateur individuel au nom de l’administrateur de l’entreprise. Mais les fonctions d’administrateur de l’entreprise (telles que la structure de l’entreprise et les règles d’approbation) ne sont disponibles que lorsqu’elles sont connectées au compte utilisateur désigné comme administrateur de l’entreprise.
+Dans l&#39;exemple suivant, la structure initiale de l&#39;entreprise comprend l&#39;administrateur de l&#39;entreprise et un compte utilisateur individuel au nom de l&#39;administrateur de l&#39;entreprise. Cependant, les fonctions d’administrateur d’entreprise (telles que la structure de l’entreprise et les règles d’approbation) ne sont disponibles que lorsqu’elles sont connectées au compte utilisateur désigné comme administrateur de l’entreprise.
 
-![Structure de l’entreprise avec administrateur et compte utilisateur](./assets/company-structure-tree-admin-user.png){width="600"}
+![Structure d’entreprise avec administrateur et compte utilisateur](./assets/company-structure-tree-admin-user.png){width="600"}

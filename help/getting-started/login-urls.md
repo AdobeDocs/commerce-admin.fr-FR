@@ -6,7 +6,7 @@ feature: System
 role: Admin, Leader
 source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ L’adresse de votre boutique [Admin](admin.md) est configurée lors de l’inst
 
 ## compte [!DNL Commerce]
 
-Votre compte [Commerce](commerce-account-create.md) permet d&#39;accéder à des informations sur vos produits et services, les paramètres de votre compte, l&#39;historique de facturation et les ressources d&#39;assistance. Pour accéder à votre compte, accédez au site Commerce principal et cliquez sur **[!UICONTROL My Account]** dans le coin supérieur droit.
+Votre compte [&#128279;](commerce-account-create.md) permet d&#39;accéder à des informations sur vos produits et services, les paramètres de votre compte, l&#39;historique de facturation et les ressources d&#39;assistance. Pour accéder à votre compte, accédez au site Commerce principal et cliquez sur **[!UICONTROL My Account]** dans le coin supérieur droit.
 
 ## Compte client
 

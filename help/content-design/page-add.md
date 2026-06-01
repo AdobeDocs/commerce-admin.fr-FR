@@ -5,7 +5,7 @@ exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 7ef8b9a1c56e4c8ee5ce8d3be30bf336c35a6241
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Ajoutez le contenu de la page en fonction de votre [configuration des outils de 
 
 1. Dans la zone de **[!UICONTROL Content Heading]**, saisissez l’en-tête qui doit apparaître en haut de la page.
 
-   Si cette option est activée, l’étape et le panneau [Page Builder](../page-builder/introduction.md) s’affichent sous l’en-tête Contenu. Pour plus d&#39;informations, voir [Workspace](../page-builder/workspace.md). Si _Page Builder_ n’est pas activé, l’éditeur s’ouvre en mode WYSIWYG avec la barre d’outils supérieure.
+   Si cette option est activée, l’étape et le panneau [Page Builder](../page-builder/introduction.md) s’affichent sous l’en-tête Contenu. Pour plus d&#39;informations, voir [&#128279;](../page-builder/workspace.md). Si _Page Builder_ n’est pas activé, l’éditeur s’ouvre en mode WYSIWYG avec la barre d’outils supérieure.
 
 1. Complétez le contenu et mettez en forme le texte selon vos besoins.
 
@@ -136,7 +136,7 @@ Ajoutez le contenu de la page en fonction de votre [configuration des outils de 
    - `Magento Black`
    - `Magento Luma`
 
-1. ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Pour planifier une modification de conception, développez ![Sélecteur d’extension](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]** et procédez comme suit :
+1. ![](../assets/open-source.svg) (Magento Open Source uniquement) Pour planifier une modification de conception, développez ![Sélecteur d’extension](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]** et procédez comme suit :
 
    ![Mise à jour de la conception personnalisée](./assets/page-custom-design-update.png){width="600" zoomable="yes"}
 

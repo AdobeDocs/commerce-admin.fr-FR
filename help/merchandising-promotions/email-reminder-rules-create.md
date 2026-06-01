@@ -5,7 +5,7 @@ exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
 source-git-commit: d605748f04f26952daa467a84431a17bf368dbad
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---

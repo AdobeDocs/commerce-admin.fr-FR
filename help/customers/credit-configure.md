@@ -1,5 +1,5 @@
 ---
-title: Configurer le crédit de magasin
+title: Configurer le crédit du magasin
 description: Le crédit de magasin peut être configuré pour contrôler les remboursements automatiques et le crédit disponible pour les clients.
 exl-id: 7920074b-6ad8-46fe-ac1f-3dcf686859b2
 feature: Customers, Configuration
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# Configurer le crédit de magasin
+# Configurer le crédit du magasin
 
 {{ee-feature}}
 
-La configuration du crédit de magasin contrôle les remboursements automatiques, l’affichage du crédit disponible dans les comptes clients et le modèle d’email utilisé pour les notifications envoyées aux clients.
+La configuration du crédit de magasin contrôle les remboursements automatiques, l’affichage du crédit disponible dans les comptes des clients et le modèle d’e-mail utilisé pour les notifications envoyées aux clients.
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Customers]** et choisissez **[!UICONTROL Customer Configuration]**.
 
@@ -26,13 +26,13 @@ La configuration du crédit de magasin contrôle les remboursements automatiques
 
 1. Définissez **[!UICONTROL Enable Store Credit Functionality]** sur `Yes`.
 
-1. Définissez les éléments suivants selon vos préférences :
+1. Définissez les éléments suivants en fonction de vos préférences :
 
    * **[!UICONTROL Show Store Credit History to Customers]**
    * **[!UICONTROL Refund Store Credit Automatically]**
 
-1. Définissez **[!UICONTROL Store Credit Update Email Sender]** sur l’identité du magasin qui apparaît comme l’expéditeur des notifications électroniques envoyées aux clients.
+1. Définissez **[!UICONTROL Store Credit Update Email Sender]** sur l’identité du magasin qui apparaît comme expéditeur des notifications par e-mail envoyées aux clients.
 
-1. Définissez **[!UICONTROL Store Credit Update Email Template]** sur le modèle utilisé pour les notifications électroniques envoyées aux clients.
+1. Définissez **[!UICONTROL Store Credit Update Email Template]** sur le modèle utilisé pour les notifications par e-mail envoyées aux clients et clientes.
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Config]**.
+1. Cliquez ensuite sur **[!UICONTROL Save Config]**.

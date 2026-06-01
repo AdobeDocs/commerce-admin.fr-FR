@@ -5,7 +5,7 @@ feature: B2B, Quotes
 exl-id: 7d1e7a3d-6c50-416a-b490-0a083e1c06b4
 source-git-commit: 6fe8a356ab517fc5dd169c4a6f7ef52937f705c4
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---

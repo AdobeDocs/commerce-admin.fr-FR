@@ -5,7 +5,7 @@ exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
 source-git-commit: 593bad9ca83e96a145beeceb0265e0080e5f7930
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -130,5 +130,5 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
 
 ## Lectures connexes
 
-[Résolution des problèmes d&#39;accès partagé](https://experienceleague.adobe.com/fr/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
+[Dépannage de l&#39;accès partagé](https://experienceleague.adobe.com/fr/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
 

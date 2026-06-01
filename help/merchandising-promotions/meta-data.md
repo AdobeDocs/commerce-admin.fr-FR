@@ -6,7 +6,7 @@ feature: Merchandising, Search
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -56,13 +56,13 @@ Par exemple, si votre catalogue est configuré pour inclure le chemin d’accès
 
 Lorsque les balises de métadonnées canoniques pour les catégories sont activées, la page de catégorie de votre magasin inclut une URL canonique vers l’URL de catégorie complète :
 
-    http://mystore.com/gear/bags/
+    
 
 ### Exemple 3 : URL complète de la page de produits
 
 Lorsque les balises de métadonnées canoniques pour les produits sont activées, la page de produit inclut une URL canonique vers le nom de domaine/la clé d’URL de produit, car les clés d’URL de produit sont globalement uniques.
 
-    http://mystore.com/driven-backpack.html
+    
 
 Si vous incluez également le chemin d’accès à la catégorie dans les URL de produit, l’URL canonique reste domain-name/product-url-key. Cependant, le produit est également accessible à l’aide de son URL complète, qui inclut la catégorie . Par exemple, si la clé URL du produit est `driven-backpack` et est affectée à la catégorie Engrenage > Sacs , le produit est accessible à l’aide de l’une des URL.
 

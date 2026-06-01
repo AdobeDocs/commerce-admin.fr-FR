@@ -5,7 +5,7 @@ exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Dans le diagramme suivant, les noms qui font référence aux conteneurs sont noi
 | `page/html_wrapper` | Bien qu’il soit inclus dans la disposition par défaut, ce bloc est obsolète et n’est inclus que pour garantir une rétrocompatibilité. N’utilisez pas de blocs de ce type. |
 | `page/html_breadcrumbs` | Le nom de ce bloc est `breadcrumbs` et il est un enfant du bloc d’en-tête . Ce bloc affiche le chemin de navigation de la page active. Il ne peut y avoir qu’un seul bloc de ce type par page. |
 | `page/html_footer` | Le nom du bloc est `footer` et il est l’enfant du bloc racine. Le bloc de pied de page correspond au pied de page visuel en bas de la page et contient plusieurs blocs standard. Chaque page ne peut contenir qu’un seul bloc de ce type, qui ne doit pas être supprimé. |
-| `page/template_links` | La mise en page standard comporte deux blocs de ce type. Le bloc `top.links` est un enfant du bloc d’en-tête et correspond au menu de navigation supérieur. Le bloc `footer_links` est un enfant du bloc de pied de page et correspond au menu de navigation du bas. <br/><br/>**_Remarque :_**&#x200B;il est possible de manipuler les liens du modèle, comme le montrent les exemples. |
+| `page/template_links` | La mise en page standard comporte deux blocs de ce type. Le bloc `top.links` est un enfant du bloc d’en-tête et correspond au menu de navigation supérieur. Le bloc `footer_links` est un enfant du bloc de pied de page et correspond au menu de navigation du bas. <br/><br/>**_Note:_** il est possible de manipuler les liens du modèle, comme le montrent les exemples. |
 | `page/switch` | Dans une disposition standard, il existe deux blocs de ce type. Le bloc `store_language` est un enfant du bloc d’en-tête et correspond au sélecteur de langue supérieur. Le bloc `store_switcher` est un enfant du bloc de pied de page et correspond au sélecteur de magasin inférieur. |
 | core/messages | Dans une disposition standard, il existe deux blocs de ce type. Le bloc `global_messages` affiche des messages globaux. Le bloc `messages` est utilisé pour afficher tous les autres messages. Si vous supprimez ces blocs, le client ne verra aucun message. |
 | `core/text_list` | Ce type de bloc est largement utilisé dans [!DNL Commerce] comme espace réservé pour le rendu des blocs enfants. |

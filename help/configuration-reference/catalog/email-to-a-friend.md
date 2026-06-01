@@ -1,12 +1,12 @@
 ---
-title: '[!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend]'
-description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend] de l’administrateur Commerce.
+title: '[!UICONTROL Catalog] > [!UICONTROL Email to a Friend]'
+description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Email to a Friend] de [!UICONTROL Catalog] &gt ; de l’administrateur Commerce.
 exl-id: cd1e3a8d-14ce-47e9-a3bc-c1b1dcbe0d8c
 feature: Configuration, Communications
 source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 0%
+source-wordcount: '172'
+ht-degree: 1%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 ## [!UICONTROL Email Templates]
 
-![Modèles de courrier électronique](./assets/email-to-a-friend-email-templates.png)<!-- zoom -->
+![Modèles d’e-mail](./assets/email-to-a-friend-email-templates.png)<!-- zoom -->
 
 <!-- [Email Templates](https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/communications/email-templates#configure-email-templates) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | Affichage en magasin | Active le processus qui permet aux clients d’envoyer des courriers électroniques à leurs amis concernant les produits de votre boutique. Options : `Yes` / `No` |
-| [!UICONTROL Select Email Template] | Affichage en magasin | Identifie le modèle de courrier électronique utilisé pour les messages générés par la fonction _Email a Friend_. Modèle par défaut : `Send Product to Friend` |
-| [!UICONTROL Allow for Guests] | Affichage en magasin | Détermine si l’expéditeur doit être un client enregistré pour envoyer un courrier électronique concernant un produit à ses amis. Options : `Yes` / `No` |
-| [!UICONTROL Max Recipients] | Affichage en magasin | Limite le nombre de personnes qui peuvent se trouver sur la liste de distribution pour un seul email. |
-| [!UICONTROL Max Products Sent in 1  Hour] | Affichage en magasin | Limite le nombre de produits qui peuvent être partagés par un utilisateur unique sur une période d’une heure. |
-| [!UICONTROL Limit Sending By] | Affichage en magasin | Détermine la méthode utilisée pour identifier l’expéditeur. Les options incluent : <br/>**`IP Address`**- (Recommandé) Identifie l’expéditeur selon l’adresse IP de l’ordinateur qui est utilisé pour envoyer les emails du produit.<br/>**`Cookie (unsafe)`** - Identifie l’expéditeur par un cookie de navigateur. Cette méthode n’est pas sécurisée, car l’utilisateur peut supprimer le cookie pour éviter la restriction. |
+| [!UICONTROL Enabled] | Affichage de la boutique | Active le processus qui permet aux clients d’envoyer des e-mails à leurs amis à propos des produits de votre boutique. Options : `Yes` / `No` |
+| [!UICONTROL Select Email Template] | Affichage de la boutique | Identifie le modèle d’e-mail utilisé pour les messages générés par la fonction _Envoyer un e-mail à un ami_. Modèle par défaut : `Send Product to Friend` |
+| [!UICONTROL Allow for Guests] | Affichage de la boutique | Détermine si l’expéditeur doit être un client enregistré pour envoyer un e-mail à propos d’un produit à des amis. Options : `Yes` / `No` |
+| [!UICONTROL Max Recipients] | Affichage de la boutique | Limite le nombre de personnes qui peuvent figurer sur la liste de distribution pour un seul e-mail. |
+| [!UICONTROL Max Products Sent in 1  Hour] | Affichage de la boutique | Limite le nombre de produits qui peuvent être partagés par un seul utilisateur sur une période d’une heure. |
+| [!UICONTROL Limit Sending By] | Affichage de la boutique | Détermine la méthode utilisée pour identifier l’expéditeur. Les options incluent : <br/>**`IP Address`**- (recommandé) identifie l’expéditeur à l’aide de l’adresse IP de l’ordinateur utilisé pour envoyer les e-mails de produit.<br/>**`Cookie (unsafe)`** - Identifie l’expéditeur à l’aide d’un cookie de navigateur. Cette méthode n’est pas sécurisée, car l’utilisateur ou l’utilisatrice peut supprimer le cookie pour éviter la restriction. |
 
 {style="table-layout:auto"}

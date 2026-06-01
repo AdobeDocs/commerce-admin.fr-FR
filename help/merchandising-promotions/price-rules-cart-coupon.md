@@ -5,7 +5,7 @@ exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
 source-git-commit: 9ba2b4f7847559e2c59c7bec3b87781c12270712
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1960'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Par défaut, Commerce prend en charge deux méthodes de création de codes de co
 1. Création d’un code de coupon spécifique unique
 1. Génération de plusieurs codes de coupon _aléatoires_
 
-Si vous avez déjà une liste de codes coupon que vous souhaitez importer et associer à une règle de prix de panier, vous devez envisager d’utiliser une extension du [Commerce Marketplace](https://marketplace.magento.com/).
+Si vous avez déjà une liste de codes coupon que vous souhaitez importer et associer à une règle de prix de panier, vous devez envisager d’utiliser une extension du [&#128279;](https://marketplace.magento.com/).
 
 >[!ENDSHADEBOX]
 
@@ -100,9 +100,9 @@ La longueur et le format des codes coupon générés automatiquement sont contr�
 
 1. Pour rendre le coupon valide pour une période donnée, procédez comme suit :
 
-   - ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Complétez les dates **De** et **À**. Pour sélectionner la date, cliquez sur l’icône **Calendrier** (![icône Calendrier](../assets/icon-calendar.png)) en regard de chaque champ. Si vous laissez la période vide, la règle n’expire pas.
+   - ![](../assets/open-source.svg) (Magento Open Source uniquement) Complétez les dates **De** et **À**. Pour sélectionner la date, cliquez sur l’icône **Calendrier** (![icône Calendrier](../assets/icon-calendar.png)) en regard de chaque champ. Si vous laissez la période vide, la règle n’expire pas.
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Effectuez l’une des opérations suivantes :
+   - ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Effectuez l’une des opérations suivantes :
 
      **Option 1 :** Planifier une nouvelle mise à jour
 
@@ -243,7 +243,7 @@ Dans l’exemple suivant, le code de coupon « H20 » a été utilisé par deux 
 | [!UICONTROL To] | Indique la dernière date de la plage de données de commande incluse dans l&#39;état. |
 | [!UICONTROL Order Status] | Filtre le rapport par statut de commande. L&#39;état peut être généré pour toutes les commandes ou peut être limité à un statut de commande spécifique. Options : <br/>**[!UICONTROL Any]**: inclut toutes les commandes, quel que soit leur statut.<br/>**[!UICONTROL Specified]** : inclut uniquement les commandes avec le statut spécifié. Les commandes annulées ne sont pas incluses dans l&#39;état. |
 | [!UICONTROL Empty Rows] | Détermine si le rapport inclut des lignes de données vides qui pourraient être récupérées. Options : `Yes` / `No` |
-| [!UICONTROL Cart Price Rules] | Détermine les promotions de coupon incluses dans le rapport. Options : <br/>**[!UICONTROL Any]**: inclut des informations sur la commande pour toute promotion de coupon utilisée pendant la période spécifiée.<br/>**[!UICONTROL Specified]** : inclut uniquement les informations de commande pour la promotion de coupon sélectionnée au cours de la période spécifiée. |
+| [!UICONTROL Cart Price Rules] | Détermine les promotions de coupon incluses dans le rapport. Options : <br/>**[!UICONTROL Any]**: inclut des informations de commande pour toute promotion de coupon utilisée pendant la période spécifiée.<br/>**[!UICONTROL Specified]** : inclut uniquement des informations de commande pour la promotion de coupon sélectionnée pendant la période spécifiée. |
 
 {style="table-layout:auto"}
 

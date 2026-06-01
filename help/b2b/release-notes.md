@@ -1018,7 +1018,7 @@ Cette version comprend des améliorations des approbations de commande, des mét
 
 - Les invités peuvent désormais utiliser QuickOrder pour ajouter des produits à leur panier, puis supprimer des articles. Auparavant, lorsqu’un acheteur utilisait QuickOrder pour ajouter plusieurs produits à son panier, puis supprimait un produit, le produit n’était pas supprimé. <!--- MC-35327-->
 
-- Une société peut désormais être mise à jour à l’aide de la requête de `/V1/company/:companyId` PUT de l’API REST sans spécifier l’`region_id` lorsque l’état est configuré comme **non requis**. Auparavant, même si `region_id` n’était pas obligatoire, Adobe Commerce générait une erreur si elle n’était pas spécifiée. <!--- MC-35304-->
+- Une entreprise peut désormais être mise à jour à l’aide de la requête PUT `/V1/company/:companyId` de l’API REST sans spécifier l’`region_id` lorsque l’état est configuré comme **non requis**. Auparavant, même si `region_id` n’était pas obligatoire, Adobe Commerce générait une erreur si elle n’était pas spécifiée. <!--- MC-35304-->
 
 - Lorsque vous créez ou mettez à jour une société B2B à l’aide de l’API REST (`http://magento.local/rest/V1/company/2`, où `2` représente l’ID de société), la réponse inclut désormais les paramètres de `applicable_payment_method` ou de `available_payment_methods` comme prévu. <!--- MC-35248-->
 

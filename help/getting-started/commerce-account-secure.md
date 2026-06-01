@@ -5,7 +5,7 @@ exl-id: 4847b5cb-a93a-40d0-8c31-c30afa27c0ce
 feature: User Account
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1751'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Pour utiliser TFA, vous devez avoir une application TFA installée sur votre app
 
 - Authentifier (iOS, Android™)
 
-- Authentificateur Microsoft® (iOS, Android™, Windows Phone)
+- Authentificateur ® (iOS, Android™, Windows Phone)
 
 ## Activer l’authentification à deux facteurs
 

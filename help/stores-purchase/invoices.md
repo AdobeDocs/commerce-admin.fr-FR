@@ -5,7 +5,7 @@ exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
 source-git-commit: 80cc27c4247230eb5e43bca46a34d358f9f0bcea
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Une facture pour la commande doit être générée avant de pouvoir être imprim
 
 ## Imprimer les factures
 
-Les factures peuvent être imprimées individuellement ou en lot. Toutefois, avant qu&#39;une facture puisse être imprimée, elle doit d&#39;abord être générée pour la commande. Vous pouvez charger un logo haute résolution pour une facture PDF prête à être imprimée et inclure l’[ID de commande](../stores-purchase/sales-documents.md#add-reference-ids) dans l’en-tête. Pour personnaliser le modèle de facture avec votre logo et votre adresse, consultez [Conditions requises pour le logo PDF](../stores-purchase/sales-documents.md#image-formats).
+Les factures peuvent être imprimées individuellement ou en lot. Toutefois, avant qu&#39;une facture puisse être imprimée, elle doit d&#39;abord être générée pour la commande. Vous pouvez charger un logo haute résolution pour une facture PDF prête à être imprimée et inclure l’[ID de commande](../stores-purchase/sales-documents.md#add-reference-ids) dans l’en-tête. Pour personnaliser le modèle de facture avec votre logo et votre adresse, consultez [Conditions requises pour le logo &#x200B;](../stores-purchase/sales-documents.md#image-formats).
 
 >[!NOTE]
 >

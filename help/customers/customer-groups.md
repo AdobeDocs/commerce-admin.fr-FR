@@ -5,7 +5,7 @@ exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
 source-git-commit: 17469d27128030b54fad6cf563a4b53f5f119eed
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Les groupes de clients déterminent les remises disponibles et la classe de taxe
 
 1. Cliquez sur **[!UICONTROL Add New Customer Group]**.
 
-1. Par [!DNL **Group Name]**, saisissez un nom unique contenant moins de 32 caractères pour identifier le groupe.
+1. Par **, saisissez un nom unique contenant moins de 32 caractères pour identifier le groupe.[!DNL **Group Name]
 
 1. Sélectionnez la **[!UICONTROL Tax Class]** qui s’applique au groupe.
 

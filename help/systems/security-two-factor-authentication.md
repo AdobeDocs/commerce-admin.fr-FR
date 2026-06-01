@@ -7,7 +7,7 @@ feature: Configuration, Security, User Account
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Pour modifier la durée pendant laquelle le mot de passe à usage unique (OTP) e
 
 >[!NOTE]
 >
->Dans Adobe Commerce version 2.4.7 et ultérieure, le paramètre de configuration de la fenêtre du mot de passe à usage unique contrôle la durée (en secondes) pendant laquelle le système accepte le mot de passe à usage unique (OTP) d’un administrateur après son expiration. Cette valeur doit être inférieure à 30 secondes. Le paramètre système par défaut est `29`.<br><br> Dans la version 2.4.6, le paramètre de fenêtre OTP détermine le nombre de codes OTP passés et futurs qui restent valides. Une valeur `1` indique que le code OTP actuel plus un code dans le passé et un code dans le futur restent valides à un moment donné.
+>Dans Adobe Commerce version 2.4.7 et ultérieure, le paramètre de configuration de la fenêtre du mot de passe à usage unique contrôle la durée (en secondes) pendant laquelle le système accepte le mot de passe à usage unique (OTP) d’un administrateur après son expiration. Cette valeur doit être inférieure à 30 secondes. Le paramètre système par défaut est `29`.<br><br> Dans la version 2.4.6, le paramètre de la fenêtre OTP détermine le nombre de codes OTP passés et futurs qui restent valides. Une valeur `1` indique que le code OTP actuel plus un code dans le passé et un code dans le futur restent valides à un moment donné.
 
 ### [!DNL Duo Security]
 

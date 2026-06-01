@@ -1,149 +1,149 @@
 ---
-title: Devis négociables
-description: Découvrez les workflows de devis et comment fournir ce service aux comptes de votre société.
+title: Devis Négociables
+description: Découvrez les workflows de devis et comment fournir ce service aux comptes de votre entreprise.
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
 source-git-commit: 7f4993ff8b16beda2a371737fb5a8ecb5f9c9396
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 0%
+source-wordcount: '1273'
+ht-degree: 1%
 
 ---
 
-# Devis négociables
+# Devis Négociables
 
-Les acheteurs et les vendeurs utilisent les guillemets pour gérer le processus de négociation d’un ajout de commande, de la mise à jour des quantités, de la demande et de l’application de remises, etc., jusqu’à ce qu’ils parviennent à un accord. Le processus de négociation des devis peut être initié par un acheteur autorisé d’une société ou par un représentant commercial de la société.
+Les acheteurs et les vendeurs utilisent des devis pour gérer le processus de négociation d&#39;un article à ajouter à une commande, mettre à jour les quantités, demander et appliquer des remises, etc., jusqu&#39;à ce qu&#39;ils parviennent à un accord. Le processus de négociation de devis peut être initié par un acheteur autorisé de la société ou par un représentant commercial de la société.
 
-![Mode Liste de citations dans Admin](./assets/quotes-admin-list-view-intro.png){width="700" zoomable="yes"}
+![Vue Liste de citations dans Admin](./assets/quotes-admin-list-view-intro.png){width="700" zoomable="yes"}
 
-Une fois le devis créé, le processus de négociation commence lorsque l’acheteur ou le vendeur l’envoie pour examen. La grille _Guillemets_ qui répertorie chaque guillemet reçu et conserve un historique de la communication entre l’acheteur et le vendeur. Utilisez les [contrôles sur le lieu de travail](../getting-started/admin-workspace.md) standard pour filtrer la liste, modifier la disposition des colonnes, enregistrer les vues et exporter les données.
+Une fois le devis créé, le processus de négociation commence lorsque l&#39;acheteur ou le vendeur soumet le devis pour révision. La grille _Devis_ qui répertorie chaque devis reçu et conserve un historique de la communication entre l&#39;acheteur et le vendeur. Utilisez les [contrôles de lieu de travail](../getting-started/admin-workspace.md) standard pour filtrer la liste, modifier la disposition des colonnes, enregistrer les vues et exporter les données.
 
-- Dans le storefront, les acheteurs soumettent le devis en tant que [&#x200B; demande de négociation](quote-price-negotiation.md) du prix du panier. Lors de la création de la demande de devis, un acheteur peut enregistrer le devis en tant que brouillon ou le soumettre directement au vendeur.
+- En vitrine, les acheteurs envoient le devis sous la forme d’une [demande de négociation](quote-price-negotiation.md) du prix figurant dans le panier. Lors de la création de la demande de devis, un acheteur peut enregistrer le devis en tant que brouillon ou l&#39;envoyer directement au vendeur.
 
-- Dans l’administrateur, les vendeurs peuvent créer des devis pour le compte de l’acheteur de la société. Lors de la création du devis, un vendeur peut enregistrer le devis en tant que brouillon ou le soumettre directement à l&#39;acheteur pour lancer le processus de négociation.
+- Dans l&#39;administrateur, les représentants commerciaux peuvent créer des devis au nom de l&#39;acheteur de la société. Lors de la création du devis, un vendeur peut enregistrer le devis en tant que brouillon ou le soumettre directement à l&#39;acheteur pour lancer le processus de négociation.
 
-Au cours du processus de négociation, la citation ne peut être mise à jour que par la personne qui examine et qui propose des termes pour d&#39;autres négociations.
+Au cours du processus de négociation, le devis ne peut être mis à jour que par la personne qui examine et propose les conditions en vue d&#39;une négociation ultérieure.
 
 ## Conditions préalables
 
-Les guillemets négociables ne sont disponibles que si Adobe Commerce dispose des paramètres de configuration suivants :
+Les devis négociables ne sont disponibles que si Adobe Commerce dispose des paramètres de configuration suivants :
 
-- [L’extension Adobe Commerce B2B est installée.](install.md)
+- [L’extension Adobe Commerce B2B est installée](install.md)
 - [Fonctionnalités B2B configurées](enable-basic-features.md)
-   - Activation des comptes d’entreprise
-   - Activer le guillemet B2B
+   - Activer les comptes d’entreprise
+   - Activer le devis B2B
 
-## Processus des citations
+## Workflow de devis
 
 Les devis peuvent être initiés par l&#39;acheteur ou le vendeur.
 
-Ce diagramme présente les statuts des devis d’un acheteur et d’un vendeur (administrateur) dans les différentes étapes de lancement d’un devis.
+Ce diagramme montre les statuts d&#39;un devis pour un acheteur et un vendeur (administrateur) dans les différentes étapes lorsque vous lancez un devis.
 
-![Workflow d’état des citations](./assets/quote-status-workflow.svg){width="700" zoomable="yes"}
+![Workflow de statut des devis](./assets/quote-status-workflow.svg){width="700" zoomable="yes"}
 
-**Étape 1 : création de citations (nouvelle)**
+**Etape 1 : Création de devis (Nouveau)**
 
-- **Demande de devis par l’acheteur** - L’acheteur [&#x200B; demande un devis](quote-request.md) auprès du panier. La demande apparaît dans la liste _Mes guillemets_ du tableau de bord du compte de l’acheteur et une notification électronique est envoyée au représentant commercial affecté au compte de la société. Dans l’Admin, la requête apparaît dans la grille _Guillemets_, avec l’état `New`. Une demande de devis peut être modifiée par l&#39;acheteur jusqu&#39;à ce qu&#39;elle soit ouverte par le vendeur.
+- **L&#39;acheteur demande un devis** - L&#39;acheteur [demande un devis](quote-request.md) dans le panier. La demande apparaît dans la liste _Mes devis_ du tableau de bord du compte de l&#39;acheteur et une notification par e-mail est envoyée au vendeur affecté au compte de la société. Dans l’Administration, la demande apparaît dans la grille _Devis_, avec un statut de `New`. Une demande de devis peut être modifiée par l&#39;acheteur jusqu&#39;à ce qu&#39;elle soit ouverte par le vendeur.
 
-  ![Guillemets](./assets/quote-request-from-shopping-cart.png){width="700" zoomable="yes"}
+  ![Citations](./assets/quote-request-from-shopping-cart.png){width="700" zoomable="yes"}
 
-- **Représentant commercial** — Un représentant commercial peut [créer un devis](sales-rep-initiates-quote.md) de l&#39;administrateur au nom d&#39;un acheteur d&#39;entreprise spécifique. Le représentant commercial doit mettre à jour le devis pour ajouter à l&#39;acheteur des produits et d&#39;autres informations comme des remises et des notes. La Représentation des ventes peut enregistrer le devis comme `draft` ou l&#39;envoyer à l&#39;acheteur pour lancer la négociation. En version préliminaire, la citation est visible uniquement pour le vendeur. Une fois le guillemet envoyé, l’état est `Submitted`. Il ne peut pas être modifié par le vendeur tant que l&#39;acheteur ne l&#39;a pas renvoyé.
+- **Représentant commercial** — Un représentant commercial peut [créer un devis](sales-rep-initiates-quote.md) de l&#39;administrateur pour le compte d&#39;un acheteur de société spécifique. Le représentant commercial doit mettre à jour le devis pour ajouter des produits et d&#39;autres informations telles que des remises et des notes à l&#39;acheteur. Le représentant commercial peut enregistrer le devis en tant que `draft` ou l&#39;envoyer à l&#39;acheteur pour commencer la négociation. A l&#39;état de brouillon, le devis n&#39;est visible que par le vendeur. Une fois le devis envoyé, le statut est `Submitted`. Il ne peut pas être modifié par le vendeur tant que l&#39;acheteur ne l&#39;a pas renvoyé.
 
-  ![Le vendeur lance un devis d’acheteur à partir de la grille Devis dans l’Admin](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
+  ![Vendeur lançant un devis acheteur à partir de la grille Devis dans l&#39;Admin](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
 
-**Étape 2 : Révision et négociation de citations**
+**Étape 2 : Examen et négociation de devis (Examen)**
 
-La vérification ou la négociation d’un devis peut inclure la modification de quantités, la suppression d’articles, l’ajout de commentaires d’articles, l’application de remises sur les articles ou les devis (vendeur) et l’ajout d’une adresse de livraison (acheteur).
+La consultation ou la négociation d&#39;un devis peut inclure la modification des quantités, la suppression d&#39;articles, l&#39;ajout de commentaires sur les lignes, l&#39;application de remises sur les lignes ou les devis (vendeur) et l&#39;ajout d&#39;une adresse de livraison (acheteur).
 
-- **Le vendeur consulte la demande et envoie une réponse** - Dans l’administrateur, le vendeur affiche la demande de devis. Sur le storefront, l’état du devis passe à `Pending`, et l’acheteur ne peut pas apporter de modifications. Le [vendeur répond](quote-price-negotiation.md) en offrant des rabais sur les prix et en ajustant les quantités et les articles si nécessaire, en saisissant un commentaire et en renvoyant le devis à l&#39;acheteur. L&#39;acheteur et le représentant commercial sont informés par email que le vendeur a répondu.
+- **Le vendeur consulte la demande et envoie une réponse** - Dans l’administration, le vendeur consulte la demande de devis. Sur le storefront, le statut du devis passe à `Pending`, et l&#39;acheteur ne peut effectuer aucune modification. Le [vendeur répond](quote-price-negotiation.md) en offrant des remises sur les prix et en ajustant les quantités et les articles selon les besoins, saisit un commentaire et renvoie le devis à l&#39;acheteur. L&#39;acheteur et le représentant commercial sont informés par courrier électronique que le vendeur a répondu.
 
-- **L’acheteur consulte les guillemets du vendeur et envoie une réponse** : l’acheteur clique sur le lien dans la notification électronique pour ouvrir le devis, ou il ouvre le devis à partir de la page _Mes guillemets_ du tableau de bord du compte. L’acheteur peut laisser des notes au vendeur au niveau de l’article ou du devis, modifier les quantités et supprimer des articles.
+- **L&#39;acheteur consulte le devis du vendeur et envoie une réponse** - L&#39;acheteur clique sur le lien dans l&#39;e-mail de notification pour ouvrir le devis, ou ouvre le devis à partir de la page _Mes devis_ du tableau de bord du compte. L&#39;acheteur peut laisser des notes au vendeur au niveau de la ligne ou du devis, modifier les quantités et supprimer des articles.
 
-L&#39;acheteur et le vendeur peuvent poursuivre le processus de négociation jusqu&#39;à ce qu&#39;un accord soit trouvé, ou le vendeur refuse le devis. Si l’acheteur modifie le devis (ajout ou suppression de produits ou modification des quantités de produits), le devis doit être renvoyé au vendeur pour révision.
+L&#39;acheteur et le vendeur peuvent poursuivre le processus de négociation jusqu&#39;à ce qu&#39;un accord soit conclu ou jusqu&#39;à ce que le vendeur refuse le devis. Si l&#39;acheteur apporte des modifications au devis (ajout ou suppression de produits ou modification de la quantité de produits), le devis doit être retourné au vendeur pour examen.
 
-- **L’acheteur ajoute une adresse de livraison** : l’acheteur peut ajouter une adresse de livraison au devis. Une fois que l’acheteur a ajouté l’adresse, le vendeur peut fournir des options d’expédition et de livraison. Les méthodes d’expédition affichées dépendent de la configuration de Storefront.
+- **L&#39;acheteur ajoute une adresse de livraison** - L&#39;acheteur peut ajouter une adresse de livraison au devis. Une fois que l&#39;acheteur a ajouté l&#39;adresse, le vendeur peut fournir des options d&#39;expédition et de livraison. Les méthodes d’expédition affichées dépendent de la configuration de Storefront.
 
-Si l&#39;acheteur ajoute une adresse de livraison, l&#39;accord de négociation doit être révisé et le vendeur peut poursuivre le processus de négociation jusqu&#39;à ce qu&#39;un accord soit trouvé, ou le vendeur refuse le devis.
+Si l&#39;acheteur ajoute une adresse d&#39;expédition, l&#39;accord de négociation doit être examiné, et le vendeur peut poursuivre le processus de négociation jusqu&#39;à ce qu&#39;un accord soit conclu, ou le vendeur refuse le devis.
 
-**Étape 3 : l’acheteur accepte les guillemets (passage en caisse)**
+**Étape 3 : l&#39;acheteur accepte le devis (passage en caisse)**
 
-L&#39;acheteur accepte le prix proposé et passe en caisse. Des remises supplémentaires ne peuvent pas être ajoutées au devis négocié.
+L&#39;acheteur accepte le prix proposé et passe en caisse. Impossible d&#39;ajouter des remises supplémentaires au devis négocié.
 
 Les options d’expédition sont verrouillées lors du passage en caisse.
 
-## État des citations
+## Statut du devis
 
-L’état du guillemet fournit des informations sur l’état actuel du guillemet dans le processus de devis. Le statut d&#39;un devis ne change que lorsqu&#39;un acheteur ou un vendeur agit sur le devis. Par exemple, le statut passe à la commande si un acheteur sélectionne [!UICONTROL Proceed to Checkout] sur un devis actif.
+Le statut du devis fournit des informations sur le statut actuel du devis dans le workflow de devis. Le statut d&#39;un devis ne change que lorsqu&#39;un acheteur ou un vendeur effectue une action sur le devis. Par exemple, le statut devient Commande si un acheteur sélectionne [!UICONTROL Proceed to Checkout] dans un devis actif.
 
-- *[!UICONTROL New]** - L’acheteur a soumis une demande de devis, mais elle n’a pas été consultée par le vendeur. La demande peut être mise à jour par l&#39;acheteur jusqu&#39;à ce qu&#39;elle soit ouverte par le vendeur.
+- *[!UICONTROL New]** - L&#39;acheteur a soumis une demande de devis, mais le vendeur ne l&#39;a pas consultée. La demande peut être mise à jour par l&#39;acheteur jusqu&#39;à ce qu&#39;elle soit ouverte par le vendeur.
 
-- **[!UICONTROL Draft]** - Le vendeur crée un devis préliminaire pour un acheteur. Le devis n&#39;est pas visible pour l&#39;acheteur tant que le vendeur n&#39;a pas ajouté les détails de l&#39;offre (articles, quantité, réduction, etc.) et l&#39;a envoyé à l&#39;acheteur.
+- **[!UICONTROL Draft]** - Le vendeur crée un devis provisoire pour un acheteur. Le devis n&#39;est pas visible pour l&#39;acheteur tant que le vendeur n&#39;a pas ajouté les détails de l&#39;offre (articles, quantité, remise, etc.) et soumis le devis à l&#39;acheteur.
 
-- **[!UICONTROL Open]** - Le vendeur a ouvert la demande et est en train de la réviser et de préparer une réponse.
+- **[!UICONTROL Open]** - Le vendeur a ouvert la demande et est en train de l&#39;examiner et de préparer une réponse
 
-- **[!UICONTROL Submitted]** - Le vendeur a envoyé une réponse à l’acheteur. L’enregistrement de citation ne peut pas être modifié pendant le processus de négociation.
+- **[!UICONTROL Submitted]** - Le vendeur a envoyé une réponse à l&#39;acheteur. L&#39;enregistrement de devis ne peut pas être modifié pendant le processus de négociation.
 
-- **[!UICONTROL Client Reviewed]** - L’acheteur a consulté la réponse du vendeur et est en train de préparer une réponse.
+- **[!UICONTROL Client Reviewed]** - L&#39;acheteur a vu la réponse du vendeur et est en train de préparer une réponse.
 
-- **[!UICONTROL Updated]** - L’acheteur a envoyé une réponse, mais elle n’a pas été consultée par le vendeur.
+- **[!UICONTROL Updated]** - L&#39;acheteur a soumis une réponse, mais le vendeur ne l&#39;a pas vue.
 
-- **[!UICONTROL Ordered]** - L’acheteur a soumis la commande sur la base du devis négocié.
+- **[!UICONTROL Ordered]** - L&#39;acheteur a soumis la commande en fonction du devis négocié.
 
-- **[!UICONTROL Closed]** - L’acheteur a annulé la demande de devis.
+- **[!UICONTROL Closed]** - L&#39;acheteur a annulé la demande de devis.
 
-- **[!UICONTROL Declined]** - Le vendeur a refusé la demande de devis. Toute tarification personnalisée est supprimée du devis et l’enregistrement est verrouillé pour les modifications ultérieures.
+- **[!UICONTROL Declined]** - Le vendeur a refusé la demande de devis. Toute tarification personnalisée est supprimée du devis et l&#39;enregistrement n&#39;est plus modifié.
 
-- **[!UICONTROL Expired]** - L’acheteur n’a pas répondu à la réponse du vendeur dans le délai indiqué et le devis n’est plus valide.
+- **[!UICONTROL Expired]** - L&#39;acheteur n&#39;a pas répondu à la réponse du vendeur dans le délai imparti et le devis n&#39;est plus valide.
 
-## Ressources de rôle B2B pour les guillemets de magasin
+## Ressources de rôle B2B pour les devis de magasin
 
-Les options de configuration des guillemets sont contrôlées à l’aide des [ressources de rôle](../systems/permissions-user-roles.md#role-resources). Ces ressources de rôle doivent être définies pour le rôle d’utilisateur administrateur attribué à l’administrateur du magasin.
+Les options de configuration des devis sont contrôlées à l&#39;aide de la [ressource de rôle](../systems/permissions-user-roles.md#role-resources). Ces ressources de rôle doivent être définies pour le rôle d’utilisateur administrateur affecté à l’administrateur du magasin.
 
-Pour accorder l’accès aux fonctions de guillemet dans l’administrateur, accédez à **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**, sélectionnez le rôle et accédez à [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes] dans l’arborescence_ Role Resources _.
+Pour accorder l’accès aux fonctions de devis dans l’administration, accédez à **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**, sélectionnez le rôle, puis accédez à [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes] dans l’arborescence_ Ressources de rôle _.
 
-![Rôles et autorisations de citations](./assets/roles-permissions-quotes.png){width="700" zoomable="yes"}
+![Devis rôles et autorisations](./assets/roles-permissions-quotes.png){width="700" zoomable="yes"}
 
-## Application d’une action
+## Appliquer une action
 
-Dans l’administrateur, les administrateurs et les vendeurs B2B peuvent gérer les guillemets de la grille de devis à l’aide du menu [!UICONTROL Actions].
+Dans Admin, les administrateurs et les vendeurs B2B peuvent gérer les devis à partir de la grille de devis à l&#39;aide du menu [!UICONTROL Actions].
 
-![Guillemets](./assets/quotes-grid.png){width="700" zoomable="yes"}
+![Citations](./assets/quotes-grid.png){width="700" zoomable="yes"}
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > **[!UICONTROL Quotes]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > **[!UICONTROL Quotes]**.
 
-1. Dans la première colonne de la grille, cochez la case correspondant à chaque enregistrement auquel vous souhaitez appliquer l’action.
+1. Dans la première colonne de la grille, cochez la case de chaque enregistrement auquel vous souhaitez appliquer l&#39;action.
 
-1. Dans le **[!UICONTROL Actions]**, sélectionnez l’action à appliquer.
+1. Dans la **[!UICONTROL Actions]**, sélectionnez l’action à appliquer.
 
-### Afficher un guillemet
+### Afficher un devis
 
 1. Dans la colonne **[!UICONTROL Actions]** d&#39;un enregistrement, cliquez sur **[!UICONTROL View]**.
 
-1. Pour répondre à la demande du client, suivez les instructions et commencez le processus de [négociation de prix](quote-price-negotiation.md).
+1. Pour répondre à la demande du client, suivez les instructions et lancez le processus [négociation des prix](quote-price-negotiation.md).
 
-### Activité Afficher le guillemet
+### Afficher l&#39;activité de devis
 
-Affichez la chronologie de la négociation, la communication et toute autre activité de devis de [!UICONTROL Comments] et [!UICONTROL History Log] : les informations incluent les modifications d’état, les mises à jour des informations sur les clients et l’expédition, les mises à jour des articles et des prix, ainsi que d’autres informations importantes.
+Affichez la chronologie de négociation, la communication et les autres activités de devis à partir de l&#39;[!UICONTROL Comments] et du [!UICONTROL History Log]. Les informations incluent les changements de statut, les mises à jour des informations sur le client et l&#39;expédition, les mises à jour d&#39;article et de prix, ainsi que d&#39;autres informations importantes.
 
-1. Ouvre une citation.
+1. Ouvrez un devis.
 
-1. Affichez les commentaires et l’historique de la négociation des guillemets en accédant à **[!UICONTROL Negotiation]** et en sélectionnant **[!UICONTROL Comments]** et **[!UICONTROL History Log]**.
+1. Affichez les commentaires et l&#39;historique des négociations de devis en faisant défiler l&#39;écran jusqu&#39;à **[!UICONTROL Negotiation]**, puis en sélectionnant **[!UICONTROL Comments]** et **[!UICONTROL History Log]**.
 
    ![Afficher l’historique](./assets/quote-view-history.png){width="400"}
 
-1. L’historique est également suivi au niveau des éléments de ligne.
+1. L’historique est également suivi au niveau des lignes.
 
-   ![Afficher l’historique des éléments de ligne](./assets/quote-view-line-item-history.png){width="400"}
+   ![Afficher l&#39;historique des lignes](./assets/quote-view-line-item-history.png){width="400"}
 
 
 ### Refuser une demande de devis
 
-Seules les demandes de guillemet ayant le statut `Open` peuvent être refusées.
+Seules les demandes de devis avec un statut `Open` peuvent être refusées.
 
 1. Sélectionnez chaque demande de devis ouverte que vous souhaitez refuser.
 
-1. Définissez le contrôle _[!UICONTROL Actions]_&#x200B;sur `Declined`.
+1. Définissez la commande _[!UICONTROL Actions]_&#x200B;sur `Declined`.
 
-1. Lorsque vous y êtes invité, saisissez la raison pour laquelle le guillemet a été refusé, puis cliquez sur **[!UICONTROL Confirm]**.
+1. Lorsque vous y êtes invité, saisissez le motif du refus du devis et cliquez sur **[!UICONTROL Confirm]**.
 
-   ![Refuser la citation ?](./assets/quote-decline-confirm.png){width="400"}
+   ![Refuser le devis ?](./assets/quote-decline-confirm.png){width="400"}

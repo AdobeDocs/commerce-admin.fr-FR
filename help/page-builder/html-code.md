@@ -5,18 +5,18 @@ exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
 # Éléments - Code HTML
 
-Utilisez le type de contenu _Code HTML_ pour ajouter des fragments de code HTML, CSS et JavaScript à l’étape [[!DNL Page Builder] &#x200B;](workspace.md#stage). Par exemple, si vous souhaitez ajouter un HTML personnalisé, déclarez une classe CSS pouvant être appliquée à un élément de la page. Vous pouvez également ajouter un fragment de code pour un logo, un bouton ou une bannière que vous avez reçu d’un fournisseur tiers.
+Utilisez le type de contenu _Code_ pour ajouter des fragments de code HTML, CSS et JavaScript à l’étape [[!DNL Page Builder] &#x200B;](workspace.md#stage). Par exemple, si vous souhaitez ajouter un HTML personnalisé, déclarez une classe CSS pouvant être appliquée à un élément de la page. Vous pouvez également ajouter un fragment de code pour un logo, un bouton ou une bannière que vous avez reçu d’un fournisseur tiers.
 
 ## Boîte à outils Code HTML
 
-![Boîte à outils Code HTML](./assets/pb-elements-html-code-toolbox.png){width="500" zoomable="yes"}
+![Boîte à outils Code &#x200B;](./assets/pb-elements-html-code-toolbox.png){width="500" zoomable="yes"}
 
 | Outil | Icon | Description |
 | --------- | ---------- | ----------------- |
@@ -74,7 +74,7 @@ L&#39;exemple suivant montre comment incorporer du code [Google Font](https://fo
 
    Pour faciliter la lecture, vous pouvez saisir quelques espaces pour mettre le code en retrait.
 
-   ![Code et styles HTML](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
+   ![Code et styles &#x200B;](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
 1. Mettez à jour les paramètres restants si nécessaire (voir [Modifier les paramètres de code HTML](#html-settings) pour plus d’informations).
 

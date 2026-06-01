@@ -6,7 +6,7 @@ feature: Payments
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '3111'
+source-wordcount: '3183'
 ht-degree: 0%
 
 ---
@@ -64,9 +64,9 @@ Avant de configurer PayPal Express Checkout dans Commerce Admin, vous devez conf
 
 1. Accédez à **[!UICONTROL Service Settings]** > **[!UICONTROL Hosted Checkout Pages]** > **[!UICONTROL Set Up]** et définissez les paramètres suivants :
 
-   - **[!UICONTROL AVS]** : `No`
-   - **[!UICONTROL CSC]** : `No`
-   - **[!UICONTROL Enable Secure Token]** : `Yes`
+   - **[!UICONTROL AVS]**: `No`
+   - **[!UICONTROL CSC]**: `No`
+   - **[!UICONTROL Enable Secure Token]**: `Yes`
 
 1. Cliquez sur **[!UICONTROL Save Changes]**.
 

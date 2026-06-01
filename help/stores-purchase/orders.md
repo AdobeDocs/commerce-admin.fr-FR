@@ -5,7 +5,7 @@ exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
 source-git-commit: c60f0af09fb1af08deea49216aff340eea59f1b4
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1150'
 ht-degree: 1%
 
 ---
@@ -130,7 +130,7 @@ Colonnes supplémentaires disponibles :
 | [!UICONTROL Customer Name] | Prénom et nom du client qui a passé la commande. |
 | [!UICONTROL Payment Method] | Mode de paiement à utiliser pour la commande. |
 | [!UICONTROL Total Refunded] | Tout montant de la commande qui doit être remboursé au client. |
-| [!UICONTROL Refunded to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Tout montant de la commande qui doit être remboursé au crédit de la boutique du client. |
+| [!UICONTROL Refunded to Store Credit] | ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Tout montant de la commande qui doit être remboursé au crédit de la boutique du client. |
 | [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponible avec Adobe Commerce B2B) Nom de la [société](../b2b/account-companies.md) qui a passé la commande. |
 
 {style="table-layout:auto"}

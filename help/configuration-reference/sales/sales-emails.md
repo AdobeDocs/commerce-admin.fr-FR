@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales Emails]'
-description: Vérifiez les paramètres de configuration sur la page de [!UICONTROL Sales] d’[!UICONTROL Sales Emails] &gt; de l’administrateur Commerce.
+title: '[!UICONTROL Sales] > [!UICONTROL Sales Emails]'
+description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Sales Emails] de [!UICONTROL Sales] &gt ; de l’administrateur Commerce.
 exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 feature: Configuration, Communications
 source-git-commit: 1e19aaab43f389469d6bc44810c1819678ae3e4a
 workflow-type: tm+mt
-source-wordcount: '2341'
+source-wordcount: '2340'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Order Ready For Pickup in Store]
 
-Cette option nécessite l&#39;activation de [Inventory management](../../inventory-management/guide-overview.md).
+Cette option nécessite l&#39;activation de [&#128279;](../../inventory-management/guide-overview.md).
 
 ![Commande prête pour le retrait en magasin](./assets/sales-emails-ready-pickup.png)<!-- zoom -->
 

@@ -4,8 +4,8 @@ description: Découvrez les bonnes pratiques de sécurité pour protéger votre 
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
 source-git-commit: 0cda54e8d52a866151658573c6d2ace1820dab75
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 7%
+source-wordcount: '430'
+ht-degree: 6%
 
 ---
 

@@ -5,7 +5,7 @@ exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Si vous modifiez le Source par défaut, vous pouvez modifier toutes les configur
 |--|--|
 | [!UICONTROL Back] | Retourne à la page Gérer les sources . |
 | [!UICONTROL Reset] | Rétablit les valeurs de tous les champs du formulaire au moment du dernier enregistrement. |
-| [!UICONTROL Save & Continue] | Enregistre toutes les modifications et garde le formulaire ouvert pour modification ultérieure. Cliquez sur la flèche vers le bas pour afficher d’autres options : <br/>**[!UICONTROL Save & Close]**- Enregistre les modifications dans l’enregistrement actif, ferme le formulaire et revient à la page Gérer les sources .<br/>**[!UICONTROL Save & New]** - Enregistre les modifications, ferme l’enregistrement actif et ouvre un nouveau formulaire vierge. |
+| [!UICONTROL Save & Continue] | Enregistre toutes les modifications et garde le formulaire ouvert pour modification ultérieure. Cliquez sur la flèche vers le bas pour afficher d’autres options <br/>**[!UICONTROL Save & Close]**- Enregistre les modifications dans l’enregistrement actif, ferme le formulaire et revient à la page Gérer les sources<br/>**[!UICONTROL Save & New]**. - Enregistre les modifications, ferme l’enregistrement actif et ouvre un nouveau formulaire vierge. |
 
 ## Descriptions des champs
 

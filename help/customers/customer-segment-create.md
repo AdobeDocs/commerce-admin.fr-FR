@@ -5,7 +5,7 @@ exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
 source-git-commit: 079aef1f4d90ecba649ac43e7cbab812da79871a
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '978'
 ht-degree: 1%
 
 ---
@@ -204,4 +204,4 @@ _&#x200B;**[!UICONTROL Matched Customers]une grille &#x200B;** _
 
 Regardez cette vidéo pour une démonstration de la création de segments de clients :
 
->[!VIDEO](https://video.tv.adobe.com/v/3410189/?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3410189/?captions=fre_fr&quality=12&learn=on)

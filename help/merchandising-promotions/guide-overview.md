@@ -4,7 +4,7 @@ description: Découvrez des informations détaillées sur les fonctionnalités d
 exl-id: 76ba1e08-3afd-409c-8376-d07e98095d26
 source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Ce guide couvre les sujets suivants :
 | [Newsletters et abonnements](newsletters.md) | Publiez et distribuez des newsletters aux clients abonnés afin d’augmenter le trafic vers votre boutique. |
 | [Rappels par e-mail](email-reminder-rules.md) | Envoyez automatiquement des rappels aux clients pour qu’ils profitent d’une promotion et effectuent un achat. |
 | [Optimisation du moteur de recherche](seo-overview.md) | Mettez en œuvre les fonctionnalités de Commerce pour affiner le contenu et la présentation de votre site et améliorer la façon dont les pages sont indexées par les moteurs de recherche. |
-| [Outils de site Google](google-tools.md) | Configurez les intégrations aux outils Google pour optimiser votre contenu, analyser votre trafic et connecter votre catalogue aux agrégateurs d’achats et aux places de marché. |
+| [Outils de site &#x200B;](google-tools.md) | Configurez les intégrations aux outils Google pour optimiser votre contenu, analyser votre trafic et connecter votre catalogue aux agrégateurs d’achats et aux places de marché. |
 
 {style="table-layout:auto"}
 

@@ -5,7 +5,7 @@ exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
 source-git-commit: c68b464025c00acd4aea6a23aef97fb440e2ed05
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: '2322'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Les cookies sont de petits fichiers qui sont enregistrés sur l&#39;ordinateur d
 
 >[!NOTE]
 >
->Si vous modifiez les paramètres de confidentialité par défaut de [Google](../merchandising-promotions/google-tools.md#google-privacy-settings) conformément au [Règlement général sur la protection des données](compliance-gdpr.md), il n’est pas nécessaire d’obtenir le consentement de l’utilisateur pour l’utilisation des cookies Google Analytics.
+>Si vous modifiez les paramètres de confidentialité par défaut de [&#128279;](../merchandising-promotions/google-tools.md#google-privacy-settings) conformément au [Règlement général sur la protection des données](compliance-gdpr.md), il n’est pas nécessaire d’obtenir le consentement de l’utilisateur pour l’utilisation des cookies Google Analytics.
 
 ## Mode de restriction des cookies
 
@@ -72,17 +72,17 @@ Certains de ces cookies peuvent fournir des options de configuration, notamment 
 
 | Nom | Type | Description |
 | ------ | ------ | ------------- |
-| **`add_to_cart`** | Cookie | ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Capture le SKU, le nom, le prix et la quantité du produit supprimé du panier. Permet à Google Analytics de savoir quand un produit a été ajouté à un panier. |
+| **`add_to_cart`** | Cookie | ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Capture le SKU, le nom, le prix et la quantité du produit supprimé du panier. Permet à Google Analytics de savoir quand un produit a été ajouté à un panier. |
 | **`guest-view`** | Cookie | Associe une commande d’invité à un invité (car il n’existe pas de compte pour l’invité). Pour maintenir la stabilité du système, ne désactivez pas ce cookie. |
 | **`login_redirect`** | Cookie | Enregistre l’URL de redirection pour acheminer l’utilisateur en cas de connexion réussie et d’enregistrement de l’utilisateur. Enregistre la page sur laquelle se trouvait l’utilisateur avant de se connecter (afin de déterminer l’emplacement auquel il reviendra après s’être connecté). |
-| **`mage-banners-cache-storage`** | Stockage local | ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Stockage local pour la fonctionnalité de bannière. Stocke le contenu des bannières localement pour améliorer les performances. Le contenu de bannière comprend des ressources générales de site web qui affichent des informations à un acheteur. Pour maintenir la stabilité du système, ne désactivez pas ce cookie. |
+| **`mage-banners-cache-storage`** | Stockage local | ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Stockage local pour la fonctionnalité de bannière. Stocke le contenu des bannières localement pour améliorer les performances. Le contenu de bannière comprend des ressources générales de site web qui affichent des informations à un acheteur. Pour maintenir la stabilité du système, ne désactivez pas ce cookie. |
 | **`mage-messages`** | Cookie | Effectue le suivi des messages d’erreur et d’autres notifications qui sont affichés à l’utilisateur, tels que le message de consentement du cookie et divers messages d’erreur. Le message est supprimé du cookie après sa présentation à l’acheteur. Il n’existe pas d’option permettant de désactiver ce cookie. C’est ainsi que les informations ponctuelles sont communiquées à l’utilisateur, telles que les messages d’erreur. Pour maintenir la stabilité du système, ne désactivez pas ce cookie. |
 | **`product_data_storage`** | Stockage local | Stocke la configuration des données de produit utilisées pour utiliser les fonctions « Récemment consultés » et « Comparer des produits ». Stocke les paramètres spécifiques d’un utilisateur (par exemple, s’il a récemment consulté un produit ou comparé des produits). Pour maintenir la stabilité du système, ne désactivez pas ce cookie. |
 | **`recently_compared_product`** | Stockage local | Stocke les identifiants de produits récemment comparés. Pour maintenir la stabilité du système, ne désactivez pas ce cookie. |
 | **`recently_compared_product_previous`** | Stockage local | Stocke les identifiants de produits précédemment comparés pour une navigation plus facile. Pour maintenir la stabilité du système, ne désactivez pas ce cookie. |
 | **`recently_viewed_product`** | Stockage local | Stocke les identifiants de produits récemment consultés pour une navigation plus facile. Pour maintenir la stabilité du système, ne désactivez pas ce cookie. |
 | **`recently_viewed_product_previous`** | Stockage local | Stocke les identifiants de produits récemment consultés pour une navigation plus facile. Pour maintenir la stabilité du système, ne désactivez pas ce cookie. |
-| **`remove_from_cart`** | Cookie | ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Permet à Google Analytics de savoir quand un produit a été supprimé d’un panier. |
+| **`remove_from_cart`** | Cookie | ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Permet à Google Analytics de savoir quand un produit a été supprimé d’un panier. |
 | **`stf`** | Cookie | Enregistre l&#39;heure d&#39;envoi des messages par le module SendFriend ([Email a Friend](../stores-purchase/email-a-friend.md)). Lorsqu’un acheteur envoie un lien vers un produit, ce cookie enregistre un horodatage et tient un compte. |
 | **`X-Magento-Vary`** | Cookie | Indique lorsqu’une nouvelle version d’une page doit être diffusée à partir du cache. Prend en charge les performances des sites web. Pour maintenir la stabilité du système, ne désactivez pas ce cookie. |
 | **`form_key`** | Cookie | Mécanisme de sécurité qui contient une valeur générée de manière aléatoire pour empêcher les attaques CSRF (Cross-Site Request Forgery) en contribuant à déterminer si une requête provient d’une source réelle ou d’un acteur malveillant. Il s’agit d’une pratique standard du secteur pour prévenir les attaques CSRF. Pour maintenir la stabilité du système, ne désactivez pas ce cookie. |
@@ -112,7 +112,7 @@ Certains de ces cookies peuvent fournir des options de configuration, notamment 
 
 ## Cookies de recommandations de produits
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Les cookies suivants sont utilisés par les recommandations de produits pour les clients Adobe Commerce. Ces cookies sont installés avec le [module DataServices](https://experienceleague.adobe.com/fr/docs/commerce/product-recommendations/getting-started/install-configure).
+![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Les cookies suivants sont utilisés par les recommandations de produits pour les clients Adobe Commerce. Ces cookies sont installés avec le [module DataServices](https://experienceleague.adobe.com/fr/docs/commerce/product-recommendations/getting-started/install-configure).
 
 - `mg_dnt` : permet de [restreindre la collecte de données Adobe Commerce](https://experienceleague.adobe.com/fr/docs/commerce/product-recommendations/developer/setting-cookie) si vous disposez d’un code personnalisé pour gérer le consentement des cookies sur votre site.
 - `user_allowed_save_cookie` : utilisé pour [mode de restriction des cookies](#cookie-restriction-mode).
@@ -134,7 +134,7 @@ Les données suivantes sont enregistrées dans le stockage local pour les magasi
 
 ## Cookies supplémentaires
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Les cookies suivants sont définis pour les clients Adobe Commerce. Ces cookies sont installés avec le [module DataServices](https://experienceleague.adobe.com/fr/docs/commerce/product-recommendations/getting-started/install-configure).
+![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Les cookies suivants sont définis pour les clients Adobe Commerce. Ces cookies sont installés avec le [module DataServices](https://experienceleague.adobe.com/fr/docs/commerce/product-recommendations/getting-started/install-configure).
 
 - `mg` : défini par le dispositif de suivi JavaScript Snowplow. Vous trouverez plus d’informations à ce sujet dans la [documentation Snowplow](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/).
 - `com.adobe.alloy.getTld` : compte tenu du nom d&#39;hôte de la page web actuelle, il s&#39;agit du domaine le plus élevé qui n&#39;est pas un « suffixe public » comme indiqué dans https://publicsuffix.org. Essentiellement, il s’agit du domaine le plus élevé qui peut accepter les cookies. Ce cookie fait partie du [Alloy Web SDK](https://github.com/adobe/alloy).

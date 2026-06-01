@@ -6,7 +6,7 @@ feature: Cache, System
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ Le contenu mis en cache peut être utilisé pour traiter les requêtes provenant
 
 Pour obtenir des informations techniques, consultez les sections [Configurer et utiliser le vernis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=fr){:target="_blank"} et [Utiliser Redis pour la page Commerce et le cache par défaut](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=fr){:target="_blank"} dans le _Guide de configuration_.
 
-**_Pour configurer le cache de pages complètes, procédez comme suit_**
+**_Pour configurer le cache pleine page:_**
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -203,7 +203,7 @@ Pour obtenir des informations techniques, consultez les sections [Configurer et 
 
 1. Pour définir le délai d’expiration du cache de page, saisissez le **[!UICONTROL TTL for public content]** . (La valeur par défaut est `86400`)
 
-1. Pour spécifier le nombre maximal de [handles de mise en page](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) à traiter sur le point d’entrée HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=fr), saisissez le **[!UICONTROL Handles param size]** . Limiter la taille peut améliorer la sécurité et les performances. (La valeur par défaut est `100`)
+1. Pour spécifier le nombre maximal de [handles de mise en page](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) à traiter sur le point d’entrée HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html), saisissez le **[!UICONTROL Handles param size]** . Limiter la taille peut améliorer la sécurité et les performances. (La valeur par défaut est `100`)
 
 1. Si vous utilisez le vernis, complétez la section **[!UICONTROL Varnish Configuration]** comme suit :
 
@@ -213,7 +213,7 @@ Pour obtenir des informations techniques, consultez les sections [Configurer et 
 
    - **[!UICONTROL Backend port]** - Identifiez le port principal utilisé pour générer les fichiers de configuration. La valeur par défaut est : `8080`.
 
-   - **[!UICONTROL Grace period]** - Spécifiez le nombre de secondes à utiliser comme période de grâce pour générer les fichiers de configuration. Voir [Configuration avancée du vernis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html?lang=fr) dans le _Guide de configuration_.
+   - **[!UICONTROL Grace period]** - Spécifiez le nombre de secondes à utiliser comme période de grâce pour générer les fichiers de configuration. Voir [Configuration avancée du vernis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html) dans le _Guide de configuration_.
 
    - Pour exporter la configuration sous la forme d’un fichier `varnish.vcl`, cliquez sur le bouton correspondant à la version de vernis que vous utilisez.
 

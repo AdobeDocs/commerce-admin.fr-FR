@@ -5,7 +5,7 @@ exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
 source-git-commit: 6fcbcd3b7cace10f0841a46b3cd27343862b3f3b
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '1994'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Un produit configurable s’affiche en tant que produit unique avec des options de liste déroulante pour des variations (comme la couleur ou la taille). Chaque variation est un produit simple distinct avec son propre SKU, ce qui permet un suivi d’inventaire individuel, contrairement aux produits simples avec des options personnalisées.
 
-**Idéal pour :** produits avec plusieurs options (couleur, taille, matériau, etc.) où vous devez effectuer le suivi des stocks pour chaque variation. La configuration initiale prend plus de temps, mais offre une meilleure évolutivité.
+**Idéal pour :** produits avec plusieurs options (couleur, taille, matériau, etc.) où vous devez effectuer le suivi de l’inventaire pour chaque variation. La configuration initiale prend plus de temps, mais offre une meilleure évolutivité.
 
 ![Produit configurable](./assets/product-configurable.png){width="700" zoomable="yes"}
 
@@ -378,7 +378,7 @@ Lorsque vous définissez manuellement le statut du stock de produit configurable
 
 >[!NOTE]
 >
->Les stocks et sources personnalisés font partie de l’extension [Inventory management](../inventory-management/sources-stocks.md). Il est vivement recommandé d’utiliser cet outil exclusivement pour gérer le stock et la source. Les fonctions source et stock par défaut font partie du module `CatalogInventory`, qui est désormais obsolète.
+>Les stocks et sources personnalisés font partie de l’extension [&#128279;](../inventory-management/sources-stocks.md). Il est vivement recommandé d’utiliser cet outil exclusivement pour gérer le stock et la source. Les fonctions source et stock par défaut font partie du module `CatalogInventory`, qui est désormais obsolète.
 
 ### Modifications manuelles du statut du stock
 

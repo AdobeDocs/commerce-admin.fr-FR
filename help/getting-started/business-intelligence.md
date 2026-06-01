@@ -6,7 +6,7 @@ feature: Commerce Intelligence, Reporting
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Utilisez les outils de Commerce Intelligence pour tirer parti de l’insight uti
 
 ## compte [!DNL Commerce Intelligence]
 
-Lorsque vous activez un compte [!DNL Commerce Intelligence] via Adobe, vous avez accès à cinq tableaux de bord contenant environ 70 rapports. Ces rapports sont conçus pour fournir des informations sur vos données et répondre à des questions telles que « Comment mes commandes augmentent-elles mois après mois ? », « Qui sont mes clients les plus fidèles ? » et « Ma stratégie de coupons fonctionne-t-elle ? » Pour plus d’informations sur cet ensemble d’outils, consultez le [Guide de l’utilisateur de Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=fr).
+Lorsque vous activez un compte [!DNL Commerce Intelligence] via Adobe, vous avez accès à cinq tableaux de bord contenant environ 70 rapports. Ces rapports sont conçus pour fournir des informations sur vos données et répondre à des questions telles que « Comment mes commandes augmentent-elles mois après mois ? », « Qui sont mes clients les plus fidèles ? » et « Ma stratégie de coupons fonctionne-t-elle ? » Pour plus d’informations sur cet ensemble d’outils, consultez le [Guide de l’utilisateur de &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=fr).
 
 ## [!DNL Advanced Reporting]
 

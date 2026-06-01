@@ -5,7 +5,7 @@ exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
 source-git-commit: b0e9087016f7a6ce682e84feb931f7ad870e6420
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -180,7 +180,7 @@ Toutes les actions liées aux points de récompense sont affichées dans le bloc
 | [!UICONTROL Amount] | Montant d&#39;argent ajouté ou soustrait |
 | [!UICONTROL Rate] | Le [taux de change de récompense](reward-exchange-rates.md) |
 | [!UICONTROL Website] | Site web auquel l’historique des points de récompense est attribué |
-| [!UICONTROL Reason] | Motifs d’attribution de points :<br>**[!UICONTROL Making purchases]**— Chaque fois que le client effectue un achat, il peut gagner des points.<br>**[!UICONTROL Registering on the site]** - Accumulé à l&#39;enregistrement (une fois).<br>**[!UICONTROL Subscribing to a newsletter]**- Accumulé pour le premier abonnement (une fois).<br>**[!UICONTROL Sending Invitations]** — Gagnez des points en invitant leurs amis à rejoindre le site.<br>**[!UICONTROL Converting Invitations to Customer]**— Gagnez des points pour chaque invitation qu&#39;ils envoient, menant des amis à s&#39;inscrire sur le site.<br>**[!UICONTROL Converting Invitations to Order]** — Gagnez des points pour chaque vente résultant d&#39;une invitation envoyée.<br>**[!UICONTROL Review Submission]**— Gagnez des points en soumettant des avis sur des produits. |
+| [!UICONTROL Reason] | Raisons d&#39;accorder des points :<br>**[!UICONTROL Making purchases]**— Chaque fois que le client effectue un achat, il peut gagner des points.<br>**[!UICONTROL Registering on the site]** - Accumulé à l&#39;enregistrement (une fois).<br>**[!UICONTROL Subscribing to a newsletter]**- Accumulé pour le premier abonnement (une fois).<br>**[!UICONTROL Sending Invitations]** — Gagnez des points en invitant leurs amis à rejoindre le site.<br>**[!UICONTROL Converting Invitations to Customer]**— Gagnez des points pour chaque invitation qu&#39;ils envoient, menant des amis s&#39;inscrivant sur le site.<br>**[!UICONTROL Converting Invitations to Order]** — Gagnez des points pour chaque vente résultant d&#39;une invitation envoyée.<br>**[!UICONTROL Review Submission]**— Gagnez des points en soumettant des avis sur des produits. |
 | [!UICONTROL Created] | Date et heure de mise à jour des points de récompense |
 | [!UICONTROL Expired] | Nombre de points de récompense expirés |
 | [!UICONTROL Comment] | Commentaires lors de l’ajout ou de la soustraction de points |

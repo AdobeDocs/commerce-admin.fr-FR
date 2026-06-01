@@ -6,7 +6,7 @@ feature: Payments
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2297'
 ht-degree: 0%
 
 ---
@@ -83,9 +83,9 @@ Avant de configurer PayPal Payments Pro dans Commerce, vous devez configurer vot
 
 1. Sous **[!UICONTROL Security Options]**, configurez les éléments suivants :
 
-   - **[!UICONTROL AVS]** : `No`
-   - **[!UICONTROL CSC]** : `No`
-   - **[!UICONTROL Enable Secure Token]** : `Yes`
+   - **[!UICONTROL AVS]**: `No`
+   - **[!UICONTROL CSC]**: `No`
+   - **[!UICONTROL Enable Secure Token]**: `Yes`
 
 1. Cliquez sur **[!UICONTROL Save Changes]**.
 

@@ -6,7 +6,7 @@ feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
 source-git-commit: 2e119bcb8278432bde1c12f3f44a112cde59fb18
 workflow-type: tm+mt
-source-wordcount: '2444'
+source-wordcount: '2455'
 ht-degree: 0%
 
 ---
@@ -251,13 +251,13 @@ Une fois le compte d’entreprise créé, le processus suivant se produit :
 * **Processus de révision** : les administrateurs de magasin vérifient les informations commerciales et approuvent/rejettent les demandes.
 * **Mises à jour de statut**—Les entreprises reçoivent des notifications par e-mail concernant les changements de statut d&#39;approbation
 
-### &#x200B;2. Activation du compte
+### &#x200B;2. Activation de compte
 
 * **E-mail de bienvenue**—Les administrateurs de société approuvés reçoivent des instructions de configuration
 * **Configuration du mot de passe**—Les administrateurs créent des mots de passe sécurisés pour l&#39;accès au compte
 * **Connexion initiale** : premier accès au tableau de bord et aux fonctionnalités de l’entreprise.
 
-### &#x200B;3. Prochaines étapes pour les administrateurs d’entreprise
+### &#x200B;3. Étapes suivantes pour les administrateurs d’entreprise
 
 Après l’activation, les administrateurs de l’entreprise doivent :
 

@@ -4,7 +4,7 @@ description: Découvrez l [!DNL Commerce] Admin, l’endroit où les commerçant
 exl-id: 065cf14f-80e7-4695-8922-c761a2191d72
 source-git-commit: a6b293dca673808bbc7f37cb468c6e316fddb735
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---

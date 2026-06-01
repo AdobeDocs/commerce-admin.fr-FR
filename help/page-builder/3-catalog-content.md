@@ -5,7 +5,7 @@ exl-id: f2a0dc29-6d8f-4b97-a947-72659c01d0cb
 feature: Page Builder, Page Content
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1506'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Cet exercice suppose que vous avez terminé [Partie 1 : Page simple](1-simple-pa
 
      ![Choix de l&#39;attribut category pour la condition](./assets/pb-add-content-products-settings-condition.png){width="600" zoomable="yes"}
 
-   - Renseignez la partie _[!UICONTROL Category is]..._ de la condition en cliquant sur l’icône Plus (...), puis cliquez sur l’icône _Sélecteur_ (![icône Sélecteur](../assets/icon-list-chooser.png)).
+   - Renseignez la partie _[!UICONTROL Category is]..._ de la condition en cliquant sur le bouton Plus (...) puis cliquez sur l’icône _Sélecteur_ (![icône Sélecteur](../assets/icon-list-chooser.png)).
 
      ![Définition de la condition](./assets/pb-add-content-products-settings-condition-category-is.png){width="600" zoomable="yes"}
 
@@ -120,7 +120,7 @@ Dans cette partie de l’exercice, vous découvrirez à quel point il est facile
 
 1. Saisissez le **[!UICONTROL Video URL]**.
 
-   La vidéo peut être hébergée sur [YouTube](https://www.youtube.com/) ou [Vimeo](https://vimeo.com/). La vidéo de cet exemple se trouve sur YouTube à l’adresse URL suivante :
+   La vidéo peut être hébergée sur [&#128279;](https://www.youtube.com/) ou [Vimeo](https://vimeo.com/). La vidéo de cet exemple se trouve sur YouTube à l’adresse URL suivante :
 
    `https://www.youtube.com/watch?v=ZpFrNyD4100`
 
@@ -192,7 +192,7 @@ Au cours de cette étape, vous créez deux nouveaux attributs personnalisés pou
 
    Lors de la création d’un attribut personnalisé, vous pouvez spécifier l’éditeur le plus adapté à l’application comme `Page Builder` ou `Text Editor` WYSIWYG standard.
 
-   Type d’entrée ![[!DNL Page Builder]](./assets/pb-attribute-page-builder.png){width="600" zoomable="yes"}
+   Type d’entrée ![&#128279;](./assets/pb-attribute-page-builder.png){width="600" zoomable="yes"}[!DNL Page Builder]
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Advanced Attribute Properties]** et définissez les paramètres suivants :
 

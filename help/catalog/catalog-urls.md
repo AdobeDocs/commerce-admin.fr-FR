@@ -5,7 +5,7 @@ exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
 source-git-commit: 1edab49fd8d52a1b7414eb207a21c5c03200e75e
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Pour empêcher les moteurs de recherche d’indexer plusieurs URL menant au mêm
 | Champ | [Portée](../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | Global | Si les réécritures du serveur web sont activées, l’activation de ce paramètre insère le code de magasin de l’affichage actuel dans l’URL. Options : `Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | Global | (Pour les configurations à magasin unique) En cas de rupture de lien sur votre site, le trafic est redirigé vers l’URL de base plutôt que vers une page contenant un message « Page 404 introuvable ». Options : `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Important !_**&#x200B;N’utilisez pas la redirection automatique vers l’URL de base pour les configurations multi-magasin. |
+| [!UICONTROL Auto-redirect to Base URL] | Global | (Pour les configurations à magasin unique) En cas de rupture de lien sur votre site, le trafic est redirigé vers l’URL de base plutôt que vers une page contenant un message « Page 404 introuvable ». Options : `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Important!_**&#x200B;N’utilisez pas la redirection automatique vers l’URL de base pour les configurations multi-magasin. |
 | [!UICONTROL Catalog media URL format] | Global | Définit le format d’URL attribué aux produits et aux catégories. Options : <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**- Définit le nom de fichier converti comme une valeur de hachage unique.<br />**[!UICONTROL Image optimization based on query parameters]** - Définit le processus [optimisation d’image](../content-design/media-gallery-image-optimization.md) en fonction des paramètres de requête. |
 
 {style="table-layout:auto"}

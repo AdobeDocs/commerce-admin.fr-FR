@@ -1,12 +1,12 @@
 ---
 user-guide-title: Guide de référence de configuration
-user-guide-description: Ce guide fournit des informations de référence pour tous les paramètres de configuration de la boutique accessibles hors de la barre latérale _Admin_ à l’adresse **** > _[!UICONTROL Stores]_ > **[!UICONTROL Settings]**.[!UICONTROL Configuration]
+user-guide-description: Ce guide fournit des informations de référence pour tous les paramètres de configuration de la boutique accessibles hors de la barre latérale _Admin_ à l’adresse **** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.[!UICONTROL Stores]
 breadcrumb-title: Référence de configuration
 role: Admin, Developer, User
 feature: Configuration
 source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '169'
 ht-degree: 2%
 
 ---

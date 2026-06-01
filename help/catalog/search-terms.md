@@ -5,7 +5,7 @@ exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
 source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Par défaut, Termes de recherche populaires est activé en tant qu’outil d’o
 
 ![Exemple de storefront - termes de recherche populaires](./assets/store-front-search-terms-yoga-pants.png){width="600" zoomable="yes"}
 
-**_Pour configurer des termes de recherche populaires, procédez comme suit_**
+**_Pour configurer des termes de recherche populaires:_**
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

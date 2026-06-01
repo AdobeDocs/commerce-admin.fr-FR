@@ -5,7 +5,7 @@ exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1936'
+source-wordcount: '1990'
 ht-degree: 0%
 
 ---
@@ -169,7 +169,7 @@ Vous pouvez également configurer l’expédition vers des pays spécifiques pou
 
 Pour obtenir de l’aide sur la résolution des problèmes de configuration des pays, consultez les articles suivants de la base de connaissances de l’assistance [!DNL Commerce] :
 
-- [Comment ajouter un pays &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=fr)
+- [Comment ajouter un pays](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
 
@@ -223,7 +223,7 @@ Certains e-mails destinés aux clients et clientes incluent des liens vers le ma
 
 1. Sous **[!UICONTROL General]** dans le panneau de navigation de gauche, choisissez **[!UICONTROL Store Email Addresses]**.
 
-1. Dans la section **[!UICONTROL Storefront Base URL]** du champ **[!UICONTROL General]** , saisissez l’URL racine de votre boutique, par exemple `https://www.example.com/`. L’URL doit se terminer par une barre oblique.
+1. Dans la section **[!UICONTROL General]** du champ **[!UICONTROL Storefront Base URL]** , saisissez l’URL racine de votre boutique, par exemple `https://www.example.com/`. L’URL doit se terminer par une barre oblique.
 
    ![Configuration générale - Général](../configuration-reference/general/assets/store-email-addresses-general-general.png){width="600"}
 
@@ -259,7 +259,7 @@ Si vous utilisez des adresses e-mail personnalisées, veillez à mettre à jour 
    - Commentaires sur la facture et la facture
    - Expédition et commentaires sur l&#39;expédition
    - Avoir et commentaires sur l&#39;avoir
-   - RMA, autorisation RMA, commentaires d&#39;administration RMA et commentaires client RMA ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement)
+   - RMA, autorisation RMA, commentaires d&#39;administration RMA et commentaires client RMA ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement)
 
 1. À partir de **[!UICONTROL Order]**, développez la section pour chaque message et assurez-vous que le bon expéditeur est sélectionné.
 

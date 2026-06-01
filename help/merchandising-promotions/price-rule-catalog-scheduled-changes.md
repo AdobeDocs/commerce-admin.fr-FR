@@ -5,7 +5,7 @@ exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
 source-git-commit: e4c18621d0607446b48bf2447ac1a978d33ac24a
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---

@@ -5,7 +5,7 @@ exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
 source-git-commit: ab91c19cda6a89219fc8946dad4a0a70d0991b38
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à pa
    | `Text Field` | Champ de saisie d’une seule ligne pour le texte. |
    | `Text Area` | Champ de saisie de plusieurs lignes permettant de saisir des paragraphes de texte, tels qu’une description de produit. Vous pouvez utiliser l’éditeur WYSIWYG pour formater le texte avec des balises HTML ou saisir directement les balises dans le texte. |
    | `Text Editor` | Un éditeur de texte entièrement opérationnel à l’emplacement des attributs. |
-   | Date | Affiche une valeur de date au [format préféré](attributes-input-types.md#date-and-time-options) et [fuseau horaire](../getting-started/store-details.md#locale-options). Les valeurs de date peuvent être sélectionnées dans une liste ou un calendrier ( ![icône Calendrier](../assets/icon-calendar.png) ). <br/><br/>**_Remarque:_** selon la configuration de votre système, les utilisateurs _administrateurs_ peuvent saisir des dates directement dans un champ ou sélectionner une date dans le calendrier ou la liste. Pour plus d’informations sur la spécification des valeurs de date et d’heure, voir [Options de date et d’heure](attributes-input-types.md#date-and-time-options). |
+   | Date | Affiche une valeur de date au [format préféré](attributes-input-types.md#date-and-time-options) et [fuseau horaire](../getting-started/store-details.md#locale-options). Les valeurs de date peuvent être sélectionnées dans une liste ou un calendrier ( ![icône Calendrier](../assets/icon-calendar.png) ). <br/><br/>**_Remarque:_**&#x200B;selon la configuration de votre système, les utilisateurs_ administrateurs_ peuvent saisir des dates directement dans un champ ou sélectionner une date dans le calendrier ou la liste. Pour plus d’informations sur la spécification des valeurs de date et d’heure, voir [Options de date et d’heure](attributes-input-types.md#date-and-time-options). |
    | `Yes/No` | Affiche une liste déroulante avec les options prédéfinies de `Yes` et `No`. |
    | `Dropdown` | Affiche une liste déroulante de valeurs qui accepte une seule sélection. Le type d’entrée de liste déroulante est un composant clé des [produits configurables](product-create-configurable.md). |
    | `Multiple Select` | Affiche une liste déroulante de valeurs qui accepte plusieurs sélections. |

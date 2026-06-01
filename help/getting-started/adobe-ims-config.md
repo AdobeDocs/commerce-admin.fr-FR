@@ -6,7 +6,7 @@ feature: Identity Management
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: e1518775bf43f5493b61d21951a0b1126dfc49aa
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '938'
 ht-degree: 1%
 
 ---
@@ -34,18 +34,18 @@ Cette intégration prend en charge les commerçants Commerce avec les utilisateu
 
 L’administrateur qui configure cette intégration a besoin des informations d’identification suivantes pendant l’activation du module :
 
-* Identifiant de l&#39;organisation (obtenu à partir de [Adobe Admin Console](https://adminconsole.adobe.com/)), qui doit comporter au moins 24 caractères. L’utilisateur authentifié doit appartenir à cette organisation IMS. Pour plus d’informations sur la recherche de votre ID d’organisation, voir [&#x200B; Organisations dans Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr).
+* Identifiant de l&#39;organisation (obtenu à partir de [&#128279;](https://adminconsole.adobe.com/)), qui doit comporter au moins 24 caractères. L’utilisateur authentifié doit appartenir à cette organisation IMS. Pour plus d’informations sur la recherche de votre ID d’organisation, voir [&#x200B; Organisations dans Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr).
 * 2FA doit être appliqué au niveau de l’organisation dans Adobe Admin Console pour activer le module. Cochez la case [Paramètres d’authentification](https://helpx.adobe.com/fr/enterprise/using/authentication-settings.html#two-step-verification).
 * Identifiant client
 * Secret client
-* L’ID client et le secret client sont disponibles après la récupération des clés API du [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials).
+* L’ID client et le secret client sont disponibles après la récupération des clés API du [&#128279;](https://developer.adobe.com/developer-console/docs/guides/credentials).
 
 Les utilisateurs administrateurs de Commerce doivent créer un compte avec un Adobe ID pour se connecter.
 
 ## Étapes générales
 
 * Obtention de l’ID d’organisation Adobe à partir de [Adobe Admin Console](https://adminconsole.adobe.com/)
-* Générez un nouveau projet, des clés d’API IMS et un secret à partir du [Adobe Developer Console](https://developer.adobe.com/)
+* Générez un nouveau projet, des clés d’API IMS et un secret à partir du [&#128279;](https://developer.adobe.com/)
 * Configuration des utilisateurs d’Adobe Commerce dans Adobe Admin Console
 * Activez le module `AdminAdobeIms` .
 
@@ -57,13 +57,13 @@ Une fois les étapes suivantes effectuées par un administrateur ou un développ
 
 ### Étape 1 : obtention de l’ID d’organisation Adobe
 
-Pour activer cette fonctionnalité, vous devez être membre d’au moins une organisation IMS. Si vous disposez d’une Adobe ID, vous appartenez par défaut à au moins une organisation Adobe. Connectez-vous à [Adobe Admin Console](https://adminconsole.adobe.com/) pour récupérer votre ID d’organisation.
+Pour activer cette fonctionnalité, vous devez être membre d’au moins une organisation IMS. Si vous disposez d’une Adobe ID, vous appartenez par défaut à au moins une organisation Adobe. Connectez-vous à [&#128279;](https://adminconsole.adobe.com/) pour récupérer votre ID d’organisation.
 
 ### Étape 2 : générer un nouveau projet, des clés API IMS et un secret
 
 Pour créer des projets pour une organisation, le compte Administrateur Adobe de l’organisation doit disposer du rôle d’administrateur système ou de développeur. Voir le Guide de Developer Console [&#128279;](https://developer.adobe.com/developer-console/docs/guides/projects/).
 
-1. Connectez-vous à [Adobe Developer Console](https://developer.adobe.com/).
+1. Connectez-vous à [&#128279;](https://developer.adobe.com/).
 1. Accédez à l’onglet **[!UICONTROL Projects]** (adobe.io/projects) et cliquez sur **[!UICONTROL Create a new project]**.
 1. Cliquez sur **[!UICONTROL Add API]** sur la page Projet nouvellement créée.
 1. Sélectionnez **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
@@ -84,7 +84,7 @@ Avant d’activer l’intégration, vérifiez que chaque compte utilisateur admi
 >
 >Vous pouvez créer plusieurs comptes utilisateur en chargeant les informations utilisateur à partir d’un fichier CSV. Voir [Gérer plusieurs utilisateurs](https://helpx.adobe.com/fr/enterprise/using/bulk-upload-users.html).
 
-1. Dans [Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html), accédez à **[!UICONTROL Users]** > **[!UICONTROL Users]**.
+1. Dans [&#128279;](https://helpx.adobe.com/fr/enterprise/using/admin-console.html), accédez à **[!UICONTROL Users]** > **[!UICONTROL Users]**.
 
 1. Cliquez sur **[!UICONTROL Add User]**.
 

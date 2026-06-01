@@ -5,7 +5,7 @@ exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
 source-git-commit: 82f040fa34cf96af6f1e9752f8d9f1ddeab9f84c
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1834'
 ht-degree: 0%
 
 ---
@@ -239,7 +239,7 @@ Dans la section **[!UICONTROL Order Total]**, procédez comme suit :
 | [!UICONTROL Total Paid] | Montant total payé pour la commande, le cas échéant. |
 | [!UICONTROL Total Refunded] | Montant total remboursé de la commande, le cas échéant. |
 | [!UICONTROL Total Due] | Montant total dû. |
-| [!UICONTROL Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Montant du crédit de magasin disponible appliqué à la commande, le cas échéant. |
+| [!UICONTROL Store Credit] | ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Montant du crédit de magasin disponible appliqué à la commande, le cas échéant. |
 | [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponible avec Adobe Commerce B2B) Prix total des articles du devis sans taxe, en fonction du prix dans le catalogue partagé ou le catalogue standard utilisé comme base du devis. Si la devise d’affichage du storefront diffère de la devise de base, la valeur s’affiche dans les deux devises, le storefront s’affichant entre crochets. |
 | [!UICONTROL Negotiated Discount] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponible avec Adobe Commerce B2B) Remise résultant d&#39;un devis négocié entre l&#39;acheteur et le vendeur. Si la devise d’affichage du storefront diffère de la devise de base, la valeur s’affiche dans les deux devises, le storefront s’affichant entre crochets. |
 | [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponible avec Adobe Commerce B2B) Prix total du catalogue moins la remise négociée. |
@@ -250,4 +250,4 @@ Dans la section **[!UICONTROL Order Total]**, procédez comme suit :
 
 Regardez cette vidéo pour en savoir plus sur le traitement et le statut des commandes :
 
->[!VIDEO](https://video.tv.adobe.com/v/3410797/?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3410797/?captions=fre_fr&quality=12&learn=on)

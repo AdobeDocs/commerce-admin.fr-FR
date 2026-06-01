@@ -5,7 +5,7 @@ exl-id: c3dd4c5f-adc1-4a8f-a9da-7f0dedd1ee34
 feature: Catalog Management, Products
 source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1638'
 ht-degree: 0%
 
 ---
@@ -137,11 +137,11 @@ Le formulaire est mis à jour pour refléter la modification.
 
    - Par défaut, **[!UICONTROL Stock Status]** est défini sur `Out of Stock`.
 
-   - Comme les produits téléchargeables ne sont pas livrés, le champ **[!UICONTROL Weight]** n’est pas utilisé. Si vous activez cette fonctionnalité, elle devient un [produit simple](product-create-simple.md) et le _Ce produit est-il téléchargeable ?L’onglet_ ne peut pas être utilisé.
+   - Comme les produits téléchargeables ne sont pas livrés, le champ **[!UICONTROL Weight]** n’est pas utilisé. Si vous activez cette fonctionnalité, elle devient un [produit simple](product-create-simple.md) et le _Ce produit est-il téléchargeable ?_ L’onglet ne peut pas être utilisé.
 
    >[!NOTE]
    >
-   >Si vous activez [Inventory management](../inventory-management/introduction.md), les commerçants Single Source définissent la quantité dans cette section. Les marchands Multi Source ajoutent des sources et des quantités dans la section Sources . Voir la section suivante _Attribuer des sources et des quantités (Inventory management)_.
+   >Si vous activez [&#128279;](../inventory-management/introduction.md), les commerçants Single Source définissent la quantité dans cette section. Les marchands Multi Source ajoutent des sources et des quantités dans la section Sources . Voir la section suivante _Attribuer des sources et des quantités (Inventory management)_.
 
 1. Acceptez le paramètre de **[!UICONTROL Visibility]** par défaut de `Catalog, Search`.
 

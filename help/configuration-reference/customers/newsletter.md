@@ -1,12 +1,12 @@
 ---
-title: '[!UICONTROL Customers] &gt; [!UICONTROL Newsletter]'
-description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] de l’administrateur Commerce.
+title: '[!UICONTROL Customers] > [!UICONTROL Newsletter]'
+description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Newsletter] de [!UICONTROL Customers] &gt ; de l’administrateur Commerce.
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
 source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La newsletter fait partie des instruments marketing qui permettent d’envoyer aux clients des informations, des remises et d’autres emails marketing. Les clients enregistrés peuvent gérer leur abonnement depuis leur [&#x200B; tableau de bord de compte &#x200B;](../../customers/account-dashboard-my-account.md).
+>La newsletter fait partie des instruments marketing qui permettent d’envoyer aux clients des actualités, des remises et d’autres e-mails marketing. Les clients enregistrés peuvent gérer leur abonnement depuis leur [tableau de bord de compte](../../customers/account-dashboard-my-account.md).
 
 ## [!UICONTROL General Options]
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | Affichage en magasin | Détermine si les newsletters sont activées pour la portée de la vue de magasin. Options : `Yes` / `No` |
+| [!UICONTROL Enabled] | Affichage de la boutique | Détermine si les newsletters sont activées pour la portée d’affichage du magasin. Options : `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -36,13 +36,13 @@ ht-degree: 0%
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Allow Guest Subscription] | Affichage en magasin | Détermine si les invités non enregistrés peuvent s’abonner à une newsletter. Options : `Yes` / `No` |
-| [!UICONTROL Need to Confirm] | Affichage en magasin | Détermine si les demandes d’abonnement doivent être confirmées. Cette méthode de double opt-in est une mesure de validation qui empêche les personnes de s’abonner sans leur consentement. Options : `Yes` / `No` |
-| [!UICONTROL Confirmation Email Sender] | Affichage en magasin | Identifie le contact du magasin qui apparaît comme l’expéditeur de l’email envoyé pour confirmer une demande d’abonnement. |
-| [!UICONTROL Confirmation Email Template] | Affichage en magasin | Détermine le modèle de courrier électronique utilisé pour la notification envoyée pour confirmer une demande d’abonnement à une newsletter. Modèle par défaut : `Newsletter subscription confirmation` |
-| Success Email Sender | Affichage en magasin | Identifie le contact de magasin qui apparaît comme l’expéditeur de l’email envoyé aux personnes qui se sont abonnées avec succès à une newsletter. |
-| [!UICONTROL Success Email Template] | Affichage en magasin | Détermine le modèle de courrier électronique utilisé pour la notification envoyée aux personnes qui se sont abonnées avec succès à une newsletter. Modèle par défaut : `Newsletter subscription success` |
-| [!UICONTROL Unsubscription Email Sender] | Affichage en magasin | Identifie le contact de magasin qui apparaît comme l’expéditeur de l’email envoyé à ceux qui demandent de mettre fin à l’abonnement à leur newsletter. |
-| [!UICONTROL Unsubscription Email Template] | Affichage en magasin | Détermine le modèle d’email utilisé pour la notification envoyée à ceux qui demandent de mettre fin à l’abonnement à leur newsletter. Modèle par défaut : `Newsletter unsubscription success` |
+| [!UICONTROL Allow Guest Subscription] | Affichage de la boutique | Détermine si les invités non enregistrés peuvent s’abonner à une newsletter. Options : `Yes` / `No` |
+| [!UICONTROL Need to Confirm] | Affichage de la boutique | Détermine si les demandes d’abonnement doivent être confirmées. Cette méthode de double opt-in est une mesure de validation qui empêche les personnes de s&#39;abonner sans leur consentement. Options : `Yes` / `No` |
+| [!UICONTROL Confirmation Email Sender] | Affichage de la boutique | Identifie le contact du magasin qui apparaît comme l’expéditeur de l’e-mail envoyé pour confirmer une demande d’abonnement. |
+| [!UICONTROL Confirmation Email Template] | Affichage de la boutique | Détermine le modèle d&#39;e-mail utilisé pour la notification envoyée afin de confirmer une demande d&#39;abonnement à une newsletter. Modèle par défaut : `Newsletter subscription confirmation` |
+| Expéditeur d’e-mail de succès | Affichage de la boutique | Identifie le contact du magasin qui apparaît comme l’expéditeur de l’e-mail envoyé à ceux qui se sont abonnés à une newsletter. |
+| [!UICONTROL Success Email Template] | Affichage de la boutique | Détermine le modèle d&#39;e-mail utilisé pour la notification envoyée à ceux qui se sont abonnés avec succès à une newsletter. Modèle par défaut : `Newsletter subscription success` |
+| [!UICONTROL Unsubscription Email Sender] | Affichage de la boutique | Identifie le contact du magasin qui apparaît comme l’expéditeur de l’e-mail envoyé à ceux qui demandent à mettre fin à leur abonnement à la newsletter. |
+| [!UICONTROL Unsubscription Email Template] | Affichage de la boutique | Détermine le modèle d&#39;e-mail utilisé pour la notification envoyée à ceux qui demandent à mettre fin à leur abonnement à la newsletter. Modèle par défaut : `Newsletter unsubscription success` |
 
 {style="table-layout:auto"}

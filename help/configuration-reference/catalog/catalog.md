@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
-description: Vérifiez les paramètres de configuration sur la page de [!UICONTROL Catalog] d’[!UICONTROL Catalog] &gt; de l’administrateur Commerce.
+title: '[!UICONTROL Catalog] > [!UICONTROL Catalog]'
+description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Catalog] de [!UICONTROL Catalog] &gt ; de l’administrateur Commerce.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
 source-git-commit: f8849b9cf570b2bc3a9d141ddde320ae36a9294a
 workflow-type: tm+mt
-source-wordcount: '3278'
+source-wordcount: '3350'
 ht-degree: 0%
 
 ---

@@ -5,8 +5,8 @@ exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
 source-git-commit: 687169e4333d60eb1b876e24e6855fbb59fb598f
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 0%
+source-wordcount: '1409'
+ht-degree: 2%
 
 ---
 
@@ -90,7 +90,7 @@ La navigation superposée inclut des filtres pour toutes les valeurs d’attribu
 
 ![Aucun filtre affiché](./assets/filterable-attributes-on-plp.png){width="700" zoomable="yes"}
 
-Cela peut rendre difficile la sélection d’un produit préféré pour les clients. Il n’est pas nécessaire d’afficher des valeurs d’attribut &#x200B;&#x200B;avec 0 produit au premier plan).
+Cela peut rendre difficile la sélection d’un produit préféré pour les clients. Il n’est pas nécessaire d’afficher des valeurs d’attribut &#x200B;avec 0 produit au premier plan).
 
 Vous pouvez suivre les étapes suivantes pour supprimer les valeurs d’attribut filtrables avec 0 produit de la navigation superposée :
 
@@ -132,15 +132,15 @@ Le fractionnement itératif offre la meilleure répartition des produits entre l
 
 | Échelon de prix par 10 | Échelon de prix par 100 |
 |----------|--------|
-| 20 $ - 29,99 $ (1) | 0,00 $ - 99,99 $ (4) |
-| 30,00 $ - 39,99 $ (2) | 100 $ - 199,99 $ (5) |
-| 70 $ - 79,99 $ (1) | 400,00 $ - 499,99 $ (2) |
-| 100 $ - 109,99 $ (1) | 700,00 $ et plus (1) |
-| 120,00 $ - 129,99 $ (2) |   |
-| 150 $ - 159,99 $ (1) |   |
-| 180 $ - 189,99 $ (1) |   |
-| 420 $ - 429,99 $ (1) |   |
-| 440 $ - 449,99 $ (1) |   |
+| $20.00 - $29.99 (1) | $0.00 - $99.99 (4) |
+| $30.00 - $39.99 (2) | $100 - $199.99 (5) |
+| $70.00 - $79.99 (1) | $400.00 - $499.99 (2) |
+| $100.00 - $109.99 (1) | 700,00 $ et plus (1) |
+| $120.00 - $129.99 (2) |   |
+| $150.00 - $159.99 (1) |   |
+| $180.00 - $189.99 (1) |   |
+| $420.00 - $429.99 (1) |   |
+| $440.00 - $449.99 (1) |   |
 | 710,00 $ et plus (1) |   |
 
 {style="table-layout:auto"}

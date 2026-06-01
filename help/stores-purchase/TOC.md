@@ -7,7 +7,7 @@ feature: Storefront
 recommendations: noDisplay
 source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '329'
 ht-degree: 3%
 
 ---

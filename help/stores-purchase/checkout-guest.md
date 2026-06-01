@@ -5,7 +5,7 @@ exl-id: ce25eba3-7503-46aa-a5cd-9b7d5662164b
 feature: Checkout
 source-git-commit: 347321ec5b0722f06240780136cb29816aab559f
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---

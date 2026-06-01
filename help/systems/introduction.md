@@ -4,7 +4,7 @@ description: Découvrez les outils et les fonctions système que l’administrat
 exl-id: 52792a89-8f6f-4230-9a04-e193b3943410
 source-git-commit: 5517bb16a8f7c8aa2f9f057df773f142302a69c7
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ L’administrateur prend également en charge diverses tâches permettant aux ad
 
 - **Comptes utilisateur et autorisations d’administrateur** - Gérez les comptes utilisateur [Admin](permissions-users-all.md), ainsi que les [rôles et autorisations associés](permissions-user-roles.md) qui contrôlent leur accès aux sites et aux zones fonctionnelles dans l’administration.
 - **Sessions d’administration et restrictions de site web** - Examinez les bonnes pratiques en matière de [sécurité](security.md) et apprenez à gérer les informations d’identification et les sessions d’administration, à implémenter CAPTCHA et à gérer les restrictions de site web.
-- [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} **Outils système** - Effectuez des opérations de gestion de routine [index](index-management.md) et [cache](cache-management.md), [sauvegardez](backups.md) le système, gérez [opérations planifiées](data-scheduled-import-export.md) et utilisez un ensemble d’outils de développement [&#128279;](developer-tools.md).
+- [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} **Outils système** - Effectuez des opérations de gestion de routine [index](index-management.md) et [cache](cache-management.md), [sauvegardez](backups.md) le système, gérez [opérations planifiées](data-scheduled-import-export.md) et utilisez un ensemble d’outils de développement [&#x200B; &#x200B;](developer-tools.md).
 - **Transfert de données** - Utilisez les outils [transfert de données](data-transfer.md) pour importer et exporter des données, ainsi que pour gérer les données sur les produits, les prix, les clients et les taux de taxe.
 - **Intégrations** - Déterminez l’emplacement des informations d’identification OAuth et l’URL de redirection pour les [intégrations tierces](integrations.md) et identifiez les ressources d’API disponibles.
 - **Journaux d’actions** - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Accédez aux enregistrements ([journaux d’actions](action-log.md)) pour les modifications apportées par les utilisateurs administrateurs travaillant dans votre boutique.

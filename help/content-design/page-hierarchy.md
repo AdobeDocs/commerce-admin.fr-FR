@@ -5,7 +5,7 @@ exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Pour créer un lien vers un nœud, utilisez l’outil [Widget](widgets.md) afin 
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Hierarchy]**.
 
-   ![Grille Pages CMS](./assets/page-hierarchy-cms-pages.png){width="600" zoomable="yes"}
+   ![Grille Pages &#x200B;](./assets/page-hierarchy-cms-pages.png){width="600" zoomable="yes"}
 
 1. Au-dessus de la grille, cliquez sur **[!UICONTROL Add Node...]**.
 

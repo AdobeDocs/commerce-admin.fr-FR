@@ -5,7 +5,7 @@ exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
 source-git-commit: 9441c181a4272607d91bbaf5d410d8e433cb144f
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Les ressources suivantes constituent un point de départ pour que les nouveaux u
 
 ### Ressources App Builder
 
-- [Présentation d’Commerce App Builder](https://developer.adobe.com/commerce/extensibility/app-development/)
+- [Présentation de Commerce App Builder](https://developer.adobe.com/commerce/extensibility/app-development/)
 - [Configuration du maillage API pour Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
 - [Déploiement des applications App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/)
 - [CI/CD pour les applications App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)

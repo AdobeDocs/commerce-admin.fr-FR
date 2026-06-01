@@ -8,8 +8,8 @@ level: Experienced
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 source-git-commit: 4654bb24e0982c62d71bbc3f771f8a40ee1e83e3
 workflow-type: tm+mt
-source-wordcount: '1688'
-ht-degree: 2%
+source-wordcount: '1946'
+ht-degree: 1%
 
 ---
 
@@ -141,7 +141,7 @@ _30 mai 2023_
 
 ![Nouveau](../assets/new.svg) - Ajout de la prise en charge des [blocs dynamiques](#headless-support) dans un storefront découplé.
 
-### 1,0,1
+### 1.0.1
 
 _1 mai 2023_
 
@@ -215,9 +215,9 @@ Une fois l’extension [!DNL Audience Activation] activée, vous pouvez :
 
 Vous pouvez afficher toutes les audiences [actives](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=fr) qui peuvent être personnalisées dans votre instance Adobe Commerce à l’aide du tableau de bord **Audiences Real-Time CDP**.
 
-Pour accéder au tableau de bord **Audiences Real-Time CDP**, positionnez-vous sur la barre latérale _Admin_, puis sur **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
+Pour accéder au tableau de bord **Audiences**, positionnez-vous sur la barre latérale _Admin_, puis sur **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
 
-![Tableau de bord des audiences Real-Time CDP](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
+![Tableau de bord des audiences &#x200B;](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
 
 Le tableau de bord contient les champs suivants :
 

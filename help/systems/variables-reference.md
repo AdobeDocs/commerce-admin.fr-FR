@@ -1,6 +1,6 @@
 ---
 title: Référence des variables
-description: Examinez des exemples de modèles d’email fréquemment utilisés et leurs variables associées.
+description: Consultez des exemples de modèles d’e-mail fréquemment utilisés et les variables associées.
 exl-id: b5e49a56-4b7c-431d-bd44-e8591106fa4e
 role: Admin, User
 feature: System, Variables, Communications
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Référence des variables
 
-La plupart des [&#x200B; modèles d’email](email-template-custom.md) ont une section de [&#x200B; variables prédéfinies](variables-predefined.md) spécifiques au modèle. La liste suivante comprend des exemples de modèles d’email fréquemment utilisés et de leurs variables associées.
+La plupart des [modèles d’e-mail](email-template-custom.md) comportent une section de [variables prédéfinies](variables-predefined.md) qui sont spécifiques au modèle. La liste suivante comprend des exemples de modèles d’e-mail fréquemment utilisés et des variables associées.
 
-## Variables de modèle de courrier électronique
+## Variables du modèle d’e-mail
 
-| Variable | Balise marketing |
+| Variable | Balise de balisage |
 |--- |--- |
 | [!UICONTROL Email Footer Template] | `{{template config_path="design/email/footer_template"}}` |
 | [!UICONTROL Email Header Template] | `{{template config_path="design/email/header_template"}}` |
@@ -31,7 +31,7 @@ La plupart des [&#x200B; modèles d’email](email-template-custom.md) ont une s
 
 ## Stocker les variables d’informations de contact
 
-| Variable | Balise marketing |
+| Variable | Balise de balisage |
 |--- |--- |
 | [!UICONTROL Base Unsecure URL] | `{{config path="web/unsecure/base_url"}}` |
 | [!UICONTROL Base Secure URL] | `{{config path="web/secure/base_url"}}` |
@@ -59,9 +59,9 @@ La plupart des [&#x200B; modèles d’email](email-template-custom.md) ont une s
 
 {style="table-layout:auto"}
 
-## Nouvelles variables de modèle de compte
+## Nouvelles variables du modèle de compte
 
-| Variable | Balise marketing |
+| Variable | Balise de balisage |
 |--- |--- |
 | [!UICONTROL Customer Account URL] | `{{var this.getUrl($store, 'customer/account/')}}` |
 | [!UICONTROL Customer Email] | `{{var customer.email}}` |
@@ -71,7 +71,7 @@ La plupart des [&#x200B; modèles d’email](email-template-custom.md) ont une s
 
 ## Nouvelles variables de modèle d’ordre
 
-| Variable | Balise marketing |
+| Variable | Balise de balisage |
 |--- |--- |
 | [!UICONTROL Billing Address] | `{{var formattedBillingAddress\|raw}}` |
 | [!UICONTROL Email Order Note] | `{{var order.getEmailCustomerNote()}}` |

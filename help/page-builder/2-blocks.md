@@ -5,7 +5,7 @@ exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
 feature: Page Builder, Page Content
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2085'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Cet exercice suppose que vous avez terminé [Partie 1 : Page simple](1-simple-pa
 
 ## Partie 1 : créer un bloc simple
 
-Dans cet exercice pas à pas, vous allez créer un bloc simple avec du contenu provenant de [!DNL Google Maps]. Les blocs simples sont parfois appelés _blocs CMS_ ou _blocs statiques_, car le contenu ne change pas. Un bloc simple est idéal pour le contenu que vous souhaitez peut-être réutiliser.
+Dans cet exercice pas à pas, vous allez créer un bloc simple avec du contenu provenant de [!DNL Google Maps]. Les blocs simples sont parfois appelés _blocs_ ou _blocs statiques_, car le contenu ne change pas. Un bloc simple est idéal pour le contenu que vous souhaitez peut-être réutiliser.
 
 ### Étape 1 : créer un bloc
 
@@ -134,7 +134,7 @@ Si [!DNL Google Maps] est déjà configuré pour votre boutique, vous pouvez ign
 
 1. Dans le coin supérieur droit, cliquez sur la flèche **[!UICONTROL Save]** et choisissez **[!UICONTROL Save & Close]**.
 
-**Félicitations !** Vous avez terminé la première partie de l&#39;exercice Bloc. Veillez à conserver votre travail à titre de référence.
+**Félicitations !** Vous avez terminé la première partie de l’exercice Bloc . Veillez à conserver votre travail à titre de référence.
 
 ## Partie 2 : créer un bloc dynamique
 
@@ -394,7 +394,7 @@ Comme ce bloc dynamique n’est visible que par les membres d’un segment clien
 
      **[!UICONTROL Email]** - `roni_cost@example.com`
 
-     **[!UICONTROL Password]** - `roni_cost3@example.com`
+     **[!UICONTROL Password]** -  `roni_cost3@example.com`
 
    - Cliquez sur **[!UICONTROL Sign In]**.
 

@@ -5,7 +5,7 @@ exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
 source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '829'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ Les services pour Adobe Commerce sont des services hébergés qui fournissent de
 
 * [Service de catalogue](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=fr)
 * [Recherche en direct](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html?lang=fr)
-* [Recommandations de produits](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=fr)
+* [Recommandations de produit](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=fr)
 
 ## Catalogues partagés
 

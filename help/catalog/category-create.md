@@ -5,7 +5,7 @@ exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
 source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Définissez également les mots-clés et attributs associés, tels que :
 
    - Pour utiliser des images à partir du stockage de médias, cliquez sur **[!UICONTROL Select from Gallery]** et sélectionnez l’image que vous souhaitez représenter la catégorie.
 
-   Dans la Galerie de médias, vous pouvez également utiliser l’intégration [Adobe Stock](../content-design/adobe-stock.md) pour rechercher une image appropriée en cliquant sur **[!UICONTROL Search Adobe Stock]**.
+   Dans la Galerie de médias, vous pouvez également utiliser l’intégration [&#128279;](../content-design/adobe-stock.md) pour rechercher une image appropriée en cliquant sur **[!UICONTROL Search Adobe Stock]**.
 
    >[!NOTE]
    >
@@ -206,7 +206,7 @@ Définissez également les mots-clés et attributs associés, tels que :
 
    ![Paramètres de conception](./assets/category-design.png){width="600" zoomable="yes"}
 
-1. ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement) Pour planifier la mise à jour de la conception pour une période spécifique, procédez comme suit :
+1. ![](../assets/open-source.svg) (Magento Open Source uniquement) Pour planifier la mise à jour de la conception pour une période spécifique, procédez comme suit :
 
    - Développez la section _[!UICONTROL Schedule Design Update]_.
 

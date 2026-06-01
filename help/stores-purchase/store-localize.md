@@ -5,7 +5,7 @@ exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Suivez les instructions standard pour installer l’extension du module linguist
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 
-   Après avoir modifié la langue du paramètre régional, le contenu restant que vous avez créé, y compris les noms et descriptions des produits, les catégories, les pages [CMS](../content-design/page-translate.md) et les blocs, doit être traduit séparément pour chaque affichage de magasin.
+   Après avoir modifié la langue du paramètre régional, le contenu restant que vous avez créé, y compris les noms et descriptions des produits, les catégories, les pages [&#128279;](../content-design/page-translate.md) et les blocs, doit être traduit séparément pour chaque affichage de magasin.
 
 ## Localisation de produits
 
