@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configuration de la devise
 
-Avant de configurer des taux de change individuels, vous devez d&#39;abord définir la portée de la [devise de base](../configuration-reference/general/currency-setup.md). Il est défini sur global par défaut, ce qui applique le paramètre de devise de base à l’ensemble de la hiérarchie [ magasin](../getting-started/websites-stores-views.md). Si vous disposez d’une installation Adobe Commerce ou Magento Open Source multisite, vous pouvez gérer plusieurs devises de base en définissant l’étendue au niveau du site web.
+Avant de configurer des taux de change individuels, vous devez d&#39;abord définir la portée de la [devise de base](../configuration-reference/general/currency-setup.md). Il est défini sur global par défaut, ce qui applique le paramètre de devise de base à l’ensemble de la hiérarchie [&#x200B; magasin](../getting-started/websites-stores-views.md). Si vous disposez d’une installation Adobe Commerce ou Magento Open Source multisite, vous pouvez gérer plusieurs devises de base en définissant l’étendue au niveau du site web.
 
 Vous spécifiez également les devises que vous acceptez et celle que vous souhaitez utiliser pour l’affichage des [prix](../catalog/catalog-price-scope.md) dans votre magasin. Dans le diagramme suivant, l’étendue de la devise de base est définie au niveau du site web. Chaque site web peut donc avoir une devise de base différente.
 
@@ -122,7 +122,7 @@ Vous spécifiez également les devises que vous acceptez et celle que vous souha
 
      Pour saisir plusieurs adresses e-mail, séparez-les par une virgule.
 
-   - **[!UICONTROL Error Email Sender]** — Définit sur le [ contact de magasin ](../getting-started/store-details.md#store-email-addresses) qui apparaît comme l&#39;expéditeur de la notification d&#39;erreur.
+   - **[!UICONTROL Error Email Sender]** — Définit sur le [&#x200B; contact de magasin &#x200B;](../getting-started/store-details.md#store-email-addresses) qui apparaît comme l&#39;expéditeur de la notification d&#39;erreur.
 
    - **[!UICONTROL Error Email Template]** — Définit sur le modèle d&#39;e-mail utilisé pour la notification d&#39;erreur.
 
@@ -150,7 +150,7 @@ La gestion des symboles de devise vous permet de personnaliser le symbole associ
 
    - Saisissez un symbole personnalisé pour chaque devise que vous souhaitez utiliser ou cochez la case **[!UICONTROL Use Standard]** pour chaque devise.
 
-   - Pour remplacer le symbole par défaut, décochez la case _[!UICONTROL Use Standard]_et saisissez le symbole à utiliser.
+   - Pour remplacer le symbole par défaut, décochez la case _[!UICONTROL Use Standard]_&#x200B;et saisissez le symbole à utiliser.
 
    >[!NOTE]
    >

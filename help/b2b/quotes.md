@@ -142,7 +142,7 @@ Seules les demandes de devis avec un statut `Open` peuvent être refusées.
 
 1. Sélectionnez chaque demande de devis ouverte que vous souhaitez refuser.
 
-1. Définissez la commande _[!UICONTROL Actions]_sur `Declined`.
+1. Définissez la commande _[!UICONTROL Actions]_&#x200B;sur `Declined`.
 
 1. Lorsque vous y êtes invité, saisissez le motif du refus du devis et cliquez sur **[!UICONTROL Confirm]**.
 
