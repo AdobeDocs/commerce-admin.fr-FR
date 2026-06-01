@@ -3,7 +3,7 @@ title: Configuration de la devise
 description: Découvrez comment définir la portée de la devise de base et comment spécifier les devises que vous acceptez et la devise que vous souhaitez utiliser pour l’affichage des prix.
 exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 0b93c90af4bface05fe1342ac756854f7f931989
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Avant de configurer des taux de change individuels, vous devez d&#39;abord défi
 
 Vous spécifiez également les devises que vous acceptez et celle que vous souhaitez utiliser pour l’affichage des [prix](../catalog/catalog-price-scope.md) dans votre magasin. Dans le diagramme suivant, l’étendue de la devise de base est définie au niveau du site web. Chaque site web peut donc avoir une devise de base différente.
 
-![Diagramme de l’étendue des devises](./assets/scope-currency-config.svg){width="600" zoomable="yes"}
+![Diagramme de l’étendue des devises](./assets/scope-currency-config.png){width="600" zoomable="yes"}
 
 ## Etape 1 : Choisissez les devises acceptées
 

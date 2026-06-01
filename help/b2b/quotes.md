@@ -3,7 +3,7 @@ title: Devis Négociables
 description: Découvrez les workflows de devis et comment fournir ce service aux comptes de votre entreprise.
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-source-git-commit: 7f4993ff8b16beda2a371737fb5a8ecb5f9c9396
+source-git-commit: 0b93c90af4bface05fe1342ac756854f7f931989
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Les devis peuvent être initiés par l&#39;acheteur ou le vendeur.
 
 Ce diagramme montre les statuts d&#39;un devis pour un acheteur et un vendeur (administrateur) dans les différentes étapes lorsque vous lancez un devis.
 
-![Workflow de statut des devis](./assets/quote-status-workflow.svg){width="700" zoomable="yes"}
+![Workflow de statut des devis](./assets/quote-status-workflow.png){width="700" zoomable="yes"}
 
 **Etape 1 : Création de devis (Nouveau)**
 
