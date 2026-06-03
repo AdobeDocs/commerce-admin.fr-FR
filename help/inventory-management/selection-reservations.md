@@ -217,7 +217,7 @@ Toutes les réservations doivent être compensées par des compensations lorsque
 
 >[!NOTE]
 >
->Si vous souhaitez consulter les réservations, une série d’options de ligne de commande est disponible. Vous pouvez uniquement consulter les réservations par le biais d’une interface de ligne de commande. L’utilisation des commandes de l’interface de ligne de commande peut nécessiter l’aide d’un développeur. Voir [[!DNL Inventory Management]  Référence de l’interface en ligne de commande ](cli.md).
+>Si vous souhaitez consulter les réservations, une série d’options de ligne de commande est disponible. Vous pouvez uniquement consulter les réservations par le biais d’une interface de ligne de commande. L’utilisation des commandes de l’interface de ligne de commande peut nécessiter l’aide d’un développeur. Voir [[!DNL Inventory Management]  Référence de l’interface en ligne de commande &#x200B;](cli.md).
 
 Si vous supprimez toutes les sources d&#39;un produit pour un stock avec des commandes en attente, vous avez peut-être bloqué les réservations.
 
