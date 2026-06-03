@@ -35,7 +35,7 @@ Par défaut, Commerce prend en charge deux méthodes de création de codes de co
 1. Création d’un code de coupon spécifique unique
 1. Génération de plusieurs codes de coupon _aléatoires_
 
-Si vous avez déjà une liste de codes coupon que vous souhaitez importer et associer à une règle de prix de panier, vous devez envisager d’utiliser une extension du [](https://marketplace.magento.com/).
+Si vous avez déjà une liste de codes coupon que vous souhaitez importer et associer à une règle de prix de panier, vous devez envisager d’utiliser une extension du [&#128279;](https://marketplace.magento.com/).
 
 >[!ENDSHADEBOX]
 
@@ -77,13 +77,13 @@ La longueur et le format des codes coupon générés automatiquement sont contr�
 
 ### Méthode 1 : créer un coupon spécifique
 
-1. Suivez les instructions pour créer une [ règle de prix de panier ](price-rules-cart.md).
+1. Suivez les instructions pour créer une [&#x200B; règle de prix de panier &#x200B;](price-rules-cart.md).
 
 1. Dans la section **[!UICONTROL Rule Information]**, définissez **[!UICONTROL Coupon]** sur `Specific Coupon`.
 
 1. Saisissez un **[!UICONTROL Coupon Code]** à utiliser avec la promotion.
 
-   Le format du code (numérique, alphanumérique ou alphabétique) est déterminé par la [ configuration ](#configure-coupon-codes).
+   Le format du code (numérique, alphanumérique ou alphabétique) est déterminé par la [&#x200B; configuration &#x200B;](#configure-coupon-codes).
 
 1. Pour limiter le nombre de fois où le coupon peut être utilisé, procédez comme suit :
 
@@ -130,7 +130,7 @@ La longueur et le format des codes coupon générés automatiquement sont contr�
 
 La génération des coupons de remise est une opération asynchrone, qui s’exécute en arrière-plan afin que vous puissiez continuer à travailler dans l’administration sans attendre que l’opération se termine. Le système affiche un message lorsque la tâche est terminée.
 
-1. Suivez les instructions pour créer une [ règle de prix de panier ](price-rules-cart.md).
+1. Suivez les instructions pour créer une [&#x200B; règle de prix de panier &#x200B;](price-rules-cart.md).
 
 1. Sous **[!UICONTROL Coupon Code]**, cochez la case **[!UICONTROL Use Auto Generation]** .
 
@@ -187,7 +187,7 @@ Pour supprimer des codes coupon, sélectionnez un ou plusieurs codes dans la lis
 
 Après avoir créé une [règle de prix de panier](price-rules-cart.md), vous pouvez ajouter manuellement des codes coupon personnalisés à la règle.
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**et sélectionnez la règle à laquelle vous souhaitez ajouter des codes coupon personnalisés.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;et sélectionnez la règle à laquelle vous souhaitez ajouter des codes coupon personnalisés.
 
 1. Développez la section **[!UICONTROL Manage Coupon Codes]**, puis cliquez sur **[!UICONTROL Add Coupon Code]**.
 
@@ -203,7 +203,7 @@ Pour supprimer des codes coupon personnalisés, sélectionnez les codes à suppr
 
 Pour modifier des codes coupon personnalisés ou consulter les détails d’utilisation, cliquez sur **[!UICONTROL Edit]** dans la colonne **[!UICONTROL Actions]** .
 
-<InlineAlert variant="info" slots="text"/>
+&lt;InlineAlert variant="info" slots="text"/>
 
 Le code de coupon principal qui appartient à la règle de prix du panier ne peut pas être modifié ni supprimé.
 
@@ -213,7 +213,7 @@ Le code de coupon principal qui appartient à la règle de prix du panier ne peu
 
 Si vous disposez d’une liste de codes de coupon prédéfinis, vous pouvez les joindre à la règle de prix du panier à partir d’un fichier CSV au lieu d’ajouter chaque code individuellement. Le fichier CSV doit comporter une seule colonne avec les codes de coupon.
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**et sélectionnez la règle dans laquelle vous souhaitez importer des codes de coupon personnalisés.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;et sélectionnez la règle dans laquelle vous souhaitez importer des codes de coupon personnalisés.
 
 1. Développez la section **[!UICONTROL Manage Coupon Codes]**, puis cliquez sur **[!UICONTROL Import]**.
 
@@ -236,13 +236,13 @@ Si vous disposez d’une liste de codes de coupon prédéfinis, vous pouvez les 
 
    Une fois le fichier sélectionné, la boîte de dialogue affiche un **[!UICONTROL Preview]** indiquant le nombre de codes prêts à être importés et un échantillon des premiers codes du fichier.
 
-   ![ Boîte de dialogue Importer des coupons ](./assets/import-custom-coupons.png){width="600" zoomable="yes"}
+   ![&#x200B; Boîte de dialogue Importer des coupons &#x200B;](./assets/import-custom-coupons.png){width="600" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Import]**. La boîte de dialogue affiche un résumé avec le nombre de codes mis en file d’attente pour l’importation et une liste de tous les codes existants qui ont été ignorés.
 
    ![Importer le résultat des coupons](./assets/import-coupons-result.png){width="600" zoomable="yes"}
 
-Pour surveiller la progression et les résultats détaillés de l’importation, cliquez sur **[!UICONTROL View progress in Bulk Actions Log]** ou accédez à **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**. Chaque importation s’affiche sous la forme d’une seule entrée dans le **[!UICONTROL Bulk Actions]**et sélectionnez une entrée.
+Pour surveiller la progression et les résultats détaillés de l’importation, cliquez sur **[!UICONTROL View progress in Bulk Actions Log]** ou accédez à **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**. Chaque importation s’affiche sous la forme d’une seule entrée dans le **[!UICONTROL Bulk Actions]**&#x200B;et sélectionnez une entrée.
 
 ## Rapport Coupons
 
@@ -300,7 +300,7 @@ Dans l’exemple suivant, le code de coupon « H20 » a été utilisé par deux 
 
 | Champ | Description |
 |--- |--- |
-| [!UICONTROL Date Used] | Identifie le champ de date utilisé comme base du rapport. Options : <br/>**[!UICONTROL Order Created]**génère l&#39;état en fonction de la date à laquelle la commande a été passée par le client. Pour vous assurer que les données les plus récentes sont incluses, cliquez sur le lien dans le message pour actualiser les statistiques.<br/>**[!UICONTROL Order Updated]** : génère l&#39;état en fonction de la date de la dernière mise à jour des commandes. Ce rapport utilise des données en temps réel et ne nécessite pas d’actualisation des statistiques. |
+| [!UICONTROL Date Used] | Identifie le champ de date utilisé comme base du rapport. Options : <br/>**[!UICONTROL Order Created]**&#x200B;génère l&#39;état en fonction de la date à laquelle la commande a été passée par le client. Pour vous assurer que les données les plus récentes sont incluses, cliquez sur le lien dans le message pour actualiser les statistiques.<br/>**[!UICONTROL Order Updated]** : génère l&#39;état en fonction de la date de la dernière mise à jour des commandes. Ce rapport utilise des données en temps réel et ne nécessite pas d’actualisation des statistiques. |
 | [!UICONTROL Period] | Détermine le type de période utilisé pour le rapport. Options : `Day` / `Month` / `Year` |
 | [!UICONTROL From] | Indique la première date de la plage de données de commande incluse dans l&#39;état. |
 | [!UICONTROL To] | Indique la dernière date de la plage de données de commande incluse dans l&#39;état. |
