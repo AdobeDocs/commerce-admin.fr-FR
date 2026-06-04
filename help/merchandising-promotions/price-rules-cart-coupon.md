@@ -3,7 +3,7 @@ title: Codes de coupon
 description: Découvrez comment utiliser des codes de coupons avec des règles de prix de panier pour appliquer une remise lorsqu’un ensemble de conditions est rempli.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 5aad8247242294c42c36378a743f747dcd73647c
+source-git-commit: d3f6c3468fa63068018e854820e932b897f925bd
 workflow-type: tm+mt
 source-wordcount: '2338'
 ht-degree: 0%
@@ -226,7 +226,7 @@ Si vous disposez d’une liste de codes de coupon prédéfinis, vous pouvez les 
    Le fichier CSV doit répondre aux exigences suivantes :
 
    | Exigence | Valeur |
-   | ------------- | ------- |
+   |-------------|-------|
    | Nombre maximal de codes par fichier | 1,000 |
    | Taille de fichier maximale | 512 KO |
    | Longueur maximale du code | 255 caractères par code |
