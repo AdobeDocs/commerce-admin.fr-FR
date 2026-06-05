@@ -1,8 +1,8 @@
 ---
-source-git-commit: 22d954e993e915fc76355ecea03a4382303c8ef5
+source-git-commit: b824e3f0d3c14b75910af9a2def17ce21b599d9b
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 1%
+source-wordcount: '250'
+ht-degree: 2%
 
 ---
 # Nouveautés du modèle
@@ -10,6 +10,50 @@ ht-degree: 1%
 ## Nouveautés
 
 Cette section contient les modifications apportées au cours des 60 derniers jours. Toutes les mises à jour mineures, telles que la modification de copies, sont exclues de cette liste.
+
+### 3 Juin 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Ajout de la possibilité de <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">créer des codes de coupon personnalisés</a> dans Adobe Commerce as a Cloud Service.</p>
+</td>
+      <td>
+        Mise à jour majeure
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/4b59525dc5d2d9a8ec1fe4271bf4c9dee8e02c15">validation</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2 Juin 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Mise à jour de la documentation de Commerce <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/data-transfer/import/data-import">import de données</a> avec des conseils sur la manière d’éviter une génération inutile de réécriture d’URL lors des opérations d’import.</p>
+</td>
+      <td>
+        Commentaires, technique
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/b224cff0c5db4c1b318d3e7165aa34f4662f7e3e">validation</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 12 Mai 2026
 
