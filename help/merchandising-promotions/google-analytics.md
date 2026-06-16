@@ -3,9 +3,30 @@ title: '[!DNL Google Analytics]'
 description: Découvrez comment utiliser pour rassembler  [!DNL Google Analytics]  mesures utiles pour vos sites Commerce.
 exl-id: d4df2ef2-d67f-46bf-8569-cbee9dde77e4
 feature: Marketing Tools, Integration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/3YXwPB-1yDciblELQDGHXfnv1hwPJAW4Us0iG6vCf0k
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: 766
 ht-degree: 0%
 
 ---
@@ -22,7 +43,7 @@ ht-degree: 0%
 >
 >Si vous activez le [Mode de restriction des cookies](../getting-started/compliance-cookie-law.md), [!DNL Google Analytics] ne collecte pas de données sur les visiteurs, sauf s’ils ont accepté les cookies.
 
-## 4 [!DNL Google Analytics]
+## [!DNL Google Analytics] 4
 
 {{gtag-api-note}}
 
@@ -31,7 +52,7 @@ ht-degree: 0%
 Si vous ne disposez pas déjà d’une configuration [!DNL Google Analytics] 4 pour votre site, procédez de l’une des manières suivantes :
 
 - [Configurer la collecte de données Analytics pour la première fois](https://support.google.com/analytics/answer/9304153)
-- [Ajouter Google Analytics 4 à un site avec [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)
+- [Ajoutez Google Analytics 4 à un site avec  [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)
 
 ### Étape 2 : terminer la configuration de Commerce
 
@@ -49,7 +70,7 @@ Si vous ne disposez pas déjà d’une configuration [!DNL Google Analytics] 4 p
 
    - Laissez le **[!UICONTROL Account type]** tel `Google Analytics4`.
 
-   - Saisissez votre **[!UICONTROL Measurement ID]**. Pour en savoir plus, voir l&#39;aide de [Google Analytics](https://support.google.com/analytics/answer/9539598).
+   - Saisissez votre **[!UICONTROL Measurement ID]**. Pour en savoir plus, voir l&#39;aide de [&#128279;](https://support.google.com/analytics/answer/9539598).
 
    - Si vous souhaitez effectuer des tests A/B et d’autres tests de performance sur votre contenu, définissez **Expériences de contenu** sur `Yes`.
 
@@ -79,7 +100,7 @@ Visitez le site web de Google et inscrivez-vous à un compte [Google Universal A
 
    - Définissez **[!UICONTROL Enable]** sur `Yes`.
 
-   - Saisissez votre [!DNL Google Analytics] de **[!UICONTROL Account Number]**.
+   - Saisissez votre **[!UICONTROL Account Number]** de [!DNL Google Analytics].
 
    - Si vous souhaitez effectuer des tests A/B et d’autres tests de performance sur votre contenu, définissez **[!UICONTROL Content Experiments]** sur `Yes`.
 

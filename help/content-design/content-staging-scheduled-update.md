@@ -4,9 +4,20 @@ description: Examinez cet exemple de campagne utilisé pour planifier une modifi
 exl-id: 36b7d7f6-4590-4192-a82b-e5f645b05f62
 feature: Page Content, Staging
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
+TQID: https://experienceleague.adobe.com/yR5AygNuuaCFZEMfRpRd-EH6jeSrRUQoVSO--sxF-FE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: 667
 ht-degree: 0%
 
 ---
@@ -38,7 +49,7 @@ L&#39;exemple suivant montre comment planifier une modification temporaire du pr
 
    - Utilisez l’outil Calendrier (![icône Calendrier](../assets/icon-calendar.png)) pour choisir les **Date de début** et **Date de fin** de la campagne.
 
-     Pour créer une campagne ouverte, ne spécifiez pas de date de fin (laissez vide). Pour cet exemple, la campagne doit commencer au trait de minuit pour la nouvelle année, le 1er janvier 2021 à 00 h 00 (heure du Pacifique).
+     Pour créer une campagne ouverte, ne spécifiez pas de date de fin (laissez vide). Pour cet exemple, la campagne doit commencer au trait de minuit pour la nouvelle année, le 1er janvier 2021 à 12 :00 (heure du Pacifique).
 
 
      Pour une campagne de règles de prix créée sans date de fin, une date de fin ne peut pas être ajoutée ultérieurement. Dans ce cas, il est nécessaire de créer une campagne et de définir la date de début à la date à laquelle vous souhaitez que l’ancienne campagne se termine et que la nouvelle campagne démarre. À cette date de début, l’ancienne campagne se termine et la nouvelle campagne commence telle que définie.

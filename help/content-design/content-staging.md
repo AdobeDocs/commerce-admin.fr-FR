@@ -4,9 +4,21 @@ description: L’évaluation de contenu permet à votre équipe commerciale de c
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
+TQID: https://experienceleague.adobe.com/XAMnUUL9JH0atN6vlwwe2l9x4P-uAqJA3BH-h9LbIXU
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: 1015
 ht-degree: 0%
 
 ---
@@ -80,12 +92,12 @@ Le [!UICONTROL Content Staging] [tableau de bord](content-staging-dashboard.md) 
 
 Pour en savoir plus sur l’évaluation du contenu, regardez cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3410854?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3410854?captions=fre_fr&quality=12&learn=on)
 
 ## Résolution des problèmes liés aux ressources
 
 Pour obtenir de l’aide sur la résolution des problèmes d’évaluation du contenu, consultez les articles suivants de la base de connaissances de l’assistance [!DNL Commerce] :
 
 - [Erreur 404 sur toutes les pages en raison d’un problème d’évaluation du contenu](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=fr)
-- [Les mises à jour d’évaluation de contenu planifiées ne s’affichent pas avec le cache Fastly obsolète](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=fr)
+- [Les mises à jour de l’évaluation de contenu planifiées ne s’affichent pas avec le cache Fastly obsolète](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=fr)
 - [Puis-je planifier des mises à jour d’évaluation de contenu pour les prix dans un catalogue partagé ?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=fr)

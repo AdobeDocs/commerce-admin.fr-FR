@@ -4,9 +4,20 @@ description: Découvrez les outils de Workspace utilisés pour localiser et mett
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+TQID: https://experienceleague.adobe.com/xtwiVV3F8lpix-1dJw-Bg8SAgoC7SfXoGvQzQN560lo
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: 1385
 ht-degree: 0%
 
 ---
@@ -69,10 +80,10 @@ L’espace de travail de page comprend des outils pour vous aider à trouver rap
 
 | Colonne | Description |
 |--- |--- |
-| [!UICONTROL Custom design from/to] | Indique les dates de début et de fin auxquelles la conception sélectionnée est appliquée à la page. ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement). |
+| [!UICONTROL Custom design from/to] | Indique les dates de début et de fin auxquelles la conception sélectionnée est appliquée à la page. ![](../assets/open-source.svg) (Magento Open Source uniquement). |
 | [!UICONTROL Custom Theme] | Applique un thème personnalisé à la page |
 | [!UICONTROL Custom Layout] | Détermine la disposition personnalisée de la page |
-| [!UICONTROL Meta Title] | Méta-titre de la page |
+| [!UICONTROL Meta Title] | Titre Meta de la page |
 | [!UICONTROL Meta Keywords] | Mots-clés méta de la page |
 | [!UICONTROL Meta Description] | Méta-description de la page |
 
@@ -94,7 +105,7 @@ La zone Rechercher dans le coin supérieur gauche de la grille _[!UICONTROL Page
 
 1. Si nécessaire, cliquez sur **[!UICONTROL Clear All]** pour effacer les critères de recherche précédents.
 
-1. Pour afficher la sélection des filtres de recherche, cliquez sur le **[!UICONTROL Filters]** !Onglet ([Icône d’entonnoir](../assets/icon-filter-search.png)).
+1. Pour afficher la sélection des filtres de recherche, cliquez sur l&#39;onglet **[!UICONTROL Filters]** !([Icône Funnel](../assets/icon-filter-search.png)).
 
 1. Renseignez autant de filtres que nécessaire pour décrire les pages que vous souhaitez rechercher.
 
@@ -112,7 +123,7 @@ La zone Rechercher dans le coin supérieur gauche de la grille _[!UICONTROL Page
 | [!UICONTROL Store View] | Filtrez la recherche en fonction de la vue du magasin. Options : `All available` / `Store Views` |
 | [!UICONTROL Layout] | Filtrez la recherche en fonction de la mise en page. Options : `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
 | [!UICONTROL Status] | Filtrez la recherche sur le statut de la page. Options : `Disabled` / `Published` |
-| [!UICONTROL Custom design from / to] | Filtrez la recherche par date de début et de fin lorsque la conception sélectionnée est appliquée à la page. ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement). |
+| [!UICONTROL Custom design from / to] | Filtrez la recherche par date de début et de fin lorsque la conception sélectionnée est appliquée à la page. ![](../assets/open-source.svg) (Magento Open Source uniquement). |
 | [!UICONTROL Asset] | Filtrer la recherche en fonction du titre de page des ressources |
 | [!UICONTROL Custom Layout] | Filtrez la recherche en fonction d’une mise en page personnalisée. Options : `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width` |
 | [!UICONTROL Custom Theme] | Filtrez la recherche en fonction d’un thème personnalisé. Options par défaut : `Magento Blank` / `Magento Luma` |

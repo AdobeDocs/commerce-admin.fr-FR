@@ -5,9 +5,21 @@ exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
 level: Experienced
 feature: Inventory, Configuration
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+TQID: https://experienceleague.adobe.com/jdlLgwIe50ExZ2giXBiGf5cG8L4DQDZe4psbB16F5JE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: 858
 ht-degree: 0%
 
 ---
@@ -48,10 +60,10 @@ Vous pouvez vérifier et vérifier manuellement les réservations dans la table 
 
 Les configurations et événements suivants peuvent entraîner des incohérences de réservation :
 
-- **Mise à niveau vers la version 2.3.x avec les commandes non dans un état final (Terminé, Annulé ou Fermé).** [!DNL Inventory Management] crée des réservations compensatoires pour ces commandes, mais elle ne saisit pas ou ne possède pas la réservation initiale qui déduit de la quantité vendable. Il est recommandé d’utiliser ces commandes après la mise à niveau vers Adobe Commerce ou Magento Open Source v2.3.x à partir de la version 2.1.x ou 2.2.x. Si vous avez des commandes en attente, les commandes mettent correctement à jour votre quantité vendable et vos réservations pour les ventes et l&#39;exécution des commandes.
+- **Mise à niveau vers la version 2.3.x avec des commandes qui ne sont pas dans un état final (Terminé, Annulé ou Fermé).** [!DNL Inventory Management] crée des réservations compensatoires pour ces commandes, mais ne saisit pas ou ne possède pas la réservation initiale qui déduit de la quantité vendable. Il est recommandé d’utiliser ces commandes après la mise à niveau vers Adobe Commerce ou Magento Open Source v2.3.x à partir de la version 2.1.x ou 2.2.x. Si vous avez des commandes en attente, les commandes mettent correctement à jour votre quantité vendable et vos réservations pour les ventes et l&#39;exécution des commandes.
 - **Vous ne gérez pas le stock, puis modifiez cette configuration par la suite.** Vous pouvez commencer à utiliser 2.3.x avec **[!UICONTROL Manage Stock]** défini sur `No` dans la configuration. [!DNL Commerce] n&#39;effectue pas de réservations lors des événements de placement de commande et d&#39;expédition. Si vous activez par la suite la configuration **[!UICONTROL Manage Stock]** et que certaines commandes sont créées, la Qté vendable est altérée avec réservation de rémunération lorsque vous traitez et exécutez cette commande.
 - **Vous réaffectez les stocks d’un site web pendant que les commandes y sont envoyées**. La réservation initiale entre pour le stock initial et toutes les réservations de rémunération entrent pour le nouveau stock.
-- **Le total de toutes les réserves peut ne pas se résoudre à `0`.** Toutes les réservations dans le cadre d&#39;une commande dans un état final (Terminé, Annulé, Fermé) doivent être résolues sur `0`, effaçant tous les blocages de quantité vendable.
+- **Le total de toutes les réserves peut ne pas se résoudre à `0`.** Toutes les réservations dans le champ d&#39;application d&#39;une commande dans un état final (Terminé, Annulé, Fermé) doivent se résoudre à `0`, effaçant tous les blocages de quantité vendable.
 
 ### Commande Liste des incohérences
 

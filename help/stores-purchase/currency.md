@@ -1,23 +1,39 @@
 ---
-title: Devise
+title: Devise monétaire
 description: Découvrez comment votre boutique Adobe Commerce ou Magento Open Source peut prendre en charge plusieurs devises pour améliorer l’expérience client.
 exl-id: 5255fb63-a615-4b05-8b00-5c5a089cbb2d
 feature: Currency, Storefront
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+TQID: https://experienceleague.adobe.com/pKkqU2sGYfGBeSZWyvBlmcLBahxfncfGN1d-qWvKnuQ
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: 120
 ht-degree: 0%
 
 ---
 
-# Devise
+# Devise monétaire
 
-Adobe Commerce vous permet d’accepter des devises de plus de 200 pays dans le monde. Si le magasin prend en charge plusieurs devises, un _programme de sélection de devises_ apparaît dans l’en-tête après que les taux de devise ont été [mis à jour](currency-update.md).
+Adobe Commerce vous permet d’accepter des devises provenant de plus de 200 pays dans le monde. Si le magasin prend en charge plusieurs devises, un _programme de sélection des devises_ s’affiche dans l’en-tête après la mise à jour des taux de change [&#128279;](currency-update.md).
 
 >[!NOTE]
 >
->Si vous acceptez le paiement dans plusieurs devises, veillez à surveiller les paramètres de taux de change, car toute fluctuation peut avoir un impact sur votre marge bénéficiaire.
+>Si vous acceptez un paiement dans plusieurs devises, veillez à surveiller les paramètres de taux de change, car toute fluctuation peut avoir un impact sur votre marge bénéficiaire.
 
-Les symboles de devise apparaissent dans les prix des produits et les documents de vente, tels que les commandes et les factures. Vous pouvez personnaliser les symboles de devise selon vos besoins et également définir l’affichage du prix séparément pour chaque magasin ou affichage.
+Les symboles de devise apparaissent dans les prix des produits et les documents de vente tels que les commandes et les factures. Vous pouvez personnaliser les symboles de devise selon vos besoins et également définir l&#39;affichage du prix séparément pour chaque magasin ou vue.
 
-![Exemple de storefront - programme de sélection de devise](./assets/storefront-currency-chooser.png){width="700" zoomable="yes"}
+![Exemple de storefront - sélecteur de devise](./assets/storefront-currency-chooser.png){width="700" zoomable="yes"}

@@ -1,11 +1,26 @@
 ---
 title: Configurer les retours
-description: Découvrez comment activer les retours pour votre magasin et configurer les méthodes d’expédition prises en charge.
+description: Découvrez comment activer les retours pour votre boutique et configurer les méthodes d’expédition prises en charge.
 exl-id: a1b508fc-7e42-4d37-bf7e-dea17a40d39b
 feature: Returns, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/TgVsqEceM-mTY91OCl7XRL0Uwk8VJAHatv0kHiOM00g
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: 353
 ht-degree: 0%
 
 ---
@@ -14,63 +29,63 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Lorsqu’elles sont activées, les demandes RMA peuvent être envoyées par les clients à partir du storefront. Une RMA ne peut être générée que si un élément est disponible pour renvoi dans l’ordre. Les demandes de renvoi d’éléments individuels sont gérées par l’attribut _Enable RMA_ dans chaque enregistrement de produit. Par défaut, les paramètres de configuration sont appliqués au produit (_[!UICONTROL Use Config Settings]_&#x200B;est sélectionné). Si&#x200B;_[!UICONTROL Enable RMA]_ est défini sur `No`, le produit n’apparaît pas dans la liste des éléments qui peuvent être renvoyés. Si vous modifiez le paramètre _Activer RMA_ , il s’applique aux commandes nouvelles et existantes.
+Lorsqu’elles sont activées, les requêtes RMA peuvent être envoyées par les clients à partir du storefront. Un retour client ne peut être généré que s&#39;il existe un article dans la commande pouvant être renvoyé. Les demandes de renvoi d’éléments individuels sont gérées par l’attribut _Activer RMA_ dans chaque enregistrement de produit. Par défaut, les paramètres de configuration sont appliqués au produit (_[!UICONTROL Use Config Settings]_&#x200B;est sélectionné). Si&#x200B;_[!UICONTROL Enable RMA]_ est défini sur `No`, le produit n’apparaît pas dans la liste des éléments pouvant être renvoyés. Si vous modifiez le paramètre _Activer RMA_, il s&#39;applique à la fois aux nouvelles commandes et aux commandes existantes.
 
-## Activation des RMA pour votre magasin
+## Activer les RMA pour votre magasin
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et sélectionnez **[!UICONTROL Sales]** sous .
+1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Sales]** en dessous.
 
-1. Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL RMA Settings]** .
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL RMA Settings]** .
 
    ![Paramètres RMA](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
 
 1. Définissez **[!UICONTROL Enable RMA on Storefront]** sur `Yes`.
 
-   Ce paramètre détermine si les clients peuvent créer et afficher des requêtes RMA à partir du storefront. Les RMA peuvent être appliquées aux commandes nouvelles et existantes.
+   Ce paramètre détermine si les clients peuvent créer et afficher des demandes RMA à partir du storefront. Les autorisations de retour client peuvent être appliquées aux commandes nouvelles et existantes.
 
 1. Définissez **[!UICONTROL Enable RMA on Product Level]** sur `Yes`.
 
    Ce paramètre détermine le comportement de l’attribut _Activer RMA_ pour les produits individuels sur le storefront :
 
-   - Lorsque [!UICONTROL Enable RMA on Product Level] est défini sur `Yes`, les clients du storefront peuvent renvoyer tous les produits individuels. Elle inclut les valeurs d’attribut de produit _[!UICONTROL Enable RMA]_= `Yes` et&#x200B;_[!UICONTROL Enable RMA]_ = `No`.
-   - Lorsque [!UICONTROL Enable RMA on Product Level] est défini sur `No`, les clients du storefront peuvent renvoyer uniquement les produits avec une valeur d’attribut de produit _[!UICONTROL Enable RMA]_= `Yes`.
+   - Lorsque [!UICONTROL Enable RMA on Product Level] est défini sur `Yes`, les clients du storefront peuvent renvoyer tous les produits individuels. Il comprend les valeurs d’attribut de produit _[!UICONTROL Enable RMA]_= `Yes` et&#x200B;_[!UICONTROL Enable RMA]_ = `No`.
+   - Lorsque [!UICONTROL Enable RMA on Product Level] est défini sur `No`, les clients du storefront peuvent uniquement renvoyer les produits avec une valeur d’attribut de produit _[!UICONTROL Enable RMA]_= `Yes`.
 
 1. Définissez **[!UICONTROL Use Store Address]** sur l’une des valeurs suivantes :
 
    - `Yes` - Envoyez les produits renvoyés à l’adresse du magasin.
-   - `No` - Entrez une autre adresse pour les retours de produits.
+   - `No` - Saisissez une autre adresse pour les retours de produits.
 
-   ![Paramètres RMA avec autre adresse](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
+   ![Paramètres RMA avec une autre adresse](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Save Config]**.
 
-## Configuration des méthodes d’expédition pour les retours
+## Configurer des méthodes d&#39;expédition pour les retours
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Delivery Methods]**.
 
-1. Développez la section de l’opérateur que vous souhaitez utiliser pour le service de retour, par exemple **[!UICONTROL UPS]**.
+1. Développez la section correspondant au transporteur que vous souhaitez utiliser pour le service de retour, par exemple **[!UICONTROL UPS]**.
 
-   ![Activer le service RMA pour l’opérateur](./assets/rma-delivery-method.png){width="600" zoomable="yes"}
+   ![Activer le service RMA pour l&#39;opérateur](./assets/rma-delivery-method.png){width="600" zoomable="yes"}
 
 1. Définissez **[!UICONTROL Enabled for RMA]** sur `Yes`.
 
 1. Cliquez sur **[!UICONTROL Save Config]**.
 
-## Modification des RMA autorisées au niveau du produit
+## Modifier les RMA autorisés au niveau du produit
 
-Si vous activez les RMA pour votre boutique et que votre catalogue contient des produits qui ne doivent pas être autorisés pour être renvoyés, vous pouvez modifier le paramètre au niveau du produit,
+Si vous activez les autorisations de retour client pour votre magasin et que votre catalogue contient des produits dont le retour ne doit pas être autorisé, vous pouvez modifier le paramètre au niveau du produit,
 
 1. Ouvrez le produit en mode d’édition.
 
-1. Faites défiler l’écran vers le bas et développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) sur **[!UICONTROL Autosettings]** .
+1. Faites défiler vers le bas et développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Autosettings]** .
 
-1. Décochez la case **[!UICONTROL Use Config Setting]** si nécessaire.
+1. Décochez la case **[!UICONTROL Use Config Setting]** , le cas échéant.
 
-1. Définissez le paramètre **[!UICONTROL Enable RMA]** sur `No`.
+1. Activez/désactivez le paramètre **[!UICONTROL Enable RMA]** sur `No`.
 
    ![Désactiver RMA pour un produit](./assets/product-advanced-autosettings-enable-rma.png){width="600" zoomable="yes"}
 

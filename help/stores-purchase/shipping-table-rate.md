@@ -3,9 +3,23 @@ title: Expédition au tarif du tableau
 description: Découvrez comment configurer une option d’expédition au tarif fixe pour votre boutique.
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/14LYGw55vIlhbg71AApSGuuUKzaFEmStaUcw-Uig87E
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: 1044
 ht-degree: 3%
 
 ---
@@ -16,7 +30,7 @@ Le _tableau des tarifs_ méthode d&#39;expédition fait référence à un tablea
 
 - Poids v. Destination
 - Prix v. Destination
-- Nombre d’éléments par rapport à la destination
+- Nombre d’éléments v. Destination
 
 Par exemple, si votre entrepôt est à Los Angeles, il coûte moins cher d&#39;expédier à San Diego qu&#39;au Vermont. Vous pouvez utiliser la livraison à tarif fixe pour transmettre les économies à vos clients.
 
@@ -62,7 +76,7 @@ La première étape consiste à définir les paramètres par défaut des taux du
 
    >[!NOTE]
    >
-   >Étant donné que les produits virtuels, tels que les services, n’ont pas de poids, ils ne peuvent pas modifier le résultat d’un calcul basé sur la condition Poids par rapport à Destination . Cependant, les produits virtuels peuvent modifier le résultat d’un calcul basé sur la condition Prix par rapport à Destination ou Nombre d’articles par rapport à Destination .
+   >Étant donné que les produits virtuels, tels que les services, n&#39;ont pas de poids, ils ne peuvent pas modifier le résultat d&#39;un calcul basé sur la valeur Poids v. Condition de destination. Cependant, les produits virtuels peuvent modifier le résultat d’un calcul basé sur la valeur de Prix. Destination ou nombre d’éléments par rapport à la condition de destination.
 
 1. Configurez les options de frais de gestion en fonction de vos besoins.
 
@@ -142,7 +156,7 @@ Pour vous assurer que les données du taux de la table sont correctes, passez pa
 
 ### Exemple 1 : prix et destination
 
-Cet exemple utilise la condition Prix / Destination pour créer un ensemble de trois tarifs d&#39;expédition différents en fonction du montant du sous-total de la commande pour les États-Unis continentaux, l&#39;Alaska et Hawaï. L’astérisque (*) est un caractère générique qui représente toutes les valeurs.
+Cet exemple utilise la version Prix. Condition de destination pour créer un ensemble de trois tarifs d’expédition différents en fonction du montant du sous-total de la commande pour les États-Unis continentaux, l’Alaska et Hawaï. L’astérisque (*) est un caractère générique qui représente toutes les valeurs.
 
 | PAYS | RÉGION/ÉTAT | CODE POSTAL | SOUS-TOTAL COMMANDE (et plus) | PRIX D&#39;EXPÉDITION |
 |--- |--- |--- |--- |--- |
@@ -160,7 +174,7 @@ Cet exemple utilise la condition Prix / Destination pour créer un ensemble de t
 
 ### Exemple 2 : poids et destination
 
-Cet exemple utilise la condition Poids par rapport à Destination pour créer des frais d&#39;expédition différents en fonction du poids de la commande.
+Cet exemple utilise la valeur Poids . Condition de destination permettant de créer des frais de livraison différents en fonction du poids de la commande.
 
 | PAYS | RÉGION/ÉTAT | CODE POSTAL | POIDS (et plus) | PRIX D&#39;EXPÉDITION |
 |--- |--- |--- |--- |--- |

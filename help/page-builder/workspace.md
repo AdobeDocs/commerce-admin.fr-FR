@@ -3,9 +3,24 @@ title: '[!DNL Page Builder] Workspace'
 description: Découvrez les outils disponibles dans l [!DNL Page Builder] espace de travail lorsque vous créez des pages de base, des pages de produit et de catalogue, des blocs et des blocs dynamiques.
 exl-id: 1cd7b300-0a18-490f-bc11-36de3fec13dc
 feature: Page Builder, Page Content
-source-git-commit: 69adfa95a11c8a62bd97bd917cebcaa22d3a8087
+TQID: https://experienceleague.adobe.com/eq5EZJrZgr9UyShDpLa60ReANR8aCUIIedPK0Oh9v-c
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: 1509
 ht-degree: 0%
 
 ---
@@ -117,7 +132,7 @@ Panneau ![[!DNL Page Builder] avec les types de contenu d’éléments &#x200B;]
 | [Titre](heading.md) | Ajoute un conteneur d’en-tête à l’étape. |
 | [&#x200B; Boutons &#x200B;](buttons.md) | Ajoute un conteneur pour un bouton individuel ou un ensemble de boutons à la scène. |
 | [Diviseur](divider.md) | Ajoute un conteneur pour un séparateur à la scène. |
-| [Code HTML](html-code.md) | Ajoute un conteneur pour le code HTML à l’étape. |
+| [Code &#x200B;](html-code.md) | Ajoute un conteneur pour le code HTML à l’étape. |
 
 {style="table-layout:auto"}
 

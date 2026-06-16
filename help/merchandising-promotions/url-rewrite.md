@@ -4,9 +4,28 @@ description: Découvrez les réécritures d’URL et utilisez l’outil de réé
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 2f2db4926ff92adfa27692eeca872c1765fd31d6
+TQID: https://experienceleague.adobe.com/fuILlBHCevV6rfQT-PUiuBPBgWkFXDbFofgde8O5BCM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: 940
 ht-degree: 0%
 
 ---
@@ -84,11 +103,11 @@ Commerce utilise des URL basées sur des ID en interne, mais vous pouvez créer 
 
 **URL système (interne) :**
 
-    http://www.example.com/catalog/category/id/6
+    
 
 **URL destinée aux clients :**
 
-    http://www.example.com/peripherals/keyboard.html
+    
 
 #### Changement d’image de marque du produit ou optimisation des URL
 
@@ -96,11 +115,11 @@ Lorsque vous renommez un produit ou que vous souhaitez améliorer son URL pour l
 
 **URL d’origine :**
 
-    http://www.example.com/peripherals/keyboard.html
+    
 
 **Nouvelle URL optimisée :**
 
-    http://www.example.com/ergonomic-keyboard.html
+    
 
 L’outil Réécritures crée automatiquement une redirection 301 de l’ancienne URL vers la nouvelle, afin que les clients et les moteurs de recherche soient redirigés de manière transparente vers la bonne page.
 
@@ -128,11 +147,11 @@ L’exemple suivant montre comment les URL apparaissent avec et sans les réécr
 
 **URL sans réécriture du serveur Web**
 
-    http://www.yourdomain.com/magento/index.php/storeview/url-identifier
+    
 
 **URL avec réécriture du serveur Web**
 
-    http://www.yourdomain.com/magento/storeview/url-identifier
+    
 
 #### Activez ou désactivez les réécritures du serveur Web :
 
@@ -152,9 +171,9 @@ L’exemple suivant montre comment les URL apparaissent avec et sans les réécr
 
 À des fins d’optimisation du moteur de recherche (SEO), chacune de vos pages web ne doit avoir qu’une seule URL distincte.
 
-Si une seule page est accessible par plusieurs URL ou si vous disposez de pages différentes avec du contenu similaire, Google considère qu’il s’agit de versions en double de la même page. Google choisit une URL comme version canonique et l’analyse, de même que toutes les autres URL, sont considérées comme des URL en double et sont analysées moins souvent.
+Si une seule page est accessible par plusieurs URL ou si vous disposez de pages différentes avec du contenu similaire, Google considère qu’il s’agit de versions en double de la même page. Google choisit une URL comme version canonique et l’explore. Toutes les autres URL sont considérées comme des URL en double et sont moins souvent explorées.
 
-Si vous n’indiquez pas explicitement à Google quelle URL est canonique, cette dernière fait le choix pour vous ou peut les considérer toutes les deux comme ayant le même poids. Cela peut entraîner un comportement indésirable et risque d’entraîner un budget d’analyse inefficace et des backlinks distribués faibles.
+Si vous n’indiquez pas explicitement à Google quelle URL est canonique, cette dernière fait le choix pour vous ou peut les considérer toutes les deux comme ayant le même poids. Cela peut entraîner un comportement indésirable et risque d’entraîner un budget d’explore inefficace et de faibles backlinks distribués.
 
 Selon la configuration de votre site web, l’index peut contenir plusieurs versions de votre site, par exemple :
 

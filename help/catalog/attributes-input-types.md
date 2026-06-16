@@ -3,9 +3,25 @@ title: Types d’entrée d’attribut
 description: Découvrez les types d’entrée disponibles pour les attributs de produit, qui déterminent le type de données pouvant être saisies et le format du champ ou du contrôle d’entrée.
 exl-id: c35b3b9d-57b0-4c33-abdb-662ac6d0260e
 feature: Catalog Management, Products
-source-git-commit: 5398555aa025db6ff0eafd758d8e930b81c5e771
+TQID: https://experienceleague.adobe.com/8WwqU3ZSqmORqSD2061Pa5MTRqYbH71dOxouz-nLwbo
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: 780
 ht-degree: 0%
 
 ---
@@ -21,7 +37,7 @@ Lorsqu’ils sont affichés à partir de l’Administration, les attributs sont 
 | [!UICONTROL Text Field] | Champ de saisie d’une seule ligne pour le texte. |
 | [!UICONTROL Text Area] | Champ de saisie de plusieurs lignes permettant de saisir des paragraphes de texte, tels qu’une description de produit. Vous pouvez utiliser l’éditeur WYSIWYG pour formater le texte avec des balises HTML ou saisir directement les balises dans le texte. |
 | [!UICONTROL Text Editor] | Un éditeur de texte entièrement opérationnel à l’emplacement des attributs. |
-| [!UICONTROL Date] | Affiche une valeur de date au [format préféré](#date-and-time-options) et [fuseau horaire](../getting-started/store-details.md#locale-options). Les valeurs de date peuvent être sélectionnées dans une liste ou un calendrier ( ![icône Calendrier](../assets/icon-calendar.png) ). <br/><br/>**_Remarque:_** selon la configuration de votre système, les utilisateurs _administrateurs_ peuvent saisir des dates directement dans un champ ou sélectionner une date dans le calendrier ou la liste. Pour plus d’informations sur la spécification des valeurs de date et d’heure, voir [Options de date et d’heure](#date-and-time-options). |
+| [!UICONTROL Date] | Affiche une valeur de date au [format préféré](#date-and-time-options) et [fuseau horaire](../getting-started/store-details.md#locale-options). Les valeurs de date peuvent être sélectionnées dans une liste ou un calendrier ( ![icône Calendrier](../assets/icon-calendar.png) ). <br/><br/>**_Remarque:_**&#x200B;selon la configuration de votre système, les utilisateurs_ administrateurs_ peuvent saisir des dates directement dans un champ ou sélectionner une date dans le calendrier ou la liste. Pour plus d’informations sur la spécification des valeurs de date et d’heure, voir [Options de date et d’heure](#date-and-time-options). |
 | [!UICONTROL Date and Time] | Affiche une valeur de date et d’heure au [format préféré](#date-and-time-options) et [fuseau horaire](../getting-started/store-details.md#locale-options). La date et l’heure peuvent être saisies manuellement ou sélectionnées dans un calendrier. Exemple de format : MM/JJ/AAAA HH:MM |
 | [!UICONTROL Yes/No] | Affiche une liste déroulante avec les options prédéfinies de `Yes` et `No`. |
 | Liste déroulante | Affiche une liste déroulante de valeurs qui accepte une seule sélection. Le type d’entrée de liste déroulante est un composant clé des [produits configurables](../catalog/product-create-configurable.md). |

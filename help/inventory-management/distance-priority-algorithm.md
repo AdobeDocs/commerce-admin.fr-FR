@@ -3,16 +3,31 @@ title: Configuration de l'algorithme de priorité de distance
 description: Définissez la configuration pour comparer l'emplacement de l'adresse de destination d'expédition avec les emplacements source afin de déterminer la source la plus proche pour exécuter les expéditions.
 exl-id: 4dec179a-25ac-48db-a84b-4974798272b0
 feature: Inventory, Configuration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/hImn3RZ89qP2ysFEM8lx-plNpFzx9ogMuj92kKqC3Eg
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: 832
 ht-degree: 0%
 
 ---
 
 # Configuration de l&#39;algorithme de priorité de distance
 
-L&#39;algorithme de priorité de distance compare l&#39;emplacement de l&#39;adresse de destination d&#39;expédition avec les emplacements source afin de déterminer la source la plus proche pour exécuter les expéditions. La distance peut être déterminée par la distance physique ou le temps passé à voyager d&#39;un emplacement à un autre, en utilisant des données de base de données ou des instructions de conduite, de marche ou de vélo. Utilisez cet [algorithme de sélection Source](selection-reservations.md) pour recommander la source la plus proche des adresses de destination d&#39;expédition.
+L&#39;algorithme de priorité de distance compare l&#39;emplacement de l&#39;adresse de destination d&#39;expédition avec les emplacements source afin de déterminer la source la plus proche pour exécuter les expéditions. La distance peut être déterminée par la distance physique ou le temps passé à voyager d&#39;un emplacement à un autre, en utilisant des données de base de données ou des instructions de conduite, de marche ou de vélo. Utilisez cet [algorithme de sélection &#x200B;](selection-reservations.md) pour recommander la source la plus proche des adresses de destination d&#39;expédition.
 
 >[!NOTE]
 >
@@ -63,13 +78,13 @@ La clé provient de la plateforme [Google Maps](https://cloud.google.com/maps-pl
 
    - Développez le menu et cliquez sur **[!UICONTROL APIs & Services]** > **[!UICONTROL Library]**.
 
-     ![Services API Google](assets/inventory-google-key2.png){width="350" zoomable="yes"}
+     ![Services API &#x200B;](assets/inventory-google-key2.png){width="350" zoomable="yes"}
 
    - Recherchez [API de géocodage](https://developers.google.com/maps/documentation/geocoding/start) et [API de matrice de distance](https://developers.google.com/maps/documentation/distance-matrix/start). Sélectionnez et activez chaque service.
 
 1. Développez le menu, cliquez sur **[!UICONTROL APIs & Services]** > **[!UICONTROL Credentials]**, puis copiez la clé API Google.
 
-   ![Copie de la clé API Google](assets/inventory-google-key3.png){width="350" zoomable="yes"}
+   ![Copie de la clé API &#x200B;](assets/inventory-google-key3.png){width="350" zoomable="yes"}
 
 ### Étape 2 : configuration du fournisseur de carte Google
 
@@ -104,7 +119,7 @@ La clé provient de la plateforme [Google Maps](https://cloud.google.com/maps-pl
      | `Distance` | (Par défaut) Renvoie la distance entre les points en mesures (kilomètres et mètres) ou impériale (milles et pieds). |
      | `Time to Destination` | Renvoie le temps nécessaire pour voyager des emplacements source à l’adresse d’expédition en heures et minutes. |
 
-   ![Fournisseur De Distance Google](assets/config-catalog-inventory-distance-provider-settings.png){width="350" zoomable="yes"}
+   ![Fournisseur De Distance &#x200B;](assets/config-catalog-inventory-distance-provider-settings.png){width="350" zoomable="yes"}
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 

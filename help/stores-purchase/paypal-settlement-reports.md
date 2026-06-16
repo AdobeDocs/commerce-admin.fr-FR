@@ -4,9 +4,20 @@ description: Découvrez le rapport Règlement PayPal comme outil de gestion des 
 exl-id: cd087e15-e6ad-4472-9038-8c64fde316f9
 feature: Payments
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+TQID: https://experienceleague.adobe.com/c7v5oSsVPmD6r6obfGEoxPiGkMI4KMWAmfJAW0-CCJk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: 233
 ht-degree: 0%
 
 ---
@@ -21,7 +32,7 @@ Le rapport Règlement PayPal fournit aux commerçants les informations sur chaqu
 
 Après avoir configuré et activé les rapports de règlement dans le compte marchand PayPal, Adobe Commerce et Magento Open Source commenceront à générer des rapports au cours des 24 heures suivantes. La liste des rapports de règlement disponibles peut être consultée à partir de l&#39;administrateur.
 
-**_Pour afficher les rapports de liquidation, procédez comme suit_**
+**_Pour afficher les rapports de liquidation:_**
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL PayPal Settlement]**.
 
@@ -34,6 +45,6 @@ Après avoir configuré et activé les rapports de règlement dans le compte mar
    | Colonne du rapport | Description |
    | ------------ | ----------- |
    | [!UICONTROL PayPal Reference ID Type] | Un des codes de référence suivants : <br/>- Identifiant de commande<br/>- Identifiant de transaction<br/>- Identifiant d’abonnement |
-   | [!UICONTROL Preapproved Payment ID] | **[!UICONTROL Custom]** - Texte saisi par le commerçant sur la transaction sur PayPal.<br/>**[!UICONTROL Transaction Debit or Credit]**- Direction du mouvement monétaire du montant brut.<br/>**[!UICONTROL Fee Debit or Credit]** - La direction du mouvement de l&#39;argent contre rémunération. |
+   | [!UICONTROL Preapproved Payment ID] | **[!UICONTROL Custom]** - Texte saisi par le commerçant sur la transaction sur PayPal.<br/>**[!UICONTROL Transaction Debit or Credit]**- La direction du mouvement de l&#39;argent du montant brut.<br/>**[!UICONTROL Fee Debit or Credit]** - La direction du mouvement de l&#39;argent contre rémunération. |
 
    {style="table-layout:auto"}

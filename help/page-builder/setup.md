@@ -3,9 +3,22 @@ title: Configuration de [!DNL Page Builder]
 description: Découvrez la configuration  [!DNL Page Builder]  fonctionnalités dans Admin pour Adobe Commerce et Magento Open Source.
 exl-id: 48396045-0fef-4f4f-8138-e6d969560e42
 feature: Page Builder, Configuration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/qXSCIQN-Tpo-n2CTrXy2xzDssA6xQfuWGAVxuRgI-5o
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: 403
 ht-degree: 0%
 
 ---
@@ -17,8 +30,7 @@ Lorsqu’il est activé dans la configuration, [!DNL Page Builder] est l’outil
 >[!NOTE]
 >
 >Une fois installé, [!DNL Page Builder] remplace le paramètre par défaut du champ de configuration [!UICONTROL Mask for Meta Description]. La valeur passe de `{{name}} {{description}}` à `{{name}}`.
-><br>
->Vous pouvez accéder à ce paramètre lorsque vous accédez à [!UICONTROL Stores] > _[!UICONTROL Settings]_> [!UICONTROL Configuration], développez [!UICONTROL Catalog] et choisissez [!UICONTROL Catalog] en dessous. Le champ [!UICONTROL Mask for Meta Description] se trouve dans la section [!UICONTROL Product Fields Auto-generation] .
+><br>>Vous pouvez accéder à ce paramètre lorsque vous accédez à [!UICONTROL Stores] > _[!UICONTROL Settings]_> [!UICONTROL Configuration], développez [!UICONTROL Catalog] et choisissez [!UICONTROL Catalog] en dessous. Le champ [!UICONTROL Mask for Meta Description] se trouve dans la section [!UICONTROL Product Fields Auto-generation] .
 
 >[!NOTE]
 >

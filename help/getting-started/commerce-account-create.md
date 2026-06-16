@@ -4,13 +4,28 @@ description: Découvrez les comptes [!DNL Commerce]  qui gèrent les produits et
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: 96acaff3e614a5758fdc51bc5de70ce0507a970a
+TQID: https://experienceleague.adobe.com/yLnMGRFDtzHhx0bEg5QhKJWc2cr-psvuq9RMEhbHX0s
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+subfeature_v2:
+  - id: d41d3a54-9721-475c-abd6-295bebfba9e4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: 1154
 ht-degree: 0%
 
 ---
-
 
 # Accéder à votre compte [!DNL Commerce]
 
@@ -30,7 +45,7 @@ Vous pouvez accéder à votre compte [!DNL Commerce] à partir du site web [!DNL
 
 L’identifiant de votre compte [!DNL Commerce] est distinct de celui de votre administrateur de boutique. Vous utiliserez normalement des informations d’identification différentes pour chaque système et l’accès à chaque système est géré indépendamment.
 
-Cependant, un utilisateur qui souhaite rationaliser sa connexion aux produits Adobe Commerce et Adobe Business peut configurer son Adobe ID pour se connecter à la boutique Admin : [Configurer l’intégration d’administration Commerce à Adobe ID](https://experienceleague.adobe.com/fr/docs/commerce-admin/start/admin/ims/adobe-ims-config) dans le *Guide d’intégration IMS pour Commerce*.
+Cependant, un utilisateur qui souhaite rationaliser sa connexion aux produits Adobe Commerce et Adobe Business peut configurer son Adobe ID pour se connecter à la boutique Admin : [Configurer l’intégration d’administration Commerce à Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) dans le *Guide d’intégration IMS pour Commerce*.
 
 >[!NOTE]
 >

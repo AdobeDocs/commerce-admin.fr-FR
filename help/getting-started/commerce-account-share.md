@@ -3,9 +3,26 @@ title: 'Partager un  [!DNL Commerce] '
 description: Découvrez comment accorder un accès limité à votre compte  [!DNL Commerce]  d’autres titulaires  [!DNL Commerce]  compte.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 593bad9ca83e96a145beeceb0265e0080e5f7930
+TQID: https://experienceleague.adobe.com/A98obp-6T8JgE0yCm0TmxpRslEq2Cb-5m53rBfxzfhg
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: 1078
 ht-degree: 0%
 
 ---
@@ -117,7 +134,7 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
    > Si **[!UICONTROL Delete]** n’est pas affiché, vérifiez si le **[!UICONTROL Share Name]** contient le modèle de dénomination `Cloud Shared Access from MAG0XYZ`. Si le compte possède ce modèle de dénomination [&#x200B; et ne peut pas être supprimé](https://experienceleague.adobe.com/fr/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), c’est parce que l’accès partagé a été créé par une API et non directement à partir du compte [Commerce](https://account.magento.com/).
    > 
    > S’il ne peut pas être supprimé, demandez simplement au propriétaire du compte de modifier le compte d’accès partagé et, sous Accorder des autorisations de compte, décochez chaque élément. Après cette mise à jour, l’utilisateur ne pourra plus accéder aux ressources du compte.
-   > ![image](https://git.corp.adobe.com/AdobeDocs/commerce-admin.fr-FR/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
+   > ![image](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
    > En outre, assurez-vous que les utilisateurs sont supprimés du projet afin qu’ils ne reçoivent plus de notifications par e-mail : [Les anciens membres de l’équipe reçoivent des e-mails de notification dans le cloud Adobe Commerce](https://experienceleague.adobe.com/fr/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 

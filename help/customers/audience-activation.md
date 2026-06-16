@@ -6,9 +6,25 @@ feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 4654bb24e0982c62d71bbc3f771f8a40ee1e83e3
+TQID: https://experienceleague.adobe.com/yzMHk3bclm2kSJ588YKqTUrZzvf-FZNN9qAXGhqFs84
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: 1904
 ht-degree: 1%
 
 ---
@@ -243,7 +259,7 @@ Vous pouvez activer des audiences dans une instance Adobe Commerce découplée, 
 
 ### Règles de prix du panier et règles de produits associées
 
-Pour les règles de prix de panier et les règles de produit associées, un storefront découplé communique avec Experience Platform via [Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html?lang=fr). Le framework fournit une API côté serveur implémentée à l’aide de GraphQL. Les informations d’audience, telles que le segment d’un acheteur, sont transmises à Commerce par le biais d’un paramètre d’en-tête GraphQL nommé : `aep-segments-membership`.
+Pour les règles de prix de panier et les règles de produit associées, un storefront découplé communique avec Experience Platform via [Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). Le framework fournit une API côté serveur implémentée à l’aide de GraphQL. Les informations d’audience, telles que le segment d’un acheteur, sont transmises à Commerce par le biais d’un paramètre d’en-tête GraphQL nommé : `aep-segments-membership`.
 
 L’architecture globale est la suivante :
 
@@ -251,7 +267,7 @@ L’architecture globale est la suivante :
 
 Après avoir [installé](#install-the-extension) et [configuré](#configure-the-extension) l’extension, le SDK Web Experience Platform contient les informations d’audience sous la forme de l’appartenance à un segment.
 
-Pour capturer ces appartenances à un segment à partir du SDK, consultez ce [fragment de code](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=fr#example-response-for-custom-personalization-with-attributes).
+Pour capturer ces appartenances à un segment à partir du SDK, consultez ce [fragment de code](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
 
 Une fois récupéré, vous pouvez transmettre ces segments à Commerce dans l’en-tête GraphQL. Par exemple :
 

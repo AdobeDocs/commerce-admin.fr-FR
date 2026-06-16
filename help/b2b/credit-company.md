@@ -4,9 +4,29 @@ description: Découvrez les lignes de crédit de l’entreprise, la définition 
 exl-id: 62ff2a36-053d-4ba0-9969-0f05701afbff
 feature: B2B, Companies, Payments
 role: Admin
-source-git-commit: 1fc1e07f20e2c22ac430f384e9e2b278edae405c
+TQID: https://experienceleague.adobe.com/JKyFAE5sOsIyOsM-L73i8fMt8nEeoY2-ZcE321jXjSc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: 1228
 ht-degree: 0%
 
 ---
@@ -43,7 +63,7 @@ Le crédit d&#39;entreprise est idéal pour :
 * **Clients des grandes entreprises**—Les entreprises qui font des achats importants et réguliers nécessitant des délais de paiement prolongés
 * **Entreprises saisonnières** - Entreprises ayant des flux de trésorerie cycliques qui ont besoin d&#39;un calendrier de paiement flexible
 * **Approvisionnement d&#39;entreprise** - Organisations ayant des achats centralisés mais un traitement des paiements distribué
-* **Partenaires de la chaîne d&#39;approvisionnement** - Distributeurs, revendeurs et partenaires de distribution ayant besoin de facilités de crédit
+* **Partenaires**—Distributeurs, revendeurs et partenaires de distribution ayant besoin de facilités de crédit
 
 ## Comprendre les paramètres de crédit d’entreprise
 
@@ -153,7 +173,7 @@ Les administrateurs et administratrices d’entreprise peuvent consulter leurs i
 
 Découvrez la gestion du crédit d’entreprise en regardant cette vidéo de démonstration :
 
->[!VIDEO](https://video.tv.adobe.com/v/3410759?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3410759?captions=fre_fr&quality=12&learn=on)
 
 ## Considérations relatives à la sécurité
 

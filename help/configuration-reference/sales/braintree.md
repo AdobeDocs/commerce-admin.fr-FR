@@ -3,9 +3,27 @@ title: '[!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL Braintre
 description: Consultez les paramètres de configuration de la section [!UICONTROL Braintree] de la page [!UICONTROL Sales] &gt ; [!UICONTROL Payment Methods] de Commerce Admin.
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 feature: Configuration, Payments
-source-git-commit: bb083698aff1da145bbb661307148c9223d5b545
+TQID: https://experienceleague.adobe.com/nYlyPsbZ5YhBI6C6pzOk9Ns-6pA6VME3uzKfRhJ5HLo
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2881'
+source-wordcount: 2710
 ht-degree: 0%
 
 ---
@@ -14,10 +32,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Migration de **Commerce 2.4 :**<br/>
+>**Migration de Commerce 2.4 :**<br/>
 >Pour les versions d’Adobe Commerce et de Magento Open Source antérieures à la version 2.4.0, il était recommandé aux commerçants d’installer et de configurer l’extension d’intégration des paiements Braintree officielle à partir de [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree) pour remplacer l’intégration principale. Depuis la version 2.4.0, l’extension est désormais incluse dans la version principale.
 ><br/><br/>>Lors de la migration vers Commerce 2.4, les commerçants doivent désinstaller l’extension distribuée sur Marketplace (`paypal/module-braintree` ou `gene/module-braintree`) et mettre à jour toutes les personnalisations de code pour utiliser l’espace de noms `PayPal_Braintree` au lieu de `Magento_Braintree`. Les paramètres de configuration de l’extension groupée pour Commerce et de l’extension distribuée sur Commerce Marketplace sont conservés. Les paiements placés avec ces versions de l’extension sont capturés, annulés ou remboursés normalement.
-><br/><br/>>Si vous effectuez une mise à niveau vers Commerce 2.4.0 et n’utilisez pas l’extension Commerce Marketplace recommandée dans votre version 2.3.x précédente, la fonctionnalité multi-adresses ne fonctionne pas avec la version 2.4.0 de Braintree. Lorsqu’un acheteur sélectionne _diffuser à plusieurs adresses_ , le mode de paiement Braintree n’apparaît pas. L’extension Commerce Marketplace précédemment recommandée pour la version 2.3.x présente ce problème d’adresses multiples.
+><br/><br/>>Si vous effectuez une mise à niveau vers Commerce 2.4.0 et n’utilisez pas l’extension Commerce Marketplace recommandée dans votre version 2.3.x précédente, la fonction multi-adresses ne fonctionne pas avec la version 2.4.0 de Braintree. Lorsqu’un acheteur sélectionne _diffuser à plusieurs adresses_ , le mode de paiement Braintree n’apparaît pas. L’extension Commerce Marketplace précédemment recommandée pour la version 2.3.x présente ce problème d’adresses multiples.
 
 {{config}}
 

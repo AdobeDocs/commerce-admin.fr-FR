@@ -1,32 +1,48 @@
 ---
 title: Catégorie et hiérarchie racine
-description: Découvrez la hiérarchie de catégories et la catégorie racine, qui agit comme un conteneur pour le menu principal dans l’arborescence des catégories.
+description: Découvrez la hiérarchie des catégories et la catégorie racine, qui agit comme un conteneur pour le menu principal dans l’arborescence des catégories.
 exl-id: b419cb45-4fe5-42c4-be20-667c7e1e4354
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/nkUEOu8IqMM21waPwmkp76YckH6cToL6MiaSK--klho
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: 437
 ht-degree: 0%
 
 ---
 
 # Catégorie et hiérarchie racine
 
-Les produits du menu principal sont déterminés par la catégorie racine affectée au [magasin](../stores-purchase/stores.md#add-stores). La catégorie racine est essentiellement un conteneur pour le menu principal dans l’arborescence des catégories. Vous pouvez créer une catégorie racine avec un ensemble entièrement nouveau de produits ou copier des produits d’une catégorie racine existante. La catégorie racine peut être affectée au magasin actuel ou à tout autre magasin du même site web.
+Les produits du menu principal sont déterminés par la catégorie racine affectée au [magasin](../stores-purchase/stores.md#add-stores). La catégorie racine est essentiellement un conteneur pour le menu principal dans l’arborescence des catégories. Vous pouvez créer une catégorie racine avec un ensemble de produits entièrement nouveau ou copier des produits d’une catégorie racine existante. La catégorie racine peut être affectée au magasin actuel ou à tout autre magasin du même site web.
 
-![&#x200B; Diagramme de hiérarchie de catalogue &#x200B;](./assets/catalog-hierarchy-scope.svg){width="550"}
+![Diagramme de hiérarchie de catalogue](./assets/catalog-hierarchy-scope.svg){width="550"}
 
-Depuis l’administrateur, la structure de catégorie est semblable à une arborescence ascendante, avec la racine au-dessus. La racine a un nom, mais aucune clé d’URL et n’apparaît pas dans la [navigation supérieure](navigation-top.md) du magasin. Toutes les autres catégories du menu sont imbriquées sous la racine. Comme la catégorie racine est le niveau le plus élevé du catalogue, votre boutique ne peut avoir qu’une seule catégorie racine active à la fois. Vous pouvez toutefois créer d’autres catégories racine pour d’autres structures de catalogue et différents magasins.
+De l’côté de l’administrateur, la structure des catégories est comme une arborescence à l’envers, avec la racine en haut. La racine porte un nom, mais pas de clé URL, et n’apparaît pas dans la [navigation supérieure](navigation-top.md) du magasin. Toutes les autres catégories du menu sont imbriquées sous la racine. La catégorie racine étant le niveau le plus élevé du catalogue, votre magasin ne peut avoir qu’une seule catégorie racine active à la fois. Vous pouvez toutefois créer des catégories racine supplémentaires pour d’autres structures de catalogue et différents magasins.
 
 L’exemple suivant montre comment créer une catégorie racine et l’affecter à un autre magasin.
 
-## Étape 1 : création d’une catégorie racine
+## Étape 1 : créer une catégorie racine
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Sur la gauche, cliquez sur **[!UICONTROL Add Root Category]**.
 
-   ![Nouvelle catégorie racine](./assets/category-root-ee.png){width="600" zoomable="yes"}
+   ![Nouvelle catégorie racine &#x200B;](./assets/category-root-ee.png){width="600" zoomable="yes"}
 
 1. Saisissez un **[!UICONTROL Category Name]**.
 
@@ -34,36 +50,36 @@ L’exemple suivant montre comment créer une catégorie racine et l’affecter 
 
 1. Si vous souhaitez ajouter des produits au catalogue à partir du catalogue actuel, procédez comme suit :
 
-   - Développez la section ![Sélecteur d’extension](../assets/icon-display-expand.png) _Produits dans la catégorie_ .
+   - Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _Produits dans la catégorie_.
 
-   - Utilisez les [filtres de recherche](../getting-started/admin-grid-controls.md) pour rechercher les produits que vous souhaitez et cochez la case correspondant à chaque produit que vous souhaitez copier dans le nouveau catalogue.
+   - Utilisez les [filtres de recherche](../getting-started/admin-grid-controls.md) pour trouver les produits de votre choix et cochez la case correspondant à chaque produit à copier dans le nouveau catalogue.
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
+1. Cliquez ensuite sur **[!UICONTROL Save]**.
 
-## Etape 2 : construire le menu principal
+## Étape 2 : créer le menu principal
 
 1. Sur la gauche, sélectionnez la nouvelle catégorie racine que vous avez créée à l’étape précédente.
 
-1. Pour créer la [structure de catégorie](category-create.md) pour le menu principal, cliquez sur **[!UICONTROL Add Subcategory]** et suivez les instructions.
+1. Pour créer la [structure des catégories](category-create.md) pour le menu principal, cliquez sur **[!UICONTROL Add Subcategory]** et suivez les instructions.
 
-## Étape 3 : Attribution de la catégorie racine au magasin
+## Étape 3 : affecter la catégorie racine au magasin
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
 
-1. Dans la colonne _Magasins_ de la grille, cliquez sur le magasin auquel vous souhaitez attribuer le nouveau catalogue.
+1. Dans la colonne _Magasins_ de la grille, cliquez sur le magasin auquel vous souhaitez affecter le nouveau catalogue.
 
 1. Définissez **[!UICONTROL Root Category]** sur la nouvelle catégorie racine que vous avez créée.
 
-1. Assurez-vous que **[!UICONTROL Default Store View]** est affecté au magasin.
+1. Assurez-vous qu’un **[!UICONTROL Default Store View]** est affecté au magasin.
 
-   Le magasin doit avoir au moins une [vue de magasin](../stores-purchase/store-views.md).
+   Le magasin doit avoir au moins une vue de [magasin](../stores-purchase/store-views.md).
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Store]**.
+1. Cliquez ensuite sur **[!UICONTROL Save Store]**.
 
-1. Pour vérifier que le magasin comporte un nouveau catalogue, procédez comme suit :
+1. Pour vérifier que le magasin dispose d’un nouveau catalogue, procédez comme suit :
 
-   - Sur la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+   - Dans la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-     Tous les produits copiés dans le nouveau catalogue apparaissent dans la grille.
+     Tous les produits qui ont été copiés dans le nouveau catalogue apparaissent dans la grille.
 
-   - Pour vérifier que le nouveau catalogue et le nouveau menu principal fonctionnent correctement, consultez le storefront.
+   - Pour vérifier que le nouveau catalogue et le menu principal fonctionnent correctement, rendez-vous sur le storefront.

@@ -4,9 +4,27 @@ description: Découvrez les outils de développement avancés disponibles pour a
 exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+TQID: https://experienceleague.adobe.com/l7Ub5CCeiR6ec3PiRkVXXaVyPaqDMJLf5TqKpIvL7T8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: 1709
 ht-degree: 0%
 
 ---
@@ -69,7 +87,7 @@ Voir [Signature de contenu statique](https://experienceleague.adobe.com/docs/com
 
 Pour obtenir la liste détaillée des paramètres de configuration, voir [_Paramètres de fichier statique_](../configuration-reference/advanced/developer.md) dans le _Référence de configuration_.
 
-**_Pour activer les fichiers statiques signés :_**
+**_Pour activer les fichiers statiques signés:_**
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -105,7 +123,7 @@ Pour plus d’informations, consultez [Bonnes pratiques relatives aux performanc
 
 {style="table-layout:auto"}
 
-**_Pour optimiser les fichiers de ressources, procédez comme suit_**
+**_Pour optimiser les fichiers de ressources:_**
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -118,7 +136,7 @@ Pour plus d’informations, consultez [Bonnes pratiques relatives aux performanc
 
    ![&#x200B; Configuration avancée - Paramètres CSS &#x200B;](../configuration-reference/advanced/assets/developer-css-settings.png){width="600" zoomable="yes"}
 
-[_Paramètres CSS_](../configuration-reference/advanced/developer.md)
+   [_Paramètres CSS_](../configuration-reference/advanced/developer.md)
 
 1. Pour optimiser les fichiers JavaScript, développez ![Sélecteur d’extension](../assets/icon-display-expand.png) dans la section **[!UICONTROL JavaScript Settings]** et procédez comme suit :
 
@@ -135,7 +153,7 @@ Pour plus d’informations, consultez [Bonnes pratiques relatives aux performanc
 
 ## Restrictions du client
 
-Placer sur la liste autorisée Avant d’utiliser un outil tel que [conseils de chemin d’accès pour les modèles](#template-path-hints), veillez à ajouter votre adresse IP aux restrictions pour les développeurs et les clientes et développeuses, afin de ne pas perturber l’expérience d’achat des clients et clientes de la boutique. Si vous ne connaissez pas votre adresse IP, vous pouvez la rechercher en ligne.
+Avant d’utiliser un outil tel que [conseils de chemin d’accès pour les modèles](#template-path-hints), veillez à ajouter votre adresse IP aux restrictions pour les développeurs et les clientes et développeuses, afin de ne pas perturber l’expérience d’achat des clients et clientes de la boutique. Si vous ne connaissez pas votre adresse IP, vous pouvez la rechercher en ligne.
 
 >[!NOTE]
 >
@@ -143,7 +161,7 @@ Placer sur la liste autorisée Avant d’utiliser un outil tel que [conseils de 
 
 Pour obtenir des informations techniques, consultez [Custom VCL for allow requests](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=fr) dans le guide _Commerce on Cloud Infrastructure_.
 
-**_Pour ajouter votre adresse IP à la liste autorisée :_**
+**_Pour ajouter votre adresse IP à la liste autorisée:_**
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
