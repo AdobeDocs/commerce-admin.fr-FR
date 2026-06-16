@@ -5,12 +5,34 @@ exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/-QGqm0VMRlCNuKqHGdGVKjs8ZgNcjYZjFaeIFsOLWCA
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: c32adafa-ed01-4b31-997e-2413013911b0id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2:
+  - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: da3860b0-d637-47df-bef0-273751180266
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1434
@@ -58,7 +80,7 @@ Les extensions Adobe ci-dessous sont incluses dans Adobe Commerce et installées
 
 PayPal et Gene Commerce ont développé ensemble l&#39;extension Braintree officielle pour les magasins Commerce 2.4.x. Offrant une expérience de passage en caisse améliorée conçue pour stimuler la conversion, les mises à jour comprennent des options PayLater qui affichent automatiquement les messages et boutons PayLater pertinents aux consommateurs lors de l&#39;achat et pendant le passage en caisse.
 
-Cette extension est installée par défaut, mais nécessite un compte [](https://www.braintreepayments.com/) ainsi qu’une configuration dans l’interface d’administration pour être activée pour votre boutique. Pour déterminer les frais applicables lors de l&#39;utilisation de Braintree pour traiter vos transactions, vérifiez le prix de [Braintree](https://www.braintreepayments.com/braintree-pricing).
+Cette extension est installée par défaut, mais nécessite un compte [&#128279;](https://www.braintreepayments.com/) ainsi qu’une configuration dans l’interface d’administration pour être activée pour votre boutique. Pour déterminer les frais applicables lors de l&#39;utilisation de Braintree pour traiter vos transactions, vérifiez le prix de [Braintree](https://www.braintreepayments.com/braintree-pricing).
 
 Pour plus d’informations sur la configuration de Braintree dans Admin, consultez la rubrique [Braintree](../stores-purchase/braintree.md) dans le _Guide de l’expérience client_.
 
@@ -151,4 +173,4 @@ Pour obtenir des instructions de configuration et des détails techniques, consu
 
 [!DNL Payment Services] est une solution de paiement clé en main pour les magasins Adobe Commerce et Magento Open Source qui offre des fonctionnalités complètes de traitement des paiements. Le service intègre une fonctionnalité de passerelle de paiement sécurisée avec une protection contre la fraude intégrée, tout en offrant plusieurs options de paiement, notamment les cartes de crédit/débit, PayPal, Venmo (États-Unis) et les plans PayLater. Il offre des rapports de transaction et une gestion des commandes unifiés via l&#39;interface d&#39;administration de Commerce, ce qui permet aux commerçants de suivre facilement les paiements, de gérer les flux de trésorerie et de rapprocher les données financières en un seul endroit.
 
-Pour obtenir des instructions détaillées sur les étapes de configuration et les options de paiement, consultez le [[!DNL Payment Services]  Guide de l’utilisateur ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/overview).
+Pour obtenir des instructions détaillées sur les étapes de configuration et les options de paiement, consultez le [[!DNL Payment Services]  Guide de l’utilisateur &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/payment-services/overview).

@@ -4,11 +4,17 @@ description: Découvrez le type de contenu Code HTML , utilisé pour ajouter des
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/ik99YngYtSz14nSTu5-aXkKyJlm20oixkNIVn-O1UyM
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 985
@@ -18,15 +24,15 @@ ht-degree: 0%
 
 # Éléments - Code HTML
 
-Utilisez le type de contenu _Code_ pour ajouter des fragments de code HTML, CSS et JavaScript à l’étape [[!DNL Page Builder] ](workspace.md#stage). Par exemple, si vous souhaitez ajouter un HTML personnalisé, déclarez une classe CSS pouvant être appliquée à un élément de la page. Vous pouvez également ajouter un fragment de code pour un logo, un bouton ou une bannière que vous avez reçu d’un fournisseur tiers.
+Utilisez le type de contenu _Code_ pour ajouter des fragments de code HTML, CSS et JavaScript à l’étape [[!DNL Page Builder] &#x200B;](workspace.md#stage). Par exemple, si vous souhaitez ajouter un HTML personnalisé, déclarez une classe CSS pouvant être appliquée à un élément de la page. Vous pouvez également ajouter un fragment de code pour un logo, un bouton ou une bannière que vous avez reçu d’un fournisseur tiers.
 
 ## Boîte à outils Code HTML
 
-![Boîte à outils Code ](./assets/pb-elements-html-code-toolbox.png){width="500" zoomable="yes"}
+![Boîte à outils Code &#x200B;](./assets/pb-elements-html-code-toolbox.png){width="500" zoomable="yes"}
 
 | Outil | Icon | Description |
 | --------- | ---------- | ----------------- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur Code HTML vers un autre emplacement valide sur la page. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur Code HTML vers un autre emplacement valide sur la page. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Modifier le code HTML , qui permet de modifier les propriétés du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le conteneur Code HTML. |
 | Afficher | ![Afficher l’icône](./assets/pb-icon-show.png){width="25"} | Affiche le conteneur Code HTML masqué. |
@@ -80,7 +86,7 @@ L&#39;exemple suivant montre comment incorporer du code [Google Font](https://fo
 
    Pour faciliter la lecture, vous pouvez saisir quelques espaces pour mettre le code en retrait.
 
-   ![Code et styles ](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
+   ![Code et styles &#x200B;](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
 1. Mettez à jour les paramètres restants si nécessaire (voir [Modifier les paramètres de code HTML](#html-settings) pour plus d’informations).
 
@@ -90,7 +96,7 @@ L&#39;exemple suivant montre comment incorporer du code [Google Font](https://fo
 
 ### Étape 3 : prévisualiser la page
 
-1. Dans la section _[!UICONTROL Currently Active]_, définissez **[!UICONTROL Enable Page]**sur `Yes`.
+1. Dans la section _[!UICONTROL Currently Active]_, définissez **[!UICONTROL Enable Page]**&#x200B;sur `Yes`.
 
    ![Activation de la page](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -116,7 +122,7 @@ L&#39;exemple suivant montre comment incorporer du code [Google Font](https://fo
    | Insérer une image... | Cliquez pour insérer une image téléchargée ou une image de la Galerie à la position du curseur dans la zone de texte HTML. |
    | Insérer une variable... | Cliquez pour insérer une variable à la position du curseur dans la zone de texte HTML. |
 
-1. Mettez à jour les paramètres _[!UICONTROL Advanced]_selon vos besoins.
+1. Mettez à jour les paramètres _[!UICONTROL Advanced]_&#x200B;selon vos besoins.
 
    - Pour contrôler le positionnement du code dans le conteneur parent, choisissez une **[!UICONTROL Alignment]** :
 

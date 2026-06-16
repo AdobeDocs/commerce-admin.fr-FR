@@ -4,11 +4,22 @@ description: Découvrez comment appliquer les règles de prix de catalogue selon
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
 TQID: https://experienceleague.adobe.com/OP-QPlP2xYEQYnxy9bWEiQJyCiMqFu-k2YblXvXSscw
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 836
@@ -64,7 +75,7 @@ Si une règle de prix active a été créée sans date de fin et que vous devez 
 
    >[!NOTE]
    >
-   >Chaque fois que vous mettez à jour des paramètres d’informations de règle, assurez-vous que le _[!UICONTROL Status]_est correctement défini. Si vous souhaitez que la modification entraîne l’application active d’une règle, définissez le statut sur `Active`.
+   >Chaque fois que vous mettez à jour des paramètres d’informations de règle, assurez-vous que le _[!UICONTROL Status]_&#x200B;est correctement défini. Si vous souhaitez que la modification entraîne l’application active d’une règle, définissez le statut sur `Active`.
 
 1. Cliquez ensuite sur **[!UICONTROL Save]**.
 
@@ -118,4 +129,4 @@ Si une règle de prix active a été créée sans date de fin et que vous devez 
 
    Pour afficher les modifications planifiées pour différentes vues de magasin, cliquez sur **[!UICONTROL Scope]** dans l’en-tête de la page Aperçu . Choisissez le site web, le magasin ou l’affichage du magasin à prévisualiser.
 
-1. Si nécessaire, revenez au calendrier et cliquez sur **[!UICONTROL View/Edit]** dans la colonne _[!UICONTROL Action]_pour ouvrir une autre mise à jour planifiée.
+1. Si nécessaire, revenez au calendrier et cliquez sur **[!UICONTROL View/Edit]** dans la colonne _[!UICONTROL Action]_&#x200B;pour ouvrir une autre mise à jour planifiée.

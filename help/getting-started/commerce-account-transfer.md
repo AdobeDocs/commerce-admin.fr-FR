@@ -4,11 +4,20 @@ description: Découvrez comment transférer votre compte Commerce vers un autre 
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
 TQID: https://experienceleague.adobe.com/CIyzus4f8WcBH-jW9R1nCL-gkl065DLTHbjNn0K6e7E
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1273
@@ -34,7 +43,7 @@ Le type de transfert de compte Commerce dépend des identifiants du compte Comme
 | ------------- | ------------- | --------- |
 | [Nouvel Adobe ID et modification des e-mails](#new-adobe-id-and-email-change) | Dispose d’un MAGEID qui **_n’a pas été connecté_** à un compte de connexion Adobe | Ne possède pas de MAGEID et n’est pas connecté à un compte de connexion Adobe. |
 | [Modification de l’e-mail](#email-change) | Dispose d’un MAGEID **_connecté_** avec un compte de connexion Adobe. | Dispose d’un compte de connexion Adobe, mais **_ne dispose pas d’un MAGEID_** connecté à un compte de connexion Adobe. |
-| [Changement de compte ](#adobe-id-account-switch) | Dispose d’un MAGEID **_connecté_** à un compte de connexion Adobe. | Dispose d’un MAGEID et est connecté à un compte de connexion Adobe. |
+| [Changement de compte &#x200B;](#adobe-id-account-switch) | Dispose d’un MAGEID **_connecté_** à un compte de connexion Adobe. | Dispose d’un MAGEID et est connecté à un compte de connexion Adobe. |
 
 {style="table-layout:auto"}
 
@@ -50,7 +59,7 @@ Le type de transfert de compte Commerce dépend des identifiants du compte Comme
 
 Ce type de transfert nécessite que vous disposiez d’une Adobe ID liée au compte Commerce existant, puis que vous remplaciez ce compte par l’adresse e-mail du nouveau propriétaire.
 
-1. Accédez à la page [Connexion au compte ](https://account.magento.com/customer/account/login/).
+1. Accédez à la page [Connexion au compte &#x200B;](https://account.magento.com/customer/account/login/).
 
 1. Cliquez sur **[!UICONTROL Sign in with Adobe ID]**.
 
@@ -60,7 +69,7 @@ Ce type de transfert nécessite que vous disposiez d’une Adobe ID liée au com
 
 1. Cliquez sur **[!UICONTROL Continue]**.
 
-   Cette étape permet de créer une Adobe ID et de la lier au compte Commerce courant (MAGEID). Avec ce lien de compte, le champ _[!UICONTROL Email]_est bloqué de toute modification. La configuration de l’adresse e-mail associée est gérée à partir du compte Adobe ID.
+   Cette étape permet de créer une Adobe ID et de la lier au compte Commerce courant (MAGEID). Avec ce lien de compte, le champ _[!UICONTROL Email]_&#x200B;est bloqué de toute modification. La configuration de l’adresse e-mail associée est gérée à partir du compte Adobe ID.
 
 1. Accédez à [account.adobe.com](https://account.adobe.com/).
 
@@ -178,4 +187,4 @@ Une fois que le nouveau propriétaire a configuré son compte Adobe avec l’adr
 
 ## Dernières étapes
 
-Une fois que le nouveau propriétaire a terminé les étapes du premier ou du troisième cas d’utilisation, il doit [soumettre une demande d’assistance](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case) pour informer l’équipe d’assistance de la mise à jour de l’adresse e-mail. L’équipe d’assistance effectue ensuite des tâches supplémentaires, telles que la mise à jour de l’adresse e-mail sur le profil [](https://commercemarketplace.adobe.com/). Incluez l’adresse e-mail du propriétaire du compte précédent dans la requête.
+Une fois que le nouveau propriétaire a terminé les étapes du premier ou du troisième cas d’utilisation, il doit [soumettre une demande d’assistance](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case) pour informer l’équipe d’assistance de la mise à jour de l’adresse e-mail. L’équipe d’assistance effectue ensuite des tâches supplémentaires, telles que la mise à jour de l’adresse e-mail sur le profil [&#128279;](https://commercemarketplace.adobe.com/). Incluez l’adresse e-mail du propriétaire du compte précédent dans la requête.

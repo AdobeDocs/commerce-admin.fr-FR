@@ -4,12 +4,25 @@ description: Découvrez les informations et les outils disponibles sur la page C
 exl-id: a01ac292-240d-42e7-b4c9-2982f293c521
 feature: B2B, Companies, Catalog Management
 TQID: https://experienceleague.adobe.com/q2dtQ-y3ByGhtMNp68-3lN-PqZJ-1mRX4BMCu0lfB54
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 969
@@ -19,11 +32,11 @@ ht-degree: 0%
 
 # Gestion des catalogues partagés
 
-La page _[!UICONTROL Shared Catalogs]_permet d’accéder aux outils nécessaires à la gestion des catalogues partagés. La page est similaire à l’espace de travail d’administration standard, avec des filtres et des commandes d’action. La grille répertorie tous les catalogues partagés, y compris le catalogue public partagé par défaut et tous les catalogues personnalisés que vous avez configurés.
+La page _[!UICONTROL Shared Catalogs]_&#x200B;permet d’accéder aux outils nécessaires à la gestion des catalogues partagés. La page est similaire à l’espace de travail d’administration standard, avec des filtres et des commandes d’action. La grille répertorie tous les catalogues partagés, y compris le catalogue public partagé par défaut et tous les catalogues personnalisés que vous avez configurés.
 
 ## Mettre à jour la sélection de produits
 
-La sélection de produits dans un catalogue partagé peut être facilement mise à jour à partir de la colonne _[!UICONTROL Action]_de la grille de catalogues partagés. Les modifications que vous apportez sont visibles pour les membres de tous les comptes de société associés. Le processus est essentiellement identique à la sélection de produits pour une nouvelle [structure de catalogue](catalog-shared-pricing-structure.md), sauf que la portée de la configuration ne peut pas être modifiée.
+La sélection de produits dans un catalogue partagé peut être facilement mise à jour à partir de la colonne _[!UICONTROL Action]_&#x200B;de la grille de catalogues partagés. Les modifications que vous apportez sont visibles pour les membres de tous les comptes de société associés. Le processus est essentiellement identique à la sélection de produits pour une nouvelle [structure de catalogue](catalog-shared-pricing-structure.md), sauf que la portée de la configuration ne peut pas être modifiée.
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
@@ -35,7 +48,7 @@ La sélection de produits dans un catalogue partagé peut être facilement mise 
 
    Vous pouvez ignorer le premier élément, car l’étendue d’un catalogue partagé ne peut pas être modifiée après son premier enregistrement.
 
-Si vous utilisez un produit spécifique, la section _[!UICONTROL Products In Shared Catalog]_répertorie chaque catalogue partagé dans lequel le produit est disponible. Pour en savoir plus, voir [Ajouter des produits à un catalogue partagé](catalog-shared-product-add.md).
+Si vous utilisez un produit spécifique, la section _[!UICONTROL Products In Shared Catalog]_&#x200B;répertorie chaque catalogue partagé dans lequel le produit est disponible. Pour en savoir plus, voir [Ajouter des produits à un catalogue partagé](catalog-shared-product-add.md).
 
 ![Produit dans les catalogues partagés](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
@@ -47,7 +60,7 @@ La tarification personnalisée des produits dans un catalogue partagé peut êtr
 
 1. Pour le catalogue partagé de la grille que vous souhaitez mettre à jour, accédez à la colonne **[!UICONTROL Action]** et sélectionnez **[!UICONTROL Set Pricing and Structure]**.
 
-1. Sur la page _[!UICONTROL Catalog Structure]_, cliquez sur **[!UICONTROL Configure]**et effectuez l’une des opérations suivantes :
+1. Sur la page _[!UICONTROL Catalog Structure]_, cliquez sur **[!UICONTROL Configure]**&#x200B;et effectuez l’une des opérations suivantes :
 
    - Dans l’indicateur de progression en haut de la page, cliquez sur **[!UICONTROL Pricing]**.
    - Dans le coin supérieur droit, cliquez sur **[!UICONTROL Next]**.
@@ -60,7 +73,7 @@ Les [autorisations de catégorie](../catalog/category-permissions.md) sont autom
 
 >[!NOTE]
 >
->**[Version 1.3.0](release-notes.md#b2b-v130) B2B et versions ultérieures** — Lorsque vous créez un catalogue partagé, chaque autorisation [de catégorie](../catalog/category-permissions.md) du catalogue est définie sur `Allow` pour le _[!UICONTROL Display Product Prices]_et_[!UICONTROL Add to Cart]_ pour les groupes de clients auxquels cet accès est affecté dans les paramètres d’autorisation du catalogue. Auparavant, ces paramètres étaient automatiquement définis sur `Deny` même lorsque les autorisations de catalogue étaient définies sur `Allow`.
+>**[Version 1.3.0](release-notes.md#b2b-v130) B2B et versions ultérieures** — Lorsque vous créez un catalogue partagé, chaque autorisation [de catégorie](../catalog/category-permissions.md) du catalogue est définie sur `Allow` pour le _[!UICONTROL Display Product Prices]_&#x200B;et&#x200B;_[!UICONTROL Add to Cart]_ pour les groupes de clients auxquels cet accès est affecté dans les paramètres d’autorisation du catalogue. Auparavant, ces paramètres étaient automatiquement définis sur `Deny` même lorsque les autorisations de catalogue étaient définies sur `Allow`.
 
 >[!IMPORTANT]
 >

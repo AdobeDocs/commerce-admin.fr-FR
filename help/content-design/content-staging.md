@@ -5,10 +5,17 @@ exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/XAMnUUL9JH0atN6vlwwe2l9x4P-uAqJA3BH-h9LbIXU
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1015
@@ -32,7 +39,7 @@ Les champs liés à la date de début et à la date de fin ont été supprimés 
 
 Toutes les mises à jour planifiées sont appliquées de manière consécutive, ce qui signifie que toute entité ne peut avoir qu’une seule mise à jour planifiée à la fois. Toute mise à jour planifiée est appliquée à toutes les vues de magasin au cours de sa période. Par conséquent, une entité ne peut pas avoir une mise à jour planifiée différente pour différentes vues de magasin en même temps. Toutes les valeurs d’attribut d’entité dans toutes les vues de magasin, qui ne sont pas affectées par la mise à jour planifiée actuelle, sont extraites des valeurs par défaut, et non de la mise à jour planifiée précédente.
 
-Lorsqu’une nouvelle mise à jour planifiée est créée pour l’un des objets suivants, une campagne correspondante est créée comme espace réservé et la zone de _[!UICONTROL Scheduled Changes]_s’affiche en haut de la page. La campagne d’espace réservé comporte une date de début, mais pas de fin. Vous pouvez planifier des mises à jour du contenu dans le cadre d’une campagne, puis prévisualiser et partager les modifications par date, heure ou vue de magasin. Une fois qu’une nouvelle campagne est créée pour un objet, vous pouvez l’affecter en tant que mise à jour planifiée à d’autres objets.
+Lorsqu’une nouvelle mise à jour planifiée est créée pour l’un des objets suivants, une campagne correspondante est créée comme espace réservé et la zone de _[!UICONTROL Scheduled Changes]_&#x200B;s’affiche en haut de la page. La campagne d’espace réservé comporte une date de début, mais pas de fin. Vous pouvez planifier des mises à jour du contenu dans le cadre d’une campagne, puis prévisualiser et partager les modifications par date, heure ou vue de magasin. Une fois qu’une nouvelle campagne est créée pour un objet, vous pouvez l’affecter en tant que mise à jour planifiée à d’autres objets.
 
 - [Produits](../catalog/product-scheduled-changes.md)
 - [Catégories](../catalog/category-scheduled-changes.md)
@@ -45,7 +52,7 @@ Lorsqu’une nouvelle mise à jour planifiée est créée pour l’un des objets
 
 1. **Créer le contenu de base**
 
-   La ligne de base correspond au contenu d’une ressource sans campagne et inclut tous les éléments situés sous la section _[!UICONTROL Scheduled Changes]_en haut de la page. Le contenu de base est toujours utilisé, sauf s’il existe une campagne active avec des modifications planifiées à cet emplacement sur le journal.
+   La ligne de base correspond au contenu d’une ressource sans campagne et inclut tous les éléments situés sous la section _[!UICONTROL Scheduled Changes]_&#x200B;en haut de la page. Le contenu de base est toujours utilisé, sauf s’il existe une campagne active avec des modifications planifiées à cet emplacement sur le journal.
 
 1. **Créer la première campagne**
 

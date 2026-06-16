@@ -5,11 +5,21 @@ exl-id: 620b2d60-ce6f-4f31-93bb-18d3dd9cdce6
 feature: Marketing Tools, Promotions/Events
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/nALbSUw8Agac54QLSV4bdCLPse53VywtlMiydvL1L8w
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 496
@@ -95,6 +105,6 @@ L’accès à une vente privée, à un événement ou à un site peut être limi
 
 ### Limiter les ventes
 
-Par défaut, les produits qui apparaissent dans les événements à venir ou fermés ne sont pas disponibles à la vente générale et le bouton _[!UICONTROL Add to Cart]_n’apparaît pas dans la liste de produits ou la page des produits.
+Par défaut, les produits qui apparaissent dans les événements à venir ou fermés ne sont pas disponibles à la vente générale et le bouton _[!UICONTROL Add to Cart]_&#x200B;n’apparaît pas dans la liste de produits ou la page des produits.
 
-Pour restaurer le bouton _[!UICONTROL Add to Cart]_d&#39;un événement fermé, l&#39;événement doit être supprimé (voir [Mettre à jour les événements](event-create.md#update-events)). Cependant, si un produit est associé à une autre catégorie qui n’a pas de restrictions de vente, le bouton est disponible sur la page des produits. De même, le bloc de signet n’apparaît pas sur la page produit si le produit est associé à une autre catégorie qui n’a pas de restrictions de vente.
+Pour restaurer le bouton _[!UICONTROL Add to Cart]_&#x200B;d&#39;un événement fermé, l&#39;événement doit être supprimé (voir [Mettre à jour les événements](event-create.md#update-events)). Cependant, si un produit est associé à une autre catégorie qui n’a pas de restrictions de vente, le bouton est disponible sur la page des produits. De même, le bloc de signet n’apparaît pas sur la page produit si le produit est associé à une autre catégorie qui n’a pas de restrictions de vente.

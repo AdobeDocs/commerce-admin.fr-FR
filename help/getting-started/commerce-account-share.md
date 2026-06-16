@@ -4,11 +4,22 @@ description: Découvrez comment accorder un accès limité à votre compte  [!DN
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
 TQID: https://experienceleague.adobe.com/A98obp-6T8JgE0yCm0TmxpRslEq2Cb-5m53rBfxzfhg
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffa
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1078
@@ -22,7 +33,7 @@ Votre compte [!DNL Commerce] contient des informations que vous pouvez mettre à
 
 Le titulaire de compte principal a le pouvoir d&#39;accorder un accès limité aux autres titulaires de compte [!DNL Commerce]. L’accès partagé peut être révoqué, mais pas transféré. Pour les entrées ``Cloud Shared Access from MAG[XYZ]``, l’enregistrement utilisateur **ne peut pas être supprimé ici** mais l’accès **peut toujours être révoqué**.
 
-Seul le titulaire du compte principal disposant des autorisations appropriées peut officiellement accorder l’accès partagé. Si le titulaire du compte principal n&#39;a plus accès ou a quitté la société, le client doit utiliser le processus de transfert de compte [](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-transfer) pour déplacer la propriété vers un nouveau contact. Bien que l’équipe d’assistance Commerce puisse emprunter l’identité du client dans certains scénarios, l’accès partagé doit être configuré par le client pour réduire les risques en matière de sécurité et de responsabilité.
+Seul le titulaire du compte principal disposant des autorisations appropriées peut officiellement accorder l’accès partagé. Si le titulaire du compte principal n&#39;a plus accès ou a quitté la société, le client doit utiliser le processus de transfert de compte [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-transfer) pour déplacer la propriété vers un nouveau contact. Bien que l’équipe d’assistance Commerce puisse emprunter l’identité du client dans certains scénarios, l’accès partagé doit être configuré par le client pour réduire les risques en matière de sécurité et de responsabilité.
 
 
 ![Paramètres d’accès partagé](./assets/shared-access.png){width="600" zoomable="yes"}
@@ -41,7 +52,7 @@ La section Historique de facturation affiche uniquement les factures plus ancien
    - Le `MAGE ID/Account ID (MAG00XXXXXXX)` s’affiche dans le coin supérieur gauche de l’onglet _[!UICONTROL Magento]_, juste au-dessus du lien **Déconnexion**.
    - Adresse `Email` associée au compte.
 
-1. Connectez-vous à votre [[!DNL Commerce]  compte ](commerce-account-create.md).
+1. Connectez-vous à votre [[!DNL Commerce]  compte &#x200B;](commerce-account-create.md).
 
 1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL Shared Access]**.
 
@@ -69,7 +80,7 @@ La section Historique de facturation affiche uniquement les factures plus ancien
 
 1. Cliquez sur **[!UICONTROL Create Shared Access]**.
 
-   Les informations sur le nouvel utilisateur apparaissent dans la section _[!UICONTROL Manage Permissions]_de la page Accès partagé et une invitation par e-mail contenant des instructions pour accéder au compte partagé est envoyée au nouvel utilisateur.
+   Les informations sur le nouvel utilisateur apparaissent dans la section _[!UICONTROL Manage Permissions]_&#x200B;de la page Accès partagé et une invitation par e-mail contenant des instructions pour accéder au compte partagé est envoyée au nouvel utilisateur.
 
    ![Gestion des autorisations d’accès partagé](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
@@ -83,7 +94,7 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
 
 1. Lorsque vous recevez une invitation à accéder à un compte partagé, suivez les instructions contenues dans l’e-mail pour vous connecter à votre propre compte [!DNL Commerce].
 
-   Le panneau de navigation de gauche de votre compte comporte un nouvel onglet _[!UICONTROL Shared with me]_. Le contrôle_[!UICONTROL Switch Accounts]_ situé dans le coin supérieur droit propose des options relatives au `My Account` et au nom du compte partagé.
+   Le panneau de navigation de gauche de votre compte comporte un nouvel onglet _[!UICONTROL Shared with me]_. Le contrôle&#x200B;_[!UICONTROL Switch Accounts]_ situé dans le coin supérieur droit propose des options relatives au `My Account` et au nom du compte partagé.
 
    ![Partagé avec moi](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
@@ -102,7 +113,7 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
 
    ![Assistance](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   Vous pouvez utiliser le [Centre d’aide ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) à partir du compte partagé pour rechercher des articles et des informations de dépannage, rechercher des correctifs pour les problèmes connus et créer des tickets d’assistance.
+   Vous pouvez utiliser le [Centre d’aide &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) à partir du compte partagé pour rechercher des articles et des informations de dépannage, rechercher des correctifs pour les problèmes connus et créer des tickets d’assistance.
 
    >[!NOTE]
    >
@@ -116,11 +127,11 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
 
 1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL Shared Access]**.
 
-1. Recherchez le compte à révoquer sous _[!UICONTROL Managing Users & Permissions]_et cliquez sur **[!UICONTROL Delete]**.
+1. Recherchez le compte à révoquer sous _[!UICONTROL Managing Users & Permissions]_&#x200B;et cliquez sur **[!UICONTROL Delete]**.
 
    >[!NOTE]
    >
-   > Si **[!UICONTROL Delete]** n’est pas affiché, vérifiez si le **[!UICONTROL Share Name]** contient le modèle de dénomination `Cloud Shared Access from MAG0XYZ`. Si le compte possède ce modèle de dénomination [ et ne peut pas être supprimé](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), c’est parce que l’accès partagé a été créé par une API et non directement à partir du compte [Commerce](https://account.magento.com/).
+   > Si **[!UICONTROL Delete]** n’est pas affiché, vérifiez si le **[!UICONTROL Share Name]** contient le modèle de dénomination `Cloud Shared Access from MAG0XYZ`. Si le compte possède ce modèle de dénomination [&#x200B; et ne peut pas être supprimé](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), c’est parce que l’accès partagé a été créé par une API et non directement à partir du compte [Commerce](https://account.magento.com/).
    > 
    > S’il ne peut pas être supprimé, demandez simplement au propriétaire du compte de modifier le compte d’accès partagé et, sous Accorder des autorisations de compte, décochez chaque élément. Après cette mise à jour, l’utilisateur ne pourra plus accéder aux ressources du compte.
    > ![image](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)

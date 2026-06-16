@@ -4,11 +4,19 @@ description: Découvrez le type de contenu des recommandations de produits , uti
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
 TQID: https://experienceleague.adobe.com/-k8EyTQjwCcPq4hrMG425GkOD9oYcVSCRhRwUgxFWsY
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 962
@@ -30,7 +38,7 @@ Utilisez le type de contenu _Recommandations de produits_ pour ajouter une [unit
 
 | Outil | Icon | Description |
 | --- | --| --- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de recommandations de produits et son contenu vers une autre position sur la scène. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de recommandations de produits et son contenu vers une autre position sur la scène. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Modifier la recommandation de produit, qui vous permet de choisir l’unité de recommandation et de modifier les propriétés du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le conteneur de recommandations de produits actuel et son contenu. |
 | Afficher | ![Afficher l’icône](./assets/pb-icon-show.png){width="25"} | Affiche le conteneur de recommandations de produits masqué et son contenu. |
@@ -51,11 +59,11 @@ Utilisez le type de contenu _Recommandations de produits_ pour ajouter une [unit
 
 1. Ouvrez la page, le bloc ou le bloc dynamique en mode d’édition.
 
-1. Développez la section _[!UICONTROL Content]_et cliquez sur **[!UICONTROL Edit with Page Builder]**ou dans la zone d’aperçu du contenu pour ouvrir l’espace de travail [!DNL Page Builder].
+1. Développez la section _[!UICONTROL Content]_&#x200B;et cliquez sur **[!UICONTROL Edit with Page Builder]**&#x200B;ou dans la zone d’aperçu du contenu pour ouvrir l’espace de travail [!DNL Page Builder].
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Row]**vers la scène.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Row]**&#x200B;vers la scène.
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Add Content]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Product Recommendation]**jusqu’à la ligne.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Add Content]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Product Recommendation]**&#x200B;jusqu’à la ligne.
 
    ![Ajout du type de contenu de recommandation de produit](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
@@ -74,7 +82,7 @@ Utilisez le type de contenu _Recommandations de produits_ pour ajouter une [unit
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add Selected]**.
 
-   Le nom de la recommandation de produit sélectionnée s’affiche dans la section _[!UICONTROL Selection]_de la page_[!UICONTROL Edit Product Recommendation]_.
+   Le nom de la recommandation de produit sélectionnée s’affiche dans la section _[!UICONTROL Selection]_&#x200B;de la page&#x200B;_[!UICONTROL Edit Product Recommendation]_.
 
 1. Apportez les modifications nécessaires aux [Paramètres avancés](#advanced-settings).
 

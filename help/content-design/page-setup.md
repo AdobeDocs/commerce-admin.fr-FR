@@ -4,11 +4,21 @@ description: Découvrez comment configurer les valeurs par défaut des principal
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/EmzCKKd7dZaBu0LECyK-BcnpaS7lu-8YvAJWSfviFXM
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 991
@@ -24,7 +34,7 @@ Les sections principales de la page sont contrôlées, en partie, par un ensembl
 - [En-tête](#header)
 - [Pied de page](#footer)
 
-![sections de page ](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
+![sections de page &#x200B;](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
 
 ## HTML Head
 
@@ -59,7 +69,7 @@ Les paramètres de la section HTML Head correspondent à la balise `<head>` d’
 
    >[!NOTE]
    >
-   >Tous les JavaScript saisis dans le champ [!UICONTROL Scripts and Style Sheets] doivent être whitelistés dans les paramètres de la politique de sécurité du contenu (CSP), sinon ils ne seront pas exécutés sur les pages de passage en caisse. Pour plus d’informations, voir [ Politique de sécurité du contenu ](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+   >Tous les JavaScript saisis dans le champ [!UICONTROL Scripts and Style Sheets] doivent être whitelistés dans les paramètres de la politique de sécurité du contenu (CSP), sinon ils ne seront pas exécutés sur les pages de passage en caisse. Pour plus d’informations, voir [&#x200B; Politique de sécurité du contenu &#x200B;](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
 
 
 1. Activez ou désactivez l’[avis de magasin de démonstration](../getting-started/storefront-branding.md#set-the-store-demo-notice) si nécessaire.
@@ -119,7 +129,7 @@ La configuration d’en-tête identifie le chemin d’accès au logo de votre bo
 
 La section Configuration du pied de page vous permet de mettre à jour l’[avis de copyright](../getting-started/storefront-branding.md#change-the-copyright-notice) qui s’affiche au bas de la page, et de saisir divers scripts qui doivent être positionnés avant la balise de `<body>` de fermeture.
 
-![ Paramètres de configuration du pied de page ](./assets/configuration-footer.png){width="400" zoomable="yes"}
+![&#x200B; Paramètres de configuration du pied de page &#x200B;](./assets/configuration-footer.png){width="400" zoomable="yes"}
 
 ### Configurer le pied de page
 
@@ -133,7 +143,7 @@ La section Configuration du pied de page vous permet de mettre à jour l’[avis
 
    >[!NOTE]
    >
-   >Tous les JavaScript saisis dans le champ [!UICONTROL Miscellaneous HTML] doivent être whitelistés dans les paramètres de la politique de sécurité du contenu (CSP), sinon ils ne seront pas exécutés sur les pages de passage en caisse. Pour plus d’informations, voir [ Politique de sécurité du contenu ](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+   >Tous les JavaScript saisis dans le champ [!UICONTROL Miscellaneous HTML] doivent être whitelistés dans les paramètres de la politique de sécurité du contenu (CSP), sinon ils ne seront pas exécutés sur les pages de passage en caisse. Pour plus d’informations, voir [&#x200B; Politique de sécurité du contenu &#x200B;](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
 
 1. Cliquez ensuite sur **[!UICONTROL Save Configuration]**.
 

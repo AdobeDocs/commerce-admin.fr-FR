@@ -4,11 +4,21 @@ description: Découvrez comment gérer les opérations d’import et d’export 
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
 TQID: https://experienceleague.adobe.com/Zf5cLdCLjaDo8X8EvH4T9akYnlTBU-3Iyj2EIgMkjtU
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 2462
@@ -89,7 +99,7 @@ Après chaque tâche d’importation planifiée, une opération de réindexation
 
      >[!NOTE]
      >
-     >Pour les types d&#39;entités _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_et_[!UICONTROL Stock Sources]_, les comportements d&#39;import suivants s&#39;affichent : `Add/Update`, `Replace` et `Delete`. Pour les types d’entités _Finances client_, _Fichier principal des clients_ et _Clients et adresses_, les comportements d’importation suivants s’affichent : `Add/Update Complex Data`, `Delete Entities` et `Custom Action`.
+     >Pour les types d&#39;entités _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;et&#x200B;_[!UICONTROL Stock Sources]_, les comportements d&#39;import suivants s&#39;affichent : `Add/Update`, `Replace` et `Delete`. Pour les types d’entités _Finances client_, _Fichier principal des clients_ et _Clients et adresses_, les comportements d’importation suivants s’affichent : `Add/Update Complex Data`, `Delete Entities` et `Custom Action`.
 
    - **[!UICONTROL Start Time]** — Définit sur l&#39;heure, la minute et la seconde où l&#39;importation doit commencer.
 
@@ -230,7 +240,7 @@ Les détails de chaque exportation ne sont pas écrits dans un journal, mais en 
       - `Customer Addresses`
       - `Stock Sources`
 
-     La section _[!UICONTROL Entity Attributes]_au bas de la page est mise à jour pour refléter le type d’entité sélectionné.
+     La section _[!UICONTROL Entity Attributes]_&#x200B;au bas de la page est mise à jour pour refléter le type d’entité sélectionné.
 
    - Définissez **[!UICONTROL Start Time]** sur l’heure, la minute et la seconde auxquelles l’exportation doit commencer.
 
@@ -264,7 +274,7 @@ Les détails de chaque exportation ne sont pas écrits dans un journal, mais en 
    - Par **[!UICONTROL Local Server]**, saisissez un chemin d’accès relatif dans l’installation de Commerce, tel que `var/export`. Si le module de stockage distant est configuré, utilisez `import_export/export`.
    - Par **[!UICONTROL Remote FTP server]**, saisissez l’URL complète et le chemin d’accès au dossier cible sur le serveur de destination.
 
-1. Si le serveur _[!UICONTROL Remote FTP]_est sélectionné, saisissez les informations d’identification de connexion au serveur et sélectionnez les paramètres supplémentaires :
+1. Si le serveur _[!UICONTROL Remote FTP]_&#x200B;est sélectionné, saisissez les informations d’identification de connexion au serveur et sélectionnez les paramètres supplémentaires :
 
    - Par **[!UICONTROL FTP Host[:Port]]**, saisissez l’adresse de l’hôte FTP distant.
    - Par **[!UICONTROL User Name]**, saisissez le nom d’utilisateur utilisé pour accéder au serveur distant.
@@ -325,7 +335,7 @@ Les détails de chaque exportation ne sont pas écrits dans un journal, mais en 
 | Champ | Description |
 | ----- | ----------- |
 | [!UICONTROL Server Type] | Détermine l’emplacement du fichier d’exportation. Options:<br>**Serveur local** — Place le fichier d&#39;exportation sur le serveur sur lequel Commerce est déployé. Si le module de stockage distant est activé, `Local Server` passe à `Remote Storage`.<br>**FTP distant** — Place le fichier d&#39;export sur un serveur distant. Des options supplémentaires pour les informations d’identification et les paramètres de transfert de fichiers s’affichent. |
-| [!UICONTROL File Directory] | Indiquez le répertoire dans lequel le fichier d’exportation est placé. Si _[!UICONTROL Server Type]_est défini sur `Local Server`, spécifiez le chemin relatif au chemin d’installation de Commerce. Par exemple, `var/export` ou `import_export/export` pour le stockage distant. |
+| [!UICONTROL File Directory] | Indiquez le répertoire dans lequel le fichier d’exportation est placé. Si _[!UICONTROL Server Type]_&#x200B;est défini sur `Local Server`, spécifiez le chemin relatif au chemin d’installation de Commerce. Par exemple, `var/export` ou `import_export/export` pour le stockage distant. |
 
 {style="table-layout:auto"}
 

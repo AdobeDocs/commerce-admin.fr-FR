@@ -3,11 +3,19 @@ title: Désactiver les sources d’inventaire
 description: Découvrez comment désactiver les sources et modifier les informations, y compris l’emplacement et le point de contact.
 exl-id: 3fcbfa3c-8bb7-4e08-a395-9760bbd69f04
 TQID: https://experienceleague.adobe.com/l-S7b-E9rREgJ4AX5Zd6nneSDJe-OioeD-vk8YeSAak
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 406
@@ -43,7 +51,7 @@ La définition d’une source sur `disabled` est utile dans les cas suivants :
 
 1. Cliquez sur le menu _Actions_ dans le coin supérieur gauche et choisissez **[!UICONTROL Disable]**.
 
-   Sources de ![[!DNL Inventory Management] - Menu Actions ](assets/inventory-source-disable.png){width="600" zoomable="yes"}
+   Sources de ![[!DNL Inventory Management] - Menu Actions &#x200B;](assets/inventory-source-disable.png){width="600" zoomable="yes"}
 
 1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL OK]**.
 

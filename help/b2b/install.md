@@ -6,11 +6,20 @@ role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/3Pm-OhN99lY-zrCWWbGn8O-et4mDpWk-nJJ2axnFzEo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1320
@@ -25,7 +34,7 @@ L’extension Adobe Commerce B2B, `magento/extension-b2b`, est disponible pour t
 
 ## Conditions requises
 
-- [](https://business.adobe.com/products/magento/magento-commerce.html), toutes les versions prises en charge
+- [&#128279;](https://business.adobe.com/products/magento/magento-commerce.html), toutes les versions prises en charge
 - PHP 8.1, 8.2 et 8.3 (nécessite B2B 1.5.0)
 - [!DNL Composer]
 
@@ -44,7 +53,7 @@ L’extension Adobe Commerce B2B, `magento/extension-b2b`, est disponible pour t
 
 **Conditions préalables**
 
-- Accédez à [repo.magento.com](https://repo.magento.com/) pour télécharger l’extension. Pour la génération des clés et l’obtention des droits nécessaires, voir [ Obtenir vos clés d’authentification ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
+- Accédez à [repo.magento.com](https://repo.magento.com/) pour télécharger l’extension. Pour la génération des clés et l’obtention des droits nécessaires, voir [&#x200B; Obtenir vos clés d’authentification &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
 
   Enregistrez les clés d’authentification pour l’installation en les définissant globalement dans votre répertoire [COMPOSER_HOME](https://getcomposer.org/doc/03-cli.md#composer-home). Vous pouvez également les enregistrer dans un fichier [auth.json](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/#authentication-file) dans le répertoire racine de l’application Adobe Commerce.
 
@@ -135,7 +144,7 @@ Adobe recommande de travailler dans une branche de développement lors de l’aj
 
    Vérifiez l’orthographe du package, votre contrainte de version, et assurez-vous que le package est disponible et correspond à vos exigences de stabilité minimale (stable).
 
-1. Si vous y êtes invité, saisissez vos [ clés d’authentification ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
+1. Si vous y êtes invité, saisissez vos [&#x200B; clés d’authentification &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
 
    Votre _clé publique_ est votre nom d’utilisateur ; votre _clé privée_ est votre mot de passe. Si vous avez stocké vos clés publiques et privées dans `auth.json`, vous n’êtes pas invité à vous authentifier.
 
@@ -178,7 +187,7 @@ L’extension Adobe Commerce B2B utilise MySQL pour la gestion des files d’att
 | `purchaseorder.transactional.email` | Envoyez des e-mails de bon de commande. Obligatoire lorsque l’option [**[!UICONTROL Purchase Orders]**](purchase-order-flow.md) est activée dans les paramètres de configuration du système d’administration. |
 | `purchaseorder.validation` | Valide la commande fournisseur par rapport aux [règles d&#39;approbation](account-dashboard-approval-rules.md) pertinentes. Obligatoire lorsque l’option [**[!UICONTROL Purchase Orders]**](purchase-order-flow.md) est activée dans les paramètres de configuration du système d’administration. |
 | `quoteItemCleaner` | Supprime les devis non valides ou inactifs lorsqu&#39;un produit est supprimé du catalogue ou du panier. Obligatoire lorsque l’option [**[!UICONTROL Quotes]**](quotes.md) est activée dans les paramètres de configuration du système d’administration. |
-| `inventoryQtyCounter` | Corrige l’index de stock de manière asynchrone après la passation d’une commande ou la suppression d’un produit. Obligatoire lorsque l’option [**[!UICONTROL Use deferred stock update]**](../configuration-reference/catalog/inventory.md#product-stock-options) est activée pour Inventory management dans les paramètres de configuration d’administration. Voir [ Bonnes pratiques en matière de performances ](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/configuration#deferred-stock-update). |
+| `inventoryQtyCounter` | Corrige l’index de stock de manière asynchrone après la passation d’une commande ou la suppression d’un produit. Obligatoire lorsque l’option [**[!UICONTROL Use deferred stock update]**](../configuration-reference/catalog/inventory.md#product-stock-options) est activée pour Inventory management dans les paramètres de configuration d’administration. Voir [&#x200B; Bonnes pratiques en matière de performances &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/configuration#deferred-stock-update). |
 | `async.operations.all` | Crée des messages pour chaque tâche individuelle d&#39;une [opération en bloc](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/) telle que l&#39;importation ou l&#39;exportation d&#39;articles, la modification des prix à grande échelle et l&#39;affectation de produits à un entrepôt. Obligatoire lorsque l’option [**Opérations en bloc d’administration**](../configuration-reference/catalog/inventory.md#admin-bulk-operations) pour [!DNL Inventory Management] est définie sur **Exécuter de manière asynchrone** dans les paramètres de configuration du système d’administration. |
 
 {style="table-layout:auto"}

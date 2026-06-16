@@ -4,12 +4,26 @@ description: Vérifiez les paramètres de configuration sur la page [!UICONTROL 
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
 TQID: https://experienceleague.adobe.com/eZF-dmYG4p8BwVNA5SWtj-3y2flfLP1H9CRcPsd1tFI
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1908
@@ -64,7 +78,7 @@ ht-degree: 0%
 | [!UICONTROL Default Welcome Email] | Affichage de la boutique | Identifie le modèle d’e-mail utilisé pour l’e-mail par défaut _Bienvenue_. |
 | [!UICONTROL Default Welcome Email Without Password] | Affichage de la boutique | Un autre modèle d’e-mail de bienvenue utilisé pour les nouveaux comptes client créés par l’administrateur qui n’ont pas encore de mot de passe attribué. |
 | [!UICONTROL Email Sender] | Affichage de la boutique | Identifie le contact du magasin qui apparaît comme l’expéditeur de l’e-mail de bienvenue. |
-| [!UICONTROL Require Emails Confirmation] | Site internet | Détermine si une demande de création de compte nécessite une confirmation de la part du client. Options : `Yes` / `No`. <br/><br/> _**Remarque :**_ à partir de la version 2.4.7, les clients doivent saisir à nouveau leur adresse e-mail et leur mot de passe pour se connecter à leur compte après la confirmation par e-mail, quel que soit le navigateur. |
+| [!UICONTROL Require Emails Confirmation] | Site internet | Détermine si une demande de création de compte nécessite une confirmation de la part du client. Options : `Yes` / `No`. <br/><br/> _&#x200B;**Remarque :**&#x200B;_ à partir de la version 2.4.7, les clients doivent saisir à nouveau leur adresse e-mail et leur mot de passe pour se connecter à leur compte après la confirmation par e-mail, quel que soit le navigateur. |
 | [!UICONTROL Confirmation Link Email] | Affichage de la boutique | Identifie le modèle d’e-mail utilisé pour l’e-mail de confirmation. Modèle par défaut : `New account confirmation key` |
 | [!UICONTROL Welcome Email] | Affichage de la boutique | Identifie le modèle d’e-mail utilisé pour le message de bienvenue envoyé une fois le compte confirmé. |
 | [!UICONTROL Generate Human-Friendly Customer ID] | Global | Détermine si le champ utilisé pour saisir et stocker le numéro de TVA est visible depuis le storefront. Options : `Yes` / `No` |
@@ -213,7 +227,7 @@ ht-degree: 0%
 
 ## [!UICONTROL CAPTCHA]
 
-![ CAPTCHA ](./assets/customer-configuration-captcha.png)<!-- zoom -->
+![&#x200B; CAPTCHA &#x200B;](./assets/customer-configuration-captcha.png)<!-- zoom -->
 
 <!-- [CAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha) -->
 
@@ -221,8 +235,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | Site internet | Active CAPTCHA dans les magasins associés au site Web Commerce. Options : `Yes` / `No` |
 | [!UICONTROL Font] | Site internet | Détermine la police utilisée pour afficher le CAPTCHA. Pour ajouter votre propre police, placez le fichier de police dans le même répertoire que l’installation de Commerce et ajoutez la déclaration au fichier `config.xml` à l’emplacement `app/code/Magento/Captcha/etc`. |
-| [!UICONTROL Forms] | Site internet | Détermine les formulaires dans lesquels CAPTCHA est utilisé. Options : <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` (voir [correctif de sécurité](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) ![Adobe Commerce<br />`Create company`Remarque :](../../assets/adobe-logo.svg) <br /><br />_****_ Les formulaires Créer un utilisateur, Mot de passe oublié et Workflow Pro sont toujours activés lorsqu’ils sont sélectionnés. |
-| [!UICONTROL Displaying Mode] | Site internet | Détermine le moment où le CAPTCHA s’affiche. Options : <br/>**`Always`**- CAPTCHA est toujours nécessaire pour se connecter.<br/>**`After number of attempts to login`** - Cette option s’applique uniquement au formulaire de connexion administrateur. Lorsque cette option est sélectionnée, le champ _[!UICONTROL Number of Unsuccessful Attempts to Login]_s’affiche. Saisissez le nombre de tentatives de connexion que vous souhaitez autoriser. Une valeur de `0` (zéro) est similaire à la définition de [!UICONTROL Displaying Mode] sur `Always`.<br/>_**Remarque :**_pour suivre le nombre de tentatives de connexion infructueuses, chaque tentative de connexion sous une adresse e-mail et à partir d’une adresse IP est comptabilisée. Le nombre maximal de tentatives de connexion autorisées à partir de la même adresse IP est de 1 000. Cette limitation s’applique uniquement lorsque le CAPTCHA est activé. |
+| [!UICONTROL Forms] | Site internet | Détermine les formulaires dans lesquels CAPTCHA est utilisé. Options : <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` (voir [correctif de sécurité](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) ![Adobe Commerce<br />`Create company`Remarque :](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**&#x200B;**&#x200B;_ Les formulaires Créer un utilisateur, Mot de passe oublié et Workflow Pro sont toujours activés lorsqu’ils sont sélectionnés. |
+| [!UICONTROL Displaying Mode] | Site internet | Détermine le moment où le CAPTCHA s’affiche. Options : <br/>**`Always`**- CAPTCHA est toujours nécessaire pour se connecter.<br/>**`After number of attempts to login`** - Cette option s’applique uniquement au formulaire de connexion administrateur. Lorsque cette option est sélectionnée, le champ _[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;s’affiche. Saisissez le nombre de tentatives de connexion que vous souhaitez autoriser. Une valeur de `0` (zéro) est similaire à la définition de [!UICONTROL Displaying Mode] sur `Always`.<br/>_&#x200B;**Remarque :**&#x200B;_pour suivre le nombre de tentatives de connexion infructueuses, chaque tentative de connexion sous une adresse e-mail et à partir d’une adresse IP est comptabilisée. Le nombre maximal de tentatives de connexion autorisées à partir de la même adresse IP est de 1 000. Cette limitation s’applique uniquement lorsque le CAPTCHA est activé. |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | Site internet | Spécifie le nombre de fois où un client peut essayer de se connecter avant que le compte ne soit verrouillé. |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | Site internet | Détermine la durée de vie du CAPTCHA actuel. Lorsque le CAPTCHA expire, l’utilisateur ou l’utilisatrice doit recharger la page. |
 | [!UICONTROL Number of Symbols] | Site internet | Détermine le nombre de symboles qui apparaissent dans le CAPTCHA, avec un maximum de 8. Vous pouvez également définir une plage, par exemple, 5-8. |

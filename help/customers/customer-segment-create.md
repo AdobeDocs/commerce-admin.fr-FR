@@ -4,11 +4,19 @@ description: Les clients peuvent consulter les informations sur le remboursement
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
 TQID: https://experienceleague.adobe.com/D31F3AtNhNhDaTcOHxX4qNos-0MIP-nh0UVszKQh5y0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 978
@@ -24,13 +32,13 @@ La création d’un segment client est similaire à la création d’une [règle
 
 ![Liste des segments clients](assets/customer-segments.png){width="700" zoomable="yes"}
 
-_**[!UICONTROL Customer Segments]une grille **_
+_&#x200B;**[!UICONTROL Customer Segments]une grille &#x200B;** _
 
 | Colonne | Description |
 |--- |--- |
 | **[!UICONTROL ID]** | Identifiant unique du segment client. |
 | **[!UICONTROL Segment]** | Nom du segment client. |
-| **[!UICONTROL Status]** | Indique si le segment client est _[!UICONTROL Active]_ou_[!UICONTROL Inactive]_. |
+| **[!UICONTROL Status]** | Indique si le segment client est _[!UICONTROL Active]_&#x200B;ou&#x200B;_[!UICONTROL Inactive]_. |
 | **[!UICONTROL Website]** | Indique le site web auquel appartient le segment client. |
 
 {style="table-layout:auto"}
@@ -88,7 +96,7 @@ Les étapes suivantes utilisent un exemple de création d’un segment client qu
 
 1. Cliquez sur **[!UICONTROL Save and Continue Edit]**.
 
-   Une fois le segment _[!UICONTROL General Properties]_enregistré, d’autres options sont disponibles dans le panneau de gauche.
+   Une fois le segment _[!UICONTROL General Properties]_&#x200B;enregistré, d’autres options sont disponibles dans le panneau de gauche.
 
    ![Propriétés du segment](assets/customer-segment-saved.png){width="600" zoomable="yes"}
 
@@ -121,9 +129,9 @@ Les conditions possibles sont organisées dans les groupes suivants :
 
 1. Dans le volet de gauche, cliquez sur **[!UICONTROL Conditions]**.
 
-   La condition par défaut commence par _[!UICONTROL If ALL of these conditions are TRUE:]_sur la page.
+   La condition par défaut commence par _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;sur la page.
 
-   ![Conditions ](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
+   ![Conditions &#x200B;](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
 1. Créez une condition qui cible les clientes :
 
@@ -167,7 +175,7 @@ Les conditions possibles sont organisées dans les groupes suivants :
 
 1. Le segment client peut désormais être utilisé pour le ciblage des promotions, du contenu et du publipostage.
 
-_**[!UICONTROL Matched Customers]une grille **_
+_&#x200B;**[!UICONTROL Matched Customers]une grille &#x200B;** _
 
 | Colonne | Description |
 |--- |--- |
@@ -197,7 +205,7 @@ _**[!UICONTROL Matched Customers]une grille **_
 
 | Bouton | Description |
 |--- |--- |
-| **[!UICONTROL Back]** | Retourne à la page _[!UICONTROL Customer Segments]_sans enregistrer les modifications. |
+| **[!UICONTROL Back]** | Retourne à la page _[!UICONTROL Customer Segments]_&#x200B;sans enregistrer les modifications. |
 | **[!UICONTROL Delete]** | Supprime le segment client actuel. Les clients ou les commandes terminées associés au client dans le segment ne sont pas supprimés. |
 | **[!UICONTROL Reset]** | Réinitialise toutes les modifications non enregistrées dans le formulaire de segment client à leurs valeurs précédentes. |
 | **[!UICONTROL Refresh Segment Data]** | Actualise les données de segment aux valeurs les plus récemment enregistrées. Pertinent si des données de segment sont indisponibles ou obsolètes. |

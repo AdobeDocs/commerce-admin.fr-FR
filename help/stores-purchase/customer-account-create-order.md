@@ -4,11 +4,18 @@ description: Découvrez comment créer une commande pour un client dans Commerce
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
 TQID: https://experienceleague.adobe.com/0TUx-cDuonSkm4G0zWaU95ZKDuB-yhPb0aaEW57K-3g
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 376
@@ -18,7 +25,7 @@ ht-degree: 1%
 
 # Création d’une commande
 
-Pour les clients enregistrés qui ont besoin d’aide, vous pouvez créer une commande entière directement à partir de l’administrateur. Le formulaire _[!UICONTROL Create New Order]_contient toutes les informations nécessaires au processus de passage en caisse normal, avec des résumés des activités du tableau de bord du compte du client.
+Pour les clients enregistrés qui ont besoin d’aide, vous pouvez créer une commande entière directement à partir de l’administrateur. Le formulaire _[!UICONTROL Create New Order]_&#x200B;contient toutes les informations nécessaires au processus de passage en caisse normal, avec des résumés des activités du tableau de bord du compte du client.
 
 ![Créer une commande pour un client](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -32,7 +39,7 @@ Pour les clients enregistrés qui ont besoin d’aide, vous pouvez créer une co
 
 1. Dans l’en-tête de l’espace de travail, cliquez sur **[!UICONTROL Create Order]**.
 
-   ![En-tête ](./assets/order-create-buttons.png){width="700" zoomable="yes"}
+   ![En-tête &#x200B;](./assets/order-create-buttons.png){width="700" zoomable="yes"}
 
    Vous pouvez également créer une commande dans l’espace de travail [Commande](orders.md#orders-workspace) en cliquant sur **[!UICONTROL Create New Order]**.
 
@@ -101,11 +108,11 @@ Vous pouvez transférer des articles vers le panier à partir de la liste de sou
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
-   - [!UICONTROL [Attributs d&#39;ordre personnalisés]](../stores-purchase/order-processing.md#custom-order-attributes)
+   - [[!UICONTROL [Attributs d&#39;ordre personnalisés]]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >
->Consultez le [ Guide des services de paiement ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) pour plus d’informations sur les modes de paiement afin de prendre en charge cette fonctionnalité lorsque l’extension des services de paiement est installée et configurée.
+>Consultez le [&#x200B; Guide des services de paiement &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) pour plus d’informations sur les modes de paiement afin de prendre en charge cette fonctionnalité lorsque l’extension des services de paiement est installée et configurée.
 
 ## Étape 3 : envoyer la commande
 

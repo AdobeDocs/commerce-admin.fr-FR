@@ -4,11 +4,19 @@ description: Découvrez le type de contenu Ligne, utilisé pour ajouter une lign
 exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/69IYa3jE6VTO6PXToXkDhfu8B4-KJw9sv0cO-NgUBOM
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1620
@@ -30,7 +38,7 @@ La boîte à outils de lignes s’affiche lorsque vous pointez sur le conteneur 
 
 | Outil | Icon | Description |
 | --------- | ---------- | ----------- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace la ligne vers une autre position par rapport aux autres lignes de la scène. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace la ligne vers une autre position par rapport aux autres lignes de la scène. |
 | (libellé) | [!UICONTROL Row] | Identifie le conteneur de contenu actuel sous la forme d’une ligne. Pointez sur le conteneur pour afficher la boîte à outils. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Modifier une ligne, qui permet de modifier les propriétés du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque la ligne courante. |
@@ -44,7 +52,7 @@ La boîte à outils de lignes s’affiche lorsque vous pointez sur le conteneur 
 
 ## Ajouter une ligne
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un nouveau **[!UICONTROL Row]**vers la scène, juste en dessous de la première ligne.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un nouveau **[!UICONTROL Row]**&#x200B;vers la scène, juste en dessous de la première ligne.
 
 1. Pour formater la ligne, passez la souris sur le conteneur de lignes pour afficher la boîte à outils et choisissez l’icône _Paramètres_ ( ![icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
@@ -120,7 +128,7 @@ Un type d’arrière-plan peut être une image ou une vidéo. [!DNL Page Builder
 
 ### Paramètres de type d’image
 
-Si vous définissez la _[!UICONTROL Background Type]_sur `Image`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
+Si vous définissez la _[!UICONTROL Background Type]_&#x200B;sur `Image`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
 
 ![Image d’arrière-plan](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
@@ -130,7 +138,7 @@ Si vous définissez la _[!UICONTROL Background Type]_sur `Image`, utilisez les p
   | ------ | ----------- |
   | [!UICONTROL Upload] | Télécharge un fichier image de votre ordinateur local dans la galerie, puis l’applique comme image d’arrière-plan pour la ligne. |
   | [!UICONTROL Select from Gallery] | Vous invite à choisir une image existante de la galerie comme image d’arrière-plan pour la ligne. |
-  | ![ Icône Appareil photo ](./assets/pb-icon-camera.png){width="25"} | Vous permet de faire glisser l’image vers la mosaïque de la caméra ou d’accéder à l’image dans votre système de fichiers local. |
+  | ![&#x200B; Icône Appareil photo &#x200B;](./assets/pb-icon-camera.png){width="25"} | Vous permet de faire glisser l’image vers la mosaïque de la caméra ou d’accéder à l’image dans votre système de fichiers local. |
 
   {style="table-layout:auto"}
 

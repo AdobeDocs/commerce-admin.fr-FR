@@ -4,11 +4,19 @@ description: Découvrez le type de contenu Bloc dynamique , utilisé pour ajoute
 exl-id: 04c90f47-9e32-4d34-ac0d-a2f2cec95ffc
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/5M3Pz-NB6CdERDJj8lhHzj6ibsR0NJ-bVgpfUG7cdPw
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 827
@@ -28,7 +36,7 @@ Utilisez le type de contenu Bloc dynamique pour ajouter un [bloc dynamique](../c
 
 | Outil | Icon | Description |
 | --------- | ------------- | ----------------- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de blocs et son contenu vers un autre emplacement sur la scène. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de blocs et son contenu vers un autre emplacement sur la scène. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _Modifier le bloc_, dans laquelle vous pouvez choisir le bloc et modifier les propriétés du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le conteneur du bloc actif et son contenu. |
 | Afficher | ![Afficher l’icône](./assets/pb-icon-show.png){width="25"} | Affiche le conteneur du bloc masqué et son contenu. |
@@ -49,7 +57,7 @@ Utilisez le type de contenu Bloc dynamique pour ajouter un [bloc dynamique](../c
 
 1. Pointez sur le conteneur de blocs dynamiques vide pour afficher la boîte à outils et choisissez l’icône _Paramètres_ ( ![icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-   ![ Boîte à outils Bloc dynamique ](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Boîte à outils Bloc dynamique &#x200B;](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 
 1. Sur la page _Modifier le bloc dynamique_, cliquez sur **[!UICONTROL Select Dynamic Block]** et utilisez la liste pour sélectionner le bloc.
 
@@ -72,7 +80,7 @@ Utilisez le type de contenu Bloc dynamique pour ajouter un [bloc dynamique](../c
 
    {style="table-layout:auto"}
 
-   ![ Modèle de bloc dynamique ](./assets/pb-add-content-dynamic-block-template.png){width="200"}
+   ![&#x200B; Modèle de bloc dynamique &#x200B;](./assets/pb-add-content-dynamic-block-template.png){width="200"}
 
 1. Renseignez les paramètres avancés selon vos besoins.
 
@@ -137,7 +145,7 @@ Utilisez le type de contenu Bloc dynamique pour ajouter un [bloc dynamique](../c
 
 1. Pointez sur le conteneur de blocs dynamiques pour afficher la boîte à outils et choisissez l’icône _Paramètres_ ( ![icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-   ![ Boîte à outils Bloc dynamique ](./assets/pb-add-content-dynamic-block-toolbox.png){width="500" zoomable="yes"}
+   ![&#x200B; Boîte à outils Bloc dynamique &#x200B;](./assets/pb-add-content-dynamic-block-toolbox.png){width="500" zoomable="yes"}
 
 1. Si nécessaire, modifiez le bloc dynamique :
 

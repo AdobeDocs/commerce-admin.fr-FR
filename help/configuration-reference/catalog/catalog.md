@@ -4,11 +4,25 @@ description: Vérifiez les paramètres de configuration sur la page [!UICONTROL 
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
 TQID: https://experienceleague.adobe.com/YbozeuP9oPvSfHp1zSajemcBuqgkfrkxbfiJmuD625U
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 3350
@@ -289,7 +303,7 @@ Adobe Commerce prend en charge OpenSearch et Elasticsearch. Les versions 2.3.7-p
 | [!UICONTROL OpenSearch HTTP Password] | Global | Lorsque _Activer l’authentification HTTP Elasticsearch_ est défini sur `Yes`, indique le mot de passe de l’authentification OpenSearch ou HTTP Elasticsearch. |
 | [!UICONTROL OpenSearch Server Timeout] | Global | Détermine le nombre de secondes avant l’expiration d’une requête au serveur OpenSearch ou Elasticsearch. Valeur par défaut : `15` |
 | [!UICONTROL Test Connection] |  | Valide la connexion OpenSearch ou Elasticsearch. |
-| [!UICONTROL Enable Search Recommendations] | Affichage de la boutique | Détermine si des recommandations de recherche sont proposées lorsqu’une recherche ne renvoie aucun résultat et s’affichent sous la section `Related search terms` de la page des résultats de recherche. Options : `Yes` / `No` <br/>Lorsque ce paramètre est défini sur Oui, des options supplémentaires s’affichent pour les _[!UICONTROL Search Recommendations Count]_et les_[!UICONTROL Shows Results Count for Each Recommendation]_. |
+| [!UICONTROL Enable Search Recommendations] | Affichage de la boutique | Détermine si des recommandations de recherche sont proposées lorsqu’une recherche ne renvoie aucun résultat et s’affichent sous la section `Related search terms` de la page des résultats de recherche. Options : `Yes` / `No` <br/>Lorsque ce paramètre est défini sur Oui, des options supplémentaires s’affichent pour les _[!UICONTROL Search Recommendations Count]_&#x200B;et les&#x200B;_[!UICONTROL Shows Results Count for Each Recommendation]_. |
 | [!UICONTROL Search Recommendations Count] | Affichage de la boutique | Indique le nombre de termes de recherche proposés en tant que recommandations. Par défaut, cinq sont affichés au maximum. |
 | [!UICONTROL Show Results Count for Each Recommendation] | Affichage de la boutique | Lorsqu’il est défini sur `Yes`, le nombre de produits trouvés pour la recommandation de recherche proposée est indiqué entre parenthèses. Options : `Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | Affichage de la boutique | Détermine si des suggestions de recherche s’affichent pour les fautes d’orthographe courantes. Lorsque cette option est activée, des suggestions de recherche sont proposées pour toute requête qui ne renvoie aucun résultat et qui s’affiche sous la section `Did you mean` de la page **Résultats de la recherche**. Les suggestions de recherche peuvent avoir un impact sur les performances de la recherche. Lorsque ce paramètre est défini sur `Yes`, des options supplémentaires s’affichent pour Activer les recommandations de recherche et les champs associés. Options : `Yes` / `No` |
@@ -312,7 +326,7 @@ Adobe Commerce prend en charge OpenSearch et Elasticsearch. Les versions 2.3.7-p
 | [!UICONTROL Default Link Title] | Affichage de la boutique | Le lien par défaut pour tous les titres téléchargeables. |
 | [!UICONTROL Opens Links in New Window] | Site internet | Détermine si le lien de téléchargement s’ouvre dans une nouvelle fenêtre du navigateur. Options : `Yes` / `No` |
 | [!UICONTROL Use Content Disposition] | Affichage de la boutique | Détermine la manière dont le lien vers le contenu téléchargeable est diffusé, sous la forme d’une pièce jointe d’e-mail ou d’un lien intégré dans une fenêtre de navigateur. Options : <br/>**`Attachment`**- le lien de téléchargement est fourni sous la forme d’une pièce jointe à votre courrier électronique.<br/>**`Inline`** - Le lien de téléchargement est fourni sous la forme d’un lien intégré sur une page web. |
-| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | Site internet | Détermine si les invités qui achètent des produits téléchargeables doivent s’inscrire à un compte et se connecter pour terminer le processus de passage en caisse. Options : <br/>**`Yes`**- Si le panier contient des produits téléchargeables, le client doit soit s’inscrire à un compte, soit se connecter à un compte existant pour terminer l’achat.<br/>**`No`** - Le lien de téléchargement est fourni sous la forme d’un lien intégré dans le corps de l’e-mail.  <br/> _**Remarque :**_ passage en caisse des invités n’est disponible que pour les produits de téléchargement si l’option Partageable est définie sur `Yes`. |
+| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | Site internet | Détermine si les invités qui achètent des produits téléchargeables doivent s’inscrire à un compte et se connecter pour terminer le processus de passage en caisse. Options : <br/>**`Yes`**- Si le panier contient des produits téléchargeables, le client doit soit s’inscrire à un compte, soit se connecter à un compte existant pour terminer l’achat.<br/>**`No`** - Le lien de téléchargement est fourni sous la forme d’un lien intégré dans le corps de l’e-mail.  <br/> _&#x200B;**Remarque :**&#x200B;_ passage en caisse des invités n’est disponible que pour les produits de téléchargement si l’option Partageable est définie sur `Yes`. |
 
 {style="table-layout:auto"}
 

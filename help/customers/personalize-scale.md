@@ -4,11 +4,25 @@ description: Découvrez les fonctionnalités d’Adobe  [!DNL Commerce]  vous pe
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
 TQID: https://experienceleague.adobe.com/-0DU5NwX3wJZO91Z4jDmIGAXGZGCbtOqy1xJPpIom88
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 2334
@@ -36,7 +50,7 @@ Personalization signifie personnaliser les aspects de l’expérience d’achat 
 - **Promotions et offres** - Ciblez les promotions et les offres pour inciter chaque client à convertir son contenu
 - **Expériences de contenu** - Adaptation du contenu du site pour qu’il semble extrêmement pertinent pour chaque client et son parcours
 
-![ Types de Personalization ](assets/types-personalization.png){width="700" zoomable="yes"}
+![&#x200B; Types de Personalization &#x200B;](assets/types-personalization.png){width="700" zoomable="yes"}
 
 Bien que ces types d’expériences personnalisées puissent sembler réalisables pour un petit sous-ensemble de clients et clientes, la personnalisation à l’échelle pour des milliers ou des millions de clients et clientes sur chaque point de contact et canal, le tout en temps réel peut sembler impossible. Dans les sections suivantes, vous découvrirez comment Adobe [!DNL Commerce] et Adobe Experience Cloud peuvent vous aider.
 
@@ -61,10 +75,10 @@ Le partage de données [!DNL Commerce] d’Adobe comprend deux composants clés 
 
 1. [Connexion aux données](https://experienceleague.adobe.com/en/docs/commerce/data-connection/overview) : partagez les données de storefront, de back-office et de profil client d’Adobe [!DNL Commerce] vers le réseau Edge de Adobe Experience Platform pour les utiliser dans les applications Adobe Experience Cloud, notamment :
 
-   - [ [!DNL Real-Time CDP]](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview) : regroupez les données client provenant de plusieurs sources (ERP, CRM, POS) en profils unifiés et créez des segments basés sur des règles ou sur l’IA.
-   - [ [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started) : lancez des parcours omnicanal personnalisés, y compris des campagnes par e-mail, des SMS, des notifications push, etc.
-   - [](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) et [Adobe [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview) : obtenez des informations sur le client et l’entreprise.
-   - [ [!DNL Target]](https://experienceleague.adobe.com/en/docs/target/using/introduction/intro) : testez et optimisez le contenu, les produits recommandés, les offres, la navigation, etc.
+   - [&#x200B; [!DNL Real-Time CDP]](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview) : regroupez les données client provenant de plusieurs sources (ERP, CRM, POS) en profils unifiés et créez des segments basés sur des règles ou sur l’IA.
+   - [&#x200B; [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started) : lancez des parcours omnicanal personnalisés, y compris des campagnes par e-mail, des SMS, des notifications push, etc.
+   - [&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) et [Adobe [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview) : obtenez des informations sur le client et l’entreprise.
+   - [&#x200B; [!DNL Target]](https://experienceleague.adobe.com/en/docs/target/using/introduction/intro) : testez et optimisez le contenu, les produits recommandés, les offres, la navigation, etc.
 
 1. [[!DNL Audience Activation]](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) : utilisez les audiences [!DNL Real-Time CDP] pour personnaliser les blocs de contenu dynamique, les promotions et les règles de produit associées sur votre site [!DNL Commerce] Adobe.
 
@@ -93,7 +107,7 @@ Adobe [!DNL Commerce] offre une personnalisation puissante avec ses fonctionnali
 | Découverte de produits personnalisée | [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) : personnalisez et optimisez les résultats de recherche en fonction des actions comportementales et des affinités sur site d’un acheteur avec la recherche optimisée par l’IA.<br>[Marchandisage intelligent de catégorie](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/category-merch) : classement de produits piloté par l’IA sur les pages de catégorie en fonction des actions comportementales et des affinités sur site d’un acheteur.<br>[Recommandations de produits](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview) : recommandations de produits optimisées par l’IA basées sur le comportement, les tendances et les affinités de l’acheteur.<br>[Règles de produits associés](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) : définissez des règles personnalisées pour afficher les produits de votre catalogue afin de stimuler les ventes croisées et les ventes incitatives. |
 | Contenu de site personnalisé | [Blocs de contenu dynamique](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) : affichez des blocs de contenu personnalisés, par exemple des bannières, en fonction des segments de clientèle dans Adobe Commerce. |
 | Offres et promotions personnalisées | [Règles de prix du panier](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart) : appliquez des remises aux articles du panier en fonction d’un ensemble de conditions, y compris les segments de clients dans Adobe [!DNL Commerce]. |
-| Informations et mesure | [ [!DNL Commerce] Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) : découvrez comment fonctionnent vos stratégies de personnalisation et comment elles s’améliorent au fil du temps. |
+| Informations et mesure | [&#x200B; [!DNL Commerce] Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) : découvrez comment fonctionnent vos stratégies de personnalisation et comment elles s’améliorent au fil du temps. |
 
 ## Principaux cas d’utilisation de la personnalisation
 
@@ -112,7 +126,7 @@ Les clients Adobe [!DNL Commerce] utilisent des fonctionnalités prêtes à l’
 
 | Cas D’Utilisation | Solution |
 |---|---|
-| **Contenu de site personnalisé** - Personnalisez les bannières de site et d’autres contenus de page en fonction des actions de l’acheteur, telles que la navigation dans les produits et les affinités entre les catégories. Déployez le contenu le mieux adapté en fonction des résultats des tests A/B ou des objectifs commerciaux. | **Adobe [!DNL Commerce] uniquement**:<br>Déployer des [blocs de contenu dynamique](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) spécifiques au segment.<br>**[!DNL Commerce] avec **:<br>Utilisez [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) pour déployer des blocs de contenu dynamique spécifiques à une audience qui répondent aux actions en temps réel et aux données de profil client unifiées, tout en gérant de manière centralisée les profils et les audiences dans Real-Time CDP.<br>**[!DNL Commerce] avec[!DNL Target]**:<br>Personnalisez chaque partie de l’expérience du site, notamment le contenu, les éléments de navigation, les dispositions de pages complètes et plus encore à l’aide des données de [!DNL Commerce] Adobe dans Adobe [!DNL Target]. Contenu du test A/B, sélectionner et déployer automatiquement le contenu gagnant pour chaque client.<br>**[!DNL Commerce] avec **:<br>Stockez tout votre contenu dans Adobe Experience Manager Assets. Accédez à ce contenu de manière native à partir d’Adobe Commerce. Utilisez l’IA générative pour créer des variations de contenu à personnaliser en fonction des différents segments ou audiences. |
+| **Contenu de site personnalisé** - Personnalisez les bannières de site et d’autres contenus de page en fonction des actions de l’acheteur, telles que la navigation dans les produits et les affinités entre les catégories. Déployez le contenu le mieux adapté en fonction des résultats des tests A/B ou des objectifs commerciaux. | **Adobe [!DNL Commerce] uniquement**:<br>Déployer des [blocs de contenu dynamique](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) spécifiques au segment.<br>**[!DNL Commerce] avec &#x200B;**:<br>Utilisez [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) pour déployer des blocs de contenu dynamique spécifiques à une audience qui répondent aux actions en temps réel et aux données de profil client unifiées, tout en gérant de manière centralisée les profils et les audiences dans Real-Time CDP.<br>**[!DNL Commerce] avec[!DNL Target]**:<br>Personnalisez chaque partie de l’expérience du site, notamment le contenu, les éléments de navigation, les dispositions de pages complètes et plus encore à l’aide des données de [!DNL Commerce] Adobe dans Adobe [!DNL Target]. Contenu du test A/B, sélectionner et déployer automatiquement le contenu gagnant pour chaque client.<br>**[!DNL Commerce] avec &#x200B;**:<br>Stockez tout votre contenu dans Adobe Experience Manager Assets. Accédez à ce contenu de manière native à partir d’Adobe Commerce. Utilisez l’IA générative pour créer des variations de contenu à personnaliser en fonction des différents segments ou audiences. |
 | **Offre personnalisée sur site en fonction du comportement** - Personnalisez les promotions en fonction des actions de l’acheteur, telles que la navigation dans les produits et les affinités entre les catégories. Déployez la meilleure offre suivante en fonction des résultats des tests A/B ou des objectifs commerciaux. | **Adobe [!DNL Commerce] uniquement**:<br>Déployez un catalogue spécifique au segment et [règles de prix de panier](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart).<br>**[!DNL Commerce] d’Adobe avec Real-Time CDP**:<br>Utilisez [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) pour déployer des offres spécifiques à une audience, tout en gérant de manière centralisée les profils/audiences dans Real-Time CDP.<br>**Commerce avec[!DNL Target]** : utilisez Offer Decisioning pour déterminer l’offre à déployer, effectuer des tests A/B ou définir des objectifs commerciaux pour guider les offres déployées dans Adobe Commerce. |
 
 ### Analytics et insights

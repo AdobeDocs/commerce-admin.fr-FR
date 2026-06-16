@@ -6,11 +6,22 @@ feature: Configuration, Security
 badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."
 exl-id: 2c88488c-8ff1-41db-b81b-89ad164e134d
 TQID: https://experienceleague.adobe.com/oMZleuJsp2QiDD7IsMDV647LWKm938lNvY4--o6G3c8
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: eb30f47f-d87a-400f-8f78-63ce7979ff56id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 633
@@ -26,7 +37,7 @@ ht-degree: 0%
 >
 >Cette fonctionnalité ne fournit PAS de prise en charge reCAPTCHA pour l’administrateur.
 
-[ Intégration reCAPTCHA ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/user-auth/recaptcha/) décrit comment ajouter la prise en charge de reCAPTCHA Enterprise à votre storefront.
+[&#x200B; Intégration reCAPTCHA &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/user-auth/recaptcha/) décrit comment ajouter la prise en charge de reCAPTCHA Enterprise à votre storefront.
 
 Voir [Google reCAPTCHA V3 et V2](security-google-recaptcha.md) pour plus d&#39;informations sur la configuration d&#39;autres versions de Google reCAPTCHA.
 
@@ -68,7 +79,7 @@ Suivez ces étapes générales pour configurer Google reCAPTCHA Enterprise pour 
 
 1. Dans la barre latérale _Admin_ d’Adobe Commerce, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Développez _[!UICONTROL Security]_et choisissez **[!UICONTROL Google reCAPTCHA Storefront]**.
+1. Développez _[!UICONTROL Security]_&#x200B;et choisissez **[!UICONTROL Google reCAPTCHA Storefront]**.
 
 1. Faites défiler jusqu’à la section **[!UICONTROL reCAPTCHA Enterprise]** et effectuez la configuration comme suit.
 

@@ -4,12 +4,24 @@ description: Vous pouvez créer autant de sous-catégories supplémentaires que 
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
 TQID: https://experienceleague.adobe.com/BZwvDT-VCy2JS9RpQT-IdG9s22genACydrfHcyWmCls
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1165
@@ -93,7 +105,7 @@ Définissez également les mots-clés et attributs associés, tels que :
 
    - Pour utiliser des images à partir du stockage de médias, cliquez sur **[!UICONTROL Select from Gallery]** et sélectionnez l’image que vous souhaitez représenter la catégorie.
 
-   Dans la Galerie de médias, vous pouvez également utiliser l’intégration [](../content-design/adobe-stock.md) pour rechercher une image appropriée en cliquant sur **[!UICONTROL Search Adobe Stock]**.
+   Dans la Galerie de médias, vous pouvez également utiliser l’intégration [&#128279;](../content-design/adobe-stock.md) pour rechercher une image appropriée en cliquant sur **[!UICONTROL Search Adobe Stock]**.
 
    >[!NOTE]
    >
@@ -121,7 +133,7 @@ Définissez également les mots-clés et attributs associés, tels que :
    - `Static Block Only`
    - `Static Block and Products`
 
-1. Si vous souhaitez que la page de catégorie inclue la section _`Filter by Attribute`_de la navigation superposée, définissez **[!UICONTROL Anchor]**sur `Yes`.
+1. Si vous souhaitez que la page de catégorie inclue la section _`Filter by Attribute`_de la navigation superposée, définissez **[!UICONTROL Anchor]**&#x200B;sur `Yes`.
 
 1. Pour les options de **[!UICONTROL Available Product Listing Sort By]**, sélectionnez une ou plusieurs des valeurs disponibles pour que les clients puissent trier la liste. Ce paramètre ne s’applique pas au [!DNL Live Search] [widget de page de liste de produits](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
@@ -163,7 +175,7 @@ Définissez également les mots-clés et attributs associés, tels que :
 
    ![Produits dans la catégorie](./assets/category-products-in-category.png){width="600" zoomable="yes"}
 
-   Pour plus d’informations sur ces options, voir [ Produits dans la catégorie ](categories-product-assignments.md).
+   Pour plus d’informations sur ces options, voir [&#x200B; Produits dans la catégorie &#x200B;](categories-product-assignments.md).
 
 1. Si nécessaire, utilisez les [filtres](../getting-started/admin-grid-controls.md) pour rechercher les produits.
 

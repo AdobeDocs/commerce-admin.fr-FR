@@ -4,11 +4,21 @@ description: Découvrez comment ajouter des médias sociaux et d’autres intég
 exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
 feature: Merchandising, Communications
 TQID: https://experienceleague.adobe.com/jO5CAIJOQ7caLuno4OP4vnhJhIMZahlxL7waFwDyHzY
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1175
@@ -28,7 +38,7 @@ Les sites de réseaux sociaux disposent de nombreux plug-ins qui peuvent être f
 
 >[!NOTE]
 >
->Adobe Commerce a supprimé l’intégration native de _Magento Social_ Facebook et ne prend plus en charge l’extension. Accédez à [](https://marketplace.magento.com/catalogsearch/result/?q=Facebook){:target="_blank"} pour trouver d&#39;autres extensions pour l&#39;intégration Facebook.
+>Adobe Commerce a supprimé l’intégration native de _Magento Social_ Facebook et ne prend plus en charge l’extension. Accédez à [&#128279;](https://marketplace.magento.com/catalogsearch/result/?q=Facebook){:target="_blank"} pour trouver d&#39;autres extensions pour l&#39;intégration Facebook.
 
 ### Étape 1. Obtenir le code du bouton
 
@@ -101,7 +111,7 @@ Les sites de réseaux sociaux disposent de nombreux plug-ins qui peuvent être f
 
    - Saisissez un nombre dans le champ **[!UICONTROL Sort Order]** pour déterminer l’ordre du bloc s’il est affecté à apparaître au même emplacement sur la page que les autres éléments de contenu. La position supérieure est zéro.
 
-1. Dans la section _[!UICONTROL Layout Updates]_, cliquez sur **[!UICONTROL Add Layout Update]**et définissez **[!UICONTROL Display On]**à la catégorie, au produit ou à la page où vous souhaitez que le bloc apparaisse.
+1. Dans la section _[!UICONTROL Layout Updates]_, cliquez sur **[!UICONTROL Add Layout Update]**&#x200B;et définissez **[!UICONTROL Display On]**&#x200B;à la catégorie, au produit ou à la page où vous souhaitez que le bloc apparaisse.
 
    Par exemple, si vous choisissez `All Pages` et positionnez le bloc dans l’en-tête ou le pied de page, le bloc apparaît au même endroit sur chaque page du magasin.
 

@@ -4,11 +4,21 @@ description: Découvrez comment créer une offre groupée qui permet aux acheteu
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/T4-rAn2fY1I71IAt00o5kKY62NTAYhr-WO0QGdkyNE0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1616
@@ -121,7 +131,7 @@ Le formulaire est mis à jour pour refléter la modification.
 
 1. Acceptez le paramètre de **[!UICONTROL Visibility]** par défaut de `Catalog, Search`.
 
-1. Pour attribuer des _[!UICONTROL Categories]_au produit, cliquez sur la zone de **[!UICONTROL Select…]**et effectuez l’une des opérations suivantes :
+1. Pour attribuer des _[!UICONTROL Categories]_&#x200B;au produit, cliquez sur la zone de **[!UICONTROL Select…]**&#x200B;et effectuez l’une des opérations suivantes :
 
    **Choisir une catégorie existante :**
 
@@ -145,7 +155,7 @@ Le formulaire est mis à jour pour refléter la modification.
 
 ## Étape 5 : ajouter les éléments du lot
 
-La section _[!UICONTROL Bundle Items]_permet d’ajouter des éléments à un type de produit Offre groupée et de modifier la sélection d’éléments actuelle.
+La section _[!UICONTROL Bundle Items]_&#x200B;permet d’ajouter des éléments à un type de produit Offre groupée et de modifier la sélection d’éléments actuelle.
 
 ![Articles groupés définis pour un produit](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
@@ -186,7 +196,7 @@ La section _[!UICONTROL Bundle Items]_permet d’ajouter des éléments à un ty
 
      >[!NOTE]
      >
-     >La quantité peut être une valeur prédéfinie ou définie par l’utilisateur. Toutefois, n’affectez pas la propriété _[!UICONTROL User Defined]_aux types d’entrée de case à cocher ou de sélection multiple.
+     >La quantité peut être une valeur prédéfinie ou définie par l’utilisateur. Toutefois, n’affectez pas la propriété _[!UICONTROL User Defined]_&#x200B;aux types d’entrée de case à cocher ou de sélection multiple.
 
      Par défaut, la quantité par défaut incluse dans un article groupé ne peut pas être modifiée par le client. Cependant, le client peut entrer la quantité de l&#39;article à inclure dans le lot.
 
@@ -245,10 +255,10 @@ Faites défiler vers le bas et renseignez les informations des sections suivante
 
 | Contrôle | Description | Exemple |
 |--- |--- |--- |
-| [!UICONTROL Drop-down] | Affiche une liste déroulante d’options avec le nom et le prix du produit. Un seul élément peut être sélectionné. | ![ Liste déroulante ](./assets/product-bundle-input-type-drop-down.png){width="200"} |
+| [!UICONTROL Drop-down] | Affiche une liste déroulante d’options avec le nom et le prix du produit. Un seul élément peut être sélectionné. | ![&#x200B; Liste déroulante &#x200B;](./assets/product-bundle-input-type-drop-down.png){width="200"} |
 | [!UICONTROL Radio Buttons] | Affiche un bouton radio pour chaque option, suivi du nom et du prix du produit. Un seul élément peut être sélectionné. | ![Boutons radio](./assets/product-bundle-input-type-radio-buttons.png){width="200"} |
-| [!UICONTROL Checkbox] | Affiche une case à cocher pour chaque option, suivie du nom et du prix du produit. Plusieurs éléments peuvent être sélectionnés. | ![ Case à cocher ](./assets/product-bundle-input-type-checkbox.png){width="200"} |
-| [!UICONTROL Multiple Select] | Affiche une liste d’options avec le nom et le prix du produit. Pour sélectionner plusieurs éléments, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque élément. | ![ Sélection multiple ](./assets/product-bundle-input-type-multiple-select.png){width="200"} |
+| [!UICONTROL Checkbox] | Affiche une case à cocher pour chaque option, suivie du nom et du prix du produit. Plusieurs éléments peuvent être sélectionnés. | ![&#x200B; Case à cocher &#x200B;](./assets/product-bundle-input-type-checkbox.png){width="200"} |
+| [!UICONTROL Multiple Select] | Affiche une liste d’options avec le nom et le prix du produit. Pour sélectionner plusieurs éléments, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque élément. | ![&#x200B; Sélection multiple &#x200B;](./assets/product-bundle-input-type-multiple-select.png){width="200"} |
 
 {style="table-layout:auto"}
 
@@ -289,7 +299,7 @@ Le statut du stock de produits groupés n’est **_pas automatiquement modifié 
 
 ![Case à cocher](../assets/checkbox.png) SKU et poids peuvent être `Fixed` ou `Dynamic`.
 
-![Case à cocher](../assets/checkbox.png) La quantité peut être un paramètre prédéfini ou une valeur définie par l’utilisateur. Toutefois, n’affectez pas la propriété _[!UICONTROL User Defined]_aux types d’entrée de case à cocher ou de sélection multiple.
+![Case à cocher](../assets/checkbox.png) La quantité peut être un paramètre prédéfini ou une valeur définie par l’utilisateur. Toutefois, n’affectez pas la propriété _[!UICONTROL User Defined]_&#x200B;aux types d’entrée de case à cocher ou de sélection multiple.
 
 ![Case à cocher](../assets/checkbox.png) Les éléments groupés peuvent être expédiés ensemble ou séparément.
 

@@ -4,11 +4,21 @@ description: Découvrez comment ajouter des produits à un catalogue partagé, i
 exl-id: c88b46b4-cea8-4f65-b7e4-6681bab64d41
 feature: B2B, Companies, Catalog Management
 TQID: https://experienceleague.adobe.com/f-5xQDov-Q3tfYw8MBDQPinimUIUkGe-q2Nfzm8L9ps
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 402
@@ -32,7 +42,7 @@ Pour qu’un produit complexe (tel qu’une offre groupée, groupée ou configur
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Pour le produit dans la grille que vous souhaitez ajouter, accédez à la colonne _[!UICONTROL Action]_et cliquez sur **[!UICONTROL Edit]**.
+1. Pour le produit dans la grille que vous souhaitez ajouter, accédez à la colonne _[!UICONTROL Action]_&#x200B;et cliquez sur **[!UICONTROL Edit]**.
 
 1. Faites défiler vers le bas, développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Product in Shared Catalogs]_, puis procédez comme suit :
 
@@ -52,7 +62,7 @@ Pour qu’un produit complexe (tel qu’une offre groupée, groupée ou configur
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
-1. Pour le catalogue partagé dans la grille, accédez à la colonne _[!UICONTROL Action]_et sélectionnez **[!UICONTROL Set Pricing and Structure]**.
+1. Pour le catalogue partagé dans la grille, accédez à la colonne _[!UICONTROL Action]_&#x200B;et sélectionnez **[!UICONTROL Set Pricing and Structure]**.
 
 1. Dans l’arborescence des catégories, effectuez l’une des opérations suivantes :
 

@@ -3,11 +3,22 @@ title: Barre latérale d’administration
 description: L’administrateur Commerce utilise une barre latérale gauche pour accéder au menu principal. Les commerçants peuvent accéder à tous les outils d'administration dont ils ont besoin pour configurer et gérer leur magasin.
 exl-id: 2619645e-22fc-4365-80c5-14e2ce7ea8df
 TQID: https://experienceleague.adobe.com/sYB6S97lXHf-Bet1RDrQMLidAOew9yjev3aZvFXf-Ak
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 418
@@ -21,7 +32,7 @@ La barre latérale gauche est le menu principal du magasin _Admin_ et est conçu
 
 | Icône de menu | Lien | Description |
 | --------- | ---- | ----------- |
-| ![ Icône de barre latérale d’administration ](./assets/icon-admin-sidebar-logo.png) | **[Page de démarrage de l’administrateur](../configuration-reference/advanced/admin.md)** | Affiche la page de démarrage d’administration, qui est le tableau de bord par défaut. |
+| ![&#x200B; Icône de barre latérale d’administration &#x200B;](./assets/icon-admin-sidebar-logo.png) | **[Page de démarrage de l’administrateur](../configuration-reference/advanced/admin.md)** | Affiche la page de démarrage d’administration, qui est le tableau de bord par défaut. |
 | ![Menu Tableau de bord](./assets/icon-admin-sidebar-dashboard.png) | **[[!UICONTROL Dashboard]](admin-dashboard.md)** | Le tableau de bord offre un aperçu rapide des ventes et de l’activité des clients dans votre boutique. Il s’agit généralement de la première page qui s’affiche lorsque vous vous connectez à l’administrateur. |
 | ![Menu Ventes](./assets/icon-admin-sidebar-sales.png) | **[[!UICONTROL Sales]](../stores-purchase/sales-menu.md)** | Dans le menu [!UICONTROL Sales], vous trouverez tout ce qui concerne les opérations de traitement des commandes, des factures, des expéditions, des avoirs et des transactions. |
 | ![Menu Catalogue](./assets/icon-admin-sidebar-catalog.png) | **[[!UICONTROL Catalog]](../catalog/catalog-menu.md)** | Le menu [!UICONTROL Catalog] permet de créer des produits et de définir des catégories. |

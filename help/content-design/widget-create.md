@@ -4,11 +4,18 @@ description: Découvrez comment créer et gérer les widgets qui mettent automat
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/f5cIxzZeOxfvqJbVLFPfCmB285I0ovGEbNqAWOFCw4s
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 582
@@ -20,7 +27,7 @@ ht-degree: 1%
 
 Les widgets sont des composants réutilisables. Vous pouvez facilement créer des widgets et modifier des widgets existants pour mettre automatiquement à jour le contenu de votre boutique. Vous pouvez également supprimer les widgets qui ne sont plus utilisés.
 
-![ Widgets ](./assets/widgets.png){width="700" zoomable="yes"}
+![&#x200B; Widgets &#x200B;](./assets/widgets.png){width="700" zoomable="yes"}
 
 ## Créer un widget
 
@@ -64,7 +71,7 @@ Le processus de création d’un widget est presque le même pour chaque [type d
 
 1. Dans la liste **[!UICONTROL Container]**, choisissez la zone de la mise en page où elle doit être placée.
 
-   ![ Mises à jour de la disposition ](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
+   ![&#x200B; Mises à jour de la disposition &#x200B;](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
 1. Si le widget est un lien, définissez **[!UICONTROL Template]** sur l’une des options suivantes :
 

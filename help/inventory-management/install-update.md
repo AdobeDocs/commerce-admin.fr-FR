@@ -6,10 +6,17 @@ level: Experienced
 feature: Inventory, Install
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/-koENBfshZ7WkXih0dee4geUb2Mnx-mtTxUxt-s6yUo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 683
@@ -89,9 +96,9 @@ Le processus d’installation [!DNL Inventory Management] ajoute tous les module
 
 ## Activer les fonctionnalités [!DNL Inventory Management]
 
-Lorsqu’elle est installée, mise à niveau ou mise à jour, l’option _[!UICONTROL Manage Stock]_dans l’Administration est activée par défaut. Cette option permet le suivi et la gestion des stocks, mais n’affecte pas le statut du module. Pour désactiver les modules, reportez-vous à la section suivante.
+Lorsqu’elle est installée, mise à niveau ou mise à jour, l’option _[!UICONTROL Manage Stock]_&#x200B;dans l’Administration est activée par défaut. Cette option permet le suivi et la gestion des stocks, mais n’affecte pas le statut du module. Pour désactiver les modules, reportez-vous à la section suivante.
 
-Pour plus d’informations sur les configurations, voir [ Configuration d’Inventory management ](configuration.md).
+Pour plus d’informations sur les configurations, voir [&#x200B; Configuration d’Inventory management &#x200B;](configuration.md).
 
 ## Désactiver Inventory management
 
@@ -104,7 +111,7 @@ Vous pouvez désactiver [!DNL Inventory Management] modules pour :
 * Accélérez le processus de mise à niveau pour les commerçants effectuant la migration de 2.0.x, 2.1.x, 2.2.x ou 2.3.x vers 2.4.x.
 * Utilisez des modules système d’inventaire et de gestion des commandes personnalisés ou tiers.
 
-Pour plus d’informations sur la désactivation des modules applicables](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) reportez-vous à la page [Activer ou désactiver des modules du _Guide d’installation_.
+Pour plus d’informations sur la désactivation des modules applicables[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) reportez-vous à la page Activer ou désactiver des modules du _Guide d’installation_.
 
 Une fois l’opération terminée, le système fournit une liste de modules et de valeurs dans `<Magento_installation_directory>/app/etc/config.php`, en commençant par :
 

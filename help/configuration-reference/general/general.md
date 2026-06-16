@@ -4,11 +4,22 @@ description: Vérifiez les paramètres de configuration sur la page [!UICONTROL 
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
 TQID: https://experienceleague.adobe.com/DD7DU4-tlIuIqWiGmRkKaRtAe-dglczocFvEaoIuxSc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1028
@@ -77,7 +88,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Restric
 |--- |--- |--- |
 | [!UICONTROL Access Restriction] | Site internet | Détermine si le site web fonctionne en mode restreint.<br /> <br />**`Yes`**- L’accès au site Web est limité de la manière indiquée dans les champs ci-dessous.<br />**`No`** - Les restrictions sont désactivées et les paramètres suivants n’ont aucun effet. |
 | [!UICONTROL Restriction Mode] | Site internet | Détermine le type de restriction d’accès qui s’applique au site web.<br /> <br />**`Website Closed`**- Tous les accès au storefront sont limités et les URL de ce dernier sont temporairement redirigées vers la page de destination. Ce paramètre peut s’avérer utile pendant la maintenance du site ou avant le lancement.<br />**`Private Sales: Login Only`** - Seuls les clients enregistrés peuvent se connecter pour accéder au storefront. Toutes les URL de storefront sont temporairement redirigées vers la page de destination ou le formulaire de connexion spécifié. Les utilisateurs ne peuvent pas créer de compte dans ce mode.<br />**`Private Sales: Login and Register`**- Les utilisateurs doivent se connecter pour accéder au storefront. Toutes les URL de storefront sont temporairement redirigées vers le formulaire de connexion jusqu’à ce que l’utilisateur se connecte. Les utilisateurs peuvent créer un compte lorsque le site est en mode . |
-| [!UICONTROL Startup Page] | Affichage de la boutique | Lorsque le site web est en mode Ventes privées, ce paramètre détermine la page qui s’affiche jusqu’à ce que le client se connecte.<br />  <br />**`To login form`**- Les utilisateurs sont redirigés vers le formulaire de connexion jusqu’à leur connexion.<br />**`To landing page`** - Les utilisateurs sont redirigés vers la page statique spécifiée ci-dessous jusqu’à ce qu’ils se connectent.<br /> <br />**_Important!_**Veillez à inclure un lien vers la page de connexion de la page de destination spécifiée afin que les clients puissent se connecter pour accéder au site complet. |
+| [!UICONTROL Startup Page] | Affichage de la boutique | Lorsque le site web est en mode Ventes privées, ce paramètre détermine la page qui s’affiche jusqu’à ce que le client se connecte.<br />  <br />**`To login form`**- Les utilisateurs sont redirigés vers le formulaire de connexion jusqu’à leur connexion.<br />**`To landing page`** - Les utilisateurs sont redirigés vers la page statique spécifiée ci-dessous jusqu’à ce qu’ils se connectent.<br /> <br />**_Important!_**&#x200B;Veillez à inclure un lien vers la page de connexion de la page de destination spécifiée afin que les clients puissent se connecter pour accéder au site complet. |
 | [!UICONTROL Landing Page] | Affichage de la boutique | Détermine la première page qui s&#39;affiche lorsque le site Web est en mode Ventes privées. |
 | [!UICONTROL HTTP Response] | Site internet | Détermine la réponse HTTP envoyée lorsque le site Web est fermé et qu&#39;un robot, un robot d&#39;exploration ou une araignée tente de se connecter.<br /> <br />**`503 Service unavailable`**- La page n’est pas disponible, mais l’indexation ne doit pas mettre à jour l’index.<br />**`200 OK`** - La page de destination est correcte et doit être traitée par l’araignée comme la seule page du site. |
 | [!UICONTROL Enable Autocomplete on login/forgot password forms] | Site internet | Détermine si les champs des formulaires _Connexion_ et _Mot de passe oublié_ sont remplis automatiquement à partir des entrées précédentes. Options : `Yes` / `No` |

@@ -6,12 +6,24 @@ role: Admin
 feature: Admin Workspace, Configuration, Security
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/UFK-C-W5E0DngIy4VncIVRzM2f6tNS5RgNqaNVk9GJc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2:
+  - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 864
@@ -30,11 +42,11 @@ La configuration de sécurité d’administration vous permet d’effectuer les 
 - Configurer la longueur minimale requise pour le mot de passe
 - Limiter la durée des sessions Admin
 - Limiter la durée de vie des mots de passe
-- Limitez le nombre de tentatives de connexion avant que le compte utilisateur administrateur ne soit [ verrouillé](permissions-users-all.md#locked-users).
+- Limitez le nombre de tentatives de connexion avant que le compte utilisateur administrateur ne soit [&#x200B; verrouillé](permissions-users-all.md#locked-users).
 
 Pour une sécurité renforcée, vous pouvez configurer la durée d’inactivité du clavier avant l’expiration de la session en cours et exiger que le nom d’utilisateur et le mot de passe soient sensibles à la casse.
 
-Outre les paramètres de sécurité de cette section, l’[authentification à deux facteurs](security-two-factor-authentication.md) (2FA) est nécessaire pour vérifier l’identité des utilisateurs à l’aide d’un mot de passe à usage unique généré par une application ou un appareil. La première fois que vous vous connectez à l’administrateur, vous êtes invité à configurer 2FA. Pour plus de sécurité, la connexion d’administrateur peut également être configurée pour nécessiter un [ CAPTCHA ](security-captcha.md).
+Outre les paramètres de sécurité de cette section, l’[authentification à deux facteurs](security-two-factor-authentication.md) (2FA) est nécessaire pour vérifier l’identité des utilisateurs à l’aide d’un mot de passe à usage unique généré par une application ou un appareil. La première fois que vous vous connectez à l’administrateur, vous êtes invité à configurer 2FA. Pour plus de sécurité, la connexion d’administrateur peut également être configurée pour nécessiter un [&#x200B; CAPTCHA &#x200B;](security-captcha.md).
 
 >[!NOTE]
 >

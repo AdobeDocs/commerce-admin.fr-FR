@@ -4,11 +4,20 @@ description: Découvrez comment modifier les éléments qui définissent l’ide
 exl-id: 91630717-9da7-4d2f-a0d8-adb794a30ee1
 feature: Storefront
 TQID: https://experienceleague.adobe.com/2IjLVK33ITjn-eFJ0VpmDmlp8SNy-vZ0365An0lm1cA
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1313
@@ -26,7 +35,7 @@ L’une des premières choses à faire est de [modifier le logo](#upload-your-lo
 
 La taille et l’emplacement du logo dans l’en-tête sont déterminés par le thème du magasin. Votre logo peut être enregistré en tant que type de fichier GIF, PNG ou JPG (JPEG) et téléchargé à partir de l’administration de votre boutique.
 
-![ Logo dans l’en-tête ](./assets/storefront-header-logo.png){width="600"}
+![&#x200B; Logo dans l’en-tête &#x200B;](./assets/storefront-header-logo.png){width="600"}
 
 L’image du logo se trouve à l’emplacement suivant sur le serveur. Tout fichier image portant le nom `logo.svg` est utilisé comme logo de thème par défaut.
 
@@ -58,7 +67,7 @@ Formats de fichiers de logo pris en charge :
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Header]** .
 
-   ![ Paramètres d’en-tête ](./assets/configuration-header.png){width="600"}
+   ![&#x200B; Paramètres d’en-tête &#x200B;](./assets/configuration-header.png){width="600"}
 
 1. Pour télécharger un nouveau logo, cliquez sur **[!UICONTROL Upload]** et sélectionnez le fichier sur votre système.
 
@@ -126,7 +135,7 @@ Une favicon a généralement une taille de 16 x 16 pixels ou de 32 x 32 pixels. 
 
 Le message de bienvenue dans l’en-tête se développe pour inclure le nom du client connecté. Avant de lancer votre boutique, veillez à modifier le texte par défaut _Bienvenue_ pour chaque affichage de la boutique.
 
-![ Message de bienvenue ](./assets/storefront-welcome-message.png){width="600"}
+![&#x200B; Message de bienvenue &#x200B;](./assets/storefront-welcome-message.png){width="600"}
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
@@ -136,7 +145,7 @@ Le message de bienvenue dans l’en-tête se développe pour inclure le nom du c
 
 1. Par **[!UICONTROL Welcome Text]**, saisissez le texte du message de bienvenue que vous souhaitez afficher dans l’en-tête de votre boutique.
 
-   ![ Paramètres d’en-tête ](./assets/configuration-header.png){width="600"}
+   ![&#x200B; Paramètres d’en-tête &#x200B;](./assets/configuration-header.png){width="600"}
 
 1. Cliquez ensuite sur **[!UICONTROL Save Configuration]**.
 

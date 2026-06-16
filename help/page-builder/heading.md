@@ -4,11 +4,19 @@ description: Découvrez le type de contenu Titre, utilisé pour ajouter un conte
 exl-id: dc51e7f6-a235-49dc-a978-1419a63fa33e
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/5oFGY5Vemq0aLKOaCQ5DTIvfj0Zzvd1qVKkuDjS-kgM
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 940
@@ -20,7 +28,7 @@ ht-degree: 0%
 
 Les niveaux d’en-tête établissent une hiérarchie qui organise le contenu et aide les moteurs de recherche à indexer chaque page. Utilisez le type de contenu _Titre_ dans le [[!DNL Page Builder] étape](workspace.md#stage) pour ajouter un conteneur de texte avec un niveau d’en-tête compris entre H1 et H6 à l’étape. Les en-têtes sont formatés en fonction de la feuille de style associée au thème actif.
 
-Le champ [En-tête de contenu](workspace.md) de la section _[!UICONTROL Content]_peut être utilisé pour ajouter un en-tête H1 en haut de la page. Cependant, le champ est un héritage des versions [!DNL Commerce] précédentes et est fourni pour prendre en charge le contenu plus ancien. Ce champ ne tire pas parti des fonctionnalités avancées de [!DNL Page Builder]. Il est recommandé de laisser le champ En-tête de contenu vide et d’utiliser le type de contenu En-tête de [!DNL Page Builder] pour ajouter des en-têtes de n’importe quel niveau à la page.
+Le champ [En-tête de contenu](workspace.md) de la section _[!UICONTROL Content]_&#x200B;peut être utilisé pour ajouter un en-tête H1 en haut de la page. Cependant, le champ est un héritage des versions [!DNL Commerce] précédentes et est fourni pour prendre en charge le contenu plus ancien. Ce champ ne tire pas parti des fonctionnalités avancées de [!DNL Page Builder]. Il est recommandé de laisser le champ En-tête de contenu vide et d’utiliser le type de contenu En-tête de [!DNL Page Builder] pour ajouter des en-têtes de n’importe quel niveau à la page.
 
 L’exemple suivant montre comment l’en-tête de contenu et le type de contenu En-tête apparaissent lorsqu’ils sont formatés par le thème Luma .
 
@@ -42,7 +50,7 @@ Comme pour tous les conteneurs de contenu, la boîte à outils s’affiche lorsq
 
 | Outil | Icon | Description |
 | --------- | ----------------- | ---------------------- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur d’en-tête vers un autre emplacement valide sur la page. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur d’en-tête vers un autre emplacement valide sur la page. |
 | (libellé) | Titre | Identifie le conteneur actuel en tant qu’en-tête. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Modifier l’en-tête , qui permet de modifier les propriétés du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le conteneur d’en-tête. |
@@ -80,7 +88,7 @@ Comme pour tous les conteneurs de contenu, la boîte à outils s’affiche lorsq
 
    Vous pouvez également mettre à jour ce contenu dans l’éditeur d’en-têtes.
 
-1. Mettez à jour les paramètres _[!UICONTROL Advanced]_selon vos besoins.
+1. Mettez à jour les paramètres _[!UICONTROL Advanced]_&#x200B;selon vos besoins.
 
    - Pour contrôler le positionnement de l’en-tête dans le conteneur parent, choisissez une **[!UICONTROL Alignment]** :
 

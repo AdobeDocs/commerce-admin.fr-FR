@@ -4,12 +4,27 @@ description: Découvrez comment gérer les comptes de société de votre boutiqu
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
 TQID: https://experienceleague.adobe.com/a4IAHlQLzc9pX6V2z8V9nLUaWToWizjdOomV7TfS7to
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2:
+  - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 2728
@@ -19,17 +34,17 @@ ht-degree: 0%
 
 # Gestion des comptes d’entreprise
 
-La page _[!UICONTROL Companies]_répertorie tous les comptes de société actuels, quel que soit leur statut. Toutes les demandes d’approbation en attente apparaissent en haut de la liste.
+La page _[!UICONTROL Companies]_&#x200B;répertorie tous les comptes de société actuels, quel que soit leur statut. Toutes les demandes d’approbation en attente apparaissent en haut de la liste.
 
 ![Grille des sociétés](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 Utilisez le contrôle *[!UICONTROL Columns]* pour personnaliser les colonnes affichées dans la grille. Personnalisez les sociétés affichées dans la vue à l’aide des fonctionnalités de recherche et de filtrage.
 
-- Recherchez des sociétés dans la grille **Sociétés** à l’aide de l’_[!UICONTROL Search]_. La recherche indexe les colonnes **Nom de la société**et **Parent**.
+- Recherchez des sociétés dans la grille **Sociétés** à l’aide de l’_[!UICONTROL Search]_. La recherche indexe les colonnes **Nom de la société**&#x200B;et **Parent**.
 
 - Personnalisez la vue pour inclure des enregistrements qui répondent à des critères spécifiques à l’aide de l’[!UICONTROL Filter] . Par exemple, si le site B2B est configuré pour gérer à la fois les comptes de société uniques et les [hiérarchies de société](manage-companies.md), vous pouvez filtrer par `[!UICONTROL Company Type - Company]` pour n’afficher que les sociétés uniques ou par `[!UICONTROL Company Type - Parent]` pour n’afficher que la société parent pour chaque hiérarchie.
 
-Appliquez une action à plusieurs enregistrements d&#39;entreprise à l&#39;aide du contrôle _[!UICONTROL Actions]_au-dessus de la grille. Par exemple, plutôt que d’approuver chaque demande individuelle d’entreprise, vous pouvez sélectionner plusieurs demandes pour activer les comptes en une seule action. Les actions disponibles dépendent des [autorisations](../systems/permissions.md) pour le rôle affecté à votre compte utilisateur d’administrateur.
+Appliquez une action à plusieurs enregistrements d&#39;entreprise à l&#39;aide du contrôle _[!UICONTROL Actions]_&#x200B;au-dessus de la grille. Par exemple, plutôt que d’approuver chaque demande individuelle d’entreprise, vous pouvez sélectionner plusieurs demandes pour activer les comptes en une seule action. Les actions disponibles dépendent des [autorisations](../systems/permissions.md) pour le rôle affecté à votre compte utilisateur d’administrateur.
 
 ## Ressources de rôle d’entreprise
 

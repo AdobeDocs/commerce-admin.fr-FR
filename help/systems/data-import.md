@@ -4,11 +4,19 @@ description: Découvrez les directives relatives à l’importation des données
 exl-id: caae8811-445e-49d4-aa90-226a355732bc
 feature: Products, Customers, Data Import/Export
 TQID: https://experienceleague.adobe.com/LZ44VOhB95b8bwSgBoDOYYt4DBF5tA7Uz5aTR7QfnUk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
 workflow-type: tm+mt
 source-wordcount: 1564
@@ -62,7 +70,7 @@ Le processus d’importation d’Adobe Commerce peut ne pas reconnaître correct
 
 | Fonctionnement | Description |
 | --------- | ----------- |
-| Ajouter/Mettre à jour | Les nouvelles données de produit sont ajoutées aux données de produit existantes pour les entrées existantes dans la base de données. Tous les champs, à l’exception de `sku`, peuvent être mis à jour.<br><br>Les nouvelles classes de taxe spécifiées dans les données d&#39;importation sont créées automatiquement.<br><br>Les nouvelles catégories de produits spécifiées dans le fichier d’importation sont créées automatiquement.<br><br>Les nouveaux SKU spécifiés dans le fichier d’importation sont créés automatiquement <br><br>**_Note:_**Pour les produits, vous pouvez mettre à jour tous les champs à l’exception du SKU par le biais de l’importation.<br><br>**_Important:_** Plusieurs valeurs de champ, telles que des sites web ou des catégories, ne peuvent pas être supprimées à l’aide du comportement d’importation _Ajouter/Mettre à jour_. Ces champs restent dans la base de données après l’importation s’ils ne sont pas répertoriés dans le fichier CSV. |
+| Ajouter/Mettre à jour | Les nouvelles données de produit sont ajoutées aux données de produit existantes pour les entrées existantes dans la base de données. Tous les champs, à l’exception de `sku`, peuvent être mis à jour.<br><br>Les nouvelles classes de taxe spécifiées dans les données d&#39;importation sont créées automatiquement.<br><br>Les nouvelles catégories de produits spécifiées dans le fichier d’importation sont créées automatiquement.<br><br>Les nouveaux SKU spécifiés dans le fichier d’importation sont créés automatiquement <br><br>**_Note:_**&#x200B;Pour les produits, vous pouvez mettre à jour tous les champs à l’exception du SKU par le biais de l’importation.<br><br>**_Important:_** Plusieurs valeurs de champ, telles que des sites web ou des catégories, ne peuvent pas être supprimées à l’aide du comportement d’importation _Ajouter/Mettre à jour_. Ces champs restent dans la base de données après l’importation s’ils ne sont pas répertoriés dans le fichier CSV. |
 | Replace | Les données de produit existantes sont remplacées par de nouvelles données.<br><br>**_Important:_** Faites preuve de prudence lors du remplacement des données, car les données de produit existantes sont effacées et toutes les références du système sont perdues.<br><br>Si un SKU des données d’importation correspond au SKU d’une entité existante, tous les champs, y compris le SKU, sont supprimés et un nouvel enregistrement est créé à l’aide des données CSV. Une erreur se produit si le fichier CSV fait référence à un SKU qui n’existe pas dans la base de données. Vous pouvez Vérifier les données pour afficher l’erreur. |
 | Supprimer | Toutes les entités présentes dans la base de données d&#39;importation sont supprimées de la base de données.<br><br>Supprimer ignore toutes les colonnes des données d’importation, à l’exception de la SKU. Vous pouvez ignorer tous les autres attributs dans les données.<br><br>Une erreur se produit si le fichier CSV fait référence à un SKU qui n’existe pas dans la base de données. Vous pouvez Vérifier les données pour afficher l’erreur. |
 
@@ -155,7 +163,7 @@ Lors de l’importation de données de produit, les nouvelles données de produi
 
    >[!NOTE]
    >
-   >À partir de la version Adobe Commerce et Magento Open Source `2.3.2`, le chemin spécifié dans _[!UICONTROL Images File Directory]_concatène pour l’importation dans le répertoire de base des images : `<Magento-root-folder>/var/import/images`. Par exemple, placez les fichiers `product_images` dans le dossier `<Magento-root-directory>/var/import/images/product_images`. Le répertoire de base des images d&#39;import peut être paramétré dans le fichier `\Magento\ImportExport\etc\config.xml`. Si le module de stockage distant est activé, importez les fichiers dans le dossier `<remote-storage-root-directory>/var/import/images/product_images`.
+   >À partir de la version Adobe Commerce et Magento Open Source `2.3.2`, le chemin spécifié dans _[!UICONTROL Images File Directory]_&#x200B;concatène pour l’importation dans le répertoire de base des images : `<Magento-root-folder>/var/import/images`. Par exemple, placez les fichiers `product_images` dans le dossier `<Magento-root-directory>/var/import/images/product_images`. Le répertoire de base des images d&#39;import peut être paramétré dans le fichier `\Magento\ImportExport\etc\config.xml`. Si le module de stockage distant est activé, importez les fichiers dans le dossier `<remote-storage-root-directory>/var/import/images/product_images`.
 
    Pour en savoir plus sur l’importation d’images de produit, voir [Importer des images de produit](data-import-product-images.md).
 

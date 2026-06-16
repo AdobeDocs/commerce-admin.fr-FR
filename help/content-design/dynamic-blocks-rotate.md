@@ -4,11 +4,18 @@ description: Présentez un diaporama de contenu interactif sur le storefront en 
 exl-id: 3d338014-cf26-4171-b48b-d37b3d7b0e81
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/9fMqGoH1y1T0S9Njq9frKcspGhyTVZ-H2OzAJbWwhjU
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 654
@@ -50,7 +57,7 @@ Pour [créer les blocs dynamiques](dynamic-blocks.md) à placer dans le rotateur
 
    - Saisissez un **[!UICONTROL Title]** pour le rotateur.
 
-   - Dans la liste **[!UICONTROL Assign to Store Views]**, sélectionnez les [ vues de magasin](../getting-started/websites-stores-views.md) où le rotateur est disponible.
+   - Dans la liste **[!UICONTROL Assign to Store Views]**, sélectionnez les [&#x200B; vues de magasin](../getting-started/websites-stores-views.md) où le rotateur est disponible.
 
    - (Facultatif) Saisissez un nombre **[!UICONTROL Sort Order]** pour déterminer la position du rotateur dans le conteneur cible. Il est relatif aux autres widgets qui peuvent être affectés au même conteneur.
 
@@ -60,7 +67,7 @@ Pour [créer les blocs dynamiques](dynamic-blocks.md) à placer dans le rotateur
 
    - Définissez **[!UICONTROL Display on]** sur la page, ou le type de page, où le rotateur doit apparaître.
 
-      - `Categories` - Affiche le rotateur sur les pages de catégorie ancre](../catalog/navigation-layered.md) ou [ ancre. Options : Catégories d’ancrage / Catégories non-ancres
+      - `Categories` - Affiche le rotateur sur les pages de catégorie ancre[&#128279;](../catalog/navigation-layered.md) ou  ancre. Options : Catégories d’ancrage / Catégories non-ancres
       - `Products` - Affiche le rotateur sur un type spécifique de page de produit ou sur toutes les pages de produit. Options : Tous les types de produits / [Produit simple](../catalog/product-create-simple.md) / [Produit virtuel](../catalog/product-create-virtual.md) / [Produit groupé](../catalog/product-create-bundle.md) / [Produit téléchargeable](../catalog/product-create-downloadable.md) / [Carte cadeau](../catalog/product-gift-card-create.md) / [Produit configurable](../catalog/product-create-configurable.md) / [Produit groupé](../catalog/product-create-grouped.md)
       - `Generic Pages` - Affiche le rotateur sur toutes les pages, sur une page spécifique ou uniquement sur les pages avec une certaine disposition. Options : `All Pages` / `Specified Page` / `Page Layouts`
 

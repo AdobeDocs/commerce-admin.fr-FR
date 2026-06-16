@@ -4,11 +4,21 @@ description: Découvrez les workflows de bon de commande qui permettent aux entr
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
 TQID: https://experienceleague.adobe.com/YNQaayS05dNl3qUfoIUh2vqY3H3yTA32nt7rXmORF7A
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 947
@@ -18,7 +28,7 @@ ht-degree: 0%
 
 # Commandes fournisseur pour les entreprises
 
-Les bons de commande (PO) sont un moyen courant pour les entreprises de suivre et de contrôler les dépenses. [ Bon de commande ](../stores-purchase/purchase-order.md) est l’une des méthodes de paiement hors ligne standard prises en charge dans Adobe Commerce et Magento Open Source. Lorsque B2B d’Adobe Commerce est installé et que l’option [_Activer les commandes_](account-company-manage.md#advanced-settings) est activée pour un compte d’entreprise, toutes les commandes sont automatiquement créées en tant que commandes. Les utilisateurs de la société disposant des [autorisations](account-company-roles-permissions.md) requises peuvent créer, modifier et supprimer les ordres d&#39;achat qu&#39;ils créent ainsi que les ordres d&#39;achat créés par des utilisateurs subordonnés.
+Les bons de commande (PO) sont un moyen courant pour les entreprises de suivre et de contrôler les dépenses. [&#x200B; Bon de commande &#x200B;](../stores-purchase/purchase-order.md) est l’une des méthodes de paiement hors ligne standard prises en charge dans Adobe Commerce et Magento Open Source. Lorsque B2B d’Adobe Commerce est installé et que l’option [_Activer les commandes_](account-company-manage.md#advanced-settings) est activée pour un compte d’entreprise, toutes les commandes sont automatiquement créées en tant que commandes. Les utilisateurs de la société disposant des [autorisations](account-company-roles-permissions.md) requises peuvent créer, modifier et supprimer les ordres d&#39;achat qu&#39;ils créent ainsi que les ordres d&#39;achat créés par des utilisateurs subordonnés.
 
 ## Flux de commande fournisseur
 
@@ -64,7 +74,7 @@ Les règles d’approbation sont utilisées pour contrôler les dépenses en fon
 - Toute commande supérieure à 1 000 $ nécessite l&#39;approbation de votre gestionnaire et de l&#39;administrateur de l&#39;entreprise.
 - Toute commande comportant plus de 30 SKU uniques doit être approuvée par l’administrateur de l’entreprise.
 
-Une fois ces règles en place pour une entreprise, un utilisateur de l’entreprise peut terminer la commande immédiatement lorsque celle-ci est inférieure à 100 $. Pour en savoir plus sur la définition des règles d&#39;approbation, voir [ Règles d&#39;approbation ](account-dashboard-approval-rules.md).
+Une fois ces règles en place pour une entreprise, un utilisateur de l’entreprise peut terminer la commande immédiatement lorsque celle-ci est inférieure à 100 $. Pour en savoir plus sur la définition des règles d&#39;approbation, voir [&#x200B; Règles d&#39;approbation &#x200B;](account-dashboard-approval-rules.md).
 
 ### Types d’utilisateurs et d’utilisatrices du magasin
 

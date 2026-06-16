@@ -4,11 +4,20 @@ description: Utilisez les fichiers d’exemple et suivez les étapes pour créer
 exl-id: 2c146241-675f-4d23-9513-1722d5dd3357
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/i6y4j2MrN59vbxZXYOqTmUyjMURsaK-WOYChOFVW2Bc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 3341
@@ -20,7 +29,7 @@ ht-degree: 0%
 
 Suivez cet exercice en trois parties pour vous familiariser avec l’espace de travail [!DNL Page Builder] en créant une page simple qui illustre à quel point il est facile de créer des pages riches en contenu de votre propre conception.
 
-![ Exemple de page simple ](./assets/pb-tutorial1-simple-layout.png){width="700" zoomable="yes"}
+![&#x200B; Exemple de page simple &#x200B;](./assets/pb-tutorial1-simple-layout.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -56,7 +65,7 @@ Suivez les trois parties de cette présentation dans l’ordre.
 
 Dans cette partie de l’exercice Page simple , vous allez créer une page qui comporte une ligne et une bannière avec fond perdu. La ligne contient différentes images d’arrière-plan pour les ordinateurs de bureau et les appareils mobiles.
 
-![[!DNL Page Builder] ligne de fond perdu complète avec la bannière ](./assets/pb-tutorial1-full-bleed-with-banner.png){width="700" zoomable="yes"}
+![[!DNL Page Builder] ligne de fond perdu complète avec la bannière &#x200B;](./assets/pb-tutorial1-full-bleed-with-banner.png){width="700" zoomable="yes"}
 
 ### Étape 1 : créer une page
 
@@ -76,7 +85,7 @@ Dans cette partie de l’exercice Page simple , vous allez créer une page qui c
 
 1. Si les données d’exemple sont disponibles, définissez **[!UICONTROL New Theme]** sur `Magento Luma`. Sinon, vous pouvez choisir un autre thème disponible ou laisser vide pour utiliser le thème par défaut.
 
-   Le paramètre _[!UICONTROL New Theme]_peut être utilisé pour remplacer le thème par défaut et pour appliquer un autre thème à la page.
+   Le paramètre _[!UICONTROL New Theme]_&#x200B;peut être utilisé pour remplacer le thème par défaut et pour appliquer un autre thème à la page.
 
    >[!NOTE]
    >
@@ -118,7 +127,7 @@ Dans cette partie de l’exercice Page simple , vous allez créer une page qui c
 
    ![Paramètres des lignes - fond perdu complet](./assets/pb-tutorial1-row-settings-appearance-full-bleed.png){width="600" zoomable="yes"}
 
-1. Faites défiler jusqu’à la section _[!UICONTROL Advanced]_et définissez tous les paramètres **[!UICONTROL Margins and Padding]**sur `0`.
+1. Faites défiler jusqu’à la section _[!UICONTROL Advanced]_&#x200B;et définissez tous les paramètres **[!UICONTROL Margins and Padding]**&#x200B;sur `0`.
 
    Ce paramètre garantit que la bannière étend toute la largeur de la ligne.
 
@@ -153,7 +162,7 @@ Dans cette partie de l’exercice Page simple , vous allez créer une page qui c
 
    ![Apparence de la bannière - collage droit](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
-1. Faites défiler jusqu’à la section _[!UICONTROL Background]_et définissez l’image d’arrière-plan de la bannière :
+1. Faites défiler jusqu’à la section _[!UICONTROL Background]_&#x200B;et définissez l’image d’arrière-plan de la bannière :
 
    - Par **[!UICONTROL Background Image]**, cliquez sur **Télécharger**.
 
@@ -206,7 +215,7 @@ __
 
 1. Pointez pour afficher la boîte à outils Bannière, sélectionnez à nouveau l’icône _Paramètres_ ( ![icône Paramètres](./assets/pb-icon-settings.png){width="20"} ), puis faites défiler l’écran jusqu’à la section _[!UICONTROL Content]_.
 
-   Notez que votre texte s’affiche dans la zone _Texte du message_. Le texte peut être saisi et modifié à partir de l’étape ou de la section _[!UICONTROL Content]_des paramètres de la bannière.
+   Notez que votre texte s’affiche dans la zone _Texte du message_. Le texte peut être saisi et modifié à partir de l’étape ou de la section _[!UICONTROL Content]_&#x200B;des paramètres de la bannière.
 
    ![Paramètres de bannière - texte du message](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
 
@@ -249,7 +258,7 @@ __
 
 1. Dans le coin supérieur droit de la scène, cliquez sur l’icône _Fermer le plein écran_ (![icône Fermer le plein écran](./assets/pb-icon-reduce.png)).
 
-   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_de la page dont l’aperçu est affiché.
+   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_&#x200B;de la page dont l’aperçu est affiché.
 
    Vous pouvez basculer entre les deux modes d’espace de travail à tout moment.
 
@@ -271,7 +280,7 @@ Dans cette partie de l&#39;exercice, vous ajoutez une ligne à la page et la div
 
 1. Cliquez sur **[!UICONTROL Edit with Page Builder]** ou dans la zone de prévisualisation du contenu.
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Row]**vers la scène et placez-le au-dessus de la bannière.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Row]**&#x200B;vers la scène et placez-le au-dessus de la bannière.
 
    La ligne directrice rouge marque la frontière entre les deux lignes.
 
@@ -285,13 +294,13 @@ Dans cette partie de l&#39;exercice, vous ajoutez une ligne à la page et la div
 
    Ce paramètre limite la zone de contenu de la ligne à la largeur de la page telle que définie par le thème.
 
-   ![Conserver le paramètre par défaut Apparence contenue ](./assets/pb-tutorial1-row-settings-appearance.png){width="600" zoomable="yes"}
+   ![Conserver le paramètre par défaut Apparence contenue &#x200B;](./assets/pb-tutorial1-row-settings-appearance.png){width="600" zoomable="yes"}
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]** pour enregistrer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 
 ### Étape 2 : ajouter une colonne
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Column]**vers la nouvelle ligne.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Column]**&#x200B;vers la nouvelle ligne.
 
    ![Faire glisser un type de contenu de colonne vers l’étape](./assets/pb-tutorial1-column-drag-to-stage.png){width="600" zoomable="yes"}
 
@@ -351,7 +360,7 @@ Au cours de cette étape, vous apprendrez à charger une image sur la bannière.
 
 1. Dans le coin supérieur droit de la scène, cliquez sur l’icône _Fermer le plein écran_ (![icône Fermer le plein écran](./assets/pb-icon-reduce.png)).
 
-   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_de la page dont l’aperçu est affiché.
+   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_&#x200B;de la page dont l’aperçu est affiché.
 
 1. Dans le coin supérieur droit, cliquez sur la flèche **[!UICONTROL Save]** et choisissez **[!UICONTROL Save & Close]**.
 
@@ -371,7 +380,7 @@ La dernière ligne de cette page présente le contenu d’une révision du produ
 
 1. Cliquez sur **[!UICONTROL Edit with Page Builder]** ou dans la zone de prévisualisation du contenu.
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Row]**vers la scène et placez-le au-dessus de la ligne créée dans la deuxième partie de cet exercice.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Row]**&#x200B;vers la scène et placez-le au-dessus de la ligne créée dans la deuxième partie de cet exercice.
 
    Une ligne directrice rouge marque la frontière entre les deux lignes.
 
@@ -391,7 +400,7 @@ La dernière ligne de cette page présente le contenu d’une révision du produ
 
    ![Définition de la couleur d’arrière-plan](./assets/pb-tutorial1-row-settings-background-color.png){width="600" zoomable="yes"}
 
-1. Faites défiler jusqu’à la section _[!UICONTROL Advanced]_et définissez toutes les valeurs **Marges et marge intérieure**sur `0`.
+1. Faites défiler jusqu’à la section _[!UICONTROL Advanced]_&#x200B;et définissez toutes les valeurs **Marges et marge intérieure**&#x200B;sur `0`.
 
    ![Définition des marges et de la marge intérieure](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -403,7 +412,7 @@ La dernière ligne de cette page présente le contenu d’une révision du produ
 
 ### Étape 2 : ajouter des colonnes de largeurs différentes
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Column]**vers la ligne supérieure de la scène.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un espace réservé&#x200B;**[!UICONTROL Column]**&#x200B;vers la ligne supérieure de la scène.
 
    ![Faire glisser une colonne vers l’étape](./assets/pb-tutorial1-column-drag.png){width="600" zoomable="yes"}
 
@@ -415,7 +424,7 @@ La dernière ligne de cette page présente le contenu d’une révision du produ
 
 1. Pointez sur le conteneur de la première colonne pour afficher la boîte à outils et choisissez l’icône _Paramètres_ ( ![icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Faites défiler jusqu’à la section _[!UICONTROL Advanced]_et définissez toutes les valeurs **Marges et marge intérieure**sur `0`.
+1. Faites défiler jusqu’à la section _[!UICONTROL Advanced]_&#x200B;et définissez toutes les valeurs **Marges et marge intérieure**&#x200B;sur `0`.
 
    ![Définition des marges et de la marge intérieure](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -451,7 +460,7 @@ La deuxième colonne de la ligne doit contenir le contenu d’une révision clie
 
    ![Insérer une image dans le texte](./assets/pb-tutorial1-column2-editor-toolbar-insert-image.png){width="600" zoomable="yes"}
 
-   - Dans la boîte de dialogue _[!UICONTROL Insert/edit image]_, cliquez sur l’icône_ Rechercher _( ![Icône Rechercher](./assets/editor-btn-find-source.png) ) en regard du champ_[!UICONTROL Source]_.
+   - Dans la boîte de dialogue _[!UICONTROL Insert/edit image]_, cliquez sur l’icône_ Rechercher _( ![Icône Rechercher](./assets/editor-btn-find-source.png) ) en regard du champ&#x200B;_[!UICONTROL Source]_.
 
      ![Boîte de dialogue Insérer/modifier une image](./assets/pb-tutorial1-column2-text-insert-edit-image.png){width="600" zoomable="yes"}
 
@@ -513,7 +522,7 @@ La deuxième colonne de la ligne doit contenir le contenu d’une révision clie
 
    ![Définition de la hauteur minimale et de l’alignement vertical](./assets/pb-tutorial1-column2-layout-vertical-alignment.png){width="600" zoomable="yes"}
 
-1. Faites défiler jusqu’à la section _[!UICONTROL Advanced]_et définissez toutes les valeurs **[!UICONTROL Margins and Padding]**sur zéro ( `0` ).
+1. Faites défiler jusqu’à la section _[!UICONTROL Advanced]_&#x200B;et définissez toutes les valeurs **[!UICONTROL Margins and Padding]**&#x200B;sur zéro ( `0` ).
 
    ![Définition des marges et de la marge intérieure](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -547,7 +556,7 @@ La deuxième colonne de la ligne doit contenir le contenu d’une révision clie
 
 1. Dans le coin supérieur droit de la scène, cliquez sur l’icône _Fermer le plein écran_ (![icône Fermer le plein écran](./assets/pb-icon-reduce.png)).
 
-   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_de la page dont l’aperçu est affiché.
+   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_&#x200B;de la page dont l’aperçu est affiché.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]**.
 
@@ -561,7 +570,7 @@ Une fois les trois lignes terminées, l’étape finale consiste à réorganiser
 
 1. Pointez sur la première ligne de la scène pour afficher la palette et sélectionnez l’icône _Déplacer_ (![Icône Déplacer](./assets/pb-icon-move.png)).
 
-   ![ Déplacer ](./assets/pb-tutorial1-row-toolbox-move.png){width="600" zoomable="yes"}
+   ![&#x200B; Déplacer &#x200B;](./assets/pb-tutorial1-row-toolbox-move.png){width="600" zoomable="yes"}
 
 1. Maintenez le bouton de la souris enfoncé pendant que vous vérifiez que tout le contenu de la ligne est sélectionné, puis faites glisser la ligne en dessous de la ligne directrice rouge, au bas de la page.
 
@@ -577,7 +586,7 @@ Une fois les trois lignes terminées, l’étape finale consiste à réorganiser
 
 1. Dans le coin supérieur droit de la scène, cliquez sur l’icône _Fermer le plein écran_ (![icône Fermer le plein écran](./assets/pb-icon-reduce.png)).
 
-   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_de la page dont l’aperçu est affiché.
+   Cliquer sur cette icône vous renvoie à la section _[!UICONTROL Content]_&#x200B;de la page dont l’aperçu est affiché.
 
 1. Dans le coin supérieur droit, cliquez sur la flèche **[!UICONTROL Save]** et choisissez **[!UICONTROL Save & Close]**.
 

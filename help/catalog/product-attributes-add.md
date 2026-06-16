@@ -4,11 +4,21 @@ description: Découvrez comment ajouter des attributs aux produits de votre cata
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/UjUC1RvGmumw8smkucJTNMYlrnQ43uurysnPdD48eog
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 867
@@ -42,7 +52,7 @@ Bien que les attributs soient principalement gérés à partir du menu [Magasins
 
 ![Propriétés des attributs](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
-1. Sous _[!UICONTROL Attribute Properties]_, saisissez un **[!UICONTROL Attribute Label]**pour identifier l’attribut.
+1. Sous _[!UICONTROL Attribute Properties]_, saisissez un **[!UICONTROL Attribute Label]**&#x200B;pour identifier l’attribut.
 
 1. Définissez **[!UICONTROL Catalog Input Type for Store Owner]** sur le type de [contrôle de saisie](attributes-input-types.md) à utiliser pour la saisie de données.
 
@@ -66,7 +76,7 @@ Bien que les attributs soient principalement gérés à partir du menu [Magasins
 
 ## Étape 3 : décrire les propriétés avancées (facultatif)
 
-![ Propriétés d’attribut avancées ](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
+![&#x200B; Propriétés d’attribut avancées &#x200B;](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
 1. Saisissez un **[!UICONTROL Attribute Code]** unique en minuscules et sans espaces.
 
@@ -91,7 +101,7 @@ Bien que les attributs soient principalement gérés à partir du menu [Magasins
 
 1. Si vous souhaitez pouvoir inclure l’attribut en tant que colonne dans la grille Produits, définissez **[!UICONTROL Add to Column Options]** sur `Yes`.
 
-1. Si vous souhaitez pouvoir filtrer la grille de _[!UICONTROL Products]_en fonction de cette colonne, définissez **[!UICONTROL Use in Filter Options]**sur `Yes`.
+1. Si vous souhaitez pouvoir filtrer la grille de _[!UICONTROL Products]_&#x200B;en fonction de cette colonne, définissez **[!UICONTROL Use in Filter Options]**&#x200B;sur `Yes`.
 
 ## Étape 4 : saisir le libellé du champ
 
@@ -125,7 +135,7 @@ Bien que les attributs soient principalement gérés à partir du menu [Magasins
 
    >[!NOTE]
    >
-   >Lorsque le paramètre _[!UICONTROL Use in Search]_est défini sur `No`, le paramètre_[!UICONTROL Use in Search Results Layered Navigation]_ n’est pas affiché et l’attribut product n’est pas utilisé dans la recherche avec une valeur de paramètre [!UICONTROL Use in Layered Navigation].
+   >Lorsque le paramètre _[!UICONTROL Use in Search]_&#x200B;est défini sur `No`, le paramètre&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ n’est pas affiché et l’attribut product n’est pas utilisé dans la recherche avec une valeur de paramètre [!UICONTROL Use in Layered Navigation].
 
 1. Pour utiliser l’attribut dans une navigation superposée sur les pages de résultats de recherche, définissez **[!UICONTROL Use in Search Results Layered Navigation]** sur `Yes` et saisissez un nombre dans le champ **[!UICONTROL Position]** .
 
@@ -133,7 +143,7 @@ Bien que les attributs soient principalement gérés à partir du menu [Magasins
 
    >[!NOTE]
    >
-   >Le champ _[!UICONTROL Position]_est grisé par défaut et vous devez enregistrer l’attribut avant de pouvoir modifier ce paramètre.
+   >Le champ _[!UICONTROL Position]_&#x200B;est grisé par défaut et vous devez enregistrer l’attribut avant de pouvoir modifier ce paramètre.
 
 1. Pour utiliser l’attribut dans les règles de prix, définissez **[!UICONTROL Use for Promo Rule Conditions]** sur `Yes`.
 

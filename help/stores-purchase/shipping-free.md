@@ -4,11 +4,18 @@ description: Découvrez comment configurer une option de livraison gratuite pour
 exl-id: 3ce69583-0f7f-4c23-b3e3-7d2502bc1bca
 feature: Shipping/Delivery
 TQID: https://experienceleague.adobe.com/bLvgCzOtiYjpSdTm7f0Te5fjWbiaL3mfC4DN8ONbOLs
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 395
@@ -44,7 +51,7 @@ _Livraison gratuite_ est l&#39;une des promotions les plus efficaces que vous po
 
    >[!TIP]
    >
-   >Pour utiliser la livraison gratuite avec les [tarifs du tableau](shipping-table-rate.md), faites en sorte que le _[!UICONTROL Minimum Order Amount]_soit si élevé qu&#39;il ne soit jamais atteint. L&#39;utilisation de cette valeur élevée empêche l&#39;entrée en vigueur de la livraison gratuite, sauf si elle est déclenchée par une règle de prix.
+   >Pour utiliser la livraison gratuite avec les [tarifs du tableau](shipping-table-rate.md), faites en sorte que le _[!UICONTROL Minimum Order Amount]_&#x200B;soit si élevé qu&#39;il ne soit jamais atteint. L&#39;utilisation de cette valeur élevée empêche l&#39;entrée en vigueur de la livraison gratuite, sauf si elle est déclenchée par une règle de prix.
 
 1. Définir **[!UICONTROL Include Tax to Amount]** :
 
@@ -59,7 +66,7 @@ _Livraison gratuite_ est l&#39;une des promotions les plus efficaces que vous po
 
    - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans la configuration de votre boutique peuvent utiliser la livraison gratuite.
 
-   - `Specific Countries` - Après avoir choisi cette valeur, la liste des _[!UICONTROL Ship to Specific Countries]_s’affiche. Dans la liste, sélectionnez chaque pays où la livraison gratuite peut être utilisée.
+   - `Specific Countries` - Après avoir choisi cette valeur, la liste des _[!UICONTROL Ship to Specific Countries]_&#x200B;s’affiche. Dans la liste, sélectionnez chaque pays où la livraison gratuite peut être utilisée.
 
 1. Définir **[!UICONTROL Show Method if Not Applicable]** :
 

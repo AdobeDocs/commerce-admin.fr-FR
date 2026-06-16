@@ -4,11 +4,19 @@ description: Consultez un exemple d’importation de données de produit pour un
 exl-id: 52146979-9911-449b-9f14-54377e2ae9f4
 feature: Products, Data Import/Export
 TQID: https://experienceleague.adobe.com/UeGDyElWBOH7kUeeb7Bhqksp-hQ-jq5FkoYTWMShF6A
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 628
@@ -61,7 +69,7 @@ Au cours de cette étape, le kit Sprite Yoga Companion est exporté sous la form
 
 1. Faites défiler la page jusqu’au bas de la section, puis cliquez sur **[!UICONTROL Continue]**.
 
-1. Dans la colonne _[!UICONTROL Action]_de la grille de_[!UICONTROL File name]_, cliquez sur **[!UICONTROL Select]** et choisissez `Download`.
+1. Dans la colonne _[!UICONTROL Action]_&#x200B;de la grille de&#x200B;_[!UICONTROL File name]_, cliquez sur **[!UICONTROL Select]** et choisissez `Download`.
 
    Le fichier s’affiche à l’emplacement de téléchargement utilisé par votre navigateur.
 
@@ -89,7 +97,7 @@ Au cours de cette étape, le kit Sprite Yoga Companion est exporté sous la form
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
 
-1. Sous _[!UICONTROL Import Settings]_, définissez **[!UICONTROL Entity Type]**sur `Products`.
+1. Sous _[!UICONTROL Import Settings]_, définissez **[!UICONTROL Entity Type]**&#x200B;sur `Products`.
 
 1. Définissez **[!UICONTROL Import Behavior]** sur `Replace`.
 
@@ -103,6 +111,6 @@ Au cours de cette étape, le kit Sprite Yoga Companion est exporté sous la form
 
 1. Si le fichier est valide, cliquez sur **[!UICONTROL Import]**.
 
-1. Une fois le processus terminé, accédez à **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**et cliquez sur **[!UICONTROL Flush Cache Storage]**.
+1. Une fois le processus terminé, accédez à **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;et cliquez sur **[!UICONTROL Flush Cache Storage]**.
 
    Cela garantit que le produit mis à jour est immédiatement disponible dans le storefront.

@@ -4,12 +4,22 @@ description: Découvrez les comptes de carte cadeau et comment configurer les pa
 exl-id: f8caff04-38fd-4195-ab11-77dae900976d
 feature: Products, Gift, Configuration
 TQID: https://experienceleague.adobe.com/Yc9uWjM1Je77Cw1BO5PJVjg05icRtI4Ehhytr5mTCBI
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: d9ced453-36f4-4eb5-b2f3-1d593e32476b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: d9ced453-36f4-4eb5-b2f3-1d593e32476b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 935
@@ -33,7 +43,7 @@ La configuration de carte cadeau établit les paramètres par défaut pour toute
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Gift Cards]**.
 
-1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Gift Card Email Settings]_et procédez comme suit :
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Gift Card Email Settings]_&#x200B;et procédez comme suit :
 
    - Définissez **[!UICONTROL Gift Card Notification Email Sender]** sur l’identité du magasin qui s’affiche comme expéditeur des notifications de carte cadeau.
 
@@ -41,7 +51,7 @@ La configuration de carte cadeau établit les paramètres par défaut pour toute
 
    ![Paramètres d’e-mail de la carte cadeau](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
 
-1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Email Sent from Gift Card Account Management]_et procédez comme suit :
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Email Sent from Gift Card Account Management]_&#x200B;et procédez comme suit :
 
    - Définissez **[!UICONTROL Gift Card Email Sender]** sur l’identité du magasin qui apparaîtra comme expéditeur des cartes-cadeaux.
 
@@ -74,7 +84,7 @@ Voir [Stockage des adresses e-mail](../configuration-reference/general/store-ema
 
 ### Étape 3 : établir le pool de codes de carte cadeau
 
-1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Gift Card Account General Settings]_et procédez comme suit :
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Gift Card Account General Settings]_&#x200B;et procédez comme suit :
 
    ![Paramètres généraux du compte de carte-cadeau](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
 
@@ -122,7 +132,7 @@ Voir [Stockage des adresses e-mail](../configuration-reference/general/store-ema
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add Gift Card Account]**.
 
-1. Dans la section _[!UICONTROL Information]_, définissez **[!UICONTROL Active]**sur `Yes` et procédez comme suit :
+1. Dans la section _[!UICONTROL Information]_, définissez **[!UICONTROL Active]**&#x200B;sur `Yes` et procédez comme suit :
 
    - Pour rendre le solde de la carte remboursable au passage en caisse ou transféré au crédit de la boutique du client, définissez **[!UICONTROL Redeemable]** sur `Yes`.
 

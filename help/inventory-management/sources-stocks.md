@@ -3,11 +3,20 @@ title: Stocks et sources
 description: Découvrez les relations entre les produits, les sources et les stocks.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
 TQID: https://experienceleague.adobe.com/3nQssDNA41zHJH0SCN6VdMqqfbHCeyc6K0B91-BF8Kc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 809
@@ -35,7 +44,7 @@ Dans cet exemple, le marchand dispose d’un vélo tout terrain qui peut être e
 
 [Stocks](stocks-manage.md) représente un inventaire virtuel et agrégé de produits disponibles à la vente dans vos canaux de vente (sites Web). Chaque stock mappe vos canaux de vente avec les sources pour les stocks disponibles et les quantités à vendre. Selon la configuration de votre site, le stock peut être affecté à un ou plusieurs canaux et sources de vente.
 
-Les canaux de vente représentent les entités qui vendent votre stock, notamment les sites web, les vues de magasin, les groupes de clients B2B, etc. Les canaux de vente ne peuvent être associés qu’à un seul Stock. Chaque canal de vente ne peut être attribué qu’à un seul stock, et un seul stock peut être attribué à plusieurs sites web. Grâce au stock, vous pouvez modifier la priorité des sources utilisées lors des commandes d’expédition et par l’algorithme de sélection de [](selection-reservations.md).
+Les canaux de vente représentent les entités qui vendent votre stock, notamment les sites web, les vues de magasin, les groupes de clients B2B, etc. Les canaux de vente ne peuvent être associés qu’à un seul Stock. Chaque canal de vente ne peut être attribué qu’à un seul stock, et un seul stock peut être attribué à plusieurs sites web. Grâce au stock, vous pouvez modifier la priorité des sources utilisées lors des commandes d’expédition et par l’algorithme de sélection de [&#128279;](selection-reservations.md).
 
 Vous commencez avec un Stock par défaut attribué avec le Source par défaut et votre site web, mieux utilisé par les commerçants à source unique. Seul le Source par défaut peut être affecté à ce stock. Les commerçants multi-sources créent des stocks personnalisés pour les sources et les sites web personnalisés, selon les besoins.
 
@@ -45,8 +54,8 @@ Vous commencez avec un Stock par défaut attribué avec le Source par défaut et
 
 Quantité correspond au nombre de produits de votre stock actif disponibles à l&#39;achat. La quantité de produits augmente et diminue lorsque vous terminez des expéditions ou ajustez les stocks. L’ajout de produits à un panier n’affecte pas cette quantité. La Quantité commercialisable effectue le suivi de la disponibilité du produit pour un canal de vente et utilise également cette valeur pour déterminer le stock disponible à l&#39;achat. Selon le nombre de vos sources, vous pouvez voir et gérer la quantité de produits pour l&#39;un des éléments suivants :
 
-- **Quantité** - Pour les commerçants à source unique, la colonne et la valeur _[!UICONTROL Quantity]_permettent de suivre le montant du stock disponible.
-- **Quantité par Source** - Pour les commerçants multi-sources, la colonne _[!UICONTROL Quantity per Source]_et les valeurs effectuent le suivi du stock disponible par emplacement. Si vous ajoutez plusieurs origines, cette valeur remplace la quantité et répertorie chaque origine et quantité affectée.
+- **Quantité** - Pour les commerçants à source unique, la colonne et la valeur _[!UICONTROL Quantity]_&#x200B;permettent de suivre le montant du stock disponible.
+- **Quantité par Source** - Pour les commerçants multi-sources, la colonne _[!UICONTROL Quantity per Source]_&#x200B;et les valeurs effectuent le suivi du stock disponible par emplacement. Si vous ajoutez plusieurs origines, cette valeur remplace la quantité et répertorie chaque origine et quantité affectée.
 
 Les réservations effectuent le suivi des demandes de stock pour l’ensemble du processus d’achat (ajout de produits au panier, passage en caisse et gestion des remboursements). Pour le stock disponible et le stock, réservez les montants du stock par commande via le processus de passage en caisse, soustraits de la quantité vendable. Les réservations sont converties en déductions de quantité lors de la facturation et de l’expédition des produits.
 

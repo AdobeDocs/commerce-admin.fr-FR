@@ -4,11 +4,20 @@ description: Découvrez comment les clients peuvent afficher et gérer leur hist
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
 TQID: https://experienceleague.adobe.com/FGexEy3ZXcnDUoHOiGc3B24ri2AuP4vX-vX7q3tcbRA
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 753
@@ -24,9 +33,9 @@ Les clients ont accès à toutes leurs commandes à partir de leur compte. Les c
 
 {{b2b-feature}}
 
-Vos premiers résultats de _[!UICONTROL My Orders]_contiennent également les ordres correspondants d’utilisateurs subordonnés de tous les sites Web de l’instance de commerce. Un client associé à un compte d’entreprise peut filtrer la liste des commandes pour rechercher rapidement des enregistrements dans les résultats. Pour afficher les options de filtrage, le client clique sur **[!UICONTROL Filter]**, puis sur **[!UICONTROL Close]**pour masquer les filtres.
+Vos premiers résultats de _[!UICONTROL My Orders]_&#x200B;contiennent également les ordres correspondants d’utilisateurs subordonnés de tous les sites Web de l’instance de commerce. Un client associé à un compte d’entreprise peut filtrer la liste des commandes pour rechercher rapidement des enregistrements dans les résultats. Pour afficher les options de filtrage, le client clique sur **[!UICONTROL Filter]**, puis sur **[!UICONTROL Close]**&#x200B;pour masquer les filtres.
 
-![ Mes commandes ](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
+![&#x200B; Mes commandes &#x200B;](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
 | Filtre | Description |
 | ------ | ----------- |
@@ -48,7 +57,7 @@ Un client trouve l’ordre dans la liste et clique sur **[!UICONTROL View Order]
 
 Le bloc **[!UICONTROL Recent Orders]** s’affiche dans la barre latérale et sur la page **[!UICONTROL My Account]** pour les clients connectés après avoir passé une commande. Il affiche cinq produits du dernier achat.
 
-Le client peut lire les produits dans le panier en les sélectionnant et en cliquant sur **[!UICONTROL Add to Cart]**. Ils peuvent également afficher la dernière commande en cliquant sur **[!UICONTROL View all]**, ce qui redirige vers la page _[!UICONTROL My Account]_et le bloc de **[!UICONTROL Recent Orders]**.
+Le client peut lire les produits dans le panier en les sélectionnant et en cliquant sur **[!UICONTROL Add to Cart]**. Ils peuvent également afficher la dernière commande en cliquant sur **[!UICONTROL View all]**, ce qui redirige vers la page _[!UICONTROL My Account]_&#x200B;et le bloc de **[!UICONTROL Recent Orders]**.
 
 ### Imprimer la commande
 
@@ -64,7 +73,7 @@ Le client peut lire les produits dans le panier en les sélectionnant et en cliq
 
    - **[!UICONTROL Print Invoice]**
 
-   ![ Factures ](./assets/customer-account-order-invoices.png){width="700" zoomable="yes"}
+   ![&#x200B; Factures &#x200B;](./assets/customer-account-order-invoices.png){width="700" zoomable="yes"}
 
 1. Utilise la boîte de dialogue Imprimer pour terminer l’impression.
 
@@ -109,7 +118,7 @@ Un client peut lancer la fonctionnalité de réorganisation pour une commande sp
 
 ## Réordonner
 
-Le lien _[!UICONTROL Reorder]_s’affiche dans la liste avec les commandes à proximité du lien_[!UICONTROL View]_.
+Le lien _[!UICONTROL Reorder]_&#x200B;s’affiche dans la liste avec les commandes à proximité du lien&#x200B;_[!UICONTROL View]_.
 
 ![Lien Réorganiser de la page Ma commande](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
@@ -123,7 +132,7 @@ Le client est redirigé vers le panier et tous les produits y sont ajoutés.
 >
 >Il est possible de réorganiser les produits `Not Visible Individually`.
 
-Le lien _[!UICONTROL Reorder]_n’apparaît pas sur les pages_[!UICONTROL My Orders]_ et _[!UICONTROL View Order]_.
+Le lien _[!UICONTROL Reorder]_&#x200B;n’apparaît pas sur les pages&#x200B;_[!UICONTROL My Orders]_ et _[!UICONTROL View Order]_.
 
 ![Page Ma commande](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
@@ -141,7 +150,7 @@ Un client peut lancer la fonctionnalité d&#39;annulation pour une commande spé
 - Page Vue Commande
 - Page Mon compte
 
-Le lien _[!UICONTROL Cancel Order]_s’affiche à côté du lien_[!UICONTROL Reorder]_. Si la commande ne peut pas être annulée, le lien n’est pas affiché.
+Le lien _[!UICONTROL Cancel Order]_&#x200B;s’affiche à côté du lien&#x200B;_[!UICONTROL Reorder]_. Si la commande ne peut pas être annulée, le lien n’est pas affiché.
 
 ![Lien Annuler sur la page Ma commande](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
@@ -159,7 +168,7 @@ Pour annuler, le client :
 
    ![Annuler sur la page Ma commande](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   Après l&#39;annulation, les commandes dont le statut était _[!UICONTROL Pending]_, changent en statut_[!UICONTROL Canceled]_, les commandes dont le statut était _[!UICONTROL Processing]_, changent en statut_[!UICONTROL Closed]_ et un remboursement seront traités.
+   Après l&#39;annulation, les commandes dont le statut était _[!UICONTROL Pending]_, changent en statut&#x200B;_[!UICONTROL Canceled]_, les commandes dont le statut était _[!UICONTROL Processing]_, changent en statut&#x200B;_[!UICONTROL Closed]_ et un remboursement seront traités.
 
    Une fois l’annulation terminée, un e-mail est envoyé au client.
 

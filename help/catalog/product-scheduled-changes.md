@@ -4,11 +4,19 @@ description: Découvrez comment planifier des modifications à vos listes de pro
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/eG4RXNCToWJxbPB6GQC9htRnh4z4ktPTb4FPrefJVtk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 715
@@ -59,7 +67,7 @@ Lors de la configuration des plannings pour les mises à jour de produit et de l
 
    ![Planifier comme nouvelle mise à jour](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
 
-1. Faites défiler jusqu’à _[!UICONTROL Price]_et cliquez sur **[!UICONTROL Advanced Pricing]**.
+1. Faites défiler jusqu’à _[!UICONTROL Price]_&#x200B;et cliquez sur **[!UICONTROL Advanced Pricing]**.
 
 1. Saisissez un **[!UICONTROL Special Price]** pour le produit pendant la campagne planifiée et cliquez sur **[!UICONTROL Done]**.
 
@@ -91,7 +99,7 @@ La modification planifiée s’affiche en haut de la page des produits, avec les
 
 ## Modifier la modification planifiée
 
-1. Dans la zone _[!UICONTROL Scheduled Changes]_en haut de la page, cliquez sur **[!UICONTROL View/Edit]**.
+1. Dans la zone _[!UICONTROL Scheduled Changes]_&#x200B;en haut de la page, cliquez sur **[!UICONTROL View/Edit]**.
 
 1. Apportez les modifications nécessaires à la mise à jour planifiée.
 
@@ -99,7 +107,7 @@ La modification planifiée s’affiche en haut de la page des produits, avec les
 
 ## Supprimer la modification planifiée
 
-1. Dans la zone _[!UICONTROL Scheduled Changes]_en haut de la page, cliquez sur **[!UICONTROL View/Edit]**.
+1. Dans la zone _[!UICONTROL Scheduled Changes]_&#x200B;en haut de la page, cliquez sur **[!UICONTROL View/Edit]**.
 
 1. Dans la barre supérieure, cliquez sur **[!UICONTROL Remove from Update]**.
 
@@ -113,7 +121,7 @@ La modification planifiée s’affiche en haut de la page des produits, avec les
 
 {{ce-feature}}
 
-La section _[!UICONTROL Schedule Design Update]_vous permet d’apporter des modifications temporaires à l’aspect de la page du produit. Vous pouvez planifier des modifications de conception pour une saison, une promotion ou simplement pour rafraîchir les choses. Les modifications de conception peuvent être planifiées à l’avance afin qu’elles soient prises en compte, ou_ goutte à goutte _, selon la planification que vous avez définie.
+La section _[!UICONTROL Schedule Design Update]_&#x200B;vous permet d’apporter des modifications temporaires à l’aspect de la page du produit. Vous pouvez planifier des modifications de conception pour une saison, une promotion ou simplement pour rafraîchir les choses. Les modifications de conception peuvent être planifiées à l’avance afin qu’elles soient prises en compte, ou_ goutte à goutte _, selon la planification que vous avez définie.
 
 ![Mise à jour de conception planifiée](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
 

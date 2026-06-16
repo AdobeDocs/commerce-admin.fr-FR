@@ -4,11 +4,20 @@ description: Découvrez le site web, le magasin et la hiérarchie d’affichage 
 exl-id: d745cbd0-151b-4f82-bb6c-fb6b9565a014
 feature: Site Management, System
 TQID: https://experienceleague.adobe.com/Qx4MO7bO5PoWmt4XxYeqsHeCq4Ov2mPp5Q0JAIDeaY4
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1199
@@ -39,7 +48,7 @@ Voici quelques exemples de configuration d’URL pour plusieurs magasins :
 | `yourdomain.com/store1`<br>`yourdomain.com/store2` | Chaque magasin possède un chemin d’accès différent, mais partage un domaine. |
 | `store1.yourdomain.com`<br>`store2.yourdomain.com` | Chaque magasin possède un sous-domaine différent du domaine principal. |
 
-Les installations multi-magasin d’Adobe Commerce doivent être configurées à partir de l’Admin, mais également à partir de la ligne de commande du serveur. Le [ Guide de configuration d’Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) fournit des instructions détaillées sur la configuration de l’environnement du serveur.
+Les installations multi-magasin d’Adobe Commerce doivent être configurées à partir de l’Admin, mais également à partir de la ligne de commande du serveur. Le [&#x200B; Guide de configuration d’Adobe Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) fournit des instructions détaillées sur la configuration de l’environnement du serveur.
 
 ### Étape 1 : choisir le domaine du magasin
 
@@ -91,7 +100,7 @@ La première étape consiste à choisir la façon dont vous souhaitez positionne
 
 1. Sur la barre latérale _Admin_, cliquez sur **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Sous _[!UICONTROL General]_dans le panneau de gauche, choisissez **[!UICONTROL Web]**.
+1. Sous _[!UICONTROL General]_&#x200B;dans le panneau de gauche, choisissez **[!UICONTROL Web]**.
 
 1. Dans le coin supérieur gauche, définissez **[!UICONTROL Store View]** sur l’affichage que vous avez créé pour le nouveau magasin.
 
@@ -124,7 +133,7 @@ Pour Adobe Commerce sur les infrastructures cloud, voir [Configuration de plusie
 
 Plusieurs sites web peuvent être configurés à partir d’une seule installation d’Adobe Commerce ou de Magento Open Source avec le même domaine ou des domaines différents. Par défaut, les magasins qui se trouvent sous le même site web ont la même adresse IP et le même domaine, utilisent le même certificat de sécurité et partagent un seul processus de passage en caisse. Si vous souhaitez que chaque magasin dispose d’un processus de passage en caisse dédié sous son propre domaine, chaque magasin doit disposer d’une adresse IP distincte et d’un certificat de sécurité distinct.
 
-Les installations multi-sites d’Adobe Commerce ou de Magento Open Source doivent être configurées à partir de l’Admin, mais aussi à partir de la ligne de commande du serveur. Le [ Guide de configuration de Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) fournit des instructions détaillées sur la configuration de l’environnement du serveur.
+Les installations multi-sites d’Adobe Commerce ou de Magento Open Source doivent être configurées à partir de l’Admin, mais aussi à partir de la ligne de commande du serveur. Le [&#x200B; Guide de configuration de Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) fournit des instructions détaillées sur la configuration de l’environnement du serveur.
 
 ![Portée - Sites web](./assets/scope-multisite.svg){width="550"}
 

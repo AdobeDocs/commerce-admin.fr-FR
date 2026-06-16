@@ -5,11 +5,23 @@ exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/l7Ub5CCeiR6ec3PiRkVXXaVyPaqDMJLf5TqKpIvL7T8
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: cc250cf1-34eb-4863-80d0-d170d45ea067id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1709
@@ -122,7 +134,7 @@ Pour plus d’informations, consultez [Bonnes pratiques relatives aux performanc
    - Définissez **[!UICONTROL Merge CSS Files]** sur `Yes`.
    - Définissez **[!UICONTROL Minify CSS Files]** sur `Yes`.
 
-   ![ Configuration avancée - Paramètres CSS ](../configuration-reference/advanced/assets/developer-css-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Configuration avancée - Paramètres CSS &#x200B;](../configuration-reference/advanced/assets/developer-css-settings.png){width="600" zoomable="yes"}
 
    [_Paramètres CSS_](../configuration-reference/advanced/developer.md)
 
@@ -181,7 +193,7 @@ Voir [Rechercher des modèles, des mises en page et des styles](https://develope
 
 ### Étape 1 : ajouter votre adresse IP à la place sur la liste autorisée
 
-Avant d’utiliser les indications de chemin d’accès du modèle, ajoutez votre adresse IP à la [liste autorisée ](#client-restrictions) afin d’éviter toute interférence avec les clients qui font leurs achats dans le magasin. Lorsque vous avez terminé, veillez à effacer le cache de Commerce pour supprimer toutes les indications du magasin.
+Avant d’utiliser les indications de chemin d’accès du modèle, ajoutez votre adresse IP à la [liste autorisée &#x200B;](#client-restrictions) afin d’éviter toute interférence avec les clients qui font leurs achats dans le magasin. Lorsque vous avez terminé, veillez à effacer le cache de Commerce pour supprimer toutes les indications du magasin.
 
 ![Configuration avancée - Restrictions du client développeur](../configuration-reference/advanced/assets/developer-developer-client-restrictions.png){width="600" zoomable="yes"}
 
@@ -253,7 +265,7 @@ Si votre boutique est disponible dans plusieurs langues, vous pouvez apporter de
 
    Décochez la case **[!UICONTROL Use Website]** selon les besoins pour modifier ces paramètres.
 
-   L’option _[!UICONTROL Enabled for Admin]_n’est pas disponible lors de la modification d’une vue de magasin spécifique.
+   L’option _[!UICONTROL Enabled for Admin]_&#x200B;n’est pas disponible lors de la modification d’une vue de magasin spécifique.
 
    ![Configuration avancée - Traduire en ligne](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 

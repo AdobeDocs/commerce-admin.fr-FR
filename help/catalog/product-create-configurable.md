@@ -4,11 +4,22 @@ description: Découvrez comment créer un produit configurable qui fournit aux a
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/-T3-DNO39JLnWyhjbXzzSbA0NJ3QeGtnQgyjJBOQn-I
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1994
@@ -156,9 +167,9 @@ Les étapes suivantes indiquent comment ajouter des configurations pour plusieur
 
 ### Étape 6 : sélection des attributs de variation
 
-1. Faites défiler jusqu’à la section _[!UICONTROL Configurations]_et cliquez sur **[!UICONTROL Create Configurations]**.
+1. Faites défiler jusqu’à la section _[!UICONTROL Configurations]_&#x200B;et cliquez sur **[!UICONTROL Create Configurations]**.
 
-   ![Configurations ](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
+   ![Configurations &#x200B;](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
 1. Cochez la case de chaque attribut à inclure en tant que variation.
 
@@ -260,7 +271,7 @@ _Marchands Source uniques :_
 
 Saisissez le **[!UICONTROL Quantity]**.
 
-_Marchands Multi Source utilisant [Inventory management ](../inventory-management/introduction.md):_
+_Marchands Multi Source utilisant [Inventory management &#x200B;](../inventory-management/introduction.md):_
 
 Affectez des sources et ajoutez des quantités pour toutes les variantes de produit générées :
 
@@ -280,7 +291,7 @@ _Marchands Source uniques :_
 
 Saisissez le **[!UICONTROL Quantity]** de chaque valeur d’attribut.
 
-_Marchands Multi Source utilisant [Inventory management ](../inventory-management/introduction.md):_
+_Marchands Multi Source utilisant [Inventory management &#x200B;](../inventory-management/introduction.md):_
 
 Affectez des sources et ajoutez des quantités pour toutes les variantes de produit générées :
 
@@ -312,7 +323,7 @@ Les variations actuelles du produit s’affichent au bas de la section _Configur
 
 1. Cliquez sur la mosaïque _Appareil photo_ et accédez à l’image principale à utiliser pour le produit configurable.
 
-Pour plus d’informations, voir [ Images et vidéo ](product-images-and-video.md).
+Pour plus d’informations, voir [&#x200B; Images et vidéo &#x200B;](product-images-and-video.md).
 
 ### Étape 11 : Compléter les informations sur le produit
 
@@ -384,7 +395,7 @@ Lorsque vous définissez manuellement le statut du stock de produit configurable
 
 >[!NOTE]
 >
->Les stocks et sources personnalisés font partie de l’extension [](../inventory-management/sources-stocks.md). Il est vivement recommandé d’utiliser cet outil exclusivement pour gérer le stock et la source. Les fonctions source et stock par défaut font partie du module `CatalogInventory`, qui est désormais obsolète.
+>Les stocks et sources personnalisés font partie de l’extension [&#128279;](../inventory-management/sources-stocks.md). Il est vivement recommandé d’utiliser cet outil exclusivement pour gérer le stock et la source. Les fonctions source et stock par défaut font partie du module `CatalogInventory`, qui est désormais obsolète.
 
 ### Modifications manuelles du statut du stock
 

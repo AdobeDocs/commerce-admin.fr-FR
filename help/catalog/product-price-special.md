@@ -4,11 +4,20 @@ description: Découvrez comment proposer des tarifs spéciaux pour une période 
 exl-id: 4a1e2045-f0a8-4bae-a5a3-8ce8b258b217
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/j6DspCgn2P4-pHxXuOd-AiJCL0SBezxg-rn6yYmMIk8
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 855
@@ -30,7 +39,7 @@ Vous pouvez facilement définir un prix spécial pour un seul produit du catalog
 
 {{ee-feature}}
 
-Adobe Commerce prend en charge les [ mises à jour planifiées ](../content-design/content-staging-scheduled-update.md). Utilisez ces outils promotionnels pour appliquer un prix spécial à un produit spécifique pendant une période spécifiée.
+Adobe Commerce prend en charge les [&#x200B; mises à jour planifiées &#x200B;](../content-design/content-staging-scheduled-update.md). Utilisez ces outils promotionnels pour appliquer un prix spécial à un produit spécifique pendant une période spécifiée.
 
 1. Ouvrez le produit en mode d’édition.
 
@@ -56,7 +65,7 @@ Adobe Commerce prend en charge les [ mises à jour planifiées ](../content-desi
 
    En vitrine, le prix spécial doit apparaître à la fois dans la liste du catalogue et sur la page produit.
 
-   La _[!UICONTROL Scheduled Change]_s’affiche en haut de la page.
+   La _[!UICONTROL Scheduled Change]_&#x200B;s’affiche en haut de la page.
 
    ![Modification planifiée](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
 
@@ -90,7 +99,7 @@ Vous pouvez également attribuer un prix spécial à plusieurs produits, par exe
 
 L’exemple suivant montre comment attribuer le même prix spécial à plusieurs variations de produit d’un produit configurable dans Adobe Commerce.
 
-1. Sur la page _[!UICONTROL Products]_, cliquez sur **[!UICONTROL Filters]**et saisissez le **[!UICONTROL Name]**du produit configurable.
+1. Sur la page _[!UICONTROL Products]_, cliquez sur **[!UICONTROL Filters]**&#x200B;et saisissez le **[!UICONTROL Name]**&#x200B;du produit configurable.
 
 1. Définissez **[!UICONTROL Type]** sur `Configurable Product`, puis cliquez sur **[!UICONTROL Apply Filters]**.
 
@@ -100,7 +109,7 @@ L’exemple suivant montre comment attribuer le même prix spécial à plusieurs
 
 1. Définissez la commande **[!UICONTROL Actions]** sur `Update attributes`.
 
-1. Faites défiler jusqu’au champ _[!UICONTROL Special Price]_, cochez la case **[!UICONTROL Change]**située sous le champ_[!UICONTROL Special Price]_ et saisissez le prix spécial que vous souhaitez proposer.
+1. Faites défiler jusqu’au champ _[!UICONTROL Special Price]_, cochez la case **[!UICONTROL Change]**&#x200B;située sous le champ&#x200B;_[!UICONTROL Special Price]_ et saisissez le prix spécial que vous souhaitez proposer.
 
    ![Champs Prix spécial](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
 
@@ -122,7 +131,7 @@ L’exemple suivant montre comment attribuer le même prix spécial à plusieurs
 
 1. Définissez **[!UICONTROL Type]** sur `Simple Product`.
 
-   ![ Filtres ](./assets/product-price-special-filter.png){width="600" zoomable="yes"}
+   ![&#x200B; Filtres &#x200B;](./assets/product-price-special-filter.png){width="600" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Apply Filters]**.
 

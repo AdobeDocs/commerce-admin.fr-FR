@@ -5,12 +5,25 @@ exl-id: 62ff2a36-053d-4ba0-9969-0f05701afbff
 feature: B2B, Companies, Payments
 role: Admin
 TQID: https://experienceleague.adobe.com/JKyFAE5sOsIyOsM-L73i8fMt8nEeoY2-ZcE321jXjSc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1228
@@ -81,7 +94,7 @@ La grille affiche les informations suivantes pour chaque transaction :
 | [!UICONTROL Operation] | Type d’activité associé à la transaction. Valeurs : <br/>**[!UICONTROL Allocated]**- Crédit attribué à la société.<br/>**[!UICONTROL Updated]** - Une modification a été appliquée à l’un des champs suivants : [!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**- Une commande a été passée.<br/>**[!UICONTROL Reimbursed]** - Le solde restant dû a été remboursé. <br/>**[!UICONTROL Refunded]**- Un montant d&#39;avoir a été remboursé.<br/>**[!UICONTROL Reverted]** - La commande a été annulée et le montant a été renvoyé au solde créditeur. |
 | [!UICONTROL Amount] | Montant de la transaction associé aux types de transaction suivants : `Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/>Pour les montants d’achat, le montant apparaît dans la devise d’affichage du magasin et au format du paramètre de devise de crédit, suivi du taux de conversion actuel (le cas échéant). Par exemple : <br/>2 000,00 EUR (22 400,00 $) <br/>USD/EUR 0,8928 |
 | [!UICONTROL Outstanding Balance] | Montant remboursé, moins le total dû de toutes les commandes passées à l&#39;aide de la méthode de paiement en compte. Le montant peut apparaître comme une valeur positive ou négative. <br/>**[!UICONTROL Positive value]**- Un paiement anticipé est représenté comme une valeur positive.<br/>**[!UICONTROL Negative value]** - Un montant dû est représenté sous la forme d’une valeur négative. |
-| [!UICONTROL Available Credit] | La somme des _[!UICONTROL Credit Limit]_et des_[!UICONTROL Outstanding Balance]_. Si la société a dépassé la limite de crédit, le montant apparaît comme une valeur négative. |
+| [!UICONTROL Available Credit] | La somme des _[!UICONTROL Credit Limit]_&#x200B;et des&#x200B;_[!UICONTROL Outstanding Balance]_. Si la société a dépassé la limite de crédit, le montant apparaît comme une valeur négative. |
 | [!UICONTROL Credit Limit] | Montant du crédit accordé à la société. |
 | [!UICONTROL Updated By] | Nom de la personne qui a initié l’opération. |
 | [!UICONTROL Custom Reference Number] | Numéro de référence personnalisé associé à la transaction. |
@@ -174,7 +187,7 @@ Lors de la gestion du crédit d’entreprise, mettez en œuvre des mesures de s�
 
 ## Bonnes pratiques
 
-* 
+* &#x200B;
    * **Gestion de la politique de crédit** - Lors de la gestion du crédit d&#39;entreprise, établissez des politiques claires pour définir les limites de crédit en fonction de l&#39;historique des paiements du client et des relations commerciales. Examinez régulièrement les soldes impayés et les modes de paiement afin d&#39;évaluer le risque, et documentez toujours les modifications apportées aux paramètres de crédit avec des raisons détaillées à des fins d&#39;audit.
 
 Traitez les paiements rapidement pour maintenir des soldes précis et vous assurer que les paramètres de devise de crédit correspondent aux principales opérations commerciales de chaque entreprise.
