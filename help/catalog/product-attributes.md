@@ -3,9 +3,16 @@ title: Présentation des attributs de produit
 description: Découvrez les attributs du produit et leur utilisation pour décrire les caractéristiques spécifiques d’un produit.
 exl-id: e15770ee-fb71-43f0-8c26-e8029935799a
 feature: Catalog Management, Products
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+TQID: https://experienceleague.adobe.com/reh5hq2WF3rmbKEKZiV8U18hfyLxXeUHHfJcUgWDcJ0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: 547
 ht-degree: 0%
 
 ---
@@ -47,4 +54,4 @@ Supprimez les propriétés de produit inutilisées pour une meilleure structurat
 
 >[!NOTE]
 >
->Pour plus d’informations sur l’optimisation de la configuration des attributs de produit en termes de performances, consultez [Bonnes pratiques de gestion des catalogues](https://experienceleague.adobe.com/fr/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) dans le _guide d’implémentation_.
+>Pour plus d’informations sur l’optimisation de la configuration des attributs de produit en termes de performances, consultez [Bonnes pratiques de gestion des catalogues](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) dans le _guide d’implémentation_.

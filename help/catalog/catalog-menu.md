@@ -2,28 +2,34 @@
 title: '[!UICONTROL Catalog] menu'
 description: Utilisez le menu [!UICONTROL Catalog] pour accéder aux outils de création de produits, de catégories et de gestion des stocks.
 exl-id: cfb163d6-eccc-4ab9-bd19-37c611abbc78
-source-git-commit: 8100191ad781708b20fcaac53e9f86a64ff47244
+TQID: https://experienceleague.adobe.com/2-kkm9tD4ENz5MV9c5IoXpNKNcmAOSxezqd-W9bMYys
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: 178
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Catalog] menu
 
-Le menu [!UICONTROL Catalog] permet d’accéder facilement aux outils de création de produits, de gestion des catégories et des stocks, ainsi qu’aux catalogues partagés pour la tarification personnalisée dans les magasins [B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=fr).
+Le menu [!UICONTROL Catalog] permet d’accéder facilement aux outils de création de produits, de gestion des catégories et des stocks, ainsi qu’aux catalogues partagés pour la tarification personnalisée dans les magasins [B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 >[!BEGINTABS]
 
->[!TAB Adobe Commerce]
+>[!TAB ]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 ![Menu Catalogue](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
 
 ![Menu Catalogue](./assets/admin-menu-catalog-accs.png){width="300" zoomable="yes"}
 
@@ -45,6 +51,6 @@ Créez la structure [category](categories.md) qui constitue la base de la naviga
 
 ## [!UICONTROL Shared Catalogs]
 
-Pour les magasins où Adobe Commerce B2B est installé et activé, les [catalogues partagés](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=fr) vous permettent de proposer des tarifs personnalisés à différentes sociétés.
+Pour les magasins où Adobe Commerce B2B est installé et activé, les [catalogues partagés](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) vous permettent de proposer des tarifs personnalisés à différentes sociétés.
 
 ![Produits de catalogue partagé](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

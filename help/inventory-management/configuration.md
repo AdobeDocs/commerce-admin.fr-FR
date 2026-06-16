@@ -3,9 +3,15 @@ title: Configurez  [!DNL Inventory Management]
 description: Découvrez la configuration des options  [!DNL Inventory Management]  déterminent la disponibilité de la source, les produits de storefront et l’expédition des commandes.
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
-source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
+TQID: https://experienceleague.adobe.com/3ay4K29pe2WkzYT-A5NXh83sHRvd5YJ8aoVqusrbZeE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: 776
 ht-degree: 0%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 0%
 
 Le module [!DNL Inventory Management] prend en charge les paramètres de configuration de l&#39;inventaire au niveau du produit et au niveau global et fournit également des paramètres supplémentaires qui affectent la disponibilité de la source, les produits du storefront et l&#39;expédition des commandes. Les paramètres de configuration s’appliquent aux éléments suivants :
 
-- L&#39;ensemble du catalogue : Accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**. Ensuite, développez **[!UICONTROL Catalog]**&#x200B;dans le panneau de gauche et sélectionnez **[!UICONTROL Inventory]**.
+- L&#39;ensemble du catalogue : Accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**. Ensuite, développez **[!UICONTROL Catalog]**dans le panneau de gauche et sélectionnez **[!UICONTROL Inventory]**.
 
 - Produits spécifiques : Accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Products]**. Ouvrez ensuite le produit en mode d’édition et cliquez sur **[!UICONTROL Advanced Inventory]** dans la section _[!UICONTROL Sources]_.
 
@@ -46,13 +52,13 @@ Les magasins et produits [!DNL Commerce] prennent en charge les configurations s
 
 ## Restauration et héritage de la configuration
 
-Les configurations remplacent ou s’appliquent dans le chemin d’accès suivant de l’héritage : la section _[!UICONTROL Sources]_&#x200B;du produit remplace la configuration globale du magasin de&#x200B;_[!UICONTROL Inventory]_ de produit _[!UICONTROL Advanced Options]_&#x200B;remplace la configuration globale du magasin de produits.
+Les configurations remplacent ou s’appliquent dans le chemin d’accès suivant de l’héritage : la section _[!UICONTROL Sources]_du produit remplace la configuration globale du magasin de_[!UICONTROL Inventory]_ de produit _[!UICONTROL Advanced Options]_remplace la configuration globale du magasin de produits.
 
 Lorsque [!DNL Commerce] vérifie les paramètres personnalisés à appliquer, l’ordre suit :
 
 1. Recherche les paramètres personnalisés au niveau du produit dans la section _[!UICONTROL Sources]_. Quelques paramètres sont disponibles.
 
-1. Vérifie les paramètres de _[!UICONTROL Advanced Inventory]_&#x200B;du produit.
+1. Vérifie les paramètres de _[!UICONTROL Advanced Inventory]_du produit.
 
 1. Si `Use Config Settings` est sélectionné pour les paramètres du produit, il vérifie une valeur de la page de configuration de magasin globale _Inventaire_.
 

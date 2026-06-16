@@ -2,10 +2,15 @@
 title: Blocs dynamiques
 description: Utilisez des blocs dynamiques pour créer du contenu riche et interactif qui est piloté par la logique des règles de prix et des segments de clientèle.
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+TQID: https://experienceleague.adobe.com/Xbv5IqrZPF2xDERIGOFilHgiXKAyy8yxyXISRj17s0A
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: 674
 ht-degree: 0%
 
 ---
@@ -18,7 +23,7 @@ Créez du contenu riche et interactif piloté par une logique issue des [règles
 
 >[!NOTE]
 >
->L’option _[!UICONTROL Banner]_&#x200B;du menu [[!UICONTROL Content] &#x200B;](content-menu.md) a été abandonnée dans la version 2.3.1 et supprimée dans la version 2.4.0. Sa fonctionnalité est remplacée par Blocs dynamiques.
+>L’option _[!UICONTROL Banner]_du menu [[!UICONTROL Content] ](content-menu.md) a été abandonnée dans la version 2.3.1 et supprimée dans la version 2.4.0. Sa fonctionnalité est remplacée par Blocs dynamiques.
 
 ![[!DNL Page Builder] - bloc dynamique avec règle de prix et segment client](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 
@@ -97,9 +102,9 @@ Utilisez l’[!DNL Page Builder] [espace de travail](../page-builder/workspace.m
 | [!UICONTROL Store View] | Spécifie les vues du magasin où le bloc dynamique doit être disponible. |
 | [!UICONTROL Enable Dynamic Block] | Active ou désactive le bloc dynamique. Options : Oui / Non |
 | [!UICONTROL Dynamic Block Name] | Nom descriptif qui identifie le bloc dynamique dans l’Administration. |
-| [!UICONTROL Dynamic Block Type] | Identifie l’emplacement du bloc dynamique dans la [mise en page standard](layout-updates.md). Options : <br/>**[!UICONTROL Content Area]**- place le bloc dynamique dans la zone de [&#x200B; principale de la page](layout-updates.md)<br/>**[!UICONTROL Footer]** - Place le bloc dynamique dans le [pied de page](page-setup.md#footer). <br/>**[!UICONTROL Header]**- Place le bloc dynamique dans l’en-tête [de la page](page-setup.md#header).<br/>**[!UICONTROL Left Column]** - Place le bloc dynamique dans la barre latérale [gauche](page-layout.md#standard-page-layouts) d’une disposition à deux ou trois colonnes. <br/>**[!UICONTROL Right Column]**- Place le bloc dynamique dans la [barre latérale droite](page-layout.md#standard-page-layouts) d’une disposition à deux ou trois colonnes. |
+| [!UICONTROL Dynamic Block Type] | Identifie l’emplacement du bloc dynamique dans la [mise en page standard](layout-updates.md). Options : <br/>**[!UICONTROL Content Area]**- place le bloc dynamique dans la zone de [ principale de la page](layout-updates.md)<br/>**[!UICONTROL Footer]** - Place le bloc dynamique dans la page [pied de page](page-setup.md#footer). <br/>**[!UICONTROL Header]**- Place le bloc dynamique dans la page [en-tête](page-setup.md#header).<br/>**[!UICONTROL Left Column]** - Place le bloc dynamique dans la [barre latérale gauche](page-layout.md#standard-page-layouts) d&#39;une mise en page à deux ou trois colonnes. <br/>**[!UICONTROL Right Column]**- Place le bloc dynamique dans la [barre latérale droite](page-layout.md#standard-page-layouts) d’une disposition à deux ou trois colonnes. |
 | Segment client | Associe un segment client au bloc dynamique pour déterminer quels clients peuvent le voir. |
-| Audience Real-Time CDP | Associe une audience [Real-Time CDP](../customers/audience-activation.md) au bloc dynamique pour déterminer quels clients peuvent la voir. |
+| Audience Real-Time CDP | Associe une audience [](../customers/audience-activation.md) au bloc dynamique pour déterminer quels clients peuvent la voir. |
 
 {style="table-layout:auto"}
 
@@ -118,7 +123,7 @@ Utilisez l’[!DNL Page Builder] [espace de travail](../page-builder/workspace.m
 
 | Champ | Description |
 |--- |--- |
-| [!UICONTROL Related Cart Price Rule] | **[!UICONTROL Add Cart Price Rules]** - Associez une règle de prix de panier [&#x200B; existante](../merchandising-promotions/price-rules-cart.md) au bloc dynamique en tant que promotion. |
+| [!UICONTROL Related Cart Price Rule] | **[!UICONTROL Add Cart Price Rules]** - Associez une règle de prix de panier [ existante](../merchandising-promotions/price-rules-cart.md) au bloc dynamique en tant que promotion. |
 | [!UICONTROL Related Catalog Price Rule] | **[!UICONTROL Add Catalog Price Rules]** - Associez une [règle de prix de catalogue](../merchandising-promotions/price-rules-catalog.md) existante au bloc dynamique en tant que promotion. |
 
 {style="table-layout:auto"}

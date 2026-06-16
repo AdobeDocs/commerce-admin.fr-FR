@@ -3,10 +3,15 @@ title: Évaluation du contenu
 description: L’évaluation de contenu permet à votre équipe commerciale de créer, de prévisualiser et de planifier facilement un large éventail de mises à jour de contenu pour votre boutique directement depuis l’administration.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+TQID: https://experienceleague.adobe.com/XAMnUUL9JH0atN6vlwwe2l9x4P-uAqJA3BH-h9LbIXU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: 1015
 ht-degree: 0%
 
 ---
@@ -27,7 +32,7 @@ Les champs liés à la date de début et à la date de fin ont été supprimés 
 
 Toutes les mises à jour planifiées sont appliquées de manière consécutive, ce qui signifie que toute entité ne peut avoir qu’une seule mise à jour planifiée à la fois. Toute mise à jour planifiée est appliquée à toutes les vues de magasin au cours de sa période. Par conséquent, une entité ne peut pas avoir une mise à jour planifiée différente pour différentes vues de magasin en même temps. Toutes les valeurs d’attribut d’entité dans toutes les vues de magasin, qui ne sont pas affectées par la mise à jour planifiée actuelle, sont extraites des valeurs par défaut, et non de la mise à jour planifiée précédente.
 
-Lorsqu’une nouvelle mise à jour planifiée est créée pour l’un des objets suivants, une campagne correspondante est créée comme espace réservé et la zone de _[!UICONTROL Scheduled Changes]_&#x200B;s’affiche en haut de la page. La campagne d’espace réservé comporte une date de début, mais pas de fin. Vous pouvez planifier des mises à jour du contenu dans le cadre d’une campagne, puis prévisualiser et partager les modifications par date, heure ou vue de magasin. Une fois qu’une nouvelle campagne est créée pour un objet, vous pouvez l’affecter en tant que mise à jour planifiée à d’autres objets.
+Lorsqu’une nouvelle mise à jour planifiée est créée pour l’un des objets suivants, une campagne correspondante est créée comme espace réservé et la zone de _[!UICONTROL Scheduled Changes]_s’affiche en haut de la page. La campagne d’espace réservé comporte une date de début, mais pas de fin. Vous pouvez planifier des mises à jour du contenu dans le cadre d’une campagne, puis prévisualiser et partager les modifications par date, heure ou vue de magasin. Une fois qu’une nouvelle campagne est créée pour un objet, vous pouvez l’affecter en tant que mise à jour planifiée à d’autres objets.
 
 - [Produits](../catalog/product-scheduled-changes.md)
 - [Catégories](../catalog/category-scheduled-changes.md)
@@ -40,7 +45,7 @@ Lorsqu’une nouvelle mise à jour planifiée est créée pour l’un des objets
 
 1. **Créer le contenu de base**
 
-   La ligne de base correspond au contenu d’une ressource sans campagne et inclut tous les éléments situés sous la section _[!UICONTROL Scheduled Changes]_&#x200B;en haut de la page. Le contenu de base est toujours utilisé, sauf s’il existe une campagne active avec des modifications planifiées à cet emplacement sur le journal.
+   La ligne de base correspond au contenu d’une ressource sans campagne et inclut tous les éléments situés sous la section _[!UICONTROL Scheduled Changes]_en haut de la page. Le contenu de base est toujours utilisé, sauf s’il existe une campagne active avec des modifications planifiées à cet emplacement sur le journal.
 
 1. **Créer la première campagne**
 
@@ -80,12 +85,12 @@ Le [!UICONTROL Content Staging] [tableau de bord](content-staging-dashboard.md) 
 
 Pour en savoir plus sur l’évaluation du contenu, regardez cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3410854?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
 
 ## Résolution des problèmes liés aux ressources
 
 Pour obtenir de l’aide sur la résolution des problèmes d’évaluation du contenu, consultez les articles suivants de la base de connaissances de l’assistance [!DNL Commerce] :
 
-- [Erreur 404 sur toutes les pages en raison d’un problème d’évaluation du contenu](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=fr)
-- [Les mises à jour d’évaluation de contenu planifiées ne s’affichent pas avec le cache Fastly obsolète](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=fr)
-- [Puis-je planifier des mises à jour d’évaluation de contenu pour les prix dans un catalogue partagé ?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=fr)
+- [Erreur 404 sur toutes les pages en raison d’un problème d’évaluation du contenu](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html)
+- [Les mises à jour de l’évaluation de contenu planifiées ne s’affichent pas avec le cache Fastly obsolète](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html)
+- [Puis-je planifier des mises à jour d’évaluation de contenu pour les prix dans un catalogue partagé ?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html)

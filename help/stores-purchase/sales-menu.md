@@ -2,9 +2,15 @@
 title: '[!UICONTROL Sales] menu'
 description: L’Administration Commerce comprend le menu [!UICONTROL Sales] qui permet d’accéder aux outils servant à traiter les commandes en fonction de leur emplacement dans le workflow.
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: 621b4729e23952ddd720b4dcc49b5341baae64cc
+TQID: https://experienceleague.adobe.com/mliJ1Q1-DEkR5rAoIRLQ9qBxQopBytjicPiqzWTg7ac
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: 579
 ht-degree: 0%
 
 ---
@@ -15,15 +21,15 @@ Le menu Ventes répertorie les transactions en fonction de leur emplacement dans
 
 >[!BEGINTABS]
 
->[!TAB Adobe Commerce]
+>[!TAB ]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 ![Menu Ventes](./assets/admin-menu-sales.png){width="450" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
 
 ![Menu Ventes](./assets/admin-menu-sales-accs.png){width="450" zoomable="yes"}
 
@@ -65,13 +71,13 @@ Un [avoir](credit-memos.md) est un document qui indique le montant dû au client
 
 ### [!UICONTROL Returns]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement)
+![](../assets/adobe-logo.svg) (Adobe Commerce uniquement)
 
 Une [autorisation de retour de marchandise](returns.md) (RMA) peut être accordée aux clients qui demandent à renvoyer un article pour le remplacer ou le rembourser. Des autorisations de retour client peuvent être émises pour les types de produits Simple, Groupé, Configurable et Bundle. Cependant, les RMA ne sont pas disponibles pour les produits virtuels et téléchargeables, ni pour les cartes-cadeaux.
 
 ### [!UICONTROL Billing Agreements]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 Un [accord de facturation](paypal-billing-agreements.md) est similaire à un bon de commande, sauf qu&#39;il ne se limite pas à un seul achat. Lors du passage en caisse, le client choisit le contrat de facturation comme mode de paiement. Un accord de facturation simplifie le processus de passage en caisse, car le client n&#39;a pas à saisir d&#39;informations de paiement pour chaque achat.
 
@@ -81,12 +87,12 @@ La page [Transactions](transactions.md) répertorie toutes les activités de pai
 
 ### [!UICONTROL Braintree Virtual Terminal]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
-Sur la page Braintree Virtual Terminal , un utilisateur administrateur peut accepter le paiement du montant sélectionné. Pour rendre la fonctionnalité de terminal disponible, un commerçant doit configurer les paramètres de base de [Braintree](braintree.md). Braintree offre une expérience de paiement entièrement personnalisable avec détection des fraudes et intégration PayPal.
+Sur la page Braintree Virtual Terminal , un utilisateur administrateur peut accepter le paiement du montant sélectionné. Pour rendre la fonctionnalité de terminal disponible, un commerçant doit configurer les paramètres de base de [](braintree.md). Braintree offre une expérience de paiement entièrement personnalisable avec détection des fraudes et intégration PayPal.
 
 ### [!UICONTROL Archive]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement)
+![](../assets/adobe-logo.svg) (Adobe Commerce uniquement)
 
 (L’option d’archivage doit être activée) [L’archivage des commandes](order-archive.md) et d’autres documents commerciaux améliore régulièrement les performances et libère votre espace de travail des informations inutiles.

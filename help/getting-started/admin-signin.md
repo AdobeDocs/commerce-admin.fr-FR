@@ -3,9 +3,16 @@ title: Votre compte utilisateur d’administrateur
 description: Découvrez votre compte d’administrateur et comment utiliser l’authentification à deux facteurs pour vous connecter à l’administrateur.
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
-source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
+TQID: https://experienceleague.adobe.com/p40Sr3TPKp2QrTiMdwzmGL04lO6f8xK8fCLcbOebV7M
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: 1214
 ht-degree: 0%
 
 ---
@@ -26,7 +33,7 @@ Le [!DNL Commerce] _Admin_ est protégé par plusieurs couches de mesures de sé
 
 Selon la configuration de votre boutique, il peut y avoir un défi [CAPTCHA](../systems/security-google-recaptcha.md) à résoudre, comme saisir une série de caractères au clavier, résoudre un puzzle ou cliquer sur une série d’images avec un thème commun. Ces tests sont conçus pour vous identifier en tant qu’humain, plutôt qu’en tant que robot automatisé.
 
-Pour plus de sécurité, vous pouvez déterminer les parties du _Administrateur_ auxquelles chaque utilisateur a [autorisation](../systems/permissions.md) d’accéder et également limiter le nombre [&#x200B; tentatives de connexion](../configuration-reference/advanced/admin.md). Par défaut, après six tentatives, le compte est verrouillé et l’utilisateur ou l’utilisatrice doit attendre quelques minutes avant de réessayer. [Comptes verrouillés](../systems/permissions-users-all.md#locked-users) peuvent également être réinitialisés à partir de l’_Admin_.
+Pour plus de sécurité, vous pouvez déterminer les parties du _Administrateur_ auxquelles chaque utilisateur a [autorisation](../systems/permissions.md) d’accéder et également limiter le nombre [ tentatives de connexion](../configuration-reference/advanced/admin.md). Par défaut, après six tentatives, le compte est verrouillé et l’utilisateur ou l’utilisatrice doit attendre quelques minutes avant de réessayer. [Comptes verrouillés](../systems/permissions-users-all.md#locked-users) peuvent également être réinitialisés à partir de l’_Admin_.
 
 >[!NOTE]
 >
@@ -92,7 +99,7 @@ La réutilisation des quatre derniers mots de passe attribués au compte n’est
 
 1. Saisissez le **[!UICONTROL Email Address]** associé au compte _Admin_.
 
-   ![&#x200B; Mot de passe oublié &#x200B;](./assets/admin-sign-in-forgot-password.png){width="400"}
+   ![ Mot de passe oublié ](./assets/admin-sign-in-forgot-password.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Retrieve Password]**.
 
@@ -110,7 +117,7 @@ La réutilisation des quatre derniers mots de passe attribués au compte n’est
 
    ![Se déconnecter](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-La page _[!UICONTROL Sign In]_&#x200B;affiche un message indiquant que vous êtes déconnecté. Déconnectez-vous du_ Administrateur _chaque fois que vous laissez votre ordinateur sans surveillance.
+La page _[!UICONTROL Sign In]_affiche un message indiquant que vous êtes déconnecté. Déconnectez-vous du_ Administrateur _chaque fois que vous laissez votre ordinateur sans surveillance.
 
 ## Modifier les informations du compte
 
@@ -161,7 +168,7 @@ Admin permet d’accéder à la gestion des fonctionnalités de commandes, de cl
 
 Pour assurer la sécurité de votre administrateur, effectuez des audits réguliers des utilisateurs et des rôles disposant d’un accès administrateur.
 
-En outre, pensez à [mettre à jour la configuration de l’URL de base d’administration](https://experienceleague.adobe.com/fr/docs/commerce-admin/config/advanced/admin#admin-base-url) pour remplacer le point d’entrée de `/admin` par défaut par un chemin d’accès personnalisé. La configuration d’un chemin personnalisé offre les avantages de sécurité suivants :
+En outre, pensez à [mettre à jour la configuration de l’URL de base d’administration](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url) pour remplacer le point d’entrée de `/admin` par défaut par un chemin d’accès personnalisé. La configuration d’un chemin personnalisé offre les avantages de sécurité suivants :
 
 **Sécurité renforcée** : le chemin d’accès « admin » par défaut est largement connu et souvent ciblé par des acteurs malveillants qui tentent des attaques par force brute. En la modifiant à une valeur personnalisée unique, vous réduisez considérablement le risque de tentatives d’accès non autorisées.
 
@@ -173,4 +180,4 @@ En outre, pensez à [mettre à jour la configuration de l’URL de base d’admi
 
 >[!NOTE]
 >
->Si une violation est suspectée, veillez à supprimer tous les utilisateurs administrateurs inconnus, à réinitialiser tous les mots de passe administrateur et à consulter le [plan d’action de sécurité](https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/security/security) pour d’autres étapes.
+>Si une violation est suspectée, veillez à supprimer tous les utilisateurs administrateurs inconnus, à réinitialiser tous les mots de passe administrateur et à consulter le [plan d’action de sécurité](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security) pour d’autres étapes.

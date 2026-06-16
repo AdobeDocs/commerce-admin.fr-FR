@@ -4,9 +4,15 @@ description: Découvrez comment exécuter une analyse de sécurité renforcée e
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 425004ece49f96fa102e9f46b9c5d15c89233334
+TQID: https://experienceleague.adobe.com/htuqRHD-ZLrN42IPAdZrEzbea8UirA0xS9eMcksZNQs
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: 1203
 ht-degree: 0%
 
 ---
@@ -22,7 +28,7 @@ Surveillez vos sites Adobe Commerce et Magento Open Source pour détecter les ri
 - Accédez aux rapports de sécurité historiques qui suivent et surveillent la progression de vos sites.
 - Accédez au rapport d’analyse qui indique les vérifications réussies et ayant échoué, avec les actions recommandées.
 
-L&#39;outil d&#39;analyse de sécurité est disponible gratuitement depuis le tableau de bord de votre compte [Commerce/Magento](../getting-started/commerce-account-create.md). Pour obtenir des informations techniques, consultez [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) dans le _Guide de Commerce sur les infrastructures cloud_.
+L&#39;outil d&#39;analyse de sécurité est disponible gratuitement depuis le tableau de bord de votre compte [Commerce/Magento](../getting-started/commerce-account-create.md). Pour obtenir des informations techniques, consultez [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) dans le _Guide de Commerce sur les infrastructures cloud_.
 
 ![Outil d’analyse de sécurité](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
@@ -71,11 +77,11 @@ Pour installer et configurer l’outil d’analyse de sécurité pour votre site
    1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL HTML Head]** .
    1. Faites défiler jusqu’à **[!UICONTROL Scripts and Style Sheets]** et cliquez dans la zone de texte à la fin de tout code existant. Collez le code de confirmation dans la zone de texte.
 
-      ![&#x200B; Scripts et feuilles de style &#x200B;](./assets/scan-paste-code.png){width="600" zoomable="yes"}
+      ![ Scripts et feuilles de style ](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
    1. Cliquez ensuite sur **[!UICONTROL Save Configuration]**.
 
-1. Revenez à la page _[!UICONTROL Security Scan]_&#x200B;de votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**&#x200B;pour établir la propriété du domaine.
+1. Revenez à la page _[!UICONTROL Security Scan]_de votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**pour établir la propriété du domaine.
 
 >[!TAB PWA storefront]
 
@@ -117,7 +123,7 @@ Pour installer et configurer l’outil d’analyse de sécurité pour votre site
 
       Une fois le processus de création terminé, les modifications seront déployées sur votre storefront PWA.
 
-1. Revenez à la page _[!UICONTROL Security Scan]_&#x200B;de votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**&#x200B;pour établir la propriété du domaine.
+1. Revenez à la page _[!UICONTROL Security Scan]_de votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**pour établir la propriété du domaine.
 
 >[!TAB AEM Storefront]
 
@@ -150,7 +156,7 @@ Pour installer et configurer l’outil d’analyse de sécurité pour votre site
 
    Une fois le processus de création terminé, les modifications seront déployées sur votre vitrine AEM.
 
-1. Revenez à la page _[!UICONTROL Security Scan]_&#x200B;de votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**&#x200B;pour établir la propriété du domaine.
+1. Revenez à la page _[!UICONTROL Security Scan]_de votre compte Commerce, puis cliquez sur **[!UICONTROL Verify Confirmation Code]**pour établir la propriété du domaine.
 
 >[!ENDTABS]
 
@@ -209,7 +215,7 @@ Les scénarios courants dans lesquels vous pouvez marquer un échec d’analyse 
 
 Pour gérer les échecs d’analyse que vous avez identifiés comme des faux positifs, procédez comme suit :
 
-1. Dans la page _[!UICONTROL Monitored Websites]_, cliquez sur **[!UICONTROL View Report]**&#x200B;pour le site à gérer.
+1. Dans la page _[!UICONTROL Monitored Websites]_, cliquez sur **[!UICONTROL View Report]**pour le site à gérer.
 
 1. Dans la vue Rapport, recherchez l&#39;analyse qui a échoué et que vous voulez marquer comme faux positif.
 
@@ -219,7 +225,7 @@ Pour gérer les échecs d’analyse que vous avez identifiés comme des faux pos
 
 1. Cliquez sur **[!UICONTROL Apply Changes]** pour enregistrer votre sélection.
 
-L’échec d’analyse ignoré passe à la section _[!UICONTROL Ignored Results]_&#x200B;et est exclu de votre score de risque.
+L’échec d’analyse ignoré passe à la section _[!UICONTROL Ignored Results]_et est exclu de votre score de risque.
 
 ### Arrêter d&#39;ignorer les échecs d&#39;analyse
 
@@ -233,7 +239,7 @@ Si vous devez restaurer un échec d&#39;analyse précédemment ignoré dans votr
 
 1. Cliquez sur **[!UICONTROL Apply Changes]** pour enregistrer votre sélection.
 
-L’échec de l’analyse revient à la section _[!UICONTROL Failed Scans]_&#x200B;et est inclus dans votre score de risque.
+L’échec de l’analyse revient à la section _[!UICONTROL Failed Scans]_et est inclus dans votre score de risque.
 
 ### Afficher les échecs d&#39;analyse ignorés
 

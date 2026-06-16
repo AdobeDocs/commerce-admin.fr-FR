@@ -3,9 +3,16 @@ title: Rapports clients
 description: Les rapports clients disponibles dans Adobe Commerce et Magento Open Source fournissent des informations insight sur l’activité des clients au cours d’une période ou d’une période spécifiée.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
+TQID: https://experienceleague.adobe.com/i6BKd2v1P3eT8BkNn4poW5BhsrH8bG86kNN58v-TRIQ
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2: id: a0ba824e-0c31-421c-9b6f-aa500e5c18a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: 903
 ht-degree: 2%
 
 ---
@@ -84,7 +91,7 @@ La [!UICONTROL New Accounts Report] affiche le nombre de nouveaux comptes client
 
 Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
 
-![&#x200B; Rapport Nouveaux Comptes &#x200B;](./assets/customers-new-accounts.png){width="600"}
+![ Rapport Nouveaux Comptes ](./assets/customers-new-accounts.png){width="600"}
 
 ### Contrôles Workspace
 
@@ -109,7 +116,7 @@ Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICON
 
 ## [!UICONTROL Customer Wish List Report]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement)
 
@@ -157,7 +164,7 @@ Le [!UICONTROL Customer Segment Report] fournit des informations sur le nombre d
 
 Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
 
-![&#x200B; Rapport Segments &#x200B;](./assets/customers-segments.png){width="600"}
+![ Rapport Segments ](./assets/customers-segments.png){width="600"}
 
 ### Contrôles Workspace
 

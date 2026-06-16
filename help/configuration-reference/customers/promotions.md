@@ -3,9 +3,15 @@ title: '[!UICONTROL Customers] > [!UICONTROL Promotions]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Promotions] de [!UICONTROL Customers] &gt ; de l’administrateur Commerce.
 exl-id: 93035d46-2e9e-466d-a5e3-d69ce6b662b8
 feature: Configuration, Promotions/Events
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/Sc1-Wacd9emNUOl9GabUK-J3OLH-eNX2hvk6m8oyjYc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: 330
 ht-degree: 0%
 
 ---
@@ -20,7 +26,7 @@ ht-degree: 0%
 
 ![Règles de rappel d’e-mail automatisées](./assets/promotions-automated-email-reminder-rules.png)<!-- zoom -->
 
-<!-- [Automated Email Reminder Rules](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules#configure-email-reminders) -->
+<!-- [Automated Email Reminder Rules](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules#configure-email-reminders) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -38,7 +44,7 @@ ht-degree: 0%
 
 ![Codes de coupon spécifiques générés automatiquement](./assets/promotions-auto-generated-specific-coupon-codes.png)<!-- zoom -->
 
-<!-- [Auto Generated Specific Coupon Codes](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#configure-coupon-codes)  -->
+<!-- [Auto Generated Specific Coupon Codes](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#configure-coupon-codes)  -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -46,6 +52,6 @@ ht-degree: 0%
 | [!UICONTROL Code Format] | Global | Définit le format du code bon. Les options incluent : <br/>**`Alphanumeric`**- Toute combinaison de lettres et de chiffres.<br/>**`Alphabetical`** - Lettres uniquement. <br/>**`Numeric`**- Nombres uniquement. |
 | [!UICONTROL Code Prefix] | Global | Valeur ajoutée au début de tous les codes coupon. Si vous ne souhaitez pas utiliser de préfixe, laissez le champ vide. |
 | [!UICONTROL Code Suffix] | Global | Valeur ajoutée à la fin de tous les codes. Si vous ne souhaitez pas utiliser de suffixe, laissez le champ vide. |
-| [!UICONTROL Dash Every X Characters] | Global | Intervalle pour insérer un tiret (-) dans tous les codes coupon. Si vous ne souhaitez pas utiliser de tiret, laissez le champ vide. <br/>_&#x200B;**Remarque :**&#x200B;_ les codes coupon qui ne diffèrent que d’un tiret sont considérés comme des codes différents. |
+| [!UICONTROL Dash Every X Characters] | Global | Intervalle pour insérer un tiret (-) dans tous les codes coupon. Si vous ne souhaitez pas utiliser de tiret, laissez le champ vide. <br/>_**Remarque :**_ les codes coupon qui ne diffèrent que d’un tiret sont considérés comme des codes différents. |
 
 {style="table-layout:auto"}

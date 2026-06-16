@@ -3,9 +3,16 @@ title: '[!DNL Google Tag Manager]'
 description: Découvrez comment utiliser  [!DNL Google Tag Manager]  gérer les nombreuses balises (fragments de code) liées à vos événements de campagne marketing sur vos sites Adobe Commerce.
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
+TQID: https://experienceleague.adobe.com/O6QyIkoGkC1FnCa-8fIjVAhqG4aZwDr-AuAIQqyzdPA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5id: bcbf87e7-9b75-4596-bffe-0f376b4c73a7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: 1500
 ht-degree: 0%
 
 ---
@@ -44,7 +51,7 @@ Voir [Configuration de la recherche de site](https://support.google.com/analytic
 
    - Choisissez **[!UICONTROL Property Settings]**.
 
-   - Sous _[!UICONTROL Advertising Features]_, définissez **[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;sur `On`.
+   - Sous _[!UICONTROL Advertising Features]_, définissez **[!UICONTROL Enable Demographics and Interest Reports]**sur `On`.
 
    - **[!UICONTROL Save]** les paramètres.
 
@@ -178,7 +185,7 @@ Si vous disposez d’un compte Google AdWords, vous pouvez créer une balise pou
 
    - Sous **[!UICONTROL Choose Product]**, sélectionnez **[!UICONTROL Google AdWords]**.
 
-   - Sous _[!UICONTROL Choose a Tag Type]_, sélectionnez **[!UICONTROL AdWords Conversion Tracking]**&#x200B;et cliquez sur **[!UICONTROL Continue]**.
+   - Sous _[!UICONTROL Choose a Tag Type]_, sélectionnez **[!UICONTROL AdWords Conversion Tracking]**et cliquez sur **[!UICONTROL Continue]**.
 
 1. Saisissez les **[!UICONTROL Conversion ID]** et **[!UICONTROL Conversion Label]** de votre compte AdWords, puis cliquez sur **[!UICONTROL Continue]**.
 
@@ -212,7 +219,7 @@ L’étape suivante du processus consiste à prévisualiser la balise . Chaque f
 
 ## Balise HTML personnalisée avec JavaScript
 
-Cette section explique comment ajouter une valeur à usage unique CSP au JavaScript de balise HTML personnalisé pour l’exécuter sur la page de passage en caisse, en veillant à la conformité aux exigences de la politique de sécurité du contenu (CSP). Cet ajout améliore la sécurité du site en empêchant l’exécution de scripts non autorisés. Pour plus d’informations, consultez la documentation [&#x200B; Politique de sécurité du contenu &#x200B;](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+Cette section explique comment ajouter une valeur à usage unique CSP au JavaScript de balise HTML personnalisé pour l’exécuter sur la page de passage en caisse, en veillant à la conformité aux exigences de la politique de sécurité du contenu (CSP). Cet ajout améliore la sécurité du site en empêchant l’exécution de scripts non autorisés. Pour plus d’informations, consultez la documentation [ Politique de sécurité du contenu ](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
 
 >[!NOTE]
 >
@@ -238,11 +245,11 @@ Si vous ne pouvez pas importer la configuration de variable, procédez comme sui
 1. Cliquez sur le bouton **Nouveau** au bas de la page dans la section **Variables définies par l’utilisateur**.
 1. Nommez la variable `gtmNonce`.
 1. Cliquez sur l’icône en forme de crayon pour modifier la variable.
-1. Sélectionnez **Variable JavaScript** dans la section **Variable de page**.
+1. Sélectionnez **Variable** dans la section **Variable de page**.
 1. Dans le champ **Nom global de la variable**, saisissez `window.cspNonce`.
 1. Enregistrez la variable.
 
-Pour en savoir plus sur les [variables du gestionnaire de balises Google](https://support.google.com/tagmanager/answer/7683056?hl=en), consultez [Types de variables définis par l’utilisateur pour le web](https://support.google.com/tagmanager/answer/7683362?hl=en) dans la documentation de Google. Cette documentation fournit des conseils détaillés sur la création et la gestion de variables personnalisées afin d’adapter la gestion des balises à des besoins spécifiques de marketing et d’analyse.
+Pour en savoir plus sur les [variables du gestionnaire de balises ](https://support.google.com/tagmanager/answer/7683056?hl=en), consultez [Types de variables définis par l’utilisateur pour le web](https://support.google.com/tagmanager/answer/7683362?hl=en) dans la documentation de Google. Cette documentation fournit des conseils détaillés sur la création et la gestion de variables personnalisées afin d’adapter la gestion des balises à des besoins spécifiques de marketing et d’analyse.
 
 ### Étape 2. Création d’une balise HTML personnalisée
 

@@ -3,9 +3,15 @@ title: Paramétrage du transporteur
 description: Découvrez la prise en charge des comptes d’expédition commerciale disponibles pour votre boutique.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: b0f3256e6e41ce3e605a9564ce0e412efcba9c98
+TQID: https://experienceleague.adobe.com/zKN3BQWHywAOLJ-zaJX1-8b7aAYxtzl8v9J7uJG1rFg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: 496
 ht-degree: 0%
 
 ---
@@ -16,7 +22,7 @@ Si vous disposez d&#39;un compte commercial auprès d&#39;un opérateur pris en 
 
 >[!NOTE]
 >
->Consultez [&#128279;](../getting-started/commerce-marketplace.md) pour obtenir des services de livraison supplémentaires pour votre installation de Commerce.
+>Consultez [](../getting-started/commerce-marketplace.md) pour obtenir des services de livraison supplémentaires pour votre installation de Commerce.
 
 Avant de pouvoir proposer à vos clients une sélection de transporteurs, vous devez effectuer les étapes suivantes :
 
@@ -51,7 +57,7 @@ Depuis le 25 janvier 2026, USPS a mis hors service les API des outils web hérit
 
 Pour éviter toute interruption des services d’expédition USPS, effectuez une mise à niveau vers la dernière version d’Adobe Commerce ou effectuez les actions suivantes :
 
-- Appliquez le correctif de qualité [&#x200B; Migration de l’API REST USPS &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) pour ajouter la prise en charge de l’intégration aux API REST USPS.
+- Appliquez le correctif de qualité [ Migration de l’API REST USPS ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) pour ajouter la prise en charge de l’intégration aux API REST USPS.
 
 - Mettez à jour la configuration USPS de Commerce pour utiliser les API REST :
 

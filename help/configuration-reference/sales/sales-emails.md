@@ -3,9 +3,15 @@ title: '[!UICONTROL Sales] > [!UICONTROL Sales Emails]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Sales Emails] de [!UICONTROL Sales] &gt ; de l’administrateur Commerce.
 exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 feature: Configuration, Communications
-source-git-commit: 1e19aaab43f389469d6bc44810c1819678ae3e4a
+TQID: https://experienceleague.adobe.com/6BUVNd3BxyFvzCvE-FCXwr0-f7AOQdwW5cB2QiUx-b4
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2340'
+source-wordcount: 2340
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 0%
 
 ![Paramètres généraux](./assets/sales-emails-general-settings.png)<!-- zoom -->
 
-<!-- [General Settings](https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/communications/email-communications) -->
+<!-- [General Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/communications/email-communications) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -30,7 +36,7 @@ ht-degree: 0%
 
 ![Commande](./assets/sales-emails-order.png)<!-- zoom -->
 
-<!-- [Order](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/order-management/orders/orders) -->
+<!-- [Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -47,7 +53,7 @@ ht-degree: 0%
 
 ![Commentaires sur la commande](./assets/sales-emails-order-comments.png)<!-- zoom -->
 
-<!-- [Order Comments](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/order-management/orders/order-processing#process-an-order) -->
+<!-- [Order Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#process-an-order) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -62,9 +68,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Invoice]
 
-![&#x200B; Facture &#x200B;](./assets/sales-emails-invoice.png)<!-- zoom -->
+![ Facture ](./assets/sales-emails-invoice.png)<!-- zoom -->
 
-<!-- [Invoice](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/order-management/invoices) -->
+<!-- [Invoice](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -81,7 +87,7 @@ ht-degree: 0%
 
 ![Commentaires sur la facture](./assets/sales-emails-invoice-comments.png)<!-- zoom -->
 
-<!-- [Invoice Comments](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) -->
+<!-- [Invoice Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -98,7 +104,7 @@ ht-degree: 0%
 
 ![Expédition](./assets/sales-emails-shipment.png)<!-- zoom -->
 
-<!-- [Shipment](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/order-management/shipments) -->
+<!-- [Shipment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/shipments) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -115,7 +121,7 @@ ht-degree: 0%
 
 ![Commentaires sur l&#39;expédition](./assets/sales-emails-shipment-comments.png)<!-- zoom -->
 
-<!-- [Shipment Comments](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/order-management/shipments) -->
+<!-- [Shipment Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/shipments) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -132,7 +138,7 @@ ht-degree: 0%
 
 ![Avoir](./assets/sales-emails-credit-memo.png)<!-- zoom -->
 
-<!-- [Credit Memo](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos) -->
+<!-- [Credit Memo](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -149,7 +155,7 @@ ht-degree: 0%
 
 ![Commentaires sur avoir](./assets/sales-emails-credit-memo-comments.png)<!-- zoom -->
 
-<!-- [Credit Memo Comments](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memo-create) -->
+<!-- [Credit Memo Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memo-create) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -164,11 +170,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Order Ready For Pickup in Store]
 
-Cette option nécessite l&#39;activation de [&#128279;](../../inventory-management/guide-overview.md).
+Cette option nécessite l&#39;activation de [](../../inventory-management/guide-overview.md).
 
 ![Commande prête pour le retrait en magasin](./assets/sales-emails-ready-pickup.png)<!-- zoom -->
 
-<!-- [Order Ready For Pickup in Store](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [Order Ready For Pickup in Store](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -206,7 +212,7 @@ Cette option nécessite l&#39;activation de [&#128279;](../../inventory-manageme
 
 ![Citation](./assets/sales-emails-quote.png)<!-- zoom -->
 
-<!-- [Quotes](https://experienceleague.adobe.com/fr/docs/commerce-admin/b2b/quotes/account-dashboard-my-quotes) -->
+<!-- [Quotes](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/quotes/account-dashboard-my-quotes) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -227,15 +233,15 @@ Cette option nécessite l&#39;activation de [&#128279;](../../inventory-manageme
 
 {{ee-feature}}
 
-![RMA &#x200B;](./assets/sales-emails-rma.png)<!-- zoom -->
+![RMA ](./assets/sales-emails-rma.png)<!-- zoom -->
 
-<!-- [RMA](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
+<!-- [RMA](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Affichage de la boutique | Active la notification par e-mail pour chaque RMA généré. Options : `Yes` / `No` |
-| [!UICONTROL RMA Email Sender] | Affichage de la boutique | Identifie le [&#x200B; contact du magasin &#x200B;](../../getting-started/store-details.md#store-email-addresses) qui apparaît comme l’expéditeur du message. Valeur par défaut : `Sales Representative` |
-| [!UICONTROL RMA Email Template] | Affichage de la boutique | Détermine le [&#x200B; modèle d&#39;e-mail &#x200B;](../../systems/email-templates.md) utilisé pour la notification envoyée lorsqu&#39;une autorisation de retour client est générée pour un client. Modèle par défaut : `New RMA` |
+| [!UICONTROL RMA Email Sender] | Affichage de la boutique | Identifie le [ contact du magasin ](../../getting-started/store-details.md#store-email-addresses) qui apparaît comme l’expéditeur du message. Valeur par défaut : `Sales Representative` |
+| [!UICONTROL RMA Email Template] | Affichage de la boutique | Détermine le [ modèle d&#39;e-mail ](../../systems/email-templates.md) utilisé pour la notification envoyée lorsqu&#39;une autorisation de retour client est générée pour un client. Modèle par défaut : `New RMA` |
 | [!UICONTROL RMA Email Template for Guest] | Affichage de la boutique | Détermine le modèle envoyé lorsqu&#39;une autorisation de retour client est générée pour un invité. Modèle par défaut : `New RMA for Guest` |
 | [!UICONTROL Send RMA Email Copy To] | Affichage de la boutique | Fournit l&#39;adresse e-mail de toute personne qui devrait recevoir une copie d&#39;un e-mail RMA. Séparez les adresses multiples par une virgule. |
 | [!UICONTROL Send RMA  Email Copy Method] | Affichage de la boutique | Indique la méthode e-mail utilisée pour envoyer la copie. Les options incluent : <br/>**`Bcc`**- envoie une copie de courtoisie invisible en incluant le destinataire dans l’en-tête du même e-mail envoyé au client ou à la cliente. Le destinataire en Cci n’est pas visible pour le client.<br/>**`Separate Email`** - Envoie la copie sous forme d’e-mail distinct. |
@@ -246,14 +252,14 @@ Cette option nécessite l&#39;activation de [&#128279;](../../inventory-manageme
 
 {{ee-feature}}
 
-![&#x200B; Autorisation RMA &#x200B;](./assets/sales-emails-rma-auth.png)<!-- zoom -->
+![ Autorisation RMA ](./assets/sales-emails-rma-auth.png)<!-- zoom -->
 
-<!-- [RMA Authorization](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/order-management/returns/rma-configure) -->
+<!-- [RMA Authorization](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/rma-configure) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Affichage de la boutique | Lorsque cette option est activée, envoie une notification par e-mail pour chaque autorisation RMA. Options : `Yes` / `No` |
-| [!UICONTROL RMA Authorization Email Sender] | Affichage de la boutique | Identifie le [&#x200B; contact du magasin &#x200B;](../../getting-started/store-details.md#store-email-addresses) qui apparaît comme l’expéditeur du message. Valeur par défaut : `Sales Representative` |
+| [!UICONTROL RMA Authorization Email Sender] | Affichage de la boutique | Identifie le [ contact du magasin ](../../getting-started/store-details.md#store-email-addresses) qui apparaît comme l’expéditeur du message. Valeur par défaut : `Sales Representative` |
 | [!UICONTROL RMA Authorization Email Template] | Affichage de la boutique | Détermine le [modèle d&#39;e-mail](../../systems/email-templates.md) utilisé lorsqu&#39;une notification d&#39;autorisation RMA est envoyée. Modèle par défaut : `RMA Authorization` |
 | [!UICONTROL RMA Authorization Email Template for Guest] | Affichage de la boutique | Détermine le modèle utilisé lorsqu&#39;une notification d&#39;autorisation RMA est envoyée à un invité. Modèle par défaut : `RMA Authorization for Guest` |
 | [!UICONTROL Send RMA Authorization Email Copy To] | Affichage de la boutique | Fournit l&#39;adresse e-mail de toute personne souhaitant recevoir une copie d&#39;un e-mail d&#39;autorisation RMA. Séparez les adresses multiples par une virgule. |
@@ -270,7 +276,7 @@ Cette option nécessite l&#39;activation de [&#128279;](../../inventory-manageme
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Affichage de la boutique | Lorsqu&#39;elle est activée, envoie une notification électronique pour chaque commentaire d&#39;administrateur RMA. Options : `Yes` / `No` |
-| [!UICONTROL RMA Comment Email Sender] | Affichage de la boutique | Identifie le [&#x200B; contact du magasin &#x200B;](../../getting-started/store-details.md#store-email-addresses) qui apparaît comme l’expéditeur du message. Valeur par défaut : `Sales Representative` |
+| [!UICONTROL RMA Comment Email Sender] | Affichage de la boutique | Identifie le [ contact du magasin ](../../getting-started/store-details.md#store-email-addresses) qui apparaît comme l’expéditeur du message. Valeur par défaut : `Sales Representative` |
 | [!UICONTROL RMA Comment Email Template] | Affichage de la boutique | Détermine le [modèle d&#39;e-mail](../../systems/email-templates.md) utilisé lorsqu&#39;un administrateur ajoute un commentaire à une RMA pour un client. Modèle par défaut : `RMA Admin Comments` |
 | [!UICONTROL RMA Comment Email Template for Guest] | Affichage de la boutique | Détermine le modèle utilisé lorsqu’un administrateur ajoute un commentaire à une RMA pour un invité. Modèle par défaut : `RMA Admin Comments for Guest` |
 | [!UICONTROL Send RMA Comment Email Copy To] | Affichage de la boutique | Fournit l’adresse e-mail de toute personne souhaitant recevoir une copie de la notification. Séparez les adresses multiples par une virgule. |
@@ -284,12 +290,12 @@ Cette option nécessite l&#39;activation de [&#128279;](../../inventory-manageme
 
 ![Commentaires client RMA](./assets/sales-emails-rma-customer-comments.png)<!-- zoom -->
 
-<!-- [RMA Customer Comments](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
+<!-- [RMA Customer Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Affichage de la boutique | Lorsqu&#39;elle est activée, envoie une notification par e-mail pour chaque commentaire client RMA. Options : `Yes` / `No` |
-| [!UICONTROL RMA Comment Email Sender] | Affichage de la boutique | Identifie le [&#x200B; contact du magasin &#x200B;](../../getting-started/store-details.md#store-email-addresses) qui apparaît comme l’expéditeur du message. Valeur par défaut : `Customer Support` |
+| [!UICONTROL RMA Comment Email Sender] | Affichage de la boutique | Identifie le [ contact du magasin ](../../getting-started/store-details.md#store-email-addresses) qui apparaît comme l’expéditeur du message. Valeur par défaut : `Customer Support` |
 | [!UICONTROL RMA Comment Email Recipient] | Affichage de la boutique | Identifie le contact du magasin qui est le destinataire de l’e-mail de commentaire client. Valeur par défaut : `Sales Representative` |
 | [!UICONTROL RMA Comment Email Template] | Affichage de la boutique | Détermine le [modèle d&#39;e-mail](../../systems/email-templates.md) utilisé lorsqu&#39;un client ajoute un commentaire à une RMA. Modèle par défaut : `RMA Admin Comments` |
 | [!UICONTROL Send RMA Comment Email Copy To] | Affichage de la boutique | Fournit l’adresse e-mail de toute personne souhaitant recevoir une copie de la notification. Séparez les adresses multiples par une virgule. |

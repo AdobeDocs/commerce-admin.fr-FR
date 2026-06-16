@@ -1,47 +1,53 @@
 ---
 title: '[!UICONTROL My Quote Templates]'
-description: Découvrez l’expérience client pour les modèles de devis, disponible dans le tableau de bord du compte de vitrine.
+description: Découvrez l’expérience client pour les modèles de devis, disponible dans le tableau de bord du compte storefront.
 feature: B2B, Companies, Quotes
 exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
-source-git-commit: 15f85631741859280450ae1b477e2f3859c42773
+TQID: https://experienceleague.adobe.com/E2xR1PkAHidID85ro6fIz--mGtI358VvmXdKcSApVww
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 0%
+source-wordcount: 973
+ht-degree: 8%
 
 ---
 
 # [!UICONTROL My Quote Templates]
 
-Si les devis sont activés, la _[!UICONTROL My Quotes Template]_&#x200B;section du tableau de bord du compte client répertorie tous les modèles de devis associés au compte client. En fonction de leurs autorisations, seuls les acheteurs qui effectuent des achats au nom d’une entreprise peuvent demander un modèle de devis et négocier le prix du devis et les conditions pour les commandes récurrentes.
+Si les devis sont activés, la section _[!UICONTROL My Quotes Template]_du tableau de bord du compte client répertorie tous les modèles de devis associés au compte client. En fonction de leurs autorisations, seuls les acheteurs qui effectuent des achats pour le compte d&#39;une entreprise peuvent demander un modèle de devis et négocier le prix et les conditions des devis pour les commandes récurrentes.
 
 ![Mes modèles de devis](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
-La liste des modèles de devis classe les modèles par état.
+La liste des modèles de devis organise les modèles par statut.
 
 - **[!UICONTROL Active Quote Templates]** répertorie les modèles qui ont été négociés et approuvés pour utilisation. Les informations incluent le total minimum du devis et les commandes passées si ces options ont été configurées pendant le processus de négociation. Les acheteurs peuvent générer un devis lié à partir du modèle pour soumettre une commande basée sur les conditions du devis.
 
-- **[!UICONTROL In Review]** Répertorie les modèles dans le processus de négociation indiquant l’état actuel et fournissant un lien pour ouvrir le modèle.
+- **[!UICONTROL In Review]** répertorie les modèles du processus de négociation qui indiquent le statut actuel et fournissent un lien pour ouvrir le modèle.
 
-- **[!UICONTROL Inactive]** Répertorie les modèles qui ont expiré, qui ont été annulés ou qui ne sont plus valides parce qu’un acheteur a épuisé le nombre de commandes validées autorisées.
+- **[!UICONTROL Inactive]** répertorie les modèles qui ont expiré, ont été annulés ou ne sont plus valides parce qu&#39;un acheteur a épuisé le nombre de commandes engagées autorisées.
 
-Pour l’acheteur, la *[!UICONTROL My Quotes Templates]* page est le point focal de toutes les communications entre l’acheteur et le vendeur pendant le processus de négociation.
+Pour l&#39;acheteur, la page *[!UICONTROL My Quotes Templates]* est le point focal pour toutes les communications entre l&#39;acheteur et le vendeur pendant le processus de négociation.
 
-Un acheteur qui accepte les conditions négociées proposées par le vendeur peut accepter le modèle, puis l’utiliser pour générer des devis liés pré-approuvés qui peuvent être utilisés pour passer des commandes.
+Un acheteur qui accepte les conditions négociées proposées par le vendeur peut accepter le modèle, puis l&#39;utiliser pour générer des devis liés préapprouvés qui peuvent être utilisés pour passer des commandes.
 
 - Actions liées à la gestion du modèle de devis :
 
    - Annuler un modèle
    - Envoyer au vendeur pour révision
    - Accepter le modèle de devis
-   - Modifier la date d’expiration du modèle de devis
+   - Modifier la date d&#39;expiration du modèle de devis
    - Ajouter une adresse de livraison
    - Gestion des liens vers les documents de référence
 
-- Actions de mise à jour du détail du modèle de devis au cours du processus de négociation :
+- Actions de mise à jour des détails du modèle de devis pendant le processus de négociation :
 
-   - Consultez les tarifs et les mises à jour des articles.
+   - Consultez la tarification et les mises à jour des articles.
    - Si des seuils de quantité ont été configurés sur le modèle de devis, ajustez les valeurs minimale et maximale.
-   - Suivez le processus de négociation à partir de [!UICONTROL Comments] et [!UICONTROL History] des sections.
+   - Suivez le processus de négociation à partir des sections [!UICONTROL Comments] et [!UICONTROL History].
    - Pour les modèles en cours de révision, l&#39;acheteur peut modifier le modèle de devis en supprimant des articles.
    - Communiquez et négociez avec le vendeur en ajoutant des notes au niveau de la ligne et du devis.
    - Ajouter, modifier ou supprimer des liens de documents de référence vers des contrats et des accords externes.
@@ -82,17 +88,17 @@ L&#39;acheteur ne peut pas accepter un modèle de devis tant qu&#39;il n&#39;a p
 
 1. L&#39;acheteur se connecte à son compte.
 
-1. Dans le panneau de gauche, choisissez .**[!UICONTROL My Quote Templates]**
+1. Dans le panneau de gauche, sélectionne **[!UICONTROL My Quote Templates]**.
 
-1. Sélectionnez le modèle de devis souhaité.
+1. Sélectionne le modèle de devis souhaité.
 
-1. Dans la **[!UICONTROL Shipping Information]** section, cliquez sur .**[!UICONTROL Add New Address]**
+1. Dans la section **[!UICONTROL Shipping Information]**, cliquez sur **[!UICONTROL Add New Address]**.
 
-1. Précise les détails de la nouvelle adresse.
+1. Renseigne les détails de la nouvelle adresse.
 
-1. Clics **[!UICONTROL Save Address]**.
+1. Effectue un clic sur **[!UICONTROL Save Address]**.
 
-Une fois que l’acheteur a ajouté l’adresse, il renvoie le modèle au vendeur pour examen. Le vendeur fournit les options d&#39;expédition et de livraison. Ces mises à jour peuvent affecter le prix négocié du devis. Les options d’expédition sont verrouillées lors du passage en caisse.
+Une fois que l&#39;acheteur a ajouté l&#39;adresse, il renvoie le modèle au vendeur pour révision. Le vendeur fournit les options d&#39;expédition et de livraison. Ces mises à jour peuvent affecter le prix négocié du devis. Les options d’expédition sont verrouillées lors du passage en caisse.
 
 ## Générer un devis lié
 
@@ -108,42 +114,42 @@ Les acheteurs peuvent effectuer les actions suivantes à partir d&#39;un devis l
 
 - Si le devis est configuré avec des seuils de quantité, ajustez la quantité de commande pour les lignes.
 - Passez en caisse pour envoyer une commande.
-- Supprimez ou imprimez le devis.
+- Supprimer ou imprimer le devis.
 - Ouvrez le modèle de devis utilisé pour générer le devis.
 
 ## Annuler un modèle de devis
 
-Dans la page du modèle de devis, cliquez sur **[!UICONTROL Cancel Quote Template]**.
+Dans la page de modèle de devis, cliquez sur **[!UICONTROL Cancel Quote Template]**.
 
-Le modèle de devis est annulé et le statut du devis passe à `Closed`. Le guillemet fermé reste dans votre liste de *[!UICONTROL Inactive]* guillemets et reste répertorié dans la _[!UICONTROL Quote Templates]_&#x200B;grille de l’administrateur.
+Le modèle de devis est annulé et le statut du devis passe à `Closed`. Le devis fermé reste dans votre liste de devis *[!UICONTROL Inactive]* et reste répertorié dans la grille de _[!UICONTROL Quote Templates]_dans l&#39;Admin.
 
 ## Gestion des liens vers les documents de référence
 
-La fonctionnalité de liens de documents de référence permet aux acheteurs et aux vendeurs d’ajouter, de modifier et de gérer des liens vers des documents externes (tels que des contrats, des accords ou des spécifications) pendant le processus de modèle de devis.
+La fonction de liens de document de référence permet aux acheteurs et aux vendeurs d&#39;ajouter, de modifier et de gérer des liens vers des documents externes (tels que des contrats, des contrats ou des spécifications) pendant le processus de modèle de devis.
 
 ### Ajouter un lien vers un document de référence
 
 1. Ouvrez le modèle de devis.
 
-1. Dans la **[!UICONTROL Reference Documents]** section, cliquez sur **[!UICONTROL Add]**.
+1. Dans la section **[!UICONTROL Reference Documents]**, cliquez sur **[!UICONTROL Add]**.
 
-1. Dans la boîte de dialogue Document Information :
-   - Entrez un **[!UICONTROL Document Name]** (obligatoire)
-   - Entrez un **[!UICONTROL Document Identifier]** (facultatif)
-   - Entrez un **[!UICONTROL Reference Document URL]** (obligatoire)
+1. Dans la boîte de dialogue Informations sur le document :
+   - Saisir un **[!UICONTROL Document Name]** (obligatoire)
+   - Saisir un **[!UICONTROL Document Identifier]** (facultatif)
+   - Saisir un **[!UICONTROL Reference Document URL]** (obligatoire)
 
 1. Cliquez sur **[!UICONTROL Add to Quote Template]**.
 
-   Le lien vers le document de référence est ajouté au modèle de devis avec le format suivant :
+   Le lien du document de référence est alors ajouté au modèle de devis au format suivant :
    `Document Name, Document Identifier https://document-url`
 
-### Modifier un lien vers un document de référence
+### Modification d’un lien vers un document de référence
 
 1. Ouvrez le modèle de devis.
 
-1. Dans la **[!UICONTROL Reference Documents]** section, cliquez en **[!UICONTROL Edit]** regard du lien du document que vous souhaitez modifier.
+1. Dans la section **[!UICONTROL Reference Documents]**, cliquez sur **[!UICONTROL Edit]** en regard du lien du document à modifier.
 
-1. Mettez à jour les informations sur le document dans la boîte de dialogue :
+1. Mettez à jour les informations du document dans la boîte de dialogue :
    - Nom du document
    - Identifiant du document
    - URL du document de référence

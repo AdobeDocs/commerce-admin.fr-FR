@@ -3,9 +3,15 @@ title: Disposition - Colonne
 description: Découvrez le type de contenu de colonne, utilisé pour diviser une page en plusieurs colonnes au cours de l [!DNL Page Builder] étape.
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/C1KAlwqUH08pZeWxYIK5US61woaInIrLn0PGdSuIaBQ
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: 1576
 ht-degree: 0%
 
 ---
@@ -20,7 +26,7 @@ Utilisez le type de contenu _Colonne_ pour diviser une page en plusieurs colonne
 
 ## Mises à jour de la version 2.4.5
 
-Les fonctionnalités de Page Builder sont mises à jour dans la version 2.4.5 afin que les utilisateurs utilisent désormais _[!DNL Columns]_&#x200B;comme conteneur parent pour les colonnes individuelles. Ce nouveau conteneur prend également en charge les propriétés pour l’arrière-plan et élimine la nécessité d’encapsuler les colonnes dans une ligne. Il réduit les balises inutiles et offre un contrôle plus fin de l’affichage et de l’expérience du storefront.
+Les fonctionnalités de Page Builder sont mises à jour dans la version 2.4.5 afin que les utilisateurs utilisent désormais _[!DNL Columns]_comme conteneur parent pour les colonnes individuelles. Ce nouveau conteneur prend également en charge les propriétés pour l’arrière-plan et élimine la nécessité d’encapsuler les colonnes dans une ligne. Il réduit les balises inutiles et offre un contrôle plus fin de l’affichage et de l’expérience du storefront.
 
 Vous pouvez modifier la disposition du conteneur de [!DNL Columns] en faisant glisser une colonne au-dessus ou en dessous d’autres colonnes du groupe et en les empilant. Cela ouvre une nouvelle variété de combinaisons de mises en page possibles qui peuvent être obtenues sans avoir besoin d’être personnalisées par les développeurs.
 
@@ -34,7 +40,7 @@ Chaque colonne comporte une boîte à outils d’options qui s’affiche lorsque
 
 | Outil | Icon | Description |
 |--- |--- |--- |
-| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace la colonne et son contenu vers une autre position par rapport aux autres colonnes. |
+| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace la colonne et son contenu vers une autre position par rapport aux autres colonnes. |
 | (libellé) | Colonne | Identifie le conteneur actuel sous forme d’une colonne. Pointez sur le conteneur de colonnes pour afficher la palette. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Modifier la colonne , qui permet de modifier les propriétés du conteneur. |
 | Dupliquer | ![Icône Dupliquer](./assets/pb-icon-duplicate.png){width="25"} | Effectue une copie de la colonne active. |
@@ -54,7 +60,7 @@ Dans l’exemple à deux colonnes suivant, les nombres entre parenthèses (6/12)
 
 ## Ajouter une colonne
 
-1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un **[!UICONTROL Column]**&#x200B;vers la scène.
+1. Dans le panneau [!DNL Page Builder] sous _[!UICONTROL Layout]_, faites glisser un **[!UICONTROL Column]**vers la scène.
 
    ![Faire glisser une colonne vers l’étape](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
@@ -100,7 +106,7 @@ Dans l’exemple à deux colonnes suivant, les nombres entre parenthèses (6/12)
 
    - Pointez sur la colonne pour afficher la boîte à outils et sélectionnez l’icône _Paramètres_ ( ![icône Paramètres](./assets/pb-icon-settings.png){width="20"} ).
 
-   - Faites défiler l’écran jusqu’à la section _[!UICONTROL Advanced]_&#x200B;et définissez les quatre valeurs **[!UICONTROL Padding]**&#x200B;sur `0`.
+   - Faites défiler l’écran jusqu’à la section _[!UICONTROL Advanced]_et définissez les quatre valeurs **[!UICONTROL Padding]**sur `0`.
 
      ![Utilisation d’une marge intérieure nulle](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -141,7 +147,7 @@ Dans l’exemple à deux colonnes suivant, les nombres entre parenthèses (6/12)
      | ------ | ----------- |
      | [!UICONTROL Upload] | Télécharge un fichier image de votre ordinateur local dans la galerie, puis l’applique en tant qu’image d’arrière-plan de la colonne. |
      | [!UICONTROL Select from Gallery] | Vous invite à choisir une image existante de la galerie comme image d’arrière-plan pour la colonne. |
-     | ![&#x200B; Icône Appareil photo &#x200B;](./assets/pb-icon-camera.png){width="25"} | Vous permet de faire glisser l’image vers la mosaïque de la caméra ou d’accéder à l’image dans votre système de fichiers local. |
+     | ![ Icône Appareil photo ](./assets/pb-icon-camera.png){width="25"} | Vous permet de faire glisser l’image vers la mosaïque de la caméra ou d’accéder à l’image dans votre système de fichiers local. |
 
      {style="table-layout:auto"}
 
@@ -170,7 +176,7 @@ Dans l’exemple à deux colonnes suivant, les nombres entre parenthèses (6/12)
 
    - **[!UICONTROL Background Repeat]** - Si vous souhaitez répéter l’image d’arrière-plan pour remplir l’espace, modifiez `Yes` ce paramètre.
 
-1. Mettez à jour les paramètres _[!UICONTROL Advanced]_&#x200B;selon vos besoins.
+1. Mettez à jour les paramètres _[!UICONTROL Advanced]_selon vos besoins.
 
    - Pour contrôler le positionnement horizontal des conteneurs de contenu ajoutés à la colonne, choisissez une **[!UICONTROL Alignment]** :
 

@@ -1,11 +1,17 @@
 ---
-title: '[!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds]'
-description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] de l’administrateur Commerce.
+title: '[!UICONTROL Catalog] > [!UICONTROL RSS Feeds]'
+description: Vérifiez les paramètres de configuration sur la page [!UICONTROL RSS Feeds] de [!UICONTROL Catalog] &gt ; de l’administrateur Commerce.
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
 feature: Configuration, Communications
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/vPgIo-h-9LkwMsk7enzY0rM5vMZlj78tT-jqumL5n60
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: 182
 ht-degree: 2%
 
 ---
@@ -16,13 +22,13 @@ ht-degree: 2%
 
 ## [!UICONTROL Rss Config]
 
-![Configuration Rss](./assets/rss-feeds-rss-config.png)<!-- zoom -->
+![ Configuration Rss ](./assets/rss-feeds-rss-config.png)<!-- zoom -->
 
-<!-- [Rss Config](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/communications/social-rss) -->
+<!-- [Rss Config](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/social-rss) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Enable RSS] | Affichage en magasin | Permet aux clients de recevoir des flux RSS du magasin. |
+| [!UICONTROL Enable RSS] | Affichage de la boutique | Permet aux clients de recevoir des flux RSS du magasin. |
 
 {style="table-layout:auto"}
 
@@ -30,39 +36,39 @@ Pour plus d’informations sur l’utilisation des flux RSS après leur activati
 
 ## [!UICONTROL Wish List]
 
-![Liste de souhaits](./assets/rss-feeds-wishlist.png)<!-- zoom -->
+![ Liste de souhaits ](./assets/rss-feeds-wishlist.png)<!-- zoom -->
 
-<!-- [Wish List](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
+<!-- [Wish List](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Enable RSS] | Affichage en magasin | Lorsque cette option est activée, un lien de flux RSS s’affiche en haut des pages de liste de souhaits. La page de partage des listes de souhaits comprend une case à cocher que le client peut sélectionner pour créer un lien vers le flux à partir des listes de souhaits partagées. |
+| [!UICONTROL Enable RSS] | Affichage de la boutique | Lorsqu&#39;il est activé, un lien de flux RSS s&#39;affiche en haut des pages de liste de souhaits. La page de partage de listes de souhaits comprend une case à cocher que le client peut sélectionner pour lier au flux à partir de listes de souhaits partagées. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Catalog]
 
-![Catalog](./assets/rss-feeds-catalog.png)<!-- zoom -->
+![Catalogue](./assets/rss-feeds-catalog.png)<!-- zoom -->
 
-<!-- [Catalog](https://experienceleague.adobe.com/fr/docs/commerce-admin/catalog/catalog-menu) -->
+<!-- [Catalog](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL New Products] | Affichage en magasin | Lorsqu’elle est activée, publie la notification des nouveaux produits ajoutés au catalogue du magasin. |
-| [!UICONTROL Special Products] | Affichage en magasin | Lorsqu’elle est activée, publie la notification de tous les produits dont les tarifs sont spéciaux. |
-| [!UICONTROL Coupons/Discounts] | Affichage en magasin | Lorsque cette option est activée, publie la notification de tous les coupons ou remises. |
-| [!UICONTROL Top Level Category] | Affichage en magasin | Publie la notification de toute modification sur la structure de catégorie de niveau supérieur de votre catalogue, qui est répercutée dans le menu principal. |
+| [!UICONTROL New Products] | Affichage de la boutique | Lorsque cette option est activée, publie une notification des nouveaux produits ajoutés au catalogue de la boutique. |
+| [!UICONTROL Special Products] | Affichage de la boutique | Lorsque cette option est activée, publie une notification de tous les produits avec un prix spécial. |
+| [!UICONTROL Coupons/Discounts] | Affichage de la boutique | Lorsque cette option est activée, publie une notification de coupons ou de remises. |
+| [!UICONTROL Top Level Category] | Affichage de la boutique | Publie une notification de toute modification apportée à la structure de catégorie de niveau supérieur de votre catalogue, qui est répercutée dans le menu principal. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
-![Order](./assets/rss-feeds-order.png)<!-- zoom -->
+![Commande](./assets/rss-feeds-order.png)<!-- zoom -->
 
-<!-- [Order](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/order-management/orders/order-status#notification) -->
+<!-- [Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-status#notification) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Customer Order Status Notification] | Affichage en magasin | Permet aux clients de suivre l’état de leur commande par flux RSS. Lorsque cette option est activée, un lien de flux RSS s’affiche dans la commande. |
+| [!UICONTROL Customer Order Status Notification] | Affichage de la boutique | Permet aux clients de suivre l&#39;état de leur commande par flux RSS. Lorsqu&#39;il est activé, un lien de flux RSS apparaît sur la commande |
 
 {style="table-layout:auto"}

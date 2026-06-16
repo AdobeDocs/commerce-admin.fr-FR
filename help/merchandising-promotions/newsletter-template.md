@@ -3,9 +3,14 @@ title: Modèles de newsletter
 description: Découvrez comment créer des modèles de newsletter pour vous aligner sur votre stratégie de communication.
 exl-id: 2a14ef7c-218a-4984-9062-87cd6000cefc
 feature: Customers, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+TQID: https://experienceleague.adobe.com/wfyNd68Ln7Xr8DOJN77aUedE8b8GC-BtnxDDV41wLtw
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: 421
 ht-degree: 0%
 
 ---
@@ -36,7 +41,7 @@ Vous pouvez créer autant de modèles de newsletter que nécessaire à différen
 
    - Par **[!UICONTROL Template Content]**, cliquez sur **[!UICONTROL Show / Hide Editor]** pour afficher l’éditeur WYSIWYG et mettre à jour le contenu si nécessaire.
 
-     Pour en savoir plus, voir [&#x200B; Utilisation de l’éditeur &#x200B;](../content-design/editor.md).
+     Pour en savoir plus, voir [ Utilisation de l’éditeur ](../content-design/editor.md).
 
      >[!NOTE]
      >

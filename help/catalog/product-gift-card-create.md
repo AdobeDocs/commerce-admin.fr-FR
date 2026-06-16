@@ -3,9 +3,15 @@ title: Produit de carte cadeau
 description: Découvrez comment créer un produit de carte cadeau qui génère un code unique pouvant être utilisé par un client destinataire lors du passage en caisse.
 exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 feature: Catalog Management, Products, Gift
-source-git-commit: e72977596c4479d2e94b1e066ee166d22cb12405
+TQID: https://experienceleague.adobe.com/NXGOm4ZRIEPM02IPR8yJ7Ai9s1G6IPOKh2ER8f4kJNY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: 966
 ht-degree: 0%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Chaque carte cadeau comporte un code unique, qui ne peut être utilisé que par un seul client lors du passage en caisse. Un [pool de codes](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) doit être établi avant que les cartes-cadeaux puissent être vendues. Pour plus d’informations sur le mode d’échange des cartes cadeaux dans le panier[&#128279;](../stores-purchase/product-gift-card-workflow.md) reportez-vous à la section Workflow des cartes cadeau.
+Chaque carte cadeau comporte un code unique, qui ne peut être utilisé que par un seul client lors du passage en caisse. Un [pool de codes](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) doit être établi avant que les cartes-cadeaux puissent être vendues. Pour plus d’informations sur le mode d’échange des cartes cadeaux dans le panier](../stores-purchase/product-gift-card-workflow.md) reportez-vous à la section [Workflow des cartes cadeau.
 
 ![Page produit de la carte cadeau](./assets/storefront-giftcard-product-page.png){width="700" zoomable="yes"}
 
@@ -96,7 +102,7 @@ D’autres attributs individuels peuvent décrire le produit. La sélection vari
 
 ### Étape 5 : Complétez les informations de la carte cadeau
 
-La section _[!UICONTROL Gift Card Information]_&#x200B;des paramètres du produit peut être utilisée pour remplacer les paramètres [configuration de la carte cadeau](../configuration-reference/sales/gift-cards.md) qui déterminent la manière dont la carte est gérée.
+La section _[!UICONTROL Gift Card Information]_des paramètres du produit peut être utilisée pour remplacer les paramètres [configuration de la carte cadeau](../configuration-reference/sales/gift-cards.md) qui déterminent la manière dont la carte est gérée.
 
 1. Faites défiler l’écran jusqu’à la section _[!UICONTROL Gift Card Information]_.
 

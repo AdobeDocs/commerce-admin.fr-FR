@@ -4,10 +4,16 @@ description: Découvrez comment configurer la gestion des sessions pour sécuris
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+TQID: https://experienceleague.adobe.com/0-D87Vrfu7OXkukQCye10VIpN-TLoANPAzb-5CVcf2w
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: 795
 ht-degree: 0%
 
 ---
@@ -29,7 +35,7 @@ Utilisez les paramètres de configuration suivants pour limiter la taille de ses
 >
 >Les deux paramètres sont mesurés en octets et la valeur par défaut est de `256000` octets (ou 256 Ko).
 
-**_Pour configurer la taille de session maximale, procédez comme suit_**
+**_To configure maximum session size:_**
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -65,7 +71,7 @@ Si vous dépassez la taille de session maximale, aucune erreur ne s’affiche, m
 
 Adobe Commerce et Magento Open Source vous permettent de valider les variables de session à titre de mesure de protection contre d’éventuelles attaques de fixation de session ou tentatives d’empoisonnement ou de détournement de sessions utilisateur. Les paramètres de validation de session déterminent la manière dont les variables de session sont validées lors de chaque visite de la boutique et si l’ID de session est inclus dans l’URL de la boutique.
 
-Pour plus d’informations techniques, voir [Utilisation de Redis pour le stockage de session](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=fr) dans le _Guide de configuration_.
+Pour plus d’informations techniques, voir [Utilisation de Redis pour le stockage de session](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) dans le _Guide de configuration_.
 
 ![Configuration générale - Validation des sessions web](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 
@@ -73,11 +79,11 @@ La validation vérifie que les visiteurs sont bien ce qu’ils disent être en c
 
 L’activation de toutes les variables de validation peut prévenir les attaques, mais peut également avoir un impact sur les performances du serveur. Par défaut, toutes les validations de variables de session sont désactivées. Nous vous recommandons de tester les paramètres afin de trouver la meilleure combinaison pour votre installation d’Adobe Commerce ou de Magento Open Source. L’activation de toutes les variables de validation peut s’avérer indûment restrictive et peut empêcher l’accès aux clients qui disposent de connexions Internet passant par un serveur proxy ou provenant de l’arrière d’un pare-feu. Pour en savoir plus sur les variables de session et leur utilisation, consultez la documentation d’administration système de votre système Linux®.
 
-**_Pour configurer la validation de la session, procédez comme suit_**
+**_Pour configurer la validation de la session:_**
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de gauche, développez _[!UICONTROL General]_&#x200B;et choisissez **[!UICONTROL Web]**.
+1. Dans le panneau de gauche, développez _[!UICONTROL General]_et choisissez **[!UICONTROL Web]**.
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Session Validation Settings]** .
 
@@ -97,7 +103,7 @@ L’activation de toutes les variables de validation peut prévenir les attaques
 
 Par mesure de sécurité, le _Admin_ est initialement configuré pour expirer après 900 secondes (15 minutes) d’inactivité du clavier. Vous pouvez ajuster la durée de vie de la session en fonction de votre style de travail.
 
-**_Pour ajuster la durée de vie d’une session d’administrateur :_**
+**_Pour ajuster la durée de vie d’une session d’administrateur:_**
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

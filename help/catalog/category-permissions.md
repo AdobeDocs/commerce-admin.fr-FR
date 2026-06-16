@@ -3,9 +3,16 @@ title: Autorisations de catégorie
 description: Découvrez comment utiliser des catégories pour contrôler l’affichage des prix des produits, déterminer quels groupes de clients peuvent ajouter des produits au panier et spécifier la page de destination.
 exl-id: d80a0545-918e-4c08-9f37-4aa3cd7771f4
 feature: Catalog Management, Categories, Customers, Configuration
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/dtRyq4TsN2ruBV9iQvyFAhv6RUqBFVpzRiqPVqSxJEA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: 780
 ht-degree: 0%
 
 ---
@@ -24,7 +31,7 @@ Par exemple, si vous vendez uniquement aux clients en gros, vous pouvez autorise
 
 ![Les utilisateurs connectés voient la catégorie « Collections »](./assets/storefront-category-permissions-logged-in.png){width="600" zoomable="yes"}
 
-Une fois activée, une nouvelle section _[!UICONTROL Category Permissions]_&#x200B;s’affiche sur la page Catégorie , ce qui vous permet d’appliquer l’accès nécessaire pour chaque catégorie. Vous pouvez ajouter plusieurs règles d’autorisation à chaque catégorie pour différents sites web et groupes de clients.
+Une fois activée, une nouvelle section _[!UICONTROL Category Permissions]_s’affiche sur la page Catégorie , ce qui vous permet d’appliquer l’accès nécessaire pour chaque catégorie. Vous pouvez ajouter plusieurs règles d’autorisation à chaque catégorie pour différents sites web et groupes de clients.
 
 ## Étape 1 : Configurer les autorisations de catégorie
 
@@ -70,11 +77,11 @@ Pour **_restreindre l’accès et rediriger vers une page de destination_** proc
 
 1. Choisissez le **[!UICONTROL Landing Page]** vers lequel les visiteurs sont redirigés.
 
-   ![&#x200B; Rediriger vers la page d’accueil &#x200B;](./assets/category-permissions-browse-category-landing-page.png){width="600" zoomable="yes"}
+   ![ Rediriger vers la page d’accueil ](./assets/category-permissions-browse-category-landing-page.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Bien que le paramètre _[!UICONTROL Allow Browsing Category]_&#x200B;s’applique à toutes les catégories du site web, vous pouvez configurer une page de destination différente pour chaque vue de magasin.
+   >Bien que le paramètre _[!UICONTROL Allow Browsing Category]_s’applique à toutes les catégories du site web, vous pouvez configurer une page de destination différente pour chaque vue de magasin.
 
 ### [!UICONTROL Display Product Prices]
 

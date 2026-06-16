@@ -3,9 +3,15 @@ title: '[!UICONTROL Sales] > [!UICONTROL Tax]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Tax] de [!UICONTROL Sales] &gt ; de l’administrateur Commerce.
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
-source-git-commit: f95e6d22f83b518c64b254f0d98147e3c6ebaf42
+TQID: https://experienceleague.adobe.com/HbW4SJ4D2ktIp2wPFx5Bd1flvKdU6fqayMqjwzWorXE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: 1231
 ht-degree: 0%
 
 ---
@@ -15,7 +21,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Les versions 2.4.0 à 2.4.3 d’Adobe Commerce et de Magento Open Source incluaient l’extension développée par le fournisseur Vertex utilisée pour l’intégration à [!UICONTROL Vertex Cloud]. À compter de la version 2.4.4, cette extension n’est plus fournie avec la version de base et doit être installée et mise à jour à partir de Commerce Marketplace. La Marketplace permet également d’accéder à la documentation actuelle fournie par le développeur d’extensions.
-><br><br>>Si l’extension groupée est activée et configurée, vous devez mettre à jour votre fichier composer.json dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Voir [Mise à niveau des modules et des extensions](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=fr) dans le _Guide de mise à niveau_ pour plus d’informations.
+><br><br>>Si l’extension groupée est activée et configurée, vous devez mettre à jour votre fichier composer.json dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Voir [Mise à niveau des modules et des extensions](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) dans le _Guide de mise à niveau_ pour plus d’informations.
 
 {{config}}
 
@@ -40,7 +46,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Classes
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Tax Calculation Method Based On] | Site internet | Détermine la méthode utilisée pour calculer la taxe d&#39;une commande. Options : <br/>**`Unit Price`**- Les calculs de taxe sont basés sur le prix unitaire de chaque produit.<br/>**`Row Total`** - Les calculs de taxe sont basés sur le total de la ligne. <br/>**`Total`**- Les calculs de taxe sont basés sur le total de la commande.<br/><br/>_ **&#x200B; Remarque :**&#x200B;_si une extension de calcul de taxe est installée à partir de Marketplace, par exemple _Vertex Cloud_, le service d&#39;extension est répertorié comme une option. |
+| [!UICONTROL Tax Calculation Method Based On] | Site internet | Détermine la méthode utilisée pour calculer la taxe d&#39;une commande. Options : <br/>**`Unit Price`**- Les calculs de taxe sont basés sur le prix unitaire de chaque produit.<br/>**`Row Total`** - Les calculs de taxe sont basés sur le total de la ligne. <br/>**`Total`**- Les calculs de taxe sont basés sur le total de la commande.<br/><br/>_** Remarque :**_si une extension de calcul de taxe est installée à partir de Marketplace, par exemple _Vertex Cloud_, le service d&#39;extension est répertorié comme une option. |
 | [!UICONTROL Tax Calculation Based On] | Site internet | Détermine si le calcul de la taxe est basé sur l&#39;adresse d&#39;expédition, l&#39;adresse de facturation ou l&#39;origine d&#39;expédition. Options : `Shipping Address` / `Billing Address` / `Shipping Origin` |
 | [!UICONTROL Catalog Prices] | Site internet | Détermine si les prix du catalogue incluent ou excluent la taxe. Options : `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Shipping Prices] | Site internet | Détermine si les prix d&#39;expédition incluent ou excluent la taxe. Options : `Excluding Tax` / `Including Tax` |
@@ -124,7 +130,7 @@ Pour plus d’informations sur la modification de ces paramètres, voir [Taxe fi
 | [!UICONTROL Display Prices in Product Lists] | Site internet | Contrôle l’affichage FPT dans les listes de produits. Options : <br/> **`Including FPT Only`** - Les prix affichés incluent les taxes fixes sur les produits. Le montant FPT n’est pas affiché séparément.<br/>**`Including FPT and FPT description`**- Les prix affichés incluent les taxes fixes sur les produits. Le montant FPT est affiché séparément.<br/>**`Excluding FPT. Including FPT description and final price`** - Les prix affichés n&#39;incluent pas les taxes fixes sur les produits. Le montant FPT est affiché séparément.<br/>**`Excluding FPT`**- Les prix affichés n&#39;incluent pas les taxes fixes sur les produits. Le montant FPT n’est pas affiché séparément. |
 | [!UICONTROL Display Prices On Product View Page] | Site internet | Contrôle l’affichage FPT sur la page de produits. Options : <br/> **`Including FPT Only`** - Les prix affichés incluent les taxes fixes sur les produits. Le montant FPT n’est pas affiché séparément.<br/>**`Including FPT and FPT description`**- Les prix affichés incluent les taxes fixes sur les produits. Le montant FPT est affiché séparément.<br/>**`Excluding FPT. Including FPT description and final price`** - Les prix affichés n&#39;incluent pas les taxes fixes sur les produits. Le montant FPT est affiché séparément.<br/>**`Excluding FPT`**- Les prix affichés n&#39;incluent pas les taxes fixes sur les produits. Le montant FPT n’est pas affiché séparément. |
 | [!UICONTROL Display Prices in Sales Modules] | Site internet | Contrôle l’affichage du FPT dans le panier et lors du passage en caisse. Options : <br/> **`Including FPT Only`** - Les prix affichés incluent les taxes fixes sur les produits. Le montant FPT n’est pas affiché séparément.<br/>**`Including FPT and FPT description`**- Les prix affichés incluent les taxes fixes sur les produits. Le montant FPT est affiché séparément.<br/>**`Excluding FPT. Including FPT description and final price`** - Les prix affichés n&#39;incluent pas les taxes fixes sur les produits. Le montant FPT est affiché séparément.<br/>**`Excluding FPT`**- Les prix affichés n&#39;incluent pas les taxes fixes sur les produits. Le montant FPT n’est pas affiché séparément. |
-| [!UICONTROL Display Prices in Emails] | Site internet | Contrôle l’affichage du protocole FPT dans les e-mails. Options : <br/> **`Including FPT Only`** - Les prix affichés incluent les taxes fixes sur les produits. Le montant FPT n’est pas affiché séparément.<br/>**`Including FPT and FPT description`**- Les prix affichés incluent les taxes fixes sur les produits. Le montant FPT est affiché séparément.<br/>**&#x200B; Hors FPT. Incluant la description FPT et le prix final &#x200B;**- Les prix affichés n’incluent pas les taxes fixes sur les produits. Le montant FPT est affiché séparément.<br/>**`Excluding FPT`** - Les prix affichés n&#39;incluent pas les taxes fixes sur les produits. Le montant FPT n’est pas affiché séparément. |
+| [!UICONTROL Display Prices in Emails] | Site internet | Contrôle l’affichage du protocole FPT dans les e-mails. Options : <br/> **`Including FPT Only`** - Les prix affichés incluent les taxes fixes sur les produits. Le montant FPT n’est pas affiché séparément.<br/>**`Including FPT and FPT description`**- Les prix affichés incluent les taxes fixes sur les produits. Le montant FPT est affiché séparément.<br/>** Hors FPT. Incluant la description FPT et le prix final **- Les prix affichés n’incluent pas les taxes fixes sur les produits. Le montant FPT est affiché séparément.<br/>**`Excluding FPT`** - Les prix affichés n&#39;incluent pas les taxes fixes sur les produits. Le montant FPT n’est pas affiché séparément. |
 | [!UICONTROL Apply Tax to FPT] | Site internet | Détermine si la taxe est appliquée au montant FPT. Options : `Yes` / `No` |
 | [!UICONTROL Include FPT in Subtotal] | Site internet | Détermine si FPT est inclus dans le sous-total du panier. Options : <br/>**`Yes`**- Inclut FPT dans le sous-total du panier.<br/>**`No`** - FPT n’est pas inclus dans le sous-total et est placé après le sous-total dans le panier. |
 

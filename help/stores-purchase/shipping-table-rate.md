@@ -3,9 +3,15 @@ title: Expédition au tarif du tableau
 description: Découvrez comment configurer une option d’expédition au tarif fixe pour votre boutique.
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/14LYGw55vIlhbg71AApSGuuUKzaFEmStaUcw-Uig87E
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: 1044
 ht-degree: 3%
 
 ---
@@ -16,7 +22,7 @@ Le _tableau des tarifs_ méthode d&#39;expédition fait référence à un tablea
 
 - Poids v. Destination
 - Prix v. Destination
-- Nombre d’éléments par rapport à la destination
+- Nombre d’éléments v. Destination
 
 Par exemple, si votre entrepôt est à Los Angeles, il coûte moins cher d&#39;expédier à San Diego qu&#39;au Vermont. Vous pouvez utiliser la livraison à tarif fixe pour transmettre les économies à vos clients.
 
@@ -34,7 +40,7 @@ La première étape consiste à définir les paramètres par défaut des taux du
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans la section _[!UICONTROL Sales]_&#x200B;du panneau de gauche, choisissez **[!UICONTROL Delivery Methods]**.
+1. Dans la section _[!UICONTROL Sales]_du panneau de gauche, choisissez **[!UICONTROL Delivery Methods]**.
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Table Rates]** .
 
@@ -62,7 +68,7 @@ La première étape consiste à définir les paramètres par défaut des taux du
 
    >[!NOTE]
    >
-   >Étant donné que les produits virtuels, tels que les services, n’ont pas de poids, ils ne peuvent pas modifier le résultat d’un calcul basé sur la condition Poids par rapport à Destination . Cependant, les produits virtuels peuvent modifier le résultat d’un calcul basé sur la condition Prix par rapport à Destination ou Nombre d’articles par rapport à Destination .
+   >Étant donné que les produits virtuels, tels que les services, n&#39;ont pas de poids, ils ne peuvent pas modifier le résultat d&#39;un calcul basé sur la valeur Poids v. Condition de destination. Cependant, les produits virtuels peuvent modifier le résultat d’un calcul basé sur la valeur de Prix. Destination ou nombre d’éléments par rapport à la condition de destination.
 
 1. Configurez les options de frais de gestion en fonction de vos besoins.
 
@@ -84,7 +90,7 @@ La première étape consiste à définir les paramètres par défaut des taux du
 1. Définir **[!UICONTROL Ship to Applicable Countries]** :
 
    - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans la configuration de votre boutique peuvent utiliser cette méthode de diffusion.
-   - `Specific Countries` - Lorsque vous sélectionnez cette option, la liste des _[!UICONTROL Ship to Specific Countries]_&#x200B;s’affiche. Sélectionnez dans la liste chaque pays où ce mode de diffusion peut être utilisé.
+   - `Specific Countries` - Lorsque vous sélectionnez cette option, la liste des _[!UICONTROL Ship to Specific Countries]_s’affiche. Sélectionnez dans la liste chaque pays où ce mode de diffusion peut être utilisé.
 
 1. Définissez **[!UICONTROL Show Method if Not Applicable]** sur `Yes` si vous souhaitez afficher les taux de la table en permanence
 
@@ -115,10 +121,10 @@ La première étape consiste à définir les paramètres par défaut des taux du
 1. Complétez le tableau avec les valeurs appropriées pour la condition de calcul d&#39;expédition.
 
    - Utilisez un astérisque (*) comme caractère générique représentant toutes les valeurs possibles dans n’importe quelle catégorie.
-   - La colonne _[!UICONTROL Country]_&#x200B;doit contenir un [code à trois caractères valide](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) pour chaque ligne.
-   - Triez les données par _[!UICONTROL Region/State]_&#x200B;afin que les emplacements spécifiques se trouvent en haut de la liste et les emplacements de caractères génériques en bas. L’utilisation de cette méthode traite d’abord les règles avec les valeurs absolues, puis les valeurs génériques plus tard.
+   - La colonne _[!UICONTROL Country]_doit contenir un [code à trois caractères valide](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) pour chaque ligne.
+   - Triez les données par _[!UICONTROL Region/State]_afin que les emplacements spécifiques se trouvent en haut de la liste et les emplacements de caractères génériques en bas. L’utilisation de cette méthode traite d’abord les règles avec les valeurs absolues, puis les valeurs génériques plus tard.
    - Les plages de codes postaux ne sont pas prises en charge. Utilisez un astérisque (*) pour autoriser tous les codes de la région ou de l’État, ou spécifiez un seul code pour un emplacement spécifique dans la colonne _[!UICONTROL Zip/Postal Code]_.
-   - Les valeurs de la colonne _[!UICONTROL Weight (and above)]_&#x200B;peuvent contenir au maximum quatre décimales (par exemple, `2.5075`). L’utilisation de décimales supplémentaires dans les données entraîne l’échec de l’importation.
+   - Les valeurs de la colonne _[!UICONTROL Weight (and above)]_peuvent contenir au maximum quatre décimales (par exemple, `2.5075`). L’utilisation de décimales supplémentaires dans les données entraîne l’échec de l’importation.
 
    ![Poids par rapport à la destination (Australie)](./assets/table-rates-weight-destination-csv.png){width="500"}
 
@@ -142,7 +148,7 @@ Pour vous assurer que les données du taux de la table sont correctes, passez pa
 
 ### Exemple 1 : prix et destination
 
-Cet exemple utilise la condition Prix / Destination pour créer un ensemble de trois tarifs d&#39;expédition différents en fonction du montant du sous-total de la commande pour les États-Unis continentaux, l&#39;Alaska et Hawaï. L’astérisque (*) est un caractère générique qui représente toutes les valeurs.
+Cet exemple utilise la version Prix. Condition de destination pour créer un ensemble de trois tarifs d’expédition différents en fonction du montant du sous-total de la commande pour les États-Unis continentaux, l’Alaska et Hawaï. L’astérisque (*) est un caractère générique qui représente toutes les valeurs.
 
 | PAYS | RÉGION/ÉTAT | CODE POSTAL | SOUS-TOTAL COMMANDE (et plus) | PRIX D&#39;EXPÉDITION |
 |--- |--- |--- |--- |--- |
@@ -160,7 +166,7 @@ Cet exemple utilise la condition Prix / Destination pour créer un ensemble de t
 
 ### Exemple 2 : poids et destination
 
-Cet exemple utilise la condition Poids par rapport à Destination pour créer des frais d&#39;expédition différents en fonction du poids de la commande.
+Cet exemple utilise la valeur Poids . Condition de destination permettant de créer des frais de livraison différents en fonction du poids de la commande.
 
 | PAYS | RÉGION/ÉTAT | CODE POSTAL | POIDS (et plus) | PRIX D&#39;EXPÉDITION |
 |--- |--- |--- |--- |--- |

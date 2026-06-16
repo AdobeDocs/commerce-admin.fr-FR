@@ -3,9 +3,15 @@ title: Persistance du panier
 description: Découvrez comment un panier persistant suit les articles non achetés et enregistre les informations pour la prochaine visite du client.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/CZFFzI8KEfpQQAEHB46wW6Bk4BK-4zbdkvZ9h9nROr0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: 1050
 ht-degree: 0%
 
 ---
@@ -28,17 +34,17 @@ Pour gérer l’utilisation de la persistance du panier pour votre site ou dans 
 
 Lorsque le panier persistant est [activé](#configure-a-persistent-cart), le workflow dépend des éléments suivants :
 
-- Les valeurs des paramètres _[!UICONTROL Enable Remember Me]_&#x200B;et&#x200B;_[!UICONTROL Clear Persistence on Log Out]_
+- Les valeurs des paramètres _[!UICONTROL Enable Remember Me]_et_[!UICONTROL Clear Persistence on Log Out]_
 - Décision du client de cocher ou de décocher la case _[!UICONTROL Remember Me]_
 - Lorsque le cookie persistant est effacé
 
 Lorsque la session du client expire, un lien de `Not Jane Smith?` s’affiche dans l’en-tête de la page dans les conditions suivantes :
-- le client connecté a sélectionné l’option _[!UICONTROL Remember Me]_&#x200B;et un cookie persistant est appliqué
-- le client se déconnecte lorsque le système est configuré avec _[!UICONTROL Clear Persistence on Sign Out]_&#x200B;défini sur `No`.
+- le client connecté a sélectionné l’option _[!UICONTROL Remember Me]_et un cookie persistant est appliqué
+- le client se déconnecte lorsque le système est configuré avec _[!UICONTROL Clear Persistence on Sign Out]_défini sur `No`.
 
 Le système conserve un enregistrement du contenu du panier sur l’appareil actuel, même si la session connectée expire. Le lien `Not Jane Smith?` permet au client de mettre fin à la session persistante et de commencer à travailler en tant qu’invité ou de se connecter en tant que client différent ou identique.
 
-Si le client a coché la case _[!UICONTROL Remember Me]_&#x200B;lors de la connexion, votre boutique crée et conserve un cookie persistant distinct. Ce cookie permet de garder le panier du client accessible même après la fermeture du navigateur ou l’accès à un autre site et l’expiration de la session connectée.
+Si le client a coché la case _[!UICONTROL Remember Me]_lors de la connexion, votre boutique crée et conserve un cookie persistant distinct. Ce cookie permet de garder le panier du client accessible même après la fermeture du navigateur ou l’accès à un autre site et l’expiration de la session connectée.
 
 Si ce même client visite votre magasin à l’aide de plusieurs navigateurs lors de la connexion ou lorsqu’une session persistante est active, les modifications qu’il apporte au contenu du panier dans un navigateur sont répercutées dans les autres navigateurs lors de l’actualisation de la page.
 
@@ -48,7 +54,7 @@ Si ce même client visite votre magasin à l’aide de plusieurs navigateurs lor
 
 ### Comportement de la case à cocher « Se souvenir de moi »
 
-Les clients peuvent cocher la case _[!UICONTROL Remember Me]_&#x200B;sur la page de connexion, la fenêtre contextuelle d’authentification, les connexions à la caisse ou lors de la création d’un compte pour que le contenu du panier reste accessible sur l’appareil actuel à l’expiration de la session connectée.
+Les clients peuvent cocher la case _[!UICONTROL Remember Me]_sur la page de connexion, la fenêtre contextuelle d’authentification, les connexions à la caisse ou lors de la création d’un compte pour que le contenu du panier reste accessible sur l’appareil actuel à l’expiration de la session connectée.
 
 | Vous Vous Souvenez De Moi ? | Résultat |
 | ------------ |  ------ |
@@ -58,7 +64,7 @@ Les clients peuvent cocher la case _[!UICONTROL Remember Me]_&#x200B;sur la page
 {style="table-layout:auto"}
 
 ![Mémoriser mes identifiants de client](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
-![Pop-up Mémoriser mon authentification](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
+Fenêtre contextuelle ![Mémoriser mon authentification)](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
 ![Mémoriser mes connexions à Checkout](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
 
 ### Effacer la persistance sur le comportement de déconnexion

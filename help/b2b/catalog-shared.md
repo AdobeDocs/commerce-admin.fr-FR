@@ -3,9 +3,16 @@ title: Présentation du catalogue partagé
 description: Découvrez les catalogues partagés fournis par Adobe Commerce B2B et comment les utiliser pour gérer des catalogues contrôlés avec une tarification personnalisée pour différents comptes de société.
 exl-id: cf7c9099-9b7d-407b-adb9-06a4815624ee
 feature: B2B, Companies, Catalog Management
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/9w---IjoMFMTgsCSfjp8E0W7Xlp0dxvExVyLMCAJw-c
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: 597
 ht-degree: 0%
 
 ---
@@ -20,13 +27,13 @@ Pour le catalogue public partagé `Default (General)`, vous devez affecter des p
 
 >[!NOTE]
 >
->**[Version 1.3.0](release-notes.md#b2b-v130) B2B et versions ultérieures** — Lorsque vous créez un catalogue partagé, chaque autorisation [de catégorie](../catalog/category-permissions.md) pour le catalogue est définie sur _[!UICONTROL Allow for the Display Product Prices]_&#x200B;et&#x200B;_[!UICONTROL Add to Cart]_ pour les groupes de clients auxquels cet accès est affecté dans les paramètres d’autorisation du catalogue. Auparavant, ces paramètres étaient automatiquement définis sur `Deny` même lorsque les autorisations de catalogue étaient définies sur `Allow`.
+>**[Version 1.3.0](release-notes.md#b2b-v130) B2B et versions ultérieures** — Lorsque vous créez un catalogue partagé, chaque autorisation [de catégorie](../catalog/category-permissions.md) pour le catalogue est définie sur _[!UICONTROL Allow for the Display Product Prices]_et_[!UICONTROL Add to Cart]_ pour les groupes de clients auxquels cet accès est affecté dans les paramètres d’autorisation du catalogue. Auparavant, ces paramètres étaient automatiquement définis sur `Deny` même lorsque les autorisations de catalogue étaient définies sur `Allow`.
 
 >[!IMPORTANT]
 >
 >Toutes les [paramètres d’autorisation de groupe](../configuration-reference/catalog/catalog.md#category-permissions) existantes sont ignorées par les catégories **_all_** du catalogue lorsque la fonction **_[!UICONTROL Shared Catalog]_** est activée. [!UICONTROL Shared Catalog] contrôle entièrement toutes les autorisations de catégorie du catalogue lorsqu’il est activé.
 
-La page _[!UICONTROL Shared Catalogs]_&#x200B;permet d’accéder aux outils utilisés pour gérer vos catalogues partagés. La page est similaire à l’espace de travail standard [Admin](../getting-started/admin-workspace.md), avec des filtres et des commandes d’action. La grille répertorie tous les catalogues partagés, y compris le catalogue public partagé par défaut et tous les catalogues personnalisés que vous avez configurés.
+La page _[!UICONTROL Shared Catalogs]_permet d’accéder aux outils utilisés pour gérer vos catalogues partagés. La page est similaire à l’espace de travail standard [Admin](../getting-started/admin-workspace.md), avec des filtres et des commandes d’action. La grille répertorie tous les catalogues partagés, y compris le catalogue public partagé par défaut et tous les catalogues personnalisés que vous avez configurés.
 
 ![Catalogues partagés](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
 
@@ -36,7 +43,7 @@ Dans la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICO
 
 ## Contrôles des actions
 
-Les contrôles [actions](../getting-started/admin-actions-control.md) situés dans le coin supérieur gauche peuvent être utilisés avec le contrôle des actions en masse pour supprimer les catalogues partagés sélectionnés qui ne sont plus nécessaires. Dans la grille, la colonne _[!UICONTROL Actions]_&#x200B;contient la sélection complète d’outils pour gérer vos catalogues partagés.
+Les contrôles [actions](../getting-started/admin-actions-control.md) situés dans le coin supérieur gauche peuvent être utilisés avec le contrôle des actions en masse pour supprimer les catalogues partagés sélectionnés qui ne sont plus nécessaires. Dans la grille, la colonne _[!UICONTROL Actions]_contient la sélection complète d’outils pour gérer vos catalogues partagés.
 
 ![Actions de catalogue partagé](./assets/shared-catalog-grid-action-column-controls.png){width="350"}
 

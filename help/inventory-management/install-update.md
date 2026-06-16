@@ -4,10 +4,15 @@ description: Découvrez comment gérer le métapaquet  [!DNL Inventory Managemen
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+TQID: https://experienceleague.adobe.com/-koENBfshZ7WkXih0dee4geUb2Mnx-mtTxUxt-s6yUo
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: 683
 ht-degree: 0%
 
 ---
@@ -20,7 +25,7 @@ Ces fonctionnalités et extensions ont été développées dans le cadre du proj
 
 [!DNL Inventory Management] s’installe dans les versions 2.3.x et 2.4.x d’Adobe Commerce et de Magento Open Source, avec toutes les fonctionnalités activées par défaut. Aucune étape supplémentaire n’est nécessaire pour activer ces fonctions d’inventaire. Les mises à niveau à partir de la version v2.1.x ou 2.2.x peuvent nécessiter des étapes supplémentaires. Voir [Mise à niveau d’Inventory management](#upgrade-inventory-management).
 
-Il est recommandé d’effectuer l’installation conformément à la [installation sur site avec démarrage rapide](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=fr){target="_blank"}. Installez avec un métapaquet pour recevoir tous les modules [!DNL Inventory Management].
+Il est recommandé d’effectuer l’installation conformément à la [installation sur site avec démarrage rapide](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"}. Installez avec un métapaquet pour recevoir tous les modules [!DNL Inventory Management].
 
 La ligne suivante du métapaquet `composer.json` s’installe [!DNL Inventory Management] :
 
@@ -84,9 +89,9 @@ Le processus d’installation [!DNL Inventory Management] ajoute tous les module
 
 ## Activer les fonctionnalités [!DNL Inventory Management]
 
-Lorsqu’elle est installée, mise à niveau ou mise à jour, l’option _[!UICONTROL Manage Stock]_&#x200B;dans l’Administration est activée par défaut. Cette option permet le suivi et la gestion des stocks, mais n’affecte pas le statut du module. Pour désactiver les modules, reportez-vous à la section suivante.
+Lorsqu’elle est installée, mise à niveau ou mise à jour, l’option _[!UICONTROL Manage Stock]_dans l’Administration est activée par défaut. Cette option permet le suivi et la gestion des stocks, mais n’affecte pas le statut du module. Pour désactiver les modules, reportez-vous à la section suivante.
 
-Pour plus d’informations sur les configurations, voir [&#x200B; Configuration d’Inventory management &#x200B;](configuration.md).
+Pour plus d’informations sur les configurations, voir [ Configuration d’Inventory management ](configuration.md).
 
 ## Désactiver Inventory management
 
@@ -99,7 +104,7 @@ Vous pouvez désactiver [!DNL Inventory Management] modules pour :
 * Accélérez le processus de mise à niveau pour les commerçants effectuant la migration de 2.0.x, 2.1.x, 2.2.x ou 2.3.x vers 2.4.x.
 * Utilisez des modules système d’inventaire et de gestion des commandes personnalisés ou tiers.
 
-Pour plus d’informations sur la désactivation des modules applicables[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=fr) reportez-vous à la page Activer ou désactiver des modules du _Guide d’installation_.
+Pour plus d’informations sur la désactivation des modules applicables](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) reportez-vous à la page [Activer ou désactiver des modules du _Guide d’installation_.
 
 Une fois l’opération terminée, le système fournit une liste de modules et de valeurs dans `<Magento_installation_directory>/app/etc/config.php`, en commençant par :
 
@@ -241,5 +246,5 @@ Pour la dernière version, mettez à jour votre version de métapaquet :
 
 Consultez les guides suivants pour plus d’informations sur les mises à niveau de Commerce :
 
-* Guide de mise à jour de Commerce [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=fr){target="_blank"}
-* [Activation ou désactivation de modules](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=fr){target="_blank"}
+* [Guide de mise à jour de Commerce](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
+* [Activation ou désactivation de modules](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}

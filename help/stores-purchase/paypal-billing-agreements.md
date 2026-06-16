@@ -3,10 +3,16 @@ title: Contrats de facturation PayPal
 description: Découvrez comment prendre en charge les accords de facturation PayPal et un mode de paiement dans votre boutique.
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+TQID: https://experienceleague.adobe.com/Tg37Iu-rlC4Bp-PHbXig-QVzlbpRkaCLGHOQ3yrNY9M
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: 821
 ht-degree: 0%
 
 ---
@@ -27,7 +33,7 @@ Pour simplifier le processus de passage en caisse, les clients peuvent conclure 
 
 ## Gérer les accords de facturation
 
-La page _[!UICONTROL Billing Agreements]_&#x200B;répertorie tous les accords de facturation entre votre magasin et ses clients. Les commerçants peuvent filtrer les enregistrements en fonction du client ou des informations sur l’accord de facturation, y compris l’identifiant de référence de l’accord de facturation, le statut et la date de création. Chaque enregistrement contient des informations générales sur le contrat de facturation et toutes les commandes client qui l&#39;ont utilisé comme mode de paiement. Vous pouvez afficher, annuler ou supprimer des contrats de facturation client. Un contrat de facturation annulé ne peut être supprimé que par l’administrateur du magasin.
+La page _[!UICONTROL Billing Agreements]_répertorie tous les accords de facturation entre votre magasin et ses clients. Les commerçants peuvent filtrer les enregistrements en fonction du client ou des informations sur l’accord de facturation, y compris l’identifiant de référence de l’accord de facturation, le statut et la date de création. Chaque enregistrement contient des informations générales sur le contrat de facturation et toutes les commandes client qui l&#39;ont utilisé comme mode de paiement. Vous pouvez afficher, annuler ou supprimer des contrats de facturation client. Un contrat de facturation annulé ne peut être supprimé que par l’administrateur du magasin.
 
 ### Afficher un accord de facturation
 
@@ -35,7 +41,7 @@ La page _[!UICONTROL Billing Agreements]_&#x200B;répertorie tous les accords de
 
 1. Recherchez le contrat de facturation dans la liste et cliquez pour l’ouvrir.
 
-Chaque page de contrat de facturation se compose de deux onglets : _[!UICONTROL General Information]_&#x200B;et&#x200B;_[!UICONTROL Related Orders]_.
+Chaque page de contrat de facturation se compose de deux onglets : _[!UICONTROL General Information]_et_[!UICONTROL Related Orders]_.
 
 #### Informations générales
 

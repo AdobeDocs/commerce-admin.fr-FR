@@ -3,10 +3,16 @@ title: Stocker les URL
 description: Découvrez les URL des magasins et comment configurer l’URL de base et les codes de magasin.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+TQID: https://experienceleague.adobe.com/t-vp20uVrUmg-dRVONHjUUcgxzYBT5--uB8U1XorRPs
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: 1584
 ht-degree: 0%
 
 ---
@@ -21,13 +27,13 @@ Chaque site web d’une installation Adobe Commerce ou Magento Open Source compo
 
 >[!IMPORTANT]
 >
->Ne modifiez pas l’URL d’administration à partir de la configuration d’URL de base par défaut. Pour modifier l’URL ou le chemin d’accès d’administration, voir [&#x200B; Utiliser une URL d’administration personnalisée &#x200B;](#use-a-custom-admin-url).
+>Ne modifiez pas l’URL d’administration à partir de la configuration d’URL de base par défaut. Pour modifier l’URL ou le chemin d’accès d’administration, voir [ Utiliser une URL d’administration personnalisée ](#use-a-custom-admin-url).
 
 ## Utiliser un protocole sécurisé
 
 Les URL de base de votre boutique ont été initialement configurées lors de votre installation d’Adobe Commerce. Si un certificat de sécurité était disponible à ce moment-là, vous pouviez indiquer les URL `HTTPS` à utiliser pour le magasin, l’administrateur ou les deux. Si votre installation d’Adobe Commerce comprend plusieurs magasins ou si vous prévoyez d’en ajouter d’autres ultérieurement, vous pouvez inclure le code du magasin dans l’URL. Toutes les ressources et opérations d’Adobe peuvent être utilisées avec un protocole sécurisé.
 
-Si aucun certificat de sécurité n’était disponible pour le domaine au moment de l’installation, veillez à mettre à jour la configuration avant de lancer votre boutique. [&#x200B; Une fois qu’un certificat de sécurité est établi pour votre domaine, vous pouvez configurer les URL de base, ou les deux, pour qu’elles fonctionnent avec le protocole SSL (Secure Sockets Layer) et TLS (Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security) chiffré.
+Si aucun certificat de sécurité n’était disponible pour le domaine au moment de l’installation, veillez à mettre à jour la configuration avant de lancer votre boutique. [ Une fois qu’un certificat de sécurité est établi pour votre domaine, vous pouvez configurer les URL de base, ou les deux, pour qu’elles fonctionnent avec le protocole SSL (Secure Sockets Layer) et TLS (Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security) chiffré.
 
 >[!IMPORTANT]
 >
@@ -112,7 +118,7 @@ Si votre domaine dispose d’un certificat de sécurité valide, vous pouvez con
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Sous _[!UICONTROL General]_&#x200B;dans le panneau de gauche, choisissez **[!UICONTROL Web]**.
+1. Sous _[!UICONTROL General]_dans le panneau de gauche, choisissez **[!UICONTROL Web]**.
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL URL Options]** .
 
@@ -138,7 +144,7 @@ Si, après avoir suivi les instructions de configuration, certaines pages contin
 
 ## Utiliser une URL d’administration personnalisée
 
-En tant que [bonne pratique en matière de sécurité](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=fr), Adobe vous recommande d’utiliser une URL d’administration unique au lieu de la valeur par défaut _admin_ ou un terme courant tel que _backend_. Bien qu’il ne protège pas directement votre site d’un acteur malveillant déterminé, il peut réduire l’exposition aux scripts qui tentent d’obtenir un accès non autorisé.
+En tant que [bonne pratique en matière de sécurité](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), Adobe vous recommande d’utiliser une URL d’administration unique au lieu de la valeur par défaut _admin_ ou un terme courant tel que _backend_. Bien qu’il ne protège pas directement votre site d’un acteur malveillant déterminé, il peut réduire l’exposition aux scripts qui tentent d’obtenir un accès non autorisé.
 
 >[!NOTE]
 >
@@ -154,7 +160,7 @@ Bien qu’il soit possible de modifier l’URL et le chemin d’accès de l’ad
 
 >[!NOTE]
 >
->Par mesure de précaution, n’essayez pas de modifier vous-même l’URL d’administration, sauf si vous savez comment modifier les fichiers de configuration sur le serveur. Pour les projets Adobe Commerce déployés sur une infrastructure cloud, modifiez l’URL d’administration en suivant les [instructions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=fr#admin-url) dans le *Guide d’Adobe Commerce sur une infrastructure cloud*.
+>Par mesure de précaution, n’essayez pas de modifier vous-même l’URL d’administration, sauf si vous savez comment modifier les fichiers de configuration sur le serveur. Pour les projets Adobe Commerce déployés sur une infrastructure cloud, modifiez l’URL d’administration en suivant les [instructions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html#admin-url) dans le *Guide d’Adobe Commerce sur une infrastructure cloud*.
 
 ### Méthode 1 : changement à partir de l’administrateur
 
@@ -200,7 +206,7 @@ Bien qu’il soit possible de modifier l’URL et le chemin d’accès de l’ad
 
    >[!TIP]
    >
-   >Pour Adobe Commerce sur les infrastructures cloud, vous pouvez configurer un chemin d’administration personnalisé à l’aide de la variable `ADMIN_URL` dans l’interface utilisateur Cloud. Voir la rubrique [Variables d’administration](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=fr) dans le guide _Commerce sur les infrastructures cloud_.
+   >Pour Adobe Commerce sur les infrastructures cloud, vous pouvez configurer un chemin d’administration personnalisé à l’aide de la variable `ADMIN_URL` dans l’interface utilisateur Cloud. Voir la rubrique [Variables d’administration](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) dans le guide _Commerce sur les infrastructures cloud_.
 
    - **Chemin d’accès administrateur par défaut**
 

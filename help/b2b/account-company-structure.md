@@ -4,9 +4,16 @@ description: Découvrez les structures d’entreprise et comment un administrate
 exl-id: 4724b208-b6ac-4de5-9a4c-bc4d68402506
 feature: B2B, Companies
 role: Admin
-source-git-commit: fec72b792cf3149c05803874795c45f9f4e28673
+TQID: https://experienceleague.adobe.com/d4VWp0S-Z6BfOPBAI80LeB62GUXYax0obDztcm-VOYw
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: 710
 ht-degree: 1%
 
 ---
@@ -40,11 +47,11 @@ Après avoir créé le compte, l’administrateur ou l’administratrice d’ent
 | Icon | Description |
 | ---- | ----------------- |
 | ![Icône Administrateur d’entreprise](./assets/company-icon-admin.png) | Représente l&#39;administrateur de la société dans la structure de la société. |
-| ![&#x200B; Icône Équipe &#x200B;](./assets/company-icon-team.png) | Représente une équipe dans la structure de l&#39;entreprise. |
+| ![ Icône Équipe ](./assets/company-icon-team.png) | Représente une équipe dans la structure de l&#39;entreprise. |
 | ![Icône Utilisateur](./assets/company-icon-user.png) | Représente un utilisateur dans la structure de l’entreprise. |
-| ![&#x200B; Icône Déplacer &#x200B;](./assets/company-icon-move.png) | Déplace une équipe vers un autre poste de la structure de l&#39;entreprise. |
+| ![ Icône Déplacer ](./assets/company-icon-move.png) | Déplace une équipe vers un autre poste de la structure de l&#39;entreprise. |
 | ![Icône d’extension](./assets/company-icon-expand.png) | Développe une équipe dans la structure de l&#39;entreprise. |
-| ![Icône Réduire &#x200B;](./assets/company-icon-collapse.png) | Réduit une équipe dans la structure de l&#39;entreprise. |
+| ![Icône Réduire ](./assets/company-icon-collapse.png) | Réduit une équipe dans la structure de l&#39;entreprise. |
 
 {style="table-layout:auto"}
 

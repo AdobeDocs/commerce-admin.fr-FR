@@ -1,20 +1,26 @@
 ---
-title: Prix spéciaux
+title: Tarifs spéciaux
 description: Découvrez comment proposer des tarifs spéciaux pour une période donnée.
 exl-id: 4a1e2045-f0a8-4bae-a5a3-8ce8b258b217
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/j6DspCgn2P4-pHxXuOd-AiJCL0SBezxg-rn6yYmMIk8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: 855
 ht-degree: 0%
 
 ---
 
-# Prix spéciaux
+# Tarifs spéciaux
 
-Un prix spécial peut être proposé pour une période donnée. Pendant une période spécifiée, le prix spécial apparaît à la place du prix normal, suivi d’une notation indiquant le prix normal.
+Un prix spécial peut être offert pour une période déterminée. Pendant la période spécifiée, le prix spécial apparaît au lieu du prix normal, suivi d&#39;une notation qui affiche le prix normal.
 
-![Prix spécial sur une page de produit](./assets/storefront-price-special.png){width="700" zoomable="yes"}
+![Prix spécial sur une page produit](./assets/storefront-price-special.png){width="700" zoomable="yes"}
 
 ## Appliquer un prix spécial à un produit individuel
 
@@ -24,7 +30,7 @@ Vous pouvez facilement définir un prix spécial pour un seul produit du catalog
 
 {{ee-feature}}
 
-Adobe Commerce prend en charge les [mises à jour planifiées](../content-design/content-staging-scheduled-update.md). Utilisez ces outils promotionnels pour appliquer un prix spécial à un produit spécifique pendant une période donnée.
+Adobe Commerce prend en charge les [ mises à jour planifiées ](../content-design/content-staging-scheduled-update.md). Utilisez ces outils promotionnels pour appliquer un prix spécial à un produit spécifique pendant une période spécifiée.
 
 1. Ouvrez le produit en mode d’édition.
 
@@ -32,83 +38,83 @@ Adobe Commerce prend en charge les [mises à jour planifiées](../content-design
 
    ![Ajouter une mise à jour planifiée pour le produit](./assets/product-schedule-new-update.png){width="600" zoomable="yes"}
 
-1. Pour **Mettre à jour le nom**, saisissez un nom pour la promotion de prix spécial.
+1. Pour **Mettre à jour le nom**, saisissez un nom pour la promotion de prix spéciaux.
 
-1. Saisissez un résumé **[!UICONTROL Description]**.
+1. Saisissez un bref **[!UICONTROL Description]**.
 
-1. Utilisez l’icône _Calendrier_ ( ![icône de calendrier](../assets/icon-calendar.png) ) pour choisir les **[!UICONTROL Start Date]** et **[!UICONTROL End Date]** pour la promotion de prix spécial.
+1. Utilisez l’icône _Calendrier_ ( ![icône de calendrier](../assets/icon-calendar.png) ) pour choisir les **[!UICONTROL Start Date]** et **[!UICONTROL End Date]** de la promotion de prix spéciaux.
 
-   Vous pouvez également utiliser les curseurs **[!UICONTROL Hour]** et **[!UICONTROL Minute]** pour choisir l’heure de début et l’heure de fin. Cliquez sur **[!UICONTROL Close]** lorsque le début et la fin sont définis.
+   Vous pouvez également utiliser les curseurs **[!UICONTROL Hour]** et **[!UICONTROL Minute]** pour choisir l’heure de début et de fin. Cliquez sur **[!UICONTROL Close]** lorsque le début et la fin sont définis.
 
    ![Enregistrer comme nouvelle mise à jour](./assets/product-price-special-scheduled-update.png){width="600" zoomable="yes"}
 
-1. Faites défiler l&#39;écran jusqu&#39;au champ _Price_, cliquez sur **[!UICONTROL Advanced Pricing]**, puis saisissez le montant de **[!UICONTROL Special Price]** à appliquer selon la mise à jour planifiée.
+1. Faites défiler l’écran jusqu’au champ _Prix_, cliquez sur **[!UICONTROL Advanced Pricing]**, puis saisissez le montant du **[!UICONTROL Special Price]** à appliquer en fonction de la mise à jour planifiée.
 
-   ![Paramètres de tarification spéciale](./assets/product-price-special.png){width="600" zoomable="yes"}
+   ![Paramètres de tarification spéciaux](./assets/product-price-special.png){width="600" zoomable="yes"}
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Done]**, puis sur **[!DNL Save]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Done]** puis sur **[!DNL Save]**.
 
-   Dans le storefront, le prix spécial doit apparaître à la fois dans la liste des catalogues et sur la page des produits.
+   En vitrine, le prix spécial doit apparaître à la fois dans la liste du catalogue et sur la page produit.
 
-   _[!UICONTROL Scheduled Change]_&#x200B;apparaît en haut de la page.
+   La _[!UICONTROL Scheduled Change]_s’affiche en haut de la page.
 
    ![Modification planifiée](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
 
-### Utilisation d’une date de début et de fin simple
+### Utiliser une date de début et de fin simple
 
 {{ce-feature}}
 
-Magento Open Source comprend des options simples de date de début et de fin dans les options de tarification avancée.
+Magento Open Source inclut des options de date de début et de fin simples dans les options de Tarification avancée.
 
 1. Ouvrez le produit en mode d’édition.
 
-1. Faites défiler l’écran jusqu’au champ _[!UICONTROL Price]_, cliquez sur **[!UICONTROL Advanced Pricing]**, puis saisissez la valeur **[!UICONTROL Special Price]**.
+1. Faites défiler jusqu’au champ _[!UICONTROL Price]_, cliquez sur **[!UICONTROL Advanced Pricing]**, puis saisissez le montant de la **[!UICONTROL Special Price]**.
 
-1. Utilisez l’icône _Calendrier_ ( ![Icône Calendrier](../assets/icon-calendar.png) ) pour choisir les **[!UICONTROL Start Date]** et **[!UICONTROL End Date]** pour la promotion de prix spécial.
+1. Utilisez l’icône _Calendrier_ ( ![icône Calendrier](../assets/icon-calendar.png) ) pour choisir les **[!UICONTROL Start Date]** et les **[!UICONTROL End Date]** de la promotion de prix spéciaux.
 
-   Le prix spécial entrera en vigueur immédiatement après minuit au début de la date de début (00:01) et sera maintenu jusqu&#39;à minuit (23:59) le jour précédant la date de fin.
+   Le prix spécial entre en vigueur immédiatement après minuit au début de la date de début (00:01) et se poursuit jusqu’à juste avant minuit (23:59) le jour précédant la date de fin.
 
    ![Modification planifiée](./assets/product-special-price-from-ce.png){width="600" zoomable="yes"}
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Done]**, puis sur **[!UICONTROL Save]**.
+1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Done]** puis sur **[!UICONTROL Save]**.
 
-   Dans le storefront, le prix spécial doit apparaître à la fois dans la liste des catalogues et sur la page des produits.
+   En vitrine, le prix spécial doit apparaître à la fois dans la liste du catalogue et sur la page produit.
 
 ## Appliquer un prix spécial à plusieurs produits
 
-Vous pouvez également attribuer un prix spécial à plusieurs produits, par exemple plusieurs variantes d’un [produit configurable](product-create-configurable.md).
+Vous pouvez également attribuer un prix spécial à plusieurs produits, par exemple plusieurs variations d’un [produit configurable](product-create-configurable.md).
 
-### Définition d’un prix spécial pour les produits sélectionnés
+### Fixer un prix spécial pour les produits sélectionnés
 
 {{ee-feature}}
 
-L’exemple suivant montre comment attribuer le même prix spécial à plusieurs variantes de produits d’un produit configurable dans Adobe Commerce.
+L’exemple suivant montre comment attribuer le même prix spécial à plusieurs variations de produit d’un produit configurable dans Adobe Commerce.
 
-1. Sur la page _[!UICONTROL Products]_, cliquez sur **[!UICONTROL Filters]**&#x200B;et saisissez le **[!UICONTROL Name]**&#x200B;du produit configurable.
+1. Sur la page _[!UICONTROL Products]_, cliquez sur **[!UICONTROL Filters]**et saisissez le **[!UICONTROL Name]**du produit configurable.
 
-1. Définissez **[!UICONTROL Type]** sur `Configurable Product` et cliquez sur **[!UICONTROL Apply Filters]**.
+1. Définissez **[!UICONTROL Type]** sur `Configurable Product`, puis cliquez sur **[!UICONTROL Apply Filters]**.
 
-1. Si vous souhaitez attribuer le même prix spécial à tous les produits, définissez le contrôle dans l’en-tête de la première colonne sur `Select All`.
+1. Si vous souhaitez attribuer le même prix spécial à tous les produits, définissez le contrôle dans l&#39;en-tête de la première colonne sur `Select All`.
 
    Vous pouvez également cocher la case de chaque produit que vous souhaitez inclure.
 
-1. Définissez le contrôle **[!UICONTROL Actions]** sur `Update attributes`.
+1. Définissez la commande **[!UICONTROL Actions]** sur `Update attributes`.
 
-1. Faites défiler l’écran jusqu’au champ _[!UICONTROL Special Price]_&#x200B;et cochez la case **[!UICONTROL Change]**&#x200B;située sous le champ&#x200B;_[!UICONTROL Special Price]_ et saisissez le prix spécial que vous souhaitez proposer.
+1. Faites défiler jusqu’au champ _[!UICONTROL Special Price]_, cochez la case **[!UICONTROL Change]**située sous le champ_[!UICONTROL Special Price]_ et saisissez le prix spécial que vous souhaitez proposer.
 
-   ![Champs de prix spécial](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
+   ![Champs Prix spécial](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
+1. Cliquez ensuite sur **[!UICONTROL Save]**.
 
-Le prix spécial disponible dans le magasin apparaît dans les listes de catalogues et sur la page du produit. Pour un produit configurable, le prix normal apparaît également sur la page du produit lorsque les options sont sélectionnées.
+Le prix spécial disponible dans la boutique apparaît dans les annonces du catalogue et sur la page produit. Pour un produit configurable, le prix normal s’affiche également sur la page produit lorsque les options sont sélectionnées.
 
-### Définition d’un prix spécial et d’une période pour les produits sélectionnés
+### Définir un prix spécial et une période pour les produits sélectionnés
 
 {{ce-feature}}
 
-L’exemple suivant montre comment attribuer le même prix spécial à plusieurs variantes de produits d’un produit configurable en Magento Open Source.
+L’exemple suivant montre comment attribuer le même prix spécial à plusieurs variations de produit d’un produit configurable dans Magento Open Source.
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Cliquez sur **[!UICONTROL Filters]**.
 
@@ -116,52 +122,52 @@ L’exemple suivant montre comment attribuer le même prix spécial à plusieurs
 
 1. Définissez **[!UICONTROL Type]** sur `Simple Product`.
 
-   ![Filtres](./assets/product-price-special-filter.png){width="600" zoomable="yes"}
+   ![ Filtres ](./assets/product-price-special-filter.png){width="600" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Apply Filters]**.
 
-   La grille répertorie tous les produits simples associés en tant que variantes du produit configurable.
+   La grille répertorie tous les produits simples qui sont associés en tant que variations du produit configurable.
 
-1. Si vous souhaitez attribuer le même prix spécial à tous les produits, définissez le contrôle dans l’en-tête de la première colonne sur `Select All`.
+1. Si vous souhaitez attribuer le même prix spécial à tous les produits, définissez le contrôle dans l&#39;en-tête de la première colonne sur `Select All`.
 
    Vous pouvez également cocher la case de chaque produit que vous souhaitez inclure.
 
-1. Définissez le contrôle **[!UICONTROL Actions]** sur `Update attributes`.
+1. Définissez la commande **[!UICONTROL Actions]** sur `Update attributes`.
 
    ![Mettre à jour les attributs](./assets/product-price-special-action-update-attributes-ce.png){width="600" zoomable="yes"}
 
-1. Faites défiler l’écran jusqu’au champ _[!UICONTROL Special Price]** et procédez comme suit :
+1. Faites défiler jusqu’au champ _** et procédez comme suit :[!UICONTROL Special Price]
 
    - Cochez la case **[!UICONTROL Change]** sous le champ _[!UICONTROL Special Price]** et saisissez le prix spécial que vous souhaitez proposer.
 
-   - Cochez la case **[!UICONTROL Change]** sous le champ _Prix spécial à partir de la date_, cliquez sur le _Calendrier_ ( ![Icône Calendrier](../assets/icon-calendar.png) ), puis sélectionnez la première date de la promotion prix spécial.
+   - Cochez la case **[!UICONTROL Change]** située sous le champ _Date de début du prix spécial_, cliquez sur le _Calendrier_ ( ![icône Calendrier](../assets/icon-calendar.png) ), puis choisissez la première date de la promotion du prix spécial.
 
-     Le prix spécial entrera en vigueur immédiatement après minuit au début de la date de début (00:01) et sera maintenu jusqu&#39;à minuit (23:59) le jour précédant la date de fin.
+     Le prix spécial entre en vigueur immédiatement après minuit au début de la date de début (00:01) et se poursuit jusqu’à juste avant minuit (23:59) le jour précédant la date de fin.
 
-   - Cochez la case **[!UICONTROL Change]** sous le champ _Prix spécial à date_, cliquez sur le _Calendrier_ ( ![Icône Calendrier](../assets/icon-calendar.png) ), puis choisissez la dernière date de la promotion prix spécial.
+   - Cochez la case **[!UICONTROL Change]** située sous le champ _Date de fin du prix spécial_, cliquez sur le _Calendrier_ ( ![icône Calendrier](../assets/icon-calendar.png) ), puis choisissez la dernière date de la promotion du prix spécial.
 
-   ![Champs de prix spécial](./assets/product-price-special-action-update-attributes-fields-ce.png){width="600" zoomable="yes"}
+   ![Champs Prix spécial](./assets/product-price-special-action-update-attributes-fields-ce.png){width="600" zoomable="yes"}
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
+1. Cliquez ensuite sur **[!UICONTROL Save]**.
 
    Un message indique le nombre d&#39;enregistrements mis à jour avec le prix spécial.
 
-   Le prix spécial est disponible dans le magasin à la date indiquée et apparaît dans les listes de catalogues et sur la page du produit. Pour un produit configurable, le prix normal apparaît également sur la page du produit lorsque les options sont sélectionnées.
+   Le prix spécial est disponible dans le magasin à la date spécifiée et apparaît dans les annonces de catalogue et sur la page produit. Pour un produit configurable, le prix normal s’affiche également sur la page produit lorsque les options sont sélectionnées.
 
-   ![Prix spécial pour un produit configurable](./assets/storefront-special-price-configurable-product-detail.png){width="600" zoomable="yes"}
+   ![Prix spécial pour le produit configurable](./assets/storefront-special-price-configurable-product-detail.png){width="600" zoomable="yes"}
 
-## Tests
+## Test
 
-Si le prix spécial n’apparaît pas correctement dans le storefront à la fois sur la liste des catalogues et les pages de produits, effacez le cache de votre navigateur :
+Si le prix spécial n’apparaît pas correctement dans le storefront sur les pages de liste de catalogue et de produits, videz le cache de votre navigateur :
 
-1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL System]** > **[!UICONTROL Cache Management]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL System]** > **[!UICONTROL Cache Management]**.
 
 1. Cliquez sur **[!UICONTROL Flush Magento Cache]**.
 
 >[!NOTE]
 >
->Le prix du produit **_final_** est calculé comme le prix **_minimum_** approprié, à l’aide de la formule suivante : <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`
+>Le prix du produit **_final_** est calculé comme étant le prix pertinent **_minimum_** selon la formule suivante : <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`
 
 >[!NOTE]
 >
->Les options personnalisables du produit **_Prix fixe_** sont _non_ affectées par les règles de prix de groupe, de niveau, de prix spécial ou de catalogue.
+>**_Prix fixe_** les options personnalisables du produit ne sont _pas_ affectées par les règles Prix du groupe, Prix de niveau, Prix spécial ou Prix catalogue.

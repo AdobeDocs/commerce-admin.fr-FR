@@ -3,10 +3,15 @@ title: Contrôles de l’espace de travail de page
 description: Découvrez les outils de Workspace utilisés pour localiser et mettre à jour les pages de contenu.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+TQID: https://experienceleague.adobe.com/xtwiVV3F8lpix-1dJw-Bg8SAgoC7SfXoGvQzQN560lo
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: 1385
 ht-degree: 0%
 
 ---
@@ -69,10 +74,10 @@ L’espace de travail de page comprend des outils pour vous aider à trouver rap
 
 | Colonne | Description |
 |--- |--- |
-| [!UICONTROL Custom design from/to] | Indique les dates de début et de fin auxquelles la conception sélectionnée est appliquée à la page. ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement). |
+| [!UICONTROL Custom design from/to] | Indique les dates de début et de fin auxquelles la conception sélectionnée est appliquée à la page. ![](../assets/open-source.svg) (Magento Open Source uniquement). |
 | [!UICONTROL Custom Theme] | Applique un thème personnalisé à la page |
 | [!UICONTROL Custom Layout] | Détermine la disposition personnalisée de la page |
-| [!UICONTROL Meta Title] | Méta-titre de la page |
+| [!UICONTROL Meta Title] | Titre Meta de la page |
 | [!UICONTROL Meta Keywords] | Mots-clés méta de la page |
 | [!UICONTROL Meta Description] | Méta-description de la page |
 
@@ -80,7 +85,7 @@ L’espace de travail de page comprend des outils pour vous aider à trouver rap
 
 ## Recherche de page
 
-La zone Rechercher dans le coin supérieur gauche de la grille _[!UICONTROL Pages]_&#x200B;permet de rechercher des pages spécifiques par mot-clé. Pour une recherche plus avancée, vous pouvez [filtrer](../getting-started/admin-grid-controls.md) la recherche par plusieurs paramètres.
+La zone Rechercher dans le coin supérieur gauche de la grille _[!UICONTROL Pages]_permet de rechercher des pages spécifiques par mot-clé. Pour une recherche plus avancée, vous pouvez [filtrer](../getting-started/admin-grid-controls.md) la recherche par plusieurs paramètres.
 
 ### Recherche par mot-clé
 
@@ -94,7 +99,7 @@ La zone Rechercher dans le coin supérieur gauche de la grille _[!UICONTROL Page
 
 1. Si nécessaire, cliquez sur **[!UICONTROL Clear All]** pour effacer les critères de recherche précédents.
 
-1. Pour afficher la sélection des filtres de recherche, cliquez sur le **[!UICONTROL Filters]** !Onglet ([Icône d’entonnoir](../assets/icon-filter-search.png)).
+1. Pour afficher la sélection des filtres de recherche, cliquez sur l&#39;onglet **[!UICONTROL Filters]** !([Icône Funnel](../assets/icon-filter-search.png)).
 
 1. Renseignez autant de filtres que nécessaire pour décrire les pages que vous souhaitez rechercher.
 
@@ -112,7 +117,7 @@ La zone Rechercher dans le coin supérieur gauche de la grille _[!UICONTROL Page
 | [!UICONTROL Store View] | Filtrez la recherche en fonction de la vue du magasin. Options : `All available` / `Store Views` |
 | [!UICONTROL Layout] | Filtrez la recherche en fonction de la mise en page. Options : `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
 | [!UICONTROL Status] | Filtrez la recherche sur le statut de la page. Options : `Disabled` / `Published` |
-| [!UICONTROL Custom design from / to] | Filtrez la recherche par date de début et de fin lorsque la conception sélectionnée est appliquée à la page. ![Magento Open Source](../assets/open-source.svg) (Magento Open Source uniquement). |
+| [!UICONTROL Custom design from / to] | Filtrez la recherche par date de début et de fin lorsque la conception sélectionnée est appliquée à la page. ![](../assets/open-source.svg) (Magento Open Source uniquement). |
 | [!UICONTROL Asset] | Filtrer la recherche en fonction du titre de page des ressources |
 | [!UICONTROL Custom Layout] | Filtrez la recherche en fonction d’une mise en page personnalisée. Options : `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width` |
 | [!UICONTROL Custom Theme] | Filtrez la recherche en fonction d’un thème personnalisé. Options par défaut : `Magento Blank` / `Magento Luma` |
@@ -136,11 +141,11 @@ La zone Rechercher dans le coin supérieur gauche de la grille _[!UICONTROL Page
 
 Les pages peuvent être modifiées, désactivées, activées et supprimées. Pour appliquer une action à une page individuelle, cochez la case située dans la première colonne. Pour sélectionner ou désélectionner toutes les pages, utilisez la commande de sélection en haut de la colonne.
 
-![&#x200B; Actions de page &#x200B;](./assets/pages-select.png){width="400" zoomable="yes"}
+![ Actions de page ](./assets/pages-select.png){width="400" zoomable="yes"}
 
 ### Action unique
 
-Utilisez la colonne _[!UICONTROL Action]_&#x200B;à l’extrémité droite pour appliquer l’une des actions suivantes à la page :
+Utilisez la colonne _[!UICONTROL Action]_à l’extrémité droite pour appliquer l’une des actions suivantes à la page :
 
 - [!UICONTROL Edit] : ouvre la page en mode d’édition.
 - [!UICONTROL Delete] - supprime la page (confirmation requise)
@@ -150,7 +155,7 @@ Utilisez la colonne _[!UICONTROL Action]_&#x200B;à l’extrémité droite pour 
 
 ### Actions en masse
 
-Appliquez simultanément l’une des actions suivantes à plusieurs pages sélectionnées à l’aide du sélecteur _[!UICONTROL Action]_&#x200B;dans le coin supérieur gauche :
+Appliquez simultanément l’une des actions suivantes à plusieurs pages sélectionnées à l’aide du sélecteur _[!UICONTROL Action]_dans le coin supérieur gauche :
 
 - [!UICONTROL Delete] - supprime les pages (confirmation requise)
 - [!UICONTROL Disable] : désactive les pages du storefront

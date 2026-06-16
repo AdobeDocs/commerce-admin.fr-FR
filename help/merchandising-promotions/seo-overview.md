@@ -3,9 +3,15 @@ title: Optimisation des moteurs de recherche
 description: Découvrez les outils d’optimisation du moteur de recherche (SEO) pour les sites Commerce et les bonnes pratiques pour une SEO optimale.
 exl-id: ba09159a-1b40-4592-8758-f7072dab4589
 feature: Merchandising, Products, Search
-source-git-commit: c8649d9107a92b15a1c9af8ae5d2ad0e8e34e64e
+TQID: https://experienceleague.adobe.com/cEXR2743G7ZzRSKqb9r344Osipo-R-GlqxNZwC-u-Nk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: 551
 ht-degree: 0%
 
 ---
@@ -16,31 +22,31 @@ Le _référencement naturel_ (SEO) consiste à affiner le contenu et la présent
 
 >[!TIP]
 >
->Pour Adobe Commerce as a Cloud Service, consultez les [directives SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=fr) de la documentation du Storefront Commerce
+>Pour Adobe Commerce as a Cloud Service, consultez les [directives SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) de la documentation du Storefront Commerce
 
 ## Métadonnées
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 Découvrez comment ajouter et améliorer des [métadonnées](meta-data.md) riches en mots-clés pour votre site et votre boutique.
 
 ## Utilisation d’un plan de site
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
-Un [plan de site](sitemap-xml.md) améliore la façon dont votre boutique est indexée par les moteurs de recherche et est conçu pour trouver les pages qui pourraient être ignorées par les robots d’exploration web. Un plan de site peut être configuré pour indexer toutes les pages et images.
+Un [plan de site](sitemap-xml.md) améliore la façon dont votre boutique est indexée par les moteurs de recherche et est conçu pour rechercher les pages qui pourraient être ignorées par les robots d&#39;exploration web. Un plan de site peut être configuré pour indexer toutes les pages et images.
 
 ## Réécritures d’URL
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 L’outil [Réécriture d’URL](url-rewrite.md) vous permet de modifier toute URL associée à un produit, une catégorie ou une page CMS.
 
 ## Robots pour moteurs de recherche
 
-La configuration Commerce comprend des paramètres permettant de générer et de gérer des instructions pour les robots d’exploration et les robots web qui indexent votre site. Si la demande de `robots.txt` atteint Commerce (plutôt qu&#39;un fichier physique), elle est acheminée dynamiquement vers le contrôleur robots. Les instructions sont des directives reconnues et suivies par la plupart des moteurs de recherche.
+La configuration Commerce comprend des paramètres permettant de générer et de gérer des instructions pour les robots d&#39;exploration web et les robots qui indexent votre site. Si la demande de `robots.txt` atteint Commerce (plutôt qu&#39;un fichier physique), elle est acheminée dynamiquement vers le contrôleur robots. Les instructions sont des directives reconnues et suivies par la plupart des moteurs de recherche.
 
-Par défaut, le fichier robots.txt généré par Commerce contient des instructions pour que le moteur de recherche web évite d’indexer certaines parties du site qui contiennent des fichiers utilisés en interne par le système. Vous pouvez utiliser les paramètres par défaut ou définir vos propres instructions personnalisées pour tous les moteurs de recherche ou pour des moteurs spécifiques. Il existe de nombreux articles en ligne qui explorent le sujet en détail.
+Par défaut, le fichier robots.txt généré par Commerce contient des instructions pour le robot d&#39;exploration web afin d’éviter d’indexer certaines parties du site qui contiennent des fichiers utilisés en interne par le système. Vous pouvez utiliser les paramètres par défaut ou définir vos propres instructions personnalisées pour tous les moteurs de recherche ou pour des moteurs spécifiques. Il existe de nombreux articles en ligne qui explorent le sujet en détail.
 
 ### Exemple d’instructions personnalisées
 
@@ -57,20 +63,20 @@ Par défaut, le fichier robots.txt généré par Commerce contient des instructi
 **Instructions par défaut**
 
     User-agent : *
-    Refuser : /index.php/
-    Refuser : /*?
-    Interdire : /checkout/
-    Interdire : /app/
-    Interdire : /lib/
-    Interdire : /*.php$
-    Interdire : /pkginfo/
-    Interdire : /report/
-    Interdire : /var/
-    Interdire : /catalog/
-    Interdire : /customer/
-    Interdire : /sendfriend/
-    Interdire : /review/
-    Interdire : /*SID=
+    Disallow : /index.php/
+    Disallow: /*?
+    Disallow: /checkout/
+    Disallow: /app/
+    Disallow: /lib/
+    Disallow: /*.php$
+    Disallow: /pkginfo/
+    Disallow: /report/
+    Disallow: /var/
+    Disallow: /catalog/
+    Disallow: /customer/
+    Disallow: /sendfriend/
+    Disallow: /review/
+    Disallow: /*SID=
 
 ### Configurer `robots.txt`
 
@@ -88,10 +94,10 @@ Par défaut, le fichier robots.txt généré par Commerce contient des instructi
 
      | Option | Description |
      |------|------------|
-     | `INDEX, FOLLOW` | Indique aux robots d’exploration Web d’indexer le site et de vérifier ultérieurement les modifications. |
-     | `NOINDEX, FOLLOW` | Indique aux robots d’exploration Web d’éviter d’indexer le site, mais de revenir ultérieurement pour prendre connaissance des modifications. |
-     | `INDEX, NOFOLLOW` | Indique aux robots d’indexation de répertorier le site une fois, mais de ne suivre aucun lien sur la page. |
-     | `NOINDEX, NOFOLLOW` | Indique aux robots d’exploration web d’éviter d’indexer le site et de ne pas suivre les liens de la page. |
+     | `INDEX, FOLLOW` | Indique aux robots d&#39;exploration web d’indexer le site et de vérifier ultérieurement les modifications. |
+     | `NOINDEX, FOLLOW` | Indique aux robots d&#39;exploration web d’éviter d’indexer le site, mais de vérifier ultérieurement les modifications. |
+     | `INDEX, NOFOLLOW` | Indique aux robots d&#39;exploration web d’indexer le site une fois, mais de ne suivre aucun lien sur la page. |
+     | `NOINDEX, NOFOLLOW` | Indique aux robots d&#39;exploration web de ne pas indexer le site et de ne pas suivre les liens de la page. |
 
      {style="table-layout:auto"}
 

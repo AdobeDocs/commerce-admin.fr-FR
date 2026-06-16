@@ -3,19 +3,25 @@ title: Intégration d’Adobe Stock
 description: Intégrez Adobe Stock à votre instance pour accéder  [!DNL Commerce]  nombreuses ressources multimédias à utiliser dans votre magasin.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 9aec049cfaa12f342d66f45a75af0ce50a23c2c8
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+TQID: https://experienceleague.adobe.com/VwiTbOAj5V8s7OWtkq5hfoP4LcvNLPR9QaKStaCdArs
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: 427
 ht-degree: 0%
 
 ---
 
 # Intégration d’Adobe Stock
 
-Pour accéder à d’innombrables ressources multimédias à utiliser dans votre magasin, intégrez [Adobe Stock](https://stock.adobe.com) à [!UICONTROL Commerce].
+Pour accéder à d’innombrables ressources multimédias à utiliser dans votre magasin, intégrez [](https://stock.adobe.com) à [!UICONTROL Commerce].
 
-![Résultats de la recherche Adobe Stock](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
+![Résultats de la recherche ](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
 
 Le service Adobe Stock permet aux entreprises d’accéder à des millions de photos, de vecteurs, d’illustrations, de vidéos, de modèles et de ressources 3D organisés, de haute qualité et libres de droits pour tous leurs projets de création. [!DNL Commerce] utilisateurs peuvent rechercher, prévisualiser et acquérir rapidement des licences pour les ressources Adobe Stock. Les utilisateurs peuvent également les enregistrer dans le [espace de stockage multimédia](./media-storage.md), le tout sans quitter l’espace de travail d’administration.
 
@@ -23,13 +29,13 @@ Le service Adobe Stock permet aux entreprises d’accéder à des millions de ph
 
 Cette intégration nécessite :
 
-- Un compte [Adobe Developer](https://developer.adobe.com/console/home)
+- Un compte [](https://developer.adobe.com/console/home)
 - Adobe Commerce ou Magento Open Source, version 2.3.4 ou ultérieure
 
 L’obtention d’une licence pour les images Adobe Stock requiert :
 
-- Un compte [Adobe](https://helpx.adobe.com/fr/manage-account/using/access-adobe-id-account.html)
-- Un plan [Adobe Stock](https://stock.adobe.com) payant associé au compte
+- Un compte [](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
+- Un plan [](https://stock.adobe.com) payant associé au compte
 
 ## Intégrer [!DNL Commerce] et Adobe Stock
 
@@ -40,7 +46,7 @@ La configuration de l&#39;intégration d&#39;Adobe Stock pour Adobe Commerce est
 
 ### Création d’une intégration Adobe Developer
 
-1. Accédez à [Adobe Developer Console](https://developer.adobe.com/console/home).
+1. Accédez à [](https://developer.adobe.com/console/home).
 
 1. Sous _[!UICONTROL Quick Start]_, cliquez sur **[!UICONTROL Create new project]**.
 
@@ -92,6 +98,6 @@ Pour définir la configuration système dans votre administrateur [!DNL Commerce
 
    ![Configuration avancée - Intégration Adobe Stock](./assets/system-adobe-stock-integration.png){width="600" zoomable="yes"}
 
-   Accordez quelques secondes à la validation. Si vos informations d’identification sont valides, un _vert Connexion réussie !_ le message.
+   Accordez quelques secondes à la validation. Si vos informations d’identification sont valides, un _vert Connexion réussie !_ s’affiche. message.
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.

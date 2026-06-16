@@ -3,17 +3,22 @@ title: '[!UICONTROL My Quotes]'
 description: Découvrez l’expérience client pour les devis, disponible dans le tableau de bord de leur compte.
 exl-id: 137f0a99-8f24-4838-b54b-b0ef2c39a32a
 feature: B2B, Companies, Quotes
-source-git-commit: 6cf53c7caf37c24be473afecfba829595c14cb8c
+TQID: https://experienceleague.adobe.com/GaasaCrnKreiLSyt2QJp8rffloiC0LJ0-bvdZZ8F5aQ
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: 1221
 ht-degree: 97%
 
 ---
 
-
 # [!UICONTROL My Quotes]
 
-Si les devis sont activés, la section _[!UICONTROL My Quotes]_&#x200B;du tableau de bord du compte client répertorie tous les devis soumis par le client. Selon leurs autorisations, seuls les acheteurs qui effectuent des achats pour le compte d’une entreprise peuvent soumettre des demandes pour négocier le prix d’un achat.
+Si les devis sont activés, la section _[!UICONTROL My Quotes]_du tableau de bord du compte client répertorie tous les devis soumis par le client. Selon leurs autorisations, seuls les acheteurs qui effectuent des achats pour le compte d’une entreprise peuvent soumettre des demandes pour négocier le prix d’un achat.
 
 ![Mes devis](./assets/account-dashboard-my-quotes.png){width="700" zoomable="yes"}
 
@@ -158,13 +163,13 @@ Lorsque l&#39;acheteur ajoute l&#39;adresse, le vendeur fournit les options d&#3
 
 1. Dans le devis ouvert juste au-dessus de la section Articles mis en vente, clique sur **[!UICONTROL Close quote]**.
 
-   La demande est annulée et le statut du devis passe à `Closed`. Le devis fermé reste dans votre liste de devis et reste répertorié dans la grille de _[!UICONTROL Quotes]_&#x200B;de l&#39;administrateur.
+   La demande est annulée et le statut du devis passe à `Closed`. Le devis fermé reste dans votre liste de devis et reste répertorié dans la grille de _[!UICONTROL Quotes]_de l&#39;administrateur.
 
 1. Pour supprimer le devis annulé de la liste des devis, cliquez sur **[!UICONTROL Delete]**.
 
 1. Lorsque vous êtes invité à confirmer, cliquez sur **[!UICONTROL OK]**.
 
-   Le devis fermé est supprimé de leur liste de devis. Cependant, il reste répertorié dans la grille de _[!UICONTROL Quotes]_&#x200B;de l’administrateur, avec le statut `Closed` .
+   Le devis fermé est supprimé de leur liste de devis. Cependant, il reste répertorié dans la grille de _[!UICONTROL Quotes]_de l’administrateur, avec le statut `Closed` .
 
 ## Actions de devis
 
@@ -184,6 +189,6 @@ Lorsque l&#39;acheteur ajoute l&#39;adresse, le vendeur fournit les options d&#3
 | [!UICONTROL Quote Name] | Nom attribué à la demande de devis par l&#39;acheteur. |
 | [!UICONTROL Created] | Date de la première soumission de la demande de devis. |
 | [!UICONTROL Created By] | Prénom et nom de l&#39;acheteur qui a soumis la demande de devis. |
-| [!UICONTROL Status] | Indique le statut du devis. Le statut d&#39;un devis ne peut être modifié que par une action de l&#39;acheteur ou du vendeur. <br/>**[!UICONTROL Submitted]**- Le vendeur n&#39;a pas encore ouvert la demande de devis de l&#39;acheteur. Dans ce cas, l&#39;acheteur peut toujours modifier la demande de devis. Actions disponibles : `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** - Le vendeur a ouvert la demande et est en train de l&#39;examiner et de préparer une réponse. Actions disponibles : `View` / `Close` <br/>**[!UICONTROL Updated]**- Le vendeur a envoyé une réponse à l&#39;acheteur et le bouton _[!UICONTROL Proceed to Checkout]_&#x200B;est activé. Dans ce cas, l&#39;acheteur peut continuer à modifier le devis. Actions disponibles : `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` / `Edit Shipping Address`<br/>**[!UICONTROL Open]**- L&#39;acheteur met toujours à jour le devis et le bouton&#x200B;_[!UICONTROL Proceed to Checkout]_ est désactivé. Actions disponibles : `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**- L&#39;acheteur a passé une commande basée sur le devis négocié. La citation est verrouillée et ne peut pas être modifiée. Action disponible : Afficher<br/>**[!UICONTROL Closed]** - L&#39;acheteur a terminé la négociation et annule le devis. Le devis est verrouillé et ne peut pas être modifié par l&#39;acheteur ou le vendeur. Actions disponibles : `View` / `Delete` <br/>**[!UICONTROL Declined]**- Le vendeur a refusé la demande de devis ou d&#39;effectuer une modification proposée pendant le processus de négociation. Un devis peut être refusé à n&#39;importe quelle étape du workflow. Toute tarification personnalisée est supprimée du devis. L&#39;acheteur peut continuer à modifier le devis et le soumettre à nouveau, ou effectuer l&#39;achat à des prix de catalogue standard. Actions disponibles : `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** - La durée de vie du devis a expiré. Tous les prix proposés sont réinitialisés. L&#39;acheteur peut effectuer l&#39;achat en fonction des prix catalogue standard ou entamer un autre cycle de négociations. Actions disponibles : `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
+| [!UICONTROL Status] | Indique le statut du devis. Le statut d&#39;un devis ne peut être modifié que par une action de l&#39;acheteur ou du vendeur. <br/>**[!UICONTROL Submitted]**- Le vendeur n&#39;a pas encore ouvert la demande de devis de l&#39;acheteur. Dans ce cas, l&#39;acheteur peut toujours modifier la demande de devis. Actions disponibles : `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** - Le vendeur a ouvert la demande et est en train de l&#39;examiner et de préparer une réponse. Actions disponibles : `View` / `Close` <br/>**[!UICONTROL Updated]**- Le vendeur a envoyé une réponse à l&#39;acheteur et le bouton _[!UICONTROL Proceed to Checkout]_est activé. Dans ce cas, l&#39;acheteur peut continuer à modifier le devis. Actions disponibles : `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` / `Edit Shipping Address`<br/>**[!UICONTROL Open]**- L&#39;acheteur met toujours à jour le devis et le bouton_[!UICONTROL Proceed to Checkout]_ est désactivé. Actions disponibles : `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**- L&#39;acheteur a passé une commande basée sur le devis négocié. La citation est verrouillée et ne peut pas être modifiée. Action disponible : Afficher<br/>**[!UICONTROL Closed]** - L&#39;acheteur a terminé la négociation et annule le devis. Le devis est verrouillé et ne peut pas être modifié par l&#39;acheteur ou le vendeur. Actions disponibles : `View` / `Delete` <br/>**[!UICONTROL Declined]**- Le vendeur a refusé la demande de devis ou d&#39;effectuer une modification proposée pendant le processus de négociation. Un devis peut être refusé à n&#39;importe quelle étape du workflow. Toute tarification personnalisée est supprimée du devis. L&#39;acheteur peut continuer à modifier le devis et le soumettre à nouveau, ou effectuer l&#39;achat à des prix de catalogue standard. Actions disponibles : `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** - La durée de vie du devis a expiré. Tous les prix proposés sont réinitialisés. L&#39;acheteur peut effectuer l&#39;achat en fonction des prix catalogue standard ou entamer un autre cycle de négociations. Actions disponibles : `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
 
 {style="table-layout:auto"}

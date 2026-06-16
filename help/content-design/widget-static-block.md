@@ -2,19 +2,25 @@
 title: Utilisation d’un widget pour positionner un bloc
 description: Découvrez comment utiliser un widget de bloc statique pour placer un contenu existant pratiquement n’importe où dans votre boutique.
 exl-id: 174deef2-33c4-4f1a-8ca8-4969be209bc7
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+TQID: https://experienceleague.adobe.com/LZt31t9uNhrCglxO5L8E0XfVsFrwEKcv2H-TcKF46Ng
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: 598
 ht-degree: 0%
 
 ---
 
 # Utilisation d’un widget pour positionner un bloc
 
-Le _bloc statique CMS_ [widget](widgets.md) vous permet de placer un [bloc de contenu](blocks.md) existant presque n’importe où dans votre boutique.
+Le _bloc statique_ [widget](widgets.md) vous permet de placer un [bloc de contenu](blocks.md) existant presque n’importe où dans votre boutique.
 
-![&#x200B; Widgets &#x200B;](./assets/widgets.png){width="700" zoomable="yes"}
+![ Widgets ](./assets/widgets.png){width="700" zoomable="yes"}
 
 ## Étape 1 : choisir le type de widget
 
@@ -56,7 +62,7 @@ Le _bloc statique CMS_ [widget](widgets.md) vous permet de placer un [bloc de co
 
    - Acceptez le paramètre par défaut pour **[!UICONTROL Template]**, qui est défini sur `CMS Static Block Default Template`.
 
-     ![&#x200B; Mises à jour de la disposition &#x200B;](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
+     ![ Mises à jour de la disposition ](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
 ### Options de mise à jour de la disposition
 

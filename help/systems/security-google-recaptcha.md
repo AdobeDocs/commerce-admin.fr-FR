@@ -4,13 +4,19 @@ description: Découvrez comment configurer Google reCAPTCHA pour un accès admin
 exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
-source-git-commit: f156e9a8537f2efb994aedf1d839f6b7300cced6
+TQID: https://experienceleague.adobe.com/5gL6LIi-okCkQAu--QI4aLcyHlCiNZChc5KtA7t99pA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: 1095
 ht-degree: 0%
 
 ---
-
 
 # Google reCAPTCHA V3 et V2
 
@@ -34,7 +40,7 @@ Google reCAPTCHA peut être implémenté de plusieurs manières :
 
 >[!IMPORTANT]
 >
->Avant de pouvoir configurer Google reCAPTCHA, assurez-vous que votre fichier `PHP.ini` comprend le paramètre suivant : `allow_url_fopen = 1`. Cela peut nécessiter l’aide d’un développeur. Voir [Paramètres PHP requis](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=fr){:target="_blank"} dans le Guide d&#39;installation.
+>Avant de pouvoir configurer Google reCAPTCHA, assurez-vous que votre fichier `PHP.ini` comprend le paramètre suivant : `allow_url_fopen = 1`. Cela peut nécessiter l’aide d’un développeur. Voir [Paramètres PHP requis](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html){:target="_blank"} dans le Guide d&#39;installation.
 
 ## Étape 1 : générer des clés reCAPTCHA Google
 
@@ -73,7 +79,7 @@ Google reCAPTCHA requiert une paire de clés API pour l’activer. Vous pouvez o
 
 ## Étape 2 : configurer Google reCAPTCHA pour l’administrateur
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 1. Connectez-vous à votre compte administrateur.
 
@@ -87,7 +93,7 @@ Google reCAPTCHA requiert une paire de clés API pour l’activer. Vous pouvez o
    >
    >Décochez la case **[!UICONTROL Use system value]** pour chaque champ à configurer.
 
-1. Pour utiliser _[!DNL reCAPTCHA v2 ("I am not a robot")]_, développez la section **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**&#x200B;et procédez comme suit :
+1. Pour utiliser _[!DNL reCAPTCHA v2 ("I am not a robot")]_, développez la section **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**et procédez comme suit :
 
    - Par **[!UICONTROL Google API Website Key]**, saisissez la clé de site web qui a été créée pour ce type reCAPTCHA lorsque vous avez enregistré votre compte Google reCAPTCHA.
 
@@ -97,11 +103,11 @@ Google reCAPTCHA requiert une paire de clés API pour l’activer. Vous pouvez o
 
    - Par **[!UICONTROL Theme]**, choisissez le thème que vous souhaitez utiliser pour appliquer un style à la zone reCAPTCHA de Google. Options : `Light Theme (default)` / `Dark Theme`
 
-   - Par **[!UICONTROL Language Code]**, saisissez le code à deux caractères pour spécifier la langue [&#x200B; utilisée pour le texte et la messagerie reCAPTCHA de Google](https://developers.google.com/recaptcha/docs/language).
+   - Par **[!UICONTROL Language Code]**, saisissez le code à deux caractères pour spécifier la langue [ utilisée pour le texte et la messagerie reCAPTCHA de Google](https://developers.google.com/recaptcha/docs/language).
 
    ![reCAPTCHA v2 - « Je ne suis pas un robot »](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
-1. Pour utiliser _[!DNL reCAPTCHA v2 Invisible]_, développez la section **[!UICONTROL reCAPTCHA v2 Invisible]**&#x200B;et procédez comme suit :
+1. Pour utiliser _[!DNL reCAPTCHA v2 Invisible]_, développez la section **[!UICONTROL reCAPTCHA v2 Invisible]**et procédez comme suit :
 
    - Par **[!UICONTROL Google API Website Key]**, saisissez la clé de site web qui a été créée pour ce type reCAPTCHA lorsque vous avez enregistré votre compte Google reCAPTCHA.
 
@@ -111,11 +117,11 @@ Google reCAPTCHA requiert une paire de clés API pour l’activer. Vous pouvez o
 
    - Par **[!UICONTROL Theme]**, choisissez le thème à utiliser pour appliquer un style à la zone reCAPTCHA de Google. Options : `Light Theme (default)` / `Dark Theme`
 
-   - Par **[!UICONTROL Language Code]**, saisissez un code à deux caractères qui spécifie la langue [&#x200B; utilisée pour le texte et la messagerie reCAPTCHA de Google](https://developers.google.com/recaptcha/docs/language).
+   - Par **[!UICONTROL Language Code]**, saisissez un code à deux caractères qui spécifie la langue [ utilisée pour le texte et la messagerie reCAPTCHA de Google](https://developers.google.com/recaptcha/docs/language).
 
    ![reCAPTCHA v2 invisible](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
-1. Pour utiliser _[!DNL reCAPTCHA v3 Invisible]_, développez la section **[!UICONTROL reCAPTCHA v3 Invisible]**&#x200B;et procédez comme suit :
+1. Pour utiliser _[!DNL reCAPTCHA v3 Invisible]_, développez la section **[!UICONTROL reCAPTCHA v3 Invisible]**et procédez comme suit :
 
    - Par **[!UICONTROL Google API Website Key]**, saisissez la clé de site web qui a été créée pour ce type reCAPTCHA lorsque vous avez enregistré votre compte Google reCAPTCHA.
 
@@ -127,13 +133,13 @@ Google reCAPTCHA requiert une paire de clés API pour l’activer. Vous pouvez o
 
    - Par **[!UICONTROL Theme]**, choisissez le thème à utiliser pour appliquer un style à la zone reCAPTCHA de Google. Options : `Light Theme (default)` / `Dark Theme`
 
-   - Par **[!UICONTROL Language Code]**, saisissez un code à deux caractères qui spécifie la langue [&#x200B; utilisée pour le texte et la messagerie reCAPTCHA de Google](https://developers.google.com/recaptcha/docs/language).
+   - Par **[!UICONTROL Language Code]**, saisissez un code à deux caractères qui spécifie la langue [ utilisée pour le texte et la messagerie reCAPTCHA de Google](https://developers.google.com/recaptcha/docs/language).
 
    ![reCAPTCHA v3 invisible](../configuration-reference/security/assets/recaptcha-admin-v3-invisible.png){width="600" zoomable="yes"}
 
 1. Développez **[!UICONTROL reCAPTCHA Validation Failure Messages]** et saisissez les messages qui s’affichent dans Admin si la validation échoue ou ne peut pas être effectuée.
 
-   ![&#x200B; Messages d’échec reCAPTCHA &#x200B;](../configuration-reference/security/assets/recaptcha-admin-failure-messages.png){width="600" zoomable="yes"}
+   ![ Messages d’échec reCAPTCHA ](../configuration-reference/security/assets/recaptcha-admin-failure-messages.png){width="600" zoomable="yes"}
 
 1. Développez la section **[!UICONTROL Admin Panel]** et configurez les éléments suivants selon vos besoins :
 

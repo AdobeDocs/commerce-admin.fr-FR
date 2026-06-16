@@ -3,9 +3,15 @@ title: Taxes
 description: Découvrez comment configurer votre boutique pour calculer les taxes en fonction des exigences de vos paramètres régionaux.
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: 1128
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ Configurez votre boutique pour calculer les taxes en fonction des exigences de v
 >
 >Les versions 2.4.0 à 2.4.3 d’Adobe Commerce et de Magento Open Source incluaient l’extension développée par le fournisseur Vertex utilisée pour s’intégrer à Vertex Cloud afin de fournir une gestion fiscale et de résoudre les problèmes de cleansing. À compter de la version 2.4.4, cette extension n’est plus fournie avec la version de base et doit être installée et mise à jour à partir du Commerce Marketplace ou directement auprès du fournisseur. [Contactez Vertex](https://marketplace.magento.com/partner/vertex_inc) pour plus d’informations sur l’extension et la documentation.<br><br>
 >
->Si l’extension groupée est activée et configurée, vous devez mettre à jour votre fichier composer.json dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Voir [Mise à niveau des modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=fr) dans le _Guide de mise à niveau_.
+>Si l’extension groupée est activée et configurée, vous devez mettre à jour votre fichier composer.json dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Voir [Mise à niveau des modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) dans le _Guide de mise à niveau_.
 
 ## Référence rapide
 
@@ -89,7 +95,7 @@ Les commerçants qui font l&#39;objet d&#39;une vérification pour les taxes pay
 - L&#39;adresse de livraison du client et un enregistrement de transaction de paiement réussie peuvent être utilisés pour établir le lieu de résidence du client. (Le paiement n&#39;est accepté que si l&#39;adresse de livraison correspond aux informations du fournisseur de paiement.)
 - Les informations peuvent également être capturées directement à partir du magasin de données dans les tables de la base de données Commerce.
 
-_&#x200B;**Pour collecter des informations relatives à la taxe sur les produits numériques, procédez comme suit**&#x200B;_
+_**Pour collecter des informations relatives à la taxe sur les produits numériques, procédez comme suit**_
 
 1. Chargez les taux d&#39;imposition pour tous les pays membres de l&#39;UE.
 
@@ -108,4 +114,4 @@ _&#x200B;**Pour collecter des informations relatives à la taxe sur les produits
 Ressources supplémentaires :
 
 - [Commission européenne Fiscalité et union douanière](https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)
-- [EU 1015 Changement de lieu d&#39;approvisionnement](https://www2.deloitte.com/global/en/services/tax.html)
+- [EU 1015 Lieu de l&#39;approvisionnement Changements](https://www2.deloitte.com/global/en/services/tax.html)

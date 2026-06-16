@@ -3,10 +3,16 @@ title: Tarification par niveau
 description: Découvrez comment utiliser la tarification de niveau pour offrir une remise sur la quantité à partir d’une liste de produits ou d’une page produit.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
+TQID: https://experienceleague.adobe.com/jnHBD-ANVzqZa1IKCAy5aDrtj4n-ZDxXjFH4cGZ3dgM
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 0%
+source-wordcount: 892
+ht-degree: 1%
 
 ---
 
@@ -56,7 +62,7 @@ Les prix dans le storefront ont la priorité de la quantité la plus élevée à
 
      >[!NOTE]
      >
-     >Pour obtenir le prix réduit, le pourcentage défini est calculé par rapport à la valeur définie dans le champ _[!UICONTROL Price]_, et non dans le champ&#x200B;_[!UICONTROL Special Price]_ .
+     >Pour obtenir le prix réduit, le pourcentage défini est calculé par rapport à la valeur définie dans le champ _[!UICONTROL Price]_, et non dans le champ_[!UICONTROL Special Price]_ .
 
      ![Prix de niveau en pourcentage](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
@@ -76,7 +82,7 @@ Les prix dans le storefront ont la priorité de la quantité la plus élevée à
 
 ## Activer la tarification de niveau pour les règles de prix de catalogue
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
 
 Dans les versions précédentes de Commerce, la tarification de niveau ne pouvait pas être utilisée conjointement avec les règles de prix de catalogue. Les règles de catalogue ont ignoré la configuration du prix de niveau et ont calculé les remises uniquement à partir du prix de base d’origine. Avec Adobe Commerce as a Cloud Service, vous pouvez désormais choisir d’inclure la tarification de niveau dans le calcul des règles de prix de catalogue.
 
@@ -110,7 +116,7 @@ Produit : Prix standard 100 $ (achat d&#39;un seul article)
 
 | Groupe de clients | Prix De Niveau (Qté=1) | Nouveau prix de base | Prix final |
 |---|---|---|---|
-| TOUS LES GROUPES | Non configuré | 100 $ | 100 $ - 10 % = 90 $ |
-| Commerce de gros | Fixe : 85 $ | 85 $ | 85 $ - 10 % = 76,50 $ |
-| Retailer | Remise de 20 % | 80 $ | 80 $ - 10 % = 72 $ |
-| VIP | Remise de 15 % | 85 $ | 85 $ - 10 % = 76,50 $ |
+| TOUS LES GROUPES | Non configuré | $100 | $100 - 10% = $90 |
+| Commerce de gros | Fixe : 85 $ | $85 | $85 - 10% = $76.50 |
+| Retailer | Remise de 20 % | $80 | $80 - 10% = $72.00 |
+| VIP | Remise de 15 % | $85 | $85 - 10% = $76.50 |

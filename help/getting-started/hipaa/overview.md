@@ -3,10 +3,16 @@ title: Préparation du HIPAA pour Adobe Commerce
 description: Découvrez comment ajouter l’extension Adobe Commerce HIPAA-Ready et obtenir des fonctionnalités supplémentaires qui vous permettent de respecter vos obligations HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: ce54e0bdb361f51e7d6218692178bfb18f9aba3c
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+TQID: https://experienceleague.adobe.com/0K0f6Rb5ukFbiCj4ySxhl-4-OzJ4Luu2nKwhTHGeYW8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2619'
+source-wordcount: 2567
 ht-degree: 1%
 
 ---
@@ -17,7 +23,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->**Avertissement légal**<br/>
+>**Clause de non-responsabilité**<br/>
 >Ces informations sont destinées à aider les clients Adobe à répondre à leurs questions concernant les services conformes à la norme HIPAA d’Adobe. Il ne s&#39;agit pas d&#39;un avis juridique. Les commerçants doivent consulter leur propre service juridique pour connaître leurs obligations en vertu de la loi HIPAA ainsi que l’utilisation et la configuration appropriées des produits Adobe.
 
 >[!BEGINSHADEBOX]
@@ -46,8 +52,8 @@ Le tableau suivant montre la compatibilité entre les versions d’Adobe Commerc
 
 | Adobe Commerce | Pris en charge | Remarques |
 |----------------|-----------|-------|
-| 2.4.8-p5 | 1.3.0 | La prise en charge de la version 2.4.8-p5 nécessite un correctif de [compatibilité](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-30555) |
-| 2.4.7-p4 et versions ultérieures -p | 1.2.0 | La prise en charge de la version 2.4.7-p4 nécessite un correctif de [compatibilité](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-27147) |
+| 2.4.8-p5 | 1.3.0 | La prise en charge de la version 2.4.8-p5 nécessite un correctif de [compatibilité](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-30555) |
+| 2.4.7-p4 et versions ultérieures -p | 1.2.0 | La prise en charge de la version 2.4.7-p4 nécessite un correctif de [compatibilité](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27147) |
 | 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
 | 2.4.6-p8 | 1.1.0 | La prise en charge des [services de données](#adobe-commerce-services) a été introduite dans la version 1.1.0 |
 | 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
@@ -66,7 +72,7 @@ Le tableau suivant montre la compatibilité entre les versions d’Adobe Commerc
 >[!BEGINSHADEBOX]
 
 - Adobe a configuré votre compte Adobe Commerce pour accéder à l’extension conforme à la loi HIPAA.
-- Accédez à [repo.magento.com](https://repo.magento.com) pour installer l’extension. Pour la génération des clés et l’obtention des droits nécessaires, voir [&#x200B; Obtenir vos clés d’authentification &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
+- Accédez à [repo.magento.com](https://repo.magento.com) pour installer l’extension. Pour la génération des clés et l’obtention des droits nécessaires, voir [ Obtenir vos clés d’authentification ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
 
 >[!ENDSHADEBOX]
 
@@ -74,13 +80,13 @@ Installez la dernière version de l’extension Adobe HIPAA-Ready Services (`mag
 
 >[!NOTE]
 >
->Pour vous assurer que les données d’événement de back-office envoyées à Experience Platform sont conformes à la loi HIPAA, consultez le guide [Data Connection extension guide](https://experienceleague.adobe.com/fr/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
+>Pour vous assurer que les données d’événement de back-office envoyées à Experience Platform sont conformes à la loi HIPAA, consultez le guide [Data Connection extension guide](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
 
 1. Sur votre station de travail locale, accédez au répertoire du projet d’infrastructure cloud d’Adobe Commerce.
 
    >[!NOTE]
    >
-   >Pour plus d’informations sur la gestion locale des environnements de projet Commerce, voir [Gestion des branches avec l’interface de ligne de commande](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/develop/cli-branches) dans le _Guide d’utilisation d’Adobe Commerce sur les infrastructures cloud_.
+   >Pour plus d’informations sur la gestion locale des environnements de projet Commerce, voir [Gestion des branches avec l’interface de ligne de commande](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/cli-branches) dans le _Guide d’utilisation d’Adobe Commerce sur les infrastructures cloud_.
 
 1. Extrayez la branche d’environnement pour effectuer la mise à jour à l’aide de l’interface de ligne de commande Adobe Commerce Cloud.
 
@@ -108,7 +114,7 @@ Installez la dernière version de l’extension Adobe HIPAA-Ready Services (`mag
    git push origin <branch-name>
    ```
 
-   L’envoi des mises à jour lance le processus de déploiement cloud de [&#128279;](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/develop/deploy/process) pour appliquer les modifications. Vérifiez le statut du déploiement dans le [journal de déploiement](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/develop/test/log-locations).
+   L’envoi des mises à jour lance le processus de déploiement cloud de [](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process) pour appliquer les modifications. Vérifiez le statut du déploiement dans le [journal de déploiement](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations).
 
 ### Vérification de l’installation
 
@@ -162,7 +168,7 @@ Les journaux d’actions capturent également des événements lorsque les servi
 La grille de rapport _Journaux d’actions_ (**[!UICONTROL System]** > Journaux d’actions > Rapport) est modifiée pour s’adapter aux actions du client effectuées via l’interface utilisateur d’administration et l’API.
 
 1. Ajout de deux colonnes :
-   - **&#x200B;**&#x200B;** : affiche l’emplacement où l’action a été effectuée.
+   - ****** : affiche l’emplacement où l’action a été effectuée.
 Valeurs : `Admin UI` | `Customer UI` | `REST API` | `SOAP API` | `GraphQL API`
    - ***Type de client*** : affiche le type de client.
 Valeurs : Client | Admin | Intégration
@@ -280,15 +286,15 @@ Le tableau suivant répertorie les services Adobe Commerce disponibles pour l’
 
 | Service | Hors production | Production |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
-| [&#128279;](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | Oui | Oui |
-| [&#x200B; Maillage API pour Adobe Developer App Builder &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/) | Oui | Oui |
-| [Exportation de données SaaS](https://experienceleague.adobe.com/fr/docs/commerce/saas-data-export/overview) | Oui | Oui |
-| [Recherche en direct](https://experienceleague.adobe.com/fr/docs/commerce/live-search/overview) | Non | Non |
-| [Recommandations de produits](https://experienceleague.adobe.com/fr/docs/commerce/product-recommendations/overview) | Non | Non |
-| [&#x200B; Services de paiement &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce/payment-services/guide-overview) | Non | Non |
-| [Événements Back Office De Connexion Aux Données](https://experienceleague.adobe.com/fr/docs/commerce/data-connection/event-forwarding/events-backoffice) | Oui | Oui |
-| [Événements de storefront de connexion de données](https://experienceleague.adobe.com/fr/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Non | Non |
-| [&#128279;](https://experienceleague.adobe.com/fr/docs/commerce-admin/customers/audience-activation) | Non | Non |
+| [](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | Oui | Oui |
+| [ Maillage API pour Adobe Developer App Builder ](https://developer.adobe.com/graphql-mesh-gateway/) | Oui | Oui |
+| [Exportation de données SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | Oui | Oui |
+| [Recherche en direct](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | Non | Non |
+| [Recommandations de produits](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | Non | Non |
+| [ Services de paiement ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | Non | Non |
+| [Événements Back Office De Connexion Aux Données](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | Oui | Oui |
+| [Événements de storefront de connexion de données](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Non | Non |
+| [](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | Non | Non |
 
 ### Outils
 
@@ -300,7 +306,7 @@ L’outil [Security Scan Tool](../../systems/security-scan.md) pour Adobe Commer
 - Toutes les extensions installées correspondent à une liste autorisée prédéfinie
 - Aucun service Adobe non pris en charge n’est installé.
 
-Vous pouvez [configurer l’outil](../../systems/security-scan.md#run-a-security-scan) pour vous envoyer des notifications par e-mail avec les détails des analyses planifiées ou [afficher manuellement les rapports](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/launch/overview).
+Vous pouvez [configurer l’outil](../../systems/security-scan.md#run-a-security-scan) pour vous envoyer des notifications par e-mail avec les détails des analyses planifiées ou [afficher manuellement les rapports](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview).
 
 ## Disabled features
 
@@ -308,7 +314,7 @@ Pour se conformer aux exigences de la loi HIPAA, certaines fonctionnalités pris
 
 Les fonctionnalités suivantes sont désactivées par défaut dans le module de préparation à la loi HIPAA. Les commerçants peuvent activer l&#39;une de ces fonctionnalités à leurs propres risques.
 
-- **[E-mail transactionnel](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/project/sendgrid)**—SendGrid est désactivé par défaut, car le service n&#39;est pas conforme à la loi HIPAA. Adobe Commerce propose une option d’intégration que vous pouvez utiliser avec votre propre compte [AWS Simple Email Service](https://docs.aws.amazon.com/ses/). Pour plus d’informations sur la configuration, contactez votre gestionnaire de compte technique client ou l’assistance Adobe Commerce.
+- **[E-mail transactionnel](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/sendgrid)**—SendGrid est désactivé par défaut, car le service n&#39;est pas conforme à la loi HIPAA. Adobe Commerce propose une option d’intégration que vous pouvez utiliser avec votre propre compte [AWS Simple Email Service](https://docs.aws.amazon.com/ses/). Pour plus d’informations sur la configuration, contactez votre gestionnaire de compte technique client ou l’assistance Adobe Commerce.
 
 - **[Passage en caisse des invités](../../stores-purchase/checkout-guest.md)** : cette fonctionnalité présente un risque potentiel pour divers aspects de la loi HIPAA, notamment la journalisation, le contrôle d’accès, l’hygiène et la traçabilité des ISP, et potentiellement plus encore.
 

@@ -4,10 +4,16 @@ description: Découvrez comment modifier votre propre clé de chiffrement, ce qu
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 4968c40cd6f8a47ea595db20ed5d77c11e134db6
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+TQID: https://experienceleague.adobe.com/jC0eV49rzff4ZZ0idMG4ChWZh80Yz43ZTmZ9CjYFhnk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: 545
 ht-degree: 0%
 
 ---
@@ -16,13 +22,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Si vous avez tenté d’effectuer ces étapes et rencontrez des problèmes, reportez-vous à l’article [Dépannage de la rotation de la clé de chiffrement : CVE-2024-34102](https://experienceleague.adobe.com/fr/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) de la base de connaissances.
+>Si vous avez tenté d’effectuer ces étapes et rencontrez des problèmes, reportez-vous à l’article [Dépannage de la rotation de la clé de chiffrement : CVE-2024-34102](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) de la base de connaissances.
 
 Adobe Commerce et Magento Open Source utilisent une clé de chiffrement pour protéger les mots de passe et d’autres données sensibles. Un algorithme de [!DNL ChaCha20-Poly1305] standard est utilisé avec une clé de 256 bits pour chiffrer toutes les données qui nécessitent un chiffrement. Cela inclut les données de carte de crédit et les mots de passe d’intégration (module de paiement et d’expédition). En outre, un algorithme de hachage sécurisé puissant (SHA-256) est utilisé pour hacher toutes les données qui ne nécessitent pas de déchiffrement.
 
 Lors de l’installation initiale, vous êtes invité à laisser Commerce générer une clé de chiffrement ou à saisir l’une des vôtres. L’outil Clé de chiffrement vous permet de modifier la clé selon vos besoins. La clé de chiffrement doit être changée régulièrement pour améliorer la sécurité, et à tout moment la clé d&#39;origine peut être compromise.
 
-Pour obtenir des informations techniques, consultez [Installation sur site avancée](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=fr) dans le _Guide d’installation_ et [Reclassement des données](https://developer.adobe.com/commerce/php/development/security/data-encryption/) dans le _Guide de développement PHP_.
+Pour obtenir des informations techniques, consultez [Installation sur site avancée](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) dans le _Guide d’installation_ et [Reclassement des données](https://developer.adobe.com/commerce/php/development/security/data-encryption/) dans le _Guide de développement PHP_.
 
 >[!IMPORTANT]
 >
@@ -34,7 +40,7 @@ Pour obtenir des informations techniques, consultez [Installation sur site avanc
 
 Les instructions suivantes nécessitent l’accès à un terminal.
 
-1. Activez le [mode de maintenance](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode).
+1. Activez le [mode de maintenance](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode).
 
    ```bash
    bin/magento maintenance:enable
@@ -42,7 +48,7 @@ Les instructions suivantes nécessitent l’accès à un terminal.
 
 1. Désactivez les tâches cron.
 
-   _Projets d’infrastructure cloud :_
+   _Projets d&#39;infrastructure cloud :_
 
    ```bash
    ./vendor/bin/ece-tools cron:disable
@@ -103,13 +109,13 @@ Les instructions suivantes nécessitent l’accès à un terminal.
 
 1. Videz le cache.
 
-   _Projets d’infrastructure cloud :_
+   _Projets d&#39;infrastructure cloud :_
 
    ```bash
    magento-cloud cc
    ```
 
-   _Projets sur site :_
+   _Projets locaux :_
 
    ```bash
    bin/magento cache:flush
@@ -117,13 +123,13 @@ Les instructions suivantes nécessitent l’accès à un terminal.
 
 1. Activez les tâches cron.
 
-   _Projets d’infrastructure cloud :_
+   _Projets d&#39;infrastructure cloud :_
 
    ```bash
    ./vendor/bin/ece-tools cron:enable
    ```
 
-   _Projets sur site :_
+   _Projets locaux :_
 
    ```bash
    crontab -e

@@ -3,9 +3,16 @@ title: Conformité au CCPA
 description: Découvrez le California Consumer Privacy Act (CCPA), qui étend les droits des consommateurs californiens quant à la manière dont leurs informations personnelles sont collectées, stockées et utilisées.
 exl-id: 165c8b78-683e-4015-b3c4-d3211750799e
 feature: Compliance
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/pqTJ5J1--DNbzAWJkZsc1mM9QTFr39kIJ7cxZrjD9eo
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c32adafa-ed01-4b31-997e-2413013911b0
+subfeature_v2: id: ac9e9756-fd8b-40d8-b18a-f0b36d83b5acid: bcbf87e7-9b75-4596-bffe-0f376b4c73a7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: 2309
 ht-degree: 0%
 
 ---
@@ -16,7 +23,7 @@ ht-degree: 0%
 >
 >Ces informations font partie d’une série de rubriques destinées à aider les commerçants et les développeurs Adobe Commerce à comprendre les implications de la Loi sur la protection de la vie privée des consommateurs de Californie. L&#39;information est basée sur le texte de la loi. Pour confirmer si le CCPA s&#39;applique à votre entreprise, consultez votre avocat.
 
-Le [&#x200B; California Consumer Privacy Act &#x200B;](https://oag.ca.gov/privacy/ccpa) (CCPA) élargit les droits des consommateurs californiens quant à la manière dont leurs informations personnelles sont collectées, stockées et utilisées. Elle met l&#39;accent sur la protection des consommateurs contre la vente ou l&#39;échange non autorisé de leurs renseignements personnels. Le CCPA a été adopté en 2018 et est entré en vigueur le 1er janvier 2020.
+Le [ California Consumer Privacy Act ](https://oag.ca.gov/privacy/ccpa) (CCPA) élargit les droits des consommateurs californiens quant à la manière dont leurs informations personnelles sont collectées, stockées et utilisées. Elle met l&#39;accent sur la protection des consommateurs contre la vente ou l&#39;échange non autorisé de leurs renseignements personnels. Le CCPA a été adopté en 2018 et est entré en vigueur le 1er janvier 2020.
 
 Le CCPA accorde aux consommateurs les nouveaux droits suivants :
 
@@ -97,7 +104,7 @@ Faites l’inventaire de vos propriétés numériques, y compris toutes les int�
 
    - **Fournisseurs de services** : entités qui ont accès à vos données client à des fins commerciales et fournissent des services en votre nom. Par exemple, Adobe est un fournisseur de services, tout comme certains développeurs de personnalisations, d’extensions et de services.
 
-     Vérifiez les paramètres par défaut de Google Universal Analytics, de Google Tag Manager (et de tout autre service de données que vous utilisez) et apportez les modifications nécessaires pour vous conformer à la réglementation. Pour en savoir plus, consultez [Paramètres de confidentialité de &#x200B;](../merchandising-promotions/google-tools.md#google-privacy-settings).
+     Vérifiez les paramètres par défaut de Google Universal Analytics, de Google Tag Manager (et de tout autre service de données que vous utilisez) et apportez les modifications nécessaires pour vous conformer à la réglementation. Pour en savoir plus, consultez [Paramètres de confidentialité de ](../merchandising-promotions/google-tools.md#google-privacy-settings).
 
    - **Autres tiers** : entités avec lesquelles vous partagez ou vendez des données des consommateurs. Par exemple, vous pouvez partager des données client avec un réseau publicitaire en échange de publicité.
 
@@ -105,14 +112,14 @@ Faites l’inventaire de vos propriétés numériques, y compris toutes les int�
 
 **Parties Prenantes :** Expérience Utilisateur, Technologie De L’Information, Support Administratif
 
-1. Identifiez chaque point du parcours client&rbrack; où les informations personnelles sont collectées, ainsi que le type d’informations collectées à chaque étape.&lbrack;
+1. Identifiez chaque point du parcours client] où les informations personnelles sont collectées, ainsi que le type d’informations collectées à chaque étape.[
 
    Les visiteurs et visiteuses de votre site doivent être avertis à l’avance ou au point de collecte des données. Par exemple, un magasin sans intégrations personnalisées collecte des informations personnelles lors de la création d’un compte client et lors du passage en caisse. Si votre magasin comporte des intégrations personnalisées, il se peut qu’il y ait des éléments de données et des attributs supplémentaires à identifier.
 
 1. Consultez les rubriques suivantes pour les diagrammes de flux de données applicables et les mappages d’entités de base de données pour chaque version :
 
-   - [Référence des informations personnelles (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=fr)
-   - [Référence des informations personnelles (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=fr)
+   - [Référence des informations personnelles (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
+   - [Référence des informations personnelles (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
 
    ![diagramme](./assets/privacy-frontend-diagram.svg)
 

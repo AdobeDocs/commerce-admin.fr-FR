@@ -3,9 +3,15 @@ title: FedEx
 description: Découvrez comment configurer FedEx en tant que transporteur pour votre boutique.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: ad5da1d77b63bf6bcc0227a5c467e369b7bb8d89
+TQID: https://experienceleague.adobe.com/r2D0urz8NAZfeVuKY29905IhseS5Kfivsto7HCwQsqY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: 911
 ht-degree: 0%
 
 ---
@@ -18,15 +24,15 @@ FedEx est l&#39;une des plus grandes sociétés de services de transport maritim
 
 >[!NOTE]
 >
->FedEx peut utiliser [le poids](carriers.md#dimensional-weight) volumétrique pour déterminer certains tarifs d’expédition. Toutefois, Adobe Commerce et Magento Open Source prennent en charge uniquement le calcul des frais d’expédition basés sur le poids.
+>FedEx peut utiliser [poids dimensionnel](carriers.md#dimensional-weight) pour déterminer certains tarifs d&#39;expédition. Cependant, Adobe Commerce et Magento Open Source prennent uniquement en charge le calcul des frais d’expédition en fonction du poids.
 
-## Étape 1 : Inscrivez-vous à la production de services Web FedEx
+## Étape 1 : S&#39;inscrire à la production de FedEx Web Services
 
-Un compte marchand FedEx et une inscription à FedEx Web Services Production Access sont requis. Après avoir créé un compte FedEx, lisez la page d’informations du compte de production, puis cliquez sur le lien Obtenir la _clé_ de production au bas de la page pour vous inscrire et obtenir une clé.
+Un compte de commerçant FedEx et l&#39;enregistrement pour l&#39;accès à la production des services Web FedEx sont requis. Après avoir créé un compte FedEx, lisez la page d&#39;information du compte de production, puis cliquez sur le lien _Obtenir la clé de production_ au bas de la page pour vous inscrire et obtenir une clé.
 
 >[!NOTE]
 >
->Veillez à copier ou à écrire la clé d’authentification. Il est nécessaire de configurer FedEx dans vos paramètres d’expédition Commerce.
+>Veillez à copier ou écrire la clé d’authentification. Il est nécessaire de configurer FedEx dans vos paramètres d&#39;expédition Commerce.
 
 ## Étape 2 : activer FedEx pour votre Boutique
 
@@ -63,17 +69,17 @@ Un compte marchand FedEx et une inscription à FedEx Web Services Production Acc
 
    ![Paramètres du compte FedEx](../configuration-reference/sales/assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
 
-## Étape 3 : Description du colis et frais de manutention
+## Étape 3 : description du package et frais de gestion
 
 1. **[!UICONTROL Pickup Type]** la méthode de prélèvement utilisée pour les expéditions.
 
    - `DropOff at Fedex Location` - (par défaut) Indique que vous déposez des envois à votre station FedEx locale.
    - `Contact Fedex to Schedule` - Indique que vous contactez FedEx pour demander un retrait.
-   - `Use Scheduled Pickup` - Indique que l’envoi est ramassé dans le cadre d’un ramassage régulier.
-   - `On Call` - Indique que le ramassage est programmé en appelant FedEx.
-   - `Package Return Program` - Indique que l’envoi est ramassé par le programme de retour de colis par voie terrestre FedEx.
-   - `Regular Stop` - Indique que l’envoi est ramassé à l’horaire habituel.
-   - `Tag` - Indique que le ramassage de l’envoi est spécifique à une demande de ramassage d’étiquette Express ou d’étiquette d’appel terrestre. Ceci s’applique uniquement à une étiquette d’expédition de retour.
+   - `Use Scheduled Pickup` - Indique que l&#39;expédition est récupérée dans le cadre d&#39;un ramassage régulier prévu.
+   - `On Call` - Indique que la collecte est programmée en appelant FedEx.
+   - `Package Return Program` - Indique que l&#39;expédition est récupérée par le Programme de retour des colis au sol de FedEx.
+   - `Regular Stop` - Indique que l&#39;expédition est récupérée selon le calendrier de récupération standard.
+   - `Tag` - Indique que le retrait de l&#39;expédition est spécifique à une demande de retrait de la balise Express ou de la balise Ground Call. Ceci s&#39;applique uniquement pour une étiquette d&#39;expédition de retour.
 
 1. Par **[!UICONTROL Packages Request Type]**, sélectionnez le type de demande qui décrit le mieux vos préférences lors du fractionnement d&#39;une commande en plusieurs livraisons :
 
@@ -91,7 +97,7 @@ Un compte marchand FedEx et une inscription à FedEx Web Services Production Acc
 
    Le poids maximum par défaut de FedEx est de 150 livres. Consultez votre transporteur pour plus d&#39;informations. La valeur par défaut est recommandée, sauf si vous avez pris des dispositions spéciales avec FedEx. Voir [Poids dimensionnel](carriers.md#dimensional-weight) pour plus d’informations.
 
-   ![&#x200B; Paramètres du package FedEx &#x200B;](../configuration-reference/sales/assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
+   ![ Paramètres du package FedEx ](../configuration-reference/sales/assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
 
 1. Configurez les options de frais de gestion en fonction de vos besoins.
 
@@ -102,7 +108,7 @@ Un compte marchand FedEx et une inscription à FedEx Web Services Production Acc
       - `Fixed Fee`
       - `Percentage`
 
-   - Pour **[!UICONTROL Handling Applied]**, choisissez l’une des méthodes suivantes de gestion des frais de manutention :
+   - Par **[!UICONTROL Handling Applied]**, choisissez l’une des méthodes suivantes pour gérer les frais de gestion :
 
       - `Per Order`
       - `Per Package`
@@ -130,9 +136,9 @@ Un compte marchand FedEx et une inscription à FedEx Web Services Production Acc
    - Smart Post-If offrant la méthode Smart Post (saisissez l’**identifiant de hub**)
    - Options de transport - Transport, transport national
 
-1. Si vous souhaitez fournir une [option de livraison](shipping-free.md) gratuite via FedEx, définissez les options de livraison gratuite.
+1. Si vous souhaitez fournir une option [Livraison gratuite](shipping-free.md) via FedEx, définissez les options de livraison gratuite.
 
-   - Définissez **[!UICONTROL Free Method]** sur la méthode que vous souhaitez utiliser pour la livraison gratuite. Si vous ne souhaitez pas offrir la livraison gratuite via FedEx, choisissez `None`.
+   - Définissez **[!UICONTROL Free Method]** sur la méthode que vous souhaitez utiliser pour la livraison gratuite. Si vous ne voulez pas offrir la livraison gratuite par FedEx, choisissez `None`.
 
    - Pour exiger un montant de commande minimum qui qualifie une commande pour une livraison gratuite avec FedEx, définissez **[!UICONTROL Enable Free Shipping Threshold]** sur `Enable`. Saisissez ensuite la valeur minimale en **[!UICONTROL Free Shipping Amount Threshold]**.
 
@@ -140,15 +146,15 @@ Un compte marchand FedEx et une inscription à FedEx Web Services Production Acc
 
 1. Si nécessaire, modifiez la **[!UICONTROL Displayed Error Message]**.
 
-   Cette zone de texte est prédéfinie avec un message par défaut, mais vous pouvez saisir un message différent que vous souhaitez afficher si FedEx devient indisponible.
+   Cette zone de texte est prédéfinie avec un message par défaut, mais vous pouvez saisir un message différent que vous souhaitez afficher si FedEx n&#39;est plus disponible.
 
-   ![Modes de livraison autorisés par FedEx](../configuration-reference/sales/assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
+   ![Méthodes de livraison autorisées par FedEx](../configuration-reference/sales/assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
 
 1. Définir **[!UICONTROL Ship to Applicable Countries]** :
 
-   - `All Allowed Countries`- Les clients de tous les pays[&#128279;](../getting-started/store-details.md#country-options) spécifiés dans la configuration de votre magasin peuvent utiliser ce mode de livraison.
+   - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans la configuration de votre boutique peuvent utiliser cette méthode de diffusion.
 
-   - `Specific Countries` - Lorsque vous choisissez cette option, la _liste Expédier vers des pays_ spécifiques apparaît. Sélectionnez chaque pays dans la liste où ce mode de livraison peut être utilisé.
+   - `Specific Countries` - Lorsque vous sélectionnez cette option, la liste _Livrer à des pays spécifiques_ s&#39;affiche. Sélectionnez dans la liste chaque pays où ce mode de diffusion peut être utilisé.
 
 1. Si vous souhaitez conserver un journal de toutes les communications entre votre magasin et le système FedEx, définissez **[!UICONTROL Debug]** sur `Yes`.
 

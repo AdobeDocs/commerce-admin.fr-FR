@@ -3,16 +3,22 @@ title: Configuration de la devise
 description: Découvrez comment définir la portée de la devise de base et comment spécifier les devises que vous acceptez et la devise que vous souhaitez utiliser pour l’affichage des prix.
 exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
-source-git-commit: 0b93c90af4bface05fe1342ac756854f7f931989
+TQID: https://experienceleague.adobe.com/-8zl9x0ORJssQFyubtdVbht9iOjWIi5zCv4LuN0ORhE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: 826
 ht-degree: 0%
 
 ---
 
 # Configuration de la devise
 
-Avant de configurer des taux de change individuels, vous devez d&#39;abord définir la portée de la [devise de base](../configuration-reference/general/currency-setup.md). Il est défini sur global par défaut, ce qui applique le paramètre de devise de base à l’ensemble de la hiérarchie [&#x200B; magasin](../getting-started/websites-stores-views.md). Si vous disposez d’une installation Adobe Commerce ou Magento Open Source multisite, vous pouvez gérer plusieurs devises de base en définissant l’étendue au niveau du site web.
+Avant de configurer des taux de change individuels, vous devez d&#39;abord définir la portée de la [devise de base](../configuration-reference/general/currency-setup.md). Il est défini sur global par défaut, ce qui applique le paramètre de devise de base à l’ensemble de la hiérarchie [ magasin](../getting-started/websites-stores-views.md). Si vous disposez d’une installation Adobe Commerce ou Magento Open Source multisite, vous pouvez gérer plusieurs devises de base en définissant l’étendue au niveau du site web.
 
 Vous spécifiez également les devises que vous acceptez et celle que vous souhaitez utiliser pour l’affichage des [prix](../catalog/catalog-price-scope.md) dans votre magasin. Dans le diagramme suivant, l’étendue de la devise de base est définie au niveau du site web. Chaque site web peut donc avoir une devise de base différente.
 
@@ -122,7 +128,7 @@ Vous spécifiez également les devises que vous acceptez et celle que vous souha
 
      Pour saisir plusieurs adresses e-mail, séparez-les par une virgule.
 
-   - **[!UICONTROL Error Email Sender]** — Définit sur le [&#x200B; contact de magasin &#x200B;](../getting-started/store-details.md#store-email-addresses) qui apparaît comme l&#39;expéditeur de la notification d&#39;erreur.
+   - **[!UICONTROL Error Email Sender]** — Définit sur le [ contact de magasin ](../getting-started/store-details.md#store-email-addresses) qui apparaît comme l&#39;expéditeur de la notification d&#39;erreur.
 
    - **[!UICONTROL Error Email Template]** — Définit sur le modèle d&#39;e-mail utilisé pour la notification d&#39;erreur.
 
@@ -150,7 +156,7 @@ La gestion des symboles de devise vous permet de personnaliser le symbole associ
 
    - Saisissez un symbole personnalisé pour chaque devise que vous souhaitez utiliser ou cochez la case **[!UICONTROL Use Standard]** pour chaque devise.
 
-   - Pour remplacer le symbole par défaut, décochez la case _[!UICONTROL Use Standard]_&#x200B;et saisissez le symbole à utiliser.
+   - Pour remplacer le symbole par défaut, décochez la case _[!UICONTROL Use Standard]_et saisissez le symbole à utiliser.
 
    >[!NOTE]
    >

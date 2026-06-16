@@ -3,10 +3,15 @@ title: Modération des critiques de produits
 description: Découvrez comment modérer les avis sur les produits pour vous assurer que les avis soumis sont appropriés pour l'affichage public de votre boutique.
 exl-id: 90c3e918-f435-4468-b41b-e8044ad14fb0
 feature: Merchandising, Products
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+TQID: https://experienceleague.adobe.com/DGRJr-P9TUQ1TFh4Da1Z4VwrKfWe2rw5wmbwq9IlAFg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: 419
 ht-degree: 0%
 
 ---
@@ -29,7 +34,7 @@ Pour afficher toutes les critiques d’un produit spécifique dans l’administr
 
 ## Mettre à jour le statut des révisions
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**&#x200B;ou **[!UICONTROL All Reviews]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**ou **[!UICONTROL All Reviews]**.
 
 1. Dans la liste, cliquez sur une révision en attente pour afficher les détails et la modifier si nécessaire.
 
@@ -37,7 +42,7 @@ Pour afficher toutes les critiques d’un produit spécifique dans l’administr
 
    - Pour approuver une révision en attente, sélectionnez `Approved`.
 
-   - Pour rejeter une révision, sélectionnez `Not Approved`. Les révisions non approuvées disparaissent de la liste de _[!UICONTROL Pending Reviews]_&#x200B;page.
+   - Pour rejeter une révision, sélectionnez `Not Approved`. Les révisions non approuvées disparaissent de la liste de _[!UICONTROL Pending Reviews]_page.
 
    >[!NOTE]
    >
@@ -61,7 +66,7 @@ Vous pouvez mettre à jour ou supprimer plusieurs révisions en même temps :
 
 1. Sélectionnez les révisions à mettre à jour.
 
-1. Utilisez le sélecteur de _[!UICONTROL Action]_&#x200B;dans le coin supérieur gauche pour appliquer une action.
+1. Utilisez le sélecteur de _[!UICONTROL Action]_dans le coin supérieur gauche pour appliquer une action.
 
 1. Clic **[!UICONTROL Submit]**
 
