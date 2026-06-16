@@ -107,4 +107,4 @@ Les règles fiscales intègrent une combinaison de classe de produits, de classe
 
 Découvrez la gestion des règles monétaires et fiscales en regardant cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410211/?captions=fre_fr&quality=12&learn=on)

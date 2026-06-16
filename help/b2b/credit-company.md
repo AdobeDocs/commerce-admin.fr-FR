@@ -173,7 +173,7 @@ Les administrateurs et administratrices d’entreprise peuvent consulter leurs i
 
 Découvrez la gestion du crédit d’entreprise en regardant cette vidéo de démonstration :
 
->[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410759?captions=fre_fr&quality=12&learn=on)
 
 ## Considérations relatives à la sécurité
 

@@ -230,7 +230,7 @@ Le profil d’entreprise peut être conservé à partir du storefront par l’ad
 
 Pour en savoir plus sur la gestion des comptes d’entreprise, regardez cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410771?captions=fre_fr&quality=12&learn=on)
 
 ## Gestion d&#39;entreprise
 

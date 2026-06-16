@@ -92,7 +92,7 @@ Le [!UICONTROL Content Staging] [tableau de bord](content-staging-dashboard.md) 
 
 Pour en savoir plus sur l’évaluation du contenu, regardez cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410854?captions=fre_fr&quality=12&learn=on)
 
 ## Résolution des problèmes liés aux ressources
 

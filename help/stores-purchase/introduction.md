@@ -57,7 +57,7 @@ Les clients ont parfois besoin d’aide pour effectuer un achat. Certains client
 
 Découvrez les achats assistés par le vendeur en regardant cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410201/?captions=fre_fr&quality=12&learn=on)
 
 ## Gestion des commandes et opérations
 
