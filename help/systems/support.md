@@ -2,7 +2,7 @@
 title: Outils d’assistance
 description: Découvrez les outils d’assistance fournis que vous pouvez utiliser pour identifier les problèmes de votre système.
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/bS1CIJI9ZXybrYA-EgekVKjXQhywA6jdpWOM-bvw4Mc
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

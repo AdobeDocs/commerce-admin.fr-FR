@@ -96,7 +96,7 @@ La case à cocher de la première colonne est utilisée pour exclure les attribu
 
 1. Faites défiler la page vers le bas et cliquez sur **[!UICONTROL Continue]** dans le coin inférieur droit.
 
-   Une fois la tâche terminée, le fichier est traité dans une file d’attente des messages (assurez-vous que la tâche cron est en cours d’exécution). Le fichier exporté est enregistré dans le `var/export/ folder`. Pour plus d’informations sur la file d’attente des messages, voir [Gérer les files d’attente des messages](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) dans le _Guide de configuration_.
+   Une fois la tâche terminée, le fichier est traité dans une file d’attente des messages (assurez-vous que la tâche cron est en cours d’exécution). Le fichier exporté est enregistré dans le `var/export/ folder`. Pour plus d’informations sur la file d’attente des messages, voir [Gérer les files d’attente des messages](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=fr) dans le _Guide de configuration_.
 
    Vous pouvez enregistrer ou ouvrir le fichier CSV exporté sous la forme d’une feuille de calcul, puis modifier les données et les importer à nouveau dans votre boutique.
 
@@ -108,4 +108,4 @@ La case à cocher de la première colonne est utilisée pour exclure les attribu
 
 Pour obtenir de l’aide sur la résolution des problèmes d’exportation des données, consultez les articles suivants de la base de connaissances de la prise en charge de Commerce :
 
-- [Le fichier .csv des produits exportés n’apparaît pas](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)
+- [Le fichier .csv des produits exportés n’apparaît pas](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=fr)

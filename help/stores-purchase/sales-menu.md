@@ -30,13 +30,13 @@ Le menu Ventes répertorie les transactions en fonction de leur emplacement dans
 
 >[!TAB Tab]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 ![Menu Ventes](./assets/admin-menu-sales.png){width="450" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
 
 ![Menu Ventes](./assets/admin-menu-sales-accs.png){width="450" zoomable="yes"}
 
@@ -84,7 +84,7 @@ Une [autorisation de retour de marchandise](returns.md) (RMA) peut être accord�
 
 ### [!UICONTROL Billing Agreements]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 Un [accord de facturation](paypal-billing-agreements.md) est similaire à un bon de commande, sauf qu&#39;il ne se limite pas à un seul achat. Lors du passage en caisse, le client choisit le contrat de facturation comme mode de paiement. Un accord de facturation simplifie le processus de passage en caisse, car le client n&#39;a pas à saisir d&#39;informations de paiement pour chaque achat.
 
@@ -94,7 +94,7 @@ La page [Transactions](transactions.md) répertorie toutes les activités de pai
 
 ### [!UICONTROL Braintree Virtual Terminal]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 Sur la page Braintree Virtual Terminal , un utilisateur administrateur peut accepter le paiement du montant sélectionné. Pour rendre la fonctionnalité de terminal disponible, un commerçant doit configurer les paramètres de base de [&#128279;](braintree.md). Braintree offre une expérience de paiement entièrement personnalisable avec détection des fraudes et intégration PayPal.
 

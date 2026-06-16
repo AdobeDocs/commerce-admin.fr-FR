@@ -3,7 +3,7 @@ title: Paiements PayPal Standard
 description: Découvrez comment configurer PayPal Payments Standard en tant que solution de paiement en ligne sur votre boutique.
 exl-id: b4024dac-34d7-4f1a-ad9d-0fc406194609
 feature: Payments
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/Cn4Fx-2iPKw828MK2lH8lFDsUX4fC7rsYDx6V8L-6Mw
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

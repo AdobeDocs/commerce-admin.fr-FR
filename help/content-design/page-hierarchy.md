@@ -2,7 +2,7 @@
 title: Hiérarchie de page
 description: Découvrez comment le système de hiérarchie des pages vous permet d’organiser vos pages de contenu et d’ajouter de la pagination, de la navigation et des menus.
 exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/FjbEcEVUdtL-3iun4t3ou8ITfI2RI7HmvoqoAkJc71Y
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -2,7 +2,7 @@
 title: Ajouter des blocs de contenu
 description: Créez des blocs de contenu personnalisés que vous pouvez réutiliser dans n’importe quelle page ou dans un autre bloc.
 exl-id: 2f104d77-a1d1-4f10-82ce-014955fe560b
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/9ToI71n7HPsSKQWgldcHXJQsfEcQOPU-76BXCYMrKdY
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

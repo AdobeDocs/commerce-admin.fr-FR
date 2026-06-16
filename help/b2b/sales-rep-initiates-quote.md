@@ -44,7 +44,7 @@ Un représentant commercial peut créer un devis à partir des devis ou de la gr
 
 >[!NOTE]
 >
->Pour une démonstration vidéo d’un vendeur qui crée un devis pour un acheteur, voir [Le représentant commercial initie le devis](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html) dans _Vidéos et tutoriels Commerce_.
+>Pour une démonstration vidéo d’un vendeur qui crée un devis pour un acheteur, voir [Le représentant commercial initie le devis](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=fr) dans _Vidéos et tutoriels Commerce_.
 
 ### Créer un devis à partir de la grille de devis
 
@@ -96,7 +96,7 @@ Après avoir créé le devis provisoire, ajoutez des articles de produit, appliq
 
    >[!NOTE]
    >
-   >Pour une démonstration vidéo montrant comment fonctionnent les remises sur l’élément de ligne, reportez-vous à la section [Le représentant commercial applique une remise à un élément de ligne de devis](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html) dans _Vidéos et tutoriels Commerce_.
+   >Pour une démonstration vidéo montrant comment fonctionnent les remises sur l’élément de ligne, reportez-vous à la section [Le représentant commercial applique une remise à un élément de ligne de devis](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=fr) dans _Vidéos et tutoriels Commerce_.
 
 1. Appliquez une remise au niveau du devis selon les besoins :
 

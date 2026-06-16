@@ -3,7 +3,7 @@ title: Solutions de paiement PayPal
 description: Découvrez les intégrations de solutions de paiement PayPal disponibles pour votre boutique.
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/Rj1ey1lK7PkyUR-m6CPw6v-C-Mie-vmJtlZAA917K28
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

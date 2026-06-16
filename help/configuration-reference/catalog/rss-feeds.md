@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ![&#x200B; Configuration Rss &#x200B;](./assets/rss-feeds-rss-config.png)<!-- zoom -->
 
-<!-- [Rss Config](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/social-rss) -->
+<!-- [Rss Config](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/communications/social-rss) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -47,7 +47,7 @@ Pour plus d’informations sur l’utilisation des flux RSS après leur activati
 
 ![&#x200B; Liste de souhaits &#x200B;](./assets/rss-feeds-wishlist.png)<!-- zoom -->
 
-<!-- [Wish List](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
+<!-- [Wish List](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -59,7 +59,7 @@ Pour plus d’informations sur l’utilisation des flux RSS après leur activati
 
 ![Catalogue](./assets/rss-feeds-catalog.png)<!-- zoom -->
 
-<!-- [Catalog](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu) -->
+<!-- [Catalog](https://experienceleague.adobe.com/fr/docs/commerce-admin/catalog/catalog-menu) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -74,7 +74,7 @@ Pour plus d’informations sur l’utilisation des flux RSS après leur activati
 
 ![Commande](./assets/rss-feeds-order.png)<!-- zoom -->
 
-<!-- [Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-status#notification) -->
+<!-- [Order](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/order-management/orders/order-status#notification) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

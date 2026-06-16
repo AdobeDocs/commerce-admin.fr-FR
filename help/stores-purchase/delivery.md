@@ -31,7 +31,7 @@ Des études montrent que les magasins qui offrent aux clients le choix entre plu
 
 >[!NOTE]
 >
->En raison de l’arrêt de Temando, la prise en charge de [!DNL Magento Shipping] est supprimée dans la version 2.4.0. Pour obtenir des informations détaillées sur le statut et des recommandations pour les nouvelles implémentations d’expédition dans Commerce, consultez la page [informations sur les produits](https://business.adobe.com/products/magento/shipping.html){:target="_blank"}.
+>En raison de l’arrêt de Temando, la prise en charge de [!DNL Magento Shipping] est supprimée dans la version 2.4.0. Pour obtenir des informations détaillées sur le statut et des recommandations pour les nouvelles implémentations d’expédition dans Commerce, consultez la page [informations sur les produits](https://business.adobe.com/fr/products/magento/shipping.html){:target="_blank"}.
 
 ## Méthodes de diffusion de base
 

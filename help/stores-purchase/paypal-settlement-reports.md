@@ -3,7 +3,7 @@ title: Rapport Règlement PayPal
 description: Découvrez le rapport Règlement PayPal comme outil de gestion des transactions PayPal.
 exl-id: cd087e15-e6ad-4472-9038-8c64fde316f9
 feature: Payments
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/c7v5oSsVPmD6r6obfGEoxPiGkMI4KMWAmfJAW0-CCJk
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

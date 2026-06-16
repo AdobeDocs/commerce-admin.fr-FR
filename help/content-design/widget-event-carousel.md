@@ -3,7 +3,7 @@ title: Widget de carrousel d’événements de catalogue
 description: Découvrez comment utiliser un widget de carrousel d’événements de catalogue pour afficher un curseur des événements à venir sur une page.
 exl-id: 4e88b253-f320-4c94-9996-94d7005effc6
 feature: Page Content, Promotions/Events
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/vXrTBTqPkpIevzmmE-iHnFkqjpKSV6ynK027M404a7c
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

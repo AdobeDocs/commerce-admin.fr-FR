@@ -2,7 +2,7 @@
 title: Ajouter et supprimer des pages
 description: Découvrez comment ajouter et supprimer des pages de contenu utilisées dans votre  [!DNL Commerce] .
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/NUP56gvdWU0EMfq9HSMD9GG1YcZhFgYaEIXVQqtxl4U
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

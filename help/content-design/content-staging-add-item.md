@@ -3,7 +3,7 @@ title: Ajouter un élément à une campagne
 description: Consultez cet exemple de campagne utilisé pour ajouter une image promotionnelle à la page de catégorie au cours de la campagne.
 exl-id: cd46b657-2586-46dd-beab-42f42d3476b6
 feature: Page Content, Staging
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/Fa-FT3C-j2-1xR9Jx4DRsqwTOEn3AEc-sXXbjXuqn-A
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

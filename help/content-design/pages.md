@@ -3,7 +3,7 @@ title: Pages
 description: Découvrez en détail les pages de contenu principales incluses dans le magasin  [!DNL Commerce]  démonstration et comment modifier la configuration des pages par défaut.
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
 feature: Page Content, Configuration
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/8vTCiNl1daEV7Tpxxusbwhv8R9-qwZh6-fimyORElIk
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

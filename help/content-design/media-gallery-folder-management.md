@@ -3,7 +3,7 @@ title: Gestion des dossiers de Media Gallery
 description: Découvrez comment utiliser des dossiers pour organiser vos ressources multimédias.
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/g9HhgLLc0FmOZM-Zgxb8231yf8D1TW7X-McoWCQAvKs
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

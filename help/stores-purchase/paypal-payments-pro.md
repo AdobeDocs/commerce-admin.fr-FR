@@ -3,7 +3,7 @@ title: PayPal Payments Pro
 description: Découvrez comment configurer PayPal Payments Pro en tant que solution de paiement en ligne sur votre boutique.
 exl-id: 9cc5c3a6-d471-4198-85a2-c4cf9dfd378b
 feature: Payments
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/MbyNmKyZsbvHP9t7GI6nxn73HQVSWKCtb8p-Zo0DaUs
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -106,7 +106,7 @@ Avant de configurer une règle de rappel par e-mail, vous devez [configurer une 
 
      ![Titres et descriptions - vue boutique](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."} Si vous utilisez [!DNL Adobe Commerce as a Cloud Service], vous pouvez activer la [répétabilité des règles](#rule-repeatability) en cochant la case [!UICONTROL Rule Repeatability].
+1. [!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."} Si vous utilisez [!DNL Adobe Commerce as a Cloud Service], vous pouvez activer la [répétabilité des règles](#rule-repeatability) en cochant la case [!UICONTROL Rule Repeatability].
 
    >[!IMPORTANT]
    >
@@ -116,7 +116,7 @@ Avant de configurer une règle de rappel par e-mail, vous devez [configurer une 
 
 ## Répétabilité des règles
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
 
 >[!IMPORTANT]
 >

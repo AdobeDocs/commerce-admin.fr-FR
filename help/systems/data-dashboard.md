@@ -34,11 +34,11 @@ Le tableau de bord de gestion des données offre un aperçu de l’état de sync
 
 >[!NOTE]
 >
->Si vous avez installé le [connecteur &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview) pour exporter les données du catalogue vers Adobe Commerce Optimizer, utilisez la page [Synchronisation des données](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) de Commerce Optimizer Studio pour vérifier que la synchronisation des données a réussi, plutôt que le tableau de bord de gestion des données.
+>Si vous avez installé le [connecteur &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce/aco-optimizer-connector/overview) pour exporter les données du catalogue vers Adobe Commerce Optimizer, utilisez la page [Synchronisation des données](https://experienceleague.adobe.com/fr/docs/commerce/optimizer/setup/data-sync) de Commerce Optimizer Studio pour vérifier que la synchronisation des données a réussi, plutôt que le tableau de bord de gestion des données.
 
 ## Audience
 
-Le tableau de bord de gestion des données est disponible sans frais supplémentaires pour tous les commerçants Commerce utilisant [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview) ou [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) avec une licence principale.
+Le tableau de bord de gestion des données est disponible sans frais supplémentaires pour tous les commerçants Commerce utilisant [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/fr/docs/commerce/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/fr/docs/commerce/live-search/guide-overview) ou [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/fr/docs/commerce/catalog-service/guide-overview) avec une licence principale.
 
 Le tableau de bord de gestion des données se trouve à l’adresse *Système* > Transfert de données > *Tableau de bord de gestion des données*.
 
@@ -49,8 +49,8 @@ Le tableau de bord contient les champs suivants :
 | Champ | Description |
 |--- |--- |
 | Portée | Site web spécifique pour les données synchronisées. |
-| [!DNL Product Recommendations] | Affiche le statut de synchronisation, le nombre de produits synchronisés et un tableau des produits synchronisés [affichables](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) pour [!DNL Product Recommendations]. |
-| [!DNL Live Search] | Affiche le statut de synchronisation, le nombre de produits synchronisés et un tableau des produits synchronisés [affichables](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) pour [!DNL Live Search]. |
+| [!DNL Product Recommendations] | Affiche le statut de synchronisation, le nombre de produits synchronisés et un tableau des produits synchronisés [affichables](https://experienceleague.adobe.com/fr/docs/commerce-admin/config/catalog/inventory#stock-options) pour [!DNL Product Recommendations]. |
+| [!DNL Live Search] | Affiche le statut de synchronisation, le nombre de produits synchronisés et un tableau des produits synchronisés [affichables](https://experienceleague.adobe.com/fr/docs/commerce-admin/config/catalog/inventory#stock-options) pour [!DNL Live Search]. |
 | [!DNL Catalog Service] | Affiche le statut de synchronisation, le nombre de produits synchronisés et un tableau des produits synchronisés pour [!DNL Catalog Service]. |
 | Paramètres | Ouvre une boîte de dialogue dans laquelle vous pouvez [&#x200B; resynchroniser manuellement les données du catalogue &#x200B;](#resync-catalog-data). |
 | Statut de synchronisation | Affiche le nombre de produits qui ont été transférés de la base de données Commerce vers l&#39;un des services SaaS au cours des trois dernières heures. Si vous effectuez des mises à jour peu fréquentes de votre catalogue, cette valeur est souvent égale à zéro. Si une synchronisation est en cours, cliquez sur **[!UICONTROL Refresh]** pour obtenir un comptage mis à jour. |
@@ -69,7 +69,7 @@ Lorsque le nombre de produits traités correspond au nombre de produits mis à j
 
 >[!NOTE]
 >
->Adobe fournit également une interface de ligne de commande et des journaux système que les développeurs et les intégrateurs système peuvent utiliser pour gérer et suivre les opérations de synchronisation et résoudre les erreurs pour les services SaaS Commerce. Pour plus d&#39;informations, consultez le [Guide d&#39;exportation de données SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview).
+>Adobe fournit également une interface de ligne de commande et des journaux système que les développeurs et les intégrateurs système peuvent utiliser pour gérer et suivre les opérations de synchronisation et résoudre les erreurs pour les services SaaS Commerce. Pour plus d&#39;informations, consultez le [Guide d&#39;exportation de données SaaS](https://experienceleague.adobe.com/fr/docs/commerce/saas-data-export/overview).
 
 ### Liste des produits synchronisés
 
@@ -79,7 +79,7 @@ Pour afficher les détails d’un produit synchronisé, cliquez sur le produit d
 
 ### Resynchroniser les données du catalogue
 
-Pour vous assurer que vos services SaaS Commerce sont toujours à jour avec les dernières informations sur les produits, vous devez [implémenter un planning](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) pour synchroniser les données du catalogue.
+Pour vous assurer que vos services SaaS Commerce sont toujours à jour avec les dernières informations sur les produits, vous devez [implémenter un planning](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) pour synchroniser les données du catalogue.
 
 Bien que vous puissiez [initier manuellement](#manually-resync-catalog) une resynchronisation des données de catalogue de la base de données Commerce vers les services SaaS, elle n’est pas recommandée, car elle peut augmenter la charge sur les ressources matérielles. Cependant, une resynchronisation manuelle du catalogue peut être nécessaire dans les scénarios suivants :
 

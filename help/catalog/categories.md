@@ -51,5 +51,5 @@ Avant d’ajouter des produits à votre catalogue, vous devez établir la struct
 
 Pour obtenir de l’aide sur la résolution des problèmes de catégorie, consultez les articles suivants de la base de connaissances de l’assistance Commerce :
 
-- [Les modifications apportées aux catégories ne sont pas enregistrées](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
-- [Le menu principal (Catégories) ne s’affiche pas sur les sous-pages avec Fastly activé](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
+- [Les modifications apportées aux catégories ne sont pas enregistrées](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html?lang=fr)
+- [Le menu principal (Catégories) ne s’affiche pas sur les sous-pages avec Fastly activé](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html?lang=fr)

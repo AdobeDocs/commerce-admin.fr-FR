@@ -35,7 +35,7 @@ Pour plus d’informations sur la configuration de ces paramètres d’expéditi
 
 ![&#x200B; Options &#x200B;](./assets/multishipping-settings-options.png)<!-- zoom -->
 
-<!-- [Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#multiple-addresses) -->
+<!-- [Options](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-settings#multiple-addresses) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

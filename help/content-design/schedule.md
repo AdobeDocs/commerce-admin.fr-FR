@@ -2,7 +2,7 @@
 title: Planifier des modifications de conception
 description: Découvrez comment planifier vos modifications de conception de thème à l’avance
 exl-id: 0a214fd5-77a6-4ad4-9740-5138d40ad0a1
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/Pf9Yp54AoZbC86HdHlN76zrE6qzjV2R0hoJWs8u-BEA
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -2,7 +2,7 @@
 title: Ajouter un bloc dynamique rotatif
 description: Présentez un diaporama de contenu interactif sur le storefront en ajoutant plusieurs blocs dynamiques à un rotateur.
 exl-id: 3d338014-cf26-4171-b48b-d37b3d7b0e81
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/9fMqGoH1y1T0S9Njq9frKcspGhyTVZ-H2OzAJbWwhjU
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

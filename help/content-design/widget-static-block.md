@@ -2,7 +2,7 @@
 title: Utilisation d’un widget pour positionner un bloc
 description: Découvrez comment utiliser un widget de bloc statique pour placer un contenu existant pratiquement n’importe où dans votre boutique.
 exl-id: 174deef2-33c4-4f1a-8ca8-4969be209bc7
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/LZt31t9uNhrCglxO5L8E0XfVsFrwEKcv2H-TcKF46Ng
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

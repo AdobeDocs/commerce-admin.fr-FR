@@ -3,7 +3,7 @@ title: Enregistrement d’un aperçu d’image Adobe Stock
 description: Les aperçus d’images sont gratuits et sont un bon moyen de tester différentes images Adobe Stock avant de décider d’acheter une licence.s
 exl-id: 148d8445-fbbb-4f27-8de8-d8c1943d2afe
 feature: CMS, Media
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/AsWG5XAAHFaj5L1I-gpUimcbVGgxZ1SFPeHA2zzNlrw
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

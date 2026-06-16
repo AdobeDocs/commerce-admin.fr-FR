@@ -3,7 +3,7 @@ title: Présentation visuelle du marchandiseur
 description: Découvrez les outils de marchandisage visuel qui vous permettent de positionner des produits et de déterminer les produits qui apparaissent dans la liste des catégories.
 exl-id: 00fe8b7f-0c33-4f06-a3cd-1f0bd18079f1
 feature: Categories, Merchandising, Products
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/MbeCfIBdepAr5U2B1I-lfFGNm1b5DiKGevM5365brpo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

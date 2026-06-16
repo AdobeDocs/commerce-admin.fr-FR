@@ -3,7 +3,7 @@ title: Prévisualiser une campagne
 description: Créez un aperçu pour n’importe quel jour ou période au cours d’une campagne et partagez-le avec les membres de l’équipe.
 exl-id: f05589ae-9fc8-4e51-a504-ab90772b3c3d
 feature: Page Content, Staging
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/oX0wqWTv3MiA6-nMLngP2di0o9JmC-WNkAOm4TOpv74
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -2,7 +2,7 @@
 title: Configuration de la page
 description: Découvrez comment configurer les valeurs par défaut des principales parties d’une page de magasin.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/EmzCKKd7dZaBu0LECyK-BcnpaS7lu-8YvAJWSfviFXM
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

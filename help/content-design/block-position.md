@@ -2,7 +2,7 @@
 title: Positionner les blocs de contenu
 description: Positionnez un bloc à un emplacement spécifique de la page, et même pour un produit ou une catégorie spécifique, sans écrire de code
 exl-id: cfc9eb2c-19c8-43f1-937d-4162b5011b8a
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/BgZJJ9DGr8KD2-6XNf3yPTjo3ulGVdp0yyrJMXHWX-4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

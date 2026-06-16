@@ -4,7 +4,7 @@ description: Découvrez comment créer une version traduite de chaque page dispo
 exl-id: e8743ea5-0c8e-4970-987d-c9ac7c1e2a66
 feature: Page Content
 topic: Commerce, Localization
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/9jox-v5fCEhPsaex70yQod--qH-Xnp9dkgmuxJGTZd0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

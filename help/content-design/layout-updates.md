@@ -2,7 +2,7 @@
 title: Mises à jour de la disposition
 description: Découvrez comment utiliser les mises à jour de disposition pour personnaliser la disposition d’une page.
 exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/PjeNmdtN39seTDCdzbt8K7DhoRZgFB3PksoKTJaFLsk
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -3,7 +3,7 @@ title: Réécritures d’URL personnalisées
 description: Découvrez comment utiliser des réécritures d’URL personnalisées pour gérer diverses redirections dans votre boutique Commerce.
 exl-id: b15054be-e463-48e6-b6c1-0a8a2141cc01
 feature: Search, Configuration
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/S79sN1Z6sEUM0IsAv525-RvGmLn7ajkwK7P7hE1Mhrc
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -4,7 +4,7 @@ description: Découvrez comment configurer la sécurité pour l’administrateur
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/UFK-C-W5E0DngIy4VncIVRzM2f6tNS5RgNqaNVk9GJc
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 # Configuration de la sécurité de l’administrateur
 
-Nous vous recommandons d’adopter une approche multidimensionnelle pour protéger la sécurité de votre magasin. Vous pouvez commencer par utiliser une [URL d’administration personnalisée](../stores-purchase/store-urls.md#use-a-custom-admin-url) difficile à deviner, plutôt que l’évidente « Administration » ou « Serveur principal ». Par défaut, les mots de passe utilisés pour [se connecter](../getting-started/admin-signin.md) à l’administrateur doivent comporter sept caractères ou plus, ainsi que des lettres et des chiffres. Vous pouvez configurer la longueur minimale requise pour le mot de passe afin d’améliorer la sécurité en fonction des besoins de votre entreprise. En [bonne pratique](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), utilisez uniquement des mots de passe d’administration forts qui incluent une combinaison de lettres, de chiffres et de symboles. Adobe Commerce et Magento Open Source n’autorisent pas la réutilisation des quatre derniers mots de passe attribués au compte.
+Nous vous recommandons d’adopter une approche multidimensionnelle pour protéger la sécurité de votre magasin. Vous pouvez commencer par utiliser une [URL d’administration personnalisée](../stores-purchase/store-urls.md#use-a-custom-admin-url) difficile à deviner, plutôt que l’évidente « Administration » ou « Serveur principal ». Par défaut, les mots de passe utilisés pour [se connecter](../getting-started/admin-signin.md) à l’administrateur doivent comporter sept caractères ou plus, ainsi que des lettres et des chiffres. Vous pouvez configurer la longueur minimale requise pour le mot de passe afin d’améliorer la sécurité en fonction des besoins de votre entreprise. En [bonne pratique](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=fr), utilisez uniquement des mots de passe d’administration forts qui incluent une combinaison de lettres, de chiffres et de symboles. Adobe Commerce et Magento Open Source n’autorisent pas la réutilisation des quatre derniers mots de passe attribués au compte.
 
 La configuration de sécurité d’administration vous permet d’effectuer les opérations suivantes :
 

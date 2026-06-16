@@ -3,7 +3,7 @@ title: Ressources de thème
 description: Découvrez comment gérer vos ressources de thème, telles que les fichiers CSS, les polices, les images et les fichiers JavaScript.
 exl-id: 326c648e-eace-45a0-b53d-bbc8702fee05
 feature: Page Content, Themes
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/8dH6Wuc49gsiL1rIFW-CqJmuqYNqawwearfbgq73Mug
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -134,8 +134,8 @@ Faites l’inventaire de vos propriétés numériques, y compris toutes les int�
 
 1. Consultez les rubriques suivantes pour les diagrammes de flux de données applicables et les mappages d’entités de base de données pour chaque version :
 
-   - [Référence des informations personnelles (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
-   - [Référence des informations personnelles (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
+   - [Référence des informations personnelles (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=fr)
+   - [Référence des informations personnelles (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=fr)
 
    ![diagramme](./assets/privacy-frontend-diagram.svg)
 
