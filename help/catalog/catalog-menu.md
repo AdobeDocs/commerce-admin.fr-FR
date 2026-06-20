@@ -25,7 +25,7 @@ ht-degree: 0%
 
 # [!UICONTROL Catalog] menu
 
-Le menu [!UICONTROL Catalog] permet d’accéder facilement aux outils de création de produits, de gestion des catégories et des stocks, ainsi qu’aux catalogues partagés pour la tarification personnalisée dans les magasins [B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+Le menu [!UICONTROL Catalog] permet d’accéder facilement aux outils de création de produits, de gestion des catégories et des stocks, ainsi qu’aux catalogues partagés pour la tarification personnalisée dans les magasins [B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=fr).
 
 >[!BEGINTABS]
 

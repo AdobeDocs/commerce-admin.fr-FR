@@ -259,7 +259,7 @@ Vous pouvez activer des audiences dans une instance Adobe Commerce découplée, 
 
 ### Règles de prix du panier et règles de produits associées
 
-Pour les règles de prix de panier et les règles de produit associées, un storefront découplé communique avec Experience Platform via [Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). Le framework fournit une API côté serveur implémentée à l’aide de GraphQL. Les informations d’audience, telles que le segment d’un acheteur, sont transmises à Commerce par le biais d’un paramètre d’en-tête GraphQL nommé : `aep-segments-membership`.
+Pour les règles de prix de panier et les règles de produit associées, un storefront découplé communique avec Experience Platform via [Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html?lang=fr). Le framework fournit une API côté serveur implémentée à l’aide de GraphQL. Les informations d’audience, telles que le segment d’un acheteur, sont transmises à Commerce par le biais d’un paramètre d’en-tête GraphQL nommé : `aep-segments-membership`.
 
 L’architecture globale est la suivante :
 
@@ -267,7 +267,7 @@ L’architecture globale est la suivante :
 
 Après avoir [installé](#install-the-extension) et [configuré](#configure-the-extension) l’extension, le SDK Web Experience Platform contient les informations d’audience sous la forme de l’appartenance à un segment.
 
-Pour capturer ces appartenances à un segment à partir du SDK, consultez ce [fragment de code](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
+Pour capturer ces appartenances à un segment à partir du SDK, consultez ce [fragment de code](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=fr#example-response-for-custom-personalization-with-attributes).
 
 Une fois récupéré, vous pouvez transmettre ces segments à Commerce dans l’en-tête GraphQL. Par exemple :
 
