@@ -4,12 +4,24 @@ description: Découvrez comment gérer les termes de recherche de votre boutique
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
 TQID: https://experienceleague.adobe.com/3AHIV0QXCL1FhLiGnTQrBKRKdogDxahMxpcm1JWCpf4
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 1188
@@ -55,7 +67,7 @@ Au fur et à mesure que vous apprenez de nouveaux mots que les utilisateurs util
 
    ![Informations générales sur les termes de recherche](./assets/search-terms-information.png){width="600" zoomable="yes"}
 
-1. Sous _[!UICONTROL General Information]_dans la zone de **[!UICONTROL Search Query]**, saisissez le mot ou l’expression à ajouter en tant que nouveau terme de recherche.
+1. Sous _[!UICONTROL General Information]_&#x200B;dans la zone de **[!UICONTROL Search Query]**, saisissez le mot ou l’expression à ajouter en tant que nouveau terme de recherche.
 
 1. Si votre boutique est disponible dans plusieurs langues, choisissez la vue de **[!UICONTROL Store]** applicable.
 
@@ -148,7 +160,7 @@ Adobe Commerce prend en charge deux solutions de gestion des synonymes différen
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Synonyms]**.
 
-   La grille de _[!UICONTROL Search Synonyms]_s’affiche. Si c’est la première fois que vous utilisez des synonymes de recherche, la grille est vide.
+   La grille de _[!UICONTROL Search Synonyms]_&#x200B;s’affiche. Si c’est la première fois que vous utilisez des synonymes de recherche, la grille est vide.
 
    ![Grille des synonymes de recherche](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 

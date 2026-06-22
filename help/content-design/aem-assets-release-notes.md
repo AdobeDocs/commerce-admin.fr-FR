@@ -4,10 +4,16 @@ description: Consultez les notes de mise à jour pour plus d’informations sur 
 feature: CMS, Media, Release Notes
 exl-id: 0d639565-812f-481a-afd6-6e6fa54ed70e
 TQID: https://experienceleague.adobe.com/R6wDWdeyz9FzDUTYyIsBzOfYhYD-MuR8Kcn5XEOCr3U
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 319
@@ -45,7 +51,7 @@ _23 avril 2025_
 
 [!BADGE pris en charge]{type=Informative tooltip="Pris en charge"} Adobe Commerce version 2.4.5 et versions ultérieures.
 
-![Nouveau problème ](../assets/new.svg)<!-- Issue ACAP-955 --> désormais, il est possible d’utiliser une [URL de domaine personnalisée](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization#configure-the-custom-domain-url) au lieu de l’URL de diffusion AEM. Si un commerçant définit un **Nom de domaine personnalisé** dans son tableau de bord AEM, il est nécessaire d’ajouter cette **URL de domaine personnalisé** dans Commerce.
+![Nouveau problème &#x200B;](../assets/new.svg)<!-- Issue ACAP-955 --> désormais, il est possible d’utiliser une [URL de domaine personnalisée](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization#configure-the-custom-domain-url) au lieu de l’URL de diffusion AEM. Si un commerçant définit un **Nom de domaine personnalisé** dans son tableau de bord AEM, il est nécessaire d’ajouter cette **URL de domaine personnalisé** dans Commerce.
 
 ![Correction d’un problème](../assets/fix.svg)<!-- Issue ACAP-987 --> Amélioration des journaux globaux pour les processus de synchronisation AEM Assets.
 
