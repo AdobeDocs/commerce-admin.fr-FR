@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 42029ed6d13cd4203c4a5d8300297315aac1abf5
 workflow-type: tm+mt
 source-wordcount: 298
 ht-degree: 3%
@@ -58,7 +58,5 @@ Pour tirer parti de cette intégration, les entreprises doivent répondre aux ex
 L’activation de l’intégration de Commerce à Experience Manager Assets est un processus en trois étapes :
 
 1. [Installez le package AEM Assets](aem-assets-configure-aem.md).
-
 1. [Installation des packages Adobe Commerce](aem-assets-configure-aem.md).
-
 1. [Configurez la ressource d’intégration](aem-assets-setup-synchronization.md).
