@@ -4,9 +4,10 @@ user-guide-description: 'Découvrez comment utiliser  [!DNL Inventory Management
 breadcrumb-title: '[!DNL Inventory Management]'
 role: Admin, Leader, User
 feature: Inventory
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+nudge: true
+source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '143'
 ht-degree: 6%
 
 ---
@@ -58,4 +59,4 @@ ht-degree: 6%
    - [Vue d’ensemble](shipments.md)
    - [Créer des expéditions](shipments-create.md)
 - [Référence de l’interface de ligne de commande](cli.md)
-- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=fr)
+- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

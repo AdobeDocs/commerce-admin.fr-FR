@@ -4,7 +4,8 @@ user-guide-description: Ce guide fournit des informations de référence pour to
 breadcrumb-title: Référence de configuration
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+nudge: true
+source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 2%
@@ -83,4 +84,4 @@ ht-degree: 2%
    - [Admin](./advanced/admin.md)
    - [Système](./advanced/system.md)
    - [Développeur](./advanced/developer.md)
-- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=fr)
+- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
