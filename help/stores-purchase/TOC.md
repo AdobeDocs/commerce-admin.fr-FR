@@ -5,7 +5,8 @@ breadcrumb-title: Expérience d’achat et de magasins
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+nudge: true
+source-git-commit: dcc66df3d9024368ea07fad1e93846cf98726523
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 3%
@@ -131,4 +132,4 @@ ht-degree: 3%
       + [Aperçu de l’étiquette d’expédition](shipping-labels.md)
       + [Configurer les étiquettes d&#39;expédition](shipping-label-configure.md)
       + [Créer des étiquettes d&#39;expédition](shipping-label-create.md)
-+ [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=fr)
++ [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
