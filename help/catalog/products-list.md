@@ -4,24 +4,13 @@ description: Découvrez la page _[!UICONTROL Products]_ dans Admin, où vous pou
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
 TQID: https://experienceleague.adobe.com/tCvjmMlTzn0ejytHyuLPIKKpHn7CGiVkrAwJWmvN-Ro
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 836
 ht-degree: 0%
@@ -30,9 +19,9 @@ ht-degree: 0%
 
 # Liste de produits
 
-Tous les produits du catalogue sont accessibles à partir de la page _[!UICONTROL Products]_&#x200B;de l’Administration, où vous pouvez créer des produits et modifier des produits existants. Pour une installation multi-site, chaque site web peut proposer une sélection différente de produits à vendre à partir du même catalogue.
+Tous les produits du catalogue sont accessibles à partir de la page _[!UICONTROL Products]_de l’Administration, où vous pouvez créer des produits et modifier des produits existants. Pour une installation multi-site, chaque site web peut proposer une sélection différente de produits à vendre à partir du même catalogue.
 
-La liste _[!UICONTROL Products]_&#x200B;inclut tous les produits du catalogue, indique les sites web où ils sont disponibles et s’ils sont actuellement disponibles à la vente. Dans les installations B2B d’Adobe Commerce avec l’option [catalogues partagés](../b2b/catalog-shared.md) activée, la grille inclut une colonne qui indique quels produits bénéficient d’une autre tarification de remise dans un catalogue partagé.
+La liste _[!UICONTROL Products]_inclut tous les produits du catalogue, indique les sites web où ils sont disponibles et s’ils sont actuellement disponibles à la vente. Dans les installations B2B d’Adobe Commerce avec l’option [catalogues partagés](../b2b/catalog-shared.md) activée, la grille inclut une colonne qui indique quels produits bénéficient d’une autre tarification de remise dans un catalogue partagé.
 
 Vous pouvez parcourir la liste page par page ou rechercher des produits spécifiques. Utilisez les [contrôles](../getting-started/admin-grid-controls.md) standard pour trier et filtrer la liste et appliquer des [actions](../getting-started/admin-actions-control.md) aux produits sélectionnés.
 
@@ -134,3 +123,4 @@ Ce paramètre de configuration de la limitation de l’affichage du produit est 
 | [!UICONTROL Allow Gift Message] | Affiche la disponibilité de l’option de message cadeau pour le produit. |
 
 {style="table-layout:auto"}
+
