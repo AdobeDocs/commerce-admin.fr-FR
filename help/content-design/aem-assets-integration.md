@@ -20,7 +20,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 417
 ht-degree: 0%
@@ -66,3 +66,4 @@ Regardez cette vidéo pour découvrir comment Adobe Commerce et AEM Assets fonct
 ## Support technique
 
 Si vous avez besoin d’informations ou si vous avez des questions qui ne sont pas abordées dans ce guide, contactez votre représentant commercial chargé de l’intégration AEM Assets ou créez un [&#x200B; ticket d’assistance &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=fr#submit-ticket) pour recevoir de l’aide supplémentaire.
+

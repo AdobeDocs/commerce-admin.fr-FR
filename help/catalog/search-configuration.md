@@ -19,7 +19,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 834
 ht-degree: 0%
@@ -146,3 +146,4 @@ Il existe deux variantes de la configuration de la recherche catalogue . La prem
 Pour contrôler le nombre minimum de termes de votre requête que les résultats de la recherche doivent correspondre pour le retour, spécifiez une valeur pour **[!UICONTROL Minimum Terms to Match]**. La spécification de cette valeur garantit une pertinence optimale des résultats pour les acheteurs. Pour obtenir la liste des valeurs acceptées, voir le paramètre [minimum_should_match](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/) dans la documentation d’OpenSearch.
 
 Cliquez ensuite sur **[!UICONTROL Save Config]**.
+

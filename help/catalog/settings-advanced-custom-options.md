@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 821
 ht-degree: 0%
@@ -109,3 +109,4 @@ Si une règle de prix de panier est déclenchée par l’achat, le calcul initia
 | [!UICONTROL Date] | Permet au client de saisir une date ou une heure ou de choisir la valeur dans un calendrier. Options : <br />**[!UICONTROL Date]**- Champ de saisie d’une valeur de date. La date peut être saisie directement dans le champ ou sélectionnée dans une liste ou un calendrier. La méthode et le format d’entrée sont déterminés par la configuration [options de date et d’heure](attributes-input-types.md#date-and-time-options).<br />**[!UICONTROL Date & Time]** - Champ de saisie d’une valeur de date et d’heure.<br />**[!UICONTROL Time]**- Champ de saisie d’une valeur temporelle. |
 
 {style="table-layout:auto"}
+
