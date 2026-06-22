@@ -4,7 +4,8 @@ user-guide-description: Adobe Commerce et Magento Open Source incluent de nombre
 breadcrumb-title: Marchandisage et promotions
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+nudge: true
+source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 1%

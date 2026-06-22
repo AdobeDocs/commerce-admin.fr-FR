@@ -3,7 +3,8 @@ user-guide-title: Guide de gestion des clients
 user-guide-description: Informations complètes sur les fonctionnalités de gestion des comptes client, des groupes et des segments pour les administrateurs Adobe Commerce et Magento Open Source.
 breadcrumb-title: Gestion des clients
 feature: Customers
-source-git-commit: da825af42f490845527d4298d1ae5191fe3b6a59
+nudge: true
+source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
