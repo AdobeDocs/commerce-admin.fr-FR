@@ -21,9 +21,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: e819869f53e1a349be081510b8ab69a260072de1
 workflow-type: tm+mt
-source-wordcount: 919
+source-wordcount: 938
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-Cette intégration prend en charge les commerçants Commerce avec les utilisateurs administrateurs disposant d’une Adobe ID et souhaitant rationaliser la connexion aux produits Adobe Commerce et Adobe Business. Elle est facultative et activée sur une base par instance. Seuls les workflows utilisateur administrateur sont affectés lorsqu’ils sont activés. 
+Cette intégration prend en charge les commerçants Commerce avec les utilisateurs administrateurs disposant d’une Adobe ID et souhaitant rationaliser la connexion aux produits Adobe Commerce et Adobe Business. Elle est facultative et activée sur une base par instance. Seuls les workflows utilisateur administrateur sont affectés lorsqu’ils sont activés.
 
 >[!IMPORTANT]
 >
@@ -85,8 +85,8 @@ Pour créer des projets pour une organisation, le compte Administrateur Adobe de
 1. Cliquez sur **[!UICONTROL Add API]** sur la page Projet nouvellement créée.
 1. Sélectionnez **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
 1. Sélectionnez **[!UICONTROL Oauth 2.0 Web]**.
-1. Spécifiez le **[!UICONTROL Redirect URI]** : `https://<commerce_base_url>/`
-1. Spécifiez le **[!UICONTROL Redirect URI pattern]** : `https://<commerce_base_url>/.*`
+1. Spécifiez le **[!UICONTROL Redirect URI]** : `https://<admin_base_url>/adobe_ims_auth/oauth/imscallback`
+1. Spécifiez le **[!UICONTROL Redirect URI pattern]** : `https://mcstaging\.example\.com/<admin_path>/adobe_ims_auth/oauth/imscallback.*`
 
    Évitez les points du nom d’hôte en les faisant précéder de `\\`. L’ajout d’un caractère générique à la fin de l’URL prend en charge la clé secrète d’administration Adobe Commerce.
 
