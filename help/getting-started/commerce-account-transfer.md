@@ -101,7 +101,7 @@ Utilisez ce chemin d’accès lorsque le propriétaire actuel possède un MAGEID
 
 Une fois que le nouveau propriétaire a vérifié l’adresse e-mail, passez à la [Étapes finales](#final-steps) afin que l’assistance Adobe Commerce puisse mettre à jour les enregistrements de compte tels que le profil de [[!DNL Commerce Marketplace]](https://commercemarketplace.adobe.com/).
 
->[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3447661/?captions=fre_fr&learn=on){transcript=true}
 
 ## Modification d’e-mail uniquement {#email-change}
 
