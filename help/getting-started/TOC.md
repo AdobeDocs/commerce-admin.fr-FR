@@ -6,9 +6,9 @@ role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
 nudge: true
-source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
+source-git-commit: 5254ed25a9cc975bb3acd0b4c2d23f1badfb8558
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 0%
    + [Sécuriser votre compte](commerce-account-secure.md)
    + [Partager votre compte](commerce-account-share.md)
    + [Transfert d’un compte](commerce-account-transfer.md)
+   + [Mettre à jour l’accès d’administrateur système](commerce-system-admin-account.md)
 + Conformité du site {#compliance}
    + Préparation du HIPAA pour Adobe Commerce{#hipaa-ready-service}
       + [Vue d’ensemble](hipaa/overview.md)
@@ -71,4 +72,4 @@ ht-degree: 0%
    + [Écosystème](resources.md)
    + [Extensions](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=fr)
++ [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
