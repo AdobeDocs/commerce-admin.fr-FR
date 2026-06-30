@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Seul un administrateur système actuel peut affecter, modifier ou supprimer le rôle d’administrateur système dans Adobe Admin Console pour les produits et services Adobe autres qu’Adobe Commerce.
 
-Pour affecter un nouvel administrateur système ou modifier un rôle d’administrateur existant pour d’autres produits et services Adobe, y compris App Builder, un administrateur existant doit se connecter à Adobe Admin Console et mettre à jour les rôles d’administrateur de l’organisation. Voir [Rôles d’administration](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles).
+Pour affecter un nouvel administrateur système ou modifier un rôle d’administrateur existant pour d’autres produits et services Adobe, y compris App Builder, un administrateur existant doit se connecter à Adobe Admin Console et mettre à jour les rôles d’administrateur de l’organisation. Voir [Rôles d’administration](https://experienceleague.adobe.com/fr/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles).
 
 ## Affecter un nouvel administrateur système
 
