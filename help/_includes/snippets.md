@@ -1,7 +1,7 @@
 ---
 title: Fragments de code
 description: Notes et éléments visuels réutilisés pour noter une fonctionnalité ou une page s’appliquant à une édition spécifique
-source-git-commit: 35147f5ec256445d4cb1dfb2d48d9cfcdc1ff47e
+source-git-commit: df2920f654bf932385e78f8cc894bae0daee017a
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 0%
@@ -13,19 +13,19 @@ ht-degree: 0%
 ## Fonctionnalité EE uniquement {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Fonctionnalité Adobe Commerce" src="../assets/adobe-logo.svg" width="20" height="20" /> Il s’agit d’une fonctionnalité exclusive disponible uniquement dans Adobe Commerce qui n’est pas disponible dans Magento Open Source. (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=fr#product-editions">En savoir plus</a>)</td></tr>
+<tr><td><img alt="Fonctionnalité Adobe Commerce" src="/help/assets/adobe-logo.svg" width="20" height="20" /> Il s’agit d’une fonctionnalité exclusive disponible uniquement dans Adobe Commerce qui n’est pas disponible dans Magento Open Source. (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=fr#product-editions">En savoir plus</a>)</td></tr>
 </table>
 
 ## Fonctionnalité B2B uniquement {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Fonctionnalité B2B d’Adobe Commerce" src="../assets/b2b.svg" width="20" height="20" /> Fonction exclusive disponible uniquement avec <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=fr">Adobe Commerce B2B</a></td></tr>
+<tr><td><img alt="Fonctionnalité B2B d’Adobe Commerce" src="/help/assets/b2b.svg" width="20" height="20" /> Fonction exclusive disponible uniquement avec <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=fr">Adobe Commerce B2B</a></td></tr>
 </table>
 
 ## Fonctionnalité CE uniquement {#ce-feature}
 
 <table style="border:1px solid orange">
-<tr><td><img alt="Fonctionnalité Magento Open Source" src="../assets/open-source.svg" width="20" height="20" /> Une autre méthode est requise pour Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=fr#product-editions">En savoir plus</a>).</td></tr>
+<tr><td><img alt="Fonctionnalité Magento Open Source" src="/help/assets/open-source.svg" width="20" height="20" /> Une autre méthode est requise pour Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=fr#product-editions">En savoir plus</a>).</td></tr>
 </table>
 
 ## Note d’authentification de l’administrateur IMS {#ims-admin-note}
@@ -75,7 +75,7 @@ Pour accéder aux paramètres de configuration du magasin, sélectionnez **[!UIC
 
 | Ressource de documentation | Description |
 |----------------------- | ----------- |
-| [Guides de l’utilisateur des administrateurs d’Adobe Commerce 2.4](../landing/home.md) | Documentation et ressources pour les commerçants travaillant dans l’administration. |
+| [Guides de l’utilisateur des administrateurs d’Adobe Commerce 2.4](/help/landing/home.md) | Documentation et ressources pour les commerçants travaillant dans l’administration. |
 | [Documentation Services pour Adobe Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=fr) | Documentation pour prendre en charge un ensemble de services de marchandisage qui aident les commerçants à intégrer les composants clés de leur entreprise à leur magasin. |
 | [Guide de Commerce sur les infrastructures cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html?lang=fr) | Cette section contient des procédures détaillées pour déployer Adobe Commerce sur une plateforme cloud d’hébergement automatisée et gérée. |
 | [Guides opérationnels d’Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html?lang=fr) | Documentation sur les systèmes relative aux concepts, processus, outils et bonnes pratiques pour développer, déployer et gérer Adobe Commerce sur les projets Cloud et On-Premise. |
@@ -87,7 +87,7 @@ Pour accéder aux paramètres de configuration du magasin, sélectionnez **[!UIC
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B version 1.4.2+ est compatible avec PHP 8.2. Si vous mettez à niveau l’instance Commerce vers la version 2.4.7+, assurez-vous que l’instance utilise PHP version 8.2 pour maintenir la compatibilité avec la version B2B d’Adobe Commerce. En outre, la version B2B 1.4.2+ ne prend pas en charge le [serveur d’applications GraphQL](https://experienceleague.adobe.com/fr/docs/commerce-operations/performance-best-practices/concepts/application-server).
+>Adobe Commerce B2B version 1.4.2+ est compatible avec PHP 8.2. Si vous mettez à niveau l’instance Commerce vers la version 2.4.7+, assurez-vous que l’instance utilise PHP version 8.2 pour maintenir la compatibilité avec la version B2B d’Adobe Commerce. En outre, la version B2B 1.4.2+ ne prend pas en charge le [serveur d’applications &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 ## Liste des formulaires reCAPTCHA {#recaptcha-forms-list}
 
