@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
 workflow-type: tm+mt
-source-wordcount: 504
+source-wordcount: 531
 ht-degree: 0%
 
 ---
@@ -33,6 +33,10 @@ Le _référencement naturel_ (SEO) consiste à affiner le contenu et la présent
 Les paramètres de _[!UICONTROL Search Engine Optimization]_&#x200B;d’un produit spécifient les champs [Clé URL](catalog-urls.md) et [métadonnées](../merchandising-promotions/meta-data.md) utilisés par les moteurs de recherche pour indexer le produit. Bien que certains moteurs de recherche ignorent les méta-mots-clés, d’autres continuent de les utiliser. La [bonne pratique d’optimisation du moteur de recherche](../merchandising-promotions/seo-overview.md) actuelle consiste à incorporer des mots-clés à forte valeur ajoutée au méta-titre et à la méta-description.
 
 La valeur par défaut de chaque champ de métadonnées peut être générée automatiquement en fonction des valeurs spécifiées dans la configuration. Chaque champ contient un espace réservé qui est remplacé par une valeur réelle. Pour plus d’informations, voir [Génération automatique des champs de produit](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation).
+
+>[!NOTE]
+>
+>L’enrichissement du catalogue permet d’améliorer les noms et les descriptions de produits pour la découverte LLM et assistée par IA. Il ne remplace pas les champs de métadonnées d’optimisation du moteur de recherche (SEO). Pour plus d’informations, voir [Enrichissement du catalogue](catalog-enrichment.md).
 
 ## Renseignez les champs d’optimisation pour les moteurs de recherche
 
