@@ -25,19 +25,19 @@ ht-degree: 0%
 
 # [!UICONTROL Catalog] menu
 
-Le menu [!UICONTROL Catalog] permet d’accéder facilement aux outils de création de produits, de gestion des catégories et des stocks, aux catalogues partagés pour la tarification personnalisée dans les magasins [B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) et à l’enrichissement des catalogues pour la découverte assistée par l’IA.
+Le menu [!UICONTROL Catalog] permet d’accéder facilement aux outils de création de produits, de gestion des catégories et des stocks, aux catalogues partagés pour la tarification personnalisée dans les magasins [B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=fr) et à l’enrichissement des catalogues pour la découverte assistée par l’IA.
 
 >[!BEGINTABS]
 
 >[!TAB Tab]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 ![Menu Catalogue](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
 
 ![Menu Catalogue](./assets/admin-menu-catalog-accs.png){width="300" zoomable="yes"}
 
@@ -59,13 +59,13 @@ Créez la structure [category](categories.md) qui constitue la base de la naviga
 
 ## [!UICONTROL Shared Catalogs]
 
-Pour les magasins où Adobe Commerce B2B est installé et activé, les [catalogues partagés](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) vous permettent de proposer des tarifs personnalisés à différentes sociétés.
+Pour les magasins où Adobe Commerce B2B est installé et activé, les [catalogues partagés](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=fr) vous permettent de proposer des tarifs personnalisés à différentes sociétés.
 
 ![Produits de catalogue partagé](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Catalog enrichment]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 Utilisez [l’enrichissement du catalogue](catalog-enrichment.md) pour examiner et appliquer les améliorations suggérées par l’IA aux noms de produit et aux descriptions longues afin que votre catalogue soit représenté avec précision dans LLM et la découverte assistée par l’IA.
 
