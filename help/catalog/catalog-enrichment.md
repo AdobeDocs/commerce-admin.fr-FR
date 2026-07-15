@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 69e598995a3f7fbbb23c4cde3bc28334ef2feafe
+source-git-commit: aafd8101d1380e3f6ce774ab6ccdcb36e2788bb0
 workflow-type: tm+mt
-source-wordcount: 1649
+source-wordcount: 1697
 ht-degree: 0%
 
 ---
@@ -65,8 +65,11 @@ Les conditions préalables suivantes s’appliquent lorsque vous avez accès à 
 - Les services Commerce requis et la connectivité du catalogue sont activés et sains. Voir [Activer l’enrichissement du catalogue](#enable-catalog-enrichment) pour en savoir plus.
 - [IMS est configuré](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/organizations).
 - Vous avez accès à [&#128279;](https://helpx.adobe.com/fr/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- Votre entreprise a signé l’avenant GenAI, ou s’est explicitement désabonnée, pour les services d’IA sous-jacents.
 
-> Si vous ne disposez pas d’une organisation IMS, contactez votre équipe de compte Adobe pour en configurer une.
+>[!NOTE]
+>
+>Dans le cadre de la configuration, Commerce vérifie si votre entreprise a signé l’avenant GenAI qui couvre les services d’IA derrière l’enrichissement de catalogue. Si vous n’avez pas encore signé le cycliste ou vous êtes désinscrit, vous êtes invité à signer ou à mettre à jour le cycliste avant de pouvoir utiliser l’enrichissement du catalogue.
 
 ## Activer l’enrichissement du catalogue {#enable-catalog-enrichment}
 
