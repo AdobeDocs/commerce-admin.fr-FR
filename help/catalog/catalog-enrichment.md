@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: aafd8101d1380e3f6ce774ab6ccdcb36e2788bb0
+source-git-commit: ca07fcb79b3a1c7d4c1f72f1680ccf3ac5241307
 workflow-type: tm+mt
-source-wordcount: 1697
+source-wordcount: 1653
 ht-degree: 0%
 
 ---
@@ -112,11 +112,7 @@ Configurez l’enrichissement du catalogue dans l’onglet **[!UICONTROL Setting
    - **[!UICONTROL Store View URL]** : URL correspondant à la vue du magasin (par exemple, `https://brand.example.com/fr/`).
    - **[!UICONTROL Environment ID]** : identifiant unique de l’environnement [!DNL Adobe Commerce] auquel la connexion accède.
    - **[!UICONTROL Website Code]**, **[!UICONTROL Store Code]** et **[!UICONTROL Store View Code]** : codes d’affichage du site web, du magasin et du magasin pour le site web Commerce. Ces valeurs doivent correspondre aux codes de votre administrateur Commerce.
-
-1. Facultatif : saisissez **[!UICONTROL Host Name]** et **[!UICONTROL API Key]** si votre environnement les requiert.
-
    - **[!UICONTROL Host Name]** : nom d’hôte de votre instance [!DNL Adobe Commerce].
-   - **[!UICONTROL API Key]** : clé d’authentification utilisée pour accéder en toute sécurité aux API [!DNL Adobe Commerce]. Cliquez sur **[!UICONTROL Copy]** en regard du champ si vous devez copier la clé ailleurs.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -135,8 +131,7 @@ Les champs obligatoires sont marqués d’un astérisque (*) sur le formulaire *
 | Code du site web | Oui | Code du site web du site web Commerce. |
 | Code de magasin | Oui | Code de magasin du site web Commerce. |
 | Code d’affichage du magasin | Oui | Affichage de la boutique du site web de Commerce. |
-| Nom d’hôte | Non | Nom d’hôte de votre instance [!DNL Adobe Commerce]. |
-| Clé API | Non | Clé d’authentification utilisée pour accéder en toute sécurité aux API [!DNL Adobe Commerce]. Traitez-le comme n’importe quelles informations d’identification de production. |
+| Nom d’hôte | Oui | Nom d’hôte de votre instance [!DNL Adobe Commerce]. |
 
 ### Vérifier et appliquer l’enrichissement du catalogue {#review-and-apply}
 
