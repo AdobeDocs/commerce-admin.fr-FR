@@ -4,7 +4,7 @@ description: Utilisez la fonctionnalité native d’enrichissement du catalogue 
 role: Admin, User, Leader
 recommendations: noCatalog
 hide: true
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -32,7 +32,7 @@ L’enrichissement du catalogue est une fonctionnalité de [!DNL Adobe Commerce]
 
 >[!NOTE]
 >
->L’enrichissement des catalogues s’effectue à l’aide de [!DNL Commerce Catalog Agent] et [!DNL Adobe LLM Optimizer] en coulisses. Vous utilisez l’enrichissement dans le cadre de votre workflow de catalogue Commerce. Vous ne gérez pas une intégration LLM Optimizer distincte pour appliquer les mises à jour de nom et de description approuvées. Pour une surveillance et une optimisation LLM plus larges en dehors de Commerce, consultez la documentation du produit [LLM Optimizer](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home).
+>L’enrichissement des catalogues s’effectue à l’aide de [!DNL Commerce Catalog Agent] et [!DNL Adobe LLM Optimizer] en coulisses. Vous utilisez l’enrichissement dans le cadre de votre workflow de catalogue Commerce. Vous ne gérez pas une intégration LLM Optimizer distincte pour appliquer les mises à jour de nom et de description approuvées. Pour une surveillance et une optimisation LLM plus larges en dehors de Commerce, consultez la documentation du produit [LLM Optimizer](https://experienceleague.adobe.com/fr/docs/llm-optimizer/using/home).
 
 ## Fonctionnement {#how-it-works}
 
@@ -63,8 +63,8 @@ Les conditions préalables suivantes s’appliquent lorsque vous avez accès à 
 
 - Votre storefront peut être exploré par des robots orientés LLM et agentiques où une couverture d’explore est requise pour les suggestions tenant compte du catalogue.
 - Les services Commerce requis et la connectivité du catalogue sont activés et sains. Voir [Activer l’enrichissement du catalogue](#enable-catalog-enrichment) pour en savoir plus.
-- [IMS est configuré](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations).
-- Vous avez accès à [&#128279;](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- [IMS est configuré](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/organizations).
+- Vous avez accès à [&#128279;](https://helpx.adobe.com/fr/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - Votre entreprise a signé l’avenant GenAI, ou s’est explicitement désabonnée, pour les services d’IA sous-jacents.
 
 >[!NOTE]
@@ -84,7 +84,7 @@ Contactez votre administrateur Commerce ou votre partenaire d’implémentation 
    composer update magento/module-catalog-enrichment
    ```
 
-1. Si vous n’avez pas encore installé les services de catalogue, [faites-le](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
+1. Si vous n’avez pas encore installé les services de catalogue, [faites-le](https://experienceleague.adobe.com/fr/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
 
    **[!UICONTROL Catalog enrichment]** est désormais disponible dans votre instance Commerce.
 
