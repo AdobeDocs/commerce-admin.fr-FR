@@ -3,7 +3,6 @@ title: Enrichissement du catalogue
 description: Utilisez la fonctionnalité native d’enrichissement du catalogue d’Adobe Commerce pour examiner et appliquer les améliorations suggérées par l’IA aux noms de produit et aux descriptions longues pour la gestion du cycle de vie des documents et la découverte assistée par l’IA.
 role: Admin, User, Leader
 recommendations: noCatalog
-hide: true
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
@@ -19,9 +18,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ca07fcb79b3a1c7d4c1f72f1680ccf3ac5241307
+source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
 workflow-type: tm+mt
-source-wordcount: 1653
+source-wordcount: 2182
 ht-degree: 0%
 
 ---
@@ -240,4 +239,37 @@ Ces règles vous aident à savoir si l’enrichissement du catalogue, les flux d
 - Coordonnez-vous avec les équipes d’optimisation du moteur de recherche et de marque avant d’appliquer des titres ou des descriptions en bloc.
 - resynchronisez ou analysez-les après des importations de catalogues majeures afin que les suggestions reflètent l’état actuel du catalogue.
 
-<!--## Examples This section will provide examples of what enrichment before/after looks like:-->
+## Exemples
+
+Les exemples suivants montrent comment l’enrichissement du catalogue transforme les attributs techniques bruts en une copie de produit narrative axée sur l’acheteur que les gestionnaires de contenu peuvent utiliser pour répondre aux questions d’achat.
+
+### Exemple : produit café avec des attributs techniques
+
+Un catalogue de retailer de café stocke uniquement les spécifications techniques d’un produit de grain de café torréfié moyen : variété de grain, région d’origine, méthode de traitement, niveau de torréfaction et plage d’altitude. Ces champs décrivent le produit, mais ne communiquent pas sa valeur à un acheteur, de sorte qu&#39;un assistant d&#39;IA a peu de choses à gérer pour répondre à une question comme « quel café a une saveur lisse et peu acide ? »
+
+L’enrichissement du catalogue lit les attributs techniques et les raisons de l’interaction pour déduire des caractéristiques pertinentes pour l’acheteur :
+
+| Attribut technique | Caractéristique déduite | Raisonnement |
+| --- | --- | --- |
+| Procédé au miel, rôti Medium | Faible acidité | Le mucilage des fruits laissé sur la fève pendant le traitement du miel supprime l&#39;acidité, et le rôti moyen décompose les composés acides résiduels. |
+| Processus de miel, Arabica, Medium Roast | Arôme noisette | Les sucres de fruits du mucilage se combinent avec les notes naturelles de noix d&#39;Arabica, amplifiées au rôti moyen. |
+| Procédé au miel, Arabica | Sensation de bouche riche et crémeuse | Les huiles absorbées à partir du mucilage pendant le séchage ajoutent viscosité et corps. |
+| Processus de miel, Altitude 900-1200m | Sous-tons caramel | Les haricots plus denses et de haute altitude développent des sucres plus complexes, raffinés par la transformation du miel. |
+
+L’enrichissement du catalogue applique ces caractéristiques déduites à la copie du produit :
+
+- **Auparavant** : « Medium Roast Coffee Beans - Arabica, Brésil Minas Gerais, Miel Process, 900-1200m »
+- **Après** : « Les haricots Arabica cultivés à 900-1200m dans le Minas Gerais au Brésil, miel traité et moyennement torréfié, développent une sensation en bouche naturellement douce et crémeuse avec un caractère distinctif de noisette, des tons caramel et une faible acidité. Un café de spécialité cohérent et accessible que l’on peut déguster à jamais. »
+
+Le nom et la description mis à jour sont enregistrés directement dans le catalogue Commerce. De ce fait, le storefront, les flux LLM et les autres canaux qui lisent ces champs reflètent la même copie enrichie.
+
+### Exemple : configuration de meubles modulaires
+
+Une retailer de meubles vend un canapé modulaire en section où la description du produit répertorie uniquement les codes de configuration et le nom du tissu, par exemple `6 Standard Seats + 6 Standard Sides in Sapphire Navy Corded Velvet`. Ce raccourci est compréhensible pour un client régulier, mais il donne à un assistant d’IA peu de contexte sur le fonctionnement du produit ou sur ce qui le rend durable ou confortable.
+
+L’enrichissement du catalogue développe les attributs de configuration et de fabric dans une description narrative qui explique ce que fait chaque composant et pourquoi il est important pour un acheteur :
+
+- **Avant** : « 6 sièges standard + 6 côtés standard en velours à cordon de la marine Sapphire »
+- **Après** : « Cette configuration comprend 6 ensembles d’inserts de siège standard et 6 inserts latéraux standard qui fonctionnent de manière interchangeable comme des bras ou des dossiers, formant les blocs de construction modulaires de votre disposition. Chaque siège est doté d&#39;une mousse standard avec trois couches haute densité conçues pour préserver la portance et résister à l&#39;affaissement. La housse de velours à cordon Sapphire Navy est aussi durable que luxueuse, avec des cordons texturés qui créent une brillance subtile et une sensation douce et moelleuse. Les couvertures sont cousues à la main pour un look précis et sur mesure et sont lavables en machine et modifiables, afin que votre section puisse évoluer avec votre espace. »
+
+Comme la description enrichie est réécrite dans le catalogue Commerce, elle est disponible pour les robots d’IA qui explorent à la page des détails du produit ainsi que pour tout canal ou flux en aval qui consomme les données du catalogue du produit, sans modifier la mise en page ou la conception que les acheteurs voient sur la page.

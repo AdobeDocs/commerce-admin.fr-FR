@@ -26,9 +26,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
 workflow-type: tm+mt
-source-wordcount: 2567
+source-wordcount: 2612
 ht-degree: 1%
 
 ---
@@ -185,23 +185,23 @@ La grille de rapport _Journaux d’actions_ (**[!UICONTROL System]** > Journaux 
 
 1. Ajout de deux colonnes :
    - **&#x200B;**&#x200B;** : affiche l’emplacement où l’action a été effectuée.
-Valeurs : `Admin UI` | `Customer UI` | `REST API` | `SOAP API` | `GraphQL API`
+     Valeurs : `Admin UI` | `Customer UI` | `REST API` | `SOAP API` | `GraphQL API`
    - ***Type de client*** : affiche le type de client.
-Valeurs : Client | Admin | Intégration
+     Valeurs : Client | Admin | Intégration
 
 2. Colonne ***Nom d’utilisateur*** renommée ***Identifiant client***
    - ***Identifiant client*** : affiche l’ID de connexion de l’utilisateur qui a exécuté l’action.
-Valeurs :
-      - un e-mail si le type de client est Client ;
-      - un nom d’utilisateur si le type de client est Admin.
-      - un nom si le type de client est Intégration.
+     Valeurs :
+     - un e-mail si le type de client est Client ;
+     - un nom d’utilisateur si le type de client est Admin.
+     - un nom si le type de client est Intégration.
 
 3. Colonne ***Nom complet de l’action*** renommée ***Target***
    - ***Target*** : affiche le nom de l’action.
-Valeurs :
-      - un point d’entrée si Source est une API REST ou une API SOAP
-      - une requête ou un nom de mutation si une API GraphQL
-      - Nom d’action d’une interface utilisateur d’administration ou d’une interface utilisateur client.
+     Valeurs :
+     - un point d’entrée si Source est une API REST ou une API SOAP
+     - une requête ou un nom de mutation si une API GraphQL
+     - Nom d’action d’une interface utilisateur d’administration ou d’une interface utilisateur client.
 
 #### Configuration des actions d’administration pour la journalisation
 
@@ -337,3 +337,5 @@ Les fonctionnalités suivantes sont désactivées par défaut dans le module de 
 - **[Fonction Newsletter](../../merchandising-promotions/newsletters.md)** : cette fonction est désactivée pour empêcher l&#39;utilisation des ISP dans un contexte marketing.
 
 - **[Paramètre du service de création de rapports avancée](../../getting-started/business-intelligence.md)** : ce paramètre de configuration est désactivé pour empêcher l&#39;utilisation des ISP pour l&#39;analyse et la création de rapports.
+
+- **[Enrichissement du catalogue](../../catalog/catalog-enrichment.md)** : cette fonctionnalité est désactivée, car elle repose sur des services d’IA non conformes à la loi HIPAA ([!DNL Commerce Catalog Agent] et [!DNL Adobe LLM Optimizer]) qui analysent les signaux du storefront et du catalogue en dehors de la limite conforme à la loi HIPAA. L’activation de cette fonctionnalité peut exposer les ISP à des systèmes qui ne sont pas couverts par les services conformes à la norme HIPAA d’Adobe.
