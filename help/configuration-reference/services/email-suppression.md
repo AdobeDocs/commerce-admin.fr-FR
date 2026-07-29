@@ -2,7 +2,7 @@
 title: '[!UICONTROL Adobe Services] > [!UICONTROL Email Suppression]'
 description: Passez en revue les paramètres de configuration sur la page [!UICONTROL Email Suppression] de [!UICONTROL Adobe Services] &gt ; de l’administrateur Commerce.
 feature: Configuration, Communications
-badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."
+badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
 feature_v2:
