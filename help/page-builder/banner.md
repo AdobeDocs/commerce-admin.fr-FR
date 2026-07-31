@@ -4,11 +4,23 @@ description: Découvrez le type de contenu Bannière utilisé pour ajouter un co
 exl-id: 287d866c-8a63-4531-8c1b-40d560a07947
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/Z3u2nUxV3UEj9-yI0miZj36iLikFbcOCJKX2GiLWjVo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 last-update: 2023-09-11
 source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
@@ -37,7 +49,7 @@ La boîte à outils de bannière s’affiche lorsque vous pointez sur le contene
 
 | Outil | Icon | Description |
 |--- |--- |--- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace la bannière vers une autre position sur la scène. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace la bannière vers une autre position sur la scène. |
 | (libellé) | Bannière | Identifie le conteneur de contenu actuel en tant que bannière. Pointez sur le conteneur pour afficher la boîte à outils. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page Modifier la bannière , qui permet de modifier les propriétés de la bannière et du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque la bannière active. |
@@ -57,7 +69,7 @@ La boîte à outils de bannière s’affiche lorsque vous pointez sur le contene
 
    ![Faire glisser un type de contenu de bannière vers l’étape](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   Les boutons _[!UICONTROL Upload Image]_et_[!UICONTROL Select from Gallery]_ sont inclus afin que vous puissiez apporter des modifications rapides au contenu de la bannière directement depuis l’étape. Vous pouvez également modifier le contenu de la page de _[!UICONTROL Edit Banner]_.
+   Les boutons _[!UICONTROL Upload Image]_&#x200B;et&#x200B;_[!UICONTROL Select from Gallery]_ sont inclus afin que vous puissiez apporter des modifications rapides au contenu de la bannière directement depuis l’étape. Vous pouvez également modifier le contenu de la page de _[!UICONTROL Edit Banner]_.
 
 1. Cliquez dans l’espace réservé de la bannière pour afficher l’[éditeur de texte](../content-design/editor.md) et saisissez le contenu de la bannière.
 
@@ -147,7 +159,7 @@ Si vous définissez le _Type d’arrière-plan_ sur `Image`, utilisez les param�
   | ---- | ----------- |
   | [!UICONTROL Upload] | Télécharge un fichier image de votre ordinateur local dans la galerie, puis l’applique comme image d’arrière-plan pour la bannière. |
   | [!UICONTROL Select from Gallery] | Vous invite à choisir une image existante de la galerie comme image d’arrière-plan pour la bannière. |
-  | ![ Icône Appareil photo ](./assets/pb-icon-camera.png){width="25"} | Vous permet de faire glisser l’image vers la mosaïque de la caméra ou d’accéder à l’image dans votre système de fichiers local. |
+  | ![&#x200B; Icône Appareil photo &#x200B;](./assets/pb-icon-camera.png){width="25"} | Vous permet de faire glisser l’image vers la mosaïque de la caméra ou d’accéder à l’image dans votre système de fichiers local. |
 
   {style="table-layout:auto"}
 
@@ -190,7 +202,7 @@ Si vous définissez le _Type d’arrière-plan_ sur `Image`, utilisez les param�
 
 ### Paramètres de type vidéo
 
-Si vous définissez la _[!UICONTROL Background Type]_sur `Video`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
+Si vous définissez la _[!UICONTROL Background Type]_&#x200B;sur `Video`, utilisez les paramètres suivants pour définir l’affichage de l’image d’arrière-plan.
 
 - **[!UICONTROL Video URL]** - Saisissez une URL de vidéo valide. Les URL de vidéo valides peuvent être des liens vers :
 
@@ -230,7 +242,7 @@ Vous pouvez modifier le contenu de la bannière directement sur la scène ou lor
 
 1. Pointez sur le conteneur de bannières pour afficher la boîte à outils et sélectionnez l’icône _Paramètres_ ( ![icône Paramètres](./assets/pb-icon-settings.png){width="25"} ).
 
-1. Faites défiler jusqu’à la section _[!UICONTROL Content]_et utilisez l’éditeur de **[!UICONTROL Message Text]**pour saisir et mettre en forme le texte de la bannière.
+1. Faites défiler jusqu’à la section _[!UICONTROL Content]_&#x200B;et utilisez l’éditeur de **[!UICONTROL Message Text]**&#x200B;pour saisir et mettre en forme le texte de la bannière.
 
    Vous pouvez également insérer des éléments, tels que des liens de texte, des images et des widgets.
 
@@ -247,7 +259,7 @@ Vous pouvez modifier le contenu de la bannière directement sur la scène ou lor
 
    >[!NOTE]
    >
-   >À compter de la version 2.4.1, [!DNL Page Builder] ne prend plus en charge la liaison de la bannière et des liens dans le texte imbriqué en raison de problèmes d’affichage sur le storefront. Si vous utilisez un lien dans le _[!UICONTROL Message Text]_, vous ne pouvez pas configurer l’option_[!UICONTROL Link]_ . Si vous préférez utiliser un seul lien pour l’ensemble de la bannière, vous pouvez supprimer tous les liens du texte.<br/>
+   >À compter de la version 2.4.1, [!DNL Page Builder] ne prend plus en charge la liaison de la bannière et des liens dans le texte imbriqué en raison de problèmes d’affichage sur le storefront. Si vous utilisez un lien dans le _[!UICONTROL Message Text]_, vous ne pouvez pas configurer l’option&#x200B;_[!UICONTROL Link]_ . Si vous préférez utiliser un seul lien pour l’ensemble de la bannière, vous pouvez supprimer tous les liens du texte.<br/>
    >
    >![La configuration du lien est bloquée](./assets/pb-nested-link-blocked.png){width="200"}
 
@@ -303,7 +315,7 @@ Vous pouvez modifier le contenu de la bannière directement sur la scène ou lor
    - Cliquez sur l’échantillon **Aucune couleur** et choisissez-en un.
    - Dans le champ **Aucune couleur** , saisissez un nom de couleur valide ou une valeur hexadécimale.
 
-   ![ Couleur de recouvrement ](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
+   ![&#x200B; Couleur de recouvrement &#x200B;](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]** pour appliquer les paramètres et revenir à l’espace de travail [!DNL Page Builder].
 

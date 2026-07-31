@@ -4,11 +4,21 @@ description: Découvrez le type de contenu Image, utilisé pour ajouter une imag
 exl-id: 1b8d906e-7570-4c1f-87a0-992400faf55c
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/qU9r1m9lM6jjA7VGreeThc9NilLdfWjWdqNfu7mShBc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 last-update: 2023-09-11
 source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
@@ -23,7 +33,7 @@ Utilisez le type de contenu _Image_ pour ajouter une image JPG, GIF ou PNG à l�
 
 >[!TIP]
 >
->Vous pouvez utiliser l’intégration [](../content-design/adobe-stock.md) pour rechercher et enregistrer une ressource appropriée parmi les millions fournis par [Adobe Stock](https://stock.adobe.com). Consultez [Utilisation d’images Adobe Stock](../content-design/adobe-stock-manage.md) pour plus d’informations sur la recherche, l’affinement et l’enregistrement de ressources Adobe Stock dans votre galerie.
+>Vous pouvez utiliser l’intégration [&#128279;](../content-design/adobe-stock.md) pour rechercher et enregistrer une ressource appropriée parmi les millions fournis par [Adobe Stock](https://stock.adobe.com). Consultez [Utilisation d’images Adobe Stock](../content-design/adobe-stock-manage.md) pour plus d’informations sur la recherche, l’affinement et l’enregistrement de ressources Adobe Stock dans votre galerie.
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -35,7 +45,7 @@ La boîte à outils Image s’affiche lorsque vous placez le pointeur de la sour
 
 | Outil | Icon | Description |
 |--- |--- |--- |
-| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace l&#39;image vers un autre emplacement sur la scène. |
+| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace l&#39;image vers un autre emplacement sur la scène. |
 | (libellé) | Image | Identifie le conteneur de contenu actuel en tant qu’image. Pointez sur le conteneur d’image pour afficher la boîte à outils. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre la page _Modifier l’image_, dans laquelle vous pouvez modifier les propriétés de l’image et du conteneur. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque l&#39;image courante. |
@@ -65,7 +75,7 @@ La boîte à outils Image s’affiche lorsque vous placez le pointeur de la sour
    >
    >La taille de fichier maximale est de 4 Mo. Les types de fichiers pris en charge sont JPG, GIF et PNG.
 
-   - _**Charger une nouvelle image**_ : utilisez cette méthode pour charger un nouveau fichier image à partir de votre système.
+   - _&#x200B;**Charger une nouvelle image**&#x200B;_ : utilisez cette méthode pour charger un nouveau fichier image à partir de votre système.
 
      - Cliquez sur **[!UICONTROL Upload Image]**.
 
@@ -73,7 +83,7 @@ La boîte à outils Image s’affiche lorsque vous placez le pointeur de la sour
 
      Vous pouvez également faire glisser un fichier image de votre système et le déposer sur l’icône _Appareil photo_ ( ![Icône d’appareil photo](./assets/pb-icon-camera.png){width="20"} ).
 
-   - _**Sélectionner une ressource existante**_ : utilisez cette méthode pour sélectionner une ressource image existante dans la galerie ou le stockage de médias.
+   - _&#x200B;**Sélectionner une ressource existante**&#x200B;_ : utilisez cette méthode pour sélectionner une ressource image existante dans la galerie ou le stockage de médias.
 
      - Cliquez sur **[!UICONTROL Select from Gallery]**.
 
@@ -83,11 +93,11 @@ La boîte à outils Image s’affiche lorsque vous placez le pointeur de la sour
 
        ![Ajouter une image sélectionnée](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _**Rechercher et sélectionner une image Adobe Stock**_ : utilisez cette méthode pour rechercher une image dans Adobe Stock.
+   - _&#x200B;**Rechercher et sélectionner une image Adobe Stock**&#x200B;_ : utilisez cette méthode pour rechercher une image dans Adobe Stock.
 
      >[!NOTE]
      >
-     >Cette méthode nécessite une intégration [](../content-design/adobe-stock.md) configurée pour votre administrateur.
+     >Cette méthode nécessite une intégration [&#128279;](../content-design/adobe-stock.md) configurée pour votre administrateur.
 
      - Cliquez sur **[!UICONTROL Search Adobe Stock]** et recherchez une image.
 
@@ -114,13 +124,13 @@ Le nom, les dimensions et la taille du fichier s’affichent sous l’image actu
 
 1. Pour modifier le **[!UICONTROL Image]** actuel, effectuez l’une des opérations suivantes :
 
-   - _**Charger une nouvelle image**_ : utilisez cette méthode pour charger un nouveau fichier image à partir de votre système.
+   - _&#x200B;**Charger une nouvelle image**&#x200B;_ : utilisez cette méthode pour charger un nouveau fichier image à partir de votre système.
 
      - Cliquez sur **[!UICONTROL Upload Image]**.
 
      - Recherchez et choisissez l’image à ajouter au conteneur galerie et cible.
 
-   - _**Sélectionner une ressource existante**_ : utilisez cette méthode pour sélectionner une ressource image existante dans la galerie ou le stockage de médias.
+   - _&#x200B;**Sélectionner une ressource existante**&#x200B;_ : utilisez cette méthode pour sélectionner une ressource image existante dans la galerie ou le stockage de médias.
 
      - Cliquez sur **[!UICONTROL Select from Gallery]**.
 
@@ -134,7 +144,7 @@ Le nom, les dimensions et la taille du fichier s’affichent sous l’image actu
 
      >[!NOTE]
      >
-     >Cette méthode nécessite une intégration [](../content-design/adobe-stock.md) configurée pour votre administrateur.
+     >Cette méthode nécessite une intégration [&#128279;](../content-design/adobe-stock.md) configurée pour votre administrateur.
 
      - Cliquez sur **[!UICONTROL Search Adobe Stock]** et recherchez une image.
 
@@ -146,7 +156,7 @@ Le nom, les dimensions et la taille du fichier s’affichent sous l’image actu
 
 1. Pour ajouter une **[!UICONTROL Mobile Image]**, utilisez les mêmes méthodes que celles décrites à l’étape précédente pour sélectionner une image à utiliser pour l’affichage sur les appareils mobiles.
 
-   ![ Image mobile ](./assets/pb-media-image-settings-mobile-image.png){width="600" zoomable="yes"}
+   ![&#x200B; Image mobile &#x200B;](./assets/pb-media-image-settings-mobile-image.png){width="600" zoomable="yes"}
 
 1. Si nécessaire, spécifiez un **[!UICONTROL Link]** pour l’image.
 
