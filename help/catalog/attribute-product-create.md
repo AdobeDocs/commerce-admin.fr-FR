@@ -4,31 +4,21 @@ description: Découvrez comment créer et supprimer des attributs de produit, qu
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/6N9gBrz24wtV4ljexgluyonOcjVbP8p2fQUQaLyJo3Q
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
-source-wordcount: 1273
+source-wordcount: 922
 ht-degree: 0%
 
 ---
 
 # Créer et supprimer des attributs de produit
 
-Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à partir de la page _[!UICONTROL Product Attributes]_. Les étapes suivantes indiquent comment créer des attributs à partir du menu&#x200B;_[!UICONTROL Stores]_.
+Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à partir de la page _[!UICONTROL Product Attributes]_. Les étapes suivantes indiquent comment créer des attributs à partir du menu_[!UICONTROL Stores]_.
 
 ## Étape 1 : décrire les propriétés d’attribut de base
 
@@ -40,25 +30,9 @@ Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à pa
 
 1. Par **[!UICONTROL Default Label]**, saisissez un libellé qui identifie l’attribut.
 
-1. Pour déterminer le type de contrôle d&#39;entrée utilisé pour la saisie de données, définissez **[!UICONTROL Catalog Input Type for Store Owner]** sur l&#39;une des options suivantes :
+1. Définissez **[!UICONTROL Catalog Input Type for Store Owner]** sur le type de [contrôle de saisie](attributes-input-types.md) à utiliser pour la saisie de données.
 
-   | Propriété | Description |
-   |--- |--- |
-   | `Text Field` | Champ de saisie d’une seule ligne pour le texte. |
-   | `Text Area` | Champ de saisie de plusieurs lignes permettant de saisir des paragraphes de texte, tels qu’une description de produit. Vous pouvez utiliser l’éditeur WYSIWYG pour formater le texte avec des balises HTML ou saisir directement les balises dans le texte. |
-   | `Text Editor` | Un éditeur de texte entièrement opérationnel à l’emplacement des attributs. |
-   | Date | Affiche une valeur de date au [format préféré](attributes-input-types.md#date-and-time-options) et [fuseau horaire](../getting-started/store-details.md#locale-options). Les valeurs de date peuvent être sélectionnées dans une liste ou un calendrier ( ![icône Calendrier](../assets/icon-calendar.png) ). <br/><br/>**_Remarque:_**&#x200B;selon la configuration de votre système, les utilisateurs_ administrateurs_ peuvent saisir des dates directement dans un champ ou sélectionner une date dans le calendrier ou la liste. Pour plus d’informations sur la spécification des valeurs de date et d’heure, voir [Options de date et d’heure](attributes-input-types.md#date-and-time-options). |
-   | `Yes/No` | Affiche une liste déroulante avec les options prédéfinies de `Yes` et `No`. |
-   | `Dropdown` | Affiche une liste déroulante de valeurs qui accepte une seule sélection. Le type d’entrée de liste déroulante est un composant clé des [produits configurables](product-create-configurable.md). |
-   | `Multiple Select` | Affiche une liste déroulante de valeurs qui accepte plusieurs sélections. |
-   | `Price` | Ce type d’entrée est utilisé pour créer des champs de prix qui s’ajoutent aux attributs prédéfinis : Prix, Prix spécial, Prix de niveau et Coût. La devise utilisée est déterminée par votre configuration système. |
-   | `Media Image` | Associe une image supplémentaire à un produit, comme le logo d’un produit, des instructions d’entretien ou les ingrédients d’une étiquette alimentaire. Lorsque vous ajoutez un attribut d’image multimédia au jeu d’attributs d’un produit, il devient un type d’image supplémentaire, avec Base, Petit et Miniature. L’attribut image du média peut être exclu du [navigateur de médias storefront](catalog-images-video.md#storefront-media-browser). |
-   | `Fixed Product Tax` | Permet de définir des [taux FPT](../stores-purchase/fixed-product-tax.md) en fonction des exigences de vos paramètres régionaux. |
-   | `Visual Swatch` | Affiche un échantillon représentant la couleur, la texture ou le motif d’un produit configurable. Un [échantillon visuel](swatches.md) peut être rempli avec une valeur de couleur hexadécimale ou afficher une image téléchargée qui représente la couleur, la matière, la texture ou le motif de l’option. |
-   | `Text Swatch` | Représentation textuelle d’une option de produit configurable fréquemment utilisée pour la taille. [Nuancier de texte](swatches.md#text-based-swatches) peut également inclure des valeurs de couleur hexadécimales. |
-   | `Page Builder` | Un espace de travail [Page Builder](../page-builder/introduction.md) entièrement fonctionnel à l’emplacement des attributs qui facilite l’ajout de contenu attrayant à la page de produit. |
-
-   {style="table-layout:auto"}
+   Si l’attribut est utilisé pour un [produit configurable](product-create-configurable.md), choisissez `Dropdown`. Définissez ensuite **[!UICONTROL Required]** sur `Yes`.
 
 1. Si vous souhaitez exiger une sélection d’options avant que le client puisse acheter le produit, définissez **[!UICONTROL Values Required]** sur `Yes`.
 
@@ -88,7 +62,7 @@ Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à pa
 
    Les options disponibles dépendent du paramètre _[!UICONTROL Catalog Input Type for Store Owner]_.
 
-1. Définissez **[!UICONTROL Scope]** pour indiquer où, dans votre hiérarchie [&#x200B; magasin](../getting-started/websites-stores-views.md) l’attribut peut être utilisé.
+1. Pour indiquer où l’attribut peut être utilisé dans votre hiérarchie de [magasin](../getting-started/websites-stores-views.md), définissez **[!UICONTROL Scope]**.
 
 1. Pour empêcher toute entrée de valeurs en double, définissez **[!UICONTROL Unique Value]** sur `Yes`.
 
@@ -122,7 +96,7 @@ Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à pa
 
    >[!NOTE]
    >
-   > Si vous prévoyez d’utiliser cet attribut en tant que facette dans la recherche en direct, vous devez spécifier un libellé spécifique au magasin. Sans cela, le nom de l’attribut risque de ne pas s’afficher correctement sur la page de configuration des facettes. Pour mettre à jour la configuration, modifiez manuellement le libellé à l’aide de l’option [modifier dans la liste de facettes de Live Search](https://experienceleague.adobe.com/fr/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) dans le _Guide de Live Search_.
+   > Si vous prévoyez d’utiliser cet attribut en tant que facette dans la recherche en direct, vous devez spécifier un libellé spécifique au magasin. Sans cela, le nom de l’attribut risque de ne pas s’afficher correctement sur la page de configuration des facettes. Pour mettre à jour la configuration, modifiez manuellement le libellé à l’aide de l’option [modifier dans la liste de facettes de Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) dans le _Guide de Live Search_.
 
 ## Étape 4 : décrire les propriétés du storefront
 
@@ -134,7 +108,7 @@ Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à pa
 
 1. Si l’attribut doit être disponible pour la recherche, définissez **[!UICONTROL Use in Search]** sur `Yes`.
 
-   - Définissez la valeur **[!UICONTROL Search Weight]** pour contrôler où l’élément apparaît dans les résultats de recherche : 1 (poids le plus faible) à 10 (poids le plus élevé).
+   - Pour contrôler où l’élément apparaît dans les résultats de recherche, définissez la valeur **[!UICONTROL Search Weight]** : 1 (poids le plus faible) sur 10 (poids le plus élevé).
 
    - Définissez la **[!UICONTROL Visible in Advanced Search]** selon vos besoins. En savoir plus sur la [Recherche avancée](search.md#advanced-search).
 
@@ -191,7 +165,7 @@ Tout attribut utilisé comme liste déroulante d’options pour un [produit conf
 
 Lorsqu’un attribut est supprimé, il est supprimé de tous les produits et jeux d’attributs associés. Les attributs système font partie des fonctionnalités principales de votre magasin et ne peuvent pas être supprimés.
 
-Avant de supprimer un attribut, assurez-vous qu’il n’est actuellement utilisé par aucun produit de votre catalogue. Pour déterminer facilement si un attribut est en cours d’utilisation, utilisez l’outil [Export](../systems/data-export.md) afin de vérifier la liste des attributs d’entité du produit. Si l’attribut n’est pas inclus dans la liste, il n’est utilisé par aucun produit du catalogue.
+Avant de supprimer un attribut, assurez-vous qu’aucun produit de votre catalogue ne l’utilise actuellement. Pour déterminer facilement si un attribut est en cours d’utilisation, utilisez l’outil [Export](../systems/data-export.md) afin de vérifier la liste des attributs d’entité du produit. Si la liste n’inclut pas l’attribut , aucun produit du catalogue ne l’utilise.
 
 **_Pour supprimer un attribut:_**
 
