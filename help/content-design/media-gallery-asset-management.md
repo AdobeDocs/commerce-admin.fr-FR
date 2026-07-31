@@ -3,10 +3,11 @@ title: Gestion des ressources de Media Gallery
 description: Découvrez comment gérer les fichiers multimédias chargés et les ressources que vous acquérez par le biais d’une intégration Adobe Stock.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 7052319eb322cbf219aacebf4ba7642dbeb5ca96
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+last-update: 2026-03-27T00:00:00Z
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -112,7 +113,7 @@ Assets peut être largement utilisé dans l’ensemble de l’administration, pa
 
 1. Cliquez sur l’onglet **[!UICONTROL Filters]** .
 
-   ![&#x200B; Filtres &#x200B;](./assets/media-gallery-filters.png){width="600" zoomable="yes"}
+   ![ Filtres ](./assets/media-gallery-filters.png){width="600" zoomable="yes"}
 
 1. Définissez les options de filtrage.
 

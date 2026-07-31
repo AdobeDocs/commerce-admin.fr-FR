@@ -4,21 +4,13 @@ description: Découvrez le type de contenu Texte, utilisé pour ajouter un conte
 exl-id: 3f14af35-9c04-4f4b-b3dd-d3406d56a9c0
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/Sck0z8smCIZyQcXfhZuTiJoWqkYRcKbcsIU474iW4ow
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080b
+last-update: 2023-09-11
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 944
 ht-degree: 0%
@@ -29,13 +21,13 @@ ht-degree: 0%
 
 Utilisez le type de contenu _Texte_ pour ajouter un conteneur de texte avec un éditeur WYSIWYG (« What You See Is What You Get ») dans l’[[!DNL Page Builder] étape](workspace.md#stage). En outre, vous pouvez ajouter au texte des liens, des images, des [variables](../systems/variables-predefined.md) et des widgets à partir de la barre d’outils de l’éditeur.
 
-![&#x200B; Texte formaté sur une bannière &#x200B;](./assets/pb-storefont-banner-with-button.png){width="700"}
+![ Texte formaté sur une bannière ](./assets/pb-storefont-banner-with-button.png){width="700"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## Outils de l’éditeur de texte
 
-Vous pouvez accéder à l’éditeur de texte directement depuis l’étape ou à partir d’une page de paramètres. Les modifications apportées directement à l’étape sont enregistrées automatiquement. Pour plus d’informations, voir [&#x200B; Utilisation de l’éditeur &#x200B;](../content-design/editor.md).
+Vous pouvez accéder à l’éditeur de texte directement depuis l’étape ou à partir d’une page de paramètres. Les modifications apportées directement à l’étape sont enregistrées automatiquement. Pour plus d’informations, voir [ Utilisation de l’éditeur ](../content-design/editor.md).
 
 ![Outil Éditeur de texte - TinyMCE](./assets/pb-elements-text-editor-tools.png){width="600"}
 
@@ -45,7 +37,7 @@ Vous pouvez accéder à l’éditeur de texte directement depuis l’étape ou �
 
 | Outil | Icon | Description |
 | --------- | --------------------- | -------------- |
-| Déplacer | ![&#x200B; Icône Déplacer &#x200B;](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de texte vers un autre emplacement valide de la page. |
+| Déplacer | ![ Icône Déplacer ](./assets/pb-icon-move.png){width="25"} | Déplace le conteneur de texte vers un autre emplacement valide de la page. |
 | (libellé) | TEXTE | Identifie le conteneur courant comme un élément texte. |
 | Paramètres | ![Icône Paramètres](./assets/pb-icon-settings.png){width="25"} | Ouvre les propriétés du conteneur de texte en mode d’édition. |
 | Masquer | ![Icône Masquer](./assets/pb-icon-hide.png){width="25"} | Masque le conteneur de texte. |
@@ -65,7 +57,7 @@ Vous pouvez accéder à l’éditeur de texte directement depuis l’étape ou �
 
 1. Utilisez l’éditeur pour saisir et mettre en forme le texte, si nécessaire.
 
-   Pour plus d’informations, voir [&#x200B; Utilisation de l’éditeur &#x200B;](../content-design/editor.md).
+   Pour plus d’informations, voir [ Utilisation de l’éditeur ](../content-design/editor.md).
 
    ![Éditeur de texte avec contenu](./assets/pb-elements-text-editor.png){width="600"}
 
@@ -129,7 +121,7 @@ Pour créer un lien vers un numéro de téléphone ou un e-mail, voir [Ajout de 
 
 1. Mettez à jour le contenu selon les besoins.
 
-1. Mettez à jour les paramètres _[!UICONTROL Advanced]_&#x200B;selon vos besoins.
+1. Mettez à jour les paramètres _[!UICONTROL Advanced]_selon vos besoins.
 
    - Pour contrôler le positionnement du texte dans le conteneur parent, choisissez une **[!UICONTROL Alignment]** :
 
