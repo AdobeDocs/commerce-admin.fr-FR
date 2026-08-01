@@ -22,7 +22,8 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2023-05-22
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 1638
 ht-degree: 0%
@@ -215,8 +216,8 @@ Lorsqu’elle est activée, la section _[!UICONTROL Downloadable Information]_&#
 
    - Pour les fichiers **[!UICONTROL File]** et **[!UICONTROL Sample]**, choisissez l’une des méthodes de distribution suivantes pour les téléchargements :
 
-      - `Upload File` - Choisissez cette méthode pour charger le fichier de distribution sur le serveur. Accédez au fichier et sélectionnez-le pour le télécharger.
-      - `URL` - Choisissez cette méthode pour accéder au fichier de distribution à partir d’une URL. Saisissez l’URL complète du fichier de téléchargement.
+     - `Upload File` - Choisissez cette méthode pour charger le fichier de distribution sur le serveur. Accédez au fichier et sélectionnez-le pour le télécharger.
+     - `URL` - Choisissez cette méthode pour accéder au fichier de distribution à partir d’une URL. Saisissez l’URL complète du fichier de téléchargement.
 
    >[!NOTE]
    >
@@ -224,16 +225,16 @@ Lorsqu’elle est activée, la section _[!UICONTROL Downloadable Information]_&#
 
    - Définissez **[!UICONTROL Shareable]** sur l’une des options suivantes :
 
-      - `No` - Nécessite que les clients se connectent à leur compte pour accéder au lien de téléchargement.
+     - `No` - Nécessite que les clients se connectent à leur compte pour accéder au lien de téléchargement.
 
-      - `Yes` : envoie le lien par e-mail, que les clients peuvent partager avec d’autres personnes.
+     - `Yes` : envoie le lien par e-mail, que les clients peuvent partager avec d’autres personnes.
 
-      - `Use Config` - Utilise la méthode spécifiée dans la configuration [Options de produit téléchargeables](../configuration-reference/catalog/catalog.md).
+     - `Use Config` - Utilise la méthode spécifiée dans la configuration [Options de produit téléchargeables](../configuration-reference/catalog/catalog.md).
 
    - Effectuez l’une des opérations suivantes :
 
-      - Pour limiter les téléchargements par client, saisissez le nombre maximal de **[!UICONTROL Max. Downloads]**.
-      - Pour autoriser un nombre illimité de téléchargements, cochez la case **[!UICONTROL Unlimited]** .
+     - Pour limiter les téléchargements par client, saisissez le nombre maximal de **[!UICONTROL Max. Downloads]**.
+     - Pour autoriser un nombre illimité de téléchargements, cochez la case **[!UICONTROL Unlimited]** .
 
    ![Détails du lien](./assets/product-downloadable-link-detail.png){width="600" zoomable="yes"}
 
@@ -253,8 +254,8 @@ Lorsqu’elle est activée, la section _[!UICONTROL Downloadable Information]_&#
 
    - Choisissez l&#39;une des méthodes de distribution suivantes :
 
-      - `Upload File` - Choisissez cette méthode pour charger le fichier de distribution sur le serveur. Accédez au fichier et sélectionnez-le pour le télécharger.
-      - `URL` - Choisissez cette méthode pour accéder au fichier de distribution à partir d’une URL. Saisissez l’URL complète du fichier de téléchargement.
+     - `Upload File` - Choisissez cette méthode pour charger le fichier de distribution sur le serveur. Accédez au fichier et sélectionnez-le pour le télécharger.
+     - `URL` - Choisissez cette méthode pour accéder au fichier de distribution à partir d’une URL. Saisissez l’URL complète du fichier de téléchargement.
 
    - Pour ajouter un autre exemple, cliquez sur **[!UICONTROL Add Link]** et répétez ces étapes.
 

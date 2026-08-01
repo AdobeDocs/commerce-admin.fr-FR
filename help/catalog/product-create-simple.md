@@ -19,7 +19,8 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2023-05-22
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 607
 ht-degree: 0%
@@ -146,9 +147,9 @@ Faites défiler vers le bas et renseignez les informations des sections suivante
 
    - **Méthode 1 :** Enregistrer et prévisualiser
 
-      - Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]**.
+     - Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]**.
 
-      - Pour afficher le produit dans votre boutique, choisissez **[!UICONTROL Customer View]** dans le menu _Admin_ (![Flèche de menu](../assets/icon-menu-down-arrow-black.png)).
+     - Pour afficher le produit dans votre boutique, choisissez **[!UICONTROL Customer View]** dans le menu _Admin_ (![Flèche de menu](../assets/icon-menu-down-arrow-black.png)).
 
      Le magasin s’ouvre dans un nouvel onglet du navigateur.
 

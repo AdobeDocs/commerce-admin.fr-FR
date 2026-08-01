@@ -19,7 +19,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2023-09-11
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 1540
 ht-degree: 0%
@@ -76,21 +77,21 @@ La boîte à outils Image s’affiche lorsque vous placez le pointeur de la sour
 
    - _&#x200B;**Charger une nouvelle image**&#x200B;_ : utilisez cette méthode pour charger un nouveau fichier image à partir de votre système.
 
-      - Cliquez sur **[!UICONTROL Upload Image]**.
+     - Cliquez sur **[!UICONTROL Upload Image]**.
 
-      - Recherchez et choisissez l’image à ajouter au conteneur galerie et cible.
+     - Recherchez et choisissez l’image à ajouter au conteneur galerie et cible.
 
      Vous pouvez également faire glisser un fichier image de votre système et le déposer sur l’icône _Appareil photo_ ( ![Icône d’appareil photo](./assets/pb-icon-camera.png){width="20"} ).
 
    - _&#x200B;**Sélectionner une ressource existante**&#x200B;_ : utilisez cette méthode pour sélectionner une ressource image existante dans la galerie ou le stockage de médias.
 
-      - Cliquez sur **[!UICONTROL Select from Gallery]**.
+     - Cliquez sur **[!UICONTROL Select from Gallery]**.
 
-      - Utilisez l’arborescence pour accéder à l’image.
+     - Utilisez l’arborescence pour accéder à l’image.
 
-      - Cliquez sur la miniature, puis sur **[!UICONTROL Add Selected]**.
+     - Cliquez sur la miniature, puis sur **[!UICONTROL Add Selected]**.
 
-        ![Ajouter une image sélectionnée](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+       ![Ajouter une image sélectionnée](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - _&#x200B;**Rechercher et sélectionner une image Adobe Stock**&#x200B;_ : utilisez cette méthode pour rechercher une image dans Adobe Stock.
 
@@ -98,13 +99,13 @@ La boîte à outils Image s’affiche lorsque vous placez le pointeur de la sour
      >
      >Cette méthode nécessite une intégration [&#128279;](../content-design/adobe-stock.md) configurée pour votre administrateur.
 
-      - Cliquez sur **[!UICONTROL Search Adobe Stock]** et recherchez une image.
+     - Cliquez sur **[!UICONTROL Search Adobe Stock]** et recherchez une image.
 
-      - Enregistrez l’aperçu ou l’image sous licence dans la galerie.
+     - Enregistrez l’aperçu ou l’image sous licence dans la galerie.
 
-        Voir [Utilisation d’images Adobe Stock](../content-design/adobe-stock-manage.md) pour plus d’informations sur l’utilisation des ressources Adobe Stock.
+       Voir [Utilisation d’images Adobe Stock](../content-design/adobe-stock-manage.md) pour plus d’informations sur l’utilisation des ressources Adobe Stock.
 
-      - Sélectionnez la miniature de la ressource dans la galerie et cliquez sur **[!UICONTROL Add Selected]**.
+     - Sélectionnez la miniature de la ressource dans la galerie et cliquez sur **[!UICONTROL Add Selected]**.
 
    L’image s’affiche dans le conteneur cible à l’emplacement de l’espace réservé. Contrairement à une image d’arrière-plan, vous pouvez déplacer l’image vers un autre emplacement au sein du conteneur actif ou vers un autre conteneur.
 
@@ -125,19 +126,19 @@ Le nom, les dimensions et la taille du fichier s’affichent sous l’image actu
 
    - _&#x200B;**Charger une nouvelle image**&#x200B;_ : utilisez cette méthode pour charger un nouveau fichier image à partir de votre système.
 
-      - Cliquez sur **[!UICONTROL Upload Image]**.
+     - Cliquez sur **[!UICONTROL Upload Image]**.
 
-      - Recherchez et choisissez l’image à ajouter au conteneur galerie et cible.
+     - Recherchez et choisissez l’image à ajouter au conteneur galerie et cible.
 
    - _&#x200B;**Sélectionner une ressource existante**&#x200B;_ : utilisez cette méthode pour sélectionner une ressource image existante dans la galerie ou le stockage de médias.
 
-      - Cliquez sur **[!UICONTROL Select from Gallery]**.
+     - Cliquez sur **[!UICONTROL Select from Gallery]**.
 
-      - Utilisez l’arborescence pour accéder à l’image.
+     - Utilisez l’arborescence pour accéder à l’image.
 
-      - Cliquez sur la miniature, puis sur **[!UICONTROL Add Selected]**.
+     - Cliquez sur la miniature, puis sur **[!UICONTROL Add Selected]**.
 
-        ![Ajouter une image sélectionnée](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+       ![Ajouter une image sélectionnée](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - **Rechercher et sélectionner une image Adobe Stock** : utilisez cette méthode pour rechercher une image dans Adobe Stock.
 
@@ -145,13 +146,13 @@ Le nom, les dimensions et la taille du fichier s’affichent sous l’image actu
      >
      >Cette méthode nécessite une intégration [&#128279;](../content-design/adobe-stock.md) configurée pour votre administrateur.
 
-      - Cliquez sur **[!UICONTROL Search Adobe Stock]** et recherchez une image.
+     - Cliquez sur **[!UICONTROL Search Adobe Stock]** et recherchez une image.
 
-      - Enregistrez l’aperçu ou l’image sous licence dans la galerie.
+     - Enregistrez l’aperçu ou l’image sous licence dans la galerie.
 
-        Voir [Utilisation d’images Adobe Stock](../content-design/adobe-stock-manage.md) pour plus d’informations sur l’utilisation des ressources Adobe Stock.
+       Voir [Utilisation d’images Adobe Stock](../content-design/adobe-stock-manage.md) pour plus d’informations sur l’utilisation des ressources Adobe Stock.
 
-      - Sélectionnez la miniature de la ressource dans la galerie et cliquez sur **[!UICONTROL Add Selected]**.
+     - Sélectionnez la miniature de la ressource dans la galerie et cliquez sur **[!UICONTROL Add Selected]**.
 
 1. Pour ajouter une **[!UICONTROL Mobile Image]**, utilisez les mêmes méthodes que celles décrites à l’étape précédente pour sélectionner une image à utiliser pour l’affichage sur les appareils mobiles.
 

@@ -17,7 +17,8 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2026-01-26
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 2041
 ht-degree: 0%
@@ -153,11 +154,11 @@ Vous pouvez ajouter n’importe quel type de contenu à un onglet comme vous le 
 
   Vous pouvez saisir une valeur de trois façons :
 
-   - Un nom de couleur prédéfini, tel que `White`
+  - Un nom de couleur prédéfini, tel que `White`
 
-   - Valeur hexadécimale de la couleur, telle que `#ffffff`
+  - Valeur hexadécimale de la couleur, telle que `#ffffff`
 
-   - Valeur rgba de la couleur, avec le pourcentage d’opacité, tel que `rgba(255, 255, 255, 0.75)`
+  - Valeur rgba de la couleur, avec le pourcentage d’opacité, tel que `rgba(255, 255, 255, 0.75)`
 
   Pour sélectionner une couleur, cliquez sur l’échantillon à gauche de la zone _Aucune couleur_.
 

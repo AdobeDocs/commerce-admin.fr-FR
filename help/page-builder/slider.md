@@ -20,7 +20,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2023-09-11
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 3813
 ht-degree: 0%
@@ -321,9 +322,9 @@ Si vous définissez le _Type d’arrière-plan_ sur `Video`, utilisez les param�
 
 - **[!UICONTROL Video URL]** - Saisissez une URL de vidéo valide. Les URL de vidéo valides peuvent être des liens vers :
 
-   - Vidéos YouTube : `https://youtu.be/CoDhMRUUjeI`
-   - Vidéos Vimeo : `https://vimeo.com/190156113`
-   - Fichiers vidéo valides (`.mp4` recommandé) : `https://myvideos.com/spiral.mp4`
+  - Vidéos YouTube : `https://youtu.be/CoDhMRUUjeI`
+  - Vidéos Vimeo : `https://vimeo.com/190156113`
+  - Fichiers vidéo valides (`.mp4` recommandé) : `https://myvideos.com/spiral.mp4`
 
   ![URL de la vidéo d’arrière-plan](./assets/pb-video-url.png){width="500"}
 

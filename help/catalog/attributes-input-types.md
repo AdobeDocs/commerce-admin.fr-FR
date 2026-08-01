@@ -19,16 +19,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
-source-wordcount: 780
+source-wordcount: 804
 ht-degree: 0%
 
 ---
 
 # Types d’entrée d’attribut
 
-Lorsqu’ils sont affichés à partir de l’Administration, les attributs sont les champs que vous renseignez lors de la création d’un produit. Le type d’entrée affecté à un attribut détermine le type de données qui peut être saisi et le format du champ ou du contrôle de saisie. Du point de vue du client, les attributs fournissent des informations sur le produit et sont les options et les champs de saisie de données qui doivent être renseignés pour acheter un produit.
+Lorsqu’ils sont affichés à partir de l’Administration, les attributs sont les champs que vous renseignez lors de la création d’un produit. Le type d’entrée affecté à un attribut détermine le type de données qui peut être saisi et le format du champ ou du contrôle de saisie. Pour le client, les attributs fournissent des informations sur le produit et sont les options et les champs de saisie de données qui doivent être renseignés pour acheter un produit.
 
 ## Types d’entrée
 
@@ -49,7 +49,7 @@ Lorsqu’ils sont affichés à partir de l’Administration, les attributs sont 
 | [!UICONTROL Fixed Product Tax] | Permet de définir des [taux FPT](../stores-purchase/fixed-product-tax.md) en fonction des exigences de vos paramètres régionaux. |
 | [!UICONTROL Visual Swatch] | Affiche un échantillon représentant la couleur, la texture ou le motif d’un produit configurable. Un [échantillon visuel](swatches.md) peut être rempli avec une valeur de couleur hexadécimale ou afficher une image téléchargée qui représente la couleur, la matière, la texture ou le motif de l’option. |
 | [!UICONTROL Text Swatch] | Représentation textuelle d’une option de produit configurable fréquemment utilisée pour la taille. [Nuancier de texte](swatches.md) peut également inclure des valeurs de couleur hexadécimales. |
-| [!UICONTROL Page Builder] | Un espace de travail [[!DNL Page Builder]](../page-builder/workspace.md) à l’emplacement de l’attribut qui facilite l’ajout de contenu attrayant à la page du produit. |
+| [!UICONTROL Page Builder] [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} | Un espace de travail [[!DNL Page Builder]](../page-builder/workspace.md) à l’emplacement de l’attribut qui facilite l’ajout de contenu attrayant à la page du produit. |
 
 {style="table-layout:auto"}
 
