@@ -41,10 +41,10 @@ La page [!UICONTROL Data Feed Sync Status] permet aux administrateurs et adminis
 
 La page Statut de la synchronisation des flux de données est disponible sans frais supplémentaires pour les commerçants Commerce disposant d’une licence active pour l’un des services suivants :
 
-- [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
-- [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)
-- [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
-- [[!DNL Adobe Commerce Optimizer Connector]](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)
+- [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/fr/docs/commerce/product-recommendations/guide-overview)
+- [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/fr/docs/commerce/live-search/overview)
+- [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/fr/docs/commerce/catalog-service/guide-overview)
+- [[!DNL Adobe Commerce Optimizer Connector]](https://experienceleague.adobe.com/fr/docs/commerce/aco-optimizer-connector/overview)
 
 La page Statut de la synchronisation des flux de données est disponible automatiquement dans les configurations de service Commerce prises en charge. Dans Adobe Commerce sur les déploiements d’infrastructure cloud et sur site, si la page est manquante après l’activation d’un service ou d’un connecteur éligible, suivez les instructions d’installation manuelle ci-dessous. N’utilisez pas la procédure d’installation du compositeur pour les expériences SaaS gérées par le produit.
 
@@ -62,9 +62,9 @@ Dans la zone d’administration, accédez à **[!UICONTROL System]** > **[!UICON
 
 La liste des flux d’exportation disponibles que vous pouvez gérer à partir de la page État de la synchronisation des données dépend des services Commerce connectés.
 
-- **Pour les [!DNL Adobe Commerce on Cloud, On Premises, and Commerce as a Cloud Service] avec les services Commerce configurés :** consultez [Flux pris en charge](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/reference/feed-table-reference#supported-feeds) dans le Guide d’exportation des données _SaaS_.
+- **Pour les [!DNL Adobe Commerce on Cloud, On Premises, and Commerce as a Cloud Service] avec les services Commerce configurés :** consultez [Flux pris en charge](https://experienceleague.adobe.com/fr/docs/commerce/saas-data-export/reference/feed-table-reference#supported-feeds) dans le Guide d’exportation des données _SaaS_.
 
-- **Pour les déploiements sur le cloud ou On-Premise d’Adobe Commerce configurés avec le [!DNL Adobe Commerce Optimizer Connector] :** consultez [Flux pris en charge](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds) dans le _Guide du connecteur Adobe Commerce Optimizer_.
+- **Pour les déploiements sur le cloud ou On-Premise d’Adobe Commerce configurés avec le [!DNL Adobe Commerce Optimizer Connector] :** consultez [Flux pris en charge](https://experienceleague.adobe.com/fr/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds) dans le _Guide du connecteur Adobe Commerce Optimizer_.
 
 
 ## Résumé du statut de synchronisation des flux de données {#data-feed-sync-status-summary}
@@ -135,7 +135,7 @@ Lorsque le nombre d’envois réussis correspond au nombre source d’un flux et
 
 >[!NOTE]
 >
-> Adobe fournit également des outils d’interface de ligne de commande et des journaux système que les développeurs et les intégrateurs système peuvent utiliser pour gérer et suivre les opérations de synchronisation. Pour plus d&#39;informations, consultez le [Guide d&#39;exportation de données SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview).
+> Adobe fournit également des outils d’interface de ligne de commande et des journaux système que les développeurs et les intégrateurs système peuvent utiliser pour gérer et suivre les opérations de synchronisation. Pour plus d&#39;informations, consultez le [Guide d&#39;exportation de données SaaS](https://experienceleague.adobe.com/fr/docs/commerce/saas-data-export/overview).
 
 ### Gérer les exportations ayant échoué {#manage-failed-exports}
 
@@ -164,12 +164,12 @@ Resynchronisez manuellement dans ces cas :
 Pour vérifier la synchronisation de bout en bout une fois les exportations terminées, utilisez l’une des méthodes suivantes. Pour connaître les limites du statut d’exportation sur cette page, reportez-vous à la [remarque ci-dessus](#export-status-scope).
 
 - **[!DNL Adobe Commerce as a Cloud Service]avec les services Commerce :** vérifiez le [tableau de bord de gestion des données](data-dashboard.md) applicable pour confirmer la disponibilité en aval.
-- **Adobe Commerce sur le cloud ou On-premise avec Adobe Commerce Optimizer Connector** : vérifiez d’abord le statut d’exportation de l’administrateur Commerce, puis vérifiez la page [Synchronisation des données](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) dans [!DNL Commerce Optimizer Studio]
-- **[!DNL Adobe Commerce Optimizer] (autonome) :** données ne sont pas exportées à partir du serveur principal Commerce. Utilisez la [page Synchronisation des données](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) dans [!DNL Commerce Optimizer Studio] pour confirmer la disponibilité des données.
+- **Adobe Commerce sur le cloud ou On-premise avec Adobe Commerce Optimizer Connector** : vérifiez d’abord le statut d’exportation de l’administrateur Commerce, puis vérifiez la page [Synchronisation des données](https://experienceleague.adobe.com/fr/docs/commerce/optimizer/setup/data-sync) dans [!DNL Commerce Optimizer Studio]
+- **[!DNL Adobe Commerce Optimizer] (autonome) :** données ne sont pas exportées à partir du serveur principal Commerce. Utilisez la [page Synchronisation des données](https://experienceleague.adobe.com/fr/docs/commerce/optimizer/setup/data-sync) dans [!DNL Commerce Optimizer Studio] pour confirmer la disponibilité des données.
 
 >[!TIP]
 >
-> Pour en savoir plus sur le processus de synchronisation des données, consultez la section [Synchroniser les données avec l’exportation de données SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#view-and-manage-the-synchronization-process) du *Guide d’exportation de données SaaS*.
+> Pour en savoir plus sur le processus de synchronisation des données, consultez la section [Synchroniser les données avec l’exportation de données SaaS](https://experienceleague.adobe.com/fr/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#view-and-manage-the-synchronization-process) du *Guide d’exportation de données SaaS*.
 
 ## Bonnes pratiques {#best-practices}
 
@@ -195,9 +195,9 @@ Une installation manuelle est requise pour les déploiements Adobe Commerce sur 
 
 ### Conditions préalables
 
-- Adobe Commerce 2.4.4+. Pour connaître la configuration requise, voir [Configuration requise](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements).
-- [Extension Adobe Commerce Data Export](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/reference/manage-extension), version 103.4.15 ou ultérieure
-- Clés d’authentification avec l’autorisation de télécharger le package requis à partir du référentiel Adobe Commerce. Pour créer des clés d’authentification et obtenir l’accès au package nécessaire, voir [&#x200B; Obtenir vos clés d’authentification &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Pour les installations cloud, consultez le guide [Commerce sur les infrastructures cloud](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
+- Adobe Commerce 2.4.4+. Pour connaître la configuration requise, voir [Configuration requise](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/system-requirements).
+- [Extension Adobe Commerce Data Export](https://experienceleague.adobe.com/fr/docs/commerce/saas-data-export/reference/manage-extension), version 103.4.15 ou ultérieure
+- Clés d’authentification avec l’autorisation de télécharger le package requis à partir du référentiel Adobe Commerce. Pour créer des clés d’authentification et obtenir l’accès au package nécessaire, voir [&#x200B; Obtenir vos clés d’authentification &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Pour les installations cloud, consultez le guide [Commerce sur les infrastructures cloud](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
 - Accès à la ligne de commande du serveur applicatif Adobe Commerce.
 
 ### Etapes d&#39;installation
@@ -210,10 +210,10 @@ composer require magento/module-data-exporter-status
 
 Pour obtenir des instructions d’installation détaillées, consultez les guides suivants :
 
-- [Installation de l’extension pour Adobe Commerce sur une infrastructure cloud](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
-- [Installation de l’extension sur Adobe Commerce On-premise](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
+- [Installation de l’extension pour Adobe Commerce sur une infrastructure cloud](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+- [Installation de l’extension sur Adobe Commerce On-premise](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 >[!MORELIKETHIS]
 >
 > - [Tableau de bord de gestion des données](data-dashboard.md)
-> - [Guide d&#39;exportation de données SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)
+> - [Guide d&#39;exportation de données SaaS](https://experienceleague.adobe.com/fr/docs/commerce/saas-data-export/overview)
