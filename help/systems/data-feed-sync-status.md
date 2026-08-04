@@ -6,11 +6,25 @@ role: Admin
 level: Beginner
 exl-id: 4e1b9da0-450c-4488-8693-1938a948e792
 TQID: https://experienceleague.adobe.com/Y8vYxKS-8iX-bCLSJpAiJOItWlJk348bSMWfk1Cgpbg
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 424b379815ffbf818c2490d0195bf0bf7dd51ab7
 workflow-type: tm+mt
 source-wordcount: 1664
@@ -151,7 +165,7 @@ Pour vérifier la synchronisation de bout en bout une fois les exportations term
 
 - **[!DNL Adobe Commerce as a Cloud Service]avec les services Commerce :** vérifiez le [tableau de bord de gestion des données](data-dashboard.md) applicable pour confirmer la disponibilité en aval.
 - **Adobe Commerce sur le cloud ou On-premise avec Adobe Commerce Optimizer Connector** : vérifiez d’abord le statut d’exportation de l’administrateur Commerce, puis vérifiez la page [Synchronisation des données](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) dans [!DNL Commerce Optimizer Studio]
-- **[!DNL Adobe Commerce Optimizer](autonome) :** données ne sont pas exportées à partir du serveur principal Commerce. Utilisez la [page Synchronisation des données](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) dans [!DNL Commerce Optimizer Studio] pour confirmer la disponibilité des données.
+- **[!DNL Adobe Commerce Optimizer] (autonome) :** données ne sont pas exportées à partir du serveur principal Commerce. Utilisez la [page Synchronisation des données](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) dans [!DNL Commerce Optimizer Studio] pour confirmer la disponibilité des données.
 
 >[!TIP]
 >
@@ -170,20 +184,20 @@ Pour vérifier la synchronisation de bout en bout une fois les exportations term
 | Taux d’échec élevés | De nombreux enregistrements affichent le statut *Échec, nécessite une attention* | <ul><li>Vérifier le statut et la configuration du service externe</li><li>Vérifier les messages d’erreur pour les modèles de la colonne [!UICONTROL Error]</li><li>Une fois le problème sous-jacent résolu, consultez [Gérer et resynchroniser les exportations en échec](#manage-failed-exports)</li><li>Contactez le support technique externe si nécessaire</li></ul> |
 | Performances d’exportation lentes | Liste d&#39;attente élevée pour les modifications ou mises à jour de statut lentes | <ul><li>Vérifiez [indicateurs d’intégrité des flux](#feed-health-indicators) l’indexeur et le statut de la liste d’attente</li><li>Réexécutez l’indexation si **Réindexation requise** s’affiche.</li><li>Surveiller les temps de réponse du service externe</li><li>Planifier des exportations pendant les heures creuses lorsque cela est possible</li><li>Examen des ressources et des performances du système</li></ul> |
 | Échecs d&#39;authentification | Codes d’état 401 ou 403 dans la colonne [!UICONTROL Error] | <ul><li>Vérification des informations d’identification et des jetons d’API</li><li>Vérifier les autorisations du compte de service externe</li><li>Renouveler les jetons expirés ou contacter votre fournisseur de services</li><li>Une fois les informations d’identification restaurées, [resynchronisez les enregistrements concernés](#manage-failed-exports)</li></ul> |
-| Page de statut de synchronisation des flux de données manquants | **[!UICONTROL Data Feed Sync Status]** n’est pas répertorié sous **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** après l’activation d’un service connecté | <ul><li>Pour Commerce as a Cloud Service, vérifiez qu’un service éligible est activé (voir [ Audience et disponibilité ](#audience)).</li><li>Pour Commerce sur le cloud ou On-premise uniquement, [Installez l’extension manuellement](#install-the-extension)</li></ul> |
+| Page de statut de synchronisation des flux de données manquants | **[!UICONTROL Data Feed Sync Status]** n’est pas répertorié sous **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** après l’activation d’un service connecté | <ul><li>Pour Commerce as a Cloud Service, vérifiez qu’un service éligible est activé (voir [&#x200B; Audience et disponibilité &#x200B;](#audience)).</li><li>Pour Commerce sur le cloud ou On-premise uniquement, [Installez l’extension manuellement](#install-the-extension)</li></ul> |
 
 Adobe Commerce sur les infrastructures cloud ou sur site : vérifiez qu’un service éligible ou le connecteur Adobe Commerce Optimizer est activé ; si la page est toujours manquante, suivez les instructions d’installation manuelle.
 ACCS ou Adobe Commerce Optimizer : n’installez pas le module manuellement, utilisez l’expérience de synchronisation gérée par le produit ou contactez l’équipe d’assistance technique appropriée.
 
 ## Installation de l’extension {#install-the-extension}
 
-Une installation manuelle est requise pour les déploiements Adobe Commerce sur le cloud ou sur site uniquement si la page [!UICONTROL Data Feed Sync Status] est manquante dans la zone d’administration après l’activation d’un service éligible. Voir [ Audience et disponibilité ](#audience).
+Une installation manuelle est requise pour les déploiements Adobe Commerce sur le cloud ou sur site uniquement si la page [!UICONTROL Data Feed Sync Status] est manquante dans la zone d’administration après l’activation d’un service éligible. Voir [&#x200B; Audience et disponibilité &#x200B;](#audience).
 
 ### Conditions préalables
 
 - Adobe Commerce 2.4.4+. Pour connaître la configuration requise, voir [Configuration requise](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements).
 - [Extension Adobe Commerce Data Export](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/reference/manage-extension), version 103.4.15 ou ultérieure
-- Clés d’authentification avec l’autorisation de télécharger le package requis à partir du référentiel Adobe Commerce. Pour créer des clés d’authentification et obtenir l’accès au package nécessaire, voir [ Obtenir vos clés d’authentification ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Pour les installations cloud, consultez le guide [Commerce sur les infrastructures cloud](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
+- Clés d’authentification avec l’autorisation de télécharger le package requis à partir du référentiel Adobe Commerce. Pour créer des clés d’authentification et obtenir l’accès au package nécessaire, voir [&#x200B; Obtenir vos clés d’authentification &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Pour les installations cloud, consultez le guide [Commerce sur les infrastructures cloud](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
 - Accès à la ligne de commande du serveur applicatif Adobe Commerce.
 
 ### Etapes d&#39;installation
