@@ -1,96 +1,190 @@
 ---
-title: Surveillance Du Statut De Synchronisation Des Flux De Données
-description: Surveillez la synchronisation de l’exportation des données et identifiez les problèmes ou retards de traitement des flux pour  [!DNL Catalog Service],  [!DNL Live Search] et  [!DNL Product Recommendations].
+title: Surveillance du statut de synchronisation des flux de données dans Commerce
+description: Suivre les exportations. Diagnostiquer les problèmes de synchronisation pour  [!DNL Catalog Service],  [!DNL Live Search],  [!DNL Product Recommendations] et  [!DNL Adobe Commerce Optimizer Connector].
 feature: Products, Customers, Data Import/Export
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+role: Admin
+level: Beginner
 exl-id: 4e1b9da0-450c-4488-8693-1938a948e792
 TQID: https://experienceleague.adobe.com/Y8vYxKS-8iX-bCLSJpAiJOItWlJk348bSMWfk1Cgpbg
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 424b379815ffbf818c2490d0195bf0bf7dd51ab7
 workflow-type: tm+mt
-source-wordcount: 1689
+source-wordcount: 1664
 ht-degree: 0%
 
 ---
 
-# Surveillance Du Statut De Synchronisation Des Flux De Données
 
-Les administrateurs Adobe Commerce peuvent surveiller le statut de synchronisation des données exportées d’Adobe Commerce vers les services Commerce connectés à l’aide de la page Statut de synchronisation des flux de données dans l’administration Commerce.
+# Surveillance du statut de synchronisation des flux de données
 
-![Page Détails du statut de synchronisation des flux de données avec rapport du statut de l’élément de flux](assets/data-feed-sync-status.png)
+La page [!UICONTROL Data Feed Sync Status] permet aux administrateurs et administratrices Commerce de surveiller l’intégrité des exportations pour les flux de données de produits et de catégories dans la zone Admin.
 
-Cette page fournit des informations en temps réel sur l’intégrité et les performances des flux d’exportation de données qui transfèrent les données de produit et de catégorie de Commerce vers des services externes tels que [!DNL Product Recommendations], [!DNL Live Search] et [!DNL Catalog Service].
+## Audience et disponibilité {#audience}
 
-La page du statut de synchronisation affiche uniquement le statut d’exportation. Un statut de réussite indique que l’exportation des données a réussi et qu’elles seront éventuellement disponibles dans les services Commerce connectés.
+La page Statut de la synchronisation des flux de données est disponible sans frais supplémentaires pour les commerçants Commerce disposant d’une licence active pour l’un des services suivants :
 
-La surveillance du statut des flux permet d’assurer la cohérence des données et de résoudre rapidement les problèmes qui surviennent pendant le processus d’exportation. Les administrateurs peuvent :
+- [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
+- [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)
+- [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
+- [[!DNL Adobe Commerce Optimizer Connector]](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)
 
-* **Afficher l’état de synchronisation** pour tous les flux de données
-* **Identifier et résoudre les erreurs** lors du traitement des flux
-* **Accéder aux informations détaillées sur le statut** pour les éléments de flux individuels
+La page Statut de la synchronisation des flux de données est disponible automatiquement dans les configurations de service Commerce prises en charge. Dans Adobe Commerce sur les déploiements d’infrastructure cloud et sur site, si la page est manquante après l’activation d’un service ou d’un connecteur éligible, suivez les instructions d’installation manuelle ci-dessous. N’utilisez pas la procédure d’installation du compositeur pour les expériences SaaS gérées par le produit.
 
-Le statut est suivi pour les flux suivants :
+## Accès à la page du statut de synchronisation {#access-data-feed-sync-status-page}
 
-* Flux de produits
-* Flux d’attributs de produit
-* Flux de catégories
-* Flux de remplacements de produit
-* Flux des prix des produits
-* Flux de variantes de produit
+Dans la zone d’administration, accédez à **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Data Feed Sync Status]**.
 
-## Vérification de la synchronisation des données avec les services Commerce
-
-Utilisez les méthodes suivantes pour vérifier que les données ont bien été synchronisées avec les services Commerce connectés :
-
-* Pour les déploiements d’Adobe Commerce on cloud ou on-premise, ou d’Adobe Commerce as a Cloud Service, vérifiez le tableau de bord [Gestion des données](data-dashboard.md).
-* Pour les déploiements sur le cloud ou on-premise d’Adobe Commerce configurés avec le connecteur [Adobe Commerce Optimizer](https://experienceleague.adobe.com/fr/docs/commerce/aco-optimizer-connector/overview), vérifiez la page [Synchronisation des données](https://experienceleague.adobe.com/fr/docs/commerce/optimizer/setup/data-sync) dans Commerce Optimizer Studio.
-
->[!TIP]
->
->Pour en savoir plus sur le processus de synchronisation des données, consultez la section [Synchroniser les données avec l’exportation de données SaaS](https://experienceleague.adobe.com/fr/docs/commerce/saas-data-export/data-synchronization) du *Guide d’exportation de données SaaS*.
-
-## Installation de l’extension
-
-La page Statut du flux de données est disponible pour tous les commerçants Commerce disposant de licences actives pour les services Commerce suivants :
-
-* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/fr/docs/commerce/product-recommendations/guide-overview)
-* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/fr/docs/commerce/live-search/guide-overview)
-* [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/fr/docs/commerce/catalog-service/guide-overview) avec une licence active
+![Page Statut de synchronisation des flux de données résumant l’activité d’exportation des flux de données](assets/data-feed-sync-status.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Il n’est pas nécessaire d’installer l’extension Data Feed Status sur les instances [[!DNL Adobe Commerce as a Cloud Service]](https://experienceleague.adobe.com/fr/docs/commerce/cloud-service/overview).
->L’extension est disponible par défaut si au moins l’un des services suivants est activé dans le déploiement Commerce : Product Recommendations v6+, Live Search v4.1+ ou Catalog Service v1.17+.
+> Cette page indique uniquement le statut d’exportation. Un statut de réussite signifie que les données ont bien été exportées ; il ne confirme pas que les données sont disponibles dans les services connectés. Voir [Confirmer les données dans les services connectés](#confirm-data-in-connected-services) pour plus d’informations.
 
-**Conditions requises**
+## Flux d’exportation disponibles
 
-* PHP 8.1, 8.2, 8.3 ou 8.4
-* Adobe Commerce 2.4.4+
-* [Extension Adobe Commerce Data Export](https://experienceleague.adobe.com/fr/docs/commerce/saas-data-export/manage-extension), version 103.4.15 ou ultérieure
-* Accès à [repo.magento.com](https://repo.magento.com)
+La liste des flux d’exportation disponibles que vous pouvez gérer à partir de la page État de la synchronisation des données dépend des services Commerce connectés.
 
-  Pour générer des clés et obtenir les droits nécessaires, voir [&#x200B; Obtenir vos clés d’authentification &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Pour les installations cloud, consultez le guide [Commerce sur les infrastructures cloud](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
+- **Pour les [!DNL Adobe Commerce on Cloud, On Premises, and Commerce as a Cloud Service] avec les services Commerce configurés :** consultez [Flux pris en charge](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/reference/feed-table-reference#supported-feeds) dans le Guide d’exportation des données _SaaS_.
 
-* Accès à la ligne de commande du serveur applicatif Adobe Commerce.
+- **Pour les déploiements sur le cloud ou On-Premise d’Adobe Commerce configurés avec le [!DNL Adobe Commerce Optimizer Connector] :** consultez [Flux pris en charge](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds) dans le _Guide du connecteur Adobe Commerce Optimizer_.
+
+
+## Résumé du statut de synchronisation des flux de données {#data-feed-sync-status-summary}
+
+La grille de résumé répertorie chaque flux et son nombre d’exportations.
+
+| Champ | Description |
+| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nom du flux** | Indexeur de flux pour une entité ou une partie d’une entité (produit, prix du produit). |
+| **Enregistrements** | Nombre d’enregistrements Commerce nécessitant une synchronisation. Peut dépasser le nombre de grilles d’administration parce que les éléments de flux sont inclus dans la portée (par exemple, le code Vue de la boutique). |
+| **Enregistrements envoyés avec succès** | Nombre d’éléments de flux envoyés avec succès de Commerce au point d’entrée de service configuré. Cela ne confirme pas l’ingestion en aval ou la disponibilité du catalogue. Si des erreurs de synchronisation se sont produites, ce nombre peut être inférieur au nombre d’enregistrements sources. |
+| **Enregistrements ayant échoué** | Nombre d’enregistrements qui n’ont pas pu être envoyés aux services Commerce connectés. |
+| **Action** | Sélectionnez **[!UICONTROL Details]** pour afficher l’activité de synchronisation d’un flux. |
+
+## Détails du statut de synchronisation des flux de données {#data-feed-sync-status-details}
+
+Dans la page de résumé, sélectionnez un nom de flux ou sélectionnez **[!UICONTROL Details]** pour afficher le statut d’exportation de chaque élément de flux :
+
+![Page Détails du statut de synchronisation des flux de données avec rapport du statut de l’élément de flux](assets/data-feed-sync-status-details.png){width="600" zoomable="yes"}
+
+| Champ | Description |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ID d’élément de flux** | Identifiant généré automatiquement et utilisé à des fins système |
+| **Identifiant de l’entité** | Identifiant unique de l’entité source (ID de produit, ID de catégorie, etc.) |
+| **Identifiants de flux** | Identifiants uniques pour l’élément de flux. Par exemple, le SKU et le code d’affichage de la boutique pour le flux de produits. Les valeurs varient selon le flux. |
+| **Statut de l’exportation** | [état de synchronisation](#export-status-types) de l’élément de flux, avec des indicateurs codés par couleur |
+| **Date de la dernière synchronisation** | Date et heure de la dernière tentative d’exportation ou d’envoi depuis Commerce. Cet horodatage ne confirme pas la disponibilité en aval. |
+| **L’Entité Est-Elle Supprimée ?** | Indique si l’entité a été supprimée dans Adobe Commerce. Les éléments supprimés ne s’affichent que si la synchronisation a échoué. |
+| **ID de requête** | ID unique de la requête de synchronisation. Fournissez-le à l’assistance lors du dépannage des mises à jour d’entités. |
+| **Erreur** | Informations détaillées sur les erreurs lors des échecs de synchronisation |
+
+Vous pouvez gérer la vue à l&#39;aide des commandes suivantes :
+
+- [!UICONTROL Mass Action] de planifier la resynchronisation des éléments de flux sélectionnés
+- [!UICONTROL Filters] et [!UICONTROL Columns]
+- [!UICONTROL Default View] de créer et d’enregistrer une vue filtrée, et de basculer entre les vues
+
+### Indicateurs d’intégrité des flux {#feed-health-indicators}
+
+| **Indicateur** | **Description** |
+| ------------- | --------------- |
+| Statut de l’indexeur | <ul><li>**Prêt** : l’indexeur est à jour. Aucune réindexation requise.</li><li>**Réindexation requise** : données Source modifiées. Exécutez une réindexation pour capturer les modifications récentes.</li><li>**Traitement** : l’indexation est en cours.</li></ul> |
+| Liste d&#39;attente du journal des modifications | <ul><li>**Tous synchronisés** : aucune modification en attente à traiter.</li><li>**Éléments dans la liste d&#39;attente** : nombre de modifications en attente de traitement. Une liste d’attente de plus de 1 000 éléments peut indiquer des problèmes de performances.</li></ul> |
+| Mode indexeur | <ul><li>**Mode de planification** (recommandé) : l’indexeur s’exécute selon le calendrier, ce qui réduit le risque de perte de données.</li><li>**Mise à jour lors de l’enregistrement** (temps réel) : affiché comme un avertissement sur la page. Le mode temps réel n’est pas attendu et augmente le risque de perte de données en cas de forte charge.</li></ul> |
+
+>[!TIP]
+>
+> Pour en savoir plus sur le traitement des index, consultez la rubrique [Gestion des index](index-management.md).
+
+### Types de statut d&#39;export {#export-status-types}
+
+| **Statut** | **Description** | **Action requise** |
+| ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------ |
+| **Soumis au service** | L’élément de flux a été envoyé avec succès depuis Commerce pour le traitement en aval. | Aucune |
+| **Échec, va réessayer** | Échec de l&#39;envoi, mais le système tentera de le renvoyer. | Surveiller la résolution |
+| **Échec, requiert votre attention** | Échec en raison d&#39;une erreur d&#39;application ou de données. | Examiner et résoudre le problème dans la colonne [!UICONTROL Error] |
+| **En attente d’envoi** | Modifications détectées dans le journal des modifications, mais pas encore traitées. | État de traitement normal |
+
+## Surveillance du statut des flux de données
+
+Lorsque vous mettez à jour des entités liées à des produits et à des catégories dans la base de données Commerce, les données sont transférées vers les services Commerce en fonction de la configuration de votre flux. Vous pouvez surveiller l’activité d’exportation et son statut actuel à partir de la page de résumé de la [!UICONTROL Data Feed Sync Status].
+
+>[!IMPORTANT]
+>
+> Le temps nécessaire à la synchronisation des données varie en fonction de la taille de votre catalogue, du volume de données mises à jour et des performances du service externe.
+
+Lorsque le nombre d’envois réussis correspond au nombre source d’un flux et qu’aucun élément n’est en attente d’envoi ou n’a échoué, Commerce a terminé l’exportation de ce flux. Utilisez le tableau de bord approprié pour [confirmer la disponibilité en aval](#confirm-data-in-connected-services).
+
+>[!NOTE]
+>
+> Adobe fournit également des outils d’interface de ligne de commande et des journaux système que les développeurs et les intégrateurs système peuvent utiliser pour gérer et suivre les opérations de synchronisation. Pour plus d&#39;informations, consultez le [Guide d&#39;exportation de données SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview).
+
+### Gérer les exportations ayant échoué {#manage-failed-exports}
+
+Pour passer en revue les exportations ayant échoué et planifier une resynchronisation :
+
+1. Sur la page de résumé, recherchez le flux avec les enregistrements ayant échoué.
+1. Sélectionnez **[!UICONTROL Details]**.
+1. Vérifiez les messages d’erreur dans la colonne [!UICONTROL Error] .
+1. Sélectionnez les enregistrements à resynchroniser à l’aide des cases à cocher.
+1. Dans le menu [!UICONTROL Mass Action], sélectionnez **[!UICONTROL Schedule Resync]**, sélectionnez **[!UICONTROL Submit]** et confirmez l’opération.
+1. Surveillez les modifications de statut dans la page de détails.
+
+Le système réessaye automatiquement certains échecs.
+
+#### Quand resynchroniser manuellement {#resync-feed-items}
+
+Resynchronisez manuellement dans ces cas :
+
+- Des erreurs d’authentification ou d’autorisation (codes d’état 401 ou 403) persistent
+- Correction de problèmes de format des données qui provoquaient des erreurs de payload
+- Configuration de service externe ou points d’entrée modifiés
+- Des personnalisations affectant l’exportation des données ont été déployées.
+
+### Confirmer les données dans les services connectés {#confirm-data-in-connected-services}
+
+Pour vérifier la synchronisation de bout en bout une fois les exportations terminées, utilisez l’une des méthodes suivantes. Pour connaître les limites du statut d’exportation sur cette page, reportez-vous à la [remarque ci-dessus](#export-status-scope).
+
+- **[!DNL Adobe Commerce as a Cloud Service]avec les services Commerce :** vérifiez le [tableau de bord de gestion des données](data-dashboard.md) applicable pour confirmer la disponibilité en aval.
+- **Adobe Commerce sur le cloud ou On-premise avec Adobe Commerce Optimizer Connector** : vérifiez d’abord le statut d’exportation de l’administrateur Commerce, puis vérifiez la page [Synchronisation des données](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) dans [!DNL Commerce Optimizer Studio]
+- **[!DNL Adobe Commerce Optimizer](autonome) :** données ne sont pas exportées à partir du serveur principal Commerce. Utilisez la [page Synchronisation des données](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) dans [!DNL Commerce Optimizer Studio] pour confirmer la disponibilité des données.
+
+>[!TIP]
+>
+> Pour en savoir plus sur le processus de synchronisation des données, consultez la section [Synchroniser les données avec l’exportation de données SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#view-and-manage-the-synchronization-process) du *Guide d’exportation de données SaaS*.
+
+## Bonnes pratiques {#best-practices}
+
+- Consultez quotidiennement la page de résumé pour les flux présentant des taux d’échec élevés.
+- Consultez chaque semaine les détails des flux critiques, tels que les produits et les prix.
+- Suivez les tendances de succès des exportations chaque mois pour identifier les problèmes récurrents.
+
+## Résolution des problèmes courants {#troubleshoot-common-issues}
+
+| Problème | Symptômes | Que faire |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Taux d’échec élevés | De nombreux enregistrements affichent le statut *Échec, nécessite une attention* | <ul><li>Vérifier le statut et la configuration du service externe</li><li>Vérifier les messages d’erreur pour les modèles de la colonne [!UICONTROL Error]</li><li>Une fois le problème sous-jacent résolu, consultez [Gérer et resynchroniser les exportations en échec](#manage-failed-exports)</li><li>Contactez le support technique externe si nécessaire</li></ul> |
+| Performances d’exportation lentes | Liste d&#39;attente élevée pour les modifications ou mises à jour de statut lentes | <ul><li>Vérifiez [indicateurs d’intégrité des flux](#feed-health-indicators) l’indexeur et le statut de la liste d’attente</li><li>Réexécutez l’indexation si **Réindexation requise** s’affiche.</li><li>Surveiller les temps de réponse du service externe</li><li>Planifier des exportations pendant les heures creuses lorsque cela est possible</li><li>Examen des ressources et des performances du système</li></ul> |
+| Échecs d&#39;authentification | Codes d’état 401 ou 403 dans la colonne [!UICONTROL Error] | <ul><li>Vérification des informations d’identification et des jetons d’API</li><li>Vérifier les autorisations du compte de service externe</li><li>Renouveler les jetons expirés ou contacter votre fournisseur de services</li><li>Une fois les informations d’identification restaurées, [resynchronisez les enregistrements concernés](#manage-failed-exports)</li></ul> |
+| Page de statut de synchronisation des flux de données manquants | **[!UICONTROL Data Feed Sync Status]** n’est pas répertorié sous **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** après l’activation d’un service connecté | <ul><li>Pour Commerce as a Cloud Service, vérifiez qu’un service éligible est activé (voir [ Audience et disponibilité ](#audience)).</li><li>Pour Commerce sur le cloud ou On-premise uniquement, [Installez l’extension manuellement](#install-the-extension)</li></ul> |
+
+Adobe Commerce sur les infrastructures cloud ou sur site : vérifiez qu’un service éligible ou le connecteur Adobe Commerce Optimizer est activé ; si la page est toujours manquante, suivez les instructions d’installation manuelle.
+ACCS ou Adobe Commerce Optimizer : n’installez pas le module manuellement, utilisez l’expérience de synchronisation gérée par le produit ou contactez l’équipe d’assistance technique appropriée.
+
+## Installation de l’extension {#install-the-extension}
+
+Une installation manuelle est requise pour les déploiements Adobe Commerce sur le cloud ou sur site uniquement si la page [!UICONTROL Data Feed Sync Status] est manquante dans la zone d’administration après l’activation d’un service éligible. Voir [ Audience et disponibilité ](#audience).
+
+### Conditions préalables
+
+- Adobe Commerce 2.4.4+. Pour connaître la configuration requise, voir [Configuration requise](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements).
+- [Extension Adobe Commerce Data Export](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/reference/manage-extension), version 103.4.15 ou ultérieure
+- Clés d’authentification avec l’autorisation de télécharger le package requis à partir du référentiel Adobe Commerce. Pour créer des clés d’authentification et obtenir l’accès au package nécessaire, voir [ Obtenir vos clés d’authentification ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Pour les installations cloud, consultez le guide [Commerce sur les infrastructures cloud](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
+- Accès à la ligne de commande du serveur applicatif Adobe Commerce.
 
 ### Etapes d&#39;installation
 
@@ -102,201 +196,10 @@ composer require magento/module-data-exporter-status
 
 Pour obtenir des instructions d’installation détaillées, consultez les guides suivants :
 
-* [Installation de l’extension sur Adobe Commerce sur une infrastructure cloud](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/configure-store/extensions)
-
-* [Installation de l’extension Adobe Commerce sur site](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/tutorials/extensions)
-
-## Accès à la page Statut du flux de données
-
-À partir de l’Administration Commerce, accédez à la page Statut du flux de données à partir de l’Administration Commerce sous **[!DNL System]** > Transfert de données > **[!DNL Data Feed Sync Status]**.
-
-![Page Statut de synchronisation des flux de données résumant l’activité d’exportation des flux de données](assets/data-feed-sync-status.png)
-
-La surveillance du statut des flux de données fournit deux interfaces :
-
-* La [page récapitulative du statut de synchronisation des flux de données](#data-feed-sync-status-summary) qui répertorie les flux disponibles et l’état actuel
-* La page [Statut de synchronisation des flux de données - Détails](#data-feed-sync-status-details) qui affiche des informations détaillées sur un flux sélectionné.
-
-## Résumé du statut de synchronisation des flux de données
-
-La page de synthèse du statut de synchronisation des flux fournit des informations sur l’activité d’exportation des flux de données, notamment les informations suivantes :
-
-| Champ | Description |
-|-------|-------------|
-| **Nom du flux** | Nom de l’indexeur de flux responsable de la synchronisation d’une entité spécifique ou de sa partie, par exemple le produit ou le prix du produit. |
-| **Enregistrements** | Nombre d’enregistrements disponibles à l’export depuis la base de données Commerce. Ce nombre peut être supérieur au nombre d’enregistrements affichés dans l’Administration Commerce, car chaque élément de flux appartient à une portée spécifique, telle que le code d’affichage du magasin. |
-| **Enregistrements envoyés avec succès** | Nombre d’enregistrements transmis avec succès au SaaS Commerce pour un traitement ultérieur. Si des erreurs se sont produites lors de la transmission, le nombre d’enregistrements transmis avec succès aux services externes. |
-| **Enregistrements ayant échoué** | Nombre d’enregistrements dont l’exportation a échoué et qui nécessitent une attention particulière. |
-| **Action** | Sélectionnez **[!UICONTROL Details]** pour afficher l’activité de synchronisation d’un flux. |
-
-## Détails du statut de synchronisation du flux de données
-
-Dans la page de résumé du statut du flux de données , cliquez sur le nom d’un flux ou utilisez l’action [!DNL View Details] pour accéder à des informations détaillées sur les enregistrements individuels d’un flux.
-
-![[!UICONTROL Data Feed Sync Status - Details] page avec rapport du statut des éléments de flux](assets/data-feed-sync-status-details.png)
-
-La vue détaillée fournit les informations suivantes pour chaque élément de flux :
-
-| Champ | Description |
-|-------|-------------|
-| **ID d’élément de flux** | Identifiant interne de l’enregistrement du flux |
-| **Identifiant de l’entité** | L’ID de l’entité source (ID de produit, ID de catégorie, etc.) |
-| **Statut de l’exportation** | [état de synchronisation](#export-status-types) de l’élément de flux. Statut actuel de la tentative d’exportation avec des indicateurs codés par couleur |
-| **Date de la dernière synchronisation** | Date et heure du dernier envoi de l’enregistrement aux services Commerce |
-| **L’entité est-elle supprimée ?** | Indique si l&#39;entité ou sa partie (produit ou prix de produit par exemple) a été supprimée dans Adobe Commerce. Les éléments ne s’affichent que si une erreur s’est produite lors de la synchronisation. |
-| **ID de requête** | Identifiant unique de la demande de synchronisation. Fournissez cet identifiant à l’assistance lors de la résolution des problèmes de mises à jour d’entités spécifiques. |
-| **Erreur** | Informations détaillées sur l’erreur si la synchronisation de l’élément de flux a échoué. |
-
-Vous pouvez gérer la vue à l&#39;aide des commandes suivantes :
-
-* [!DNL Mass Action] de planifier la resynchronisation des éléments de flux sélectionnés
-* [!DNL Filters]
-* [!DNL Default View] de créer et d’enregistrer une vue filtrée, et de basculer entre les vues
-* [!DNL Columns] d’afficher et de masquer les colonnes du tableau.
-
-### Indicateurs d’intégrité des flux
-
-En haut de la page des détails de chaque flux, les indicateurs d’intégrité critiques indiquent l’état du système pour chaque flux :
-
-#### Statut de l’indexeur
-
-* **Valide** : les données sont synchronisées ; aucune réindexation n’est requise.
-* **Non valide** : les données d’origine ont été modifiées. L’index doit être mis à jour.
-* **Traitement** : indexation en cours.
-
->[!TIP]
->
->Pour en savoir plus sur le traitement des index, consultez la rubrique [Gestion des index](https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/tools/index-management).
-
-#### Liste d&#39;attente du journal des modifications
-
-* **Tous synchronisés** : aucune modification en attente à traiter
-* **Éléments dans la liste d&#39;attente** : nombre de modifications en attente de traitement
-
-### Types de statut d&#39;export
-
-Le système fournit des indicateurs de statut pour vous aider à identifier rapidement les problèmes :
-
-#### Catégories de statut
-
-| **Statut** | **Description** | **Action requise** |
-|--------|-----------|-------------|
-| **Soumis au service** | L’élément de flux a été exporté vers le service Commerce. | Aucune |
-| **Échec, va réessayer** | Echec temporaire. Le système réessaiera automatiquement. | Surveiller la résolution |
-| **Échec, requiert votre attention** | Échec en raison d&#39;une erreur d&#39;application ou de données. | Examiner et résoudre le problème dans la colonne [!DNL Error] |
-| **En attente d’envoi** | En file d’attente pour l’exportation, mais pas encore traité. | État de traitement normal |
-
-## Surveillance du statut des flux de données
-
-Lorsque vous mettez à jour des entités liées à des produits et à des catégories dans la base de données Commerce, les données sont transférées vers les services Commerce en fonction de la configuration de votre flux. Vous pouvez surveiller ce processus en temps réel à partir de la page de résumé du statut de synchronisation des flux de données .
-
->[!IMPORTANT]
->
->Le temps nécessaire à la synchronisation des données varie en fonction de la taille de votre catalogue, du volume de données mises à jour et des performances du service externe.
-
-Lorsque le nombre d’enregistrements envoyés avec succès correspond au nombre d’enregistrements sources, cela indique que la synchronisation est terminée et que toutes les données ont été transmises avec succès.
-
->[!NOTE]
->
->Adobe fournit également des outils d’interface de ligne de commande et des journaux système que les développeurs et les intégrateurs système peuvent utiliser pour gérer et suivre les opérations de synchronisation. Pour plus d&#39;informations, consultez le [Guide d&#39;exportation de données SaaS](https://experienceleague.adobe.com/fr/docs/commerce-merchant-services/saas-data-export/overview).
-
-### Gestion des exportations ayant échoué
-
-Pour afficher les détails des exportations ayant échoué et prendre des mesures correctives :
-
-1. Sur la page État de synchronisation des flux , recherchez le flux avec des enregistrements ayant échoué.
-1. Cliquez sur **[!DNL Details]**.
-
-1. Consultez les messages d’erreur pour des raisons d’échec spécifiques.
-
-1. Utilisez des actions en masse pour planifier des opérations de resynchronisation pour les éléments ayant échoué.
-
-### Données d’échec de resynchronisation
-
-Vous pouvez resynchroniser manuellement les flux de données ayant échoué ou posé problème à l’aide du menu [!DNL Actions] de la page [!DNL Data Feed Sync Status - Details].
-
-Alors que le système tente automatiquement de reproduire certains types d’échecs, une intervention manuelle peut s’avérer nécessaire dans les scénarios suivants :
-
-* Vous constatez des erreurs d’authentification ou d’autorisation (codes d’état 401 et 403).
-* Après avoir résolu les problèmes de format de données qui provoquaient des erreurs de payload.
-* Suivi des mises à jour des configurations de service externes ou des points d’entrée.
-* Vous déployez des personnalisations qui affectent les processus d’exportation de données.
-
-En surveillant de manière proactive l’état des flux et en corrigeant rapidement les défaillances, vous pouvez maintenir la cohérence et la fiabilité des données dans l’ensemble de votre écosystème Commerce.
-
-#### Resynchroniser manuellement les éléments de flux
-
-Si vous devez resynchroniser des éléments de flux spécifiques :
-
-1. **Sélectionner les enregistrements** : utilisez des cases à cocher pour sélectionner les enregistrements ayant échoué et nécessitant une attention particulière.
-2. **Choisir une action** : sélectionnez **[!DNL Schedule Resync]** dans la liste déroulante d’actions en masse.
-3. **Confirmer** : cliquez sur **[!DNL Submit]** et confirmez l’opération de resynchronisation.
-4. **Surveiller les résultats** : vérifiez le message de réussite et surveillez les modifications de statut.
-
-## Bonnes pratiques
-
-### Surveillance régulière
-
-1. **Contrôles quotidiens** : consultez quotidiennement la page d’aperçu des flux présentant des taux d’échec élevés
-1. **Weekly Deep Dive** : examiner le statut détaillé des flux critiques (produits, prix)
-1. **Analyse mensuelle** : suivez les tendances en matière de taux de réussite et de performances des exportations
-
-### Workflow de dépannage
-
-1. **Identifier les problèmes** : rechercher les erreurs et les nombres d’échecs élevés
-1. **Vérifier l’intégrité de l’indexeur** : assurez-vous que les indexeurs sont valides et que la liste d’attente est gérable
-1. **Consulter les détails de l’erreur** : cliquez sur les enregistrements ayant échoué pour afficher des messages d’erreur spécifiques
-1. **Planifier la resynchronisation** : utilisez des actions en masse pour réessayer les exportations ayant échoué.
-1. **Résolution du moniteur** : vérifiez que les éléments resynchronisés affichent le statut Succès
-
-### Correction de problèmes courants
-
-#### Taux d’échec élevés
-
-**Symptômes** : grand nombre d’enregistrements affichant le statut « Échec, nécessite une attention particulière »
-
-**Causes potentielles** :
-
-* Modifications de la configuration du service externe
-* Incompatibilités entre les formats de données
-* Problèmes d’authentification ou d’autorisation
-
-**Étapes de résolution** :
-
-1. Vérifier le statut et la configuration du service externe
-1. Vérifier les messages d’erreur pour les modèles
-1. Vérifier les informations d’authentification
-1. Contactez le support technique externe si nécessaire
-
-#### Performances d’exportation lentes
-
-**Symptômes** : journal des modifications volumineux, mises à jour de statut lentes
-
-**Causes potentielles** :
-
-* Problèmes de performances de l’indexeur
-* Volume de données élevé
-* Limitation de débit de service externe
-
-**Étapes de résolution** :
-
-1. Vérifier le statut de l’indexeur et le réexécuter s’il n’est pas valide
-2. Surveiller les temps de réponse du service externe
-3. Envisagez de planifier des exportations pendant les heures creuses
-4. Examen des ressources et des performances du système
-
-#### Échecs d&#39;authentification
-
-**Symptômes** : codes d’état 401 ou 403
-
-**Étapes de résolution** :
-
-1. Vérification des informations d’identification et des jetons d’API
-1. Vérifier les autorisations du compte de service externe
-1. Renouveler les jetons d’authentification expirés
-1. Contactez votre fournisseur pour les problèmes d’accès
+- [Installation de l’extension pour Adobe Commerce sur une infrastructure cloud](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+- [Installation de l’extension sur Adobe Commerce On-premise](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 >[!MORELIKETHIS]
 >
->* [Tableau de bord de gestion des données](https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)
->* [Guide d&#39;exportation de données SaaS](https://experienceleague.adobe.com/fr/docs/commerce-merchant-services/saas-data-export/overview)
+> - [Tableau de bord de gestion des données](data-dashboard.md)
+> - [Guide d&#39;exportation de données SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)
