@@ -3,7 +3,7 @@ title: Configuration de l’intégration d’administration Commerce avec l’ID
 description: Suivez cette procédure facultative pour intégrer les connexions du compte utilisateur d’administrateur Adobe Commerce à Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/gpbB0FZxHJdlef-Xv6DIMs4ixUg1R4kZxF6Hau94n9o
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -51,8 +51,8 @@ Cette intégration prend en charge les commerçants Commerce avec les utilisateu
 
 L’administrateur qui configure cette intégration a besoin des informations d’identification suivantes pendant l’activation du module :
 
-* Identifiant de l&#39;organisation (obtenu à partir de [&#128279;](https://adminconsole.adobe.com/)), qui doit comporter au moins 24 caractères. L’utilisateur authentifié doit appartenir à cette organisation IMS. Pour plus d’informations sur la recherche de votre ID d’organisation, voir [&#x200B; Organisations dans Experience Cloud &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations).
-* 2FA doit être appliqué au niveau de l’organisation dans Adobe Admin Console pour activer le module. Cochez la case [Paramètres d’authentification](https://helpx.adobe.com/business/enterprise/manage-your-organization-setup/authentication-settings.html#two-step-verification).
+* Identifiant de l&#39;organisation (obtenu à partir de [&#128279;](https://adminconsole.adobe.com/)), qui doit comporter au moins 24 caractères. L’utilisateur authentifié doit appartenir à cette organisation IMS. Pour plus d’informations sur la recherche de votre ID d’organisation, voir [&#x200B; Organisations dans Experience Cloud &#x200B;](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/organizations).
+* 2FA doit être appliqué au niveau de l’organisation dans Adobe Admin Console pour activer le module. Cochez la case [Paramètres d’authentification](https://helpx.adobe.com/fr/business/enterprise/manage-your-organization-setup/authentication-settings.html#two-step-verification).
 * Identifiant client
 * Secret client
 * L’ID client et le secret client sont disponibles après la récupération des clés API du [&#128279;](https://developer.adobe.com/developer-console/docs/guides/credentials).
@@ -99,9 +99,9 @@ Avant d’activer l’intégration, vérifiez que chaque compte utilisateur admi
 
 >[!TIP]
 >
->Vous pouvez créer plusieurs comptes utilisateur en chargeant les informations utilisateur à partir d’un fichier CSV. Voir [Gérer plusieurs utilisateurs](https://helpx.adobe.com/business/enterprise/manage-users/user-management-strategies/bulk-upload-users.html).
+>Vous pouvez créer plusieurs comptes utilisateur en chargeant les informations utilisateur à partir d’un fichier CSV. Voir [Gérer plusieurs utilisateurs](https://helpx.adobe.com/fr/business/enterprise/manage-users/user-management-strategies/bulk-upload-users.html).
 
-1. Dans [&#128279;](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html), accédez à **[!UICONTROL Users]** > **[!UICONTROL Users]**.
+1. Dans [&#128279;](https://helpx.adobe.com/fr/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html), accédez à **[!UICONTROL Users]** > **[!UICONTROL Users]**.
 
 1. Cliquez sur **[!UICONTROL Add User]**.
 
@@ -132,4 +132,4 @@ Une fois cette fonctionnalité activée, vous pouvez effectuer la transition d�
 
 ## Identité et authentification SSO
 
-Voir [Configurer l’identité et l’authentification unique](https://helpx.adobe.com/business/enterprise/set-up-your-organization/set-up-identity.html) dans la documentation *Enterprise Admin Console* pour obtenir des instructions sur la configuration de l’identité et de l’authentification unique.
+Voir [Configurer l’identité et l’authentification unique](https://helpx.adobe.com/fr/business/enterprise/set-up-your-organization/set-up-identity.html) dans la documentation *Enterprise Admin Console* pour obtenir des instructions sur la configuration de l’identité et de l’authentification unique.
