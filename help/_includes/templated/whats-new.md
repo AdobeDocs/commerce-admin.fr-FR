@@ -23,7 +23,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Actualisation de la rubrique <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Statut de synchronisation des flux de données</a> pour correspondre à l’expérience d’administration actuelle, clarifier le fait que la page signale uniquement le statut d’exportation et documenter la disponibilité de la fonctionnalité dans toutes les licences de service Commerce.</p>
+      <td><p>Actualisation de la rubrique <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Statut de synchronisation des flux de données</a> pour correspondre à l’expérience d’administration actuelle, clarifier le fait que la page signale uniquement le statut d’exportation et documenter la disponibilité de la fonctionnalité dans toutes les licences de service Commerce.</p>
 </td>
       <td>
         Mise à jour majeure
@@ -45,7 +45,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Découvrez comment supprimer des catégories spécifiques d’e-mails système automatisés, telles que les notifications de commande ou de marketing, directement à partir de l’interface d’administration dans <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/email-suppression">Suppression des e-mails</a>.</p>
+      <td><p>Découvrez comment supprimer des catégories spécifiques d’e-mails système automatisés, telles que les notifications de commande ou de marketing, directement à partir de l’interface d’administration dans <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/config/services/email-suppression">Suppression des e-mails</a>.</p>
 </td>
       <td>
         Mise à jour majeure, nouvelle rubrique
@@ -67,7 +67,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Ajout de la section <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment">Enrichissement du catalogue</a> avec des conseils pour examiner et appliquer les mises à jour de nom et de description de produit suggérées par l’IA dans l’interface utilisateur d’administration. Liaison de la rubrique à partir des rubriques <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu">Menu catalogue</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview">Présentation du guide</a> et des rubriques de paramètres de produit associées.</p>
+      <td><p>Ajout de la section <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/catalog/products/catalog-enrichment">Enrichissement du catalogue</a> avec des conseils pour examiner et appliquer les mises à jour de nom et de description de produit suggérées par l’IA dans l’interface utilisateur d’administration. Liaison de la rubrique à partir des rubriques <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/catalog/catalog-menu">Menu catalogue</a>, <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/catalog/guide-overview">Présentation du guide</a> et des rubriques de paramètres de produit associées.</p>
 </td>
       <td>
         Nouvelle rubrique
@@ -89,7 +89,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Ajout de la section <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-system-admin-account"> Mettre à jour l’accès administrateur système </a> avec des conseils pour gérer les affectations d’administrateur système dans Adobe Admin Console.</p>
+      <td><p>Ajout de la section <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/start/commerce-account/commerce-system-admin-account"> Mettre à jour l’accès administrateur système </a> avec des conseils pour gérer les affectations d’administrateur système dans Adobe Admin Console.</p>
 </td>
       <td>
         Feedback
