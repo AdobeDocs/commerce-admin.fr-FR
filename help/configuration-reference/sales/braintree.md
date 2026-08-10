@@ -23,7 +23,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: 2710
+source-wordcount: 2904
 ht-degree: 0%
 
 ---
@@ -32,10 +32,12 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**Migration de Commerce 2.4 :**<br/>
+>Migration de **Commerce 2.4 :**<br/>
 >Pour les versions d’Adobe Commerce et de Magento Open Source antérieures à la version 2.4.0, il était recommandé aux commerçants d’installer et de configurer l’extension d’intégration des paiements Braintree officielle à partir de [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree) pour remplacer l’intégration principale. Depuis la version 2.4.0, l’extension est désormais incluse dans la version principale.
-><br/><br/>>Lors de la migration vers Commerce 2.4, les commerçants doivent désinstaller l’extension distribuée sur Marketplace (`paypal/module-braintree` ou `gene/module-braintree`) et mettre à jour toutes les personnalisations de code pour utiliser l’espace de noms `PayPal_Braintree` au lieu de `Magento_Braintree`. Les paramètres de configuration de l’extension groupée pour Commerce et de l’extension distribuée sur Commerce Marketplace sont conservés. Les paiements placés avec ces versions de l’extension sont capturés, annulés ou remboursés normalement.
-><br/><br/>>Si vous effectuez une mise à niveau vers Commerce 2.4.0 et n’utilisez pas l’extension Commerce Marketplace recommandée dans votre version 2.3.x précédente, la fonction multi-adresses ne fonctionne pas avec la version 2.4.0 de Braintree. Lorsqu’un acheteur sélectionne _diffuser à plusieurs adresses_ , le mode de paiement Braintree n’apparaît pas. L’extension Commerce Marketplace précédemment recommandée pour la version 2.3.x présente ce problème d’adresses multiples.
+><br/><br/>
+>Lors de la migration vers Commerce 2.4, les commerçants doivent désinstaller l’extension distribuée sur Marketplace (`paypal/module-braintree` ou `gene/module-braintree`) et mettre à jour toutes les personnalisations de code pour utiliser l’espace de noms `PayPal_Braintree` au lieu de `Magento_Braintree`. Les paramètres de configuration de l’extension groupée pour Commerce et de l’extension distribuée sur Commerce Marketplace sont conservés. Les paiements placés avec ces versions de l’extension sont capturés, annulés ou remboursés normalement.
+><br/><br/>
+>Si vous effectuez une mise à niveau vers Commerce 2.4.0 et n’utilisez pas l’extension Commerce Marketplace recommandée dans votre version 2.3.x précédente, la fonctionnalité multi-adresses ne fonctionne pas avec la version 2.4.0 de Braintree. Lorsqu’un acheteur sélectionne _diffuser à plusieurs adresses_ , le mode de paiement Braintree n’apparaît pas. L’extension Commerce Marketplace précédemment recommandée pour la version 2.3.x présente ce problème d’adresses multiples.
 
 {{config}}
 
