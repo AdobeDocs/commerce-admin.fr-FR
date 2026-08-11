@@ -18,10 +18,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: adab8959a614dc1a714ce53f390f2c1f70c27402
 workflow-type: tm+mt
-source-wordcount: 130
-ht-degree: 3%
+source-wordcount: 157
+ht-degree: 2%
 
 ---
 
@@ -34,6 +34,8 @@ Le journal des actions en masse enregistre les détails des opérations en masse
 ![Journal des actions en bloc](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
 
 ## Configuration des actions en bloc
+
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

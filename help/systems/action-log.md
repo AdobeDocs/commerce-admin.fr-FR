@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 207d5fac67567c7f83c88d5a430bf24cf3e97828
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: 318
 ht-degree: 0%
 
 ---
@@ -41,6 +41,10 @@ Affichez le [rapport Journaux d’actions](action-log-report.md) pour consulter 
 ![Configuration avancée - Journalisation des actions d’administration](../configuration-reference/advanced/assets/admin-actions-logging.png){width="600" zoomable="yes"}
 
 Pour obtenir la liste détaillée des paramètres de configuration, voir [Archivage du journal des actions d’administration](../configuration-reference/advanced/system.md) dans la _Référence de configuration_.
+
+>[!NOTE]
+>
+>Sur la plateforme [!DNL Adobe Commerce as a Cloud Service], vous ne pouvez pas configurer le rapport Journal des actions, l’archive du journal des actions et le journal des actions en bloc, mais vous pouvez consulter la sortie du rapport à partir du menu **[!UICONTROL System]** > _[!UICONTROL Action Logs]_&#x200B;dans l’Administration.
 
 ## Configuration des actions d’administration pour la journalisation
 
