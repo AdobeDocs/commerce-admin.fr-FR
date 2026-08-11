@@ -23,9 +23,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 6b1ee79bdfd54de298e6ab80d63222b7b12bb96c
 workflow-type: tm+mt
-source-wordcount: 900
+source-wordcount: 867
 ht-degree: 0%
 
 ---
@@ -51,8 +51,6 @@ Certaines intégrations de paiements et extensions groupées ont été supprimé
 - **Amazon Pay** et **Klarna** : les versions 2.4.0 à 2.4.3 d’Adobe Commerce et Magento Open Source incluaient ces extensions développées par le fournisseur. À compter de la version 2.4.4, ces extensions ne sont plus incluses dans la version de base et doivent être installées et mises à jour à partir de Commerce Marketplace. La Marketplace permet également d’accéder à la documentation actuelle fournie par le développeur d’extensions.
 
   Si l’une de ces extensions groupées est activée et configurée, vous devez mettre à jour votre fichier composer.json dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Voir [Mise à niveau des modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=fr) dans le _Guide de mise à niveau_ pour plus d’informations.
-
-- **Worldpay**, **Eway**, **CyberSource** et **Authorize.Net** : Pour plus d’informations sur la manière d’effectuer une transition sécurisée depuis ces intégrations de paiement, consultez le [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
 ## Modes de paiement hors ligne
 
