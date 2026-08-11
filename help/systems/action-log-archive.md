@@ -31,7 +31,7 @@ ht-degree: 0%
 
 L’archive Admin [actions](action-log.md) répertorie les fichiers journaux CSV stockés sur le serveur.
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} dans la configuration, vous pouvez spécifier la durée pendant laquelle les entrées de journal sont stockées et la fréquence à laquelle elles sont archivées. Par défaut, le nom de fichier inclut la date actuelle au format ISO : `yyyyMMddHH`
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} dans la configuration, vous pouvez spécifier la durée pendant laquelle les entrées de journal sont stockées et la fréquence à laquelle elles sont archivées. Par défaut, le nom de fichier inclut la date actuelle au format ISO : `yyyyMMddHH`
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ L’archive Admin [actions](action-log.md) répertorie les fichiers journaux CSV
 
 ## Configuration de l’archive du journal
 
-badgePaas : label=« PaaS uniquement » type=« Informative » url=« https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions » tooltip=« S’applique aux projets Adobe Commerce sur Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-Premise uniquement. »
+badgePaas : label=« PaaS uniquement » type=« Informative » url=« https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions » tooltip=« S’applique aux projets Adobe Commerce sur Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-Premise uniquement. »
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
