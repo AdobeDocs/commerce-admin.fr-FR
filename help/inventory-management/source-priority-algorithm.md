@@ -1,26 +1,17 @@
 ---
 title: Configuration de l’algorithme de priorité Source
-description: Découvrez comment configurer la priorité de la source utilisée pour l’ordre des sources affectées dans votre stock afin de faire des recommandations.
+description: Configurez l'ordre de priorité des origines dans un stock afin que l'algorithme Priorité Source recommande les origines pour les expéditions et les déductions.
 exl-id: 7b25212d-0cd0-4280-be23-c67f06db900a
 feature: Inventory, Shipping/Delivery
 TQID: https://experienceleague.adobe.com/TB4THYjkzbNvEbsjNzOewNtYS6JoRvLDiQQCovSMkbI
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 271
+source-wordcount: 269
 ht-degree: 0%
 
 ---
@@ -39,7 +30,7 @@ Lorsqu’il est exécuté, l’algorithme :
 
 - Ignore les sources désactivées si elles figurent dans la liste
 
-Pour configurer, organisez ces sources de haut en bas en priorité pour exécuter les commandes. L&#39;algorithme Source Selection Algorithm (SSA) fournit un algorithme Priorité en utilisant cet ordre lors de la détermination des déductions d&#39;expédition et de stock. Voir [&#x200B; Hiérarchisation des sources pour un stock](stocks-prioritize-sources.md).
+Pour configurer, organisez ces sources de haut en bas en priorité pour exécuter les commandes. L&#39;algorithme Source Selection Algorithm (SSA) fournit un algorithme Priorité en utilisant cet ordre lors de la détermination des déductions d&#39;expédition et de stock. Voir [ Hiérarchisation des sources pour un stock](stocks-prioritize-sources.md).
 
 ## Configurer la priorité des sources
 
@@ -49,7 +40,7 @@ Pour configurer, organisez ces sources de haut en bas en priorité pour exécute
 
 1. Cliquez sur **[!UICONTROL Assign Sources]**.
 
-1. Dans la vue _[!UICONTROL Assign Sources]_, cochez la case correspondant à la source souhaitée, puis cliquez sur **[!UICONTROL Done]**&#x200B;pour affecter une source au stock.
+1. Dans la vue _[!UICONTROL Assign Sources]_, cochez la case correspondant à la source souhaitée, puis cliquez sur **[!UICONTROL Done]**pour affecter une source au stock.
 
 >[!NOTE]
 >
