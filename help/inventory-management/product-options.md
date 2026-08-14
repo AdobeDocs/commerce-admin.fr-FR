@@ -4,11 +4,20 @@ description: Configurez des options d'inventaire avancé par produit [!DNL Inven
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/Fz3Z2nuzHQygjnE5EZYNYi2riXQ1fV2Ufn0sNmjns2s
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
 source-wordcount: 916
@@ -18,7 +27,7 @@ ht-degree: 0%
 
 # Configuration des options du produit [!DNL Inventory Management]
 
-Ces configurations s’appliquent uniquement au produit modifié et remplacent toutes les configurations au niveau du site web global. Modifiez ces paramètres lors de la modification d’un produit via la section _[!UICONTROL Sources]_et la page_[!UICONTROL Advanced Inventory]_.
+Ces configurations s’appliquent uniquement au produit modifié et remplacent toutes les configurations au niveau du site web global. Modifiez ces paramètres lors de la modification d’un produit via la section _[!UICONTROL Sources]_&#x200B;et la page&#x200B;_[!UICONTROL Advanced Inventory]_.
 
 - Configurer les options du produit par source
 - Configuration des options de produit pour l&#39;inventaire avancé
@@ -57,8 +66,8 @@ Configurez les quantités et les paramètres supplémentaires par [source ajout�
 | [!UICONTROL Status] | Global | Le produit est activé ou désactivé dans le catalogue. |
 | [!UICONTROL Source Item Status] | Global | Détermine la disponibilité actuelle du produit. Options :<br />`In Stock` - Rend le produit disponible à l’achat.<br />`Out of Stock` - Sauf si les commandes en souffrance sont activées, empêche l&#39;achat du produit et supprime la liste du catalogue. |
 | [!UICONTROL Qty] | Global | Montant du stock disponible pour chaque origine ou emplacement. |
-| [!UICONTROL Notify Quantity] | Global | Montant de la _[!UICONTROL Notify for Quantity Below]_pour cette source spécifique si_[!UICONTROL Notify Quantity Use Default]_ n’est pas sélectionné. |
-| [!UICONTROL Notify Quantity Use Default] | Global | Indique d’utiliser le paramètre par défaut pour les _[!UICONTROL Notify for Quantity Below]_dans la_[!UICONTROL Advanced Inventory]_ de produit ou le paramètre global dans la configuration du magasin. |
+| [!UICONTROL Notify Quantity] | Global | Montant de la _[!UICONTROL Notify for Quantity Below]_&#x200B;pour cette source spécifique si&#x200B;_[!UICONTROL Notify Quantity Use Default]_ n’est pas sélectionné. |
+| [!UICONTROL Notify Quantity Use Default] | Global | Indique d’utiliser le paramètre par défaut pour les _[!UICONTROL Notify for Quantity Below]_&#x200B;dans la&#x200B;_[!UICONTROL Advanced Inventory]_ de produit ou le paramètre global dans la configuration du magasin. |
 
 ## Options de produit avancées
 
@@ -80,9 +89,9 @@ Configurez les quantités et les paramètres supplémentaires par [source ajout�
 
    | Valeur | Description |
    | ----- | ----- |
-   | Montant positif | Lorsque l’option _[!UICONTROL Backorders]_est désactivée, saisissez une valeur positive. |
-   | Zéro | Lorsque l’option _[!UICONTROL Backorders]_est activée, la saisie de `0` permet un nombre infini de reliquats. |
-   | Montant négatif | Lorsque _[!UICONTROL Backorders]_est activé, il est recommandé de saisir une valeur négative. Le montant est ajouté à la quantité vendable. Par exemple, saisissez `-50` pour autoriser les commandes jusqu&#39;à ce montant. |
+   | Montant positif | Lorsque l’option _[!UICONTROL Backorders]_&#x200B;est désactivée, saisissez une valeur positive. |
+   | Zéro | Lorsque l’option _[!UICONTROL Backorders]_&#x200B;est activée, la saisie de `0` permet un nombre infini de reliquats. |
+   | Montant négatif | Lorsque _[!UICONTROL Backorders]_&#x200B;est activé, il est recommandé de saisir une valeur négative. Le montant est ajouté à la quantité vendable. Par exemple, saisissez `-50` pour autoriser les commandes jusqu&#39;à ce montant. |
 
 1. Saisissez le **[!UICONTROL Minimum Qty Allowed in Shopping Cart]**.
 

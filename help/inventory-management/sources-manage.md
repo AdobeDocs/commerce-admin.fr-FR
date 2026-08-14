@@ -3,11 +3,20 @@ title: Gérer les sources d’inventaire
 description: Présentation des tâches d’administration pour ajouter, modifier, activer et désactiver  [!DNL Inventory Management]  sources qui stockent et expédient le stock de produits.
 exl-id: 1315a8c9-7791-4c4b-9463-3126b79793c2
 TQID: https://experienceleague.adobe.com/bVWqSGSgW08l7zZ7bLuZIcJUjqmj7Npn55yEdZn-aB0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
 source-wordcount: 623
@@ -17,7 +26,7 @@ ht-degree: 0%
 
 # Gestion des sources
 
-Utilisez cette rubrique pour ajouter, modifier, activer et désactiver des sources. Pour connaître la relation entre les sources et les stocks et la quantité vendable, voir [ Stocks et sources ](sources-stocks.md).
+Utilisez cette rubrique pour ajouter, modifier, activer et désactiver des sources. Pour connaître la relation entre les sources et les stocks et la quantité vendable, voir [&#x200B; Stocks et sources &#x200B;](sources-stocks.md).
 
 Il est recommandé de fournir des emplacements géographiques physiques spécifiques lors de la création d’une source. Cela permet à l&#39;_algorithme de priorité de distance_ de comparer l&#39;emplacement de l&#39;adresse de destination d&#39;expédition avec les emplacements sources disponibles afin de déterminer la source la plus proche pour exécuter les expéditions. Vous pouvez utiliser des cartes Google ou des calculs hors ligne, qui utilisent des géocodes. Pour plus d&#39;informations sur cet _algorithme de priorité de distance_, voir [Configurer l&#39;algorithme de priorité de distance](distance-priority-algorithm.md).
 
@@ -42,7 +51,7 @@ Vous pouvez mettre à jour le nom, l’adresse, l’emplacement GPS et les coord
 
 Si vous modifiez le Source par défaut, vous pouvez modifier toutes les configurations, à l’exception du nom et du code. Il est recommandé que les commerçants monosources ajoutent des informations correspondant à leur emplacement.
 
-La page _[!UICONTROL Manage Sources]_répertorie tous les emplacements d&#39;inventaire et installations d&#39;exécution disponibles. Vous pouvez ajouter de nouvelles sources de stock et modifier des emplacements existants.
+La page _[!UICONTROL Manage Sources]_&#x200B;répertorie tous les emplacements d&#39;inventaire et installations d&#39;exécution disponibles. Vous pouvez ajouter de nouvelles sources de stock et modifier des emplacements existants.
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
 
