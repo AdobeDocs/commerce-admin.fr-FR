@@ -1,6 +1,6 @@
 ---
 title: Ajouter une source d’inventaire
-description: Découvrez comment créer une source pour un emplacement, tel qu’un entrepôt, un magasin physique, un centre de distribution ou un chargeur direct.
+description: Ajoutez une source dans l [!DNL Inventory Management] Administration pour un entrepôt, un magasin, un centre de distribution ou un autre emplacement d'exécution.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
@@ -18,16 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 865
+source-wordcount: 858
 ht-degree: 0%
 
 ---
 
 # Ajouter une source
 
-Gérez l’exécution des stocks et des commandes à partir de plusieurs emplacements avec des sources personnalisées. Créez une source pour chaque emplacement, telle que des entrepôts, des magasins physiques, des centres de distribution et des chargeurs. Affecter des sources et mettre à jour des quantités par produit
+Gérez l’exécution des stocks et des commandes à partir de plusieurs emplacements avec des sources personnalisées. Créez une source pour chaque emplacement, telle que des entrepôts, des magasins physiques, des centres de distribution et des chargeurs. Attribuez des sources et mettez à jour les quantités par produit.
 
 Si vous modifiez le Source par défaut, vous pouvez modifier toutes les configurations, à l’exception du nom et du code. Il est recommandé que les commerçants monosources ajoutent des informations correspondant à leur emplacement.
 

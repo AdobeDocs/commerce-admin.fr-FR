@@ -1,6 +1,6 @@
 ---
-title: Gérer le stock
-description: Découvrez comment le stock est utilisé pour représenter un inventaire virtuel et agrégé de produits pour les sources de vos canaux de vente.
+title: Gestion des stocks
+description: Gérez les stocks dans l’administration pour mapper les sources aux canaux de vente, hiérarchiser la réalisation et veiller à ce que les quantités à vendre soient exactes.
 exl-id: 076b1325-2de4-46d3-9976-d900bd2cef47
 TQID: https://experienceleague.adobe.com/IeG1bA1etAjxiDjSWY83GLNugllHT1mUrZBde45Ha8g
 product_v2:
@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 524
+source-wordcount: 522
 ht-degree: 0%
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: Configurer  [!DNL Inventory Management]  commandes en souffrance
-description: Découvrez comment configurer les commandes en souffrance pour prendre en charge la vente de produits en rupture de stock.
+description: Configurez les reliquats globaux et par produit dans  [!DNL Inventory Management]  pour vendre et expédier des produits lorsque la quantité en stock est nulle.
 exl-id: 2fe778df-781e-4cda-8b85-47cf973c9e94
 feature: Inventory, Orders
 TQID: https://experienceleague.adobe.com/-lJVY97Onykamv--OTs7byd-lNcuNTdgRBs-59A-h1c
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 750
+source-wordcount: 754
 ht-degree: 0%
 
 ---

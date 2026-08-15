@@ -1,6 +1,6 @@
 ---
 title: Gérer les sources d’inventaire
-description: Découvrez les sources et comment elles définissent les emplacements physiques où le stock de produits est géré et expédié pour l'exécution des commandes, ou où les services sont disponibles.
+description: Présentation des tâches d’administration pour ajouter, modifier, activer et désactiver  [!DNL Inventory Management]  sources qui stockent et expédient le stock de produits.
 exl-id: 1315a8c9-7791-4c4b-9463-3126b79793c2
 TQID: https://experienceleague.adobe.com/bVWqSGSgW08l7zZ7bLuZIcJUjqmj7Npn55yEdZn-aB0
 product_v2:
@@ -17,16 +17,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 695
+source-wordcount: 623
 ht-degree: 0%
 
 ---
 
 # Gestion des sources
 
-Les origines sont les emplacements physiques où le stock de produits est géré et expédié pour l&#39;exécution des commandes, ou où des services sont disponibles. Ces emplacements peuvent comprendre des entrepôts, des magasins physiques, des centres de distribution, des lieux de ramassage et des chargeurs. Vous affectez des quantités en stock à ces sources et [!DNL Commerce] agrège automatiquement le total des produits à vendre pour vos stocks. Pour les grandes entreprises, ajoutez plusieurs sources pour tous vos emplacements : dans différents emplacements géographiques par pays et continent, des emplacements dans une ville, en fonction du type d&#39;inventaire, même en fonction des services.
+Utilisez cette rubrique pour ajouter, modifier, activer et désactiver des sources. Pour connaître la relation entre les sources et les stocks et la quantité vendable, voir [&#x200B; Stocks et sources &#x200B;](sources-stocks.md).
 
 Il est recommandé de fournir des emplacements géographiques physiques spécifiques lors de la création d’une source. Cela permet à l&#39;_algorithme de priorité de distance_ de comparer l&#39;emplacement de l&#39;adresse de destination d&#39;expédition avec les emplacements sources disponibles afin de déterminer la source la plus proche pour exécuter les expéditions. Vous pouvez utiliser des cartes Google ou des calculs hors ligne, qui utilisent des géocodes. Pour plus d&#39;informations sur cet _algorithme de priorité de distance_, voir [Configurer l&#39;algorithme de priorité de distance](distance-priority-algorithm.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Stocks et sources
-description: Découvrez les relations entre les produits, les sources et les stocks.
+description: Découvrez comment les stocks et les sources sont liés de  [!DNL Inventory Management]  sorte que les quantités commercialisables de votre vitrine correspondent  [!DNL Commerce]  l’inventaire physique.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
 TQID: https://experienceleague.adobe.com/3nQssDNA41zHJH0SCN6VdMqqfbHCeyc6K0B91-BF8Kc
 product_v2:
@@ -17,22 +17,22 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
-source-wordcount: 809
+source-wordcount: 788
 ht-degree: 0%
 
 ---
 
 # Stocks et sources
 
-Gérez vos stocks indépendamment de l&#39;emplacement de l&#39;entrepôt, du type de produit ou de service, ou du canal de vente. Exécutez les commandes et expédiez les produits à partir de plusieurs entrepôts, magasins physiques, centres de distribution et livraison directe pour exécuter les commandes en mettant l’accent sur un stock équilibré, des coûts d’expédition, etc.
+Gérez vos stocks indépendamment de l&#39;emplacement de l&#39;entrepôt, du type de produit ou de service, ou du canal de vente. Exécutez des commandes et expédiez des produits à partir de plusieurs emplacements pour exécuter des commandes en mettant l’accent sur un stock équilibré, des coûts d’expédition, etc.
 
 Ces descriptions incluent les produits, les sources et les stocks pour une entreprise de bicyclettes avec plusieurs lieux d&#39;expédition et sites Web aux États-Unis et en Europe.
 
 ## Sources
 
-[Sources](sources-manage.md) sont les emplacements physiques où le stock de produits est géré et expédié pour l&#39;exécution des commandes ou où les services sont disponibles. Ces emplacements peuvent comprendre des entrepôts, des magasins physiques, des centres de distribution et des chargeurs directs. [!DNL Commerce] utilise les quantités et les quantités vendables par stock et gère automatiquement les quantités en stock pour les produits et les commandes gérés. Si vous n’avez qu’une seule source, vous êtes considéré comme _source unique_. Si vous disposez de plusieurs sources, vous êtes considéré comme étant en mode _multi-source_.
+Une [source](sources-manage.md) est un emplacement physique où le stock de produits est géré et expédié pour l&#39;exécution des commandes ou où des services sont disponibles. [!DNL Commerce] utilise les quantités et les quantités vendables par stock et gère automatiquement les quantités en stock pour les produits et les commandes gérés. Si vous n’avez qu’une seule source, vous êtes considéré comme _source unique_. Si vous disposez de plusieurs sources, vous êtes considéré comme étant en mode _multi-source_.
 
 Une source peut avoir la priorité dans l&#39;étendue du stock d&#39;un entrepôt, mais pas nécessairement dans tous les entrepôts, car la source peut être réutilisée dans différents stocks. Le nombre de stocks et de sources ajoute à la complexité pour déterminer le meilleur entrepôt ou magasin pour exécuter une commande. Par exemple, vous pouvez avoir un nombre limité de produits disponibles à partir de vos sites physiques avec un stock important dans vos entrepôts et des services dans des emplacements clés avec une disponibilité limitée.
 
@@ -76,8 +76,8 @@ Voici des options importantes à comprendre pour [!DNL Inventory Management] :
 >
 >La valeur du seuil de rupture de stock prend en charge les montants négatifs et positifs. Si vous activez les reliquats, définissez cette valeur sur un montant négatif pour le nombre maximal de produits pouvant faire l&#39;objet de reliquats avant que le produit ne soit réellement considéré comme en rupture de stock.
 
-## Démonstration d’Inventory management
+## Démonstration
 
-Regardez cette vidéo pour en savoir plus sur les sources et les stocks Inventory management :
+Regardez cette vidéo pour en savoir plus sur les sources et les stocks [!DNL Inventory Management] :
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410196?captions=fre_fr&quality=12&learn=on)

@@ -1,6 +1,6 @@
 ---
 title: Gérer les quantités en stock
-description: Découvrez comment attribuer des sources et des quantités pour de nouveaux produits ou modifier des produits existants.
+description: Présentation des procédures d’administration pour l’affectation des sources et des quantités par source pour les produits nouveaux et existants dans  [!DNL Inventory Management].
 exl-id: b3d4a4c0-725a-4e62-854f-efb6a5709f73
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/ykiHTLnzZGtJrRdp2wZvlL7YLbEb7iAiYlcbY8K7IX8
@@ -17,7 +17,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
 source-wordcount: 325
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 # Gérer les quantités en stock
 
-Les informations suivantes expliquent comment attribuer des sources et des quantités pour de nouveaux produits ou modifier des produits existants.
+Suivez les instructions ci-dessous pour attribuer des sources et des quantités pour des produits nouveaux ou existants.
 
 Lors de la création de produits, affectez des sources et des quantités. Voir [Création d’un produit](../catalog/product-create.md) pour obtenir des instructions complètes. Ces pages contiennent des informations provenant de sources uniques et multiples pour les sources et les quantités par source.
 

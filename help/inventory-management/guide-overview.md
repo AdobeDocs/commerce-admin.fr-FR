@@ -1,6 +1,6 @@
 ---
-title: Guide  [!DNL Inventory Management] ’Inventory management
-description: Informations complètes sur  [!DNL Inventory Management]  pour les administrateurs Adobe Commerce et Magento Open Source, y compris la migration et la configuration.
+title: Guide [!DNL Inventory Management]
+description: Guide de l’administrateur et de l’interface  [!DNL Inventory Management]  ligne de commande pour les stocks, les sources, les quantités, la configuration, les commandes et les expéditions dans Adobe Commerce et Magento Open Source.
 seo-title: Adobe Commerce Inventory Management Guide
 seo-description: Describes how to use the [!DNL Inventory Management] module in Adobe Commerce or Magento Open Source.
 exl-id: 8013bc13-b057-4ad7-bbed-ee00c2f6e4eb
@@ -24,48 +24,49 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94e419120b8e16848cc1d449650f023f361a2af7
 workflow-type: tm+mt
-source-wordcount: 394
-ht-degree: 0%
+source-wordcount: 329
+ht-degree: 1%
 
 ---
 
-# Présentation du guide [!DNL Inventory Management]
+# Vue d’ensemble des [!DNL Inventory Management]
 
-Ce guide est destiné aux administrateurs travaillant pour Adobe Commerce et Magento Open Source Admin. Elle fournit des informations détaillées sur l’activation de ce module, y compris la configuration et la gestion de ses fonctionnalités. Il suppose une compréhension de base de la configuration et des fonctionnalités de base du [!DNL Commerce].
+Ce guide est destiné aux administrateurs qui gèrent le stock à plusieurs emplacements dans Adobe Commerce et Magento Open Source. Il fournit des procédures de configuration et de gestion pour le module [!DNL Inventory Management] et suppose une compréhension de base des fonctionnalités de base de la [!DNL Commerce].
 
-[!DNL Inventory Management] dispose de deux domaines pour l’administration :
-
-- Administration : utilisez cette zone pour accéder à l’interface utilisateur de configuration et aux rapports.
-- L’interface de ligne de commande : utilisez cet outil pour exécuter les tâches d’installation et de configuration du serveur principal.
+Utilisez le **Admin** pour les tâches de configuration, de création de rapports et d’inventaire quotidien. Utilisez l’**interface de ligne de commande** pour l’installation, les mises à niveau et la configuration du serveur principal.
 
 Ce guide couvre les sujets suivants :
 
 | Objet | Description |
 | ------- | ----------- |
-| [Introduction](introduction.md) | Présentation des fonctionnalités [!DNL Inventory Management] que vous pouvez utiliser pour gérer le stock à plusieurs emplacements afin que votre boutique Commerce reflète précisément l’inventaire physique. |
-| [Notes de mise à jour](release-notes.md) | Consultez les notes de mise à jour pour plus d’informations sur toutes les versions de [!DNL Inventory Management]. |
-| Concepts de base des stocks | Découvrez les principes de base de la gestion des stocks : [Stocks et origines](sources-stocks.md), [sélection et réservations de la source](selection-reservations.md), [statut de la commande et de la réservation](order-status.md) et [types de produits](product-types.md) |
-| Prise en main | Découvrez le module [!DNL Inventory Management] et comment il s’intègre à votre instance Commerce et aux opérations de stockage : [mises à niveau de Commerce](migrate.md), [installation et mise à jour du module](install-update.md), [types de sourcing pour les commerçants](merchant-sourcing.md) et [modifications de la structure de sourcing](expand-restructure.md) |
-| [&#x200B; Configuration &#x200B;](configuration.md) | Découvrez la configuration des options de [!DNL Inventory Management] qui déterminent la disponibilité de la source, les produits de storefront et l’expédition des commandes. |
-| [Gérer les sources](sources-manage.md) | Découvrez les sources et comment elles définissent les emplacements physiques où le stock de produits est géré et expédié pour l&#39;exécution des commandes, ou où les services sont disponibles. |
-| [Gérer les stocks](stocks-manage.md) | Découvrez comment le stock est utilisé pour représenter un inventaire virtuel et agrégé de produits pour les sources de vos canaux de vente. |
-| [Gérer les quantités](quantities-manage.md) | Découvrez comment attribuer des sources et des quantités pour de nouveaux produits ou modifier des produits existants. |
-| [Gérer les commandes et les expéditions](shipments.md) | Découvrez les autres fonctionnalités et options de [!DNL Inventory Management] pour gérer les quantités en stock via le processus d&#39;expédition. |
-| [Référence de l’interface de ligne de commande](cli.md) | Découvrez les commandes fournies par le module [!DNL Inventory Management] pour gérer les données d’inventaire et les paramètres de configuration. |
+| [Introduction](introduction.md) | Fonctionnalités, terminologie et adaptation de [!DNL Inventory Management] à votre boutique. |
+| [Notes de mise à jour](release-notes.md) | Historique de publication des modules et problèmes connus. |
+| [Principes de base des stocks](sources-stocks.md) | Concepts relatifs aux [stocks et origines](sources-stocks.md), [sélection et réservations de la source](selection-reservations.md), [statut de commande et de réservation](order-status.md) et [types de produits](product-types.md). |
+| Prise en main | [Mises à niveau de &#x200B;](migrate.md), [installation et mises à jour](install-update.md), [types d&#39;approvisionnement des commerçants](merchant-sourcing.md) et [restructuration des stocks](expand-restructure.md). |
+| [&#x200B; Configuration &#x200B;](configuration.md) | Paramètres globaux, de produit et d&#39;algorithme pour l&#39;affichage et l&#39;expédition du storefront. |
+| [Gérer les sources](sources-manage.md) | Créer et gérer des emplacements d&#39;exécution. |
+| [Gérer les stocks](stocks-manage.md) | Mappez les sources aux canaux de vente. |
+| [Gérer les quantités](quantities-manage.md) | Affecter et mettre à jour des quantités de produits par source. |
+| [Gérer les commandes et les expéditions](shipments.md) | Exécutez les commandes et gérez les expéditions à partir du stock. |
+| [Référence de l’interface de ligne de commande](cli.md) | Tâches d’inventaire et de configuration de ligne de commande. |
 
 {style="table-layout:auto"}
 
 ## Informations sur le développeur
 
-Voir [[!DNL Inventory Management]](https://developer.adobe.com/commerce/webapi/rest/inventory/) dans la documentation destinée aux développeurs pour plus d’informations sur l’architecture des modules, les API et la personnalisation des algorithmes.
+Accédez à des ressources avancées pour les API, la personnalisation et l’architecture des modules. Voir [[!DNL Inventory Management]](https://developer.adobe.com/commerce/webapi/rest/inventory/) dans la documentation destinée aux développeurs d’API REST pour obtenir des détails techniques sur les API et la personnalisation des algorithmes.
 
 ## Documentation de Commerce
+
+Consultez les guides des commerçants, du cloud et des développeurs pour obtenir de l’aide sur chaque aspect d’Adobe Commerce. Utilisez ces ressources pour tout besoin de configuration ou de gestion.
 
 {{docs-links}}
 
 ## Dépannage et assistance
+
+Utilisez les articles d’assistance et les systèmes de ticket pour résoudre rapidement les problèmes d’inventaire. Obtenez de l’aide supplémentaire pour l’état des stocks ou la gestion des produits.
 
 Si vous avez besoin d’informations ou si vous avez des questions qui ne sont pas abordées dans ce guide, utilisez les ressources suivantes :
 
