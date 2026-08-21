@@ -4,36 +4,24 @@ description: Découvrez comment configurer la sécurité pour l’administrateur
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/UFK-C-W5E0DngIy4VncIVRzM2f6tNS5RgNqaNVk9GJc
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-subfeature_v2:
-  - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 865
 ht-degree: 0%
 
 ---
 
 # Configuration de la sécurité de l’administrateur
 
-Nous vous recommandons d’adopter une approche multidimensionnelle pour protéger la sécurité de votre magasin. Vous pouvez commencer par utiliser une [URL d’administration personnalisée](../stores-purchase/store-urls.md#use-a-custom-admin-url) difficile à deviner, plutôt que l’évidente « Administration » ou « Serveur principal ». Par défaut, les mots de passe utilisés pour [se connecter](../getting-started/admin-signin.md) à l’administrateur doivent comporter sept caractères ou plus, ainsi que des lettres et des chiffres. Vous pouvez configurer la longueur minimale requise pour le mot de passe afin d’améliorer la sécurité en fonction des besoins de votre entreprise. En [bonne pratique](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=fr), utilisez uniquement des mots de passe d’administration forts qui incluent une combinaison de lettres, de chiffres et de symboles. Adobe Commerce et Magento Open Source n’autorisent pas la réutilisation des quatre derniers mots de passe attribués au compte.
+Nous vous recommandons d’adopter une approche multidimensionnelle pour protéger la sécurité de votre magasin. Vous pouvez commencer par utiliser une [URL d’administration personnalisée](../stores-purchase/store-urls.md#use-a-custom-admin-url) difficile à deviner, plutôt que l’évidente « Administration » ou « Serveur principal ». Par défaut, les mots de passe utilisés pour [se connecter](../getting-started/admin-signin.md) à l’administrateur doivent comporter sept caractères ou plus, ainsi que des lettres et des chiffres. Vous pouvez configurer la longueur minimale requise pour le mot de passe afin d’améliorer la sécurité en fonction des besoins de votre entreprise. En [bonne pratique](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices), utilisez uniquement des mots de passe d’administration forts qui incluent une combinaison de lettres, de chiffres et de symboles. Adobe Commerce et Magento Open Source n’autorisent pas la réutilisation des quatre derniers mots de passe attribués au compte.
 
 La configuration de sécurité d’administration vous permet d’effectuer les opérations suivantes :
 
@@ -42,17 +30,17 @@ La configuration de sécurité d’administration vous permet d’effectuer les 
 - Configurer la longueur minimale requise pour le mot de passe
 - Limiter la durée des sessions Admin
 - Limiter la durée de vie des mots de passe
-- Limitez le nombre de tentatives de connexion avant que le compte utilisateur administrateur ne soit [&#x200B; verrouillé](permissions-users-all.md#locked-users).
+- Limitez le nombre de tentatives de connexion avant que le compte utilisateur administrateur ne soit [ verrouillé](permissions-users-all.md#locked-users).
 
 Pour une sécurité renforcée, vous pouvez configurer la durée d’inactivité du clavier avant l’expiration de la session en cours et exiger que le nom d’utilisateur et le mot de passe soient sensibles à la casse.
 
-Outre les paramètres de sécurité de cette section, l’[authentification à deux facteurs](security-two-factor-authentication.md) (2FA) est nécessaire pour vérifier l’identité des utilisateurs à l’aide d’un mot de passe à usage unique généré par une application ou un appareil. La première fois que vous vous connectez à l’administrateur, vous êtes invité à configurer 2FA. Pour plus de sécurité, la connexion d’administrateur peut également être configurée pour nécessiter un [&#x200B; CAPTCHA &#x200B;](security-captcha.md).
+Outre les paramètres de sécurité de cette section, l’[authentification à deux facteurs](security-two-factor-authentication.md) (2FA) est nécessaire pour vérifier l’identité des utilisateurs à l’aide d’un mot de passe à usage unique généré par une application ou un appareil. La première fois que vous vous connectez à l’administrateur, vous êtes invité à configurer 2FA. Pour plus de sécurité, la connexion d’administrateur peut également être configurée pour nécessiter un [ CAPTCHA ](security-captcha.md).
 
 >[!NOTE]
 >
 >Les magasins qui ont activé l’authentification [!DNL Adobe Identity Management Services] (IMS) ont Adobe Commerce et Magento Open Source 2FA natifs désactivés. Les utilisateurs administrateurs connectés à leur instance Commerce avec leurs informations d’identification Adobe n’ont pas besoin de s’authentifier à nouveau pour de nombreuses tâches d’administration. L’authentification est gérée par Adobe IMS lorsque l’utilisateur administrateur se connecte à sa session en cours. Voir Présentation de l’intégration [[!DNL Adobe Identity Management Service] (IMS)](../getting-started/adobe-ims-integration-overview.md).
 
-Pour obtenir des informations techniques, voir [Présentation de la sécurité](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"} dans la documentation destinée aux développeurs.
+Pour obtenir des informations techniques, voir [Présentation de la sécurité](https://developer.adobe.com/commerce/php/architecture/basics/security){:target="_blank"} dans la documentation destinée aux développeurs.
 
 ![Sécurité de l’administrateur](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
@@ -103,8 +91,8 @@ Pour obtenir des informations techniques, voir [Présentation de la sécurité](
 
    - Définissez **[!UICONTROL Password Change]** sur l’une des options suivantes :
 
-      - `Forced` — Nécessite que les utilisateurs administrateurs changent leurs mots de passe après la configuration du compte.
-      - `Recommended` — Recommande aux utilisateurs administrateurs de modifier leurs mots de passe après la configuration du compte.
+     - `Forced` — Nécessite que les utilisateurs administrateurs changent leurs mots de passe après la configuration du compte.
+     - `Recommended` — Recommande aux utilisateurs administrateurs de modifier leurs mots de passe après la configuration du compte.
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 

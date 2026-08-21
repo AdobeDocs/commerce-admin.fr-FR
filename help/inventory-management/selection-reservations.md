@@ -4,26 +4,15 @@ description: Découvrez comment l’algorithme de sélection Source et les rése
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
 TQID: https://experienceleague.adobe.com/x3UFGWtRSiodcnEF4Di3yFmR8GY8xoHSvVVsDg-J-qY
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2026-06-03
-source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 2178
+source-wordcount: 2179
 ht-degree: 0%
 
 ---
@@ -104,7 +93,7 @@ Au lieu de déduire ou d&#39;ajouter immédiatement des quantités en stock de p
 
 >[!NOTE]
 >
->[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} La fonctionnalité de réservation nécessite que le client de file d’attente de messages `inventory.reservations.updateSalabilityStatus` s’exécute en continu. Pour vérifier s’il est en cours d’exécution, utilisez la commande `bin/magento queue:consumers:list` . Si le client de la file d’attente de messages n’est pas répertorié, démarrez-le : `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
+>[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} La fonctionnalité de réservation nécessite que le client de file d’attente de messages `inventory.reservations.updateSalabilityStatus` s’exécute en continu. Pour vérifier s’il est en cours d’exécution, utilisez la commande `bin/magento queue:consumers:list` . Si le client de la file d’attente de messages n’est pas répertorié, démarrez-le : `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
 
 ### Réservation de commande
 
@@ -209,7 +198,7 @@ Les trois valeurs `quantity` font la somme de 0 (-25 + 5 + 20). Le système ne m
 
 Le traitement cron `inventory_cleanup_reservations` exécute des requêtes SQL pour effacer la table de la base de données de réservation. Par défaut, il s’exécute tous les jours à minuit, mais vous pouvez configurer les heures et la fréquence. La tâche cron exécute un script qui interroge la base de données pour trouver des séquences de réservation complètes dans lesquelles la somme des valeurs de quantité est égale à 0. Lorsque toutes les réservations d’un produit donné provenant du même jour (ou d’une autre heure configurée) ont été compensées, la tâche cron supprime les réservations en une seule fois.
 
-La tâche cron `inventory_reservations_cleanup` n’est pas identique au consommateur de file d’attente de messages `inventory.reservations.cleanup`. Le client supprime de manière asynchrone les réservations par SKU de produit après la suppression d’un produit, tandis que la tâche cron efface l’ensemble de la table des réservations. Le client est requis lorsque vous activez l’option de stock [**Synchroniser avec le catalogue**](../configuration-reference/catalog/inventory.md) dans la configuration du magasin. Voir [Gérer les files d’attente de messages](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=fr){target="_blank"} dans le _Guide de configuration_.
+La tâche cron `inventory_reservations_cleanup` n’est pas identique au consommateur de file d’attente de messages `inventory.reservations.cleanup`. Le client supprime de manière asynchrone les réservations par SKU de produit après la suppression d’un produit, tandis que la tâche cron efface l’ensemble de la table des réservations. Le client est requis lorsque vous activez l’option de stock [**Synchroniser avec le catalogue**](../configuration-reference/catalog/inventory.md) dans la configuration du magasin. Voir [Gérer les files d’attente de messages](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues){target="_blank"} dans le _Guide de configuration_.
 
 Souvent, toutes les réservations initiales produites au cours d’une seule journée ne peuvent pas être compensées ce même jour. Cette situation peut se produire lorsqu’un client passe une commande juste avant le début de la tâche cron ou effectue l’achat avec un mode de paiement hors ligne, tel qu’un virement bancaire. Les séquences de réservation compensées restent dans la base de données jusqu&#39;à ce qu&#39;elles soient toutes compensées. Cette pratique n’interfère pas avec les calculs de réservation, car le total de chaque réservation est 0.
 
@@ -235,7 +224,7 @@ Toutes les réservations doivent être compensées par des compensations lorsque
 
 >[!NOTE]
 >
->Si vous souhaitez consulter les réservations, une série d’options de ligne de commande est disponible. Vous pouvez uniquement consulter les réservations par le biais d’une interface de ligne de commande. L’utilisation des commandes de l’interface de ligne de commande peut nécessiter l’aide d’un développeur. Voir [[!DNL Inventory Management]  Référence de l’interface en ligne de commande &#x200B;](cli.md).
+>Si vous souhaitez consulter les réservations, une série d’options de ligne de commande est disponible. Vous pouvez uniquement consulter les réservations par le biais d’une interface de ligne de commande. L’utilisation des commandes de l’interface de ligne de commande peut nécessiter l’aide d’un développeur. Voir [[!DNL Inventory Management]  Référence de l’interface en ligne de commande ](cli.md).
 
 Si vous supprimez toutes les sources d&#39;un produit pour un stock avec des commandes en attente, vous avez peut-être bloqué les réservations.
 

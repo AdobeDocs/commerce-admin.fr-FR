@@ -5,11 +5,11 @@ breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 nudge: true
-source-git-commit: dcc66df3d9024368ea07fad1e93846cf98726523
+source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '116'
 ht-degree: 6%
 
 ---
@@ -22,30 +22,30 @@ ht-degree: 6%
 - [Notes de mise à jour](release-notes.md)
 - [Configuration et configuration](setup.md)
 - Présentation {#walkthrough}
-   - [Partie 1 : page simple](1-simple-page.md)
-   - [Partie 2 : blocs](2-blocks.md)
-   - [Partie 3 : contenu du catalogue](3-catalog-content.md)
+  - [Partie 1 : page simple](1-simple-page.md)
+  - [Partie 2 : blocs](2-blocks.md)
+  - [Partie 3 : contenu du catalogue](3-catalog-content.md)
 - [Workspace](workspace.md)
 - Disposition {#layout}
-   - [Lignes](row.md)
-   - [Colonnes](column.md)
-   - [Onglets](tabs.md)
+  - [Lignes](row.md)
+  - [Colonnes](column.md)
+  - [Onglets](tabs.md)
 - Éléments {#elements}
-   - [Texte](text.md)
-   - [Titre](heading.md)
-   - [Boutons](buttons.md)
-   - [Diviseur](divider.md)
-   - [Code HTML](html-code.md)
+  - [Texte](text.md)
+  - [Titre](heading.md)
+  - [Boutons](buttons.md)
+  - [Diviseur](divider.md)
+  - [Code HTML](html-code.md)
 - Média {#media}
-   - [Image](image.md)
-   - [Vidéo](video.md)
-   - [Bannière](banner.md)
-   - [Curseur](slider.md)
-   - [Carte](map.md)
+  - [Image](image.md)
+  - [Vidéo](video.md)
+  - [Bannière](banner.md)
+  - [Curseur](slider.md)
+  - [Carte](map.md)
 - Ajouter du contenu {#add-content}
-   - [Bloquer](block.md)
-   - [Bloc Dynamique](dynamic-block.md)
-   - [Produits](products.md)
-   - [Recommandations de produit](recommendations.md)
+  - [Bloquer](block.md)
+  - [Bloc Dynamique](dynamic-block.md)
+  - [Produits](products.md)
+  - [Recommandations de produit](recommendations.md)
 - [Modèles](templates.md)
-- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=fr)
+- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
