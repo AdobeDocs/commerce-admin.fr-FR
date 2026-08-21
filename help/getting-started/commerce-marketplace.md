@@ -23,9 +23,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6b1ee79bdfd54de298e6ab80d63222b7b12bb96c
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1425
+source-wordcount: 1438
 ht-degree: 0%
 
 ---
@@ -47,19 +47,19 @@ Les ressources suivantes constituent un point de départ pour que les nouveaux u
 ### Ressources Commerce
 
 - [Configuration d’événements I/O pour Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
-- [Configuration des événements pour Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
+- [Configuration des événements pour Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce)
 - [Configuration du SDK de l’interface utilisateur d’administration](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [Convertir une extension en application](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
 ### Ressources App Builder
 
 - [Présentation de Commerce App Builder](https://developer.adobe.com/commerce/extensibility/app-development/)
-- [Configuration du maillage API pour Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
-- [Déploiement des applications App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/)
-- [CI/CD pour les applications App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
+- [Configuration du maillage API pour Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/)
+- [Déploiement des applications App Builder](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/deployment/deployment)
+- [CI/CD pour les applications App Builder](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/deployment/cicd-for-app-builder-apps)
 - Prise en main d’App Builder/Developer Console
-  - [Prise en main d’App Builder](https://developer.adobe.com/app-builder/docs/getting_started/)
-  - [Présentation des projets et des espaces de travail](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
+  - [Prise en main d’App Builder](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app)
+  - [Présentation des projets et des espaces de travail](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces)
 
 ## [!DNL Marketplace] des informations d’identification
 
@@ -97,7 +97,7 @@ Vous pouvez créer plusieurs clés d’accès à différentes fins et les active
 
 >[!IMPORTANT]
 >
->À partir d’Adobe Commerce et de Magento Open Source 2.4.0, l’assistant de configuration web est supprimé et vous devez utiliser la ligne de commande pour [installer](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=fr) ou [mettre à niveau](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=fr) votre instance. Cette exigence inclut également les [modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=fr) et [extensions](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=fr).
+>À partir d’Adobe Commerce et de Magento Open Source 2.4.0, l’assistant de configuration web est supprimé et vous devez utiliser la ligne de commande pour [installer](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/advanced) ou [mettre à niveau](https://experienceleague.adobe.com/fr/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) votre instance. Cette exigence inclut également les [modules](https://experienceleague.adobe.com/fr/docs/commerce-operations/upgrade-guide/modules/upgrade) et [extensions](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/tutorials/extensions).
 
 Le processus d’installation pour [!DNL Marketplace] achats est différent pour les installations _on-premise_ de Commerce et pour les installations hébergées sur [l’architecture cloud Adobe](https://www.adobe.com/commerce/magento/enterprise.html).
 

@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 783
+source-wordcount: 848
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Les API d’administration Commerce sont affectées lorsque l’authentification
 
 Une fois l’intégration Adobe IMS activée, les utilisateurs administrateurs doivent utiliser des [jetons OAuth Adobe IMS](https://developer.adobe.com/developer-console/docs/guides/authentication/) pour les points d’entrée de l’API Adobe Commerce qui nécessitent une authentification. Les solutions clientes obtiennent les jetons de manière dynamique pour l’utilisation de l’API web. Ce mécanisme d’authentification est activé pour les zones d’API web REST et SOAP dans le cadre de la configuration de cette intégration.
 
-Consultez [Authentification basée sur les jetons](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token/) pour un aperçu de la manière dont les API web utilisent les jetons d’accès Commerce, y compris les jetons d’accès IMS.
+Consultez [Authentification basée sur les jetons](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token) pour un aperçu de la manière dont les API web utilisent les jetons d’accès Commerce, y compris les jetons d’accès IMS.
 
 ## Gestion des sessions Commerce et jetons d’accès Adobe IMS
 

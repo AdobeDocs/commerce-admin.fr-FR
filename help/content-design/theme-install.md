@@ -15,9 +15,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 190
+source-wordcount: 191
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Lors de la première installation [!DNL Commerce], les éléments de conception 
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-Avant de commencer, vérifiez que vous disposez d&#39;un ensemble valide de [[!DNL Commerce] clés d&#39;accès](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=fr).
+Avant de commencer, vérifiez que vous disposez d&#39;un ensemble valide de [[!DNL Commerce] clés d&#39;accès](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
 
 Pour ajouter un thème à votre boutique [!DNL Commerce], suivez les instructions disponibles sur la [!DNL Commerce Marketplace] :
 

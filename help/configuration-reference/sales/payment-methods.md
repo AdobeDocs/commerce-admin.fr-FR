@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6b1ee79bdfd54de298e6ab80d63222b7b12bb96c
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 1850
+source-wordcount: 1852
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Payment Services pour Adobe Commerce et Magento Open Source offre une solution en libre-service clé en main, y compris les tests de sandbox et une configuration simple, pour offrir un traitement des paiements robuste et sécurisé. Pour en savoir plus sur cet ensemble d&#39;outils puissants et sur la manière dont il peut vous fournir l&#39;insight et le contrôle dont vous avez besoin pour offrir la meilleure expérience à vos acheteurs, consultez le [_Guide d&#39;utilisation des services de paiement_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=fr).
+>Payment Services pour Adobe Commerce et Magento Open Source offre une solution en libre-service clé en main, y compris les tests de sandbox et une configuration simple, pour offrir un traitement des paiements robuste et sécurisé. Pour en savoir plus sur cet ensemble d&#39;outils puissants et sur la manière dont il peut vous fournir l&#39;insight et le contrôle dont vous avez besoin pour offrir la meilleure expérience à vos acheteurs, consultez le [_Guide d&#39;utilisation des services de paiement_](https://experienceleague.adobe.com/fr/docs/commerce/payment-services/guide-overview).
 
 {{config}}
 
@@ -67,7 +67,7 @@ Les solutions de paiement suivantes sont recommandées comme un moyen facile pou
 ><br/>
 >**Amazon Pay** et **Klarna** : les versions 2.4.0 à 2.4.3 d’Adobe Commerce et Magento Open Source incluaient ces extensions développées par le fournisseur. À compter de la version 2.4.4, ces extensions ne sont plus incluses dans la version de base et doivent être installées et mises à jour à partir de Commerce Marketplace. La Marketplace permet également d’accéder à la documentation actuelle fournie par le développeur d’extensions.
 ><br/>
->Si l’une de ces extensions groupées est activée et configurée, vous devez mettre à jour votre fichier `composer.json` dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Pour plus d’informations, consultez [Mise à niveau des modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=fr) dans le _Guide de mise à niveau_.<br/>
+>Si l’une de ces extensions groupées est activée et configurée, vous devez mettre à jour votre fichier `composer.json` dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Pour plus d’informations, consultez [Mise à niveau des modules](https://experienceleague.adobe.com/fr/docs/commerce-operations/upgrade-guide/modules/upgrade) dans le _Guide de mise à niveau_.<br/>
 
 ## Autres méthodes PayPal
 

@@ -20,7 +20,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 393
 ht-degree: 0%
@@ -34,7 +34,7 @@ Les clients réinitialisent généralement leurs mots de passe à partir du stor
 | Fonction | Description |
 | --- | --- |
 | Réinitialiser le mot de passe | Un e-mail de réinitialisation de mot de passe est envoyé directement au compte de messagerie du client. L’administrateur du magasin ne peut pas accéder au mot de passe du client. |
-| Forcer la connexion | Révoque les jetons d’accès OAuth associés au compte client. Cela ne peut être utilisé qu’avec des comptes client auxquels des jetons OAuth ont été attribués dans le cadre d’une API web [intégration](../systems/integrations.md). Pour en savoir plus, consultez la section [Authentification basée sur OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) dans la documentation du développeur. <br/><br/>Les comptes clients standard créés à partir du storefront ou de l’administrateur ne disposent pas de jetons OAuth. |
+| Forcer la connexion | Révoque les jetons d’accès OAuth associés au compte client. Cela ne peut être utilisé qu’avec des comptes client auxquels des jetons OAuth ont été attribués dans le cadre d’une API web [intégration](../systems/integrations.md). Pour en savoir plus, consultez la section [Authentification basée sur OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth) dans la documentation du développeur. <br/><br/>Les comptes clients standard créés à partir du storefront ou de l’administrateur ne disposent pas de jetons OAuth. |
 
 {style="table-layout:auto"}
 

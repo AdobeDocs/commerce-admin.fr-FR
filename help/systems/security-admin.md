@@ -24,16 +24,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 865
 ht-degree: 0%
 
 ---
 
 # Configuration de la sécurité de l’administrateur
 
-Nous vous recommandons d’adopter une approche multidimensionnelle pour protéger la sécurité de votre magasin. Vous pouvez commencer par utiliser une [URL d’administration personnalisée](../stores-purchase/store-urls.md#use-a-custom-admin-url) difficile à deviner, plutôt que l’évidente « Administration » ou « Serveur principal ». Par défaut, les mots de passe utilisés pour [se connecter](../getting-started/admin-signin.md) à l’administrateur doivent comporter sept caractères ou plus, ainsi que des lettres et des chiffres. Vous pouvez configurer la longueur minimale requise pour le mot de passe afin d’améliorer la sécurité en fonction des besoins de votre entreprise. En [bonne pratique](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=fr), utilisez uniquement des mots de passe d’administration forts qui incluent une combinaison de lettres, de chiffres et de symboles. Adobe Commerce et Magento Open Source n’autorisent pas la réutilisation des quatre derniers mots de passe attribués au compte.
+Nous vous recommandons d’adopter une approche multidimensionnelle pour protéger la sécurité de votre magasin. Vous pouvez commencer par utiliser une [URL d’administration personnalisée](../stores-purchase/store-urls.md#use-a-custom-admin-url) difficile à deviner, plutôt que l’évidente « Administration » ou « Serveur principal ». Par défaut, les mots de passe utilisés pour [se connecter](../getting-started/admin-signin.md) à l’administrateur doivent comporter sept caractères ou plus, ainsi que des lettres et des chiffres. Vous pouvez configurer la longueur minimale requise pour le mot de passe afin d’améliorer la sécurité en fonction des besoins de votre entreprise. En [bonne pratique](https://experienceleague.adobe.com/fr/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices), utilisez uniquement des mots de passe d’administration forts qui incluent une combinaison de lettres, de chiffres et de symboles. Adobe Commerce et Magento Open Source n’autorisent pas la réutilisation des quatre derniers mots de passe attribués au compte.
 
 La configuration de sécurité d’administration vous permet d’effectuer les opérations suivantes :
 
@@ -52,7 +52,7 @@ Outre les paramètres de sécurité de cette section, l’[authentification à d
 >
 >Les magasins qui ont activé l’authentification [!DNL Adobe Identity Management Services] (IMS) ont Adobe Commerce et Magento Open Source 2FA natifs désactivés. Les utilisateurs administrateurs connectés à leur instance Commerce avec leurs informations d’identification Adobe n’ont pas besoin de s’authentifier à nouveau pour de nombreuses tâches d’administration. L’authentification est gérée par Adobe IMS lorsque l’utilisateur administrateur se connecte à sa session en cours. Voir Présentation de l’intégration [[!DNL Adobe Identity Management Service] (IMS)](../getting-started/adobe-ims-integration-overview.md).
 
-Pour obtenir des informations techniques, voir [Présentation de la sécurité](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"} dans la documentation destinée aux développeurs.
+Pour obtenir des informations techniques, voir [Présentation de la sécurité](https://developer.adobe.com/commerce/php/architecture/basics/security){:target="_blank"} dans la documentation destinée aux développeurs.
 
 ![Sécurité de l’administrateur](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
@@ -103,8 +103,8 @@ Pour obtenir des informations techniques, voir [Présentation de la sécurité](
 
    - Définissez **[!UICONTROL Password Change]** sur l’une des options suivantes :
 
-      - `Forced` — Nécessite que les utilisateurs administrateurs changent leurs mots de passe après la configuration du compte.
-      - `Recommended` — Recommande aux utilisateurs administrateurs de modifier leurs mots de passe après la configuration du compte.
+     - `Forced` — Nécessite que les utilisateurs administrateurs changent leurs mots de passe après la configuration du compte.
+     - `Recommended` — Recommande aux utilisateurs administrateurs de modifier leurs mots de passe après la configuration du compte.
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 

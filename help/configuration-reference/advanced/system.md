@@ -22,9 +22,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2024-04-09
-source-git-commit: 3ed6388c485699373275912a27df59d25b7245ac
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 1713
+source-wordcount: 1715
 ht-degree: 1%
 
 ---
@@ -206,7 +206,7 @@ Pour plus d’informations sur la modification de ces paramètres, consultez [Mi
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Global | Détermine l’application utilisée pour gérer le cache de page complète. Options : <br/>**`Built-in Application`**- Non recommandé pour l’environnement de production.<br/>**`Varnish Caching`** - Recommandé pour l’environnement de production. |
 | [!UICONTROL TTL for public content] | Global | Détermine la durée de vie du cache de contenu public en secondes. Valeur par défaut : `120` |
-| [!UICONTROL Handles param size] | global | Indique le nombre maximal de [handles de mise en page](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) à traiter sur le point d’entrée HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html). Limiter la taille peut améliorer la sécurité et les performances. Valeur par défaut : `100` |
+| [!UICONTROL Handles param size] | global | Indique le nombre maximal de [handles de mise en page](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) à traiter sur le point d’entrée HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi). Limiter la taille peut améliorer la sécurité et les performances. Valeur par défaut : `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Global | Spécifie les adresses IP qui peuvent purger la configuration du vernis pour générer un fichier de configuration. Séparez les entrées multiples par une virgule. Valeur par défaut : `localhost` |
 | [!UICONTROL Backend host] | Global | Spécifie l’hôte principal qui génère les fichiers de configuration. Valeur par défaut : `localhost` |

@@ -19,7 +19,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 2839
 ht-degree: 0%
@@ -197,9 +197,9 @@ Cette version de [!DNL Page Builder] est simplement une mise à jour de numéro 
 
 >[!IMPORTANT]
 >
->Si vous avez créé des entités de base de données supplémentaires pour stocker [!DNL Page Builder] contenu, vous _devez_ ajouter ces entités à votre `etc/di.xml`. Dans le cas contraire, le contenu [!DNL Page Builder] stocké dans votre entité n’est pas mis à jour, ce qui peut entraîner des pertes de données et des problèmes d’affichage. Par exemple, si vous avez créé une entité de blog qui stocke [!DNL Page Builder] contenu, vous devez ajouter votre entité de blog à votre fichier `etc/di.xml` en tant que type de `UpgradableEntitiesPool` afin que la bibliothèque de mise à niveau puisse mettre à jour les types de contenu [!DNL Page Builder] utilisés dans votre blog. Pour plus d’informations et d’instructions sur l’utilisation de la bibliothèque de mise à niveau, consultez [Mettre à niveau les types de contenu](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/) dans le _Guide de développement de Page Builder_.
+>Si vous avez créé des entités de base de données supplémentaires pour stocker [!DNL Page Builder] contenu, vous _devez_ ajouter ces entités à votre `etc/di.xml`. Dans le cas contraire, le contenu [!DNL Page Builder] stocké dans votre entité n’est pas mis à jour, ce qui peut entraîner des pertes de données et des problèmes d’affichage. Par exemple, si vous avez créé une entité de blog qui stocke [!DNL Page Builder] contenu, vous devez ajouter votre entité de blog à votre fichier `etc/di.xml` en tant que type de `UpgradableEntitiesPool` afin que la bibliothèque de mise à niveau puisse mettre à jour les types de contenu [!DNL Page Builder] utilisés dans votre blog. Pour plus d’informations et d’instructions sur l’utilisation de la bibliothèque de mise à niveau, consultez [Mettre à niveau les types de contenu](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types) dans le _Guide de développement de Page Builder_.
 
-![Nouveau](../assets/new.svg) **Documentation pour l’ajout de nouvelles apparences** - Les informations de développement sont désormais publiées sur [l’ajout d’apparences](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances/) pour les types de contenu existants ou personnalisés.
+![Nouveau](../assets/new.svg) **Documentation pour l’ajout de nouvelles apparences** - Les informations de développement sont désormais publiées sur [l’ajout d’apparences](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances) pour les types de contenu existants ou personnalisés.
 
 ![Problème résolu](../assets/fix.svg) **Divers correctifs**
 

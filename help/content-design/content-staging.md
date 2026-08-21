@@ -16,9 +16,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: 1005
 ht-degree: 0%
 
 ---
@@ -98,6 +98,6 @@ Pour en savoir plus sur l’évaluation du contenu, regardez cette vidéo :
 
 Pour obtenir de l’aide sur la résolution des problèmes d’évaluation du contenu, consultez les articles suivants de la base de connaissances de l’assistance [!DNL Commerce] :
 
-- [Erreur 404 sur toutes les pages en raison d’un problème d’évaluation du contenu](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=fr)
-- [Les mises à jour de l’évaluation de contenu planifiées ne s’affichent pas avec le cache Fastly obsolète](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=fr)
-- [Puis-je planifier des mises à jour d’évaluation de contenu pour les prix dans un catalogue partagé ?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=fr)
+- [Erreur 404 sur toutes les pages en raison d’un problème d’évaluation du contenu](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-27785)
+- [Les mises à jour de l’évaluation de contenu planifiées ne s’affichent pas avec le cache Fastly obsolète](https://experienceleague.adobe.com/fr/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache)
+- [Puis-je planifier des mises à jour d’évaluation de contenu pour les prix dans un catalogue partagé ?](https://experienceleague.adobe.com/fr/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog)

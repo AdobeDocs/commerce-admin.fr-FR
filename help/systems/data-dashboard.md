@@ -21,9 +21,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 802
+source-wordcount: 780
 ht-degree: 0%
 
 ---
@@ -49,8 +49,8 @@ Le tableau de bord contient les champs suivants :
 | Champ | Description |
 |--- |--- |
 | Portée | Site web spécifique pour les données synchronisées. |
-| [!DNL Product Recommendations] | Affiche le statut de synchronisation, le nombre de produits synchronisés et un tableau des produits synchronisés [affichables](https://experienceleague.adobe.com/fr/docs/commerce-admin/config/catalog/inventory#stock-options) pour [!DNL Product Recommendations]. |
-| [!DNL Live Search] | Affiche le statut de synchronisation, le nombre de produits synchronisés et un tableau des produits synchronisés [affichables](https://experienceleague.adobe.com/fr/docs/commerce-admin/config/catalog/inventory#stock-options) pour [!DNL Live Search]. |
+| [!DNL Product Recommendations] | Affiche le statut de synchronisation, le nombre de produits synchronisés et un tableau des produits synchronisés [affichables](/help/configuration-reference/catalog/inventory.md#stock-options) pour [!DNL Product Recommendations]. |
+| [!DNL Live Search] | Affiche le statut de synchronisation, le nombre de produits synchronisés et un tableau des produits synchronisés [affichables](/help/configuration-reference/catalog/inventory.md#stock-options) pour [!DNL Live Search]. |
 | [!DNL Catalog Service] | Affiche le statut de synchronisation, le nombre de produits synchronisés et un tableau des produits synchronisés pour [!DNL Catalog Service]. |
 | Paramètres | Ouvre une boîte de dialogue dans laquelle vous pouvez [&#x200B; resynchroniser manuellement les données du catalogue &#x200B;](#resync-catalog-data). |
 | Statut de synchronisation | Affiche le nombre de produits qui ont été transférés de la base de données Commerce vers l&#39;un des services SaaS au cours des trois dernières heures. Si vous effectuez des mises à jour peu fréquentes de votre catalogue, cette valeur est souvent égale à zéro. Si une synchronisation est en cours, cliquez sur **[!UICONTROL Refresh]** pour obtenir un comptage mis à jour. |

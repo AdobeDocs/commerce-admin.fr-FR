@@ -23,9 +23,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 3350
+source-wordcount: 3358
 ht-degree: 0%
 
 ---
@@ -185,7 +185,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La configuration de recherche standard décrite dans cette section diffère pour [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=fr).
+>La configuration de recherche standard décrite dans cette section diffère pour [Live Search](https://experienceleague.adobe.com/fr/docs/commerce/live-search/overview).
 
 <!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/fr/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
 
@@ -230,7 +230,7 @@ ht-degree: 0%
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Popular Search Terms] | Affichage de la boutique | Détermine si _Termes de recherche populaires_ est implémenté dans le magasin. Ce paramètre ne s’applique pas aux magasins qui utilisent [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=fr). Options : `Enable` / `Disable` |
+| [!UICONTROL Popular Search Terms] | Affichage de la boutique | Détermine si _Termes de recherche populaires_ est implémenté dans le magasin. Ce paramètre ne s’applique pas aux magasins qui utilisent [Live Search](https://experienceleague.adobe.com/fr/docs/commerce/live-search/overview). Options : `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | Affichage de la boutique | Détermine si un suffixe, tel que html ou htm, est appliqué aux URL de produit. Si vous utilisez cette option, n’incluez pas de point avant le suffixe , car il est appliqué automatiquement. |
 | [!UICONTROL Category URL Suffix] | Affichage de la boutique | Détermine si un suffixe, tel que html ou htm, est appliqué aux URL de catégorie. Si vous utilisez cette option, n’incluez pas de point avant le suffixe , car il est appliqué automatiquement. |
 | [!UICONTROL Use Categories Path for Product URLs] | Affichage de la boutique | Détermine si les chemins d’accès aux catégories sont inclus dans les URL de produit sur le storefront. Cela peut entraîner le pointage de plusieurs URL vers la même page, ce qui peut avoir un impact sur le classement de la recherche. Pour en savoir plus, voir [Balise de métadonnées canonique](../../merchandising-promotions/meta-data.md#canonical-meta-tag). |
@@ -257,7 +257,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-Vous pouvez configurer la recherche catalogue à l’aide de services de moteur de recherche [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=fr) ou tiers pris en charge par Adobe Commerce. Suivez les instructions relatives à votre installation.
+Vous pouvez configurer la recherche catalogue à l’aide de services de moteur de recherche [[!DNL Live Search]](https://experienceleague.adobe.com/fr/docs/commerce/live-search/overview) ou tiers pris en charge par Adobe Commerce. Suivez les instructions relatives à votre installation.
 
 ### Adobe Commerce avec [!DNL Live Search]
 
@@ -282,7 +282,7 @@ Adobe Commerce prend en charge OpenSearch et Elasticsearch. Les versions 2.3.7-p
 
 >[!IMPORTANT]
 >
->- En raison de l’annonce de fin de prise en charge d’Elasticsearch 7 en août 2023, Adobe recommande à tous les clients Adobe Commerce de migrer vers le moteur de recherche OpenSearch 2.x. Pour plus d’informations sur la migration de votre moteur de recherche lors d’une mise à niveau, voir [Migration vers OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=fr) dans le _Guide de mise à niveau_.
+>- En raison de l’annonce de fin de prise en charge d’Elasticsearch 7 en août 2023, Adobe recommande à tous les clients Adobe Commerce de migrer vers le moteur de recherche OpenSearch 2.x. Pour plus d’informations sur la migration de votre moteur de recherche lors d’une mise à niveau, voir [Migration vers OpenSearch](https://experienceleague.adobe.com/fr/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) dans le _Guide de mise à niveau_.
 >- Dans les versions 2.4.4 et 2.4.3-p2, tous les champs libellés Elasticsearch s’appliquent également à OpenSearch. Lorsque la prise en charge d’Elasticsearch 8.x a été introduite dans la version 2.4.6, de nouveaux libellés ont été créés pour faire la distinction entre les configurations Elasticsearch et OpenSearch. Toutefois, les options de configuration pour les deux sont identiques.
 
 ![Options de configuration de la recherche catalogue](./assets/catalog-search-opensearch.png){zoomable="yes"}

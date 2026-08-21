@@ -23,7 +23,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 336
 ht-degree: 0%
@@ -41,7 +41,7 @@ Si vous rencontrez des problèmes pour vous connecter avec 2FA, tenez compte des
 - L’effacement du cache web et des cookies pour l’installation d’Adobe Commerce ou de Magento Open Source peut également être utile. Les authentificateurs, comme Google, utilisent des cookies générés pour enregistrer l’accès et la durée. Effacez les cookies pour votre navigateur et votre domaine de magasin spécifiques.
 - Le blocage des cookies empêche certains authentificateurs, tels que [!DNL Google Authenticator], de terminer le processus de vérification. Ajoutez à votre navigateur une règle qui autorise les cookies pour votre installation d’Adobe Commerce.
 
-Pour réinitialiser les authentificateurs à partir de la ligne de commande et obtenir des informations de dépannage plus avancées, consultez la section [Authentification à deux facteurs](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/) dans la documentation du développeur.
+Pour réinitialiser les authentificateurs à partir de la ligne de commande et obtenir des informations de dépannage plus avancées, consultez la section [Authentification à deux facteurs](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication) dans la documentation du développeur.
 
 **_Pour réinitialiser les authentificateurs d’un compte utilisateur:_**
 

@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 1343
+source-wordcount: 1345
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Lorsqu’il est activé, Commerce crée un fichier appelé `sitemap.xml` qui est
 
 Pendant le développement de votre site, vous pouvez inclure des instructions dans le fichier `robots.txt` pour les robots d&#39;exploration web afin d’éviter d’indexer le site. Ensuite, avant le lancement, vous pouvez modifier les instructions pour permettre l’indexation du site.
 
-Pour obtenir des informations techniques, voir [Ajouter un plan de site et robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=fr) dans le guide _Commerce sur les infrastructures cloud_.
+Pour obtenir des informations techniques, voir [Ajouter un plan de site et robots.txt](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/configure-store/robots-sitemap) dans le guide _Commerce sur les infrastructures cloud_.
 
 ![Grille du plan du site](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -118,7 +118,7 @@ Pour créer des plans de site pour une instance multimagasin, procédez comme su
    
 >[!NOTE]
 >
->Si votre site utilise le moteur de serveur web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=fr), vous devez mettre à jour le fichier [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) dans la racine de votre site web pour diriger toute autre requête de plan de site vers l’emplacement approprié.
+>Si votre site utilise le moteur de serveur web [Apache](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/prerequisites/web-server/apache), vous devez mettre à jour le fichier [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) dans la racine de votre site web pour diriger toute autre requête de plan de site vers l’emplacement approprié.
 
 ## Descriptions des colonnes
 
@@ -152,13 +152,13 @@ La carte de votre site doit être mise à jour aussi souvent que le contenu de v
 
    - Définissez **[!UICONTROL Frequency]** sur l’une des options suivantes :
 
-      - `Always`
-      - `Hourly`
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
-      - `Yearly`
-      - `Never`
+     - `Always`
+     - `Hourly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
+     - `Yearly`
+     - `Never`
 
    - Par **[!UICONTROL Priority]**, entrez une valeur comprise entre `0.0` et `1.0`. Zéro a la priorité la plus faible.
 
@@ -206,16 +206,16 @@ La carte de votre site doit être mise à jour aussi souvent que le contenu de v
 
    - Définissez **[!UICONTROL Generation Method]** sur l’une des options suivantes :
 
-      - `Standard` - Traite toutes les données en mémoire.
-      - `Batch` : utilise le traitement optimisé en mémoire pour les catalogues volumineux. Cette option est disponible à partir de la version 2.4.9.
+     - `Standard` - Traite toutes les données en mémoire.
+     - `Batch` : utilise le traitement optimisé en mémoire pour les catalogues volumineux. Cette option est disponible à partir de la version 2.4.9.
 
    - Définissez **[!UICONTROL Start Time]** sur l’heure, la minute et la seconde auxquelles vous souhaitez que le plan du site soit mis à jour.
 
    - Définissez **[!UICONTROL Frequency]** sur l’une des options suivantes :
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
    - Par **[!UICONTROL Error Email Recipient]**, saisissez l’adresse e-mail de la personne qui doit recevoir une notification si une erreur se produit lors de la mise à jour du plan du site.
 

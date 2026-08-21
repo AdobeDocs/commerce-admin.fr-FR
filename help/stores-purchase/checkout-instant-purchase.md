@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 403
+source-wordcount: 404
 ht-degree: 0%
 
 ---
@@ -42,9 +42,9 @@ _Achat instantané_ permet aux clients d’accélérer le processus de passage e
 
   Les modes de paiement suivants peuvent être utilisés pour fournir un accès sécurisé aux informations de carte de crédit enregistrées :
 
-   - [Cartes de crédit Braintree &#x200B;](braintree.md) (l&#39;achat instantané ne peut pas être utilisé avec les cartes de crédit Braintree si 3D Secure est activé.)
-   - [Braintree avec PayPal activé](braintree.md)
-   - [PayPal Payflow Pro](paypal-payflow-pro.md)
+  - [Cartes de crédit Braintree &#x200B;](braintree.md) (l&#39;achat instantané ne peut pas être utilisé avec les cartes de crédit Braintree si 3D Secure est activé.)
+  - [Braintree avec PayPal activé](braintree.md)
+  - [PayPal Payflow Pro](paypal-payflow-pro.md)
 
 ## Achat instantané sur le storefront
 
@@ -71,7 +71,7 @@ Vous pouvez utiliser l’achat instantané avec Braintree ou les services de pai
 Découvrez comment configurer le mode de paiement et activer la mise en chambre forte pour Braintree ou les services de paiement :
 
 - [Braintree](braintree.md)
-- [Documentation sur les services de paiement](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=fr)
+- [Documentation sur les services de paiement](https://experienceleague.adobe.com/fr/docs/commerce/payment-services/guide-overview)
 
 ### Étape 3 : activer l’achat instantané
 

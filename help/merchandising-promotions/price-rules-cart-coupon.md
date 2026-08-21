@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 2338
+source-wordcount: 2339
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ La longueur et le format des codes coupon générés automatiquement sont contr�
 
 >[!NOTE]
 >
->[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Avant de créer des coupons, utilisez la commande `bin/magento cron:run` pour vérifier que cron est en cours d’exécution. Voir [Exécuter cron à partir de la ligne de commande](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=fr#run-cron-from-the-command-line) dans le _Guide de configuration_ pour plus d’informations.
+>[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Avant de créer des coupons, utilisez la commande `bin/magento cron:run` pour vérifier que cron est en cours d’exécution. Voir [Exécuter cron à partir de la ligne de commande](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs#run-cron-from-the-command-line) dans le _Guide de configuration_ pour plus d’informations.
 
 ### Méthode 1 : créer un coupon spécifique
 
@@ -124,23 +124,23 @@ La longueur et le format des codes coupon générés automatiquement sont contr�
 
      **Option 1 :** Planifier une nouvelle mise à jour
 
-      - Cliquez sur **[!UICONTROL Schedule New Update]** dans le coin supérieur droit de la page.
+     - Cliquez sur **[!UICONTROL Schedule New Update]** dans le coin supérieur droit de la page.
 
-        ![Planifier la mise à jour](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
+       ![Planifier la mise à jour](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
 
-      - Saisissez les **[!UICONTROL Update Name]** et les **[!UICONTROL Description]**.
+     - Saisissez les **[!UICONTROL Update Name]** et les **[!UICONTROL Description]**.
 
-      - Sélectionnez la **Date de début** et **[!UICONTROL End Date]** dans le Calendrier ( ![icône Calendrier](../assets/icon-calendar.png) ). Si vous laissez la période vide, la règle n’expire pas.
+     - Sélectionnez la **Date de début** et **[!UICONTROL End Date]** dans le Calendrier ( ![icône Calendrier](../assets/icon-calendar.png) ). Si vous laissez la période vide, la règle n’expire pas.
 
-      - Cliquez ensuite sur **[!UICONTROL Save]**.
+     - Cliquez ensuite sur **[!UICONTROL Save]**.
 
-        ![Règle de prix du panier - modification planifiée](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
+       ![Règle de prix du panier - modification planifiée](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
 
      **Option 2 :** Affecter à une mise à jour existante :
 
-      - Sélectionnez **[!UICONTROL Assign to Another Update]**.
+     - Sélectionnez **[!UICONTROL Assign to Another Update]**.
 
-      - Recherchez la mise à jour dans la liste, puis cliquez sur **[!UICONTROL Select]**.
+     - Recherchez la mise à jour dans la liste, puis cliquez sur **[!UICONTROL Select]**.
 
 1. Renseignez la [règle de prix de panier](price-rules-cart.md) si nécessaire.
 
@@ -170,9 +170,9 @@ La génération des coupons de remise est une opération asynchrone, qui s’ex�
 
    - Définissez la **[!UICONTROL Code Format]** sur l’une des options suivantes :
 
-      - `Alphanumeric`
-      - `Alphabetical`
-      - `Numeric`
+     - `Alphanumeric`
+     - `Alphabetical`
+     - `Numeric`
 
    - (Facultatif) Saisissez un **[!UICONTROL Code Prefix]** à ajouter au début du code.
 
@@ -221,7 +221,7 @@ Pour supprimer des codes coupon personnalisés, sélectionnez les codes à suppr
 
 Pour modifier des codes coupon personnalisés ou consulter les détails d’utilisation, cliquez sur **[!UICONTROL Edit]** dans la colonne **[!UICONTROL Actions]** .
 
-&lt;InlineAlert variant="info" slots="text"/>
+<InlineAlert variant="info" slots="text"/>
 
 Le code de coupon principal qui appartient à la règle de prix du panier ne peut pas être modifié ni supprimé.
 
@@ -288,16 +288,16 @@ Dans l’exemple suivant, le code de coupon « H20 » a été utilisé par deux 
 
    - Définissez **[!UICONTROL Date Used]** sur l’une des options suivantes :
 
-      - `Order Created`
-      - `Order Updated`
+     - `Order Created`
+     - `Order Updated`
 
      Le rapport _Commande mise à jour_ est créé en temps réel et ne nécessite pas d&#39;actualisation.
 
    - Pour définir la période couverte par le rapport, définissez **[!UICONTROL Period]** sur l’une des valeurs suivantes :
 
-      - `Day`
-      - `Month`
-      - `Year`
+     - `Day`
+     - `Month`
+     - `Year`
 
    - Pour définir la période de l&#39;état, entrez les dates **De** et **À** au format M/J/AA.
 
@@ -307,8 +307,8 @@ Dans l’exemple suivant, le code de coupon « H20 » a été utilisé par deux 
 
    - Pour définir l’activité de coupon incluse dans le rapport, effectuez l’une des opérations suivantes :
 
-      - Pour inclure toutes les activités de coupon de toutes les règles de prix, définissez **[!UICONTROL Cart Price Rule]** sur `Any`.
-      - Pour inclure uniquement l’activité liée à une règle de prix spécifique, définissez **[!UICONTROL Cart Price Rule]** sur `Specified` et sélectionnez la règle de prix de panier dans la liste.
+     - Pour inclure toutes les activités de coupon de toutes les règles de prix, définissez **[!UICONTROL Cart Price Rule]** sur `Any`.
+     - Pour inclure uniquement l’activité liée à une règle de prix spécifique, définissez **[!UICONTROL Cart Price Rule]** sur `Specified` et sélectionnez la règle de prix de panier dans la liste.
 
 1. Une fois prêt à exécuter le rapport, cliquez sur **[!UICONTROL Show Report]**.
 

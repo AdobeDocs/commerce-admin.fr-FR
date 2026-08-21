@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: 1193
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ Admin permet d’accéder à la gestion des fonctionnalités de commandes, de cl
 
 Pour assurer la sécurité de votre administrateur, effectuez des audits réguliers des utilisateurs et des rôles disposant d’un accès administrateur.
 
-En outre, pensez à [mettre à jour la configuration de l’URL de base d’administration](https://experienceleague.adobe.com/fr/docs/commerce-admin/config/advanced/admin#admin-base-url) pour remplacer le point d’entrée de `/admin` par défaut par un chemin d’accès personnalisé. La configuration d’un chemin personnalisé offre les avantages de sécurité suivants :
+En outre, pensez à [mettre à jour la configuration de l’URL de base d’administration](/help/configuration-reference/advanced/admin.md#admin-base-url) pour remplacer le point d’entrée de `/admin` par défaut par un chemin d’accès personnalisé. La configuration d’un chemin personnalisé offre les avantages de sécurité suivants :
 
 **Sécurité renforcée** : le chemin d’accès « admin » par défaut est largement connu et souvent ciblé par des acteurs malveillants qui tentent des attaques par force brute. En la modifiant à une valeur personnalisée unique, vous réduisez considérablement le risque de tentatives d’accès non autorisées.
 
@@ -196,4 +196,4 @@ En outre, pensez à [mettre à jour la configuration de l’URL de base d’admi
 
 >[!NOTE]
 >
->Si une violation est suspectée, veillez à supprimer tous les utilisateurs administrateurs inconnus, à réinitialiser tous les mots de passe administrateur et à consulter le [plan d’action de sécurité](https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/security/security) pour d’autres étapes.
+>Si une violation est suspectée, veillez à supprimer tous les utilisateurs administrateurs inconnus, à réinitialiser tous les mots de passe administrateur et à consulter le [plan d’action de sécurité](/help/systems/security.md) pour d’autres étapes.

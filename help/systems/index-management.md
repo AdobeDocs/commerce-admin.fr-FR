@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1350
+source-wordcount: 1344
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ La réindexation et la mise en cache ont des objectifs différents dans Commerce
 
 >[!IMPORTANT]
 >
->Pour les magasins qui utilisent [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=fr) et ont défini Elasticsearch comme indexeur de texte intégral (`catalogsearch_fulltext`) : l’index de texte intégral doit être réexécuté après toute modification des autorisations en bloc ou lorsque l’indexeur d’autorisations est en mode « Planifié ».
+>Pour les magasins qui utilisent [Adobe Commerce B2B](/help/b2b/introduction.md) et ont défini Elasticsearch comme indexeur de texte intégral (`catalogsearch_fulltext`) : l’index de texte intégral doit être réexécuté après toute modification des autorisations en bloc ou lorsque l’indexeur d’autorisations est en mode « Planifié ».
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
@@ -97,7 +97,7 @@ La réindexation et la mise en cache ont des objectifs différents dans Commerce
 
 ## Réindexation à l’aide de la ligne de commande
 
-Commerce fournit des options de réindexation supplémentaires à l’aide de la ligne de commande. Pour plus d’informations et d’options de commande, consultez [Réindexation](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=fr#reindex){:target="blank"} dans le _Guide de configuration_.
+Commerce fournit des options de réindexation supplémentaires à l’aide de la ligne de commande. Pour plus d’informations et d’options de commande, consultez [Réindexation](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex){:target="blank"} dans le _Guide de configuration_.
 
 ## Événements de déclenchement d’index
 

@@ -20,10 +20,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 217
-ht-degree: 0%
+source-wordcount: 215
+ht-degree: 3%
 
 ---
 
@@ -51,5 +51,5 @@ Avant d’ajouter des produits à votre catalogue, vous devez établir la struct
 
 Pour obtenir de l’aide sur la résolution des problèmes de catégorie, consultez les articles suivants de la base de connaissances de l’assistance Commerce :
 
-- [Les modifications apportées aux catégories ne sont pas enregistrées](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html?lang=fr)
-- [Le menu principal (Catégories) ne s’affiche pas sur les sous-pages avec Fastly activé](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html?lang=fr)
+- [Les modifications apportées aux catégories ne sont pas enregistrées](https://experienceleague.adobe.com/fr/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved)
+- [Le menu principal (Catégories) ne s’affiche pas sur les sous-pages avec Fastly activé](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-40708)

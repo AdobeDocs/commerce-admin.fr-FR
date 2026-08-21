@@ -21,7 +21,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1281
 ht-degree: 0%
@@ -192,7 +192,7 @@ D’autres boutons sont disponibles lorsque le profil est enregistré pour la pr
 | **[!UICONTROL Reset]** | Réinitialise toutes les modifications non enregistrées dans le formulaire client à leurs valeurs précédentes. |
 | **[!UICONTROL Create Order]** | Crée une commande pour le client. |
 | **[!UICONTROL Reset Password]** | Envoie un lien [réinitialiser le mot de passe](../customers/password-reset.md) au client par e-mail. |
-| **[!UICONTROL Force Sign-in]** | Révoque les jetons d’accès OAuth associés au compte client. Cette fonction ne peut être utilisée qu’avec des comptes client auxquels des jetons OAuth ont été attribués dans le cadre d’une API web [intégration](../systems/integrations.md). Pour en savoir plus, consultez la section [Authentification basée sur OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) dans la documentation du développeur. |
+| **[!UICONTROL Force Sign-in]** | Révoque les jetons d’accès OAuth associés au compte client. Cette fonction ne peut être utilisée qu’avec des comptes client auxquels des jetons OAuth ont été attribués dans le cadre d’une API web [intégration](../systems/integrations.md). Pour en savoir plus, consultez la section [Authentification basée sur OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth) dans la documentation du développeur. |
 | **[!UICONTROL Manage Shopping Cart]** | Permet à l’administrateur de gérer le panier pour le client. |
 | **[!UICONTROL Save and Continue Edit]** | Enregistre les modifications et maintient le profil client ouvert. |
 | **[!UICONTROL Save Customer]** | Enregistre les modifications et ferme le profil client. |

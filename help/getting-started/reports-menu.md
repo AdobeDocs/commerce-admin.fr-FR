@@ -20,9 +20,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 397
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ La sélection des [rapports de vente](sales-reports.md) inclut les rapports Comm
 
 [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
-(Adobe Commerce uniquement) Le [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=fr) fournit des informations système pour les installations d’Adobe Commerce sur les infrastructures cloud avec une surveillance des performances en temps réel 24h/24, 7j/7, des rapports et des recommandations.
+(Adobe Commerce uniquement) Le [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/fr/docs/commerce-operations/tools/site-wide-analysis-tool/access) fournit des informations système pour les installations d’Adobe Commerce sur les infrastructures cloud avec une surveillance des performances en temps réel 24h/24, 7j/7, des rapports et des recommandations.
 
 ### [!UICONTROL Customers]
 

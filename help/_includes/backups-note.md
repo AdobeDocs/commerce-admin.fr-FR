@@ -1,19 +1,19 @@
 ---
-title: Note de sauvegarde
-description: Remarques réutilisées sur les sauvegardes
-source-git-commit: 5ade2f23132e634db5e611a5ccfcbc4d6816cf92
+title: Note sur les sauvegardes
+description: Note réutilisée à propos des sauvegardes
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
 
-# Note de sauvegarde
+# Note sur les sauvegardes
 
 >[!IMPORTANT]
 >
->**Fonction désactivée :** La sauvegarde est désactivée par défaut. L’activation de cette fonction peut nécessiter l’aide d’un développeur. Consultez la rubrique suivante _Guide d’installation_ pour activer les sauvegardes : [Sauvegarde et restauration du système de fichiers, du média et de la base de données](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html?lang=fr).
+>**Fonction désactivée :** la sauvegarde est désactivée par défaut. L’activation de cette fonction peut nécessiter l’aide d’un développeur. Consultez la rubrique suivante _Guide d’installation_ pour activer les sauvegardes : [Sauvegarder et restaurer le système de fichiers, le média et la base de données](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/tutorials/backup).
 
 >[!NOTE]
 >
->**Avis d’obsolescence :** Les fonctionnalités de sauvegarde sont obsolètes à partir de la version 2.3.0. Il est recommandé que tous les marchands étudient des technologies de sauvegarde supplémentaires et des outils de sauvegarde binaires (tels que [[!DNL Percona XtraBackup]](https://www.percona.com/software/mysql-database/percona-xtrabackup)).
+>**Avis d’obsolescence :** les fonctionnalités de sauvegarde sont obsolètes depuis la version 2.3.0. Il est recommandé à tous les commerçants d’étudier d’autres technologies de sauvegarde et outils de sauvegarde binaire (tels que [[!DNL Percona XtraBackup]](https://www.percona.com/software/mysql-database/percona-xtrabackup)).

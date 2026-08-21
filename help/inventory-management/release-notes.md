@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 3540
+source-wordcount: 3542
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Ces notes de mise à jour décrivent les versions d’[!DNL Inventory Management
 
 [!DNL Inventory Management] est un projet spécial d’ingénierie de la communauté Magento Open Source ouvert aux contributeurs. Pour participer et contribuer, consultez le référentiel [Projet GitHub](https://github.com/magento/inventory) et le [wiki](https://github.com/magento/inventory/wiki) pour commencer. Pour discuter du projet, rejoignez le canal [&#128279;](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) ([auto-inscription](https://opensource.magento.com/slack)).
 
-[&#x200B; Calendrier des versions &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=fr){target="_blank"} pour les versions prises en charge et compatibles.
+[&#x200B; Calendrier des versions &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-operations/release/planning/schedule){target="_blank"} pour les versions prises en charge et compatibles.
 
 ## v1.2.7
 
@@ -278,13 +278,13 @@ Les nouveaux modules d’[!DNL Inventory Management] 1.1.2 Beta incluent :
         'Magento_InventoryExportStockApi' => 0,
 ```
 
-![Nouveau](../assets/new.svg) **Ajout d’un point d’entrée de transfert de stock partiel en bloc** - Les points d’entrée de transfert en bloc actuels déplacent toute la quantité affectée d’une origine vers une source de destination. Le nouveau point d’entrée `/rest/V1/inventory/bulk-partial-source-transfer` permet aux commerçants de transférer un stock partiel de la source vers la source sous la forme d’une opération en bloc. Pour transférer une quantité spécifique, saisissez une demande au point d&#39;entrée avec les `sku`, `qty`, `origin_source_code` et `destination_source_code`. Les transferts vérifient que l&#39;origine est affectée au `sku`, qu&#39;il existe une quantité suffisante pour le transfert, etc. Voir [Actions en masse d’inventaire](https://developer.adobe.com/commerce/webapi/rest/inventory/bulk-inventory/){target="_blank"} dans la documentation de l’API REST. <!-- https://github.com/magento/inventory/pull/2117 -->
+![Nouveau](../assets/new.svg) **Ajout d’un point d’entrée de transfert de stock partiel en bloc** - Les points d’entrée de transfert en bloc actuels déplacent toute la quantité affectée d’une origine vers une source de destination. Le nouveau point d’entrée `/rest/V1/inventory/bulk-partial-source-transfer` permet aux commerçants de transférer un stock partiel de la source vers la source sous la forme d’une opération en bloc. Pour transférer une quantité spécifique, saisissez une demande au point d&#39;entrée avec les `sku`, `qty`, `origin_source_code` et `destination_source_code`. Les transferts vérifient que l&#39;origine est affectée au `sku`, qu&#39;il existe une quantité suffisante pour le transfert, etc. Voir [Actions en masse d’inventaire](https://developer.adobe.com/commerce/webapi/rest/inventory/bulk-inventory){target="_blank"} dans la documentation de l’API REST. <!-- https://github.com/magento/inventory/pull/2117 -->
 
 ![Nouvelle](../assets/new.svg) **Interface de ligne de commande de réservation ajoutée** - Les nouvelles commandes vous offrent des options pour détecter et résoudre les incohérences de réservation. À mesure que les commandes envoient et modifient leur statut, [!DNL Inventory Management] génère les réservations et mises à jour initiales par le biais des réservations de rémunération. Ces commandes renvoient une liste des incohérences détectées par ID de commande, SKU et ID de stock, et créent des réservations à résoudre. Pour plus d’informations, consultez la [référence de l’interface en ligne de commande](cli.md). <!-- https://github.com/magento/inventory/pull/2199 https://github.com/magento/inventory/pull/2184 https://github.com/magento/inventory/pull/2171 https://github.com/magento/inventory/pull/2148  -->
 
 ![Nouveau](../assets/new.svg) **Amélioration des performances pour les sources et options SSA** - Le tri et la sélection des sources pendant l’expédition ont entraîné une dégradation des performances pour les stocks comportant un grand nombre de sources. Cette version offre des améliorations de performances importantes pour répertorier et trier les sources disponibles lors de la révision et de la sélection des options SSA dans les expéditions. <!-- https://github.com/magento/inventory/pull/2056 https://github.com/magento/inventory/pull/2090 -->
 
-![Nouveau](../assets/new.svg) **Ajout de la prise en charge de GraphQL pour Inventory management** - Cette version installe un nouveau module de `magento/module-inventory-graph-ql`. Les attributs GraphQL [ProductInterface](https://developer.adobe.com/commerce/webapi/graphql/schema/products/interfaces/attributes/){target="_blank"} incluent désormais les attributs `only_x_left_in_stock` et `stock_status` pour la prise en charge des [!DNL Inventory Management]. <!-- https://github.com/magento/inventory/pull/2124 -->
+![Nouveau](../assets/new.svg) **Ajout de la prise en charge de GraphQL pour Inventory management** - Cette version installe un nouveau module de `magento/module-inventory-graph-ql`. Les attributs GraphQL [ProductInterface](https://developer.adobe.com/commerce/webapi/graphql/schema/products/interfaces/attributes){target="_blank"} incluent désormais les attributs `only_x_left_in_stock` et `stock_status` pour la prise en charge des [!DNL Inventory Management]. <!-- https://github.com/magento/inventory/pull/2124 -->
 
 ![Nouvelle](../assets/new.svg) **IU simplifiée pour les sources affectées** - Le tableau Sources affectées dans les pages de produits présente un contenu simplifié pour des mises à jour plus faciles et des performances accrues lors de l’affichage de nombreuses sources. Toutes les sources sont répertoriées par nom de source (pointez pour `source_code`).
 
@@ -294,7 +294,7 @@ Les nouveaux modules d’[!DNL Inventory Management] 1.1.2 Beta incluent :
 
 [!DNL Inventory Management] 1.1.0 (version du module : `inventory-composer-metapackage = 1.1.0`) est pris en charge et compatible avec la version 2.3.0 d’Adobe Commerce, Adobe Commerce sur les infrastructures cloud et la base de code Magento Open Source. [!DNL Inventory Management] 1.1.1 est publié uniquement sous la forme d’une mise à jour du nom du package, pris en charge par la version 2.3.1 et compatible avec la version 2.3.0 d’Adobe Commerce, Adobe Commerce sur les infrastructures cloud et la base de code Magento Open Source.
 
-![Correction d’un problème](../assets/fix.svg) **Ajout de la prise en charge d’Elasticsearch pour les modes mono et multi-sources** — Vous pouvez désormais configurer et utiliser Elasticsearch avec des stocks personnalisés. Voir [Configuration du service Elasticsearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=fr){target="_blank"} pour obtenir des informations sur l’installation. <!-- PR https://github.com/magento/inventory/pull/1943 -->
+![Correction d’un problème](../assets/fix.svg) **Ajout de la prise en charge d’Elasticsearch pour les modes mono et multi-sources** — Vous pouvez désormais configurer et utiliser Elasticsearch avec des stocks personnalisés. Voir [Configuration du service Elasticsearch](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/configure/service/elasticsearch){target="_blank"} pour obtenir des informations sur l’installation. <!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![Correction de problèmes](../assets/fix.svg) Résolution des problèmes de performances avec le Stock par défaut pour augmenter considérablement les performances avec de nombreuses opérations. Les améliorations augmentent les performances pour le mode à source unique, les pages Transférer l&#39;inventaire vers Source, les pages de catégorie Storefront et les calculs de quantité vendable.
 

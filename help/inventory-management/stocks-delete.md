@@ -1,6 +1,6 @@
 ---
 title: Supprimer les stocks
-description: Supprimez un stock personnalisé dans l’administration et réaffectez les sites web à un autre stock afin que les quantités à vendre et les commandes en cours restent exactes.
+description: Découvrez comment supprimer un stock personnalisé dans l’administration Commerce et réaffecter ses sites web à un autre stock d’abord, afin que les quantités à vendre et les commandes en cours restent exactes.
 exl-id: 420e0bbf-6382-471d-9ad2-16587191e5e7
 TQID: https://experienceleague.adobe.com/H6WjUk2tfqMqNbGkgkF22XvB8lFINXuLmHotNBeZIyU
 product_v2:
@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 135
+source-wordcount: 141
 ht-degree: 0%
 
 ---

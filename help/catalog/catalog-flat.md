@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 704
+source-wordcount: 705
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->L’utilisation d’un catalogue plat n’est plus recommandée. L’utilisation continue de cette fonctionnalité peut entraîner une dégradation des performances et d’autres problèmes d’indexation. Une description détaillée et la solution proposée dans le [Centre d’aide](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=fr).<br/><br/>Les versions concernées sont les suivantes : <br/>- Adobe Commerce sur les infrastructures cloud, 2.3.x et ultérieures<br/>- Adobe Commerce (On-Premise), 2.3.x et ultérieures<br/>- Magento Open Source, 2.3.x et ultérieures <br/><br/>Dans n’importe quelle version, certaines extensions ne fonctionnent qu’avec des tables plates, ce qui entraîne un risque si vous désactivez ces dernières. Si vous savez que certaines extensions utilisent des indexeurs de catalogue plat, vous devez être conscient de ce risque lorsque vous définissez ces valeurs sur `No`.
+>L’utilisation d’un catalogue plat n’est plus recommandée. L’utilisation continue de cette fonctionnalité peut entraîner une dégradation des performances et d’autres problèmes d’indexation. Une description détaillée et la solution proposée dans le [Centre d’aide](https://experienceleague.adobe.com/fr/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons).<br/><br/>Les versions concernées sont les suivantes : <br/>- Adobe Commerce sur les infrastructures cloud, 2.3.x et ultérieures<br/>- Adobe Commerce (On-Premise), 2.3.x et ultérieures<br/>- Magento Open Source, 2.3.x et ultérieures <br/><br/>Dans n’importe quelle version, certaines extensions ne fonctionnent qu’avec des tables plates, ce qui entraîne un risque si vous désactivez ces dernières. Si vous savez que certaines extensions utilisent des indexeurs de catalogue plat, vous devez être conscient de ce risque lorsque vous définissez ces valeurs sur `No`.
 
 Commerce stocke généralement les données de catalogue dans plusieurs tables, en fonction du modèle Entity-Attribute-Value (EAV) . Les attributs de produit étant stockés dans de nombreuses tables, les requêtes SQL sont parfois longues et complexes.
 

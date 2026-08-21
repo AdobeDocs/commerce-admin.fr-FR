@@ -22,9 +22,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1975
+source-wordcount: 1981
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ La page _[!UICONTROL Cache Management]_&#x200B;affiche le statut de chaque cache
 
 Après avoir effacé un cache, actualisez toujours votre navigateur pour vous assurer que vous pouvez voir les fichiers les plus récents. L’effacement du cache de Commerce n’efface pas le cache du navigateur web. Vous devrez peut-être vider la mémoire cache du navigateur pour afficher le contenu mis à jour.
 
-Des informations techniques supplémentaires sur la mise en cache d’Adobe Commerce sont disponibles à partir de la [&#x200B; présentation du cache &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target="_blank"} dans le _Guide de développement du front-end de Commerce_.
+Des informations techniques supplémentaires sur la mise en cache d’Adobe Commerce sont disponibles à partir de la [&#x200B; présentation du cache &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/caching){:target="_blank"} dans le _Guide de développement du front-end de Commerce_.
 
 Accédez à la page _[!UICONTROL Cache Management]_&#x200B;en effectuant l’une des opérations suivantes :
 
@@ -72,19 +72,19 @@ Pour plus d’informations sur l’affectation de ressources pour accorder l’a
 
 - [!UICONTROL Clean Cache Actions]
 
-   - [!UICONTROL Flush Cache Storage]
-   - [!UICONTROL Flush Magento Cache]
+  - [!UICONTROL Flush Cache Storage]
+  - [!UICONTROL Flush Magento Cache]
 
 - [!UICONTROL Cache Type Management]
 
-   - [!UICONTROL Toggle Cache Type]
-   - [!UICONTROL Refresh Cache Type]
+  - [!UICONTROL Toggle Cache Type]
+  - [!UICONTROL Refresh Cache Type]
 
 - [!UICONTROL Additional Cache Management]
 
-   - [!UICONTROL Catalog Images Cache]
-   - [!UICONTROL Flush Js/Css]
-   - [!UICONTROL Flush Static Files]
+  - [!UICONTROL Catalog Images Cache]
+  - [!UICONTROL Flush Js/Css]
+  - [!UICONTROL Flush Static Files]
 
 ## Actualiser les caches spécifiques
 
@@ -174,13 +174,13 @@ Les développeurs et les intégrateurs système utilisent ces valeurs pour confi
 | [!UICONTROL Reflections] | Efface les données de réflexion de l’interface API, généralement générées pendant l’exécution. | `REFLECTION` | `reflection` |
 | `Database DDL operations` | Schéma de la base. Si nécessaire, Commerce nettoie automatiquement ce cache, mais les développeurs tiers peuvent placer n’importe quelle donnée de n’importe quel segment du cache. Nettoyez ou videz ce type de cache après avoir apporté des modifications personnalisées au schéma de base de données. (En d’autres termes, il s’agit de mises à jour que Commerce ne fait pas lui-même.) Une façon de mettre à jour automatiquement le schéma de base de données est d’utiliser la commande setup:db-schema:upgrade de Magento. | `DB_DDL` | `db_ddl` |
 | [!UICONTROL Compiled Config] | Résultats de la compilation de code. | `COMPILED_CONFIG` | `compiled_config` |
-| [!UICONTROL Webhooks Response Cache] | Met en cache les réponses aux requêtes webhook. Pour plus d’informations, consultez le [guide des Webhooks](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) dans la documentation du développeur de Commerce. | `WEBHOOKS_RESPONSE` | `webhooks_response` |
+| [!UICONTROL Webhooks Response Cache] | Met en cache les réponses aux requêtes webhook. Pour plus d’informations, consultez le [guide des Webhooks](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes#enhancements-2) dans la documentation du développeur de Commerce. | `WEBHOOKS_RESPONSE` | `webhooks_response` |
 | [!UICONTROL EAV types and attributes] | Met en cache la déclaration des types d’entités pour les métadonnées liées aux attributs de valeur d’attribut d’entité (EAV). Les attributs incluent les étiquettes de magasin, les liens vers le code PHP associé, le rendu des attributs, les paramètres de recherche, etc. En règle générale, il n’est pas nécessaire de nettoyer ou de vider ce type de cache. | `EAV` | `eav` |
 | [!UICONTROL Customer Notification] | Notifications temporaires qui apparaissent dans l’interface utilisateur d’. | `CUSTOMER_NOTIFICATION` | `customer_notification` |
 | [!UICONTROL GraphQL Query Resolver Results] | Met en cache les résultats des résolveurs de requêtes GraphQL pour les entités client, page CMS, bloc CMS et galerie de médias produit. Gardez ce cache activé pour améliorer les performances de GraphQL. | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
 | [!UICONTROL Integrations Configuration] | Fichier de configuration de l&#39;intégration. Nettoyez ou videz ce cache après avoir modifié ou ajouté des intégrations. | `INTEGRATION` | `config_integration` |
 | [!UICONTROL Integrations API Configuration] | Configuration des API d’intégration compilée pour les intégrations de magasin. | `INTEGRATION_API_CONFIG` | `config_integration_api` |
-| [!UICONTROL Admin UI SDK Cache] | Met en cache les personnalisations pour l’administrateur. Voir [Configuration et test d’administration](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/configuration/) dans le _Guide SDK de l’interface utilisateur d’administration_. | `ADMIN_UI_SDK` | `admin_ui_sdk` |
+| [!UICONTROL Admin UI SDK Cache] | Met en cache les personnalisations pour l’administrateur. Voir [Configuration et test d’administration](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/configuration) dans le _Guide SDK de l’interface utilisateur d’administration_. | `ADMIN_UI_SDK` | `admin_ui_sdk` |
 | [!UICONTROL Page Cache] | Mise en cache complète de la page. | `FPC` | `full_page` |
 | [!UICONTROL Target Rule] | Index de règle cible | `TARGET_RULE` | `target_rule` |
 | [!UICONTROL Web Services Configuration] | Mise en cache de la structure de l’API Web. | `WEBSERVICE` | `config_webservice` |
@@ -202,7 +202,7 @@ Le contenu mis en cache peut être utilisé pour traiter les requêtes provenant
 - `Sessioned` - Lors d’une visite en session, un ID de session est attribué aux acheteurs qui interagissent avec le magasin. Les interactions incluent des activités telles que la comparaison de produits ou l’ajout de produits au panier. Les pages mises en cache générées au cours de la session ne sont utilisées que par cet acheteur au cours de la session.
 - `Customer` - Les sessions client sont créées pour les clients qui se connectent et font des achats à l’aide de leur compte enregistré. Au cours de la session, les clients peuvent recevoir des offres spéciales, des promotions et des prix en fonction du groupe de clients qui leur est affecté.
 
-Pour obtenir des informations techniques, consultez les sections [Configurer et utiliser le vernis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=fr){:target="_blank"} et [Utiliser Redis pour la page Commerce et le cache par défaut](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=fr){:target="_blank"} dans le _Guide de configuration_.
+Pour obtenir des informations techniques, consultez les sections [Configurer et utiliser le vernis](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish){:target="_blank"} et [Utiliser Redis pour la page Commerce et le cache par défaut](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache){:target="_blank"} dans le _Guide de configuration_.
 
 **_Pour configurer le cache pleine page:_**
 
@@ -221,7 +221,7 @@ Pour obtenir des informations techniques, consultez les sections [Configurer et 
 
 1. Pour définir le délai d’expiration du cache de page, saisissez le **[!UICONTROL TTL for public content]** . (La valeur par défaut est `86400`)
 
-1. Pour spécifier le nombre maximal de [handles de mise en page](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) à traiter sur le point d’entrée HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html), saisissez le **[!UICONTROL Handles param size]** . Limiter la taille peut améliorer la sécurité et les performances. (La valeur par défaut est `100`)
+1. Pour spécifier le nombre maximal de [handles de mise en page](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) à traiter sur le point d’entrée HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi), saisissez le **[!UICONTROL Handles param size]** . Limiter la taille peut améliorer la sécurité et les performances. (La valeur par défaut est `100`)
 
 1. Si vous utilisez le vernis, complétez la section **[!UICONTROL Varnish Configuration]** comme suit :
 
@@ -231,7 +231,7 @@ Pour obtenir des informations techniques, consultez les sections [Configurer et 
 
    - **[!UICONTROL Backend port]** - Identifiez le port principal utilisé pour générer les fichiers de configuration. La valeur par défaut est : `8080`.
 
-   - **[!UICONTROL Grace period]** - Spécifiez le nombre de secondes à utiliser comme période de grâce pour générer les fichiers de configuration. Voir [Configuration avancée du vernis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html) dans le _Guide de configuration_.
+   - **[!UICONTROL Grace period]** - Spécifiez le nombre de secondes à utiliser comme période de grâce pour générer les fichiers de configuration. Voir [Configuration avancée du vernis](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish-advanced) dans le _Guide de configuration_.
 
    - Pour exporter la configuration sous la forme d’un fichier `varnish.vcl`, cliquez sur le bouton correspondant à la version de vernis que vous utilisez.
 

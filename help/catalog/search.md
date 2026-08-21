@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 541
+source-wordcount: 543
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=fr) offre une expérience de recherche rapide, très pertinente et intuitive et est disponible gratuitement pour Adobe Commerce. Cette section décrit les fonctionnalités de recherche standard qui peuvent être différentes de [!DNL Live Search].
+>[[!DNL Live Search]](https://experienceleague.adobe.com/fr/docs/commerce/live-search/overview) offre une expérience de recherche rapide, très pertinente et intuitive et est disponible gratuitement pour Adobe Commerce. Cette section décrit les fonctionnalités de recherche standard qui peuvent être différentes de [!DNL Live Search].
 
 Les recherches montrent que les personnes qui utilisent la recherche sont plus susceptibles de faire un achat que les clients qui dépendent uniquement de la navigation. En fait, selon certaines études, les gens qui utilisent le référencement sont près de deux fois plus susceptibles de faire un achat.
 
@@ -64,7 +64,7 @@ La zone de recherche située dans l’en-tête du magasin permet aux visiteurs d
 
 >[!NOTE]
 >
->La fonctionnalité de recherche avancée de formulaires décrite ici ne s’applique pas aux [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=fr).
+>La fonctionnalité de recherche avancée de formulaires décrite ici ne s’applique pas aux [[!DNL Live Search]](https://experienceleague.adobe.com/fr/docs/commerce/live-search/overview).
 
 La recherche avancée permet aux acheteurs de rechercher dans le catalogue en fonction des valeurs saisies dans un formulaire. Comme le formulaire contient plusieurs champs, une seule recherche peut inclure plusieurs paramètres. Le résultat est une liste de tous les produits du catalogue qui correspondent aux critères. Un lien vers la Recherche avancée se trouve dans le pied de page de votre boutique.
 

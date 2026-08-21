@@ -20,7 +20,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
 source-wordcount: 1320
 ht-degree: 0%
@@ -55,14 +55,14 @@ L’extension Adobe Commerce B2B, `magento/extension-b2b`, est disponible pour t
 
 - Accédez à [repo.magento.com](https://repo.magento.com/) pour télécharger l’extension. Pour la génération des clés et l’obtention des droits nécessaires, voir [&#x200B; Obtenir vos clés d’authentification &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
 
-  Enregistrez les clés d’authentification pour l’installation en les définissant globalement dans votre répertoire [COMPOSER_HOME](https://getcomposer.org/doc/03-cli.md#composer-home). Vous pouvez également les enregistrer dans un fichier [auth.json](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/#authentication-file) dans le répertoire racine de l’application Adobe Commerce.
+  Enregistrez les clés d’authentification pour l’installation en les définissant globalement dans votre répertoire [COMPOSER_HOME](https://getcomposer.org/doc/03-cli.md#composer-home). Vous pouvez également les enregistrer dans un fichier [auth.json](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository#authentication-file) dans le répertoire racine de l’application Adobe Commerce.
 
 - [Version prise en charge de l’extension B2B](https://experienceleague.adobe.com/fr/docs/commerce-operations/release/product-availability)-Déterminez la version la plus récente de l’extension B2B prise en charge sur la version Adobe Commerce déployée.
 
 - Consultez les notes de mise à jour pour obtenir les informations les plus récentes sur la compatibilité des versions, les mises à jour ou les modifications pouvant affecter les exigences d’installation ou de mise à niveau.
 
-   - [Notes De Mise À Jour B2B](release-notes.md)
-   - [Notes de mise à jour d’Adobe Commerce](https://experienceleague.adobe.com/fr/docs/commerce-operations/release/versions)
+  - [Notes De Mise À Jour B2B](release-notes.md)
+  - [Notes de mise à jour d’Adobe Commerce](https://experienceleague.adobe.com/fr/docs/commerce-operations/release/versions)
 
 >[!ENDSHADEBOX]
 
@@ -76,7 +76,7 @@ Installez l’extension B2B (`magento/b2b-extension`) à l’aide du compositeur
 >
 >Lors de l’installation d’Adobe Commerce B2B sur une infrastructure cloud, Adobe vous recommande de déployer votre application Adobe Commerce dans un environnement d’intégration ou d’évaluation avant de commencer.
 
-Adobe recommande de travailler dans une branche de développement lors de l’ajout de l’extension B2B à votre projet. Si vous ne disposez pas d’une branche, voir [Créer une branche pour le développement](https://experienceleague.adobe.com/fr/docs/commerce-cloud-service/user-guide/develop/cli-branches). Lors de l’installation de l’extension B2B, le nom de l’extension `Magento_B2b` est automatiquement inséré dans le fichier `app/etc/config.php`. Il n’est pas nécessaire de modifier directement le fichier.
+Adobe recommande de travailler dans une branche de développement lors de l’ajout de l’extension B2B à votre projet. Si vous ne disposez pas d’une branche, voir [Créer une branche pour le développement](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/develop/cli-branches). Lors de l’installation de l’extension B2B, le nom de l’extension `Magento_B2b` est automatiquement inséré dans le fichier `app/etc/config.php`. Il n’est pas nécessaire de modifier directement le fichier.
 
 **Pour installer l’extension B2B** :
 
@@ -112,7 +112,7 @@ Adobe recommande de travailler dans une branche de développement lors de l’aj
 
    >[!NOTE]
    >
-   >L’envoi de mises à jour à l’environnement cloud lance le processus de déploiement cloud de Commerce pour appliquer les modifications. Vérifiez le statut du déploiement dans le [journal de déploiement](https://experienceleague.adobe.com/fr/docs/commerce-cloud-service/user-guide/develop/deploy/process). Si vous rencontrez des erreurs de déploiement, reportez-vous à la section [Récupération après une défaillance de composant](https://experienceleague.adobe.com/fr/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment).
+   >L’envoi de mises à jour à l’environnement cloud lance le processus de déploiement cloud de Commerce pour appliquer les modifications. Vérifiez le statut du déploiement dans le [journal de déploiement](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/develop/deploy/process). Si vous rencontrez des erreurs de déploiement, reportez-vous à la section [Récupération après une défaillance de composant](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/develop/deploy/recover-failed-deployment).
 
 1. Une fois la création et le déploiement terminés, utilisez SSH pour vous connecter à l’environnement distant et vérifier que l’extension B2B est installée et activée.
 
@@ -188,7 +188,7 @@ L’extension Adobe Commerce B2B utilise MySQL pour la gestion des files d’att
 | `purchaseorder.validation` | Valide la commande fournisseur par rapport aux [règles d&#39;approbation](account-dashboard-approval-rules.md) pertinentes. Obligatoire lorsque l’option [**[!UICONTROL Purchase Orders]**](purchase-order-flow.md) est activée dans les paramètres de configuration du système d’administration. |
 | `quoteItemCleaner` | Supprime les devis non valides ou inactifs lorsqu&#39;un produit est supprimé du catalogue ou du panier. Obligatoire lorsque l’option [**[!UICONTROL Quotes]**](quotes.md) est activée dans les paramètres de configuration du système d’administration. |
 | `inventoryQtyCounter` | Corrige l’index de stock de manière asynchrone après la passation d’une commande ou la suppression d’un produit. Obligatoire lorsque l’option [**[!UICONTROL Use deferred stock update]**](../configuration-reference/catalog/inventory.md#product-stock-options) est activée pour Inventory management dans les paramètres de configuration d’administration. Voir [&#x200B; Bonnes pratiques en matière de performances &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-operations/performance-best-practices/configuration#deferred-stock-update). |
-| `async.operations.all` | Crée des messages pour chaque tâche individuelle d&#39;une [opération en bloc](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/) telle que l&#39;importation ou l&#39;exportation d&#39;articles, la modification des prix à grande échelle et l&#39;affectation de produits à un entrepôt. Obligatoire lorsque l’option [**Opérations en bloc d’administration**](../configuration-reference/catalog/inventory.md#admin-bulk-operations) pour [!DNL Inventory Management] est définie sur **Exécuter de manière asynchrone** dans les paramètres de configuration du système d’administration. |
+| `async.operations.all` | Crée des messages pour chaque tâche individuelle d&#39;une [opération en bloc](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations) telle que l&#39;importation ou l&#39;exportation d&#39;articles, la modification des prix à grande échelle et l&#39;affectation de produits à un entrepôt. Obligatoire lorsque l’option [**Opérations en bloc d’administration**](../configuration-reference/catalog/inventory.md#admin-bulk-operations) pour [!DNL Inventory Management] est définie sur **Exécuter de manière asynchrone** dans les paramètres de configuration du système d’administration. |
 
 {style="table-layout:auto"}
 

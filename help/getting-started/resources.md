@@ -25,9 +25,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 67cbbb1d57e1306bd250237a9f767e5dbca335e6
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: 386
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Adobe met à votre disposition une multitude de ressources commerciales et techn
 
 | Ressources de l&#39;écosystème | Description |
 | ------------------ | ----------- |
-| [Documentation du produit](https://experienceleague.adobe.com/docs/commerce.html?lang=fr) | Les commerçants, les concepteurs et les développeurs peuvent utiliser la documentation pour approfondir leurs connaissances d’insight sur la manière dont ils peuvent tirer parti de la puissance des [!DNL Commerce] pour développer leur activité. |
+| [Documentation du produit](https://experienceleague.adobe.com/fr/docs/commerce) | Les commerçants, les concepteurs et les développeurs peuvent utiliser la documentation pour approfondir leurs connaissances d’insight sur la manière dont ils peuvent tirer parti de la puissance des [!DNL Commerce] pour développer leur activité. |
 | [Bibliothèque de ressources &#x200B;](https://business.adobe.com/fr/resources/commerce.html) | Accédez aux livres numériques, aux livres blancs Commerce et aux webinaires pour obtenir des ressources insight et commerciales en ligne expertes afin de développer et d’améliorer votre boutique. |
 | [Réponse aux incidents de sécurité des produits &#x200B;](https://helpx.adobe.com/fr/security.html) | Rejoignez le registre des alertes de sécurité pour obtenir les dernières informations sur les vulnérabilités potentielles et les [bonnes pratiques de sécurité](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf). |
 | [Blog](https://business.adobe.com/fr/blog/?ch_Products=Commerce) | Consultez le blog pour obtenir les dernières informations sur les nouvelles fonctionnalités, les tendances, les bonnes pratiques, les événements à venir, etc. |

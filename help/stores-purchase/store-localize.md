@@ -1,6 +1,6 @@
 ---
 title: Localisation de la boutique
-description: Découvrez comment localiser un magasin ou une vue de magasin.
+description: Découvrez comment localiser un magasin ou une vue de magasin en modifiant ses paramètres régionaux, qui permutent la table de traduction utilisée pour la navigation, les libellés, les boutons et les liens.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
 TQID: https://experienceleague.adobe.com/nSFO5Er6Qj--sCbOzjSAhAsAXBxPpwwSinJhpsVNggc
@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 744
+source-wordcount: 761
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Les modules linguistiques se trouvent sous [Traductions et localisation](https:/
 
 ## Étape 1 : installer un module linguistique
 
-Suivez les instructions standard pour installer l’extension du module linguistique. Pour plus d’informations sur l’installation d’une extension, voir [Installation de l’interface de ligne de commande générale](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=fr) dans le _Guide des extensions_.
+Suivez les instructions standard pour installer l’extension du module linguistique. Pour plus d’informations sur l’installation d’une extension, voir [Installation de l’interface de ligne de commande générale](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/tutorials/extensions) dans le _Guide des extensions_.
 
 ## Étape 2 : créer une vue de magasin pour la langue
 

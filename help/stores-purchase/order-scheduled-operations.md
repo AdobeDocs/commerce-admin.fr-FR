@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 284
+source-wordcount: 286
 ht-degree: 0%
 
 ---
@@ -59,11 +59,11 @@ En planifiant ces tâches, vous pouvez éviter les verrous qui se produisent lor
 
 **_Pour activer les mises à jour et la réindexation:_**
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Lorsque [Mode de production](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=fr#production-mode) (mode par défaut utilisé dans Adobe Commerce sur les infrastructures cloud) est activé, exécutez la commande suivante :
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Lorsque [Mode de production](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/setup/application-modes#production-mode) (mode par défaut utilisé dans Adobe Commerce sur les infrastructures cloud) est activé, exécutez la commande suivante :
 
 `bin/magento config:set dev/grid/async_indexing 1`
 
-Lorsque le [mode par défaut](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=fr#default-mode) est activé, procédez comme suit :
+Lorsque le [mode par défaut](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/setup/application-modes#default-mode) est activé, procédez comme suit :
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

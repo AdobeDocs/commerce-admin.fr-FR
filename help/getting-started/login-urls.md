@@ -21,9 +21,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 373
+source-wordcount: 374
 ht-degree: 0%
 
 ---
@@ -61,4 +61,4 @@ Pendant que vous vous familiarisez avec le magasin, veillez à configurer un [co
 
 [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
-Adobe fournit un jeu de données d’exemple qui comprend un magasin d’exemple avec plus de 250 produits (dont environ 200 sont des produits configurables), des catégories, des règles de prix promotionnels, des pages CMS, des bannières, etc. Les exemples de données utilisent le thème _Luma_ sur le storefront. [L’installation de ces exemples de données](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=fr) est facultative, mais peut s’avérer utile pour tester et développer des personnalisations pour votre entreprise d’e-commerce.
+Adobe fournit un jeu de données d’exemple qui comprend un magasin d’exemple avec plus de 250 produits (dont environ 200 sont des produits configurables), des catégories, des règles de prix promotionnels, des pages CMS, des bannières, etc. Les exemples de données utilisent le thème _Luma_ sur le storefront. [L’installation de ces exemples de données](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/next-steps/sample-data/overview) est facultative, mais peut s’avérer utile pour tester et développer des personnalisations pour votre entreprise d’e-commerce.

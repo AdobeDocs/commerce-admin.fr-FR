@@ -17,16 +17,16 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: 437
 ht-degree: 0%
 
 ---
 
 # Utiliser un réseau de diffusion de contenu
 
-Un réseau de diffusion de contenu (CDN) peut être utilisé pour stocker des fichiers multimédias. Adobe Commerce sur l’infrastructure cloud inclut le réseau CDN Fastly (voir [Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=fr) dans le _Guide de Commerce sur l’infrastructure cloud_). Une instance Commerce installée _on-premise_ n’inclut pas d’intégration à un réseau CDN spécifique. Vous pouvez utiliser le réseau CDN de votre choix.
+Un réseau de diffusion de contenu (CDN) peut être utilisé pour stocker des fichiers multimédias. Adobe Commerce sur l’infrastructure cloud inclut le réseau CDN Fastly (voir [Fastly](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/cdn/fastly) dans le _Guide de Commerce sur l’infrastructure cloud_). Une instance Commerce installée _on-premise_ n’inclut pas d’intégration à un réseau CDN spécifique. Vous pouvez utiliser le réseau CDN de votre choix.
 
 Après avoir configuré le réseau CDN, vous devez effectuer la configuration à partir de l’administration. Les modifications peuvent être apportées au niveau global ou au niveau du site web. Lorsqu’un réseau CDN est utilisé pour le stockage de médias, tous les chemins d’accès aux médias sur les pages de magasin Commerce sont modifiés en chemins d’accès CDN spécifiés dans la configuration.
 

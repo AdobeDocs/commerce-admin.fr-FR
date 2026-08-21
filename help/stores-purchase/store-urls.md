@@ -22,10 +22,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 1584
-ht-degree: 0%
+source-wordcount: 1611
+ht-degree: 1%
 
 ---
 
@@ -156,7 +156,7 @@ Si, après avoir suivi les instructions de configuration, certaines pages contin
 
 ## Utiliser une URL d’administration personnalisée
 
-En tant que [bonne pratique en matière de sécurité](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=fr), Adobe vous recommande d’utiliser une URL d’administration unique au lieu de la valeur par défaut _admin_ ou un terme courant tel que _backend_. Bien qu’il ne protège pas directement votre site d’un acteur malveillant déterminé, il peut réduire l’exposition aux scripts qui tentent d’obtenir un accès non autorisé.
+En tant que [bonne pratique en matière de sécurité](https://experienceleague.adobe.com/fr/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices), Adobe vous recommande d’utiliser une URL d’administration unique au lieu de la valeur par défaut _admin_ ou un terme courant tel que _backend_. Bien qu’il ne protège pas directement votre site d’un acteur malveillant déterminé, il peut réduire l’exposition aux scripts qui tentent d’obtenir un accès non autorisé.
 
 >[!NOTE]
 >
@@ -172,7 +172,7 @@ Bien qu’il soit possible de modifier l’URL et le chemin d’accès de l’ad
 
 >[!NOTE]
 >
->Par mesure de précaution, n’essayez pas de modifier vous-même l’URL d’administration, sauf si vous savez comment modifier les fichiers de configuration sur le serveur. Pour les projets Adobe Commerce déployés sur une infrastructure cloud, modifiez l’URL d’administration en suivant les [instructions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=fr#admin-url) dans le *Guide d’Adobe Commerce sur une infrastructure cloud*.
+>Par mesure de précaution, n’essayez pas de modifier vous-même l’URL d’administration, sauf si vous savez comment modifier les fichiers de configuration sur le serveur. Pour les projets Adobe Commerce déployés sur une infrastructure cloud, modifiez l’URL d’administration en suivant les [instructions](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin#admin-url) dans le *Guide d’Adobe Commerce sur une infrastructure cloud*.
 
 ### Méthode 1 : changement à partir de l’administrateur
 
@@ -218,7 +218,7 @@ Bien qu’il soit possible de modifier l’URL et le chemin d’accès de l’ad
 
    >[!TIP]
    >
-   >Pour Adobe Commerce sur les infrastructures cloud, vous pouvez configurer un chemin d’administration personnalisé à l’aide de la variable `ADMIN_URL` dans l’interface utilisateur Cloud. Voir la rubrique [Variables d’administration](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=fr) dans le guide _Commerce sur les infrastructures cloud_.
+   >Pour Adobe Commerce sur les infrastructures cloud, vous pouvez configurer un chemin d’administration personnalisé à l’aide de la variable `ADMIN_URL` dans l’interface utilisateur Cloud. Voir la rubrique [Variables d’administration](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin) dans le guide _Commerce sur les infrastructures cloud_.
 
    - **Chemin d’accès administrateur par défaut**
 

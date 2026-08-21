@@ -21,9 +21,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 412
+source-wordcount: 413
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Visitez le [Centre de sécurité](https://helpx.adobe.com/fr/security.html){:tar
 
 ![&#x200B; Centre de sécurité &#x200B;](./assets/product-security-home.png){width="700" zoomable="yes"}
 
-Pour plus d’informations sur les bonnes pratiques de sécurité, consultez la section [Sécurisation du site et de l’infrastructure Commerce](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=fr) du _guide d’implémentation_.
+Pour plus d’informations sur les bonnes pratiques de sécurité, consultez la section [Sécurisation du site et de l’infrastructure Commerce](https://experienceleague.adobe.com/fr/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices) du _guide d’implémentation_.
 
 ## Plan d’action pour la sécurité
 

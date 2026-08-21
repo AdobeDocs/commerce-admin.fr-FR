@@ -18,10 +18,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 436
-ht-degree: 0%
+source-wordcount: 454
+ht-degree: 3%
 
 ---
 
@@ -50,7 +50,7 @@ Veillez à mettre à jour le modèle [en-tête d’e-mail](../systems/email-temp
    - `Disable` - Envoie un e-mail de vente lorsqu’il est déclenché par un événement.
    - `Enable` - Envoie un e-mail de vente à intervalles réguliers prédéterminés.
 
-   La prise en charge d’Adobe Commerce recommande d’activer l’envoi asynchrone pour améliorer les performances du placement des commandes. Voir [&#x200B; Bonnes pratiques de configuration pour le traitement des commandes &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html?lang=fr) dans la base de connaissances du support Adobe Commerce.
+   La prise en charge d’Adobe Commerce recommande d’activer l’envoi asynchrone pour améliorer les performances du placement des commandes. Voir [&#x200B; Bonnes pratiques de configuration pour le traitement des commandes &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration) dans la base de connaissances du support Adobe Commerce.
 
 ## Étape 3. Complétez les détails de chaque e-mail de vente
 

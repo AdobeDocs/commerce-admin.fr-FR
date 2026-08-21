@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 3399
+source-wordcount: 3400
 ht-degree: 0%
 
 ---
@@ -57,9 +57,9 @@ Pour ajouter une règle, décrire les conditions et définir les actions, procé
 
    - Pour associer un coupon à une règle de prix, définissez **[!UICONTROL Coupon]** sur `Specific Coupon` et procédez comme suit :
 
-      - Saisissez un **[!UICONTROL Coupon Code]** de texte libre que le client doit saisir pour recevoir la remise.
+     - Saisissez un **[!UICONTROL Coupon Code]** de texte libre que le client doit saisir pour recevoir la remise.
 
-      - Pour limiter le nombre de fois où le coupon peut être utilisé, effectuez les options suivantes :
+     - Pour limiter le nombre de fois où le coupon peut être utilisé, effectuez les options suivantes :
 
      | Option | Description |
      |------|-----------|
@@ -228,7 +228,7 @@ Vous pouvez définir une condition pour une règle de prix de panier basée sur 
    | `Name` | Nom de l’audience, par exemple `Orders over $50` |
    | `Description` | Description de l’audience, par exemple `People who placed an order over $50 in the last month.`. |
    | `Source` | Indique l’origine de l’audience, par exemple `Experience Platform`. |
-   | `Website` | Indique le site web que vous avez lié au flux de données contenant les audiences. Vous créez ce lien lorsque vous connectez votre instance Commerce à Experience Platform par le biais de l’extension [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=fr). |
+   | `Website` | Indique le site web que vous avez lié au flux de données contenant les audiences. Vous créez ce lien lorsque vous connectez votre instance Commerce à Experience Platform par le biais de l’extension [[!DNL Data Connection]](https://experienceleague.adobe.com/fr/docs/commerce/data-connection/fundamentals/connect-data). |
 
    {style="table-layout:auto"}
 

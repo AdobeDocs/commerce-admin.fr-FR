@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 795
+source-wordcount: 796
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Si vous dépassez la taille de session maximale, aucune erreur ne s’affiche, m
 
 Adobe Commerce et Magento Open Source vous permettent de valider les variables de session à titre de mesure de protection contre d’éventuelles attaques de fixation de session ou tentatives d’empoisonnement ou de détournement de sessions utilisateur. Les paramètres de validation de session déterminent la manière dont les variables de session sont validées lors de chaque visite de la boutique et si l’ID de session est inclus dans l’URL de la boutique.
 
-Pour plus d’informations techniques, voir [Utilisation de Redis pour le stockage de session](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=fr) dans le _Guide de configuration_.
+Pour plus d’informations techniques, voir [Utilisation de Redis pour le stockage de session](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/cache/redis/redis-session) dans le _Guide de configuration_.
 
 ![Configuration générale - Validation des sessions web](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

@@ -20,9 +20,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 1078
+source-wordcount: 1064
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Votre compte [!DNL Commerce] contient des informations que vous pouvez mettre à
 
 Le titulaire de compte principal a le pouvoir d&#39;accorder un accès limité aux autres titulaires de compte [!DNL Commerce]. L’accès partagé peut être révoqué, mais pas transféré. Pour les entrées ``Cloud Shared Access from MAG[XYZ]``, l’enregistrement utilisateur **ne peut pas être supprimé ici** mais l’accès **peut toujours être révoqué**.
 
-Seul le titulaire du compte principal disposant des autorisations appropriées peut officiellement accorder l’accès partagé. Si le titulaire du compte principal n&#39;a plus accès ou a quitté la société, le client doit utiliser le processus de transfert de compte [&#128279;](https://experienceleague.adobe.com/fr/docs/commerce-admin/start/commerce-account/commerce-account-transfer) pour déplacer la propriété vers un nouveau contact. Bien que l’équipe d’assistance Commerce puisse emprunter l’identité du client dans certains scénarios, l’accès partagé doit être configuré par le client pour réduire les risques en matière de sécurité et de responsabilité.
+Seul le titulaire du compte principal disposant des autorisations appropriées peut officiellement accorder l’accès partagé. Si le titulaire du compte principal n&#39;a plus accès ou a quitté la société, le client doit utiliser le processus de transfert de compte [&#128279;](/help/getting-started/commerce-account-transfer.md) pour déplacer la propriété vers un nouveau contact. Bien que l’équipe d’assistance Commerce puisse emprunter l’identité du client dans certains scénarios, l’accès partagé doit être configuré par le client pour réduire les risques en matière de sécurité et de responsabilité.
 
 
 ![Paramètres d’accès partagé](./assets/shared-access.png){width="600" zoomable="yes"}
@@ -48,7 +48,7 @@ La section Historique de facturation affiche uniquement les factures plus ancien
 
 1. Avant de commencer, obtenez les informations suivantes à partir du compte [!DNL Commerce] du **nouveau bénéficiaire de l’accès partagé** :
 
-   - L’utilisateur doit déjà s’être enregistré pour un compte sur account.adobe.com et être connecté via account.magento.com. Voir [Création d’un compte Commerce](https://experienceleague.adobe.com/fr/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) pour plus d’informations.
+   - L’utilisateur doit déjà s’être enregistré pour un compte sur account.adobe.com et être connecté via account.magento.com. Voir [Création d’un compte Commerce](/help/getting-started/commerce-account-create.md#create-a-commerce-account) pour plus d’informations.
    - Le `MAGE ID/Account ID (MAG00XXXXXXX)` s’affiche dans le coin supérieur gauche de l’onglet _[!UICONTROL Magento]_, juste au-dessus du lien **Déconnexion**.
    - Adresse `Email` associée au compte.
 
@@ -86,7 +86,7 @@ La section Historique de facturation affiche uniquement les factures plus ancien
 
 >[!NOTE]
 >
->Il n’est pas nécessaire de partager l’accès au _[!UICONTROL Security Tool]_- Tout utilisateur disposant d’un ID MAGE peut configurer l’outil d’analyse de sécurité avec son propre compte. Ils ont juste besoin des privilèges nécessaires pour apporter des modifications au site et vérifier la propriété du domaine à l’aide de l’une des [méthodes requises](https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/security/security-scan)).
+>Il n’est pas nécessaire de partager l’accès au _[!UICONTROL Security Tool]_- Tout utilisateur disposant d’un ID MAGE peut configurer l’outil d’analyse de sécurité avec son propre compte. Ils ont juste besoin des privilèges nécessaires pour apporter des modifications au site et vérifier la propriété du domaine à l’aide de l’une des [méthodes requises](/help/systems/security-scan.md)).
 
 ## Accès à un compte partagé
 
@@ -117,7 +117,7 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
 
    >[!NOTE]
    >
-   >Après avoir reçu l’accès partagé, pour [soumettre un cas d’assistance](https://experienceleague.adobe.com/fr/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) sur Experience League, veillez d’abord à sélectionner le nom de l’organisation qui se termine par « ([!DNL Commerce]) » dans la colonne de gauche.
+   >Après avoir reçu l’accès partagé, pour [soumettre un cas d’assistance](https://experienceleague.adobe.com/fr/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) sur Experience League, veillez d’abord à sélectionner le nom de l’organisation qui se termine par « ([!DNL Commerce]) » dans la colonne de gauche.
 
 1. Pour revenir à votre propre compte, cliquez sur **Précédent** dans les commandes de votre navigateur et définissez **[!UICONTROL Switch Accounts]** sur `My Account`.
 
@@ -131,7 +131,7 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
 
    >[!NOTE]
    >
-   > Si **[!UICONTROL Delete]** n’est pas affiché, vérifiez si le **[!UICONTROL Share Name]** contient le modèle de dénomination `Cloud Shared Access from MAG0XYZ`. Si le compte possède ce modèle de dénomination [&#x200B; et ne peut pas être supprimé](https://experienceleague.adobe.com/fr/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), c’est parce que l’accès partagé a été créé par une API et non directement à partir du compte [Commerce](https://account.magento.com/).
+   > Si **[!UICONTROL Delete]** n’est pas affiché, vérifiez si le **[!UICONTROL Share Name]** contient le modèle de dénomination `Cloud Shared Access from MAG0XYZ`. Si le compte possède ce modèle de dénomination [&#x200B; et ne peut pas être supprimé](https://experienceleague.adobe.com/fr/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users), c’est parce que l’accès partagé a été créé par une API et non directement à partir du compte [Commerce](https://account.magento.com/).
    > 
    > S’il ne peut pas être supprimé, demandez simplement au propriétaire du compte de modifier le compte d’accès partagé et, sous Accorder des autorisations de compte, décochez chaque élément. Après cette mise à jour, l’utilisateur ne pourra plus accéder aux ressources du compte.
    > ![image](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
@@ -143,7 +143,7 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
 
 >[!NOTE]
 >
->Dans cette interface, vous ne pouvez pas supprimer les utilisateurs dotés du nom de partage _Cloud Shared Access from MAG[XYZ]_. Voir [Comment supprimer des utilisateurs ayant obtenu un accès partagé via un projet cloud ?](https://experienceleague.adobe.com/fr/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users).
+>Dans cette interface, vous ne pouvez pas supprimer les utilisateurs dotés du nom de partage _Cloud Shared Access from MAG[XYZ]_. Voir [Comment supprimer des utilisateurs ayant obtenu un accès partagé via un projet cloud ?](https://experienceleague.adobe.com/fr/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users).
 
 ## Lectures connexes
 

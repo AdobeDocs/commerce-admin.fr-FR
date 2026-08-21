@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 1041
+source-wordcount: 1029
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Si d’autres membres de l’équipe ou fournisseurs de services ont besoin d’
 
 >[!NOTE]
 >
->Les commerçants Adobe Commerce qui disposent d’une Adobe ID et souhaitent une connexion rationalisée aux produits Adobe Commerce et Adobe Business peuvent intégrer l’authentification Commerce au workflow d’authentification Adobe IMS. Une fois cette intégration activée pour votre boutique Commerce, chaque utilisateur administrateur doit utiliser ses informations d’identification Adobe, et non ses informations d’identification Commerce, pour se connecter. Voir [Présentation de l’intégration du service Adobe Identity Management (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=fr).
+>Les commerçants Adobe Commerce qui disposent d’une Adobe ID et souhaitent une connexion rationalisée aux produits Adobe Commerce et Adobe Business peuvent intégrer l’authentification Commerce au workflow d’authentification Adobe IMS. Une fois cette intégration activée pour votre boutique Commerce, chaque utilisateur administrateur doit utiliser ses informations d’identification Adobe, et non ses informations d’identification Commerce, pour se connecter. Voir [Présentation de l’intégration du service Adobe Identity Management (IMS)](/help/getting-started/adobe-ims-integration-overview.md).
 
 Pour les utilisateurs et utilisatrices ou les rôles temporaires, vous pouvez également définir une date d’expiration pour le compte utilisateur.
 
@@ -60,9 +60,9 @@ Pour les utilisateurs et utilisatrices ou les rôles temporaires, vous pouvez é
 
    - Renseignez les informations suivantes :
 
-      - **[!UICONTROL First Name]**
-      - **[!UICONTROL Last Name]**
-      - **[!UICONTROL Email address]**
+     - **[!UICONTROL First Name]**
+     - **[!UICONTROL Last Name]**
+     - **[!UICONTROL Email address]**
 
      Chaque compte utilisateur doit avoir une adresse e-mail unique.
 

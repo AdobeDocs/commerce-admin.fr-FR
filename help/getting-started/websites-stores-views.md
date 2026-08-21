@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 687
+source-wordcount: 688
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Chaque installation d’Adobe Commerce et de Magento Open Source comporte une [h
 
 >[!NOTE]
 >
->Pour en savoir plus, consultez la section [Plusieurs sites web ou magasins](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=fr) dans la documentation destinée aux développeurs [!DNL Commerce].
+>Pour en savoir plus, consultez la section [Plusieurs sites web ou magasins](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) dans la documentation destinée aux développeurs [!DNL Commerce].
 
 ## Sites web
 

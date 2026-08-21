@@ -16,10 +16,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 145
-ht-degree: 0%
+source-wordcount: 157
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Certains visiteurs de votre site utilisent des commandes au clavier pour naviguer (plutôt qu’une souris), tandis que d’autres peuvent utiliser des commandes tactiles ou vocales. Bien que les commandes de navigation au clavier varient selon le navigateur et la plateforme, la touche de tabulation est généralement utilisée pour déplacer le focus sur les champs, les liens et les boutons d’une page. Pour en savoir plus, voir [Raccourcis clavier](https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts){:target="_blank"}.
 
-Pour plus d’informations sur l’accessibilité, voir [Consignes d’accessibilité](https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines/){:target="_blank"} dans la documentation destinée aux développeurs.
+Pour plus d’informations sur l’accessibilité, voir [Consignes d’accessibilité](https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines){:target="_blank"} dans la documentation destinée aux développeurs.
 
 ## Windows
 

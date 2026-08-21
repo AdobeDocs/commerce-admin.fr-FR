@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 1703
+source-wordcount: 1694
 ht-degree: 0%
 
 ---
@@ -46,13 +46,13 @@ L’extension AEM Assets Integration for Commerce a les exigences système et de
 
 Vous avez besoin des rôles et autorisations suivants pour configurer l’intégration.
 
-- [Administrateur de projet cloud Commerce &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-cloud-service/user-guide/project/user-access) : installez les extensions requises et configurez le serveur d’applications Commerce à partir de l’Administration ou de la ligne de commande.
+- [Administrateur de projet cloud Commerce &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/project/user-access) : installez les extensions requises et configurez le serveur d’applications Commerce à partir de l’Administration ou de la ligne de commande.
 
-   - Accédez à [repo.magento.com](https://repo.magento.com/admin/dashboard) pour installer l’extension.
+  - Accédez à [repo.magento.com](https://repo.magento.com/admin/dashboard) pour installer l’extension.
 
-     Pour la génération des clés et l’obtention des droits nécessaires, voir [&#x200B; Obtenir vos clés d’authentification &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Pour les installations cloud, consultez le guide [Commerce sur les infrastructures cloud](https://experienceleague.adobe.com/fr/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
+    Pour la génération des clés et l’obtention des droits nécessaires, voir [&#x200B; Obtenir vos clés d’authentification &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Pour les installations cloud, consultez le guide [Commerce sur les infrastructures cloud](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/develop/authentication-keys)
 
-- [Commerce Admin](https://experienceleague.adobe.com/fr/docs/commerce-admin/start/guide-overview)—Mettez à jour la configuration du magasin et gérez les comptes utilisateur Commerce.
+- [Commerce Admin](/help/getting-started/guide-overview.md)—Mettez à jour la configuration du magasin et gérez les comptes utilisateur Commerce.
 
 >[!TIP]
 >
@@ -81,7 +81,7 @@ Utilisez cette méthode pour installer l’extension [!DNL AEM Assets Integratio
 
    >[!NOTE]
    >
-   >Pour plus d’informations sur la gestion locale des environnements de projet Commerce, voir [Gestion des branches avec l’interface de ligne de commande](https://experienceleague.adobe.com/fr/docs/commerce-cloud-service/user-guide/develop/cli-branches) dans le _Guide d’utilisation d’Adobe Commerce sur les infrastructures cloud_.
+   >Pour plus d’informations sur la gestion locale des environnements de projet Commerce, voir [Gestion des branches avec l’interface de ligne de commande](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/develop/cli-branches) dans le _Guide d’utilisation d’Adobe Commerce sur les infrastructures cloud_.
 
 1. Consultez la branche d’environnement pour effectuer la mise à jour à l’aide de l’interface de ligne de commande Adobe Commerce Cloud.
 
@@ -111,7 +111,7 @@ Utilisez cette méthode pour installer l’extension [!DNL AEM Assets Integratio
    git push origin <branch-name>
    ```
 
-   L’envoi des mises à jour lance le processus de déploiement cloud de [&#128279;](https://experienceleague.adobe.com/fr/docs/commerce-cloud-service/user-guide/develop/deploy/process) pour appliquer les modifications. Vérifiez le statut du déploiement dans le [journal de déploiement](https://experienceleague.adobe.com/fr/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   L’envoi des mises à jour lance le processus de déploiement cloud de [&#128279;](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/develop/deploy/process) pour appliquer les modifications. Vérifiez le statut du déploiement dans le [journal de déploiement](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/develop/test/log-locations#deploy-log).
 
 >[!TAB Sur site]
 
@@ -174,13 +174,13 @@ L’intégration d’AEM Assets utilise le service Adobe I/O Events pour envoyer
 Avant de configurer Adobe I/O Events, vérifiez la configuration des tâches RabbitMQ et cron pour votre projet Commerce :
 
 - Assurez-vous que RabbitMQ est activé et écoute les événements.
-   - [Configuration de RabbitMQ pour Adobe Commerce on-premise](https://experienceleague.adobe.com/fr/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
-   - [Configuration de RabbitMQ pour Adobe Commerce sur l’infrastructure cloud](https://experienceleague.adobe.com/fr/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
-   - Vérifiez que les tâches [cron) sont activées](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). Des tâches cron sont nécessaires pour la communication et les workflows de l’intégration d’AEM Assets.
+  - [Configuration de RabbitMQ pour Adobe Commerce on-premise](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/configure/service/rabbitmq)
+  - [Configuration de RabbitMQ pour Adobe Commerce sur l’infrastructure cloud](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/configure/service/rabbitmq)
+  - Vérifiez que les tâches [cron) sont activées](https://developer.adobe.com/commerce/extensibility/events/configure-commerce#check-cron-and-message-queue-configuration). Des tâches cron sont nécessaires pour la communication et les workflows de l’intégration d’AEM Assets.
 
 >[!NOTE]
 >
-> Pour les projets sous Commerce version 2.4.5, vous devez [installer les modules Adobe I/O](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce). Dans la version 2.4.6 ou ultérieure de Commerce, ces modules sont chargés automatiquement. Pour l’intégration d’AEM Assets pour Commerce, il vous suffit d’installer les modules . La configuration d’App Builder n’est pas requise.
+> Pour les projets sous Commerce version 2.4.5, vous devez [installer les modules Adobe I/O](https://developer.adobe.com/commerce/extensibility/events/installation#install-adobe-io-modules-on-commerce). Dans la version 2.4.6 ou ultérieure de Commerce, ces modules sont chargés automatiquement. Pour l’intégration d’AEM Assets pour Commerce, il vous suffit d’installer les modules . La configuration d’App Builder n’est pas requise.
 
 
 ### Activation de la structure d’événements Commerce
@@ -235,7 +235,7 @@ Avant de créer un fragment de code basé sur cet exemple, passez en revue les v
 
 - `content` : fragment de code VCL à exécuter, qui vérifie l’adresse IP du client. Si l’adresse IP se trouve dans la liste de contrôle d’accès d’Edge, elle est bloquée avec une erreur de `405 Not allowed` pour l’ensemble du site web. Toutes les autres adresses IP client sont autorisées à y accéder.
 
-Pour plus d’informations sur l’utilisation de fragments de code VCL pour bloquer les requêtes entrantes, consultez [Custom VCL for blocking requests](https://experienceleague.adobe.com/fr/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) dans le guide _Commerce sur les infrastructures cloud_.
+Pour plus d’informations sur l’utilisation de fragments de code VCL pour bloquer les requêtes entrantes, consultez [Custom VCL for blocking requests](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) dans le guide _Commerce sur les infrastructures cloud_.
 
 >[!ENDSHADEBOX]
 
@@ -285,7 +285,7 @@ Sur la page Intégrations , générez les informations d’identification d’au
 
 >[!NOTE]
 >
->Vous pouvez également générer des informations d’authentification à l’aide des API Adobe Commerce. Pour plus d’informations sur ce processus et l’authentification basée sur OAuth pour Adobe Commerce, consultez la section [Authentification basée sur OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) dans la documentation d’Adobe Developer.
+>Vous pouvez également générer des informations d’authentification à l’aide des API Adobe Commerce. Pour plus d’informations sur ce processus et l’authentification basée sur OAuth pour Adobe Commerce, consultez la section [Authentification basée sur OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth) dans la documentation d’Adobe Developer.
 
 ## Étape suivante
 

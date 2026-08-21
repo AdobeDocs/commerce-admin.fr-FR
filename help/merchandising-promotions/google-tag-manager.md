@@ -28,9 +28,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 1500
+source-wordcount: 1504
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Voir [Configuration de la recherche de site](https://support.google.com/analytic
 
 ## Étape 2. Configuration de votre compte [!DNL Google Tag Manager]
 
-Les instructions suivantes indiquent comment configurer un nouveau conteneur avec les paramètres de base. Un exemple de fichier de configuration [Composer](https://developer.adobe.com/commerce/php/development/composer/) (.json) est utilisé pour simplifier le processus d’importation afin de générer une balise dans un nouveau conteneur. Pour cet exemple, il est recommandé de créer un conteneur plutôt que de modifier un conteneur existant.
+Les instructions suivantes indiquent comment configurer un nouveau conteneur avec les paramètres de base. Un exemple de fichier de configuration [Composer](https://developer.adobe.com/commerce/php/development/composer) (.json) est utilisé pour simplifier le processus d’importation afin de générer une balise dans un nouveau conteneur. Pour cet exemple, il est recommandé de créer un conteneur plutôt que de modifier un conteneur existant.
 
 >[!NOTE]
 >
