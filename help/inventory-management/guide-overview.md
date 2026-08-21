@@ -70,5 +70,5 @@ Utilisez les articles d’assistance et les systèmes de ticket pour résoudre r
 
 Si vous avez besoin d’informations ou si vous avez des questions qui ne sont pas abordées dans ce guide, utilisez les ressources suivantes :
 
-- [Statut de stock incorrect après l’installation de l’inventaire](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29910)
-- [Tickets d’assistance](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) : envoyez un ticket pour recevoir de l’aide supplémentaire.
+- [Statut de stock incorrect après l’installation de l’inventaire](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-29910)
+- [Tickets d’assistance](https://experienceleague.adobe.com/fr/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) : envoyez un ticket pour recevoir de l’aide supplémentaire.

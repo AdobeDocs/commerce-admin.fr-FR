@@ -41,4 +41,4 @@ Le fichier CSV comporte des colonnes distinctes pour `downloadable_links` et `do
 
   ![Exemple de données - produit téléchargeable avec des exemples téléchargeables](./assets/data-import-downloadable-samples.png){width="400" zoomable="yes"}
 
-Pour plus d’informations sur l’activation et la gestion du module de stockage distant, voir [Configurer le stockage distant](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage) dans le _Guide de configuration_.
+Pour plus d’informations sur l’activation et la gestion du module de stockage distant, voir [Configurer le stockage distant](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage) dans le _Guide de configuration_.

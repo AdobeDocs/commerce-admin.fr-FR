@@ -113,11 +113,11 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
 
    ![Assistance](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   Vous pouvez utiliser le [Centre d’aide &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) à partir du compte partagé pour rechercher des articles et des informations de dépannage, rechercher des correctifs pour les problèmes connus et créer des tickets d’assistance.
+   Vous pouvez utiliser le [Centre d’aide &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-knowledge-base/kb/overview) à partir du compte partagé pour rechercher des articles et des informations de dépannage, rechercher des correctifs pour les problèmes connus et créer des tickets d’assistance.
 
    >[!NOTE]
    >
-   >Après avoir reçu l’accès partagé, pour [soumettre un cas d’assistance](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) sur Experience League, veillez d’abord à sélectionner le nom de l’organisation qui se termine par « ([!DNL Commerce]) » dans la colonne de gauche.
+   >Après avoir reçu l’accès partagé, pour [soumettre un cas d’assistance](https://experienceleague.adobe.com/fr/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) sur Experience League, veillez d’abord à sélectionner le nom de l’organisation qui se termine par « ([!DNL Commerce]) » dans la colonne de gauche.
 
 1. Pour revenir à votre propre compte, cliquez sur **Précédent** dans les commandes de votre navigateur et définissez **[!UICONTROL Switch Accounts]** sur `My Account`.
 
@@ -131,21 +131,21 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
 
    >[!NOTE]
    >
-   > Si **[!UICONTROL Delete]** n’est pas affiché, vérifiez si le **[!UICONTROL Share Name]** contient le modèle de dénomination `Cloud Shared Access from MAG0XYZ`. Si le compte possède ce modèle de dénomination [&#x200B; et ne peut pas être supprimé](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users), c’est parce que l’accès partagé a été créé par une API et non directement à partir du compte [Commerce](https://account.magento.com/).
+   > Si **[!UICONTROL Delete]** n’est pas affiché, vérifiez si le **[!UICONTROL Share Name]** contient le modèle de dénomination `Cloud Shared Access from MAG0XYZ`. Si le compte possède ce modèle de dénomination [&#x200B; et ne peut pas être supprimé](https://experienceleague.adobe.com/fr/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users), c’est parce que l’accès partagé a été créé par une API et non directement à partir du compte [Commerce](https://account.magento.com/).
    > 
    > S’il ne peut pas être supprimé, demandez simplement au propriétaire du compte de modifier le compte d’accès partagé et, sous Accorder des autorisations de compte, décochez chaque élément. Après cette mise à jour, l’utilisateur ne pourra plus accéder aux ressources du compte.
    > ![image](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
-   > En outre, assurez-vous que les utilisateurs sont supprimés du projet afin qu’ils ne reçoivent plus de notifications par e-mail : [Les anciens membres de l’équipe reçoivent des e-mails de notification dans le cloud Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
+   > En outre, assurez-vous que les utilisateurs sont supprimés du projet afin qu’ils ne reçoivent plus de notifications par e-mail : [Les anciens membres de l’équipe reçoivent des e-mails de notification dans le cloud Adobe Commerce](https://experienceleague.adobe.com/fr/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. Lorsque vous êtes invité à confirmer, cliquez sur **[!UICONTROL Delete User]**.
 
 >[!NOTE]
 >
->Dans cette interface, vous ne pouvez pas supprimer les utilisateurs dotés du nom de partage _Cloud Shared Access from MAG[XYZ]_. Voir [Comment supprimer des utilisateurs ayant obtenu un accès partagé via un projet cloud ?](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users).
+>Dans cette interface, vous ne pouvez pas supprimer les utilisateurs dotés du nom de partage _Cloud Shared Access from MAG[XYZ]_. Voir [Comment supprimer des utilisateurs ayant obtenu un accès partagé via un projet cloud ?](https://experienceleague.adobe.com/fr/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users).
 
 ## Lectures connexes
 
-[Dépannage de l&#39;accès partagé](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
+[Dépannage de l&#39;accès partagé](https://experienceleague.adobe.com/fr/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
 

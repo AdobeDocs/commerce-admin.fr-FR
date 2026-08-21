@@ -56,5 +56,5 @@ Il existe de nombreuses zones lumineuses et curseurs tiers que vous pouvez utili
 
 Pour obtenir de l’aide sur la résolution des problèmes d’images et de vidéos, consultez les articles suivants de la base de connaissances de la prise en charge de Commerce :
 
-- [Les images de produit ne s’affichent pas malgré les rôles d’image de modification de produit](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26859)
-- [Stocker les images non affichées après le déploiement](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)
+- [Les images de produit ne s’affichent pas malgré les rôles d’image de modification de produit](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-26859)
+- [Stocker les images non affichées après le déploiement](https://experienceleague.adobe.com/fr/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)

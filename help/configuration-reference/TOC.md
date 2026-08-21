@@ -85,4 +85,4 @@ ht-degree: 2%
   - [Admin](./advanced/admin.md)
   - [Système](./advanced/system.md)
   - [Développeur](./advanced/developer.md)
-- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/fr/docs/commerce-admin/user-guides/home)

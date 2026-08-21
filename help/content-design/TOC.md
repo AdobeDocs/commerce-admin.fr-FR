@@ -91,7 +91,7 @@ ht-degree: 4%
   - [Tableau de bord d’évaluation](content-staging-dashboard.md)
   - [Ajouter un élément de campagne](content-staging-add-item.md)
   - [Prévisualiser une campagne](content-staging-preview.md)
-- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/fr/docs/commerce-admin/user-guides/home)
 
 <!--
 Add above "Content staging" when articles are available?
