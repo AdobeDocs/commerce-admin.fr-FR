@@ -4,11 +4,23 @@ description: Découvrez comment utiliser les médias numériques pour améliorer
 exl-id: 963693d3-669b-42b3-9ac7-cdaed8bb614f
 feature: Catalog Management, Media
 TQID: https://experienceleague.adobe.com/EfPHXDn5-MioWq2McJoLx-1WLIOhhRrAYvM-9vrb-cg
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
 source-wordcount: 476
@@ -22,7 +34,7 @@ L&#39;utilisation d&#39;images de haute qualité de proportion constante donne �
 
 ![Images du produit](./assets/product-images-videos-swatch.png){width="600" zoomable="yes"}
 
-Une seule image de produit est rendue dans différentes tailles dans l’ensemble du catalogue. La taille d’affichage du conteneur d’images sur la page est définie dans la feuille de style de votre thème. Cependant, l’emplacement de l’image dans votre boutique est déterminé par le rôle attribué à l’image. L’image principale du produit, ou image _de base_, doit être suffisamment grande pour produire le zoom nécessaire. Outre l’image principale, une version plus petite de la même image peut apparaître dans les listes de produits ou sous forme de miniature dans le panier. Vous pouvez charger une image de la plus grande taille nécessaire ou utiliser une image [](../content-design/adobe-stock.md) et laisser Commerce effectuer le rendu des tailles nécessaires pour chaque utilisation. Vous pouvez utiliser la même image pour tous les rôles, ou une image différente peut être affectée à chaque rôle. Par défaut, la première image chargée est affectée aux trois rôles.
+Une seule image de produit est rendue dans différentes tailles dans l’ensemble du catalogue. La taille d’affichage du conteneur d’images sur la page est définie dans la feuille de style de votre thème. Cependant, l’emplacement de l’image dans votre boutique est déterminé par le rôle attribué à l’image. L’image principale du produit, ou image _de base_, doit être suffisamment grande pour produire le zoom nécessaire. Outre l’image principale, une version plus petite de la même image peut apparaître dans les listes de produits ou sous forme de miniature dans le panier. Vous pouvez charger une image de la plus grande taille nécessaire ou utiliser une image [&#128279;](../content-design/adobe-stock.md) et laisser Commerce effectuer le rendu des tailles nécessaires pour chaque utilisation. Vous pouvez utiliser la même image pour tous les rôles, ou une image différente peut être affectée à chaque rôle. Par défaut, la première image chargée est affectée aux trois rôles.
 
 ## Navigateur de médias Storefront
 
@@ -38,7 +50,7 @@ Si l’[image de base](product-image.md) est suffisamment grande pour créer l�
 
 ### Boîtes de lumière et curseurs
 
-Il existe de nombreuses zones lumineuses et curseurs tiers que vous pouvez utiliser pour améliorer la présentation de vos images de produit. Recherchez des extensions dans [](../getting-started/commerce-marketplace.md).
+Il existe de nombreuses zones lumineuses et curseurs tiers que vous pouvez utiliser pour améliorer la présentation de vos images de produit. Recherchez des extensions dans [&#128279;](../getting-started/commerce-marketplace.md).
 
 ## Résolution des problèmes liés aux ressources
 
