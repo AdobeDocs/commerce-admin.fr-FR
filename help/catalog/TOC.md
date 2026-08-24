@@ -4,7 +4,7 @@ user-guide-description: Informations complètes sur les fonctionnalités de gest
 breadcrumb-title: Gestion des catalogues
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: c67474ee4b72744766421090e30c56c85d687495
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -99,4 +99,4 @@ ht-degree: 1%
     + [Création et suppression d’attributs](attribute-product-create.md)
     + [Mises à jour en bloc](bulk-product-attribute-update.md)
     + [Jeux d’attributs](attribute-sets.md)
-+ [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/fr/docs/commerce-admin/user-guides/home)
++ [Retour aux guides de l’utilisateur des administrateurs](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
