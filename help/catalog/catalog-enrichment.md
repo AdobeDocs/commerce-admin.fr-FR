@@ -63,7 +63,7 @@ Les conditions préalables suivantes s’appliquent lorsque vous avez accès à 
 - Votre storefront peut être exploré par des robots orientés LLM et agentiques où une couverture d’explore est requise pour les suggestions tenant compte du catalogue.
 - Les services Commerce requis et la connectivité du catalogue sont activés et sains. Voir [Activer l’enrichissement du catalogue](#enable-catalog-enrichment) pour en savoir plus.
 - [IMS est configuré](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/organizations).
-- Vous avez accès à [&#128279;](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- Vous avez accès à [&#128279;](https://helpx.adobe.com/fr/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - Votre entreprise a signé l’avenant GenAI, ou s’est explicitement désabonnée, pour les services d’IA sous-jacents.
 
 >[!NOTE]
