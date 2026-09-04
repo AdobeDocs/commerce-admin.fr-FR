@@ -23,7 +23,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Suppression d’Adobe Commerce 2.4.8-p5 de la liste des versions prises en charge pour <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a>. 2.4.8 Les clients doivent utiliser la version 1.5.3 de B2B à la place.</p>
+      <td><p>Suppression d’Adobe Commerce 2.4.8-p5 de la liste des versions prises en charge pour <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a>. 2.4.8 Les clients doivent utiliser la version 1.5.3 de B2B à la place.</p>
 </td>
       <td>
         Technique
@@ -45,7 +45,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Actualisation de la rubrique <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Statut de synchronisation des flux de données</a> pour correspondre à l’expérience d’administration actuelle, clarifier le fait que la page signale uniquement le statut d’exportation et documenter la disponibilité de la fonctionnalité dans toutes les licences de service Commerce.</p>
+      <td><p>Actualisation de la rubrique <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Statut de synchronisation des flux de données</a> pour correspondre à l’expérience d’administration actuelle, clarifier le fait que la page signale uniquement le statut d’exportation et documenter la disponibilité de la fonctionnalité dans toutes les licences de service Commerce.</p>
 </td>
       <td>
         Mise à jour majeure
@@ -67,7 +67,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Découvrez comment supprimer des catégories spécifiques d’e-mails système automatisés, telles que les notifications de commande ou de marketing, directement à partir de l’interface d’administration dans <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/email-suppression">Suppression des e-mails</a>.</p>
+      <td><p>Découvrez comment supprimer des catégories spécifiques d’e-mails système automatisés, telles que les notifications de commande ou de marketing, directement à partir de l’interface d’administration dans <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/config/services/email-suppression">Suppression des e-mails</a>.</p>
 </td>
       <td>
         Mise à jour majeure, nouvelle rubrique
@@ -89,7 +89,7 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
   </thead>
   <tbody>
     <tr>
-      <td><p>Ajout de la section <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment">Enrichissement du catalogue</a> avec des conseils pour examiner et appliquer les mises à jour de nom et de description de produit suggérées par l’IA dans l’interface utilisateur d’administration. Liaison de la rubrique à partir des rubriques <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu">Menu catalogue</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview">Présentation du guide</a> et des rubriques de paramètres de produit associées.</p>
+      <td><p>Ajout de la section <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/catalog/products/catalog-enrichment">Enrichissement du catalogue</a> avec des conseils pour examiner et appliquer les mises à jour de nom et de description de produit suggérées par l’IA dans l’interface utilisateur d’administration. Liaison de la rubrique à partir des rubriques <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/catalog/catalog-menu">Menu catalogue</a>, <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/catalog/guide-overview">Présentation du guide</a> et des rubriques de paramètres de produit associées.</p>
 </td>
       <td>
         Nouvelle rubrique
