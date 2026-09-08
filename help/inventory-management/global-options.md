@@ -4,11 +4,20 @@ description: Configurez les paramètres  [!DNL Inventory Management]  catalogue 
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ca077051a26ab57194eef45f57351e2f6b1b0b6b
 workflow-type: tm+mt
 source-wordcount: 757
@@ -88,7 +97,7 @@ Configurez les options de configuration par défaut pour le produit et le stock 
 
    >[!NOTE]
    >
-   >La requête `sourceAvailability` est désactivée par défaut, car elle indique quelles sources stockent un SKU. Les quantités exactes restent masquées jusqu&#39;à ce que la quantité source atteigne le **[!UICONTROL Only X left Threshold]** défini dans la section _[!UICONTROL Stock Options]_. Chaque origine de stock possède un indicateur de **[!UICONTROL Visible on Storefront]**désactivé par défaut. Le stock d’une source n’est jamais renvoyé tant qu’un commerçant ne l’a pas activée. Pour le définir, accédez à&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, modifiez une source, puis activez **[!UICONTROL Visible on Storefront]**.
+   >La requête `sourceAvailability` est désactivée par défaut, car elle indique quelles sources stockent un SKU. Les quantités exactes restent masquées jusqu&#39;à ce que la quantité source atteigne le **[!UICONTROL Only X left Threshold]** défini dans la section _[!UICONTROL Stock Options]_. Chaque origine de stock possède un indicateur de **[!UICONTROL Visible on Storefront]**&#x200B;désactivé par défaut. Le stock d’une source n’est jamais renvoyé tant qu’un commerçant ne l’a pas activée. Pour le définir, accédez à&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, modifiez une source, puis activez **[!UICONTROL Visible on Storefront]**.
 
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Admin bulk operations]** et définissez les options suivantes :
@@ -97,7 +106,7 @@ Configurez les options de configuration par défaut pour le produit et le stock 
 
    - Définir des **[!UICONTROL Run asynchronously]** pour exécuter des opérations en bloc de manière asynchrone pour des actions de produits en masse
 
-     Ces opérations incluent l&#39;affectation en bloc [affectation et annulation de l&#39;affectation des sources](bulk-assignment.md) et [ transfert du stock vers la source](inventory-transfer.md). Il collecte les actions en bloc jusqu’à la taille de lot asynchrone, puis exécute ces actions. Par défaut, cette option est désactivée. Il est recommandé de vérifier vos performances avec des actions en bloc avant l’activation.
+     Ces opérations incluent l&#39;affectation en bloc [affectation et annulation de l&#39;affectation des sources](bulk-assignment.md) et [&#x200B; transfert du stock vers la source](inventory-transfer.md). Il collecte les actions en bloc jusqu’à la taille de lot asynchrone, puis exécute ces actions. Par défaut, cette option est désactivée. Il est recommandé de vérifier vos performances avec des actions en bloc avant l’activation.
 
      >[!NOTE]
      >
