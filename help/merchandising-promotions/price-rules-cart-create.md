@@ -4,28 +4,18 @@ description: Découvrez comment créer une règle de prix de panier basée sur d
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
 TQID: https://experienceleague.adobe.com/wCXMFRIybcV59Hj3WwLoseT-IzxdfVCiS96rZv0enTY
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6f1f13b75aa01c5142cc8ea03cef2df6d2d3aaf3
 workflow-type: tm+mt
-source-wordcount: 3400
+source-wordcount: 3608
 ht-degree: 0%
 
 ---
+
 
 # Créer une règle de prix de panier
 
@@ -37,7 +27,7 @@ Pour ajouter une règle, décrire les conditions et définir les actions, procé
 
 1. Cliquez sur **[!UICONTROL Add New Rule]** et procédez comme suit :
 
-   - Sous _[!UICONTROL Rule Information]_, complétez les **[!UICONTROL Rule Name]**&#x200B;et les **[!UICONTROL Description]**.
+   - Sous _[!UICONTROL Rule Information]_, complétez les **[!UICONTROL Rule Name]**et les **[!UICONTROL Description]**.
 
    - Si vous ne souhaitez pas que la règle entre en vigueur immédiatement, définissez **[!UICONTROL Active]** sur `No`.
 
@@ -73,10 +63,11 @@ Pour ajouter une règle, décrire les conditions et définir les actions, procé
      ![Règle de prix du panier - Paramètres des coupons](./assets/price-rule-cart-coupon-settings-ee.png){width="600" zoomable="yes"}
 
    - ![](../assets/open-source.svg) (Magento Open Source uniquement) Utilisez l’icône _Calendrier_ (![Icône Calendrier](../assets/icon-calendar.png)) pour choisir la période **[!UICONTROL From]** et **[!UICONTROL To]** de la promotion.
+   - ![](../assets/adobe-logo.svg) (Adobe Commerce as a Cloud Service uniquement) Utilisez le _Calendrier_ (![icône Calendrier](../assets/icon-calendar.png)) pour choisir la **[!UICONTROL From]** et **[!UICONTROL To]** période et l’heure de la promotion.
 
 1. Entrez un nombre pour définir la **[!UICONTROL Priority]** de cette règle de prix par rapport aux paramètres Action des autres règles de prix actives en même temps.
 
-   Lorsque plusieurs règles de panier ou coupons s’appliquent au même produit, la règle ayant la priorité la plus élevée (nombre le plus faible) est appliquée en premier. Les règles de même priorité ne se combinent pas ; elles s’appliquent séparément en fonction de l’identifiant de la règle. Pour contrôler l&#39;ordre dans lequel les remises sont appliquées, affectez des priorités uniques et envisagez d&#39;utiliser la [Règles de prix de remises suivantes](#step-3-define-the-actions) dans l&#39;étape Actions pour empêcher le cumul des remises.
+   Lorsque plusieurs règles de panier ou coupons s’appliquent au même produit, la règle ayant la priorité la plus élevée (nombre le plus faible) est appliquée en premier. Les règles de même priorité ne se combinent pas : elles s’appliquent séparément en fonction de l’identifiant de la règle. Pour contrôler l&#39;ordre dans lequel les remises sont appliquées, affectez des priorités uniques et envisagez d&#39;utiliser la [Règles de prix de remises suivantes](#step-3-define-the-actions) dans l&#39;étape Actions pour empêcher le cumul des remises.
 
 1. Pour appliquer la règle aux [flux RSS](social-rss.md#rss-feeds) publiés, définissez **Public dans le flux RSS** sur `Yes`.
 
@@ -96,7 +87,7 @@ Pour ajouter une règle, décrire les conditions et définir les actions, procé
 
 Au cours de cette étape, les conditions qui doivent être remplies pour qu’une commande soit admissible à la promotion sont décrites. Les conditions affectent les règles de prix de panier de la manière suivante :
 
-- La règle de prix du panier est appliquée à **_chaque_** produit du panier chaque fois que l’ensemble des conditions de l’onglet _[!UICONTROL Conditions]_&#x200B;est rempli. Pour limiter le nombre de produits affectés par la règle de prix de panier, ajoutez des conditions dans l’onglet&#x200B;_[!UICONTROL Actions]_ pour limiter le nombre de produits affectés par la règle de prix de panier.
+- La règle de prix du panier est appliquée à **_chaque_** produit du panier chaque fois que l’ensemble des conditions de l’onglet _[!UICONTROL Conditions]_est rempli. Pour limiter le nombre de produits affectés par la règle de prix de panier, ajoutez des conditions dans l’onglet_[!UICONTROL Actions]_ pour limiter le nombre de produits affectés par la règle de prix de panier.
 
 - Si au moins un attribut de produit conditionnel possède une valeur vide, la règle de prix de panier n’est pas appliquée au produit.
 
@@ -181,7 +172,7 @@ Au cours de cette étape, les conditions qui doivent être remplies pour qu’un
 
 ### Ajout d’un attribut de produit aux règles de prix de panier
 
-1. Accédez à **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;et ouvrez l’attribut de produit.
+1. Accédez à **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**et ouvrez l’attribut de produit.
 
 1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Storefront Properties]**.
 
@@ -228,7 +219,7 @@ Vous pouvez définir une condition pour une règle de prix de panier basée sur 
    | `Name` | Nom de l’audience, par exemple `Orders over $50` |
    | `Description` | Description de l’audience, par exemple `People who placed an order over $50 in the last month.`. |
    | `Source` | Indique l’origine de l’audience, par exemple `Experience Platform`. |
-   | `Website` | Indique le site web que vous avez lié au flux de données contenant les audiences. Vous créez ce lien lorsque vous connectez votre instance Commerce à Experience Platform par le biais de l’extension [[!DNL Data Connection]](https://experienceleague.adobe.com/fr/docs/commerce/data-connection/fundamentals/connect-data). |
+   | `Website` | Indique le site web que vous avez lié au flux de données contenant les audiences. Vous créez ce lien lorsque vous connectez votre instance Commerce à Experience Platform par le biais de l’extension [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data). |
 
    {style="table-layout:auto"}
 
@@ -240,7 +231,7 @@ Les actions de règle de prix de panier décrivent la manière dont les prix son
 
 1. Faites défiler jusqu’à **[!UICONTROL Actions]**, puis développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section.
 
-   ![Règle de prix du panier - Actions &#x200B;](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
+   ![Règle de prix du panier - Actions ](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
 
 1. Définissez **[!UICONTROL Apply]** sur l’une des options de remise suivantes :
 
@@ -250,6 +241,7 @@ Les actions de règle de prix de panier décrivent la manière dont les prix son
    | `Fixed amount discount` | Escompte un article en soustrayant un montant fixe du prix d&#39;origine de chaque article admissible dans le panier. Par exemple : saisissez `10` en [!UICONTROL Discount Amount] pour un prix mis à jour inférieur de 10 $ au prix d’origine. |
    | Remise fixe pour l’ensemble du panier | Réduit l’ensemble du panier en soustrayant un montant fixe du total du panier. Par exemple : saisissez 10 dans [!UICONTROL Discount Amount] pour soustraire 10 $ du total du panier. Par défaut, la remise s’applique uniquement au sous-total du panier. Pour appliquer la remise au sous-total et à l&#39;expédition séparément, utilisez l&#39;option _[!UICONTROL Apply to Shipping Amount]_. |
    | `Buy X get Y free` | Définit une quantité X que le client doit acheter pour recevoir gratuitement une quantité Y **du même produit/**. (La [!UICONTROL Discount Amount] est Y.) Une quantité totale de X+Y de ce même article doit être présente dans/ajoutée au panier pour que la remise soit appliquée. |
+   | `Free Gift` | Ajoute un produit cadeau gratuit au panier lorsque les conditions de la règle sont remplies. Sélectionnez le produit gratuit et la quantité à ajouter au panier. <br/><br/>**Remarque :** ![Adobe Commerce](../assets/adobe-logo.svg) Il s’agit d’une fonctionnalité exclusive disponible uniquement dans Adobe Commerce et non disponible dans Magento Open Source. ([En savoir plus](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home#product-editions)) <br/><br/>Cette fonctionnalité n’est pas prise en charge sur les storefronts Luma. Il est accessible via [GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/) et disponible sur les storefronts Edge Delivery Services (EDS). |
 
    {style="table-layout:auto"}
 
@@ -345,7 +337,7 @@ Les [blocs dynamiques](../content-design/dynamic-blocks.md) associés à la règ
 
 Regardez cette vidéo pour en savoir plus sur la création de règles de prix de panier :
 
->[!VIDEO](https://video.tv.adobe.com/v/3410804?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
 
 ## Descriptions des champs
 
@@ -358,13 +350,13 @@ Regardez cette vidéo pour en savoir plus sur la création de règles de prix de
 | [!UICONTROL Active] | (Obligatoire) Détermine si la règle est active dans le magasin. Options : `Yes` / `No` |
 | [!UICONTROL Websites] | (Obligatoire) Identifie les sites Web où la règle peut être utilisée. |
 | [!UICONTROL Customer Groups] | (Obligatoire) Identifie les groupes de clients auxquels la règle s’applique. |
-| [!UICONTROL Coupon] | (Obligatoire) Indique si un coupon est associé à la règle. Options : <br/>**[!UICONTROL No Coupon]**- Aucun coupon n’est associé à la règle.<br/>**[!UICONTROL Specific Coupon]** - Un coupon spécifique est associé à la règle. <br/>**[!UICONTROL Coupon Code]**- Lorsque vous y êtes invité, saisissez le code promotionnel que le client doit entrer pour bénéficier de la promotion.<br/>**[!UICONTROL Use Auto Generation]** - Cochez la case pour générer automatiquement plusieurs codes de coupon qui peuvent être utilisés avec la promotion. <br/>**[!UICONTROL Auto]**- Affiche la section _[!UICONTROL Manage Coupon Codes]_&#x200B;pour définir le format des codes coupon à générer. |
+| [!UICONTROL Coupon] | (Obligatoire) Indique si un coupon est associé à la règle. Options : <br/>**[!UICONTROL No Coupon]**- Aucun coupon n’est associé à la règle.<br/>**[!UICONTROL Specific Coupon]** - Un coupon spécifique est associé à la règle. <br/>**[!UICONTROL Coupon Code]**- Lorsque vous y êtes invité, saisissez le code promotionnel que le client doit entrer pour bénéficier de la promotion.<br/>**[!UICONTROL Use Auto Generation]** - Cochez la case pour générer automatiquement plusieurs codes de coupon qui peuvent être utilisés avec la promotion. <br/>**[!UICONTROL Auto]**- Affiche la section _[!UICONTROL Manage Coupon Codes]_pour définir le format des codes coupon à générer. |
 | [!UICONTROL Uses per Coupon] | Détermine le nombre de fois où le code coupon peut être utilisé. S’il n’y a pas de limite, laissez le champ vide. |
 | [!UICONTROL Uses per Customer] | Détermine le nombre de fois où la règle de prix du panier peut être utilisée par le même client enregistré qui appartient à un groupe de clients sélectionné. Ne s’applique pas aux acheteurs invités qui sont membres du groupe de clients NON CONNECTÉS ni aux clients qui achètent sans se connecter à leurs comptes. Pour aucune limite, laissez vide. |
 | [!UICONTROL Priority] | Nombre qui indique la priorité de cette règle par rapport aux autres. Les priorités du plus haut au plus bas sont `0,1,2,3...` |
 | [!UICONTROL Public in RSS Feed] | Détermine si la promotion est incluse dans le flux RSS public de votre boutique. Options : `Yes` / `No` |
-| [!UICONTROL From] | ![](../assets/open-source.svg) (Magento Open Source uniquement) Première date à laquelle le coupon peut être utilisé. |
-| [!UICONTROL To] | ![](../assets/open-source.svg) (Magento Open Source uniquement) Dernière date à laquelle le coupon peut être utilisé. |
+| [!UICONTROL From] | ![](../assets/open-source.svg) (Magento Open Source uniquement) Première date à laquelle le coupon peut être utilisé.<br><br>![](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] uniquement) Date et heure auxquelles le coupon peut être utilisé. |
+| [!UICONTROL To] | ![](../assets/open-source.svg) (Magento Open Source uniquement) Dernière date à laquelle le coupon peut être utilisé.<br><br>![](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] uniquement) Dernière date et heure auxquelles le coupon peut être utilisé. |
 
 {style="table-layout:auto"}
 
@@ -401,7 +393,7 @@ Spécifie les conditions qui doivent être remplies avant que la règle de prix 
 
 | Champ | Description |
 |--- |--- |
-| [!UICONTROL Apply] | Détermine le type de calcul appliqué à l&#39;achat. Options : <br/>**[!UICONTROL Percent of product price discount]**- Article avec remises en soustrayant un pourcentage du prix d&#39;origine. Par exemple : saisissez `10` en _[!UICONTROL Discount Amount]_&#x200B;pour un prix mis à jour qui est 10 % inférieur au prix d’origine.<br/>**[!UICONTROL Fixed amount discount]**- Escompte un article en soustrayant un montant fixe du prix d&#39;origine de chaque article admissible dans le panier. Par exemple : saisissez `10` en&#x200B;_[!UICONTROL Discount Amount]_ pour un prix mis à jour inférieur de 10 $ au prix d’origine. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Réduit l’ensemble du panier en soustrayant un montant fixe du sous-total du panier. Par exemple : saisissez `10` dans _[!UICONTROL Discount Amount]_&#x200B;pour soustraire 10 $ du sous-total du panier. Par défaut, la remise s’applique uniquement au sous-total du panier. Pour appliquer la remise au sous-total et à l&#39;expédition séparément, voir_Appliquer au montant d&#39;expédition _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Définit une quantité que le client doit acheter pour recevoir une quantité gratuite. (La&#x200B;_[!UICONTROL Discount Amount]_ est Y.) |
+| [!UICONTROL Apply] | Détermine le type de calcul appliqué à l&#39;achat. Options : <br/>**[!UICONTROL Percent of product price discount]**- Article avec remises en soustrayant un pourcentage du prix d&#39;origine. Par exemple : saisissez `10` en _[!UICONTROL Discount Amount]_pour un prix mis à jour qui est 10 % inférieur au prix d’origine.<br/>**[!UICONTROL Fixed amount discount]**- Escompte un article en soustrayant un montant fixe du prix d&#39;origine de chaque article admissible dans le panier. Par exemple : saisissez `10` en_[!UICONTROL Discount Amount]_ pour un prix mis à jour inférieur de 10 $ au prix d’origine. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Réduit l’ensemble du panier en soustrayant un montant fixe du sous-total du panier. Par exemple : saisissez `10` dans _[!UICONTROL Discount Amount]_pour soustraire 10 $ du sous-total du panier. Par défaut, la remise s’applique uniquement au sous-total du panier. Pour appliquer la remise au sous-total et à l&#39;expédition séparément, voir_Appliquer au montant d&#39;expédition _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Définit une quantité que le client doit acheter pour recevoir une quantité gratuite. (La_[!UICONTROL Discount Amount]_ est Y.) <br/>**[!UICONTROL Free Gift]**- Ajoute un produit cadeau gratuit au panier lorsque les conditions de la règle sont remplies. Sélectionnez le produit gratuit et la quantité à ajouter au panier. ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement). Cette fonctionnalité n’est pas prise en charge sur les storefronts Luma. Il est accessible via [GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/) et disponible sur les storefronts Edge Delivery Services (EDS). |
 | [!UICONTROL Discount Amount] | (Obligatoire) Montant de la remise proposée. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | Définit le nombre maximal de produits auxquels la remise peut être appliquée au cours du même achat. |
 | [!UICONTROL Discount Qty Step (Buy X)] | Définit le nombre de produits représentés par des `X` dans une promotion `Buy X Get Y Free`. Définit également le nombre de produits qui doivent être ajoutés au panier par lots pour appliquer des promotions `Fixed amount discount` et `Percent of product price discount`. |

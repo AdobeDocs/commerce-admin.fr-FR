@@ -4,23 +4,14 @@ description: Vérifiez les paramètres de configuration sur la page [!UICONTROL 
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
 TQID: https://experienceleague.adobe.com/kxlKhWRjFDUH97FDenycl4nU1QdBWzceDCKfhZ0MTAc
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 449593264c88c9090b26ffbc8e87a8d70d4cbfe9
 workflow-type: tm+mt
-source-wordcount: 1224
+source-wordcount: 1296
 ht-degree: 0%
 
 ---
@@ -37,7 +28,7 @@ ht-degree: 0%
 
 ![Options de stock](./assets/catalog-inventory-stock-options.png)<!-- zoom -->
 
-<!-- [Stock Options](https://experienceleague.adobe.com/fr/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -55,13 +46,13 @@ ht-degree: 0%
 
 ![Options de stock de produits](./assets/catalog-inventory-product-stock-options.png)<!-- zoom -->
 
-<!-- [Product Stock Options](https://experienceleague.adobe.com/fr/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Product Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Manage Stock] | Global | Détermine si vous utilisez le contrôle de stock complet pour gérer les articles de votre catalogue. Options : <br/>**Oui** - Active le contrôle de stock complet pour suivre le nombre d&#39;articles actuellement en stock. <br/>**Non** - Ne suit pas le nombre d’articles actuellement en stock. |
 | [!UICONTROL Backorders] | Global | Détermine comment votre boutique gère les commandes en souffrance. Une commande en souffrance ne modifie pas son statut de traitement. Les fonds sont toujours autorisés ou saisis immédiatement lorsque la commande est passée, que le produit soit en stock ou non. Lorsque le produit est disponible, il est expédié. Options : <br/>**Pas de reliquats** - N’accepte pas les reliquats lorsque le produit est en rupture de stock. <br/>**Autoriser quantité inférieure à 0** - Accepte les reliquats lorsque la quantité est inférieure à zéro. <br/>**Autoriser quantité inférieure à 0 et informer le client** - Accepte les commandes en souffrance lorsque la quantité est inférieure à zéro, mais informe les clients que des commandes peuvent toujours être passées. |
-| [!UICONTROL Use deferred Stock update] | Global | ![](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Détermine s’il faut différer la mise à jour des stocks si les reliquats sont autorisés (l’option _Reliquats_ est définie sur toute autre valeur que la valeur par défaut `No backorders`). Elle fonctionne pour un seul produit ou pour l’ensemble d’un site web et utilise le mécanisme _File d’attente des tâches_ pour permettre aux indicateurs de quantité en stock de se mettre à jour de manière asynchrone une fois les commandes passées. Cette option fonctionne également avec [placement asynchrone des commandes](https://experienceleague.adobe.com/fr/docs/commerce-operations/performance-best-practices/high-throughput-order-processing#asynchronous-order-placement) en combinaison avec [Inventory management](../../inventory-management/introduction.md). |
+| [!UICONTROL Use deferred Stock update] | Global | ![](../../assets/adobe-logo.svg) (Adobe Commerce uniquement) Détermine s’il faut différer la mise à jour des stocks si les reliquats sont autorisés (l’option _Reliquats_ est définie sur toute autre valeur que la valeur par défaut `No backorders`). Elle fonctionne pour un seul produit ou pour l’ensemble d’un site web et utilise le mécanisme _File d’attente des tâches_ pour permettre aux indicateurs de quantité en stock de se mettre à jour de manière asynchrone une fois les commandes passées. Cette option fonctionne également avec [placement asynchrone des commandes](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/high-throughput-order-processing#asynchronous-order-placement) en combinaison avec [Inventory management](../../inventory-management/introduction.md). |
 | Quantité maximale autorisée dans le panier | Global | Détermine le nombre maximal de produits pouvant être achetés dans une seule commande. Par défaut, la quantité maximale est définie sur 10 000. |
 | [!UICONTROL Out-of-Stock Threshold] | Global | Détermine le niveau de stock auquel un produit est considéré comme en rupture de stock. Options : <br/>**Montant positif** - Lorsque l&#39;option _Reliquats_ est désactivée, saisissez un montant positif. Lorsque les reliquats sont activés, ce montant est ignoré. <br/>**Zéro** - Lorsque l’option _Commandes en souffrance_ est activée, la saisie de `0` permet de créer un nombre infini de commandes en souffrance. <br/>**Montant négatif** - Lorsque l&#39;option _Reliquats_ est activée, nous vous recommandons de saisir un montant négatif. Le montant est ajouté à la quantité vendable. Par exemple, saisissez -50 pour autoriser les commandes jusqu&#39;à ce montant. |
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | Global | Détermine le montant minimum d&#39;un article disponible à l&#39;achat selon le groupe de clients. Par défaut, la quantité minimale est définie sur 1. Cliquez sur **[!UICONTROL Add Minimum Qty]** pour saisir une valeur différente pour un groupe de clients spécifique. |
@@ -72,20 +63,32 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
+## [!UICONTROL Per-Source Availability (Storefront)]
+
+![Disponibilité Par Source (Storefront) ](./assets/catalog-inventory-per-source-availability.png)<!-- zoom -->
+
+<!-- [Per-Source Availability (Storefront)](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--- |--- |--- |
+| [!UICONTROL Enable sourceAvailability GraphQL Query] | Affichage de la boutique | Si elle est définie sur `Yes`, la requête de [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} storefront renvoie un stock par source pour le canal de vente du magasin. Options : `Yes` / `No`. Valeur par défaut : `No`, car la requête indique quelles sources stockent un SKU. Lorsqu’elle est désactivée, la requête renvoie une erreur. Les quantités exactes renvoyées par la requête restent masquées jusqu&#39;à ce que la quantité source atteigne la **[!UICONTROL Only X left Threshold]** définie dans la section [Options de stock](#stock-options). |
+
+{style="table-layout:auto"}
+
 ## [!UICONTROL Admin Bulk Operations]
 
 ![Opérations d’administration en bloc](./assets/catalog-inventory-admin-bulk-operations.png)<!-- zoom -->
 
-<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/fr/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
 
 >[!NOTE]
 >
->Pour configurer et prendre en charge les **gestionnaires de files d’attente asynchrones**, vous devez utiliser la ligne de commande . Cela peut nécessiter l’aide d’un développeur. Voir [Démarrer les consommateurs de files d’attente de messages](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/cli/start-message-queues) dans le _Guide de configuration_.
+>Pour configurer et prendre en charge les **gestionnaires de files d’attente asynchrones**, vous devez utiliser la ligne de commande . Cela peut nécessiter l’aide d’un développeur. Voir [Démarrer les consommateurs de files d’attente de messages](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/start-message-queues) dans le _Guide de configuration_.
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Run asynchronously] | Global | Détermine si vous exécutez des opérations en bloc de manière asynchrone pour des actions de produits en masse, notamment [en bloc](../../inventory-management/bulk-assignment.md) affecter des sources, annuler l&#39;affectation de sources et [transférer le stock vers la source](../../inventory-management/inventory-transfer.md). Il collecte les actions en masse jusqu’à la _[!UICONTROL Asynchronous batch size]_, puis exécute ces actions. Cette fonctionnalité est désactivée par défaut. Nous vous recommandons de vérifier vos performances avec des actions en masse avant l’activation. Options :<br/>**`Yes`**- exécute toutes les opérations en bloc pour le [!DNL Inventory Management] de manière asynchrone. Pour l’activer, vous devez configurer un gestionnaire de file d’attente asynchrone.<br/>**`No`**- Valeur par défaut. N’exécute pas les opérations en bloc de manière asynchrone. |
-| [!UICONTROL Asynchronous batch size] | Global | Définissez **[!UICONTROL Run asynchronously]** sur `Yes` pour saisir une valeur pour _[!UICONTROL Asynchronous batch size]_&#x200B;champ. <br/>La taille de lot par défaut est de 100. Lorsque les processus en masse atteignent cette quantité, ils sont exécutés. |
+| [!UICONTROL Asynchronous batch size] | Global | Définissez **[!UICONTROL Run asynchronously]** sur `Yes` pour saisir une valeur pour _[!UICONTROL Asynchronous batch size]_champ. <br/>La taille de lot par défaut est de 100. Lorsque les processus en masse atteignent cette quantité, ils sont exécutés. |
 
 {style="table-layout:auto"}
 
@@ -106,7 +109,7 @@ ht-degree: 0%
 
 ![Fournisseurs à distance pour SSA à distance](./assets/catalog-inventory-distance-provider.png)<!-- zoom -->
 
-<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/fr/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
+<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -116,9 +119,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Google Distance Provider]
 
-![Fournisseur De Distance &#x200B;](./assets/catalog-inventory-distance-provider-settings.png)<!-- zoom -->
+![Fournisseur De Distance ](./assets/catalog-inventory-distance-provider-settings.png)<!-- zoom -->
 
-<!-- [Google Distance Provider](https://experienceleague.adobe.com/fr/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
+<!-- [Google Distance Provider](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
