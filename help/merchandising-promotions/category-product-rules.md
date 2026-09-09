@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: efbe6e4f07ff66b2deb91127b4f69eca5e4015f1
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: 1168
 ht-degree: 0%
 
 ---
@@ -157,6 +157,10 @@ Les règles de produits de catégorie peuvent accélérer le processus d’affec
   >La quantité d&#39;un produit configurable avec options enfants est calculée en combinant toutes les quantités de produits enfants vendables. Prenons l’exemple d’un produit configurable _Basic Fitness Tank_ avec des options de couleur violette, rouge et jaune et différentes quantités de chacune. Dans ce cas, la quantité du produit parent (réservoir de conditionnement physique de base) correspond à la quantité commercialisable combinée des produits enfants violets, rouges et jaunes.
 
 - **[!UICONTROL Operator]** - Spécifie l’opérateur appliqué à la valeur d’attribut pour remplir la condition. Sauf si un opérateur est spécifié, `Equal` est utilisé par défaut. Options : `Equal`, `Not equal`, `Greater than`, `Greater than or equal to`, `Less than`, `Less than or equal to` et `Contains`
+
+  L’opérateur **[!UICONTROL Contains]** accepte plusieurs valeurs séparées par des virgules et correspond si la valeur d’attribut contient au moins l’une d’elles, comme une opération OR logique. Par exemple, **[!UICONTROL Contains]** : `casual, party` correspond à toute valeur contenant `casual` ou `party`.
+
+  Utilisez cet opérateur pour combiner plusieurs termes dans une ligne de règle au lieu de créer une ligne distincte pour chaque terme.
 
 - **[!UICONTROL Value]** - Indique la valeur que l’attribut doit avoir pour remplir la condition.
 

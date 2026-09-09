@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+source-git-commit: 449593264c88c9090b26ffbc8e87a8d70d4cbfe9
 workflow-type: tm+mt
-source-wordcount: 1224
+source-wordcount: 1296
 ht-degree: 0%
 
 ---
@@ -69,6 +69,18 @@ ht-degree: 0%
 | [!UICONTROL Enable Qty Increments] | Global | Détermine si les articles peuvent être vendus par incréments de quantité. Options : `Yes` / `No` |
 | [!UICONTROL Qty Increments] | Global | Définit le nombre de produits qui constituent une augmentation de quantité. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | Global | Détermine si les articles inclus dans les avoirs sont automatiquement retournés en stock. Options : `Yes` / `No` |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Per-Source Availability (Storefront)]
+
+![Disponibilité Par Source (Storefront) &#x200B;](./assets/catalog-inventory-per-source-availability.png)<!-- zoom -->
+
+<!-- [Per-Source Availability (Storefront)](https://experienceleague.adobe.com/fr/docs/commerce-admin/inventory/configuration/global-options) -->
+
+| Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
+|--- |--- |--- |
+| [!UICONTROL Enable sourceAvailability GraphQL Query] | Affichage de la boutique | Si elle est définie sur `Yes`, la requête de [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} storefront renvoie un stock par source pour le canal de vente du magasin. Options : `Yes` / `No`. Valeur par défaut : `No`, car la requête indique quelles sources stockent un SKU. Lorsqu’elle est désactivée, la requête renvoie une erreur. Les quantités exactes renvoyées par la requête restent masquées jusqu&#39;à ce que la quantité source atteigne la **[!UICONTROL Only X left Threshold]** définie dans la section [Options de stock](#stock-options). |
 
 {style="table-layout:auto"}
 

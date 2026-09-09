@@ -5,9 +5,9 @@ breadcrumb-title: Marchandisage et promotions
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: ef07733f89af030f047576770655f6599b370351
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '276'
 ht-degree: 1%
 
 ---
@@ -52,6 +52,7 @@ ht-degree: 1%
     - [Règles de prix du panier - Aperçu](price-rules-cart.md)
     - [Créer une règle de prix de panier](price-rules-cart-create.md)
     - [Codes de coupon](price-rules-cart-coupon.md)
+    - [Promotions Cadeau gratuit](price-rules-cart-free-gift.md)
     - [Modifications planifiées pour les règles de prix de panier](price-rule-cart-scheduled-changes.md)
     - [Exemple : promotion de livraison gratuite](price-rules-cart-free-shipping.md)
     - [Exemple : achetez ceci gratuitement](price-rules-cart-buy-this-get-that.md)

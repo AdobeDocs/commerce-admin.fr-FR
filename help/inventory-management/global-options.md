@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+source-git-commit: ca077051a26ab57194eef45f57351e2f6b1b0b6b
 workflow-type: tm+mt
-source-wordcount: 658
+source-wordcount: 757
 ht-degree: 1%
 
 ---
@@ -92,6 +92,13 @@ Configurez les options de configuration par défaut pour le produit et le stock 
      Par exemple, un article vendu par incréments de six peut être acheté en quantités de `6`, `12`, `18`, etc.
 
    - Par [!DNL Inventory Management], **[!UICONTROL Automatically Return Credit Memo Item to Stock]** est défini sur `No`. Lors de la soumission d&#39;un avoir, vous saisissez et choisissez de renvoyer le stock aux origines.
+
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Per-Source Availability (Storefront)]** et définissez **[!UICONTROL Enable sourceAvailability GraphQL Query]** sur `Yes` pour permettre à la requête storefront d’accéder aux données stock par source à l’aide de la requête [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL. Ce paramètre est défini par vue de magasin.
+
+   >[!NOTE]
+   >
+   >La requête `sourceAvailability` est désactivée par défaut, car elle indique quelles sources stockent un SKU. Les quantités exactes restent masquées jusqu&#39;à ce que la quantité source atteigne le **[!UICONTROL Only X left Threshold]** défini dans la section _[!UICONTROL Stock Options]_. Chaque origine de stock possède un indicateur de **[!UICONTROL Visible on Storefront]**&#x200B;désactivé par défaut. Le stock d’une source n’est jamais renvoyé tant qu’un commerçant ne l’a pas activée. Pour le définir, accédez à&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, modifiez une source, puis activez **[!UICONTROL Visible on Storefront]**.
+
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Admin bulk operations]** et définissez les options suivantes :
 
