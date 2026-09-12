@@ -1,7 +1,7 @@
 ---
-source-git-commit: 5de2260c4c7324a509aa0f4154220b7ff8bedd73
+source-git-commit: 7023d4aafdb2e44da3b5b00a66f0bf6285ea8890
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '192'
 ht-degree: 2%
 
 ---
@@ -73,28 +73,6 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
         Mise à jour majeure, nouvelle rubrique
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a5d95844e8e81ea4d401e79ebc1f236aab977dcd">validation</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 9 juillet 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Ajout de la section <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/catalog/products/catalog-enrichment">Enrichissement du catalogue</a> avec des conseils pour examiner et appliquer les mises à jour de nom et de description de produit suggérées par l’IA dans l’interface utilisateur d’administration. Liaison de la rubrique à partir des rubriques <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/catalog/catalog-menu">Menu catalogue</a>, <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/catalog/guide-overview">Présentation du guide</a> et des rubriques de paramètres de produit associées.</p>
-</td>
-      <td>
-        Nouvelle rubrique
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/6cd9281329fd909e38e4bbf41159eadfed2f9ad3">validation</a></td>
     </tr>
   </tbody>
 </table>
