@@ -46,7 +46,7 @@ Suivez les conseils suivants pour identifier la fonctionnalité qui correspond �
 | Exigence | Fonctionnalité recommandée |
 | --- | --- |
 | Envoi d’une requête spécifique à partir de la recherche [!DNL Adobe Commerce] standard vers une page | Configurez un terme de recherche dans [Gérer les termes de recherche](../catalog/search-terms.md), lorsque cela est pris en charge. |
-| Modifier le classement ou la visibilité des produits dans les résultats de recherche | Utilisez [!DNL Live Search] [synonymes](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/synonyms/synonyms) ou [règles de marchandisage](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/rules/rules-add). |
+| Modifier le classement ou la visibilité des produits dans les résultats de recherche | Utilisez [!DNL Live Search] [synonymes](https://experienceleague.adobe.com/fr/docs/commerce/live-search/live-search-admin/synonyms/synonyms) ou [règles de marchandisage](https://experienceleague.adobe.com/fr/docs/commerce/live-search/live-search-admin/rules/rules-add). |
 | Rediriger une ancienne URL de produit, de catégorie ou de CMS | Utilisez l’outil Commerce [Réécriture d’URL](url-rewrite.md) lorsqu’il s’applique à votre déploiement. |
 | Rediriger un chemin [!DNL Edge Delivery Services] | Utilisez le routage storefront ou CDN. |
 | Conserver les URL héritées après une migration de storefront | Créez et testez un mappage de redirection d’URL hérité vers nouveau. |
@@ -83,13 +83,13 @@ Pour les déploiements qui prennent en charge l’outil de réécriture d’URL,
 
 Utilisez [!DNL Live Search] lorsque vous devez modifier la pertinence de la recherche, le classement des produits ou la visibilité des produits. Utilisez des synonymes lorsque différents mots doivent renvoyer des produits similaires. Utilisez des règles de marchandisage lorsque les produits doivent être boostés, enterrés ou classés différemment.
 
-[!DNL Live Search] comportement de recherche ne doit pas être traité comme un remplacement de liste déroulante pour chaque configuration native de terme de recherche Commerce. Lorsqu’une requête doit accéder à une page de contenu ou de campagne, implémentez la redirection dans le calque de storefront ou de routage Edge qui reçoit la requête. Pour plus d’informations, voir la [[!DNL Live Search] documentation](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
+[!DNL Live Search] comportement de recherche ne doit pas être traité comme un remplacement de liste déroulante pour chaque configuration native de terme de recherche Commerce. Lorsqu’une requête doit accéder à une page de contenu ou de campagne, implémentez la redirection dans le calque de storefront ou de routage Edge qui reçoit la requête. Pour plus d’informations, voir la [[!DNL Live Search] documentation](https://experienceleague.adobe.com/fr/docs/commerce/live-search/overview).
 
 ## Edge Delivery Services
 
 Pour un storefront alimenté par [!DNL Edge Delivery Services], gérez les redirections dans le storefront ou la couche de routage Edge. Ne supposez pas que l’URL d’administration [!DNL Adobe Commerce] réécrit le contrôle de chaque requête.
 
-Lorsque vous utilisez la création de documents, conservez les mappages de redirection dans la configuration de redirection du site. Pour les redirections qui doivent s’exécuter avant qu’une requête n’atteigne l’origine, utilisez la configuration CDN ou Edge appropriée. Pour obtenir des conseils relatifs à l’optimisation du moteur de recherche, voir [Directives relatives à l’optimisation du moteur de recherche pour Commerce Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/).
+Lorsque vous utilisez la création de documents, conservez les mappages de redirection dans la configuration de redirection du site. Pour les redirections qui doivent s’exécuter avant qu’une requête n’atteigne l’origine, utilisez la configuration CDN ou Edge appropriée. Pour obtenir des conseils relatifs à l’optimisation du moteur de recherche, voir [Directives relatives à l’optimisation du moteur de recherche pour Commerce Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=fr).
 
 ## Migrer depuis Luma
 
