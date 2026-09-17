@@ -6,29 +6,40 @@ feature: Storefront
 TQID: https://experienceleague.adobe.com/b8JEobTQ3fDladcIZj5Bt7eaYPN7-p7PsB-siKLITCw
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Content reuse
+source-git-commit: 4e39d90f62de53be1aa892ca325f20f5aedc845a
 workflow-type: tm+mt
-source-wordcount: 1223
+source-wordcount: '1347'
 ht-degree: 0%
-
 ---
-
 # Quelle est la devanture ?
 
 Dans votre mise en œuvre Adobe Commerce ou Magento Open Source, le storefront est la partie externe de votre magasin destinée au public. Il fournit le contenu et les composants fonctionnels que vos clients utilisent pour acheter et acheter.
@@ -108,6 +119,8 @@ Grâce à [[!DNL Live Search]](https://experienceleague.adobe.com/fr/docs/commer
 
 Avec la [recherche catalogue standard](../catalog/search.md), votre boutique comprend une zone de recherche dans le coin supérieur droit et un lien vers la recherche avancée dans le pied de page. Tous les termes de recherche que les acheteurs envoient sont enregistrés, afin que vous puissiez voir exactement ce qu’ils recherchent. Vous pouvez faire des suggestions et saisir des synonymes et des fautes d’orthographe courantes. Affichez ensuite une page spécifique lorsqu’un terme de recherche est saisi.
 
+Pour plus d’informations sur les redirections à terme de recherche, les réécritures d’URL et le routage pour [!DNL Live Search] ou [!DNL Edge Delivery Services], voir [Redirections à terme de recherche et routage storefront](../merchandising-promotions/search-term-redirects.md).
+
 ![Exemple de résultats de recherche catalogue standard](./assets/storefront-search-results-page-full.png){width="700"}
 
 ## Page de produit
@@ -129,7 +142,7 @@ Le processus de passage en caisse se compose de deux étapes :
 1. Informations d’expédition
 
    La première étape du processus de passage en caisse consiste pour le client à compléter les informations d’adresse de livraison et à choisir le mode de livraison. Si le client possède un compte, l’adresse de livraison est saisie automatiquement, mais peut être modifiée si nécessaire.
-Si un client invité saisit une adresse e-mail reconnue comme précédemment enregistrée, l’invite de connexion s’affiche si le champ [!UICONTROL Enable Guest Checkout Login] de la configuration du magasin est défini sur `Yes` (voir [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) dans le _Guide de référence de configuration_). Cependant, ce paramètre peut exposer les informations du client à des utilisateurs non authentifiés.
+   Si un client invité saisit une adresse e-mail reconnue comme précédemment enregistrée, l’invite de connexion s’affiche si le champ [!UICONTROL Enable Guest Checkout Login] de la configuration du magasin est défini sur `Yes` (voir [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) dans le _Guide de référence de configuration_). Cependant, ce paramètre peut exposer les informations du client à des utilisateurs non authentifiés.
 
    ![Exemple de page de passage en caisse storefront](./assets/storefront-checkout-shipping-full.png){width="700"}
 
