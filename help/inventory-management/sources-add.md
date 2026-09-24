@@ -1,30 +1,37 @@
 ---
 title: Ajouter une source d’inventaire
-description: Ajoutez une source dans l [!DNL Inventory Management] Administration pour un entrepôt, un magasin, un centre de distribution ou un autre emplacement d'exécution.
+description: Ajoutez une source de [!DNL Inventory Management] dans l’administration pour un entrepôt, un magasin, un centre de distribution ou un autre emplacement d’exécution.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: 2e0212c62ed6183d1b66a9260e6177177ca2a61a
 workflow-type: tm+mt
-source-wordcount: 858
+source-wordcount: '1033'
 ht-degree: 0%
-
 ---
-
 # Ajouter une source
 
 Gérez l’exécution des stocks et des commandes à partir de plusieurs emplacements avec des sources personnalisées. Créez une source pour chaque emplacement, telle que des entrepôts, des magasins physiques, des centres de distribution et des chargeurs. Attribuez des sources et mettez à jour les quantités par produit.
@@ -48,6 +55,12 @@ Si vous modifiez le Source par défaut, vous pouvez modifier toutes les configur
      Le code prend en charge les majuscules et les minuscules, les chiffres, les tirets et les traits de soulignement. Le code est un ID unique utilisé lors de l’affectation de à des données de stock et d’exportation-importation.
 
    - Si cette source d&#39;inventaire est prête à être utilisée, définissez **[!UICONTROL Is Enabled]** sur `Yes`.
+
+   - Pour exposer le stock de cette source au storefront, définissez **[!UICONTROL Visible on Storefront]** sur `Yes`. [!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
+
+     Par défaut, cette option est définie sur `No`. Si vous la définissez sur `Yes`, la source peut prendre jusqu’à la durée de vie du cache de requête pour apparaître dans les résultats. Si vous définissez ensuite cette option sur `No`, la source est immédiatement supprimée des résultats de la requête.
+
+     La requête [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL permet d’accéder aux informations de stock pour les sources visibles sur le storefront. Vous devez activer la requête `sourceAvailability` pour la vue du magasin dans les [options globales](global-options.md).
 
    - Saisissez un bref **[!UICONTROL Description]** pour cet emplacement à titre de référence rapide ou pour obtenir des détails supplémentaires.
 
@@ -121,6 +134,7 @@ Si vous modifiez le Source par défaut, vous pouvez modifier toutes les configur
 | [!UICONTROL Name] | (Obligatoire) Nom unique qui identifie la source d’inventaire pour les utilisateurs administrateurs. |
 | [!UICONTROL Code] | (Obligatoire) Code alphanumérique unique utilisé par le système pour identifier l&#39;origine du stock. Saisissez le code en majuscules ou minuscules et/ou en chiffres, sans espaces. Si nécessaire, un trait d’union ou de soulignement peut être utilisé à la place d’un espace. Le code ne peut pas être modifié après la création de la source. Il s’agit d’un identifiant unique utilisé lorsque vous affectez des sources aux stocks et que vous exportez et/ou importez des données de produit. |
 | [!UICONTROL Is Enabled] | Détermine si la source de stock peut être utilisée. Options : Oui / Non |
+| [!UICONTROL Visible on Storefront] [!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."} | Détermine si la requête Storefront [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL peut renvoyer des informations de stock pour cette source d&#39;inventaire. |
 | [!UICONTROL Description] | Brève description de l&#39;emplacement d&#39;origine du stock. Incluez des détails utiles à vos utilisateurs administrateurs. |
 | [!UICONTROL Latitude] | Indique la coordonnée de latitude de la source d’inventaire pour le GPS. Saisissez la valeur sous la forme d’un nombre, précédé du signe plus ou moins selon les besoins. Le symbole du diplôme et les lettres ne sont pas autorisés. Par exemple : Latitude 32.7555 |
 | [!UICONTROL Longitude] | Indique la coordonnée de longitude de la source d’inventaire pour le GPS. Saisissez la valeur sous la forme d’un nombre, précédé du signe plus ou moins selon les besoins. Le symbole du diplôme et les lettres ne sont pas autorisés. Par exemple : `-97.3308` |
