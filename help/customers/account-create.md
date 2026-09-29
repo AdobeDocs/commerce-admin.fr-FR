@@ -6,28 +6,38 @@ feature: Customers, Storefront
 TQID: https://experienceleague.adobe.com/WwW2j0QIwKOe0r7XqH01-NGxggVfg-QBYewdD6a4GFs
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
+    internal-label: Privacy
+source-git-commit: 47f4b72b7b4ef201251423522a7917825415cb25
 workflow-type: tm+mt
-source-wordcount: 1281
+source-wordcount: '1281'
 ht-degree: 0%
-
 ---
-
 # Création d’un compte client individuel
 
 Les visiteurs de votre boutique peuvent ouvrir un compte pour gérer leurs achats et leurs activités. Les clients créent généralement leurs propres comptes à partir de votre magasin. Cependant, vous pouvez également créer des comptes client directement à partir de l’administration, ce qui s’avère utile pour aider les clients par téléphone.
@@ -134,7 +144,7 @@ En tant que commerçant, vous pouvez créer un compte client à partir de l’ad
 
    >[!INFO]
    >
-   >Une fois le compte client enregistré, l’ensemble complet des options s’affiche dans le panneau de gauche et dans le menu en haut de la page. L’onglet _[!UICONTROL Customer View]_&#x200B;affiche un résumé du compte.
+   >Une fois le compte client enregistré, l’ensemble complet des options s’affiche dans le panneau de gauche et dans le menu en haut de la page. L’onglet _[!UICONTROL Customer View]_affiche un résumé du compte.
 
    ![Affichage client](assets/customer-account-create-saved.png){width="600" zoomable="yes"}
 
@@ -165,7 +175,7 @@ En tant que commerçant, vous pouvez créer un compte client à partir de l’ad
 
    Sinon, cliquez sur **[!UICONTROL Save and Continue Edit]** et répétez les étapes précédentes pour ajouter des adresses supplémentaires.
 
-   La nouvelle adresse s’affiche sur la page [!UICONTROL Addresses] avec les adresses _[!UICONTROL Default Billing]_&#x200B;et&#x200B;_[!UICONTROL Default Shipping]_ sélectionnées au-dessus de la liste complète.
+   La nouvelle adresse s’affiche sur la page [!UICONTROL Addresses] avec les adresses _[!UICONTROL Default Billing]_et_[!UICONTROL Default Shipping]_ sélectionnées au-dessus de la liste complète.
 
    ![Vue Adresses](assets/address-list.png){width="600" zoomable="yes"}
 
@@ -187,7 +197,7 @@ D’autres boutons sont disponibles lorsque le profil est enregistré pour la pr
 
 | Bouton | Description |
 |--- |--- |
-| **[!UICONTROL Back]** | Retourne à la page _[!UICONTROL Customers]_&#x200B;sans enregistrer les modifications. |
+| **[!UICONTROL Back]** | Retourne à la page _[!UICONTROL Customers]_sans enregistrer les modifications. |
 | **[!UICONTROL Delete Customer]** | Supprime le client actuel. Les commandes terminées associées au client ne sont pas supprimées. |
 | **[!UICONTROL Reset]** | Réinitialise toutes les modifications non enregistrées dans le formulaire client à leurs valeurs précédentes. |
 | **[!UICONTROL Create Order]** | Crée une commande pour le client. |
