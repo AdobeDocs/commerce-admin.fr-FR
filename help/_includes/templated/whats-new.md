@@ -1,15 +1,36 @@
 ---
-source-git-commit: 7023d4aafdb2e44da3b5b00a66f0bf6285ea8890
+source-git-commit: 8dae6d26d1c63c95388b082a931361b580eeaf22
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '202'
 ht-degree: 2%
-
 ---
 # Nouveautés du modèle
 
 ## Nouveautés
 
 Cette section contient les modifications apportées au cours des 60 derniers jours. Toutes les mises à jour mineures, telles que la modification de copies, sont exclues de cette liste.
+
+### 23 septembre 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Mise à jour de la fonction <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/inventory/sources/sources-add">Ajouter une source</a> afin d’inclure le nouveau bouton bascule Visible sur Storefront pour Adobe Commerce as a Cloud Service. Chaque source d’inventaire peut désormais être marquée individuellement pour assurer la visibilité du storefront. Les sources sont masquées par défaut.</p>
+</td>
+      <td>
+        Mise à jour majeure
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1b3beb5c914dae4c07dd591e9b975c0f35bb23cd">validation</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 31 Août 2026
 
@@ -51,28 +72,6 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
         Mise à jour majeure
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/9d7ecab0454b1a1041f1bcd8b4fbda8032ebaac5">validation</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 29 Juillet 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Découvrez comment supprimer des catégories spécifiques d’e-mails système automatisés, telles que les notifications de commande ou de marketing, directement à partir de l’interface d’administration dans <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/config/services/email-suppression">Suppression des e-mails</a>.</p>
-</td>
-      <td>
-        Mise à jour majeure, nouvelle rubrique
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a5d95844e8e81ea4d401e79ebc1f236aab977dcd">validation</a></td>
     </tr>
   </tbody>
 </table>
