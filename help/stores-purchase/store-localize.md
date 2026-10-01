@@ -6,23 +6,28 @@ topic: Commerce, Localization
 TQID: https://experienceleague.adobe.com/nSFO5Er6Qj--sCbOzjSAhAsAXBxPpwwSinJhpsVNggc
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
+    internal-label: Optimization
+source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: '808'
 ht-degree: 0%
-
 ---
-
 # Localisation de la boutique
 
 La plupart du texte qui semble être codé en dur sur les pages de votre boutique peut être instantanément remplacé par une autre langue en modifiant les paramètres régionaux de l’affichage. La modification du paramètre régional ne traduit pas réellement le texte mot pour mot, mais fait simplement référence à une table de traduction différente qui fournit le texte de l’interface utilisé dans l’ensemble du magasin. Le texte qui peut être modifié inclut des titres de navigation, des libellés, des boutons et des liens tels que _Mon panier_ et _Mon compte_. Vous pouvez également utiliser l’outil [Traduction en ligne](../configuration-reference/advanced/developer.md) pour retoucher le texte dans l’interface.
@@ -31,7 +36,7 @@ Les modules linguistiques se trouvent sous [Traductions et localisation](https:/
 
 ## Étape 1 : installer un module linguistique
 
-Suivez les instructions standard pour installer l’extension du module linguistique. Pour plus d’informations sur l’installation d’une extension, voir [Installation de l’interface de ligne de commande générale](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/tutorials/extensions) dans le _Guide des extensions_.
+Suivez les instructions standard pour installer l’extension du module linguistique. Pour plus d’informations sur l’installation d’une extension, voir [Installation de l’interface de ligne de commande générale](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions) dans le _Guide des extensions_.
 
 ## Étape 2 : créer une vue de magasin pour la langue
 
@@ -69,7 +74,9 @@ Suivez les instructions standard pour installer l’extension du module linguist
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 
-   Après avoir modifié la langue du paramètre régional, le contenu restant que vous avez créé, y compris les noms et descriptions des produits, les catégories, les pages [&#128279;](../content-design/page-translate.md) et les blocs, doit être traduit séparément pour chaque affichage de magasin.
+   Si le [!DNL Adobe Commerce Optimizer Connector for B2B] est installé, l’enregistrement d’une modification des paramètres régionaux d’affichage invalide l’indexeur de synchronisation de la vue du catalogue. L’indexeur planifié projette à nouveau les vues de catalogue affectées dans [!DNL Adobe Commerce Optimizer] ultérieurement. La payload de la vue Catalogue utilise toujours le code de la vue de magasin pour `sources[].locale`, et non le paramètre régional d’affichage configuré dans `general/locale/code`. Voir [Gérer les vues de catalogue](../b2b/catalog-views-manage.md).
+
+   Après avoir modifié la langue du paramètre régional, le contenu restant que vous avez créé, y compris les noms et descriptions des produits, les catégories, les pages [](../content-design/page-translate.md) et les blocs, doit être traduit séparément pour chaque affichage de magasin.
 
 ## Localisation de produits
 
@@ -117,7 +124,7 @@ Si votre boutique propose plusieurs vues dans différentes langues, les mêmes p
 
 1. Pour _Informations de base_, traduisez **[!UICONTROL Category Name]**.
 
-1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Content]_&#x200B;et traduisez **[!UICONTROL Description]**.
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Content]_et traduisez **[!UICONTROL Description]**.
 
 1. Développez ![Sélecteur de développement](../assets/icon-display-expand.png) la section **[!UICONTROL Search Engine Optimization Settings]** et traduisez les champs suivants :
 

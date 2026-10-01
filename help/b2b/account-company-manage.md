@@ -6,45 +6,60 @@ feature: B2B, Companies, Configuration
 TQID: https://experienceleague.adobe.com/a4IAHlQLzc9pX6V2z8V9nLUaWToWizjdOomV7TfS7to
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+    internal-label: 2FA
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: b32c28afffe75b3f684f0fef81bd61e9cdcb485a
 workflow-type: tm+mt
-source-wordcount: 2728
+source-wordcount: '2804'
 ht-degree: 0%
-
 ---
-
 # Gestion des comptes d’entreprise
 
-La page _[!UICONTROL Companies]_&#x200B;répertorie tous les comptes de société actuels, quel que soit leur statut. Toutes les demandes d’approbation en attente apparaissent en haut de la liste.
+La page _[!UICONTROL Companies]_répertorie tous les comptes de société actuels, quel que soit leur statut. Toutes les demandes d’approbation en attente apparaissent en haut de la liste.
 
 ![Grille des sociétés](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 Utilisez le contrôle *[!UICONTROL Columns]* pour personnaliser les colonnes affichées dans la grille. Personnalisez les sociétés affichées dans la vue à l’aide des fonctionnalités de recherche et de filtrage.
 
-- Recherchez des sociétés dans la grille **Sociétés** à l’aide de l’_[!UICONTROL Search]_. La recherche indexe les colonnes **Nom de la société**&#x200B;et **Parent**.
+- Recherchez des sociétés dans la grille **Sociétés** à l’aide de l’_[!UICONTROL Search]_. La recherche indexe les colonnes **Nom de la société**et **Parent**.
 
 - Personnalisez la vue pour inclure des enregistrements qui répondent à des critères spécifiques à l’aide de l’[!UICONTROL Filter] . Par exemple, si le site B2B est configuré pour gérer à la fois les comptes de société uniques et les [hiérarchies de société](manage-companies.md), vous pouvez filtrer par `[!UICONTROL Company Type - Company]` pour n’afficher que les sociétés uniques ou par `[!UICONTROL Company Type - Parent]` pour n’afficher que la société parent pour chaque hiérarchie.
 
-Appliquez une action à plusieurs enregistrements d&#39;entreprise à l&#39;aide du contrôle _[!UICONTROL Actions]_&#x200B;au-dessus de la grille. Par exemple, plutôt que d’approuver chaque demande individuelle d’entreprise, vous pouvez sélectionner plusieurs demandes pour activer les comptes en une seule action. Les actions disponibles dépendent des [autorisations](../systems/permissions.md) pour le rôle affecté à votre compte utilisateur d’administrateur.
+Appliquez une action à plusieurs enregistrements d&#39;entreprise à l&#39;aide du contrôle _[!UICONTROL Actions]_au-dessus de la grille. Par exemple, plutôt que d’approuver chaque demande individuelle d’entreprise, vous pouvez sélectionner plusieurs demandes pour activer les comptes en une seule action. Les actions disponibles dépendent des [autorisations](../systems/permissions.md) pour le rôle affecté à votre compte utilisateur d’administrateur.
 
 ## Ressources de rôle d’entreprise
 
@@ -230,7 +245,7 @@ Le profil d’entreprise peut être conservé à partir du storefront par l’ad
 
 Pour en savoir plus sur la gestion des comptes d’entreprise, regardez cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3410771?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
 
 ## Gestion d&#39;entreprise
 
@@ -240,6 +255,18 @@ Si une société a été ajoutée à une hiérarchie, la grille [!UICONTROL Comp
 
 Voir [Gérer la hiérarchie de l’entreprise](manage-company-hierarchy.md) pour plus d’informations.
 
+## Gestion de la configuration de la vue de catalogue
+
+Une fois l’extension [!DNL Adobe Commerce Optimizer Connector for B2B] installée, la section _[!UICONTROL Catalog Views]_d’un compte d’entreprise répertorie les vues de catalogue [!DNL Adobe Commerce Optimizer] projetées à partir du catalogue partagé affecté à l’entreprise et vous permet de gérer les clés d’accès restreint qui les sécurisent.
+
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+
+1. Recherchez la société que vous souhaitez examiner, puis sélectionnez **[!UICONTROL Edit]** dans la colonne **[!UICONTROL Action]**.
+
+1. Développez la section **[!UICONTROL Catalog Views]** .
+
+Pour en savoir plus sur les vues de catalogue et la modification des clés d’accès restreintes, voir [Gérer la configuration des vues de catalogue](catalog-views-manage.md).
+
 ## Options et colonnes de la société
 
 Les sections suivantes fournissent des informations sur les actions et options disponibles ainsi que sur les informations affichées disponibles pour la gestion des comptes société.
@@ -247,7 +274,7 @@ Les sections suivantes fournissent des informations sur les actions et options d
 ### Options de contrôle des actions
 
 | Option | Description |
-|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Set Active] | Définit le statut de tous les enregistrements d&#39;entreprise sélectionnés sur `Active`. Les administrateurs de l’entreprise reçoivent des instructions pour définir leurs mots de passe afin de pouvoir accéder à leurs comptes et gérer leurs entreprises à partir du storefront. |
 | [!UICONTROL Block] | Limite les comptes d’entreprise qui ne sont pas en règle, tout en préservant le compte. Les membres de la société peuvent se connecter et accéder au catalogue, mais ils ne peuvent pas passer de commandes au nom de la société. |
 | [!UICONTROL Delete] | Supprime les comptes société sélectionnés. Le statut des comptes d’utilisateurs associés à une entreprise supprimée est défini sur `Inactive` et l’ID d’entreprise est supprimé des profils des comptes d’utilisateurs. Les informations sur les activités et les transactions de la société sont conservées dans le système. |
@@ -263,7 +290,7 @@ Les sections suivantes fournissent des informations sur les actions et options d
 #### Mise en page des colonnes par défaut
 
 | Colonne | Description |
-|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Select] | Cases à cocher utilisées pour sélectionner les enregistrements d&#39;entreprise qui doivent faire l&#39;objet d&#39;une action ou utiliser la commande de sélection dans l&#39;en-tête de colonne pour tout sélectionner/désélectionner. |
 | [!UICONTROL ID] | Identifiant numérique unique attribué lors de l’envoi de la demande de création d’une entreprise. |
 | [!UICONTROL Company Name] | Le nom de la société est saisi lors de la première création du compte de société et peut être une version abrégée de la dénomination sociale complète. |
@@ -289,7 +316,7 @@ Les sections suivantes fournissent des informations sur les actions et options d
 Les colonnes suivantes sont disponibles en modifiant la [disposition des colonnes](../getting-started/admin-grid-controls.md) de la grille.
 
 | Colonne | Description |
-|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Company Legal Name] | Nom légal complet de la société. |
 | [!UICONTROL Street Address] | Adresse postale où la société est enregistrée pour exercer ses activités. |
 | [!UICONTROL ZIP] | Code postal de l’enregistrement de la société pour l’exercice de ses activités. |
@@ -306,7 +333,7 @@ Les colonnes suivantes sont disponibles en modifiant la [disposition des colonne
 ### Barre de boutons
 
 | Bouton | Description |
-|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Back] | Retourne à la page Entreprises sans enregistrer les modifications. |
 | [!DNL Delete Company] | Supprime le compte société. Le statut des comptes d’utilisateurs associés à la société est défini sur `Inactive` et l’ID de société est supprimé des profils des comptes d’utilisateurs. Les informations sur les activités et les transactions de la société sont conservées dans le système. |
 | [!DNL Reset] | Restaure les valeurs d’origine dans tous les champs avec des modifications non enregistrées. |
@@ -319,7 +346,7 @@ Les colonnes suivantes sont disponibles en modifiant la [disposition des colonne
 ### Descriptions des champs
 
 | Champ | Description |
-|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Company Name] | Le nom de la société est saisi lors de la première création du compte de société et peut être une version abrégée de la dénomination sociale complète. |
 | [!UICONTROL Status] | Indique le [statut](account-company-approve.md) du compte société. Options : <br/>**[!UICONTROL Active]**- Le compte de la société est approuvé par l’administrateur du magasin. L’administrateur de l’entreprise et les membres associés peuvent se connecter au compte depuis le storefront et effectuer des achats.<br/>**[!UICONTROL Pending Approval]** - Une demande d’ouverture d’un compte d’entreprise a été soumise, mais n’a pas encore été approuvée par l’administrateur de la boutique. <br/>**[!UICONTROL Rejected]**- Une demande d’ouverture d’un compte d’entreprise a été soumise, mais n’a pas été approuvée par l’administrateur du magasin. Les informations d’identification de connexion initiales utilisées pour envoyer la requête sont bloquées.<br/>**[!UICONTROL Blocked]** - Les membres de l’entreprise peuvent se connecter et accéder au catalogue, mais ne peuvent pas effectuer d’achats. L’administrateur du magasin peut bloquer un compte d’entreprise qui n’est pas en règle. Le blocage sur le compte peut être supprimé à tout moment par l’administrateur du magasin. |
 | [!UICONTROL Company Email] | Adresse e-mail associée au compte d’entreprise. |
@@ -330,7 +357,7 @@ Les colonnes suivantes sont disponibles en modifiant la [disposition des colonne
 #### [!UICONTROL Account Information]
 
 | Champ | Description |
-|---------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Company Legal Name] | Nom légal complet de la société. |
 | [!UICONTROL VAT / TAX ID] | Numéro de taxe ou [taxe sur la valeur ajoutée](../stores-purchase/vat.md) attribué à la société à des fins de déclaration fiscale. |
 | [!UICONTROL Reseller ID] | Numéro de revente attribué à la société à des fins de déclaration fiscale. |
@@ -341,7 +368,7 @@ Les colonnes suivantes sont disponibles en modifiant la [disposition des colonne
 #### [!UICONTROL Company Hierarchy]
 
 | Colonnes | Description |
-|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Company ID] | Numéro d’identification de la société. |
 | [!UICONTROL Company Name] | Nom complet de la société. <br/>Un `current company indicator` apparaît dans la ligne de société en cours de modification. |
 | [!UICONTROL Company Email] | Adresse e-mail associée au compte d’entreprise. |
@@ -354,10 +381,14 @@ Les colonnes suivantes sont disponibles en modifiant la [disposition des colonne
 
 {style="table-layout:auto"}
 
+#### [!UICONTROL Catalog Views]
+
+{{$include /help/_includes/catalog-views-reference-table.md}}
+
 #### [!UICONTROL Legal Address]
 
 | Colonnes | Description |
-|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Street Address] | Adresse postale où la société est enregistrée pour exercer ses activités. |
 | [!UICONTROL City] | Ville dans laquelle la société est enregistrée pour exercer ses activités. |
 | [!UICONTROL Country] | Pays dans lequel la société est enregistrée pour exercer son activité. |
@@ -370,7 +401,7 @@ Les colonnes suivantes sont disponibles en modifiant la [disposition des colonne
 #### [!UICONTROL Company Admin]
 
 | Champ | Description |
-|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Website] | Définissez la [portée du site web](../getting-started/websites-stores-views.md) pour le compte d’entreprise. La valeur par défaut est la *[!UICONTROL Main Website]*. |
 | [!UICONTROL Job Title] | Titre de l’administrateur de la société qui gère le compte de la société. |
 | [!UICONTROL Work Phone Number] | Numéro de téléphone de l’administrateur de la société qui gère le compte de la société. |
@@ -388,7 +419,7 @@ Les colonnes suivantes sont disponibles en modifiant la [disposition des colonne
 #### [!UICONTROL Company Credit]
 
 | Champ | Description |
-|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Credit Currency] | Devise acceptée par le magasin pour les achats à crédit de la société. |
 | [!UICONTROL Credit Limit] | Limite de crédit étendue au compte de la société. |
 | [!UICONTROL Allow to Exceed Credit Limit] | Indique si la société est autorisée à dépasser la limite de crédit. Options : Oui / Non |
@@ -399,7 +430,7 @@ Les colonnes suivantes sont disponibles en modifiant la [disposition des colonne
 #### [!UICONTROL Advanced Settings]
 
 | Champ | Description |
-|-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Customer Group] | Indique le [groupe de clients](../customers/customer-groups.md) ou [catalogue partagé](catalog-shared.md) affecté à la société. |
 | [!UICONTROL Allow Quotes] | Détermine si les membres de la société peuvent préparer et soumettre des devis négociables pour le compte de la société. |
 | [!UICONTROL Enable Purchase Orders] | Détermine si les commandes fournisseur sont autorisées pour la société. Pour que les commandes fournisseur fonctionnent pour les comptes des membres de la société, l&#39;administrateur de la société doit également activer cette fonctionnalité sur le storefront. |
