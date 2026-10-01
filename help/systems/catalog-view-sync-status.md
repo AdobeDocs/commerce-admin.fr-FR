@@ -62,7 +62,7 @@ Dans la zone d’administration, accédez à **[!UICONTROL System]** > **[!UICON
 La page comporte trois onglets :
 
 - **[!UICONTROL Catalog Views]** : vues de catalogue créées par le connecteur, avec intégrité de synchronisation pour chacune. Voir [Résumé de l’état de synchronisation de la vue Catalogue](#catalog-view-sync-status-summary).
-- **[!UICONTROL Orphaned in ACO]** : entités qui existent dans les [!DNL Adobe Commerce Optimizer] sans source de [!DNL Adobe Commerce] correspondante. Voir [ Orphelin dans l’onglet ACO ](#orphaned-in-aco-tab).
+- **[!UICONTROL Orphaned in ACO]** : entités qui existent dans les [!DNL Adobe Commerce Optimizer] sans source de [!DNL Adobe Commerce] correspondante. Voir [&#x200B; Orphelin dans l’onglet ACO &#x200B;](#orphaned-in-aco-tab).
 - **[!UICONTROL Deleted]**—Enregistrement de projections de vues de catalogue supprimé car leur catalogue partagé a été supprimé. Voir [Onglet Supprimé](#deleted-tab).
 
 ## Synthèse de l’état de synchronisation de la vue Catalogue {#catalog-view-sync-status-summary}
@@ -81,7 +81,7 @@ La grille répertorie une ligne par vue de catalogue :
 | Champ | Description |
 | --- | --- |
 | **Vue Catalogue** | Identifiant de la vue de catalogue projetée dans [!DNL Adobe Commerce Optimizer]. |
-| **** | Catalogue partagé à partir duquel la vue de catalogue a été projetée. Sélectionnez le lien pour ouvrir le catalogue partagé dans Admin. |
+| **&#x200B;**&#x200B;| Catalogue partagé à partir duquel la vue de catalogue a été projetée. Sélectionnez le lien pour ouvrir le catalogue partagé dans Admin. |
 | **Vue Boutique** | Vue de magasin représentée par la vue de catalogue. |
 | **Entreprises** | Nombre de sociétés actuellement liées à cette vue de catalogue. |
 | **Statut** | L’intégrité globale de la synchronisation de la vue du catalogue. Voir [Valeurs de l’état de synchronisation](#sync-status-values). |
@@ -103,7 +103,7 @@ La grille répertorie une ligne par vue de catalogue :
 | **En attente** | La vue Catalogue n&#39;a pas encore été réconciliée ou attend sa première projection. |
 | **Retrait** | Le catalogue partagé a été supprimé en [!DNL Adobe Commerce] et la vue de catalogue est comprise dans sa période de grâce de suppression. |
 | **Supprimé** | La projection de la vue du catalogue a été supprimée après sa période de grâce. Il est conservé sous forme d’enregistrement dans l’onglet [!UICONTROL Deleted] pendant 90 jours. |
-| **Orphelin** | La vue ou la clé de catalogue existe dans [!DNL Adobe Commerce Optimizer] mais n’a pas de source de [!DNL Adobe Commerce] correspondante. Voir [ Orphelin dans l’onglet ACO ](#orphaned-in-aco-tab). |
+| **Orphelin** | La vue ou la clé de catalogue existe dans [!DNL Adobe Commerce Optimizer] mais n’a pas de source de [!DNL Adobe Commerce] correspondante. Voir [&#x200B; Orphelin dans l’onglet ACO &#x200B;](#orphaned-in-aco-tab). |
 
 ### Configurer la période de grâce des suppressions {#configure-the-deletion-grace-period}
 
@@ -173,7 +173,7 @@ L’onglet **[!UICONTROL Deleted]** répertorie les projections des vues du cata
 | Champ | Description |
 | --- | --- |
 | **Vue Catalogue** | Identifiant de la vue de catalogue supprimée. |
-| **** | Catalogue partagé qui a été supprimé. |
+| **&#x200B;**&#x200B;| Catalogue partagé qui a été supprimé. |
 | **Vue Boutique** | Vue de magasin représentée par la vue de catalogue. |
 | **Supprimé Le** | Lorsque la projection a été supprimée. |
 

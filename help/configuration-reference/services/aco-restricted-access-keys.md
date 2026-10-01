@@ -51,7 +51,7 @@ Utilisez ce paramètre pour contrôler la période d’expiration par défaut qu
 
 >[!NOTE]
 >
->La période d’expiration par défaut est longue, car la rotation automatique des clés n’est pas encore disponible. Voir [ Sélection et rotation des clés ](../../systems/restricted-access-keys.md#key-selection-and-rotation).
+>La période d’expiration par défaut est longue, car la rotation automatique des clés n’est pas encore disponible. Voir [&#x200B; Sélection et rotation des clés &#x200B;](../../systems/restricted-access-keys.md#key-selection-and-rotation).
 
 >[!MORELIKETHIS]
 >

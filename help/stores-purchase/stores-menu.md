@@ -33,11 +33,11 @@ ht-degree: 0%
 ---
 # [!UICONTROL Stores] menu
 
-Le menu _[!UICONTROL Stores]_permet d’accéder aux paramètres qui sont utilisés moins fréquemment, mais référencés tout au long de votre installation Adobe Commerce ou Magento Open Source. Ces fonctions incluent la configuration de la hiérarchie du magasin, de la configuration, des paramètres de commande et de vente, de la taxe et de la devise, des attributs de produit, des évaluations de révision de produit et des groupes de clients.
+Le menu _[!UICONTROL Stores]_&#x200B;permet d’accéder aux paramètres qui sont utilisés moins fréquemment, mais référencés tout au long de votre installation Adobe Commerce ou Magento Open Source. Ces fonctions incluent la configuration de la hiérarchie du magasin, de la configuration, des paramètres de commande et de vente, de la taxe et de la devise, des attributs de produit, des évaluations de révision de produit et des groupes de clients.
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
@@ -59,7 +59,7 @@ Dans la barre latérale _Admin_, cliquez sur **[!UICONTROL Stores]**.
 
 ### [!UICONTROL Settings]
 
-Gérez la hiérarchie des [sites web, boutiques et vues de boutique](stores.md#store-and-site-structure) dans votre installation Adobe Commerce ou Magento Open Source, ainsi que tous les [ paramètres de configuration](../configuration-reference/guide-overview.md). En outre, vous pouvez configurer les [conditions générales](terms-and-conditions.md) d’une vente et gérer les [paramètres de statut de la commande](order-status.md#custom-order-status).
+Gérez la hiérarchie des [sites web, boutiques et vues de boutique](stores.md#store-and-site-structure) dans votre installation Adobe Commerce ou Magento Open Source, ainsi que tous les [&#x200B; paramètres de configuration](../configuration-reference/guide-overview.md). En outre, vous pouvez configurer les [conditions générales](terms-and-conditions.md) d’une vente et gérer les [paramètres de statut de la commande](order-status.md#custom-order-status).
 
 ### [!UICONTROL Inventory]
 
@@ -85,6 +85,6 @@ Gérez des paramètres supplémentaires pour les [taux de change de récompense]
 
 Une fois le [!DNL Adobe Commerce Optimizer Connector] installé, vous pouvez synchroniser le site web et stocker les données d’affichage dans [!DNL Adobe Commerce Optimizer]. La portée du site Web contrôle [synchronisation des prix](stores.md#step-1-create-a-website) (prix et livres de prix). La portée de l’affichage du magasin contrôle [synchronisation des produits](store-views.md#add-a-store-view) (produits et attributs de produit).
 
-Pour les indicateurs de statut de synchronisation affichés sur la grille de [!UICONTROL All Stores], consultez [Statut de synchronisation de Adobe Commerce Optimizer](store-views.md#optimizer-sync-status). Pour le paramétrage et le comportement de la configuration du connecteur, voir [ Personnaliser la configuration d&#39;exportation des étendues de Commerce](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) dans le *Guide du connecteur Adobe Commerce Optimizer*.
+Pour les indicateurs de statut de synchronisation affichés sur la grille de [!UICONTROL All Stores], consultez [Statut de synchronisation de Adobe Commerce Optimizer](store-views.md#optimizer-sync-status). Pour le paramétrage et le comportement de la configuration du connecteur, voir [&#x200B; Personnaliser la configuration d&#39;exportation des étendues de Commerce](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) dans le *Guide du connecteur Adobe Commerce Optimizer*.
 
 Si le [!DNL Adobe Commerce Optimizer Connector for B2B] est installé, les données sont également synchronisées pour les catalogues partagés B2B disponibles. Voir [Gérer les vues de catalogue](../b2b/catalog-views-manage.md).

@@ -76,7 +76,7 @@ Suivez les instructions standard pour installer l’extension du module linguist
 
    Si le [!DNL Adobe Commerce Optimizer Connector for B2B] est installé, l’enregistrement d’une modification des paramètres régionaux d’affichage invalide l’indexeur de synchronisation de la vue du catalogue. L’indexeur planifié projette à nouveau les vues de catalogue affectées dans [!DNL Adobe Commerce Optimizer] ultérieurement. La payload de la vue Catalogue utilise toujours le code de la vue de magasin pour `sources[].locale`, et non le paramètre régional d’affichage configuré dans `general/locale/code`. Voir [Gérer les vues de catalogue](../b2b/catalog-views-manage.md).
 
-   Après avoir modifié la langue du paramètre régional, le contenu restant que vous avez créé, y compris les noms et descriptions des produits, les catégories, les pages [](../content-design/page-translate.md) et les blocs, doit être traduit séparément pour chaque affichage de magasin.
+   Après avoir modifié la langue du paramètre régional, le contenu restant que vous avez créé, y compris les noms et descriptions des produits, les catégories, les pages [&#128279;](../content-design/page-translate.md) et les blocs, doit être traduit séparément pour chaque affichage de magasin.
 
 ## Localisation de produits
 
@@ -124,7 +124,7 @@ Si votre boutique propose plusieurs vues dans différentes langues, les mêmes p
 
 1. Pour _Informations de base_, traduisez **[!UICONTROL Category Name]**.
 
-1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Content]_et traduisez **[!UICONTROL Description]**.
+1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section _[!UICONTROL Content]_&#x200B;et traduisez **[!UICONTROL Description]**.
 
 1. Développez ![Sélecteur de développement](../assets/icon-display-expand.png) la section **[!UICONTROL Search Engine Optimization Settings]** et traduisez les champs suivants :
 

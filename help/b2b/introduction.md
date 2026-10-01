@@ -78,13 +78,13 @@ Le [!DNL Adobe Commerce Optimizer Connector] synchronise les données de catalog
 >
 >Pour les commerçants B2B, le [!DNL Adobe Commerce Optimizer Connector for B2B] synchronise automatiquement vos catalogues partagés dans [!DNL Adobe Commerce Optimizer] en tant que vues de catalogue protégées, sécurisées par des clés d’accès restreintes, de sorte que l’assortiment de produits et les prix spécifiques au contrat restent synchronisés entre les deux systèmes.
 
-Pour plus d’informations, consultez le [[!DNL Adobe Commerce Optimizer Connector]  Guide d’intégration ](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview).
+Pour plus d’informations, consultez le [[!DNL Adobe Commerce Optimizer Connector]  Guide d’intégration &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview).
 
 ## Catalogues partagés
 
 Les catalogues partagés sont les niveaux de prix qui permettent de définir des prix personnalisés par produit pour différentes sociétés sur un ou plusieurs sites web. En utilisant des catalogues partagés, vous pouvez vendre des produits en appliquant différents niveaux de tarification à différents groupes de clients. La prise en charge des catalogues partagés est disponible uniquement pour les magasins Commerce configurés pour prendre en charge les comptes d’entreprise.
 
-Pour plus d’informations, voir [ Utilisation de catalogues partagés ](catalog-shared.md).
+Pour plus d’informations, voir [&#x200B; Utilisation de catalogues partagés &#x200B;](catalog-shared.md).
 
 >[!NOTE]
 >
