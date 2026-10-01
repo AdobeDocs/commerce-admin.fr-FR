@@ -39,13 +39,13 @@ Le menu _[!UICONTROL Stores]_&#x200B;permet d’accéder aux paramètres qui son
 
 >[!TAB Tab]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 ![Admin - Menu Magasins](./assets/stores-menu.png){width="500" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
 
 ![Admin - Menu Magasins](./assets/stores-menu-accs.png){width="500" zoomable="yes"}
 
@@ -85,6 +85,6 @@ Gérez des paramètres supplémentaires pour les [taux de change de récompense]
 
 Une fois le [!DNL Adobe Commerce Optimizer Connector] installé, vous pouvez synchroniser le site web et stocker les données d’affichage dans [!DNL Adobe Commerce Optimizer]. La portée du site Web contrôle [synchronisation des prix](stores.md#step-1-create-a-website) (prix et livres de prix). La portée de l’affichage du magasin contrôle [synchronisation des produits](store-views.md#add-a-store-view) (produits et attributs de produit).
 
-Pour les indicateurs de statut de synchronisation affichés sur la grille de [!UICONTROL All Stores], consultez [Statut de synchronisation de Adobe Commerce Optimizer](store-views.md#optimizer-sync-status). Pour le paramétrage et le comportement de la configuration du connecteur, voir [&#x200B; Personnaliser la configuration d&#39;exportation des étendues de Commerce](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) dans le *Guide du connecteur Adobe Commerce Optimizer*.
+Pour les indicateurs de statut de synchronisation affichés sur la grille de [!UICONTROL All Stores], consultez [Statut de synchronisation de Adobe Commerce Optimizer](store-views.md#optimizer-sync-status). Pour le paramétrage et le comportement de la configuration du connecteur, voir [&#x200B; Personnaliser la configuration d&#39;exportation des étendues de Commerce](https://experienceleague.adobe.com/fr/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) dans le *Guide du connecteur Adobe Commerce Optimizer*.
 
 Si le [!DNL Adobe Commerce Optimizer Connector for B2B] est installé, les données sont également synchronisées pour les catalogues partagés B2B disponibles. Voir [Gérer les vues de catalogue](../b2b/catalog-views-manage.md).
