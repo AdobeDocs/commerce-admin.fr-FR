@@ -5,25 +5,32 @@ exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
 TQID: https://experienceleague.adobe.com/LEoQUYqvin2UfF55kCMUiEUh8YungghN-VuEwUOu7gY
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
-source-wordcount: 329
+source-wordcount: '430'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Stores] menu
 
 Le menu _[!UICONTROL Stores]_&#x200B;permet d’accéder aux paramètres qui sont utilisés moins fréquemment, mais référencés tout au long de votre installation Adobe Commerce ou Magento Open Source. Ces fonctions incluent la configuration de la hiérarchie du magasin, de la configuration, des paramètres de commande et de vente, de la taxe et de la devise, des attributs de produit, des évaluations de révision de produit et des groupes de clients.
@@ -73,3 +80,11 @@ Gérez les attributs utilisés pour les [informations sur les clients](../custom
 ### [!UICONTROL Other Settings]
 
 Gérez des paramètres supplémentaires pour les [taux de change de récompense](../merchandising-promotions/reward-exchange-rates.md), [emballage cadeau](cart-configuration.md#gift-wrap) et [registres de cadeaux](../merchandising-promotions/gift-registries.md).
+
+## Intégration [!DNL Adobe Commerce Optimizer]
+
+Une fois le [!DNL Adobe Commerce Optimizer Connector] installé, vous pouvez synchroniser le site web et stocker les données d’affichage dans [!DNL Adobe Commerce Optimizer]. La portée du site Web contrôle [synchronisation des prix](stores.md#step-1-create-a-website) (prix et livres de prix). La portée de l’affichage du magasin contrôle [synchronisation des produits](store-views.md#add-a-store-view) (produits et attributs de produit).
+
+Pour les indicateurs de statut de synchronisation affichés sur la grille de [!UICONTROL All Stores], consultez [Statut de synchronisation de Adobe Commerce Optimizer](store-views.md#optimizer-sync-status). Pour le paramétrage et le comportement de la configuration du connecteur, voir [&#x200B; Personnaliser la configuration d&#39;exportation des étendues de Commerce](https://experienceleague.adobe.com/fr/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) dans le *Guide du connecteur Adobe Commerce Optimizer*.
+
+Si le [!DNL Adobe Commerce Optimizer Connector for B2B] est installé, les données sont également synchronisées pour les catalogues partagés B2B disponibles. Voir [Gérer les vues de catalogue](../b2b/catalog-views-manage.md).

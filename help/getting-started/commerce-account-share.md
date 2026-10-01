@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 47f4b72b7b4ef201251423522a7917825415cb25
+source-git-commit: f9f21f675d5c608547db790f33d1aa9be90a36eb
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -141,7 +141,7 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
    >[!NOTE]
    >
    > Si **[!UICONTROL Delete]** n’est pas affiché, vérifiez si le **[!UICONTROL Share Name]** contient le modèle de dénomination `Cloud Shared Access from MAG0XYZ`. Si le compte possède ce modèle de dénomination [&#x200B; et ne peut pas être supprimé](https://experienceleague.adobe.com/fr/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users), c’est parce que l’accès partagé a été créé par une API et non directement à partir du compte [Commerce](https://account.magento.com/).
-   > 
+   >
    > S’il ne peut pas être supprimé, demandez simplement au propriétaire du compte de modifier le compte d’accès partagé et, sous Accorder des autorisations de compte, décochez chaque élément. Après cette mise à jour, l’utilisateur ne pourra plus accéder aux ressources du compte.
    > ![image](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
@@ -150,11 +150,10 @@ Les instructions suivantes sont écrites du point de vue d’un utilisateur part
 
 1. Lorsque vous êtes invité à confirmer, cliquez sur **[!UICONTROL Delete User]**.
 
->[!NOTE]
->
->Dans cette interface, vous ne pouvez pas supprimer les utilisateurs dotés du nom de partage _Cloud Shared Access from MAG[XYZ]_. Voir [Comment supprimer des utilisateurs ayant obtenu un accès partagé via un projet cloud ?](https://experienceleague.adobe.com/fr/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users).
+   >[!NOTE]
+   >
+   >Dans cette interface, vous ne pouvez pas supprimer les utilisateurs dotés du nom de partage _Cloud Shared Access from MAG[XYZ]_. Voir [Comment supprimer des utilisateurs ayant obtenu un accès partagé via un projet cloud ?](https://experienceleague.adobe.com/fr/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users).
 
 ## Lectures connexes
 
 [Dépannage de l&#39;accès partagé](https://experienceleague.adobe.com/fr/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
-

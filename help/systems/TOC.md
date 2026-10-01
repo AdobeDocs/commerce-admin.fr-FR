@@ -5,13 +5,11 @@ breadcrumb-title: Guide des systèmes d’administration
 role: Admin, Leader
 feature: System
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: af5848a2337563c3d57109b0bd93495a3ab7def0
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '217'
 ht-degree: 3%
-
 ---
-
 
 # Guide des systèmes d’administration {#systems}
 
@@ -51,6 +49,9 @@ ht-degree: 3%
   - Synchronisation des données pour les services Commerce {#data-sync}
     - [Tableau de bord de gestion des données](data-dashboard.md)
     - [Statut de synchronisation du flux de données](data-feed-sync-status.md)
+    - Clés de synchronisation et d’accès à la vue Catalogue {#catalog-view-sync}
+      - [Statut de synchronisation de la vue Catalogue](catalog-view-sync-status.md)
+      - [Clés d’accès restreintes](restricted-access-keys.md)
 - Logs d’action {#action-logs}
   - [Vue d’ensemble](action-log.md)
   - [Rapport Journaux d’actions](action-log-report.md)

@@ -5,29 +5,40 @@ exl-id: b0359ba4-3643-4355-9154-adfedb369ec3
 TQID: https://experienceleague.adobe.com/nxl3Dlf3sQp4YOH-BLpVS0ny4TY8op2TIelYOTGkQ-M
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: cc250cf1-34eb-4863-80d0-d170d45ea067
+    internal-label: Developer tools
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3ed6388c485699373275912a27df59d25b7245ac
+    internal-label: Administration
+source-git-commit: f6c2f4b74fae59264faf75de3c025c596cab048f
 workflow-type: tm+mt
-source-wordcount: 624
-ht-degree: 49%
-
+source-wordcount: '679'
+ht-degree: 50%
 ---
-
 # Guide de référence de configuration
 
 Ce guide est destiné aux commerçants et aux administrateurs système qui travaillent dans Adobe Commerce ou Magento Open Source Admin. Elle fournit des informations de référence pour tous les paramètres de configuration de la boutique accessibles à partir de la barre latérale _Admin_ à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
@@ -44,7 +55,7 @@ Ce guide est organisé en fonction de la configuration du volet de navigation de
 | **[!UICONTROL Customers]** <br/><br/>Les paramètres de configuration _[!UICONTROL Customers]_&#x200B;établissent les options de compte client et de connexion de base, les paramètres de la newsletter, la liste de souhaits et le format des codes de coupon générés automatiquement. | - [[!UICONTROL Login as Customer]](./customers/login-as-customer.md)<br>- [[!UICONTROL Newsletter]](./customers/newsletter.md)<br>- [[!UICONTROL Company Configuration]](./customers/company-configuration.md)<br>- [[!UICONTROL Customer Configuration]](./customers/customer-configuration.md)<br>- [[!UICONTROL Requisition Lists]](./customers/requisition-lists.md)<br>- [[!UICONTROL Wish List]](./customers/wishlist.md)<br>- [[!UICONTROL Invitations]](./customers/invitations.md)<br>- [[!UICONTROL Reward Points]](./customers/reward-points.md)<br>- [[!UICONTROL Promotions]](./customers/promotions.md)<br>- [[!UICONTROL Gift Registry]](./customers/gift-registry.md)<br>- [[!UICONTROL Persistent Shopping Cart]](./customers/persistent-shopping-cart.md) |
 | **[!UICONTROL Sales]** <br/><br/>Les paramètres de configuration _[!UICONTROL Sales]_&#x200B;déterminent les paramètres de paiement et de taxe, les options de paiement et d’expédition, les e-mails commerciaux et les impressions PDF, ainsi que les paramètres de l’API Google. | - [[!UICONTROL Sales]](./sales/sales.md)<br>- [[!UICONTROL Sales Emails]](./sales/sales-emails.md)<br>- [[!UICONTROL Quotes]](./sales/quotes.md)<br>- [[!UICONTROL PDF Print-outs]](./sales/pdf-print-outs.md)<br>- [[!UICONTROL Tax]](./sales/tax.md)<br>- [[!UICONTROL Checkout]](./sales/checkout.md)<br>- [[!UICONTROL Shipping Settings]](./sales/shipping-settings.md)<br>- [[!UICONTROL Multishipping Settings]](./sales/multishipping-settings.md)<br>- [[!UICONTROL Delivery Methods]](./sales/delivery-methods.md)<br>- [[!UICONTROL Google API]](./sales/google-api.md)<br>- [[!UICONTROL 3D Secure]](./sales/3d-secure.md)<br>- [[!UICONTROL Gift Cards]](./sales/gift-cards.md)<br>- [[!UICONTROL Payment Methods]](./sales/payment-methods.md) |
 | **[!UICONTROL Sales Channels]** <br/><br/>Lorsque l’extension [!DNL Amazon Sales Channel] est installée, les paramètres _[!UICONTROL Sales Channels]_&#x200B;contrôlent les opérations d’intégration automatisées avec votre boutique Amazon. | - [[!UICONTROL Global Settings]](sales-channels.md) |
-| **[!UICONTROL Services]** <br/><br/>Les paramètres de configuration _[!UICONTROL Services]_&#x200B;déterminent les paramètres d’intégration de l’API Commerce, y compris SOAP et OAuth. | - [[!UICONTROL Web API]](./services/magento-web-api.md)<br>- [[!UICONTROL Commerce Services]](./services/saas.md)<br>- [[!UICONTROL OAuth]](./services/oauth.md) |
+| **[!UICONTROL Services]** <br/><br/>Les paramètres de configuration _[!UICONTROL Services]_&#x200B;déterminent les paramètres d’intégration de l’API Commerce, notamment SOAP et OAuth, ainsi que la suppression des e-mails gérés par Adobe et le connecteur Adobe Commerce Optimizer pour la synchronisation B2B et les paramètres clés. | - [[!UICONTROL Web API]](./services/magento-web-api.md)<br>- [[!UICONTROL Commerce Services Connector]](./services/saas.md)<br>- [[!UICONTROL OAuth]](./services/oauth.md)<br>- [[!UICONTROL Email Suppression]](./services/email-suppression.md)<br>- [[!UICONTROL ACO Catalog View]](./services/aco-catalog-view.md)<br>- [[!UICONTROL ACO Catalog View Sync]](./services/aco-catalog-view-sync.md)<br>- [[!UICONTROL ACO Restricted Access Keys]](./services/aco-restricted-access-keys.md) |
 | **[!UICONTROL Advanced]** <br/><br/>Les paramètres de configuration _[!UICONTROL Advanced]_&#x200B;déterminent les paramètres d’administration par défaut, divers paramètres de configuration système, les commandes de module avancées et les outils de développement. | - [[!UICONTROL Admin]](./advanced/admin.md) [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}<br>- [[!UICONTROL System]](./advanced/system.md) [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}<br>- [[!UICONTROL Developer]](./advanced/developer.md) |
 
 {style="table-layout:auto"}

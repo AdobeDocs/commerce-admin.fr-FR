@@ -1,13 +1,11 @@
 ---
 title: Fragments de code
 description: Notes et éléments visuels réutilisés pour noter une fonctionnalité ou une page s’appliquant à une édition spécifique
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 0%
-
 ---
-
 # Fragments de code
 
 ## Fonctionnalité EE uniquement {#ee-feature}
@@ -69,7 +67,6 @@ Pour accéder aux paramètres de configuration du magasin, sélectionnez **[!UIC
 >À compter de juin 2024, les commerçants Adobe Commerce ne pourront plus effectuer de transactions avec l’intégration UPS actuelle. En effet, les API United Parcel Service (UPS) utilisées par l’intégration native d’Adobe Commerce ne prennent actuellement pas en charge le modèle de sécurité OAuth 2.0 requis. Pour activer l’intégration, [créez une application sur la plateforme de développement UPS](https://developer.ups.com/get-started) afin d’obtenir les informations d’identification requises pour OAuth 2.0. Utilisez les nouvelles informations d’identification comme `username` et `password` dans la configuration d’expédition UPS de Commerce. Pour en savoir plus sur le changement de modèle de sécurité, voir [Developer Portal Access Key Migration Guide_](https://developer.ups.com/oauth-developer-guide). <br/>
 >
 >Les commerçants doivent [appliquer une mise à jour de correctif de qualité](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-27146) à leur magasin pour migrer de l’API SOAP vers l’API RESTful, qui prend en charge les protocoles d’authentification OAuth 2.0.
-
 
 ## Documentation disponible {#docs-links}
 

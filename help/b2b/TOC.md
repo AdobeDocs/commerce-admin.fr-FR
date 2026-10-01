@@ -1,18 +1,16 @@
 ---
 user-guide-title: Guide [!DNL Adobe Commerce B2B]
-user-guide-description: Découvrez comment utiliser les fonctionnalités B2B intégrées disponibles pour Adobe Commerce,
+user-guide-description: Découvrez comment utiliser les fonctionnalités B2B intégrées d’Adobe Commerce, telles que les comptes d’entreprise et la gestion de catalogues partagés.
 breadcrumb-title: '[!DNL Adobe Commerce B2B]'
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
 nudge: true
-source-git-commit: c67474ee4b72744766421090e30c56c85d687495
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '182'
 ht-degree: 5%
-
 ---
-
 
 # Guide [!DNL Adobe Commerce B2B] {#b2b}
 
@@ -46,6 +44,7 @@ ht-degree: 5%
     + [Définir la tarification et la structure du catalogue](catalog-shared-pricing-structure.md)
     + [Affectation d’entreprises à un catalogue](catalog-shared-assign-companies.md)
   + [Gestion des catalogues partagés](catalog-shared-manage.md)
+  + [Gestion de la configuration de la vue de catalogue](catalog-views-manage.md)
 + [Commandes rapides](quick-order.md)
 + Commandes fournisseur {#purchase-orders}
   + [Commandes fournisseur pour les entreprises](purchase-order-flow.md)
