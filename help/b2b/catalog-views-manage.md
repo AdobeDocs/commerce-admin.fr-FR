@@ -22,7 +22,8 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f9f21f675d5c608547db790f33d1aa9be90a36eb
+last-update: 2026-10-01
+source-git-commit: 82862dcdd7667b46cfe7bd08863926ae5bafd24b
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -53,7 +54,7 @@ Le connecteur protège les vues de catalogue avec des clés d’accès restreint
 
 Pour configurer la durée de vie du jeton ou désactiver l’émission du jeton, voir [Services > Vue Catalogue ACO](/help/configuration-reference/services/aco-catalog-view.md).
 
-Vous pouvez examiner ces vues de catalogue et gérer leurs clés affectées à partir de l’onglet _[!UICONTROL Catalog Views]_&#x200B;du catalogue partagé ou de la section&#x200B;_[!UICONTROL Catalog Views]_ de l’entreprise associée ; les deux répertorient les mêmes vues de catalogue et les mêmes affectations de clés actuelles. Consultez [Modifier les clés d’accès restreint](#edit-restricted-access-keys) pour connaître le chemin de navigation exact à partir de chaque emplacement.
+Vous pouvez examiner ces vues de catalogue et gérer leurs clés affectées à partir de l’onglet _[!UICONTROL Catalog Views]_du catalogue partagé ou de la section_[!UICONTROL Catalog Views]_ de l’entreprise associée ; les deux répertorient les mêmes vues de catalogue et les mêmes affectations de clés actuelles. Consultez [Modifier les clés d’accès restreint](#edit-restricted-access-keys) pour connaître le chemin de navigation exact à partir de chaque emplacement.
 
 Pour surveiller la synchronisation des données de catalogue partagées avec [!DNL Adobe Commerce Optimizer], consultez [Surveillance de l’état de synchronisation des vues du catalogue](/help/systems/catalog-view-sync-status.md).
 
