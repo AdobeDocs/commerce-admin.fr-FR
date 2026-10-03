@@ -1,14 +1,36 @@
 ---
-source-git-commit: 8dae6d26d1c63c95388b082a931361b580eeaf22
+source-git-commit: 95b00d779518fffb4346403f2849ab9dd3d6053d
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 2%
+source-wordcount: '389'
+ht-degree: 1%
 ---
 # Nouveautés du modèle
 
 ## Nouveautés
 
 Cette section contient les modifications apportées au cours des 60 derniers jours. Toutes les mises à jour mineures, telles que la modification de copies, sont exclues de cette liste.
+
+### 1er octobre 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Ajout de la documentation pour les pages d’administration Adobe Commerce Optimizer Connector for B2B :<br />- Ajout des pages d’administration <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/catalog-view-sync-status">État de synchronisation de l’affichage de catalogue</a> et <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys">Clés d’accès restreint</a> pour surveiller et réparer la synchronisation du catalogue partagé B2B avec Adobe Commerce Optimizer.<br />- Ajout de la page de référence de configuration <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/config/services/aco-restricted-access-keys">Clés d’accès restreint ACO</a>.<br />- Ajout de la page de référence de configuration <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage">Gérer la configuration de l’affichage de catalogue</a>, liée à <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage">Gérer les catalogues partagés</a> et <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/b2b/companies/account-company-manage">Gérer les comptes d’entreprise</a>.<br />- Documentation indiquant que l’enregistrement des paramètres régionaux d’une vue de magasin dans <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/site-store/store-localize"></a>.</p>
+</td>
+      <td>
+        Mise à jour majeure
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/df7cf0481d74403bb4baaaf48e0ccc735ac3af2c">validation</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 23 septembre 2026
 
