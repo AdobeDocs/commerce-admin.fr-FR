@@ -70,7 +70,7 @@ Les conditions préalables suivantes s’appliquent lorsque vous avez accès à 
 - Votre storefront peut être exploré par des robots orientés LLM et agentiques où une couverture d’explore est requise pour les suggestions tenant compte du catalogue.
 - Les services Commerce requis et la connectivité du catalogue sont activés et sains. Voir [Activer l’enrichissement du catalogue](#enable-catalog-enrichment) pour en savoir plus.
 - [IMS est configuré](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations).
-- Vous avez accès à [](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- Vous avez accès à [&#128279;](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - Votre entreprise a signé l’avenant GenAI, ou s’est explicitement désabonnée, pour les services d’IA sous-jacents.
 
 >[!NOTE]
@@ -111,7 +111,7 @@ Configurez l’enrichissement du catalogue dans l’onglet **[!UICONTROL Setting
 
    Fournissez les détails de votre environnement [!DNL Adobe Commerce] pour activer le service Catalog LLM Optimizer et les workflows d’audit.
 
-   Configuration de ![Commerce dans l’onglet Paramètres d’enrichissement du catalogue ](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
+   Configuration de ![Commerce dans l’onglet Paramètres d’enrichissement du catalogue &#x200B;](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. Saisissez les informations de connexion requises pour la vue du magasin.
 
