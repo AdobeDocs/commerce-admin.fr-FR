@@ -8,23 +8,30 @@ autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
+    internal-label: Administration
+source-git-commit: 5764bcc6545c1696353ac445716061b009a7c106
 workflow-type: tm+mt
-source-wordcount: 2182
+source-wordcount: '2182'
 ht-degree: 0%
-
 ---
-
 # Enrichissement du catalogue
 
 L’enrichissement du catalogue est une fonctionnalité de [!DNL Adobe Commerce] native qui vous permet d’améliorer les noms de produit et les descriptions longues afin que votre catalogue soit représenté plus précisément lorsque les acheteurs utilisent des outils LLM et des assistants d’IA pour la recherche et la découverte de produits.
@@ -91,7 +98,7 @@ Contactez votre administrateur Commerce ou votre partenaire d’implémentation 
 
 Une fois que vous avez installé l’enrichissement de catalogue et les extensions de services de catalogue, la fonctionnalité d’enrichissement de catalogue est disponible dans l’Administration sous **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**.
 
-![Enrichissement du catalogue](./assets/catalog-enrichment-menu.png)
+![Enrichissement du catalogue](./assets/catalog-enrichment-menu.png){zoomable="yes"}
 
 ### Configuration de l’enrichissement du catalogue
 
@@ -104,7 +111,7 @@ Configurez l’enrichissement du catalogue dans l’onglet **[!UICONTROL Setting
 
    Fournissez les détails de votre environnement [!DNL Adobe Commerce] pour activer le service Catalog LLM Optimizer et les workflows d’audit.
 
-   Configuration de ![Commerce dans l’onglet Paramètres d’enrichissement du catalogue &#x200B;](./assets/catalog-enrichment-commerce-config.png)
+   Configuration de ![Commerce dans l’onglet Paramètres d’enrichissement du catalogue &#x200B;](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. Saisissez les informations de connexion requises pour la vue du magasin.
 
@@ -142,7 +149,7 @@ L’enrichissement du catalogue utilise les vues de workflow suivantes :
 - **[!UICONTROL Fixed Suggestions]** : éléments déjà appliqués ou résolus.
 - **[!UICONTROL Ignored Suggestions]** : éléments que vous avez intentionnellement exclus de l’action.
 
-![Enrichissement du catalogue](./assets/agentic-opportunities.png)
+![Enrichissement du catalogue](./assets/agentic-opportunities.png){zoomable="yes"}
 
 ### Déployer les suggestions approuvées {#review-deploy-catalog}
 
@@ -176,7 +183,7 @@ Après avoir appliqué une mise à jour, les suggestions sont déplacées vers l
 
    Le formulaire de produit affiche le nom et/ou la description enrichis du produit.
 
-   ![Nom de produit enrichi](./assets/enriched-product-name.png)
+   ![Nom de produit enrichi](./assets/enriched-product-name.png){zoomable="yes"}
 
 1. Facultatif : sélectionnez **[!UICONTROL Override Catalog Agent provided Product Name]** si vous souhaitez conserver un nom saisi manuellement à la place.
 
@@ -186,7 +193,7 @@ Après avoir appliqué une mise à jour, les suggestions sont déplacées vers l
 
    La description enrichie s’affiche lorsque vous appliquez des modifications de description.
 
-   ![Enrichir la description du produit](./assets/enrich-product-description.png)
+   ![Enrichir la description du produit](./assets/enrich-product-description.png){zoomable="yes"}
 
 1. Facultatif : sélectionnez **[!UICONTROL Override Catalog Agent provided Description]** si vous souhaitez conserver une description saisie manuellement à la place.
 
