@@ -1,9 +1,9 @@
 ---
 title: Fragments de code
 description: Notes et éléments visuels réutilisés pour noter une fonctionnalité ou une page s’appliquant à une édition spécifique
-source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
+source-git-commit: 2a77353224b36200662f8c5a5a0450073fe8506c
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '808'
 ht-degree: 0%
 ---
 # Fragments de code
@@ -103,3 +103,4 @@ Pour accéder aux paramètres de configuration du magasin, sélectionnez **[!UIC
 - [!UICONTROL Enable for Wishlist Sharing]
 - [!UICONTROL Enable for Coupon Codes]
 - [!UICONTROL Enable for PayPal PayflowPro payment form] - [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+- [!UICONTROL Enable for Presigned Upload] - [!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}

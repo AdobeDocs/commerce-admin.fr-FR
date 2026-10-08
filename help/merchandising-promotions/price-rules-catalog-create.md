@@ -6,27 +6,36 @@ feature: Merchandising, Price Rules, Catalog Management
 TQID: https://experienceleague.adobe.com/rX7YtAYqk0z8140ueglCAzHQUeC2Y-lwRywB5uDdNG4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: 6d1de809dfbdccea260fb7d5f8963a5c20cde15c
 workflow-type: tm+mt
-source-wordcount: 1730
+source-wordcount: '1807'
 ht-degree: 0%
-
 ---
-
 # Créer une règle de prix de catalogue
 
 Suivez ces instructions pour appliquer une remise à des produits spécifiques chaque fois qu’un ensemble de conditions est rempli. Les remises de la règle de prix catalogue prennent effet avant que le produit ne soit placé dans le panier.
@@ -58,13 +67,17 @@ Suivez ces instructions pour appliquer une remise à des produits spécifiques c
    - Les options disponibles dépendent des groupes de clients et clientes créés et gérés dans _Clients_ > _Groupes de clients et clientes_.
    - Pour sélectionner plusieurs groupes, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque option.
 
-1. ![](../assets/open-source.svg) (Magento Open Source uniquement) Saisissez les dates **[!UICONTROL From]** et **[!UICONTROL To]** pour déterminer quand la règle de prix est en vigueur.
+1. Définissez le planning de la règle de prix :
 
-   Vous pouvez saisir les dates ou utiliser la **[!UICONTROL Calendar]** (![icône de calendrier](../assets/icon-calendar.png)) pour choisir les dates. Si vous laissez les dates vides, la règle est activée lorsque la règle de prix est enregistrée.
+   - ![](../assets/open-source.svg) (Magento Open Source uniquement) Saisissez les dates **[!UICONTROL From]** et **[!UICONTROL To]** pour déterminer quand la règle de prix est en vigueur.
+
+   - ![](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] uniquement) Saisissez les dates et heures **[!UICONTROL From]** et **[!UICONTROL To]** pour déterminer quand la règle de prix commence et se termine.
+
+   Vous pouvez saisir les valeurs ou utiliser l’**[!UICONTROL Calendar]** (![icône Calendrier](../assets/icon-calendar.png)) pour les sélectionner.
 
    >[!NOTE]
    >
-   >Les champs `From` et `To` ont été supprimés de la page Configuration des règles de prix de catalogue dans Adobe Commerce et ne peuvent pas être modifiés directement sur la règle de prix de catalogue. Vous devez créer une mise à jour planifiée pour définir le planning d&#39;activation des règles de prix.
+   >Pour les projets Adobe Commerce on Cloud et On-premise, les champs `From` et `To` ne sont pas disponibles sur la page de configuration des règles de prix de catalogue. Vous devez créer une [mise à jour planifiée](#step-5-schedule-the-rule) pour définir le planning d&#39;activation des règles de prix.
 
 1. Entrez un nombre pour établir la **[!UICONTROL Priority]** de cette règle par rapport aux autres règles.
 
@@ -232,6 +245,8 @@ Les [blocs dynamiques](../content-design/dynamic-blocks.md) associés à une rè
 
    Les règles de prix sont automatiquement traitées avec d&#39;autres règles système chaque nuit. Lorsque vous créez une règle de prix, patientez suffisamment longtemps pour qu’elle pénètre dans le système avant de la tester pour vérifier qu’elle fonctionne correctement. À mesure que de nouvelles règles sont ajoutées, Commerce recalcule les prix et les priorités en conséquence.
 
+   Dans [!DNL Adobe Commerce as a Cloud Service], Commerce vérifie chaque minute les règles actives qui ont atteint leur heure de début ou de fin et met à jour les prix des produits concernés.
+
 ## Démonstration des règles de prix de catalogue
 
 Regardez cette vidéo pour en savoir plus sur la création de règles de prix de catalogue :
@@ -250,8 +265,8 @@ Regardez cette vidéo pour en savoir plus sur la création de règles de prix de
 | [!UICONTROL Customer Groups] | (Obligatoire) Identifie les groupes de clients auxquels la règle s’applique. |
 | [!UICONTROL Priority] | Nombre qui indique la priorité de cette règle par rapport aux autres. Les priorités du plus haut au plus bas sont `0,1,2,3...` |
 | [!UICONTROL Status] | ![](../assets/open-source.svg) (Magento Open Source uniquement) Détermine si la règle est active dans le magasin. Options : `Yes` / `No` |
-| [!UICONTROL From] | ![](../assets/open-source.svg) (Magento Open Source uniquement) Spécifie le premier jour où la règle de prix est en vigueur. Si rien n’est indiqué, la règle de prix prend effet lors de l’enregistrement. |
-| [!UICONTROL To] | ![](../assets/open-source.svg) (Magento Open Source uniquement) Indique le dernier jour où la règle de prix est en vigueur. Si rien n’est indiqué, la règle de prix se poursuit indéfiniment. |
+| [!UICONTROL From] | ![](../assets/open-source.svg) (Magento Open Source uniquement) Spécifie le premier jour où la règle de prix est en vigueur. Si rien n’est indiqué, la règle de prix prend effet lors de l’enregistrement.<br><br>![](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] uniquement) Indique la date et l&#39;heure d&#39;entrée en vigueur de la règle de prix. Si rien n’est indiqué, la règle de prix prend effet lors de l’enregistrement. |
+| [!UICONTROL To] | ![](../assets/open-source.svg) (Magento Open Source uniquement) Indique le dernier jour où la règle de prix est en vigueur. Si rien n’est indiqué, la règle de prix se poursuit indéfiniment.<br><br>![](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] uniquement) Spécifie la date et l&#39;heure auxquelles la règle de prix se termine. Si rien n’est indiqué, la règle de prix se poursuit indéfiniment. |
 
 {style="table-layout:auto"}
 

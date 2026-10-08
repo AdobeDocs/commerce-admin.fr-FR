@@ -6,30 +6,41 @@ feature: Configuration, Security
 TQID: https://experienceleague.adobe.com/Hl5Ivzg-z8tu96TaZN45UFCMMJ4g05fU5t-Jwok1jZE
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: 2a77353224b36200662f8c5a5a0450073fe8506c
 workflow-type: tm+mt
-source-wordcount: 1487
+source-wordcount: '1612'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Storefront]
 
 >[!IMPORTANT]
@@ -141,5 +152,6 @@ Pour plus d’informations sur l’utilisation de Google reCAPTCHA pour sécuris
 | [!UICONTROL Enable for Wishlist Sharing] | Site internet | Indique le type de reCAPTCHA utilisé lorsque les clients [partagent une liste de souhaits](../../stores-purchase/wishlist-storefront.md#share-the-wish-list). Options : <br/>**`No`**- (par défaut) ne valide pas l’envoi du message et de l’e-mail.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Nécessite que l&#39;utilisateur coche la case _Je ne suis pas un robot_.<br />**`Invisible reCAPTCHA v2`**- Valide le comportement de l’utilisateur en arrière-plan sans nécessiter d’interactions en fonction du score.<br/>**`Invisible reCAPTCHA v3`** - (Recommandé) Valide le comportement de l’utilisateur en arrière-plan en fonction du score d’interaction. |
 | [!UICONTROL Enable for Coupon Codes] | Site internet | Spécifie le type de reCAPTCHA utilisé lorsque les clients saisissent un [code coupon](../../merchandising-promotions/price-rules-cart-coupon.md). Options : <br/>**`No`**- (par défaut) ne valide pas l’envoi du code de coupon.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Nécessite que l&#39;utilisateur coche la case _Je ne suis pas un robot_.<br />**`Invisible reCAPTCHA v2`**- Valide le comportement de l’utilisateur en arrière-plan sans nécessiter d’interactions en fonction du score.<br/>**`Invisible reCAPTCHA v3`** - (Recommandé) Valide le comportement de l’utilisateur en arrière-plan en fonction du score d’interaction. |
 | [!UICONTROL Enable for PayPal Payflow Pro payment form] | Site internet | Spécifie le type de reCAPTCHA utilisé lorsque les clients paient pour un achat avec [PayPal Payflow Pro](../../stores-purchase/paypal-payflow-pro.md). Options : <br/>**`No`**- (par défaut) ne valide pas la demande de réinitialisation du mot de passe.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Nécessite que l&#39;utilisateur coche la case _Je ne suis pas un robot_.<br />**`Invisible reCAPTCHA v2`**- Valide le comportement de l’utilisateur en arrière-plan sans nécessiter d’interactions en fonction du score.<br/>**`Invisible reCAPTCHA v3`** - (Recommandé) Valide le comportement de l’utilisateur en arrière-plan en fonction du score d’interaction. |
+| [!UICONTROL Enable for Presigned Upload] | Site internet | [!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."} Détermine si reCAPTCHA est utilisé pour valider les requêtes de la mutation [`initiateUpload` GraphQL](https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload), qui génère des URL présignées pour les chargements de fichiers de storefront. Lorsqu’elle est activée, chaque requête doit inclure un jeton reCAPTCHA valide dans l’en-tête `X-ReCaptcha`. Les requêtes avec un jeton manquant ou non valide échouent et aucune URL de chargement n’est émise. Options : <br/>**`No`**- (par défaut) ne valide pas la demande de chargement.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Nécessite que l&#39;utilisateur coche la case _Je ne suis pas un robot_.<br />**`Invisible reCAPTCHA v2`**- Valide le comportement de l’utilisateur en arrière-plan sans nécessiter d’interactions en fonction du score.<br/>**`Invisible reCAPTCHA v3`** - (Recommandé) Valide le comportement de l’utilisateur en arrière-plan en fonction du score d’interaction. |
 
 {style="table-layout:auto"}
