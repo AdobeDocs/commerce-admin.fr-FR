@@ -141,7 +141,7 @@ Les frais de manutention sont facultatifs et apparaissent comme des frais suppl�
 
    Cette zone de texte est prédéfinie avec un message par défaut, mais vous pouvez saisir un message différent que vous souhaitez afficher si USPS n&#39;est plus disponible.
 
-   ![ Méthodes autorisées USPS ](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
+   ![&#x200B; Méthodes autorisées USPS &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
 
 1. Définissez **[!UICONTROL Ship to Applicable Countries]** sur l’une des options suivantes :
 
