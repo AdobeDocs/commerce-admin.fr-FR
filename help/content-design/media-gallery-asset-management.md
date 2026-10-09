@@ -3,15 +3,31 @@ title: Gestion des ressources de Media Gallery
 description: Découvrez comment gérer les fichiers multimédias chargés et les ressources que vous acquérez par le biais d’une intégration Adobe Stock.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-last-update: 2026-03-27T00:00:00Z
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+last-update: 2026-03-27
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
-
 ---
-
 # Gestion des ressources de Media Gallery
 
 La nouvelle [Galerie de médias](media-gallery.md) fournit des outils pour gérer les fichiers multimédias chargés et les ressources que vous acquérez par le biais d’une intégration [Adobe Stock](adobe-stock.md). Si vous avez enregistré une image Adobe Stock [aperçu de l’image](adobe-stock-save-preview.md), vous pouvez également [obtenir la licence](adobe-stock-license-image.md) l’image dans la nouvelle galerie de médias.
@@ -113,7 +129,7 @@ Assets peut être largement utilisé dans l’ensemble de l’administration, pa
 
 1. Cliquez sur l’onglet **[!UICONTROL Filters]** .
 
-   ![&#x200B; Filtres &#x200B;](./assets/media-gallery-filters.png){width="600" zoomable="yes"}
+   ![ Filtres ](./assets/media-gallery-filters.png){width="600" zoomable="yes"}
 
 1. Définissez les options de filtrage.
 
