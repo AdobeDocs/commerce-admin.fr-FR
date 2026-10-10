@@ -1,33 +1,46 @@
 ---
 title: Algorithmes et réservations Source
-description: Découvrez comment l’algorithme de sélection Source et les réservations conservent la précision de la quantité vendable lors du passage en caisse et de l’expédition dans  [!DNL Inventory Management].
+description: Découvrez comment l’algorithme de sélection Source et les réservations conservent la précision de la quantité vendable lors du passage en caisse et de l’expédition en [!DNL Inventory Management].
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
-TQID: https://experienceleague.adobe.com/x3UFGWtRSiodcnEF4Di3yFmR8GY8xoHSvVVsDg-J-qY
+last-update: 2026-08-20
+TQID: 'https://experienceleague.adobe.com/x3UFGWtRSiodcnEF4Di3yFmR8GY8xoHSvVVsDg-J-qY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-last-update: 2026-08-20
-source-git-commit: b121ee17ac10cfc992f8797d161ec06764322ea1
+    internal-label: Administration
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
-source-wordcount: 2179
+source-wordcount: '2179'
 ht-degree: 0%
-
 ---
-
 # Algorithmes et réservations Source
 
 Le cœur de [!DNL Inventory Management] suit chaque produit disponible virtuellement et à portée de main dans vos entrepôts et magasins. L&#39;algorithme de sélection Source et les systèmes de réservation s&#39;exécutent en arrière-plan, ce qui permet de mettre à jour vos quantités vendables, de ne pas avoir de collisions lors du passage en caisse et de recommander des options d&#39;expédition.
