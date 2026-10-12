@@ -3,28 +3,42 @@ title: Fournir une assistance aux acheteurs
 description: Lorsque vous utilisez la fonction Connexion en tant que client, vous pouvez voir ce que les clients voient et effectuer des mises à jour en leur nom.
 exl-id: 6842ae7a-6440-45f1-af18-e6427088d29d
 feature: Customers, Customer Service
-TQID: https://experienceleague.adobe.com/-bORZ%2D%2D%2Du2UGZ-JcOT7E8u2i58a1c-Iq57-moezBJ78
+TQID: 'https://experienceleague.adobe.com/-bORZ%2D%2D%2Du2UGZ-JcOT7E8u2i58a1c-Iq57-moezBJ78'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+subfeature_v2:
+  - id: deedbb4d-f1b7-58ea-a34a-de1f481f9d4c
+    internal-label: Customer Service
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1189
+source-wordcount: '1189'
 ht-degree: 0%
-
 ---
-
 # Fournir une assistance aux acheteurs
 
 Parfois, les clients ont besoin d’aide pour passer leur commande. Les administrateurs de boutique peuvent utiliser _Connexion en tant que client_, ce qui leur permet de voir ce que le client voit et d’effectuer des mises à jour pour les aider.
@@ -33,11 +47,11 @@ Toutes les actions effectuées lors de la connexion en tant que client sont appl
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
-Lorsqu’il est activé pour un utilisateur _Admin_, le bouton _[!UICONTROL Login as Customer]_&#x200B;s’affiche sur plusieurs pages :
+Lorsqu’il est activé pour un utilisateur _Admin_, le bouton _[!UICONTROL Login as Customer]_s’affiche sur plusieurs pages :
 
 * [Page de modification du client](../customers/update-account.md)
 * [Page Vue Commande](../stores-purchase/order-processing.md)
@@ -49,7 +63,7 @@ Lorsqu’il est activé pour un utilisateur _Admin_, le bouton _[!UICONTROL Logi
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
 
 Dans Adobe Commerce as a Cloud Service, la fonction Connexion en tant que client utilise un workflow **Code à usage unique (OTC)** plutôt qu’une connexion directe. Les administrateurs génèrent un code de courte durée à usage unique pour un client. Ce code peut ensuite être échangé contre un jeton d’accès client via GraphQL, ce qui permet une connexion sans mot de passe en tant que workflows client pour les scénarios d’achats assistés par le vendeur.
 
@@ -114,9 +128,9 @@ Pour autoriser l’accès au compte pour le personnel d’assistance du magasin 
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 1. Le client accède à la page de **[!UICONTROL Account Information]**.
 
@@ -128,7 +142,7 @@ Pour autoriser l’accès au compte pour le personnel d’assistance du magasin 
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
 
 L’attribut d’extension `login_as_customer_assistance_allowed` doit être défini sur **2** pour le client. Elle peut être configurée sur la page **Modifier le client** dans l’administration ou via GraphQL lors de la création ou de la modification d’un client.
 
@@ -146,9 +160,9 @@ Pour définir cette autorisation avec GraphQL pour un compte client existant, d�
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Customers]** > [!UICONTROL _Tous les clients_].
 
@@ -164,7 +178,7 @@ Pour définir cette autorisation avec GraphQL pour un compte client existant, d�
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
 
 >[!NOTE]
 >
@@ -192,7 +206,7 @@ Pour définir cette autorisation avec GraphQL pour un compte client existant, d�
 
 >[!IMPORTANT]
 >
->Le code à usage unique généré en vente libre est valide pendant 60 secondes par défaut et est invalidé après une seule utilisation. La TTL peut être configurée en envoyant un ticket d’assistance [support](https://experienceleague.adobe.com/home?lang=fr&support-tab=home#support).
+>Le code à usage unique généré en vente libre est valide pendant 60 secondes par défaut et est invalidé après une seule utilisation. La TTL peut être configurée en envoyant un ticket d’assistance [support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
 Une fois le code unique généré, vous pouvez l’utiliser en accédant à votre storefront et en vous connectant à l’aide des informations d’identification suivantes :
 

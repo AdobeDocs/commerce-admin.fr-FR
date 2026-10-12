@@ -3,27 +3,35 @@ title: FedEx
 description: Découvrez comment configurer FedEx en tant que transporteur pour votre boutique.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/r2D0urz8NAZfeVuKY29905IhseS5Kfivsto7HCwQsqY
+TQID: 'https://experienceleague.adobe.com/r2D0urz8NAZfeVuKY29905IhseS5Kfivsto7HCwQsqY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 911
+source-wordcount: '911'
 ht-degree: 0%
-
 ---
-
 # FedEx
 
 FedEx est l&#39;une des plus grandes sociétés de services de transport maritime au monde, fournissant des services aériens, de fret et de transport terrestre avec plusieurs niveaux de priorités.
@@ -105,7 +113,7 @@ Un compte de commerçant FedEx et l&#39;enregistrement pour l&#39;accès à la p
 
    Le poids maximum par défaut de FedEx est de 150 livres. Consultez votre transporteur pour plus d&#39;informations. La valeur par défaut est recommandée, sauf si vous avez pris des dispositions spéciales avec FedEx. Voir [Poids dimensionnel](carriers.md#dimensional-weight) pour plus d’informations.
 
-   ![&#x200B; Paramètres du package FedEx &#x200B;](../configuration-reference/sales/assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
+   ![ Paramètres du package FedEx ](../configuration-reference/sales/assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
 
 1. Configurez les options de frais de gestion en fonction de vos besoins.
 
@@ -113,13 +121,13 @@ Un compte de commerçant FedEx et l&#39;enregistrement pour l&#39;accès à la p
 
    - Définir **[!UICONTROL Calculate Handling Fee]** :
 
-      - `Fixed Fee`
-      - `Percentage`
+     - `Fixed Fee`
+     - `Percentage`
 
    - Par **[!UICONTROL Handling Applied]**, choisissez l’une des méthodes suivantes pour gérer les frais de gestion :
 
-      - `Per Order`
-      - `Per Package`
+     - `Per Order`
+     - `Per Package`
 
    - Saisissez le **[!UICONTROL Handling Fee]** sous la forme d’un montant `fixed` ou d’un `percentage`, selon la méthode de calcul.
 

@@ -3,27 +3,35 @@ title: Créer et supprimer des segments de clients
 description: Les clients peuvent consulter les informations sur le remboursement associées à la commande dans leur tableau de bord de compte client.
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
-TQID: https://experienceleague.adobe.com/D31F3AtNhNhDaTcOHxX4qNos-0MIP-nh0UVszKQh5y0
+TQID: 'https://experienceleague.adobe.com/D31F3AtNhNhDaTcOHxX4qNos-0MIP-nh0UVszKQh5y0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 978
+source-wordcount: '978'
 ht-degree: 1%
-
 ---
-
 # Créer et supprimer des segments de clients
 
 {{ee-feature}}
@@ -32,13 +40,13 @@ La création d’un segment client est similaire à la création d’une [règle
 
 ![Liste des segments clients](assets/customer-segments.png){width="700" zoomable="yes"}
 
-_&#x200B;**[!UICONTROL Customer Segments]une grille &#x200B;** _
+_**[!UICONTROL Customer Segments]une grille **_
 
 | Colonne | Description |
 |--- |--- |
 | **[!UICONTROL ID]** | Identifiant unique du segment client. |
 | **[!UICONTROL Segment]** | Nom du segment client. |
-| **[!UICONTROL Status]** | Indique si le segment client est _[!UICONTROL Active]_&#x200B;ou&#x200B;_[!UICONTROL Inactive]_. |
+| **[!UICONTROL Status]** | Indique si le segment client est _[!UICONTROL Active]_ou_[!UICONTROL Inactive]_. |
 | **[!UICONTROL Website]** | Indique le site web auquel appartient le segment client. |
 
 {style="table-layout:auto"}
@@ -96,7 +104,7 @@ Les étapes suivantes utilisent un exemple de création d’un segment client qu
 
 1. Cliquez sur **[!UICONTROL Save and Continue Edit]**.
 
-   Une fois le segment _[!UICONTROL General Properties]_&#x200B;enregistré, d’autres options sont disponibles dans le panneau de gauche.
+   Une fois le segment _[!UICONTROL General Properties]_enregistré, d’autres options sont disponibles dans le panneau de gauche.
 
    ![Propriétés du segment](assets/customer-segment-saved.png){width="600" zoomable="yes"}
 
@@ -129,9 +137,9 @@ Les conditions possibles sont organisées dans les groupes suivants :
 
 1. Dans le volet de gauche, cliquez sur **[!UICONTROL Conditions]**.
 
-   La condition par défaut commence par _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;sur la page.
+   La condition par défaut commence par _[!UICONTROL If ALL of these conditions are TRUE:]_sur la page.
 
-   ![Conditions &#x200B;](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
+   ![Conditions ](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
 1. Créez une condition qui cible les clientes :
 
@@ -175,7 +183,7 @@ Les conditions possibles sont organisées dans les groupes suivants :
 
 1. Le segment client peut désormais être utilisé pour le ciblage des promotions, du contenu et du publipostage.
 
-_&#x200B;**[!UICONTROL Matched Customers]une grille &#x200B;** _
+_**[!UICONTROL Matched Customers]une grille **_
 
 | Colonne | Description |
 |--- |--- |
@@ -205,7 +213,7 @@ _&#x200B;**[!UICONTROL Matched Customers]une grille &#x200B;** _
 
 | Bouton | Description |
 |--- |--- |
-| **[!UICONTROL Back]** | Retourne à la page _[!UICONTROL Customer Segments]_&#x200B;sans enregistrer les modifications. |
+| **[!UICONTROL Back]** | Retourne à la page _[!UICONTROL Customer Segments]_sans enregistrer les modifications. |
 | **[!UICONTROL Delete]** | Supprime le segment client actuel. Les clients ou les commandes terminées associés au client dans le segment ne sont pas supprimés. |
 | **[!UICONTROL Reset]** | Réinitialise toutes les modifications non enregistrées dans le formulaire de segment client à leurs valeurs précédentes. |
 | **[!UICONTROL Refresh Segment Data]** | Actualise les données de segment aux valeurs les plus récemment enregistrées. Pertinent si des données de segment sont indisponibles ou obsolètes. |
@@ -218,4 +226,4 @@ _&#x200B;**[!UICONTROL Matched Customers]une grille &#x200B;** _
 
 Regardez cette vidéo pour une démonstration de la création de segments de clients :
 
->[!VIDEO](https://video.tv.adobe.com/v/3410189/?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)

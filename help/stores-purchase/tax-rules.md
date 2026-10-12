@@ -3,24 +3,33 @@ title: Règles fiscales
 description: Découvrez comment définir les règles de taxe à l'aide de la classe de produits, de la classe de clients et du taux de taxe.
 exl-id: 38d65998-7769-49ce-9814-e65df9d77bba
 feature: Taxes, Currency
-TQID: https://experienceleague.adobe.com/ik-dbYrFRZQ9EvgjFCx6pv5WBnPtk6AHBe2oB4GPn8I
+TQID: 'https://experienceleague.adobe.com/ik-dbYrFRZQ9EvgjFCx6pv5WBnPtk6AHBe2oB4GPn8I'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
+  - id: 3033d2ab-c1d2-5b52-b865-72d9e5ad2c37
+    internal-label: Currency
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 439
+source-wordcount: '439'
 ht-degree: 0%
-
 ---
-
 # Règles fiscales
 
 Les règles fiscales intègrent une combinaison de classe de produits, de classe de clients et de taux de taxe. Chaque client est affecté à une classe de clients et chaque produit est affecté à une classe de produits. Commerce analyse le panier de chaque client et calcule la taxe appropriée en fonction des classes de client et de produit, ainsi que de la région. La région est basée sur l’adresse de livraison, l’adresse de facturation ou l’origine de livraison du client.
@@ -71,7 +80,7 @@ Les règles fiscales intègrent une combinaison de classe de produits, de classe
 
    - Cliquez sur **[!UICONTROL Import Tax Rates]**.
 
-1. Pour exporter des taux de taxe, cliquez sur **[!UICONTROL Export Tax Rates]** (voir [&#x200B; Taux de taxe d&#39;importation/exportation &#x200B;](../systems/data-transfer-tax-rates.md)).
+1. Pour exporter des taux de taxe, cliquez sur **[!UICONTROL Export Tax Rates]** (voir [ Taux de taxe d&#39;importation/exportation ](../systems/data-transfer-tax-rates.md)).
 
 ![Taux de taxe à l&#39;importation/exportation](./assets/tax-rule-new-import-export.png){width="600" zoomable="yes"}
 
@@ -107,4 +116,4 @@ Les règles fiscales intègrent une combinaison de classe de produits, de classe
 
 Découvrez la gestion des règles monétaires et fiscales en regardant cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3410211/?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12&learn=on)

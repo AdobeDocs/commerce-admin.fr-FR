@@ -3,41 +3,53 @@ title: Examens de produits
 description: Découvrez comment les évaluations de produits peuvent améliorer votre boutique et apporter plus de crédibilité à vos produits.
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-TQID: https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+TQID: 'https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 772
+source-wordcount: '772'
 ht-degree: 0%
-
 ---
-
 # Examens de produits
 
 Les évaluations de produits aident à créer un sentiment de communauté et sont considérées comme plus crédibles que tout ce que l&#39;argent de la publicité peut acheter. En fait, certains moteurs de recherche donnent aux sites qui ont publié des avis sur des produits un rang supérieur à ceux qui n&#39;en ont pas publié. Pour ceux qui trouvent votre site en recherchant un produit spécifique, une revue de produit est essentiellement la page de destination de votre boutique. Les évaluations de produits aident les gens à trouver votre magasin, à maintenir leur engagement et mènent souvent à des ventes.
 
-Commerce comprend une fonctionnalité native de révision des produits que vous pouvez gérer à partir de l’administration. Vous pouvez également utiliser une extension de [&#128279;](../getting-started/commerce-marketplace.md) pour utiliser un système de gestion des révisions hébergé.
+Commerce comprend une fonctionnalité native de révision des produits que vous pouvez gérer à partir de l’administration. Vous pouvez également utiliser une extension de [](../getting-started/commerce-marketplace.md) pour utiliser un système de gestion des révisions hébergé.
 
 >[!NOTE]
 >
 >Les versions 2.4.0 à 2.4.3 d’Adobe Commerce et de Magento Open Source incluaient l’extension Yotpo développée par le fournisseur. À compter de la version 2.4.4, cette extension n’est plus fournie avec la version de base et doit être installée et mise à jour à partir de Commerce Marketplace. La Marketplace permet également d’accéder à la documentation actuelle fournie par le développeur d’extensions.
 ><br><br>
->Si l’extension groupée est activée et configurée, vous devez mettre à jour votre fichier composer.json dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Voir [Mise à niveau des modules](https://experienceleague.adobe.com/fr/docs/commerce-operations/upgrade-guide/modules/upgrade) dans le _Guide de mise à niveau_ pour plus d’informations.
+>Si l’extension groupée est activée et configurée, vous devez mettre à jour votre fichier composer.json dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Voir [Mise à niveau des modules](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade) dans le _Guide de mise à niveau_ pour plus d’informations.
 
 ## Évaluations de produits sur le storefront
 
@@ -55,11 +67,11 @@ Votre configuration détermine si les clients doivent ouvrir un compte dans votr
 
 Le nombre d’étoiles indique la note de satisfaction du produit. Les visiteurs peuvent cliquer sur le lien pour lire les avis et écrire les leurs. À titre d’incitation, les clients peuvent recevoir des points de récompense pour avoir envoyé une révision. Lorsqu’une révision est soumise, elle est envoyée à l’administrateur pour modération. Une fois approuvée, la révision est publiée dans votre boutique.
 
-![Exemple de storefront - Onglet Révisions &#x200B;](./assets/storefront-reviews-tab.png){width="700" zoomable="yes"}
+![Exemple de storefront - Onglet Révisions ](./assets/storefront-reviews-tab.png){width="700" zoomable="yes"}
 
 ### [!UICONTROL My Product Reviews]
 
-La section _[!UICONTROL My Product Reviews]_&#x200B;du tableau de bord du compte client répertorie tous les avis soumis par le client et dont la publication a été approuvée. Chaque résumé de révision comprend la date à laquelle la révision a été soumise, des liens vers la page du produit et des détails de révision.
+La section _[!UICONTROL My Product Reviews]_du tableau de bord du compte client répertorie tous les avis soumis par le client et dont la publication a été approuvée. Chaque résumé de révision comprend la date à laquelle la révision a été soumise, des liens vers la page du produit et des détails de révision.
 
 ![Mes avis sur les produits](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -107,7 +119,7 @@ Grâce aux révisions de produit Commerce, les clients peuvent attribuer des év
 
    ![Admin - Ratings](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. Dans la section _[!UICONTROL Rating Title]_, saisissez le **[!UICONTROL Default Value]**&#x200B;de la nouvelle évaluation.
+1. Dans la section _[!UICONTROL Rating Title]_, saisissez le **[!UICONTROL Default Value]**de la nouvelle évaluation.
 
    Le cas échéant, saisissez également la traduction pour chaque vue de magasin.
 

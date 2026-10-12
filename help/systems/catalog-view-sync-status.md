@@ -18,6 +18,12 @@ feature_v2:
     internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -33,7 +39,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '1332'
 ht-degree: 0%
@@ -49,7 +55,7 @@ Utilisez la page État de synchronisation des vues du catalogue pour surveiller 
 
 ## Audience et disponibilité {#audience}
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets d’infrastructure cloud et locaux d’Adobe Commerce."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets d’infrastructure cloud et locaux d’Adobe Commerce."}
 
 La page [!UICONTROL Catalog View Sync Status] est disponible pour Adobe Commerce on Cloud Infrastructure et les commerçants sur site qui utilisent des catalogues partagés B2B avec l’intégration [!DNL Adobe Commerce Optimizer Connector for B2B]. La page est installée et activée automatiquement lorsque l’extension du connecteur est installée.
 
@@ -62,7 +68,7 @@ Dans la zone d’administration, accédez à **[!UICONTROL System]** > **[!UICON
 La page comporte trois onglets :
 
 - **[!UICONTROL Catalog Views]** : vues de catalogue créées par le connecteur, avec intégrité de synchronisation pour chacune. Voir [Résumé de l’état de synchronisation de la vue Catalogue](#catalog-view-sync-status-summary).
-- **[!UICONTROL Orphaned in ACO]** : entités qui existent dans les [!DNL Adobe Commerce Optimizer] sans source de [!DNL Adobe Commerce] correspondante. Voir [&#x200B; Orphelin dans l’onglet ACO &#x200B;](#orphaned-in-aco-tab).
+- **[!UICONTROL Orphaned in ACO]** : entités qui existent dans les [!DNL Adobe Commerce Optimizer] sans source de [!DNL Adobe Commerce] correspondante. Voir [ Orphelin dans l’onglet ACO ](#orphaned-in-aco-tab).
 - **[!UICONTROL Deleted]**—Enregistrement de projections de vues de catalogue supprimé car leur catalogue partagé a été supprimé. Voir [Onglet Supprimé](#deleted-tab).
 
 ## Synthèse de l’état de synchronisation de la vue Catalogue {#catalog-view-sync-status-summary}
@@ -81,7 +87,7 @@ La grille répertorie une ligne par vue de catalogue :
 | Champ | Description |
 | --- | --- |
 | **Vue Catalogue** | Identifiant de la vue de catalogue projetée dans [!DNL Adobe Commerce Optimizer]. |
-| **&#x200B;**&#x200B;| Catalogue partagé à partir duquel la vue de catalogue a été projetée. Sélectionnez le lien pour ouvrir le catalogue partagé dans Admin. |
+| **** | Catalogue partagé à partir duquel la vue de catalogue a été projetée. Sélectionnez le lien pour ouvrir le catalogue partagé dans Admin. |
 | **Vue Boutique** | Vue de magasin représentée par la vue de catalogue. |
 | **Entreprises** | Nombre de sociétés actuellement liées à cette vue de catalogue. |
 | **Statut** | L’intégrité globale de la synchronisation de la vue du catalogue. Voir [Valeurs de l’état de synchronisation](#sync-status-values). |
@@ -103,7 +109,7 @@ La grille répertorie une ligne par vue de catalogue :
 | **En attente** | La vue Catalogue n&#39;a pas encore été réconciliée ou attend sa première projection. |
 | **Retrait** | Le catalogue partagé a été supprimé en [!DNL Adobe Commerce] et la vue de catalogue est comprise dans sa période de grâce de suppression. |
 | **Supprimé** | La projection de la vue du catalogue a été supprimée après sa période de grâce. Il est conservé sous forme d’enregistrement dans l’onglet [!UICONTROL Deleted] pendant 90 jours. |
-| **Orphelin** | La vue ou la clé de catalogue existe dans [!DNL Adobe Commerce Optimizer] mais n’a pas de source de [!DNL Adobe Commerce] correspondante. Voir [&#x200B; Orphelin dans l’onglet ACO &#x200B;](#orphaned-in-aco-tab). |
+| **Orphelin** | La vue ou la clé de catalogue existe dans [!DNL Adobe Commerce Optimizer] mais n’a pas de source de [!DNL Adobe Commerce] correspondante. Voir [ Orphelin dans l’onglet ACO ](#orphaned-in-aco-tab). |
 
 ### Configurer la période de grâce des suppressions {#configure-the-deletion-grace-period}
 
@@ -173,7 +179,7 @@ L’onglet **[!UICONTROL Deleted]** répertorie les projections des vues du cata
 | Champ | Description |
 | --- | --- |
 | **Vue Catalogue** | Identifiant de la vue de catalogue supprimée. |
-| **&#x200B;**&#x200B;| Catalogue partagé qui a été supprimé. |
+| **** | Catalogue partagé qui a été supprimé. |
 | **Vue Boutique** | Vue de magasin représentée par la vue de catalogue. |
 | **Supprimé Le** | Lorsque la projection a été supprimée. |
 
@@ -191,5 +197,5 @@ Les lignes de cet onglet sont effacées automatiquement après 90 jours.
 > - [Services > ACO Catalog View Sync](../configuration-reference/services/aco-catalog-view-sync.md) — Configurez les périodes de grâce de suppression et de création et le réconciliateur de dérive
 > - [Gestion des clés d’accès restreint](restricted-access-keys.md) — Gérez les clés dont l’expiration fait surface sur cette page
 > - [Surveillance de la synchronisation des vues de catalogue pour les catalogues partagés B2B](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status) dans le guide du connecteur Adobe Commerce Optimizer **
-> - [Vues de catalogue privé](https://experienceleague.adobe.com/fr/docs/commerce/optimizer/setup/private-catalog-view)
-> - [Clés d’accès limitées](https://experienceleague.adobe.com/fr/docs/commerce/optimizer/setup/restricted-access-keys)
+> - [Vues de catalogue privé](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/private-catalog-view)
+> - [Clés d’accès limitées](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys)

@@ -1,30 +1,39 @@
 ---
 title: Scénarios de message Stock
-description: Configurez  [!DNL Inventory Management]  messages de disponibilité des stocks qui apparaissent sur les pages de produits et les listes de produits des catégories du storefront.
+description: Configurez [!DNL Inventory Management] messages de disponibilité du stock qui s’affichent sur les pages de produits et les listes de produits des catégories du storefront.
 exl-id: 63114305-e695-445b-91cd-9e0fb2729ec4
 feature: Inventory, Configuration
-TQID: https://experienceleague.adobe.com/9kPHtr75C7PkM9vD-2-AeG8JnAfKAao0GKEH9MhkBbU
+TQID: 'https://experienceleague.adobe.com/9kPHtr75C7PkM9vD-2-AeG8JnAfKAao0GKEH9MhkBbU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 338
+source-wordcount: '339'
 ht-degree: 2%
-
 ---
-
 # Scénarios de message Stock
 
 Configurez l’affichage des messages de disponibilité du stock sur les pages de produits et les listes de catalogues à l’aide des paramètres des sections suivantes.
@@ -83,7 +92,7 @@ Lorsque le stock n’est pas géré pour un produit, cette combinaison de param�
 
 Les options d’affichage suivantes sont possibles pour les listes de catégories et de résultats de recherche, selon la disponibilité du produit et les paramètres de configuration.
 
-![&#x200B; Message de rupture de stock sur la page Catégorie &#x200B;](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
+![ Message de rupture de stock sur la page Catégorie ](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
 
 ### Exemple 1 : afficher le produit avec le message « En rupture de stock »
 

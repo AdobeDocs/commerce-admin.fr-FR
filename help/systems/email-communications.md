@@ -3,35 +3,44 @@ title: Configurer les communications par e-mail
 description: Découvrez comment configurer les communications par e-mail, y compris le routage des e-mails renvoyés ou des réponses à une adresse e-mail spécifique.
 exl-id: 7e62e9c5-f214-4fd5-becc-99dcb093cd5c
 feature: Communications, Configuration
-TQID: https://experienceleague.adobe.com/0spSxu59rF2KomOWVI5iR9pcg2r-VLm-GiXvJvatnww
+TQID: 'https://experienceleague.adobe.com/0spSxu59rF2KomOWVI5iR9pcg2r-VLm-GiXvJvatnww'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 310
+source-wordcount: '310'
 ht-degree: 0%
-
 ---
-
 # Configurer les communications par e-mail
 
 Les _Paramètres d’envoi du courrier électronique_ vous permettent d’acheminer les e-mails renvoyés ou les réponses aux e-mails vers une adresse spécifique. Si votre magasin s’exécute sur un serveur SMTP ou Windows, vous pouvez vérifier les paramètres de l’hôte et du port.
 
 >[!IMPORTANT]
 >
->**Avis de sécurité** Tous les commerçants doivent immédiatement définir leur configuration d&#39;envoi d&#39;e-mails pour se protéger contre une exploitation potentielle d&#39;exécution de code à distance récemment identifiée. Jusqu’à ce que ce problème soit résolu, il est vivement recommandé d’éviter d’utiliser [!DNL Sendmail] pour les communications par e-mail. Dans l’_[!UICONTROL Mail Sending Settings]_, assurez-vous que&#x200B;_[!UICONTROL Set Return Path]_ est défini sur `No`.
+>**Avis de sécurité** Tous les commerçants doivent immédiatement définir leur configuration d&#39;envoi d&#39;e-mails pour se protéger contre une exploitation potentielle d&#39;exécution de code à distance récemment identifiée. Jusqu’à ce que ce problème soit résolu, il est vivement recommandé d’éviter d’utiliser [!DNL Sendmail] pour les communications par e-mail. Dans l’_[!UICONTROL Mail Sending Settings]_, assurez-vous que_[!UICONTROL Set Return Path]_ est défini sur `No`.
 
 Pour obtenir la liste détaillée des paramètres de configuration, voir [_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md) dans le _Référence de configuration_.
 
@@ -51,22 +60,22 @@ Pour obtenir la liste détaillée des paramètres de configuration, voir [_[!UIC
 
    - Si vous utilisez un serveur SMTP ou Windows, vérifiez les paramètres suivants :
 
-      - **[!UICONTROL Host]** - `localhost` ou autre
+     - **[!UICONTROL Host]** - `localhost` ou autre
 
-      - **[!UICONTROL Port (25)]** - `25` ou autre
+     - **[!UICONTROL Port (25)]** - `25` ou autre
 
    - Par **[!UICONTROL Set Return Path]**, choisissez l’une des options suivantes :
 
-      - `No` - (Mesure de sécurité recommandée) Les itinéraires renvoyaient l’e-mail à l’adresse e-mail par défaut du magasin.
-      - `Yes` - Achemine l’e-mail renvoyé vers l’adresse e-mail du magasin par défaut.
-      - `Specified` - Achemine les e-mails renvoyés vers l’adresse e-mail spécifiée dans **[!UICONTROL Return Path Email]**.
+     - `No` - (Mesure de sécurité recommandée) Les itinéraires renvoyaient l’e-mail à l’adresse e-mail par défaut du magasin.
+     - `Yes` - Achemine l’e-mail renvoyé vers l’adresse e-mail du magasin par défaut.
+     - `Specified` - Achemine les e-mails renvoyés vers l’adresse e-mail spécifiée dans **[!UICONTROL Return Path Email]**.
 
    - Si vous utilisez un serveur SMTP, configurez la connexion :
 
-      - **[!UICONTROL Username]** - Saisissez le nom d’utilisateur pour le serveur SMTP.
-      - **[!UICONTROL Password]** - Saisissez le mot de passe pour le login du serveur SMTP.
-      - **[!UICONTROL Auth]** - Choisissez le type d’authentification de la connexion au serveur SMTP : `NONE` , `PLAIN` ou `LOGIN`
-      - **[!UICONTROL SSL]** - Choisissez le type de vérification pour le certificat de sécurité du serveur : `SSL` ou `TLS`
+     - **[!UICONTROL Username]** - Saisissez le nom d’utilisateur pour le serveur SMTP.
+     - **[!UICONTROL Password]** - Saisissez le mot de passe pour le login du serveur SMTP.
+     - **[!UICONTROL Auth]** - Choisissez le type d’authentification de la connexion au serveur SMTP : `NONE` , `PLAIN` ou `LOGIN`
+     - **[!UICONTROL SSL]** - Choisissez le type de vérification pour le certificat de sécurité du serveur : `SSL` ou `TLS`
 
      ![Configuration avancée - Paramètres d’envoi d’e-mails](../configuration-reference/advanced/assets/system-mail-sending-settings-smtp.png){width="600" zoomable="yes"}
 

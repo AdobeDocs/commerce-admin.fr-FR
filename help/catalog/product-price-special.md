@@ -3,28 +3,37 @@ title: Tarifs spéciaux
 description: Découvrez comment proposer des tarifs spéciaux pour une période donnée.
 exl-id: 4a1e2045-f0a8-4bae-a5a3-8ce8b258b217
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/j6DspCgn2P4-pHxXuOd-AiJCL0SBezxg-rn6yYmMIk8
+TQID: 'https://experienceleague.adobe.com/j6DspCgn2P4-pHxXuOd-AiJCL0SBezxg-rn6yYmMIk8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 855
+source-wordcount: '859'
 ht-degree: 0%
-
 ---
-
 # Tarifs spéciaux
 
 Un prix spécial peut être offert pour une période déterminée. Pendant la période spécifiée, le prix spécial apparaît au lieu du prix normal, suivi d&#39;une notation qui affiche le prix normal.
@@ -39,7 +48,7 @@ Vous pouvez facilement définir un prix spécial pour un seul produit du catalog
 
 {{ee-feature}}
 
-Adobe Commerce prend en charge les [&#x200B; mises à jour planifiées &#x200B;](../content-design/content-staging-scheduled-update.md). Utilisez ces outils promotionnels pour appliquer un prix spécial à un produit spécifique pendant une période spécifiée.
+Adobe Commerce prend en charge les [ mises à jour planifiées ](../content-design/content-staging-scheduled-update.md). Utilisez ces outils promotionnels pour appliquer un prix spécial à un produit spécifique pendant une période spécifiée.
 
 1. Ouvrez le produit en mode d’édition.
 
@@ -65,7 +74,7 @@ Adobe Commerce prend en charge les [&#x200B; mises à jour planifiées &#x200B;]
 
    En vitrine, le prix spécial doit apparaître à la fois dans la liste du catalogue et sur la page produit.
 
-   La _[!UICONTROL Scheduled Change]_&#x200B;s’affiche en haut de la page.
+   La _[!UICONTROL Scheduled Change]_s’affiche en haut de la page.
 
    ![Modification planifiée](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
 
@@ -81,7 +90,7 @@ Magento Open Source inclut des options de date de début et de fin simples dans 
 
 1. Utilisez l’icône _Calendrier_ ( ![icône Calendrier](../assets/icon-calendar.png) ) pour choisir les **[!UICONTROL Start Date]** et les **[!UICONTROL End Date]** de la promotion de prix spéciaux.
 
-   Le prix spécial entre en vigueur immédiatement après minuit au début de la date de début (00:01) et se poursuit jusqu’à juste avant minuit (23:59) le jour précédant la date de fin.
+   Le prix spécial entre en vigueur immédiatement après minuit au début de la date de début (00:01) et se poursuit jusqu&#39;à juste avant minuit (23:59) le jour avant la date de fin.
 
    ![Modification planifiée](./assets/product-special-price-from-ce.png){width="600" zoomable="yes"}
 
@@ -99,7 +108,7 @@ Vous pouvez également attribuer un prix spécial à plusieurs produits, par exe
 
 L’exemple suivant montre comment attribuer le même prix spécial à plusieurs variations de produit d’un produit configurable dans Adobe Commerce.
 
-1. Sur la page _[!UICONTROL Products]_, cliquez sur **[!UICONTROL Filters]**&#x200B;et saisissez le **[!UICONTROL Name]**&#x200B;du produit configurable.
+1. Sur la page _[!UICONTROL Products]_, cliquez sur **[!UICONTROL Filters]**et saisissez le **[!UICONTROL Name]**du produit configurable.
 
 1. Définissez **[!UICONTROL Type]** sur `Configurable Product`, puis cliquez sur **[!UICONTROL Apply Filters]**.
 
@@ -109,7 +118,7 @@ L’exemple suivant montre comment attribuer le même prix spécial à plusieurs
 
 1. Définissez la commande **[!UICONTROL Actions]** sur `Update attributes`.
 
-1. Faites défiler jusqu’au champ _[!UICONTROL Special Price]_, cochez la case **[!UICONTROL Change]**&#x200B;située sous le champ&#x200B;_[!UICONTROL Special Price]_ et saisissez le prix spécial que vous souhaitez proposer.
+1. Faites défiler jusqu’au champ _[!UICONTROL Special Price]_, cochez la case **[!UICONTROL Change]**située sous le champ_[!UICONTROL Special Price]_ et saisissez le prix spécial que vous souhaitez proposer.
 
    ![Champs Prix spécial](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
 
@@ -131,7 +140,7 @@ L’exemple suivant montre comment attribuer le même prix spécial à plusieurs
 
 1. Définissez **[!UICONTROL Type]** sur `Simple Product`.
 
-   ![&#x200B; Filtres &#x200B;](./assets/product-price-special-filter.png){width="600" zoomable="yes"}
+   ![ Filtres ](./assets/product-price-special-filter.png){width="600" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Apply Filters]**.
 
@@ -151,7 +160,7 @@ L’exemple suivant montre comment attribuer le même prix spécial à plusieurs
 
    - Cochez la case **[!UICONTROL Change]** située sous le champ _Date de début du prix spécial_, cliquez sur le _Calendrier_ ( ![icône Calendrier](../assets/icon-calendar.png) ), puis choisissez la première date de la promotion du prix spécial.
 
-     Le prix spécial entre en vigueur immédiatement après minuit au début de la date de début (00:01) et se poursuit jusqu’à juste avant minuit (23:59) le jour précédant la date de fin.
+     Le prix spécial entre en vigueur immédiatement après minuit au début de la date de début (00:01) et se poursuit jusqu&#39;à juste avant minuit (23:59) le jour avant la date de fin.
 
    - Cochez la case **[!UICONTROL Change]** située sous le champ _Date de fin du prix spécial_, cliquez sur le _Calendrier_ ( ![icône Calendrier](../assets/icon-calendar.png) ), puis choisissez la dernière date de la promotion du prix spécial.
 

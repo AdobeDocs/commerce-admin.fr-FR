@@ -3,30 +3,45 @@ title: Redirections automatiques
 description: Découvrez comment configurer les redirections automatiques à générer lorsque la clé URL d’un produit ou d’une catégorie change dans votre boutique Commerce.
 exl-id: fbde09d3-a1a3-4bac-a850-4c74c99fe714
 feature: Categories, Products, Configuration
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-TQID: https://experienceleague.adobe.com/Vscg-TDdLnzKjdi-SMwrcpR-QDPvlHpPzgmcLe63-4Q
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+TQID: 'https://experienceleague.adobe.com/Vscg-TDdLnzKjdi-SMwrcpR-QDPvlHpPzgmcLe63-4Q'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 571
+source-wordcount: '571'
 ht-degree: 0%
-
 ---
-
 # Redirections automatiques
 
 Votre boutique peut être configurée pour générer automatiquement une redirection permanente chaque fois que la clé URL d’un produit ou d’une catégorie change. Dans la section Optimisation du moteur de recherche , la case à cocher située sous la clé URL indique si les redirections permanentes sont activées. Si votre boutique est déjà configurée pour rediriger automatiquement les URL de catalogue, une redirection consiste simplement à mettre à jour la clé d’URL. Le processus de création d’une redirection automatique est le même pour les produits et les catégories.
@@ -52,7 +67,7 @@ Votre boutique peut être configurée pour générer automatiquement une redirec
 
 >[!NOTE]
 >
-> Des réécritures d’URL peuvent être générées pour la vue du magasin ou de la portée du site web. Définissez la portée de la réécriture d’URL de l’administrateur sur **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;**[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**. Sélectionnez la portée dans le champ&#x200B;_[!UICONTROL Product URL Rewrite Scope]_ .
+> Des réécritures d’URL peuvent être générées pour la vue du magasin ou de la portée du site web. Définissez la portée de la réécriture d’URL de l’administrateur sur **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]****[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**. Sélectionnez la portée dans le champ_[!UICONTROL Product URL Rewrite Scope]_ .
 
 ## Rediriger automatiquement les URL de produits
 
@@ -60,7 +75,7 @@ Votre boutique peut être configurée pour générer automatiquement une redirec
 
 1. Recherchez le produit dans la liste et cliquez pour ouvrir l’enregistrement.
 
-1. Développez ![Sélecteur d’extension &#x200B;](../assets/icon-display-expand.png) la section **[!UICONTROL Search Engine Optimization]** .
+1. Développez ![Sélecteur d’extension ](../assets/icon-display-expand.png) la section **[!UICONTROL Search Engine Optimization]** .
 
    ![Optimisation du moteur de recherche de produits - redirection permanente](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 

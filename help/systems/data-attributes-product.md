@@ -3,29 +3,41 @@ title: Référence des attributs de données de produit
 description: Utilisez cette référence d’attributs de données de produit lorsque vous utilisez des importations et des exportations de données de produit.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-TQID: https://experienceleague.adobe.com/IRfev4xpSuxjNkdU3lOBNX4XDkvyYZq-UvhrXP0mtaQ
+TQID: 'https://experienceleague.adobe.com/IRfev4xpSuxjNkdU3lOBNX4XDkvyYZq-UvhrXP0mtaQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 76cfaac4-e563-56dd-8938-708bf8b84956
+    internal-label: Attributes
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2540
+source-wordcount: '2540'
 ht-degree: 0%
-
 ---
-
 # Référence des attributs de données de produit
 
 Le tableau suivant répertorie les attributs d’une exportation de produit type, dans l’ordre par défaut dans lequel ils apparaissent. Chaque attribut est représenté dans le fichier CSV sous la forme d’une colonne et les enregistrements de produit sont représentés par des lignes. Les colonnes qui commencent par un trait de soulignement contiennent des données de service telles que des propriétés ou des valeurs d’option pour des données complexes. Vous pouvez [exporter](data-export.md) un produit de votre catalogue pour voir comment chaque attribut est représenté dans les données.

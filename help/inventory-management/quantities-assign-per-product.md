@@ -1,35 +1,46 @@
 ---
 title: Affecter des quantités en stock par produit
-description: Définissez les quantités disponibles par source et les seuils sur une page produit pour que le stock  [!DNL Inventory Management]  puisse être vendu avec précision.
+description: Définissez les quantités disponibles par source et les seuils sur une page produit pour que [!DNL Inventory Management] stock vendable soit exact.
 exl-id: 935385bb-6657-4d49-980e-96a3d0d3a187
 feature: Inventory, Products
-TQID: https://experienceleague.adobe.com/0OBXyHUbsWVXmEnWEWd0CGcBNhci57w8HGtDCGCWuOk
+TQID: 'https://experienceleague.adobe.com/0OBXyHUbsWVXmEnWEWd0CGcBNhci57w8HGtDCGCWuOk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 208
+source-wordcount: '209'
 ht-degree: 0%
-
 ---
-
 # Attribuer des quantités par produit
 
 Après avoir ajouté [sources](sources-assign-per-product.md), mettez à jour les quantités en stock de votre produit. Ces valeurs effectuent le suivi des stocks disponibles en stock.
 
-Pour masquer le stock d&#39;une source des expéditions sans supprimer la source, définissez _[!UICONTROL Source Item Status]_&#x200B;sur `Out of Stock`. Les options SSA et expédition accèdent uniquement aux sources répertoriées comme `In Stock` avec la quantité en stock disponible.
+Pour masquer le stock d&#39;une source des expéditions sans supprimer la source, définissez _[!UICONTROL Source Item Status]_sur `Out of Stock`. Les options SSA et expédition accèdent uniquement aux sources répertoriées comme `In Stock` avec la quantité en stock disponible.
 
 Toutes les quantités et toutes les sources mises à jour s&#39;affichent dans la grille de produits.
 
@@ -48,7 +59,7 @@ Toutes les quantités et toutes les sources mises à jour s&#39;affichent dans l
 1. Pour définir une notification pour les quantités en stock, effectuez l&#39;une des opérations suivantes :
 
    - Quantité de notification personnalisée - Décochez la case **[!UICONTROL Use Default]** et saisissez un montant en **[!UICONTROL Notify Qty]**.
-   - Quantité de notification par défaut - Cochez la case **[!UICONTROL Use Default]**. [!DNL Commerce] vérifie et utilise le paramètre dans la configuration de magasin _[!UICONTROL Advanced Inventory]_&#x200B;ou globale.
+   - Quantité de notification par défaut - Cochez la case **[!UICONTROL Use Default]**. [!DNL Commerce] vérifie et utilise le paramètre dans la configuration de magasin _[!UICONTROL Advanced Inventory]_ou globale.
 
    ![Mettre à jour les quantités de produits par Source](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
 
@@ -59,6 +70,6 @@ Toutes les quantités et toutes les sources mises à jour s&#39;affichent dans l
    - Dans le menu **[!UICONTROL Save]** (![flèche du menu](../assets/icon-menu-down-arrow-red.png)), choisissez **[!UICONTROL Save & Close]**.
 
 
-La grille de produits est mise à jour avec une liste de toutes les sources et des quantités associées. Pour les produits comportant plus de cinq sources affectées, passez la souris sur la colonne _[!UICONTROL Quantity per Source]_&#x200B;pour afficher la liste complète.
+La grille de produits est mise à jour avec une liste de toutes les sources et des quantités associées. Pour les produits comportant plus de cinq sources affectées, passez la souris sur la colonne _[!UICONTROL Quantity per Source]_pour afficher la liste complète.
 
 ![Quantités de produits par source](assets/inventory-product-quantity.png){width="600" zoomable="yes"}

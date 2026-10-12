@@ -3,25 +3,37 @@ title: Contrôles de l’espace de travail de page
 description: Découvrez les outils de Workspace utilisés pour localiser et mettre à jour les pages de contenu.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-TQID: https://experienceleague.adobe.com/xtwiVV3F8lpix-1dJw-Bg8SAgoC7SfXoGvQzQN560lo
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+TQID: 'https://experienceleague.adobe.com/xtwiVV3F8lpix-1dJw-Bg8SAgoC7SfXoGvQzQN560lo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1385
+source-wordcount: '1385'
 ht-degree: 0%
-
 ---
-
 # Contrôles de l’espace de travail de page
 
 L’espace de travail de page comprend des outils pour vous aider à trouver rapidement les pages dont vous avez besoin, ainsi que des commandes pour effectuer des opérations de maintenance de routine sur une ou plusieurs pages. Vous pouvez également mettre rapidement à jour les propriétés de page à partir de la grille.
@@ -91,7 +103,7 @@ L’espace de travail de page comprend des outils pour vous aider à trouver rap
 
 ## Recherche de page
 
-La zone Rechercher dans le coin supérieur gauche de la grille _[!UICONTROL Pages]_&#x200B;permet de rechercher des pages spécifiques par mot-clé. Pour une recherche plus avancée, vous pouvez [filtrer](../getting-started/admin-grid-controls.md) la recherche par plusieurs paramètres.
+La zone Rechercher dans le coin supérieur gauche de la grille _[!UICONTROL Pages]_permet de rechercher des pages spécifiques par mot-clé. Pour une recherche plus avancée, vous pouvez [filtrer](../getting-started/admin-grid-controls.md) la recherche par plusieurs paramètres.
 
 ### Recherche par mot-clé
 
@@ -147,11 +159,11 @@ La zone Rechercher dans le coin supérieur gauche de la grille _[!UICONTROL Page
 
 Les pages peuvent être modifiées, désactivées, activées et supprimées. Pour appliquer une action à une page individuelle, cochez la case située dans la première colonne. Pour sélectionner ou désélectionner toutes les pages, utilisez la commande de sélection en haut de la colonne.
 
-![&#x200B; Actions de page &#x200B;](./assets/pages-select.png){width="400" zoomable="yes"}
+![ Actions de page ](./assets/pages-select.png){width="400" zoomable="yes"}
 
 ### Action unique
 
-Utilisez la colonne _[!UICONTROL Action]_&#x200B;à l’extrémité droite pour appliquer l’une des actions suivantes à la page :
+Utilisez la colonne _[!UICONTROL Action]_à l’extrémité droite pour appliquer l’une des actions suivantes à la page :
 
 - [!UICONTROL Edit] : ouvre la page en mode d’édition.
 - [!UICONTROL Delete] - supprime la page (confirmation requise)
@@ -161,7 +173,7 @@ Utilisez la colonne _[!UICONTROL Action]_&#x200B;à l’extrémité droite pour 
 
 ### Actions en masse
 
-Appliquez simultanément l’une des actions suivantes à plusieurs pages sélectionnées à l’aide du sélecteur _[!UICONTROL Action]_&#x200B;dans le coin supérieur gauche :
+Appliquez simultanément l’une des actions suivantes à plusieurs pages sélectionnées à l’aide du sélecteur _[!UICONTROL Action]_dans le coin supérieur gauche :
 
 - [!UICONTROL Delete] - supprime les pages (confirmation requise)
 - [!UICONTROL Disable] : désactive les pages du storefront

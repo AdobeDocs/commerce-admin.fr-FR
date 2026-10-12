@@ -3,28 +3,39 @@ title: E-mails de vente
 description: Découvrez comment configurer les e-mails de vente pour prendre en charge les communications destinées aux clients concernant leurs commandes.
 exl-id: b205dc61-08cc-4783-810c-686ccf2ba300
 feature: Communications, Orders
-TQID: https://experienceleague.adobe.com/M9-GhmO0XeRC9sgZmQXpv759NN-5cM92Bd8ZxxM96yg
+TQID: 'https://experienceleague.adobe.com/M9-GhmO0XeRC9sgZmQXpv759NN-5cM92Bd8ZxxM96yg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 454
+source-wordcount: '454'
 ht-degree: 3%
-
 ---
-
 # E-mails de vente
 
 Plusieurs e-mails sont déclenchés par les événements liés à une commande. La configuration est similaire. Assurez-vous d’identifier le contact du magasin qui apparaît comme l’expéditeur du message, le modèle d’e-mail à utiliser et toute autre personne qui doit recevoir une copie du message. Les e-mails de ventes peuvent être envoyés lorsqu’ils sont déclenchés par un événement ou par un intervalle prédéterminé.
@@ -33,7 +44,7 @@ Plusieurs e-mails sont déclenchés par les événements liés à une commande. 
 
 ## Étape 1. Mettre à jour les modèles d’e-mail
 
-Veillez à mettre à jour le modèle [en-tête d’e-mail](../systems/email-template-custom.md#header-template) afin qu’il reflète votre marque et les autres modèles d’e-mail si nécessaire. Pour obtenir la liste complète des modèles, voir [&#x200B; Modèles d’e-mail &#x200B;](../systems/email-templates.md).
+Veillez à mettre à jour le modèle [en-tête d’e-mail](../systems/email-template-custom.md#header-template) afin qu’il reflète votre marque et les autres modèles d’e-mail si nécessaire. Pour obtenir la liste complète des modèles, voir [ Modèles d’e-mail ](../systems/email-templates.md).
 
 ## Étape 2. Choisir le type de transmission
 
@@ -50,7 +61,7 @@ Veillez à mettre à jour le modèle [en-tête d’e-mail](../systems/email-temp
    - `Disable` - Envoie un e-mail de vente lorsqu’il est déclenché par un événement.
    - `Enable` - Envoie un e-mail de vente à intervalles réguliers prédéterminés.
 
-   La prise en charge d’Adobe Commerce recommande d’activer l’envoi asynchrone pour améliorer les performances du placement des commandes. Voir [&#x200B; Bonnes pratiques de configuration pour le traitement des commandes &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration) dans la base de connaissances du support Adobe Commerce.
+   La prise en charge d’Adobe Commerce recommande d’activer l’envoi asynchrone pour améliorer les performances du placement des commandes. Voir [ Bonnes pratiques de configuration pour le traitement des commandes ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration) dans la base de connaissances du support Adobe Commerce.
 
 ## Étape 3. Complétez les détails de chaque e-mail de vente
 

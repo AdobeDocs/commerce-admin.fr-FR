@@ -1,33 +1,44 @@
 ---
 title: Rapports des ventes
-description: Les rapports  [!DNL Commerce]  ventes vous permettent de suivre les commandes, les taxes, les factures, l'expédition, les remboursements, les coupons et le règlement PayPal.
+description: Les rapports de vente [!DNL Commerce] vous aident à suivre les commandes, les taxes, les factures, l'expédition, les remboursements, les coupons et le règlement PayPal.
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
 feature: Reporting, Orders
-TQID: https://experienceleague.adobe.com/f1I8ZnBMA1HWwLUoR5e94nPPsMd46OLJcBnHhuALSzA
+TQID: 'https://experienceleague.adobe.com/f1I8ZnBMA1HWwLUoR5e94nPPsMd46OLJcBnHhuALSzA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 subfeature_v2:
   - id: b382a22d-d89f-43ea-a98c-4d7d1c29dabd
+    internal-label: Sales reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 699
+source-wordcount: '700'
 ht-degree: 1%
-
 ---
-
 # Rapports des ventes
 
 La sélection des rapports de vente inclut les commandes, la taxe, la facturation, l&#39;expédition, les remboursements, les coupons et le règlement PayPal.
@@ -135,7 +146,7 @@ Pour plus d&#39;informations sur l&#39;utilisation du [!UICONTROL PayPal Settlem
 
 ## [!UICONTROL Braintree Settlement Report]
 
-Le rapport de règlement [&#128279;](../stores-purchase/braintree.md) peut être filtré en fonction de la date de création, du montant, du statut, du type de transaction, du type de paiement, du numéro de transaction, du numéro de commande, du numéro de paiement PayPal, du type, du numéro de compte commercial ou du numéro de lot de règlement. L&#39;état contient l&#39;ID transaction, l&#39;ID commande, l&#39;ID paiement PayPal, le type, la date de création, le montant, le code règlement, le statut, le texte de réponse de règlement, les ID remboursement, l&#39;ID compte commerçant, l&#39;ID lot de règlement et la devise.
+Le rapport de règlement [](../stores-purchase/braintree.md) peut être filtré en fonction de la date de création, du montant, du statut, du type de transaction, du type de paiement, du numéro de transaction, du numéro de commande, du numéro de paiement PayPal, du type, du numéro de compte commercial ou du numéro de lot de règlement. L&#39;état contient l&#39;ID transaction, l&#39;ID commande, l&#39;ID paiement PayPal, le type, la date de création, le montant, le code règlement, le statut, le texte de réponse de règlement, les ID remboursement, l&#39;ID compte commerçant, l&#39;ID lot de règlement et la devise.
 
 Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Braintree Settlement]**.
 
@@ -149,7 +160,7 @@ Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICON
 
 ## Actualiser les statistiques
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 Pour réduire l&#39;impact sur les performances de la génération des rapports de ventes, [!DNL Commerce] calcule et stocke les statistiques requises pour chaque rapport. Au lieu de recalculer les statistiques chaque fois qu’un rapport est généré, les statistiques stockées sont utilisées, sauf si vous actualisez les statistiques. Pour inclure les données les plus récentes, les statistiques du rapport doivent être actualisées avant la génération d&#39;un rapport de ventes.
 

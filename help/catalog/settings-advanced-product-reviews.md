@@ -3,31 +3,40 @@ title: Paramètres du produit - [!UICONTROL Product Reviews]
 description: Pour un produit, les paramètres [!UICONTROL Product Reviews] donnent accès aux révisions envoyées pour le produit et modifient le statut des révisions en attente.
 exl-id: 9328c9f5-dcd4-4837-8902-39dc48cb8151
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/GdeAB8bT8WjR9vSGjuD-h5I3O6vYNxyaaUQYAjjy8ME
+TQID: 'https://experienceleague.adobe.com/GdeAB8bT8WjR9vSGjuD-h5I3O6vYNxyaaUQYAjjy8ME'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 212
+source-wordcount: '212'
 ht-degree: 0%
-
 ---
-
 # Paramètres du produit - [!UICONTROL Product Reviews]
 
-La section _[!UICONTROL Product Reviews]_&#x200B;répertorie toutes les critiques soumises par les clients à propos du produit. Cette section s’affiche avec les autres informations sur les produits uniquement après le premier enregistrement d’un nouveau produit. Pour plus d’informations, voir [Avis sur le produit](../merchandising-promotions/product-reviews.md).
+La section _[!UICONTROL Product Reviews]_répertorie toutes les critiques soumises par les clients à propos du produit. Cette section s’affiche avec les autres informations sur les produits uniquement après le premier enregistrement d’un nouveau produit. Pour plus d’informations, voir [Avis sur le produit](../merchandising-promotions/product-reviews.md).
 
 ![Avis sur les produits](./assets/product-review.png){width="600" zoomable="yes"}
 

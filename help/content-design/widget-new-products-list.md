@@ -3,28 +3,38 @@ title: Widget de liste de nouveaux produits
 description: Découvrez comment utiliser le widget de liste de nouveaux produits pour afficher une liste des produits ajoutés les plus récemment.
 exl-id: bdff3655-cd14-4a19-a51f-4cabeb274d2a
 feature: Page Content, Products
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-TQID: https://experienceleague.adobe.com/zFJ9KJgBGtqDaCf-5ZLKHaPquWikVtG90g01QjGo1m0
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+TQID: 'https://experienceleague.adobe.com/zFJ9KJgBGtqDaCf-5ZLKHaPquWikVtG90g01QjGo1m0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 638
+source-wordcount: '638'
 ht-degree: 0%
-
 ---
-
 # Widget de liste de nouveaux produits
 
 La liste des nouveaux produits est un exemple de contenu dynamique. Elle se compose de données actives qui sont extraites de votre catalogue de produits. Par défaut, la liste _Nouveaux produits_ comprend les huit premiers des produits les plus récemment ajoutés. Cependant, il peut également être configuré pour inclure uniquement les produits au cours d’une période spécifiée.
@@ -33,11 +43,11 @@ La liste des nouveaux produits est un exemple de contenu dynamique. Elle se comp
 
 ## Étape 1 : définir chaque produit comme nouveau
 
-![Magento Open Source &#x200B;](../assets/open-source.svg) Cette étape s’applique uniquement à Magento Open Source.
+![Magento Open Source ](../assets/open-source.svg) Cette étape s’applique uniquement à Magento Open Source.
 
 ![](../assets/adobe-logo.svg) Pour les magasins Adobe Commerce, voir [Planification d’une mise à jour](content-staging-scheduled-update.md) puis passez à l’étape 2 de cette page.
 
-_[!UICONTROL Set Product as New]_&#x200B;paramètre de période ne peut être configuré que dans les mises à jour planifiées.
+_[!UICONTROL Set Product as New]_paramètre de période ne peut être configuré que dans les mises à jour planifiées.
 
 La définition d’un produit sur nouveau ajoute le produit à la liste _Nouveaux produits_. Vous pouvez revenir en arrière à tout moment lorsque vous ne souhaitez plus l’inclure dans la liste.
 
@@ -81,7 +91,7 @@ Le code qui détermine le contenu de la liste Nouveaux produits et son emplaceme
 
    - (Facultatif) Par **[!UICONTROL Sort Order]**, saisissez un nombre pour déterminer l’ordre dans lequel cet élément apparaît avec les autres dans la même partie de la page. (`0` = premier, `1` = deuxième, `3` = troisième, etc.)
 
-   ![&#x200B; Mises à jour de la disposition &#x200B;](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
+   ![ Mises à jour de la disposition ](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
 ## Étape 3 : choisir l&#39;emplacement
 
@@ -98,7 +108,7 @@ Le code qui détermine le contenu de la liste Nouveaux produits et son emplaceme
    - `New Product List Template`
    - `New Products Grid Template`
 
-     ![&#x200B; Mises à jour de la disposition &#x200B;](./assets/widget-layout-update-new-products-list.png){width="600" zoomable="yes"}
+     ![ Mises à jour de la disposition ](./assets/widget-layout-update-new-products-list.png){width="600" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Save and Continue Edit]**.
 

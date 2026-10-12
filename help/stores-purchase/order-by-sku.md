@@ -3,28 +3,37 @@ title: Classer par SKU
 description: Découvrez comment configurer votre boutique pour prendre en charge les commandes par SKU afin de faciliter la tâche de vos clients.
 exl-id: cb39554f-ab76-46d5-8217-e43bc8f9f88d
 feature: Orders, Storefront, Configuration
-TQID: https://experienceleague.adobe.com/zMI6ElJA6t8IL8tRqYAPvM7YwCdTCC-u-BVWMV0ZmWQ
+TQID: 'https://experienceleague.adobe.com/zMI6ElJA6t8IL8tRqYAPvM7YwCdTCC-u-BVWMV0ZmWQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 592
+source-wordcount: '592'
 ht-degree: 0%
-
 ---
-
 # Classer par SKU
 
 {{ee-feature}}
@@ -58,7 +67,7 @@ Le _commande par SKU_ est un [widget](../content-design/widgets.md) qui peut êt
 
 1. Cliquez sur **[!UICONTROL Save Config]**.
 
-![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B uniquement) _&#x200B;**Pour activer la fonction Order by SKU, désactivez la fonction Quick Order :**&#x200B;_
+![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B uniquement) _**Pour activer la fonction Order by SKU, désactivez la fonction Quick Order :**_
 
 1. Accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -90,7 +99,7 @@ Lorsque la fonctionnalité est configurée pour la boutique, les clients peuvent
 
 1. Ajoute des éléments individuels en fonction des préférences :
 
-   _&#x200B;**Ajoute chaque élément par SKU :**&#x200B;_
+   _**Ajoute chaque élément par SKU :**_
 
    - Saisit le **[!UICONTROL SKU]** et le **[!UICONTROL Qty]** de l’article à commander.
 
@@ -98,11 +107,11 @@ Lorsque la fonctionnalité est configurée pour la boutique, les clients peuvent
 
    - Effectue un clic sur **[!UICONTROL Add to Cart]**.
 
-   _&#x200B;**Télécharge un fichier CSV contenant plusieurs éléments :**&#x200B;_
+   _**Télécharge un fichier CSV contenant plusieurs éléments :**_
 
    - Prépare un fichier [import data CSV](../systems/data-csv.md) (valeurs séparées par des virgules) contenant des colonnes pour les `SKU` et les `Qty`.
 
-   ![&#x200B; SKU à importer &#x200B;](./assets/account-dashboard-order-by-sku-import.png){width="500" zoomable="yes"}
+   ![ SKU à importer ](./assets/account-dashboard-order-by-sku-import.png){width="500" zoomable="yes"}
 
    - Pour charger le fichier CSV, cliquez sur **[!UICONTROL Choose File]** et sélectionnez le fichier à charger.
 

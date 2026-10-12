@@ -3,31 +3,42 @@ title: Gestion des index
 description: Découvrez la gestion des index, y compris les actions qui déclenchent la réindexation et les bonnes pratiques.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-TQID: https://experienceleague.adobe.com/0SKv03rtjLWNP0xXDqRh202Pvtw9XPkfkDiPCsGKgeE
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+TQID: 'https://experienceleague.adobe.com/0SKv03rtjLWNP0xXDqRh202Pvtw9XPkfkDiPCsGKgeE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1344
+source-wordcount: '1344'
 ht-degree: 0%
-
 ---
-
 # Gestion des index
 
 Adobe Commerce et Magento Open Source se réindexent automatiquement chaque fois qu’un ou plusieurs éléments sont modifiés. Les actions qui déclenchent la réindexation incluent les modifications de prix, la création de règles de prix de catalogue ou de panier, l’ajout de nouvelles catégories, etc. Pour optimiser les performances, Commerce accumule les données dans des tables spéciales à l’aide d’indexeurs. À mesure que les données changent, les tables indexées doivent être mises à jour ou réindexées. Commerce se réindexe en tant que processus en arrière-plan et votre boutique reste accessible pendant les processus.
@@ -37,14 +48,14 @@ La réindexation des données accélère le traitement et réduit le temps d’a
 Les indexeurs peuvent être définis pour se mettre à jour à l’enregistrement ou selon le calendrier. Tous les index peuvent utiliser l’une de ces options, à l’exception de la grille client qui ne prend en charge que lors de l’enregistrement. Lors de l’indexation lors de l’enregistrement, Commerce lance une réindexation sur les actions d’enregistrement. La page Gestion des index termine la mise à jour et vide le cache, le message de réindexation s’affichant dans une minute ou deux. Lors d’une réindexation selon un planning, une réindexation s’exécute selon un planning sous la forme d’une tâche cron. Un message système s’affiche si une [tâche cron](cron.md) n’est pas disponible pour mettre à jour les indexeurs qui deviennent non valides. Votre boutique reste accessible pendant les processus de réindexation.
 
 >[!NOTE]
-> Les commerçants Adobe Commerce qui utilisent Live Search, Catalog Service ou Product Recommendations ont la possibilité d’utiliser un indexeur de prix [SaaS](https://experienceleague.adobe.com/fr/docs/commerce/price-indexer/price-indexing).
+> Les commerçants Adobe Commerce qui utilisent Live Search, Catalog Service ou Product Recommendations ont la possibilité d’utiliser un indexeur de prix [SaaS](https://experienceleague.adobe.com/en/docs/commerce/price-indexer/price-indexing).
 
 Lorsqu’une réindexation est nécessaire, une notification s’affiche en haut de la page. L’index et le message sont effacés en fonction du mode de réindexation et des actions potentielles que vous effectuez. Pour plus d’informations sur l’indexation , consultez le [Comment l’application implémente l’indexation](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing) dans le _Guide de développement de PHP_.
 
 ![Gestion des index - actions](./assets/index-management.png){width="700" zoomable="yes"}
 
 - La gestion des index présente une présentation légèrement différente pour les catalogues de produits plats.
-- Pour éviter des problèmes lorsque plusieurs utilisateurs administrateurs mettent à jour des objets qui déclenchent une réindexation automatique, il est recommandé de définir tous les indexeurs pour qu’ils s’exécutent selon le calendrier en tant que [&#x200B; tâches cron &#x200B;](cron.md). Dans le cas contraire, chaque fois qu’un objet est enregistré, tout objet ayant des interdépendances peut entraîner un blocage. Les symptômes d’un blocage incluent une utilisation élevée de CPU et des erreurs MySQL. Il est recommandé d’utiliser l’indexation planifiée.
+- Pour éviter des problèmes lorsque plusieurs utilisateurs administrateurs mettent à jour des objets qui déclenchent une réindexation automatique, il est recommandé de définir tous les indexeurs pour qu’ils s’exécutent selon le calendrier en tant que [ tâches cron ](cron.md). Dans le cas contraire, chaque fois qu’un objet est enregistré, tout objet ayant des interdépendances peut entraîner un blocage. Les symptômes d’un blocage incluent une utilisation élevée de CPU et des erreurs MySQL. Il est recommandé d’utiliser l’indexation planifiée.
 - ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Par défaut, les actions d’administration, telles que la réindexation, sont consignées par le système et peuvent être consultées dans le [rapport des journaux d’actions](action-log-report.md). La journalisation des actions peut être configurée dans l’[Journalisation des actions d’administration](action-log.md) dans les paramètres d’administration avancés de votre boutique.
 
 ## Bonnes pratiques relatives à la réindexation
@@ -97,7 +108,7 @@ La réindexation et la mise en cache ont des objectifs différents dans Commerce
 
 ## Réindexation à l’aide de la ligne de commande
 
-Commerce fournit des options de réindexation supplémentaires à l’aide de la ligne de commande. Pour plus d’informations et d’options de commande, consultez [Réindexation](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex){:target="blank"} dans le _Guide de configuration_.
+Commerce fournit des options de réindexation supplémentaires à l’aide de la ligne de commande. Pour plus d’informations et d’options de commande, consultez [Réindexation](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex){:target="blank"} dans le _Guide de configuration_.
 
 ## Événements de déclenchement d’index
 

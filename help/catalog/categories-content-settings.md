@@ -3,34 +3,45 @@ title: Catégories - Paramètres de contenu
 description: Découvrez comment utiliser les paramètres de [!UICONTROL Content] pour définir tout contenu supplémentaire qui s’affiche sur la page de catégorie.
 exl-id: 988083e1-0993-4e08-b5e6-8b0855e56467
 feature: Catalog Management, Categories, Page Content
-TQID: https://experienceleague.adobe.com/PKCKw4i-EDB10X3AU-daMiyVMT96naqRLF8vrVBp24s
+TQID: 'https://experienceleague.adobe.com/PKCKw4i-EDB10X3AU-daMiyVMT96naqRLF8vrVBp24s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: '450'
 ht-degree: 0%
-
 ---
-
 # Catégories - Paramètres de contenu
 
-Les paramètres de _[!UICONTROL Content]_&#x200B;déterminent si du contenu supplémentaire s’affiche sur la page de catégorie. Outre la liste des produits de catégorie, la page peut inclure une image, une description et un bloc CMS. Vous pouvez utiliser les outils de contenu [[!DNL Page Builder]](../page-builder/introduction.md) pour définir la description de la catégorie.
+Les paramètres de _[!UICONTROL Content]_déterminent si du contenu supplémentaire s’affiche sur la page de catégorie. Outre la liste des produits de catégorie, la page peut inclure une image, une description et un bloc CMS. Vous pouvez utiliser les outils de contenu [[!DNL Page Builder]](../page-builder/introduction.md) pour définir la description de la catégorie.
 
 ## Ajoutez la description de la catégorie dans [!DNL Page Builder]
 
@@ -56,7 +67,7 @@ Cet aperçu du contenu est activé par défaut pour les formulaires de produits 
 
 Saisissez uniquement des caractères ASCII simples dans la zone de texte. Si vous collez du texte à partir d’un traitement de texte, enregistrez-le d’abord en tant que fichier .TXT brut pour supprimer tous les caractères de contrôle invisibles.
 
-Pour plus d&#39;informations, voir [Éditeur &#x200B;](../content-design/editor.md).
+Pour plus d&#39;informations, voir [Éditeur ](../content-design/editor.md).
 
 1. Ouvrez la catégorie en mode d’édition.
 

@@ -1,30 +1,39 @@
 ---
-title: Configurer  [!DNL Inventory Management]  options globales
-description: Configurez les paramètres  [!DNL Inventory Management]  catalogue global pour les options de stock de produits, les seuils et l’affichage du storefront sur tous les sites web.
+title: Configurer [!DNL Inventory Management] options globales
+description: Configurez les paramètres du catalogue [!DNL Inventory Management] global pour les options de stock de produits, les seuils et l’affichage du storefront sur tous les sites web.
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
-TQID: https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY
+TQID: 'https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ca077051a26ab57194eef45f57351e2f6b1b0b6b
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 757
+source-wordcount: '759'
 ht-degree: 1%
-
 ---
-
 # Configurer [!DNL Inventory Management] options globales
 
 Ces paramètres globaux s’appliquent à l’ensemble de votre catalogue sous **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**.
@@ -97,7 +106,7 @@ Configurez les options de configuration par défaut pour le produit et le stock 
 
    >[!NOTE]
    >
-   >La requête `sourceAvailability` est désactivée par défaut, car elle indique quelles sources stockent un SKU. Les quantités exactes restent masquées jusqu&#39;à ce que la quantité source atteigne le **[!UICONTROL Only X left Threshold]** défini dans la section _[!UICONTROL Stock Options]_. Chaque origine de stock possède un indicateur de **[!UICONTROL Visible on Storefront]**&#x200B;désactivé par défaut. Le stock d’une source n’est jamais renvoyé tant qu’un commerçant ne l’a pas activée. Pour le définir, accédez à&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, modifiez une source, puis activez **[!UICONTROL Visible on Storefront]**.
+   >La requête `sourceAvailability` est désactivée par défaut, car elle indique quelles sources stockent un SKU. Les quantités exactes restent masquées jusqu&#39;à ce que la quantité source atteigne le **[!UICONTROL Only X left Threshold]** défini dans la section _[!UICONTROL Stock Options]_. Chaque origine de stock possède un indicateur de **[!UICONTROL Visible on Storefront]**désactivé par défaut. Le stock d’une source n’est jamais renvoyé tant qu’un commerçant ne l’a pas activée. Pour le définir, accédez à&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, modifiez une source, puis activez **[!UICONTROL Visible on Storefront]**.
 
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Admin bulk operations]** et définissez les options suivantes :
@@ -106,11 +115,11 @@ Configurez les options de configuration par défaut pour le produit et le stock 
 
    - Définir des **[!UICONTROL Run asynchronously]** pour exécuter des opérations en bloc de manière asynchrone pour des actions de produits en masse
 
-     Ces opérations incluent l&#39;affectation en bloc [affectation et annulation de l&#39;affectation des sources](bulk-assignment.md) et [&#x200B; transfert du stock vers la source](inventory-transfer.md). Il collecte les actions en bloc jusqu’à la taille de lot asynchrone, puis exécute ces actions. Par défaut, cette option est désactivée. Il est recommandé de vérifier vos performances avec des actions en bloc avant l’activation.
+     Ces opérations incluent l&#39;affectation en bloc [affectation et annulation de l&#39;affectation des sources](bulk-assignment.md) et [ transfert du stock vers la source](inventory-transfer.md). Il collecte les actions en bloc jusqu’à la taille de lot asynchrone, puis exécute ces actions. Par défaut, cette option est désactivée. Il est recommandé de vérifier vos performances avec des actions en bloc avant l’activation.
 
      >[!NOTE]
      >
-     >Pour configurer et prendre en charge les _gestionnaires de files d’attente asynchrones_, vous devez exécuter une commande à l’aide de la ligne de commande. Cette étape peut nécessiter l’aide d’un développeur. Voir [Démarrer les consommateurs de files d’attente de messages](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/cli/start-message-queues) dans le _Guide de configuration_.
+     >Pour configurer et prendre en charge les _gestionnaires de files d’attente asynchrones_, vous devez exécuter une commande à l’aide de la ligne de commande. Cette étape peut nécessiter l’aide d’un développeur. Voir [Démarrer les consommateurs de files d’attente de messages](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/start-message-queues) dans le _Guide de configuration_.
 
    - Si cette option est activée, définissez la **[!UICONTROL Asynchronous batch size]** . La taille de lot par défaut est de 100. Lorsque les processus en masse atteignent cette quantité, le système la déclenche.
 

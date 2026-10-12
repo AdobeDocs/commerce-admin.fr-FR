@@ -3,37 +3,47 @@ title: Trier les produits de catégorie
 description: Découvrez comment définir manuellement le positionnement des produits dans une catégorie ou en appliquant un ordre de tri prédéfini.
 exl-id: 09c66a5d-57d4-4e78-a8d8-e3047c1bd35a
 feature: Catalog Management, Categories, Products
-TQID: https://experienceleague.adobe.com/Co2sHVc4YaLqjVrc-Varq9-ssecBB-C2mL3MTAPuQbU
+TQID: 'https://experienceleague.adobe.com/Co2sHVc4YaLqjVrc-Varq9-ssecBB-C2mL3MTAPuQbU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: '424'
 ht-degree: 0%
-
 ---
-
 # Trier les produits de catégorie
 
 {{ee-feature}}
 
 La position des produits dans une catégorie peut être spécifiée manuellement en faisant glisser et en déposant les produits en position ou en appliquant un ordre de tri prédéfini. Par défaut, les produits peuvent être triés par niveau de stock, âge, couleur, nom, SKU et prix. Le tri automatique remplace l’ordre de tri actuel et réinitialise toutes les positions de glisser-déposer définies manuellement. L’ordre de tri des couleurs et le niveau de stock minimal qui peut être requis pour que les produits soient inclus dans la liste sont définis dans la configuration [Marchandiseur visuel](../configuration-reference/catalog/visual-merchandiser.md).
 
-Vous pouvez configurer les options de catégorie séparément pour chaque [vue de magasin](../stores-purchase/stores.md#add-stores) afin de déterminer la sélection des produits, leur position relative dans la liste et les attributs disponibles pour les règles de catégorie. Cependant, il existe un seul ordre de tri **_global_** et la position des produits dans le catalogue, et ils sont partagés dans toutes les [&#x200B; vues de magasin](../stores-purchase/store-views.md), tous les magasins et tous les sites web.
+Vous pouvez configurer les options de catégorie séparément pour chaque [vue de magasin](../stores-purchase/stores.md#add-stores) afin de déterminer la sélection des produits, leur position relative dans la liste et les attributs disponibles pour les règles de catégorie. Cependant, il existe un seul ordre de tri **_global_** et la position des produits dans le catalogue, et ils sont partagés dans toutes les [ vues de magasin](../stores-purchase/store-views.md), tous les magasins et tous les sites web.
 
 ## Étape 1 : définir la portée de la configuration
 
@@ -41,7 +51,7 @@ Vous pouvez configurer les options de catégorie séparément pour chaque [vue d
 
 1. Si nécessaire, choisissez l’**[!UICONTROL Store View]** où les paramètres s’appliquent.
 
-   Pour une installation multi-magasin, le paramètre _[!UICONTROL Store View]_&#x200B;applique l’ordre de tri à toutes les vues disponibles dans le magasin.
+   Pour une installation multi-magasin, le paramètre _[!UICONTROL Store View]_applique l’ordre de tri à toutes les vues disponibles dans le magasin.
 
 1. Dans l’arborescence de catégorie à gauche, choisissez la catégorie à modifier.
 
@@ -51,7 +61,7 @@ Vous pouvez configurer les options de catégorie séparément pour chaque [vue d
 
 >[!NOTE]
 >
->Lors du tri d’une catégorie par attribut de produit, les produits ayant les mêmes valeurs d’attribut sont également triés en fonction de leur _[!UICONTROL Product ID]_&#x200B;dans l’ordre croissant.
+>Lors du tri d’une catégorie par attribut de produit, les produits ayant les mêmes valeurs d’attribut sont également triés en fonction de leur _[!UICONTROL Product ID]_dans l’ordre croissant.
 
 Dans la section _[!UICONTROL Products in Category]_, cliquez sur l’icône en forme de mosaïque ( ![Afficher les mosaïques](../assets/icon-view-tiles.png) ) pour afficher les mosaïques de produit dans une grille. Utilisez la méthode manuelle ou automatique pour trier les produits.
 

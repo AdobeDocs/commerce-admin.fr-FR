@@ -3,10 +3,15 @@ title: Vues de la boutique
 description: Découvrez comment ajouter et modifier une vue de magasin dans Adobe Commerce, qui permet aux acheteurs de changer de paramètres régionaux à l’aide du sélecteur de langue de votre en-tête de magasin.
 exl-id: aa1f7f1c-a6d0-4ec2-83fe-15fb9646634a
 feature: Site Management, System
-TQID: https://experienceleague.adobe.com/2VMBTnzG3lqsNEyx-e46rqDs1wHofaDeHL3j3SuqxOE
+TQID: 'https://experienceleague.adobe.com/2VMBTnzG3lqsNEyx-e46rqDs1wHofaDeHL3j3SuqxOE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
+feature_v2:
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -20,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -72,7 +77,7 @@ Pour activer ou désactiver la synchronisation, modifiez le **[!UICONTROL Adobe 
 
    ![Créer une vue de magasin - Paramètres de l’exportateur Adobe Commerce Optimizer](./assets/stores-optimizer-export-settings.png){width="600" zoomable="yes"}
 
-   La modification de ce paramètre après la synchronisation initiale déclenche une réindexation complète. Voir [Personnalisation de la configuration d’exportation des portées de Commerce](https://experienceleague.adobe.com/fr/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) dans le *Guide du connecteur Adobe Commerce Optimizer*.
+   La modification de ce paramètre après la synchronisation initiale déclenche une réindexation complète. Voir [Personnalisation de la configuration d’exportation des portées de Commerce](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) dans le *Guide du connecteur Adobe Commerce Optimizer*.
 
 1. Cliquez sur **[!UICONTROL Save Store View]**.
 
@@ -91,9 +96,9 @@ Si votre installation Adobe Commerce ou Magento Open Source comporte une configu
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
 
-1. Dans la colonne _[!UICONTROL Store View]_&#x200B;de la grille, cliquez sur le nom de la vue à modifier.
+1. Dans la colonne _[!UICONTROL Store View]_de la grille, cliquez sur le nom de la vue à modifier.
 
-   Lors de la modification de la vue par défaut, les champs _[!UICONTROL Store]_&#x200B;et&#x200B;_[!UICONTROL Status]_ ne sont pas disponibles.
+   Lors de la modification de la vue par défaut, les champs _[!UICONTROL Store]_et_[!UICONTROL Status]_ ne sont pas disponibles.
 
    ![Affichage de la boutique - Modifier la vue par défaut](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 

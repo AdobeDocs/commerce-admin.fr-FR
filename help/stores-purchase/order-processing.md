@@ -3,31 +3,46 @@ title: Workflow et traitement des commandes
 description: Découvrez le workflow de commande, le statut qui s’applique à chaque étape et comment déplacer des commandes tout au long de ce processus.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-TQID: https://experienceleague.adobe.com/GSPZ5Z-3WpnZ-dPRnSqD4ud--cX78Q7lSHGQDuapg4U
+TQID: 'https://experienceleague.adobe.com/GSPZ5Z-3WpnZ-dPRnSqD4ud--cX78Q7lSHGQDuapg4U'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+  - id: deedbb4d-f1b7-58ea-a34a-de1f481f9d4c
+    internal-label: Customer Service
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1834
+source-wordcount: '1838'
 ht-degree: 0%
-
 ---
-
 # Workflow et traitement des commandes
 
 Lorsqu&#39;un client passe une commande, une commande client est créée comme enregistrement temporaire de la transaction. Dans la grille Commandes, les commandes client ont initialement le statut « En attente » et peuvent être annulées à tout moment jusqu&#39;à ce que le paiement soit traité. Une fois le paiement confirmé, la commande peut être facturée et expédiée.
@@ -122,7 +137,7 @@ Consultez les sections suivantes de la commande client à l&#39;aide des descrip
 
 ### Annuler une commande
 
-Vous pouvez [annuler](order-update.md) les commandes qui ne sont pas encore facturées. Un [&#x200B; avoir &#x200B;](credit-memos.md) doit être émis si un client souhaite annuler une commande après sa facturation (le paiement est capturé).
+Vous pouvez [annuler](order-update.md) les commandes qui ne sont pas encore facturées. Un [ avoir ](credit-memos.md) doit être émis si un client souhaite annuler une commande après sa facturation (le paiement est capturé).
 
 Si une commande est `Pending` ou `Processing` et que le paiement n&#39;est pas saisi ou n&#39;est pas entièrement saisi, vous pouvez [annuler la commande](#void-an-order) au lieu de l&#39;annuler.
 
@@ -134,7 +149,7 @@ Pour restaurer une commande annulée, cliquez sur le bouton **[!UICONTROL Reorde
 
 ### Annuler une commande
 
-Seules les commandes client qui ne sont pas facturées, dont le statut est `Processing` et dont le paramètre d&#39;intégration de paiement [&#x200B; est `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions), peuvent être [&#x200B; annulées](order-update.md#void-a-processing-order). Après avoir annulé une commande, vous pouvez l’annuler.
+Seules les commandes client qui ne sont pas facturées, dont le statut est `Processing` et dont le paramètre d&#39;intégration de paiement [ est `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions), peuvent être [ annulées](order-update.md#void-a-processing-order). Après avoir annulé une commande, vous pouvez l’annuler.
 
 ### [!UICONTROL Order and Account Information]
 
@@ -187,7 +202,7 @@ Seules les commandes client qui ne sont pas facturées, dont le statut est `Proc
 
 ### Attributs d’ordre personnalisés
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
 
 Les attributs de commande personnalisés vous permettent d’associer à la commande des informations supplémentaires spécifiques aux besoins de votre entreprise.
 
@@ -268,4 +283,4 @@ Dans la section **[!UICONTROL Order Total]**, procédez comme suit :
 
 Regardez cette vidéo pour en savoir plus sur le traitement et le statut des commandes :
 
->[!VIDEO](https://video.tv.adobe.com/v/3410797/?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)

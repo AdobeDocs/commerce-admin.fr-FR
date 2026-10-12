@@ -4,30 +4,40 @@ description: Découvrez comment créer des catalogues partagés et dupliquer des
 exl-id: 969c352c-ff88-4902-8347-334ee8b79afb
 feature: B2B, Companies, Catalog Management
 role: Admin
-TQID: https://experienceleague.adobe.com/UaH40o7aZu8AYc1TuOfvXqxHebFod-rmGg0tobIKzjg
+TQID: 'https://experienceleague.adobe.com/UaH40o7aZu8AYc1TuOfvXqxHebFod-rmGg0tobIKzjg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 872
+source-wordcount: '872'
 ht-degree: 0%
-
 ---
-
 # Création d’un catalogue partagé
 
 Lors de la création d’un [catalogue partagé](catalog-shared.md), le système crée automatiquement un [groupe de clients](account-company-customer-group.md) du même nom. Par exemple, si vous créez un catalogue partagé appelé _Catalogue ABC_, le système crée également un groupe de clients _Catalogue ABC_ correspondant. L’affectation d’une entreprise au catalogue personnalisé partagé est essentiellement identique à leur affectation à un groupe de clients.
@@ -79,11 +89,11 @@ Il existe deux façons de créer un catalogue partagé. Vous pouvez créer un ca
 
    - Sélectionnez la **[!UICONTROL Customer Tax Class]** appropriée qui s’applique aux achats effectués à partir du catalogue partagé.
 
-     Pour plus d&#39;informations sur la configuration et la définition des classes de taxe, voir [&#x200B; Classes de taxe &#x200B;](../stores-purchase/tax-class.md).
+     Pour plus d&#39;informations sur la configuration et la définition des classes de taxe, voir [ Classes de taxe ](../stores-purchase/tax-class.md).
 
      L’exemple suivant illustre un nouveau catalogue personnalisé pour un client en gros spécifique.
 
-     ![&#x200B; Nouveau catalogue partagé &#x200B;](./assets/shared-catalog-new.png){width="600" zoomable="yes"}
+     ![ Nouveau catalogue partagé ](./assets/shared-catalog-new.png){width="600" zoomable="yes"}
 
    - Enter **[!UICONTROL Description]**
 
@@ -122,13 +132,13 @@ Après la création d’un catalogue partagé, il doit être configuré avec la 
 
 >[!NOTE]
 >
->**[Version 1.3.0](release-notes.md#b2b-v130) B2B et versions ultérieures** — Lorsque vous créez un catalogue partagé, chaque autorisation [de catégorie](../catalog/category-permissions.md) pour le catalogue est définie sur _[!UICONTROL Allow for the Display Product Prices]_&#x200B;et&#x200B;_[!UICONTROL Add to Cart]_ pour les groupes de clients auxquels cet accès est affecté dans les paramètres d’autorisation du catalogue. Auparavant, ces paramètres étaient automatiquement définis sur `Deny` même lorsque les autorisations de catalogue étaient définies sur `Allow`.
+>**[Version 1.3.0](release-notes.md#b2b-v130) B2B et versions ultérieures** — Lorsque vous créez un catalogue partagé, chaque autorisation [de catégorie](../catalog/category-permissions.md) pour le catalogue est définie sur _[!UICONTROL Allow for the Display Product Prices]_et_[!UICONTROL Add to Cart]_ pour les groupes de clients auxquels cet accès est affecté dans les paramètres d’autorisation du catalogue. Auparavant, ces paramètres étaient automatiquement définis sur `Deny` même lorsque les autorisations de catalogue étaient définies sur `Allow`.
 
 ## Démonstration du catalogue partagé
 
 Pour voir une démonstration de la gestion de catalogue partagé, regardez cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3410753?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344446?quality=12&learn=on)
 
 ## Référence de page de catalogue partagé
 

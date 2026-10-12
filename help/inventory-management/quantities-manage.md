@@ -1,29 +1,39 @@
 ---
 title: Gérer les quantités en stock
-description: Présentation des procédures d’administration pour l’affectation des sources et des quantités par source pour les produits nouveaux et existants dans  [!DNL Inventory Management].
+description: Présentation des procédures d’administration pour l’affectation des sources et des quantités par source pour les produits nouveaux et existants dans [!DNL Inventory Management].
 exl-id: b3d4a4c0-725a-4e62-854f-efb6a5709f73
 feature: Inventory, Products
-TQID: https://experienceleague.adobe.com/ykiHTLnzZGtJrRdp2wZvlL7YLbEb7iAiYlcbY8K7IX8
+TQID: 'https://experienceleague.adobe.com/ykiHTLnzZGtJrRdp2wZvlL7YLbEb7iAiYlcbY8K7IX8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 325
+source-wordcount: '325'
 ht-degree: 0%
-
 ---
-
 # Gérer les quantités en stock
 
 Suivez les instructions ci-dessous pour attribuer des sources et des quantités pour des produits nouveaux ou existants.
@@ -38,7 +48,7 @@ Les commerçants à source unique et multi-sources peuvent mettre à jour les so
 
 - Les commerçants multi-sources peuvent attribuer plusieurs sources et quantités par produit pour chaque emplacement (entrepôts, magasins, chargeurs, etc.). Il est recommandé d&#39;ajouter des sources avant de définir les quantités en stock des produits.
 
-Lorsque vous ajoutez des sources et des quantités à vos produits, vous pouvez afficher les montants via la grille de produits. Si vous disposez d’un grand nombre de sources, pointez sur la _[!UICONTROL Quantity per Source]_&#x200B;pour afficher la liste complète et défilable des sources avec les quantités actuelles.
+Lorsque vous ajoutez des sources et des quantités à vos produits, vous pouvez afficher les montants via la grille de produits. Si vous disposez d’un grand nombre de sources, pointez sur la _[!UICONTROL Quantity per Source]_pour afficher la liste complète et défilable des sources avec les quantités actuelles.
 
 ![Quantités de produits par source](assets/inventory-product-quantity.png){width="600" zoomable="yes"}
 

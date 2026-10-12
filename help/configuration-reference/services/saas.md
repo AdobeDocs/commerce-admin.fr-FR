@@ -3,31 +3,39 @@ title: '[!UICONTROL Services] > [!UICONTROL Commerce Services Connector]'
 description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Commerce Services Connector] de [!UICONTROL Services] &gt ; de l’administrateur Commerce.
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-TQID: https://experienceleague.adobe.com/50XCqY8JMjvf9G-wcHLxvlskSd5noIAB0LIX6xMarL0
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+TQID: 'https://experienceleague.adobe.com/50XCqY8JMjvf9G-wcHLxvlskSd5noIAB0LIX6xMarL0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: d3b92bef-63fa-5031-a925-d04d9362d616
+    internal-label: Saas
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 246
+source-wordcount: '246'
 ht-degree: 4%
-
 ---
-
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-Pour savoir comment connecter votre boutique aux services Adobe Commerce, voir [Services Commerce](https://experienceleague.adobe.com/fr/docs/commerce/user-guides/integration-services/saas).
+Pour savoir comment connecter votre boutique aux services Adobe Commerce, voir [Services Commerce](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas).
 
 {{config}}
 
@@ -44,7 +52,7 @@ Pour savoir comment connecter votre boutique aux services Adobe Commerce, voir [
 
 ## [!UICONTROL Production Keys]
 
-![&#x200B; Clé API de production &#x200B;](./assets/prod-key-saas-configuration.png)<!-- zoom -->
+![ Clé API de production ](./assets/prod-key-saas-configuration.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -60,13 +68,13 @@ Pour savoir comment connecter votre boutique aux services Adobe Commerce, voir [
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Project] | Global | Nom du projet SaaS qui regroupe tous vos espaces de données SaaS. Le bouton _Créer un projet_ s’affiche s’il n’existe aucun projet SaaS. |
-| [!UICONTROL Data Space] | Global | Répertorie les espaces de données SaaS dans le projet SaaS spécifié. Le nombre d’espaces de données SaaS dépend de votre [licence &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce/user-guides/integration-services/saas) :<br />Adobe Commerce - Un espace de données de production ; deux espaces de données de test ;<br />Magento Open Source - Un espace de données de production ; aucun espace de données de test |
+| [!UICONTROL Data Space] | Global | Répertorie les espaces de données SaaS dans le projet SaaS spécifié. Le nombre d’espaces de données SaaS dépend de votre [licence ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas) :<br />Adobe Commerce - Un espace de données de production ; deux espaces de données de test ;<br />Magento Open Source - Un espace de données de production ; aucun espace de données de test |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL IMS Organization]
 
-![&#x200B; Organisation IMS &#x200B;](./assets/ims-organization.png)<!-- zoom -->
+![ Organisation IMS ](./assets/ims-organization.png)<!-- zoom -->
 
 | Champ | Description |
 |--- |--- |

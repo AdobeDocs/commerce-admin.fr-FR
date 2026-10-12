@@ -3,28 +3,37 @@ title: Personnaliser les modèles d’e-mail
 description: Découvrez comment personnaliser des modèles d’e-mail pour chaque site web, magasin ou vue de magasin.
 exl-id: d328b84d-fab7-4956-9071-2d8848f7c21e
 feature: Communications, Configuration
-TQID: https://experienceleague.adobe.com/JsYtRQoLNKrCjd9DSPB3z6sgm1ApQA5G-tun03tXX7A
+TQID: 'https://experienceleague.adobe.com/JsYtRQoLNKrCjd9DSPB3z6sgm1ApQA5G-tun03tXX7A'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1314
+source-wordcount: '1314'
 ht-degree: 0%
-
 ---
-
 # Personnaliser les modèles d’e-mail
 
 Commerce comprend un modèle d’e-mail par défaut pour la section corps de chaque message envoyé par le système. Le modèle du contenu du corps est combiné avec les modèles d’en-tête et de pied de page pour créer le message complet. Le contenu est formaté avec HTML et CSS et peut être facilement modifié et personnalisé en ajoutant des [variables](variables-predefined.md). Les modèles d’e-mail peuvent être personnalisés pour chaque site web, magasin ou vue de magasin. Si vous utilisez des modèles personnalisés, veillez à mettre à jour la [configuration du système](email-templates.md#configure-email-templates) pour vous assurer que le modèle correct est utilisé. Pour découvrir comment utiliser des instructions conditionnelles lors de la personnalisation du modèle d’e-mail, consultez la [documentation destinée aux développeurs](https://developer.adobe.com/commerce/frontend-core/guide/templates/email#theme-based-customizations-1).
@@ -91,7 +100,7 @@ Une fois la [configuration](email-templates.md#configure-email-templates) termin
 
    ![Modèle d’en-tête - Insérer une variable](./assets/email-template-insert-variable.png){width="600" zoomable="yes"}
 
-   Lorsqu’une variable est sélectionnée, une [&#x200B; balise de balisage &#x200B;](markup-tags.md) est insérée dans le code.
+   Lorsqu’une variable est sélectionnée, une [ balise de balisage ](markup-tags.md) est insérée dans le code.
 
    Bien que les variables Adresse e-mail de la boutique soient celles qui sont le plus souvent incluses dans l’en-tête, vous pouvez saisir le code de n’importe quelle variable système ou [variable personnalisée](variables-custom.md) directement dans le modèle.
 
@@ -155,7 +164,7 @@ Le pied de page du modèle d’e-mail contient la ligne de fermeture et de signa
 
 1. Sélectionnez la variable à insérer.
 
-   Lorsqu’une variable est sélectionnée, une [&#x200B; balise de balisage &#x200B;](markup-tags.md) est insérée dans le code.
+   Lorsqu’une variable est sélectionnée, une [ balise de balisage ](markup-tags.md) est insérée dans le code.
 
    Bien que les variables Contact de magasin soient celles qui sont le plus souvent incluses dans le pied de page, vous pouvez saisir le code de n’importe quelle variable système ou [variable personnalisée](variables-custom.md) directement dans le modèle.
 
@@ -233,7 +242,7 @@ Le processus de personnalisation du corps de chaque message est le même que pou
 
 ### Étape 3. Mise à jour de la configuration
 
-Le chemin de navigation _[!UICONTROL Currently Used For]_&#x200B;indique où le modèle est utilisé. Dans cet exemple, la configuration du modèle se trouve sur la page&#x200B;_[!UICONTROL Customer Configuration]_, dans la section _[!UICONTROL Create New Account Options]_&#x200B;et dans le champ&#x200B;_[!UICONTROL Default Welcome Email]_ .
+Le chemin de navigation _[!UICONTROL Currently Used For]_indique où le modèle est utilisé. Dans cet exemple, la configuration du modèle se trouve sur la page_[!UICONTROL Customer Configuration]_, dans la section _[!UICONTROL Create New Account Options]_et dans le champ_[!UICONTROL Default Welcome Email]_ .
 
 - Page - [!UICONTROL Customer Configuration]
 - Section - [!UICONTROL Create New Account Options]

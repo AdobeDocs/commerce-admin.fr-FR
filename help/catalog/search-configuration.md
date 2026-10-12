@@ -3,36 +3,47 @@ title: Configuration de la recherche catalogue
 description: Découvrez comment configurer la recherche catalogue pour votre boutique.
 exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
 feature: Catalog Management, Search
-TQID: https://experienceleague.adobe.com/8--7GCHftJl4i1oLVSQqII9Odv-mOXOqrdIyyXmGwrE
+TQID: 'https://experienceleague.adobe.com/8--7GCHftJl4i1oLVSQqII9Odv-mOXOqrdIyyXmGwrE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 834
+source-wordcount: '834'
 ht-degree: 0%
-
 ---
-
 # Configuration de la recherche catalogue
 
-Il existe deux variantes de la configuration de la recherche catalogue . La première méthode décrit les paramètres disponibles lors de l’installation de [Live Search](https://experienceleague.adobe.com/fr/docs/commerce/live-search/overview). La deuxième méthode décrit les paramètres de configuration d’Adobe Commerce natif avec [OpenSearch](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview){:target="_blank"}.
+Il existe deux variantes de la configuration de la recherche catalogue . La première méthode décrit les paramètres disponibles lors de l’installation de [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview). La deuxième méthode décrit les paramètres de configuration d’Adobe Commerce natif avec [OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview){:target="_blank"}.
 
 >[!NOTE]
 >
->Pour les projets d’infrastructure cloud, consultez les instructions supplémentaires dans le guide [_Commerce sur les infrastructures cloud_](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/configure/service/opensearch).
+>Pour les projets d’infrastructure cloud, consultez les instructions supplémentaires dans le guide [_Commerce sur les infrastructures cloud_](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/service/opensearch).
 
 ## Méthode 1 : Adobe Commerce avec [!DNL Live Search]
 
@@ -52,7 +63,7 @@ Il existe deux variantes de la configuration de la recherche catalogue . La prem
 
    La valeur par défaut est `100`. La saisie d’une valeur `0` met en cache tous les termes et résultats de recherche lorsqu’elle est effectuée une seconde fois.
 
-1. Pour modifier le nombre maximal de lignes disponibles pour les résultats renvoyés dans la fenêtre contextuelle [storefront](https://experienceleague.adobe.com/fr/docs/commerce/live-search/overview), saisissez une autre valeur de **[!UICONTROL Autocomplete Limit]**.
+1. Pour modifier le nombre maximal de lignes disponibles pour les résultats renvoyés dans la fenêtre contextuelle [storefront](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview), saisissez une autre valeur de **[!UICONTROL Autocomplete Limit]**.
 
    Limiter le nombre de lignes améliore les performances des recherches et réduit la taille de la liste renvoyée. La valeur par défaut est `8` lignes.
 
@@ -60,7 +71,7 @@ Il existe deux variantes de la configuration de la recherche catalogue . La prem
 
 >[!IMPORTANT]
 >
->- En raison de l’annonce de fin de prise en charge [!DNL Elasticsearch 7] d’août 2023, il est recommandé à tous les clients Adobe Commerce de migrer vers le moteur de recherche OpenSearch 2.x. Pour plus d’informations sur la migration de votre moteur de recherche pendant la mise à niveau du produit, voir [Migration vers OpenSearch](https://experienceleague.adobe.com/fr/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) dans le _Guide de mise à niveau_.
+>- En raison de l’annonce de fin de prise en charge [!DNL Elasticsearch 7] d’août 2023, il est recommandé à tous les clients Adobe Commerce de migrer vers le moteur de recherche OpenSearch 2.x. Pour plus d’informations sur la migration de votre moteur de recherche pendant la mise à niveau du produit, voir [Migration vers OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) dans le _Guide de mise à niveau_.
 >- Dans les versions 2.4.4 et 2.4.3-p2, tous les champs libellés Elasticsearch s’appliquent également à OpenSearch. Lorsque la prise en charge d’Elasticsearch 8.x a été introduite dans la version 2.4.6, de nouveaux libellés ont été créés pour faire la distinction entre les configurations Elasticsearch et OpenSearch. Toutefois, les options de configuration pour les deux sont identiques.
 
 ### Étape 1 : Configurer les options de recherche générales

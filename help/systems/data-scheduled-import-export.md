@@ -3,29 +3,43 @@ title: Import et export planifiés
 description: Découvrez comment gérer les opérations d’import et d’export de données planifiées.
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
-TQID: https://experienceleague.adobe.com/Zf5cLdCLjaDo8X8EvH4T9akYnlTBU-3Iyj2EIgMkjtU
+TQID: 'https://experienceleague.adobe.com/Zf5cLdCLjaDo8X8EvH4T9akYnlTBU-3Iyj2EIgMkjtU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2462
+source-wordcount: '2462'
 ht-degree: 0%
-
 ---
-
 # Import et export planifiés
 
 {{ee-feature}}
@@ -49,7 +63,7 @@ Les imports et exports planifiés peuvent être exécutés tous les jours, toute
    >
    >Lorsque vous créez ou mettez à jour une importation/exportation planifiée, cela entraîne une modification de la configuration du système. Après l’enregistrement, veillez à adresser l’avis d’invalidation du cache qui s’affiche en haut de la page Admin et à vider le cache afin d’appliquer le planning nouveau ou mis à jour.
 
-1. [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Après chaque traitement planifié, une copie du fichier est placée dans le répertoire `var/log/import_export` du serveur local Adobe Commerce.
+1. [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Après chaque traitement planifié, une copie du fichier est placée dans le répertoire `var/log/import_export` du serveur local Adobe Commerce.
 
    Les détails de chaque opération ne sont pas écrits dans le journal. Si une erreur se produit, une notification est envoyée concernant la tâche d’importation/exportation ayant échoué, avec une description de l’erreur.
 
@@ -64,7 +78,7 @@ L’avantage de l’utilisation de l’importation planifiée est que vous pouve
 
 Les détails de chaque opération d’importation ne sont pas écrits dans un journal, mais en cas d’échec, vous recevez un e-mail _Échec de l’importation_ avec une description de l’erreur. Le résultat de la dernière tâche d’importation planifiée s’affiche dans la colonne Dernier résultat de la page Importation/exportation planifiée .
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Après chaque opération d’import, une copie du fichier d’import est placée dans le répertoire `var/log/import_export` sur le serveur sur lequel Adobe Commerce ou Magento Open Source est déployé. La date et l’heure, le marqueur de l’entité importée (produits ou clients) et le type de l’opération (dans ce cas, importation) sont ajoutés au nom du fichier d’importation.
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Après chaque opération d’import, une copie du fichier d’import est placée dans le répertoire `var/log/import_export` sur le serveur sur lequel Adobe Commerce ou Magento Open Source est déployé. La date et l’heure, le marqueur de l’entité importée (produits ou clients) et le type de l’opération (dans ce cas, importation) sont ajoutés au nom du fichier d’importation.
 
 Après chaque tâche d’importation planifiée, une opération de réindexation est automatiquement effectuée. Sur le front-end, les modifications apportées aux descriptions et aux autres informations textuelles sont reflétées une fois que les données mises à jour sont envoyées dans la base de données, et les modifications de prix ne sont reflétées qu’après l’opération de réindexation.
 
@@ -82,24 +96,24 @@ Après chaque tâche d’importation planifiée, une opération de réindexation
 
    - **[!UICONTROL Entity Type]** — Définissez l&#39;une des options suivantes :
 
-      - `Products`
-      - `Advanced Pricing`
-      - `Customers and Addresses (single file)`
-      - `Customer Addresses`
-      - `Customer Finances`
-      - `Customers Main File`
-      - `Stock Sources`
+     - `Products`
+     - `Advanced Pricing`
+     - `Customers and Addresses (single file)`
+     - `Customer Addresses`
+     - `Customer Finances`
+     - `Customers Main File`
+     - `Stock Sources`
 
    - **[!UICONTROL Import Behavior]** — Définissez l&#39;une des options suivantes :
 
-      - `Add/Update Complex Data` — Ajoute ou met à jour de nouvelles données complexes aux données complexes existantes pour les entrées existantes dans la base de données. Il s’agit de la valeur par défaut.
-      - `Replace` — Écrit sur le complexe existant pour les entités existantes dans la base de données.
-      - `Delete Entities` — Supprime les entrées existantes dans la base de données.
-      - `Custom Action` - Personnalise les entités existantes dans la base de données.
+     - `Add/Update Complex Data` — Ajoute ou met à jour de nouvelles données complexes aux données complexes existantes pour les entrées existantes dans la base de données. Il s’agit de la valeur par défaut.
+     - `Replace` — Écrit sur le complexe existant pour les entités existantes dans la base de données.
+     - `Delete Entities` — Supprime les entrées existantes dans la base de données.
+     - `Custom Action` - Personnalise les entités existantes dans la base de données.
 
      >[!NOTE]
      >
-     >Pour les types d&#39;entités _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;et&#x200B;_[!UICONTROL Stock Sources]_, les comportements d&#39;import suivants s&#39;affichent : `Add/Update`, `Replace` et `Delete`. Pour les types d’entités _Finances client_, _Fichier principal des clients_ et _Clients et adresses_, les comportements d’importation suivants s’affichent : `Add/Update Complex Data`, `Delete Entities` et `Custom Action`.
+     >Pour les types d&#39;entités _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_et_[!UICONTROL Stock Sources]_, les comportements d&#39;import suivants s&#39;affichent : `Add/Update`, `Replace` et `Delete`. Pour les types d’entités _Finances client_, _Fichier principal des clients_ et _Clients et adresses_, les comportements d’importation suivants s’affichent : `Add/Update Complex Data`, `Delete Entities` et `Custom Action`.
 
    - **[!UICONTROL Start Time]** — Définit sur l&#39;heure, la minute et la seconde où l&#39;importation doit commencer.
 
@@ -219,7 +233,7 @@ L’avantage de l’utilisation de l’exportation planifiée est que vous pouve
 
 Les détails de chaque exportation ne sont pas écrits dans un journal, mais en cas d’échec, vous recevez un e-mail Échec de l’exportation , qui contient la description de l’erreur. Le résultat de la dernière tâche d’exportation s’affiche dans la colonne Dernier résultat de la page Importation/exportation planifiée .
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Après chaque exportation, le fichier d’exportation est placé à l’emplacement défini par l’utilisateur et une copie est effectuée dans le répertoire `var/log/import_export` sur le serveur sur lequel Adobe Commerce ou Magento Open Source est déployé. La date et l’heure, ainsi que le marqueur de l’entité exportée (produits ou clients) et le type de l’opération (dans ce cas, exportation) sont ajoutés au nom du fichier d’exportation.
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Après chaque exportation, le fichier d’exportation est placé à l’emplacement défini par l’utilisateur et une copie est effectuée dans le répertoire `var/log/import_export` sur le serveur sur lequel Adobe Commerce ou Magento Open Source est déployé. La date et l’heure, ainsi que le marqueur de l’entité exportée (produits ou clients) et le type de l’opération (dans ce cas, exportation) sont ajoutés au nom du fichier d’exportation.
 
 ### Étape 1 : définition des paramètres d’exportation
 
@@ -233,22 +247,22 @@ Les détails de chaque exportation ne sont pas écrits dans un journal, mais en 
 
    - Définissez **[!UICONTROL Entity Type]** sur l’une des options suivantes :
 
-      - `Advanced Pricing`
-      - `Products`
-      - `Customer Financing`
-      - `Customers Main File`
-      - `Customer Addresses`
-      - `Stock Sources`
+     - `Advanced Pricing`
+     - `Products`
+     - `Customer Financing`
+     - `Customers Main File`
+     - `Customer Addresses`
+     - `Stock Sources`
 
-     La section _[!UICONTROL Entity Attributes]_&#x200B;au bas de la page est mise à jour pour refléter le type d’entité sélectionné.
+     La section _[!UICONTROL Entity Attributes]_au bas de la page est mise à jour pour refléter le type d’entité sélectionné.
 
    - Définissez **[!UICONTROL Start Time]** sur l’heure, la minute et la seconde auxquelles l’exportation doit commencer.
 
    - Définissez **[!UICONTROL Frequency]** sur l’une des options suivantes :
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
 1. Pour activer l’exportation planifiée, définissez **[!UICONTROL Status]** sur `Enabled`.
 
@@ -274,7 +288,7 @@ Les détails de chaque exportation ne sont pas écrits dans un journal, mais en 
    - Par **[!UICONTROL Local Server]**, saisissez un chemin d’accès relatif dans l’installation de Commerce, tel que `var/export`. Si le module de stockage distant est configuré, utilisez `import_export/export`.
    - Par **[!UICONTROL Remote FTP server]**, saisissez l’URL complète et le chemin d’accès au dossier cible sur le serveur de destination.
 
-1. Si le serveur _[!UICONTROL Remote FTP]_&#x200B;est sélectionné, saisissez les informations d’identification de connexion au serveur et sélectionnez les paramètres supplémentaires :
+1. Si le serveur _[!UICONTROL Remote FTP]_est sélectionné, saisissez les informations d’identification de connexion au serveur et sélectionnez les paramètres supplémentaires :
 
    - Par **[!UICONTROL FTP Host[:Port]]**, saisissez l’adresse de l’hôte FTP distant.
    - Par **[!UICONTROL User Name]**, saisissez le nom d’utilisateur utilisé pour accéder au serveur distant.
@@ -335,7 +349,7 @@ Les détails de chaque exportation ne sont pas écrits dans un journal, mais en 
 | Champ | Description |
 | ----- | ----------- |
 | [!UICONTROL Server Type] | Détermine l’emplacement du fichier d’exportation. Options:<br>**Serveur local** — Place le fichier d&#39;exportation sur le serveur sur lequel Commerce est déployé. Si le module de stockage distant est activé, `Local Server` passe à `Remote Storage`.<br>**FTP distant** — Place le fichier d&#39;export sur un serveur distant. Des options supplémentaires pour les informations d’identification et les paramètres de transfert de fichiers s’affichent. |
-| [!UICONTROL File Directory] | Indiquez le répertoire dans lequel le fichier d’exportation est placé. Si _[!UICONTROL Server Type]_&#x200B;est défini sur `Local Server`, spécifiez le chemin relatif au chemin d’installation de Commerce. Par exemple, `var/export` ou `import_export/export` pour le stockage distant. |
+| [!UICONTROL File Directory] | Indiquez le répertoire dans lequel le fichier d’exportation est placé. Si _[!UICONTROL Server Type]_est défini sur `Local Server`, spécifiez le chemin relatif au chemin d’installation de Commerce. Par exemple, `var/export` ou `import_export/export` pour le stockage distant. |
 
 {style="table-layout:auto"}
 

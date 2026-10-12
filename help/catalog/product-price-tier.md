@@ -3,29 +3,39 @@ title: Tarification par niveau
 description: Découvrez comment utiliser la tarification de niveau pour offrir une remise sur la quantité à partir d’une liste de produits ou d’une page produit.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/jnHBD-ANVzqZa1IKCAy5aDrtj4n-ZDxXjFH4cGZ3dgM
+TQID: 'https://experienceleague.adobe.com/jnHBD-ANVzqZa1IKCAy5aDrtj4n-ZDxXjFH4cGZ3dgM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 892
+source-wordcount: '892'
 ht-degree: 1%
-
 ---
-
 # Tarification par niveau
 
 La tarification de niveau vous permet d’offrir une remise sur la quantité à partir d’une liste de produits ou d’une page de produits dans le storefront. La remise peut être appliquée à une vue de magasin spécifique, à un groupe de clients ou à un catalogue partagé.
@@ -72,7 +82,7 @@ Les prix dans le storefront ont la priorité de la quantité la plus élevée à
 
      >[!NOTE]
      >
-     >Pour obtenir le prix réduit, le pourcentage défini est calculé par rapport à la valeur définie dans le champ _[!UICONTROL Price]_, et non dans le champ&#x200B;_[!UICONTROL Special Price]_ .
+     >Pour obtenir le prix réduit, le pourcentage défini est calculé par rapport à la valeur définie dans le champ _[!UICONTROL Price]_, et non dans le champ_[!UICONTROL Special Price]_ .
 
      ![Prix de niveau en pourcentage](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
@@ -92,7 +102,7 @@ Les prix dans le storefront ont la priorité de la quantité la plus élevée à
 
 ## Activer la tarification de niveau pour les règles de prix de catalogue
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
 
 Dans les versions précédentes de Commerce, la tarification de niveau ne pouvait pas être utilisée conjointement avec les règles de prix de catalogue. Les règles de catalogue ont ignoré la configuration du prix de niveau et ont calculé les remises uniquement à partir du prix de base d’origine. Avec Adobe Commerce as a Cloud Service, vous pouvez désormais choisir d’inclure la tarification de niveau dans le calcul des règles de prix de catalogue.
 
@@ -108,17 +118,17 @@ Pour activer cette fonctionnalité :
 
 Pour illustrer le fonctionnement de la tarification de niveau avec les règles de prix de catalogue lors de l’achat d’un seul produit, prenons l’exemple suivant :
 
-- Le prix de base standard d&#39;un produit est de 100 USD.
+- Le prix de base standard d’un produit est de 100 USD.
 - Un prix de niveau est défini pour le groupe de clients `Wholesale` avec une quantité de `1` et un prix fixe de 90 USD.
 - Une règle de prix catalogue offre une remise de 10 % pour le groupe de clients `Wholesale`.
 
 Lorsque la tarification de niveau est activée pour les règles de prix de catalogue, le système utilise le flux suivant pour calculer le prix final :
 
-1. Avant que le client ne se connecte, le prix du produit s’affiche à 100 USD (le prix de base standard).
+1. Avant que le client ne se connecte, le prix du produit s’affiche sous la forme 100 USD (prix de base standard).
 
 1. Une fois que le client s’est connecté en tant que membre du groupe `Wholesale`, le prix du produit est ajusté à 90 USD (prix de niveau pour le groupe `Wholesale`).
 
-1. La règle de prix catalogue est appliquée, offrant une remise de 10 % sur le prix de niveau de 90 USD, ce qui donne un prix final de 81 USD.
+1. La règle de prix catalogue est appliquée, offrant une remise de 10 % sur le prix de niveau de 90 USD, ce qui entraîne un prix final de 81 USD.
 
 Le tableau suivant résume les calculs de prix lorsque la tarification de niveau est activée pour les règles de prix de catalogue et qu&#39;une règle de prix de catalogue offre une remise de 10 % pour tous les groupes de clients :
 

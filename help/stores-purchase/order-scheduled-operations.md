@@ -3,27 +3,35 @@ title: Opérations de commande planifiées
 description: Découvrez les opérations de commande planifiées et les paramètres cron de commande qui prennent en charge cette fonctionnalité.
 exl-id: 330fe75a-d901-4696-946e-fa7af9ea3d40
 feature: Orders, Configuration
-TQID: https://experienceleague.adobe.com/pViPmBFGErjXeFyvBNBVuJiw8Pn51JIGkeZ2mJAf72M
+TQID: 'https://experienceleague.adobe.com/pViPmBFGErjXeFyvBNBVuJiw8Pn51JIGkeZ2mJAf72M'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 286
+source-wordcount: '286'
 ht-degree: 0%
-
 ---
-
 # Opérations de commande planifiées
 
 Utilisez les traitements [Cron](../systems/cron.md) pour planifier les tâches de traitement de commande suivantes :
@@ -59,11 +67,11 @@ En planifiant ces tâches, vous pouvez éviter les verrous qui se produisent lor
 
 **_Pour activer les mises à jour et la réindexation:_**
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Lorsque [Mode de production](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/setup/application-modes#production-mode) (mode par défaut utilisé dans Adobe Commerce sur les infrastructures cloud) est activé, exécutez la commande suivante :
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."} Lorsque [Mode de production](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#production-mode) (mode par défaut utilisé dans Adobe Commerce sur les infrastructures cloud) est activé, exécutez la commande suivante :
 
 `bin/magento config:set dev/grid/async_indexing 1`
 
-Lorsque le [mode par défaut](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/setup/application-modes#default-mode) est activé, procédez comme suit :
+Lorsque le [mode par défaut](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#default-mode) est activé, procédez comme suit :
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

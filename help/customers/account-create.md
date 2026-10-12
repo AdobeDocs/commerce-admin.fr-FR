@@ -3,7 +3,7 @@ title: Création d’un compte client individuel
 description: Les visiteurs peuvent facilement créer un compte client individuel pour gérer leurs achats.
 exl-id: 8d08c0e1-f3ba-4423-98a7-ffa8ba5a1b8b
 feature: Customers, Storefront
-TQID: https://experienceleague.adobe.com/WwW2j0QIwKOe0r7XqH01-NGxggVfg-QBYewdD6a4GFs
+TQID: 'https://experienceleague.adobe.com/WwW2j0QIwKOe0r7XqH01-NGxggVfg-QBYewdD6a4GFs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -16,6 +16,10 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -33,7 +37,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9bd9d0a3b3c991236b98b464f8e2be2df37272ac
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 0%
@@ -144,7 +148,7 @@ En tant que commerçant, vous pouvez créer un compte client à partir de l’ad
 
    >[!INFO]
    >
-   >Une fois le compte client enregistré, l’ensemble complet des options s’affiche dans le panneau de gauche et dans le menu en haut de la page. L’onglet _[!UICONTROL Customer View]_&#x200B;affiche un résumé du compte.
+   >Une fois le compte client enregistré, l’ensemble complet des options s’affiche dans le panneau de gauche et dans le menu en haut de la page. L’onglet _[!UICONTROL Customer View]_affiche un résumé du compte.
 
    ![Affichage client](assets/customer-account-create-saved.png){width="600" zoomable="yes"}
 
@@ -175,7 +179,7 @@ En tant que commerçant, vous pouvez créer un compte client à partir de l’ad
 
    Sinon, cliquez sur **[!UICONTROL Save and Continue Edit]** et répétez les étapes précédentes pour ajouter des adresses supplémentaires.
 
-   La nouvelle adresse s’affiche sur la page [!UICONTROL Addresses] avec les adresses _[!UICONTROL Default Billing]_&#x200B;et&#x200B;_[!UICONTROL Default Shipping]_ sélectionnées au-dessus de la liste complète.
+   La nouvelle adresse s’affiche sur la page [!UICONTROL Addresses] avec les adresses _[!UICONTROL Default Billing]_et_[!UICONTROL Default Shipping]_ sélectionnées au-dessus de la liste complète.
 
    ![Vue Adresses](assets/address-list.png){width="600" zoomable="yes"}
 
@@ -197,7 +201,7 @@ D’autres boutons sont disponibles lorsque le profil est enregistré pour la pr
 
 | Bouton | Description |
 |--- |--- |
-| **[!UICONTROL Back]** | Retourne à la page _[!UICONTROL Customers]_&#x200B;sans enregistrer les modifications. |
+| **[!UICONTROL Back]** | Retourne à la page _[!UICONTROL Customers]_sans enregistrer les modifications. |
 | **[!UICONTROL Delete Customer]** | Supprime le client actuel. Les commandes terminées associées au client ne sont pas supprimées. |
 | **[!UICONTROL Reset]** | Réinitialise toutes les modifications non enregistrées dans le formulaire client à leurs valeurs précédentes. |
 | **[!UICONTROL Create Order]** | Crée une commande pour le client. |

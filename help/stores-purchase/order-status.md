@@ -3,27 +3,35 @@ title: Statut de la commande
 description: Découvrez les statuts de commande prédéfinis et comment définir des statuts de commande personnalisés pour s’aligner sur vos besoins opérationnels.
 exl-id: d1153558-a721-4643-a70c-7fc20072983c
 feature: Orders
-TQID: https://experienceleague.adobe.com/BJFtNtsT0-ZJH2aXaGlo2tLhgEVtK5bbmaispPmOVnc
+TQID: 'https://experienceleague.adobe.com/BJFtNtsT0-ZJH2aXaGlo2tLhgEVtK5bbmaispPmOVnc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1188
+source-wordcount: '1237'
 ht-degree: 0%
-
 ---
-
 # Statut de la commande
 
 Toutes les commandes ont un statut de commande associé à une étape du traitement des commandes [workflow](order-processing.md).\
@@ -144,13 +152,13 @@ Outre les paramètres prédéfinis de statut de la commande, vous pouvez créer 
 
 1. Dans la grille de _[!UICONTROL Order Status]_, recherchez l&#39;enregistrement de statut de la commande à laquelle annuler l&#39;affectation.
 
-1. Dans la colonne _[!UICONTROL Action]_&#x200B;tout à droite de la ligne, cliquez sur le lien **[!UICONTROL Unassign]**.
+1. Dans la colonne _[!UICONTROL Action]_tout à droite de la ligne, cliquez sur le lien **[!UICONTROL Unassign]**.
 
    Un message s’affiche en haut de l’espace de travail indiquant que l’affectation du statut de la commande a été annulée. Bien que le libellé Statut de la commande apparaisse toujours dans la liste, il n’est plus affecté à un état. Les paramètres de statut de la commande ne peuvent pas être supprimés.
 
 >[!NOTE]
 >
->Si le statut de commande par défaut n’est pas affecté à partir du statut de commande, _&#x200B;**un autre**&#x200B;_ statut de commande est _&#x200B;**défini automatiquement**&#x200B;_ par défaut pour ce statut de commande.
+>Si le statut de commande par défaut n’est pas affecté à partir du statut de commande, _**un autre**_ statut de commande est _**défini automatiquement**_ par défaut pour ce statut de commande.
 
 ## Notification
 

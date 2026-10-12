@@ -3,8 +3,8 @@ title: Réécritures d’URL
 description: Découvrez les réécritures d’URL et utilisez l’outil de réécriture d’URL de Commerce pour modifier les URL associées à un produit, une catégorie ou une page CMS.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-TQID: https://experienceleague.adobe.com/fuILlBHCevV6rfQT-PUiuBPBgWkFXDbFofgde8O5BCM
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+TQID: 'https://experienceleague.adobe.com/fuILlBHCevV6rfQT-PUiuBPBgWkFXDbFofgde8O5BCM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -15,6 +15,13 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -36,7 +43,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4e39d90f62de53be1aa892ca325f20f5aedc845a
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 0%
@@ -45,7 +52,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Pour Adobe Commerce as a Cloud Service, consultez les [directives SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=fr) de la documentation du Storefront Commerce
+>Pour Adobe Commerce as a Cloud Service, consultez les [directives SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) de la documentation du Storefront Commerce
 
 L’outil Réécritures d’URL permet de modifier toute URL associée à un produit, une catégorie ou une page CMS. Lorsque vous créez une réécriture d’URL, Commerce crée automatiquement une redirection permanente (301) afin que tous les liens pointant vers l’ancienne URL soient redirigés vers la nouvelle adresse.
 
@@ -81,7 +88,7 @@ Par défaut, les [redirections d’URL automatiques](url-redirect-product-automa
 
 Regardez la vidéo suivante pour en savoir plus sur la gestion des réécritures d’URL :
 
->[!VIDEO](https://video.tv.adobe.com/v/3410124?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
 
 ## Créer des réécritures d’URL
 
@@ -196,4 +203,4 @@ Selon la configuration de votre site web, l’index peut contenir plusieurs vers
     https://example.com
     https://www.example.com/index.html
 
-Pour spécifier une page canonique, consultez la documentation de Google Search Central [&#128279;](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).
+Pour spécifier une page canonique, consultez la documentation de Google Search Central [](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).

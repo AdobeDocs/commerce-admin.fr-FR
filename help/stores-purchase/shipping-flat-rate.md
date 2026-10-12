@@ -3,26 +3,33 @@ title: Frais de livraison forfaitaires
 description: Découvrez comment configurer une option d’expédition forfaitaire pour votre boutique.
 exl-id: a6874509-a79b-42ab-aa93-d70d18fc33f6
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/mCScBdxmQUXGocuIYFllyZCnrpFOQ6Oh8sJKzo6O2QA
+TQID: 'https://experienceleague.adobe.com/mCScBdxmQUXGocuIYFllyZCnrpFOQ6Oh8sJKzo6O2QA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 554
+source-wordcount: '554'
 ht-degree: 0%
-
 ---
-
 # Frais de livraison forfaitaires
 
 _Taux forfaitaire_ est une charge fixe prédéfinie qui peut être appliquée par article ou par expédition. Le tarif forfaitaire est une solution d&#39;expédition simple, en particulier lorsqu&#39;il est utilisé avec l&#39;emballage forfaitaire disponible auprès de certains transporteurs. Lorsqu’elle est activée, la _Taux forfaitaire_ s’affiche en tant qu’option lors du passage en caisse. Comme aucun opérateur spécifique n&#39;est spécifié, vous pouvez utiliser un opérateur de votre choix.
@@ -63,8 +70,8 @@ _Taux forfaitaire_ est une charge fixe prédéfinie qui peut être appliquée pa
 
    - Pour **Calculer les frais de manutention**, sélectionnez la méthode à utiliser pour calculer les frais de manutention :
 
-      - `Fixed`
-      - `Percent`
+     - `Fixed`
+     - `Percent`
 
    - Pour **Frais de gestion**, saisissez le montant à facturer en fonction de la méthode de calcul choisie.
 

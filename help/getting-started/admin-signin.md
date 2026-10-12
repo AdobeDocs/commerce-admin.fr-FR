@@ -3,36 +3,56 @@ title: Votre compte utilisateur d’administrateur
 description: Découvrez votre compte d’administrateur et comment utiliser l’authentification à deux facteurs pour vous connecter à l’administrateur.
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
-TQID: https://experienceleague.adobe.com/p40Sr3TPKp2QrTiMdwzmGL04lO6f8xK8fCLcbOebV7M
+TQID: 'https://experienceleague.adobe.com/p40Sr3TPKp2QrTiMdwzmGL04lO6f8xK8fCLcbOebV7M'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4560f5f5-d00c-5b5d-b61b-369d85ef7a26
+    internal-label: User Account
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+    internal-label: 2FA
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
+    internal-label: Privacy
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1193
+source-wordcount: '1193'
 ht-degree: 0%
-
 ---
-
 # Votre compte d’administrateur
 
 Le compte administrateur principal a été initialement configuré lors de l’installation et peut contenir des informations initiales d’espace réservé ou des informations d’exemples de données. Le propriétaire désigné de ce compte peut personnaliser le nom d’utilisateur et le mot de passe et mettre à jour le prénom, le nom et l’adresse e-mail à tout moment. Ce compte, un _super utilisateur_ avec toutes les autorisations par défaut, crée généralement les comptes utilisateur d’administration nécessaires à l’entreprise.
@@ -49,7 +69,7 @@ Le [!DNL Commerce] _Admin_ est protégé par plusieurs couches de mesures de sé
 
 Selon la configuration de votre boutique, il peut y avoir un défi [CAPTCHA](../systems/security-google-recaptcha.md) à résoudre, comme saisir une série de caractères au clavier, résoudre un puzzle ou cliquer sur une série d’images avec un thème commun. Ces tests sont conçus pour vous identifier en tant qu’humain, plutôt qu’en tant que robot automatisé.
 
-Pour plus de sécurité, vous pouvez déterminer les parties du _Administrateur_ auxquelles chaque utilisateur a [autorisation](../systems/permissions.md) d’accéder et également limiter le nombre [&#x200B; tentatives de connexion](../configuration-reference/advanced/admin.md). Par défaut, après six tentatives, le compte est verrouillé et l’utilisateur ou l’utilisatrice doit attendre quelques minutes avant de réessayer. [Comptes verrouillés](../systems/permissions-users-all.md#locked-users) peuvent également être réinitialisés à partir de l’_Admin_.
+Pour plus de sécurité, vous pouvez déterminer les parties du _Administrateur_ auxquelles chaque utilisateur a [autorisation](../systems/permissions.md) d’accéder et également limiter le nombre [ tentatives de connexion](../configuration-reference/advanced/admin.md). Par défaut, après six tentatives, le compte est verrouillé et l’utilisateur ou l’utilisatrice doit attendre quelques minutes avant de réessayer. [Comptes verrouillés](../systems/permissions-users-all.md#locked-users) peuvent également être réinitialisés à partir de l’_Admin_.
 
 >[!NOTE]
 >
@@ -115,7 +135,7 @@ La réutilisation des quatre derniers mots de passe attribués au compte n’est
 
 1. Saisissez le **[!UICONTROL Email Address]** associé au compte _Admin_.
 
-   ![&#x200B; Mot de passe oublié &#x200B;](./assets/admin-sign-in-forgot-password.png){width="400"}
+   ![ Mot de passe oublié ](./assets/admin-sign-in-forgot-password.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Retrieve Password]**.
 
@@ -133,7 +153,7 @@ La réutilisation des quatre derniers mots de passe attribués au compte n’est
 
    ![Se déconnecter](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-La page _[!UICONTROL Sign In]_&#x200B;affiche un message indiquant que vous êtes déconnecté. Déconnectez-vous du_ Administrateur _chaque fois que vous laissez votre ordinateur sans surveillance.
+La page _[!UICONTROL Sign In]_affiche un message indiquant que vous êtes déconnecté. Déconnectez-vous du_ Administrateur _chaque fois que vous laissez votre ordinateur sans surveillance.
 
 ## Modifier les informations du compte
 

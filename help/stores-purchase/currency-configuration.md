@@ -3,29 +3,38 @@ title: Configuration de la devise
 description: Découvrez comment définir la portée de la devise de base et comment spécifier les devises que vous acceptez et la devise que vous souhaitez utiliser pour l’affichage des prix.
 exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
-TQID: https://experienceleague.adobe.com/-8zl9x0ORJssQFyubtdVbht9iOjWIi5zCv4LuN0ORhE
+TQID: 'https://experienceleague.adobe.com/-8zl9x0ORJssQFyubtdVbht9iOjWIi5zCv4LuN0ORhE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3033d2ab-c1d2-5b52-b865-72d9e5ad2c37
+    internal-label: Currency
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 826
+source-wordcount: '826'
 ht-degree: 0%
-
 ---
-
 # Configuration de la devise
 
-Avant de configurer des taux de change individuels, vous devez d&#39;abord définir la portée de la [devise de base](../configuration-reference/general/currency-setup.md). Il est défini sur global par défaut, ce qui applique le paramètre de devise de base à l’ensemble de la hiérarchie [&#x200B; magasin](../getting-started/websites-stores-views.md). Si vous disposez d’une installation Adobe Commerce ou Magento Open Source multisite, vous pouvez gérer plusieurs devises de base en définissant l’étendue au niveau du site web.
+Avant de configurer des taux de change individuels, vous devez d&#39;abord définir la portée de la [devise de base](../configuration-reference/general/currency-setup.md). Il est défini sur global par défaut, ce qui applique le paramètre de devise de base à l’ensemble de la hiérarchie [ magasin](../getting-started/websites-stores-views.md). Si vous disposez d’une installation Adobe Commerce ou Magento Open Source multisite, vous pouvez gérer plusieurs devises de base en définissant l’étendue au niveau du site web.
 
 Vous spécifiez également les devises que vous acceptez et celle que vous souhaitez utiliser pour l’affichage des [prix](../catalog/catalog-price-scope.md) dans votre magasin. Dans le diagramme suivant, l’étendue de la devise de base est définie au niveau du site web. Chaque site web peut donc avoir une devise de base différente.
 
@@ -83,31 +92,31 @@ Vous spécifiez également les devises que vous acceptez et celle que vous souha
 
    - _Pour vous connecter au service [fixer.io](https://fixer.io/):_
 
-      - Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Fixer.io]** .
+     - Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Fixer.io]** .
 
-      - Entrez votre **[!UICONTROL API key]** fixer.io.
+     - Entrez votre **[!UICONTROL API key]** fixer.io.
 
-      - Par **[!UICONTROL Connection Timeout in Seconds]**, saisissez le nombre de secondes d’inactivité à autoriser avant l’expiration de la connexion.
+     - Par **[!UICONTROL Connection Timeout in Seconds]**, saisissez le nombre de secondes d’inactivité à autoriser avant l’expiration de la connexion.
 
      ![Configuration générale - Configuration de la devise - Options Fixer.io](../configuration-reference/general/assets/currency-setup-fixer.png){width="600" zoomable="yes"}
 
    - _Pour vous connecter au [[!DNL Fixer Api (APILayer)] service](https://apilayer.com/):_
 
-      - Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Fixer Api (APILayer)]** .
+     - Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Fixer Api (APILayer)]** .
 
-      - Saisissez votre **[!UICONTROL API key]** de [!DNL APILayer].
+     - Saisissez votre **[!UICONTROL API key]** de [!DNL APILayer].
 
-      - Par **[!UICONTROL Connection Timeout in Seconds]**, saisissez le nombre de secondes d’inactivité à autoriser avant l’expiration de la connexion.
+     - Par **[!UICONTROL Connection Timeout in Seconds]**, saisissez le nombre de secondes d’inactivité à autoriser avant l’expiration de la connexion.
 
      ![Configuration générale - Configuration de la devise - Options de l’API Fixer (APILayer)](../configuration-reference/general/assets/currency-setup-fixer-api.png){width="600" zoomable="yes"}
 
    - _Pour vous connecter au [[!DNL Currency Convertor API] service](https://free.currencyconverterapi.com/):_
 
-      - Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Currency Convertor API]** .
+     - Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Currency Convertor API]** .
 
-      - Saisissez votre **[!UICONTROL API key]** Convertisseur de devises.
+     - Saisissez votre **[!UICONTROL API key]** Convertisseur de devises.
 
-      - Par **[!UICONTROL Connection Timeout in Seconds]**, saisissez le nombre de secondes d’inactivité à autoriser avant l’expiration de la connexion.
+     - Par **[!UICONTROL Connection Timeout in Seconds]**, saisissez le nombre de secondes d’inactivité à autoriser avant l’expiration de la connexion.
 
      ![Configuration générale - Configuration de la devise - Options de l’API Convertisseur de devises](../configuration-reference/general/assets/currency-setup-converter.png){width="600" zoomable="yes"}
 
@@ -127,15 +136,15 @@ Vous spécifiez également les devises que vous acceptez et celle que vous souha
 
    - **[!UICONTROL Frequency]** — Pour déterminer la fréquence de mise à jour des taux, définissez l&#39;une des options suivantes :
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
    - **[!UICONTROL Error Email Recipient]** — Saisissez l&#39;adresse e-mail de la personne qui doit recevoir une notification par e-mail si une erreur se produit pendant le processus d&#39;importation.
 
      Pour saisir plusieurs adresses e-mail, séparez-les par une virgule.
 
-   - **[!UICONTROL Error Email Sender]** — Définit sur le [&#x200B; contact de magasin &#x200B;](../getting-started/store-details.md#store-email-addresses) qui apparaît comme l&#39;expéditeur de la notification d&#39;erreur.
+   - **[!UICONTROL Error Email Sender]** — Définit sur le [ contact de magasin ](../getting-started/store-details.md#store-email-addresses) qui apparaît comme l&#39;expéditeur de la notification d&#39;erreur.
 
    - **[!UICONTROL Error Email Template]** — Définit sur le modèle d&#39;e-mail utilisé pour la notification d&#39;erreur.
 
@@ -163,7 +172,7 @@ La gestion des symboles de devise vous permet de personnaliser le symbole associ
 
    - Saisissez un symbole personnalisé pour chaque devise que vous souhaitez utiliser ou cochez la case **[!UICONTROL Use Standard]** pour chaque devise.
 
-   - Pour remplacer le symbole par défaut, décochez la case _[!UICONTROL Use Standard]_&#x200B;et saisissez le symbole à utiliser.
+   - Pour remplacer le symbole par défaut, décochez la case _[!UICONTROL Use Standard]_et saisissez le symbole à utiliser.
 
    >[!NOTE]
    >

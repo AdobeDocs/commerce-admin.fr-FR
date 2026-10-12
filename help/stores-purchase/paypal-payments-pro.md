@@ -3,29 +3,38 @@ title: PayPal Payments Pro
 description: Découvrez comment configurer PayPal Payments Pro en tant que solution de paiement en ligne sur votre boutique.
 exl-id: 9cc5c3a6-d471-4198-85a2-c4cf9dfd378b
 feature: Payments
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-TQID: https://experienceleague.adobe.com/MbyNmKyZsbvHP9t7GI6nxn73HQVSWKCtb8p-Zo0DaUs
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+TQID: 'https://experienceleague.adobe.com/MbyNmKyZsbvHP9t7GI6nxn73HQVSWKCtb8p-Zo0DaUs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2266
+source-wordcount: '2314'
 ht-degree: 0%
-
 ---
-
 # PayPal Payments Pro
 
 [PayPal Payments Pro](https://developer.paypal.com/docs/paypal-payments-pro/) vous offre tous les avantages d&#39;un compte marchand et d&#39;une passerelle de paiement en un seul, ainsi que la possibilité de créer votre propre expérience de paiement entièrement personnalisée. PayPal Express Checkout est automatiquement activé avec PayPal Payments Pro, ce qui vous permet de consulter plus de 110 millions d&#39;utilisateurs actifs de PayPal.
@@ -130,10 +139,10 @@ Avant de configurer PayPal Payments Pro dans Commerce, vous devez configurer vot
 
    - Renseignez les champs obligatoires dans les sections suivantes du formulaire _[!UICONTROL Add User]_:
 
-      - [!UICONTROL Admin Confirmation]
-      - [!UICONTROL User Information]
-      - [!UICONTROL User Login Information]
-      - [!UICONTROL Assign Privilege to User]
+     - [!UICONTROL Admin Confirmation]
+     - [!UICONTROL User Information]
+     - [!UICONTROL User Login Information]
+     - [!UICONTROL Assign Privilege to User]
 
    - Cliquez sur **[!UICONTROL Update]**.
 
@@ -157,7 +166,7 @@ Avant de configurer PayPal Payments Pro dans Commerce, vous devez configurer vot
 
 1. Si votre installation Commerce comporte plusieurs sites web, boutiques ou vues, définissez **[!UICONTROL Store View]** sur la vue de la boutique dans laquelle vous souhaitez appliquer cette configuration.
 
-1. Dans la section _[!UICONTROL Merchant Location]_, sélectionnez le **[!UICONTROL Merchant Country]**&#x200B;où se trouve votre entreprise.
+1. Dans la section _[!UICONTROL Merchant Location]_, sélectionnez le **[!UICONTROL Merchant Country]**où se trouve votre entreprise.
 
    Ce paramètre détermine la sélection des solutions PayPal qui apparaissent dans la configuration.
 
@@ -364,7 +373,7 @@ Définissez **[!UICONTROL Enable PayPal PayLater Experience]** sur l’une des o
 1. Définissez **[!UICONTROL Payment Applicable From]** sur l’une des options suivantes :
 
    - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans la configuration de votre boutique peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Payment from Specific Countries]_&#x200B;s’affiche. Maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et sélectionnez chaque pays dans la liste où les clients peuvent effectuer des achats dans votre boutique.
+   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Payment from Specific Countries]_s’affiche. Maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et sélectionnez chaque pays dans la liste où les clients peuvent effectuer des achats dans votre boutique.
 
 1. Pour écrire des communications avec le système de paiement dans le fichier journal, définissez **[!UICONTROL Debug Mode]** sur `Yes`.
 
@@ -405,8 +414,8 @@ Définissez **[!UICONTROL Enable PayPal PayLater Experience]** sur l’une des o
 
    - Si vous vous êtes inscrit au serveur FTP sécurisé de PayPal, saisissez les informations d&#39;identification SFTP suivantes :
 
-      - Login
-      - Mot de passe
+     - Login
+     - Mot de passe
 
    - Pour exécuter des rapports de test avant la mise en ligne avec Payments Pro sur votre site, définissez **[!UICONTROL Sandbox Mode]** sur `Yes`.
 
@@ -424,13 +433,13 @@ Définissez **[!UICONTROL Enable PayPal PayLater Experience]** sur l’une des o
 
    - Définissez **[!UICONTROL Schedule]** sur l’une des options suivantes :
 
-      - `Daily`
-      - `Every 3 Days`
-      - `Every 7 Days`
-      - `Every 10 Days`
-      - `Every 14 Days`
-      - `Every 30 Days`
-      - `Every 40 Days`
+     - `Daily`
+     - `Every 3 Days`
+     - `Every 7 Days`
+     - `Every 10 Days`
+     - `Every 14 Days`
+     - `Every 30 Days`
+     - `Every 40 Days`
 
      PayPal conserve chaque rapport pendant 45 jours.
 
@@ -438,7 +447,7 @@ Définissez **[!UICONTROL Enable PayPal PayLater Experience]** sur l’une des o
 
 #### Paramètres de l’expérience front-end
 
-Utilisez le _[!UICONTROL Frontend Experience Settings]_&#x200B;pour choisir les logos PayPal qui apparaîtront sur votre site et personnaliser l&#39;apparence de vos pages marchandes PayPal.
+Utilisez le _[!UICONTROL Frontend Experience Settings]_pour choisir les logos PayPal qui apparaîtront sur votre site et personnaliser l&#39;apparence de vos pages marchandes PayPal.
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Frontend Experience Settings]** .
 
@@ -458,9 +467,9 @@ Utilisez le _[!UICONTROL Frontend Experience Settings]_&#x200B;pour choisir les 
 
    - Saisissez le nom du **[!UICONTROL Page Style]** que vous souhaitez appliquer à vos pages marchandes PayPal :
 
-      - `paypal` - Utilise le style de page PayPal.
-      - `primary` - Utilise le style de page que vous avez identifié comme style _principal_ dans le profil de votre compte.
-      - `your_custom_value` - Utilise un style de page de paiement personnalisé, spécifié dans le profil de votre compte.
+     - `paypal` - Utilise le style de page PayPal.
+     - `primary` - Utilise le style de page que vous avez identifié comme style _principal_ dans le profil de votre compte.
+     - `your_custom_value` - Utilise un style de page de paiement personnalisé, spécifié dans le profil de votre compte.
 
    - Par **[!UICONTROL Header Image URL]**, saisissez l’URL de l’image que vous souhaitez afficher dans le coin supérieur gauche de la page de paiement. La taille de fichier maximale est de 750 pixels de large sur 90 pixels de haut.
 
@@ -470,9 +479,9 @@ Utilisez le _[!UICONTROL Frontend Experience Settings]_&#x200B;pour choisir les 
 
    - Pour définir la couleur de vos pages, saisissez le code hexadécimal à six caractères, sans le symbole `#`, pour chacun des éléments suivants :
 
-      - **[!UICONTROL Header Background Color]** - Couleur d’arrière-plan de l’en-tête de la page de passage en caisse.
-      - **[!UICONTROL Header Border Color]** : couleur de la bordure de deux pixels autour de l’en-tête.
-      - **[!UICONTROL Page Background Color]** - Couleur d’arrière-plan de la page de passage en caisse et autour de l’en-tête et du formulaire de paiement.
+     - **[!UICONTROL Header Background Color]** - Couleur d’arrière-plan de l’en-tête de la page de passage en caisse.
+     - **[!UICONTROL Header Border Color]** : couleur de la bordure de deux pixels autour de l’en-tête.
+     - **[!UICONTROL Page Background Color]** - Couleur d’arrière-plan de la page de passage en caisse et autour de l’en-tête et du formulaire de paiement.
 
 ### Étape 6 : Définissez les paramètres de base de PayPal Express Checkout
 
@@ -493,7 +502,7 @@ Utilisez le _[!UICONTROL Frontend Experience Settings]_&#x200B;pour choisir les 
    - `Authorization` - Valide l&#39;achat et met un blocage sur les fonds. Le montant n&#39;est pas retiré tant qu&#39;il n&#39;est pas _saisi_ par le commerçant.
    - `Sale` - Le montant de l&#39;achat est autorisé et immédiatement retiré du compte du client.
 
-1. Pour afficher le bouton _[!UICONTROL Check out with PayPal]_&#x200B;sur la page produit, définissez **[!UICONTROL Display on Product Details Page]**&#x200B;sur `Yes`.
+1. Pour afficher le bouton _[!UICONTROL Check out with PayPal]_sur la page produit, définissez **[!UICONTROL Display on Product Details Page]**sur `Yes`.
 
 ### Étape 7 : Définissez les paramètres avancés de PayPal Express Checkout
 
@@ -506,7 +515,7 @@ Utilisez le _[!UICONTROL Frontend Experience Settings]_&#x200B;pour choisir les 
 1. Définissez **[!UICONTROL Payment Applicable From]** sur l’une des options suivantes :
 
    - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans la configuration de votre boutique peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Payment from Specific Countries]_&#x200B;s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque élément.
+   - `Specific Countries` - Après avoir choisi cette option, la liste des _[!UICONTROL Payment from Specific Countries]_s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque élément.
 
 1. Pour écrire des communications avec le système de paiement dans le fichier journal, définissez **[!UICONTROL Debug Mode]** sur `Yes`.
 

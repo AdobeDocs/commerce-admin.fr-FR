@@ -3,34 +3,47 @@ title: Paramètres du produit - [!UICONTROL Search Engine Optimization]
 description: Pour un produit, les paramètres de [!UICONTROL Search Engine Optimization] définissent la clé URL et les métadonnées utilisées par les moteurs de recherche pour indexer le produit.
 exl-id: 78888094-759c-4e45-afcd-65858ee76159
 feature: Catalog Management, Products, Search
-TQID: https://experienceleague.adobe.com/ya6B95jMPXfOYW785xN7WrmbFOwtKXdcr7yXTDvOAcw
+TQID: 'https://experienceleague.adobe.com/ya6B95jMPXfOYW785xN7WrmbFOwtKXdcr7yXTDvOAcw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 531
+source-wordcount: '531'
 ht-degree: 0%
-
 ---
-
 # Paramètres du produit - [!UICONTROL Search Engine Optimization]
 
 Le _référencement naturel_ (SEO) consiste à affiner le contenu et la présentation d’un site afin d’améliorer la façon dont les pages sont indexées par les moteurs de recherche.
 
-Les paramètres de _[!UICONTROL Search Engine Optimization]_&#x200B;d’un produit spécifient les champs [Clé URL](catalog-urls.md) et [métadonnées](../merchandising-promotions/meta-data.md) utilisés par les moteurs de recherche pour indexer le produit. Bien que certains moteurs de recherche ignorent les méta-mots-clés, d’autres continuent de les utiliser. La [bonne pratique d’optimisation du moteur de recherche](../merchandising-promotions/seo-overview.md) actuelle consiste à incorporer des mots-clés à forte valeur ajoutée au méta-titre et à la méta-description.
+Les paramètres de _[!UICONTROL Search Engine Optimization]_d’un produit spécifient les champs [Clé URL](catalog-urls.md) et [métadonnées](../merchandising-promotions/meta-data.md) utilisés par les moteurs de recherche pour indexer le produit. Bien que certains moteurs de recherche ignorent les méta-mots-clés, d’autres continuent de les utiliser. La [bonne pratique d’optimisation du moteur de recherche](../merchandising-promotions/seo-overview.md) actuelle consiste à incorporer des mots-clés à forte valeur ajoutée au méta-titre et à la méta-description.
 
 La valeur par défaut de chaque champ de métadonnées peut être générée automatiquement en fonction des valeurs spécifiées dans la configuration. Chaque champ contient un espace réservé qui est remplacé par une valeur réelle. Pour plus d’informations, voir [Génération automatique des champs de produit](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation).
 

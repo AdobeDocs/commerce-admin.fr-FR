@@ -3,29 +3,41 @@ title: Gestion des images et des vidéos du produit
 description: Découvrez comment gérer les ressources d’images et vidéo pour vos listes de produits.
 exl-id: 3cb4ab8a-8966-400f-be94-a517634d1334
 feature: Catalog Management, Products, Media
-TQID: https://experienceleague.adobe.com/gbvXNkkQXUwyp7oE-xZGLEDNmsJIW4ezKHoOojdmGgA
+TQID: 'https://experienceleague.adobe.com/gbvXNkkQXUwyp7oE-xZGLEDNmsJIW4ezKHoOojdmGgA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1164
+source-wordcount: '1164'
 ht-degree: 0%
-
 ---
-
 # Gestion des images et des vidéos du produit
 
 Pour chaque produit, vous pouvez charger plusieurs images et vidéos, réorganiser leur ordre et contrôler leur utilisation. Si vous devez gérer une grande quantité d’images, il est préférable de les importer par lot, plutôt que de les charger individuellement. Pour plus d’informations, voir [Importer des images de produit](../systems/data-import-product-images.md).
@@ -60,7 +72,7 @@ Pour charger une image, effectuez l’une des opérations suivantes :
 
 ### Réorganiser les images
 
-Pour modifier l’ordre des images dans la galerie, cliquez sur l’icône _[!UICONTROL Sort]_( ![Icône Trier](./assets/inventory-icon-sort.png) ) au bas de la mosaïque de l’image et faites glisser l’image à un autre emplacement dans la zone de&#x200B;_[!UICONTROL Images And Videos]_.
+Pour modifier l’ordre des images dans la galerie, cliquez sur l’icône _[!UICONTROL Sort]_( ![Icône Trier](./assets/inventory-icon-sort.png) ) au bas de la mosaïque de l’image et faites glisser l’image à un autre emplacement dans la zone de_[!UICONTROL Images And Videos]_.
 
 ![Modifier l’ordre](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
@@ -102,7 +114,7 @@ Pour exclure une image de la galerie de miniatures, cochez la case **[!UICONTROL
 
 ## Gestion des images et des vidéos au niveau de l’affichage du magasin
 
-Lorsque vous basculez le sélecteur de **[!UICONTROL Store View]** vers une vue de magasin spécifique (non **[!UICONTROL All Store Views]**), la section _[!UICONTROL Images and Videos]_&#x200B;fournit des commandes supplémentaires pour gérer l’affichage des images pour cette vue de magasin sans affecter la portée par défaut.
+Lorsque vous basculez le sélecteur de **[!UICONTROL Store View]** vers une vue de magasin spécifique (non **[!UICONTROL All Store Views]**), la section _[!UICONTROL Images and Videos]_fournit des commandes supplémentaires pour gérer l’affichage des images pour cette vue de magasin sans affecter la portée par défaut.
 
 ### Réorganiser les images pour une vue de magasin
 
@@ -156,7 +168,7 @@ Le filigrane utilisé pour l’image _small_ dans l’exemple suivant est un log
 1. Utilisez l’une des méthodes suivantes pour ajouter la ressource image de filigrane :
 
    - Cliquez sur **[!UICONTROL Upload]** et sélectionnez le fichier image de votre système que vous souhaitez charger pour l’utiliser comme filigrane.
-   - Cliquez sur **[!UICONTROL Select from Gallery]** et sélectionnez une ressource image dans la [&#x200B; Galerie de médias &#x200B;](../content-design/media-gallery.md).
+   - Cliquez sur **[!UICONTROL Select from Gallery]** et sélectionnez une ressource image dans la [ Galerie de médias ](../content-design/media-gallery.md).
 
 1. Définissez les paramètres d’affichage du filigrane :
 

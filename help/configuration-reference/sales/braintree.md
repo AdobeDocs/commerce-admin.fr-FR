@@ -3,31 +3,43 @@ title: '[!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL Braintre
 description: Consultez les paramètres de configuration de la section [!UICONTROL Braintree] de la page [!UICONTROL Sales] &gt ; [!UICONTROL Payment Methods] de Commerce Admin.
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 feature: Configuration, Payments
-TQID: https://experienceleague.adobe.com/nYlyPsbZ5YhBI6C6pzOk9Ns-6pA6VME3uzKfRhJ5HLo
+TQID: 'https://experienceleague.adobe.com/nYlyPsbZ5YhBI6C6pzOk9Ns-6pA6VME3uzKfRhJ5HLo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2904
+source-wordcount: '2904'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL Braintree]
 
 >[!IMPORTANT]
@@ -43,7 +55,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Si vous avez besoin d&#39;aide pour régler des frais imprévus sur votre carte, consultez la page [annuler l&#39;abonnement](https://helpx.adobe.com/fr/manage-account/using/cancel-subscription.html) pour obtenir de l&#39;aide.
+>Si vous avez besoin d&#39;aide pour régler des frais imprévus sur votre carte, consultez la page [annuler l&#39;abonnement](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) pour obtenir de l&#39;aide.
 
 ## [!UICONTROL Basic Braintree Settings]
 
@@ -54,12 +66,12 @@ ht-degree: 0%
 | [!UICONTROL Title] | Affichage de la boutique | Valeur par défaut : `Credit Card` (Braintree) |
 | [!UICONTROL Environment] | Affichage de la boutique | Options : `Sandbox` / `Production` |
 | [!UICONTROL Payment Action] | Affichage de la boutique | Détermine l&#39;action entreprise par Braintree lors du traitement d&#39;un paiement. Options : <br/>**`Authorize`**- Les fonds figurant sur la carte de crédit du client sont autorisés, mais ne sont pas transférés du compte. Une commande est créée dans l’administration de votre boutique. Vous pouvez ensuite capturer la vente et créer une facture.<br/>**`Intent Sale`** (précédemment `Authorize and Capture` dans des versions antérieures) - Les fonds figurant sur la carte de crédit du client sont autorisés et saisis par Braintree. Une commande et une facture sont créées dans l’administration de votre boutique. |
-| [!UICONTROL Sandbox Merchant ID] | Affichage de la boutique | Il s’agit de l’identifiant unique de l’ensemble de votre compte de passerelle Sandbox. Également appelé _ID public_ ou _ID de production_, votre ID de commerçant est différent pour vos passerelles de production et sandbox. Ce champ s’affiche lorsque le champ _[!UICONTROL Environment]_&#x200B;est défini sur `Sandbox`. |
-| [!UICONTROL Sandbox Public Key] | Affichage de la boutique | Il s’agit de votre identifiant public spécifique à l’utilisateur qui limite l’accès aux données chiffrées. Chaque utilisateur associé à votre passerelle Braintree Sandbox dispose de sa propre clé publique Sandbox. Ce champ s’affiche lorsque le champ _[!UICONTROL Environment]_&#x200B;est défini sur `Sandbox`. |
-| [!UICONTROL Sandbox Private Key] | Affichage de la boutique | Il s’agit de votre identifiant privé spécifique à l’utilisateur qui limite l’accès aux données chiffrées. Chaque utilisateur associé à votre passerelle Braintree Sandbox dispose de sa propre clé privée pour la sandbox. Ce champ s’affiche lorsque le champ _[!UICONTROL Environment]_&#x200B;est défini sur `Sandbox`. |
-| [!UICONTROL Merchant ID] | Affichage de la boutique | Il s’agit de l’identifiant unique de l’ensemble de votre compte de passerelle, y compris les différents comptes commerçants qui peuvent se trouver dans votre passerelle. Également appelé _ID public_ ou _ID de production_, votre ID de commerçant est différent pour vos passerelles de production et sandbox. Ce champ s’affiche lorsque le champ _[!UICONTROL Environment]_&#x200B;est défini sur `Production`. |
-| [!UICONTROL Public Key] | Affichage de la boutique | Il s’agit de votre identifiant public spécifique à l’utilisateur qui limite l’accès aux données chiffrées. Chaque utilisateur associé à votre passerelle Braintree dispose de sa propre clé publique. Ce champ s’affiche lorsque le champ _[!UICONTROL Environment]_&#x200B;est défini sur `Production`. |
-| [!UICONTROL Private Key] | Affichage de la boutique | Il s’agit de votre identifiant privé spécifique à l’utilisateur qui limite l’accès aux données chiffrées. Chaque utilisateur associé à votre passerelle Braintree dispose de sa propre clé privée. Ce champ s’affiche lorsque le champ _[!UICONTROL Environment]_&#x200B;est défini sur `Production`. |
+| [!UICONTROL Sandbox Merchant ID] | Affichage de la boutique | Il s’agit de l’identifiant unique de l’ensemble de votre compte de passerelle Sandbox. Également appelé _ID public_ ou _ID de production_, votre ID de commerçant est différent pour vos passerelles de production et sandbox. Ce champ s’affiche lorsque le champ _[!UICONTROL Environment]_est défini sur `Sandbox`. |
+| [!UICONTROL Sandbox Public Key] | Affichage de la boutique | Il s’agit de votre identifiant public spécifique à l’utilisateur qui limite l’accès aux données chiffrées. Chaque utilisateur associé à votre passerelle Braintree Sandbox dispose de sa propre clé publique Sandbox. Ce champ s’affiche lorsque le champ _[!UICONTROL Environment]_est défini sur `Sandbox`. |
+| [!UICONTROL Sandbox Private Key] | Affichage de la boutique | Il s’agit de votre identifiant privé spécifique à l’utilisateur qui limite l’accès aux données chiffrées. Chaque utilisateur associé à votre passerelle Braintree Sandbox dispose de sa propre clé privée pour la sandbox. Ce champ s’affiche lorsque le champ _[!UICONTROL Environment]_est défini sur `Sandbox`. |
+| [!UICONTROL Merchant ID] | Affichage de la boutique | Il s’agit de l’identifiant unique de l’ensemble de votre compte de passerelle, y compris les différents comptes commerçants qui peuvent se trouver dans votre passerelle. Également appelé _ID public_ ou _ID de production_, votre ID de commerçant est différent pour vos passerelles de production et sandbox. Ce champ s’affiche lorsque le champ _[!UICONTROL Environment]_est défini sur `Production`. |
+| [!UICONTROL Public Key] | Affichage de la boutique | Il s’agit de votre identifiant public spécifique à l’utilisateur qui limite l’accès aux données chiffrées. Chaque utilisateur associé à votre passerelle Braintree dispose de sa propre clé publique. Ce champ s’affiche lorsque le champ _[!UICONTROL Environment]_est défini sur `Production`. |
+| [!UICONTROL Private Key] | Affichage de la boutique | Il s’agit de votre identifiant privé spécifique à l’utilisateur qui limite l’accès aux données chiffrées. Chaque utilisateur associé à votre passerelle Braintree dispose de sa propre clé privée. Ce champ s’affiche lorsque le champ _[!UICONTROL Environment]_est défini sur `Production`. |
 | [!UICONTROL Enable Card Payments] | Site internet | Détermine si le mode de paiement par carte de crédit Braintree est disponible pour vos clients en tant que mode de paiement. Options : `Yes` / `No` |
 | [!UICONTROL Enable Vault for Card Payments] | Site internet | Lorsqu’il est activé, fournit un stockage sécurisé pour les informations de paiement du client, de sorte que les clients n’aient pas à saisir à nouveau leurs informations de carte de crédit pour chaque achat. Options : `Yes` / `No` |
 | [!UICONTROL Enable Vault CVV Re-verification] | Site internet | Une fois activée, la validation est effectuée pour la configuration des règles CVV dans votre compte Braintree. Options : `Yes` / `No` |
@@ -68,7 +80,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced Braintree Settings]
 
-![Paramètres avancés de &#x200B;](./assets/payment-methods-braintree-advanced-config.png){width="550" zoomable="yes"}
+![Paramètres avancés de ](./assets/payment-methods-braintree-advanced-config.png){width="550" zoomable="yes"}
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -85,7 +97,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Braintree Webhooks Settings]
 
-![Paramètres Des Webhooks &#x200B;](./assets/payment-methods-braintree-webhooks-config.png)<!-- zoom -->
+![Paramètres Des Webhooks ](./assets/payment-methods-braintree-webhooks-config.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -177,7 +189,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable Venmo through Braintree] | Site internet | Détermine si [!DNL Venmo] est inclus comme mode de paiement via Braintree. Options : `Yes` / `No` |
 | [!UICONTROL Enable Vault for Venmo] | Site internet | Les clients peuvent mettre en coffre/stocker leur mode de paiement Venmo pour une utilisation ultérieure. Une fois les détails de paiement enregistrés, le client peut utiliser la méthode de paiement Venmo sans saisir à nouveau les données ni authentifier à nouveau ses informations de paiement. Options : `Yes` / `No` |
-| [!UICONTROL Payment Action] | Site internet | Détermine l&#39;action entreprise par Braintree lors du traitement d&#39;un paiement. Options : <br/>**`Authorize`**- Les fonds figurant sur la carte du client sont autorisés, mais ne sont pas transférés à partir du compte du client. Une commande est créée dans l’administration de votre boutique. Vous pouvez ensuite capturer la vente et créer une facture.<br/>**`Intent Sale`** - Les fonds figurant sur la carte du client sont autorisés et saisis par Braintree. Une commande et une facture sont créées dans votre administrateur de boutique. **_Remarque:_**&#x200B;il s’agissait de_ Autoriser et capturer_ dans la version 2.3.x et les versions antérieures. |
+| [!UICONTROL Payment Action] | Site internet | Détermine l&#39;action entreprise par Braintree lors du traitement d&#39;un paiement. Options : <br/>**`Authorize`**- Les fonds figurant sur la carte du client sont autorisés, mais ne sont pas transférés à partir du compte du client. Une commande est créée dans l’administration de votre boutique. Vous pouvez ensuite capturer la vente et créer une facture.<br/>**`Intent Sale`** - Les fonds figurant sur la carte du client sont autorisés et saisis par Braintree. Une commande et une facture sont créées dans votre administrateur de boutique. **_Remarque:_**il s’agissait de_ Autoriser et capturer_ dans la version 2.3.x et les versions antérieures. |
 | [!UICONTROL Sort Order] | Site internet | Détermine l&#39;ordre dans lequel Venmo est listé avec d&#39;autres modes de paiement lors de la commande. |
 
 {style="table-layout:auto"}
@@ -317,7 +329,7 @@ Lorsque ces options sont définies, vous pouvez voir l&#39;aperçu des boutons P
 
 ## [!UICONTROL Dynamic Descriptors]
 
-![&#x200B; Descripteurs dynamiques &#x200B;](./assets/payment-methods-braintree-dynamic-config.png)<!-- zoom -->
+![ Descripteurs dynamiques ](./assets/payment-methods-braintree-dynamic-config.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

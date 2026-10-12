@@ -3,24 +3,33 @@ title: Calcul des taxes cachées
 description: Découvrez comment configurer un calcul de taxe masquée lorsqu'une remise est associée à une taxe.
 exl-id: be2000b1-09d7-4a28-814a-f5da7591e387
 feature: Invoices, Taxes
-TQID: https://experienceleague.adobe.com/KkluEZ6WopfZzfFvnd0XA93av21JP0mxXBS4A4czvA0
+TQID: 'https://experienceleague.adobe.com/KkluEZ6WopfZzfFvnd0XA93av21JP0mxXBS4A4czvA0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 350
+source-wordcount: '350'
 ht-degree: 1%
-
 ---
-
 # Calcul des taxes cachées
 
 _Taxe cachée_ est le montant de TVA dont dispose un montant de remise. Elle est non nulle lorsque toutes ces conditions sont vraies :
@@ -42,9 +51,9 @@ Lorsqu’une remise est associée à une taxe, Commerce calcule une _taxe masqu�
 ### Résultat attendu non valide
 
 - Prix de l&#39;article hors taxe sans remise=100 USD
-- Prix de l&#39;article sans remise=100/1.2=83.33 USD
-- Remise=83,33 \ *0,1=8,33 USD
-- Taxe=(83,33-8,33) \ *0,2=**15 USD (non valide)**
+- Prix de l&#39;article avant TVA sans remise=100/1.2=83.33 USD
+- Remise=83.33 \ *0.1=8.33 USD
+- Taxe=(83.33-8.33) \ *0.2=**15 USD (non valide)**
 - Total de la commande hors taxe=83,33-8,33=**75 USD (non valide)**
 - Total de la commande incluant la taxe=75+15=**90 USD (non valide)**
 
@@ -80,7 +89,7 @@ Lorsqu’une remise est associée à une taxe, Commerce calcule une _taxe masqu�
 
 1. Comment le client comprend habituellement le prix réduit (total de la commande) :
 
-   _Prix complet de l&#39;article, taxes comprises **moins**&#x200B;le montant de la remise : 100 $ - 8,33 $ = 91,67 $_
+   _Prix complet de l&#39;article, taxes comprises **moins**le montant de la remise : 100 $ - 8,33 $ = 91,67 $_
 
 1. **Comment Commerce calcule le prix réduit** (voir plus haut pour la formule) :
 

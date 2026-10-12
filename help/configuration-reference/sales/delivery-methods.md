@@ -3,32 +3,45 @@ title: '[!UICONTROL Sales] > [!UICONTROL Delivery Methods]'
 description: Passez en revue les paramètres de configuration sur la page [!UICONTROL Delivery Methods] de [!UICONTROL Sales] &gt ; de l’administrateur Commerce.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-TQID: https://experienceleague.adobe.com/gCddmom8a8D2mcin8TPv-fmxbFjKyjIdiQVLzIaaECU
+TQID: 'https://experienceleague.adobe.com/gCddmom8a8D2mcin8TPv-fmxbFjKyjIdiQVLzIaaECU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 4550
+source-wordcount: '4555'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Sales] > [!UICONTROL Delivery Methods]
 
 {{config}}
@@ -39,7 +52,7 @@ ht-degree: 0%
 
 ![Taux forfaitaire](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
 
-<!-- [Flat Rate](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
+<!-- [Flat Rate](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -62,7 +75,7 @@ ht-degree: 0%
 
 ![Livraison gratuite](./assets/delivery-methods-free-shipping.png)<!-- zoom -->
 
-<!-- [Free Shipping](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
+<!-- [Free Shipping](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -83,7 +96,7 @@ ht-degree: 0%
 
 ![Taux du tableau](./assets/delivery-methods-table-rates.png)<!-- zoom -->
 
-<!-- [Table Rates](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
+<!-- [Table Rates](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -106,7 +119,7 @@ ht-degree: 0%
 
 ![Diffusion En Magasin](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
 
-<!-- [In-Store Delivery](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [In-Store Delivery](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -125,11 +138,11 @@ ht-degree: 0%
 
 {{ups-api}}
 
-![&#x200B; Paramètres du compte REST UPS &#x200B;](./assets/delivery-methods-ups1.png)<!-- zoom -->
+![ Paramètres du compte REST UPS ](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-![&#x200B; Paramètres du compte XML UPS &#x200B;](./assets/delivery-methods-ups1.png)<!-- zoom -->
+![ Paramètres du compte XML UPS ](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -149,7 +162,7 @@ ht-degree: 0%
 
 ![Informations sur le package UPS](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
-<!-- [UPS Package Information]https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Package Information]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -170,9 +183,9 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![&#x200B; Méthodes autorisées UPS &#x200B;](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
+![ Méthodes autorisées UPS ](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
-<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -187,7 +200,7 @@ ht-degree: 0%
 
 ![Pays applicables UPS et autres paramètres](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
-<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -226,7 +239,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-Si les champs suivants ne s’affichent pas, vous devez appliquer le correctif de qualité [&#x200B; Migration de l’API REST USPS &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210). Ce correctif permet la prise en charge des API USPS, une plateforme REST qui remplace les API Web Tools. Pour plus d’informations, consultez [Obsolescence de l’API des outils web USPS](../../stores-purchase/carriers.md).
+Si les champs suivants ne s’affichent pas, vous devez appliquer le correctif de qualité [ Migration de l’API REST USPS ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210). Ce correctif permet la prise en charge des API USPS, une plateforme REST qui remplace les API Web Tools. Pour plus d’informations, consultez [Obsolescence de l’API des outils web USPS](../../stores-purchase/carriers.md).
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -238,14 +251,14 @@ Si les champs suivants ne s’affichent pas, vous devez appliquer le correctif d
 | [!UICONTROL Account Number] | Site internet | Votre USPS **numéro de compte**, utilisé pour le paiement de l&#39;API REST. <br/><br/>**_Note:_** Ce champ est facultatif ; cependant, il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition. |
 | [!UICONTROL Customer Registration Identifier(CRID)] | Site internet | Un numéro d&#39;identification d&#39;enregistrement client (CRID) est un code numérique généré par USPS qui identifie de manière unique une entreprise à un emplacement pour l&#39;API REST. <br/><br/>**_Note:_** Ce champ est facultatif ; cependant, il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition. |
 | [!UICONTROL Mailer Identifier(MID)] | Site internet | Le MID (Mailer Identifier) est un champ du code-barres Intelligent Mail utilisé pour identifier les expéditeurs. Les MID sont affectés par l&#39;USPS à un propriétaire de messagerie, un agent de messagerie ou un autre fournisseur de services qui les demande pour l&#39;API REST. <br/><br/>**_Note:_** Ce champ est facultatif ; cependant, il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition. |
-| [!UICONTROL Manifest MID] | Site internet | Identifiant unique de l&#39;expéditeur désigné pour le manifeste pour l&#39;API REST. <br/><br/>**_Note:_** Ce champ est facultatif ; cependant, il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition. Pour Magento 2.4.7-p8 avec le correctif [AC-15210](https://experienceleague.adobe.com/fr/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) appliqué, [!UICONTROL Manifest MID] est un champ obligatoire. |
+| [!UICONTROL Manifest MID] | Site internet | Identifiant unique de l&#39;expéditeur désigné pour le manifeste pour l&#39;API REST. <br/><br/>**_Note:_** Ce champ est facultatif ; cependant, il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition. Pour Magento 2.4.7-p8 avec le correctif [AC-15210](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) appliqué, [!UICONTROL Manifest MID] est un champ obligatoire. |
 | [!UICONTROL AES/ITN] | Site internet | USPS AES - Automated Export System / ITN - Numéro de transaction interne pour l&#39;API REST. <br/><br/>**_Remarque:_** ce champ est généralement facultatif, mais il est obligatoire pour activer la création d&#39;étiquettes d&#39;expédition si : <ul><li>Chaque type de marchandises dans l&#39;expédition (tel que défini par les codes d&#39;exportation de l&#39;annexe B à <a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank"></a>) est évalué à 2 500 $ ou moins et ne nécessite pas de licence d&#39;exportation ; ou</li><li>L&#39;expédition, quelle que soit sa valeur, est envoyée au Canada et ne nécessite pas de licence d&#39;exportation.</li></ul> |
 
 {style="table-layout:auto"}
 
 ![Paramètres d&#39;emballage USPS](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
-<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -260,7 +273,7 @@ Si les champs suivants ne s’affichent pas, vous devez appliquer le correctif d
 
 ![Paramètres des frais de gestion USPS](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
-<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -271,9 +284,9 @@ Si les champs suivants ne s’affichent pas, vous devez appliquer le correctif d
 
 {style="table-layout:auto"}
 
-![&#x200B; Méthodes autorisées USPS &#x200B;](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
+![ Méthodes autorisées USPS ](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
-<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -287,7 +300,7 @@ Si les champs suivants ne s’affichent pas, vous devez appliquer le correctif d
 
 ![Pays applicables USPS](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
-<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -301,7 +314,7 @@ Si les champs suivants ne s’affichent pas, vous devez appliquer le correctif d
 
 ### [!UICONTROL FedEx]
 
-<!-- [FedEx Account Settings](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
+<!-- [FedEx Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
 
 #### Paramètres du compte FedEx
 
@@ -379,7 +392,7 @@ Si les champs suivants ne s’affichent pas, vous devez appliquer le correctif d
 
 ![Paramètres du compte DHL](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
 
-<!-- [DHL Account Settings](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -397,7 +410,7 @@ Si les champs suivants ne s’affichent pas, vous devez appliquer le correctif d
 
 ![Paramètres du package DHL](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
-<!-- [DHL Package Settings](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Package Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -411,9 +424,9 @@ Si les champs suivants ne s’affichent pas, vous devez appliquer le correctif d
 
 {style="table-layout:auto"}
 
-![&#x200B; Méthodes autorisées DHL &#x200B;](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
+![ Méthodes autorisées DHL ](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
-<!-- DHL Allowed Methods](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -429,7 +442,7 @@ Si les champs suivants ne s’affichent pas, vous devez appliquer le correctif d
 
 ![Pays applicables au DHL](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
-<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

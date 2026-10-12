@@ -3,28 +3,37 @@ title: Échantillons de produits
 description: Découvrez comment définir des échantillons pour vos listes de produits configurables.
 exl-id: 6163cec4-5d84-4e2c-ba5c-3c22ac4e3f28
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/RB77PDf2GytxFg3OXgYJB68pwKl4BfERcC5xn4bPSso
+TQID: 'https://experienceleague.adobe.com/RB77PDf2GytxFg3OXgYJB68pwKl4BfERcC5xn4bPSso'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1175
+source-wordcount: '1175'
 ht-degree: 0%
-
 ---
-
 # Échantillons de produits
 
 Les clients attendent beaucoup d’eux qu’ils choisissent une couleur. Il est donc essentiel que les descriptions des produits représentent précisément chaque couleur, modèle ou texture disponible. Par exemple, les pantalons de l’exemple suivant ne sont pas disponibles en rouge, vert et bleu. Ils sont plutôt disponibles uniquement dans des nuances spécifiques de rouge, vert et bleu, qui sont probablement uniques à ce produit.
@@ -35,7 +44,7 @@ Pour les [produits configurables](product-create-configurable.md), la couleur pe
 
 >[!NOTE]
 >
->Les attributs d’échantillon peuvent être configurés pour ne pas afficher les images de produits simples correspondantes lorsque l’échantillon est sélectionné en définissant la valeur de l’option _[!UICONTROL Update Product Preview Image]_&#x200B;sur `No` dans la page [!UICONTROL Attribute Edit] de l’Administration.
+>Les attributs d’échantillon peuvent être configurés pour ne pas afficher les images de produits simples correspondantes lorsque l’échantillon est sélectionné en définissant la valeur de l’option _[!UICONTROL Update Product Preview Image]_sur `No` dans la page [!UICONTROL Attribute Edit] de l’Administration.
 
 ## Nuanciers basés sur du texte
 
@@ -45,7 +54,7 @@ Si aucune image n’est disponible pour un échantillon, la valeur de l’attrib
 
 ## Nuanciers dans la navigation superposée
 
-Les nuanciers peuvent également être utilisés dans une navigation superposée, si la propriété _[!UICONTROL Use in Layered Navigation]_&#x200B;de l’attribut de couleur est définie sur `Yes`. L’exemple suivant illustre des échantillons de texte et d’images en couleurs dans un panneau de navigation superposé.
+Les nuanciers peuvent également être utilisés dans une navigation superposée, si la propriété _[!UICONTROL Use in Layered Navigation]_de l’attribut de couleur est définie sur `Yes`. L’exemple suivant illustre des échantillons de texte et d’images en couleurs dans un panneau de navigation superposé.
 
 ![Nuanciers dans affichés dans le panneau de navigation superposé](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
 
@@ -73,7 +82,7 @@ Utilisez l’une des méthodes suivantes pour créer des échantillons pour vos 
 
 1. Si vous préférez ne pas afficher les images de produit simples correspondantes lorsque l’échantillon est sélectionné sur la page d’affichage du produit, définissez **[!UICONTROL Update Product Preview Image]** sur `No`.
 
-1. Sous _[!UICONTROL Manage Swatch (Values of Your Attribute)]_, cliquez sur **[!UICONTROL Add Swatch]**&#x200B;et procédez comme suit :
+1. Sous _[!UICONTROL Manage Swatch (Values of Your Attribute)]_, cliquez sur **[!UICONTROL Add Swatch]**et procédez comme suit :
 
    ![Gérer les valeurs d’échantillon](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
@@ -121,7 +130,7 @@ Utilisez l’une des méthodes suivantes pour créer des échantillons pour vos 
 
 1. Si vous préférez ne pas afficher les images de produit simples correspondantes lorsque l’échantillon est sélectionné sur la page d’affichage du produit, définissez **[!UICONTROL Update Product Preview Image]** sur `No`.
 
-1. Sous _[!UICONTROL Manage Swatch]_(valeurs de votre attribut), cliquez sur **[!UICONTROL Add Swatch]**&#x200B;et procédez comme suit :
+1. Sous _[!UICONTROL Manage Swatch]_(valeurs de votre attribut), cliquez sur **[!UICONTROL Add Swatch]**et procédez comme suit :
 
    - Dans la colonne _[!UICONTROL Swatch]_, cliquez sur le nouvel échantillon pour afficher le menu et choisissez **[!UICONTROL Upload a file]**.
 

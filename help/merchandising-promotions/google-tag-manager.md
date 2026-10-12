@@ -1,40 +1,60 @@
 ---
 title: '[!DNL Google Tag Manager]'
-description: Découvrez comment utiliser  [!DNL Google Tag Manager]  gérer les nombreuses balises (fragments de code) liées à vos événements de campagne marketing sur vos sites Adobe Commerce.
+description: Découvrez comment utiliser [!DNL Google Tag Manager] pour gérer les nombreuses balises (fragments de code) liées à vos événements de campagne marketing sur vos sites Adobe Commerce.
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-TQID: https://experienceleague.adobe.com/O6QyIkoGkC1FnCa-8fIjVAhqG4aZwDr-AuAIQqyzdPA
+TQID: 'https://experienceleague.adobe.com/O6QyIkoGkC1FnCa-8fIjVAhqG4aZwDr-AuAIQqyzdPA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+    internal-label: 2FA
   - id: bcbf87e7-9b75-4596-bffe-0f376b4c73a7
+    internal-label: GDPR
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
+    internal-label: Privacy
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1504
+source-wordcount: '1505'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Tag Manager]
 
 {{ee-feature}}
@@ -69,7 +89,7 @@ Voir [Configuration de la recherche de site](https://support.google.com/analytic
 
    - Choisissez **[!UICONTROL Property Settings]**.
 
-   - Sous _[!UICONTROL Advertising Features]_, définissez **[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;sur `On`.
+   - Sous _[!UICONTROL Advertising Features]_, définissez **[!UICONTROL Enable Demographics and Interest Reports]**sur `On`.
 
    - **[!UICONTROL Save]** les paramètres.
 
@@ -203,7 +223,7 @@ Si vous disposez d’un compte Google AdWords, vous pouvez créer une balise pou
 
    - Sous **[!UICONTROL Choose Product]**, sélectionnez **[!UICONTROL Google AdWords]**.
 
-   - Sous _[!UICONTROL Choose a Tag Type]_, sélectionnez **[!UICONTROL AdWords Conversion Tracking]**&#x200B;et cliquez sur **[!UICONTROL Continue]**.
+   - Sous _[!UICONTROL Choose a Tag Type]_, sélectionnez **[!UICONTROL AdWords Conversion Tracking]**et cliquez sur **[!UICONTROL Continue]**.
 
 1. Saisissez les **[!UICONTROL Conversion ID]** et **[!UICONTROL Conversion Label]** de votre compte AdWords, puis cliquez sur **[!UICONTROL Continue]**.
 
@@ -237,7 +257,7 @@ L’étape suivante du processus consiste à prévisualiser la balise . Chaque f
 
 ## Balise HTML personnalisée avec JavaScript
 
-Cette section explique comment ajouter une valeur à usage unique CSP au JavaScript de balise HTML personnalisé pour l’exécuter sur la page de passage en caisse, en veillant à la conformité aux exigences de la politique de sécurité du contenu (CSP). Cet ajout améliore la sécurité du site en empêchant l’exécution de scripts non autorisés. Pour plus d’informations, consultez la documentation [&#x200B; Politique de sécurité du contenu &#x200B;](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+Cette section explique comment ajouter une valeur à usage unique CSP au JavaScript de balise HTML personnalisé pour l’exécuter sur la page de passage en caisse, en veillant à la conformité aux exigences de la politique de sécurité du contenu (CSP). Cet ajout améliore la sécurité du site en empêchant l’exécution de scripts non autorisés. Pour plus d’informations, consultez la documentation [ Politique de sécurité du contenu ](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
 
 >[!NOTE]
 >
@@ -267,7 +287,7 @@ Si vous ne pouvez pas importer la configuration de variable, procédez comme sui
 1. Dans le champ **Nom global de la variable**, saisissez `window.cspNonce`.
 1. Enregistrez la variable.
 
-Pour en savoir plus sur les [variables du gestionnaire de balises &#x200B;](https://support.google.com/tagmanager/answer/7683056?hl=en), consultez [Types de variables définis par l’utilisateur pour le web](https://support.google.com/tagmanager/answer/7683362?hl=en) dans la documentation de Google. Cette documentation fournit des conseils détaillés sur la création et la gestion de variables personnalisées afin d’adapter la gestion des balises à des besoins spécifiques de marketing et d’analyse.
+Pour en savoir plus sur les [variables du gestionnaire de balises ](https://support.google.com/tagmanager/answer/7683056?hl=en), consultez [Types de variables définis par l’utilisateur pour le web](https://support.google.com/tagmanager/answer/7683362?hl=en) dans la documentation de Google. Cette documentation fournit des conseils détaillés sur la création et la gestion de variables personnalisées afin d’adapter la gestion des balises à des besoins spécifiques de marketing et d’analyse.
 
 ### Étape 2. Création d’une balise HTML personnalisée
 
