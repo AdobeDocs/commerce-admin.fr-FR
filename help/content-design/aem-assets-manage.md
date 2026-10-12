@@ -42,9 +42,9 @@ Après avoir modifié une ressource dans AEM Assets, envoyez les mises à jour �
 
 Pour plus d’informations, consultez la documentation d’AEM Assets ci-après.
 
-- [Retraitement des ressources numériques](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
+- [Retraitement des ressources numériques](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
-- [Approbation d’une ressource](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
+- [Approbation d’une ressource](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
 
 ## Ajout de ressources au contenu des catégories
 

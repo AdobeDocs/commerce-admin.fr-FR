@@ -44,7 +44,7 @@ ht-degree: 2%
 
 ![Général](./assets/invitations-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/events/invitations#enable-invitations-for-your-store) -->
+<!-- [General](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/promotions/events/invitations#enable-invitations-for-your-store) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 ![Email](./assets/invitations-email.png)<!-- zoom -->
 
-<!-- [Email](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/events/invitations#enable-invitations-for-your-store) -->
+<!-- [Email](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/promotions/events/invitations#enable-invitations-for-your-store) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

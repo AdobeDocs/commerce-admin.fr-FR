@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ![Options de partage de compte](./assets/customer-configuration-account-sharing-options.png)<!-- zoom -->
 
-<!-- [Account Sharing Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
+<!-- [Account Sharing Options](https://experienceleague.adobe.com/fr/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ![Options des clients en ligne](./assets/customer-configuration-online-customers-options.png)<!-- zoom -->
 
-<!-- [Online Customers Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/now-online) -->
+<!-- [Online Customers Options](https://experienceleague.adobe.com/fr/docs/commerce-admin/customers/customers-menu/now-online) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 ![Créer de nouvelles options de compte (champs TVA)](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
 
-<!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
+<!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/fr/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 ![Options de mot de passe](./assets/customer-configuration-password-options.png)<!-- zoom -->
 
-<!-- [Password Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
+<!-- [Password Options](https://experienceleague.adobe.com/fr/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 ![Options de nom et d’adresse - Ouvrez Source](./assets/customer-configuration-name-address-options-ce.png)<!-- zoom -->
 
-<!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
+<!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/fr/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -167,7 +167,7 @@ ht-degree: 0%
 
 ![Options de nom et d’adresse - Commerce](./assets/customer-configuration-name-address-options-ee.png)<!-- zoom -->
 
-<!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
+<!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/fr/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -185,7 +185,7 @@ ht-degree: 0%
 
 ![Options de crédit de magasin](./assets/customer-configuration-store-credit-options.png)<!-- zoom -->
 
-<!-- [Store Credit Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
+<!-- [Store Credit Options](https://experienceleague.adobe.com/fr/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -201,7 +201,7 @@ ht-degree: 0%
 
 ![Options de connexion](./assets/customer-configuration-login-options.png)<!-- zoom -->
 
-<!-- [Login Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
+<!-- [Login Options](https://experienceleague.adobe.com/fr/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -213,7 +213,7 @@ ht-degree: 0%
 
 ![Modèles d’adresse](./assets/customer-configuration-address-templates.png)<!-- zoom -->
 
-<!-- [Address Templates](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
+<!-- [Address Templates](https://experienceleague.adobe.com/fr/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
 
 | Modèle | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -230,7 +230,7 @@ ht-degree: 0%
 
 ![Segments clients](./assets/customer-configuration-customer-segments.png)<!-- zoom -->
 
-<!-- [Customer Segments](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segments) -->
+<!-- [Customer Segments](https://experienceleague.adobe.com/fr/docs/commerce-admin/customers/segments/customer-segments) -->
 
 | Modèle | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -243,7 +243,7 @@ ht-degree: 0%
 
 ![&#x200B; CAPTCHA &#x200B;](./assets/customer-configuration-captcha.png)<!-- zoom -->
 
-<!-- [CAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha) -->
+<!-- [CAPTCHA](https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/security/captcha/security-captcha) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

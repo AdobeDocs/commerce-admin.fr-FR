@@ -44,7 +44,7 @@ ht-degree: 5%
 
 ![Modèles d’e-mail](./assets/email-to-a-friend-email-templates.png)<!-- zoom -->
 
-<!-- [Email Templates](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/communications/email-templates#configure-email-templates) -->
+<!-- [Email Templates](https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/communications/email-templates#configure-email-templates) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

@@ -44,7 +44,7 @@ Pour obtenir des informations détaillées sur l&#39;utilisation de ces paramèt
 
 ![Options générales](./assets/gift-registry-general-options.png)<!-- zoom -->
 
-<!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
+<!-- [General Options](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -57,7 +57,7 @@ Pour obtenir des informations détaillées sur l&#39;utilisation de ces paramèt
 
 ![Notification du propriétaire](./assets/gift-registry-owner-notification.png)<!-- zoom -->
 
-<!-- [Owner Notification](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
+<!-- [Owner Notification](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -70,7 +70,7 @@ Pour obtenir des informations détaillées sur l&#39;utilisation de ces paramèt
 
 ![Partage du registre des cadeaux](./assets/gift-registry-gift-registry-sharing.png)<!-- zoom -->
 
-<!-- Gift Registry Sharing](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
+<!-- Gift Registry Sharing](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -84,7 +84,7 @@ Pour obtenir des informations détaillées sur l&#39;utilisation de ces paramèt
 
 ![Mise à jour du registre des cadeaux](./assets/gift-registry-gift-registry-update.png)<!-- zoom -->
 
-<!-- [Gift Registry Update](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
+<!-- [Gift Registry Update](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

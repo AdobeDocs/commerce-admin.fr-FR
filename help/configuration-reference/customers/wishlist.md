@@ -46,7 +46,7 @@ ht-degree: 3%
 
 ![Options générales](./assets/wishlist-general-options.png)<!-- zoom -->
 
-<!--[General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
+<!--[General Options](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -61,7 +61,7 @@ ht-degree: 3%
 
 ![Options de partage](./assets/wishlist-share-options.png)<!-- zoom -->
 
-<!-- [Share Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
+<!-- [Share Options](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -76,7 +76,7 @@ ht-degree: 3%
 
 ![Lien de ma liste de souhaits](./assets/wishlist-my-wishlist-link.png)<!-- zoom -->
 
-<!--[My Wish List Link](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
+<!--[My Wish List Link](https://experienceleague.adobe.com/fr/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
