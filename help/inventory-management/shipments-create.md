@@ -64,7 +64,7 @@ Lorsque vous saisissez des livraisons, vos quantités de stock disponible dédui
 
      | Algorithme | Description |
      |--|--|
-     | [Priorité ](source-priority-algorithm.md) | Recommande des expéditions à partir de sources en fonction des ordres de sources affectés au stock. |
+     | [Priorité &#x200B;](source-priority-algorithm.md) | Recommande des expéditions à partir de sources en fonction des ordres de sources affectés au stock. |
      | [Priorité de distance](distance-priority-algorithm.md) | Recommande des expéditions provenant de sources proches de l&#39;adresse d&#39;expédition en fonction de la distance physique ou du délai de livraison le plus court. |
 
      >[!IMPORTANT]
@@ -80,9 +80,9 @@ Lorsque vous saisissez des livraisons, vos quantités de stock disponible dédui
 
      ![Sélectionnez un Source et saisissez une quantité](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. Passez en revue la page _[!UICONTROL New Shipment]_et saisissez les modifications supplémentaires nécessaires.
+1. Passez en revue la page _[!UICONTROL New Shipment]_&#x200B;et saisissez les modifications supplémentaires nécessaires.
 
-   La section _[!UICONTROL Inventory]_affiche l&#39;origine, l&#39;expédition des produits, la quantité totale commandée et la quantité à expédier.
+   La section _[!UICONTROL Inventory]_&#x200B;affiche l&#39;origine, l&#39;expédition des produits, la quantité totale commandée et la quantité à expédier.
 
    ![Détails de stock pour l’expédition, par exemple expédition partielle](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 

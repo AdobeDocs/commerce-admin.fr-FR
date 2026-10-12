@@ -42,7 +42,7 @@ Les clients qui tiennent leurs carnets d’adresses à jour peuvent accélérer 
 
 1. Dans le volet de navigation de gauche de son compte client, le client choisit **[!UICONTROL Address Book]**.
 
-1. Sur la page _[!UICONTROL Address Book]_sous_ Entrées d’adresse supplémentaires _, clique sur **[!UICONTROL Add New Address]**.
+1. Sur la page _[!UICONTROL Address Book]_&#x200B;sous_ Entrées d’adresse supplémentaires _, clique sur **[!UICONTROL Add New Address]**.
 
    ![Ajouter une nouvelle adresse](assets/add-new-address.png){width="600" zoomable="yes"}
 

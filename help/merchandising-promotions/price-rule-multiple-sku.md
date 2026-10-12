@@ -64,7 +64,7 @@ Avant de commencer, assurez-vous que les [Propriétés du storefront](../catalog
 
 1. Effectuez l’une des opérations suivantes :
 
-   - Suivez les instructions pour créer une [ règle de prix de catalogue ](price-rules-catalog.md).
+   - Suivez les instructions pour créer une [&#x200B; règle de prix de catalogue &#x200B;](price-rules-catalog.md).
    - Ouvrez une règle de prix de catalogue existante.
 
 1. Développez ![Sélecteur de développement](../assets/icon-display-expand.png) la section **[!UICONTROL Conditions]**, puis procédez comme suit :
@@ -75,11 +75,11 @@ Avant de commencer, assurez-vous que les [Propriétés du storefront](../catalog
 
    - Cliquez sur _Ajouter_ (![icône Ajouter](../assets/icon-add-green-circle.png)) au début de la ligne suivante et dans la liste sous **[!UICONTROL Product Attribute]**, cliquez sur `SKU`.
 
-     ![Condition de règle de prix de catalogue - SKU est l’une des suivantes ](./assets/multiple-skus-condition1a.png){width="600" zoomable="yes"}
+     ![Condition de règle de prix de catalogue - SKU est l’une des suivantes &#x200B;](./assets/multiple-skus-condition1a.png){width="600" zoomable="yes"}
 
    - Pour la comparaison, vous disposez d’options. Si vous souhaitez en localiser au moins un à partir d’une liste de SKU, `select is one of`. Si vous souhaitez localiser un groupe de SKU qui doivent tous être appliqués, sélectionnez `is`. Nous vous recommandons de sélectionner `is one of`.
 
-     ![Condition de règle de prix de catalogue - SKU est l’une des suivantes ](./assets/multiple-skus-condition1b.png){width="600" zoomable="yes"}
+     ![Condition de règle de prix de catalogue - SKU est l’une des suivantes &#x200B;](./assets/multiple-skus-condition1b.png){width="600" zoomable="yes"}
 
    - Pour remplir la condition, cliquez sur le lien Plus (**...**) et cliquez sur l’icône _Sélecteur_ (![Icône de liste](../assets/icon-list-chooser.png)) pour afficher la liste des produits disponibles.
 

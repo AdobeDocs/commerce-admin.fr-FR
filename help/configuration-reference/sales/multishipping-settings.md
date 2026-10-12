@@ -38,11 +38,11 @@ ht-degree: 6%
 
 {{config}}
 
-Pour plus d’informations sur la configuration de ces paramètres d’expédition multiple pour votre boutique, voir [ Adresses multiples ](../../stores-purchase/shipping-settings.md#multiple-addresses).
+Pour plus d’informations sur la configuration de ces paramètres d’expédition multiple pour votre boutique, voir [&#x200B; Adresses multiples &#x200B;](../../stores-purchase/shipping-settings.md#multiple-addresses).
 
 ## [!UICONTROL Options]
 
-![ Options ](./assets/multishipping-settings-options.png)<!-- zoom -->
+![&#x200B; Options &#x200B;](./assets/multishipping-settings-options.png)<!-- zoom -->
 
 <!-- [Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#multiple-addresses) -->
 

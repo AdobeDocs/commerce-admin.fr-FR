@@ -36,7 +36,7 @@ ht-degree: 0%
 ---
 # Paramètres du produit - [!UICONTROL Content]
 
-La section _[!UICONTROL Content]_permet de saisir et de modifier la description principale du produit qui apparaît sur la page du produit. La description courte peut être utilisée dans la plupart des flux RSS et peut également apparaître dans les listes de catalogue, selon [thème](../content-design/themes.md).
+La section _[!UICONTROL Content]_&#x200B;permet de saisir et de modifier la description principale du produit qui apparaît sur la page du produit. La description courte peut être utilisée dans la plupart des flux RSS et peut également apparaître dans les listes de catalogue, selon [thème](../content-design/themes.md).
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ La section _[!UICONTROL Content]_permet de saisir et de modifier la description 
 
 ## Aperçu [!DNL Page Builder]
 
-Lorsque vous développez la section _[!UICONTROL Content]_d’un produit existant contenant du contenu créé avec [!DNL Page Builder], elle affiche un aperçu du contenu **[!UICONTROL Description]**tel qu’il apparaîtrait sur la page du produit. Ouvrez l’espace de travail [!DNL Page Builder], où vous pouvez effectuer les mises à jour nécessaires, en cliquant sur **[!UICONTROL Edit with Page Builder]**.
+Lorsque vous développez la section _[!UICONTROL Content]_&#x200B;d’un produit existant contenant du contenu créé avec [!DNL Page Builder], elle affiche un aperçu du contenu **[!UICONTROL Description]**&#x200B;tel qu’il apparaîtrait sur la page du produit. Ouvrez l’espace de travail [!DNL Page Builder], où vous pouvez effectuer les mises à jour nécessaires, en cliquant sur **[!UICONTROL Edit with Page Builder]**.
 
 ![Aperçu de la description](../page-builder/assets/pb-product-category-content-preview.png){width="600" zoomable="yes"}
 
@@ -66,7 +66,7 @@ Cet aperçu du contenu est activé par défaut pour les formulaires de produits 
 
 ## Ajouter la description du produit dans l’éditeur
 
-Si [!DNL Page Builder] est désactivé pour votre boutique, utilisez l’éditeur de texte pour ajouter le contenu du produit. Saisissez uniquement des caractères ASCII simples dans la zone de texte. Si vous collez du texte à partir d’un traitement de texte, enregistrez-le d’abord en tant que fichier .TXT brut pour supprimer tous les caractères de contrôle invisibles. Pour plus d’informations, voir [ Utilisation de l’éditeur ](../content-design/editor.md).
+Si [!DNL Page Builder] est désactivé pour votre boutique, utilisez l’éditeur de texte pour ajouter le contenu du produit. Saisissez uniquement des caractères ASCII simples dans la zone de texte. Si vous collez du texte à partir d’un traitement de texte, enregistrez-le d’abord en tant que fichier .TXT brut pour supprimer tous les caractères de contrôle invisibles. Pour plus d’informations, voir [&#x200B; Utilisation de l’éditeur &#x200B;](../content-design/editor.md).
 
 1. Ouvrez le produit en mode d’édition.
 

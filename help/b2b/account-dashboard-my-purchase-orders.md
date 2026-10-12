@@ -85,7 +85,7 @@ Le bon de commande d&#39;origine peut être fermé s&#39;il n&#39;est plus néce
 
 ## Approbations de commande fournisseur
 
-Pour un client désigné comme approbateur en fonction de la structure de l’entreprise ou du rôle d’entreprise affecté, la page _[!UICONTROL My Purchase Orders]_un tableau de bord affiche l’onglet **[!UICONTROL Requires My Approval]**. Le client clique sur cet onglet pour consulter les commandes en attente d&#39;approbation. Le compteur indique le nombre de commandes en attente d&#39;approbation.
+Pour un client désigné comme approbateur en fonction de la structure de l’entreprise ou du rôle d’entreprise affecté, la page _[!UICONTROL My Purchase Orders]_&#x200B;un tableau de bord affiche l’onglet **[!UICONTROL Requires My Approval]**. Le client clique sur cet onglet pour consulter les commandes en attente d&#39;approbation. Le compteur indique le nombre de commandes en attente d&#39;approbation.
 
 Après avoir cliqué sur **[!UICONTROL View]** pour une commande fournisseur et examiné les détails, l’approbateur peut cliquer sur **[!UICONTROL Approve]** ou **[!UICONTROL Reject]**.
 

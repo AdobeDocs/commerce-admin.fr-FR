@@ -59,7 +59,7 @@ Une fois la conception, le développement et les tests de votre boutique termin�
 
 - [Modèles d’e-mail](../systems/email-templates.md) - Mettez à jour les modèles d’e-mail par défaut pour refléter votre marque. Veillez à mettre à jour la configuration si vous créez des modèles.
 - [Communications commerciales](../stores-purchase/introduction.md#order-management-and-operations) - Assurez-vous que vos factures et vos bons de livraison comprennent les bons renseignements commerciaux et reflètent votre marque.
-- [Outils Google ](../merchandising-promotions/google-tools.md) - [!DNL Commerce] intègre l’API Google pour permettre à votre entreprise d’utiliser Google Analytics et Google AdWords.
+- [Outils Google &#x200B;](../merchandising-promotions/google-tools.md) - [!DNL Commerce] intègre l’API Google pour permettre à votre entreprise d’utiliser Google Analytics et Google AdWords.
 
 ## Paramètres des ventes
 

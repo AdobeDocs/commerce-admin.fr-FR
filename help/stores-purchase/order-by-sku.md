@@ -67,7 +67,7 @@ Le _commande par SKU_ est un [widget](../content-design/widgets.md) qui peut êt
 
 1. Cliquez sur **[!UICONTROL Save Config]**.
 
-![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B uniquement) _**Pour activer la fonction Order by SKU, désactivez la fonction Quick Order :**_
+![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B uniquement) _&#x200B;**Pour activer la fonction Order by SKU, désactivez la fonction Quick Order :**&#x200B;_
 
 1. Accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -99,7 +99,7 @@ Lorsque la fonctionnalité est configurée pour la boutique, les clients peuvent
 
 1. Ajoute des éléments individuels en fonction des préférences :
 
-   _**Ajoute chaque élément par SKU :**_
+   _&#x200B;**Ajoute chaque élément par SKU :**&#x200B;_
 
    - Saisit le **[!UICONTROL SKU]** et le **[!UICONTROL Qty]** de l’article à commander.
 
@@ -107,11 +107,11 @@ Lorsque la fonctionnalité est configurée pour la boutique, les clients peuvent
 
    - Effectue un clic sur **[!UICONTROL Add to Cart]**.
 
-   _**Télécharge un fichier CSV contenant plusieurs éléments :**_
+   _&#x200B;**Télécharge un fichier CSV contenant plusieurs éléments :**&#x200B;_
 
    - Prépare un fichier [import data CSV](../systems/data-csv.md) (valeurs séparées par des virgules) contenant des colonnes pour les `SKU` et les `Qty`.
 
-   ![ SKU à importer ](./assets/account-dashboard-order-by-sku-import.png){width="500" zoomable="yes"}
+   ![&#x200B; SKU à importer &#x200B;](./assets/account-dashboard-order-by-sku-import.png){width="500" zoomable="yes"}
 
    - Pour charger le fichier CSV, cliquez sur **[!UICONTROL Choose File]** et sélectionnez le fichier à charger.
 

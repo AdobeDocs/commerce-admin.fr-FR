@@ -87,7 +87,7 @@ Si vous ne disposez pas déjà d’une configuration [!DNL Google Analytics] 4 p
 
    - Laissez le **[!UICONTROL Account type]** tel `Google Analytics4`.
 
-   - Saisissez votre **[!UICONTROL Measurement ID]**. Pour en savoir plus, voir l&#39;aide de [](https://support.google.com/analytics/answer/9539598).
+   - Saisissez votre **[!UICONTROL Measurement ID]**. Pour en savoir plus, voir l&#39;aide de [&#128279;](https://support.google.com/analytics/answer/9539598).
 
    - Si vous souhaitez effectuer des tests A/B et d’autres tests de performance sur votre contenu, définissez **Expériences de contenu** sur `Yes`.
 

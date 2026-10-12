@@ -59,7 +59,7 @@ Adobe Commerce et Magento Open Source prennent en charge un large éventail de m
 
 [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
-Certaines intégrations de paiements et extensions groupées ont été supprimées dans les versions 2.4.x et déplacées vers Commerce Marketplace. Retrouvez les dernières extensions officielles d&#39;intégration des paiements dans le [](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}.
+Certaines intégrations de paiements et extensions groupées ont été supprimées dans les versions 2.4.x et déplacées vers Commerce Marketplace. Retrouvez les dernières extensions officielles d&#39;intégration des paiements dans le [&#128279;](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}.
 
 - **Amazon Pay** et **Klarna** : les versions 2.4.0 à 2.4.3 d’Adobe Commerce et Magento Open Source incluaient ces extensions développées par le fournisseur. À compter de la version 2.4.4, ces extensions ne sont plus incluses dans la version de base et doivent être installées et mises à jour à partir de Commerce Marketplace. La Marketplace permet également d’accéder à la documentation actuelle fournie par le développeur d’extensions.
 

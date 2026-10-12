@@ -50,7 +50,7 @@ L’exemple suivant exporte les données de tarification de niveau pour un seul 
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
 
-1. Sous _[!UICONTROL Export Settings]_, définissez **[!UICONTROL Entity Type]**sur `Advanced Pricing`.
+1. Sous _[!UICONTROL Export Settings]_, définissez **[!UICONTROL Entity Type]**&#x200B;sur `Advanced Pricing`.
 
 1. Dans la grille de **[!UICONTROL Entity Attributes]**, faites défiler l’écran jusqu’aux attributs de SKU et procédez comme suit :
 

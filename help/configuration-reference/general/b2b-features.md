@@ -66,7 +66,7 @@ Lorsque la fonction Société est activée, des champs supplémentaires sont dis
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Shared Catalog]](../../b2b/catalog-shared.md) | Site internet | Lorsque cette option est activée, elle permet de créer des catalogues organisés avec une tarification personnalisée disponible globalement ou limitée à des sociétés spécifiques. Options : `Yes` / `No` |
-| [!UICONTROL Enable Shared Catalog direct products price assigning] | Site internet | Lorsque le champ _[!UICONTROL Enable Shared Catalog]_est défini sur `Yes`, cette option est disponible. Lorsque cette option est activée, seuls les produits affectés à un catalogue partagé sont stockés dans l’indice des prix. Les produits qui ne sont pas affectés au catalogue partagé ne sont pas affichés sur le storefront. Options : `Yes` / `No` |
+| [!UICONTROL Enable Shared Catalog direct products price assigning] | Site internet | Lorsque le champ _[!UICONTROL Enable Shared Catalog]_&#x200B;est défini sur `Yes`, cette option est disponible. Lorsque cette option est activée, seuls les produits affectés à un catalogue partagé sont stockés dans l’indice des prix. Les produits qui ne sont pas affectés au catalogue partagé ne sont pas affichés sur le storefront. Options : `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | Site internet | Lorsque cette option est activée, elle permet aux acheteurs de la société de soumettre une demande de devis à partir du panier. Options : `Yes` / `No` |
 
 {style="table-layout:auto"}

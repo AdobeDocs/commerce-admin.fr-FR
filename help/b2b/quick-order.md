@@ -49,7 +49,7 @@ La fonction _Commande rapide_ réduit le processus de commande à plusieurs clic
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans la section _[!UICONTROL General]_du panneau de gauche, choisissez **[!UICONTROL B2B Features]**.
+1. Dans la section _[!UICONTROL General]_&#x200B;du panneau de gauche, choisissez **[!UICONTROL B2B Features]**.
 
 1. Définissez **[!UICONTROL Enable Quick Order]** sur `Yes`.
 
@@ -121,7 +121,7 @@ Les clients peuvent spécifier des produits pour les commandes rapides en utilis
 
 ### Méthode 3 : téléchargement d’une liste de produits
 
-1. Dans la section _[!UICONTROL Add from File]_, cliquez sur **[!UICONTROL Download Sample]**pour télécharger un modèle de commande.
+1. Dans la section _[!UICONTROL Add from File]_, cliquez sur **[!UICONTROL Download Sample]**&#x200B;pour télécharger un modèle de commande.
 
    ![Ajouter à partir du fichier](./assets/quick-order-skus-add-from-file.png){width="600" zoomable="yes"}
 
@@ -131,7 +131,7 @@ Les clients peuvent spécifier des produits pour les commandes rapides en utilis
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
 
-   ![ SKU à charger ](./assets/quick-order-skus-add-from-file-sample.png){width="400" zoomable="yes"}
+   ![&#x200B; SKU à charger &#x200B;](./assets/quick-order-skus-add-from-file-sample.png){width="400" zoomable="yes"}
 
 1. Pour télécharger le fichier, cliquez sur **[!UICONTROL Choose]** et sélectionne le fichier sur leur système.
 

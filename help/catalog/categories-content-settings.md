@@ -41,7 +41,7 @@ ht-degree: 0%
 ---
 # Catégories - Paramètres de contenu
 
-Les paramètres de _[!UICONTROL Content]_déterminent si du contenu supplémentaire s’affiche sur la page de catégorie. Outre la liste des produits de catégorie, la page peut inclure une image, une description et un bloc CMS. Vous pouvez utiliser les outils de contenu [[!DNL Page Builder]](../page-builder/introduction.md) pour définir la description de la catégorie.
+Les paramètres de _[!UICONTROL Content]_&#x200B;déterminent si du contenu supplémentaire s’affiche sur la page de catégorie. Outre la liste des produits de catégorie, la page peut inclure une image, une description et un bloc CMS. Vous pouvez utiliser les outils de contenu [[!DNL Page Builder]](../page-builder/introduction.md) pour définir la description de la catégorie.
 
 ## Ajoutez la description de la catégorie dans [!DNL Page Builder]
 
@@ -67,7 +67,7 @@ Cet aperçu du contenu est activé par défaut pour les formulaires de produits 
 
 Saisissez uniquement des caractères ASCII simples dans la zone de texte. Si vous collez du texte à partir d’un traitement de texte, enregistrez-le d’abord en tant que fichier .TXT brut pour supprimer tous les caractères de contrôle invisibles.
 
-Pour plus d&#39;informations, voir [Éditeur ](../content-design/editor.md).
+Pour plus d&#39;informations, voir [Éditeur &#x200B;](../content-design/editor.md).
 
 1. Ouvrez la catégorie en mode d’édition.
 

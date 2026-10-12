@@ -55,7 +55,7 @@ Pour obtenir la liste détaillée des paramètres de configuration, voir [Archiv
 
 >[!NOTE]
 >
->Sur la plateforme [!DNL Adobe Commerce as a Cloud Service], vous ne pouvez pas configurer le rapport Journal des actions, l’archive du journal des actions et le journal des actions en bloc, mais vous pouvez consulter la sortie du rapport à partir du menu **[!UICONTROL System]** > _[!UICONTROL Action Logs]_dans l’Administration.
+>Sur la plateforme [!DNL Adobe Commerce as a Cloud Service], vous ne pouvez pas configurer le rapport Journal des actions, l’archive du journal des actions et le journal des actions en bloc, mais vous pouvez consulter la sortie du rapport à partir du menu **[!UICONTROL System]** > _[!UICONTROL Action Logs]_&#x200B;dans l’Administration.
 
 ## Configuration des actions d’administration pour la journalisation
 

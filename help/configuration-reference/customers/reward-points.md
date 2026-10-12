@@ -46,7 +46,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Reward Points]
 
-![ Points de récompense ](./assets/reward-points-reward-points.png)<!-- zoom -->
+![&#x200B; Points de récompense &#x200B;](./assets/reward-points-reward-points.png)<!-- zoom -->
 
 <!-- [Reward Points](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 

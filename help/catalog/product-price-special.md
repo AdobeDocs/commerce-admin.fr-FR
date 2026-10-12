@@ -48,7 +48,7 @@ Vous pouvez facilement définir un prix spécial pour un seul produit du catalog
 
 {{ee-feature}}
 
-Adobe Commerce prend en charge les [ mises à jour planifiées ](../content-design/content-staging-scheduled-update.md). Utilisez ces outils promotionnels pour appliquer un prix spécial à un produit spécifique pendant une période spécifiée.
+Adobe Commerce prend en charge les [&#x200B; mises à jour planifiées &#x200B;](../content-design/content-staging-scheduled-update.md). Utilisez ces outils promotionnels pour appliquer un prix spécial à un produit spécifique pendant une période spécifiée.
 
 1. Ouvrez le produit en mode d’édition.
 
@@ -74,7 +74,7 @@ Adobe Commerce prend en charge les [ mises à jour planifiées ](../content-desi
 
    En vitrine, le prix spécial doit apparaître à la fois dans la liste du catalogue et sur la page produit.
 
-   La _[!UICONTROL Scheduled Change]_s’affiche en haut de la page.
+   La _[!UICONTROL Scheduled Change]_&#x200B;s’affiche en haut de la page.
 
    ![Modification planifiée](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
 
@@ -108,7 +108,7 @@ Vous pouvez également attribuer un prix spécial à plusieurs produits, par exe
 
 L’exemple suivant montre comment attribuer le même prix spécial à plusieurs variations de produit d’un produit configurable dans Adobe Commerce.
 
-1. Sur la page _[!UICONTROL Products]_, cliquez sur **[!UICONTROL Filters]**et saisissez le **[!UICONTROL Name]**du produit configurable.
+1. Sur la page _[!UICONTROL Products]_, cliquez sur **[!UICONTROL Filters]**&#x200B;et saisissez le **[!UICONTROL Name]**&#x200B;du produit configurable.
 
 1. Définissez **[!UICONTROL Type]** sur `Configurable Product`, puis cliquez sur **[!UICONTROL Apply Filters]**.
 
@@ -118,7 +118,7 @@ L’exemple suivant montre comment attribuer le même prix spécial à plusieurs
 
 1. Définissez la commande **[!UICONTROL Actions]** sur `Update attributes`.
 
-1. Faites défiler jusqu’au champ _[!UICONTROL Special Price]_, cochez la case **[!UICONTROL Change]**située sous le champ_[!UICONTROL Special Price]_ et saisissez le prix spécial que vous souhaitez proposer.
+1. Faites défiler jusqu’au champ _[!UICONTROL Special Price]_, cochez la case **[!UICONTROL Change]**&#x200B;située sous le champ&#x200B;_[!UICONTROL Special Price]_ et saisissez le prix spécial que vous souhaitez proposer.
 
    ![Champs Prix spécial](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
 
@@ -140,7 +140,7 @@ L’exemple suivant montre comment attribuer le même prix spécial à plusieurs
 
 1. Définissez **[!UICONTROL Type]** sur `Simple Product`.
 
-   ![ Filtres ](./assets/product-price-special-filter.png){width="600" zoomable="yes"}
+   ![&#x200B; Filtres &#x200B;](./assets/product-price-special-filter.png){width="600" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Apply Filters]**.
 

@@ -37,7 +37,7 @@ ht-degree: 1%
 ---
 # Création d’une commande
 
-Pour les clients enregistrés qui ont besoin d’aide, vous pouvez créer une commande entière directement à partir de l’administrateur. Le formulaire _[!UICONTROL Create New Order]_contient toutes les informations nécessaires au processus de passage en caisse normal, avec des résumés des activités du tableau de bord du compte du client.
+Pour les clients enregistrés qui ont besoin d’aide, vous pouvez créer une commande entière directement à partir de l’administrateur. Le formulaire _[!UICONTROL Create New Order]_&#x200B;contient toutes les informations nécessaires au processus de passage en caisse normal, avec des résumés des activités du tableau de bord du compte du client.
 
 ![Créer une commande pour un client](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -51,7 +51,7 @@ Pour les clients enregistrés qui ont besoin d’aide, vous pouvez créer une co
 
 1. Dans l’en-tête de l’espace de travail, cliquez sur **[!UICONTROL Create Order]**.
 
-   ![En-tête ](./assets/order-create-buttons.png){width="700" zoomable="yes"}
+   ![En-tête &#x200B;](./assets/order-create-buttons.png){width="700" zoomable="yes"}
 
    Vous pouvez également créer une commande dans l’espace de travail [Commande](orders.md#orders-workspace) en cliquant sur **[!UICONTROL Create New Order]**.
 
@@ -120,11 +120,11 @@ Vous pouvez transférer des articles vers le panier à partir de la liste de sou
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
-   - [!UICONTROL [Attributs d&#39;ordre personnalisés]](../stores-purchase/order-processing.md#custom-order-attributes)
+   - [[!UICONTROL [Attributs d&#39;ordre personnalisés]]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >
->Consultez le [ Guide des services de paiement ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) pour plus d’informations sur les modes de paiement afin de prendre en charge cette fonctionnalité lorsque l’extension des services de paiement est installée et configurée.
+>Consultez le [&#x200B; Guide des services de paiement &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) pour plus d’informations sur les modes de paiement afin de prendre en charge cette fonctionnalité lorsque l’extension des services de paiement est installée et configurée.
 
 ## Étape 3 : envoyer la commande
 

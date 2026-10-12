@@ -58,10 +58,10 @@ Les commerçants à source unique peuvent ajouter de nouveaux magasins, entrepô
 
 Pour les commerçants multi-sources qui souhaitent réduire les ventes en ligne à un seul emplacement pour l’expédition, modifiez vos sources, vos stocks et vos quantités pour mettre à jour :
 
-1. Désactivez [ sources personnalisées ](sources-disable.md).
+1. Désactivez [&#x200B; sources personnalisées &#x200B;](sources-disable.md).
 
 1. Transférez l’inventaire des produits vers votre Source par défaut.
 
    Il est recommandé d’utiliser des actions en masse. Voir [Transfert de l’inventaire vers Source](inventory-transfer.md).
 
-1. Affectez tous les sites web au [ Stock par défaut ](stocks-manage.md).
+1. Affectez tous les sites web au [&#x200B; Stock par défaut &#x200B;](stocks-manage.md).

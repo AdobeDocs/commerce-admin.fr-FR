@@ -35,7 +35,7 @@ ht-degree: 1%
 ---
 # Utilisation des images Adobe Stock
 
-Les images [](https://stock.adobe.com) peuvent être utilisées à la place du chargement de votre propre contenu d’image. Un cas d’utilisation courant consiste à charger et à placer du contenu d’image lors de la création d’une page.
+Les images [&#128279;](https://stock.adobe.com) peuvent être utilisées à la place du chargement de votre propre contenu d’image. Un cas d’utilisation courant consiste à charger et à placer du contenu d’image lors de la création d’une page.
 
 Le [[!DNL Media Gallery]](media-gallery.md) offre une intégration directe à Adobe Stock, ce qui facilite l’obtention de licences pour vos images directement depuis la page de la galerie.
 
@@ -49,7 +49,7 @@ Le panneau de recherche Adobe Stock est accessible lorsque vous [ajoutez ou modi
 
 1. Cliquez sur **[!UICONTROL Add a New Page]**.
 
-   Si vous souhaitez modifier une page existante, vous pouvez utiliser la colonne _[!UICONTROL Action]_pour cliquer sur **[!UICONTROL Select]**et choisir **[!UICONTROL Edit]**.
+   Si vous souhaitez modifier une page existante, vous pouvez utiliser la colonne _[!UICONTROL Action]_&#x200B;pour cliquer sur **[!UICONTROL Select]**&#x200B;et choisir **[!UICONTROL Edit]**.
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Content]** et procédez comme suit :
 
@@ -69,7 +69,7 @@ Le panneau de recherche Adobe Stock est accessible lorsque vous [ajoutez ou modi
 
    Si vous souhaitez ajouter l’image à une catégorie existante, cliquez sur le nom de la catégorie dans la liste de gauche.
 
-1. Développez la section **[!UICONTROL Content]**, puis sous _[!UICONTROL Category Image]_cliquez sur **[!UICONTROL Select from Gallery]**.
+1. Développez la section **[!UICONTROL Content]**, puis sous _[!UICONTROL Category Image]_&#x200B;cliquez sur **[!UICONTROL Select from Gallery]**.
 
 1. Cliquez sur **[!UICONTROL Search Adobe Stock]**.
 
@@ -81,11 +81,11 @@ Pour rechercher des ressources Adobe Stock et ajouter une image système à part
 
 1. Cliquez sur **[!UICONTROL Search Adobe Stock]**.
 
-   ![Résultats de la recherche ](./assets/adobe-stock-search-grid.png){width="600" zoomable="yes"}
+   ![Résultats de la recherche &#x200B;](./assets/adobe-stock-search-grid.png){width="600" zoomable="yes"}
 
 ## Filtrer et rechercher des ressources Adobe Stock
 
-La [grille de recherche ](#access-the-adobe-stock-search-grid) fournit des fonctionnalités d’interrogation et de filtrage pour vous aider à trouver l’image parfaite pour vos magasins de [!DNL Commerce].
+La [grille de recherche &#x200B;](#access-the-adobe-stock-search-grid) fournit des fonctionnalités d’interrogation et de filtrage pour vous aider à trouver l’image parfaite pour vos magasins de [!DNL Commerce].
 
 Par défaut, les résultats de recherche affichés proviennent d’une galerie de quelques centaines de résultats organisée par Adobe Stock. Lorsque vous effectuez votre propre recherche par mot-clé, vous recherchez les millions de ressources disponibles via Adobe Stock.
 
@@ -116,7 +116,7 @@ Par défaut, les résultats de recherche affichés proviennent d’une galerie d
 
    {style="table-layout:auto"}
 
-   ![Filtres de recherche ](./assets/adobe-stock-filters.png){width="600" zoomable="yes"}
+   ![Filtres de recherche &#x200B;](./assets/adobe-stock-filters.png){width="600" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Apply Filters]**.
 
@@ -137,7 +137,7 @@ Chaque image contient des détails disponibles pour l’affichage. D’autres ac
    - Images associées, telles que des images de la même _série_ ou _modèle_
    - Boutons d’action, tels que [[!UICONTROL Save Preview]](adobe-stock-save-preview.md) et [[!UICONTROL Save (and optionally license) Image]](adobe-stock-license-image.md)
 
-     ![Détails de l’image ](./assets/adobe-stock-image-details.png){width="600" zoomable="yes"}
+     ![Détails de l’image &#x200B;](./assets/adobe-stock-image-details.png){width="600" zoomable="yes"}
 
 ## Connectez-vous à votre compte Adobe
 
@@ -147,11 +147,11 @@ Pour obtenir un accès complet à une image et éliminer le filigrane Adobe Stoc
 
 1. Cliquez sur **[!UICONTROL Sign In]** en haut à droite.
 
-   Une nouvelle fenêtre de navigateur vous guide tout au long du processus de connexion à [](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
+   Une nouvelle fenêtre de navigateur vous guide tout au long du processus de connexion à [&#128279;](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
 
    Une fois le processus de connexion terminé, l’état sous licence des images s’affiche dans les résultats de recherche sous forme de libellé.
 
-   ![Connexion à ](./assets/adobe-stock-account-login.png){width="600" zoomable="yes"}
+   ![Connexion à &#x200B;](./assets/adobe-stock-account-login.png){width="600" zoomable="yes"}
 
 ### Afficher l’état sous licence des résultats de recherche
 

@@ -51,7 +51,7 @@ ht-degree: 2%
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Gift Card Notification Email Sender] | Affichage de la boutique | Identifie le [ contact de la boutique ](../../getting-started/store-details.md#store-email-addresses) qui s’affiche comme expéditeur de l’e-mail de notification de carte cadeau. Valeur par défaut : `General Contact` |
+| [!UICONTROL Gift Card Notification Email Sender] | Affichage de la boutique | Identifie le [&#x200B; contact de la boutique &#x200B;](../../getting-started/store-details.md#store-email-addresses) qui s’affiche comme expéditeur de l’e-mail de notification de carte cadeau. Valeur par défaut : `General Contact` |
 | [!UICONTROL Gift Card Notification Email Template] | Affichage de la boutique | Détermine le [modèle](../../systems/email-templates.md) utilisé pour l’e-mail de notification de carte cadeau. |
 
 {style="table-layout:auto"}
@@ -80,7 +80,7 @@ ht-degree: 2%
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
-| [!UICONTROL Gift Card Email Sender] | Affichage de la boutique | Identifie le [ contact de la boutique ](../../getting-started/store-details.md#store-email-addresses) qui s’affiche comme expéditeur de l’e-mail de carte cadeau. Valeur par défaut : `General Contact` |
+| [!UICONTROL Gift Card Email Sender] | Affichage de la boutique | Identifie le [&#x200B; contact de la boutique &#x200B;](../../getting-started/store-details.md#store-email-addresses) qui s’affiche comme expéditeur de l’e-mail de carte cadeau. Valeur par défaut : `General Contact` |
 | [!UICONTROL Gift Card Template] | Affichage de la boutique | Détermine le [modèle](../../systems/email-templates.md) utilisé pour l’e-mail de carte cadeau. |
 
 {style="table-layout:auto"}

@@ -56,9 +56,9 @@ Pour commencer :
 
 - Configurez [paramètres globaux et de produit](configuration.md) pour l’inventaire de votre magasin, si nécessaire.
 
-- Mettez à jour le Source par défaut](sources-manage.md) avec des informations sur votre emplacement d’inventaire unique. [Il n’est pas nécessaire de créer des sources supplémentaires.
+- Mettez à jour le Source par défaut[&#128279;](sources-manage.md) avec des informations sur votre emplacement d’inventaire unique. Il n’est pas nécessaire de créer des sources supplémentaires.
 
-- Mettez à jour le [ Stock par défaut ](stocks-manage.md). Assurez-vous que tous vos sites web sont sélectionnés comme canaux de vente. Lorsque vous ajoutez de nouveaux sites web, [!DNL Commerce] les ajoute automatiquement au Stock par défaut. Il n&#39;est pas nécessaire de créer des stocks supplémentaires.
+- Mettez à jour le [&#x200B; Stock par défaut &#x200B;](stocks-manage.md). Assurez-vous que tous vos sites web sont sélectionnés comme canaux de vente. Lorsque vous ajoutez de nouveaux sites web, [!DNL Commerce] les ajoute automatiquement au Stock par défaut. Il n&#39;est pas nécessaire de créer des stocks supplémentaires.
 
 >[!NOTE]
 >

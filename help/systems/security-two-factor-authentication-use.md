@@ -67,7 +67,7 @@ Pour obtenir des instructions complètes, voir [Connexion administrateur](../get
 
 1. Cliquez ensuite sur **[!UICONTROL Confirm]**.
 
-   ![Code QR de l’authentificateur ](./assets/storefront-2fa-google-qrcode.png){width="300"}
+   ![Code QR de l’authentificateur &#x200B;](./assets/storefront-2fa-google-qrcode.png){width="300"}
 
 ### Étape 2 : Se connecter avec [!DNL Google Authenticator]
 

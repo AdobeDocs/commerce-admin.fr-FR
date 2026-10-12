@@ -75,7 +75,7 @@ Lors de la configuration des plannings pour les mises à jour de produit et de l
 
    ![Planifier comme nouvelle mise à jour](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
 
-1. Faites défiler jusqu’à _[!UICONTROL Price]_et cliquez sur **[!UICONTROL Advanced Pricing]**.
+1. Faites défiler jusqu’à _[!UICONTROL Price]_&#x200B;et cliquez sur **[!UICONTROL Advanced Pricing]**.
 
 1. Saisissez un **[!UICONTROL Special Price]** pour le produit pendant la campagne planifiée et cliquez sur **[!UICONTROL Done]**.
 
@@ -107,7 +107,7 @@ La modification planifiée s’affiche en haut de la page des produits, avec les
 
 ## Modifier la modification planifiée
 
-1. Dans la zone _[!UICONTROL Scheduled Changes]_en haut de la page, cliquez sur **[!UICONTROL View/Edit]**.
+1. Dans la zone _[!UICONTROL Scheduled Changes]_&#x200B;en haut de la page, cliquez sur **[!UICONTROL View/Edit]**.
 
 1. Apportez les modifications nécessaires à la mise à jour planifiée.
 
@@ -115,7 +115,7 @@ La modification planifiée s’affiche en haut de la page des produits, avec les
 
 ## Supprimer la modification planifiée
 
-1. Dans la zone _[!UICONTROL Scheduled Changes]_en haut de la page, cliquez sur **[!UICONTROL View/Edit]**.
+1. Dans la zone _[!UICONTROL Scheduled Changes]_&#x200B;en haut de la page, cliquez sur **[!UICONTROL View/Edit]**.
 
 1. Dans la barre supérieure, cliquez sur **[!UICONTROL Remove from Update]**.
 
@@ -129,7 +129,7 @@ La modification planifiée s’affiche en haut de la page des produits, avec les
 
 {{ce-feature}}
 
-La section _[!UICONTROL Schedule Design Update]_vous permet d’apporter des modifications temporaires à l’aspect de la page du produit. Vous pouvez planifier des modifications de conception pour une saison, une promotion ou simplement pour rafraîchir les choses. Les modifications de conception peuvent être planifiées à l’avance afin qu’elles soient prises en compte, ou_ goutte à goutte _, selon la planification que vous avez définie.
+La section _[!UICONTROL Schedule Design Update]_&#x200B;vous permet d’apporter des modifications temporaires à l’aspect de la page du produit. Vous pouvez planifier des modifications de conception pour une saison, une promotion ou simplement pour rafraîchir les choses. Les modifications de conception peuvent être planifiées à l’avance afin qu’elles soient prises en compte, ou_ goutte à goutte _, selon la planification que vous avez définie.
 
 ![Mise à jour de conception planifiée](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
 

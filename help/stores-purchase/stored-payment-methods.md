@@ -38,7 +38,7 @@ ht-degree: 0%
 
 Les clients qui ont accès à un coffre sécurisé pour stocker les informations de paiement peuvent passer rapidement en caisse sans saisir leurs informations de carte de crédit à chaque fois. Si l’option [Achat instantané](checkout-instant-purchase.md) est activée, les clients peuvent contourner le processus de passage en caisse en deux étapes et passer la commande à partir de la page du produit.
 
-Un mode de paiement prenant en charge un coffre sécurisé, tel que [](braintree.md), est requis. Lorsqu’un coffre sécurisé est activé dans la configuration du mode de paiement, les clients ont la possibilité, lors du passage en caisse, d’enregistrer leurs informations de carte de crédit en tant que mode de paiement stocké. Les clients peuvent gérer les modes de paiement stockés à partir du tableau de bord de leur compte.
+Un mode de paiement prenant en charge un coffre sécurisé, tel que [&#128279;](braintree.md), est requis. Lorsqu’un coffre sécurisé est activé dans la configuration du mode de paiement, les clients ont la possibilité, lors du passage en caisse, d’enregistrer leurs informations de carte de crédit en tant que mode de paiement stocké. Les clients peuvent gérer les modes de paiement stockés à partir du tableau de bord de leur compte.
 
 ![Modes de paiement stockés](./assets/customer-account-stored-payment-methods.png){width="700" zoomable="yes"}
 
@@ -60,7 +60,7 @@ Un mode de paiement prenant en charge un coffre sécurisé, tel que [](braintree
 
 1. Effectue un clic sur **[!UICONTROL Place Order]**.
 
-Le mode de paiement enregistré est alors affiché dans l’onglet _[!UICONTROL Stored Payment Methods]_du tableau de bord du client.
+Le mode de paiement enregistré est alors affiché dans l’onglet _[!UICONTROL Stored Payment Methods]_&#x200B;du tableau de bord du client.
 
 ## Supprimer un mode de paiement stocké
 

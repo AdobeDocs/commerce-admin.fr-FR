@@ -40,7 +40,7 @@ ht-degree: 5%
 
 ## [!UICONTROL Rss Config]
 
-![ Configuration Rss ](./assets/rss-feeds-rss-config.png)<!-- zoom -->
+![&#x200B; Configuration Rss &#x200B;](./assets/rss-feeds-rss-config.png)<!-- zoom -->
 
 <!-- [Rss Config](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/social-rss) -->
 
@@ -54,7 +54,7 @@ Pour plus d’informations sur l’utilisation des flux RSS après leur activati
 
 ## [!UICONTROL Wish List]
 
-![ Liste de souhaits ](./assets/rss-feeds-wishlist.png)<!-- zoom -->
+![&#x200B; Liste de souhaits &#x200B;](./assets/rss-feeds-wishlist.png)<!-- zoom -->
 
 <!-- [Wish List](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
 

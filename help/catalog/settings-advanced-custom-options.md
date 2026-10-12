@@ -40,7 +40,7 @@ L’ajout d’options personnalisables à un produit est un moyen facile d’off
 
 Lorsqu’un client achète un produit avec une option personnalisable, une description de chaque option sélectionnée s’affiche sous la description du produit et toute balise (ou markdown) associée est automatiquement appliquée au prix de l’article.
 
-![ Détails du produit avec option personnalisable ](./assets/storefront-customizable-option-product-detail.png){width="700" zoomable="yes"}
+![&#x200B; Détails du produit avec option personnalisable &#x200B;](./assets/storefront-customizable-option-product-detail.png){width="700" zoomable="yes"}
 
 Si une règle de prix de panier est déclenchée par l’achat, le calcul initial s’applique d’abord au prix du produit et ensuite au prix de la ligne, avec tout ajustement pour les options personnalisables applicables. Dans l’exemple suivant, le client achète un sac de voyage pour 74 $, ainsi qu’une option personnalisable pour un monogramme. Une majoration de 14,80 $ est appliquée au prix de base du produit, et le prix rajusté est indiqué comme 88,80 $. Dans ce cas, l’achat du sac de voyage déclenche une règle de prix du panier basée sur le SKU du produit et applique une remise à l’achat, ainsi qu’une livraison gratuite. Bien que la règle de prix du panier ne soit pas déclenchée par l’option personnalisable , elle applique la remise au contenu du panier, qui inclut le balisage de l’option personnalisable.
 
@@ -81,7 +81,7 @@ Si une règle de prix de panier est déclenchée par l’achat, le calcul initia
 
    - (Facultatif) Saisissez un **[!UICONTROL SKU]** pour l’option. Le SKU d’option est un suffixe ajouté au SKU du produit.
 
-   - Si le _[!UICONTROL Option Type]_est `File`, définissez les paramètres du fichier . Par **[!UICONTROL Compatible File Extensions]**, saisissez les extensions valides sous la forme de valeurs séparées par des virgules (telles que `png, jpg, gif`). Par **[!UICONTROL Maximum Image Size]**, saisissez la taille maximale de l’image en pixels. S’il s’agit d’une entrée de texte, saisissez la valeur maximale de **[!UICONTROL Maximum Characters]**.
+   - Si le _[!UICONTROL Option Type]_&#x200B;est `File`, définissez les paramètres du fichier . Par **[!UICONTROL Compatible File Extensions]**, saisissez les extensions valides sous la forme de valeurs séparées par des virgules (telles que `png, jpg, gif`). Par **[!UICONTROL Maximum Image Size]**, saisissez la taille maximale de l’image en pixels. S’il s’agit d’une entrée de texte, saisissez la valeur maximale de **[!UICONTROL Maximum Characters]**.
 
    ![Option Ajouter des valeurs pour la personnalisation](./assets/product-customizable-options-add-values.png){width="600" zoomable="yes"}
 

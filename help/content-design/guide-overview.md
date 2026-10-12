@@ -32,10 +32,10 @@ Ce guide couvre les sujets suivants :
 | Objet | Description |
 | ------- | ----------- |
 | [Introduction](introduction.md) | Présentation de l’utilisation des fonctionnalités de contenu et de conception de site pour refléter votre marque et votre style sur votre boutique. |
-| [ Menu Contenu ](content-menu.md) | Utilisez le menu [!UICONTROL Content] pour accéder à plusieurs fonctionnalités de gestion du contenu de votre boutique. |
+| [&#x200B; Menu Contenu &#x200B;](content-menu.md) | Utilisez le menu [!UICONTROL Content] pour accéder à plusieurs fonctionnalités de gestion du contenu de votre boutique. |
 | Conception | Utilisez les outils de conception pour contrôler le [thème](themes.md) et les [mises en page](page-layout.md) de votre storefront. Le [[!UICONTROL Design Configuration]](configuration.md) facilite la modification des règles liées à la conception et des paramètres de configuration en affichant les paramètres sur une seule page. |
 | Éléments de contenu | Dans cette section du guide, vous trouverez des informations détaillées sur la création et la gestion de contenu [pages](pages.md) et [blocs](blocks.md), ainsi que sur l’utilisation de [widgets](widgets.md) pour ajouter du contenu dynamique. |
-| [Éditeur ](editor.md) | L’éditeur vous permet de saisir et de mettre en forme le contenu lorsque vous travaillez dans une vue __ (WYSIWYG) du contenu. |
+| [Éditeur &#x200B;](editor.md) | L’éditeur vous permet de saisir et de mettre en forme le contenu lorsque vous travaillez dans une vue __ (WYSIWYG) du contenu. |
 | Média | [Stockage multimédia](media-storage.md) vous permet d’organiser les fichiers multimédias stockés sur le serveur et d’y accéder. Vous pouvez charger vos ressources multimédias et [intégrer Adobe Stock](adobe-stock.md) à [!DNL Commerce] pour accéder à d’innombrables ressources multimédias à utiliser dans votre boutique. |
 | [Évaluation du contenu](content-staging.md) | L’évaluation du contenu permet à votre équipe commerciale de créer, de prévisualiser et de planifier facilement un large éventail de mises à jour de contenu pour votre boutique directement depuis l’administration. |
 

@@ -92,7 +92,7 @@ Lorsque le stock n’est pas géré pour un produit, cette combinaison de param�
 
 Les options d’affichage suivantes sont possibles pour les listes de catégories et de résultats de recherche, selon la disponibilité du produit et les paramètres de configuration.
 
-![ Message de rupture de stock sur la page Catégorie ](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
+![&#x200B; Message de rupture de stock sur la page Catégorie &#x200B;](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
 
 ### Exemple 1 : afficher le produit avec le message « En rupture de stock »
 

@@ -89,7 +89,7 @@ Voir [Configuration de la recherche de site](https://support.google.com/analytic
 
    - Choisissez **[!UICONTROL Property Settings]**.
 
-   - Sous _[!UICONTROL Advertising Features]_, définissez **[!UICONTROL Enable Demographics and Interest Reports]**sur `On`.
+   - Sous _[!UICONTROL Advertising Features]_, définissez **[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;sur `On`.
 
    - **[!UICONTROL Save]** les paramètres.
 
@@ -223,7 +223,7 @@ Si vous disposez d’un compte Google AdWords, vous pouvez créer une balise pou
 
    - Sous **[!UICONTROL Choose Product]**, sélectionnez **[!UICONTROL Google AdWords]**.
 
-   - Sous _[!UICONTROL Choose a Tag Type]_, sélectionnez **[!UICONTROL AdWords Conversion Tracking]**et cliquez sur **[!UICONTROL Continue]**.
+   - Sous _[!UICONTROL Choose a Tag Type]_, sélectionnez **[!UICONTROL AdWords Conversion Tracking]**&#x200B;et cliquez sur **[!UICONTROL Continue]**.
 
 1. Saisissez les **[!UICONTROL Conversion ID]** et **[!UICONTROL Conversion Label]** de votre compte AdWords, puis cliquez sur **[!UICONTROL Continue]**.
 
@@ -257,7 +257,7 @@ L’étape suivante du processus consiste à prévisualiser la balise . Chaque f
 
 ## Balise HTML personnalisée avec JavaScript
 
-Cette section explique comment ajouter une valeur à usage unique CSP au JavaScript de balise HTML personnalisé pour l’exécuter sur la page de passage en caisse, en veillant à la conformité aux exigences de la politique de sécurité du contenu (CSP). Cet ajout améliore la sécurité du site en empêchant l’exécution de scripts non autorisés. Pour plus d’informations, consultez la documentation [ Politique de sécurité du contenu ](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+Cette section explique comment ajouter une valeur à usage unique CSP au JavaScript de balise HTML personnalisé pour l’exécuter sur la page de passage en caisse, en veillant à la conformité aux exigences de la politique de sécurité du contenu (CSP). Cet ajout améliore la sécurité du site en empêchant l’exécution de scripts non autorisés. Pour plus d’informations, consultez la documentation [&#x200B; Politique de sécurité du contenu &#x200B;](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
 
 >[!NOTE]
 >
@@ -287,7 +287,7 @@ Si vous ne pouvez pas importer la configuration de variable, procédez comme sui
 1. Dans le champ **Nom global de la variable**, saisissez `window.cspNonce`.
 1. Enregistrez la variable.
 
-Pour en savoir plus sur les [variables du gestionnaire de balises ](https://support.google.com/tagmanager/answer/7683056?hl=en), consultez [Types de variables définis par l’utilisateur pour le web](https://support.google.com/tagmanager/answer/7683362?hl=en) dans la documentation de Google. Cette documentation fournit des conseils détaillés sur la création et la gestion de variables personnalisées afin d’adapter la gestion des balises à des besoins spécifiques de marketing et d’analyse.
+Pour en savoir plus sur les [variables du gestionnaire de balises &#x200B;](https://support.google.com/tagmanager/answer/7683056?hl=en), consultez [Types de variables définis par l’utilisateur pour le web](https://support.google.com/tagmanager/answer/7683362?hl=en) dans la documentation de Google. Cette documentation fournit des conseils détaillés sur la création et la gestion de variables personnalisées afin d’adapter la gestion des balises à des besoins spécifiques de marketing et d’analyse.
 
 ### Étape 2. Création d’une balise HTML personnalisée
 

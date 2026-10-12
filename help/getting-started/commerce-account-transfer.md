@@ -56,7 +56,7 @@ Les scénarios suivants décrivent les options de transfert disponibles en fonct
 | ------------- | ------------- | --------- |
 | [Nouvel Adobe ID et modification des e-mails](#new-adobe-id-and-email-change) | A un MAGEID qui n’a pas été connecté à un Adobe ID | N’a pas de MAGEID et n’a pas d’Adobe ID. |
 | [Modification des e-mails uniquement](#email-change) | Dispose d’un MAGEID connecté à un Adobe ID. | Dispose d’un Adobe ID, mais n’a pas de MAGEID connecté au compte. |
-| [Changement de compte ](#adobe-id-account-switch) | Dispose d’un MAGEID connecté à un Adobe ID. | Dispose d’un MAGEID et est connecté à un Adobe ID. |
+| [Changement de compte &#x200B;](#adobe-id-account-switch) | Dispose d’un MAGEID connecté à un Adobe ID. | Dispose d’un MAGEID et est connecté à un Adobe ID. |
 
 {style="table-layout:auto"}
 
@@ -86,7 +86,7 @@ Plusieurs chemins de transfert utilisent le même workflow de vérification sur 
 
 Utilisez ce chemin d’accès lorsque le propriétaire actuel possède un MAGEID qui n’est pas encore lié à une Adobe ID. Le ou la propriétaire actuel(le) crée et lie d’abord une Adobe ID, puis modifie cette adresse e-mail Adobe ID en fonction de l’adresse e-mail du nouveau ou de la nouvelle propriétaire.
 
-1. Accédez à la page [Connexion au compte ](https://account.magento.com/customer/account/login/).
+1. Accédez à la page [Connexion au compte &#x200B;](https://account.magento.com/customer/account/login/).
 
 1. Cliquez sur **[!UICONTROL Sign in with Adobe ID]**.
 
@@ -96,7 +96,7 @@ Utilisez ce chemin d’accès lorsque le propriétaire actuel possède un MAGEID
 
 1. Cliquez sur **[!UICONTROL Continue]**.
 
-   Cette étape permet de créer une Adobe ID et de la lier au compte Adobe Commerce courant (MAGEID). Avec ce lien de compte, le champ _[!UICONTROL Email]_est bloqué de toute modification. La configuration de l’adresse e-mail associée est gérée à partir du compte Adobe ID.
+   Cette étape permet de créer une Adobe ID et de la lier au compte Adobe Commerce courant (MAGEID). Avec ce lien de compte, le champ _[!UICONTROL Email]_&#x200B;est bloqué de toute modification. La configuration de l’adresse e-mail associée est gérée à partir du compte Adobe ID.
 
 1. Accédez à [account.adobe.com](https://account.adobe.com/).
 
@@ -104,9 +104,9 @@ Utilisez ce chemin d’accès lorsque le propriétaire actuel possède un MAGEID
 
 1. Saisissez l’adresse e-mail du nouveau propriétaire.
 
-   Si la nouvelle adresse e-mail est déjà associée à un autre compte du système, elle ne peut pas être directement utilisée pour le transfert. Suivez plutôt le chemin d’accès du compte [](#adobe-id-account-switch) et utilisez une [adresse e-mail temporaire](#change-to-a-temporary-account).
+   Si la nouvelle adresse e-mail est déjà associée à un autre compte du système, elle ne peut pas être directement utilisée pour le transfert. Suivez plutôt le chemin d’accès du compte [&#128279;](#adobe-id-account-switch) et utilisez une [adresse e-mail temporaire](#change-to-a-temporary-account).
 
-1. Suivez les [ étapes de vérification par e-mail ](#verify-an-adobe-id-email-change).
+1. Suivez les [&#x200B; étapes de vérification par e-mail &#x200B;](#verify-an-adobe-id-email-change).
 
 Une fois que le nouveau propriétaire a vérifié l’adresse e-mail, passez à la [Étapes finales](#final-steps) afin que l’assistance Adobe Commerce puisse mettre à jour les enregistrements de compte tels que le profil de [[!DNL Commerce Marketplace]](https://commercemarketplace.adobe.com/).
 
@@ -130,9 +130,9 @@ Avant de commencer, notez que ce type de transfert entraîne pour le titulaire d
 
 1. Dans la boîte de dialogue, saisissez l’adresse e-mail du nouveau propriétaire.
 
-   Si la nouvelle adresse e-mail est déjà associée à un autre compte du système, elle ne peut pas être directement utilisée pour le transfert. Suivez plutôt le chemin d’accès du compte [](#adobe-id-account-switch) et utilisez une [adresse e-mail temporaire](#change-to-a-temporary-account).
+   Si la nouvelle adresse e-mail est déjà associée à un autre compte du système, elle ne peut pas être directement utilisée pour le transfert. Suivez plutôt le chemin d’accès du compte [&#128279;](#adobe-id-account-switch) et utilisez une [adresse e-mail temporaire](#change-to-a-temporary-account).
 
-1. Suivez les [ étapes de vérification par e-mail ](#verify-an-adobe-id-email-change).
+1. Suivez les [&#x200B; étapes de vérification par e-mail &#x200B;](#verify-an-adobe-id-email-change).
 
 Une fois que le nouveau propriétaire a vérifié l’adresse e-mail, passez à la [Étapes finales](#final-steps) afin que l’assistance Adobe Commerce puisse mettre à jour les enregistrements de compte tels que le profil de [[!DNL Commerce Marketplace]](https://commercemarketplace.adobe.com/).
 
@@ -162,7 +162,7 @@ Pour associer l’Adobe ID du propriétaire actuel à une adresse e-mail tempora
 
 1. Dans la boîte de dialogue, saisissez une adresse e-mail temporaire valide qui n’est pas utilisée par un Adobe ID.
 
-1. Suivez les [ étapes de vérification par e-mail ](#verify-an-adobe-id-email-change).
+1. Suivez les [&#x200B; étapes de vérification par e-mail &#x200B;](#verify-an-adobe-id-email-change).
 
 1. Déconnectez-vous du compte Adobe.
 
@@ -176,7 +176,7 @@ Une fois que le propriétaire actuel a effectué le transfert vers une adresse e
 
 1. Dans la boîte de dialogue, saisissez l’adresse e-mail d’origine du propriétaire actuel.
 
-1. Suivez les [ étapes de vérification par e-mail ](#verify-an-adobe-id-email-change).
+1. Suivez les [&#x200B; étapes de vérification par e-mail &#x200B;](#verify-an-adobe-id-email-change).
 
 1. Déconnectez-vous du compte Adobe.
 
@@ -190,7 +190,7 @@ Une fois que le nouveau propriétaire a configuré son Adobe ID avec l’adresse
 
 1. Dans la boîte de dialogue, saisissez l’adresse e-mail du nouveau propriétaire.
 
-1. Suivez les [ étapes de vérification par e-mail ](#verify-an-adobe-id-email-change).
+1. Suivez les [&#x200B; étapes de vérification par e-mail &#x200B;](#verify-an-adobe-id-email-change).
 
 Une fois que le nouveau propriétaire a vérifié l’adresse e-mail, passez à la [Étapes finales](#final-steps) afin que l’assistance Adobe Commerce puisse mettre à jour les enregistrements de compte tels que le profil de [[!DNL Commerce Marketplace]](https://commercemarketplace.adobe.com/).
 

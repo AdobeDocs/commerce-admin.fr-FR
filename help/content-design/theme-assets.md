@@ -78,7 +78,7 @@ Dans le cadre de l’optimisation de votre site et de la réduction du temps de 
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL CSS Settings]** .
 
-   ![ Paramètres CSS ](./assets/developer-css-settings.png){width="500" zoomable="yes"}
+   ![&#x200B; Paramètres CSS &#x200B;](./assets/developer-css-settings.png){width="500" zoomable="yes"}
 
    Pour une description détaillée de ces options de configuration, voir [Paramètres CSS](../configuration-reference/advanced/developer.md#css-settings) dans le _Guide de référence de configuration_.
 
@@ -100,9 +100,9 @@ Plusieurs fichiers JavaScript peuvent être fusionnés en un seul fichier conden
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL JavaScript Settings]** .
 
-   ![Paramètres ](./assets/developer-javascript-settings.png){width="600" zoomable="yes"}
+   ![Paramètres &#x200B;](./assets/developer-javascript-settings.png){width="600" zoomable="yes"}
 
-   Pour une description détaillée de ces options de configuration, consultez [Paramètres ](../configuration-reference/advanced/developer.md#javascript-settings) dans la _Référence de configuration_.
+   Pour une description détaillée de ces options de configuration, consultez [Paramètres &#x200B;](../configuration-reference/advanced/developer.md#javascript-settings) dans la _Référence de configuration_.
 
 1. Définissez **[!UICONTROL Merge JavaScript Files]** sur `Yes`.
 

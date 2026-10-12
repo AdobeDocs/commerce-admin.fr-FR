@@ -48,7 +48,7 @@ Les commerçants à source unique et multi-sources peuvent mettre à jour les so
 
 - Les commerçants multi-sources peuvent attribuer plusieurs sources et quantités par produit pour chaque emplacement (entrepôts, magasins, chargeurs, etc.). Il est recommandé d&#39;ajouter des sources avant de définir les quantités en stock des produits.
 
-Lorsque vous ajoutez des sources et des quantités à vos produits, vous pouvez afficher les montants via la grille de produits. Si vous disposez d’un grand nombre de sources, pointez sur la _[!UICONTROL Quantity per Source]_pour afficher la liste complète et défilable des sources avec les quantités actuelles.
+Lorsque vous ajoutez des sources et des quantités à vos produits, vous pouvez afficher les montants via la grille de produits. Si vous disposez d’un grand nombre de sources, pointez sur la _[!UICONTROL Quantity per Source]_&#x200B;pour afficher la liste complète et défilable des sources avec les quantités actuelles.
 
 ![Quantités de produits par source](assets/inventory-product-quantity.png){width="600" zoomable="yes"}
 

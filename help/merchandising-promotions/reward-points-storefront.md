@@ -44,7 +44,7 @@ ht-degree: 0%
 
 La section [Points de récompense](rewards-loyalty.md) du compte client indique le solde actuel des points de récompense gagnés par le client et un historique de son solde de points de récompense.
 
-![ Points de récompense ](./assets/account-dashboard-reward-points.png){width="700" zoomable="yes"}
+![&#x200B; Points de récompense &#x200B;](./assets/account-dashboard-reward-points.png){width="700" zoomable="yes"}
 
 ## Échanger les points de récompense lors du passage en caisse
 

@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Per-Source Availability (Storefront)]
 
-![Disponibilité Par Source (Storefront) ](./assets/catalog-inventory-per-source-availability.png)<!-- zoom -->
+![Disponibilité Par Source (Storefront) &#x200B;](./assets/catalog-inventory-per-source-availability.png)<!-- zoom -->
 
 <!-- [Per-Source Availability (Storefront)](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Run asynchronously] | Global | Détermine si vous exécutez des opérations en bloc de manière asynchrone pour des actions de produits en masse, notamment [en bloc](../../inventory-management/bulk-assignment.md) affecter des sources, annuler l&#39;affectation de sources et [transférer le stock vers la source](../../inventory-management/inventory-transfer.md). Il collecte les actions en masse jusqu’à la _[!UICONTROL Asynchronous batch size]_, puis exécute ces actions. Cette fonctionnalité est désactivée par défaut. Nous vous recommandons de vérifier vos performances avec des actions en masse avant l’activation. Options :<br/>**`Yes`**- exécute toutes les opérations en bloc pour le [!DNL Inventory Management] de manière asynchrone. Pour l’activer, vous devez configurer un gestionnaire de file d’attente asynchrone.<br/>**`No`**- Valeur par défaut. N’exécute pas les opérations en bloc de manière asynchrone. |
-| [!UICONTROL Asynchronous batch size] | Global | Définissez **[!UICONTROL Run asynchronously]** sur `Yes` pour saisir une valeur pour _[!UICONTROL Asynchronous batch size]_champ. <br/>La taille de lot par défaut est de 100. Lorsque les processus en masse atteignent cette quantité, ils sont exécutés. |
+| [!UICONTROL Asynchronous batch size] | Global | Définissez **[!UICONTROL Run asynchronously]** sur `Yes` pour saisir une valeur pour _[!UICONTROL Asynchronous batch size]_&#x200B;champ. <br/>La taille de lot par défaut est de 100. Lorsque les processus en masse atteignent cette quantité, ils sont exécutés. |
 
 {style="table-layout:auto"}
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Google Distance Provider]
 
-![Fournisseur De Distance ](./assets/catalog-inventory-distance-provider-settings.png)<!-- zoom -->
+![Fournisseur De Distance &#x200B;](./assets/catalog-inventory-distance-provider-settings.png)<!-- zoom -->
 
 <!-- [Google Distance Provider](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 

@@ -44,7 +44,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Des points de récompense peuvent être attribués aux clients selon une [ règle de prix de panier ](price-rules-cart.md). L’attribution de points peut être la seule action de la règle de prix ou peut être utilisée avec une remise.
+Des points de récompense peuvent être attribués aux clients selon une [&#x200B; règle de prix de panier &#x200B;](price-rules-cart.md). L’attribution de points peut être la seule action de la règle de prix ou peut être utilisée avec une remise.
 
 >[!NOTE]
 >

@@ -50,7 +50,7 @@ Lorsqu’il est exécuté, l’algorithme :
 
 - Ignore les sources désactivées si elles figurent dans la liste
 
-Pour configurer, organisez ces sources de haut en bas en priorité pour exécuter les commandes. L&#39;algorithme Source Selection Algorithm (SSA) fournit un algorithme Priorité en utilisant cet ordre lors de la détermination des déductions d&#39;expédition et de stock. Voir [ Hiérarchisation des sources pour un stock](stocks-prioritize-sources.md).
+Pour configurer, organisez ces sources de haut en bas en priorité pour exécuter les commandes. L&#39;algorithme Source Selection Algorithm (SSA) fournit un algorithme Priorité en utilisant cet ordre lors de la détermination des déductions d&#39;expédition et de stock. Voir [&#x200B; Hiérarchisation des sources pour un stock](stocks-prioritize-sources.md).
 
 ## Configurer la priorité des sources
 
@@ -60,7 +60,7 @@ Pour configurer, organisez ces sources de haut en bas en priorité pour exécute
 
 1. Cliquez sur **[!UICONTROL Assign Sources]**.
 
-1. Dans la vue _[!UICONTROL Assign Sources]_, cochez la case correspondant à la source souhaitée, puis cliquez sur **[!UICONTROL Done]**pour affecter une source au stock.
+1. Dans la vue _[!UICONTROL Assign Sources]_, cochez la case correspondant à la source souhaitée, puis cliquez sur **[!UICONTROL Done]**&#x200B;pour affecter une source au stock.
 
 >[!NOTE]
 >

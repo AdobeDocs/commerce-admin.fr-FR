@@ -72,7 +72,7 @@ Les attributs sont organisés en groupes qui déterminent leur emplacement dans 
 
 ## Création d’un groupe d’attributs
 
-1. Dans la colonne _[!UICONTROL Groups]_du jeu d’attributs, cliquez sur **[!UICONTROL Add New]**.
+1. Dans la colonne _[!UICONTROL Groups]_&#x200B;du jeu d’attributs, cliquez sur **[!UICONTROL Add New]**.
 
 1. Saisissez un **[!UICONTROL Name]** pour le nouveau groupe, puis cliquez sur **[!UICONTROL OK]**.
 

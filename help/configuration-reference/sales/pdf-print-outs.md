@@ -42,7 +42,7 @@ ht-degree: 12%
 
 ## [!UICONTROL Invoice]
 
-![ Facture ](./assets/pdf-print-invoice.png)<!-- zoom -->
+![&#x200B; Facture &#x200B;](./assets/pdf-print-invoice.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

@@ -87,7 +87,7 @@ Lorsque vous configurez les paramètres de l’onduleur dans l’administration,
 
    >[!NOTE]
    >
-   >Le type de service United Parcel standard est planifié en vue de son abandon. Pour les nouvelles configurations, utilisez le type de `United Parcel Service REST` par défaut. Le type REST est également requis pour générer des [ étiquettes d’expédition ](shipping-labels.md).<br/>
+   >Le type de service United Parcel standard est planifié en vue de son abandon. Pour les nouvelles configurations, utilisez le type de `United Parcel Service REST` par défaut. Le type REST est également requis pour générer des [&#x200B; étiquettes d’expédition &#x200B;](shipping-labels.md).<br/>
    >Pour la version 2.4.7, **[!UICONTROL UPS Type]** est supprimé, car les types `UPS` et `UPS XML` sont planifiés en vue de leur obsolescence, et `UPS REST` est la valeur par défaut. Les API United Parcel Service (UPS) utilisées par l’intégration native d’Adobe Commerce sont temporairement obsolètes, car elles ne prennent actuellement pas en charge le modèle de sécurité OAuth 2.0.
 
    >[!IMPORTANT]

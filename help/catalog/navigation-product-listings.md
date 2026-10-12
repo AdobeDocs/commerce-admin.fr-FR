@@ -47,7 +47,7 @@ Les listes de produits peuvent être définies pour apparaître par défaut sous
 
 >[!NOTE]
 >
->Lors du tri d’une catégorie par attribut de produit, les produits ayant les mêmes valeurs d’attribut sont également triés en fonction de leur _[!UICONTROL Product ID]_dans l’ordre croissant.
+>Lors du tri d’une catégorie par attribut de produit, les produits ayant les mêmes valeurs d’attribut sont également triés en fonction de leur _[!UICONTROL Product ID]_&#x200B;dans l’ordre croissant.
 
 ![Produits affichés sous forme de grille](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 
@@ -65,7 +65,7 @@ Les listes de produits peuvent être définies pour apparaître par défaut sous
 
    >[!NOTE]
    >
-   >Pour afficher correctement les produits et leurs prix en fonction du _tri des produits par prix_, assurez-vous que les paramètres d&#39;affichage des prix dans le [paramétrage de la taxe](../configuration-reference/sales/tax.md) ont la même valeur (`Excluding Tax` **ou** `Including Tax`). Pour l’_[!UICONTROL Calculation Settings]_, vérifiez la valeur **[!UICONTROL Catalog Prices]**. Et pour_[!UICONTROL Price Display Settings]_, vérifiez la valeur **[!UICONTROL Display Product Prices in Catalog]** . Si elles ont des valeurs différentes, les filtres de prix dans la navigation superposée peuvent ne pas filtrer et trier correctement les produits par prix.
+   >Pour afficher correctement les produits et leurs prix en fonction du _tri des produits par prix_, assurez-vous que les paramètres d&#39;affichage des prix dans le [paramétrage de la taxe](../configuration-reference/sales/tax.md) ont la même valeur (`Excluding Tax` **ou** `Including Tax`). Pour l’_[!UICONTROL Calculation Settings]_, vérifiez la valeur **[!UICONTROL Catalog Prices]**. Et pour&#x200B;_[!UICONTROL Price Display Settings]_, vérifiez la valeur **[!UICONTROL Display Product Prices in Catalog]** . Si elles ont des valeurs différentes, les filtres de prix dans la navigation superposée peuvent ne pas filtrer et trier correctement les produits par prix.
 
 1. Définissez la **[!UICONTROL List Mode]** par défaut sur l’une des valeurs suivantes :
 
@@ -119,16 +119,16 @@ Les listes de produits peuvent être définies pour apparaître par défaut sous
 
 Les paramètres de pagination apparaissent en haut et en bas de la liste et contrôlent le format des liens de pagination pour les listes de produits. Vous pouvez définir le nombre de liens qui apparaissent dans le contrôle et configurer les liens Suivant et Précédent. Pour que les liens de pagination s’affichent, la liste doit contenir plus de produits que le nombre autorisé par page dans la configuration de la liste de produits.
 
-![ Contrôles de pagination ](./assets/storefront-pagination-controls.png){width="700" zoomable="yes"}
+![&#x200B; Contrôles de pagination &#x200B;](./assets/storefront-pagination-controls.png){width="700" zoomable="yes"}
 
 ### Contrôles de pagination de Storefront
 
 | Contrôle | Description |
 |--- |--- |
 | ![Afficher la grille](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] - Affiche la liste au format Grille ou Liste. |
-| ![Trier par](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Modifie l’ordre de tri de la liste. La propriété storefront _[!UICONTROL Used for Sorting in Product Listing]_détermine les [attributs de produit](../catalog/product-attributes.md) qui peuvent être utilisés pour trier la liste. |
+| ![Trier par](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Modifie l’ordre de tri de la liste. La propriété storefront _[!UICONTROL Used for Sorting in Product Listing]_&#x200B;détermine les [attributs de produit](../catalog/product-attributes.md) qui peuvent être utilisés pour trier la liste. |
 | ![Afficher par page](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Détermine le nombre de produits qui s’affichent par page. |
-| ![ Liens de pagination ](./assets/control-pagination.png) | Liens de pagination : liens de navigation vers d’autres pages. |
+| ![&#x200B; Liens de pagination &#x200B;](./assets/control-pagination.png) | Liens de pagination : liens de navigation vers d’autres pages. |
 
 {style="table-layout:auto"}
 
@@ -140,7 +140,7 @@ Les paramètres de pagination apparaissent en haut et en bas de la liste et cont
 
 1. Sous **[!UICONTROL Other Settings]**, développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Pagination]** .
 
-   ![ Pagination ](./assets/config-design-pagination.png){width="600" zoomable="yes"}
+   ![&#x200B; Pagination &#x200B;](./assets/config-design-pagination.png){width="600" zoomable="yes"}
 
    Pour plus d’informations sur ces paramètres, voir [Configuration de la conception](../content-design/configuration.md).
 

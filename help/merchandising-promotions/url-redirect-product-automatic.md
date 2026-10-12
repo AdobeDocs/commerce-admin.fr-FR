@@ -67,7 +67,7 @@ Votre boutique peut être configurée pour générer automatiquement une redirec
 
 >[!NOTE]
 >
-> Des réécritures d’URL peuvent être générées pour la vue du magasin ou de la portée du site web. Définissez la portée de la réécriture d’URL de l’administrateur sur **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]****[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**. Sélectionnez la portée dans le champ_[!UICONTROL Product URL Rewrite Scope]_ .
+> Des réécritures d’URL peuvent être générées pour la vue du magasin ou de la portée du site web. Définissez la portée de la réécriture d’URL de l’administrateur sur **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;**[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**. Sélectionnez la portée dans le champ&#x200B;_[!UICONTROL Product URL Rewrite Scope]_ .
 
 ## Rediriger automatiquement les URL de produits
 
@@ -75,7 +75,7 @@ Votre boutique peut être configurée pour générer automatiquement une redirec
 
 1. Recherchez le produit dans la liste et cliquez pour ouvrir l’enregistrement.
 
-1. Développez ![Sélecteur d’extension ](../assets/icon-display-expand.png) la section **[!UICONTROL Search Engine Optimization]** .
+1. Développez ![Sélecteur d’extension &#x200B;](../assets/icon-display-expand.png) la section **[!UICONTROL Search Engine Optimization]** .
 
    ![Optimisation du moteur de recherche de produits - redirection permanente](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 

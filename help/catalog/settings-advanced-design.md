@@ -40,13 +40,13 @@ ht-degree: 0%
 ---
 # Paramètres du produit - [!UICONTROL Design]
 
-Les paramètres _[!UICONTROL Design]_permettent d’appliquer un thème différent à la page du produit, de modifier la disposition des colonnes, de déterminer où les options du produit apparaissent et de saisir du code XML personnalisé.
+Les paramètres _[!UICONTROL Design]_&#x200B;permettent d’appliquer un thème différent à la page du produit, de modifier la disposition des colonnes, de déterminer où les options du produit apparaissent et de saisir du code XML personnalisé.
 
-![ Conception ](./assets/product-design-ee.png){width="600" zoomable="yes"}
+![&#x200B; Conception &#x200B;](./assets/product-design-ee.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Lorsqu’un même produit est affecté à plusieurs catégories avec des paramètres de conception différents pour chaque catégorie, il est recommandé de définir **[!UICONTROL Use Categories Path for Product URLs]** = `Yes` dans les [options de configuration de l’optimisation du moteur de recherche](../configuration-reference/catalog/catalog.md#search-engine-optimization). Pour accéder à ce paramètre, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, développez **[!UICONTROL Catalog]**et choisissez **[!UICONTROL Catalog]**en dessous dans le panneau de gauche, puis développez la section **[!UICONTROL Search Engine Optimization]**de la page.
+>Lorsqu’un même produit est affecté à plusieurs catégories avec des paramètres de conception différents pour chaque catégorie, il est recommandé de définir **[!UICONTROL Use Categories Path for Product URLs]** = `Yes` dans les [options de configuration de l’optimisation du moteur de recherche](../configuration-reference/catalog/catalog.md#search-engine-optimization). Pour accéder à ce paramètre, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, développez **[!UICONTROL Catalog]**&#x200B;et choisissez **[!UICONTROL Catalog]**&#x200B;en dessous dans le panneau de gauche, puis développez la section **[!UICONTROL Search Engine Optimization]**&#x200B;de la page.
 
 | Champ | [Portée](../getting-started/websites-stores-views.md#scope-settings) | Description |
 |---|---|----|

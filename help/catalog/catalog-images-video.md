@@ -46,7 +46,7 @@ L&#39;utilisation d&#39;images de haute qualité de proportion constante donne �
 
 ![Images du produit](./assets/product-images-videos-swatch.png){width="600" zoomable="yes"}
 
-Une seule image de produit est rendue dans différentes tailles dans l’ensemble du catalogue. La taille d’affichage du conteneur d’images sur la page est définie dans la feuille de style de votre thème. Cependant, l’emplacement de l’image dans votre boutique est déterminé par le rôle attribué à l’image. L’image principale du produit, ou image _de base_, doit être suffisamment grande pour produire le zoom nécessaire. Outre l’image principale, une version plus petite de la même image peut apparaître dans les listes de produits ou sous forme de miniature dans le panier. Vous pouvez charger une image de la plus grande taille nécessaire ou utiliser une image [](../content-design/adobe-stock.md) et laisser Commerce effectuer le rendu des tailles nécessaires pour chaque utilisation. Vous pouvez utiliser la même image pour tous les rôles, ou une image différente peut être affectée à chaque rôle. Par défaut, la première image chargée est affectée aux trois rôles.
+Une seule image de produit est rendue dans différentes tailles dans l’ensemble du catalogue. La taille d’affichage du conteneur d’images sur la page est définie dans la feuille de style de votre thème. Cependant, l’emplacement de l’image dans votre boutique est déterminé par le rôle attribué à l’image. L’image principale du produit, ou image _de base_, doit être suffisamment grande pour produire le zoom nécessaire. Outre l’image principale, une version plus petite de la même image peut apparaître dans les listes de produits ou sous forme de miniature dans le panier. Vous pouvez charger une image de la plus grande taille nécessaire ou utiliser une image [&#128279;](../content-design/adobe-stock.md) et laisser Commerce effectuer le rendu des tailles nécessaires pour chaque utilisation. Vous pouvez utiliser la même image pour tous les rôles, ou une image différente peut être affectée à chaque rôle. Par défaut, la première image chargée est affectée aux trois rôles.
 
 ## Navigateur de médias Storefront
 
@@ -62,7 +62,7 @@ Si l’[image de base](product-image.md) est suffisamment grande pour créer l�
 
 ### Boîtes de lumière et curseurs
 
-Il existe de nombreuses zones lumineuses et curseurs tiers que vous pouvez utiliser pour améliorer la présentation de vos images de produit. Recherchez des extensions dans [](../getting-started/commerce-marketplace.md).
+Il existe de nombreuses zones lumineuses et curseurs tiers que vous pouvez utiliser pour améliorer la présentation de vos images de produit. Recherchez des extensions dans [&#128279;](../getting-started/commerce-marketplace.md).
 
 ## Résolution des problèmes liés aux ressources
 

@@ -36,7 +36,7 @@ ht-degree: 0%
 ---
 # Expédition et livraison
 
-Des études montrent que les magasins qui offrent aux clients le choix entre plusieurs méthodes de diffusion ont des taux de conversion plus élevés que les magasins qui utilisent une seule méthode. Vous pouvez configurer différents modes de livraison et transporteurs. Les [ paramètres d&#39;expédition ](shipping-settings.md) définissent le point d&#39;origine de tous les envois effectués à partir de votre magasin ou entrepôt et votre préférence en matière de gestion des commandes expédiées à plusieurs adresses. Vous pouvez facilement créer des [étiquettes d’expédition](shipping-labels.md) pour les commandes nouvelles et existantes auprès de l’administrateur de votre boutique. Les étiquettes peuvent être produites lors de la création d&#39;une expédition ou ultérieurement. Les étiquettes d&#39;expédition sont stockées au format PDF et téléchargées sur votre ordinateur.
+Des études montrent que les magasins qui offrent aux clients le choix entre plusieurs méthodes de diffusion ont des taux de conversion plus élevés que les magasins qui utilisent une seule méthode. Vous pouvez configurer différents modes de livraison et transporteurs. Les [&#x200B; paramètres d&#39;expédition &#x200B;](shipping-settings.md) définissent le point d&#39;origine de tous les envois effectués à partir de votre magasin ou entrepôt et votre préférence en matière de gestion des commandes expédiées à plusieurs adresses. Vous pouvez facilement créer des [étiquettes d’expédition](shipping-labels.md) pour les commandes nouvelles et existantes auprès de l’administrateur de votre boutique. Les étiquettes peuvent être produites lors de la création d&#39;une expédition ou ultérieurement. Les étiquettes d&#39;expédition sont stockées au format PDF et téléchargées sur votre ordinateur.
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Adobe Commerce et Magento Open Source prennent en charge un large éventail de m
 
 * [Diffusion En Magasin](shipping-in-store-delivery.md)
 
-  Si vous utilisez [](../inventory-management/introduction.md), vous pouvez également configurer des sources pour fournir des options de diffusion en magasin à vos clients.
+  Si vous utilisez [&#128279;](../inventory-management/introduction.md), vous pouvez également configurer des sources pour fournir des options de diffusion en magasin à vos clients.
 
 ## Transporteurs
 

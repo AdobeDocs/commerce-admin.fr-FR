@@ -146,7 +146,7 @@ Pour plus d&#39;informations sur l&#39;utilisation du [!UICONTROL PayPal Settlem
 
 ## [!UICONTROL Braintree Settlement Report]
 
-Le rapport de règlement [](../stores-purchase/braintree.md) peut être filtré en fonction de la date de création, du montant, du statut, du type de transaction, du type de paiement, du numéro de transaction, du numéro de commande, du numéro de paiement PayPal, du type, du numéro de compte commercial ou du numéro de lot de règlement. L&#39;état contient l&#39;ID transaction, l&#39;ID commande, l&#39;ID paiement PayPal, le type, la date de création, le montant, le code règlement, le statut, le texte de réponse de règlement, les ID remboursement, l&#39;ID compte commerçant, l&#39;ID lot de règlement et la devise.
+Le rapport de règlement [&#128279;](../stores-purchase/braintree.md) peut être filtré en fonction de la date de création, du montant, du statut, du type de transaction, du type de paiement, du numéro de transaction, du numéro de commande, du numéro de paiement PayPal, du type, du numéro de compte commercial ou du numéro de lot de règlement. L&#39;état contient l&#39;ID transaction, l&#39;ID commande, l&#39;ID paiement PayPal, le type, la date de création, le montant, le code règlement, le statut, le texte de réponse de règlement, les ID remboursement, l&#39;ID compte commerçant, l&#39;ID lot de règlement et la devise.
 
 Dans la barre latérale _Admin_, accédez à **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Braintree Settlement]**.
 

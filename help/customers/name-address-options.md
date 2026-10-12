@@ -71,7 +71,7 @@ Vous pouvez configurer les options de nom et d’adresse qui sont présentées a
 
    >[!INFO]
    >
-   >La section _[!UICONTROL Name and Address Options]_n’apparaît pas lorsque l’étendue est définie sur `Default Store View`.
+   >La section _[!UICONTROL Name and Address Options]_&#x200B;n’apparaît pas lorsque l’étendue est définie sur `Default Store View`.
 
    ![Portée de la configuration](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 

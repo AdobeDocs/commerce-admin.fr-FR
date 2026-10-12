@@ -44,7 +44,7 @@ ht-degree: 3%
 
 ## [!UICONTROL SOAP Settings]
 
-![Paramètres ](./assets/web-api-soap-settings.png)<!-- zoom -->
+![Paramètres &#x200B;](./assets/web-api-soap-settings.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -54,7 +54,7 @@ ht-degree: 3%
 
 ## [!UICONTROL GraphQl Input Limits]
 
-![ Limites d’entrée GraphQl ](./assets/web-api-graphql-input-limits.png)<!-- zoom -->
+![&#x200B; Limites d’entrée GraphQl &#x200B;](./assets/web-api-graphql-input-limits.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -65,7 +65,7 @@ ht-degree: 3%
 
 ## [!UICONTROL Web Api Input Limits]
 
-![ Limites D’Entrée De L’Api Web ](./assets/web-api-input-limits.png)<!-- zoom -->
+![&#x200B; Limites D’Entrée De L’Api Web &#x200B;](./assets/web-api-input-limits.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -88,7 +88,7 @@ ht-degree: 3%
 
 ## [!UICONTROL JWT Authentication]
 
-![ Authentification JWT ](./assets/web-api-jwt-authentication.png)<!-- zoom -->
+![&#x200B; Authentification JWT &#x200B;](./assets/web-api-jwt-authentication.png)<!-- zoom -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |

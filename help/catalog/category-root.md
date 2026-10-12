@@ -51,7 +51,7 @@ L’exemple suivant montre comment créer une catégorie racine et l’affecter 
 
 1. Sur la gauche, cliquez sur **[!UICONTROL Add Root Category]**.
 
-   ![Nouvelle catégorie racine ](./assets/category-root-ee.png){width="600" zoomable="yes"}
+   ![Nouvelle catégorie racine &#x200B;](./assets/category-root-ee.png){width="600" zoomable="yes"}
 
 1. Saisissez un **[!UICONTROL Category Name]**.
 

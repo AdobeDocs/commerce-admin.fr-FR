@@ -34,7 +34,7 @@ ht-degree: 0%
 ---
 # Paramètres du produit - [!UICONTROL Product in Websites]
 
-La section _[!UICONTROL Product in Websites]_identifie chaque site web sur lequel le produit est disponible, en fonction de la hiérarchie [ magasin](../stores-purchase/stores.md).
+La section _[!UICONTROL Product in Websites]_&#x200B;identifie chaque site web sur lequel le produit est disponible, en fonction de la hiérarchie [&#x200B; magasin](../stores-purchase/stores.md).
 
 ![Diagramme de portée du site web du produit](./assets/scope-product-website.svg){width="550"}
 

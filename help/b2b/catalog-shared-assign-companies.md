@@ -36,7 +36,7 @@ ht-degree: 0%
 ---
 # Affectation d’entreprises à un catalogue partagé
 
-Il existe deux manières d’affecter une entreprise à un catalogue partagé. Vous pouvez effectuer l’affectation à partir de la grille de _[!UICONTROL Shared Catalogs]_ou modifier la société et affecter le catalogue partagé comme vous le feriez pour un groupe de clients.
+Il existe deux manières d’affecter une entreprise à un catalogue partagé. Vous pouvez effectuer l’affectation à partir de la grille de _[!UICONTROL Shared Catalogs]_&#x200B;ou modifier la société et affecter le catalogue partagé comme vous le feriez pour un groupe de clients.
 
 ![Attribuer des entreprises](./assets/shared-catalog-assign-companies.png){width="700" zoomable="yes"}
 

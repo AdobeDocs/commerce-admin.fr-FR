@@ -70,7 +70,7 @@ La clé URL est la partie d’une URL statique qui décrit le produit ou la cat�
 
 >[!NOTE]
 >
->Par défaut, les caractères spéciaux accentués sont automatiquement remplacés par leurs versions standard non accentuées dans la clé d’URL. Par exemple, `ñ` est automatiquement remplacé par `n`. Ce comportement peut être désactivé en définissant l’option de configuration _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_sur `No`. Voir [ Configuration des URL de catalogue ](#configure-catalog-urls).
+>Par défaut, les caractères spéciaux accentués sont automatiquement remplacés par leurs versions standard non accentuées dans la clé d’URL. Par exemple, `ñ` est automatiquement remplacé par `n`. Ce comportement peut être désactivé en définissant l’option de configuration _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;sur `No`. Voir [&#x200B; Configuration des URL de catalogue &#x200B;](#configure-catalog-urls).
 
 La clé de l’URL doit comporter des caractères minuscules séparés par des tirets sans fin. Les tirets ne sont pas autorisés au début ou à la fin de la clé URL. Une clé d’URL bien conçue et « adaptée aux moteurs de recherche » peut inclure le nom du produit et des mots-clés afin d’améliorer la manière dont elle est indexée par les moteurs de recherche. La clé URL peut être configurée pour créer une redirection automatique en cas de modification de la clé URL.
 
@@ -146,7 +146,7 @@ Pour empêcher les moteurs de recherche d’indexer plusieurs URL menant au mêm
 | Champ | [Portée](../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | Global | Si les réécritures du serveur web sont activées, l’activation de ce paramètre insère le code de magasin de l’affichage actuel dans l’URL. Options : `Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | Global | (Pour les configurations à magasin unique) En cas de rupture de lien sur votre site, le trafic est redirigé vers l’URL de base plutôt que vers une page contenant un message « Page 404 introuvable ». Options : `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Important!_**N’utilisez pas la redirection automatique vers l’URL de base pour les configurations multi-magasin. |
+| [!UICONTROL Auto-redirect to Base URL] | Global | (Pour les configurations à magasin unique) En cas de rupture de lien sur votre site, le trafic est redirigé vers l’URL de base plutôt que vers une page contenant un message « Page 404 introuvable ». Options : `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Important!_**&#x200B;N’utilisez pas la redirection automatique vers l’URL de base pour les configurations multi-magasin. |
 | [!UICONTROL Catalog media URL format] | Global | Définit le format d’URL attribué aux produits et aux catégories. Options : <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**- Définit le nom de fichier converti comme une valeur de hachage unique.<br />**[!UICONTROL Image optimization based on query parameters]** - Définit le processus [optimisation d’image](../content-design/media-gallery-image-optimization.md) en fonction des paramètres de requête. |
 
 {style="table-layout:auto"}

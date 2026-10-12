@@ -79,7 +79,7 @@ Au cours de cette étape, le kit Sprite Yoga Companion est exporté sous la form
 
 1. Faites défiler la page jusqu’au bas de la section, puis cliquez sur **[!UICONTROL Continue]**.
 
-1. Dans la colonne _[!UICONTROL Action]_de la grille de_[!UICONTROL File name]_, cliquez sur **[!UICONTROL Select]** et choisissez `Download`.
+1. Dans la colonne _[!UICONTROL Action]_&#x200B;de la grille de&#x200B;_[!UICONTROL File name]_, cliquez sur **[!UICONTROL Select]** et choisissez `Download`.
 
    Le fichier s’affiche à l’emplacement de téléchargement utilisé par votre navigateur.
 
@@ -107,7 +107,7 @@ Au cours de cette étape, le kit Sprite Yoga Companion est exporté sous la form
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
 
-1. Sous _[!UICONTROL Import Settings]_, définissez **[!UICONTROL Entity Type]**sur `Products`.
+1. Sous _[!UICONTROL Import Settings]_, définissez **[!UICONTROL Entity Type]**&#x200B;sur `Products`.
 
 1. Définissez **[!UICONTROL Import Behavior]** sur `Replace`.
 
@@ -121,6 +121,6 @@ Au cours de cette étape, le kit Sprite Yoga Companion est exporté sous la form
 
 1. Si le fichier est valide, cliquez sur **[!UICONTROL Import]**.
 
-1. Une fois le processus terminé, accédez à **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**et cliquez sur **[!UICONTROL Flush Cache Storage]**.
+1. Une fois le processus terminé, accédez à **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;et cliquez sur **[!UICONTROL Flush Cache Storage]**.
 
    Cela garantit que le produit mis à jour est immédiatement disponible dans le storefront.

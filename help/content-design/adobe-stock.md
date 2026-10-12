@@ -39,9 +39,9 @@ ht-degree: 0%
 ---
 # Intégration d’Adobe Stock
 
-Pour accéder à d’innombrables ressources multimédias à utiliser dans votre magasin, intégrez [](https://stock.adobe.com) à [!UICONTROL Commerce].
+Pour accéder à d’innombrables ressources multimédias à utiliser dans votre magasin, intégrez [&#128279;](https://stock.adobe.com) à [!UICONTROL Commerce].
 
-![Résultats de la recherche ](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
+![Résultats de la recherche &#x200B;](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
 
 Le service Adobe Stock permet aux entreprises d’accéder à des millions de photos, de vecteurs, d’illustrations, de vidéos, de modèles et de ressources 3D organisés, de haute qualité et libres de droits pour tous leurs projets de création. [!DNL Commerce] utilisateurs peuvent rechercher, prévisualiser et acquérir rapidement des licences pour les ressources Adobe Stock. Les utilisateurs peuvent également les enregistrer dans le [espace de stockage multimédia](./media-storage.md), le tout sans quitter l’espace de travail d’administration.
 
@@ -49,13 +49,13 @@ Le service Adobe Stock permet aux entreprises d’accéder à des millions de ph
 
 Cette intégration nécessite :
 
-- Un compte [](https://developer.adobe.com/console/home)
+- Un compte [&#128279;](https://developer.adobe.com/console/home)
 - Adobe Commerce ou Magento Open Source, version 2.3.4 ou ultérieure
 
 L’obtention d’une licence pour les images Adobe Stock requiert :
 
-- Un compte [](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
-- Un plan [](https://stock.adobe.com) payant associé au compte
+- Un compte [&#128279;](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
+- Un plan [&#128279;](https://stock.adobe.com) payant associé au compte
 
 ## Intégrer [!DNL Commerce] et Adobe Stock
 
@@ -66,7 +66,7 @@ La configuration de l&#39;intégration d&#39;Adobe Stock pour Adobe Commerce est
 
 ### Création d’une intégration Adobe Developer
 
-1. Accédez à [](https://developer.adobe.com/console/home).
+1. Accédez à [&#128279;](https://developer.adobe.com/console/home).
 
 1. Sous _[!UICONTROL Quick Start]_, cliquez sur **[!UICONTROL Create new project]**.
 

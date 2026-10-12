@@ -44,11 +44,11 @@ ht-degree: 0%
 
 # Promotion cadeau gratuit
 
-La promotion *Cadeau gratuit* vous permet de définir une [ règle de prix de panier](price-rules-cart.md) qui ajoute un article gratuit au panier dans des conditions spécifiques.
+La promotion *Cadeau gratuit* vous permet de définir une [&#x200B; règle de prix de panier](price-rules-cart.md) qui ajoute un article gratuit au panier dans des conditions spécifiques.
 
 >[!NOTE]
 >
->Cette fonctionnalité n’est pas prise en charge sur les storefronts Luma. Il est accessible via [](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/) et disponible sur les storefronts Edge Delivery Services (EDS).
+>Cette fonctionnalité n’est pas prise en charge sur les storefronts Luma. Il est accessible via [&#128279;](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/) et disponible sur les storefronts Edge Delivery Services (EDS).
 
 ## Créer une promotion cadeau gratuite
 

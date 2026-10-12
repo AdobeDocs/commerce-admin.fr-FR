@@ -43,11 +43,11 @@ ht-degree: 3%
 >
 >Cette page décrit les fonctionnalités de recherche standard qui peuvent être différentes de la [recherche en direct](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
 
-La liste _Résultats de la recherche_ comprend tous les produits qui correspondent aux critères de recherche saisis dans la zone de recherche rapide ou le formulaire de recherche avancée. Chaque liste de produits du catalogue comporte essentiellement les mêmes contrôles. La seule différence est que l’une est le résultat d’une requête de recherche et l’autre est le résultat de [ navigation](navigation.md).
+La liste _Résultats de la recherche_ comprend tous les produits qui correspondent aux critères de recherche saisis dans la zone de recherche rapide ou le formulaire de recherche avancée. Chaque liste de produits du catalogue comporte essentiellement les mêmes contrôles. La seule différence est que l’une est le résultat d’une requête de recherche et l’autre est le résultat de [&#x200B; navigation](navigation.md).
 
 Les résultats peuvent être formatés sous la forme d’une grille ou d’une liste et triés en fonction d’une sélection d’attributs. Des contrôles de pagination s’affichent s’il y a plus de produits que nécessaire sur la page. Utilisez ces commandes pour passer d&#39;une page à l&#39;autre. Le nombre d’enregistrements par page est déterminé par la configuration du catalogue frontal. Pour plus d’informations, voir [Liste des produits](navigation-product-listings.md).
 
-Avec **** :
+Avec **&#x200B;**&#x200B;:
 
 - Il n’existe aucune prise en charge prête à l’emploi pour la recherche par suffixe . Par exemple, la recherche par SKU peut ne pas renvoyer le résultat attendu si le mot-clé contient uniquement la partie de fin du SKU.
 - Il existe une prise en charge prête à l’emploi de la recherche par préfixe (recherche partielle par mot-clé) pour les attributs de produit `name` et `sku` uniquement. Tous les autres attributs de produit sont recherchés par le mot-clé entier, avec la correspondance exacte.
@@ -107,7 +107,7 @@ L’exemple suivant utilise le mappage de mots-clés basé sur le SKU. Lorsque l
    ![Section Attributs avec mot-clé de recherche](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
 
 1. Cliquez ensuite sur **[!UICONTROL Save]**.
-1. Accédez à **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**et actualisez le **[!UICONTROL Page Cache]**.
+1. Accédez à **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;et actualisez le **[!UICONTROL Page Cache]**.
 
 ### Étape 3 : Mapper le deuxième produit
 
@@ -115,7 +115,7 @@ L’exemple suivant utilise le mappage de mots-clés basé sur le SKU. Lorsque l
 1. Faites défiler vers le bas et développez la section **[!UICONTROL Attributes]** .
 1. Dans le champ **[!UICONTROL Search Keywords]** , saisissez le SKU de l’autre produit, `MJ03`.
 1. Cliquez sur **[!UICONTROL Save]**.
-1. Accédez à **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**et actualisez le **[!UICONTROL Page Cache]**.
+1. Accédez à **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;et actualisez le **[!UICONTROL Page Cache]**.
 
 ### Étape 4 : Testez-la dans le storefront
 

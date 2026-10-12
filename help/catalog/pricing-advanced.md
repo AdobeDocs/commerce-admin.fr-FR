@@ -45,7 +45,7 @@ Adobe Commerce et Magento Open Source prennent en charge différentes options de
 
 Gérez les prix de vos produits grâce à une tarification avancée afin d&#39;offrir aux clients de meilleurs taux qui encouragent les consommateurs à dépenser plus, à augmenter le trafic sur votre site et à liquider les anciens stocks.
 
-Les paramètres _[!UICONTROL Advanced Pricing]_définissent les conditions requises pour une tarification spéciale disponible pour un groupe de clients ou un catalogue partagé spécifique. La tarification avancée peut être appliquée aux produits simples, virtuels, téléchargeables et groupés. Pour appliquer une remise à d&#39;autres types de produits, utilisez une [règle de prix de catalogue](../merchandising-promotions/price-rules-catalog.md). Pour plus d&#39;informations, voir [Périmètre du prix](catalog-price-scope.md).
+Les paramètres _[!UICONTROL Advanced Pricing]_&#x200B;définissent les conditions requises pour une tarification spéciale disponible pour un groupe de clients ou un catalogue partagé spécifique. La tarification avancée peut être appliquée aux produits simples, virtuels, téléchargeables et groupés. Pour appliquer une remise à d&#39;autres types de produits, utilisez une [règle de prix de catalogue](../merchandising-promotions/price-rules-catalog.md). Pour plus d&#39;informations, voir [Périmètre du prix](catalog-price-scope.md).
 
 Les données de tarification avancées sont synchronisées avec les pages de produits. Par exemple, si vous mettez à jour une quantité de prix de niveau, le système met à jour la valeur sur la page des produits.
 
@@ -102,7 +102,7 @@ Configurez les prix promotionnels et de niveau pour des groupes de clients spéc
 | [!UICONTROL Customer Group] | (Obligatoire) Identifie le groupe de clients pouvant recevoir le prix de remise. Lorsqu’une valeur d’un champ de groupe ou de catalogue est modifiée, la ligne de prix personnalisée correspondante qui correspondait au paramètre précédent est supprimée du catalogue partagé. <br/>**[!UICONTROL ALL GROUPS]**- Applique la règle à tous les groupes de clients.<br/>**[!UICONTROL NOT LOGGED IN]** - Applique la règle aux invités et aux clients qui ne sont pas connectés à leurs comptes. |
 | [!UICONTROL Quantity] | Spécifie la quantité requise pour recevoir un prix de niveau. |
 | [!UICONTROL Price] | (Obligatoire) Indique un prix de produit fixe ou réduit pour les membres du groupe de clients, dans le site web spécifique. Options : <br/>**[!UICONTROL Fixed]**- (Par défaut) Le prix de remise est saisi sous la forme d’une valeur décimale fixe. Par exemple, saisissez `9.99` comme prix de remise.<br/>**[!UICONTROL Discount]** - Le prix de remise est saisi en pourcentage (%) du prix de base du produit. Par exemple, saisissez `10` pour une remise de 10 %. |
-| ![ Icône Corbeille ](../assets/icon-delete-trashcan-solid.png) | Supprime la règle actuelle. |
+| ![&#x200B; Icône Corbeille &#x200B;](../assets/icon-delete-trashcan-solid.png) | Supprime la règle actuelle. |
 | **[!UICONTROL Add]** | Insère une autre ligne pour une nouvelle règle. |
 
 {style="table-layout:auto"}
@@ -117,11 +117,11 @@ Configurez des prix promotionnels et de niveau pour des catalogues partagés et 
 
 | Poste | Description |
 |----|-----------|
-| [!UICONTROL Website] | Identifie le site web auquel la règle de prix de groupe s’applique. Cette option s’affiche uniquement si l’installation comporte plusieurs sites web. <br>**_Important:_**Dans la configuration [Périmètre du prix du catalogue](catalog-price-scope.md), sélectionnez également_ Site Web_. Dans le cas contraire, les prix avancés définis s’affichent pour **tous** les sites Web. |
+| [!UICONTROL Website] | Identifie le site web auquel la règle de prix de groupe s’applique. Cette option s’affiche uniquement si l’installation comporte plusieurs sites web. <br>**_Important:_**&#x200B;Dans la configuration [Périmètre du prix du catalogue](catalog-price-scope.md), sélectionnez également_ Site Web_. Dans le cas contraire, les prix avancés définis s’affichent pour **tous** les sites Web. |
 | [!UICONTROL Group or Catalog] | (Obligatoire) Identifie le groupe de clients ou le catalogue partagé pouvant recevoir le prix de remise. Lorsqu’une valeur d’un champ de groupe ou de catalogue est modifiée, la ligne de prix personnalisée correspondante qui correspondait au paramètre précédent est supprimée du catalogue partagé. <br/>**[!UICONTROL ALL GROUPS]**- Applique la règle à tous les groupes de clients. La valeur n’est pas appliquée au catalogue partagé et les modifications apportées aux données de tarification avancées ne sont pas synchronisées avec le catalogue partagé.<br/>**[!UICONTROL NOT LOGGED IN]** - Applique la règle aux invités et aux clients qui ne sont pas connectés à leurs comptes.<br/>**[!UICONTROL Shared Catalogs]**: applique la règle à un catalogue partagé spécifique. |
 | Quantité | Spécifie la quantité requise pour recevoir un prix de niveau. |
 | [!UICONTROL Price] | (Obligatoire) Indique un prix de produit fixe ou réduit pour les membres du groupe de clients, dans le site web spécifique. Options : <br/>**[!UICONTROL Fixed]**- (Par défaut) Le prix de remise est saisi sous la forme d’une valeur décimale fixe. Par exemple, saisissez `9.99` comme prix de remise.<br/>**[!UICONTROL Discount]** - Le prix de remise est saisi en pourcentage (%) du prix de base du produit. Par exemple, saisissez `10` pour une remise de 10 %. |
-| ![ Icône Corbeille ](../assets/icon-delete-trashcan-solid.png) | Supprime la règle actuelle. |
+| ![&#x200B; Icône Corbeille &#x200B;](../assets/icon-delete-trashcan-solid.png) | Supprime la règle actuelle. |
 | **[!UICONTROL Add]** | Insère une autre ligne pour une nouvelle règle. |
 
 {style="table-layout:auto"}

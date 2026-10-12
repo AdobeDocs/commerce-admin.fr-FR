@@ -106,7 +106,7 @@ Configurez les options de configuration par défaut pour le produit et le stock 
 
    >[!NOTE]
    >
-   >La requête `sourceAvailability` est désactivée par défaut, car elle indique quelles sources stockent un SKU. Les quantités exactes restent masquées jusqu&#39;à ce que la quantité source atteigne le **[!UICONTROL Only X left Threshold]** défini dans la section _[!UICONTROL Stock Options]_. Chaque origine de stock possède un indicateur de **[!UICONTROL Visible on Storefront]**désactivé par défaut. Le stock d’une source n’est jamais renvoyé tant qu’un commerçant ne l’a pas activée. Pour le définir, accédez à&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, modifiez une source, puis activez **[!UICONTROL Visible on Storefront]**.
+   >La requête `sourceAvailability` est désactivée par défaut, car elle indique quelles sources stockent un SKU. Les quantités exactes restent masquées jusqu&#39;à ce que la quantité source atteigne le **[!UICONTROL Only X left Threshold]** défini dans la section _[!UICONTROL Stock Options]_. Chaque origine de stock possède un indicateur de **[!UICONTROL Visible on Storefront]**&#x200B;désactivé par défaut. Le stock d’une source n’est jamais renvoyé tant qu’un commerçant ne l’a pas activée. Pour le définir, accédez à&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, modifiez une source, puis activez **[!UICONTROL Visible on Storefront]**.
 
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Admin bulk operations]** et définissez les options suivantes :
@@ -115,7 +115,7 @@ Configurez les options de configuration par défaut pour le produit et le stock 
 
    - Définir des **[!UICONTROL Run asynchronously]** pour exécuter des opérations en bloc de manière asynchrone pour des actions de produits en masse
 
-     Ces opérations incluent l&#39;affectation en bloc [affectation et annulation de l&#39;affectation des sources](bulk-assignment.md) et [ transfert du stock vers la source](inventory-transfer.md). Il collecte les actions en bloc jusqu’à la taille de lot asynchrone, puis exécute ces actions. Par défaut, cette option est désactivée. Il est recommandé de vérifier vos performances avec des actions en bloc avant l’activation.
+     Ces opérations incluent l&#39;affectation en bloc [affectation et annulation de l&#39;affectation des sources](bulk-assignment.md) et [&#x200B; transfert du stock vers la source](inventory-transfer.md). Il collecte les actions en bloc jusqu’à la taille de lot asynchrone, puis exécute ces actions. Par défaut, cette option est désactivée. Il est recommandé de vérifier vos performances avec des actions en bloc avant l’activation.
 
      >[!NOTE]
      >

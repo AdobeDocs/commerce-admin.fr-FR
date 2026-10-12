@@ -86,7 +86,7 @@ Avant d’essayer d’importer de nombreuses images, passez en revue les étapes
 
    >[!TIP]
    >
-   >Laissez _[!UICONTROL Images File Directory]_vide pour utiliser le répertoire `<Magento-root-folder>/var/import/images`. À partir de la version 2.3.2 d’Adobe Commerce et Magento Open Source, il s’agit du répertoire de base d’importation par défaut des images.
+   >Laissez _[!UICONTROL Images File Directory]_&#x200B;vide pour utiliser le répertoire `<Magento-root-folder>/var/import/images`. À partir de la version 2.3.2 d’Adobe Commerce et Magento Open Source, il s’agit du répertoire de base d’importation par défaut des images.
 
    Si vous importez plusieurs images pour une même `sku`, insérez les images dans une colonne intitulée `additional_images` (ajoutez la colonne si ce n’est pas déjà fait), séparée par des virgules. Exemple : `image02.jpg,image03.jpg`
 
@@ -112,7 +112,7 @@ Avant d’essayer d’importer de nombreuses images, passez en revue les étapes
 
    >[!NOTE]
    >
-   >À partir de la version Adobe Commerce et Magento Open Source `2.3.2`, le chemin spécifié dans le _[!UICONTROL Images File Directory]_se concatène pour être importé dans le répertoire de base des images : `<remote-storage-root-folder>/var/import/images`. Pour les versions antérieures d’Adobe Commerce et de Magento Open Source, vous pouviez utiliser un dossier différent sur le serveur Commerce à condition que le chemin d’accès au dossier soit spécifié pendant le processus d’importation.
+   >À partir de la version Adobe Commerce et Magento Open Source `2.3.2`, le chemin spécifié dans le _[!UICONTROL Images File Directory]_&#x200B;se concatène pour être importé dans le répertoire de base des images : `<remote-storage-root-folder>/var/import/images`. Pour les versions antérieures d’Adobe Commerce et de Magento Open Source, vous pouviez utiliser un dossier différent sur le serveur Commerce à condition que le chemin d’accès au dossier soit spécifié pendant le processus d’importation.
 
 1. Dans les données CSV, saisissez le nom de chaque fichier image à importer sur la ligne appropriée, par `sku`, et dans la colonne appropriée en fonction du type d’image (`base_image`, `small_image`, `thumbnail_image` ou `additional_images`).
 
@@ -134,7 +134,7 @@ Avant d’essayer d’importer de nombreuses images, passez en revue les étapes
 
    >[!TIP]
    >
-   >Laissez le _[!UICONTROL Images File Directory]_vide pour utiliser le répertoire `<Magento-root-folder>/var/import/images`. À partir de la version 2.3.2 d’Adobe Commerce et Magento Open Source, il s’agit du répertoire de base d’importation par défaut des images.
+   >Laissez le _[!UICONTROL Images File Directory]_&#x200B;vide pour utiliser le répertoire `<Magento-root-folder>/var/import/images`. À partir de la version 2.3.2 d’Adobe Commerce et Magento Open Source, il s’agit du répertoire de base d’importation par défaut des images.
 
    Si vous importez plusieurs images pour une même `sku`, insérez les images dans une colonne intitulée `additional_images` (ajoutez la colonne si ce n&#39;est pas déjà fait), séparée par des virgules : `image02.jpg,image03.jpg`
 

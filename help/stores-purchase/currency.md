@@ -38,7 +38,7 @@ ht-degree: 0%
 ---
 # Devise monétaire
 
-Adobe Commerce vous permet d’accepter des devises provenant de plus de 200 pays dans le monde. Si le magasin prend en charge plusieurs devises, un _programme de sélection des devises_ s’affiche dans l’en-tête après la mise à jour des taux de change [](currency-update.md).
+Adobe Commerce vous permet d’accepter des devises provenant de plus de 200 pays dans le monde. Si le magasin prend en charge plusieurs devises, un _programme de sélection des devises_ s’affiche dans l’en-tête après la mise à jour des taux de change [&#128279;](currency-update.md).
 
 >[!NOTE]
 >

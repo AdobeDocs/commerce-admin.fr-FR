@@ -89,7 +89,7 @@ Pour la configuration initiale, utilisez la règle par défaut *Correspondance p
 
    1. Sélectionnez **[!UICONTROL Match by product SKU]** ou **[!UICONTROL Custom match (Requires App Builder)]**.
 
-   1. Ajoutez le [nom du champ de métadonnées ](aem-assets-configure-aem.md#configure-metadata) défini pour les SKU de produit Commerce dans le champ **[!UICONTROL Match by product SKU attribute name]** , `commerce:skus` exemple.
+   1. Ajoutez le [nom du champ de métadonnées &#x200B;](aem-assets-configure-aem.md#configure-metadata) défini pour les SKU de produit Commerce dans le champ **[!UICONTROL Match by product SKU attribute name]** , `commerce:skus` exemple.
 
 1. Sélectionnez **[!UICONTROL Save Config]** pour appliquer des mises à jour et lancer la synchronisation des ressources.
 

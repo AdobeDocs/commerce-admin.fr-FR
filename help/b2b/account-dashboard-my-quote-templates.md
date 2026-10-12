@@ -45,7 +45,7 @@ ht-degree: 8%
 ---
 # [!UICONTROL My Quote Templates]
 
-Si les devis sont activés, la section _[!UICONTROL My Quotes Template]_du tableau de bord du compte client répertorie tous les modèles de devis associés au compte client. En fonction de leurs autorisations, seuls les acheteurs qui effectuent des achats pour le compte d&#39;une entreprise peuvent demander un modèle de devis et négocier le prix et les conditions des devis pour les commandes récurrentes.
+Si les devis sont activés, la section _[!UICONTROL My Quotes Template]_&#x200B;du tableau de bord du compte client répertorie tous les modèles de devis associés au compte client. En fonction de leurs autorisations, seuls les acheteurs qui effectuent des achats pour le compte d&#39;une entreprise peuvent demander un modèle de devis et négocier le prix et les conditions des devis pour les commandes récurrentes.
 
 ![Mes modèles de devis](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
@@ -148,7 +148,7 @@ Les acheteurs peuvent effectuer les actions suivantes à partir d&#39;un devis l
 
 Dans la page de modèle de devis, cliquez sur **[!UICONTROL Cancel Quote Template]**.
 
-Le modèle de devis est annulé et le statut du devis passe à `Closed`. Le devis fermé reste dans votre liste de devis *[!UICONTROL Inactive]* et reste répertorié dans la grille de _[!UICONTROL Quote Templates]_dans l&#39;Admin.
+Le modèle de devis est annulé et le statut du devis passe à `Closed`. Le devis fermé reste dans votre liste de devis *[!UICONTROL Inactive]* et reste répertorié dans la grille de _[!UICONTROL Quote Templates]_&#x200B;dans l&#39;Admin.
 
 ## Gestion des liens vers les documents de référence
 

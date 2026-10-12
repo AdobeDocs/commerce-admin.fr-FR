@@ -44,7 +44,7 @@ La version 2.0 d’[!DNL 3-D Secure] prend en charge de nombreuses amélioration
 
 >[!NOTE]
 >
->La passerelle de paiement [](../../stores-purchase/braintree.md) prend également en charge la vérification [!DNL 3-D Secure].
+>La passerelle de paiement [&#128279;](../../stores-purchase/braintree.md) prend également en charge la vérification [!DNL 3-D Secure].
 
 {{config}}
 

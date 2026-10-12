@@ -84,7 +84,7 @@ Si vous souhaitez utiliser un service tiers pour envoyer des newsletters, vous p
    >
    >Pour un désabonnement en bloc, cochez la case de chaque abonné que vous souhaitez annuler.
 
-1. Définissez la commande _[!UICONTROL Action]_sur **[!UICONTROL Unsubscribe]**, puis cliquez sur **[!UICONTROL Submit]**.
+1. Définissez la commande _[!UICONTROL Action]_&#x200B;sur **[!UICONTROL Unsubscribe]**, puis cliquez sur **[!UICONTROL Submit]**.
 
    ![Désabonnement de la newsletter](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
 
@@ -109,6 +109,6 @@ Si vous souhaitez utiliser un service tiers pour envoyer des newsletters, vous p
 
 1. Recherchez l&#39;abonné dans la grille et cochez la case dans la première colonne.
 
-1. Définissez la commande _[!UICONTROL Action]_sur **[!UICONTROL Delete]**, puis cliquez sur **[!UICONTROL Submit]**.
+1. Définissez la commande _[!UICONTROL Action]_&#x200B;sur **[!UICONTROL Delete]**, puis cliquez sur **[!UICONTROL Submit]**.
 
 1. Lorsque vous êtes invité à confirmer, cliquez sur **[!UICONTROL OK]**.
