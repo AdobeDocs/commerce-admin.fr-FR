@@ -3,26 +3,33 @@ title: Passage en caisse d’une page
 description: Découvrez comment le passage en caisse d’une page simplifie le processus de passage en caisse de votre boutique.
 exl-id: c91347b6-bb6f-44e7-b470-f237bf430d5f
 feature: Checkout
-TQID: https://experienceleague.adobe.com/rY0sw7iSq7-4Y5EPQ1cL8bJ7cuqdDfDqvjEQvH-jsvM
+TQID: 'https://experienceleague.adobe.com/rY0sw7iSq7-4Y5EPQ1cL8bJ7cuqdDfDqvjEQvH-jsvM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 181
+source-wordcount: '181'
 ht-degree: 0%
-
 ---
-
 # Passage en caisse d’une page
 
 L’objectif d’un passage en caisse d’une page est de collecter les informations nécessaires et de conclure la vente le plus rapidement possible sans nécessiter de clics supplémentaires pour l’acheteur. Lorsque le passage en caisse d’une page est activé, l’ensemble du processus de passage en caisse se déroule sur une seule page. Chaque section des informations de passage en caisse est développée selon les besoins.

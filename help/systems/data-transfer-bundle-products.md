@@ -3,27 +3,37 @@ title: Importer les produits groupés
 description: Consultez un exemple d’importation de données de produit pour un produit groupé.
 exl-id: 52146979-9911-449b-9f14-54377e2ae9f4
 feature: Products, Data Import/Export
-TQID: https://experienceleague.adobe.com/UeGDyElWBOH7kUeeb7Bhqksp-hQ-jq5FkoYTWMShF6A
+TQID: 'https://experienceleague.adobe.com/UeGDyElWBOH7kUeeb7Bhqksp-hQ-jq5FkoYTWMShF6A'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 628
+source-wordcount: '628'
 ht-degree: 0%
-
 ---
-
 # Importer les produits groupés
 
 Un produit groupé présente une sélection d’articles et permet aux clients de choisir ceux qu’ils souhaitent acheter. Tous les éléments d’un lot existent dans le catalogue sous la forme [Produits simples](../catalog/product-create-simple.md) ou [Produits virtuels](../catalog/product-create-virtual.md). En règle générale, les produits groupés sont créés et mis à jour à partir de l’administrateur. Cependant, vous pouvez également importer des données pour créer un produit groupé ou exporter des produits groupés existants, modifier les données et les réimporter dans le catalogue. Le kit Sprite Yoga Companion est un produit groupé dans les données d’exemple utilisées dans les exemples suivants.

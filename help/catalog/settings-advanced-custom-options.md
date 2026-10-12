@@ -3,28 +3,37 @@ title: Paramètres du produit - [!UICONTROL Customizable Options]
 description: Pour un produit, les paramètres [!UICONTROL Customizable Options] vous permettent de proposer une sélection d’options avec des types d’entrée de texte, de sélection et de date.
 exl-id: 7d23c5c5-2b2a-4f2a-b843-9c27b851be5f
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/O5ny4IROYKpKBckgsh7jcjO2qp45Ey9l0t4Fmq1IFBI
+TQID: 'https://experienceleague.adobe.com/O5ny4IROYKpKBckgsh7jcjO2qp45Ey9l0t4Fmq1IFBI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: '821'
 ht-degree: 0%
-
 ---
-
 # Paramètres du produit - [!UICONTROL Customizable Options]
 
 L’ajout d’options personnalisables à un produit est un moyen facile d’offrir une sélection d’options avec des types d’entrée de texte, de sélection et de date. Les options personnalisables sont une bonne solution si vos besoins en matière d&#39;inventaire sont simples. Cependant, étant donné qu’elles sont basées sur des variations d’un seul SKU, elles ne peuvent pas être utilisées pour gérer les stocks ou comme base des conditions de règle de prix. Si plusieurs produits comportent les mêmes options, vous pouvez configurer un produit et importer les options dans les autres produits.
@@ -67,8 +76,8 @@ Si une règle de prix de panier est déclenchée par l’achat, le calcul initia
 
    - Définissez **[!UICONTROL Price Type]** sur l’une des options suivantes :
 
-      - `Fixed` - Le prix de la variation diffère du prix du produit de base d’un montant monétaire fixe, tel que 1 $.
-      - `Percentage` - Le prix de la variation diffère du prix du produit de base d’un pourcentage, tel que 10 %.
+     - `Fixed` - Le prix de la variation diffère du prix du produit de base d’un montant monétaire fixe, tel que 1 $.
+     - `Percentage` - Le prix de la variation diffère du prix du produit de base d’un pourcentage, tel que 10 %.
 
    - (Facultatif) Saisissez un **[!UICONTROL SKU]** pour l’option. Le SKU d’option est un suffixe ajouté au SKU du produit.
 

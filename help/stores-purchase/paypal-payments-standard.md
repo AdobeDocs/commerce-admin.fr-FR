@@ -4,30 +4,41 @@ description: Découvrez comment configurer PayPal Payments Standard en tant que 
 exl-id: b4024dac-34d7-4f1a-ad9d-0fc406194609
 feature: Payments
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-TQID: https://experienceleague.adobe.com/Cn4Fx-2iPKw828MK2lH8lFDsUX4fC7rsYDx6V8L-6Mw
+TQID: 'https://experienceleague.adobe.com/Cn4Fx-2iPKw828MK2lH8lFDsUX4fC7rsYDx6V8L-6Mw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2089
+source-wordcount: '2130'
 ht-degree: 0%
-
 ---
-
 # Paiements PayPal Standard
 
 [PayPal Payments Standard](https://developer.paypal.com/docs/paypal-payments-standard/mobile-paypal-payments-standard/) est le moyen le plus simple d&#39;accepter des paiements en ligne. Vous pouvez offrir à vos clients la commodité du paiement par carte de crédit et PayPal en ajoutant simplement un bouton de passage en caisse à votre boutique.
@@ -382,8 +393,8 @@ Un [accord de facturation](paypal-billing-agreements.md) est un accord de vente 
 
    - Si vous vous êtes inscrit au serveur FTP sécurisé PayPal, saisissez les informations d&#39;identification SFTP suivantes :
 
-      - Login
-      - Mot de passe
+     - Login
+     - Mot de passe
 
    - Pour exécuter des rapports de test avant la mise en ligne avec le paiement express sur votre site, définissez **[!UICONTROL Sandbox Mode]** sur `Yes`.
 
@@ -401,13 +412,13 @@ Un [accord de facturation](paypal-billing-agreements.md) est un accord de vente 
 
    - Définissez **[!UICONTROL Schedule]** sur l’une des options suivantes :
 
-      - `Daily`
-      - `Every 3 Days`
-      - `Every 7 Days`
-      - `Every 10 Days`
-      - `Every 14 Days`
-      - `Every 30 Days`
-      - `Every 40 Days`
+     - `Daily`
+     - `Every 3 Days`
+     - `Every 7 Days`
+     - `Every 10 Days`
+     - `Every 14 Days`
+     - `Every 30 Days`
+     - `Every 40 Days`
 
      PayPal conserve chaque rapport pendant 45 jours.
 
@@ -435,9 +446,9 @@ Utilisez le _[!UICONTROL Frontend Experience Settings]_&#x200B;pour choisir les 
 
    - Saisissez le nom du **[!UICONTROL Page Style]** que vous souhaitez appliquer à vos pages marchandes PayPal :
 
-      - `paypal` - Utilise le style de page PayPal.
-      - `primary` - Utilise le style de page que vous avez identifié comme style _principal_ dans le profil de votre compte.
-      - `your_custom_value` - Utilise un style de page de paiement personnalisé, spécifié dans le profil de votre compte.
+     - `paypal` - Utilise le style de page PayPal.
+     - `primary` - Utilise le style de page que vous avez identifié comme style _principal_ dans le profil de votre compte.
+     - `your_custom_value` - Utilise un style de page de paiement personnalisé, spécifié dans le profil de votre compte.
 
    - Par **[!UICONTROL Header Image URL]**, saisissez l’URL de l’image que vous souhaitez afficher dans le coin supérieur gauche de la page de paiement. La taille de fichier maximale est de 750 pixels de large sur 90 pixels de haut.
 
@@ -447,6 +458,6 @@ Utilisez le _[!UICONTROL Frontend Experience Settings]_&#x200B;pour choisir les 
 
    - Pour définir la couleur de vos pages, saisissez le code hexadécimal à six caractères, sans le symbole `#`, pour chacun des éléments suivants :
 
-      - **[!UICONTROL Header Background Color]** - Couleur d’arrière-plan de l’en-tête de la page de passage en caisse.
-      - **[!UICONTROL Header Border Color]** : couleur de la bordure de deux pixels autour de l’en-tête.
-      - **[!UICONTROL Page Background Color]** - Couleur d’arrière-plan de la page de passage en caisse et autour de l’en-tête et du formulaire de paiement.
+     - **[!UICONTROL Header Background Color]** - Couleur d’arrière-plan de l’en-tête de la page de passage en caisse.
+     - **[!UICONTROL Header Border Color]** : couleur de la bordure de deux pixels autour de l’en-tête.
+     - **[!UICONTROL Page Background Color]** - Couleur d’arrière-plan de la page de passage en caisse et autour de l’en-tête et du formulaire de paiement.

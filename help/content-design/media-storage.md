@@ -4,13 +4,29 @@ description: Découvrez comment le stockage multimédia vous permet d’organise
 exl-id: 5cf1bb20-d747-4a12-8558-e167c229efe8
 feature: Page Content, Media
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '488'
 ht-degree: 0%
-
 ---
-
 # Stockage de média
 
 Le stockage des médias vous permet d’organiser les fichiers multimédias stockés sur le serveur et d’y accéder. Le chemin d’accès à l’emplacement des fichiers est déterminé par la configuration [URL de base](../stores-purchase/store-urls.md). Les fichiers du stockage multimédia sont accessibles à partir de l’éditeur lors de l’utilisation de pages et de blocs statiques. En règle générale, le stockage des médias se trouve dans le système de fichiers sur le même serveur que les fichiers de programme [!DNL Commerce].
@@ -41,7 +57,7 @@ Les deux premières étapes sont identiques à celles de l’insertion d’une i
 
      Pour ajouter un dossier, saisissez son nom et cliquez sur **[!UICONTROL OK]**.
 
-1. Pour ajouter un ou plusieurs fichiers au stockage multimédia, vous pouvez télécharger les fichiers à partir de votre système ou utiliser l’[intégration Adobe Stock](adobe-stock.md) :
+1. Pour ajouter un ou plusieurs fichiers au stockage multimédia, vous pouvez télécharger les fichiers à partir de votre système ou utiliser l’[intégration &#x200B;](adobe-stock.md) :
 
    Pour charger des fichiers à partir de votre système, cliquez sur **[!UICONTROL Choose Files]** et procédez comme suit :
 

@@ -4,24 +4,33 @@ description: Découvrez comment installer un nouveau thème pour votre boutique 
 exl-id: 28728064-cf3e-44ef-a251-61a23499d096
 feature: Page Content, Themes
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-TQID: https://experienceleague.adobe.com/95FY93Orarr7iijUGev462alrGf6eVxUZGkc0dvMX-o
+TQID: 'https://experienceleague.adobe.com/95FY93Orarr7iijUGev462alrGf6eVxUZGkc0dvMX-o'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 8b440f30-6794-5ed6-981f-391de4e9b0cc
+    internal-label: Themes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 191
+source-wordcount: '191'
 ht-degree: 0%
-
 ---
-
 # Installer un nouveau thème
 
 Lors de la première installation [!DNL Commerce], les éléments de conception du magasin sont basés sur le thème de `Magento Blank` par défaut. Le thème _Luma_ est également disponible si vous avez installé les données d’exemple. Vous pouvez modifier un thème, ajouter des thèmes créés par d’autres personnes ou créer le vôtre. [[!DNL Commerce Marketplace]](../getting-started/commerce-marketplace.md) contient une sélection croissante de thèmes que vous pouvez installer pour modifier l’aspect de votre boutique. Pour savoir comment créer ou modifier un thème, consultez le [_Guide de développement Frontend_](https://developer.adobe.com/commerce/frontend-core/guide/).

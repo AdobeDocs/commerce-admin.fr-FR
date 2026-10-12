@@ -4,36 +4,52 @@ description: Découvrez la création de comptes d’entreprise dans l’administ
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-TQID: https://experienceleague.adobe.com/XJPHU9LGy6OSzy6D67S-2qF8Td4d6Wl3Y49LS1roCkw
+TQID: 'https://experienceleague.adobe.com/XJPHU9LGy6OSzy6D67S-2qF8Td4d6Wl3Y49LS1roCkw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2455
+source-wordcount: '2455'
 ht-degree: 0%
-
 ---
-
 # Créer un compte d’entreprise
 
 Les comptes d’entreprise permettent aux entreprises B2B de gérer leurs achats, leurs utilisateurs et leur crédit dans Adobe Commerce. Cette rubrique couvre l’ensemble du processus de création, de configuration et d’activation des comptes d’entreprise.
@@ -52,19 +68,19 @@ Tous les comptes d’entreprise nécessitent l’approbation de l’administrate
 Avant de créer des comptes d’entreprise, assurez-vous que les conditions suivantes sont remplies :
 
 * **Configuration requise :**
-   * Les fonctionnalités [B2B sont activées](enable-basic-features.md) dans votre installation Adobe Commerce
-   * L’enregistrement d’entreprise est activé pour la création de storefront
-   * Les notifications par e-mail sont configurées pour les workflows d’approbation
+  * Les fonctionnalités [B2B sont activées](enable-basic-features.md) dans votre installation Adobe Commerce
+  * L’enregistrement d’entreprise est activé pour la création de storefront
+  * Les notifications par e-mail sont configurées pour les workflows d’approbation
 
 * **Exigences commerciales :**
-   * Des processus et des politiques d’approbation sont établis.
-   * Des représentants commerciaux sont affectés (pour les comptes créés par l’administrateur)
-   * Les politiques de crédit sont définies (si vous utilisez le crédit d’entreprise).
-   * Les groupes de clients et les catalogues partagés sont configurés
+  * Des processus et des politiques d’approbation sont établis.
+  * Des représentants commerciaux sont affectés (pour les comptes créés par l’administrateur)
+  * Les politiques de crédit sont définies (si vous utilisez le crédit d’entreprise).
+  * Les groupes de clients et les catalogues partagés sont configurés
 
 * **Accès administratif :**
-   * Autorisations appropriées pour la gestion de l’entreprise
-   * Accès aux sections d’administration des clients et des sociétés
+  * Autorisations appropriées pour la gestion de l’entreprise
+  * Accès aux sections d’administration des clients et des sociétés
 
 Le système attribue le rôle [administrateur d’entreprise](account-company-admin.md) à la personne qui a configuré un compte d’entreprise à partir du storefront. Une fois que l’administrateur du magasin a approuvé la demande de création de compte d’entreprise dans l’Administration, il peut définir un mot de passe de compte et se connecter au compte.
 
@@ -93,14 +109,14 @@ Le système attribue le rôle [administrateur d’entreprise](account-company-ad
 
    * Complète les champs obligatoires :
 
-      * **[!UICONTROL Company Name]**
-      * **[!UICONTROL Company Email]**
+     * **[!UICONTROL Company Name]**
+     * **[!UICONTROL Company Email]**
 
    * Renseigne les champs restants, le cas échéant :
 
-      * **[!UICONTROL Company Legal Name]**
-      * **[!UICONTROL VAT/TAX ID]**
-      * **[!UICONTROL Reseller ID]**
+     * **[!UICONTROL Company Legal Name]**
+     * **[!UICONTROL VAT/TAX ID]**
+     * **[!UICONTROL Reseller ID]**
 
    ![Informations sur la société](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
@@ -125,9 +141,9 @@ Le système attribue le rôle [administrateur d’entreprise](account-company-ad
 
    * Renseigne éventuellement les champs suivants :
 
-      * **[!UICONTROL Job Title]**
-      * **[!UICONTROL Work Phone Number]**
-      * **[!UICONTROL Gender]**
+     * **[!UICONTROL Job Title]**
+     * **[!UICONTROL Work Phone Number]**
+     * **[!UICONTROL Gender]**
 
    ![Administrateur d’entreprise](./assets/company-administrator-account-storefront.png)
 
@@ -160,8 +176,8 @@ Le processus de création d’une entreprise à partir de l’administration est
 
    * Renseignez les champs obligatoires suivants :
 
-      * **[!UICONTROL Company Name]**
-      * **[!UICONTROL Company Email]**
+     * **[!UICONTROL Company Name]**
+     * **[!UICONTROL Company Email]**
 
    * Si vous n’êtes pas prêt pour la mise en ligne du compte, définissez **[!UICONTROL Status]** sur `Pending Approval`. (Définissez sur `Active` par défaut.)
 
@@ -171,9 +187,9 @@ Le processus de création d’une entreprise à partir de l’administration est
 
    * Renseignez les champs suivants le cas échéant :
 
-      * **[!UICONTROL Company Legal Name]**
-      * **[!UICONTROL VAT/TAX ID]**
-      * **[!UICONTROL Reseller ID]**
+     * **[!UICONTROL Company Legal Name]**
+     * **[!UICONTROL VAT/TAX ID]**
+     * **[!UICONTROL Reseller ID]**
 
    * Par **[!UICONTROL Comment]**, saisissez toutes les informations supplémentaires sur le client qui pourraient être nécessaires.
 
@@ -195,23 +211,23 @@ Le processus de création d’une entreprise à partir de l’administration est
 
    * Renseignez les champs obligatoires suivants :
 
-      * **[!UICONTROL Email]**
-      * **[!UICONTROL First Name]**
-      * **[!UICONTROL Last Name]**
+     * **[!UICONTROL Email]**
+     * **[!UICONTROL First Name]**
+     * **[!UICONTROL Last Name]**
 
    * Renseignez les parties facultatives suivantes du nom, qui peuvent s’appliquer à certains noms de clients plus qu’à d’autres et qui peuvent être utilisées à votre discrétion :
 
-      * **[!UICONTROL Prefix]**
-      * **[!UICONTROL Middle Name/Initial]**
-      * **[!UICONTROL Suffix]**
+     * **[!UICONTROL Prefix]**
+     * **[!UICONTROL Middle Name/Initial]**
+     * **[!UICONTROL Suffix]**
 
    * Si les informations sont disponibles, renseignez les champs restants pour décrire l&#39;administrateur de la société :
 
-      * **[!UICONTROL Website]**
-      * **[!UICONTROL Job Title]**
-      * **[!UICONTROL Work Phone Number]**
-      * **[!UICONTROL Gender]**
-      * **[!UICONTROL Send Welcome Email From]**
+     * **[!UICONTROL Website]**
+     * **[!UICONTROL Job Title]**
+     * **[!UICONTROL Work Phone Number]**
+     * **[!UICONTROL Gender]**
+     * **[!UICONTROL Send Welcome Email From]**
 
    ![Administrateur d’entreprise](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 

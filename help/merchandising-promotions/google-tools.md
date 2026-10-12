@@ -3,32 +3,47 @@ title: Outils de site Google
 description: Découvrez les intégrations d’outils Google que vous pouvez utiliser pour optimiser votre contenu, analyser votre trafic et connecter votre catalogue aux agrégateurs d’achats et aux places de marché.
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
-TQID: https://experienceleague.adobe.com/P-IniOyLDfDk8oe1v9ysmRV6yC7IWpxUBaFF--2YMCg
+TQID: 'https://experienceleague.adobe.com/P-IniOyLDfDk8oe1v9ysmRV6yC7IWpxUBaFF--2YMCg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Privacy
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 662
+source-wordcount: '662'
 ht-degree: 0%
-
 ---
-
 # Outils de site Google
 
 La configuration de votre boutique est intégrée aux outils Google suivants pour vous aider à optimiser votre contenu, à analyser votre trafic et à connecter votre catalogue aux agrégateurs d’achats et aux places de marché.
@@ -79,9 +94,9 @@ Si votre entreprise doit se conformer aux réglementations de confidentialité t
 
    - Dans la section **Contacts**, cliquez sur l’icône _Ajouter_ ( ![icône d’ajout Google](./assets/google-icon-add.png) ) et saisissez les informations du premier contact. Cochez ensuite la case de chaque rôle applicable et cliquez sur **[!UICONTROL Add]**.
 
-      - Contact Principal - (Adresse e-mail de notification) Contact auquel les notifications sont envoyées.
-      - Délégué à la protection des données - (le cas échéant) Personne désignée pour faciliter le respect de la réglementation en matière de confidentialité.
-      - Représentant de l&#39;Espace économique européen (EEE) - (Le cas échéant) Personne qui représente des clients en dehors de l&#39;UE concernant leurs obligations en vertu du RGPD.
+     - Contact Principal - (Adresse e-mail de notification) Contact auquel les notifications sont envoyées.
+     - Délégué à la protection des données - (le cas échéant) Personne désignée pour faciliter le respect de la réglementation en matière de confidentialité.
+     - Représentant de l&#39;Espace économique européen (EEE) - (Le cas échéant) Personne qui représente des clients en dehors de l&#39;UE concernant leurs obligations en vertu du RGPD.
 
      Répétez l’opération pour ajouter un autre contact, le cas échéant.
 

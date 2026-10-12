@@ -3,27 +3,35 @@ title: Taxes
 description: Découvrez comment configurer votre boutique pour calculer les taxes en fonction des exigences de vos paramètres régionaux.
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
-TQID: https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk
+TQID: 'https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1129
+source-wordcount: '1129'
 ht-degree: 0%
-
 ---
-
 # Taxes
 
 Configurez votre boutique pour calculer les taxes en fonction des exigences de vos paramètres régionaux. Vous pouvez configurer des [classes de taxe](tax-class.md) pour des produits et des groupes de clients, et créer des [règles de taxe](tax-rules.md) qui combinent des classes de produit et de client, des zones de taxe et des taux. Commerce fournit également des paramètres de configuration pour les taxes sur les produits fixes, les taxes composites et l’affichage des prix au-delà des frontières internationales. Si vous devez collecter une [taxe sur la valeur ajoutée](vat.md), vous pouvez configurer votre boutique pour calculer automatiquement le montant approprié avec validation.

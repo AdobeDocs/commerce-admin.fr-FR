@@ -3,27 +3,35 @@ title: Paramétrage du transporteur
 description: Découvrez la prise en charge des comptes d’expédition commerciale disponibles pour votre boutique.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/zKN3BQWHywAOLJ-zaJX1-8b7aAYxtzl8v9J7uJG1rFg
+TQID: 'https://experienceleague.adobe.com/zKN3BQWHywAOLJ-zaJX1-8b7aAYxtzl8v9J7uJG1rFg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 496
+source-wordcount: '496'
 ht-degree: 0%
-
 ---
-
 # Paramétrage du transporteur
 
 Si vous disposez d&#39;un compte commercial auprès d&#39;un opérateur pris en charge, vous pouvez offrir à vos clients la commodité de choisir cet opérateur lors du passage en caisse. Les taux sont automatiquement téléchargés, de sorte que vous n&#39;avez pas besoin de rechercher les informations.
@@ -38,10 +46,10 @@ Avant de pouvoir proposer à vos clients une sélection de transporteurs, vous d
 
 - Configurez les paramètres de chaque service d&#39;opérateur que vous souhaitez proposer.
 
-   - [**UPS**](ups.md) - United Parcel Service (UPS) offre des services d&#39;expédition nationaux et internationaux par voie terrestre et aérienne à plus de 220 pays.
-   - [**USPS**](usps.md) - Le service postal des États-Unis (USPS) est le service postal indépendant du gouvernement des États-Unis. USPS offre des services de transport maritime nationaux et internationaux par voie terrestre et aérienne.
-   - [**FedEx**](fedex.md) - FedEx offre des services d&#39;expédition nationaux et internationaux par voie terrestre et aérienne à plus de 220 pays.
-   - [**DHL**](dhl.md) - DHL offre des services internationaux intégrés et des solutions personnalisées et axées sur les clients pour la gestion et le transport des lettres, des marchandises et des informations.
+  - [**UPS**](ups.md) - United Parcel Service (UPS) offre des services d&#39;expédition nationaux et internationaux par voie terrestre et aérienne à plus de 220 pays.
+  - [**USPS**](usps.md) - Le service postal des États-Unis (USPS) est le service postal indépendant du gouvernement des États-Unis. USPS offre des services de transport maritime nationaux et internationaux par voie terrestre et aérienne.
+  - [**FedEx**](fedex.md) - FedEx offre des services d&#39;expédition nationaux et internationaux par voie terrestre et aérienne à plus de 220 pays.
+  - [**DHL**](dhl.md) - DHL offre des services internationaux intégrés et des solutions personnalisées et axées sur les clients pour la gestion et le transport des lettres, des marchandises et des informations.
 
 ## Poids dimensionnel
 
@@ -69,7 +77,7 @@ Pour éviter toute interruption des services d’expédition USPS, effectuez une
 
 - Mettez à jour la configuration USPS de Commerce pour utiliser les API REST :
 
-   - [Configuration du transporteur USPS](usps.md)
+  - [Configuration du transporteur USPS](usps.md)
 
-   - [Configuration des étiquettes d&#39;expédition](shipping-label-create.md)
+  - [Configuration des étiquettes d&#39;expédition](shipping-label-create.md)
 

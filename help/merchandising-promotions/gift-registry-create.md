@@ -3,30 +3,43 @@ title: Configuration du registre des cadeaux
 description: Découvrez comment configurer des types de registre des cadeaux pour vos clients de boutique.
 exl-id: d618c769-10be-4881-a799-42484d35c57b
 feature: Gift, Storefront
-TQID: https://experienceleague.adobe.com/LslheZ8xJdGz9NOe8Fkd6QK6uVN8Gz8M8pE-dPwC-5s
+TQID: 'https://experienceleague.adobe.com/LslheZ8xJdGz9NOe8Fkd6QK6uVN8Gz8M8pE-dPwC-5s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4fc0a729-4349-5307-bd06-1b4bfbaf5d0c
+    internal-label: Gift
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Privacy
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1098
+source-wordcount: '1098'
 ht-degree: 0%
-
 ---
-
 # Configuration du registre des cadeaux
 
 {{ee-feature}}
@@ -89,13 +102,13 @@ Vous pouvez utiliser l&#39;un des trois registres de cadeaux préparés ou crée
 
      Certains types d’entrée possèdent des propriétés supplémentaires. Par exemple, l’emplacement de l’événement dispose de propriétés supplémentaires pour rendre l’événement consultable et inclus dans la liste publique des registres de cadeaux de votre boutique.
 
-      - Définissez **[!UICONTROL Attribute Group]** sur la section du registre des cadeaux dans laquelle vous souhaitez que l&#39;attribut apparaisse.
+     - Définissez **[!UICONTROL Attribute Group]** sur la section du registre des cadeaux dans laquelle vous souhaitez que l&#39;attribut apparaisse.
 
-      - Par **[!UICONTROL Label]**, saisissez un nom pour identifier le champ de saisie de données dans le registre.
+     - Par **[!UICONTROL Label]**, saisissez un nom pour identifier le champ de saisie de données dans le registre.
 
-      - Si le client doit effectuer une sélection ou saisir une valeur dans le champ, définissez **[!UICONTROL Is Required]** sur `Yes`.
+     - Si le client doit effectuer une sélection ou saisir une valeur dans le champ, définissez **[!UICONTROL Is Required]** sur `Yes`.
 
-      - Par **[!UICONTROL Sort Order]**, entrez un nombre pour déterminer l&#39;ordre dans lequel ce registre des cadeaux apparaît lorsqu&#39;il est mis en vente avec d&#39;autres registres des cadeaux qui pourraient être disponibles dans le magasin.
+     - Par **[!UICONTROL Sort Order]**, entrez un nombre pour déterminer l&#39;ordre dans lequel ce registre des cadeaux apparaît lorsqu&#39;il est mis en vente avec d&#39;autres registres des cadeaux qui pourraient être disponibles dans le magasin.
 
 1. Pour ajouter une autre option, cliquez sur **Ajouter une nouvelle option**.
 

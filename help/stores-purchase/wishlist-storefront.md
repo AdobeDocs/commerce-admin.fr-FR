@@ -3,27 +3,35 @@ title: Expérience storefront de liste de souhaits
 description: Découvrez les outils de gestion des listes de souhaits disponibles pour vos clients sur le storefront.
 exl-id: df8cf89a-c897-4a9a-9e84-3bae946683a4
 feature: Customers, Storefront
-TQID: https://experienceleague.adobe.com/9shDGhaOYei-RczZovWb0szpGHpMPPk06hPDft8NKhI
+TQID: 'https://experienceleague.adobe.com/9shDGhaOYei-RczZovWb0szpGHpMPPk06hPDft8NKhI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: '862'
 ht-degree: 1%
-
 ---
-
 # Expérience storefront de liste de souhaits
 
 Une liste de souhaits est un moyen pratique pour les clients de rappeler des produits qu&#39;ils aiment, mais qu&#39;ils ne sont pas prêts à acheter. Les articles d’une liste de souhaits peuvent être partagés avec d’autres personnes ou ajoutés au panier. Si le client possède plusieurs listes de souhaits, le nom de la liste de souhaits actuelle s’affiche en haut de la page. Les clients peuvent gérer leurs listes de souhaits depuis le tableau de bord de leur compte. Les administrateurs de boutique peuvent également aider les clients à gérer leurs listes de souhaits à partir de l’administrateur.

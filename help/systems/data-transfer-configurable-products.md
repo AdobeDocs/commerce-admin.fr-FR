@@ -3,28 +3,39 @@ title: Importer des produits configurables
 description: Consultez un exemple d’importation de données de produit pour un produit configurable.
 exl-id: bb8b2a6d-867e-4ab2-bdfd-98a01d79c457
 feature: Products, Data Import/Export
-TQID: https://experienceleague.adobe.com/wTnZwGiENB0-ACjShAkmfx5lP5ToWy7QwrkYy9YcH34
+TQID: 'https://experienceleague.adobe.com/wTnZwGiENB0-ACjShAkmfx5lP5ToWy7QwrkYy9YcH34'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 950
-ht-degree: 0%
-
+source-wordcount: '964'
+ht-degree: 1%
 ---
-
 # Importer des produits configurables
 
 La meilleure façon de comprendre la structure des données de produit configurables consiste à exporter un produit configurable et ses variantes, puis à examiner les données dans une feuille de calcul.
@@ -40,10 +51,10 @@ Dans l’exemple suivant, vous ajoutez un ensemble de variations de produit pour
    - [**[!UICONTROL Scope]**](../getting-started/websites-stores-views.md#scope-settings) - `Global`
    - [**[!UICONTROL Catalog Input Type for Store Owner]**](data-attributes-product.md) - Le type d’entrée de tout attribut utilisé pour une variation de produit doit être l’un des suivants :
 
-      - `Dropdown`
-      - `Visual Swatch`
-      - `Text Swatch`
-      - `Multi-Select`
+     - `Dropdown`
+     - `Visual Swatch`
+     - `Text Swatch`
+     - `Multi-Select`
 
    - **[!UICONTROL Values Required]** - `Yes`
 
@@ -97,8 +108,8 @@ Dans l’exemple suivant, vous ajoutez un ensemble de variations de produit pour
 
    - Faites défiler la feuille de calcul jusqu&#39;à l&#39;extrémité droite pour trouver les colonnes suivantes.
 
-      - `configurable_variations` - Définit la relation un-à-plusieurs entre l’enregistrement de produit configurable et chaque variation.
-      - `configurable_variation_labels` - Définit l’étiquette qui identifie chaque variation.
+     - `configurable_variations` - Définit la relation un-à-plusieurs entre l’enregistrement de produit configurable et chaque variation.
+     - `configurable_variation_labels` - Définit l’étiquette qui identifie chaque variation.
 
      Dans cet exemple, les données se trouvent dans les colonnes CG et CH. En fonction du nombre de variations, la chaîne de données de la colonne `configurable_variations` peut être longue. Les données sont utilisées comme index des variations de produit associées et présentent la structure suivante :
 

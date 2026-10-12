@@ -1,31 +1,41 @@
 ---
-title: Configurez  [!DNL Inventory Management]
-description: Présentation  [!DNL Inventory Management]  la configuration au niveau du catalogue et des produits pour l’affichage du storefront, le stock et le comportement d’expédition.
+title: Configurer [!DNL Inventory Management]
+description: Présentation de [!DNL Inventory Management] configuration au niveau du catalogue et des produits pour l’affichage du storefront, le stock et le comportement d’expédition.
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
-TQID: https://experienceleague.adobe.com/3ay4K29pe2WkzYT-A5NXh83sHRvd5YJ8aoVqusrbZeE
+TQID: 'https://experienceleague.adobe.com/3ay4K29pe2WkzYT-A5NXh83sHRvd5YJ8aoVqusrbZeE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 777
+source-wordcount: '778'
 ht-degree: 0%
-
 ---
-
 # Configurer [!DNL Inventory Management]
 
 Le module [!DNL Inventory Management] prend en charge les paramètres de configuration de l&#39;inventaire au niveau du produit et au niveau global et fournit également des paramètres supplémentaires qui affectent la disponibilité de la source, les produits du storefront et l&#39;expédition des commandes. Les paramètres de configuration s’appliquent aux éléments suivants :

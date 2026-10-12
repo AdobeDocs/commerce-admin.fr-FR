@@ -4,30 +4,41 @@ description: Découvrez comment exécuter une analyse de sécurité renforcée e
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-TQID: https://experienceleague.adobe.com/htuqRHD-ZLrN42IPAdZrEzbea8UirA0xS9eMcksZNQs
+TQID: 'https://experienceleague.adobe.com/htuqRHD-ZLrN42IPAdZrEzbea8UirA0xS9eMcksZNQs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1203
+source-wordcount: '1203'
 ht-degree: 0%
-
 ---
-
 # Analyse de sécurité
 
 Surveillez vos sites Adobe Commerce et Magento Open Source pour détecter les risques de sécurité et les programmes malveillants, et recevez des mises à jour de sécurité et des notifications.
@@ -39,7 +50,7 @@ Surveillez vos sites Adobe Commerce et Magento Open Source pour détecter les ri
 - Accédez aux rapports de sécurité historiques qui suivent et surveillent la progression de vos sites.
 - Accédez au rapport d’analyse qui indique les vérifications réussies et ayant échoué, avec les actions recommandées.
 
-L&#39;outil d&#39;analyse de sécurité est disponible gratuitement depuis le tableau de bord de votre compte [Commerce/Magento](../getting-started/commerce-account-create.md). Pour obtenir des informations techniques, consultez [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) dans le _Guide de Commerce sur les infrastructures cloud_.
+L’outil de scan de sécurité est disponible gratuitement depuis le tableau de bord de votre compte [Commerce/Magento](../getting-started/commerce-account-create.md). Pour obtenir des informations techniques, consultez [Configuration de l’outil d’analyse de sécurité](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) dans le _Guide de Commerce sur les infrastructures cloud_.
 
 ![Outil d’analyse de sécurité](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 

@@ -4,30 +4,41 @@ description: Découvrez comment configurer PayPal Express Checkout en tant que s
 exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-TQID: https://experienceleague.adobe.com/7aaiT94I7NENXKmz72TZNNlh6VO8tKedFZbIXRUL79E
+TQID: 'https://experienceleague.adobe.com/7aaiT94I7NENXKmz72TZNNlh6VO8tKedFZbIXRUL79E'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 3148
+source-wordcount: '3201'
 ht-degree: 0%
-
 ---
-
 # PayPal Express Checkout
 
 PayPal Express Checkout permet de stimuler les ventes en permettant à vos clients de payer par carte de crédit ou en sécurisant leurs comptes PayPal personnels. Lors du passage en caisse, le client est redirigé vers le site sécurisé PayPal pour compléter les informations de paiement. Le client est ensuite renvoyé à votre magasin pour effectuer le reste du processus de passage en caisse. Choisir Express Checkout ajoute le bouton PayPal familier à votre boutique, qui a été signalé pour augmenter les ventes.
@@ -333,7 +344,7 @@ Définissez **[!UICONTROL Enable PayPal PayLater Experience]** sur l’une des o
 
 1. Si l&#39;action de paiement est définie sur `Order`, effectuez les opérations suivantes :
 
-   - **[!UICONTROL Authorization Honor Period (days)]** - Détermine la durée de validité de l’autorisation principale. La valeur doit être égale à la valeur correspondante dans votre compte marchand PayPal. La valeur par défaut de votre compte marchand PayPal est `3`. Pour augmenter ce nombre, contactez PayPal. L&#39;autorisation devient invalide à 23 :49, heure du Pacifique des États-Unis, du dernier jour.
+   - **[!UICONTROL Authorization Honor Period (days)]** - Détermine la durée de validité de l’autorisation principale. La valeur doit être égale à la valeur correspondante dans votre compte marchand PayPal. La valeur par défaut de votre compte marchand PayPal est `3`. Pour augmenter ce nombre, contactez PayPal. L&#39;autorisation devient invalide à 23 h 49, heure du Pacifique des États-Unis, le dernier jour.
 
    - **[!UICONTROL Order Valid Period (days)]** - Détermine la durée de validité de la commande. Lorsque la commande n’est plus valide, vous ne pouvez plus créer de factures pour celle-ci. Indiquez une valeur égale à la valeur Période de commande valide dans votre compte marchand PayPal. La valeur par défaut de votre compte marchand PayPal est `29`. Pour modifier ce numéro, contactez PayPal.
 
@@ -451,8 +462,8 @@ Un [accord de facturation](paypal-billing-agreements.md) est un accord de vente 
 
    - Si vous vous êtes inscrit au serveur FTP sécurisé PayPal, saisissez les informations d&#39;identification SFTP suivantes :
 
-      - Login
-      - Mot de passe
+     - Login
+     - Mot de passe
 
    - Pour exécuter des rapports de test avant la _mise en ligne_ avec le paiement express sur votre site, définissez **[!UICONTROL Sandbox Mode]** sur `Yes`.
 
@@ -470,13 +481,13 @@ Un [accord de facturation](paypal-billing-agreements.md) est un accord de vente 
 
    - Définissez **[!UICONTROL Schedule]** sur l’une des options suivantes :
 
-      - `Daily`
-      - `Every 3 Days`
-      - `Every 7 Days`
-      - `Every 10 Days`
-      - `Every 14 Days`
-      - `Every 30 Days`
-      - `Every 40 Days`
+     - `Daily`
+     - `Every 3 Days`
+     - `Every 7 Days`
+     - `Every 10 Days`
+     - `Every 14 Days`
+     - `Every 30 Days`
+     - `Every 40 Days`
 
      PayPal conserve chaque rapport pendant 45 jours.
 
@@ -504,9 +515,9 @@ Utilisez les paramètres d’expérience Frontend pour choisir les logos PayPal 
 
    - Saisissez le nom du **[!UICONTROL Page Style]** que vous souhaitez appliquer à vos pages marchandes PayPal :
 
-      - `paypal` - Utilise le style de page PayPal.
-      - `primary` - Utilise le style de page que vous avez identifié comme style _principal_ dans le profil de votre compte.
-      - `your_custom_value` - Utilise un style de page de paiement personnalisé, spécifié dans le profil de votre compte.
+     - `paypal` - Utilise le style de page PayPal.
+     - `primary` - Utilise le style de page que vous avez identifié comme style _principal_ dans le profil de votre compte.
+     - `your_custom_value` - Utilise un style de page de paiement personnalisé, spécifié dans le profil de votre compte.
 
    - Par **[!UICONTROL Header Image URL]**, saisissez l’URL de l’image que vous souhaitez afficher dans le coin supérieur gauche de la page de paiement. La taille de fichier maximale est de 750 pixels de large sur 90 pixels de haut.
 
@@ -516,9 +527,9 @@ Utilisez les paramètres d’expérience Frontend pour choisir les logos PayPal 
 
    - Pour définir la couleur de vos pages, saisissez le code hexadécimal à six caractères, sans le symbole `#`, pour chacun des éléments suivants :
 
-      - **[!UICONTROL Header Background Color]** - Couleur d’arrière-plan de l’en-tête de la page de passage en caisse.
-      - **[!UICONTROL Header Border Color]** : couleur de la bordure de deux pixels autour de l’en-tête.
-      - **[!UICONTROL Page Background Color]** - Couleur d’arrière-plan de la page de passage en caisse et autour de l’en-tête et du formulaire de paiement.
+     - **[!UICONTROL Header Background Color]** - Couleur d’arrière-plan de l’en-tête de la page de passage en caisse.
+     - **[!UICONTROL Header Border Color]** : couleur de la bordure de deux pixels autour de l’en-tête.
+     - **[!UICONTROL Page Background Color]** - Couleur d’arrière-plan de la page de passage en caisse et autour de l’en-tête et du formulaire de paiement.
 
 #### Personnaliser les boutons intelligents
 

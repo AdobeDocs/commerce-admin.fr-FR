@@ -3,28 +3,37 @@ title: Configuration du panier
 description: Découvrez les fonctionnalités du panier que vous pouvez configurer pour prendre en charge l’expérience d’achat sur votre boutique.
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-TQID: https://experienceleague.adobe.com/WujjOYsEVIPOEEdvRD2F5S-810YCju22sJY74RG18J8
+TQID: 'https://experienceleague.adobe.com/WujjOYsEVIPOEEdvRD2F5S-810YCju22sJY74RG18J8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2417
+source-wordcount: '2460'
 ht-degree: 0%
-
 ---
-
 # Configuration du panier
 
 La configuration du panier détermine le fonctionnement du panier pour vos clients de boutique, y compris le moment où le client est redirigé vers la page du panier et les images utilisées pour les miniatures de produit. Vous pouvez également exiger qu&#39;une commande atteigne un montant minimum avant le début du processus de passage en caisse, spécifier le nombre de jours pendant lesquels les prix cotés restent valides et spécifier l&#39;ordre des articles dans la section _Totaux des commandes_.
@@ -176,13 +185,13 @@ La configuration vous permet de spécifier un montant minimum, une fois les remi
 
    - Définissez **[!UICONTROL Include Discount Amount]** sur l’une des options suivantes :
 
-      - `Yes` - Exige que le sous-total atteigne le montant minimum avec les remises incluses. À titre d’exemple d’un minimum de 50 $, si le panier contient un haut de 60 $ avec une remise de 25 % appliquée, le sous-total obtenu est de 45 $ et le panier ne répond pas au minimum.
-      - `No` - Exige que le sous-total atteigne le montant minimum sans escompte.
+     - `Yes` - Exige que le sous-total atteigne le montant minimum avec les remises incluses. À titre d’exemple d’un minimum de 50 $, si le panier contient un haut de 60 $ avec une remise de 25 % appliquée, le sous-total obtenu est de 45 $ et le panier ne répond pas au minimum.
+     - `No` - Exige que le sous-total atteigne le montant minimum sans escompte.
 
    - Définissez **[!UICONTROL Include Tax to Amount]** sur l’une des options suivantes :
 
-      - `Yes` - Nécessite que le sous-total corresponde au montant minimum avec taxe incluse.
-      - `No` - Nécessite que le sous-total atteigne le montant minimum sans taxe.
+     - `Yes` - Nécessite que le sous-total corresponde au montant minimum avec taxe incluse.
+     - `No` - Nécessite que le sous-total atteigne le montant minimum sans taxe.
 
 1. Vous pouvez éventuellement personnaliser les paramètres de message concernant le montant minimal de commande :
 
@@ -198,9 +207,9 @@ La configuration vous permet de spécifier un montant minimum, une fois les remi
 
    - Vous pouvez éventuellement personnaliser les paramètres de message concernant le montant minimal de commande :
 
-      - **[!UICONTROL Multi-address Description Message]** - Saisissez le texte à utiliser pour personnaliser le message qui s’affiche en haut du panier pour les commandes à plusieurs adresses qui ne répondent pas au minimum.
+     - **[!UICONTROL Multi-address Description Message]** - Saisissez le texte à utiliser pour personnaliser le message qui s’affiche en haut du panier pour les commandes à plusieurs adresses qui ne répondent pas au minimum.
 
-      - **[!UICONTROL Multi-address Error to Show in Shopping Cart]** - Saisissez le texte que vous souhaitez utiliser pour personnaliser le message d’erreur du panier pour les commandes à plusieurs adresses qui ne répondent pas au minimum. Saisissez le texte dans la zone.
+     - **[!UICONTROL Multi-address Error to Show in Shopping Cart]** - Saisissez le texte que vous souhaitez utiliser pour personnaliser le message d’erreur du panier pour les commandes à plusieurs adresses qui ne répondent pas au minimum. Saisissez le texte dans la zone.
 
      Laissez les champs de description des messages vides pour utiliser les messages par défaut.
 

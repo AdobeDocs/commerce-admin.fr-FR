@@ -1,31 +1,43 @@
 ---
 title: Paramètres du produit - [!UICONTROL Sources]
-description: Pour un produit, les paramètres de [!UICONTROL Sources] permettent d’accéder aux sources  [!DNL Inventory Management]  à partir desquelles le produit peut être distribué.
+description: Pour un produit, les paramètres de [!UICONTROL Sources] permettent d’accéder aux sources de [!DNL Inventory Management] à partir desquelles le produit peut être distribué.
 exl-id: 986f6031-0edc-4105-aa02-1c22364b3e7c
 feature: Catalog Management, Products, Inventory
-TQID: https://experienceleague.adobe.com/7LFF4ufXyKtJwUp4DiNDdnRMhFRsM1tX8Z2TlPt1Kso
+TQID: 'https://experienceleague.adobe.com/7LFF4ufXyKtJwUp4DiNDdnRMhFRsM1tX8Z2TlPt1Kso'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 259
+source-wordcount: '260'
 ht-degree: 1%
-
 ---
-
 # Paramètres du produit - [!UICONTROL Sources]
 
 La section _[!UICONTROL Sources]_&#x200B;des paramètres du produit répertorie les sources à partir desquelles le produit peut être distribué. Il permet d’affecter et d’annuler l’affectation des sources, ainsi que de gérer la quantité et la disponibilité du produit. Cette section s’affiche uniquement si plusieurs sources sont définies pour votre boutique. Pour plus d’informations sur les sources, voir [Gérer les sources](../inventory-management/sources-manage.md).

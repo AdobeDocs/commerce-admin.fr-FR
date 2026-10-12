@@ -4,24 +4,33 @@ description: Examinez cet exemple de campagne utilisé pour planifier une modifi
 exl-id: 36b7d7f6-4590-4192-a82b-e5f645b05f62
 feature: Page Content, Staging
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
-TQID: https://experienceleague.adobe.com/yR5AygNuuaCFZEMfRpRd-EH6jeSrRUQoVSO--sxF-FE
+TQID: 'https://experienceleague.adobe.com/yR5AygNuuaCFZEMfRpRd-EH6jeSrRUQoVSO--sxF-FE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 0054e3a7-7067-583b-bfd2-ab39dada9ab5
+    internal-label: Staging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 667
+source-wordcount: '668'
 ht-degree: 0%
-
 ---
-
 # Planifier une mise à jour du contenu
 
 {{ee-feature}}
@@ -49,7 +58,7 @@ L&#39;exemple suivant montre comment planifier une modification temporaire du pr
 
    - Utilisez l’outil Calendrier (![icône Calendrier](../assets/icon-calendar.png)) pour choisir les **Date de début** et **Date de fin** de la campagne.
 
-     Pour créer une campagne ouverte, ne spécifiez pas de date de fin (laissez vide). Pour cet exemple, la campagne doit commencer au trait de minuit pour la nouvelle année, le 1er janvier 2021 à 12 :00 (heure du Pacifique).
+     Pour créer une campagne ouverte, ne spécifiez pas de date de fin (laissez vide). Pour cet exemple, la campagne doit commencer au trait de minuit pour la nouvelle année, le 1er janvier 2021 à 00 h 00 (heure du Pacifique).
 
 
      Pour une campagne de règles de prix créée sans date de fin, une date de fin ne peut pas être ajoutée ultérieurement. Dans ce cas, il est nécessaire de créer une campagne et de définir la date de début à la date à laquelle vous souhaitez que l’ancienne campagne se termine et que la nouvelle campagne démarre. À cette date de début, l’ancienne campagne se termine et la nouvelle campagne commence telle que définie.

@@ -4,28 +4,36 @@ description: Découvrez les options et les modèles d’e-mail utilisés pour en
 exl-id: fd61c0c6-0887-4ff2-8002-906ff615bad9
 feature: B2B, Companies, Configuration
 role: Admin
-TQID: https://experienceleague.adobe.com/MeNTcQzgfeH-DJ3TVQ-655Okr-Qt5Lv97pGZJ-67sxQ
+TQID: 'https://experienceleague.adobe.com/MeNTcQzgfeH-DJ3TVQ-655Okr-Qt5Lv97pGZJ-67sxQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 0%
-
+source-wordcount: '676'
+ht-degree: 3%
 ---
-
 # Configurer les options d’e-mail de la société
 
 Le [commercial](account-company-manage.md) qui est affecté en tant que contact principal pour une entreprise est configuré par défaut comme expéditeur de nombreux e-mails automatisés envoyés à l’entreprise.
@@ -48,8 +56,8 @@ Le [commercial](account-company-manage.md) qui est affecté en tant que contact 
 
    - Pour déterminer comment la copie de la notification est envoyée, définissez **[!UICONTROL Send Email Copy Method]** sur l’une des options suivantes :
 
-      - `Bcc` - Envoie une _copie de courtoisie invisible_ en incluant le destinataire dans l’en-tête du même e-mail envoyé au client. Le destinataire en Cci n’est pas visible pour le client.
-      - `Separate Email` - Envoie la copie sous forme d’e-mail distinct.
+     - `Bcc` - Envoie une _copie de courtoisie invisible_ en incluant le destinataire dans l’en-tête du même e-mail envoyé au client. Le destinataire en Cci n’est pas visible pour le client.
+     - `Separate Email` - Envoie la copie sous forme d’e-mail distinct.
 
    - Si vous avez préparé un modèle d’e-mail à utiliser à la place du modèle par défaut, définissez **[!UICONTROL Default Company Registration Email]** sur le nom du modèle. Par défaut, le modèle de `Company Registration Request` est utilisé.
 
@@ -77,8 +85,8 @@ Le [commercial](account-company-manage.md) qui est affecté en tant que contact 
 
    - Pour déterminer comment la copie de la notification est envoyée, définissez **[!UICONTROL Send Email Copy Method]** sur l’une des options suivantes :
 
-      - `Bcc` - Envoie une _copie de courtoisie invisible_ en incluant le destinataire dans l’en-tête du même e-mail envoyé au client. Le destinataire en Cci n’est pas visible pour le client.
-      - `Separate Email` - Envoie la copie sous forme d’e-mail distinct.
+     - `Bcc` - Envoie une _copie de courtoisie invisible_ en incluant le destinataire dans l’en-tête du même e-mail envoyé au client. Le destinataire en Cci n’est pas visible pour le client.
+     - `Separate Email` - Envoie la copie sous forme d’e-mail distinct.
 
    - Si vous disposez d’un modèle d’e-mail préparé à utiliser au lieu de la valeur par défaut lorsque le statut de l’entreprise passe de `Pending Approval` à `Active`, définissez **[!UICONTROL Default 'Company Status Change to Active 1' Email]** sur ce modèle. Par défaut, le modèle de `Company Status Active 1` est utilisé.
 
@@ -100,16 +108,16 @@ Le [commercial](account-company-manage.md) qui est affecté en tant que contact 
 
    - Pour déterminer comment la copie de la notification est envoyée, définissez **[!UICONTROL Send Email Copy Method]** sur l’une des options suivantes :
 
-      - `Bcc` - Envoie une _copie de courtoisie invisible_ en incluant le destinataire dans l’en-tête du même e-mail envoyé au client. Le destinataire en Cci n’est pas visible pour le client.
-      - `Separate Email` - Envoie la copie sous forme d’e-mail distinct.
+     - `Bcc` - Envoie une _copie de courtoisie invisible_ en incluant le destinataire dans l’en-tête du même e-mail envoyé au client. Le destinataire en Cci n’est pas visible pour le client.
+     - `Separate Email` - Envoie la copie sous forme d’e-mail distinct.
 
    - Si vous avez préparé des modèles d’e-mail à utiliser à la place des valeurs par défaut, choisissez le modèle pour chacune des notifications suivantes envoyées à l’administrateur de la société.
 
-      - **[!UICONTROL Allocated Email Template]**
-      - **[!UICONTROL Updated Email Template]**
-      - **[!UICONTROL Reimbursed Email Template]**
-      - **[!UICONTROL Refunded Email Template]**
-      - **[!UICONTROL Reverted Email Template]**
+     - **[!UICONTROL Allocated Email Template]**
+     - **[!UICONTROL Updated Email Template]**
+     - **[!UICONTROL Reimbursed Email Template]**
+     - **[!UICONTROL Refunded Email Template]**
+     - **[!UICONTROL Reverted Email Template]**
 
    ![Configuration des clients - e-mails de crédit d’entreprise](./assets/company-email-options-company-credit.png){width="600" zoomable="yes"}
 
