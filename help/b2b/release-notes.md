@@ -44,7 +44,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: bb5da9eea16601303b62ccc06327c6a832062c49
 workflow-type: tm+mt
 source-wordcount: '11211'
 ht-degree: 0%
@@ -60,6 +60,8 @@ Ces notes de mise à jour pour l’extension B2B capturent les ajouts et correct
 >[!NOTE]
 >
 >Consultez [Disponibilité du produit](https://experienceleague.adobe.com/fr/docs/commerce-operations/release/product-availability) pour plus d’informations sur les versions de l’extension Commerce B2B prises en charge pour les versions d’Adobe Commerce disponibles.
+
+{{$include /help/_includes/templated/release-notes-v1-5-4.md}}
 
 ## B2B v1.5.3
 
@@ -1160,3 +1162,5 @@ Cette version comprend des améliorations des approbations de commande, des mét
 - Adobe Commerce renvoie une exception lors de la mise à niveau vers B2B 1.2.0 dans un déploiement multisite. Lors de `setup:upgrade`’exécution, cette erreur se produit sur le module `PurchaseOrder` : `Module Magento_PurchaseOrder: Unable to apply data patch Magento\PurchaseOrder\Setup\Patch\Data\InitPurchaseOrderSalesSequence for moduleMagento_PurchaseOrder`. **Solution** : installez l’interface `B2B-716 Add NonTransactionableInterface` au correctif logiciel du correctif de données `InitPurchaseOrderSalesSequence`, désormais disponible à partir de la section **Mon compte** > **Téléchargements** de `magento.com`.
 - Si un code escompte expire avant l&#39;approbation d&#39;une commande, la commande continue d&#39;afficher le montant escompté, mais une fois la commande approuvée, elle est placée au total non escompté. **Solution** : installez le correctif `B2B-709 Purchase Order Discount patch` pour ce problème, qui est désormais disponible à partir de la section **Mon compte** > **Téléchargements** de `magento.com`.
 - Si des articles d&#39;une commande fournisseur sont en rupture de stock ou en quantité insuffisante lors de la conversion de la commande fournisseur en commande réelle, une erreur se produit. Si les reliquats sont activés, la commande est traitée normalement.
+
+<!-- Last updated from includes: 2026-10-09 17:06:14 -->
