@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: c855fa4ca30318b8b0256ce67649d3204b3de814
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '515'
 ht-degree: 0%
 ---
 # Règles de prix du panier
@@ -77,8 +77,8 @@ Les règles de prix de panier appliquent des remises aux articles du panier, en 
 | [!UICONTROL Status] | Utilisez cette option pour filtrer la liste en fonction du statut de la règle (`Active` ou `Inactive`). |
 | [!UICONTROL Web Site] | Utilisez cette option pour filtrer la liste en fonction des sites web définis pour une règle. |
 | [!UICONTROL Action] | ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Cliquez sur **[!UICONTROL Edit]** pour afficher la page _[!UICONTROL Rule Information]_&#x200B;et mettre à jour les paramètres des règles (comme pour la création d’une règle). |
-| [!UICONTROL Start] | ![](../assets/open-source.svg) (Magento Open Source uniquement) Utilisez les champs de calendrier dynamique (_[!UICONTROL To:]_&#x200B;et&#x200B;_[!UICONTROL From:]_) pour filtrer la liste en fonction de la date de début de la règle telle que définie lors de la création de la règle. |
-| [!UICONTROL End] | ![](../assets/open-source.svg) (Magento Open Source uniquement) Utilisez les champs de calendrier dynamique (_[!UICONTROL To:]_&#x200B;et&#x200B;_[!UICONTROL From:]_) pour filtrer la liste en fonction de la date de fin de la règle telle que définie lors de la création de la règle. |
+| [!UICONTROL Start] | ![](../assets/open-source.svg) (Magento Open Source et Adobe Commerce as a Cloud Service uniquement) Utilisez les champs de calendrier dynamique (_[!UICONTROL To:]_&#x200B;et&#x200B;_[!UICONTROL From:]_) pour filtrer la liste en fonction de la date de début de la règle telle que définie lors de la création de la règle. <br><br>![](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] uniquement) Utilisez les champs de calendrier dynamique (Vers : et De :) pour filtrer la liste en fonction de la date et de l’heure de début de la règle. |
+| [!UICONTROL End] | ![](../assets/open-source.svg) (Magento Open Source et Adobe Commerce as a Cloud Service uniquement) Utilisez les champs de calendrier dynamique (_[!UICONTROL To:]_&#x200B;et&#x200B;_[!UICONTROL From:]_) pour filtrer la liste en fonction de la date de fin de la règle telle que définie lors de la création de la règle. <br><br>![](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] uniquement) Utilisez les champs de calendrier dynamique (Vers : et De :) pour filtrer la liste en fonction de la date et de l’heure de fin de la règle. |
 
 {style="table-layout:auto"}
 
