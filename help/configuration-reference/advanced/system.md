@@ -4,7 +4,7 @@ description: Vérifiez les paramètres de configuration sur la page [!UICONTROL 
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 last-update: 2026-08-20
 TQID: 'https://experienceleague.adobe.com/9QNzCxuwy1v5xR6YNE4On3woJ4mw-SnWB3m-me-nrb0'
 product_v2:
@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
 workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 1%
@@ -145,7 +145,7 @@ Pour plus d’informations sur la modification de ce paramètre, voir [Configura
 
 ## [!UICONTROL Security]
 
-![&#x200B; Configuration avancée - Sécurité &#x200B;](./assets/system-security.png)<!-- zoom -->
+![ Configuration avancée - Sécurité ](./assets/system-security.png)<!-- zoom -->
 
 Pour plus d’informations sur la modification de ces paramètres, voir [Gestion des sessions](../../systems/security-session-management.md) dans le _Guide des systèmes d’administration_.
 
@@ -172,7 +172,7 @@ Pour plus d&#39;informations sur la modification de ces paramètres, consultez [
 
 ## [!UICONTROL Backup Settings]
 
-![&#x200B; Configuration avancée - Paramètres de sauvegarde &#x200B;](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
+![ Configuration avancée - Paramètres de sauvegarde ](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
 
 {{$include /help/_includes/backups-note.md}}
 
@@ -181,8 +181,8 @@ Pour plus d’informations sur la modification de ces paramètres, consultez [Sa
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | Global | Détermine si l’instance Commerce autorise les sauvegardes. Options : `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | Global | (Affiché lorsque _[!UICONTROL Enable Backup]_&#x200B;est défini sur `Yes`.) Détermine si l’instance Commerce est automatiquement sauvegardée selon un planning régulier. Options : `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | Global | (Affiché lorsque _[!UICONTROL Enable Scheduled Backup]_&#x200B;est défini sur `Yes`.) Détermine les éléments de l’instance Commerce inclus dans la sauvegarde. Options : `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Enable Scheduled Backup] | Global | (Affiché lorsque _[!UICONTROL Enable Backup]_est défini sur `Yes`.) Détermine si l’instance Commerce est automatiquement sauvegardée selon un planning régulier. Options : `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Global | (Affiché lorsque _[!UICONTROL Enable Scheduled Backup]_est défini sur `Yes`.) Détermine les éléments de l’instance Commerce inclus dans la sauvegarde. Options : `Database` / `Database and Media` / `System` / `System (excluding Media)` |
 | [!UICONTROL Start Time] | Global | (Affiché lorsque [!UICONTROL Enable Scheduled Backup] est défini sur `Yes`.) Indique l’heure, la minute et la seconde auxquelles la sauvegarde planifiée commence. |
 | [!UICONTROL Frequency] | Global | (Affiché lorsque [!UICONTROL Enable Scheduled Backup] est défini sur `Yes`.) Détermine la fréquence à laquelle la sauvegarde planifiée a lieu. Options : `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Maintenance Mode] | Global | (Affiché lorsque [!UICONTROL Enable Scheduled Backup] est défini sur `Yes`.) Détermine si le magasin est en mode de maintenance pendant la sauvegarde planifiée. Options : `Yes` / `No` |
@@ -216,7 +216,7 @@ Pour plus d’informations sur la modification de ces paramètres, consultez [Mi
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Global | Détermine l’application utilisée pour gérer le cache de page complète. Options : <br/>**`Built-in Application`**- Non recommandé pour l’environnement de production.<br/>**`Varnish Caching`** - Recommandé pour l’environnement de production. |
 | [!UICONTROL TTL for public content] | Global | Détermine la durée de vie du cache de contenu public en secondes. Valeur par défaut : `120` |
-| [!UICONTROL Handles param size] | global | Indique le nombre maximal de [handles de mise en page](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) à traiter sur le point d’entrée HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi). Limiter la taille peut améliorer la sécurité et les performances. Valeur par défaut : `100` |
+| [!UICONTROL Handles param size] | global | Indique le nombre maximal de [handles de mise en page](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) à traiter sur le point d’entrée HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi). Limiter la taille peut améliorer la sécurité et les performances. Valeur par défaut : `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Global | Spécifie les adresses IP qui peuvent purger la configuration du vernis pour générer un fichier de configuration. Séparez les entrées multiples par une virgule. Valeur par défaut : `localhost` |
 | [!UICONTROL Backend host] | Global | Spécifie l’hôte principal qui génère les fichiers de configuration. Valeur par défaut : `localhost` |
@@ -296,7 +296,7 @@ Pour plus d&#39;informations sur la modification de ces paramètres, consultez [
 
 ![Configuration avancée - Configuration du chargement d’images](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |--- |--- |--- |
@@ -344,4 +344,4 @@ Pour plus d’informations sur la configuration de ces paramètres, voir [Intég
 
 {style="table-layout:auto"}
 
-<!-- Last updated from includes: 2023-02-22 09:59:54 -->
+<!-- Last updated from includes: 2026-08-20 14:27:46 -->
