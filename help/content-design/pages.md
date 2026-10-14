@@ -3,7 +3,7 @@ title: Pages
 description: Découvrez en détail les pages de contenu principales incluses dans le magasin de démonstration [!DNL Commerce] et comment modifier la configuration des pages par défaut.
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
 feature: Page Content, Configuration
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: 'https://experienceleague.adobe.com/8vTCiNl1daEV7Tpxxusbwhv8R9-qwZh6-fimyORElIk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -41,7 +41,7 @@ Le contenu peut être considéré en termes de durée de conservation, comme n�
 
 Le contenu ayant une longue durée de conservation est parfois appelé _contenu permanent_. Parmi les exemples de contenu sans cesse renouvelé, citons les témoignages de clients, les _comment_ des instructions et les questions fréquentes (FAQ). En revanche, le contenu périssable par nature comprend les événements, les actualités du secteur et les communiqués de presse.
 
-![Page À propos de nous incluse avec l’exemple de &#x200B;](./assets/storefront-about-us.png){width="700" zoomable="yes"} de magasin Luma
+![Page À propos de nous incluse avec l’exemple de ](./assets/storefront-about-us.png){width="700" zoomable="yes"} de magasin Luma
 
 ## Pages de contenu principal
 
@@ -63,7 +63,7 @@ La page 404 Page introuvable est nommée en fonction du code de réponse renvoy�
 
 {{b2b-feature}}
 
-La page [&#x200B; Accès refusé &#x200B;](../b2b/account-company-roles-permissions.md) s’affiche lorsque les autorisations affectées à un utilisateur de l’entreprise empêchent l’accès à la page.
+La page [ Accès refusé ](../b2b/account-company-roles-permissions.md) s’affiche lorsque les autorisations affectées à un utilisateur de l’entreprise empêchent l’accès à la page.
 
 ### Activer les cookies
 
@@ -93,7 +93,7 @@ La configuration _Pages par défaut_ détermine la page de destination associée
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Default Pages]** .
 
-   ![&#x200B; Pages par défaut &#x200B;](./assets/web-default-pages.png){width="500" zoomable="yes"}
+   ![ Pages par défaut ](./assets/web-default-pages.png){width="500" zoomable="yes"}
 
    | Champ | [Portée](../getting-started/websites-stores-views.md#scope-settings) | Description |
    |--- |--- |--- |
@@ -112,7 +112,7 @@ La configuration _Pages par défaut_ détermine la page de destination associée
 
    >[!NOTE]
    >
-   >Pour une vue de magasin spécifique, décochez la case **[!UICONTROL Use Default]** en regard de _[!UICONTROL Default Web URL]_&#x200B;et de tout autre paramètre par défaut à modifier.
+   >Pour une vue de magasin spécifique, décochez la case **[!UICONTROL Use Default]** en regard de _[!UICONTROL Default Web URL]_et de tout autre paramètre par défaut à modifier.
 
 1. Définissez **[!UICONTROL CMS Home Page]** sur la page CMS à utiliser comme page d’accueil. D’autres pages créées peuvent être utilisées comme page d’accueil, par exemple :
 

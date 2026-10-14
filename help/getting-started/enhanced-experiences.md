@@ -6,35 +6,51 @@ feature: Storefront
 TQID: https://experienceleague.adobe.com/dvX5iw-uZFfhD8BXiugyXjeZYAPoNM-rcSdnlICZvXo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 1776
+source-wordcount: '1776'
 ht-degree: 0%
-
 ---
-
 # Expériences storefront améliorées
 
 Outre les éléments standard qui permettent aux clients d’effectuer des achats dans votre magasin, il existe de nombreux outils conçus pour vous aider à optimiser l’engagement, la fidélisation et la fidélisation de vos clients.
@@ -42,7 +58,7 @@ Outre les éléments standard qui permettent aux clients d’effectuer des achat
 <!-- 
 This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=fr)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. 
 -->
@@ -81,7 +97,7 @@ Adobe Commerce et Magento Open Source facilitent la création d’une expérienc
 
 Adobe Commerce et Magento Open Source proposent un ensemble riche d’outils pour créer des expériences personnalisées sur plusieurs points de contact numériques, en fonction de l’activité et du profil du client ou de la cliente.
 
-- **Catalogue et tarifs personnalisés** - Proposez une sélection de produits sélectionnée avec un [&#x200B; personnalisétarification pour des sociétés spécifiques](../b2b/catalog-shared-pricing-structure.md), tout en continuant à proposer le catalogue standard avec une tarification régulière pour les clients généraux.
+- **Catalogue et tarifs personnalisés** - Proposez une sélection de produits sélectionnée avec un [ personnalisétarification pour des sociétés spécifiques](../b2b/catalog-shared-pricing-structure.md), tout en continuant à proposer le catalogue standard avec une tarification régulière pour les clients généraux.
 
 - **Segmentation ciblée** - Optimisez vos initiatives marketing avec du contenu dynamique, des promotions et des bannières [en fonction des propriétés](../customers/customer-segments.md) telles que l’adresse du client, l’historique des commandes et le contenu du panier.
 
@@ -111,7 +127,7 @@ Adobe Commerce et Magento Open Source proposent toute une gamme d’outils pour 
 
 ## Optimiser les processus métiers et la rentabilité
 
-- **[!DNL Advanced Reporting]** - Obtenez des informations précieuses en un coup d’œil grâce aux rapports dynamiques sur les produits, les commandes et les clients, optimisés par [Business Intelligence](https://experienceleague.adobe.com/fr/docs/commerce-business-intelligence/mbi/getting-started).
+- **[!DNL Advanced Reporting]** - Obtenez des informations précieuses en un coup d’œil grâce aux rapports dynamiques sur les produits, les commandes et les clients, optimisés par [Business Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started).
 
 - **Instantanés de tableau de bord** - Pour optimiser votre budget marketing, il est essentiel de connaître les éléments qui présentent un intérêt pour votre site. Utilisez ces [informations sur votre tableau de bord](admin-dashboard.md) pour déterminer les ventes croisées et incitatives à des clients fidèles ou les produits à mettre en vente.
 

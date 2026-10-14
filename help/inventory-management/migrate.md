@@ -40,13 +40,13 @@ ht-degree: 0%
 
 Si vous avez utilisé un inventaire à source unique dans une version précédente, ces informations fournissent des détails sur les nouvelles fonctionnalités et les modifications apportées à vos configurations de catalogue et d’inventaire existantes.
 
-[!DNL Inventory Management] pour Adobe Commerce et Magento Open Source comprend des fonctionnalités, des améliorations et une assistance développeur qui améliore et met à jour la gestion des stocks de produits et ajoute de nouvelles fonctionnalités. Toutes les fonctionnalités sont prêtes à l&#39;emploi, y compris l&#39;algorithme de sélection Source et le passage en caisse simultané pour faire correspondre les quantités de commande aux origines et à l&#39;exécution des commandes. Selon vos sites Web, vos magasins et votre type de commerçant, vous pouvez créer des stocks et des sources supplémentaires, affecter des quantités en stock, etc. Pour plus d’informations, voir [&#128279;](introduction.md).
+[!DNL Inventory Management] pour Adobe Commerce et Magento Open Source comprend des fonctionnalités, des améliorations et une assistance développeur qui améliore et met à jour la gestion des stocks de produits et ajoute de nouvelles fonctionnalités. Toutes les fonctionnalités sont prêtes à l&#39;emploi, y compris l&#39;algorithme de sélection Source et le passage en caisse simultané pour faire correspondre les quantités de commande aux origines et à l&#39;exécution des commandes. Selon vos sites Web, vos magasins et votre type de commerçant, vous pouvez créer des stocks et des sources supplémentaires, affecter des quantités en stock, etc. Pour plus d’informations, voir [](introduction.md).
 
 Lorsque vous installez Magento Open Source 2.4.x ou Adobe Commerce 2.4.x, les modifications initiales suivantes se produisent :
 
-- [&#128279;](enable.md) s’active au niveau du magasin global ou du produit. L’option Gérer les stocks permet ou désactive le suivi des quantités en stock, les calculs des quantités à vendre agrégées et la gestion des réservations pour le suivi des achats jusqu’à la facturation et l’expédition. Vous pouvez désactiver cette option pour utiliser un ERP et d’autres services tiers pour gérer les stocks, les commandes et les expéditions. Pour plus d’informations, consultez la section Modules [!DNL Inventory Management] ci-dessous.
+- [](enable.md) s’active au niveau du magasin global ou du produit. L’option Gérer les stocks permet ou désactive le suivi des quantités en stock, les calculs des quantités à vendre agrégées et la gestion des réservations pour le suivi des achats jusqu’à la facturation et l’expédition. Vous pouvez désactiver cette option pour utiliser un ERP et d’autres services tiers pour gérer les stocks, les commandes et les expéditions. Pour plus d’informations, consultez la section Modules [!DNL Inventory Management] ci-dessous.
 
-- Un Source par défaut[&#128279;](sources-manage.md) et un [Stock par défaut](stocks-manage.md) s’ajoutent au système. Ne désactivez pas et ne supprimez pas ces valeurs par défaut. [!DNL Commerce] attribue les produits existants et nouvellement importés à ces valeurs par défaut.
+- Un Source par défaut](sources-manage.md) et un [Stock par défaut](stocks-manage.md) s’ajoutent au système. [Ne désactivez pas et ne supprimez pas ces valeurs par défaut. [!DNL Commerce] attribue les produits existants et nouvellement importés à ces valeurs par défaut.
 
   >[!IMPORTANT]
   >
@@ -74,7 +74,7 @@ Lorsque vous installez Magento Open Source 2.4.x ou Adobe Commerce 2.4.x, les mo
 
 - De nouvelles [fonctions d’importation/exportation](inventory-import-export.md) vous permettent d’ajouter en masse des sources, de mettre à jour les quantités en stock et de définir le statut du stock (en stock ou en rupture de stock) pour tous les SKU de votre catalogue. Ces fonctions vous permettent de modifier une ou plusieurs sources, sélectionnées ou toutes les sources.
 
-- Les nouvelles options en bloc via la page Grille de produits prennent en charge les [&#x200B; en bloc &#x200B;](bulk-assignment.md)affectation et annulation de l’affectation de sources et [&#x200B; transfert de l’inventaire vers la source](inventory-transfer.md).
+- Les nouvelles options en bloc via la page Grille de produits prennent en charge les [ en bloc ](bulk-assignment.md)affectation et annulation de l’affectation de sources et [ transfert de l’inventaire vers la source](inventory-transfer.md).
 
 - [!DNL Inventory Management] prend en charge les catalogues B2B. Actuellement, tous les produits B2B doivent être affectés au Source par défaut et au Stock par défaut.
 

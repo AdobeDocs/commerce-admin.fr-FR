@@ -6,28 +6,38 @@ feature: Configuration
 TQID: https://experienceleague.adobe.com/i-PFNNoS-Ke-sJqZLrxF0PIdTsm8OXfYNI0kS2scHSk
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: 1990
+source-wordcount: '1990'
 ht-degree: 0%
-
 ---
-
 # Détails de la boutique
 
 Les informations de base de votre boutique comprennent le nom et l’adresse de la boutique, le numéro de téléphone et l’adresse e-mail qui apparaissent sur les e-mails, les factures et les autres communications envoyées à vos clients.
@@ -36,7 +46,7 @@ Les informations de base de votre boutique comprennent le nom et l’adresse de 
 
 ## [!UICONTROL Store Information]
 
-La section _[!UICONTROL Store Information]_&#x200B;fournit les informations de base qui apparaissent sur les documents de vente et dans d’autres communications.
+La section _[!UICONTROL Store Information]_fournit les informations de base qui apparaissent sur les documents de vente et dans d’autres communications.
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -103,7 +113,7 @@ Le paramètre régional détermine le fuseau horaire et la langue utilisés pour
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 
-Pour plus d’informations sur les options de configuration des paramètres régionaux, consultez le [&#x200B; Guide de référence de configuration &#x200B;](../configuration-reference/general/general.md#locale-options).
+Pour plus d’informations sur les options de configuration des paramètres régionaux, consultez le [ Guide de référence de configuration ](../configuration-reference/general/general.md#locale-options).
 
 ## [!UICONTROL State Options]
 
@@ -129,7 +139,7 @@ Comme les formats d&#39;adresse standard varient d&#39;un pays à l&#39;autre, v
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 
-Pour plus d’informations sur les options de configuration d’état, consultez le [&#x200B; Guide de référence de configuration &#x200B;](../configuration-reference/general/general.md#state-options).
+Pour plus d’informations sur les options de configuration d’état, consultez le [ Guide de référence de configuration ](../configuration-reference/general/general.md#state-options).
 
 ## [!UICONTROL Country Options]
 
@@ -191,7 +201,7 @@ Pour obtenir de l’aide sur la résolution des problèmes de configuration des 
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 Le paramètre Emplacement du vendeur est utilisé pour configurer [modes de paiement](../stores-purchase/payments.md). S’il n’existe aucune valeur pour ce paramètre, le paramètre [Pays par défaut](#uicontrol-country-options) est utilisé.
 
@@ -205,13 +215,13 @@ Le paramètre Emplacement du vendeur est utilisé pour configurer [modes de paie
 
 1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
 
-Pour plus d&#39;informations sur les options de configuration des modes de paiement, consultez le [&#x200B; Guide de référence de configuration](../configuration-reference/sales/payment-methods.md).
+Pour plus d&#39;informations sur les options de configuration des modes de paiement, consultez le [ Guide de référence de configuration](../configuration-reference/sales/payment-methods.md).
 
 ## Devise monétaire
 
 Configuration de la devise : définit la devise [devise](../stores-purchase/currency-configuration.md) de base et toutes les devises supplémentaires acceptées en tant que paiement. Établit également la connexion et le planning d&#39;importation qui sont utilisés pour mettre à jour automatiquement les taux de change.
 
-Symboles de devise - Définit les [&#x200B; symboles de devise](../stores-purchase/currency-configuration.md#step-5-customize-currency-symbols-optional) qui apparaissent dans les prix de produit et les documents de vente tels que les commandes et les factures. [!DNL Commerce] prend en charge les devises de plus de 200 pays à travers le monde.
+Symboles de devise - Définit les [ symboles de devise](../stores-purchase/currency-configuration.md#step-5-customize-currency-symbols-optional) qui apparaissent dans les prix de produit et les documents de vente tels que les commandes et les factures. [!DNL Commerce] prend en charge les devises de plus de 200 pays à travers le monde.
 
 Mise à jour des taux de change - Les taux de change peuvent être [mis à jour](../stores-purchase/currency-update.md) manuellement ou importés dans votre boutique selon vos besoins ou selon un planning prédéfini.
 
@@ -233,7 +243,7 @@ Avant de pouvoir configurer des adresses e-mail pour le magasin , chacune d’el
 
 ### Étape 2 : définir l’URL de base pour les liens générés
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
 
 Certains e-mails destinés aux clients et clientes incluent des liens vers le magasin, tels que ceux qui aident les clients à réinitialiser leurs mots de passe. Pour vous assurer que les liens vers le storefront sont fonctionnels, vous devez définir l’URL de base vers votre storefront.
 
@@ -247,7 +257,7 @@ Certains e-mails destinés aux clients et clientes incluent des liens vers le ma
 
 ### Étape 3 : configurer les adresses e-mail de votre boutique
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."} les adresses e-mail de l’expéditeur sont configurées lorsque votre instance est configurée. Si vous devez modifier ces adresses, créez un ticket d’assistance.
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."} les adresses e-mail de l’expéditeur sont configurées lorsque votre instance est configurée. Si vous devez modifier ces adresses, créez un ticket d’assistance.
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

@@ -6,27 +6,36 @@ recommendations: noCatalog
 TQID: https://experienceleague.adobe.com/-vgGkgypw4Udfa1OKZVkTjQL88VAiyGHRvsPJaus1dw
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: 446
+source-wordcount: '446'
 ht-degree: 0%
-
 ---
-
 # Guide de l’expérience d’achat et des magasins Adobe Commerce
 
 Ce guide est destiné aux agents du service client et aux responsables des ventes qui travaillent dans Adobe Commerce et dans Magento Open Source Admin. Il fournit des informations détaillées sur les fonctionnalités de gestion des commandes et d’achat, notamment sur la configuration du panier pour aider les clients et promouvoir les ventes. Il suppose une compréhension de base de la configuration, de la configuration et des fonctionnalités de [!DNL Commerce] de base.
@@ -50,7 +59,7 @@ Ce guide couvre les sujets suivants :
 | [Listes de souhaits](wishlists.md) | Permettre aux clients de créer une liste de produits qu’ils peuvent partager avec des amis ou enregistrer pour les transférer ultérieurement au panier. |
 | [Modes de paiement](payments.md) | Explorez tous les services et méthodes de paiement pris en charge de manière native que vous pouvez offrir pour faciliter le passage en caisse et la commodité du client. |
 | [Menu Ventes](sales-menu.md) | Utilisez le menu [!UICONTROL Sales] pour accéder aux outils permettant d’utiliser les commandes en fonction de leur emplacement dans le workflow. |
-| [Gestion des commandes &#x200B;](orders.md) | Suivre la progression et le statut des commandes tout au long du workflow, où une commande devient une facture et où une facture devient une livraison. |
+| [Gestion des commandes ](orders.md) | Suivre la progression et le statut des commandes tout au long du workflow, où une commande devient une facture et où une facture devient une livraison. |
 | [Expédition et livraison](delivery.md) | Configurez plusieurs méthodes de livraison et transporteurs pour une expérience client optimale. |
 
 {style="table-layout:auto"}
