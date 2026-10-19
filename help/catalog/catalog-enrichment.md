@@ -83,7 +83,7 @@ Les conditions préalables suivantes s’appliquent lorsque vous avez accès à 
 - Votre storefront peut être exploré par des robots orientés LLM et agentiques où une couverture d’explore est requise pour les suggestions tenant compte du catalogue.
 - Les services Commerce requis et la connectivité du catalogue sont activés et sains. Voir [Activer l’enrichissement du catalogue](#enable-catalog-enrichment) pour en savoir plus.
 - L’utilisateur administrateur Commerce qui accède à l’enrichissement du catalogue se connecte via Adobe IMS. Voir [Connexion IMS et exigences de l’organisation](#ims-sign-in-requirements).
-- Vous avez accès à [](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- Vous avez accès à [&#128279;](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - Votre entreprise a signé l’avenant GenAI, ou s’est explicitement désabonnée, pour les services d’IA sous-jacents.
 
 >[!NOTE]
@@ -98,7 +98,7 @@ Pour prendre en charge la connexion IMS, l’intégration d’administration Com
 
 >[!IMPORTANT]
 >
->L’activation de l’intégration Commerce Admin avec Adobe ID est un changement effectué à l’échelle de l’instance. Une fois activé, chaque utilisateur administrateur doit s’authentifier via Adobe IMS. La connexion par nom d’utilisateur et mot de passe natifs de Commerce n’est plus disponible. Consultez la présentation de l’intégration du service Adobe Identity Management (IMS) [](/help/getting-started/adobe-ims-integration-overview.md) avant d’activer cette intégration.
+>L’activation de l’intégration Commerce Admin avec Adobe ID est un changement effectué à l’échelle de l’instance. Une fois activé, chaque utilisateur administrateur doit s’authentifier via Adobe IMS. La connexion par nom d’utilisateur et mot de passe natifs de Commerce n’est plus disponible. Consultez la présentation de l’intégration du service Adobe Identity Management (IMS) [&#128279;](/help/getting-started/adobe-ims-integration-overview.md) avant d’activer cette intégration.
 
 L’organisation Adobe IMS associée à votre instance Commerce est généralement différente de l’organisation IMS qui détient vos droits [!DNL Adobe Brand Visibility]. Activer l’intégration d’administration Commerce avec Adobe ID n’accorde pas, en soi, l’accès aux droits de Visibilité des marques et les deux organisations ne sont pas tenues d’être identiques. Contactez votre administrateur ou équipe de compte Adobe pour confirmer les appartenances à une organisation IMS et l’enrichissement du catalogue d’accès au compte requis dans votre configuration.
 
@@ -138,7 +138,7 @@ Les champs de cet onglet identifient l’environnement Commerce et la vue de mag
 
    Fournissez les détails de votre environnement [!DNL Adobe Commerce] pour activer le service Catalog Adobe Brand Visibility et les workflows d’audit.
 
-   Configuration de ![Commerce dans l’onglet Paramètres d’enrichissement du catalogue ](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
+   Configuration de ![Commerce dans l’onglet Paramètres d’enrichissement du catalogue &#x200B;](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. Saisissez les informations de connexion requises pour la vue du magasin.
 
