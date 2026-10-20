@@ -126,7 +126,7 @@ Pour modifier la période d’expiration par défaut appliquée aux clés nouvel
 > - [Surveillance du statut de synchronisation de la vue du catalogue](catalog-view-sync-status.md) — Surveillez et réconciliez les vues du catalogue protégées par ces clés
 > - [Services > Clés d’accès restreint ACO](../configuration-reference/services/aco-restricted-access-keys.md) — Configurer la période d’expiration par défaut des clés
 > - [Services > Vue Catalogue ACO](../configuration-reference/services/aco-catalog-view.md) — Configurez la durée de vie du jeton d’accès du storefront et activez ou désactivez l’émission
-> - [Gérer les clés d’accès restreint](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} dans le *Guide du connecteur Adobe Commerce Optimizer* — Découvrez comment ces clés s’intègrent dans la synchronisation de catalogue partagé B2B
+> - [Gérer les clés d’accès restreint](https://experienceleague.adobe.com/fr/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} dans le *Guide du connecteur Adobe Commerce Optimizer* — Découvrez comment ces clés s’intègrent dans la synchronisation de catalogue partagé B2B
 > - [Clés d’accès restreintes](https://experienceleague.adobe.com/fr/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} dans le *Guide Adobe Commerce Optimizer* — Flux de clés manuel basé sur ACO Studio pour les cas d’utilisation non-B2B
 
 <!-- Last updated from includes: 2026-10-01 08:33:41 -->

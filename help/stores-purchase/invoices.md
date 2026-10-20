@@ -86,7 +86,7 @@ Lorsque le statut des nouvelles commandes est défini sur `Processing`, l&#39;op
 >
 >Les factures ne sont pas créées automatiquement pour les commandes passées à l&#39;aide de `Gift Card`, `Store Credit`, `Reward Points` ou d&#39;autres méthodes de paiement hors ligne.
 
-Une facture pour la commande doit être générée avant de pouvoir être imprimée. Pour afficher ou imprimer le PDF, commencez par télécharger et installer un lecteur PDF tel que [Adobe Acrobat Reader](https://www.adobe.com/acrobat/pdf-reader.html "Obtenir Adobe Reader").
+Une facture pour la commande doit être générée avant de pouvoir être imprimée. Pour afficher ou imprimer le PDF, commencez par télécharger et installer un lecteur PDF tel que [Adobe Acrobat Reader](https://www.adobe.com/fr/acrobat/pdf-reader.html "Obtenir Adobe Reader").
 
 **_Facturer une commande:_**
 
@@ -154,7 +154,7 @@ Les factures peuvent être imprimées individuellement ou en lot. Toutefois, ava
 
 >[!NOTE]
 >
->Pour afficher ou imprimer le PDF, vous devez disposer d’un lecteur PDF. Vous pouvez télécharger [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Obtenir Adobe Reader") gratuitement.
+>Pour afficher ou imprimer le PDF, vous devez disposer d’un lecteur PDF. Vous pouvez télécharger [Adobe Reader](https://www.adobe.com/fr/acrobat/pdf-reader.html "Obtenir Adobe Reader") gratuitement.
 
 ### Imprimer une seule facture
 
