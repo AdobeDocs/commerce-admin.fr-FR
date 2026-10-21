@@ -305,7 +305,7 @@ Le mode de paiement utilisé pour la commande détermine les boutons de rembours
 
 ## Imprimer un avoir
 
-Pour imprimer ou afficher l&#39;avoir terminé, un lecteur PDF doit être installé. Vous pouvez télécharger [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Obtenir Adobe Reader") gratuitement.
+Pour imprimer ou afficher l&#39;avoir terminé, un lecteur PDF doit être installé. Vous pouvez télécharger [Adobe Reader](https://www.adobe.com/fr/acrobat/pdf-reader.html "Obtenir Adobe Reader") gratuitement.
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Credit Memos]**.
 

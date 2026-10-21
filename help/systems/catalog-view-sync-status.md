@@ -196,6 +196,6 @@ Les lignes de cet onglet sont effacées automatiquement après 90 jours.
 > - [Statut de synchronisation des flux de données](data-feed-sync-status.md)
 > - [Services > ACO Catalog View Sync](../configuration-reference/services/aco-catalog-view-sync.md) — Configurez les périodes de grâce de suppression et de création et le réconciliateur de dérive
 > - [Gestion des clés d’accès restreint](restricted-access-keys.md) — Gérez les clés dont l’expiration fait surface sur cette page
-> - [Surveillance de la synchronisation des vues de catalogue pour les catalogues partagés B2B](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status) dans le guide du connecteur Adobe Commerce Optimizer **
+> - [Surveillance de la synchronisation des vues de catalogue pour les catalogues partagés B2B](https://experienceleague.adobe.com/fr/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status) dans le guide du connecteur Adobe Commerce Optimizer **
 > - [Vues de catalogue privé](https://experienceleague.adobe.com/fr/docs/commerce/optimizer/setup/private-catalog-view)
 > - [Clés d’accès limitées](https://experienceleague.adobe.com/fr/docs/commerce/optimizer/setup/restricted-access-keys)
