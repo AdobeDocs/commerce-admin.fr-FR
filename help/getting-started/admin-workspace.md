@@ -5,26 +5,35 @@ exl-id: 61cc53ab-e1c5-4349-b306-a15eb7c5ab57
 TQID: https://experienceleague.adobe.com/RGT21TI5joLEYx3fiOErU5ZoIrXsq0nqZpnI8c40hz4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: 528
+source-wordcount: '528'
 ht-degree: 0%
-
 ---
-
 # Outils et espace de travail d’administration
+
+{{$include /help/_includes/admin-unified-experience-note.md}}
 
 L’espace de travail d’administration permet d’accéder à tous les outils, données et contenus utilisés pour exécuter votre boutique. La page de démarrage par défaut peut être définie dans la configuration. De nombreuses pages d’administration comportent une grille qui répertorie les données de la section, avec un ensemble d’outils pour rechercher, trier, filtrer, sélectionner et appliquer des actions. Par défaut, le [Tableau de bord](admin-dashboard.md) est la page de démarrage de l’administrateur. Cependant, vous pouvez choisir n’importe quelle autre page à afficher comme page de démarrage lorsque vous vous connectez. Vous pouvez cliquer sur le logo dans la barre latérale d’administration pour revenir à la page de démarrage de l’administrateur.
 
@@ -63,7 +72,7 @@ Pour rechercher un enregistrement dans la base de données, utilisez l’icône 
 
 ## Modification de la page de démarrage de l’administrateur
 
-Le [tableau de bord](admin-workspace.md#the-dashboard) est la page de démarrage par défaut de l’administrateur, bien que vous puissiez configurer une autre page de démarrage.
+Le tableau de bord est la page de démarrage par défaut de l’administrateur, bien que vous puissiez configurer une autre page de démarrage.
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

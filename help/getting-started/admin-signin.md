@@ -48,12 +48,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1270'
 ht-degree: 0%
 ---
 # Votre compte d’administrateur
+
+>[!NOTE]
+>
+>Pour Adobe Commerce as a Cloud Service, connectez-vous via Adobe Experience Cloud et ouvrez une instance à partir de Commerce Cloud Manager. Consultez [Commerce Admin dans l’expérience unifiée Adobe](admin-unified-experience.md#open-the-commerce-admin) pour obtenir des informations d’accès et [Gestion des utilisateurs](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management) pour gérer les utilisateurs et les rôles d’Adobe Commerce as a Cloud Service. Le compte basé sur l’installation et les instructions de connexion locale ci-dessous ne décrivent pas le flux de connexion à Adobe Commerce as a Cloud Service.
 
 Le compte administrateur principal a été initialement configuré lors de l’installation et peut contenir des informations initiales d’espace réservé ou des informations d’exemples de données. Le propriétaire désigné de ce compte peut personnaliser le nom d’utilisateur et le mot de passe et mettre à jour le prénom, le nom et l’adresse e-mail à tout moment. Ce compte, un _super utilisateur_ avec toutes les autorisations par défaut, crée généralement les comptes utilisateur d’administration nécessaires à l’entreprise.
 
@@ -69,7 +73,7 @@ Le [!DNL Commerce] _Admin_ est protégé par plusieurs couches de mesures de sé
 
 Selon la configuration de votre boutique, il peut y avoir un défi [CAPTCHA](../systems/security-google-recaptcha.md) à résoudre, comme saisir une série de caractères au clavier, résoudre un puzzle ou cliquer sur une série d’images avec un thème commun. Ces tests sont conçus pour vous identifier en tant qu’humain, plutôt qu’en tant que robot automatisé.
 
-Pour plus de sécurité, vous pouvez déterminer les parties du _Administrateur_ auxquelles chaque utilisateur a [autorisation](../systems/permissions.md) d’accéder et également limiter le nombre [&#x200B; tentatives de connexion](../configuration-reference/advanced/admin.md). Par défaut, après six tentatives, le compte est verrouillé et l’utilisateur ou l’utilisatrice doit attendre quelques minutes avant de réessayer. [Comptes verrouillés](../systems/permissions-users-all.md#locked-users) peuvent également être réinitialisés à partir de l’_Admin_.
+Pour plus de sécurité, vous pouvez déterminer les parties du _Administrateur_ auxquelles chaque utilisateur a [autorisation](../systems/permissions.md) d’accéder et également limiter le nombre [ tentatives de connexion](../configuration-reference/advanced/admin.md). Par défaut, après six tentatives, le compte est verrouillé et l’utilisateur ou l’utilisatrice doit attendre quelques minutes avant de réessayer. [Comptes verrouillés](../systems/permissions-users-all.md#locked-users) peuvent également être réinitialisés à partir de l’_Admin_.
 
 >[!NOTE]
 >
@@ -135,7 +139,7 @@ La réutilisation des quatre derniers mots de passe attribués au compte n’est
 
 1. Saisissez le **[!UICONTROL Email Address]** associé au compte _Admin_.
 
-   ![&#x200B; Mot de passe oublié &#x200B;](./assets/admin-sign-in-forgot-password.png){width="400"}
+   ![ Mot de passe oublié ](./assets/admin-sign-in-forgot-password.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Retrieve Password]**.
 
@@ -153,7 +157,7 @@ La réutilisation des quatre derniers mots de passe attribués au compte n’est
 
    ![Se déconnecter](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-La page _[!UICONTROL Sign In]_&#x200B;affiche un message indiquant que vous êtes déconnecté. Déconnectez-vous du_ Administrateur _chaque fois que vous laissez votre ordinateur sans surveillance.
+La page _[!UICONTROL Sign In]_affiche un message indiquant que vous êtes déconnecté. Déconnectez-vous du_ Administrateur _chaque fois que vous laissez votre ordinateur sans surveillance.
 
 ## Modifier les informations du compte
 

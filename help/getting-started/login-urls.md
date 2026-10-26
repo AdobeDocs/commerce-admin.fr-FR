@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '416'
 ht-degree: 0%
 ---
 # Identifiants de connexion et URL
@@ -54,6 +54,10 @@ Si vous ne disposez pas encore d’un domaine, l’URL de votre boutique compren
 
 ## URL de l’administrateur
 
+>[!NOTE]
+>
+>Pour Adobe Commerce as a Cloud Service, obtenez vos liens d’administration à partir de Commerce Cloud Manager. Voir [Choisir une interface d’administration](admin-unified-experience.md#classic-ui) pour les options d’accès et les formats d’URL. Les exemples d’URL basés sur l’installation ci-dessous ne s’appliquent pas à Adobe Commerce as a Cloud Service.
+
 L’adresse de votre boutique [Admin](admin.md) est configurée lors de l’installation. L’adresse par défaut est identique à celle de votre boutique, mais avec `/admin` à la fin. Bien que les exemples de ce guide utilisent le répertoire par défaut, il est recommandé d’exécuter votre administrateur à partir d’un emplacement propre à votre magasin.
 
 - `http://mydomain.com/admin`
@@ -61,7 +65,7 @@ L’adresse de votre boutique [Admin](admin.md) est configurée lors de l’inst
 
 ## compte [!DNL Commerce]
 
-Votre compte [&#128279;](commerce-account-create.md) permet d&#39;accéder à des informations sur vos produits et services, les paramètres de votre compte, l&#39;historique de facturation et les ressources d&#39;assistance. Pour accéder à votre compte, accédez au site Commerce principal et cliquez sur **[!UICONTROL My Account]** dans le coin supérieur droit.
+Votre compte [](commerce-account-create.md) permet d&#39;accéder à des informations sur vos produits et services, les paramètres de votre compte, l&#39;historique de facturation et les ressources d&#39;assistance. Pour accéder à votre compte, accédez au site Commerce principal et cliquez sur **[!UICONTROL My Account]** dans le coin supérieur droit.
 
 ## Compte client
 
@@ -69,6 +73,6 @@ Pendant que vous vous familiarisez avec le magasin, veillez à configurer un [co
 
 ## Données d’exemple
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
-Adobe fournit un jeu de données d’exemple qui comprend un magasin d’exemple avec plus de 250 produits (dont environ 200 sont des produits configurables), des catégories, des règles de prix promotionnels, des pages CMS, des bannières, etc. Les exemples de données utilisent le thème _Luma_ sur le storefront. [L’installation de ces exemples de données](https://experienceleague.adobe.com/fr/docs/commerce-operations/installation-guide/next-steps/sample-data/overview) est facultative, mais peut s’avérer utile pour tester et développer des personnalisations pour votre entreprise d’e-commerce.
+Adobe fournit un jeu de données d’exemple qui comprend un magasin d’exemple avec plus de 250 produits (dont environ 200 sont des produits configurables), des catégories, des règles de prix promotionnels, des pages CMS, des bannières, etc. Les exemples de données utilisent le thème _Luma_ sur le storefront. [L’installation de ces exemples de données](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/sample-data/overview) est facultative, mais peut s’avérer utile pour tester et développer des personnalisations pour votre entreprise d’e-commerce.
