@@ -4,7 +4,7 @@ description: Découvrez comment les clients Adobe Commerce as a Cloud Service ac
 feature: Admin Workspace
 role: Admin, User
 level: Beginner
-badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."
+badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -55,7 +55,7 @@ Après vous être connecté à [Adobe Experience Cloud](https://experience.adobe
 Le flux de connexion vous permet de passer d’une instance Commerce à l’autre sans avoir à vous connecter séparément à chaque instance.
 Vous pouvez passer d’une instance Adobe à l’autre sans autre invite de connexion.
 
-Pour la procédure d’accès, voir [Accéder à une instance](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"} dans le _Guide Adobe Commerce as a Cloud Service_.
+Pour la procédure d’accès, voir [Accéder à une instance](https://experienceleague.adobe.com/fr/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"} dans le _Guide Adobe Commerce as a Cloud Service_.
 <!--
 
 >[!BEGINTABS]
@@ -177,7 +177,7 @@ Utilisez le sélecteur de produits (![sélecteur de produits](./assets/admin-uni
 
 >[!ENDTABS]
 
-Pour la gestion des utilisateurs et des rôles Adobe Commerce as a Cloud Service, voir [Gestion des utilisateurs](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management){target="_blank"}.
+Pour la gestion des utilisateurs et des rôles Adobe Commerce as a Cloud Service, voir [Gestion des utilisateurs](https://experienceleague.adobe.com/fr/docs/commerce/cloud-service/user-management){target="_blank"}.
 
 ### Changement d’instances Commerce
 
@@ -283,4 +283,4 @@ L’aspect actualisé des pages de l’administration Commerce correspond à l�
 
 >[!MORELIKETHIS]
 >
->Guide d&#39;interface et d&#39;administration de [&#128279;](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)
+>Guide d&#39;interface et d&#39;administration de [&#128279;](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud)
