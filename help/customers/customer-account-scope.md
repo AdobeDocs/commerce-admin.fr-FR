@@ -54,7 +54,7 @@ L’en-tête de chaque page de votre boutique envoie une invitation aux acheteur
 
 Les clients peuvent accéder à leur compte en cliquant sur le lien **[!UICONTROL My Account]** dans l’en-tête du magasin. À partir de leur compte , les clients peuvent afficher et modifier des informations, notamment les adresses passées et actuelles, les préférences de facturation et d’expédition, les abonnements à des newsletters, des listes de souhaits, etc.
 
-![ Mon compte ](assets/account-dashboard-my-account.png){width="600" zoomable="yes"}
+![&#x200B; Mon compte &#x200B;](assets/account-dashboard-my-account.png){width="600" zoomable="yes"}
 
 ## Définition de l’étendue des comptes clients
 

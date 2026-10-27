@@ -1,6 +1,6 @@
 ---
 title: Clients désormais en ligne
-description: L’option _Maintenant en ligne_ du menu [!UICONTROL Customers ] répertorie tous les clients et visiteurs qui sont actuellement en ligne dans votre boutique.
+description: L’option _Maintenant en ligne_ du menu [!UICONTROL Customers &#x200B;] répertorie tous les clients et visiteurs qui sont actuellement en ligne dans votre boutique.
 exl-id: 69af669d-f9aa-471b-9d62-5657f3fb2103
 TQID: https://experienceleague.adobe.com/jtyDgy3jFmn0XymAYcpc2AOLLWSTDw-3OGkvG9a1SDc
 product_v2:

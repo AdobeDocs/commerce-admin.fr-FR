@@ -113,7 +113,7 @@ Un compte de commerçant FedEx et l&#39;enregistrement pour l&#39;accès à la p
 
    Le poids maximum par défaut de FedEx est de 150 livres. Consultez votre transporteur pour plus d&#39;informations. La valeur par défaut est recommandée, sauf si vous avez pris des dispositions spéciales avec FedEx. Voir [Poids dimensionnel](carriers.md#dimensional-weight) pour plus d’informations.
 
-   ![ Paramètres du package FedEx ](../configuration-reference/sales/assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
+   ![&#x200B; Paramètres du package FedEx &#x200B;](../configuration-reference/sales/assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
 
 1. Configurez les options de frais de gestion en fonction de vos besoins.
 

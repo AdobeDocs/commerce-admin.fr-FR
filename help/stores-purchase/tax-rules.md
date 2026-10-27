@@ -80,7 +80,7 @@ Les règles fiscales intègrent une combinaison de classe de produits, de classe
 
    - Cliquez sur **[!UICONTROL Import Tax Rates]**.
 
-1. Pour exporter des taux de taxe, cliquez sur **[!UICONTROL Export Tax Rates]** (voir [ Taux de taxe d&#39;importation/exportation ](../systems/data-transfer-tax-rates.md)).
+1. Pour exporter des taux de taxe, cliquez sur **[!UICONTROL Export Tax Rates]** (voir [&#x200B; Taux de taxe d&#39;importation/exportation &#x200B;](../systems/data-transfer-tax-rates.md)).
 
 ![Taux de taxe à l&#39;importation/exportation](./assets/tax-rule-new-import-export.png){width="600" zoomable="yes"}
 

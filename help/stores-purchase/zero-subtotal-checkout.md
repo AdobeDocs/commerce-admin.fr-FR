@@ -74,12 +74,12 @@ Pour gagner du temps, aucun sous-total des commandes peut être défini pour la 
 
    >[!NOTE]
    >
-   >Si _[!UICONTROL New Order Status]_est défini sur `Processing` et_[!UICONTROL Automatically Invoice All Items]_ sur `No`, vous devez également attribuer **[!UICONTROL Order Status]** = `Processing` pour le mappage **[!UICONTROL Order State]** = `Pending` et **[!UICONTROL Default Status]** = `No` sur la page [Order Status](order-status.md#custom-order-status).
+   >Si _[!UICONTROL New Order Status]_&#x200B;est défini sur `Processing` et&#x200B;_[!UICONTROL Automatically Invoice All Items]_ sur `No`, vous devez également attribuer **[!UICONTROL Order Status]** = `Processing` pour le mappage **[!UICONTROL Order State]** = `Pending` et **[!UICONTROL Default Status]** = `No` sur la page [Order Status](order-status.md#custom-order-status).
 
 1. Définissez **[!UICONTROL Payment from Applicable Countries]** sur l’une des options suivantes :
 
    - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans la configuration de votre boutique peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Une fois cette option sélectionnée, la liste des _[!UICONTROL Payment from Specific Countries]_s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque option.
+   - `Specific Countries` - Une fois cette option sélectionnée, la liste des _[!UICONTROL Payment from Specific Countries]_&#x200B;s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque option.
 
 1. Par **[!UICONTROL Sort Order]**, saisissez un nombre qui détermine la position de cet article dans la liste des modes de paiement affichée lors du passage en caisse.
 
