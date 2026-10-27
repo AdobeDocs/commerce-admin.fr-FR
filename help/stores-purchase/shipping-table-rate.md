@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 3%
@@ -54,7 +54,7 @@ Les données utilisées pour calculer les taux des tables sont préparées dans 
 
 La première étape consiste à définir les paramètres par défaut des taux du tableau. Vous pouvez effectuer cette étape sans modifier la portée de la configuration.
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans la section _[!UICONTROL Sales]_&#x200B;du panneau de gauche, choisissez **[!UICONTROL Delivery Methods]**.
 

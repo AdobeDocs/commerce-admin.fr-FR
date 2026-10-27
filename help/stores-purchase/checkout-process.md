@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -121,7 +121,7 @@ Les utilisateurs administrateurs peuvent modifier le nombre maximal d’élémen
 
 ![Nombre d&#39;articles affichés dans le récapitulatif de la commande](./assets/order-summary.png){width="700" zoomable="yes"}
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Checkout]**.
 
@@ -151,7 +151,7 @@ Pour obtenir une description détaillée de chacun de ces paramètres de configu
 
 ### Modifier les options de passage en caisse
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Checkout]**.
 1. Définissez l’une des options suivantes dont vous avez besoin.
 1. Cliquez sur **[!UICONTROL Save Config]**.

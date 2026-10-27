@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 1%
@@ -69,7 +69,7 @@ Par défaut, Adobe Commerce et Magento Open Source peuvent être configurés pou
 
 ## Configuration de l’URL de base
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Sous _Général_ dans le panneau de gauche, choisissez **[!UICONTROL Web]**.
 
@@ -142,7 +142,7 @@ Si votre domaine dispose d’un certificat de sécurité valide, vous pouvez con
 >
 >Lorsque l’option _Ajouter le code de boutique aux URL_ est définie sur `Yes`, vous devez inclure les codes de boutique dans les URL de votre navigateur. Ce paramètre garantit que les réécritures d’URL sont correctement mappées et que toutes les pages sont ouvertes avec succès, sans erreurs _« Page 404 introuvable »_.
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Sous _[!UICONTROL General]_&#x200B;dans le panneau de gauche, choisissez **[!UICONTROL Web]**.
 
@@ -190,7 +190,7 @@ Bien qu’il soit possible de modifier l’URL et le chemin d’accès de l’ad
 
 ### Méthode 1 : changement à partir de l’administrateur
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Advanced]** et choisissez **[!UICONTROL Admin]**.
 

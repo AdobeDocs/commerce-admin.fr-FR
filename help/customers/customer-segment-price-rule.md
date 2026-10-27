@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '231'
 ht-degree: 0%
 ---
 # Segments clients dans les règles de prix
@@ -42,7 +42,7 @@ Un segment client peut être utilisé pour les promotions ciblées en l’associ
 
 _&#x200B;**Pour associer un segment à une règle de prix de panier :**&#x200B;_
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _Promotions_ > **[!UICONTROL Cart Price Rules]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]**.
 
 1. Ouvrez une règle nouvelle ou existante :
 

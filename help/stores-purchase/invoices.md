@@ -34,16 +34,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1206'
 ht-degree: 0%
 ---
 # Factures
 
 Une facture est un enregistrement de l&#39;enregistrement du paiement d&#39;une commande. Plusieurs factures peuvent être [créées](#create-an-invoice) pour une seule commande, et chacune peut inclure autant ou aussi peu de produits achetés que vous spécifiez. Vous pouvez également créer des [factures PDF prêtes à être imprimées](#print-invoices) en tant que documents vente pour vos clients.
 
-Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > _Opérations_ > **Factures** pour ouvrir la grille _Factures_ et accéder à vos factures créées.
+Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > **[!UICONTROL Invoices]** pour ouvrir la grille _Factures_ et accéder à vos factures créées.
 
 ![Grille des factures](./assets/invoices.png){width="700" zoomable="yes"}
 
@@ -90,7 +90,7 @@ Une facture pour la commande doit être générée avant de pouvoir être imprim
 
 **_Facturer une commande:_**
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Recherchez la commande client avec le statut `Processing` dans la grille. Procédez ensuite comme suit :
 
@@ -158,7 +158,7 @@ Les factures peuvent être imprimées individuellement ou en lot. Toutefois, ava
 
 ### Imprimer une seule facture
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > **[!UICONTROL Invoices]**.
 
 1. Dans la grille de _[!UICONTROL Invoices]_, recherchez la facture et cliquez sur **[!UICONTROL View]**&#x200B;dans la colonne_ Action _.
 
@@ -168,7 +168,7 @@ Les factures peuvent être imprimées individuellement ou en lot. Toutefois, ava
 
 ### Imprimer plusieurs factures
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > **[!UICONTROL Invoices]**.
 
 1. Dans la grille de _[!UICONTROL Invoices]_, cochez la case correspondant à chaque facture à imprimer.
 

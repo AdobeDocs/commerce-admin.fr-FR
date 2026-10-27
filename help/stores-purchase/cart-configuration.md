@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Le lien peut être configuré pour afficher le nombre de produits différents (o
 
 ### Configuration du mini panier
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Checkout]**.
 
@@ -97,7 +97,7 @@ Le lien peut être configuré pour afficher le nombre de produits différents (o
 
 ### Configurer le lien du panier
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Checkout]**.
 
@@ -118,7 +118,7 @@ La page du panier peut être configurée pour s’afficher chaque fois qu’un a
 
 **_Pour configurer l’affichage du panier:_**
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Checkout]**.
 
@@ -145,7 +145,7 @@ Vous pouvez déterminer la durée de validité d’un prix en définissant la du
 
 **_Pour configurer la durée de vie du devis:_**
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Checkout]**.
 
@@ -169,7 +169,7 @@ La configuration vous permet de spécifier un montant minimum, une fois les remi
 
 **_Pour configurer un montant minimum de commande:_**
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Sales]** en dessous.
 
@@ -219,7 +219,7 @@ La configuration vous permet de spécifier un montant minimum, une fois les remi
 
 Vous pouvez définir la quantité minimale autorisée pour une commande. La quantité minimale peut également être configurée en fonction de chaque groupe de clients.
 
-1. Accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et choisissez **[!UICONTROL Inventory]**.
 
@@ -251,7 +251,7 @@ L’image miniature des produits groupés et configurables peut être définie p
 
 **_Pour configurer les miniatures de panier:_**
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Checkout]**.
 
@@ -281,7 +281,7 @@ La configuration Options du cadeau s’applique à l’ensemble du site web, mai
 
 ### Activer les options de cadeau
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Sales]** en dessous.
 
@@ -321,7 +321,7 @@ L&#39;image d&#39;emballage cadeau doit être un échantillon qui montre le moti
 
 #### Ajouter un design d’emballage-cadeau
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Wrapping]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Gift Wrapping]**.
 
    ![Grille d&#39;emballage cadeau](./assets/gift-wrapping.png){width="700" zoomable="yes"}
 
@@ -351,7 +351,7 @@ L&#39;image d&#39;emballage cadeau doit être un échantillon qui montre le moti
 
 #### Modifier un design d’emballage-cadeau
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Wrapping]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Gift Wrapping]**.
 
 1. Recherchez l&#39;enregistrement d&#39;emballage-cadeau dans la liste.
 
@@ -391,7 +391,7 @@ L’emballage du cadeau et les prix des cartes-cadeaux imprimées peuvent être 
 
 **_Pour configurer les taxes sur les options de cadeau:_**
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Tax]**.
 

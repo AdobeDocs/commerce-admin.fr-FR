@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '416'
 ht-degree: 0%
 ---
 # Identifiants de connexion et URL
@@ -53,6 +53,10 @@ L’adresse de votre [storefront](storefront.md) est généralement le domaine a
 Si vous ne disposez pas encore d’un domaine, l’URL de votre boutique comprend une série de quatre nombres, séparés chacun par un point dans la notation _quad pointillé_.
 
 ## URL de l’administrateur
+
+>[!NOTE]
+>
+>Pour Adobe Commerce as a Cloud Service, obtenez vos liens d’administration à partir de Commerce Cloud Manager. Voir [Choisir une interface d’administration](admin-unified-experience.md#classic-ui) pour les options d’accès et les formats d’URL. Les exemples d’URL basés sur l’installation ci-dessous ne s’appliquent pas à Adobe Commerce as a Cloud Service.
 
 L’adresse de votre boutique [Admin](admin.md) est configurée lors de l’installation. L’adresse par défaut est identique à celle de votre boutique, mais avec `/admin` à la fin. Bien que les exemples de ce guide utilisent le répertoire par défaut, il est recommandé d’exécuter votre administrateur à partir d’un emplacement propre à votre magasin.
 

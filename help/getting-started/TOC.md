@@ -1,19 +1,17 @@
 ---
 user-guide-title: Guide de prise en main d’Adobe Commerce Admin
-user-guide-description: Si vous êtes nouveau dans l’administration d’Adobe Commerce ou de Magento Open Source, découvrez les ressources de l [!DNL Commerce] écosystème, suivez le parcours client pour explorer votre boutique et en savoir plus sur les principales fonctionnalités d’administration.
+user-guide-description: Si vous êtes nouveau dans l’administration d’Adobe Commerce ou de Magento Open Source, découvrez les ressources de l’écosystème [!DNL Commerce], suivez le parcours client pour explorer votre boutique et en savoir plus sur les principales fonctionnalités d’administration.
 breadcrumb-title: Prise en main
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
 nudge: true
 color: red
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '214'
 ht-degree: 0%
-
 ---
-
 
 # Guide de prise en main d’Adobe Commerce Admin {#start}
 
@@ -40,6 +38,7 @@ ht-degree: 0%
   + [Accessibilité](navigation-accessibility.md)
 + L’administrateur {#admin}
   + [Qu’est-ce que l’administrateur ?](admin.md)
+  + [Administrateur d’expérience unifié](admin-unified-experience.md)
   + [Votre compte utilisateur d’administrateur](admin-signin.md)
   + Intégration d’Adobe Identity Management Service (IMS) {#ims}
     + [Présentation de l’intégration IMS](adobe-ims-integration-overview.md)

@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Les instructions suivantes expliquent comment configurer une taxe fixe sur les p
 
 ### Étape 1 : activer la taxe fixe sur les produits
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Tax]**.
 
@@ -101,7 +101,7 @@ Les instructions suivantes expliquent comment configurer une taxe fixe sur les p
 
 ### Étape 2 : créer un attribut FPT
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Product]**.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add New Attribute]** et procédez comme suit :
 
@@ -131,7 +131,7 @@ Les instructions suivantes expliquent comment configurer une taxe fixe sur les p
 
 ### Étape 3 : ajouter l’attribut FPT à un jeu d’attributs
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Attribute Set]**.
 
 1. Dans la liste, cliquez sur le jeu d&#39;attributs pour ouvrir l&#39;enregistrement en mode d&#39;édition.
 

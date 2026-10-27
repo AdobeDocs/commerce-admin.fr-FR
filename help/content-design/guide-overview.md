@@ -4,7 +4,6 @@ description: Informations complètes sur les fonctionnalités de contenu et de c
 seo-title: Adobe Commerce Content and Design Guide
 seo-description: Describes how to use the Content and Design features for Adobe Commerce and Magento Open Source.
 exl-id: ad3cd024-1703-409f-9820-a0b90e7d460f
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -18,14 +17,16 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: fdb0968c8d6caf4917e8658a2a8b3432f60909dc
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '307'
 ht-degree: 6%
 ---
 # Guide de conception et de contenu d’Adobe Commerce
 
-Ce guide est destiné aux concepteurs de contenu et aux marketeurs qui travaillent dans Adobe Commerce et dans Magento Open Source Admin. Il fournit des informations détaillées sur les fonctionnalités de contenu et de conception, y compris les composants de création de contenu de base. Il suppose une compréhension de base de la configuration, de la configuration et des fonctionnalités de [!DNL Commerce] de base.
+Ce guide est principalement destiné aux concepteurs de contenu et aux marketeurs qui travaillent sur des projets Adobe Commerce et Magento Open Source. Il fournit des informations détaillées sur les fonctionnalités de contenu et de conception, y compris les composants de création de contenu de base. Il suppose une compréhension de base de la configuration, de la configuration et des fonctionnalités de [!DNL Commerce] de base.
+
+Sur Adobe Commerce as a Cloud Service, les considérations de conception sont intégrées au [storefront](https://experienceleague.adobe.com/en/tools/commerce-storefront/). Cependant, les administrateurs peuvent toujours configurer les filigranes d’image de produit et les e-mails transactionnels.
 
 Ce guide couvre les sujets suivants :
 

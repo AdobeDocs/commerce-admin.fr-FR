@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Vous spécifiez également les devises que vous acceptez et celle que vous souha
 
 ## Etape 1 : Choisissez les devises acceptées
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le coin supérieur gauche, définissez **[!UICONTROL Scope]** sur la vue du magasin à laquelle la configuration s’applique.
 
@@ -164,7 +164,7 @@ La gestion des symboles de devise vous permet de personnaliser le symbole associ
 
 ![Symboles monétaires](./assets/stores-currency-symbols.png){width="600" zoomable="yes"}
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Currency Symbols]**.
 
    Chaque devise activée pour votre boutique apparaît dans la liste _[!UICONTROL Currency]_.
 

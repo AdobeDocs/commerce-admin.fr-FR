@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -64,7 +64,7 @@ L’étendue des comptes clients peut être limitée au site web sur lequel le c
 >
 >Si le site web est exclu du groupe de clients, le client n’est pas autorisé à se connecter au site web lorsque la portée des comptes clients est limitée au site web ou partagée avec tous les sites web. Voir [Créer un groupe de clients](customer-groups.md#create-a-customer-group) pour plus d’informations sur l’exclusion de sites web des groupes.
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > [!UICONTROL _[!UICONTROL Settings]_] > **[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Customers]** et choisissez **[!UICONTROL Customer Configuration]**.
 

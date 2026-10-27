@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '320'
 ht-degree: 0%
 ---
 # Appliquer le crédit du magasin
@@ -56,7 +56,7 @@ Les administrateurs de boutique peuvent afficher le solde et l’historique du c
 
 ## Mettre à jour le solde créditeur du magasin
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Customers]** > _Opérations_ > **[!UICONTROL All Customers]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
 1. Recherchez le client dans la grille.
 

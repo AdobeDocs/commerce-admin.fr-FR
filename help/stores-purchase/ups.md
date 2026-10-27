@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Lorsque vous configurez les paramètres de l’onduleur dans l’administration,
 
 ## Étape 3 : Activer l&#39;onduleur pour votre magasin
 
-1. Dans la _barre latérale d’administration_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la _barre latérale d’administration_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, sous **[!UICONTROL Sales]**, choisissez **[!UICONTROL Delivery Methods]**.
 
@@ -210,7 +210,7 @@ Les frais de manutention sont facultatifs et apparaissent comme des frais suppl�
 
 1. Assurez-vous que les [Informations de la boutique](../getting-started/store-details.md#store-information) sont complètes.
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et sélectionnez **[!UICONTROL Shipping Settings]**.
 

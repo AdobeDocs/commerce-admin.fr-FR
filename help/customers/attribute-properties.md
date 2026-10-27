@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Les attributs du client fournissent les informations requises pour prendre en ch
 
 ## Étape 1 : définition des propriétés d’attribut
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Customer]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Customer]**.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add New Attribute]**.
 

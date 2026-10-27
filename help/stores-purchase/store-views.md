@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Pour activer ou désactiver la synchronisation, modifiez le **[!UICONTROL Adobe 
 
 ## Ajouter une vue de magasin
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
    ![Toutes les boutiques](./assets/stores-all.png){width="700" zoomable="yes"}
 
@@ -77,7 +77,7 @@ Pour activer ou désactiver la synchronisation, modifiez le **[!UICONTROL Adobe 
 
    ![Créer une vue de magasin - Paramètres de l’exportateur Adobe Commerce Optimizer](./assets/stores-optimizer-export-settings.png){width="600" zoomable="yes"}
 
-   La modification de ce paramètre après la synchronisation initiale déclenche une réindexation complète. Voir [Personnalisation de la configuration d’exportation des portées de Commerce](https://experienceleague.adobe.com/fr/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) dans le *Guide du connecteur Adobe Commerce Optimizer*.
+   La modification de ce paramètre après la synchronisation initiale déclenche une réindexation complète. Voir [Personnalisation de la configuration d’exportation des portées de Commerce](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) dans le *Guide du connecteur Adobe Commerce Optimizer*.
 
 1. Cliquez sur **[!UICONTROL Save Store View]**.
 
@@ -94,7 +94,7 @@ Si votre installation Adobe Commerce ou Magento Open Source comporte une configu
 
 {style="table-layout:auto"}
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
 1. Dans la colonne _[!UICONTROL Store View]_&#x200B;de la grille, cliquez sur le nom de la vue à modifier.
 

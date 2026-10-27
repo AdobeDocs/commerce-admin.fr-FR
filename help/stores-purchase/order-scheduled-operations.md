@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Utilisez les traitements [Cron](../systems/cron.md) pour planifier les tâches d
 
 La durée de vie des commandes avec paiements en attente est déterminée par la configuration _Paramètres cron des commandes_. La valeur par défaut est définie sur 480 minutes, soit huit heures.
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez la section **[!UICONTROL Sales]** et choisissez **[!UICONTROL Sales]** en dessous.
 
@@ -73,7 +73,7 @@ En planifiant ces tâches, vous pouvez éviter les verrous qui se produisent lor
 
 Lorsque le [mode par défaut](https://experienceleague.adobe.com/fr/docs/commerce-operations/configuration-guide/setup/application-modes#default-mode) est activé, procédez comme suit :
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez la section **[!UICONTROL Advanced]** et choisissez **[!UICONTROL Developer]**.
 

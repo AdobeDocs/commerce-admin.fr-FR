@@ -34,7 +34,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 0%
@@ -51,7 +51,7 @@ La configuration de carte cadeau établit les paramètres par défaut pour toute
 
 ### Étape 1 : configurer les notifications par e-mail
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Gift Cards]**.
 
@@ -122,7 +122,7 @@ Voir [Stockage des adresses e-mail](../configuration-reference/general/store-ema
 
 1. Pour trouver le numéro du compte de carte cadeau d&#39;une commande en cours, procédez comme suit :
 
-   - Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+   - Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
    - Recherchez l’ordre dans la liste et cliquez sur **[!UICONTROL View]** dans la colonne _[!UICONTROL Action]_.
 
@@ -130,7 +130,7 @@ Voir [Stockage des adresses e-mail](../configuration-reference/general/store-ema
 
    Le nombre se trouve dans la colonne _[!UICONTROL Product]_, sous **[!UICONTROL Gift Card Accounts]**.
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**.
 
 1. Recherchez le compte de carte cadeau dans la grille et ouvrez-le en mode d’édition.
 
@@ -140,7 +140,7 @@ Voir [Stockage des adresses e-mail](../configuration-reference/general/store-ema
 
 ## Créer un compte de carte cadeau
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add Gift Card Account]**.
 
@@ -176,7 +176,7 @@ Voir [Stockage des adresses e-mail](../configuration-reference/general/store-ema
 
 ## Afficher l&#39;historique du compte de carte cadeau
 
-1. Accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Accédez à **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**.
 
 1. Ouvrez la carte cadeau en mode d&#39;édition.
 
@@ -197,7 +197,7 @@ Voir [Stockage des adresses e-mail](../configuration-reference/general/store-ema
 
 ## Supprimer un compte de carte cadeau
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**.
 
 1. Sélectionnez le compte de carte cadeau à supprimer et ouvrez-le en mode d&#39;édition.
 

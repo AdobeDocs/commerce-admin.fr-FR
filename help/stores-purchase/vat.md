@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '2042'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Dans certaines transactions entre entreprises, la TVA n&#39;est pas perçue. Com
 
 Le processus de création d’une règle de taxe commence par l’ajout d’un taux de taxe.
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
    ![Configurer des classes de taxe client](./assets/vat-zones.png){width="600" zoomable="yes"}
 
@@ -95,7 +95,7 @@ En fonction du taux de taxe envoyé, vous pouvez créer des règles fiscales ult
 
 ### Étape 2 : Configurer des classes de taxe sur les produits
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. Cliquez sur **[!UICONTROL Add New Tax Rule]**.
 
@@ -117,7 +117,7 @@ En fonction du taux de taxe envoyé, vous pouvez créer des règles fiscales ult
 
 ### Etape 3 : Paramétrer les zones fiscales et les taux
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
    Pour cet exemple, vous pouvez supprimer les taux d’imposition américains ou les laisser tels quels.
 
@@ -145,7 +145,7 @@ En fonction du taux de taxe envoyé, vous pouvez créer des règles fiscales ult
 
 Une règle de taxe est une combinaison d&#39;une classe de taxe client, d&#39;une classe de taxe produit et d&#39;un taux de taxe.
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. Ajoutez de nouvelles règles fiscales comme suit :
 
@@ -167,7 +167,7 @@ Une règle de taxe est une combinaison d&#39;une classe de taxe client, d&#39;un
 
 ### Étape 5 : appliquer des classes de taxe aux produits
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Manage Products]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Ouvrez un produit de votre catalogue en mode d’édition.
 
@@ -308,7 +308,7 @@ Créez les [règles fiscales](tax-rules.md) pour utiliser efficacement la valida
 
 #### Étape 3 : activer et configurer la validation du numéro de TVA
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Si nécessaire, définissez la **[!UICONTROL Store View]** de la configuration.
 

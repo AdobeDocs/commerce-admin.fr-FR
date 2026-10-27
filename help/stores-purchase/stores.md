@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 0%
@@ -71,7 +71,7 @@ La première étape consiste à choisir la façon dont vous souhaitez positionne
 
 ### Étape 2 : créer le magasin
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
 1. Cliquez sur **[!UICONTROL Create Store]** et définissez les options du nouveau magasin :
 
@@ -109,7 +109,7 @@ La première étape consiste à choisir la façon dont vous souhaitez positionne
 
 ### Étape 4 : configurer l’URL de la boutique
 
-1. Sur la barre latérale _Admin_, cliquez sur **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, cliquez sur **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Sous _[!UICONTROL General]_&#x200B;dans le panneau de gauche, choisissez **[!UICONTROL Web]**.
 
@@ -150,7 +150,7 @@ Les installations multi-sites d’Adobe Commerce ou de Magento Open Source doive
 
 ### Étape 1 : créer un site web
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Create Website]**.
 
@@ -170,7 +170,7 @@ Les installations multi-sites d’Adobe Commerce ou de Magento Open Source doive
 
      ![Créer un site web - Paramètres de l’exportateur Adobe Commerce Optimizer](./assets/website-optimizer-export-settings.png){width="600" zoomable="yes"}
 
-     La modification de ce paramètre après la synchronisation initiale déclenche une réindexation complète. Voir [Personnalisation de la configuration d’exportation des portées de Commerce](https://experienceleague.adobe.com/fr/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) dans le *Guide du connecteur Adobe Commerce Optimizer*.
+     La modification de ce paramètre après la synchronisation initiale déclenche une réindexation complète. Voir [Personnalisation de la configuration d’exportation des portées de Commerce](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) dans le *Guide du connecteur Adobe Commerce Optimizer*.
 
 1. Cliquez sur **[!UICONTROL Save Web Site]**.
 

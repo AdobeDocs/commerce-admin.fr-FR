@@ -2,32 +2,36 @@
 title: '[!UICONTROL Content] menu'
 description: Utilisez le menu [!UICONTROL Content] pour accéder à plusieurs fonctionnalités de gestion du contenu de votre boutique.
 exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: https://experienceleague.adobe.com/UTh5IKGTXZUcSXGQvP7rHtja8EnEELc75EPpvPvSD3E
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: d10dbf4560352b3898c5c4f750e094a4dfe62dae
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '361'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Content] menu
 
 >[!NOTE]
 >
->Lorsque le nouveau [[!DNL Media Gallery]](media-gallery.md) est activé, la section _[!UICONTROL Media]_&#x200B;s’affiche avec une seule option pour accéder au [!DNL Media Gallery]. Vous pouvez définir l’option **[!UICONTROL Enable Old Media Gallery]**&#x200B;sur `No` en accédant à&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** et en choisissant **[!UICONTROL Advanced]** > **[!UICONTROL System]** dans le panneau de gauche.
+>Lorsque le nouveau [[!DNL Media Gallery]](media-gallery.md) est activé, la section _[!UICONTROL Media]_&#x200B;s’affiche avec une seule option pour accéder au [!DNL Media Gallery]. Définissez l’option **[!UICONTROL Enable Old Media Gallery]**&#x200B;sur `No` en accédant à&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** et en choisissant **[!UICONTROL Advanced]** > **[!UICONTROL System]** dans le panneau de gauche.
 
 >[!BEGINTABS]
 
@@ -56,7 +60,7 @@ Dans la barre latérale _Admin_, choisissez **[!UICONTROL Content]**.
 - Créez des [blocs](blocks.md) de contenu sans écrire de code. Les blocs peuvent contenir du texte, des images et même des vidéos. Ils peuvent être affectés à n’importe quelle partie de la mise en page.
 - ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Créez des [blocs dynamiques](dynamic-blocks.md) pour incorporer du contenu riche et interactif piloté par une logique provenant des [règles de prix](../merchandising-promotions/introduction.md#promotions) et [segments clients](../customers/customer-segments.md).
 - Créez des [widgets](widgets.md) qui affichent des données dynamiques et ajoutent des blocs, des liens et des éléments interactifs presque partout dans votre boutique.
-- Créez des [modèles](../page-builder/templates.md) à partir de votre contenu Page Builder et gagnez du temps et économisez des efforts lors de l’ajout de nouveau contenu (ou du remplacement d’un contenu plus ancien).
+- Créez des [modèles](../page-builder/templates.md) à partir de votre contenu Page Builder et améliorez l’efficacité lors de l’ajout de nouveau contenu (ou du remplacement d’un contenu plus ancien).
 
 >[!NOTE]
 >
@@ -76,4 +80,4 @@ Gérez la présentation visuelle de votre boutique :
 
 {{ee-feature}}
 
-L’[évaluation du contenu](content-staging.md) permet à votre équipe commerciale de créer, de prévisualiser et de planifier facilement un large éventail de mises à jour de contenu directement depuis l’administration de votre boutique.
+L’[évaluation du contenu](content-staging.md) permet à votre équipe commerciale de créer, de prévisualiser et de planifier un large éventail de mises à jour de contenu directement depuis l’administration de votre boutique.

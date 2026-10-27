@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '1976'
 ht-degree: 1%
@@ -225,7 +225,7 @@ Après avoir installé l’extension [!DNL Audience Activation], vous devez vous
    >
    >Lorsque vous spécifiez un identifiant de flux de données, vous [&#x200B; l’associer à un site web spécifique](https://experienceleague.adobe.com/fr/docs/commerce/data-connection/fundamentals/connect-data#data-collection) dans l’extension [!DNL Data Connection]. Si votre boutique Commerce comporte plusieurs sites web, [créez une destination](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/connect-destination) pour chaque site web dans Real-Time CDP et utilisez un identifiant de flux de données différent pour chacun.
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Développez **[!UICONTROL Services]** et sélectionnez **[!UICONTROL [!DNL Data Connection]]**.
 
@@ -448,7 +448,7 @@ Par exemple :
 ### Type d’authentification incorrect sélectionné dans la configuration
 
 1. Ouvrez votre instance Commerce.
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 1. Développez **[!UICONTROL Services]** et sélectionnez **[!UICONTROL [!DNL Data Connection]]**.
 1. Assurez-vous que la méthode d’autorisation serveur à serveur que vous avez spécifiée dans le champ **[!UICONTROL Authentication Type]** est correcte. Adobe recommande d’utiliser **OAuth**. [JWT a été abandonné](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console) et tous les certificats actuels expirent le 1er mars 2026.
 

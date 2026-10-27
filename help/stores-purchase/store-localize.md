@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Suivez les instructions standard pour installer l’extension du module linguist
 
 ## Étape 2 : créer une vue de magasin pour la langue
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
 1. Cliquez sur **[!UICONTROL Create Store View]**.
 
@@ -62,7 +62,7 @@ Suivez les instructions standard pour installer l’extension du module linguist
 
 ## Étape 3 : modifier les paramètres régionaux de l’affichage du magasin
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans la liste déroulante **[!UICONTROL Scope]**, sélectionnez la vue de magasin à configurer, puis cliquez sur **[!UICONTROL OK]** lorsque vous y êtes invité.
 
@@ -102,7 +102,7 @@ Si votre boutique propose plusieurs vues dans différentes langues, les mêmes p
 
 ### Étape 2 : traduire les libellés des champs
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Product]**.
 
 1. Dans la liste, recherchez l’attribut à traduire et ouvrez en mode d’édition.
 
@@ -148,7 +148,7 @@ Si votre boutique propose plusieurs vues dans différentes langues, les mêmes p
 
 ### Étape 4 : traduire les attributs de produit et les options d’attributs
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Product]**.
 
 1. Sélectionnez l’attribut à traduire.
 

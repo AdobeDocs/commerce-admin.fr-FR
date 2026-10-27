@@ -34,9 +34,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1188'
 ht-degree: 0%
 ---
 # Fournir une assistance aux acheteurs
@@ -81,7 +81,7 @@ L’activation de la _Connexion en tant que client_ nécessite l’activation de
 
 ### Activer la fonctionnalité
 
-1. Dans la barre latérale d’administration, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale d’administration, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Customers]** et choisissez **[!UICONTROL Login as Customer]**.
 
@@ -101,7 +101,7 @@ L’activation de la _Connexion en tant que client_ nécessite l’activation de
 
 ### Activer l’accès pour les utilisateurs administrateurs
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL System]** > _Autorisations_ > **[!UICONTROL User Roles]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL System]** > **[!UICONTROL User Roles]**.
 
 1. Cliquez sur le rôle dans la liste.
 
