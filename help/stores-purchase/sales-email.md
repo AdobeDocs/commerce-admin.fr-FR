@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 3%
@@ -44,11 +44,11 @@ Plusieurs e-mails sont déclenchés par les événements liés à une commande. 
 
 ## Étape 1. Mettre à jour les modèles d’e-mail
 
-Veillez à mettre à jour le modèle [en-tête d’e-mail](../systems/email-template-custom.md#header-template) afin qu’il reflète votre marque et les autres modèles d’e-mail si nécessaire. Pour obtenir la liste complète des modèles, voir [&#x200B; Modèles d’e-mail &#x200B;](../systems/email-templates.md).
+Veillez à mettre à jour le modèle [en-tête d’e-mail](../systems/email-template-custom.md#header-template) afin qu’il reflète votre marque et les autres modèles d’e-mail si nécessaire. Pour obtenir la liste complète des modèles, voir [ Modèles d’e-mail ](../systems/email-templates.md).
 
 ## Étape 2. Choisir le type de transmission
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Sales Emails]**.
 
@@ -61,7 +61,7 @@ Veillez à mettre à jour le modèle [en-tête d’e-mail](../systems/email-temp
    - `Disable` - Envoie un e-mail de vente lorsqu’il est déclenché par un événement.
    - `Enable` - Envoie un e-mail de vente à intervalles réguliers prédéterminés.
 
-   La prise en charge d’Adobe Commerce recommande d’activer l’envoi asynchrone pour améliorer les performances du placement des commandes. Voir [&#x200B; Bonnes pratiques de configuration pour le traitement des commandes &#x200B;](https://experienceleague.adobe.com/fr/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration) dans la base de connaissances du support Adobe Commerce.
+   La prise en charge d’Adobe Commerce recommande d’activer l’envoi asynchrone pour améliorer les performances du placement des commandes. Voir [ Bonnes pratiques de configuration pour le traitement des commandes ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration) dans la base de connaissances du support Adobe Commerce.
 
 ## Étape 3. Complétez les détails de chaque e-mail de vente
 

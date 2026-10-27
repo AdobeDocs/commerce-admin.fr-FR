@@ -21,20 +21,20 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
 ---
 # Nouvelles options de compte client
 
-Dans la section _[!UICONTROL Create New Account Options]_&#x200B;de la configuration, les options de compte de base sont combinées avec des options plus avancées relatives à la validation du numéro individuel d&#39;identification de TVA et aux intégrations personnalisées. Les instructions suivantes ne couvrent que les options les plus fréquemment utilisées. Pour en savoir plus sur les affectations automatiques de groupes de clients, voir [Validation de la TVA](../stores-purchase/vat.md).
+Dans la section _[!UICONTROL Create New Account Options]_de la configuration, les options de compte de base sont combinées avec des options plus avancées relatives à la validation du numéro individuel d&#39;identification de TVA et aux intégrations personnalisées. Les instructions suivantes ne couvrent que les options les plus fréquemment utilisées. Pour en savoir plus sur les affectations automatiques de groupes de clients, voir [Validation de la TVA](../stores-purchase/vat.md).
 
 ![Options de création de compte](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
 ## Configurer les options de base du compte client
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Customers]** et choisissez **[!UICONTROL Customer Configuration]**.
 

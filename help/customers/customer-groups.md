@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '466'
 ht-degree: 0%
 ---
 # Groupes de clients
@@ -105,7 +105,7 @@ Les groupes de clients déterminent les remises disponibles et la classe de taxe
 
 ## Associer un groupe de clients à des remises spécifiques
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _Promotions_ > **[!UICONTROL Cart Price Rules]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]**.
 
 1. Sélectionnez la règle de prix du panier à laquelle vous souhaitez associer un groupe pour la remise appliquée ou [créez une règle de prix](../merchandising-promotions/price-rules-catalog.md).
 
@@ -133,4 +133,4 @@ Les groupes de clients déterminent les remises disponibles et la classe de taxe
 
 Découvrez comment créer des groupes de clients en regardant cette démonstration :
 
->[!VIDEO](https://video.tv.adobe.com/v/3410169/?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12&learn=on)

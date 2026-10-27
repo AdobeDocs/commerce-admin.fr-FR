@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Suivez les instructions fournies par chaque transporteur pour ajouter la prise e
 
 1. Assurez-vous que les [Informations de la boutique](../getting-started/store-details.md#store-information) sont complètes.
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et sélectionnez **[!UICONTROL Shipping Settings]**.
 
@@ -74,7 +74,7 @@ Suivez les instructions fournies par chaque transporteur pour ajouter la prise e
 
 United Parcel Service expédie des colis au Canada et à l&#39;étranger. Toutefois, les étiquettes d&#39;expédition ne peuvent être générées que pour les expéditions provenant des États-Unis.
 
-1. Dans la section _[!UICONTROL Sales]_&#x200B;du panneau de gauche, choisissez **[!UICONTROL Delivery Methods]**.
+1. Dans la section _[!UICONTROL Sales]_du panneau de gauche, choisissez **[!UICONTROL Delivery Methods]**.
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL UPS]** .
 
@@ -178,7 +178,7 @@ DHL fournit des services de transport maritime international.
 
 1. Ajouter ou mettre à jour des produits dans le package :
 
-   - Pour ajouter des produits de la commande au package, cliquez sur **[!UICONTROL Add Products]**. La colonne _[!UICONTROL Quantity]_&#x200B;indique le nombre maximal de produits disponibles pour le package.
+   - Pour ajouter des produits de la commande au package, cliquez sur **[!UICONTROL Add Products]**. La colonne _[!UICONTROL Quantity]_indique le nombre maximal de produits disponibles pour le package.
 
    - Cochez la case de chaque produit à ajouter au package et saisissez le **[!UICONTROL Quantity]** de chacun. Cliquez ensuite sur **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -186,7 +186,7 @@ DHL fournit des services de transport maritime international.
 
    - Pour supprimer un package, cliquez sur **[!UICONTROL Delete Package]**.
 
-   - Pour annuler une commande, cliquez sur **[!UICONTROL Cancel]**. Aucune étiquette d&#39;expédition n&#39;est créée et la case à cocher _[!UICONTROL Create Shipping Label]_&#x200B;est désactivée.
+   - Pour annuler une commande, cliquez sur **[!UICONTROL Cancel]**. Aucune étiquette d&#39;expédition n&#39;est créée et la case à cocher _[!UICONTROL Create Shipping Label]_est désactivée.
 
    >[!NOTE]
    >
@@ -224,11 +224,11 @@ Les étiquettes d&#39;expédition sont générées au format PDF et peuvent êtr
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Shipments]** - Recherchez l&#39;expédition dans la grille et ouvrez l&#39;enregistrement.
 
-1. Pour télécharger le fichier PDF, accédez à la section _[!UICONTROL Shipping and Tracking]_&#x200B;du formulaire et cliquez sur **[!UICONTROL Print Shipping Label]**.
+1. Pour télécharger le fichier PDF, accédez à la section _[!UICONTROL Shipping and Tracking]_du formulaire et cliquez sur **[!UICONTROL Print Shipping Label]**.
 
    Selon les paramètres de votre navigateur, les étiquettes d’expédition peuvent être affichées et imprimées directement à partir du fichier PDF.
 
-   Le bouton _[!UICONTROL Print Shipping Label]_&#x200B;n&#39;apparaît qu&#39;une fois que le transporteur a généré les étiquettes pour l&#39;expédition. Si le bouton n’apparaît pas, cliquez sur **[!UICONTROL Create Shipping Label]**. Le bouton apparaît une fois que Commerce a reçu le libellé de l’opérateur.
+   Le bouton _[!UICONTROL Print Shipping Label]_n&#39;apparaît qu&#39;une fois que le transporteur a généré les étiquettes pour l&#39;expédition. Si le bouton n’apparaît pas, cliquez sur **[!UICONTROL Create Shipping Label]**. Le bouton apparaît une fois que Commerce a reçu le libellé de l’opérateur.
 
 ### Méthode 2 : Imprimer des étiquettes pour plusieurs commandes
 
@@ -257,7 +257,7 @@ Un jeu complet d&#39;étiquettes d&#39;expédition est imprimé pour chaque exp�
 
 ## Créer des packages
 
-La fenêtre _[!UICONTROL Create Packages]_&#x200B;s&#39;affiche lorsque vous choisissez de créer une étiquette d&#39;expédition. Vous pouvez commencer à configurer le premier package immédiatement.
+La fenêtre _[!UICONTROL Create Packages]_s&#39;affiche lorsque vous choisissez de créer une étiquette d&#39;expédition. Vous pouvez commencer à configurer le premier package immédiatement.
 
 ### Configuration d’un package
 
@@ -269,7 +269,7 @@ La fenêtre _[!UICONTROL Create Packages]_&#x200B;s&#39;affiche lorsque vous cho
 
    - Spécifiez les produits et les quantités.
 
-     La colonne _[!UICONTROL Qty]_&#x200B;indique la quantité maximale pouvant être ajoutée. Pour le premier colis, le numéro correspond à la quantité totale du produit à expédier.
+     La colonne _[!UICONTROL Qty]_indique la quantité maximale pouvant être ajoutée. Pour le premier colis, le numéro correspond à la quantité totale du produit à expédier.
 
    - Pour ajouter les produits au package, cliquez sur **[!UICONTROL Add Selected Product(s) to Package]**.
 

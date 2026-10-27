@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Lorsque vous configurez les paramètres de l’onduleur dans l’administration,
 
 ## Étape 3 : Activer l&#39;onduleur pour votre magasin
 
-1. Dans la _barre latérale d’administration_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la _barre latérale d’administration_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, sous **[!UICONTROL Sales]**, choisissez **[!UICONTROL Delivery Methods]**.
 
@@ -87,7 +87,7 @@ Lorsque vous configurez les paramètres de l’onduleur dans l’administration,
 
    >[!NOTE]
    >
-   >Le type de service United Parcel standard est planifié en vue de son abandon. Pour les nouvelles configurations, utilisez le type de `United Parcel Service REST` par défaut. Le type REST est également requis pour générer des [&#x200B; étiquettes d’expédition &#x200B;](shipping-labels.md).<br/>
+   >Le type de service United Parcel standard est planifié en vue de son abandon. Pour les nouvelles configurations, utilisez le type de `United Parcel Service REST` par défaut. Le type REST est également requis pour générer des [ étiquettes d’expédition ](shipping-labels.md).<br/>
    >Pour la version 2.4.7, **[!UICONTROL UPS Type]** est supprimé, car les types `UPS` et `UPS XML` sont planifiés en vue de leur obsolescence, et `UPS REST` est la valeur par défaut. Les API United Parcel Service (UPS) utilisées par l’intégration native d’Adobe Commerce sont temporairement obsolètes, car elles ne prennent actuellement pas en charge le modèle de sécurité OAuth 2.0.
 
    >[!IMPORTANT]
@@ -210,7 +210,7 @@ Les frais de manutention sont facultatifs et apparaissent comme des frais suppl�
 
 1. Assurez-vous que les [Informations de la boutique](../getting-started/store-details.md#store-information) sont complètes.
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et sélectionnez **[!UICONTROL Shipping Settings]**.
 

@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -121,7 +121,7 @@ Les utilisateurs administrateurs peuvent modifier le nombre maximal d’élémen
 
 ![Nombre d&#39;articles affichés dans le récapitulatif de la commande](./assets/order-summary.png){width="700" zoomable="yes"}
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Checkout]**.
 
@@ -151,7 +151,7 @@ Pour obtenir une description détaillée de chacun de ces paramètres de configu
 
 ### Modifier les options de passage en caisse
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Checkout]**.
 1. Définissez l’une des options suivantes dont vous avez besoin.
 1. Cliquez sur **[!UICONTROL Save Config]**.
@@ -175,7 +175,7 @@ Pour obtenir une description détaillée de chacun de ces paramètres de configu
 | [!UICONTROL Enable Terms and Conditions] | Affichage de la boutique | Détermine si les clients sont tenus d&#39;accepter les [conditions générales](terms-and-conditions.md) de la vente avant d&#39;effectuer un achat. Options : `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | Affichage de la boutique | Détermine l’emplacement de l’adresse de facturation lors du passage en caisse. Options : `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | Affichage de la boutique | Détermine le nombre maximal d&#39;articles pouvant apparaître dans le récapitulatif de la commande lors du passage en caisse. La valeur par défaut est `10`. |
-| [!UICONTROL Enable Address Search] | Site internet | ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Détermine si les clients peuvent utiliser la fonctionnalité [recherche d’adresses](checkout-address-search.md) pour les étapes _Expédition_ et _Révision et paiements_. Lorsque cette fonction est activée, utilisez le _[!UICONTROL Number of Customer Addresses Limit]_&#x200B;pour définir le nombre d’adresses enregistrées requises pour activer cette fonctionnalité lors du passage en caisse. Options : `Yes` / `No` |
+| [!UICONTROL Enable Address Search] | Site internet | ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Détermine si les clients peuvent utiliser la fonctionnalité [recherche d’adresses](checkout-address-search.md) pour les étapes _Expédition_ et _Révision et paiements_. Lorsque cette fonction est activée, utilisez le _[!UICONTROL Number of Customer Addresses Limit]_pour définir le nombre d’adresses enregistrées requises pour activer cette fonctionnalité lors du passage en caisse. Options : `Yes` / `No` |
 | [!UICONTROL Number of Customer Addresses Limit] | Site internet | ![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Lorsque la recherche d’adresses est **[!UICONTROL Enabled]**, détermine le nombre d’adresses enregistrées requises pour activer cette fonctionnalité lors du passage en caisse. Lorsque le nombre d&#39;adresses enregistrées du client atteint ou dépasse ce nombre, seule l&#39;adresse par défaut est rendue aux étapes _Expédition_ et _Révision et paiements_. Le client peut utiliser une fonction de recherche pour modifier l’adresse sélectionnée. La valeur par défaut est 10. |
 
 {style="table-layout:auto"}

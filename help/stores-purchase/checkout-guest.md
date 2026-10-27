@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '233'
 ht-degree: 0%
 ---
 # Passage en caisse des invités
@@ -38,7 +38,7 @@ Votre boutique peut être configurée pour obliger les acheteurs à ouvrir un co
 
 **_Pour désactiver le passage en caisse des invités:_**
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Checkout]**.
 
@@ -60,10 +60,10 @@ Pour obtenir une description détaillée de chacun de ces paramètres de configu
 
 ## Autoriser l’accès aux commandes des invités pour les e-mails enregistrés
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
 
 La configuration facultative au niveau du magasin, désactivée par défaut, permet aux acheteurs invités de suivre leurs commandes passées à l’aide d’une adresse e-mail correspondant à un compte client enregistré.
 
 Lorsqu’elle est activée, les commandes de passage en caisse passées par des invités avec un e-mail enregistré restent accessibles, tout en apparaissant également dans l’historique des commandes du client.
 
-Pour activer cette fonctionnalité, accédez à **Magasins** > Paramètres > **Configuration** > Ventes > **Ventes** > **Passage en caisse des invités** et définissez le paramètre **Autoriser l’accès aux commandes des invités pour les e-mails enregistrés** sur `Yes`.
+Pour activer cette fonctionnalité, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Guest Checkout]** et définissez le paramètre **[!UICONTROL Allow Guest Order Access for Registered Emails]** sur `Yes`.

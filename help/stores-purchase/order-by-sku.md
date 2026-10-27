@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Le _commande par SKU_ est un [widget](../content-design/widgets.md) qui peut êt
 
 ## Configurer la commande par SKU
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez la section **[!UICONTROL Sales]** et choisissez **[!UICONTROL Sales]** en dessous.
 
@@ -67,9 +67,9 @@ Le _commande par SKU_ est un [widget](../content-design/widgets.md) qui peut êt
 
 1. Cliquez sur **[!UICONTROL Save Config]**.
 
-![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B uniquement) _&#x200B;**Pour activer la fonction Order by SKU, désactivez la fonction Quick Order :**&#x200B;_
+![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B uniquement) _**Pour activer la fonction Order by SKU, désactivez la fonction Quick Order :**_
 
-1. Accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche sous _[!UICONTROL General]_, choisissez **[!UICONTROL B2B Features]**
 
@@ -99,7 +99,7 @@ Lorsque la fonctionnalité est configurée pour la boutique, les clients peuvent
 
 1. Ajoute des éléments individuels en fonction des préférences :
 
-   _&#x200B;**Ajoute chaque élément par SKU :**&#x200B;_
+   _**Ajoute chaque élément par SKU :**_
 
    - Saisit le **[!UICONTROL SKU]** et le **[!UICONTROL Qty]** de l’article à commander.
 
@@ -107,11 +107,11 @@ Lorsque la fonctionnalité est configurée pour la boutique, les clients peuvent
 
    - Effectue un clic sur **[!UICONTROL Add to Cart]**.
 
-   _&#x200B;**Télécharge un fichier CSV contenant plusieurs éléments :**&#x200B;_
+   _**Télécharge un fichier CSV contenant plusieurs éléments :**_
 
    - Prépare un fichier [import data CSV](../systems/data-csv.md) (valeurs séparées par des virgules) contenant des colonnes pour les `SKU` et les `Qty`.
 
-   ![&#x200B; SKU à importer &#x200B;](./assets/account-dashboard-order-by-sku-import.png){width="500" zoomable="yes"}
+   ![ SKU à importer ](./assets/account-dashboard-order-by-sku-import.png){width="500" zoomable="yes"}
 
    - Pour charger le fichier CSV, cliquez sur **[!UICONTROL Choose File]** et sélectionnez le fichier à charger.
 

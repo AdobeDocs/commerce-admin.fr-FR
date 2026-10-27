@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Lorsqu’elles sont activées, les requêtes RMA peuvent être envoyées par les clients à partir du storefront. Un retour client ne peut être généré que s&#39;il existe un article dans la commande pouvant être renvoyé. Les demandes de renvoi d’éléments individuels sont gérées par l’attribut _Activer RMA_ dans chaque enregistrement de produit. Par défaut, les paramètres de configuration sont appliqués au produit (_[!UICONTROL Use Config Settings]_&#x200B;est sélectionné). Si&#x200B;_[!UICONTROL Enable RMA]_ est défini sur `No`, le produit n’apparaît pas dans la liste des éléments pouvant être renvoyés. Si vous modifiez le paramètre _Activer RMA_, il s&#39;applique à la fois aux nouvelles commandes et aux commandes existantes.
+Lorsqu’elles sont activées, les requêtes RMA peuvent être envoyées par les clients à partir du storefront. Un retour client ne peut être généré que s&#39;il existe un article dans la commande pouvant être renvoyé. Les demandes de renvoi d’éléments individuels sont gérées par l’attribut _Activer RMA_ dans chaque enregistrement de produit. Par défaut, les paramètres de configuration sont appliqués au produit (_[!UICONTROL Use Config Settings]_est sélectionné). Si_[!UICONTROL Enable RMA]_ est défini sur `No`, le produit n’apparaît pas dans la liste des éléments pouvant être renvoyés. Si vous modifiez le paramètre _Activer RMA_, il s&#39;applique à la fois aux nouvelles commandes et aux commandes existantes.
 
 ## Activer les RMA pour votre magasin
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Sales]** en dessous.
 
@@ -58,7 +58,7 @@ Lorsqu’elles sont activées, les requêtes RMA peuvent être envoyées par les
 
    Ce paramètre détermine le comportement de l’attribut _Activer RMA_ pour les produits individuels sur le storefront :
 
-   - Lorsque [!UICONTROL Enable RMA on Product Level] est défini sur `Yes`, les clients du storefront peuvent renvoyer tous les produits individuels. Il comprend les valeurs d’attribut de produit _[!UICONTROL Enable RMA]_= `Yes` et&#x200B;_[!UICONTROL Enable RMA]_ = `No`.
+   - Lorsque [!UICONTROL Enable RMA on Product Level] est défini sur `Yes`, les clients du storefront peuvent renvoyer tous les produits individuels. Il comprend les valeurs d’attribut de produit _[!UICONTROL Enable RMA]_= `Yes` et_[!UICONTROL Enable RMA]_ = `No`.
    - Lorsque [!UICONTROL Enable RMA on Product Level] est défini sur `No`, les clients du storefront peuvent uniquement renvoyer les produits avec une valeur d’attribut de produit _[!UICONTROL Enable RMA]_= `Yes`.
 
 1. Définissez **[!UICONTROL Use Store Address]** sur l’une des valeurs suivantes :
@@ -72,7 +72,7 @@ Lorsqu’elles sont activées, les requêtes RMA peuvent être envoyées par les
 
 ## Configurer des méthodes d&#39;expédition pour les retours
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Delivery Methods]**.
 

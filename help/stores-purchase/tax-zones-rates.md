@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -40,7 +40,7 @@ La taxe au magasin est calculée en fonction de l’adresse du magasin. La taxe 
 
 ## Définir un nouveau taux de taxe
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add New Tax Rate]**.
 
@@ -74,9 +74,9 @@ La taxe au magasin est calculée en fonction de l’adresse du magasin. La taxe 
 
 ## Modifier un taux de taxe existant
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
-1. Recherchez le taux de taxe dans la grille de _[!UICONTROL Tax Zones and Rates]_&#x200B;et ouvrez l&#39;enregistrement en mode d&#39;édition.
+1. Recherchez le taux de taxe dans la grille de _[!UICONTROL Tax Zones and Rates]_et ouvrez l&#39;enregistrement en mode d&#39;édition.
 
    Si la liste contient de nombreux taux, utilisez les [contrôles de filtre](../getting-started/admin-grid-controls.md) pour trouver le taux dont vous avez besoin.
 
@@ -88,7 +88,7 @@ La taxe au magasin est calculée en fonction de l’adresse du magasin. La taxe 
 
 ## Supprimer le taux de taxe
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
 1. Recherchez le taux de taxe à supprimer et ouvrez-le en mode d&#39;édition.
 

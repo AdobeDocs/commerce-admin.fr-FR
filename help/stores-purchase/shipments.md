@@ -29,14 +29,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 2%
 ---
 # Expéditions
 
-La grille _[!UICONTROL Shipments]_&#x200B;répertorie l&#39;enregistrement d&#39;expédition de toutes les factures qui ont été préparées pour l&#39;expédition. Un enregistrement d&#39;expédition peut être généré lorsqu&#39;une commande est [facturée](invoices.md) ou ultérieure.
+La grille _[!UICONTROL Shipments]_répertorie l&#39;enregistrement d&#39;expédition de toutes les factures qui ont été préparées pour l&#39;expédition. Un enregistrement d&#39;expédition peut être généré lorsqu&#39;une commande est [facturée](invoices.md) ou ultérieure.
 
 Adobe Commerce et Magento Open Source prennent en charge l’expédition partielle et complète des commandes, avec des options supplémentaires disponibles depuis [Inventory management](../inventory-management/introduction.md) et des extensions tierces.
 
@@ -101,7 +101,7 @@ Pour chaque élément de ligne de la commande, modifiez le **[!UICONTROL Qty to 
 
 1. Cliquez sur **[!UICONTROL Ship]**.
 
-1. Faites défiler jusqu’au bloc _[!UICONTROL Payment & Shipping Method]_&#x200B;et cliquez sur **[!UICONTROL Add Tracking Number]**.
+1. Faites défiler jusqu’au bloc _[!UICONTROL Payment & Shipping Method]_et cliquez sur **[!UICONTROL Add Tracking Number]**.
 
 1. Définir **[!UICONTROL Carrier]** :
 
@@ -156,7 +156,7 @@ Vous pouvez modifier les informations d’expédition et de suivi si nécessaire
 
 ## Paramétrer des commentaires pour les expéditions
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Sous _[!UICONTROL Sales]_, sélectionnez **[!UICONTROL Sales Email]**.
 
@@ -190,7 +190,7 @@ Avant qu&#39;une expédition ne soit expédiée à un transporteur, elle peut ê
 
 1. Dans le panneau de gauche, choisissez **[!UICONTROL Shipments]**.
 
-   Si l&#39;expédition peut être annulée, _[!UICONTROL Cancel Shipment]_&#x200B;apparaît comme une option dans la barre de boutons supérieure.
+   Si l&#39;expédition peut être annulée, _[!UICONTROL Cancel Shipment]_apparaît comme une option dans la barre de boutons supérieure.
 
 1. Cliquez sur **[!UICONTROL Cancel Shipment]**.
 

@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Pour gagner du temps, aucun sous-total des commandes peut être défini pour la 
 
 **_Pour configurer l’extraction de zéro sous-total:_**
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Payment Methods]**.
 
@@ -74,12 +74,12 @@ Pour gagner du temps, aucun sous-total des commandes peut être défini pour la 
 
    >[!NOTE]
    >
-   >Si _[!UICONTROL New Order Status]_&#x200B;est défini sur `Processing` et&#x200B;_[!UICONTROL Automatically Invoice All Items]_ sur `No`, vous devez également attribuer **[!UICONTROL Order Status]** = `Processing` pour le mappage **[!UICONTROL Order State]** = `Pending` et **[!UICONTROL Default Status]** = `No` sur la page [Order Status](order-status.md#custom-order-status).
+   >Si _[!UICONTROL New Order Status]_est défini sur `Processing` et_[!UICONTROL Automatically Invoice All Items]_ sur `No`, vous devez également attribuer **[!UICONTROL Order Status]** = `Processing` pour le mappage **[!UICONTROL Order State]** = `Pending` et **[!UICONTROL Default Status]** = `No` sur la page [Order Status](order-status.md#custom-order-status).
 
 1. Définissez **[!UICONTROL Payment from Applicable Countries]** sur l’une des options suivantes :
 
    - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans la configuration de votre boutique peuvent utiliser ce mode de paiement.
-   - `Specific Countries` - Une fois cette option sélectionnée, la liste des _[!UICONTROL Payment from Specific Countries]_&#x200B;s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque option.
+   - `Specific Countries` - Une fois cette option sélectionnée, la liste des _[!UICONTROL Payment from Specific Countries]_s’affiche. Pour sélectionner plusieurs pays, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque option.
 
 1. Par **[!UICONTROL Sort Order]**, saisissez un nombre qui détermine la position de cet article dans la liste des modes de paiement affichée lors du passage en caisse.
 

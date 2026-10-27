@@ -34,16 +34,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1206'
 ht-degree: 0%
 ---
 # Factures
 
 Une facture est un enregistrement de l&#39;enregistrement du paiement d&#39;une commande. Plusieurs factures peuvent être [créées](#create-an-invoice) pour une seule commande, et chacune peut inclure autant ou aussi peu de produits achetés que vous spécifiez. Vous pouvez également créer des [factures PDF prêtes à être imprimées](#print-invoices) en tant que documents vente pour vos clients.
 
-Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > _Opérations_ > **Factures** pour ouvrir la grille _Factures_ et accéder à vos factures créées.
+Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > **[!UICONTROL Invoices]** pour ouvrir la grille _Factures_ et accéder à vos factures créées.
 
 ![Grille des factures](./assets/invoices.png){width="700" zoomable="yes"}
 
@@ -86,11 +86,11 @@ Lorsque le statut des nouvelles commandes est défini sur `Processing`, l&#39;op
 >
 >Les factures ne sont pas créées automatiquement pour les commandes passées à l&#39;aide de `Gift Card`, `Store Credit`, `Reward Points` ou d&#39;autres méthodes de paiement hors ligne.
 
-Une facture pour la commande doit être générée avant de pouvoir être imprimée. Pour afficher ou imprimer le PDF, commencez par télécharger et installer un lecteur PDF tel que [Adobe Acrobat Reader](https://www.adobe.com/fr/acrobat/pdf-reader.html "Obtenir Adobe Reader").
+Une facture pour la commande doit être générée avant de pouvoir être imprimée. Pour afficher ou imprimer le PDF, commencez par télécharger et installer un lecteur PDF tel que [Adobe Acrobat Reader](https://www.adobe.com/acrobat/pdf-reader.html "Obtenir Adobe Reader").
 
 **_Facturer une commande:_**
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Recherchez la commande client avec le statut `Processing` dans la grille. Procédez ensuite comme suit :
 
@@ -100,7 +100,7 @@ Une facture pour la commande doit être générée avant de pouvoir être imprim
 
    >[!NOTE]
    >
-   >L’option _[!UICONTROL Invoice]_&#x200B;n’apparaît pas lorsque l’option [action de paiement](../configuration-reference/sales/payment-methods.md#payment-actions) pour votre [mode de paiement](../configuration-reference/sales/payment-methods.md) spécifique est définie sur `Authorize and Capture`, ce qui génère automatiquement une facture. C&#39;est également le cas si la commande est passée et que l&#39;action de paiement pour votre mode de paiement est définie sur `Authorize` et que la commande est facturée.
+   >L’option _[!UICONTROL Invoice]_n’apparaît pas lorsque l’option [action de paiement](../configuration-reference/sales/payment-methods.md#payment-actions) pour votre [mode de paiement](../configuration-reference/sales/payment-methods.md) spécifique est définie sur `Authorize and Capture`, ce qui génère automatiquement une facture. C&#39;est également le cas si la commande est passée et que l&#39;action de paiement pour votre mode de paiement est définie sur `Authorize` et que la commande est facturée.
 
    ![Commande client de facture](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -150,17 +150,17 @@ Une facture pour la commande doit être générée avant de pouvoir être imprim
 
 ## Imprimer les factures
 
-Les factures peuvent être imprimées individuellement ou en lot. Toutefois, avant qu&#39;une facture puisse être imprimée, elle doit d&#39;abord être générée pour la commande. Vous pouvez charger un logo haute résolution pour une facture PDF prête à être imprimée et inclure l’[ID de commande](../stores-purchase/sales-documents.md#add-reference-ids) dans l’en-tête. Pour personnaliser le modèle de facture avec votre logo et votre adresse, consultez [Conditions requises pour le logo &#x200B;](../stores-purchase/sales-documents.md#image-formats).
+Les factures peuvent être imprimées individuellement ou en lot. Toutefois, avant qu&#39;une facture puisse être imprimée, elle doit d&#39;abord être générée pour la commande. Vous pouvez charger un logo haute résolution pour une facture PDF prête à être imprimée et inclure l’[ID de commande](../stores-purchase/sales-documents.md#add-reference-ids) dans l’en-tête. Pour personnaliser le modèle de facture avec votre logo et votre adresse, consultez [Conditions requises pour le logo ](../stores-purchase/sales-documents.md#image-formats).
 
 >[!NOTE]
 >
->Pour afficher ou imprimer le PDF, vous devez disposer d’un lecteur PDF. Vous pouvez télécharger [Adobe Reader](https://www.adobe.com/fr/acrobat/pdf-reader.html "Obtenir Adobe Reader") gratuitement.
+>Pour afficher ou imprimer le PDF, vous devez disposer d’un lecteur PDF. Vous pouvez télécharger [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Obtenir Adobe Reader") gratuitement.
 
 ### Imprimer une seule facture
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > **[!UICONTROL Invoices]**.
 
-1. Dans la grille de _[!UICONTROL Invoices]_, recherchez la facture et cliquez sur **[!UICONTROL View]**&#x200B;dans la colonne_ Action _.
+1. Dans la grille de _[!UICONTROL Invoices]_, recherchez la facture et cliquez sur **[!UICONTROL View]**dans la colonne_ Action _.
 
 1. Dans la partie supérieure de la facture, cliquez sur **[!UICONTROL Print]** pour générer un PDF de la facture.
 
@@ -168,7 +168,7 @@ Les factures peuvent être imprimées individuellement ou en lot. Toutefois, ava
 
 ### Imprimer plusieurs factures
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > **[!UICONTROL Invoices]**.
 
 1. Dans la grille de _[!UICONTROL Invoices]_, cochez la case correspondant à chaque facture à imprimer.
 
@@ -180,7 +180,7 @@ Les factures sont enregistrées dans un seul fichier PDF qui peut être envoyé 
 
 ## Quantités de capture personnalisées
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
 
 Pour offrir aux commerçants une plus grande flexibilité pour les captures partielles et les scénarios de paiement spécialisés, l’API Invoice prend en charge les montants de capture personnalisés à l’aide d’attributs d’extension.
 

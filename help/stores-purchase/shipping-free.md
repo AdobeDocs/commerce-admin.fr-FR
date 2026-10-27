@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -40,7 +40,7 @@ _Livraison gratuite_ est l&#39;une des promotions les plus efficaces que vous po
 
 ## Étape 1 : Configurer la livraison gratuite
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Delivery Methods]**.
 
@@ -58,7 +58,7 @@ _Livraison gratuite_ est l&#39;une des promotions les plus efficaces que vous po
 
    >[!TIP]
    >
-   >Pour utiliser la livraison gratuite avec les [tarifs du tableau](shipping-table-rate.md), faites en sorte que le _[!UICONTROL Minimum Order Amount]_&#x200B;soit si élevé qu&#39;il ne soit jamais atteint. L&#39;utilisation de cette valeur élevée empêche l&#39;entrée en vigueur de la livraison gratuite, sauf si elle est déclenchée par une règle de prix.
+   >Pour utiliser la livraison gratuite avec les [tarifs du tableau](shipping-table-rate.md), faites en sorte que le _[!UICONTROL Minimum Order Amount]_soit si élevé qu&#39;il ne soit jamais atteint. L&#39;utilisation de cette valeur élevée empêche l&#39;entrée en vigueur de la livraison gratuite, sauf si elle est déclenchée par une règle de prix.
 
 1. Définir **[!UICONTROL Include Tax to Amount]** :
 
@@ -73,7 +73,7 @@ _Livraison gratuite_ est l&#39;une des promotions les plus efficaces que vous po
 
    - `All Allowed Countries` - Les clients de tous les [pays](../getting-started/store-details.md#country-options) spécifiés dans la configuration de votre boutique peuvent utiliser la livraison gratuite.
 
-   - `Specific Countries` - Après avoir choisi cette valeur, la liste des _[!UICONTROL Ship to Specific Countries]_&#x200B;s’affiche. Dans la liste, sélectionnez chaque pays où la livraison gratuite peut être utilisée.
+   - `Specific Countries` - Après avoir choisi cette valeur, la liste des _[!UICONTROL Ship to Specific Countries]_s’affiche. Dans la liste, sélectionnez chaque pays où la livraison gratuite peut être utilisée.
 
 1. Définir **[!UICONTROL Show Method if Not Applicable]** :
 

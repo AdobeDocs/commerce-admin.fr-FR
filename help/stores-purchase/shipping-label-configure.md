@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 0%
@@ -42,10 +42,10 @@ Les paramètres suivants doivent être définis au niveau du produit et dans la 
 
 | [!UICONTROL Carrier] | Conditions requises |
 |-------|--------|
-| [&#x200B; USPS &#x200B;](usps.md) | Nécessite un compte USPS pour l&#39;affranchissement des étiquettes d&#39;expédition. |
+| [ USPS ](usps.md) | Nécessite un compte USPS pour l&#39;affranchissement des étiquettes d&#39;expédition. |
 | [UPS](ups.md) | Nécessite un compte UPS. Les étiquettes d&#39;expédition ne sont disponibles que pour les expéditions provenant des États-Unis. Des informations d&#39;identification spécifiques aux États-Unis sont requises pour les magasins situés en dehors des États-Unis. |
-| [FedEx &#x200B;](fedex.md) | Nécessite un compte FedEx. Pour les magasins situés à l’extérieur des États-Unis, les étiquettes d’expédition sont prises en charge uniquement pour les envois internationaux. FedEx n&#39;autorise pas les expéditions intérieures provenant de l&#39;extérieur des États-Unis |
-| [&#x200B; DHL &#x200B;](dhl.md) | Nécessite un compte DHL. Les étiquettes d&#39;expédition ne sont prises en charge que pour les expéditions provenant des États-Unis. |
+| [FedEx ](fedex.md) | Nécessite un compte FedEx. Pour les magasins situés à l’extérieur des États-Unis, les étiquettes d’expédition sont prises en charge uniquement pour les envois internationaux. FedEx n&#39;autorise pas les expéditions intérieures provenant de l&#39;extérieur des États-Unis |
+| [ DHL ](dhl.md) | Nécessite un compte DHL. Les étiquettes d&#39;expédition ne sont prises en charge que pour les expéditions provenant des États-Unis. |
 
 {style="table-layout:auto"}
 
@@ -83,7 +83,7 @@ Le pays de fabrication est requis pour tous les produits expédiés à l&#39;int
 
 ## Etape 2 Vérification des informations de la boutique
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Shipping Settings]**.
 

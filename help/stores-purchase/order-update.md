@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 1%
@@ -57,7 +57,7 @@ Si vous modifiez des parties importantes d’une commande, la commande d’origi
 | **[!UICONTROL Send Email]** | Envoie un e-mail sur la commande en attente au client. |
 | **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Modifie le statut de la commande en attente en `On Hold`. Pour lever le blocage, choisissez _[!UICONTROL Unhold]_. |
 | **[!UICONTROL Invoice]** | Crée une [facture](invoices.md#create-an-invoice) à partir de la commande en attente en la convertissant en facture et en modifiant le statut de la commande sur `processing`. |
-| **[!UICONTROL Ship]** | Crée un enregistrement [&#x200B; expédition &#x200B;](shipments.md#create-a-shipment) pour la commande. |
+| **[!UICONTROL Ship]** | Crée un enregistrement [ expédition ](shipments.md#create-a-shipment) pour la commande. |
 | **[!UICONTROL Reorder]** | Crée un nouvel ordre en attente qui est un doublon de l&#39;ordre en attente actuel. |
 | **[!UICONTROL Edit]** | Ouvre une commande en attente en mode d&#39;édition. Le bouton Modifier est uniquement disponible pour les commandes en attente ou pour les commandes basées sur des [devis](../b2b/quotes.md) négociés. |
 
@@ -114,7 +114,7 @@ Vous pouvez émettre les remboursements nécessaires à l&#39;aide d&#39;un [avo
 
 ## Modification d’une commande en attente
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Dans la colonne **[!UICONTROL Action]** de l’ordre d’édition, cliquez sur **[!UICONTROL View]**.
 

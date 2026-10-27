@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Les classes de taxe peuvent être attribuées aux clients, aux produits et aux f
 
 La classe de taxe utilisée pour l&#39;expédition et les classes de taxe par défaut pour les [produits et clients](#add-a-product-tax-class) sont définies dans la configuration _[!UICONTROL Sales]_.
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Tax]**.
 
@@ -65,7 +65,7 @@ La classe de taxe utilisée pour l&#39;expédition et les classes de taxe par d�
 
 Les classes de taxe pour les clients et les produits peuvent être facilement ajoutées, puis affectées à des clients et des produits individuels, et utilisées dans les règles de taxe.
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. Cliquez sur **[!UICONTROL Add New Tax Rule]**.
 
@@ -99,7 +99,7 @@ Les paramètres de destination de taxe par défaut déterminent le pays, l’Ét
 
 **_Pour configurer la destination de taxe par défaut pour les calculs:_**
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Tax]**.
 

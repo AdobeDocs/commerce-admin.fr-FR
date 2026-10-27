@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Vous pouvez configurer les options de nom et d’adresse qui sont présentées a
 
 ### Étape 1 : définir la portée de la configuration
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Customers]** et choisissez **[!UICONTROL Customer Configuration]**.
 
@@ -71,7 +71,7 @@ Vous pouvez configurer les options de nom et d’adresse qui sont présentées a
 
    >[!INFO]
    >
-   >La section _[!UICONTROL Name and Address Options]_&#x200B;n’apparaît pas lorsque l’étendue est définie sur `Default Store View`.
+   >La section _[!UICONTROL Name and Address Options]_n’apparaît pas lorsque l’étendue est définie sur `Default Store View`.
 
    ![Portée de la configuration](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 
@@ -113,7 +113,7 @@ Configurez les options de nom et d’adresse qui sont présentées aux clients s
 
 ### Étape 1 : définir la portée de la configuration
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Customers]** et choisissez **[!UICONTROL Customer Configuration]**.
 

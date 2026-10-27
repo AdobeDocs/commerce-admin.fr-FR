@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 0%
@@ -184,7 +184,7 @@ L’exemple suivant montre comment configurer les taux de la TPS pour le Canada 
 
 ### Etape 1 : Renseigner les paramètres de calcul de la taxe
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Pour une configuration multisite, définissez **[!UICONTROL Store View]** sur le site web et le magasin cibles de la configuration.
 
@@ -370,13 +370,13 @@ Créez les règles fiscales suivantes :
 
 ### Étape 4 : Configurer une vue de magasin pour l&#39;Allemagne
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
 1. Sous le site web par défaut, créez une vue de magasin pour **[!UICONTROL Germany]**.
 
 1. Procédez ensuite comme suit :
 
-   - Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+   - Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
    - Dans le coin supérieur gauche, définissez **[!UICONTROL Default Config]** sur le magasin français .
 
@@ -421,7 +421,7 @@ Remplissez les paramètres généraux de taxe suivants :
 
 ### Étape 6 : Configurer les paramètres fiscaux pour l&#39;Allemagne
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le coin supérieur droit, définissez **[!UICONTROL Store View]** à la vue du magasin allemand et cliquez sur **[!UICONTROL OK]** pour confirmer.
 

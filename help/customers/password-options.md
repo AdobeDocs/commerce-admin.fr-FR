@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Les options de mot de passe du client déterminent le niveau de sécurité utili
 
 ## Configurer les options de mot de passe du client
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Customers]** et choisissez **[!UICONTROL Customer Configuration]**.
 
@@ -73,7 +73,7 @@ Les options de mot de passe du client déterminent le niveau de sécurité utili
 
    - Définissez **[!UICONTROL Reset Password Template]** sur le modèle utilisé lorsque les clients changent leur mot de passe.
 
-   - Définissez **[!UICONTROL Password Template Email Sender]** sur le [&#x200B; contact du magasin &#x200B;](../getting-started/store-details.md) qui s’affiche comme l’expéditeur des notifications liées aux mots de passe.
+   - Définissez **[!UICONTROL Password Template Email Sender]** sur le [ contact du magasin ](../getting-started/store-details.md) qui s’affiche comme l’expéditeur des notifications liées aux mots de passe.
 
 1. Renseignez les options de sécurité de réinitialisation de mot de passe suivantes :
 

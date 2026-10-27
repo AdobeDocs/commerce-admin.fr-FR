@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Les règles fiscales intègrent une combinaison de classe de produits, de classe
 
 ## Etape 1 : Renseigner les informations sur les règles fiscales
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add New Tax Rule]**.
 
@@ -80,7 +80,7 @@ Les règles fiscales intègrent une combinaison de classe de produits, de classe
 
    - Cliquez sur **[!UICONTROL Import Tax Rates]**.
 
-1. Pour exporter des taux de taxe, cliquez sur **[!UICONTROL Export Tax Rates]** (voir [&#x200B; Taux de taxe d&#39;importation/exportation &#x200B;](../systems/data-transfer-tax-rates.md)).
+1. Pour exporter des taux de taxe, cliquez sur **[!UICONTROL Export Tax Rates]** (voir [ Taux de taxe d&#39;importation/exportation ](../systems/data-transfer-tax-rates.md)).
 
 ![Taux de taxe à l&#39;importation/exportation](./assets/tax-rule-new-import-export.png){width="600" zoomable="yes"}
 
@@ -116,4 +116,4 @@ Les règles fiscales intègrent une combinaison de classe de produits, de classe
 
 Découvrez la gestion des règles monétaires et fiscales en regardant cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3410211/?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12&learn=on)

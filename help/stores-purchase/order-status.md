@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Outre les paramètres prédéfinis de statut de la commande, vous pouvez créer 
 
 ### Création d’un statut de commande personnalisé
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Order Status]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Order Status]**.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Create New Status]**.
 
@@ -152,13 +152,13 @@ Outre les paramètres prédéfinis de statut de la commande, vous pouvez créer 
 
 1. Dans la grille de _[!UICONTROL Order Status]_, recherchez l&#39;enregistrement de statut de la commande à laquelle annuler l&#39;affectation.
 
-1. Dans la colonne _[!UICONTROL Action]_&#x200B;tout à droite de la ligne, cliquez sur le lien **[!UICONTROL Unassign]**.
+1. Dans la colonne _[!UICONTROL Action]_tout à droite de la ligne, cliquez sur le lien **[!UICONTROL Unassign]**.
 
    Un message s’affiche en haut de l’espace de travail indiquant que l’affectation du statut de la commande a été annulée. Bien que le libellé Statut de la commande apparaisse toujours dans la liste, il n’est plus affecté à un état. Les paramètres de statut de la commande ne peuvent pas être supprimés.
 
 >[!NOTE]
 >
->Si le statut de commande par défaut n’est pas affecté à partir du statut de commande, _&#x200B;**un autre**&#x200B;_ statut de commande est _&#x200B;**défini automatiquement**&#x200B;_ par défaut pour ce statut de commande.
+>Si le statut de commande par défaut n’est pas affecté à partir du statut de commande, _**un autre**_ statut de commande est _**défini automatiquement**_ par défaut pour ce statut de commande.
 
 ## Notification
 
@@ -166,7 +166,7 @@ Les clients peuvent suivre le statut de leurs commandes par [flux RSS](../mercha
 
 ### Activer la notification du statut de la commande
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et choisissez **[!UICONTROL RSS Feeds]** en dessous.
 
@@ -180,7 +180,7 @@ Les clients peuvent suivre le statut de leurs commandes par [flux RSS](../mercha
 
 ### Configurer des notifications par e-mail de nouvelle commande
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Sales Emails]** en dessous.
 

@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 0%
@@ -38,7 +38,7 @@ La configuration de liste de souhaits active les listes de souhaits et détermin
 
 ## Activer la fonctionnalité de liste de souhaits
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Customers]** et choisissez **[!UICONTROL Wish List]**.
 
@@ -95,7 +95,7 @@ Toute liste de souhaits publique peut être trouvée à l’aide du widget Reche
 
    - Cliquez sur **[!UICONTROL Continue]**.
 
-1. Effectuez les _[!UICONTROL Storefront Properties]_&#x200B;suivantes :
+1. Effectuez les _[!UICONTROL Storefront Properties]_suivantes :
 
    - Saisissez le **[!UICONTROL Widget Title]**.
 
@@ -105,7 +105,7 @@ Toute liste de souhaits publique peut être trouvée à l’aide du widget Reche
 
      `0` = premier (par défaut), `1` = deuxième, `2` = troisième, etc.
 
-1. Dans la section _[!UICONTROL Layout Updates]_, cliquez sur **[!UICONTROL Add Layout Update]**&#x200B;et définissez l’**[!UICONTROL Display on]**&#x200B;sur l’une des options suivantes :
+1. Dans la section _[!UICONTROL Layout Updates]_, cliquez sur **[!UICONTROL Add Layout Update]**et définissez l’**[!UICONTROL Display on]**sur l’une des options suivantes :
 
    - _[!UICONTROL Categories]_
 

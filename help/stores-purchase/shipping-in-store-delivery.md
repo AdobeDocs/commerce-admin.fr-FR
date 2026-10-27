@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -41,25 +41,25 @@ Grâce à la méthode de livraison en magasin, le client peut sélectionner une 
 Lors du passage en caisse sur le storefront :
 
 1. Le client clique sur **[!UICONTROL Pick In Store]** ou sélectionne le mode d’expédition _[!UICONTROL In-Store Pickup Delivery]_.
-1. L’onglet Passage en caisse _[!UICONTROL Pick In Store]_&#x200B;s’ouvre.
+1. L’onglet Passage en caisse _[!UICONTROL Pick In Store]_s’ouvre.
 
 Lorsque le client a une adresse ou a déjà rempli le formulaire d’adresse de livraison avant de passer à l’onglet _[!UICONTROL Pick In Store]_:
 
 - La source la plus proche de l’adresse du client dans le rayon configuré est automatiquement présélectionnée comme magasin de retrait.
-- Lorsque le client clique sur **[!UICONTROL Select Other]**, le formulaire de recherche _[!UICONTROL Select Store]_&#x200B;s’ouvre. Seuls les magasins situés dans la distance configurée (rayon) du magasin présélectionné s’affichent dans la liste. Tous les magasins de la liste sont triés en fonction de la distance jusqu’au magasin présélectionné.
+- Lorsque le client clique sur **[!UICONTROL Select Other]**, le formulaire de recherche _[!UICONTROL Select Store]_s’ouvre. Seuls les magasins situés dans la distance configurée (rayon) du magasin présélectionné s’affichent dans la liste. Tous les magasins de la liste sont triés en fonction de la distance jusqu’au magasin présélectionné.
 - Lorsque le client ou la cliente saisit un code postal ou un nom de ville dans le champ de recherche, seuls les magasins situés dans la distance configurée (rayon) par rapport à l’emplacement recherché s’affichent dans la liste. Tous les magasins de la liste sont triés en fonction de la distance jusqu’à l’emplacement recherché.
 - Lorsque le client ou la cliente efface le code postal ou le nom de ville du champ de recherche, tous les magasins de retrait affectés aux produits du panier s’affichent pour lui. Tous les magasins de la liste sont triés dans l’ordre croissant des codes sources sans aucune limitation de distance (rayon).
 
 Si le client n’a pas d’adresse ou n’a pas rempli le formulaire d’adresse de livraison avant de passer à l’onglet _[!UICONTROL Pick In Store]_:
 
 - La page affiche le message _Nous n’avons pas pu présélectionner l’emplacement de retrait en fonction des informations disponibles_.
-- Lorsque le client clique sur **[!UICONTROL Select Store]**, le formulaire de recherche _[!UICONTROL Select Store]_&#x200B;s’ouvre.
+- Lorsque le client clique sur **[!UICONTROL Select Store]**, le formulaire de recherche _[!UICONTROL Select Store]_s’ouvre.
 - Tous les magasins de retrait affectés aux produits dans le panier sont affichés dans l&#39;ordre croissant des codes sources sans aucune limitation de distance (rayon).
 - Lorsque le client ou la cliente saisit un code postal ou un nom de ville dans le champ de recherche, seuls les magasins situés dans la distance configurée (rayon) par rapport à l’emplacement recherché s’affichent dans la liste. Tous les magasins de la liste sont triés en fonction de la distance jusqu’à l’emplacement recherché.
 
 ## Avant la configuration
 
-- Assurez-vous d&#39;avoir un stock et une source non par défaut. Pour plus d’informations sur la configuration d’une source en tant qu’emplacement de prélèvement, voir [&#x200B; Ajouter une source &#x200B;](../inventory-management/sources-add.md).
+- Assurez-vous d&#39;avoir un stock et une source non par défaut. Pour plus d’informations sur la configuration d’une source en tant qu’emplacement de prélèvement, voir [ Ajouter une source ](../inventory-management/sources-add.md).
 - Assurez-vous d&#39;avoir configuré un algorithme de priorité à distance. Pour plus d&#39;informations, voir [Configurer l&#39;algorithme de priorité de distance](../inventory-management/distance-priority-algorithm.md).
 - Vérifiez que vous avez [téléchargé et importé](../inventory-management/cli.md#import-geocodes) tous les géocodes nécessaires au calcul hors ligne.
 - Vérifiez que vous avez configuré les paramètres [Calcul de destination de taxe par défaut](../configuration-reference/sales/tax.md#default-tax-destination-calculation).
@@ -68,19 +68,19 @@ Si le client n’a pas d’adresse ou n’a pas rempli le formulaire d’adresse
 >
 >**Dans le storefront, les résultats de la recherche sont filtrés par distance (rayon) pour afficher les résultats pertinents :**<br><br>
 >Si le client dispose d&#39;une adresse de livraison, l&#39;emplacement de base pour calculer la distance (rayon) est extrait de l&#39;adresse de livraison.<br><br>
->Si le client ne dispose pas d&#39;une adresse de livraison, l&#39;emplacement de base pour calculer la distance est extrait des paramètres [&#x200B; Calcul de la destination de taxe par défaut &#x200B;](../configuration-reference/sales/tax.md#default-tax-destination-calculation). Ces paramètres sont définis par vue de magasin et vous devez configurer les paramètres de calcul de destination de taxe par défaut pour vous assurer que la recherche de magasin de retrait fonctionne correctement.
+>Si le client ne dispose pas d&#39;une adresse de livraison, l&#39;emplacement de base pour calculer la distance est extrait des paramètres [ Calcul de la destination de taxe par défaut ](../configuration-reference/sales/tax.md#default-tax-destination-calculation). Ces paramètres sont définis par vue de magasin et vous devez configurer les paramètres de calcul de destination de taxe par défaut pour vous assurer que la recherche de magasin de retrait fonctionne correctement.
 
 ## Configurer la diffusion en magasin
 
 Tout d’abord, vérifiez que la diffusion en magasin est activée.
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Dans le panneau de gauche, développez **[!UICONTROL Sales]** et choisissez **[!UICONTROL Delivery Methods]**.
 
 1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL In-Store Delivery]** .
 
-   ![&#x200B; Diffusion en magasin &#x200B;](../configuration-reference/sales/assets/delivery-methods-in-store-delivery.png){width="600" zoomable="yes"}
+   ![ Diffusion en magasin ](../configuration-reference/sales/assets/delivery-methods-in-store-delivery.png){width="600" zoomable="yes"}
 
 1. Définissez **[!UICONTROL Enabled]** sur `Yes`.
 
