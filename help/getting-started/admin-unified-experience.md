@@ -73,6 +73,7 @@ Pour la procédure d’accès, voir [Accéder à une instance](https://experienc
 >[!ENDTABS]
 
 -->
+
 ### Choisir une interface d’administration {#classic-ui}
 
 Pour la version initiale de Commerce Admin dans l’expérience unifiée, Adobe Commerce as a Cloud Service prend en charge deux expériences d’administration Commerce, l’expérience unifiée Adobe et l’interface utilisateur classique.
@@ -160,7 +161,7 @@ Les instances que vous pouvez ouvrir appartiennent à l’organisation dans laqu
 
 Utilisez le sélecteur de produits (![sélecteur de produits](./assets/admin-unified-experience-icon-product-switcher.png){width="24"}) dans le volet de navigation supérieur pour modifier les applications à tout moment. Son fonctionnement est le même que dans d’autres produits Adobe.
 
-- **** : ouvrez Adobe Admin Console à partir du sélecteur de produits pour gérer les utilisateurs et leur accès (**[!UICONTROL Administer]** > **[!UICONTROL Users]**). Vous n’avez pas besoin de mémoriser l’URL. Adobe Admin Console est distinct de Commerce Admin, où vous gérez votre boutique.
+- **&#x200B;**&#x200B;: ouvrez Adobe Admin Console à partir du sélecteur de produits pour gérer les utilisateurs et leur accès (**[!UICONTROL Administer]** > **[!UICONTROL Users]**). Vous n’avez pas besoin de mémoriser l’URL. Adobe Admin Console est distinct de Commerce Admin, où vous gérez votre boutique.
 - **Adobe Exchange** : recherchez des extensions tierces, des modules externes, des scripts et des intégrations d’entreprise dans Adobe Creative Cloud, Adobe Experience Cloud et Adobe Document Cloud.
 - **Autres produits** : Ouvrez des produits tels que Coworker.
 
@@ -282,4 +283,4 @@ L’aspect actualisé des pages de l’administration Commerce correspond à l�
 
 >[!MORELIKETHIS]
 >
->Guide d&#39;interface et d&#39;administration de [](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)
+>Guide d&#39;interface et d&#39;administration de [&#128279;](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)
