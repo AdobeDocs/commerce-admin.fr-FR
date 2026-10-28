@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e10d4cd8b48e1714c0f32b6c6733524eaac0aa8c
+source-git-commit: af49ec1ee144f689101b020bb805aea72f49ef16
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1433'
 ht-degree: 0%
 ---
 # Administrateur Commerce dans l’expérience unifiée Adobe
@@ -56,18 +56,23 @@ Le flux de connexion vous permet de passer d’une instance Commerce à l’autr
 Vous pouvez passer d’une instance Adobe à l’autre sans autre invite de connexion.
 
 Pour la procédure d’accès, voir [Accéder à une instance](https://experienceleague.adobe.com/fr/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"} dans le _Guide Adobe Commerce as a Cloud Service_.
+<!--
 
 >[!BEGINTABS]
 
->[!TAB Ouvrez l’administrateur à partir de Commerce Cloud Manager]
+>[!TAB Open the Admin from Commerce Cloud Manager]
 
-![Ouvrir l’administrateur](./assets/admin-uex-seamless-login-cloud-manager-to-instance.png){width="800" zoomable="yes" border="light"}
+-->
+![Ouvrir l’administrateur](./assets/admin-uex-seamless-login-cloud-manager-to-instance-edited.png){width="800" zoomable="yes" border="light"}
 
->[!TAB Voir en action]
+<!--
+>[!TAB See it in action]
 
-![Ouvrez l’administrateur à partir de Commerce Cloud Manager](./assets/admin-uex-seamless-login-cloud-manager-to-instance.gif){width="800" zoomable="yes" border="light"}
+![Open the Admin from Commerce Cloud Manager](./assets/admin-uex-seamless-login-cloud-manager-to-instance.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
+
+-->
 
 ### Choisir une interface d’administration {#classic-ui}
 
@@ -82,7 +87,7 @@ Les liens pour l’expérience unifiée et l’interface utilisateur classique s
 | **[!UICONTROL Admin URL (Unified Shell UI)]** | Ouvre l’administrateur dans l’expérience unifiée. |
 | **[!UICONTROL Admin URL (Classic UI)]** | Ouvre l’interface d’administration précédente. |
 
-![Illustration des détails de l’instance de Commerce Cloud Manager présentant les liens URL d’administration (interface utilisateur de Shell unifié) et URL d’administration (interface utilisateur classique)](./assets/admin-unified-experience-cloud-manager-instance-details.png){width="800" zoomable="yes" border="light"}
+![Illustration des détails de l’instance de Commerce Cloud Manager présentant les liens URL d’administration (interface utilisateur de Shell unifié) et URL d’administration (interface utilisateur classique)](./assets/admin-unified-experience-cloud-manager-instance-details-edited.png){width="800" zoomable="yes" border="light"}
 
 _Illustration basée sur la capture d’écran de la liste des instances et la conception des détails de l’instance mise à jour. Les URL affichées utilisent des hôtes intermédiaires._
 
