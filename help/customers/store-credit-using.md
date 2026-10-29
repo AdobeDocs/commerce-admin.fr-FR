@@ -62,7 +62,7 @@ Les utilisateurs administrateurs et les intégrations utilisant l’API REST ont
 
 1. Dans la colonne _Action_, cliquez sur **[!UICONTROL Edit]**.
 
-1. Faites défiler _[!UICONTROL Customer View]_page et affichez les **[!UICONTROL Store Credit Balance]**en bas.
+1. Faites défiler _[!UICONTROL Customer View]_&#x200B;page et affichez les **[!UICONTROL Store Credit Balance]**&#x200B;en bas.
 
 ![Solde créditeur de la boutique](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
