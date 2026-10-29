@@ -121,7 +121,7 @@ La section [Registre des cadeaux](../merchandising-promotions/gift-registry-stor
 
 L’onglet [Crédit de la boutique](../customers/store-credit.md) affiche un montant restauré sur un compte client. L’administrateur peut gérer cette valeur.
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."} L’onglet [!UICONTROL Store Credit] et les **[!UICONTROL Store Credit Balance]** de l’onglet **[!UICONTROL Customer View]** n’apparaissent que lorsque le rôle d’utilisateur inclut la ressource **[!UICONTROL Manage Store Credit Balances]**. Voir [Stocker les ressources de rôle de crédit](../customers/store-credit-using.md#store-credit-role-resources).
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."} L’onglet [!UICONTROL Store Credit] et les **[!UICONTROL Store Credit Balance]** de l’onglet **[!UICONTROL Customer View]** n’apparaissent que lorsque le rôle d’utilisateur inclut la ressource **[!UICONTROL Manage Store Credit Balances]**. Voir [Stocker les ressources de rôle de crédit](../customers/store-credit-using.md#store-credit-role-resources).
 
 ### [!UICONTROL Newsletter]
 

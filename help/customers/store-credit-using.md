@@ -44,7 +44,7 @@ Les administrateurs de boutique peuvent afficher le solde et l’historique du c
 
 ## Stocker les ressources de rôle de crédit
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
 
 Les ressources suivantes déterminent quels utilisateurs administrateurs peuvent modifier le solde du crédit de magasin d&#39;un client et quels utilisateurs peuvent appliquer le crédit de magasin à une commande. Pour plus d’informations sur l’affectation de ressources à un rôle utilisateur, voir [Ressources de rôle](../systems/permissions-user-roles.md#role-resources).
 
@@ -94,7 +94,7 @@ En tant qu’administrateur de magasin, vous pouvez effectuer différentes opér
 
 ![Appliquer le solde créditeur du magasin à la commande](assets/store-credit-apply.png){width="500" zoomable="yes"}
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."} la case à cocher **[!UICONTROL Use Store Credit]** n’apparaît que lorsque votre rôle d’utilisateur inclut la ressource **[!UICONTROL Can Spend Store Credit]**. Voir [Stocker les ressources de rôle de crédit](#store-credit-role-resources).
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."} la case à cocher **[!UICONTROL Use Store Credit]** n’apparaît que lorsque votre rôle d’utilisateur inclut la ressource **[!UICONTROL Can Spend Store Credit]**. Voir [Stocker les ressources de rôle de crédit](#store-credit-role-resources).
 
 ## Appliquer le crédit du magasin lors du passage en caisse
 
