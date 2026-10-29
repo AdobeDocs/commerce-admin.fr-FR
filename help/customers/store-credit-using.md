@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
+source-git-commit: b2b09a49ecd0c585d6ea456f0c00e05d813e324d
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '521'
 ht-degree: 0%
 ---
 # Appliquer le crédit du magasin
@@ -42,6 +42,18 @@ Les administrateurs de boutique peuvent afficher le solde et l’historique du c
 
 ![Solde et historique de crédit client](assets/store-credit-balance-history.png){width="600" zoomable="yes"}
 
+## Stocker les ressources de rôle de crédit
+
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."}
+
+Les ressources suivantes déterminent quels utilisateurs administrateurs peuvent modifier le solde du crédit de magasin d&#39;un client et quels utilisateurs peuvent appliquer le crédit de magasin à une commande. Pour plus d’informations sur l’affectation de ressources à un rôle utilisateur, voir [Ressources de rôle](../systems/permissions-user-roles.md#role-resources).
+
+- **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** > **[!UICONTROL Manage Store Credit Balances]** permet aux utilisateurs d&#39;afficher et de mettre à jour les soldes créditeurs de magasin. Sans cela, l’onglet **[!UICONTROL Store Credit]** et les **[!UICONTROL Store Credit Balance]** de l’onglet **[!UICONTROL Customer View]** ne sont pas visibles. L’utilisateur peut toujours apporter d’autres modifications aux comptes clients.
+
+- **[!UICONTROL Sales]** > **[!UICONTROL Operations]** > **[!UICONTROL Orders]** > **[!UICONTROL Actions]** > **[!UICONTROL Create]** > **[!UICONTROL Can Spend Store Credit]** permet aux utilisateurs d’appliquer un crédit de magasin lors de la [création d’une commande](../stores-purchase/customer-account-create-order.md). Sans cela, la case à cocher **[!UICONTROL Use Store Credit]** n’est pas visible.
+
+Les utilisateurs administrateurs et les intégrations utilisant l’API REST ont besoin de la ressource **[!UICONTROL Can Spend Store Credit]** pour appliquer un crédit de magasin à un panier ou pour passer une commande pour un panier auquel un crédit de magasin est déjà appliqué. Pour plus d’informations, voir [Crédit de la boutique](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/store-credit/).
+
 ## Afficher le solde créditeur
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
@@ -50,7 +62,7 @@ Les administrateurs de boutique peuvent afficher le solde et l’historique du c
 
 1. Dans la colonne _Action_, cliquez sur **[!UICONTROL Edit]**.
 
-1. Faites défiler _[!UICONTROL Customer View]_&#x200B;page et affichez les **[!UICONTROL Store Credit Balance]**&#x200B;en bas.
+1. Faites défiler _[!UICONTROL Customer View]_page et affichez les **[!UICONTROL Store Credit Balance]**en bas.
 
 ![Solde créditeur de la boutique](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
@@ -81,6 +93,8 @@ Le solde mis à jour doit être affiché en **[!UICONTROL Balance History]**.
 En tant qu’administrateur de magasin, vous pouvez effectuer différentes opérations pour le compte d’un client, notamment envoyer des commandes. Lorsque vous [créez une commande](../stores-purchase/customer-account-create-order.md), vous pouvez appliquer un solde créditeur de la boutique dû au client. Le solde disponible s&#39;affiche dans la section _Informations sur le paiement et l&#39;expédition_. Cochez la case **[!UICONTROL Use Store Credit]** pour appliquer le solde ou une partie du solde si le total de la commande est inférieur.
 
 ![Appliquer le solde créditeur du magasin à la commande](assets/store-credit-apply.png){width="500" zoomable="yes"}
+
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."} la case à cocher **[!UICONTROL Use Store Credit]** n’apparaît que lorsque votre rôle d’utilisateur inclut la ressource **[!UICONTROL Can Spend Store Credit]**. Voir [Stocker les ressources de rôle de crédit](#store-credit-role-resources).
 
 ## Appliquer le crédit du magasin lors du passage en caisse
 
