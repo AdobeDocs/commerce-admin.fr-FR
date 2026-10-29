@@ -4,7 +4,7 @@ description: Utilisez la fonctionnalité native d’enrichissement du catalogue 
 role: Admin, User, Leader
 recommendations: noCatalog
 touch: true
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b8d426f123be4b9fedf1198a8864d552cb6e1059
+source-git-commit: c073327e16e3738b5c92f79e442489572046f739
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2437'
 ht-degree: 0%
 ---
 # Enrichissement du catalogue
@@ -51,7 +51,7 @@ L’enrichissement du catalogue est une fonctionnalité de [!DNL Adobe Commerce]
 
 >[!NOTE]
 >
->L’enrichissement des catalogues s’effectue à l’aide de [!DNL Commerce Catalog Agent] et [!DNL Adobe Brand Visibility] en coulisses. Vous utilisez l’enrichissement dans le cadre de votre workflow de catalogue Commerce. Vous ne gérez pas une intégration Adobe Brand Visibility distincte pour appliquer les mises à jour de nom et de description approuvées. Pour une surveillance et une optimisation LLM plus larges en dehors de Commerce, consultez la [[!DNL Adobe Brand Visibility] documentation du produit](https://experienceleague.adobe.com/fr/docs/brand-visibility/using/home).
+>L’enrichissement des catalogues s’effectue à l’aide de [!DNL Commerce Catalog Agent] et [!DNL Adobe Brand Visibility] en coulisses. Vous utilisez l’enrichissement dans le cadre de votre workflow de catalogue Commerce. Vous ne gérez pas une intégration Adobe Brand Visibility distincte pour appliquer les mises à jour de nom et de description approuvées. Pour une surveillance et une optimisation LLM plus larges en dehors de Commerce, consultez la [[!DNL Adobe Brand Visibility] documentation du produit](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home).
 
 ## Fonctionnement {#how-it-works}
 
@@ -83,7 +83,7 @@ Les conditions préalables suivantes s’appliquent lorsque vous avez accès à 
 - Votre storefront peut être exploré par des robots orientés LLM et agentiques où une couverture d’explore est requise pour les suggestions tenant compte du catalogue.
 - Les services Commerce requis et la connectivité du catalogue sont activés et sains. Voir [Activer l’enrichissement du catalogue](#enable-catalog-enrichment) pour en savoir plus.
 - L’utilisateur administrateur Commerce qui accède à l’enrichissement du catalogue se connecte via Adobe IMS. Voir [Connexion IMS et exigences de l’organisation](#ims-sign-in-requirements).
-- Vous avez accès à [&#128279;](https://helpx.adobe.com/fr/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- Vous avez accès à [](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - Votre entreprise a signé l’avenant GenAI, ou s’est explicitement désabonnée, pour les services d’IA sous-jacents.
 
 >[!NOTE]
@@ -98,7 +98,7 @@ Pour prendre en charge la connexion IMS, l’intégration d’administration Com
 
 >[!IMPORTANT]
 >
->L’activation de l’intégration Commerce Admin avec Adobe ID est un changement effectué à l’échelle de l’instance. Une fois activé, chaque utilisateur administrateur doit s’authentifier via Adobe IMS. La connexion par nom d’utilisateur et mot de passe natifs de Commerce n’est plus disponible. Consultez la présentation de l’intégration du service Adobe Identity Management (IMS) [&#128279;](/help/getting-started/adobe-ims-integration-overview.md) avant d’activer cette intégration.
+>L’activation de l’intégration Commerce Admin avec Adobe ID est un changement effectué à l’échelle de l’instance. Une fois activé, chaque utilisateur administrateur doit s’authentifier via Adobe IMS. La connexion par nom d’utilisateur et mot de passe natifs de Commerce n’est plus disponible. Consultez la présentation de l’intégration du service Adobe Identity Management (IMS) [](/help/getting-started/adobe-ims-integration-overview.md) avant d’activer cette intégration.
 
 L’organisation Adobe IMS associée à votre instance Commerce est généralement différente de l’organisation IMS qui détient vos droits [!DNL Adobe Brand Visibility]. Activer l’intégration d’administration Commerce avec Adobe ID n’accorde pas, en soi, l’accès aux droits de Visibilité des marques et les deux organisations ne sont pas tenues d’être identiques. Contactez votre administrateur ou équipe de compte Adobe pour confirmer les appartenances à une organisation IMS et l’enrichissement du catalogue d’accès au compte requis dans votre configuration.
 
@@ -115,7 +115,7 @@ Contactez votre administrateur Commerce ou votre partenaire d’implémentation 
    composer update magento/module-catalog-enrichment
    ```
 
-1. Si vous n’avez pas encore installé les services de catalogue, [faites-le](https://experienceleague.adobe.com/fr/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
+1. Si vous n’avez pas encore installé les services de catalogue, [faites-le](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
 
    **[!UICONTROL Catalog enrichment]** est désormais disponible dans votre instance Commerce.
 
@@ -138,7 +138,7 @@ Les champs de cet onglet identifient l’environnement Commerce et la vue de mag
 
    Fournissez les détails de votre environnement [!DNL Adobe Commerce] pour activer le service Catalog Adobe Brand Visibility et les workflows d’audit.
 
-   Configuration de ![Commerce dans l’onglet Paramètres d’enrichissement du catalogue &#x200B;](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
+   Configuration de ![Commerce dans l’onglet Paramètres d’enrichissement du catalogue ](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. Saisissez les informations de connexion requises pour la vue du magasin.
 
@@ -263,6 +263,7 @@ Ces règles vous aident à savoir si l’enrichissement du catalogue, les flux d
 
 ## Limites et considérations {#limits}
 
+- L’enrichissement prend actuellement en charge le contenu du produit uniquement en anglais.
 - L’enrichissement s’applique uniquement aux noms de produit et aux descriptions longues. Elle ne modifie pas la disposition du PDP, les widgets ou tout autre contenu de storefront au niveau de la page.
 - La taille des catalogues et le nombre élevé d’URL peuvent avoir une incidence sur la rapidité avec laquelle l’analyse est terminée et le nombre de suggestions qui s’affichent en même temps.
 - Des suggestions pertinentes supposent que les robots LLM peuvent accéder aux URL des produits qui vous intéressent. Les règles robotisées, l’authentification, le blocage géographique et une personnalisation poussée peuvent réduire la couverture.
