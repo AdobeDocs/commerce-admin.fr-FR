@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b8d426f123be4b9fedf1198a8864d552cb6e1059
+source-git-commit: c073327e16e3738b5c92f79e442489572046f739
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2437'
 ht-degree: 0%
 ---
 # Enrichissement du catalogue
@@ -263,6 +263,7 @@ Ces règles vous aident à savoir si l’enrichissement du catalogue, les flux d
 
 ## Limites et considérations {#limits}
 
+- L’enrichissement prend actuellement en charge le contenu du produit uniquement en anglais.
 - L’enrichissement s’applique uniquement aux noms de produit et aux descriptions longues. Elle ne modifie pas la disposition du PDP, les widgets ou tout autre contenu de storefront au niveau de la page.
 - La taille des catalogues et le nombre élevé d’URL peuvent avoir une incidence sur la rapidité avec laquelle l’analyse est terminée et le nombre de suggestions qui s’affichent en même temps.
 - Des suggestions pertinentes supposent que les robots LLM peuvent accéder aux URL des produits qui vous intéressent. Les règles robotisées, l’authentification, le blocage géographique et une personnalisation poussée peuvent réduire la couverture.

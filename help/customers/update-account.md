@@ -24,13 +24,11 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: be637291b09661637cdefefd79fd81157b6e76b2
 workflow-type: tm+mt
-source-wordcount: 505
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # Mise à jour d’un profil client
 
 Le panneau de gauche de la page _[!UICONTROL Customer Information]_&#x200B;contient des informations sur l’activité des clients, les adresses, les statistiques des commandes, les commandes récentes, le contenu des paniers, les avis de produits et les abonnements aux newsletters.
@@ -122,6 +120,8 @@ La section [Registre des cadeaux](../merchandising-promotions/gift-registry-stor
 {{ee-feature}}
 
 L’onglet [Crédit de la boutique](../customers/store-credit.md) affiche un montant restauré sur un compte client. L’administrateur peut gérer cette valeur.
+
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service (infrastructure SaaS gérée par Adobe)."} L’onglet [!UICONTROL Store Credit] et les **[!UICONTROL Store Credit Balance]** de l’onglet **[!UICONTROL Customer View]** n’apparaissent que lorsque le rôle d’utilisateur inclut la ressource **[!UICONTROL Manage Store Credit Balances]**. Voir [Stocker les ressources de rôle de crédit](../customers/store-credit-using.md#store-credit-role-resources).
 
 ### [!UICONTROL Newsletter]
 
