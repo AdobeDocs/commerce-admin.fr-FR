@@ -1,7 +1,7 @@
 ---
-source-git-commit: e114ec8857feefd8cd9db5a9b8ed7f0f39e135d1
+source-git-commit: 9d0d0360b2e92c08c280a824951ef8968f0f4f78
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '755'
 ht-degree: 1%
 ---
 # Nouveautés du modèle
@@ -9,6 +9,94 @@ ht-degree: 1%
 ## Nouveautés
 
 Cette section contient les modifications apportées au cours des 60 derniers jours. Toutes les mises à jour mineures, telles que la modification de copies, sont exclues de cette liste.
+
+### 2 Novembre 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Mise à jour de la <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/catalog/products/catalog-enrichment">enrichissement du catalogue</a> pour inclure des notes de mise à jour, une nouvelle navigation dans le menu et des étapes d’installation.</p>
+</td>
+      <td>
+        Notes de mise à jour
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/6809e8121b81b0565ce9767e3fcf444ad3342f8f">validation</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 29 Octobre 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Ajout de <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/customers/customer-accounts/store-credit/store-credit-using#store-credit-role-resources">ressources de rôle de crédit de boutique</a> pour contrôler quels utilisateurs administrateurs peuvent gérer le crédit de boutique.</p>
+</td>
+      <td>
+        Mise à jour majeure
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/72b270ab3fd062fab4268bd4667d61ccab4d8676">validation</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 27 Octobre 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Mise à jour des guides d’utilisation destinés à l’administrateur pour l’interface Unified Shell :<br />- Révision des instructions de navigation et actualisation des captures d’écran dans les guides, y compris la référence <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/start/admin/tools/admin-menu">Barre latérale d’administration</a> avec son entrée de gestion d’application SaaS uniquement.<br />- Clarification des <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/content-design/guide-overview">fonctionnalités de contenu et de conception</a> pour Adobe Commerce as a Cloud Service, y compris les filigranes d’image de produit et les e-mails transactionnels.</p>
+</td>
+      <td>
+        Mise à jour majeure
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/d6950d5fa02a2b50e3b481afe36f232da35560b5">validation</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 26 Octobre 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Ajout de la documentation pour <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/start/admin/admin-unified-experience">Commerce Admin dans Adobe Unified Experience</a>, la nouvelle interface d’administration Commerce pour les clients Adobe Commerce as a Cloud Service. La documentation décrit le menu de navigation d’administration Commerce mis à jour et comment utiliser l’interface d’expérience unifiée d’Adobe, changer d’organisation, de produit et d’instance, et utiliser les commandes de navigation, d’aide, de notification et de compte partagées.</p>
+</td>
+      <td>
+        Nouvelle rubrique
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/2e3b71207ddf49a1b80661f4174a8e892a361e61">validation</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 13 Octobre 2026
 
@@ -102,28 +190,6 @@ Cette section contient les modifications apportées au cours des 60 derniers jou
         Mise à jour majeure
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1b3beb5c914dae4c07dd591e9b975c0f35bb23cd">validation</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 31 Août 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Suppression d’Adobe Commerce 2.4.8-p5 de la liste des versions prises en charge pour <a href="https://experienceleague.adobe.com/fr/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a>. 2.4.8 Les clients doivent utiliser la version 1.5.3 de B2B à la place.</p>
-</td>
-      <td>
-        Technique
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/fab7dc8f780fa68c147a06752dc96bd7b03444a2">validation</a></td>
     </tr>
   </tbody>
 </table>
