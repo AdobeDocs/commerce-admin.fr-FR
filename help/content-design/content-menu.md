@@ -31,11 +31,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Lorsque le [[!DNL Media Gallery]](media-gallery.md) est activé, la section _[!UICONTROL Media]_s’affiche avec une seule option pour accéder au [!DNL Media Gallery]. Si vous ne voyez pas cette option, vérifiez que **[!UICONTROL Enable Old Media Gallery]**option est définie sur `No`. Pour plus d’informations, voir [Vérification de la configuration [!DNL Media Gallery] ](media-gallery.md#enable-the-new-media-gallery).
+>Lorsque le [[!DNL Media Gallery]](media-gallery.md) est activé, la section _[!UICONTROL Media]_&#x200B;s’affiche avec une seule option pour accéder au [!DNL Media Gallery]. Si vous ne voyez pas cette option, vérifiez que **[!UICONTROL Enable Old Media Gallery]**&#x200B;option est définie sur `No`. Pour plus d’informations, voir [Vérification de la configuration [!DNL Media Gallery] &#x200B;](media-gallery.md#enable-the-new-media-gallery).
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
@@ -64,7 +64,7 @@ Dans la barre latérale _Admin_, choisissez **[!UICONTROL Content]**.
 
 >[!NOTE]
 >
->L’option _[!UICONTROL Banners]_de ce menu a été abandonnée dans la version 2.3.1 et est désormais supprimée. Sa fonctionnalité est remplacée par Blocs dynamiques.
+>L’option _[!UICONTROL Banners]_&#x200B;de ce menu a été abandonnée dans la version 2.3.1 et est désormais supprimée. Sa fonctionnalité est remplacée par Blocs dynamiques.
 
 ## [!UICONTROL Design] {#design-features}
 
