@@ -38,7 +38,7 @@ ht-degree: 0%
 
 À mesure que les responsabilités professionnelles changent, vous devrez peut-être transférer votre compte Adobe Commerce à un nouveau propriétaire ou à une autre adresse e-mail. Ce transfert nécessite une modification de l’adresse e-mail de l’utilisateur principal associée au compte.
 
-Les informations suivantes décrivent le processus de transfert d’un compte Adobe Commerce (MAGEID). Elle n’inclut pas les modifications apportées à Adobe Commerce sur la propriété du projet d’infrastructure cloud ni la propriété du [!DNL New Relic]. Pour plus d’informations sur l’accès aux projets cloud, consultez [Gérer l’accès des utilisateurs](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access) dans le guide _Commerce sur les infrastructures cloud_.
+Les informations suivantes décrivent le processus de transfert d’un compte Adobe Commerce (MAGEID). Elle n’inclut pas les modifications apportées à Adobe Commerce sur la propriété du projet d’infrastructure cloud ni la propriété du [!DNL New Relic]. Pour plus d’informations sur l’accès aux projets cloud, consultez [Gérer l’accès des utilisateurs](https://experienceleague.adobe.com/fr/docs/commerce-on-cloud/user-guide/project/user-access) dans le guide _Commerce sur les infrastructures cloud_.
 
 >[!IMPORTANT]
 >
@@ -46,7 +46,7 @@ Les informations suivantes décrivent le processus de transfert d’un compte Ad
 >
 >Consultez Extensions de Marketplace avant de commencer un transfert de compte. Les extensions et les clés d’accès sont associées aux MAGE ID. Au début du transfert, l’accès aux extensions achetées dans le cadre de l’accès partagé est perdu. Le processus de transfert de compte standard ne transfère pas les achats de prolongation vers un autre compte ; vous devrez peut-être demander un remboursement et racheter les prolongations sous le compte prévu. Si votre transfert fait partie d’une restructuration de licence, contactez l’assistance Adobe Commerce pour confirmer qu’un processus de transfert distinct s’applique.
 >
->Avant de demander le transfert du compte, assurez-vous que le nouveau propriétaire récupère les ID de commande pour les achats sur [son [!DNL Commerce Marketplace] compte](https://commercemarketplace.adobe.com/sales/order/history/) et demande un remboursement à l’[[!DNL Commerce Marketplace] équipe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case). Les achats d’extension ne peuvent pas être transférés vers un autre compte.
+>Avant de demander le transfert du compte, assurez-vous que le nouveau propriétaire récupère les ID de commande pour les achats sur [son [!DNL Commerce Marketplace] compte](https://commercemarketplace.adobe.com/sales/order/history/) et demande un remboursement à l’[[!DNL Commerce Marketplace] équipe](https://experienceleague.adobe.com/fr/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case). Les achats d’extension ne peuvent pas être transférés vers un autre compte.
 >
 >En outre, prévoyez de générer de nouvelles clés d’accès pour l’ID d’image de réception et de mettre à jour les informations d’identification du compositeur utilisées par vos déploiements. Suivez les étapes clés et de l’extension applicables avant de commencer le transfert du compte.
 
@@ -158,7 +158,7 @@ Pour associer l’Adobe ID du propriétaire actuel à une adresse e-mail tempora
 
 >[!NOTE]
 >
->Si vous ne pouvez pas accéder à l’adresse e-mail du propriétaire actuel, demandez à votre équipe informatique de configurer le transfert d’e-mail pour l’adresse e-mail du compte dans le système de messagerie de votre entreprise. Si le transfert d’e-mail ne peut pas être configuré, assurez-vous que le nouveau propriétaire du compte dispose d’une Adobe ID, puis [envoyez une demande d’assistance](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) avec tous les détails nécessaires pour lancer le transfert du compte.
+>Si vous ne pouvez pas accéder à l’adresse e-mail du propriétaire actuel, demandez à votre équipe informatique de configurer le transfert d’e-mail pour l’adresse e-mail du compte dans le système de messagerie de votre entreprise. Si le transfert d’e-mail ne peut pas être configuré, assurez-vous que le nouveau propriétaire du compte dispose d’une Adobe ID, puis [envoyez une demande d’assistance](https://experienceleague.adobe.com/fr/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) avec tous les détails nécessaires pour lancer le transfert du compte.
 
 1. Accédez à [account.adobe.com](https://account.adobe.com/) et effectuez la connexion à Adobe.
 
@@ -208,7 +208,7 @@ Dans votre demande, indiquez quel type de transfert ne s’applique pas et si l�
 
 Effectuez ces étapes après avoir terminé le processus [Nouvelle Adobe ID et modification d’e-mail](#new-adobe-id-and-email-change), [Modification d’e-mail uniquement](#email-change) ou [Changement de compte Adobe ID](#adobe-id-account-switch).
 
-1. En tant que nouveau propriétaire, [envoyez une demande d’assistance](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
+1. En tant que nouveau propriétaire, [envoyez une demande d’assistance](https://experienceleague.adobe.com/fr/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
 
    Insérez les détails suivants :
 
