@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 55f9389c51fd4e1f9aa2475ad999c79f5f7f00df
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1677'
 ht-degree: 0%
 ---
 # Transfert d’un compte Adobe Commerce
@@ -44,7 +44,11 @@ Les informations suivantes décrivent le processus de transfert d’un compte Ad
 >
 >Si le nouveau propriétaire du compte a acheté des extensions à l’aide de l’accès partagé, l’accès à ces extensions est perdu dès le début du transfert du compte.
 >
+>Consultez Extensions de Marketplace avant de commencer un transfert de compte. Les extensions et les clés d’accès sont associées aux MAGE ID. Au début du transfert, l’accès aux extensions achetées dans le cadre de l’accès partagé est perdu. Le processus de transfert de compte standard ne transfère pas les achats de prolongation vers un autre compte ; vous devrez peut-être demander un remboursement et racheter les prolongations sous le compte prévu. Si votre transfert fait partie d’une restructuration de licence, contactez l’assistance Adobe Commerce pour confirmer qu’un processus de transfert distinct s’applique.
+>
 >Avant de demander le transfert du compte, assurez-vous que le nouveau propriétaire récupère les ID de commande pour les achats sur [son [!DNL Commerce Marketplace] compte](https://commercemarketplace.adobe.com/sales/order/history/) et demande un remboursement à l’[[!DNL Commerce Marketplace] équipe](https://experienceleague.adobe.com/fr/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case). Les achats d’extension ne peuvent pas être transférés vers un autre compte.
+>
+>En outre, prévoyez de générer de nouvelles clés d’accès pour l’ID d’image de réception et de mettre à jour les informations d’identification du compositeur utilisées par vos déploiements. Suivez les étapes clés et de l’extension applicables avant de commencer le transfert du compte.
 
 ## Identification du type de transfert
 
@@ -193,6 +197,12 @@ Une fois que le nouveau propriétaire a configuré son Adobe ID avec l’adresse
 1. Suivez les [&#x200B; étapes de vérification par e-mail &#x200B;](#verify-an-adobe-id-email-change).
 
 Une fois que le nouveau propriétaire a vérifié l’adresse e-mail, passez à la [Étapes finales](#final-steps) afin que l’assistance Adobe Commerce puisse mettre à jour les enregistrements de compte tels que le profil de [[!DNL Commerce Marketplace]](https://commercemarketplace.adobe.com/).
+
+## Vous avez besoin d’aide pour le transfert de votre compte ?**
+
+Si aucun des types de transfert ci-dessus ne correspond à votre situation ou si vous ne pouvez pas accéder à l’adresse e-mail du propriétaire actuel, envoyez un ticket d’assistance Adobe Commerce.
+
+Dans votre demande, indiquez quel type de transfert ne s’applique pas et si l’e-mail du propriétaire actuel est accessible. Incluez les MAGEID du nouveau propriétaire et du nouveau propriétaire, les identifiants Adobe et les adresses électroniques associées, si elles sont connues. L’assistance Adobe peut examiner votre situation et vous conseiller sur les étapes suivantes.
 
 ## Dernières étapes
 
