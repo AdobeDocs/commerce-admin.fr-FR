@@ -53,7 +53,7 @@ Vous pouvez modifier la disposition du conteneur de [!DNL Columns] en faisant gl
 
 Regardez cette vidéo pour découvrir comment le conteneur [!DNL Columns] peut être utilisé pour affiner vos mises en page :
 
->[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3507528?captions=fre_fr&quality=12&learn=on)
 
 ## Boîte à outils Colonnes
 
