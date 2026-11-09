@@ -1,14 +1,14 @@
 ---
-source-git-commit: 12ddff93f620d02c70dc2d1b0c45fb47f9614115
+source-git-commit: bc8f33290be7bdc71772b9659c1a6f40c1c77d64
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '728'
 ht-degree: 0%
 ---
 # Nouveautés du modèle
 
 ## Nouveautés
 
-Cette section contient les modifications apportées au cours des 60 derniers jours. Toutes les mises à jour mineures, telles que la modification de copies, sont exclues de cette liste.
+Cette section contient les modifications apportées au cours des 60 derniers jours. Les mises à jour mineures, telles que la modification de copies, sont exclues de cette liste.
 
 | Description | Type | Date/source |
 | --- | --- | --- |
