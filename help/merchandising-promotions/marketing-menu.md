@@ -1,6 +1,6 @@
 ---
-title: '[!UICONTROL Marketing] menu'
-description: Commerce Admin comprend le menu [!UICONTROL Marketing], qui fournit des outils d’accès pour gérer les promotions, les communications, l’optimisation du moteur de recherche et le contenu généré par l’utilisateur.
+title: Menu [!UICONTROL Marketing]
+description: Le menu Commerce Admin comprend le menu [!UICONTROL Marketing], qui fournit des outils pour gérer les promotions, les communications, l’optimisation du moteur de recherche et le contenu généré par l’utilisateur.
 exl-id: fc0e554b-1bff-45da-bd6f-73e9b1a4fdef
 TQID: https://experienceleague.adobe.com/UZFSZIsLZvPv50Cg8xmpJ0oW7WEfYvcHEiedDhO2qc0
 product_v2:
@@ -26,32 +26,32 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: '318'
 ht-degree: 0%
-
 ---
+# Menu [!UICONTROL Marketing]
 
-# [!UICONTROL Marketing] menu
-
-Le menu [!UICONTROL Marketing] fournit des outils d’accès pour gérer les promotions, les communications, l’optimisation du moteur de recherche et le contenu créé par l’utilisateur.
+Le menu [!UICONTROL Marketing] fournit des outils d’accès pour la gestion des promotions, des communications, de l’optimisation pour les moteurs de recherche et du contenu créé par l’utilisateur.
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB Adobe Commerce]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 ![Administrateur Commerce - Menu marketing](./assets/admin-menu-marketing-ee.png){width="600" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
 
 ![Administrateur Commerce - Menu marketing](./assets/admin-menu-marketing-ee-accs.png){width="600" zoomable="yes"}
 
 >[!ENDTABS]
+
+{{ccdm-merchandising-note}}
 
 ## Afficher le menu [!UICONTROL Marketing]
 
@@ -61,13 +61,13 @@ Dans la barre latérale _Admin_, cliquez sur **[!UICONTROL Marketing]**.
 
 ### [!UICONTROL Promotions]
 
-Créez des règles de prix [catalogue](price-rules-catalog.md) et [panier](price-rules-cart.md) qui déclenchent des remises basées sur diverses conditions. Configurez les [promotions](introduction.md#promotions) qui entrent en action lorsque les conditions requises sont remplies.
+Créez des règles de prix de [catalogue](price-rules-catalog.md) et [panier](price-rules-cart.md) qui déclenchent des remises en fonction de diverses conditions. Configurez [promotions](introduction.md#promotions) qui entrent en action lorsque les conditions requises sont remplies.
 
-![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Créez des [règles de produit associées](product-related-rules.md) et gérez des [comptes de carte cadeau](../stores-purchase/product-gift-card-accounts.md).
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Créez [les règles de produits associées](product-related-rules.md) et gérez [les comptes de cartes-cadeaux](../stores-purchase/product-gift-card-accounts.md).
 
 ### [!UICONTROL Private Sales]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 {{ee-feature}}
 
@@ -75,16 +75,16 @@ Les ventes privées et d’autres événements de catalogue sont un excellent mo
 
 ### [!UICONTROL Communications]
 
-Personnalisez toutes les notifications envoyées depuis votre boutique. Créez des [newsletters](newsletters.md) et publiez des flux [RSS](social-rss.md#rss-feeds).
+Personnalisez toutes les notifications envoyées depuis votre boutique. Créez des [newsletters](newsletters.md) et publiez des [flux RSS](social-rss.md#rss-feeds).
 
-![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Configurez des règles qui envoient des [rappels par e-mail](email-reminder-rules.md) aux clients chaque fois que les conditions sont remplies.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) Configurez des règles qui envoient [des rappels par e-mail](email-reminder-rules.md) aux clients chaque fois que les conditions sont remplies.
 
 ### [!UICONTROL SEO & Search]
 
-Analysez les [termes de recherche](../catalog/search-terms.md) et [synonymes](../catalog/search-terms.md#search-synonyms) pour aider les clients à trouver des produits dans le magasin, à gérer les [métadonnées](meta-data.md) et à créer un [plan du site](sitemap-xml.md). Utilisez [redirections](url-rewrite.md) pour gérer les modifications d’URL et éviter les liens rompus.
+Analysez les [termes de recherche](../catalog/search-terms.md) et les [synonymes](../catalog/search-terms.md#search-synonyms) pour aider les clients à trouver des produits dans le magasin, à gérer les [métadonnées](meta-data.md) et à créer un [plan de site](sitemap-xml.md). Utilisez les [redirections](url-rewrite.md) pour gérer les modifications d’URL et éviter les liens rompus.
 
 ### [!UICONTROL User Content]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 Intégrez les [évaluations de produits](product-reviews.md) générées par les utilisateurs pour créer un sentiment de communauté et augmenter les ventes.

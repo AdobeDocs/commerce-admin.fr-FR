@@ -1,5 +1,5 @@
 ---
-title: '[!UICONTROL Catalog] menu'
+title: Menu [!UICONTROL Catalog]
 description: Utilisez le menu [!UICONTROL Catalog] pour accéder aux outils de création de produits, de catégories et de gestion des stocks.
 exl-id: cfb163d6-eccc-4ab9-bd19-37c611abbc78
 TQID: https://experienceleague.adobe.com/2-kkm9tD4ENz5MV9c5IoXpNKNcmAOSxezqd-W9bMYys
@@ -24,57 +24,57 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: 224
+source-wordcount: '224'
 ht-degree: 0%
-
 ---
+# Menu [!UICONTROL Catalog]
 
-# [!UICONTROL Catalog] menu
-
-Le menu [!UICONTROL Catalog] permet d’accéder facilement aux outils de création de produits, de gestion des catégories et des stocks, aux catalogues partagés pour la tarification personnalisée dans les magasins [B2B](/help/b2b/introduction.md) et à l’enrichissement des catalogues pour la découverte assistée par l’IA.
+Le menu [!UICONTROL Catalog] permet d’accéder facilement aux outils de création de produits, de gestion des catégories et des stocks, aux catalogues partagés pour la tarification personnalisée dans les [magasins B2B](/help/b2b/introduction.md) et à l’enrichissement des catalogues pour la découverte assistée par l’IA.
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB Adobe Commerce]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 ![Menu Catalogue](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
+[!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
 
 ![Menu Catalogue](./assets/admin-menu-catalog-accs.png){width="300" zoomable="yes"}
 
 >[!ENDTABS]
 
+{{ccdm-merchandising-note}}
+
 Dans la barre latérale _Admin_, cliquez sur **[!UICONTROL Catalog]**.
 
 ## [!UICONTROL Products]
 
-Créez [produits](products-list.md) de tous types et gérez vos stocks.
+Créez [produits](products-list.md) de chaque type et gérez votre inventaire.
 
 ![Grille des produits](./assets/products-grid.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Categories]
 
-Créez la structure [category](categories.md) qui constitue la base de la navigation de votre boutique.
+Créez la structure [category](categories.md) qui est la base de la navigation de votre boutique.
 
-![Espace de travail des catégories](./assets/category-workspace.png){width="700" zoomable="yes"}
+![Espace de travail de catégorie](./assets/category-workspace.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Shared Catalogs]
 
-Pour les magasins où Adobe Commerce B2B est installé et activé, les [catalogues partagés](/help/b2b/catalog-shared.md) vous permettent de proposer des tarifs personnalisés à différentes sociétés.
+Pour les magasins où Adobe Commerce B2B est installé et activé, [les catalogues partagés](/help/b2b/catalog-shared.md) vous permettent de proposer des tarifs personnalisés à différentes sociétés.
 
 ![Produits de catalogue partagé](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Catalog enrichment]
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 Utilisez [l’enrichissement du catalogue](catalog-enrichment.md) pour examiner et appliquer les améliorations suggérées par l’IA aux noms de produit et aux descriptions longues afin que votre catalogue soit représenté avec précision dans LLM et la découverte assistée par l’IA.
 
-![Enrichissement du catalogue](./assets/agentic-opportunities.png)
+![Enrichissement Du Catalogue](./assets/agentic-opportunities.png)

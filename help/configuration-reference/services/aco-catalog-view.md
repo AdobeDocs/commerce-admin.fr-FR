@@ -1,8 +1,8 @@
 ---
 title: '[!UICONTROL Services] &gt ; vue Catalogue ACO'
-description: Examinez et mettez à jour les paramètres de configuration Adobe Commerce Optimizer sur la page [!UICONTROL ACO Catalog View] > [!UICONTROL Services] de Commerce Admin.
+description: Vérifiez et mettez à jour les paramètres Adobe Commerce Optimizer sur la page [!UICONTROL Services] > [!UICONTROL ACO Catalog View] de l’administrateur Commerce.
 feature: Configuration, Security
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -28,29 +28,33 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b32c28afffe75b3f684f0fef81bd61e9cdcb485a
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 3%
+source-wordcount: '239'
+ht-degree: 2%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View]
 
 Utilisez ces paramètres pour contrôler les jetons d’accès émis par le [!DNL Adobe Commerce Optimizer Connector for B2B]. Les storefronts utilisent ces jetons pour s’authentifier sur les vues de catalogue privé Commerce Optimizer renseignées avec des données synchronisées à partir de catalogues partagés personnalisés configurés dans l’administrateur.
 
+>[!NOTE]
+>
+>Cette page s’applique au connecteur . Les instances configurées avec le modèle de données de catalogue composable (CCDM) synchronisent les données en mode natif et n’utilisent pas le connecteur. Voir [Services de marchandisage avec CCDM](/help/optimizer/overview.md).
+
 {{config}}
 
-![Administrateur Adobe Commerce affichant les paramètres de jeton d’accès de la vue Catalogue ACO, avec une TTL de 3 600 secondes et l’émission de jeton activée.](./assets/aco-catalog-view-access-token-config.png)<!-- zoom -->
+![Administrateur Adobe Commerce affichant les paramètres de jeton d’accès de la vue Catalogue ACO, avec une durée de vie de 3 600 secondes et l’émission de jeton activée.](./assets/aco-catalog-view-access-token-config.png)<!-- zoom -->
 
 ## [!UICONTROL Access Token Configuration]
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | --- | --- | --- |
 | [!UICONTROL Token TTL (seconds)] | Global | Nombre de secondes pendant lesquelles un jeton d’accès reste valide après avoir été généré. Ce paramètre est en lecture seule dans la portée par défaut. Les valeurs configurées sur le site web ou dans la portée de l’affichage du magasin sont ignorées. Valeur par défaut : 3 600 secondes. |
-| [!UICONTROL Issue Access Tokens] | Affichage de la boutique | Contrôle si le storefront peut obtenir un jeton d’accès pour une vue de catalogue. Lorsque la valeur est définie sur `No`, `Company.catalogViewContext` renvoie l’ID de vue de catalogue mais aucun jeton d’accès, de sorte que les storefronts ne peuvent pas s’authentifier pour lire [!DNL Adobe Commerce Optimizer] vues de catalogue privées synchronisées à partir d’Adobe Commerce. |
+| [!UICONTROL Issue Access Tokens] | Affichage de la boutique | Contrôle si le storefront peut obtenir un jeton d’accès pour une vue de catalogue. Lorsque la valeur est définie sur `No`, `Company.catalogViewContext` renvoie l’ID de vue de catalogue mais aucun jeton d’accès. Par conséquent, les storefronts ne peuvent pas s’authentifier pour lire à partir de [!DNL Adobe Commerce Optimizer] vues de catalogue privé synchronisées à partir d’Adobe Commerce. |
 
 {style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
-> - [Synchronisation des vues de catalogue ACO](./aco-catalog-view-sync.md) — Configurez la manière dont les vues de catalogue sont synchronisées dans [!DNL Adobe Commerce Optimizer]
-> - [Surveillance de l&#39;état de synchronisation de la vue catalogue](../../systems/catalog-view-sync-status.md) — Surveillez l&#39;intégrité de la synchronisation et réconciliez la dérive
+> - [Synchronisation des vues de catalogue ACO](./aco-catalog-view-sync.md) — Configurer la manière dont les vues de catalogue sont synchronisées dans [!DNL Adobe Commerce Optimizer]
+> - [Surveillance de l&#39;état de synchronisation des vues du catalogue](../../systems/catalog-view-sync-status.md) — Surveillance de l&#39;état de synchronisation et réconciliation de la dérive

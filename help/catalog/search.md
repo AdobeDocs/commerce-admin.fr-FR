@@ -32,16 +32,18 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '575'
 ht-degree: 0%
 ---
 # Présentation de la recherche catalogue
 
 >[!TIP]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/fr/docs/commerce/live-search/overview) offre une expérience de recherche rapide, très pertinente et intuitive et est disponible gratuitement pour Adobe Commerce. Cette section décrit les fonctionnalités de recherche standard qui peuvent être différentes de [!DNL Live Search].
+>[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) offre une expérience de recherche rapide, pertinente et intuitive et est disponible gratuitement pour Adobe Commerce. Cette section décrit les fonctionnalités de recherche standard qui peuvent différer de [!DNL Live Search].
+>
+>Si votre instance Adobe Commerce as a Cloud Service est configurée avec le modèle de données de catalogue composable (CCDM), vous configurez les paramètres de recherche, les facettes, les synonymes et les règles de marchandisage dans les [services de marchandisage avec CCDM](/help/optimizer/overview.md).
 
 Les recherches montrent que les personnes qui utilisent la recherche sont plus susceptibles de faire un achat que les clients qui dépendent uniquement de la navigation. En fait, selon certaines études, les gens qui utilisent le référencement sont près de deux fois plus susceptibles de faire un achat.
 
@@ -53,17 +55,17 @@ Les sections suivantes décrivent les fonctionnalités de base de la recherche c
 
 >[!NOTE]
 >
->La fonctionnalité de recherche native de Commerce fournit des résultats de recherche correspondant exactement. Bien que [!DNL Live Search], un module facultatif disponible pour l’installation et l’activation dans Adobe Commerce, soit implémenté différemment et que le résultat ne se limite pas à la chaîne de recherche exacte. Par exemple, lorsque vous avez dix produits étiquetés numériquement pour _Omega_ : une recherche de `Omega 1` donne une correspondance unique pour _Omega 1_ avec la fonctionnalité de recherche native. Mais la même chaîne de recherche optimisée par Live Search génère une correspondance pour plusieurs éléments, _Omega 1_ et _Omega 10_.
+>La fonctionnalité de recherche native de Commerce fournit des résultats de recherche correspondant exactement. Alors que [!DNL Live Search], un module facultatif disponible pour l’installation et l’activation dans Adobe Commerce, est implémenté différemment et que le résultat ne se limite pas à la chaîne de recherche exacte. Par exemple, lorsque vous avez dix produits étiquetés numériquement pour _Oméga_ : une recherche pour `Omega 1` donne une correspondance unique pour _Oméga 1_ avec la fonctionnalité de recherche native. Mais la même chaîne de recherche optimisée par la recherche en direct génère une correspondance pour plusieurs éléments, _Omega 1_ et _Omega 10_.
 
 ## Recherche rapide
 
 >[!NOTE]
 >
->Lorsque [[!DNL Live Search]](https://experienceleague.adobe.com/fr/docs/commerce/live-search/overview) est installé et que le widget [[!DNL Storefront Popover]](https://experienceleague.adobe.com/fr/docs/commerce/live-search/live-search-storefront/storefront-popover) est activé, la zone de recherche renvoie « rechercher au fur et à mesure que vous tapez » dans une fenêtre contextuelle.
+>Lorsque [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) est installé et que le widget [[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/storefront-popover) est activé, la zone de recherche renvoie « rechercher en cours de frappe » dans une fenêtre contextuelle.
 
 La zone de recherche située dans l’en-tête du magasin permet aux visiteurs de trouver les produits de votre catalogue. Le texte de recherche peut être le nom complet ou partiel du produit ou tout autre mot ou expression qui décrit le produit. Les termes de recherche que les personnes utilisent pour trouver des produits peuvent être gérés à partir de l’administrateur.
 
-1. Par **[!UICONTROL Search]**, le client saisit les premières lettres de ce qu’il souhaite trouver.
+1. Pour **[!UICONTROL Search]**, le client saisit les premières lettres de ce qu&#39;il souhaite trouver.
 
    Toutes les correspondances du catalogue s’affichent ci-dessous, avec le nombre de résultats trouvés.
 
@@ -75,7 +77,7 @@ La zone de recherche située dans l’en-tête du magasin permet aux visiteurs d
 
 >[!NOTE]
 >
->La fonctionnalité de recherche avancée de formulaires décrite ici ne s’applique pas aux [[!DNL Live Search]](https://experienceleague.adobe.com/fr/docs/commerce/live-search/overview).
+>La fonctionnalité de recherche avancée de formulaires décrite ici ne s’applique pas à [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
 
 La recherche avancée permet aux acheteurs de rechercher dans le catalogue en fonction des valeurs saisies dans un formulaire. Comme le formulaire contient plusieurs champs, une seule recherche peut inclure plusieurs paramètres. Le résultat est une liste de tous les produits du catalogue qui correspondent aux critères. Un lien vers la Recherche avancée se trouve dans le pied de page de votre boutique.
 
@@ -89,7 +91,7 @@ Chaque champ du formulaire correspond à un attribut de votre catalogue de produ
 
 1. Clique sur **[!UICONTROL Search]** pour afficher les résultats.
 
-   ![Résultats de la recherche](./assets/storefront-search-advanced-results-modify.png){width="700" zoomable="yes"}
+   ![Résultats De La Recherche](./assets/storefront-search-advanced-results-modify.png){width="700" zoomable="yes"}
 
 1. S’il ne voit pas ce qu’il recherche dans les résultats de la recherche, le client clique sur **[!UICONTROL Modify your search]** et tente une autre combinaison de critères.
 
