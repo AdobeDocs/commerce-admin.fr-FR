@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -42,26 +42,28 @@ ht-degree: 0%
 
 Les produits de votre catalogue peuvent faire l’objet de promotions sur d’autres pages en définissant la nature de la relation entre les produits. Ces relations permettent de cibler les acheteurs en fonction de leur intérêt pour un produit similaire ou apparenté.
 
+{{ccdm-merchandising-note}}
+
 ## Défini dans les paramètres du produit
 
-Lorsque vous créez ou mettez à jour un produit, les [paramètres du produit](../catalog/product-create.md#product-settings) vous permettent de définir des relations de produit spécifiques à ce produit :
+Lorsque vous créez ou mettez à jour un produit, les [paramètres du produit](../catalog/product-create.md#product-settings) vous permettent de définir des relations de produit spécifiques pour ce produit :
 
 ### Produits connexes
 
-Les [Produits associés](../catalog/related-products-up-sells-cross-sells.md#related-products) sont destinés à être achetés en plus de l’article que le client consulte. Ils complètent, améliorent ou ajoutent des fonctionnalités facultatives au produit.
+[Les produits associés](../catalog/related-products-up-sells-cross-sells.md#related-products) sont destinés à être achetés en plus de l&#39;article que le client consulte. Ils complètent, améliorent ou ajoutent des fonctionnalités facultatives au produit.
 
 ### Ventes incitatives
 
-Les [produits de montée en gamme](../catalog/related-products-up-sells-cross-sells.md#up-sells) sont des articles similaires, mais peut-être de meilleure qualité, plus populaires ou ayant une meilleure marge bénéficiaire que l&#39;article que le client envisage.
+[Les produits de montée en gamme](../catalog/related-products-up-sells-cross-sells.md#up-sells) sont des articles similaires, mais peut-être de meilleure qualité, plus populaires ou avec une meilleure marge bénéficiaire que l&#39;article que le client envisage.
 
 ### Ventes croisées
 
-Les [produits de vente croisée](../catalog/related-products-up-sells-cross-sells.md#cross-sells) sont proposés sur la page du panier en tant qu’achats de dernière minute avant le début du processus de passage en caisse.
+[Les produits de ventes croisées](../catalog/related-products-up-sells-cross-sells.md#cross-sells) sont proposés sur la page du panier en tant qu’achats de dernière minute avant le début du processus de passage en caisse.
 
 ## Règles de produits associés
 
-![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) [Règles relatives aux produits associés](product-related-rules.md) vous permet de cibler la sélection de produits présentés aux clients sous la forme de produits associés, de ventes incitatives et de ventes croisées.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) [Les règles relatives aux produits](product-related-rules.md) vous permettent de cibler la sélection de produits présentés aux clients sous la forme de produits associés, de ventes incitatives et de ventes croisées.
 
 ## Recommandations de produits optimisées par Adobe AI
 
-![](../assets/adobe-logo.svg) (Adobe Commerce uniquement) [Recommandations de produits](https://experienceleague.adobe.com/fr/docs/commerce/product-recommendations/overview) optimisé par Adobe AI simplifie le processus de définition des relations de produit en utilisant l’intelligence artificielle et des algorithmes de machine learning pour effectuer une analyse approfondie des données agrégées du visiteur. Ces données, lorsqu’elles sont combinées à votre catalogue Adobe Commerce, génèrent des expériences très attrayantes, pertinentes et personnalisées pour l’acheteur.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce uniquement) [Recommandations de produits](https://experienceleague.adobe.com/fr/docs/commerce/product-recommendations/overview) optimisées par Adobe AI simplifie le processus de définition des relations de produit en utilisant l’intelligence artificielle et des algorithmes de machine learning pour effectuer une analyse approfondie des données agrégées du visiteur. Ces données, lorsqu’elles sont combinées à votre catalogue Adobe Commerce, génèrent des expériences très attrayantes, pertinentes et personnalisées pour l’acheteur.

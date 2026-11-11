@@ -1,6 +1,6 @@
 ---
-title: '[!UICONTROL Stores] menu'
-description: L’Administration Commerce comprend le menu [!UICONTROL Stores], qui permet d’accéder aux outils de configuration de la hiérarchie, de la configuration, du stock, des taxes et des attributs du magasin.
+title: Menu [!UICONTROL Stores]
+description: Le menu [!UICONTROL Stores] donne accès aux outils permettant de configurer la hiérarchie, la configuration, le stock, les taxes et les attributs du magasin.
 exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
 TQID: https://experienceleague.adobe.com/LEoQUYqvin2UfF55kCMUiEUh8YungghN-VuEwUOu7gY
 product_v2:
@@ -26,28 +26,28 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '453'
 ht-degree: 0%
 ---
-# [!UICONTROL Stores] menu
+# Menu [!UICONTROL Stores]
 
-Le menu _[!UICONTROL Stores]_&#x200B;permet d’accéder aux paramètres qui sont utilisés moins fréquemment, mais référencés tout au long de votre installation Adobe Commerce ou Magento Open Source. Ces fonctions incluent la configuration de la hiérarchie du magasin, de la configuration, des paramètres de commande et de vente, de la taxe et de la devise, des attributs de produit, des évaluations de révision de produit et des groupes de clients.
+Le menu _[!UICONTROL Stores]_&#x200B;donne accès aux paramètres qui sont utilisés moins fréquemment, mais référencés tout au long de votre installation Adobe Commerce ou Magento Open Source. Ces fonctions incluent la configuration de la hiérarchie du magasin, de la configuration, des paramètres de commande et de vente, de la taxe et de la devise, des attributs de produit, des évaluations de révision de produit et des groupes de clients.
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB Adobe Commerce]
 
 [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
-![Admin - Menu Magasins](./assets/stores-menu.png){width="500" zoomable="yes"}
+![Administrateur - Menu Magasins](./assets/stores-menu.png){width="500" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
 [!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."}
 
-![Admin - Menu Magasins](./assets/stores-menu-accs.png){width="500" zoomable="yes"}
+![Administrateur - Menu Magasins](./assets/stores-menu-accs.png){width="500" zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -59,32 +59,34 @@ Dans la barre latérale _Admin_, cliquez sur **[!UICONTROL Stores]**.
 
 ### [!UICONTROL Settings]
 
-Gérez la hiérarchie des [sites web, boutiques et vues de boutique](stores.md#store-and-site-structure) dans votre installation Adobe Commerce ou Magento Open Source, ainsi que tous les [&#x200B; paramètres de configuration](../configuration-reference/guide-overview.md). En outre, vous pouvez configurer les [conditions générales](terms-and-conditions.md) d’une vente et gérer les [paramètres de statut de la commande](order-status.md#custom-order-status).
+Gérez la hiérarchie de [sites web, magasins et vues de magasin](stores.md#store-and-site-structure) dans votre installation Adobe Commerce ou Magento Open Source, et tous les [paramètres de configuration](../configuration-reference/guide-overview.md). En outre, vous pouvez configurer les [conditions générales](terms-and-conditions.md) d&#39;une vente et gérer les [paramètres de statut de la commande](order-status.md#custom-order-status).
 
 ### [!UICONTROL Inventory]
 
-[Gérez et créez des stocks](../inventory-management/introduction.md) pour lier vos canaux de vente ou sites web à [sources](../inventory-management/sources-manage.md). Les stocks fournissent une quantité vendable agrégée de produits. Les commerçants de Source unique utilisent le Stock par défaut tandis que les commerçants de Source multiples utilisent des stocks personnalisés supplémentaires.
+[Gérer et créer des stocks](../inventory-management/introduction.md) pour lier vos canaux de vente ou sites web à [sources](../inventory-management/sources-manage.md). Les stocks fournissent une quantité vendable agrégée de produits. Les commerçants de Source unique utilisent le Stock par défaut tandis que les commerçants de Source multiples utilisent des stocks personnalisés supplémentaires.
 
 ### [!UICONTROL Taxes]
 
-Gérez tous les types de [fonctions fiscales](taxes.md) dans votre magasin, configurez les règles fiscales de votre magasin, définissez les classes de taxe client et produit, et gérez les zones fiscales et les taux. Vous pouvez également importer des données de taux de taxe dans votre magasin.
+Gérez tous les types de [fonctions fiscales](taxes.md) dans votre magasin, configurez les règles fiscales de votre magasin, définissez les classes de taxe de client et de produit, et gérez les zones fiscales et les taux. Vous pouvez également importer des données de taux de taxe dans votre magasin.
 
 ### [!UICONTROL Currency]
 
-Gérez les taux des [devises](currency.md) acceptés comme paiement dans votre magasin et personnalisez les symboles de devise qui apparaissent dans les prix des produits et les documents de vente.
+Gérez les taux pour les [devises](currency.md) acceptées comme paiement dans votre magasin et personnalisez les symboles de devise qui apparaissent dans les prix des produits et les documents de vente.
 
 ### [!UICONTROL Attributes]
 
-Gérez les attributs utilisés pour les [informations sur les clients](../customers/attribute-properties.md) ou [produits](../catalog/attribute-product-create.md), les retours et les évaluations de produits. Vous pouvez créer des attributs, modifier des attributs existants et gérer des [jeux d’attributs](../catalog/attribute-sets.md).
+Gérez les attributs utilisés pour les [informations sur les produits](../customers/attribute-properties.md) ou [clients](../catalog/attribute-product-create.md), les retours et les évaluations de produits. Vous pouvez créer des attributs, modifier des attributs existants et gérer [des ensembles d’attributs](../catalog/attribute-sets.md).
 
 ### [!UICONTROL Other Settings]
 
-Gérez des paramètres supplémentaires pour les [taux de change de récompense](../merchandising-promotions/reward-exchange-rates.md), [emballage cadeau](cart-configuration.md#gift-wrap) et [registres de cadeaux](../merchandising-promotions/gift-registries.md).
+Gérez des paramètres supplémentaires pour les [taux de change de récompense](../merchandising-promotions/reward-exchange-rates.md), les [enveloppes cadeaux](cart-configuration.md#gift-wrap) et les [registres cadeaux](../merchandising-promotions/gift-registries.md).
 
-## Intégration [!DNL Adobe Commerce Optimizer]
+## Intégration de [!DNL Adobe Commerce Optimizer]
 
-Une fois le [!DNL Adobe Commerce Optimizer Connector] installé, vous pouvez synchroniser le site web et stocker les données d’affichage dans [!DNL Adobe Commerce Optimizer]. La portée du site Web contrôle [synchronisation des prix](stores.md#step-1-create-a-website) (prix et livres de prix). La portée de l’affichage du magasin contrôle [synchronisation des produits](store-views.md#add-a-store-view) (produits et attributs de produit).
+Lorsque [!DNL Adobe Commerce Optimizer Connector] est installé, vous pouvez synchroniser le site web et stocker les données d’affichage dans [!DNL Adobe Commerce Optimizer]. La portée du site Web contrôle [la synchronisation des prix](stores.md#step-1-create-a-website) (prix et livres de prix). La portée de l’affichage du magasin contrôle [la synchronisation des produits](store-views.md#add-a-store-view) (produits et attributs de produit).
 
-Pour les indicateurs de statut de synchronisation affichés sur la grille de [!UICONTROL All Stores], consultez [Statut de synchronisation de Adobe Commerce Optimizer](store-views.md#optimizer-sync-status). Pour le paramétrage et le comportement de la configuration du connecteur, voir [&#x200B; Personnaliser la configuration d&#39;exportation des étendues de Commerce](https://experienceleague.adobe.com/fr/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) dans le *Guide du connecteur Adobe Commerce Optimizer*.
+Pour les indicateurs de statut de synchronisation affichés sur la grille [!UICONTROL All Stores], consultez [Statut de synchronisation de Adobe Commerce Optimizer](store-views.md#optimizer-sync-status). Pour l&#39;installation du connecteur et le comportement de la configuration, consultez [Personnaliser la configuration d&#39;exportation des étendues de Commerce](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) dans le *Guide du connecteur Adobe Commerce Optimizer*.
 
-Si le [!DNL Adobe Commerce Optimizer Connector for B2B] est installé, les données sont également synchronisées pour les catalogues partagés B2B disponibles. Voir [Gérer les vues de catalogue](../b2b/catalog-views-manage.md).
+Si [!DNL Adobe Commerce Optimizer Connector for B2B] est installé, les données sont également synchronisées pour les catalogues partagés B2B disponibles. Voir [Gestion des vues de catalogue](../b2b/catalog-views-manage.md).
+
+Les instances configurées avec le modèle de données de catalogue composable (CCDM) synchronisent les données de site web, de magasin, d’affichage et de prix de manière native et n’utilisent pas le connecteur. Voir [Services de marchandisage avec CCDM](/help/optimizer/overview.md).

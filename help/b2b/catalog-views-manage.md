@@ -33,14 +33,18 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '412'
 ht-degree: 0%
 ---
 # Gestion de la configuration de la vue de catalogue
 
-Une fois l’extension [!DNL Adobe Commerce Optimizer Connector for B2B] installée, la page Vues du catalogue répertorie les [!DNL Adobe Commerce Optimizer] [projections des vues du catalogue](https://experienceleague-review.adobe.com/en/docs/commerce/aco-optimizer-connector/b2b-shared-catalog-projection){target="_blank"} créées pour le catalogue partagé personnalisé.  Une _projection_ est la vue de catalogue créée lorsque le connecteur synchronise les données de catalogue partagées avec [!DNL Adobe Commerce Optimizer]. Le connecteur crée une projection distincte pour chaque vue de magasin du catalogue partagé, de sorte qu’un catalogue partagé puisse avoir plusieurs vues de catalogue. Dans les expériences storefront, ces vues de catalogue sont accessibles uniquement aux sociétés affectées au catalogue partagé associé.
+>[!NOTE]
+>
+>Cette rubrique décrit l’implémentation des vues du catalogue pour les déploiements de Commerce à l’aide du connecteur Adobe Commerce Optimizer pour B2B. Si vous utilisez Adobe Commerce as a Cloud Service avec les services de marchandisage et le modèle de données de catalogue composable (CCDM), consultez la section Configuration de [vues de catalogue](../optimizer/setup/catalog-view.md) dans le _Guide des services de marchandisage avec le CCDM_.
+
+Une fois l’extension [!DNL Adobe Commerce Optimizer Connector for B2B] installée, la page Vues du catalogue répertorie les [!DNL Adobe Commerce Optimizer] [projections de vues du catalogue](https://experienceleague-review.adobe.com/en/docs/commerce/aco-optimizer-connector/b2b-shared-catalog-projection){target="_blank"} créées pour le catalogue partagé personnalisé.  Une _projection_ est la vue de catalogue créée lorsque le connecteur synchronise les données de catalogue partagées avec [!DNL Adobe Commerce Optimizer]. Le connecteur crée une projection distincte pour chaque vue de magasin du catalogue partagé, de sorte qu’un catalogue partagé puisse avoir plusieurs vues de catalogue. Dans les expériences storefront, ces vues de catalogue sont accessibles uniquement aux sociétés affectées au catalogue partagé associé.
 
 Supposons, par exemple, qu’Acme Industrial soit affecté à un catalogue partagé, EU Business, qui appartient au site web de l’UE. Ce site Web propose deux affichages de magasin :
 
@@ -62,11 +66,11 @@ Les deux vues de catalogue peuvent partager le même catalogue de prix lorsqu’
 
 Le connecteur protège les vues de catalogue avec des clés d’accès restreintes. Adobe Commerce utilise la clé privée pour signer un jeton d’accès pour un acheteur autorisé. Avant de renvoyer des données de catalogue protégées, [!DNL Adobe Commerce Optimizer] valide le jeton par rapport à la clé publique correspondante associée à la vue de catalogue demandée.
 
-Pour configurer la durée de vie du jeton ou désactiver l’émission du jeton, voir [Services > Vue Catalogue ACO](/help/configuration-reference/services/aco-catalog-view.md).
+Pour configurer la durée de vie du jeton ou désactiver l&#39;émission du jeton, voir [Services > Vue Catalogue ACO](/help/configuration-reference/services/aco-catalog-view.md).
 
-Vous pouvez examiner ces vues de catalogue et gérer leurs clés affectées à partir de l’onglet _[!UICONTROL Catalog Views]_&#x200B;du catalogue partagé ou de la section&#x200B;_[!UICONTROL Catalog Views]_ de l’entreprise associée ; les deux répertorient les mêmes vues de catalogue et les mêmes affectations de clés actuelles. Consultez [Modifier les clés d’accès restreint](#edit-restricted-access-keys) pour connaître le chemin de navigation exact à partir de chaque emplacement.
+Vous pouvez examiner ces vues de catalogue et gérer leurs clés affectées à partir de l’onglet _[!UICONTROL Catalog Views]_&#x200B;du catalogue partagé ou de la section&#x200B;_[!UICONTROL Catalog Views]_ de l’entreprise associée. Les deux répertorient les mêmes vues de catalogue et les mêmes affectations de clés actuelles. Consultez [Modifier les clés d’accès restreint](#edit-restricted-access-keys) pour connaître le chemin de navigation exact à partir de chaque emplacement.
 
-Pour surveiller la synchronisation des données de catalogue partagées avec [!DNL Adobe Commerce Optimizer], consultez [Surveillance de l’état de synchronisation des vues du catalogue](/help/systems/catalog-view-sync-status.md).
+Pour surveiller la synchronisation des données de catalogue partagées avec [!DNL Adobe Commerce Optimizer], consultez [Surveillance du statut de synchronisation des vues du catalogue](/help/systems/catalog-view-sync-status.md).
 
 ## Référence des vues de catalogue
 
@@ -76,7 +80,7 @@ Pour surveiller la synchronisation des données de catalogue partagées avec [!D
 
 {{$include /help/_includes/edit-restricted-access-keys.md}}
 
-Pour plus d’informations, voir [Gestion des clés d’accès restreint](/help/systems/restricted-access-keys.md).
+Pour plus d&#39;informations, voir [Gérer les clés d&#39;accès restreint](/help/systems/restricted-access-keys.md).
 
 >[!MORELIKETHIS]
 >

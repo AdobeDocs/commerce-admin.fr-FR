@@ -33,30 +33,31 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
+source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
 workflow-type: tm+mt
-source-wordcount: 329
-ht-degree: 5%
-
+source-wordcount: '498'
+ht-degree: 3%
 ---
-
 # Guide de gestion des catalogues Adobe Commerce
 
-Ce guide est destiné aux marketeurs et aux responsables d’inventaire qui travaillent dans Adobe Commerce et dans Magento Open Source Admin. Elle fournit des informations détaillées sur les fonctionnalités du catalogue de produits, y compris la création des structures de navigation d’un catalogue. Il suppose une compréhension de base de la configuration, de la configuration et des fonctionnalités de [!DNL Commerce] de base.
+Ce guide est destiné aux marketeurs et aux responsables d’inventaire qui travaillent dans Adobe Commerce et dans Magento Open Source Admin. Elle fournit des informations détaillées sur les fonctionnalités du catalogue de produits, y compris la création des structures de navigation d’un catalogue. Il suppose une compréhension de base de la configuration, de la configuration et des fonctionnalités de base de [!DNL Commerce].
 
 Ce guide couvre les sujets suivants :
 
 | Objet | Description |
 | ------- | ----------- |
 | [Introduction](introduction.md) | Présentation de l’utilisation des fonctionnalités de gestion de catalogue pour indiquer comment vous souhaitez que les clients trouvent des produits dans votre magasin. |
-| [Menu Catalogue](catalog-menu.md) | Utilisez le menu [!UICONTROL Catalog] pour accéder à plusieurs fonctionnalités de gestion des catalogues, des catégories et des produits de votre boutique. |
+| [Menu Catalogue](catalog-menu.md) | Utilisez le menu [!UICONTROL Catalog] pour accéder à plusieurs fonctionnalités de gestion des catalogues, des catégories et des produits pour votre boutique. |
 | [URL de catalogue et de produit](catalog-urls.md) | Examinez les types d’URL de base et comment concevoir vos URL afin d’optimiser le moteur de recherche. |
-| [Navigation catalogue](navigation.md) | Utilisez les outils de navigation pour définir la manière dont vos clients passent d’une page à l’autre de votre boutique. |
-| [&#x200B; Recherche catalogue &#x200B;](search.md) | Examinez les outils que les clients peuvent utiliser pour localiser les produits sur le storefront et configurez l’expérience de recherche en fonction de votre catalogue de produits. |
+| [Navigation dans les catalogues](navigation.md) | Utilisez les outils de navigation pour définir la manière dont vos clients passent d’une page à l’autre de votre boutique. |
+| [Recherche catalogue](search.md) | Examinez les outils que les clients peuvent utiliser pour localiser les produits sur le storefront et configurez l’expérience de recherche en fonction de votre catalogue de produits. |
 | [Catégories](categories.md) | Établissez la structure des catégories de base de votre catalogue de manière à optimiser l’expérience de l’acheteur sur votre storefront. |
 | [Produits](products-list.md) | Créez des produits simples à complexes avec plusieurs options, échantillons, lots personnalisables. Créez des produits téléchargeables et des produits virtuels pour des services et d’autres éléments non tangibles. |
+| [Catalogues partagés](../b2b/enable-basic-features.md) | Les catalogues partagés permettent aux commerçants de proposer à différentes sociétés des assortiments de produits sélectionnés et des prix personnalisés. Nécessite une licence B2B Adobe Commerce et une configuration, y compris les comptes de société et les fonctionnalités de catalogue partagé. |
 | [Enrichissement du catalogue](catalog-enrichment.md) | Examinez et appliquez les améliorations suggérées par l’IA aux noms et descriptions des produits afin que votre catalogue soit représenté avec précision dans LLM et la découverte assistée par l’IA. |
 | [Attributs de produit](product-attributes.md) | Créez des attributs avec des commandes d’entrée pour les options de produit et pour fournir des informations supplémentaires sur les pages de produit. |
+| [Vues du catalogue](../optimizer/setup/catalog-view.md) [!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."} | Pour les déploiements Commerce utilisant les services de marchandisage avec le modèle de données de catalogue composable (CCDM), définissez les produits et les prix qu’un client peut récupérer en combinant des sources de catalogue, des couches de catalogue, des politiques et des livres de prix pour chaque marque, région, unité opérationnelle ou canal. Vous pouvez éventuellement restreindre une vue de catalogue pour la rendre privée. |
+| [Politiques](../optimizer/setup/policies.md) [!BADGE SaaS uniquement]{type=Positive url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce as a Cloud Service et Adobe Commerce Optimizer (infrastructure SaaS gérée par Adobe)."} | Pour les déploiements Commerce à l’aide du CCDM, définissez les filtres d’accès aux données qui contrôlent les produits fournis par chaque vue de catalogue, afin que le contenu approprié soit envoyé à la destination appropriée. |
 
 {style="table-layout:auto"}
 

@@ -31,7 +31,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 2b2cbba1005638bccfd8c4f14075cf98475f05f4
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -46,15 +46,15 @@ Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à pa
 
 1. Cliquez sur **[!UICONTROL Add New Attribute]**.
 
-   ![Nouvelles propriétés d’attribut](./assets/attribute-properties.png){width="600" zoomable="yes"}
+   ![Nouvelles Propriétés D’Attribut](./assets/attribute-properties.png){width="600" zoomable="yes"}
 
-1. Par **[!UICONTROL Default Label]**, saisissez un libellé qui identifie l’attribut.
+1. Pour **[!UICONTROL Default Label]**, saisissez un libellé qui identifie l&#39;attribut.
 
-1. Définissez **[!UICONTROL Catalog Input Type for Store Owner]** sur le type de [contrôle de saisie](attributes-input-types.md) à utiliser pour la saisie de données.
+1. Définissez **[!UICONTROL Catalog Input Type for Store Owner]** sur le type de [contrôle d&#39;entrée](attributes-input-types.md) à utiliser pour la saisie de données.
 
    Si l’attribut est utilisé pour un [produit configurable](product-create-configurable.md), choisissez `Dropdown`. Définissez ensuite **[!UICONTROL Required]** sur `Yes`.
 
-1. Si vous souhaitez exiger une sélection d’options avant que le client puisse acheter le produit, définissez **[!UICONTROL Values Required]** sur `Yes`.
+1. Si vous souhaitez exiger une sélection d&#39;options avant que le client puisse acheter le produit, définissez **[!UICONTROL Values Required]** sur `Yes`.
 
 1. Pour les types d’entrée [!UICONTROL Dropdown] et [!UICONTROL Multiple Select], procédez comme suit :
 
@@ -64,11 +64,11 @@ Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à pa
 
      Vous pouvez saisir une valeur pour l’administrateur et une traduction de la valeur pour chaque vue de magasin. Si vous n’avez qu’une seule vue de magasin, vous ne pouvez saisir que la valeur Admin. Elle est également utilisée pour le storefront.
 
-   - Cliquez sur **[!UICONTROL Add Option]** et répétez l’étape précédente pour chaque option que vous souhaitez inclure dans la liste.
+   - Cliquez sur **[!UICONTROL Add Option]** et répétez l&#39;étape précédente pour chaque option que vous souhaitez inclure dans la liste.
 
    - Sélectionnez **[!UICONTROL Is Default]** pour utiliser l’option comme valeur par défaut.
 
-   ![Attribut de produit - Gérer les options](./assets/product-attribute-add-values-colors.png){width="600" zoomable="yes"}
+   ![Attribut de produit - gérer les options](./assets/product-attribute-add-values-colors.png){width="600" zoomable="yes"}
 
 ## Étape 2 : décrire les propriétés avancées (si nécessaire)
 
@@ -76,17 +76,17 @@ Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à pa
 
    >[!NOTE]
    >
-   >Il n’est pas recommandé d’utiliser la valeur `type` dans le champ [!UICONTROL Attribute Code] . Cela peut entraîner des erreurs, car la valeur `type` est réservée à une utilisation système.
+   >Il n’est pas recommandé d’utiliser la valeur `type` dans le champ [!UICONTROL Attribute Code]. Cela peut entraîner des erreurs, car la valeur `type` est réservée à une utilisation système.
 
    ![Attribut de produit - propriétés avancées](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
    Les options disponibles dépendent du paramètre _[!UICONTROL Catalog Input Type for Store Owner]_.
 
-1. Pour indiquer où l’attribut peut être utilisé dans votre hiérarchie de [magasin](../getting-started/websites-stores-views.md), définissez **[!UICONTROL Scope]**.
+1. Pour indiquer où l’attribut peut être utilisé dans votre [hiérarchie de magasin](../getting-started/websites-stores-views.md), définissez **[!UICONTROL Scope]**.
 
-1. Pour empêcher toute entrée de valeurs en double, définissez **[!UICONTROL Unique Value]** sur `Yes`.
+1. Pour empêcher toute entrée de valeur en double, définissez **[!UICONTROL Unique Value]** sur `Yes`.
 
-1. Pour les types d’entrée qui sont des valeurs saisies, exécutez un test de validité de toutes les données saisies dans un champ de texte en définissant **[!UICONTROL Input Validation for Store Owner]** sur le type de données que le champ doit contenir.
+1. Pour les types d&#39;entrée qui sont des valeurs saisies, exécutez un test de validité de toutes les données saisies dans un champ de texte en définissant **[!UICONTROL Input Validation for Store Owner]** sur le type de données que le champ doit contenir.
 
    Ce champ n’est pas disponible pour les types d’entrée avec des valeurs sélectionnées. Le test peut valider l’un des éléments suivants :
 
@@ -99,10 +99,10 @@ Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à pa
 
    ![Validation des entrées](./assets/product-attribute-input-validation.png){width="400"}
 
-1. Pour ajouter cet attribut à la [liste de produits](products-list.md), définissez les options suivantes sur `Yes`.
+1. Pour ajouter cet attribut à la liste [Produits](products-list.md), définissez les options suivantes sur `Yes`.
 
    - **Ajouter aux options de colonne** - Inclut l’attribut en tant que colonne dans la liste _[!UICONTROL Products]_.
-   - **Utiliser dans les options de filtre** : ajoute un contrôle de filtre à l’en-tête de colonne dans la liste _[!UICONTROL Products]_.
+   - **Utiliser dans les options de filtre** - Ajoute un contrôle de filtre à l’en-tête de colonne de la liste _[!UICONTROL Products]_.
 
 ## Étape 3 : saisir le libellé du champ
 
@@ -112,7 +112,7 @@ Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à pa
 
    Si votre boutique est disponible dans différentes langues, vous pouvez saisir un titre traduit pour chaque affichage.
 
-   ![Attribut de produit - Gestion des titres](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
+   ![Attribut de produit - gérer les titres](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -130,7 +130,7 @@ Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à pa
 
    - Pour contrôler où l’élément apparaît dans les résultats de recherche, définissez la valeur **[!UICONTROL Search Weight]** : 1 (poids le plus faible) sur 10 (poids le plus élevé).
 
-   - Définissez la **[!UICONTROL Visible in Advanced Search]** selon vos besoins. En savoir plus sur la [Recherche avancée](search.md#advanced-search).
+   - Définissez **[!UICONTROL Visible in Advanced Search]** selon vos besoins. En savoir plus sur la recherche avancée [1&rbrace;.](search.md#advanced-search)
 
 1. Pour inclure l’attribut dans la comparaison de produits, définissez **[!UICONTROL Comparable on Storefront]** sur `Yes`.
 
@@ -140,15 +140,15 @@ Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à pa
 
    - Pour utiliser l’attribut dans une navigation superposée sur les pages de résultats de recherche, définissez **[!UICONTROL Use in Search Results Layered Navigation]** sur `Yes`.
 
-   - Par **[!UICONTROL Position]**, saisissez un nombre pour indiquer la position relative de l’attribut dans le bloc de navigation superposé.
+   - Pour **[!UICONTROL Position]**, saisissez un nombre pour indiquer la position relative de l’attribut dans le bloc de navigation superposé.
 
 1. Pour utiliser l’attribut dans les règles de prix, définissez **[!UICONTROL Use for Promo Rule Conditions]** sur `Yes`.
 
-1. Pour permettre la mise en forme du texte avec HTML, définissez **[!UICONTROL Allow HTML Tags on Frontend]** sur `Yes`.
+1. Pour autoriser le formatage du texte avec HTML, définissez **[!UICONTROL Allow HTML Tags on Frontend]** sur `Yes`.
 
    Ce paramètre rend l’éditeur WYSIWYG disponible pour le champ.
 
-1. Pour inclure l’attribut dans la page de produit, définissez **[!UICONTROL Visible on Catalog Pages on Storefront]** sur `Yes`.
+1. Pour inclure l’attribut sur la page produit, définissez **[!UICONTROL Visible on Catalog Pages on Storefront]** sur `Yes`.
 
 1. Renseignez les paramètres suivants s’ils sont pris en charge par votre thème :
 
@@ -156,7 +156,7 @@ Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à pa
 
    - Pour utiliser l’attribut comme paramètre de tri pour les listes de produits, définissez **[!UICONTROL Used for Sorting in Product Listing]** sur `Yes`.
 
-1. Cliquez ensuite sur **[!UICONTROL Save Attribute]**.
+1. Une fois terminé, cliquez sur **[!UICONTROL Save Attribute]**.
 
 ## Étape 5 : affecter l’attribut créé au jeu d’attributs
 
@@ -166,16 +166,16 @@ Pour qu’un attribut soit visible sur la page de création du produit, ajoutez-
 
 1. Sélectionnez le jeu d’attributs dont vous avez besoin dans la liste, puis ouvrez-le en mode d’édition.
 
-1. Faites glisser l’attribut créé de la liste de **[!UICONTROL Unassigned Attributes]** vers le dossier approprié dans la colonne **Groupes**.
+1. Faites glisser l’attribut créé de la liste **[!UICONTROL Unassigned Attributes]** vers le dossier approprié dans la colonne **Groupes**.
 
-1. Cliquez ensuite sur **[!UICONTROL Save]**.
+1. Une fois terminé, cliquez sur **[!UICONTROL Save]**.
 
 ## Attributs pour les produits configurables
 
-Tout attribut utilisé comme liste déroulante d’options pour un [produit configurable](product-create-configurable.md) doit posséder les propriétés suivantes :
+Tout attribut utilisé comme liste déroulante d&#39;options pour un [produit configurable](product-create-configurable.md) doit posséder les propriétés suivantes :
 
 | Propriété | Valeur |
-|----------|------ |
+| ---------- | ------ |
 | Type d’entrée de catalogue pour le propriétaire de la boutique | Liste déroulante |
 | Portée | Global |
 
@@ -185,7 +185,7 @@ Tout attribut utilisé comme liste déroulante d’options pour un [produit conf
 
 Lorsqu’un attribut est supprimé, il est supprimé de tous les produits et jeux d’attributs associés. Les attributs système font partie des fonctionnalités principales de votre magasin et ne peuvent pas être supprimés.
 
-Avant de supprimer un attribut, assurez-vous qu’aucun produit de votre catalogue ne l’utilise actuellement. Pour déterminer facilement si un attribut est en cours d’utilisation, utilisez l’outil [Export](../systems/data-export.md) afin de vérifier la liste des attributs d’entité du produit. Si la liste n’inclut pas l’attribut , aucun produit du catalogue ne l’utilise.
+Avant de supprimer un attribut, assurez-vous qu’aucun produit de votre catalogue ne l’utilise actuellement. Pour déterminer facilement si un attribut est en cours d’utilisation, utilisez l’outil [Exporter](../systems/data-export.md) pour vérifier la liste des attributs d’entité du produit. Si la liste n’inclut pas l’attribut , aucun produit du catalogue ne l’utilise.
 
 **_Pour supprimer un attribut:_**
 

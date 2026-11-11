@@ -39,16 +39,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1132'
 ht-degree: 0%
 ---
 # Gestion des catalogues partagés
 
 La page _[!UICONTROL Shared Catalogs]_&#x200B;donne accès aux outils nécessaires à la gestion de vos catalogues partagés, notamment la sélection de produits, la tarification personnalisée, les autorisations de catégorie et les détails de catalogue. La page est similaire à l’espace de travail d’administration standard, avec des filtres et des commandes d’action. La grille répertorie tous les catalogues partagés, y compris le catalogue public partagé par défaut et tous les catalogues personnalisés que vous avez configurés.
 
-Si l’extension [!DNL Adobe Commerce Optimizer Connector for B2B] est installée, la page permet également d’accéder aux vues de catalogue [!DNL Adobe Commerce Optimizer] créées lorsque le connecteur synchronise les données de chaque catalogue partagé avec [!DNL Adobe Commerce Optimizer], ainsi qu’aux clés d’accès restreintes qui sécurisent les vues de catalogue pour les expériences de storefront B2B.
+Si l’extension [!DNL Adobe Commerce Optimizer Connector for B2B] est installée, la page permet également d’accéder aux [!DNL Adobe Commerce Optimizer] vues de catalogue créées lorsque le connecteur synchronise les données de chaque catalogue partagé avec [!DNL Adobe Commerce Optimizer], ainsi qu’aux clés d’accès restreint qui sécurisent les vues de catalogue pour les expériences de storefront B2B. Pour les instances configurées avec le modèle de données de catalogue composable (CCDM), la synchronisation native génère des vues de catalogue à partir de catalogues partagés. Voir [Vues de catalogue B2B](/help/optimizer/setup/catalog-view.md#b2b-catalog-views).
 
 ## Mettre à jour la sélection de produits
 
@@ -58,9 +58,9 @@ La sélection de produits dans un catalogue partagé peut être facilement mise 
 
 1. Pour le catalogue partagé dans la grille, accédez à la colonne **[!UICONTROL Action]** et sélectionnez **[!UICONTROL Set Pricing and Structure]**.
 
-   ![Grille de catalogue partagé et menu Action](./assets/shared-catalog-set-pricing-structure.png){width="700" zoomable="yes"}
+   ![Grille de catalogue partagé et menu d&#39;actions](./assets/shared-catalog-set-pricing-structure.png){width="700" zoomable="yes"}
 
-1. Suivez les instructions de l’[étape 2 : sélection des produits](catalog-shared-pricing-structure.md#step-2-choose-the-products).
+1. Suivez les instructions de l&#39;[Étape 2 : Choisissez les produits](catalog-shared-pricing-structure.md#step-2-choose-the-products).
 
    Vous pouvez ignorer le premier élément, car l’étendue d’un catalogue partagé ne peut pas être modifiée après son premier enregistrement.
 
@@ -74,26 +74,26 @@ La tarification personnalisée des produits dans un catalogue partagé peut êtr
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
-1. Pour le catalogue partagé de la grille que vous souhaitez mettre à jour, accédez à la colonne **[!UICONTROL Action]** et sélectionnez **[!UICONTROL Set Pricing and Structure]**.
+1. Pour le catalogue partagé dans la grille que vous souhaitez mettre à jour, accédez à la colonne **[!UICONTROL Action]** et sélectionnez **[!UICONTROL Set Pricing and Structure]**.
 
 1. Sur la page _[!UICONTROL Catalog Structure]_, cliquez sur **[!UICONTROL Configure]**&#x200B;et effectuez l’une des opérations suivantes :
 
-   - Dans l’indicateur de progression en haut de la page, cliquez sur **[!UICONTROL Pricing]**.
+   - Dans l&#39;indicateur de progression en haut de la page, cliquez sur **[!UICONTROL Pricing]**.
    - Dans le coin supérieur droit, cliquez sur **[!UICONTROL Next]**.
 
-1. Suivez les instructions de l’[étape 3 : définir des prix personnalisés](catalog-shared-pricing-structure.md#step-3-set-custom-prices).
+1. Suivez les instructions de l&#39;[Étape 3 : Fixez des prix personnalisés](catalog-shared-pricing-structure.md#step-3-set-custom-prices).
 
 ## Mettre à jour les autorisations de catégorie
 
-Les [autorisations de catégorie](../catalog/category-permissions.md) sont automatiquement définies sur `Allow` pour les produits ajoutés à partir de l’arborescence des catégories à un catalogue partagé. Vous pouvez ensuite ajuster les autorisations ou créer des règles supplémentaires, si nécessaire.
+Les [autorisations de catégorie](../catalog/category-permissions.md) sont automatiquement définies sur `Allow` pour les produits ajoutés de l’arborescence des catégories à un catalogue partagé. Vous pouvez ensuite ajuster les autorisations ou créer des règles supplémentaires, si nécessaire.
 
 >[!NOTE]
 >
->**[Version 1.3.0 de B2B](release-notes.md#b2b-v130) et versions ultérieures** — Lorsque vous créez un catalogue partagé, chaque autorisation [de catégorie](../catalog/category-permissions.md) est définie sur `Allow` pour les _[!UICONTROL Display Product Prices]_&#x200B;et&#x200B;_[!UICONTROL Add to Cart]_ pour les groupes de clients attribués. Auparavant, ces paramètres étaient automatiquement définis sur `Deny` même lorsque les autorisations de catalogue étaient définies sur `Allow`.
+>**[Version B2B 1.3.0](release-notes.md#b2b-v130) et versions ultérieures** — Lorsque vous créez un catalogue partagé, chaque autorisation de [catégorie](../catalog/category-permissions.md) est définie sur `Allow` pour _[!UICONTROL Display Product Prices]_&#x200B;et&#x200B;_[!UICONTROL Add to Cart]_ pour les groupes de clients attribués. Auparavant, ces paramètres étaient automatiquement définis sur `Deny` même lorsque les autorisations de catalogue étaient définies sur `Allow`.
 
 >[!IMPORTANT]
 >
->**_[!UICONTROL Shared Catalog]_** remplace toutes les catégories [paramètres d’autorisation de groupe](../configuration-reference/catalog/catalog.md#category-permissions) existantes pour **_toutes_** du catalogue lorsqu’elles sont activées. [!UICONTROL Shared Catalog] contrôle entièrement toutes les autorisations de catégorie du catalogue lorsqu’il est activé.
+>**_[!UICONTROL Shared Catalog]_** remplace tous les paramètres d’autorisation de [groupe](../configuration-reference/catalog/catalog.md#category-permissions) existants pour les catégories **_all_** du catalogue lorsqu’ils sont activés. [!UICONTROL Shared Catalog] contrôle entièrement toutes les autorisations de catégorie du catalogue lorsqu&#39;il est activé.
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
@@ -101,15 +101,15 @@ Les [autorisations de catégorie](../catalog/category-permissions.md) sont autom
 
    Pour inclure tous les produits, sélectionnez la catégorie de niveau supérieur dans l’arborescence.
 
-1. Faites défiler vers le bas et développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Category Permissions]** .
+1. Faites défiler vers le bas et développez le ![sélecteur d’extension](../assets/icon-display-expand.png) dans la section **[!UICONTROL Category Permissions]**.
 
 1. Cliquez sur **[!UICONTROL New Permission]** et procédez comme suit :
 
-   ![Nouvelle autorisation](./assets/category-permissions-new.png){width="600" zoomable="yes"}
+   ![Nouvelle Autorisation](./assets/category-permissions-new.png){width="600" zoomable="yes"}
 
-   - Sélectionnez le **[!UICONTROL Customer Group]** correspondant au catalogue partagé et modifiez les paramètres d’autorisation si nécessaire.
+   - Sélectionnez **[!UICONTROL Customer Group]** qui correspond au catalogue partagé et modifiez les paramètres d’autorisation si nécessaire.
 
-     ![Règle des autorisations de catégorie](./assets/shared-catalog-category-permissions.png){width="600" zoomable="yes"}
+     ![Règle Des Autorisations De Catégorie](./assets/shared-catalog-category-permissions.png){width="600" zoomable="yes"}
 
    - Pour créer une règle d’autorisations pour un autre groupe de clients, cliquez sur **[!UICONTROL New Permissions]** et répétez le processus.
 
@@ -121,7 +121,7 @@ Les [autorisations de catégorie](../catalog/category-permissions.md) sont autom
 
 Les informations détaillées de tout catalogue partagé peuvent être facilement mises à jour à partir de la colonne Action de la grille Catalogues partagés. Les modifications que vous apportez sont répercutées dans les comptes de société associés.
 
-![Paramètres généraux](./assets/shared-catalog-grid-general-settings.png){width="700" zoomable="yes"}
+![Paramètres Généraux](./assets/shared-catalog-grid-general-settings.png){width="700" zoomable="yes"}
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
@@ -132,14 +132,14 @@ Les informations détaillées de tout catalogue partagé peuvent être facilemen
 1. Mettez à jour les informations détaillées du catalogue si nécessaire.
 
    - La modification du nom d’un catalogue partagé modifie également le nom du groupe de clients correspondant.
-   - Si vous remplacez le type de catalogue `Custom` par `Public`, le catalogue public existant est converti en catalogue personnalisé. Toutes les sociétés associées au catalogue public d’origine sont réaffectées au remplacement. Un catalogue public ne peut pas être converti en catalogue personnalisé.
-   - Pour identifier la classification fiscale appliquée aux achats effectués via le catalogue partagé, sélectionnez l’[!UICONTROL Customer Tax Class].
+   - La modification du type de catalogue de `Custom` en `Public` convertit le catalogue public existant en catalogue personnalisé. Toutes les sociétés associées au catalogue public d’origine sont réaffectées au remplacement. Un catalogue public ne peut pas être converti en catalogue personnalisé.
+   - Pour identifier la classification de taxe appliquée aux achats effectués via le catalogue partagé, sélectionnez [!UICONTROL Customer Tax Class].
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save]**.
 
 ## Gestion de la configuration de la vue de catalogue
 
-Une fois l’extension [!DNL Adobe Commerce Optimizer Connector for B2B] installée, la section _[!UICONTROL Catalog Views]_&#x200B;d’un catalogue partagé répertorie les vues de catalogue [!DNL Adobe Commerce Optimizer] projetées à partir du catalogue partagé et vous permet de gérer les clés d’accès restreint qui les sécurisent.
+Une fois l’extension [!DNL Adobe Commerce Optimizer Connector for B2B] installée, la section _[!UICONTROL Catalog Views]_&#x200B;d’un catalogue partagé répertorie les [!DNL Adobe Commerce Optimizer] vues de catalogue projetées à partir du catalogue partagé et vous permet de gérer les clés d’accès restreint qui les sécurisent.
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
@@ -147,7 +147,7 @@ Une fois l’extension [!DNL Adobe Commerce Optimizer Connector for B2B] install
 
 1. Dans le panneau _[!UICONTROL Shared Catalog Information]_, sélectionnez **[!UICONTROL Catalog Views]**.
 
-Pour en savoir plus sur les vues de catalogue et la modification des clés d’accès restreintes, voir [Gérer la configuration des vues de catalogue](catalog-views-manage.md).
+Pour en savoir plus sur les vues de catalogue et la modification des clés d’accès restreintes, consultez [Gérer la configuration des vues de catalogue](catalog-views-manage.md).
 
 ## Référence de page de catalogue partagé
 
@@ -158,7 +158,7 @@ Pour en savoir plus sur les vues de catalogue et la modification des clés d’a
 | [!UICONTROL Back] | Retourne à la page Catalogues partagés sans enregistrer le nouveau catalogue partagé. |
 | [!UICONTROL Delete] | Supprime le catalogue et réaffecte toutes les sociétés associées et leurs membres au catalogue public partagé. |
 | [!UICONTROL Reset] | Efface le formulaire des modifications non enregistrées et restaure les informations détaillées d’origine du catalogue. |
-| [!UICONTROL Duplicate] | Crée une [copie en double du catalogue](catalog-shared-create.md). Pour un catalogue personnalisé, modèle et structure de tarification de l’original, mais sans les associations d’entreprises. Si un catalogue public partagé est dupliqué, le type du catalogue dupliqué devient `custom`. Un groupe de clients correspondant est également créé et porte le même nom que le catalogue en double. Par défaut, un catalogue en double est nommé _Dupliquer de_ catalogue d’origine. |
+| [!UICONTROL Duplicate] | Crée une [copie en double du catalogue](catalog-shared-create.md). Pour un catalogue personnalisé, modèle et structure de tarification de l’original, mais sans les associations d’entreprises. Si un catalogue public partagé est dupliqué, le type du catalogue dupliqué passe à `custom`. Un groupe de clients correspondant est également créé et porte le même nom que le catalogue en double. Par défaut, un catalogue en double est nommé _Dupliqué de_ le catalogue d’origine. |
 | [!UICONTROL Save and Continue Edit] | Enregistre toutes les modifications et maintient le formulaire ouvert en mode d’édition. |
 | [!UICONTROL Save] | Enregistre les modifications, ferme le formulaire et revient à la page Catalogues partagés. |
 
@@ -170,7 +170,7 @@ Pour en savoir plus sur les vues de catalogue et la modification des clés d’a
 | --- | --- |
 | [!UICONTROL Name] | Identifie le catalogue partagé dans l’ensemble de l’administration et dans les comptes clients où il est disponible. Le nom du catalogue doit être explicite et ne pas dépasser 32 caractères. Vous ne pouvez pas avoir deux catalogues partagés avec le même nom. Nombre maximal de caractères : 32 |
 | [!UICONTROL Type] | **[!UICONTROL Custom]** - Identifie un catalogue avec tarification personnalisée qui n&#39;est disponible que pour les sociétés spécifiques auxquelles il est affecté.<br/>**[!UICONTROL Public]**- Identifie le catalogue partagé qui est disponible pour tous les visiteurs invités et pour les clients connectés qui ne sont pas associés à une entreprise. Un catalogue public partagé « par défaut » est créé lors de l’installation d’Adobe Commerce B2B, mais doit être configuré par l’administrateur. Un seul catalogue public partagé peut exister à la fois. |
-| [!UICONTROL Customer Tax Class] | Détermine la classe de taxe utilisée pour les achats effectués à partir du catalogue. Les options incluent toutes les classes de taxe disponibles. La classe de taxe est associée au groupe de clients créé ou utilisé pour le catalogue partagé. Voir [Classes d’impôts](../stores-purchase/tax-class.md). |
+| [!UICONTROL Customer Tax Class] | Détermine la classe de taxe utilisée pour les achats effectués à partir du catalogue. Les options incluent toutes les classes de taxe disponibles. La classe de taxe est associée au groupe de clients créé ou utilisé pour le catalogue partagé. Voir [Classes d&#39;impôt](../stores-purchase/tax-class.md). |
 | [!UICONTROL Description] | Brève explication de l’utilisation du catalogue. |
 
 {style="table-layout:auto"}

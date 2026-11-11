@@ -1,6 +1,6 @@
 ---
-title: '[!UICONTROL Services] > ACO Catalog View Sync'
-description: Passez en revue les paramètres de configuration sur la page [!UICONTROL ACO Catalog View Sync] de [!UICONTROL Services] &gt ; de l’administrateur Commerce.
+title: '[!UICONTROL Services] &gt ; ACO - Synchronisation des vues de catalogue'
+description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Services] > [!UICONTROL ACO Catalog View Sync] de l’administrateur Commerce.
 feature: Configuration, Security
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 product_v2:
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '333'
 ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View Sync]
 
-Utilisez ces paramètres pour contrôler la manière dont le [!DNL Adobe Commerce Optimizer Connector for B2B] synchronise les configurations de catalogue partagé B2B (vue de catalogue, politique, catalogue des prix et clé) dans [!DNL Adobe Commerce Optimizer] et la manière dont il résout les différences de configuration entre les deux systèmes. Voir [Surveillance de l’état de synchronisation des vues du catalogue](../../systems/catalog-view-sync-status.md) pour surveiller les résultats de ces paramètres.
+Utilisez ces paramètres pour contrôler la manière dont [!DNL Adobe Commerce Optimizer Connector for B2B] synchronise les configurations de catalogue partagé B2B (vue de catalogue, politique, catalogue de prix et clé) dans [!DNL Adobe Commerce Optimizer] et la manière dont il résout les différences de configuration entre les deux systèmes. Consultez [Surveillance de l’état de synchronisation des vues du catalogue](../../systems/catalog-view-sync-status.md) pour surveiller les résultats de ces paramètres.
+
+>[!NOTE]
+>
+>Cette page s’applique au connecteur . Les instances configurées avec le modèle de données de catalogue composable (CCDM) synchronisent les données en mode natif et n’utilisent pas le connecteur. Voir [Services de marchandisage avec CCDM](/help/optimizer/overview.md).
 
 {{config}}
 
@@ -53,7 +57,7 @@ Utilisez ces paramètres pour contrôler la manière dont le [!DNL Adobe Commerc
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | --- | --- | --- |
-| [!UICONTROL Creation Grace Period (days)] | Global | Nombre de jours pendant lesquels une vue de catalogue nouvellement enregistrée peut attendre que la [!DNL Adobe Commerce Optimizer Connector for B2B] termine sa première synchronisation de la vue de catalogue, de la politique, du catalogue de prix et des configurations de clés, tandis que son statut est signalé comme [!UICONTROL Pending]. Si la période de grâce expire sans une synchronisation réussie, le statut passe à [!UICONTROL Failed]. Valeur par défaut : `1` |
+| [!UICONTROL Creation Grace Period (days)] | Global | Nombre de jours pendant lesquels une vue de catalogue nouvellement enregistrée peut attendre que [!DNL Adobe Commerce Optimizer Connector for B2B] termine sa première synchronisation de la vue de catalogue, de la politique, du catalogue de prix et des configurations de clés, tandis que son statut est signalé comme [!UICONTROL Pending]. Si le délai de grâce expire sans une synchronisation réussie, le statut passe à [!UICONTROL Failed]. Valeur par défaut : `1` |
 
 {style="table-layout:auto"}
 
@@ -61,13 +65,13 @@ Utilisez ces paramètres pour contrôler la manière dont le [!DNL Adobe Commerc
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | --- | --- | --- |
-| [!UICONTROL Enabled] | Global | Exécute le réconciliateur de dérive planifié pour détecter et signaler les différences entre la vue de catalogue projetée à partir de [!DNL Adobe Commerce] et la configuration de la vue de catalogue dans [!DNL Adobe Commerce Optimizer]. Si `automatically repair drift` est activé, il tentera également de corriger les écarts réparables. |
-| [!UICONTROL Automatically Repair Drift] | Global | Lorsqu’il est défini sur `Yes`, le réconciliateur de dérive planifié met à jour la configuration [!DNL Adobe Commerce Optimizer] pour qu’elle corresponde à la [!DNL Adobe Commerce] et resynchronise la configuration. Lorsqu’elle est définie sur `No`, l’exécution détecte et signale uniquement la dérive. Les entités [!DNL Adobe Commerce Optimizer] orphelines sont toujours signalées, mais ne sont jamais automatiquement supprimées. |
+| [!UICONTROL Enabled] | Global | Exécute le réconciliateur de dérive planifié pour détecter et signaler les différences entre la vue de catalogue projetée depuis [!DNL Adobe Commerce] et la configuration de la vue de catalogue dans [!DNL Adobe Commerce Optimizer]. Si `automatically repair drift` est activé, il tentera également de corriger les incohérences réparables. |
+| [!UICONTROL Automatically Repair Drift] | Global | Lorsqu’il est défini sur `Yes`, le réconciliateur de dérive planifié met à jour la configuration [!DNL Adobe Commerce Optimizer] pour qu’elle corresponde à [!DNL Adobe Commerce] et resynchronise la configuration. Lorsque la valeur est définie sur `No`, l’exécution détecte et signale uniquement la dérive. Les entités [!DNL Adobe Commerce Optimizer] orphelines sont toujours signalées, mais jamais automatiquement supprimées. |
 
 {style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
 > - [Vue Catalogue ACO](./aco-catalog-view.md) — Configurer des jetons d&#39;accès pour les lectures storefront d&#39;une vue Catalogue
-> - [Surveillance de l’état de synchronisation de la vue du catalogue](../../systems/catalog-view-sync-status.md) — Surveillez l’intégrité de la synchronisation et réconciliez la dérive à l’aide de ces paramètres
+> - [Surveillance de l&#39;état de synchronisation des vues du catalogue](../../systems/catalog-view-sync-status.md) — Surveillez l&#39;état de la synchronisation et réconciliez la dérive à l&#39;aide de ces paramètres
 > - [Gestion des clés d&#39;accès restreintes](../../systems/restricted-access-keys.md) — Gérez les clés d&#39;accès affectées aux vues de catalogue synchronisées

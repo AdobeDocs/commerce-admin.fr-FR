@@ -1,6 +1,6 @@
 ---
-title: '[!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]'
-description: Passez en revue les paramètres de configuration sur la page [!UICONTROL ACO Restricted Access Keys] de [!UICONTROL Services] &gt ; de l’administrateur Commerce.
+title: '[!UICONTROL Services] > Clés d''accès à accès restreint ACO'
+description: Vérifiez les paramètres de configuration sur la page [!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys] de l’administrateur Commerce.
 feature: Configuration, Security
 badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 product_v2:
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 4%
+source-wordcount: '215'
+ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]
 
-Utilisez ce paramètre pour contrôler la période d’expiration par défaut que le [!DNL Adobe Commerce Optimizer Connector for B2B] applique aux clés d’accès restreint qu’il approvisionne pour les vues de catalogue partagées B2B. Pour créer, attribuer et supprimer ces clés, voir [Gestion des clés d’accès restreint](../../systems/restricted-access-keys.md).
+Utilisez ce paramètre pour contrôler la période d’expiration par défaut que le [!DNL Adobe Commerce Optimizer Connector for B2B] applique aux clés d’accès restreint qu’il approvisionne pour les vues de catalogue partagé B2B. Pour créer, attribuer et supprimer ces clés, consultez [Gestion des clés d&#39;accès restreint](../../systems/restricted-access-keys.md).
+
+>[!NOTE]
+>
+>Cette page s’applique au connecteur . Les instances configurées avec le modèle de données de catalogue composable (CCDM) synchronisent les données en mode natif et n’utilisent pas le connecteur. Voir [Services de marchandisage avec CCDM](/help/optimizer/overview.md).
 
 {{config}}
 
@@ -45,16 +49,16 @@ Utilisez ce paramètre pour contrôler la période d’expiration par défaut qu
 
 | Champ | [Portée](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | --- | --- | --- |
-| [!UICONTROL Default key expiry (days)] | Global | Période de validité des clés d’accès restreint nouvellement configurées. [!DNL Adobe Commerce Optimizer] nécessite une date d&#39;expiration d&#39;au moins une minute dans le futur sur chaque clé et exclut les clés expirées des lectures de passerelle, de sorte qu&#39;une valeur d&#39;au moins un jour est toujours appliquée. Valeur par défaut : `36500` |
+| [!UICONTROL Default key expiry (days)] | Global | Période de validité des clés d’accès restreint nouvellement configurées. [!DNL Adobe Commerce Optimizer] requiert une date d&#39;expiration d&#39;au moins une minute dans le futur sur chaque clé et exclut les clés expirées des lectures de passerelle, de sorte qu&#39;une valeur d&#39;au moins un jour est toujours appliquée. Valeur par défaut : `36500` |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->La période d’expiration par défaut est longue, car la rotation automatique des clés n’est pas encore disponible. Voir [&#x200B; Sélection et rotation des clés &#x200B;](../../systems/restricted-access-keys.md#key-selection-and-rotation).
+>La période d’expiration par défaut est longue, car la rotation automatique des clés n’est pas encore disponible. Voir [Sélection et rotation des clés](../../systems/restricted-access-keys.md#key-selection-and-rotation).
 
 >[!MORELIKETHIS]
 >
-> - [Vue catalogue ACO](./aco-catalog-view.md) — Configurer des jetons d’accès storefront pour les vues catalogue
+> - [Vue Catalogue ACO](./aco-catalog-view.md) — Configurer des jetons d’accès storefront pour les vues de catalogue
 > - [Gestion des clés d&#39;accès restreint](../../systems/restricted-access-keys.md) — Créez, attribuez et supprimez des clés d&#39;accès restreint
-> - [Surveillance de l’état de synchronisation de la vue Catalogue](../../systems/catalog-view-sync-status.md) — Surveillez les clés arrivant à expiration
+> - [Surveillance de l’état de synchronisation de la vue de catalogue](../../systems/catalog-view-sync-status.md) — Surveiller les clés arrivant à expiration
