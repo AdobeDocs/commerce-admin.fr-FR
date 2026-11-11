@@ -1,7 +1,7 @@
 ---
 title: Types de recommandations
 description: Découvrez les recommandations que vous pouvez déployer sur différentes pages de votre site.
-badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique aux instances Adobe Commerce as a Cloud Service configurées avec le CCDM uniquement (infrastructure SaaS gérée par Adobe)."
+badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique aux instances Adobe Commerce as a Cloud Service configurées avec le CCDM uniquement (infrastructure SaaS gérée par Adobe)."
 autotag-review: '2026-11-02T19:21:36.761Z'
 TQID: 'https://experienceleague.adobe.com/i2T0qGlx6PVM-V6US9FjMGazmfz-x-zaW3ReN1ANE3E'
 product_v2:

@@ -2,7 +2,7 @@
 title: Présentation des services de marchandisage
 description: Découvrez les outils de configuration de catalogue, de marchandisage, de création de rapports et de surveillance pour les instances Adobe Commerce as a Cloud Service configurées avec le CCDM.
 recommendations: noCatalog
-badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique aux instances Adobe Commerce as a Cloud Service configurées avec le CCDM uniquement (infrastructure SaaS gérée par Adobe)."
+badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique aux instances Adobe Commerce as a Cloud Service configurées avec le CCDM uniquement (infrastructure SaaS gérée par Adobe)."
 exl-id: f9516d4c-fbae-4db2-a1a9-cda3684a8122
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -60,7 +60,7 @@ Configurez la manière dont les acheteurs découvrent des produits et dont les p
 
 - **Opportunités** : passez en revue les performances des produits, le comportement des acheteurs et les tendances de recherche pour identifier les domaines à améliorer en matière de marchandisage.
 - **Recommandations** : créez et gérez des unités de recommandation dans Commerce Admin. Les recommandations utilisent des données de catalogue et un comportement d’acheteur agrégé pour suggérer des produits pertinents, tels que « Les clients qui ont consulté ce produit ont également consulté ».
-- **Règles de marchandisage** : contrôlez la manière dont les produits sont promus et classés. Les règles peuvent s’appliquer à toutes les vues de catalogue ou être personnalisées pour une vue spécifique. Voir [Créer une règle de marchandisage](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/add#create-a-rule).
+- **Règles de marchandisage** : contrôlez la manière dont les produits sont promus et classés. Les règles peuvent s’appliquer à toutes les vues de catalogue ou être personnalisées pour une vue spécifique. Voir [Créer une règle de marchandisage](https://experienceleague.adobe.com/fr/docs/commerce/optimizer/merchandising/rules/add#create-a-rule).
 - **Facettes** : configurez les filtres que les acheteurs utilisent pour limiter les résultats des produits en fonction d’attributs tels que la marque, la taille ou le prix.
 - **Synonymes** : associez des termes de recherche équivalents pour aider les acheteurs à trouver des produits utilisant des mots différents pour le même concept.
 - **Paramètres** : configurez les options de recherche et de marchandisage, y compris les facettes de prix, la langue et la recherche avancée.

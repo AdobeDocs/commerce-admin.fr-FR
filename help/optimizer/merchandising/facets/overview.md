@@ -1,7 +1,7 @@
 ---
 title: Présentation des facettes
 description: Découvrez les facettes dans [!DNL Adobe Commerce Optimizer] et comment elles améliorent les résultats de recherche.
-badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique aux instances Adobe Commerce as a Cloud Service configurées avec le CCDM uniquement (infrastructure SaaS gérée par Adobe)."
+badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique aux instances Adobe Commerce as a Cloud Service configurées avec le CCDM uniquement (infrastructure SaaS gérée par Adobe)."
 autotag-review: '2026-11-02T19:19:12.765Z'
 TQID: 'https://experienceleague.adobe.com/NXCHSa954r05U4fKFDVTZTcU4wrHX7AlxP7jYxFaO8s'
 product_v2:

@@ -57,7 +57,7 @@ Utilisez la page État de synchronisation des vues du catalogue pour surveiller 
 
 ## Audience et disponibilité {#audience}
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets d’infrastructure cloud et locaux d’Adobe Commerce."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets d’infrastructure cloud et locaux d’Adobe Commerce."}
 
 La page [!UICONTROL Catalog View Sync Status] est disponible pour Adobe Commerce on Cloud Infrastructure et les commerçants sur site qui utilisent des catalogues partagés B2B avec l’intégration [!DNL Adobe Commerce Optimizer Connector for B2B]. La page est installée et activée automatiquement lorsque l’extension du connecteur est installée.
 
@@ -198,6 +198,6 @@ Les lignes de cet onglet sont effacées automatiquement après 90 jours.
 > - [État De Synchronisation Des Flux De Données](data-feed-sync-status.md)
 > - [Services > Synchronisation de la vue du catalogue ACO](../configuration-reference/services/aco-catalog-view-sync.md) — Configurer les périodes de grâce de suppression et de création et le réconciliateur de dérive
 > - [Gestion des clés d&#39;accès restreint](restricted-access-keys.md) — Gérez les clés dont l&#39;expiration fait surface sur cette page
-> - [Surveillez la synchronisation des vues de catalogue pour les catalogues partagés B2B](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status) dans le *Guide du connecteur Adobe Commerce Optimizer*
-> - [Vues de catalogue privé](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/private-catalog-view)
-> - [Clés d&#39;accès restreintes](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys)
+> - [Surveillez la synchronisation des vues de catalogue pour les catalogues partagés B2B](https://experienceleague.adobe.com/fr/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status) dans le *Guide du connecteur Adobe Commerce Optimizer*
+> - [Vues de catalogue privé](https://experienceleague.adobe.com/fr/docs/commerce/optimizer/setup/private-catalog-view)
+> - [Clés d&#39;accès restreintes](https://experienceleague.adobe.com/fr/docs/commerce/optimizer/setup/restricted-access-keys)

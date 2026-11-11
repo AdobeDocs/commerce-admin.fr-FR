@@ -41,7 +41,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Cette page décrit les fonctionnalités de recherche standard qui peuvent différer de [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
+>Cette page décrit les fonctionnalités de recherche standard qui peuvent différer de [Live Search](https://experienceleague.adobe.com/fr/docs/commerce/live-search/overview).
 >
 >Pour les instances configurées avec le modèle de données de catalogue composable (CCDM), consultez [Correspondance de recherche et classement](/help/optimizer/manage-results/search-relevance-matching.md) dans les services de marchandisage.
 
@@ -59,7 +59,7 @@ Avec **Elasticsearch** :
 
 >[!IMPORTANT]
 >
->En raison de l’annonce de fin de prise en charge d’Elasticsearch 7 en août 2023, il est recommandé à tous les clients Adobe Commerce de migrer vers le moteur de recherche OpenSearch 2.x. Pour plus d’informations sur la migration de votre moteur de recherche pendant la mise à niveau du produit, consultez [Migration vers OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) dans le _Guide de mise à niveau_.
+>En raison de l’annonce de fin de prise en charge d’Elasticsearch 7 en août 2023, il est recommandé à tous les clients Adobe Commerce de migrer vers le moteur de recherche OpenSearch 2.x. Pour plus d’informations sur la migration de votre moteur de recherche pendant la mise à niveau du produit, consultez [Migration vers OpenSearch](https://experienceleague.adobe.com/fr/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) dans le _Guide de mise à niveau_.
 
 ## Mappage de mots-clés pour étendre les résultats de recherche
 

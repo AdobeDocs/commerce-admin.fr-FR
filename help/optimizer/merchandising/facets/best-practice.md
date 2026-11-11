@@ -2,7 +2,7 @@
 title: Bonnes pratiques relatives aux facettes
 description: Découvrez les bonnes pratiques relatives à l’implémentation des facettes dans votre boutique.
 role: Admin, Developer
-badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique aux instances Adobe Commerce as a Cloud Service configurées avec le CCDM uniquement (infrastructure SaaS gérée par Adobe)."
+badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique aux instances Adobe Commerce as a Cloud Service configurées avec le CCDM uniquement (infrastructure SaaS gérée par Adobe)."
 autotag-review: '2026-11-02T19:18:56.877Z'
 TQID: 'https://experienceleague.adobe.com/ieVuCgWFcHX0Kly5pqKAQR5Nn2T1XhwiOuq6tmGUbJI'
 product_v2:
