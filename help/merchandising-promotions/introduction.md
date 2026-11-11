@@ -88,7 +88,7 @@ Pour les [règles de prix de catalogue](price-rules-catalog.md), vous créez des
 
 ## Communications et SEO
 
-La maîtrise de l&#39;optimisation du moteur de recherche [](seo-overview.md) est essentielle pour attirer des acheteurs potentiels. Découvrez comment optimiser les moteurs de recherche et affiner le contenu et la présentation de votre site pour améliorer la manière dont les pages sont indexées par les moteurs de recherche.
+La maîtrise de l&#39;optimisation du moteur de recherche [&#128279;](seo-overview.md) est essentielle pour attirer des acheteurs potentiels. Découvrez comment optimiser les moteurs de recherche et affiner le contenu et la présentation de votre site pour améliorer la manière dont les pages sont indexées par les moteurs de recherche.
 
 L’une des tâches à effectuer avant de lancer votre boutique consiste à examiner les modèles d’e-mail utilisés pour toutes les communications envoyées depuis votre boutique afin de s’assurer qu’ils reflètent votre marque. Mais vous devriez aller plus loin en développant d’autres communications qui font la promotion de votre marque et de vos produits auprès des clients existants. Vous pouvez personnaliser le contenu avec des variables et des balises de balisage.
 

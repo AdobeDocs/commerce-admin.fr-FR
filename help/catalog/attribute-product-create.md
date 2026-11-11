@@ -38,7 +38,7 @@ ht-degree: 0%
 ---
 # Créer et supprimer des attributs de produit
 
-Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à partir de la page _[!UICONTROL Product Attributes]_. Les étapes suivantes indiquent comment créer des attributs à partir du menu_[!UICONTROL Stores]_.
+Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à partir de la page _[!UICONTROL Product Attributes]_. Les étapes suivantes indiquent comment créer des attributs à partir du menu&#x200B;_[!UICONTROL Stores]_.
 
 ## Étape 1 : décrire les propriétés d’attribut de base
 
@@ -130,7 +130,7 @@ Vous pouvez créer des attributs lorsque vous travaillez sur un produit ou à pa
 
    - Pour contrôler où l’élément apparaît dans les résultats de recherche, définissez la valeur **[!UICONTROL Search Weight]** : 1 (poids le plus faible) sur 10 (poids le plus élevé).
 
-   - Définissez **[!UICONTROL Visible in Advanced Search]** selon vos besoins. En savoir plus sur la recherche avancée [1}.](search.md#advanced-search)
+   - Définissez **[!UICONTROL Visible in Advanced Search]** selon vos besoins. En savoir plus sur la recherche avancée [1&rbrace;.](search.md#advanced-search)
 
 1. Pour inclure l’attribut dans la comparaison de produits, définissez **[!UICONTROL Comparable on Storefront]** sur `Yes`.
 

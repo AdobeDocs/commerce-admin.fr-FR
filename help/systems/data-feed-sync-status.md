@@ -184,7 +184,7 @@ Pour vérifier la synchronisation de bout en bout une fois les exportations term
 - **[!DNL Adobe Commerce as a Cloud Service]avec les services Commerce :** Vérifiez le [tableau de bord de gestion des données](data-dashboard.md) applicable pour confirmer la disponibilité en aval.
 - **[!DNL Adobe Commerce as a Cloud Service]configuré avec le CCDM :** les données de produit et de prix se synchronisent de manière native. Utilisez [la synchronisation du catalogue](/help/optimizer/setup/data-sync.md) dans les services de marchandisage pour confirmer la disponibilité des données.
 - **Adobe Commerce sur le cloud ou On-premise avec le connecteur Adobe Commerce Optimizer** : vérifiez d’abord le statut d’exportation de l’administrateur Commerce, puis vérifiez la [page de synchronisation des données](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) dans [!DNL Commerce Optimizer Studio]
-- **[!DNL Adobe Commerce Optimizer](autonome) :** les données ne sont pas exportées à partir du serveur principal Commerce. Utilisez la page [Synchronisation des données](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) dans [!DNL Commerce Optimizer Studio] pour confirmer la disponibilité des données.
+- **[!DNL Adobe Commerce Optimizer] (autonome) :** les données ne sont pas exportées à partir du serveur principal Commerce. Utilisez la page [Synchronisation des données](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) dans [!DNL Commerce Optimizer Studio] pour confirmer la disponibilité des données.
 
 >[!TIP]
 >
