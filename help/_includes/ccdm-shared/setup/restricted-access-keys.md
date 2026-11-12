@@ -1,7 +1,7 @@
 ---
-source-git-commit: 293f07bf3a6a4de70ac8ababffa6334b5c319e97
+source-git-commit: 94c7929de24bee75e72927fb81692f4a2145c487
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1633'
 ht-degree: 0%
 ---
 # Clés d’accès restreintes
@@ -58,11 +58,11 @@ Sélectionnez l’onglet correspondant à l’outil que vous utilisez pour gére
 
 >[!BEGINTABS]
 
->[!TAB « Administrateur Adobe Commerce« ]
+>[!TAB Administrateur Adobe Commerce]
 
 Les clients qui utilisent Adobe Commerce as a Cloud Service avec CCDM, ou Adobe Commerce Optimizer connecté à Adobe Commerce par le biais du connecteur, peuvent générer des paires de clés RSA à partir de l’administrateur Commerce. Voir [Gérer les clés d&#39;accès restreint](https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys).
 
->[!TAB « Adobe Commerce Optimizer Studio (gestion manuelle des clés)« ]
+>[!TAB Adobe Commerce Optimizer Studio]
 
 Les clients qui utilisent Adobe Commerce Optimizer Studio doivent générer et gérer leurs propres paires de clés RSA, puis ajouter la clé publique au système. Il s’agit du workflow requis pour Adobe Commerce Optimizer avec un serveur principal tiers. Les clients qui utilisent le connecteur peuvent également utiliser ce workflow à la place de l’administrateur Commerce.
 
@@ -132,11 +132,11 @@ Sélectionnez l’onglet correspondant à l’outil que vous utilisez pour gére
 
 >[!BEGINTABS]
 
->[!TAB « Administrateur Adobe Commerce« ]
+>[!TAB Administrateur Adobe Commerce]
 
 Voir [Sélection et rotation des clés](https://experienceleague.adobe.com/fr/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys#key-selection-and-rotation). Cela s’applique à Adobe Commerce as a Cloud Service avec CCDM et aux projets Adobe Commerce intégrés à Adobe Commerce Optimizer par le biais du connecteur Adobe Commerce Optimizer.
 
->[!TAB « Adobe Commerce Optimizer Studio (gestion manuelle des clés)« ]
+>[!TAB Adobe Commerce Optimizer Studio]
 
 Cette procédure est requise pour Adobe Commerce Optimizer avec un serveur principal tiers. Les clients qui utilisent le connecteur peuvent également l’utiliser à la place de l’administrateur Commerce.
 
