@@ -2,7 +2,7 @@
 title: Présentation de Recommendations
 description: Les recommandations sont un puissant outil marketing que vous pouvez utiliser pour augmenter les conversions, augmenter le chiffre d’affaires et stimuler l’engagement des acheteurs.
 recommendations: noCatalog
-badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique aux instances Adobe Commerce as a Cloud Service configurées avec le CCDM uniquement (infrastructure SaaS gérée par Adobe)."
+badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique aux instances Adobe Commerce as a Cloud Service configurées avec le CCDM uniquement (infrastructure SaaS gérée par Adobe)."
 autotag-review: '2026-11-02T19:21:22.115Z'
 TQID: 'https://experienceleague.adobe.com/vCY1Q8UFKsJwYhr9WfAiPhvWyYYDMQv1A5QwlifywZ0'
 product_v2:
@@ -28,7 +28,8 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 742236e7fdb26c56a80f66a44b0a4960210f4dac
+last-update: 2026-11-11
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 0%

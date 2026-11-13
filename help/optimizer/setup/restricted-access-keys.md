@@ -3,7 +3,7 @@ title: Clés d’accès restreintes
 description: Découvrez comment les clés d’accès restreint protègent les vues de catalogue dans [!DNL Adobe Commerce Optimizer], créées automatiquement pour les catalogues partagés B2B ou gérées manuellement.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique aux instances Adobe Commerce as a Cloud Service configurées avec le CCDM uniquement (infrastructure SaaS gérée par Adobe)."
+badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique aux instances Adobe Commerce as a Cloud Service configurées avec le CCDM uniquement (infrastructure SaaS gérée par Adobe)."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -16,7 +16,8 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 742236e7fdb26c56a80f66a44b0a4960210f4dac
+last-update: 2026-11-12
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 0%

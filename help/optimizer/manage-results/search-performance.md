@@ -1,7 +1,7 @@
 ---
 title: Performances de recherche
 description: La page Performances de la recherche fournit insight dans les termes de recherche utilisés par les acheteurs.
-badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique aux instances Adobe Commerce as a Cloud Service configurées avec le CCDM uniquement (infrastructure SaaS gérée par Adobe)."
+badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique aux instances Adobe Commerce as a Cloud Service configurées avec le CCDM uniquement (infrastructure SaaS gérée par Adobe)."
 autotag-review: '2026-11-02T19:16:39.256Z'
 TQID: 'https://experienceleague.adobe.com/qFCpLYVsDln6yO5zUB4LoumG0JuI1njkxt-cAYrTvxI'
 product_v2:
@@ -25,7 +25,8 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 742236e7fdb26c56a80f66a44b0a4960210f4dac
+last-update: 2026-11-11
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: Créez, attribuez et supprimez les clés d’accès restreint qui s
 feature: Products, Customers, Data Import/Export
 role: Admin
 level: Intermediate
-last-update: 2026-10-01
+last-update: 2026-11-11
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 0%
@@ -48,13 +48,13 @@ Utilisez la page Clés d&#39;accès restreintes pour gérer les clés d&#39;acc�
 
 >[!NOTE]
 >
->Pour les clés créées manuellement et utilisées pour gérer les catalogues privés dans les scénarios non B2B, tels que les portails partenaires, gérez les clés à partir de [[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/fr/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}.
+>Pour les clés créées manuellement et utilisées pour gérer les catalogues privés dans les scénarios non B2B, tels que les portails partenaires, gérez les clés à partir de [[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}.
 >
 >Pour les instances configurées avec le modèle de données de catalogue composable (CCDM), consultez [Clés d’accès restreintes](/help/optimizer/setup/restricted-access-keys.md) dans les services de marchandisage.
 
 ## Audience et disponibilité {#audience}
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets d’infrastructure cloud et locaux d’Adobe Commerce."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets d’infrastructure cloud et locaux d’Adobe Commerce."}
 
 La page [!UICONTROL Restricted Access Keys] est disponible pour Adobe Commerce on Cloud Infrastructure et les commerçants sur site qui utilisent des catalogues partagés B2B avec [!DNL Adobe Commerce Optimizer Connector for B2B]. Le connecteur installe et active automatiquement la page.
 
@@ -128,7 +128,7 @@ Pour modifier le délai d’expiration par défaut appliqué aux clés nouvellem
 > - [Surveillance de l&#39;état de synchronisation des vues du catalogue](catalog-view-sync-status.md) — Surveillez et réconciliez les vues du catalogue protégées par ces clés
 > - [Services > Clés d’accès restreint ACO](../configuration-reference/services/aco-restricted-access-keys.md) — Configurer la période d’expiration de la clé par défaut
 > - [Services > Vue Catalogue ACO](../configuration-reference/services/aco-catalog-view.md) — Configurez la durée de vie du jeton d’accès du storefront et activez ou désactivez l’émission
-> - [Gérer les clés d&#39;accès restreint](https://experienceleague.adobe.com/fr/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} dans le *Guide du connecteur Adobe Commerce Optimizer* — Découvrez comment ces clés s&#39;intègrent dans la synchronisation du catalogue partagé B2B
-> - [Clés d’accès restreint](https://experienceleague.adobe.com/fr/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} dans le *Guide de Adobe Commerce Optimizer* — Flux de clés manuel basé sur ACO Studio pour les cas d’utilisation non-B2B
+> - [Gérer les clés d&#39;accès restreint](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} dans le *Guide du connecteur Adobe Commerce Optimizer* — Découvrez comment ces clés s&#39;intègrent dans la synchronisation du catalogue partagé B2B
+> - [Clés d’accès restreint](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} dans le *Guide de Adobe Commerce Optimizer* — Flux de clés manuel basé sur ACO Studio pour les cas d’utilisation non-B2B
 
 <!-- Last updated from includes: 2026-10-01 08:33:41 -->

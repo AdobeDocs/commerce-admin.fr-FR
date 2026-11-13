@@ -1,7 +1,7 @@
 ---
 title: Bonnes pratiques relatives aux recommandations
 description: Découvrez où placer des recommandations sur différentes pages de votre site et obtenez des suggestions pour les libellés fréquemment utilisés pour chaque type de recommandation.
-badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique aux instances Adobe Commerce as a Cloud Service configurées avec le CCDM uniquement (infrastructure SaaS gérée par Adobe)."
+badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique aux instances Adobe Commerce as a Cloud Service configurées avec le CCDM uniquement (infrastructure SaaS gérée par Adobe)."
 autotag-review: '2026-11-02T19:20:28.675Z'
 TQID: 'https://experienceleague.adobe.com/l1yAoT3zh-PFftMANgIx0K0OlwecOqjnclAMSQHK7hQ'
 product_v2:
@@ -25,7 +25,8 @@ topic_v2:
     internal-label: Experimentation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 742236e7fdb26c56a80f66a44b0a4960210f4dac
+last-update: 2026-11-11
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%

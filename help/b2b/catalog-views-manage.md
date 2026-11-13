@@ -2,7 +2,7 @@
 title: Gérer la configuration de la vue Catalogue
 description: Découvrez comment passer en revue les vues de catalogue Adobe Commerce Optimizer créées pour les catalogues partagés B2B et attribuer les clés d’accès restreintes qui les protègent.
 feature: B2B, Companies, Catalog Management
-last-update: 2026-10-01
+last-update: 2026-11-11
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Le connecteur protège les vues de catalogue avec des clés d’accès restreint
 
 Pour configurer la durée de vie du jeton ou désactiver l&#39;émission du jeton, voir [Services > Vue Catalogue ACO](/help/configuration-reference/services/aco-catalog-view.md).
 
-Vous pouvez examiner ces vues de catalogue et gérer leurs clés affectées à partir de l’onglet _[!UICONTROL Catalog Views]_&#x200B;du catalogue partagé ou de la section&#x200B;_[!UICONTROL Catalog Views]_ de l’entreprise associée. Les deux répertorient les mêmes vues de catalogue et les mêmes affectations de clés actuelles. Consultez [Modifier les clés d’accès restreint](#edit-restricted-access-keys) pour connaître le chemin de navigation exact à partir de chaque emplacement.
+Vous pouvez examiner ces vues de catalogue et gérer leurs clés affectées à partir de l’onglet _[!UICONTROL Catalog Views]_du catalogue partagé ou de la section_[!UICONTROL Catalog Views]_ de l’entreprise associée. Les deux répertorient les mêmes vues de catalogue et les mêmes affectations de clés actuelles. Consultez [Modifier les clés d’accès restreint](#edit-restricted-access-keys) pour connaître le chemin de navigation exact à partir de chaque emplacement.
 
 Pour surveiller la synchronisation des données de catalogue partagées avec [!DNL Adobe Commerce Optimizer], consultez [Surveillance du statut de synchronisation des vues du catalogue](/help/systems/catalog-view-sync-status.md).
 
