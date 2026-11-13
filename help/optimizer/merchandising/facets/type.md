@@ -1,7 +1,7 @@
 ---
 title: Types de facettes
 description: Découvrez les différents types de facettes dans [!DNL Adobe Commerce Optimizer].
-badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique aux instances Adobe Commerce as a Cloud Service configurées avec le CCDM uniquement (infrastructure SaaS gérée par Adobe)."
+badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique aux instances Adobe Commerce as a Cloud Service configurées avec le CCDM uniquement (infrastructure SaaS gérée par Adobe)."
 autotag-review: '2026-11-02T19:19:37.050Z'
 TQID: 'https://experienceleague.adobe.com/jeBR535CTNK0jhGRt9j5yPuEQHb-HQ0HWVxoRD-Fi5Q'
 product_v2:

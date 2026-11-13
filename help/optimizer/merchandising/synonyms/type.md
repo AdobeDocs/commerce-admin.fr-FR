@@ -1,7 +1,7 @@
 ---
 title: Types de synonymes
 description: Découvrez les différents types de synonymes dans [!DNL Adobe Commerce Optimizer].
-badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique aux instances Adobe Commerce as a Cloud Service configurées avec le CCDM uniquement (infrastructure SaaS gérée par Adobe)."
+badgeSaas: label="SaaS uniquement" type="Positive" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique aux instances Adobe Commerce as a Cloud Service configurées avec le CCDM uniquement (infrastructure SaaS gérée par Adobe)."
 autotag-review: '2026-11-02T19:38:15.772Z'
 TQID: 'https://experienceleague.adobe.com/Y6c89VNtJ-5OLrH7JQ9yiD5pkJbf3eA1NRXtXFLn0yE'
 product_v2:
