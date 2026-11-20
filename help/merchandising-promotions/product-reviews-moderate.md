@@ -3,7 +3,6 @@ title: Modération des critiques de produits
 description: Découvrez comment modérer les avis sur les produits pour vous assurer que les avis soumis sont appropriés pour l'affichage public de votre boutique.
 exl-id: 90c3e918-f435-4468-b41b-e8044ad14fb0
 feature: Merchandising, Products
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: 'https://experienceleague.adobe.com/DGRJr-P9TUQ1TFh4Da1Z4VwrKfWe2rw5wmbwq9IlAFg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -30,14 +29,14 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 6a7e2a6f32d89c269a6d767c5d98b46c2c25aa83
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '392'
 ht-degree: 0%
 ---
 # Modération des critiques de produits
 
-Pour les révisions de produit Commerce, une révision de produit envoyée doit être approuvée avant de pouvoir être affichée. Cela permet de s’assurer que les avis sont appropriés pour l’affichage public de votre boutique. Une révision envoyée a le statut `Pending` jusqu’à ce qu’elle soit approuvée ou rejetée.
+Pour les révisions de produit Commerce, une révision de produit envoyée doit être approuvée avant de pouvoir être affichée. Cela permet de s’assurer que les avis sont appropriés pour l’affichage public de votre boutique. Une révision envoyée a le statut `Pending` jusqu&#39;à ce qu&#39;elle soit approuvée ou rejetée.
 
 ## Afficher les avis sur les produits dans l’Admin
 
@@ -47,13 +46,13 @@ Pour afficher toutes les critiques d’un produit spécifique dans l’administr
 
 1. Recherchez le produit à afficher et cliquez sur **[!UICONTROL Edit]** dans la colonne _[!UICONTROL Action]_.
 
-1. Sur la page produit, faites défiler la page vers le bas et développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Product Reviews]** .
+1. Sur la page des produits, faites défiler la page vers le bas et développez le ![sélecteur d’extension](../assets/icon-display-expand.png) dans la section **[!UICONTROL Product Reviews]**.
 
    Dans cette grille, vous pouvez également modifier la révision spécifique en cliquant sur le lien **[!UICONTROL Edit]** dans la colonne _[!UICONTROL Action]_.
 
 ## Mettre à jour le statut des révisions
 
-1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**&#x200B;ou **[!UICONTROL All Reviews]**.
+1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**ou **[!UICONTROL All Reviews]**.
 
 1. Dans la liste, cliquez sur une révision en attente pour afficher les détails et la modifier si nécessaire.
 
@@ -61,7 +60,7 @@ Pour afficher toutes les critiques d’un produit spécifique dans l’administr
 
    - Pour approuver une révision en attente, sélectionnez `Approved`.
 
-   - Pour rejeter une révision, sélectionnez `Not Approved`. Les révisions non approuvées disparaissent de la liste de _[!UICONTROL Pending Reviews]_&#x200B;page.
+   - Pour rejeter une révision, sélectionnez `Not Approved`. Les révisions non approuvées disparaissent de la liste des pages _[!UICONTROL Pending Reviews]_.
 
    >[!NOTE]
    >
@@ -75,7 +74,7 @@ Pour afficher toutes les critiques d’un produit spécifique dans l’administr
 
    ![Modifier la page de révision](./assets/edit-review-page.png){width="600" zoomable="yes"}
 
-1. Cliquez ensuite sur **[!UICONTROL Save Review]**.
+1. Une fois terminé, cliquez sur **[!UICONTROL Save Review]**.
 
 ## Mise à jour par lots
 
@@ -85,9 +84,9 @@ Vous pouvez mettre à jour ou supprimer plusieurs révisions en même temps :
 
 1. Sélectionnez les révisions à mettre à jour.
 
-1. Utilisez le sélecteur de _[!UICONTROL Action]_&#x200B;dans le coin supérieur gauche pour appliquer une action.
+1. Utilisez le sélecteur _[!UICONTROL Action]_dans le coin supérieur gauche pour appliquer une action.
 
-1. Clic **[!UICONTROL Submit]**
+1. Cliquez sur **[!UICONTROL Submit]**
 
 ## Suppression d’une révision de produit
 
@@ -95,9 +94,9 @@ Vous pouvez mettre à jour ou supprimer plusieurs révisions en même temps :
 
 1. Recherchez la révision du produit à supprimer et ouvrez-la en mode d’édition.
 
-1. Dans la barre de menus, cliquez sur **[!UICONTROL Delete Review]** bouton.
+1. Dans la barre de menus, cliquez sur le bouton **[!UICONTROL Delete Review]**.
 
-1. Pour confirmer l’action, cliquez sur **[!UICONTROL OK]**.
+1. Pour confirmer l&#39;action, cliquez sur **[!UICONTROL OK]**.
 
 ## Barre de boutons
 
