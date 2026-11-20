@@ -48,11 +48,11 @@ Commerce comprend une fonctionnalité native de révision des produits que vous 
 >
 >Les versions 2.4.0 à 2.4.3 d’Adobe Commerce et de Magento Open Source incluaient l’extension Yotpo développée par le fournisseur. À compter de la version 2.4.4, cette extension n’est plus fournie avec la version de base et doit être installée et mise à jour à partir de Commerce Marketplace. La Marketplace permet également d’accéder à la documentation actuelle fournie par le développeur d’extensions.
 ><br><br>
->Si l’extension groupée est activée et configurée, vous devez mettre à jour votre fichier composer.json dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Voir [Mettre à niveau les modules](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade) dans le _Guide de mise à niveau_ pour plus d&#39;informations.
+>Si l’extension groupée est activée et configurée, vous devez mettre à jour votre fichier composer.json dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Voir [Mettre à niveau les modules](https://experienceleague.adobe.com/fr/docs/commerce-operations/upgrade-guide/modules/upgrade) dans le _Guide de mise à niveau_ pour plus d&#39;informations.
 
 ## Évaluations de produits sur le storefront
 
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 >[!NOTE]
 >
