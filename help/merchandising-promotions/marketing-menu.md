@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
+source-git-commit: 5fe6a09753399a171e55ad8b0bbd8b5ebd385be7
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '291'
 ht-degree: 0%
 ---
 # Menu [!UICONTROL Marketing]
@@ -84,7 +84,5 @@ Personnalisez toutes les notifications envoyées depuis votre boutique. Créez d
 Analysez les [termes de recherche](../catalog/search-terms.md) et les [synonymes](../catalog/search-terms.md#search-synonyms) pour aider les clients à trouver des produits dans le magasin, à gérer les [métadonnées](meta-data.md) et à créer un [plan de site](sitemap-xml.md). Utilisez les [redirections](url-rewrite.md) pour gérer les modifications d’URL et éviter les liens rompus.
 
 ### [!UICONTROL User Content]
-
-[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 Intégrez les [évaluations de produits](product-reviews.md) générées par les utilisateurs pour créer un sentiment de communauté et augmenter les ventes.

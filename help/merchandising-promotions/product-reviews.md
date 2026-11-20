@@ -3,7 +3,6 @@ title: Examens de produits
 description: Découvrez comment les évaluations de produits peuvent améliorer votre boutique et apporter plus de crédibilité à vos produits.
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 TQID: 'https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -34,28 +33,34 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 560b0b1584040e8d840645328cdea5e51bdca640
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '866'
 ht-degree: 0%
 ---
 # Examens de produits
 
 Les évaluations de produits aident à créer un sentiment de communauté et sont considérées comme plus crédibles que tout ce que l&#39;argent de la publicité peut acheter. En fait, certains moteurs de recherche donnent aux sites qui ont publié des avis sur des produits un rang supérieur à ceux qui n&#39;en ont pas publié. Pour ceux qui trouvent votre site en recherchant un produit spécifique, une revue de produit est essentiellement la page de destination de votre boutique. Les évaluations de produits aident les gens à trouver votre magasin, à maintenir leur engagement et mènent souvent à des ventes.
 
-Commerce comprend une fonctionnalité native de révision des produits que vous pouvez gérer à partir de l’administration. Vous pouvez également utiliser une extension de [&#128279;](../getting-started/commerce-marketplace.md) pour utiliser un système de gestion des révisions hébergé.
+Commerce comprend une fonctionnalité native de révision des produits que vous pouvez gérer à partir de l’administration. Vous pouvez également utiliser une extension du [Commerce Marketplace](../getting-started/commerce-marketplace.md) pour utiliser un système de gestion des révisions hébergé.
 
 >[!NOTE]
 >
 >Les versions 2.4.0 à 2.4.3 d’Adobe Commerce et de Magento Open Source incluaient l’extension Yotpo développée par le fournisseur. À compter de la version 2.4.4, cette extension n’est plus fournie avec la version de base et doit être installée et mise à jour à partir de Commerce Marketplace. La Marketplace permet également d’accéder à la documentation actuelle fournie par le développeur d’extensions.
 ><br><br>
->Si l’extension groupée est activée et configurée, vous devez mettre à jour votre fichier composer.json dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Voir [Mise à niveau des modules](https://experienceleague.adobe.com/fr/docs/commerce-operations/upgrade-guide/modules/upgrade) dans le _Guide de mise à niveau_ pour plus d’informations.
+>Si l’extension groupée est activée et configurée, vous devez mettre à jour votre fichier composer.json dans le cadre du processus de mise à niveau vers la version 2.4.4 et pour gérer les mises à jour d’extension à l’avenir. Voir [Mettre à niveau les modules](https://experienceleague.adobe.com/fr/docs/commerce-operations/upgrade-guide/modules/upgrade) dans le _Guide de mise à niveau_ pour plus d&#39;informations.
 
 ## Évaluations de produits sur le storefront
 
+[!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
+
+>[!NOTE]
+>
+>Cette section décrit les révisions de produits pour le storefront Luma dans Adobe Commerce sur les infrastructures cloud et Adobe Commerce On-Premise. Adobe Commerce as a Cloud Service n’inclut pas le storefront Luma. Par conséquent, l’activation de révisions de produit dans l’administration n’ajoute pas de fonctionnalités de révision à votre storefront. Au lieu de cela, vous devez utiliser la requête GraphQL [`reviews`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/reviews) pour récupérer les révisions et la mutation [`createProductReview`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/mutations/create-review) pour créer des révisions.
+
 Lorsque la fonction native Product Reviews est activée, les clients peuvent rédiger des avis sur n’importe quel produit de votre catalogue. Vous pouvez rédiger des avis depuis la page produit en cliquant sur :
 
-- **Ajouter votre évaluation** pour les produits ayant déjà été évalués.
+- **Ajoutez votre évaluation** pour les produits ayant des évaluations existantes.
 
 - **Soyez le premier à évaluer ce produit** pour les produits sans évaluation existante.
 
@@ -67,13 +72,13 @@ Votre configuration détermine si les clients doivent ouvrir un compte dans votr
 
 Le nombre d’étoiles indique la note de satisfaction du produit. Les visiteurs peuvent cliquer sur le lien pour lire les avis et écrire les leurs. À titre d’incitation, les clients peuvent recevoir des points de récompense pour avoir envoyé une révision. Lorsqu’une révision est soumise, elle est envoyée à l’administrateur pour modération. Une fois approuvée, la révision est publiée dans votre boutique.
 
-![Exemple de storefront - Onglet Révisions &#x200B;](./assets/storefront-reviews-tab.png){width="700" zoomable="yes"}
+![Exemple de storefront - Onglet Révisions](./assets/storefront-reviews-tab.png){width="700" zoomable="yes"}
 
 ### [!UICONTROL My Product Reviews]
 
 La section _[!UICONTROL My Product Reviews]_&#x200B;du tableau de bord du compte client répertorie tous les avis soumis par le client et dont la publication a été approuvée. Chaque résumé de révision comprend la date à laquelle la révision a été soumise, des liens vers la page du produit et des détails de révision.
 
-![Mes avis sur les produits](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
+![Mes évaluations de produits](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
 1. Dans la barre latérale de son compte, le client choisit **[!UICONTROL My Product Reviews]**.
 
@@ -83,29 +88,29 @@ La section _[!UICONTROL My Product Reviews]_&#x200B;du tableau de bord du compte
 
 ## Activer les fonctionnalités de révision de produit
 
-La fonction Révisions des produits Commerce est activée par défaut.
+La fonction Révisions des produits Commerce est activée par défaut dans Adobe Commerce sur les infrastructures cloud et Adobe Commerce On-Premise. Elle est désactivée par défaut dans Adobe Commerce as a Cloud Service.
 
 >[!NOTE]
 >
->Pour définir ces champs sur `No` et désactiver les révisions de produit Commerce, vous devez décocher les cases **Utiliser la valeur système**.
+>Pour modifier les valeurs par défaut de ces champs, vous devez d&#39;abord décocher les cases **[!UICONTROL Use system value]**.
 
 1. Dans la barre latérale _Admin_, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et sélectionnez **[!UICONTROL Catalog]** en dessous.
+1. Dans le panneau de gauche, développez **[!UICONTROL Catalog]** et sélectionnez **[!UICONTROL Catalog]** sous-jacent.
 
-1. Développez ![Sélecteur d’extension](../assets/icon-display-expand.png) la section **[!UICONTROL Product Reviews]** .
+1. Développez le sélecteur d’extension ![](../assets/icon-display-expand.png) dans la section **[!UICONTROL Product Reviews]**.
 
-   ![Configuration du catalogue - Révisions du produit Commerce](../configuration-reference/catalog/assets/catalog-product-reviews.png){width="600" zoomable="yes"}
+   ![Configuration du catalogue - Examens de produits Commerce](../configuration-reference/catalog/assets/catalog-product-reviews.png){width="600" zoomable="yes"}
 
-1. Définissez **[!UICONTROL Enabled]** sur `Yes`.
+1. Définir **[!UICONTROL Enabled]** sur `Yes`.
 
-   Il s’agit du paramètre par défaut qui permet la révision des produits.
+   Ce paramètre permet de passer en revue les produits.
 
-1. Définissez **[!UICONTROL Allow Guests to Write Reviews]** sur `Yes`.
+1. Définir **[!UICONTROL Allow Guests to Write Reviews]** sur `Yes`.
 
-   Il s’agit du paramètre par défaut qui détermine si les clients doivent ouvrir un compte dans votre boutique pour pouvoir rédiger des avis sur des produits.
+   Ce paramètre détermine si les clients doivent ouvrir un compte dans votre boutique pour pouvoir rédiger des avis sur des produits.
 
-1. Cliquez ensuite sur **[!UICONTROL Save Config]**.
+1. Une fois terminé, cliquez sur **[!UICONTROL Save Config]**.
 
 ## Créer des évaluations personnalisées
 
@@ -117,15 +122,15 @@ Grâce aux révisions de produit Commerce, les clients peuvent attribuer des év
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Add New Rating]**.
 
-   ![Admin - Ratings](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
+   ![Administrateur - Évaluations](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. Dans la section _[!UICONTROL Rating Title]_, saisissez le **[!UICONTROL Default Value]**&#x200B;de la nouvelle évaluation.
+1. Dans la section _[!UICONTROL Rating Title]_, saisissez **[!UICONTROL Default Value]**&#x200B;pour la nouvelle évaluation.
 
    Le cas échéant, saisissez également la traduction pour chaque vue de magasin.
 
    ![Paramètres du titre de la note](./assets/product-rating-title.png){width="600" zoomable="yes"}
 
-1. Dans la section _Visibilité de l’évaluation_, définissez l’**[!UICONTROL Visibility In]** sur la vue du magasin dans laquelle l’évaluation doit être utilisée.
+1. Dans la section _Visibilité de l’évaluation_, définissez **[!UICONTROL Visibility In]** sur l’affichage du magasin où l’évaluation doit être utilisée.
 
    Pour sélectionner plusieurs vues de magasin, maintenez la touche Ctrl (PC) ou Commande (Mac) enfoncée et cliquez sur chaque élément.
 
@@ -133,14 +138,14 @@ Grâce aux révisions de produit Commerce, les clients peuvent attribuer des év
    >
    >Les évaluations ne sont pas visibles, sauf si elles sont affectées à une vue de magasin.
 
-1. Par **[!UICONTROL Sort Order]**, saisissez un nombre pour déterminer l’ordre de cette évaluation lorsqu’elle est répertoriée avec d’autres.
+1. Pour **[!UICONTROL Sort Order]**, saisissez un nombre pour déterminer l&#39;ordre de cette évaluation lorsqu&#39;elle est répertoriée avec d&#39;autres.
 
 1. Si vous souhaitez afficher votre évaluation sur le storefront, cochez la case **[!UICONTROL Is Active]**.
 
    ![Paramètres de visibilité des évaluations](./assets/product-rating-visibility.png){width="600" zoomable="yes"}
 
-1. Cliquez ensuite sur **[!UICONTROL Save Rating]**.
+1. Une fois terminé, cliquez sur **[!UICONTROL Save Rating]**.
 
    L’évaluation moyenne de toutes les évaluations s’affiche pour chaque produit sur la page de la grille de produits du catalogue.
 
-   ![Page du catalogue](./assets/catalog-rating-page.png){width="700" zoomable="yes"}
+   ![Page De Catalogue](./assets/catalog-rating-page.png){width="700" zoomable="yes"}
