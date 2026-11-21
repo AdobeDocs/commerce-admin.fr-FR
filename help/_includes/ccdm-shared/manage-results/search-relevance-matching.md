@@ -1,14 +1,24 @@
 ---
-source-git-commit: 7651ac8a38244adc8b185450e762bffe57dec72b
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '829'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/manage-results/search-relevance-matching.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Correspondance de recherche et classement
 
 >[!IMPORTANT]
 >
->La fonctionnalité suivante est disponible dans [Private Beta](https://experienceleague.adobe.com/fr/docs/commerce-operations/release/beta).
+>La fonctionnalité suivante est disponible dans [Private Beta](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta).
 
 Les services de marchandisage avec le modèle de données de catalogue composable (CCDM) classent les résultats afin que les acheteurs voient d’abord les produits les plus pertinents. Le service booste les produits dont le texte de catalogue **correspond étroitement** à la requête de l’acheteur, puis favorise les correspondances dans lesquelles les termes apparaissent ensemble et inclut enfin des correspondances plus larges.
 
@@ -59,7 +69,7 @@ La correspondance des expressions seule ne détermine pas la pertinence. Plusieu
 - Booster à partir de **exact / proche** correspondance d&#39;expressions
 - Amplifier lorsque **tous les termes de la requête** apparaissent dans le champ **même**
 - **Classement intelligent** (lorsqu’il est activé), qui associe la pertinence textuelle aux signaux comportementaux ; voir [Fonctionnement du classement intelligent](../merchandising/rules/add.md#how-intelligent-ranking-scoring-works-search)
-- **Poids de la recherche** sur chaque attribut et autres facteurs de pertinence textuelle (par exemple, la fréquence d’apparition des termes dans le nom ou la longueur de la description). Pour les déploiements d’Adobe Commerce, configurez les attributs pouvant faire l’objet de recherches et leur poids dans les [propriétés de storefront des attributs](https://experienceleague.adobe.com/fr/docs/commerce-admin/catalog/catalog/search/search-results). Pour les déploiements Adobe Commerce Optimizer autonomes, utilisez l’[API REST de métadonnées](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata).
+- **[Poids de la recherche](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results)** sur chaque attribut et autres facteurs de pertinence textuelle (par exemple, la fréquence d’apparition des termes dans le nom ou la longueur de la description). Dans *Paramètres*, configurez les attributs qui participent à la recherche par mot-clé et leurs **[poids de recherche par mot-clé](../settings.md)** relatifs.
 - **[Règles de marchandisage](../merchandising/rules/overview.md)** telles que l’épinglage, l’amplification et l’enfouissement
 
 Comme les signaux interagissent, une correspondance large se classe parfois au-dessus d&#39;une correspondance d&#39;expression plus stricte lorsque **le poids de la recherche** ou la fréquence des termes l&#39;emporte sur une correspondance d&#39;expression plus faible.

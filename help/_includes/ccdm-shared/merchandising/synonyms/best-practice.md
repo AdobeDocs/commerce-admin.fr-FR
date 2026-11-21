@@ -1,14 +1,24 @@
 ---
-source-git-commit: f8c71cde74b1024bf32dc2b26d4aea94d60d3db9
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/merchandising/synonyms/best-practice.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Bonnes pratiques relatives aux synonymes
 
 Vous trouverez ci-dessous une liste des bonnes pratiques à suivre lors de la création de synonymes.
 
-- Le système gère les fautes d&#39;orthographe par défaut. Pour inclure des mots que les acheteurs peuvent utiliser, configurez des synonymes. Ces mots diffèrent de ceux spécifiés dans votre catalogue. Vous ne voulez pas perdre une vente parce que quelqu&#39;un cherche un « canapé » alors que votre produit est listé comme un « canapé ». Capturez un large éventail de termes de recherche en saisissant tous les mots que les clients peuvent utiliser pour trouver vos produits. Pour améliorer les résultats, [définissez des synonymes unidirectionnels ou bidirectionnels](https://experienceleague.adobe.com/fr/docs/commerce/optimizer/merchandising/synonyms/add#step-2-define-the-synonym-by-type).
+- Le système gère les fautes d&#39;orthographe par défaut. Pour inclure des mots que les acheteurs peuvent utiliser, configurez des synonymes. Ces mots diffèrent de ceux spécifiés dans votre catalogue. Vous ne voulez pas perdre une vente parce que quelqu&#39;un cherche un « canapé » alors que votre produit est listé comme un « canapé ». Capturez un large éventail de termes de recherche en saisissant tous les mots que les clients peuvent utiliser pour trouver vos produits. Pour améliorer les résultats, [définissez des synonymes unidirectionnels ou bidirectionnels](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/synonyms/add#step-2-define-the-synonym-by-type).
 
 - Mappez les noms de marque et les abréviations à leurs noms complets, par exemple « HP » vers « Hewlett-Packard » et les surnoms de produit courants, par exemple « iPhone » vers « Apple iPhone ».
 

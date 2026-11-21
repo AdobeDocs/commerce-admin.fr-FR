@@ -1,9 +1,19 @@
 ---
-source-git-commit: 7651ac8a38244adc8b185450e762bffe57dec72b
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '917'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/manage-results/recommendation-performance.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Performances de Recommendations
 
 La page Performances des recommandations affiche une liste des recommandations configurées ainsi que des mesures clés pour vous aider à évaluer leur efficacité. Vous pouvez configurer la vue pour afficher les mesures du dernier jour, de la dernière semaine ou du dernier mois. Ces informations indiquent la fréquence à laquelle chaque unité de recommandation est consultée ou fait l’objet d’un clic, ce qui vous permet d’évaluer les performances et d’identifier les opportunités d’optimisation.
@@ -102,5 +112,5 @@ La disponibilité du produit est appliquée par vue de catalogue même pour les 
 **Exemple : recommandation avec filtres d&#39;inclusion sous la sélection Toutes les vues**
 
 - **Toutes les vues** la recommandation inclut les SKU : SKU_ABC, SKU_CDE, SKU_XYZ.
-- **Vue catalogue : Kingsbluff** ne peut pas vendre SKU_ABC ou SKU_CDE. **Affiché :** uniquement le SKU_XYZ, à condition qu’il satisfasse à tous les autres filtres activés.
-- **Vue catalogue : Arkbridge** ne peut vendre aucun des SKU inclus. **Affiché :** Aucune unité de recommandation, car aucun SKU ne satisfait à la fois au filtre d’inclusion et à la disponibilité de l’affichage du catalogue.
+- **Vue catalogue : Kingsbluff** ne peut pas vendre SKU_ABC ou SKU_CDE. **Affiché :** SKU_XYZ plus tout autre SKU valide pour Kingsbluff.
+- **Vue catalogue : Arkbridge** ne peut vendre aucun des SKU inclus. **Affiché :** seuls les SKU autorisés par Arkbridge. Si aucune unité de recommandation n’est disponible, elle n’apparaît pas sur ce storefront.

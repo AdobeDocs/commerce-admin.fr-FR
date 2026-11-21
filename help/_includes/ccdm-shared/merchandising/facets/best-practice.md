@@ -1,9 +1,19 @@
 ---
-source-git-commit: 7651ac8a38244adc8b185450e762bffe57dec72b
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/merchandising/facets/best-practice.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Bonnes pratiques relatives aux facettes
 
 La fonctionnalité de filtre et de facette est un composant essentiel des expériences Commerce, conçu pour améliorer l’expérience de l’acheteur en permettant à celui-ci de réduire les résultats de recherche et de trouver des produits plus efficacement. Cette fonctionnalité permet aux acheteurs de trier de vastes catalogues d’articles en appliquant des critères spécifiques, ce qui rend le processus d’achat plus rapide, plus facile et plus satisfaisant. En implémentant des filtres et des facettes efficaces et conviviaux pour les acheteurs, vous pouvez aider les clients à trouver rapidement et efficacement ce dont ils ont besoin, ce qui améliore la satisfaction et les taux de conversion.

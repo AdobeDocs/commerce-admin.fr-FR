@@ -1,9 +1,19 @@
 ---
-source-git-commit: f8c71cde74b1024bf32dc2b26d4aea94d60d3db9
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/merchandising/synonyms/overview.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Synonymes
 
 Les synonymes étendent la requête de recherche pour inclure des mots que les acheteurs peuvent utiliser et qui diffèrent de ceux de votre catalogue. Vous ne voulez pas perdre une vente parce que quelqu&#39;un cherche un « canapé », alors que votre produit est listé comme un « canapé ». Capturez un large éventail de termes de recherche en saisissant tous les mots que les clients peuvent utiliser pour trouver vos produits.
