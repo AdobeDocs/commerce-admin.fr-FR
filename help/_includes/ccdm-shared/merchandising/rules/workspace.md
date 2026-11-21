@@ -1,9 +1,19 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '1154'
 ht-degree: 1%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.fr-FR/blob/main/help/_includes/ccdm-shared/merchandising/rules/workspace.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Workspace des règles de marchandisage
 
 L’espace de travail *Règles de marchandisage* répertorie la sélection actuelle de règles et leur statut, et donne accès aux outils dont vous avez besoin pour créer et gérer des règles. Vous pouvez étendre les règles à toutes les [vues de catalogue](https://experienceleague.adobe.com/fr/docs/commerce/optimizer/setup/catalog-view) (globales) ou à une seule vue de catalogue. Voir [Sélectionner la vue de catalogue](#select-catalog-view) pour savoir comment filtrer par vue de catalogue et créer des règles par vue de catalogue. Dans l’espace de travail , vous pouvez :
@@ -13,6 +23,8 @@ L’espace de travail *Règles de marchandisage* répertorie la sélection actue
 - Activer/désactiver les règles
 - Supprimer les règles
 - Accès à l’éditeur de règles
+
+L’espace de travail inclut également **[des règles de suppression de la recherche](https://experienceleague.adobe.com/fr/docs/commerce/optimizer/merchandising/rules/overview#search-suppression-rules)**. Utilisez les mêmes contrôles de gestion des règles pour modifier, planifier, activer ou désactiver ces règles. Pour configurer les conditions de requête et publier les modifications, consultez [Créer et gérer des règles de suppression de recherche](https://experienceleague.adobe.com/fr/docs/commerce/optimizer/merchandising/rules/add#search-suppression-rules). Un aperçu n’est pas affiché pour les règles de suppression de la recherche.
 
 ![Workspace des règles de marchandisage](/help/assets/ccdm-shared/rules/rules-workspace.png)
 
@@ -50,6 +62,14 @@ Le panneau des détails affiche le nom de la règle, le statut, les conditions e
    - Modifier la règle
    - Supprimer la règle
    - Activer/Désactiver La Règle
+
+## Activation ou désactivation d’une règle {#enable-disable-rule}
+
+1. Recherchez la règle dans l’espace de travail *Règles de marchandisage*.
+1. Ouvrez **Plus** (...) et sélectionnez **Activer la règle** ou **Désactiver la règle**. Vous pouvez également utiliser la commande **Activé** dans le panneau des détails.
+1. Confirmez le statut mis à jour. Une règle activée avec une date de début ultérieure reste planifiée jusqu’à cette date.
+
+Pour une **règle de suppression de recherche**, la désactivation de la règle empêche cette règle de bloquer les requêtes correspondantes sans supprimer ses conditions. D’autres règles de suppression actives peuvent toujours bloquer ces requêtes. Pour modifier les conditions ou les dates de la règle, sélectionnez **Modifier**, vérifiez les modifications, puis cliquez sur **Enregistrer et publier**.
 
 ## Descriptions des colonnes
 
@@ -114,6 +134,6 @@ Les données comportementales qui optimisent le [classement intelligent](add.md#
    La règle que vous créez est étendue à la vue de catalogue sélectionnée.
 1. Créez votre règle dans l’éditeur de règles [&#128279;](add.md).
 
-   Dans l’éditeur, définissez des conditions, des événements et des détails. La règle s’applique uniquement aux résultats de recherche dans cette vue de catalogue.
+   Dans l’éditeur, définissez les conditions, événements et détails qui s’appliquent au type de règle. Les règles de suppression de recherche utilisent des conditions de requête pour bloquer les résultats uniquement dans la vue de catalogue sélectionnée. Ils ne modifient pas la visibilité du produit par le biais de la navigation par catégorie, des pages de marchandisage, des recommandations ou des URL de produit directes.
 
 Vous ne pouvez pas modifier la vue de catalogue (portée) d’une règle après sa création. Pour appliquer une logique similaire à une autre vue de catalogue, créez une règle et sélectionnez cette vue de catalogue avant de la créer.

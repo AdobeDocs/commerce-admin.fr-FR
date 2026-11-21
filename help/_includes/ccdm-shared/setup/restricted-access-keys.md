@@ -1,9 +1,19 @@
 ---
-source-git-commit: 94c7929de24bee75e72927fb81692f4a2145c487
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '1633'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.fr-FR/blob/main/help/_includes/ccdm-shared/setup/restricted-access-keys.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Clés d’accès restreintes
 
 Les clés d’accès restreint permettent aux applications clientes autorisées d’accéder à une [vue de catalogue privée](private-catalog-view.md). Seules les requêtes portant un jeton signé valide à partir d’une clé attribuée peuvent récupérer les données du catalogue. Toutes les autres requêtes sont refusées, y compris celles des acheteurs qui n’ont pas d’accès explicite à cette vue de catalogue et aux scripts qui analysent l’API des services de marchandisage Adobe Commerce.
