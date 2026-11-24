@@ -4,7 +4,7 @@ description: Utilisez la fonctionnalité native d’enrichissement du catalogue 
 role: Admin, User, Leader
 recommendations: noCatalog
 touch: true
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -40,22 +40,22 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a0d661434bd61349bd5616d6635b4c43340308bc
+source-git-commit: 43d0b6e49ef882ec365442c8f4f720af0080feea
 workflow-type: tm+mt
-source-wordcount: '3173'
+source-wordcount: '3172'
 ht-degree: 0%
 ---
 # Enrichissement du catalogue
 
-L’enrichissement du catalogue est une fonctionnalité de [!DNL Adobe Commerce] native qui vous permet d’améliorer les noms de produit et les descriptions longues afin que votre catalogue soit représenté plus précisément lorsque les acheteurs utilisent des outils LLM et des assistants d’IA pour la recherche et la découverte de produits.
+L’enrichissement du catalogue est une fonctionnalité native de [!DNL Adobe Commerce] qui vous permet d’améliorer les noms de produit et les descriptions longues afin que votre catalogue soit représenté plus précisément lorsque les acheteurs utilisent des LLM et des assistants d’IA pour la recherche et la découverte de produits.
 
 >[!NOTE]
 >
->L’enrichissement des catalogues s’effectue à l’aide de [!DNL Commerce Catalog Agent] et [!DNL Adobe Brand Visibility] en coulisses. Vous utilisez l’enrichissement dans le cadre de votre workflow de catalogue Commerce. Vous ne gérez pas une intégration Adobe Brand Visibility distincte pour appliquer les mises à jour de nom et de description approuvées. Pour une surveillance et une optimisation LLM plus larges en dehors de Commerce, consultez la [[!DNL Adobe Brand Visibility] documentation du produit](https://experienceleague.adobe.com/fr/docs/brand-visibility/using/home).
+>L’enrichissement du catalogue s’appuie sur [!DNL Commerce Catalog Agent] et [!DNL Adobe Brand Visibility] en coulisses. Vous utilisez l’enrichissement dans le cadre de votre workflow de catalogue Commerce. Vous ne gérez pas une intégration Adobe Brand Visibility distincte pour appliquer les mises à jour de nom et de description approuvées. Pour une surveillance et une optimisation LLM plus larges en dehors de Commerce, consultez la [[!DNL Adobe Brand Visibility] documentation du produit](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home).
 
 ## Fonctionnement {#how-it-works}
 
-Votre catalogue de produits [!DNL Adobe Commerce] est le système d’enregistrement des données de produits : noms, descriptions, attributs, tarification et inventaire. [!DNL Adobe Commerce] MCP (Model Context Protocol) de Storefront connecte les données de catalogue actives aux expériences Adobe AI. À partir de là, l’agent de catalogue peut identifier les lacunes dans les noms de produits et les descriptions longues, proposer des améliorations et écrire les modifications approuvées dans Commerce afin que vous puissiez les examiner dans l’administration Commerce.
+Votre catalogue de produits [!DNL Adobe Commerce] est le système d&#39;enregistrement des données de produits : noms, descriptions, attributs, prix et inventaire. [!DNL Adobe Commerce] MCP (Model Context Protocol) de Storefront connecte les données de catalogue actives aux expériences Adobe AI. À partir de là, l’agent de catalogue peut identifier les lacunes dans les noms de produits et les descriptions longues, proposer des améliorations et écrire les modifications approuvées dans Commerce afin que vous puissiez les examiner dans l’administration Commerce.
 
 Avec l’enrichissement de catalogue, vous pouvez :
 
@@ -82,8 +82,8 @@ Les conditions préalables suivantes s’appliquent lorsque vous avez accès à 
 
 - Votre storefront peut être exploré par des robots orientés LLM et agentiques où une couverture d’explore est requise pour les suggestions tenant compte du catalogue.
 - Les services Commerce requis et la connectivité du catalogue sont activés et sains. Voir [Activer l’enrichissement du catalogue](#enable-catalog-enrichment) pour en savoir plus.
-- L’utilisateur administrateur Commerce qui accède à l’enrichissement du catalogue se connecte via Adobe IMS. Voir [Connexion IMS et exigences de l’organisation](#ims-sign-in-requirements).
-- Vous avez accès à [&#128279;](https://helpx.adobe.com/fr/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- L’utilisateur administrateur Commerce qui accède à l’enrichissement du catalogue se connecte via Adobe IMS. Voir les [exigences d&#39;organisation et de connexion IMS](#ims-sign-in-requirements).
+- Vous avez accès à [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - Votre entreprise a signé l’avenant GenAI, ou s’est explicitement désabonnée, pour les services d’IA sous-jacents.
 
 >[!NOTE]
@@ -94,11 +94,11 @@ Les conditions préalables suivantes s’appliquent lorsque vous avez accès à 
 
 L’enrichissement du catalogue utilise le jeton d’accès Adobe IMS de l’utilisateur Commerce Admin connecté pour se connecter à [!DNL Adobe Brand Visibility]. Une connexion native d’administrateur Commerce avec uniquement un nom d’utilisateur et un mot de passe Commerce ne génère pas ce jeton. Par conséquent, l’utilisateur administrateur qui accède à l’enrichissement du catalogue doit se connecter via Adobe IMS.
 
-Pour prendre en charge la connexion IMS, l’intégration d’administration Commerce à Adobe ID doit être activée pour votre instance Commerce. Voir [Configuration de l’intégration d’administration Commerce à Adobe ID](/help/getting-started/adobe-ims-config.md).
+Pour prendre en charge la connexion IMS, l’intégration d’administration Commerce à Adobe ID doit être activée pour votre instance Commerce. Voir [Configuration de l’intégration d’administration Commerce avec Adobe ID](/help/getting-started/adobe-ims-config.md).
 
 >[!IMPORTANT]
 >
->L’activation de l’intégration Commerce Admin avec Adobe ID est un changement effectué à l’échelle de l’instance. Une fois activé, chaque utilisateur administrateur doit s’authentifier via Adobe IMS. La connexion par nom d’utilisateur et mot de passe natifs de Commerce n’est plus disponible. Consultez la présentation de l’intégration du service Adobe Identity Management (IMS) [&#128279;](/help/getting-started/adobe-ims-integration-overview.md) avant d’activer cette intégration.
+>L’activation de l’intégration Commerce Admin avec Adobe ID est un changement effectué à l’échelle de l’instance. Une fois activé, chaque utilisateur administrateur doit s’authentifier via Adobe IMS. La connexion par nom d’utilisateur et mot de passe natifs de Commerce n’est plus disponible. Consultez la [présentation de l’intégration du service Adobe Identity Management (IMS)](/help/getting-started/adobe-ims-integration-overview.md) avant d’activer cette intégration.
 
 L’organisation Adobe IMS associée à votre instance Commerce est généralement différente de l’organisation IMS qui détient vos droits [!DNL Adobe Brand Visibility]. Activer l’intégration d’administration Commerce avec Adobe ID n’accorde pas, en soi, l’accès aux droits de Visibilité des marques et les deux organisations ne sont pas tenues d’être identiques. Contactez votre administrateur ou équipe de compte Adobe pour confirmer les appartenances à une organisation IMS et l’enrichissement du catalogue d’accès au compte requis dans votre configuration.
 
@@ -116,40 +116,40 @@ Contactez votre administrateur Commerce ou votre partenaire d’implémentation 
    bin/magento cache:flush
    ```
 
-   `setup:upgrade` active l’extension, crée sa table de base de données et accorde les autorisations Administrateur. Videz le cache par la suite pour que les autorisations prennent effet. En mode production, exécutez également `bin/magento setup:di:compile` et `bin/magento setup:static-content:deploy`.
+   `setup:upgrade` active l’extension, crée sa table de base de données et accorde les autorisations d’administrateur. Videz le cache par la suite pour que les autorisations prennent effet. En mode production, exécutez également `bin/magento setup:di:compile` et `bin/magento setup:static-content:deploy`.
 
-1. Si vous n’avez pas encore installé les services de catalogue, [faites-le](https://experienceleague.adobe.com/fr/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
+1. Si vous n&#39;avez pas encore installé les services de catalogue, [faites-le](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
 
-   **[!UICONTROL Catalog enrichment]** est désormais disponible dans votre instance Commerce.
+   **[!UICONTROL Catalog enrichment]** est maintenant disponible dans votre instance Commerce.
 
 >[!IMPORTANT]
 >
->L’enrichissement de catalogue 2.1.2 et versions ultérieures nécessite Adobe Commerce 2.4.7 ou version ultérieure sur PHP 8.3 ou version ultérieure, et ne peut pas être installé avec l’extension [!DNL Adobe Brand Visibility] (`magento/llm-optimizer`). Si vous l’avez installé, supprimez-le avant de procéder à la mise à niveau. Voir [Mise à niveau à partir de versions antérieures](#upgrade-from-earlier-versions) dans les notes de mise à jour.
+>L’enrichissement de catalogue 2.1.2 et versions ultérieures nécessite Adobe Commerce 2.4.7 ou versions ultérieures sur PHP 8.3 ou versions ultérieures, et ne peut pas être installé avec l’extension [!DNL Adobe Brand Visibility] (`magento/llm-optimizer`). Si vous l’avez installé, supprimez-le avant de procéder à la mise à niveau. Voir [Mise à niveau à partir de versions antérieures](#upgrade-from-earlier-versions) dans les notes de mise à jour.
 
 ### Accéder à l’enrichissement du catalogue
 
-Une fois que vous avez installé l’enrichissement de catalogue et les extensions de services de catalogue, la fonctionnalité d’enrichissement de catalogue est disponible dans l’Administration sous **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**.
-
-![Enrichissement du catalogue](./assets/catalog-enrichment-menu.png){zoomable="yes"}
+Une fois que vous avez installé l’enrichissement de catalogue et les extensions de services de catalogue, la fonctionnalité d’enrichissement de catalogue est disponible dans l’administration sous **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**.
 
 >[!NOTE]
 >
->Le menu **[!UICONTROL AI Product Discovery]** répertorie également les **[!UICONTROL Product Details Page Enrichment (Beta)]**. L’enrichissement de la page des détails du produit est en version bêta et n’est pas encore disponible en général.
+>Le menu **[!UICONTROL AI Product Discovery]** affiche également **[!UICONTROL Product Details Page Enrichment (Beta)]**. L’enrichissement de la page des détails du produit est en version bêta et n’est pas encore disponible en général.
+
+>[!NOTE]
+>
+>Le menu **[!UICONTROL AI Product Discovery]** affiche également **[!UICONTROL Product Details Page Enrichment (Beta)]**. L’enrichissement de la page des détails du produit est en version bêta et n’est pas encore disponible en général.
 
 ### Configuration de l’enrichissement du catalogue {#configure-catalog-enrichment}
 
-Configurez l’enrichissement du catalogue dans l’onglet **[!UICONTROL Settings]** afin que [!DNL Commerce Catalog Agent] puissiez vous connecter à votre environnement de [!DNL Adobe Commerce] et obtenir des suggestions de surfaces dans l’administration Commerce.
+Configurez l’enrichissement du catalogue sur l’onglet **[!UICONTROL Settings]** afin que [!DNL Commerce Catalog Agent] puisse se connecter à votre environnement [!DNL Adobe Commerce] et obtenir des suggestions de surface dans l’administration Commerce.
 
-Les champs de cet onglet identifient l’environnement Commerce et la vue de magasin auxquels l’enrichissement du catalogue se connecte. Ils sont distincts de l’organisation Adobe IMS qui détient vos droits d’[!DNL Adobe Brand Visibility]. Voir [Connexion IMS et exigences de l’organisation](#ims-sign-in-requirements).
+Les champs de cet onglet identifient l’environnement Commerce et la vue de magasin auxquels l’enrichissement du catalogue se connecte. Ils sont distincts de l’organisation Adobe IMS qui détient vos droits [!DNL Adobe Brand Visibility]. Voir les [exigences d&#39;organisation et de connexion IMS](#ims-sign-in-requirements).
 
-1. Dans Admin, accédez à **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**.
-1. Dans la liste **[!UICONTROL Scope]** en haut de la page, sélectionnez la vue de magasin à configurer ou laissez-**[!UICONTROL All Store Views]** pour gérer les paramètres entre les vues de magasin.
-1. Ouvrez l’onglet **[!UICONTROL Settings]** .
-1. Dans **[!UICONTROL Commerce Configuration]**, développez le panneau d’affichage du magasin intitulé avec son URL.
+1. Dans l’administration, accédez à **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**.
+1. Dans la liste **[!UICONTROL Scope]** en haut de la page, sélectionnez la vue de magasin que vous souhaitez configurer ou laissez **[!UICONTROL All Store Views]** pour gérer les paramètres entre les vues de magasin.
+1. Ouvrez l’onglet **[!UICONTROL Settings]**.
+1. Dans **[!UICONTROL Commerce Configuration]**, développez le panneau d’affichage du magasin étiqueté avec son URL.
 
    Fournissez les détails de votre environnement [!DNL Adobe Commerce] pour activer le service Catalog Adobe Brand Visibility et les workflows d’audit.
-
-   Configuration de ![Commerce dans l’onglet Paramètres d’enrichissement du catalogue &#x200B;](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. Saisissez les informations de connexion requises pour la vue du magasin.
 
@@ -160,18 +160,18 @@ Les champs de cet onglet identifient l’environnement Commerce et la vue de mag
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
-Après l’enregistrement, attendez la fin de toute tâche de synchronisation ou de validation initiale avant de vous fier aux résultats du catalogue ou de l’audit pour cette vue de magasin. L’affichage des suggestions de produits sur la page **[!UICONTROL Catalog Enrichment]** peut prendre jusqu’à 24 heures.
+Après l’enregistrement, attendez la fin de toute tâche de synchronisation ou de validation initiale avant de vous fier aux résultats du catalogue ou de l’audit pour cette vue de magasin. L&#39;affichage des suggestions de produits sur la page **[!UICONTROL Catalog Enrichment]** peut prendre jusqu&#39;à 24 heures.
 
 Pour supprimer une configuration de vue de magasin, développez cette entrée et cliquez sur **[!UICONTROL Delete]**.
 
 #### Descriptions des champs {#commerce-connection-fields}
 
-Les champs obligatoires sont marqués d’un astérisque (*) sur le formulaire **[!UICONTROL Commerce Configuration]**.
+Les champs obligatoires sont identifiés par un astérisque (*) sur le formulaire **[!UICONTROL Commerce Configuration]**.
 
 | Champ | Obligatoire | Description |
 | --- | --- | --- |
 | URL de la vue Boutique | Oui | URL correspondant à la vue du magasin (par exemple, `https://brand.example.com/fr/`). |
-| Identifiant de l’environnement | Oui | Identifiant unique de l’environnement [!DNL Adobe Commerce] auquel la connexion accède. |
+| Identifiant de l’environnement | Oui | Identifiant unique de l&#39;environnement [!DNL Adobe Commerce] auquel la connexion accède. |
 | Code du site web | Oui | Code du site web du site web Commerce. |
 | Code de magasin | Oui | Code de magasin du site web Commerce. |
 | Code d’affichage du magasin | Oui | Affichage de la boutique du site web de Commerce. |
@@ -179,15 +179,13 @@ Les champs obligatoires sont marqués d’un astérisque (*) sur le formulaire *
 
 ### Vérifier et appliquer l’enrichissement du catalogue {#review-and-apply}
 
-Une fois l’enrichissement du catalogue activé et configuré, des suggestions de produits s’affichent dans l’onglet **[!UICONTROL Agentic Opportunities]** . À partir de là, vous pouvez examiner les suggestions et appliquer les mises à jour approuvées aux noms de produit et aux descriptions longues de votre catalogue Commerce.
+Une fois l’enrichissement du catalogue activé et configuré, les suggestions de produits s’affichent dans l’onglet **[!UICONTROL Agentic Opportunities]**. À partir de là, vous pouvez examiner les suggestions et appliquer les mises à jour approuvées aux noms de produit et aux descriptions longues de votre catalogue Commerce.
 
 L’enrichissement du catalogue utilise les vues de workflow suivantes :
 
 - **[!UICONTROL Current Suggestions]** : éléments nouveaux ou actifs à vérifier.
 - **[!UICONTROL Fixed Suggestions]** : éléments déjà appliqués ou résolus.
 - **[!UICONTROL Ignored Suggestions]** : éléments que vous avez intentionnellement exclus de l’action.
-
-![Enrichissement du catalogue](./assets/agentic-opportunities.png){zoomable="yes"}
 
 ### Déployer les suggestions approuvées {#review-deploy-catalog}
 
@@ -208,38 +206,34 @@ Les modifications de nom et de description approuvées sont enregistrées dans v
 >
 >Traiter chaque mise à jour appliquée comme une modification du catalogue de production. Utilisez vos pratiques normales de contrôle des modifications, d’évaluation et d’assurance qualité. Appliquez les mises à jour uniquement après que les parties prenantes du merchandising et du SEO se sont mises d’accord sur la copie finale.
 
-Après avoir appliqué une mise à jour, les suggestions sont déplacées vers les **[!UICONTROL Fixed Suggestions]** avec un statut **Marqué comme fixe**.
+Après avoir appliqué une mise à jour, les suggestions sont déplacées vers **[!UICONTROL Fixed Suggestions]** avec un statut **Marqué comme fixe**.
 
 ## Vérifier l’enrichissement dans l’administrateur {#verify-in-admin}
 
-**Pour vérifier l’enrichissement du catalogue appliqué :**
+**Pour vérifier l&#39;enrichissement appliqué du catalogue :**
 
-1. Accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Products]** dans l’Administration Commerce.
-1. Utilisez des filtres et le sélecteur de **[!UICONTROL Store View]** selon vos besoins (par exemple, **[!UICONTROL Default Store View]**).
+1. Accédez à **[!UICONTROL Catalog]** > **[!UICONTROL Products]** dans l’administration Commerce.
+1. Utilisez des filtres et le sélecteur **[!UICONTROL Store View]** selon vos besoins (par exemple, **[!UICONTROL Default Store View]**).
 1. Recherchez le SKU.
 1. Ouvrez le produit en mode d’édition.
 
    Le formulaire de produit affiche le nom et/ou la description enrichis du produit.
 
-   ![Nom de produit enrichi](./assets/enriched-product-name.png){zoomable="yes"}
-
 1. Facultatif : sélectionnez **[!UICONTROL Override Catalog Agent provided Product Name]** si vous souhaitez conserver un nom saisi manuellement à la place.
 
-   Les remplacements manuels affectent la manière dont les suggestions restent synchronisées avec le catalogue. Pour plus d’informations, voir [Remplacement manuel dans l’administrateur](#manual-override-in-the-admin).
+   Les remplacements manuels affectent la manière dont les suggestions restent synchronisées avec le catalogue. Pour plus d&#39;informations, voir [Remplacement manuel dans l&#39;administrateur](#manual-override-in-the-admin).
 
-1. Développez la section **[!UICONTROL Content]** et recherchez le champ de description .
+1. Développez la section **[!UICONTROL Content]** et recherchez le champ de description.
 
    La description enrichie s’affiche lorsque vous appliquez des modifications de description.
 
-   ![Enrichir la description du produit](./assets/enrich-product-description.png){zoomable="yes"}
-
 1. Facultatif : sélectionnez **[!UICONTROL Override Catalog Agent provided Description]** si vous souhaitez conserver une description saisie manuellement à la place.
 
-Les remplacements manuels affectent la manière dont les suggestions restent synchronisées avec le catalogue. Pour plus d’informations, voir [Remplacement manuel dans l’administrateur](#manual-override-in-the-admin).
+Les remplacements manuels affectent la manière dont les suggestions restent synchronisées avec le catalogue. Pour plus d&#39;informations, voir [Remplacement manuel dans l&#39;administrateur](#manual-override-in-the-admin).
 
 ## Vérifier l’enrichissement sur le storefront {#verify-storefront}
 
-**Pour vérifier l’enrichissement sur le storefront :**
+**Pour vérifier l&#39;enrichissement sur le storefront :**
 
 1. Recherchez le SKU sur votre storefront.
 1. Ouvrez la page du produit.
@@ -260,14 +254,14 @@ Si un processus externe écrit le nom ou la description d’origine (la valeur q
 
 ### Nouvelle valeur réingérée {#new-value-reingested}
 
-Si le processus externe envoie une nouvelle valeur qui n’est pas une répétition du texte de préenrichissement, Commerce respecte la nouvelle valeur de catalogue. Par exemple, le changement de nom de « Red Shoes » en « Iconic Red Shoes » remplace la valeur enrichie. La suggestion d’enrichissement associée est généralement marquée comme *obsolète* car le catalogue dynamique ne correspond plus au contexte de la suggestion.
+Si le processus externe envoie une nouvelle valeur qui n’est pas une répétition du texte de préenrichissement, Commerce respecte la nouvelle valeur de catalogue. Par exemple, le changement de nom de « Red Shoes » en « Iconic Red Shoes » remplace la valeur enrichie. La suggestion d’enrichissement associée est généralement marquée comme *Obsolète*, car le catalogue dynamique ne correspond plus au contexte de la suggestion.
 
 ### Remplacement manuel dans l’administrateur {#manual-override-in-the-admin}
 
 Si vous modifiez manuellement le nom ou la description du produit dans l’administration [!DNL Adobe Commerce] :
 
 - La valeur Admin est sélectionnée en tant que système d’enregistrement pour cette modification manuelle.
-- La suggestion d’enrichissement est marquée *Obsolète*.
+- La suggestion d’enrichissement est marquée comme *Obsolète*.
 - Le workflow de suggestions revient au statut d’origine de cet élément afin que vous puissiez réinitialiser ou accepter une nouvelle suggestion si l’analyse s’exécute à nouveau.
 
 Ces règles vous aident à savoir si l’enrichissement du catalogue, les flux d’ingestion ou les modifications administratives font autorité lorsque plusieurs canaux touchent le même SKU.
@@ -304,35 +298,35 @@ L’enrichissement du catalogue lit les attributs techniques et les raisons de l
 
 L’enrichissement du catalogue applique ces caractéristiques déduites à la copie du produit :
 
-- **Auparavant** : « Medium Roast Coffee Beans - Arabica, Brésil Minas Gerais, Miel Process, 900-1200m »
-- **Après** : « Les haricots Arabica cultivés à 900-1200m dans le Minas Gerais au Brésil, miel traité et moyennement torréfié, développent une sensation en bouche naturellement douce et crémeuse avec un caractère distinctif de noisette, des tons caramel et une faible acidité. Un café de spécialité cohérent et accessible que l’on peut déguster à jamais. »
+- **Avant** : « Medium Roast Coffee Beans - Arabica, Brazil Minas Gerais, Miel Process, 900-1200m »
+- **Après** : « Les haricots Arabica cultivés à 900-1200 m dans le Minas Gerais au Brésil, traités au miel et grillés à point, développent une sensation en bouche naturellement douce et crémeuse avec un caractère de noisette distinct, des nuances de caramel et une faible acidité. Un café de spécialité cohérent et accessible que l’on peut déguster à jamais. »
 
 Le nom et la description mis à jour sont enregistrés directement dans le catalogue Commerce. De ce fait, le storefront, les flux LLM et les autres canaux qui lisent ces champs reflètent la même copie enrichie.
 
 ### Exemple : configuration de meubles modulaires
 
-Une retailer de meubles vend un canapé modulaire en section où la description du produit répertorie uniquement les codes de configuration et le nom du tissu, par exemple `6 Standard Seats + 6 Standard Sides in Sapphire Navy Corded Velvet`. Ce raccourci est compréhensible pour un client régulier, mais il donne à un assistant d’IA peu de contexte sur le fonctionnement du produit ou sur ce qui le rend durable ou confortable.
+Un retailer de meubles vend un canapé modulaire en section où la description du produit répertorie uniquement les codes de configuration et le nom du tissu, par exemple `6 Standard Seats + 6 Standard Sides in Sapphire Navy Corded Velvet`. Ce raccourci est compréhensible pour un client régulier, mais il donne à un assistant d’IA peu de contexte sur le fonctionnement du produit ou sur ce qui le rend durable ou confortable.
 
 L’enrichissement du catalogue développe les attributs de configuration et de fabric dans une description narrative qui explique ce que fait chaque composant et pourquoi il est important pour un acheteur :
 
-- **Avant** : « 6 sièges standard + 6 côtés standard en velours à cordon de la marine Sapphire »
-- **Après** : « Cette configuration comprend 6 ensembles d’inserts de siège standard et 6 inserts latéraux standard qui fonctionnent de manière interchangeable comme des bras ou des dossiers, formant les blocs de construction modulaires de votre disposition. Chaque siège est doté d&#39;une mousse standard avec trois couches haute densité conçues pour préserver la portance et résister à l&#39;affaissement. La housse de velours à cordon Sapphire Navy est aussi durable que luxueuse, avec des cordons texturés qui créent une brillance subtile et une sensation douce et moelleuse. Les couvertures sont cousues à la main pour un look précis et sur mesure et sont lavables en machine et modifiables, afin que votre section puisse évoluer avec votre espace. »
+- **Avant** : « 6 sièges standard + 6 côtés standard en velours à cordon Sapphire Navy »
+- **Après** : « Cette configuration comprend 6 ensembles d&#39;inserts de siège standard et 6 inserts latéraux standard qui fonctionnent de manière interchangeable comme des bras ou des dossiers, formant les blocs de construction modulaires de votre disposition. Chaque siège est doté d&#39;une mousse standard avec trois couches haute densité conçues pour préserver la portance et résister à l&#39;affaissement. La housse de velours à cordon Sapphire Navy est aussi durable que luxueuse, avec des cordons texturés qui créent une brillance subtile et une sensation douce et moelleuse. Les couvertures sont cousues à la main pour un look précis et sur mesure et sont lavables en machine et modifiables, afin que votre section puisse évoluer avec votre espace. »
 
 Comme la description enrichie est réécrite dans le catalogue Commerce, elle est disponible pour les robots d’IA qui explorent à la page des détails du produit ainsi que pour tout canal ou flux en aval qui consomme les données du catalogue du produit, sans modifier la mise en page ou la conception que les acheteurs voient sur la page.
 
 ## Notes de mise à jour {#release-notes}
 
-Ces notes de mise à jour capturent des ajouts et des correctifs dans l’extension d’enrichissement de catalogue (`magento/module-catalog-enrichment`) :
+Ces notes de mise à jour capturent des ajouts et des correctifs dans l’extension d’enrichissement du catalogue (`magento/module-catalog-enrichment`) :
 
-![Nouveau](../assets/new.svg) Nouvelles fonctionnalités
-![Correction d’un problème](../assets/fix.svg) Correctifs et améliorations
+![Nouvelles](../assets/new.svg) Nouvelles fonctionnalités
+![Correctif](../assets/fix.svg) et améliorations
 ![Problème connu](../assets/bug.svg) Problèmes connus
 
 ### v2.1.2
 
-*2 octobre 2026*
+*22 Octobre 2026*
 
-[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"} Adobe Commerce 2.4.9, 2.4.8, 2.4.7 sous PHP 8.3 à 8.5.
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"} Adobe Commerce 2.4.9, 2.4.8, 2.4.7 sur PHP 8.3 à 8.5.
 
 La version 2.1.2 de fait de l’enrichissement du catalogue une extension autonome. Elle comprend désormais tout ce qui était auparavant fourni par l’extension [!DNL Adobe Brand Visibility] distincte (`magento/llm-optimizer`) : application des suggestions approuvées au catalogue, restauration de celles-ci et protection de vos propres modifications contre le remplacement.
 
@@ -348,7 +342,7 @@ La version 2.1.2 de fait de l’enrichissement du catalogue une extension autono
    composer remove magento/llm-optimizer
    ```
 
-   Si l’extension a été installée en copiant ou en liant symboliquement des `Magento/LlmoCatalog` dans `app/code`, supprimez ce répertoire. Ne désactivez pas uniquement le module : un module désactivé qui se trouve toujours sur le disque peut entraîner l’abandon par `setup:upgrade` du tableau qui stocke les valeurs d’origine des produits enrichis.
+   Si l’extension a été installée en copiant ou en liant symboliquement `Magento/LlmoCatalog` dans `app/code`, supprimez ce répertoire. Ne désactivez pas uniquement le module : un module désactivé qui se trouve toujours sur le disque peut entraîner l&#39;abandon par `setup:upgrade` du tableau qui stocke les valeurs d&#39;origine des produits enrichis.
 
 1. Mettez à jour l’enrichissement du catalogue et appliquez les modifications :
 
@@ -366,31 +360,31 @@ La version 2.1.2 de fait de l’enrichissement du catalogue une extension autono
 
 #### Nouvelles fonctionnalités
 
-![Nouveau](../assets/new.svg) menu **[!UICONTROL AI Product Discovery]** : les pages d’enrichissement du catalogue ont désormais leur propre section dans la barre latérale d’administration. Accédez à **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**. Auparavant, la page était sous **[!UICONTROL Catalog]**.
+![Nouveau](../assets/new.svg) **[!UICONTROL AI Product Discovery]menu** : les pages d’enrichissement du catalogue ont désormais leur propre section dans la barre latérale d’administration. Accédez à **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**. Auparavant, la page se trouvait sous **[!UICONTROL Catalog]**.
 
-![Nouveau](../assets/new.svg) [!BADGE Beta]{type=Informative tooltip="Pas encore disponible pour tous"} **[!UICONTROL Product Details Page Enrichment (Beta)]** : nouvelle page en **[!UICONTROL AI Product Discovery]** pour consulter les suggestions d’enrichissement des pages de détails du produit. L’enrichissement de la page des détails du produit est en version bêta et n’est pas encore disponible en général.
+![Nouveau](../assets/new.svg) [!BADGE Beta]{type=Informative tooltip="Pas encore disponible pour tous"} **[!UICONTROL Product Details Page Enrichment (Beta)]** : une nouvelle page sous **[!UICONTROL AI Product Discovery]** pour examiner les suggestions d’enrichissement pour les pages de détails du produit. L’enrichissement de la page des détails du produit est en version bêta et n’est pas encore disponible en général.
 
-![Nouveau](../assets/new.svg) **Appliquer et restaurer les suggestions approuvées**—Les mises à jour de nom et de description approuvées sont écrites dans le catalogue par cette extension. Commerce enregistre la valeur d’origine de chaque attribut enrichi la première fois qu’il est modifié. Une restauration restaure donc toujours la valeur que vous aviez avant l’enrichissement, même après l’application de plusieurs suggestions au même attribut.
+![Nouveau](../assets/new.svg) **Appliquer et restaurer les suggestions approuvées** : les mises à jour de nom et de description approuvées sont écrites dans le catalogue par cette extension. Commerce enregistre la valeur d’origine de chaque attribut enrichi la première fois qu’il est modifié. Une restauration restaure donc toujours la valeur que vous aviez avant l’enrichissement, même après l’application de plusieurs suggestions au même attribut.
 
-![Nouveau](../assets/new.svg) **Vos modifications sont respectées**—Lorsque vous modifiez un nom ou une description enrichis dans le formulaire de produit Admin, avec **[!UICONTROL Update Attributes]** ou par le biais d&#39;une importation, votre valeur est conservée et la suggestion associée est marquée *Obsolète*. Une modification apportée à l’étendue par défaut affecte uniquement les vues de magasin qui héritent de la valeur.
+![Nouveau](../assets/new.svg) **Vos modifications sont respectées**—Lorsque vous modifiez un nom ou une description enrichis dans le formulaire de produit Admin, avec **[!UICONTROL Update Attributes]**, ou par le biais d&#39;une importation, votre valeur est conservée et la suggestion associée est marquée *Obsolète*. Une modification apportée à l’étendue par défaut affecte uniquement les vues de magasin qui héritent de la valeur.
 
-![Nouveau](../assets/new.svg) **Accès en lecture seule au catalogue pour des suggestions**—[!DNL Commerce Catalog Agent] pouvez lire les données de produit, de catégorie, de jeu d’attributs et de type de produit pour sélectionner des produits à analyser. La lecture renvoie uniquement les attributs marqués **[!UICONTROL Used in Product Listing]**, ainsi que les attributs pouvant être enrichis. Il ne peut pas modifier les données du catalogue.
+![Nouveau](../assets/new.svg) **L’accès en lecture seule au catalogue pour les suggestions**—[!DNL Commerce Catalog Agent] peut lire les données de produit, de catégorie, d’ensemble d’attributs et de type de produit pour sélectionner les produits à analyser. La lecture renvoie uniquement les attributs marqués **[!UICONTROL Used in Product Listing]**, ainsi que les attributs qui peuvent être enrichis. Il ne peut pas modifier les données du catalogue.
 
 #### Correctifs et améliorations
 
-![Problème résolu](../assets/fix.svg) **La nouvelle tentative d&#39;application des rapports a réussi**—Si une demande d&#39;application des rapports est relancée alors qu&#39;elle est déjà terminée, la nouvelle tentative signale désormais les modifications comme appliquées au lieu de signaler qu&#39;aucune modification n&#39;a été apportée. Rien n&#39;est écrit deux fois.
+![Problème résolu](../assets/fix.svg) **La nouvelle tentative d&#39;application des rapports a réussi**—Si une demande d&#39;application des modifications est relancée alors qu&#39;elle est déjà terminée, la nouvelle tentative signale désormais les modifications comme appliquées au lieu de signaler qu&#39;aucune modification n&#39;a été apportée. Rien n&#39;est écrit deux fois.
 
-![Problème résolu](../assets/fix.svg) **Seuls les services approuvés peuvent modifier le catalogue**—Appliquer et restaurer acceptent uniquement les demandes de [!DNL Commerce Catalog Agent]. Auparavant, tout jeton Adobe IMS valide était accepté. Le même contrôle s’applique désormais aux requêtes SOAP.
+![Problème résolu](../assets/fix.svg) **Seuls les services approuvés peuvent modifier le catalogue**—Appliquer et restaurer acceptent uniquement les requêtes provenant de [!DNL Commerce Catalog Agent]. Auparavant, tout jeton Adobe IMS valide était accepté. Le même contrôle s’applique désormais aux requêtes SOAP.
 
-![Problème résolu](../assets/fix.svg) **Erreurs plus claires**—Une panne d’Adobe IMS renvoie désormais `401` au lieu de `500`, de sorte que la requête n’est pas retentée sur le catalogue et qu’un environnement Adobe IMS non reconnu est rejeté au lieu d’être traité comme une étape.
+![Correction d’un problème](../assets/fix.svg) **Erreurs plus claires**—Une panne d’Adobe IMS renvoie désormais `401` au lieu de `500`, de sorte que la requête n’est pas retentée sur le catalogue et qu’un environnement Adobe IMS non reconnu est rejeté au lieu d’être traité comme une étape.
 
-![Problème résolu](../assets/fix.svg) **Environnement Adobe IMS** : l’enrichissement du catalogue se connecte désormais par défaut à l’environnement Adobe IMS de production, y compris sur les instances connectées à un espace de données [!DNL Commerce Services] hors production. Auparavant, ces instances étaient envoyées à l’environnement d’évaluation.
+![Correction d’un problème](../assets/fix.svg) **Environnement Adobe IMS** : l’enrichissement du catalogue se connecte désormais par défaut à l’environnement Adobe IMS de production, y compris sur les instances connectées à un espace de données [!DNL Commerce Services] hors production. Auparavant, ces instances étaient envoyées à l’environnement d’évaluation.
 
-![Correction d’un problème](../assets/fix.svg) **Connexion après le changement de domaine [!DNL Adobe Brand Visibility]** : la page d’enrichissement du catalogue se charge désormais à partir de `abv.adobe.com`, ce qui corrige une boucle de connexion après que le domaine précédent a commencé à rediriger.
+![Problème](../assets/fix.svg) **Connexion après le changement de domaine [!DNL Adobe Brand Visibility]** : la page d’enrichissement du catalogue se charge désormais à partir de `abv.adobe.com`, ce qui corrige une boucle de connexion après que le domaine précédent a commencé à rediriger.
 
 #### Problèmes connus
 
-![Problème connu](../assets/bug.svg) **Rôles avec un accès [!UICONTROL Catalog] complet**—Un rôle d’utilisateur enregistré avant cette version avec tous les **[!UICONTROL Catalog]** accordés conserve l’accès à la ressource **[!UICONTROL Catalog Enrichment Service API]**. Passez en revue ces rôles dans **[!UICONTROL System]** > **[!UICONTROL Permissions]** > **[!UICONTROL User Roles]** et effacez cette ressource là où elle n’est pas nécessaire.
+![Problème connu](../assets/bug.svg) **Rôles avec un accès complet à [!UICONTROL Catalog]** : un rôle d’utilisateur enregistré avant cette version avec tous les **[!UICONTROL Catalog]** accordés conserve l’accès à la ressource **[!UICONTROL Catalog Enrichment Service API]**. Passez en revue ces rôles dans **[!UICONTROL System]** > **[!UICONTROL Permissions]** > **[!UICONTROL User Roles]** et effacez cette ressource lorsqu’elle n’est pas nécessaire.
 
 ### v1.0.2
 
