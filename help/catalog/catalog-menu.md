@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
+source-git-commit: 4bf2ad3e392f1a53859b647f64419736acc8d997
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '222'
 ht-degree: 0%
 ---
 # Menu [!UICONTROL Catalog]
@@ -76,5 +76,3 @@ Pour les magasins où Adobe Commerce B2B est installé et activé, [les catalogu
 [!BADGE PaaS uniquement]{type=Informative url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."}
 
 Utilisez [l’enrichissement du catalogue](catalog-enrichment.md) pour examiner et appliquer les améliorations suggérées par l’IA aux noms de produit et aux descriptions longues afin que votre catalogue soit représenté avec précision dans LLM et la découverte assistée par l’IA.
-
-![Enrichissement Du Catalogue](./assets/agentic-opportunities.png)

@@ -4,13 +4,11 @@ user-guide-description: Informations complètes sur les fonctionnalités de gest
 breadcrumb-title: Gestion des catalogues
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: c67474ee4b72744766421090e30c56c85d687495
+source-git-commit: 58face244f8963cdd5eb8da355f60c34e223b591
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
-
 ---
-
 
 # Guide de gestion des catalogues {#catalog}
 
@@ -89,7 +87,7 @@ ht-degree: 1%
     + [Conception](settings-advanced-design.md)
     + [Paramètres automatiques](product-autosettings.md)
     + [Options de cadeau](product-gift-options.md)
-  + [Enrichissement du catalogue](catalog-enrichment.md)
+    + [Enrichissement du catalogue](catalog-enrichment.md)
 + Attributs de produit {#product-attributes}
   + [Présentation des attributs](product-attributes.md)
   + [Type d’entrée d’attribut](attributes-input-types.md)

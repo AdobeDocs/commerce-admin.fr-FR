@@ -48,9 +48,9 @@ topic_v2:
     internal-label: Administration
 nudge: true
 last-update: 2026-11-20
-source-git-commit: cf5a7bc3eb73bd404deb72fe67842543bf7b0931
+source-git-commit: 2baac8054363a312720e9c30637ed556912d51ff
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '828'
 ht-degree: 0%
 ---
 # &#x200B;<!-- use banner as heading -->![Documentation destinée aux administrateurs](./assets/banner-user-home.png) {#documentation}
@@ -119,6 +119,13 @@ Magento Open Source est la base de code à laquelle Adobe contribue officielleme
        <img alt="Marchandisage et promotions" src="./assets/icon-labels.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../merchandising-promotions/guide-overview.md"> <strong>Marchandisage et promotions</strong></a>
     <div><em>Créez des promotions et des opportunités ciblées pour l’engagement des clients qui transforment les acheteurs en acheteurs. Gérez les relations client en soutenant les activités après achat et en offrant des remises spéciales aux clients récurrents. Découvrez les bonnes pratiques et techniques qui prennent en charge vos initiatives d’optimisation du moteur de recherche.</em></div>
+  </td>
+</tr>
+<tr>
+    <td valign="top">
+       <img alt="Découverte de produits par l’IA" src="./assets/icon-color-wheel.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="../ai-product-discovery/guide-overview.md"> <strong>Découverte de produit par l’IA</strong></a>
+    <div><em>Découvrez comment l’enrichissement du catalogue et l’enrichissement du PDP [!DNL Adobe Commerce] comblent les lacunes dans les données structurées du produit et dans la copie axée sur l’acheteur pour la découverte de produits par IA.</em></div>
   </td>
 </tr>
 <tr>
