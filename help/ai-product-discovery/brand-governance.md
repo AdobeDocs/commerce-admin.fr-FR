@@ -74,7 +74,7 @@ Dans cette section, vous apprendrez à créer une règle de gouvernance de marqu
 
 1. Cliquez sur **[!UICONTROL Save as draft]** pour terminer plus tard, ou sur **[!UICONTROL Publish rule]** pour rendre la règle disponible à la sélection lors de la création d’une règle d’enrichissement de catalogue. Cliquez sur **[!UICONTROL Cancel]** pour quitter sans enregistrer.
 
-1. Vous pouvez désormais appliquer la règle à une tâche d’enrichissement du catalogue [](catalog-enrichment.md).
+1. Vous pouvez désormais appliquer la règle à une tâche d’enrichissement du catalogue [&#128279;](catalog-enrichment.md).
 
 ### Définir le ton de la marque
 
