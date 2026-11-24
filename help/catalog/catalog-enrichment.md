@@ -4,7 +4,7 @@ description: Utilisez la fonctionnalité native d’enrichissement du catalogue 
 role: Admin, User, Leader
 recommendations: noCatalog
 touch: true
-badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
+badgePaas: label="PaaS uniquement" type="Informative" url="https://experienceleague.adobe.com/fr/docs/commerce/user-guides/product-solutions" tooltip="S’applique uniquement aux projets Adobe Commerce on Cloud (infrastructure PaaS gérée par Adobe) et aux projets On-premise."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -51,7 +51,7 @@ L’enrichissement du catalogue est une fonctionnalité native de [!DNL Adobe Co
 
 >[!NOTE]
 >
->L’enrichissement du catalogue s’appuie sur [!DNL Commerce Catalog Agent] et [!DNL Adobe Brand Visibility] en coulisses. Vous utilisez l’enrichissement dans le cadre de votre workflow de catalogue Commerce. Vous ne gérez pas une intégration Adobe Brand Visibility distincte pour appliquer les mises à jour de nom et de description approuvées. Pour une surveillance et une optimisation LLM plus larges en dehors de Commerce, consultez la [[!DNL Adobe Brand Visibility] documentation du produit](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home).
+>L’enrichissement du catalogue s’appuie sur [!DNL Commerce Catalog Agent] et [!DNL Adobe Brand Visibility] en coulisses. Vous utilisez l’enrichissement dans le cadre de votre workflow de catalogue Commerce. Vous ne gérez pas une intégration Adobe Brand Visibility distincte pour appliquer les mises à jour de nom et de description approuvées. Pour une surveillance et une optimisation LLM plus larges en dehors de Commerce, consultez la [[!DNL Adobe Brand Visibility] documentation du produit](https://experienceleague.adobe.com/fr/docs/brand-visibility/using/home).
 
 ## Fonctionnement {#how-it-works}
 
@@ -83,7 +83,7 @@ Les conditions préalables suivantes s’appliquent lorsque vous avez accès à 
 - Votre storefront peut être exploré par des robots orientés LLM et agentiques où une couverture d’explore est requise pour les suggestions tenant compte du catalogue.
 - Les services Commerce requis et la connectivité du catalogue sont activés et sains. Voir [Activer l’enrichissement du catalogue](#enable-catalog-enrichment) pour en savoir plus.
 - L’utilisateur administrateur Commerce qui accède à l’enrichissement du catalogue se connecte via Adobe IMS. Voir les [exigences d&#39;organisation et de connexion IMS](#ims-sign-in-requirements).
-- Vous avez accès à [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- Vous avez accès à [Adobe Admin Console](https://helpx.adobe.com/fr/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - Votre entreprise a signé l’avenant GenAI, ou s’est explicitement désabonnée, pour les services d’IA sous-jacents.
 
 >[!NOTE]
@@ -118,7 +118,7 @@ Contactez votre administrateur Commerce ou votre partenaire d’implémentation 
 
    `setup:upgrade` active l’extension, crée sa table de base de données et accorde les autorisations d’administrateur. Videz le cache par la suite pour que les autorisations prennent effet. En mode production, exécutez également `bin/magento setup:di:compile` et `bin/magento setup:static-content:deploy`.
 
-1. Si vous n&#39;avez pas encore installé les services de catalogue, [faites-le](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
+1. Si vous n&#39;avez pas encore installé les services de catalogue, [faites-le](https://experienceleague.adobe.com/fr/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
 
    **[!UICONTROL Catalog enrichment]** est maintenant disponible dans votre instance Commerce.
 

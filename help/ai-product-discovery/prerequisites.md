@@ -15,8 +15,8 @@ Avant d’utiliser l’enrichissement du catalogue ou l’enrichissement PDP, co
 
 | Exigence | Application | Détails |
 | --- | --- | --- |
-| Optimiser dans Edge | enrichissement PDP | Obligatoire. Optimiser sur Edge diffuse les données de produit enrichies aux agents d’IA. Voir le guide [Optimiser sur Edge](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn). |
-| Transfert de journal | Les deux workflows | Facultatif. Active les recommandations d’enrichissement en fonction du trafic d’agent. Sans cela, vous pouvez toujours sélectionner manuellement des produits ou des pages de produits. Voir le [Guide de transfert du journal](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview). |
+| Optimiser dans Edge | enrichissement PDP | Obligatoire. Optimiser sur Edge diffuse les données de produit enrichies aux agents d’IA. Voir le guide [Optimiser sur Edge](https://experienceleague.adobe.com/fr/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn). |
+| Transfert de journal | Les deux workflows | Facultatif. Active les recommandations d’enrichissement en fonction du trafic d’agent. Sans cela, vous pouvez toujours sélectionner manuellement des produits ou des pages de produits. Voir le [Guide de transfert du journal](https://experienceleague.adobe.com/fr/docs/brand-visibility/using/log-forwarding/log-forwarding-overview). |
 | Storefront pouvant être analysé | Enrichissement du catalogue | Obligatoire pour les recommandations basées sur les explores. Les robots orientés LLM et les robots d’agence doivent pouvoir accéder à vos pages de produits. |
 | Accès à [!DNL Adobe Admin Console] | Enrichissement du catalogue | Obligatoire. Lors de la configuration, [!DNL Adobe Commerce] vérifie si votre organisation a signé l’avenant GenAI ou s’est désabonnée des services d’IA sous-jacents. |
 
@@ -36,7 +36,7 @@ Pour [!DNL Adobe Commerce] sur l’infrastructure cloud ou sur site, vous instal
 **Avant de commencer :**
 
 - [!DNL Adobe Commerce] 2.4.7 ou version ultérieure sur PHP 8.3 ou version ultérieure. Voir les [notes de mise à jour](release-notes.md).
-- Une organisation [!DNL Adobe IMS]. Si votre organisation n’en a pas, consultez la [présentation de l’intégration d’Adobe IMS](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview). L’enrichissement du catalogue utilise le jeton d’accès IMS de l’utilisateur administrateur connecté. Le fait de se connecter uniquement avec un nom d’utilisateur et un mot de passe Commerce ne fournit pas ce jeton.
+- Une organisation [!DNL Adobe IMS]. Si votre organisation n’en a pas, consultez la [présentation de l’intégration d’Adobe IMS](https://experienceleague.adobe.com/fr/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview). L’enrichissement du catalogue utilise le jeton d’accès IMS de l’utilisateur administrateur connecté. Le fait de se connecter uniquement avec un nom d’utilisateur et un mot de passe Commerce ne fournit pas ce jeton.
 - Accès en ligne de commande au serveur d’applications Commerce et autorisation de télécharger des packages depuis `repo.magento.com`.
 
 **Installer et vérifier :**
@@ -50,7 +50,7 @@ Pour [!DNL Adobe Commerce] sur l’infrastructure cloud ou sur site, vous instal
 
    [!DNL Catalog Service] est installé automatiquement avec [!DNL Live Search] et [!DNL Product Recommendations]. Par conséquent, ignorez cette étape si l’un des services est activé.
 
-1. S’il n’est pas déjà configuré pour un autre service Commerce, configurez le [connecteur de services Commerce](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas) avec des clés d’API et un espace de données SaaS.
+1. S’il n’est pas déjà configuré pour un autre service Commerce, configurez le [connecteur de services Commerce](https://experienceleague.adobe.com/fr/docs/commerce/user-guides/integration-services/saas) avec des clés d’API et un espace de données SaaS.
 
 1. Ajoutez l’extension d’enrichissement partagée :
 
