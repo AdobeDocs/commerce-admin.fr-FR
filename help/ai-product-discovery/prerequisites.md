@@ -2,9 +2,9 @@
 title: Conditions préalables à la découverte de produits par l’IA
 description: Examinez les exigences relatives à l’enrichissement du catalogue et à l’enrichissement PDP, puis installez l’extension d’enrichissement partagé sur Adobe Commerce sur l’infrastructure cloud ou sur site.
 role: Admin, Developer
-source-git-commit: 9e234eb68fe34171d9e5cf95e8cdab5c31825492
+source-git-commit: 591fca4f18862d289fb233997e8848cb4692d1e7
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '506'
 ht-degree: 0%
 ---
 # Conditions préalables
@@ -18,11 +18,10 @@ Avant d’utiliser l’enrichissement du catalogue ou l’enrichissement PDP, co
 | Optimiser dans Edge | enrichissement PDP | Obligatoire. Optimiser sur Edge diffuse les données de produit enrichies aux agents d’IA. Voir le guide [Optimiser sur Edge](https://experienceleague.adobe.com/fr/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn). |
 | Transfert de journal | Les deux workflows | Facultatif. Active les recommandations d’enrichissement en fonction du trafic d’agent. Sans cela, vous pouvez toujours sélectionner manuellement des produits ou des pages de produits. Voir le [Guide de transfert du journal](https://experienceleague.adobe.com/fr/docs/brand-visibility/using/log-forwarding/log-forwarding-overview). |
 | Storefront pouvant être analysé | Enrichissement du catalogue | Obligatoire pour les recommandations basées sur les explores. Les robots orientés LLM et les robots d’agence doivent pouvoir accéder à vos pages de produits. |
-| Accès à [!DNL Adobe Admin Console] | Enrichissement du catalogue | Obligatoire. Lors de la configuration, [!DNL Adobe Commerce] vérifie si votre organisation a signé l’avenant GenAI ou s’est désabonnée des services d’IA sous-jacents. |
+| Accès à [!DNL Adobe Admin Console] | Les deux workflows | Obligatoire. Pendant la configuration, [!DNL Adobe Commerce] vérifie le statut de l’utilisateur GenAI de votre organisation. Vous avez accès à moins que votre organisation n’ait choisi de se désinscrire du client GenAI. |
 
 <!--
 TBD (SME): The Optimize at Edge guide is a Brand Visibility reference, not a Commerce setup guide. Add Commerce-specific Optimize at Edge setup instructions (this might be automated by GA).
-TBD (SME): Confirm whether the Admin Console and GenAI rider check also applies to PDP enrichment.
 -->
 
 ## Configuration de la plateforme Commerce {#set-up}
