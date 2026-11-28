@@ -18,7 +18,7 @@ ht-degree: 10%
 - [[!DNL Inventory Management]](https://experienceleague.adobe.com/fr/docs/commerce-admin/inventory/guide-overview)
 - [Services de marchandisage avec CCDM](https://experienceleague.adobe.com/en/docs/commerce-admin/optimizer/overview)
 - [Marchandisage et promotions](https://experienceleague.adobe.com/fr/docs/commerce-admin/marketing/guide-overview)
-- [Découverte de produits par l’IA](https://experienceleague.adobe.com/en/docs/commerce-admin/ai-product-discovery/guide-overview)
+- [Découverte de produits par l’IA](https://experienceleague.adobe.com/fr/docs/commerce-admin/ai-product-discovery/guide-overview)
 - [Contenu et conception](https://experienceleague.adobe.com/fr/docs/commerce-admin/content-design/guide-overview)
 - [[!DNL Page Builder]](https://experienceleague.adobe.com/fr/docs/commerce-admin/page-builder/guide-overview)
 - [Gestion des clients](https://experienceleague.adobe.com/fr/docs/commerce-admin/customers/guide-overview)
